@@ -1,0 +1,693 @@
+﻿<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Frontier News JP | 公式サイト</title>
+    <meta name="description" content="AI Frontier News JPは、日本で最も速く網羅的なAIニュースの発信拠点を目指すコミュニティです。">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="AI Frontier News JP | 公式サイト">
+    <meta property="og:description" content="AI Frontier News JPは、日本で最も速く網羅的なAIニュースの発信拠点を目指すコミュニティです。">
+    <meta property="og:image" content="AFNJP.jpg">
+    <meta property="og:image:alt" content="AI Frontier News JP コミュニティアイコン">
+    <meta property="og:locale" content="ja_JP">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@AI_FrontierNews">
+    <meta name="twitter:title" content="AI Frontier News JP | 公式サイト">
+    <meta name="twitter:description" content="AI Frontier News JPは、日本で最も速く網羅的なAIニュースの発信拠点を目指すコミュニティです。">
+    <meta name="twitter:image" content="AFNJP.jpg">
+    <meta name="twitter:image:alt" content="AI Frontier News JP コミュニティアイコン">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&family=Noto+Serif+JP:wght@500;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --ink: #0e1a2b;
+            --charcoal: #15263a;
+            --vermillion: #d64545;
+            --sakura: #f7e7d3;
+            --gold: #d4a056;
+            --fog: rgba(12, 19, 30, 0.65);
+            --serif: "Noto Serif JP", serif;
+            --sans: "Noto Sans JP", sans-serif;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: var(--sans);
+            background: var(--ink);
+            color: #f5f7fb;
+            line-height: 1.7;
+            position: relative;
+            overflow-x: hidden;
+        }
+
+        body::before {
+            content: "";
+            position: fixed;
+            inset: 0;
+            background: radial-gradient(circle at 20% 20%, rgba(212, 160, 86, 0.09), transparent 55%),
+                        radial-gradient(circle at 80% 10%, rgba(214, 69, 69, 0.08), transparent 60%),
+                        radial-gradient(circle at 50% 80%, rgba(90, 121, 186, 0.08), transparent 60%),
+                        linear-gradient(115deg, rgba(10, 18, 29, 0.85), rgba(14, 26, 43, 0.95));
+            background-blend-mode: screen;
+            z-index: -2;
+        }
+
+        body::after {
+            content: "";
+            position: fixed;
+            inset: 0;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='240' viewBox='0 0 240 240'%3E%3Cpath d='M120 0h120v120H120zM0 120h120v120H0z' fill='rgba(255,255,255,0.03)'/%3E%3C/svg%3E");
+            opacity: 0.4;
+            z-index: -1;
+            mix-blend-mode: screen;
+        }
+
+        header {
+            position: relative;
+            padding: 6rem 1.5rem 5rem;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1160px;
+            margin: 0 auto 3rem;
+        }
+
+        .logo-wrap {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+        }
+
+        .logo-wrap img {
+            width: 68px;
+            height: 68px;
+            border-radius: 14px;
+            object-fit: cover;
+            border: 2px solid rgba(244, 244, 244, 0.4);
+            box-shadow: 0 18px 32px rgba(0, 0, 0, 0.35);
+        }
+
+        .brand {
+            display: flex;
+            flex-direction: column;
+            gap: 0.2rem;
+        }
+
+        .brand span:first-child {
+            font-family: var(--serif);
+            font-size: 1.15rem;
+            letter-spacing: 0.1em;
+        }
+
+        .brand span:last-child {
+            font-size: 0.85rem;
+            color: rgba(255, 255, 255, 0.65);
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 1.5rem;
+        }
+
+        .nav-links a {
+            color: rgba(255, 255, 255, 0.78);
+            text-decoration: none;
+            font-size: 0.95rem;
+            letter-spacing: 0.05em;
+            transition: color 0.3s ease;
+        }
+
+        .nav-links a:hover {
+            color: #fff;
+        }
+
+        .hero {
+            max-width: 1160px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 3rem;
+            align-items: center;
+        }
+
+        .hero-copy {
+            position: relative;
+        }
+
+        .hero-copy::before {
+            content: "前へ";
+            position: absolute;
+            top: -2.5rem;
+            left: -1rem;
+            font-family: var(--serif);
+            font-size: 0.9rem;
+            letter-spacing: 0.7em;
+            color: rgba(255, 255, 255, 0.18);
+        }
+
+        .hero h1 {
+            font-family: var(--serif);
+            font-size: clamp(2.4rem, 3.2vw + 1.4rem, 3.8rem);
+            line-height: 1.25;
+            margin-bottom: 1.2rem;
+        }
+
+        .hero h1 strong {
+            color: var(--gold);
+            font-weight: 700;
+        }
+
+        .hero p {
+            color: rgba(235, 238, 245, 0.85);
+            font-size: 1.05rem;
+            max-width: 32rem;
+            margin-bottom: 1.8rem;
+        }
+
+        .hero-actions {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .btn {
+            padding: 0.85rem 1.8rem;
+            border-radius: 999px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 0.95rem;
+            letter-spacing: 0.08em;
+            transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, rgba(214, 69, 69, 0.95), rgba(212, 160, 86, 0.9));
+            color: #fff;
+            box-shadow: 0 16px 28px rgba(214, 69, 69, 0.3);
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 18px 32px rgba(214, 69, 69, 0.35);
+        }
+
+        .btn-secondary {
+            background: rgba(24, 40, 59, 0.7);
+            color: rgba(255, 255, 255, 0.85);
+            border: 1px solid rgba(212, 160, 86, 0.4);
+        }
+
+        .btn-secondary:hover {
+            transform: translateY(-3px);
+            background: rgba(24, 40, 59, 0.85);
+        }
+
+        .hero-visual {
+            position: relative;
+            display: grid;
+            place-items: center;
+        }
+
+        .hero-visual::before {
+            content: "";
+            position: absolute;
+            inset: 10%;
+            border-radius: 40px;
+            background: linear-gradient(135deg, rgba(212, 160, 86, 0.35), rgba(21, 38, 58, 0.6));
+            filter: blur(0px);
+            z-index: 0;
+        }
+
+        .hero-visual img {
+            position: relative;
+            width: min(320px, 70%);
+            border-radius: 28px;
+            border: 3px solid rgba(244, 244, 244, 0.35);
+            box-shadow: 0 25px 46px rgba(0, 0, 0, 0.4);
+            z-index: 1;
+        }
+
+        main {
+            margin-top: 3rem;
+        }
+
+        section {
+            position: relative;
+            padding: 4.5rem 1.5rem;
+        }
+
+        section::before {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(135deg, rgba(10, 17, 26, 0.65), rgba(14, 26, 43, 0.35));
+            border-radius: 32px;
+            opacity: 0.95;
+            z-index: -1;
+        }
+
+        .section-inner {
+            max-width: 1160px;
+            margin: 0 auto;
+            display: grid;
+            gap: 2rem;
+        }
+
+        h2.section-title {
+            font-family: var(--serif);
+            font-size: clamp(1.9rem, 2vw + 1.2rem, 2.6rem);
+            letter-spacing: 0.12em;
+            color: var(--sakura);
+            margin-bottom: 1rem;
+        }
+
+        h3 {
+            font-family: var(--serif);
+            font-size: 1.35rem;
+            letter-spacing: 0.06em;
+            color: rgba(255, 255, 255, 0.92);
+        }
+
+        .two-column {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2.5rem;
+        }
+
+        .highlight {
+            background: rgba(13, 24, 37, 0.7);
+            padding: 2.2rem;
+            border-radius: 24px;
+            border: 1px solid rgba(212, 160, 86, 0.25);
+            box-shadow: 0 20px 35px rgba(7, 12, 20, 0.35);
+        }
+
+        .highlight p {
+            color: rgba(235, 238, 245, 0.85);
+            margin-top: 1rem;
+        }
+
+        .badge-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 1.6rem;
+        }
+
+        .badge {
+            border-radius: 22px;
+            padding: 1.6rem;
+            background: rgba(23, 38, 57, 0.7);
+            border: 1px solid rgba(122, 148, 183, 0.25);
+            box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.08);
+        }
+
+        .badge strong {
+            font-family: var(--serif);
+            font-size: 1.15rem;
+            color: var(--sakura);
+        }
+
+        .badge span.emoji {
+            display: inline-block;
+            font-size: 1.4rem;
+            margin-bottom: 0.6rem;
+        }
+
+        .grid-three {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 1.8rem;
+        }
+
+        .asset-card {
+            background: rgba(15, 27, 42, 0.75);
+            border-radius: 20px;
+            padding: 1.7rem;
+            border: 1px solid rgba(212, 160, 86, 0.18);
+        }
+
+        .asset-card h4 {
+            font-size: 1.05rem;
+            margin-bottom: 0.8rem;
+            font-weight: 600;
+            color: rgba(255, 255, 255, 0.9);
+        }
+
+        .asset-card ul {
+            list-style: none;
+            display: grid;
+            gap: 0.6rem;
+            color: rgba(220, 227, 238, 0.82);
+            font-size: 0.93rem;
+        }
+
+        .asset-card li::before {
+            content: "◦";
+            margin-right: 0.4rem;
+            color: var(--vermillion);
+        }
+
+        .timeline {
+            position: relative;
+            padding-left: 1.6rem;
+            border-left: 2px solid rgba(212, 160, 86, 0.3);
+            display: grid;
+            gap: 1.6rem;
+        }
+
+        .timeline-step {
+            position: relative;
+            padding-left: 1.5rem;
+        }
+
+        .timeline-step::before {
+            content: "";
+            position: absolute;
+            left: -2.5rem;
+            top: 0.4rem;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: linear-gradient(135deg, rgba(214, 69, 69, 0.9), rgba(212, 160, 86, 0.9));
+            box-shadow: 0 0 0 6px rgba(214, 69, 69, 0.15);
+        }
+
+        .timeline-step h4 {
+            font-family: var(--serif);
+            color: var(--sakura);
+            margin-bottom: 0.4rem;
+            font-size: 1.1rem;
+        }
+
+        .timeline-step p {
+            color: rgba(220, 227, 238, 0.78);
+            font-size: 0.95rem;
+        }
+
+        .callout {
+            text-align: center;
+            background: linear-gradient(135deg, rgba(14, 26, 43, 0.85), rgba(18, 32, 50, 0.85));
+            border: 1px solid rgba(212, 160, 86, 0.25);
+            border-radius: 26px;
+            padding: 3.4rem 2rem;
+            box-shadow: 0 22px 40px rgba(0, 0, 0, 0.35);
+        }
+
+        .callout h3 {
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+        }
+
+        .callout p {
+            color: rgba(235, 238, 245, 0.85);
+            margin-bottom: 2rem;
+        }
+
+        footer {
+            padding: 3rem 1.5rem 4rem;
+            text-align: center;
+            color: rgba(200, 210, 223, 0.68);
+            font-size: 0.9rem;
+        }
+
+        footer a {
+            color: rgba(239, 197, 137, 0.85);
+            text-decoration: none;
+            margin: 0 0.6rem;
+        }
+
+        .divider {
+            position: relative;
+            height: 80px;
+            margin-top: -2.5rem;
+            overflow: hidden;
+        }
+
+        .divider svg {
+            width: 110%;
+            height: 100%;
+        }
+
+        @media (max-width: 768px) {
+            nav {
+                flex-direction: column;
+                gap: 1.5rem;
+            }
+
+            .nav-links {
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+
+            .hero-copy::before {
+                display: none;
+            }
+
+            section::before {
+                border-radius: 24px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo-wrap">
+                <img src="AFNJP.jpg" alt="AI Frontier News JP コミュニティアイコン">
+                <div class="brand">
+                    <span>AI Frontier News JP</span>
+                    <span>日本最速・最深のAIインテリジェンスハブ</span>
+                </div>
+            </div>
+            <div class="nav-links">
+                <a href="#vision">概要</a>
+                <a href="#strengths">強み</a>
+                <a href="#roles">運営体制</a>
+                <a href="#assets">主要アセット</a>
+                <a href="#timeline">歩み</a>
+                <a href="#contact">参加</a>
+            </div>
+        </nav>
+        <div class="hero">
+            <div class="hero-copy">
+                <h1><strong>AI Frontier News JP</strong> — デジタル禅が導く、未来の情報源。</h1>
+                <p>世界中のAIニュースを最速で収集し、価値ある知見だけを手渡す。情報の混沌を整え、議論と共創が生まれる拠点づくりを進化させています。</p>
+                <div class="hero-actions">
+                    <a class="btn btn-primary" href="https://discord.gg/uEUF4cZ25k" target="_blank" rel="noreferrer">Discordに参加する</a>
+                    <a class="btn btn-secondary" href="https://twitter.com/AI_FrontierNews" target="_blank" rel="noreferrer">公式Xをチェック</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <img src="AFNJP.jpg" alt="AI Frontier News JP コミュニティバッジ">
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="vision">
+            <div class="section-inner two-column">
+                <div>
+                    <h2 class="section-title">コミュニティの核</h2>
+                    <div class="highlight">
+                        <h3>最速で、網羅的に。安心できるAIニュースの港。</h3>
+                        <p>AI Frontier News JPは、日本で最も速く網羅的なAIニュースの発信拠点を目指しています。情報をただ流すのではなく、本当に価値のあるニュースを厳選し、信頼できる整理と共に届けます。安心して情報を受け取り、仲間と議論できる「ハブ」を築くことが私たちの使命です。</p>
+                        <p>Discordでは毎日40名以上のメンバーが最新情報を交換し、知見を磨き合っています。2025年10月現在も進化を止めず、次のフロンティアを切り拓いています。</p>
+                    </div>
+                </div>
+                <div>
+                    <h2 class="section-title">基本情報</h2>
+                    <div class="badge-grid">
+                        <div class="badge">
+                            <span class="emoji">💠</span>
+                            <strong>主要プラットフォーム</strong>
+                            <p>Discordサーバーを中心に運営。リアルタイムでAIニュースが飛び交う活発な空間です。</p>
+                        </div>
+                        <div class="badge">
+                            <span class="emoji">⚡</span>
+                            <strong>外部発信</strong>
+                            <p>公式X（@AI_FrontierNews）と公式サイトから選りすぐりの情報を発信しています。</p>
+                        </div>
+                        <div class="badge">
+                            <span class="emoji">🌐</span>
+                            <strong>メンバー</strong>
+                            <p>40名以上の有志が参加し、速報から深掘りまで幅広く情報を共有。</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="divider" aria-hidden="true">
+            <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M0,0 V50 Q300,120 600,50 T1200,50 V0 Z" fill="rgba(14, 26, 43, 0.8)"></path>
+            </svg>
+        </div>
+
+        <section id="strengths">
+            <div class="section-inner">
+                <h2 class="section-title">3つの主要な強み</h2>
+                <div class="grid-three">
+                    <div class="highlight">
+                        <h3>🚀 圧倒的な速報性と網羅性</h3>
+                        <p>世界中の公式発表や論文に加え、リーク情報・ライブ配信速報までを追跡。世界の変化をリアルタイムで掴み、即座に共有します。</p>
+                    </div>
+                    <div class="highlight">
+                        <h3>📚 体系的な情報整理</h3>
+                        <p>OpenAIやGoogleなどの企業別、ツール別、トピック別にストック。欲しい情報へ最短距離でアクセスできる設計です。</p>
+                    </div>
+                    <div class="highlight">
+                        <h3>💬 活発なコミュニティ</h3>
+                        <p>#一般チャンネルやコメント欄で議論が継続。ニュースの一方的な消費ではなく、知見を持ち寄り磨く文化が根づいています。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="divider" aria-hidden="true">
+            <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M0,0 V50 Q400,130 800,45 T1200,55 V0 Z" fill="rgba(10, 18, 29, 0.8)"></path>
+            </svg>
+        </div>
+
+        <section id="roles">
+            <div class="section-inner">
+                <h2 class="section-title">運営体制と称号</h2>
+                <div class="grid-three">
+                    <div class="badge">
+                        <span class="emoji">🔴</span>
+                        <strong>アーキビスト (Archivist)</strong>
+                        <p>サーバーの記録係。重要情報のアーカイブや、ニュース記事の蓄積を通じて知の土台を支えます。</p>
+                    </div>
+                    <div class="badge">
+                        <span class="emoji">🟡</span>
+                        <strong>アーキテクト (Architect)</strong>
+                        <p>コミュニティの設計士。チャンネル構成やBot導入、イベント企画など仕組みを刷新します。</p>
+                    </div>
+                    <div class="badge">
+                        <span class="emoji">🔵</span>
+                        <strong>アンバサダー (Ambassador)</strong>
+                        <p>外部との橋渡し役。公式X運用や広報を担い、コミュニティの価値を広く届けます。</p>
+                    </div>
+                </div>
+                <div class="highlight">
+                    <h3>プロ意識とセキュリティを守る仕組み</h3>
+                    <p>運営専用の#情報管理チャンネルで「秘密保持ガイドライン」を共有し、チームの信頼と安全性を高めています。称号はメンバーへの敬意と貢献の証として機能し、モチベーションを喚起します。</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="divider" aria-hidden="true">
+            <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M0,0 V60 Q250,125 600,40 T1200,60 V0 Z" fill="rgba(14, 26, 43, 0.8)"></path>
+            </svg>
+        </div>
+
+        <section id="assets">
+            <div class="section-inner">
+                <h2 class="section-title">これまでに築いた主なアセット</h2>
+                <div class="grid-three">
+                    <div class="asset-card">
+                        <h4>ドキュメント & ガイドライン</h4>
+                        <ul>
+                            <li>#はじめに（一般・運営向け）</li>
+                            <li>#免責事項</li>
+                            <li>秘密保持ガイドライン</li>
+                            <li>新体制アナウンスと専門チーム向けキックオフ</li>
+                        </ul>
+                    </div>
+                    <div class="asset-card">
+                        <h4>広報アセット</h4>
+                        <ul>
+                            <li>公式Xアカウント（@AI_FrontierNews）</li>
+                            <li>最初の投稿とプロフィール設計</li>
+                            <li>外部告知用サーバー紹介文（3パターン）</li>
+                            <li>公式ホームページ（本サイト）</li>
+                        </ul>
+                    </div>
+                    <div class="asset-card">
+                        <h4>運営効率化ツール</h4>
+                        <ul>
+                            <li>Discord監査ログ動画からニュースを自動生成するGeminiプロンプト</li>
+                            <li>日次更新を高速化するテンプレート群</li>
+                            <li>運営ノウハウの蓄積と共有体制</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="divider" aria-hidden="true">
+            <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M0,0 V45 Q350,105 700,48 T1200,45 V0 Z" fill="rgba(10, 18, 29, 0.82)"></path>
+            </svg>
+        </div>
+
+        <section id="timeline">
+            <div class="section-inner two-column">
+                <div>
+                    <h2 class="section-title">コミュニティの歩み</h2>
+                    <p>短期間で多角的に進化し続けるAI Frontier News JP。土台の整備から外部発信、運用改善まで、フェーズごとに確かな成果を積み重ねています。</p>
+                </div>
+                <div class="timeline">
+                    <div class="timeline-step">
+                        <h4>基盤構築期</h4>
+                        <p>サーバールールと多数の専門チャンネルを整備し、情報拠点としての骨格を固めました。</p>
+                    </div>
+                    <div class="timeline-step">
+                        <h4>チームビルディング期</h4>
+                        <p>貢献メンバーに称号を授与し、ロールベースのチーム体制を構築。運営の結束が高まりました。</p>
+                    </div>
+                    <div class="timeline-step">
+                        <h4>外部展開期</h4>
+                        <p>公式Xと公式サイトを立ち上げ、外部に向けた情報発信をスタート。</p>
+                    </div>
+                    <div class="timeline-step">
+                        <h4>運用・改善期</h4>
+                        <p>日々のニュース投稿を継続しながら、セキュリティ対応やGeminiプロンプト開発で品質と効率を向上。</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="divider" aria-hidden="true">
+            <svg viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M0,0 V55 Q320,110 640,50 T1200,45 V0 Z" fill="rgba(14, 26, 43, 0.82)"></path>
+            </svg>
+        </div>
+
+        <section id="contact">
+            <div class="section-inner">
+                <div class="callout">
+                    <h3>ともに未来を描く仲間を募集しています</h3>
+                    <p>AI Frontier News JPでは、新鮮な情報と深い洞察を共有し、議論を楽しむ仲間を歓迎しています。最新ニュースをキャッチアップしたい方も、専門知識を活かしたい方も、まずはDiscordへ。</p>
+                    <div class="hero-actions" style="justify-content: center;">
+                        <a class="btn btn-primary" href="https://discord.gg/uEUF4cZ25k" target="_blank" rel="noreferrer">今すぐ参加する</a>
+                        <a class="btn btn-secondary" href="https://twitter.com/AI_FrontierNews" target="_blank" rel="noreferrer">XでDMする</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div>&copy; 2025 AI Frontier News JP. All rights reserved.</div>
+        <div>
+            <a href="https://discord.gg/uEUF4cZ25k" target="_blank" rel="noreferrer">Discord</a>|
+            <a href="https://twitter.com/AI_FrontierNews" target="_blank" rel="noreferrer">X (Twitter)</a>
+        </div>
+    </footer>
+</body>
+</html>
+
+
+
