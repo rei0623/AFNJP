@@ -50,7 +50,7 @@
         }
 
         * { margin: 0; padding: 0; box-sizing: border-box; }
-        html { scroll-behavior: smooth; scroll-padding-top: 70px; }
+        html { scroll-behavior: smooth; scroll-padding-top: 70px; overflow-x: hidden; }
 
         body {
             font-family: var(--font-tech);
@@ -373,7 +373,8 @@
             position: relative;
         }
         .hero-inner {
-            width: min(90vw, 550px);
+            width: 100%;
+            max-width: 550px;
             text-align: center;
             perspective: 1000px;
         }
@@ -1061,6 +1062,9 @@
         @media (max-width: 768px) {
             .mobile-cta-bar { display: block; }
             footer { padding-bottom: 6rem; }
+            /* Mobile performance optimization: Disable heavy noise overlay and animated circuit lines */
+            .cyber-noise { display: none; }
+            .decor-circuit { display: none; }
         }
 
         /* ── Responsive Easing ── */
@@ -1073,7 +1077,7 @@
             .stats-row { gap: 0.5rem; }
             .cta-card { padding: 3rem 1.5rem; }
             .nav-links .nav-link { display: none; }
-            .hero-inner { width: 95vw; }
+            .hero-inner { width: 100%; }
             #heroCard .tech-panel { padding: 3rem 1.5rem 2.5rem; }
             .explorer-body { padding-left: 2rem; }
         }
@@ -1514,7 +1518,8 @@
             heroCard.addEventListener('mouseleave', resetHeroTilt);
         }
 
-        // ── 4. Mobile Gyroscope tilt ──
+        // ── 4. Mobile Gyroscope tilt (Disabled for performance and layout stability) ──
+        /* 
         if (isTouchDevice && window.DeviceOrientationEvent) {
             const handleOrientation = (e) => {
                 if (e.gamma === null) return;
@@ -1538,6 +1543,7 @@
             };
             document.addEventListener('touchstart', startGyro, { once: true });
         }
+        */
 
         // ── 5. Slick Eased Counter Count-Up ──
         function countUp(el, target, duration = 2000) {
