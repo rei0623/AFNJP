@@ -24,376 +24,614 @@
     <meta name="twitter:image:alt" content="AI Frontier News JP コミュニティアイコン">
     <link rel="canonical" href="https://rei0623.github.io/AFNJP/">
     <link rel="icon" href="AFNJP.jpg" type="image/jpeg">
+    
+    <!-- Premium Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@300;400;500;700&family=Shippori+Mincho:wght@500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;800;900&family=Space+Grotesk:wght@400;500;600;700&family=Zen+Kaku+Gothic+New:wght@300;400;500;700&family=Shippori+Mincho:wght@500;700&display=swap" rel="stylesheet">
+    
     <style>
         :root {
-            --bg-deep: #030508;
-            --bg-gradient: radial-gradient(circle at 50% -20%, #1a233a, #030508 60%);
-            --accent-primary: #46f3c1;
-            --accent-secondary: #6b84ff;
-            --accent-tertiary: #f4b36b;
-            --glass-surface: rgba(255, 255, 255, 0.03);
-            --glass-border: rgba(255, 255, 255, 0.08);
-            --text-main: #f0f4f8;
-            --text-muted: rgba(240, 244, 248, 0.6);
+            --bg-deep: #020204;
+            --bg-panel: rgba(8, 8, 14, 0.75);
+            --accent-cyan: #00f0ff;
+            --accent-purple: #7d00ff;
+            --accent-green: #39ff14;
+            --accent-orange: #ff9d00;
+            --glass-border: rgba(255, 255, 255, 0.05);
+            --glass-border-glow: rgba(0, 240, 255, 0.15);
+            --text-main: #ffffff;
+            --text-muted: #8e939e;
+            --text-dim: #54575e;
+            --font-tech: "Space Grotesk", "Zen Kaku Gothic New", sans-serif;
+            --font-logo: "Orbitron", sans-serif;
             --font-serif: "Shippori Mincho", serif;
-            --font-sans: "Zen Kaku Gothic New", sans-serif;
             --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
         }
 
         * { margin: 0; padding: 0; box-sizing: border-box; }
-        html { scroll-behavior: smooth; scroll-padding-top: 64px; }
+        html { scroll-behavior: smooth; scroll-padding-top: 70px; }
 
         body {
-            font-family: var(--font-sans);
+            font-family: var(--font-tech);
             background-color: var(--bg-deep);
-            background-image: var(--bg-gradient);
             color: var(--text-main);
             min-height: 100vh;
             overflow-x: hidden;
+            letter-spacing: 0.02em;
         }
 
-        /* ── Fixed Background ── */
-        .ambient-light {
-            position: fixed;
-            top: 0; left: 0;
-            width: 100%; height: 100%;
-            z-index: -1;
-            pointer-events: none;
-            overflow: hidden;
-        }
-        .orb {
-            position: absolute;
-            border-radius: 50%;
-            filter: blur(80px);
-            opacity: 0.35;
-            animation: float 20s infinite ease-in-out;
-        }
-        .orb-1 { width: 60vw; height: 60vw; background: radial-gradient(circle, var(--accent-primary), transparent 70%); top: -20%; left: -10%; animation-delay: 0s; }
-        .orb-2 { width: 50vw; height: 50vw; background: radial-gradient(circle, var(--accent-secondary), transparent 70%); bottom: 20%; right: -10%; animation-delay: -5s; }
-        .orb-3 { width: 40vw; height: 40vw; background: radial-gradient(circle, var(--accent-tertiary), transparent 70%); top: 60%; left: 40%; animation-delay: -10s; opacity: 0.15; }
-
-        @keyframes float {
-            0%, 100% { transform: translate(0, 0) scale(1); }
-            33% { transform: translate(30px, -50px) scale(1.1); }
-            66% { transform: translate(-20px, 20px) scale(0.9); }
-        }
-
-        .noise {
+        /* ── Futuristic Background Grid & Ambient Glow ── */
+        .ambient-grid {
             position: fixed;
             inset: 0;
-            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.07'/%3E%3C/svg%3E");
-            z-index: 0;
+            z-index: -3;
+            background-image: 
+                radial-gradient(circle at center, transparent 15%, var(--bg-deep) 90%),
+                linear-gradient(to right, rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+                linear-gradient(to bottom, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+            background-size: 100% 100%, 50px 50px, 50px 50px;
             pointer-events: none;
+        }
+
+        .pointer-glow {
+            position: fixed;
+            width: 800px;
+            height: 800px;
+            background: radial-gradient(circle, rgba(0, 240, 255, 0.06) 0%, rgba(125, 0, 255, 0.03) 35%, transparent 70%);
+            border-radius: 50%;
+            pointer-events: none;
+            z-index: -2;
+            transform: translate(-50%, -50%);
+            left: var(--mouse-x, 50%);
+            top: var(--mouse-y, 50%);
+            will-change: left, top;
+            transition: left 0.1s ease-out, top 0.1s ease-out;
+        }
+
+        .cyber-noise {
+            position: fixed;
+            inset: 0;
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.04'/%3E%3C/svg%3E");
+            z-index: -1;
+            pointer-events: none;
+        }
+
+        /* Decorative Circuit Lines (Animated SVG Backgrounds) */
+        .decor-circuit {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0; left: 0;
+            z-index: -1;
+            pointer-events: none;
+            opacity: 0.25;
+        }
+
+        .circuit-path {
+            stroke: var(--accent-cyan);
+            stroke-width: 1.5;
+            fill: none;
+            stroke-dasharray: 600;
+            stroke-dashoffset: 600;
+            animation: drawCircuit 12s infinite linear;
+        }
+
+        .circuit-node {
+            fill: var(--accent-cyan);
+            box-shadow: 0 0 8px var(--accent-cyan);
+            animation: pulseNode 3s infinite ease-in-out;
+        }
+
+        @keyframes drawCircuit {
+            0% { stroke-dashoffset: 600; }
+            50% { stroke-dashoffset: 0; }
+            100% { stroke-dashoffset: -600; }
+        }
+
+        @keyframes pulseNode {
+            0%, 100% { transform: scale(1); opacity: 0.6; }
+            50% { transform: scale(1.3); opacity: 1; }
         }
 
         /* ════════════════════════
-           STICKY NAV
+           STICKY NAV (PREMIUM HEADER)
         ════════════════════════ */
         .sticky-nav {
             position: fixed;
             top: 0; left: 0; right: 0;
             z-index: 100;
             transform: translateY(-100%);
-            transition: transform 0.45s var(--ease-out-expo);
+            transition: transform 0.5s var(--ease-out-expo), background 0.3s ease;
         }
         .sticky-nav.nav-visible {
             transform: translateY(0);
         }
         .nav-inner {
-            max-width: 900px;
+            max-width: 1000px;
             margin: 0 auto;
-            padding: 0 1.5rem;
-            height: 56px;
+            padding: 0 2rem;
+            height: 64px;
             display: flex;
             align-items: center;
             justify-content: space-between;
-            background: rgba(3, 5, 8, 0.75);
-            backdrop-filter: blur(20px) saturate(180%);
-            -webkit-backdrop-filter: blur(20px) saturate(180%);
+            background: rgba(2, 2, 4, 0.85);
+            backdrop-filter: blur(25px) saturate(180%);
+            -webkit-backdrop-filter: blur(25px) saturate(180%);
             border-bottom: 1px solid var(--glass-border);
+            border-left: 1px solid var(--glass-border);
+            border-right: 1px solid var(--glass-border);
+            border-bottom-left-radius: 16px;
+            border-bottom-right-radius: 16px;
         }
-        .nav-logo {
-            font-family: var(--font-serif);
+        .nav-brand {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            text-decoration: none;
+        }
+        .nav-brand-logo {
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            filter: invert(0.95) contrast(1.2);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+        .nav-logo-text {
+            font-family: var(--font-logo);
             font-size: 0.95rem;
             font-weight: 700;
-            background: linear-gradient(90deg, var(--accent-primary), var(--accent-secondary));
+            color: #ffffff;
+            letter-spacing: 0.08em;
+            background: linear-gradient(90deg, #ffffff, var(--accent-cyan));
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
-            letter-spacing: 0.05em;
         }
         .nav-links {
             display: flex;
             align-items: center;
-            gap: 1.5rem;
+            gap: 2rem;
         }
         .nav-link {
             font-size: 0.82rem;
             color: var(--text-muted);
             text-decoration: none;
-            letter-spacing: 0.04em;
-            transition: color 0.2s;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            font-weight: 500;
+            transition: color 0.3s;
+            position: relative;
         }
-        .nav-link:hover { color: var(--text-main); }
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            bottom: -4px; left: 0; width: 0; height: 1px;
+            background: var(--accent-cyan);
+            transition: width 0.3s ease;
+        }
+        .nav-link:hover { color: #ffffff; }
+        .nav-link:hover::after { width: 100%; }
+        
         .nav-cta {
             font-size: 0.82rem;
-            font-weight: 600;
-            color: var(--accent-primary);
+            font-weight: 700;
+            color: #020204;
             text-decoration: none;
-            padding: 0.4rem 1rem;
-            border-radius: 20px;
-            border: 1px solid rgba(70,243,193,0.3);
-            background: rgba(70,243,193,0.06);
-            transition: all 0.25s ease;
-            letter-spacing: 0.04em;
+            padding: 0.5rem 1.25rem;
+            border-radius: 8px;
+            background: var(--accent-cyan);
+            box-shadow: 0 0 15px rgba(0, 240, 255, 0.25);
+            transition: all 0.3s ease;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
         }
-        .nav-cta:hover { background: rgba(70,243,193,0.15); border-color: rgba(70,243,193,0.6); }
+        .nav-cta:hover { 
+            background: #ffffff; 
+            box-shadow: 0 0 25px rgba(255, 255, 255, 0.4); 
+            transform: translateY(-1px);
+        }
 
         /* ── Layout ── */
         .page-wrapper {
             position: relative;
             z-index: 1;
-            max-width: 900px;
+            max-width: 1000px;
             margin: 0 auto;
-            padding: 0 1.5rem;
+            padding: 0 2rem;
         }
 
-        /* ── Glass Card ── */
-        .glass-card {
-            background: var(--glass-surface);
+        /* ════════════════════════
+           PREMIUM CYBER PANEL (GLASS CARD)
+        ════════════════════════ */
+        .tech-panel {
+            background: var(--bg-panel);
             backdrop-filter: blur(20px) saturate(180%);
             -webkit-backdrop-filter: blur(20px) saturate(180%);
             border: 1px solid var(--glass-border);
-            border-radius: 28px;
+            border-radius: 24px;
             position: relative;
             overflow: hidden;
-            box-shadow: 0 20px 50px rgba(0,0,0,0.3), 0 0 0 1px rgba(255,255,255,0.05) inset;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.6), inset 0 1px 0 rgba(255,255,255,0.05);
+            transition: border-color 0.5s var(--ease-out-expo), box-shadow 0.5s var(--ease-out-expo);
         }
-        .glass-card::before {
+        .tech-panel:hover {
+            border-color: var(--glass-border-glow);
+            box-shadow: 0 30px 80px rgba(0,0,0,0.8), 0 0 25px rgba(0, 240, 255, 0.03), inset 0 1px 0 rgba(255,255,255,0.08);
+        }
+        
+        /* Cyberpunk Corner Elements */
+        .tech-panel::after {
             content: '';
             position: absolute;
-            top: 0; left: -100%;
-            width: 50%; height: 100%;
-            background: linear-gradient(to right, transparent, rgba(255,255,255,0.06), transparent);
-            transform: skewX(-25deg);
-            transition: 0.5s;
+            top: 0; right: 0;
+            width: 32px; height: 32px;
+            border-right: 2px solid var(--accent-cyan);
+            border-top: 2px solid var(--accent-cyan);
+            border-top-right-radius: 24px;
             pointer-events: none;
+            opacity: 0.4;
+            transition: opacity 0.3s;
         }
-        .glass-card:hover::before { left: 150%; transition: 0.7s; }
+        .tech-panel::before {
+            content: '';
+            position: absolute;
+            bottom: 0; left: 0;
+            width: 32px; height: 32px;
+            border-left: 2px solid var(--accent-purple);
+            border-bottom: 2px solid var(--accent-purple);
+            border-bottom-left-radius: 24px;
+            pointer-events: none;
+            opacity: 0.4;
+            transition: opacity 0.3s;
+        }
+        .tech-panel:hover::after, .tech-panel:hover::before {
+            opacity: 1;
+        }
 
         /* ── Scroll Reveal ── */
         .reveal {
             opacity: 0;
-            transform: translateY(28px);
-            transition: opacity 0.8s var(--ease-out-expo), transform 0.8s var(--ease-out-expo);
+            transform: translateY(30px);
+            transition: opacity 1s var(--ease-out-expo), transform 1s var(--ease-out-expo);
         }
         .reveal.visible { opacity: 1; transform: translateY(0); }
-        .reveal-delay-1 { transition-delay: 0.1s; }
-        .reveal-delay-2 { transition-delay: 0.2s; }
-        .reveal-delay-3 { transition-delay: 0.3s; }
+        .reveal-delay-1 { transition-delay: 0.15s; }
+        .reveal-delay-2 { transition-delay: 0.3s; }
+        .reveal-delay-3 { transition-delay: 0.45s; }
 
         /* ── Section Labels ── */
         .section-label {
+            font-family: var(--font-logo);
             font-size: 0.72rem;
-            letter-spacing: 0.18em;
-            color: var(--accent-primary);
+            letter-spacing: 0.25em;
+            color: var(--accent-cyan);
             text-transform: uppercase;
-            font-weight: 500;
-            margin-bottom: 0.5rem;
+            font-weight: 700;
+            margin-bottom: 0.75rem;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+        .section-label::before {
+            content: '';
+            width: 6px; height: 6px;
+            background: var(--accent-cyan);
+            border-radius: 50%;
+            box-shadow: 0 0 8px var(--accent-cyan);
         }
         .section-title {
             font-family: var(--font-serif);
-            font-size: 1.65rem;
+            font-size: 2rem;
             font-weight: 700;
-            background: linear-gradient(135deg, #fff 30%, var(--accent-primary));
+            letter-spacing: 0.02em;
+            background: linear-gradient(135deg, #ffffff 40%, #c4cbd6);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
         }
 
-        /* ── Live Badge (fix: override parent's -webkit-text-fill-color) ── */
+        /* ── Live Badge ── */
         .live-badge {
             display: inline-flex;
             align-items: center;
             gap: 0.4rem;
-            padding: 0.25rem 0.75rem;
+            padding: 0.3rem 0.8rem;
             border-radius: 20px;
+            font-family: var(--font-logo);
             font-size: 0.68rem;
-            font-weight: 500;
-            background: rgba(70,243,193,0.08);
-            border: 1px solid rgba(70,243,193,0.2);
-            color: var(--accent-primary);
-            -webkit-text-fill-color: var(--accent-primary);
-            background-clip: initial;
-            -webkit-background-clip: initial;
-            margin-left: 0.6rem;
+            font-weight: 700;
+            background: rgba(57, 255, 20, 0.08);
+            border: 1px solid rgba(57, 255, 20, 0.2);
+            color: var(--accent-green);
+            margin-left: 0.8rem;
             vertical-align: middle;
+            letter-spacing: 0.08em;
+            box-shadow: 0 0 10px rgba(57, 255, 20, 0.05);
         }
         .live-dot {
             width: 6px; height: 6px;
             border-radius: 50%;
-            background: var(--accent-primary);
+            background: var(--accent-green);
             flex-shrink: 0;
-            animation: pulse 2s infinite;
+            animation: pulseGreen 1.8s infinite;
+            box-shadow: 0 0 8px var(--accent-green);
         }
-        @keyframes pulse {
+        @keyframes pulseGreen {
             0%, 100% { opacity: 1; transform: scale(1); }
-            50% { opacity: 0.4; transform: scale(0.8); }
+            50% { opacity: 0.3; transform: scale(0.7); }
         }
 
         /* ════════════════════════
-           HERO
+           HERO SECTION
         ════════════════════════ */
         .hero {
             min-height: 100vh;
             display: grid;
             place-items: center;
-            padding: 4rem 1.5rem;
+            padding: 6rem 1.5rem 4rem;
+            position: relative;
         }
         .hero-inner {
-            width: min(90vw, 500px);
+            width: min(90vw, 550px);
             text-align: center;
+            perspective: 1000px;
         }
         #heroCard {
             transform-style: preserve-3d;
-            transition: transform 0.1s var(--ease-out-expo);
+            transition: transform 0.25s var(--ease-out-expo);
+            will-change: transform;
         }
-        #heroCard .glass-card { padding: 3rem 2rem; }
+        #heroCard .tech-panel { 
+            padding: 4rem 2.5rem 3.5rem; 
+        }
 
-        .logo-wrapper {
-            position: relative;
-            width: 120px; height: 120px;
-            margin: 0 auto 2rem;
+        /* System Status Bar */
+        .status-indicator-bar {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.75rem;
+            margin-bottom: 2rem;
+            font-family: var(--font-logo);
+            font-size: 0.65rem;
+            letter-spacing: 0.12em;
+            color: var(--text-muted);
         }
-        .logo-glow {
-            position: absolute;
-            inset: -10px;
-            background: conic-gradient(from 0deg, var(--accent-primary), var(--accent-secondary), var(--accent-tertiary), var(--accent-primary));
-            border-radius: 30px;
-            filter: blur(20px);
-            opacity: 0.6;
-            animation: spin 10s linear infinite;
-            z-index: -1;
+        .status-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.4rem;
+            color: var(--accent-cyan);
+            font-weight: 700;
+        }
+        .status-pulse-dot {
+            width: 5px; height: 5px;
+            border-radius: 50%;
+            background: var(--accent-cyan);
+            box-shadow: 0 0 6px var(--accent-cyan);
+            animation: pulseCyan 1.5s infinite;
+        }
+        @keyframes pulseCyan {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.4; }
+        }
+        .status-divider {
+            color: var(--text-dim);
+            font-weight: 300;
+        }
+
+        /* Inverted Logo integration with circuit animations */
+        .logo-container {
+            position: relative;
+            width: 140px; height: 140px;
+            margin: 0 auto 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.01);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            box-shadow: inset 0 0 25px rgba(255, 255, 255, 0.02);
+            padding: 10px;
+            transform: translateZ(30px);
         }
         .logo-img {
             width: 100%; height: 100%;
-            border-radius: 24px;
+            border-radius: 50%;
             object-fit: cover;
-            border: 1px solid rgba(255,255,255,0.2);
-            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+            /* Inverts white background to black, and black lines to pure glowing white */
+            filter: invert(0.94) contrast(1.1) brightness(1.25);
+            transition: all 0.5s var(--ease-out-expo);
+            border: 1px solid rgba(255, 255, 255, 0.05);
         }
-        @keyframes spin {
+        .logo-container:hover .logo-img {
+            transform: scale(1.06) rotate(6deg);
+            filter: invert(0.94) contrast(1.2) brightness(1.5) drop-shadow(0 0 10px rgba(0, 240, 255, 0.5));
+        }
+        
+        /* Circuit Glow Loop Orbiting Logo */
+        .logo-orbit {
+            position: absolute;
+            inset: -8px;
+            border-radius: 50%;
+            border: 1.5px dashed rgba(0, 240, 255, 0.2);
+            animation: orbitSpin 25s linear infinite;
+            pointer-events: none;
+        }
+        .logo-orbit::after {
+            content: '';
+            position: absolute;
+            top: -4px; left: 50%;
+            width: 8px; height: 8px;
+            background: var(--accent-cyan);
+            border-radius: 50%;
+            box-shadow: 0 0 10px var(--accent-cyan);
+        }
+
+        .logo-orbit-2 {
+            position: absolute;
+            inset: -16px;
+            border-radius: 50%;
+            border: 1px dashed rgba(125, 0, 255, 0.15);
+            animation: orbitSpin 40s linear infinite reverse;
+            pointer-events: none;
+        }
+
+        @keyframes orbitSpin {
             from { transform: rotate(0deg); }
             to { transform: rotate(360deg); }
         }
 
         h1 {
-            font-family: var(--font-serif);
-            font-size: 2.2rem;
-            font-weight: 700;
-            margin-bottom: 1rem;
-            letter-spacing: 0.05em;
-            background: linear-gradient(135deg, #fff 30%, var(--accent-primary));
+            font-family: var(--font-logo);
+            font-size: 2.1rem;
+            font-weight: 800;
+            margin-bottom: 0.85rem;
+            letter-spacing: 0.06em;
+            background: linear-gradient(180deg, #ffffff 40%, #aab1c0);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
+            transform: translateZ(20px);
         }
+        
         .hero-description {
-            font-size: 1rem;
+            font-size: 0.95rem;
             line-height: 1.8;
             color: var(--text-muted);
-            margin-bottom: 1.75rem;
+            margin-bottom: 2rem;
+            transform: translateZ(10px);
+            font-weight: 400;
         }
 
-        /* Stats */
+        /* Stats Section */
         .stats-row {
-            display: flex;
-            justify-content: center;
-            gap: 2rem;
-            padding: 1.25rem 0;
-            margin-bottom: 1.75rem;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1rem;
+            padding: 1.5rem 0;
+            margin-bottom: 2rem;
             border-top: 1px solid var(--glass-border);
             border-bottom: 1px solid var(--glass-border);
+            transform: translateZ(15px);
+        }
+        .stat-item {
+            position: relative;
+        }
+        .stat-item:not(:last-child)::after {
+            content: '';
+            position: absolute;
+            right: 0; top: 20%; height: 60%;
+            width: 1px;
+            background: var(--glass-border);
         }
         .stat-number {
-            font-family: var(--font-serif);
-            font-size: 1.7rem;
-            font-weight: 700;
-            background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+            font-family: var(--font-logo);
+            font-size: 1.55rem;
+            font-weight: 800;
+            background: linear-gradient(135deg, #ffffff, var(--accent-cyan));
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
-            line-height: 1;
-            margin-bottom: 0.3rem;
+            line-height: 1.2;
+            margin-bottom: 0.25rem;
+            text-shadow: 0 0 15px rgba(0, 240, 255, 0.15);
         }
         .stat-label {
-            font-size: 0.72rem;
+            font-size: 0.68rem;
             color: var(--text-muted);
             letter-spacing: 0.04em;
+            font-weight: 500;
         }
 
-        /* Buttons */
-        .actions { display: flex; flex-direction: column; gap: 1rem; }
-        .btn {
+        /* Premium Cyber Action Buttons */
+        .actions { 
+            display: flex; 
+            flex-direction: column; 
+            gap: 1rem; 
+            transform: translateZ(25px);
+        }
+        .btn-cyber {
             position: relative;
             display: flex;
             align-items: center;
             justify-content: center;
             padding: 1rem 2rem;
-            border-radius: 16px;
+            border-radius: 12px;
             text-decoration: none;
-            font-weight: 600;
-            letter-spacing: 0.05em;
-            transition: all 0.3s var(--ease-out-expo);
+            font-family: var(--font-logo);
+            font-size: 0.85rem;
+            font-weight: 700;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            transition: all 0.4s var(--ease-out-expo);
             overflow: hidden;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            cursor: pointer;
         }
-        .btn-primary {
-            background: rgba(255,255,255,0.05);
-            border: 1px solid rgba(255,255,255,0.1);
-            color: var(--text-main);
+        .btn-cyber-primary {
+            background: rgba(0, 240, 255, 0.05);
+            border-color: rgba(0, 240, 255, 0.35);
+            color: var(--accent-cyan);
+            box-shadow: 0 4px 20px rgba(0, 240, 255, 0.1);
         }
-        .btn-primary::before {
+        .btn-cyber-primary::before {
             content: '';
             position: absolute;
             inset: 0;
-            background: linear-gradient(90deg, var(--accent-primary), var(--accent-secondary));
+            background: linear-gradient(90deg, var(--accent-cyan), var(--accent-purple));
             opacity: 0;
             transition: opacity 0.3s ease;
             z-index: -1;
         }
-        .btn-primary:hover { border-color: transparent; transform: translateY(-2px); box-shadow: 0 10px 20px rgba(70,243,193,0.2); }
-        .btn-primary:hover::before { opacity: 1; }
-        .btn-secondary {
-            background: transparent;
-            border: 1px solid rgba(255,255,255,0.1);
-            color: var(--text-muted);
+        .btn-cyber-primary:hover {
+            color: #020204;
+            border-color: transparent;
+            box-shadow: 0 0 30px rgba(0, 240, 255, 0.4);
+            transform: translateY(-2px);
         }
-        .btn-secondary:hover { background: rgba(255,255,255,0.05); color: var(--text-main); border-color: rgba(255,255,255,0.3); }
+        .btn-cyber-primary:hover::before {
+            opacity: 1;
+        }
+
+        .btn-cyber-secondary {
+            background: transparent;
+            color: var(--text-muted);
+            border-color: var(--glass-border);
+        }
+        .btn-cyber-secondary:hover {
+            background: rgba(255, 255, 255, 0.03);
+            color: #ffffff;
+            border-color: rgba(255, 255, 255, 0.2);
+            transform: translateY(-1px);
+        }
 
         .scroll-hint {
             margin-top: 2rem;
-            font-size: 0.78rem;
-            color: rgba(255,255,255,0.2);
-            animation: bounce 2.5s infinite;
+            font-family: var(--font-logo);
+            font-size: 0.72rem;
+            color: var(--text-dim);
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+            animation: floatHint 2.5s infinite;
         }
-        @keyframes bounce {
-            0%, 100% { transform: translateY(0); }
-            50% { transform: translateY(7px); }
+        @keyframes floatHint {
+            0%, 100% { transform: translateY(0); opacity: 0.4; }
+            50% { transform: translateY(8px); opacity: 0.8; color: var(--accent-cyan); }
         }
 
         /* ════════════════════════
-           SECTIONS
+           SECTIONS (GENERAL)
         ════════════════════════ */
-        .section { padding: 5rem 0; }
-        .section-header { margin-bottom: 2.5rem; }
+        .section { padding: 6rem 0; }
+        .section-header { margin-bottom: 3.5rem; }
         .section-sub {
-            font-size: 0.9rem;
+            font-size: 0.92rem;
             color: var(--text-muted);
-            margin-top: 0.5rem;
-            line-height: 1.6;
+            margin-top: 0.75rem;
+            line-height: 1.7;
+            max-width: 600px;
         }
 
         /* ════════════════════════
@@ -401,219 +639,392 @@
         ════════════════════════ */
         .features-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-            gap: 1.25rem;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
         }
-        .feature-card { padding: 2rem; }
-        .feature-icon {
-            width: 48px; height: 48px;
-            border-radius: 14px;
+        .feature-card { 
+            padding: 2.5rem 2rem; 
+        }
+        .feature-icon-box {
+            width: 52px; height: 52px;
+            border-radius: 12px;
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 1.4rem;
-            margin-bottom: 1.2rem;
+            font-size: 1.5rem;
+            margin-bottom: 1.5rem;
+            position: relative;
         }
-        .fi-green  { background: rgba(70,243,193,0.1);  border: 1px solid rgba(70,243,193,0.2); }
-        .fi-blue   { background: rgba(107,132,255,0.1); border: 1px solid rgba(107,132,255,0.2); }
-        .fi-orange { background: rgba(244,179,107,0.1); border: 1px solid rgba(244,179,107,0.2); }
+        .fc-cyan   { background: rgba(0, 240, 255, 0.08);   border: 1px solid rgba(0, 240, 255, 0.2); }
+        .fc-purple { background: rgba(125, 0, 255, 0.08);  border: 1px solid rgba(125, 0, 255, 0.2); }
+        .fc-orange { background: rgba(255, 157, 0, 0.08);  border: 1px solid rgba(255, 157, 0, 0.2); }
+        
+        /* Tiny internal glow dots */
+        .feature-icon-box::after {
+            content: '';
+            position: absolute;
+            width: 4px; height: 4px;
+            border-radius: 50%;
+            top: 4px; right: 4px;
+        }
+        .fc-cyan::after { background: var(--accent-cyan); box-shadow: 0 0 6px var(--accent-cyan); }
+        .fc-purple::after { background: var(--accent-purple); box-shadow: 0 0 6px var(--accent-purple); }
+        .fc-orange::after { background: var(--accent-orange); box-shadow: 0 0 6px var(--accent-orange); }
+
         .feature-title {
-            font-family: var(--font-serif);
-            font-size: 1.05rem;
+            font-family: var(--font-logo);
+            font-size: 1rem;
             font-weight: 700;
-            margin-bottom: 0.7rem;
+            margin-bottom: 0.85rem;
+            letter-spacing: 0.04em;
+            color: #ffffff;
         }
         .feature-desc {
             font-size: 0.88rem;
-            line-height: 1.75;
+            line-height: 1.8;
             color: var(--text-muted);
+            margin-bottom: 1.25rem;
         }
         .feature-badge {
-            display: inline-block;
-            margin-top: 1rem;
-            padding: 0.25rem 0.75rem;
-            border-radius: 20px;
-            font-size: 0.73rem;
-            font-weight: 500;
+            display: inline-flex;
+            padding: 0.3rem 0.8rem;
+            border-radius: 6px;
+            font-family: var(--font-logo);
+            font-size: 0.68rem;
+            font-weight: 700;
+            letter-spacing: 0.06em;
+            text-transform: uppercase;
         }
-        .badge-green  { background: rgba(70,243,193,0.1);  color: var(--accent-primary);  border: 1px solid rgba(70,243,193,0.2); }
-        .badge-blue   { background: rgba(107,132,255,0.1); color: var(--accent-secondary); border: 1px solid rgba(107,132,255,0.2); }
-        .badge-orange { background: rgba(244,179,107,0.1); color: var(--accent-tertiary);  border: 1px solid rgba(244,179,107,0.2); }
+        .badge-cyan   { background: rgba(0, 240, 255, 0.06);   color: var(--accent-cyan);   border: 1px solid rgba(0, 240, 255, 0.15); }
+        .badge-purple { background: rgba(125, 0, 255, 0.06);  color: #a86bff; border: 1px solid rgba(125, 0, 255, 0.15); }
+        .badge-orange { background: rgba(255, 157, 0, 0.06);  color: var(--accent-orange); border: 1px solid rgba(255, 157, 0, 0.15); }
 
         /* ════════════════════════
-           CHANNELS + ACCORDION
+           CHANNELS + ACCORDION (SYSTEM FILE EXPLORER STYLE)
         ════════════════════════ */
-        .channels-stack { display: flex; flex-direction: column; gap: 0.75rem; }
-        .company-card { padding: 0; }
-
-        .company-header {
+        .channels-wrapper {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+        .explorer-terminal {
+            border: 1px solid var(--glass-border);
+            border-radius: 20px;
+            background: rgba(4, 4, 8, 0.85);
+            overflow: hidden;
+            box-shadow: 0 30px 70px rgba(0,0,0,0.8);
+        }
+        
+        /* Terminal Header */
+        .terminal-header {
+            background: rgba(12, 12, 22, 0.9);
+            border-bottom: 1px solid var(--glass-border);
+            padding: 0.9rem 1.5rem;
             display: flex;
             align-items: center;
-            gap: 0.6rem;
-            padding: 1.1rem 1.75rem;
-            cursor: pointer;
-            user-select: none;
-            transition: background 0.2s;
-            border-radius: 28px;
+            justify-content: space-between;
         }
-        .company-header:hover { background: rgba(255,255,255,0.02); }
-
-        .company-dot {
+        .terminal-dots {
+            display: flex;
+            gap: 0.4rem;
+        }
+        .t-dot {
             width: 8px; height: 8px;
             border-radius: 50%;
+        }
+        .t-red   { background: #ff5f56; }
+        .t-yellow{ background: #ffbd2e; }
+        .t-green { background: #27c93f; }
+        
+        .terminal-title {
+            font-family: var(--font-logo);
+            font-size: 0.72rem;
+            color: var(--text-muted);
+            letter-spacing: 0.15em;
+            text-transform: uppercase;
+        }
+
+        /* Channels Accordions */
+        .channels-stack { 
+            display: flex; 
+            flex-direction: column; 
+        }
+
+        .explorer-row {
+            border-bottom: 1px solid rgba(255, 255, 255, 0.03);
+            transition: background 0.3s;
+        }
+        .explorer-row:last-child {
+            border-bottom: none;
+        }
+
+        .explorer-header {
+            display: flex;
+            align-items: center;
+            gap: 0.85rem;
+            padding: 1.25rem 1.75rem;
+            cursor: pointer;
+            user-select: none;
+            transition: all 0.2s ease;
+        }
+        .explorer-header:hover { 
+            background: rgba(255,255,255,0.02); 
+        }
+
+        .explorer-icon {
+            font-size: 0.9rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: transform 0.3s ease;
+            color: var(--text-muted);
+        }
+        .explorer-row.active-folder .explorer-icon {
+            color: var(--accent-cyan);
+            transform: scale(1.1);
+        }
+
+        /* Distinctive LED dots for companies */
+        .company-led {
+            width: 7px; height: 7px;
+            border-radius: 50%;
             flex-shrink: 0;
+            box-shadow: 0 0 6px currentColor;
         }
-        .dot-google    { background: #34a853; }
-        .dot-openai    { background: #10a37f; }
-        .dot-anthropic { background: #d97757; }
-        .dot-xai       { background: #aaaaaa; }
-        .dot-microsoft { background: #0078d4; }
-        .dot-meta      { background: #0866ff; }
-        .dot-alibaba   { background: #ff6a00; }
-        .dot-other     { background: var(--accent-secondary); }
-        .dot-model     { background: var(--accent-primary); }
+        .led-google    { color: #34a853; background: #34a853; }
+        .led-openai    { color: #10a37f; background: #10a37f; }
+        .led-anthropic { color: #d97757; background: #d97757; }
+        .led-xai       { color: #aaaaaa; background: #aaaaaa; }
+        .led-microsoft { color: #0078d4; background: #0078d4; }
+        .led-meta      { color: #0866ff; background: #0866ff; }
+        .led-alibaba   { color: #ff6a00; background: #ff6a00; }
+        .led-other     { color: var(--accent-purple); background: var(--accent-purple); }
+        .led-model     { color: var(--accent-cyan); background: var(--accent-cyan); }
 
-        .company-name { font-weight: 700; font-size: 0.92rem; flex: 1; }
-
-        .accordion-arrow {
-            font-size: 0.8rem;
-            color: rgba(255,255,255,0.25);
-            transition: transform 0.35s var(--ease-out-expo);
-            line-height: 1;
+        .company-name { 
+            font-family: var(--font-logo);
+            font-weight: 700; 
+            font-size: 0.88rem; 
+            flex: 1; 
+            letter-spacing: 0.05em;
+            color: var(--text-main);
         }
-        .accordion-card.collapsed .accordion-arrow {
+
+        .explorer-arrow {
+            font-size: 0.72rem;
+            color: var(--text-dim);
+            transition: transform 0.4s var(--ease-out-expo);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .explorer-row.collapsed .explorer-arrow {
             transform: rotate(-90deg);
         }
 
-        .accordion-body {
+        /* Beautiful Panel Body */
+        .explorer-body {
             overflow: hidden;
-            max-height: 300px;
-            transition: max-height 0.45s var(--ease-out-expo), opacity 0.3s ease, padding 0.3s ease;
+            max-height: 400px;
+            transition: max-height 0.5s var(--ease-out-expo), opacity 0.3s ease, padding 0.3s ease;
             opacity: 1;
-            padding: 0 1.75rem 1.25rem;
+            padding: 0.5rem 1.75rem 1.5rem 3.5rem;
+            background: rgba(2, 2, 4, 0.4);
+            border-top: 1px solid rgba(255, 255, 255, 0.01);
         }
-        .accordion-card.collapsed .accordion-body {
+        .explorer-row.collapsed .explorer-body {
             max-height: 0;
             opacity: 0;
+            padding-top: 0;
             padding-bottom: 0;
+            pointer-events: none;
         }
 
-        .channels-tags { display: flex; flex-wrap: wrap; gap: 0.45rem; }
+        .channels-tags { 
+            display: flex; 
+            flex-wrap: wrap; 
+            gap: 0.6rem; 
+        }
         .channel-tag {
-            padding: 0.28rem 0.7rem;
-            border-radius: 20px;
-            font-size: 0.77rem;
-            background: rgba(255,255,255,0.04);
-            border: 1px solid rgba(255,255,255,0.08);
+            padding: 0.35rem 0.85rem;
+            border-radius: 6px;
+            font-size: 0.8rem;
+            font-family: var(--font-tech);
+            background: rgba(255, 255, 255, 0.02);
+            border: 1px solid rgba(255, 255, 255, 0.04);
             color: var(--text-muted);
-            transition: all 0.2s ease;
+            transition: all 0.3s var(--ease-out-expo);
+            display: inline-flex;
+            align-items: center;
+            gap: 0.25rem;
+        }
+        .channel-tag::before {
+            content: '#';
+            color: var(--text-dim);
+            transition: color 0.3s;
         }
         .channel-tag:hover {
-            background: rgba(70,243,193,0.08);
-            border-color: rgba(70,243,193,0.25);
-            color: var(--accent-primary);
+            background: rgba(0, 240, 255, 0.05);
+            border-color: rgba(0, 240, 255, 0.25);
+            color: var(--accent-cyan);
+            transform: translateY(-1px);
+        }
+        .channel-tag:hover::before {
+            color: var(--accent-cyan);
         }
         .channel-tag-more {
-            padding: 0.28rem 0.7rem;
-            border-radius: 20px;
+            padding: 0.35rem 0.85rem;
+            border-radius: 6px;
             font-size: 0.77rem;
             background: transparent;
-            border: 1px dashed rgba(255,255,255,0.15);
-            color: rgba(255,255,255,0.25);
+            border: 1px dashed rgba(255, 255, 255, 0.1);
+            color: var(--text-dim);
             font-style: italic;
-            letter-spacing: 0.02em;
+            letter-spacing: 0.04em;
         }
 
+        /* Smaller Companies Grid (In Terminal Layout) */
         .companies-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
-            gap: 0.75rem;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            border-bottom: 1px solid rgba(255, 255, 255, 0.03);
         }
-        .companies-grid .company-card .company-header {
-            padding: 1rem 1.25rem;
-            border-radius: 28px;
+        .companies-grid .explorer-row {
+            border-bottom: none;
+            border-right: 1px solid rgba(255, 255, 255, 0.03);
         }
-        .companies-grid .accordion-body {
-            padding: 0 1.25rem 1rem;
+        .companies-grid .explorer-row:last-child {
+            border-right: none;
+        }
+        @media (max-width: 650px) {
+            .companies-grid { grid-template-columns: 1fr; }
+            .companies-grid .explorer-row { border-right: none; border-bottom: 1px solid rgba(255, 255, 255, 0.03); }
         }
 
         /* ════════════════════════
-           CTA
+           CALL TO ACTION (CTA)
         ════════════════════════ */
-        .cta-section { padding: 4rem 0 7rem; }
-        .cta-card { padding: 4rem 2.5rem; text-align: center; }
+        .cta-section { padding: 6rem 0 8rem; }
+        .cta-card { 
+            padding: 5rem 3rem; 
+            text-align: center;
+            position: relative;
+        }
         .cta-card::after {
             content: '';
             position: absolute;
             inset: 0;
-            background: radial-gradient(circle at 50% 60%, rgba(70,243,193,0.04), transparent 70%);
+            background: radial-gradient(circle at center 60%, rgba(0, 240, 255, 0.05), transparent 70%);
             pointer-events: none;
         }
         .cta-title {
             font-family: var(--font-serif);
-            font-size: 2rem;
+            font-size: 2.2rem;
             font-weight: 700;
             margin-bottom: 1rem;
-            background: linear-gradient(135deg, #fff 30%, var(--accent-primary));
+            background: linear-gradient(135deg, #ffffff 40%, var(--accent-cyan));
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
         }
         .cta-description {
-            font-size: 0.97rem;
+            font-size: 0.95rem;
             color: var(--text-muted);
-            margin-bottom: 2.5rem;
+            margin-bottom: 3rem;
             line-height: 1.85;
+            max-width: 580px;
+            margin-left: auto;
+            margin-right: auto;
         }
         .btn-cta {
             display: inline-flex;
             align-items: center;
-            gap: 0.6rem;
-            padding: 1.1rem 3rem;
-            border-radius: 16px;
+            gap: 0.75rem;
+            padding: 1.1rem 3.5rem;
+            border-radius: 12px;
             text-decoration: none;
-            font-weight: 700;
-            font-size: 1.05rem;
-            letter-spacing: 0.04em;
-            background: linear-gradient(90deg, var(--accent-primary), var(--accent-secondary));
-            color: #030508;
-            transition: all 0.3s var(--ease-out-expo);
-            box-shadow: 0 10px 30px rgba(70,243,193,0.25);
+            font-family: var(--font-logo);
+            font-weight: 800;
+            font-size: 1rem;
+            letter-spacing: 0.12em;
+            text-transform: uppercase;
+            background: #ffffff;
+            color: #020204;
+            transition: all 0.4s var(--ease-out-expo);
+            box-shadow: 0 10px 30px rgba(255, 255, 255, 0.15);
             position: relative;
             z-index: 1;
         }
-        .btn-cta:hover { transform: translateY(-3px); box-shadow: 0 16px 40px rgba(70,243,193,0.35); }
+        .btn-cta:hover { 
+            transform: translateY(-3px); 
+            box-shadow: 0 20px 40px rgba(0, 240, 255, 0.35);
+            background: var(--accent-cyan);
+        }
 
         /* ════════════════════════
            FOOTER
         ════════════════════════ */
         footer {
             border-top: 1px solid var(--glass-border);
-            padding: 2rem 0 2.5rem;
+            padding: 3rem 0 4rem;
+            background: rgba(2, 2, 4, 0.95);
+            position: relative;
+            z-index: 10;
         }
         .footer-inner {
             display: flex;
             flex-direction: column;
             align-items: center;
-            gap: 0.9rem;
+            gap: 1.5rem;
         }
-        .footer-links { display: flex; gap: 2rem; }
+        .footer-brand {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+        .footer-logo {
+            width: 32px; height: 32px;
+            border-radius: 50%;
+            filter: invert(0.95) contrast(1.2);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+        .footer-logo-text {
+            font-family: var(--font-logo);
+            font-size: 1rem;
+            font-weight: 700;
+            letter-spacing: 0.08em;
+            color: #ffffff;
+        }
+        .footer-links { 
+            display: flex; 
+            gap: 3rem; 
+        }
         .footer-link {
-            font-size: 0.85rem;
+            font-family: var(--font-logo);
+            font-size: 0.75rem;
             color: var(--text-muted);
             text-decoration: none;
-            transition: color 0.2s;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            transition: color 0.3s;
         }
-        .footer-link:hover { color: var(--accent-primary); }
-        .footer-meta { font-size: 0.76rem; color: rgba(255,255,255,0.2); }
+        .footer-link:hover { color: var(--accent-cyan); }
+        
+        .footer-meta { 
+            font-size: 0.75rem; 
+            color: var(--text-dim);
+            letter-spacing: 0.02em;
+            text-align: center;
+            line-height: 1.6;
+        }
 
         /* ════════════════════════
-           PAGE LOAD ANIMATION
+           PAGE LOAD TRANSITION
         ════════════════════════ */
         .hero-inner {
             opacity: 0;
-            transform: translateY(24px);
-            transition: opacity 1s var(--ease-out-expo), transform 1s var(--ease-out-expo);
+            transform: translateY(30px);
+            transition: opacity 1.2s var(--ease-out-expo), transform 1.2s var(--ease-out-expo);
         }
         .hero-inner.page-loaded {
             opacity: 1;
@@ -621,21 +1032,21 @@
         }
 
         /* ════════════════════════
-           MOBILE CTA BAR
+           MOBILE STICKY ACTION BAR
         ════════════════════════ */
         .mobile-cta-bar {
             display: none;
             position: fixed;
             bottom: 0; left: 0; right: 0;
             z-index: 90;
-            padding: 0.75rem 1.25rem;
-            padding-bottom: calc(0.75rem + env(safe-area-inset-bottom));
-            background: rgba(3, 5, 8, 0.88);
+            padding: 1rem 1.5rem;
+            padding-bottom: calc(1rem + env(safe-area-inset-bottom));
+            background: rgba(2, 2, 4, 0.9);
             backdrop-filter: blur(20px) saturate(180%);
             -webkit-backdrop-filter: blur(20px) saturate(180%);
             border-top: 1px solid var(--glass-border);
             transform: translateY(100%);
-            transition: transform 0.4s var(--ease-out-expo);
+            transition: transform 0.5s var(--ease-out-expo);
         }
         .mobile-cta-bar.bar-visible {
             transform: translateY(0);
@@ -643,42 +1054,56 @@
         .mobile-cta-bar .btn-cta {
             width: 100%;
             justify-content: center;
-            padding: 0.9rem;
-            font-size: 0.97rem;
+            padding: 1rem;
+            font-size: 0.9rem;
+            border-radius: 10px;
         }
         @media (max-width: 768px) {
             .mobile-cta-bar { display: block; }
-            /* ページ下部がバーに隠れないよう余白確保 */
-            footer { padding-bottom: 5rem; }
+            footer { padding-bottom: 6rem; }
         }
 
-        /* ── Responsive ── */
+        /* ── Responsive Easing ── */
         @media (max-width: 600px) {
-            h1 { font-size: 1.8rem; }
-            .section-title { font-size: 1.3rem; }
-            .features-grid, .companies-grid { grid-template-columns: 1fr; }
-            .cta-title { font-size: 1.6rem; }
-            .btn-cta { padding: 1rem 2rem; font-size: 0.97rem; }
-            .stats-row { gap: 1.5rem; }
-            .cta-card { padding: 2.5rem 1.5rem; }
+            h1 { font-size: 1.7rem; }
+            .section-title { font-size: 1.4rem; }
+            .features-grid { grid-template-columns: 1fr; }
+            .cta-title { font-size: 1.8rem; }
+            .btn-cta { padding: 1rem 2rem; font-size: 0.9rem; }
+            .stats-row { gap: 0.5rem; }
+            .cta-card { padding: 3rem 1.5rem; }
             .nav-links .nav-link { display: none; }
+            .hero-inner { width: 95vw; }
+            #heroCard .tech-panel { padding: 3rem 1.5rem 2.5rem; }
+            .explorer-body { padding-left: 2rem; }
         }
     </style>
 </head>
 
 <body>
-    <!-- Fixed Background -->
-    <div class="ambient-light">
-        <div class="orb orb-1"></div>
-        <div class="orb orb-2"></div>
-        <div class="orb orb-3"></div>
-    </div>
-    <div class="noise"></div>
+    <!-- Premium Ambient Cyber Environment -->
+    <div class="ambient-grid"></div>
+    <div class="pointer-glow" id="pointerGlow"></div>
+    <div class="cyber-noise"></div>
+
+    <!-- Animated Circuit Path SVGs -->
+    <svg class="decor-circuit" xmlns="http://www.w3.org/2000/svg">
+        <path class="circuit-path" d="M -100 150 L 200 150 L 300 250 L 300 450 L 200 550 L -100 550" />
+        <circle class="circuit-node" cx="300" cy="250" r="4" />
+        <circle class="circuit-node" cx="200" cy="550" r="4" />
+        
+        <path class="circuit-path" d="M 1200 800 L 950 800 L 850 700 L 850 400 L 950 300 L 1200 300" style="animation-delay: -6s;" />
+        <circle class="circuit-node" cx="850" cy="700" r="4" />
+        <circle class="circuit-node" cx="950" cy="300" r="4" />
+    </svg>
 
     <!-- ════ STICKY NAV ════ -->
     <nav class="sticky-nav" id="stickyNav">
         <div class="nav-inner">
-            <span class="nav-logo">AFNJP</span>
+            <a href="#" class="nav-brand">
+                <img src="AFNJP.jpg" alt="AFNJP Mini Logo" class="nav-brand-logo">
+                <span class="nav-logo-text">AFNJP</span>
+            </a>
             <div class="nav-links">
                 <a href="#features" class="nav-link">Features</a>
                 <a href="#channels" class="nav-link">Channels</a>
@@ -691,9 +1116,21 @@
     <section class="hero">
         <div class="hero-inner">
             <div id="heroCard">
-                <div class="glass-card">
-                    <div class="logo-wrapper">
-                        <div class="logo-glow"></div>
+                <div class="tech-panel">
+                    
+                    <!-- Digital Dashboard Indicator -->
+                    <div class="status-indicator-bar">
+                        <span class="status-badge">
+                            <span class="status-pulse-dot"></span>SYSTEM: ONLINE
+                        </span>
+                        <span class="status-divider">|</span>
+                        <span class="status-timestamp">EST. SEP 2025</span>
+                    </div>
+
+                    <!-- Glowing Inverted Circular Logo -->
+                    <div class="logo-container">
+                        <div class="logo-orbit"></div>
+                        <div class="logo-orbit-2"></div>
                         <img src="AFNJP.jpg" alt="AI Frontier News JP Logo" class="logo-img">
                     </div>
 
@@ -703,6 +1140,7 @@
                         どこよりも分かりやすくキャッチアップできる場所。
                     </p>
 
+                    <!-- Advanced Counters Grid -->
                     <div class="stats-row">
                         <div class="stat-item">
                             <div class="stat-number" id="memberCount">0+</div>
@@ -719,10 +1157,10 @@
                     </div>
 
                     <div class="actions">
-                        <a href="https://discord.gg/B3eJAX6mnN" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+                        <a href="https://discord.gg/B3eJAX6mnN" target="_blank" rel="noopener noreferrer" class="btn-cyber btn-cyber-primary">
                             Discordに参加する
                         </a>
-                        <a href="https://twitter.com/AI_FrontierNews" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+                        <a href="https://twitter.com/AI_FrontierNews" target="_blank" rel="noopener noreferrer" class="btn-cyber btn-cyber-secondary">
                             公式X (Twitter) を見る
                         </a>
                     </div>
@@ -741,22 +1179,25 @@
             </div>
 
             <div class="features-grid">
-                <div class="glass-card feature-card reveal reveal-delay-1">
-                    <div class="feature-icon fi-green">📰</div>
+                <!-- Card 1: Daily Report -->
+                <div class="tech-panel feature-card reveal reveal-delay-1">
+                    <div class="feature-icon-box fc-cyan">📰</div>
                     <div class="feature-title">デイリーレポート</div>
-                    <p class="feature-desc">毎日のAIニュースをBotが自動で要約・配信。忙しい日常でも最新情報を見逃しません。</p>
-                    <span class="feature-badge badge-green">毎日配信</span>
+                    <p class="feature-desc">毎日のAIニュースをBotが自動で要約・配信。忙しい日常でも世界の最新情報を見逃しません。</p>
+                    <span class="feature-badge badge-cyan">毎日配信</span>
                 </div>
 
-                <div class="glass-card feature-card reveal reveal-delay-2">
-                    <div class="feature-icon fi-blue">🏆</div>
-                    <div class="feature-title">週刊AIニュースランキング</div>
-                    <p class="feature-desc">メンバーのリアクション数をBotが自動集計し、毎週「今週のホットニュース Best 3」を配信。集合知でニュースの重要度を可視化します。</p>
-                    <span class="feature-badge badge-blue">毎週更新</span>
+                <!-- Card 2: Weekly Ranking -->
+                <div class="tech-panel feature-card reveal reveal-delay-2">
+                    <div class="feature-icon-box fc-purple">🏆</div>
+                    <div class="feature-title">週刊ニュースランキング</div>
+                    <p class="feature-desc">メンバーのリアクション数をBotが自動集計し、「今週のホットニュース Best 3」を毎週配信。集合知でニュースを可視化します。</p>
+                    <span class="feature-badge badge-purple">毎週更新</span>
                 </div>
 
-                <div class="glass-card feature-card reveal reveal-delay-3">
-                    <div class="feature-icon fi-orange">🗂️</div>
+                <!-- Card 3: Channel Structure -->
+                <div class="tech-panel feature-card reveal reveal-delay-3">
+                    <div class="feature-icon-box fc-orange">🗂️</div>
                     <div class="feature-title">構造化チャンネル</div>
                     <p class="feature-desc">企業別・モデル別に専用チャンネルを完備。OpenAI・Google・Anthropicなど、必要な情報に即座にアクセスできます。</p>
                     <span class="feature-badge badge-orange">30+ チャンネル</span>
@@ -771,198 +1212,230 @@
             <div class="section-header reveal">
                 <div class="section-label">Channels</div>
                 <h2 class="section-title">チャンネル構成 <span class="live-badge"><span class="live-dot"></span>随時更新中</span></h2>
-                <p class="section-sub">企業・サービス・モデル別に情報を整理。新しいAIが登場するたびにチャンネルを拡充しています。</p>
+                <p class="section-sub">企業・サービス・モデル別に情報を整理。新しいAIが登場するたびにチャンネルを瞬時に拡充しています。</p>
             </div>
 
-            <div class="channels-stack">
-
-                <!-- Google -->
-                <div class="glass-card company-card accordion-card reveal" data-accordion>
-                    <div class="company-header">
-                        <div class="company-dot dot-google"></div>
-                        <div class="company-name">Google</div>
-                        <span class="accordion-arrow">▾</span>
+            <!-- Terminal System Directory style channel explorer -->
+            <div class="explorer-terminal reveal">
+                
+                <!-- Terminal Header Bar -->
+                <div class="terminal-header">
+                    <div class="terminal-dots">
+                        <span class="t-dot t-red"></span>
+                        <span class="t-dot t-yellow"></span>
+                        <span class="t-dot t-green"></span>
                     </div>
-                    <div class="accordion-body">
-                        <div class="channels-tags">
-                            <span class="channel-tag"># google</span>
-                            <span class="channel-tag"># gemini</span>
-                            <span class="channel-tag"># geminicli</span>
-                            <span class="channel-tag"># antigravity</span>
-                            <span class="channel-tag"># jules</span>
-                            <span class="channel-tag"># firebase</span>
-                            <span class="channel-tag"># google-ai-studio</span>
-                            <span class="channel-tag"># notebook-lm</span>
-                            <span class="channel-tag"># google-labs</span>
-                            <span class="channel-tag"># stitch</span>
-                            <span class="channel-tag-more">など</span>
-                        </div>
-                    </div>
+                    <span class="terminal-title">AFNJP SYSTEM DIRECTORY</span>
+                    <div style="width: 32px;"></div> <!-- Spacer to center title -->
                 </div>
 
-                <!-- OpenAI -->
-                <div class="glass-card company-card accordion-card reveal" data-accordion>
-                    <div class="company-header">
-                        <div class="company-dot dot-openai"></div>
-                        <div class="company-name">OpenAI</div>
-                        <span class="accordion-arrow">▾</span>
-                    </div>
-                    <div class="accordion-body">
-                        <div class="channels-tags">
-                            <span class="channel-tag"># open-ai</span>
-                            <span class="channel-tag"># chatgpt</span>
-                            <span class="channel-tag"># codex</span>
-                            <span class="channel-tag"># sora</span>
-                            <span class="channel-tag-more">など</span>
-                        </div>
-                    </div>
-                </div>
+                <div class="channels-stack">
 
-                <!-- Anthropic -->
-                <div class="glass-card company-card accordion-card reveal" data-accordion>
-                    <div class="company-header">
-                        <div class="company-dot dot-anthropic"></div>
-                        <div class="company-name">Anthropic</div>
-                        <span class="accordion-arrow">▾</span>
-                    </div>
-                    <div class="accordion-body">
-                        <div class="channels-tags">
-                            <span class="channel-tag"># anthropic</span>
-                            <span class="channel-tag"># claude</span>
-                            <span class="channel-tag"># claude-code</span>
-                            <span class="channel-tag-more">など</span>
+                    <!-- Google -->
+                    <div class="explorer-row active-folder" data-explorer-item>
+                        <div class="explorer-header">
+                            <span class="explorer-icon">📁</span>
+                            <div class="company-led led-google"></div>
+                            <div class="company-name">Google</div>
+                            <span class="explorer-arrow">▼</span>
                         </div>
-                    </div>
-                </div>
-
-                <!-- Smaller companies grid -->
-                <div class="companies-grid reveal">
-                    <div class="glass-card company-card accordion-card" data-accordion>
-                        <div class="company-header">
-                            <div class="company-dot dot-xai"></div>
-                            <div class="company-name">xAI</div>
-                            <span class="accordion-arrow">▾</span>
-                        </div>
-                        <div class="accordion-body">
+                        <div class="explorer-body">
                             <div class="channels-tags">
-                                <span class="channel-tag"># grok</span>
-                                <span class="channel-tag"># grok-code</span>
-                                <span class="channel-tag-more">など</span>
+                                <span class="channel-tag">google</span>
+                                <span class="channel-tag">gemini</span>
+                                <span class="channel-tag">geminicli</span>
+                                <span class="channel-tag">antigravity</span>
+                                <span class="channel-tag">jules</span>
+                                <span class="channel-tag">firebase</span>
+                                <span class="channel-tag">google-ai-studio</span>
+                                <span class="channel-tag">notebook-lm</span>
+                                <span class="channel-tag">google-labs</span>
+                                <span class="channel-tag">stitch</span>
+                                <span class="channel-tag-more">and more...</span>
                             </div>
                         </div>
                     </div>
-                    <div class="glass-card company-card accordion-card" data-accordion>
-                        <div class="company-header">
-                            <div class="company-dot dot-microsoft"></div>
-                            <div class="company-name">Microsoft</div>
-                            <span class="accordion-arrow">▾</span>
+
+                    <!-- OpenAI -->
+                    <div class="explorer-row collapsed" data-explorer-item>
+                        <div class="explorer-header">
+                            <span class="explorer-icon">📁</span>
+                            <div class="company-led led-openai"></div>
+                            <div class="company-name">OpenAI</div>
+                            <span class="explorer-arrow">▼</span>
                         </div>
-                        <div class="accordion-body">
+                        <div class="explorer-body">
                             <div class="channels-tags">
-                                <span class="channel-tag"># microsoft</span>
-                                <span class="channel-tag"># copilot</span>
-                                <span class="channel-tag-more">など</span>
+                                <span class="channel-tag">open-ai</span>
+                                <span class="channel-tag">chatgpt</span>
+                                <span class="channel-tag">codex</span>
+                                <span class="channel-tag">sora</span>
+                                <span class="channel-tag-more">and more...</span>
                             </div>
                         </div>
                     </div>
-                    <div class="glass-card company-card accordion-card" data-accordion>
-                        <div class="company-header">
-                            <div class="company-dot dot-meta"></div>
-                            <div class="company-name">Meta</div>
-                            <span class="accordion-arrow">▾</span>
+
+                    <!-- Anthropic -->
+                    <div class="explorer-row collapsed" data-explorer-item>
+                        <div class="explorer-header">
+                            <span class="explorer-icon">📁</span>
+                            <div class="company-led led-anthropic"></div>
+                            <div class="company-name">Anthropic</div>
+                            <span class="explorer-arrow">▼</span>
                         </div>
-                        <div class="accordion-body">
+                        <div class="explorer-body">
                             <div class="channels-tags">
-                                <span class="channel-tag"># meta</span>
-                                <span class="channel-tag"># manus</span>
-                                <span class="channel-tag-more">など</span>
+                                <span class="channel-tag">anthropic</span>
+                                <span class="channel-tag">claude</span>
+                                <span class="channel-tag">claude-code</span>
+                                <span class="channel-tag-more">and more...</span>
                             </div>
                         </div>
                     </div>
-                    <div class="glass-card company-card accordion-card" data-accordion>
-                        <div class="company-header">
-                            <div class="company-dot dot-alibaba"></div>
-                            <div class="company-name">Alibaba</div>
-                            <span class="accordion-arrow">▾</span>
+
+                    <!-- Smaller companies grid inside Terminal -->
+                    <div class="companies-grid">
+                        
+                        <!-- xAI -->
+                        <div class="explorer-row collapsed" data-explorer-item>
+                            <div class="explorer-header">
+                                <span class="explorer-icon">📁</span>
+                                <div class="company-led led-xai"></div>
+                                <div class="company-name">xAI</div>
+                                <span class="explorer-arrow">▼</span>
+                            </div>
+                            <div class="explorer-body">
+                                <div class="channels-tags">
+                                    <span class="channel-tag">grok</span>
+                                    <span class="channel-tag">grok-code</span>
+                                    <span class="channel-tag-more">など</span>
+                                </div>
+                            </div>
                         </div>
-                        <div class="accordion-body">
-                            <div class="channels-tags">
-                                <span class="channel-tag"># alibaba</span>
-                                <span class="channel-tag"># qwen</span>
-                                <span class="channel-tag"># qwen-code</span>
-                                <span class="channel-tag-more">など</span>
+
+                        <!-- Microsoft -->
+                        <div class="explorer-row collapsed" data-explorer-item>
+                            <div class="explorer-header">
+                                <span class="explorer-icon">📁</span>
+                                <div class="company-led led-microsoft"></div>
+                                <div class="company-name">Microsoft</div>
+                                <span class="explorer-arrow">▼</span>
+                            </div>
+                            <div class="explorer-body">
+                                <div class="channels-tags">
+                                    <span class="channel-tag">microsoft</span>
+                                    <span class="channel-tag">copilot</span>
+                                    <span class="channel-tag-more">など</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Meta -->
+                        <div class="explorer-row collapsed" data-explorer-item>
+                            <div class="explorer-header">
+                                <span class="explorer-icon">📁</span>
+                                <div class="company-led led-meta"></div>
+                                <div class="company-name">Meta</div>
+                                <span class="explorer-arrow">▼</span>
+                            </div>
+                            <div class="explorer-body">
+                                <div class="channels-tags">
+                                    <span class="channel-tag">meta</span>
+                                    <span class="channel-tag">manus</span>
+                                    <span class="channel-tag-more">など</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Alibaba -->
+                        <div class="explorer-row collapsed" data-explorer-item>
+                            <div class="explorer-header">
+                                <span class="explorer-icon">📁</span>
+                                <div class="company-led led-alibaba"></div>
+                                <div class="company-name">Alibaba</div>
+                                <span class="explorer-arrow">▼</span>
+                            </div>
+                            <div class="explorer-body">
+                                <div class="channels-tags">
+                                    <span class="channel-tag">alibaba</span>
+                                    <span class="channel-tag">qwen</span>
+                                    <span class="channel-tag">qwen-code</span>
+                                    <span class="channel-tag-more">など</span>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
 
-                <!-- Others -->
-                <div class="glass-card company-card accordion-card reveal" data-accordion>
-                    <div class="company-header">
-                        <div class="company-dot dot-other"></div>
-                        <div class="company-name">その他（随時追加）</div>
-                        <span class="accordion-arrow">▾</span>
-                    </div>
-                    <div class="accordion-body">
-                        <div class="channels-tags">
-                            <span class="channel-tag"># kimi</span>
-                            <span class="channel-tag"># glm</span>
-                            <span class="channel-tag"># deep-seek</span>
-                            <span class="channel-tag"># mistral-ai</span>
-                            <span class="channel-tag"># hunyuan</span>
-                            <span class="channel-tag"># genspark</span>
-                            <span class="channel-tag"># perplexity</span>
-                            <span class="channel-tag"># skywork</span>
-                            <span class="channel-tag"># cursor</span>
-                            <span class="channel-tag"># wind-surf</span>
-                            <span class="channel-tag"># kiro</span>
-                            <span class="channel-tag"># qoder</span>
-                            <span class="channel-tag"># open-code</span>
-                            <span class="channel-tag"># eleven-labs</span>
-                            <span class="channel-tag-more">新しいAIが登場次第、追加...</span>
+                    <!-- Others (Accordion item) -->
+                    <div class="explorer-row collapsed" data-explorer-item>
+                        <div class="explorer-header">
+                            <span class="explorer-icon">📁</span>
+                            <div class="company-led led-other"></div>
+                            <div class="company-name">その他 (随時追加)</div>
+                            <span class="explorer-arrow">▼</span>
+                        </div>
+                        <div class="explorer-body">
+                            <div class="channels-tags">
+                                <span class="channel-tag">kimi</span>
+                                <span class="channel-tag">glm</span>
+                                <span class="channel-tag">deep-seek</span>
+                                <span class="channel-tag">mistral-ai</span>
+                                <span class="channel-tag">hunyuan</span>
+                                <span class="channel-tag">genspark</span>
+                                <span class="channel-tag">perplexity</span>
+                                <span class="channel-tag">skywork</span>
+                                <span class="channel-tag">cursor</span>
+                                <span class="channel-tag">wind-surf</span>
+                                <span class="channel-tag">kiro</span>
+                                <span class="channel-tag">qoder</span>
+                                <span class="channel-tag">open-code</span>
+                                <span class="channel-tag">eleven-labs</span>
+                                <span class="channel-tag-more">新しいAIが登場次第、即時追加...</span>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <!-- Model Comparison -->
-                <div class="glass-card company-card accordion-card reveal" data-accordion>
-                    <div class="company-header">
-                        <div class="company-dot dot-model"></div>
-                        <div class="company-name">モデル比較</div>
-                        <span class="accordion-arrow">▾</span>
-                    </div>
-                    <div class="accordion-body">
-                        <div class="channels-tags">
-                            <span class="channel-tag"># text</span>
-                            <span class="channel-tag"># webdev</span>
-                            <span class="channel-tag"># vision</span>
-                            <span class="channel-tag"># text-to-image</span>
-                            <span class="channel-tag"># image-edit</span>
-                            <span class="channel-tag"># search</span>
-                            <span class="channel-tag"># text-to-video</span>
-                            <span class="channel-tag"># image-to-video</span>
-                            <span class="channel-tag"># copilot</span>
-                            <span class="channel-tag"># open-model-ranked</span>
-                            <span class="channel-tag"># arena-expert</span>
-                            <span class="channel-tag-more">など</span>
+                    <!-- Model Comparison (Accordion item) -->
+                    <div class="explorer-row collapsed" data-explorer-item>
+                        <div class="explorer-header">
+                            <span class="explorer-icon">📁</span>
+                            <div class="company-led led-model"></div>
+                            <div class="company-name">モデル比較</div>
+                            <span class="explorer-arrow">▼</span>
+                        </div>
+                        <div class="explorer-body">
+                            <div class="channels-tags">
+                                <span class="channel-tag">text</span>
+                                <span class="channel-tag">webdev</span>
+                                <span class="channel-tag">vision</span>
+                                <span class="channel-tag">text-to-image</span>
+                                <span class="channel-tag">image-edit</span>
+                                <span class="channel-tag">search</span>
+                                <span class="channel-tag">text-to-video</span>
+                                <span class="channel-tag">image-to-video</span>
+                                <span class="channel-tag">copilot</span>
+                                <span class="channel-tag">open-model-ranked</span>
+                                <span class="channel-tag">arena-expert</span>
+                                <span class="channel-tag-more">and more...</span>
+                            </div>
                         </div>
                     </div>
-                </div>
 
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- ════ CTA ════ -->
+    <!-- ════ CALL TO ACTION (CTA) ════ -->
     <section class="cta-section">
         <div class="page-wrapper">
-            <div class="glass-card cta-card reveal">
-                <p class="section-label">Join Us</p>
+            <div class="tech-panel cta-card reveal">
+                <span class="section-label">JOIN NETWORK</span>
                 <h2 class="cta-title">AIの最前線を、一緒に追いかけよう</h2>
                 <p class="cta-description">
-                    150名以上のメンバーが集まるコミュニティで、<br>
-                    最新のAIニュースをどこよりも分かりやすくキャッチアップ。<br>
-                    <span style="font-size: 0.85rem; color: rgba(240,244,248,0.35);">コミュニティは進化し続けています。あなたの参加をお待ちしています。</span>
+                    150名以上の最先端メンバーが集うフロンティア・コミュニティで、<br>
+                    世界中の最新AIニュースをどこよりも分かりやすくキャッチアップ。<br>
+                    <span style="font-size: 0.85rem; color: var(--text-dim);">コミュニティは進化し続けています。あなたのジョインをお待ちしています。</span>
                 </p>
                 <a href="https://discord.gg/B3eJAX6mnN" target="_blank" rel="noopener noreferrer" class="btn-cta">
                     Discordに参加する
@@ -971,7 +1444,7 @@
         </div>
     </section>
 
-    <!-- ════ MOBILE CTA BAR ════ -->
+    <!-- ════ MOBILE STICKY ACTION BAR ════ -->
     <div class="mobile-cta-bar" id="mobileCta">
         <a href="https://discord.gg/B3eJAX6mnN" target="_blank" rel="noopener noreferrer" class="btn-cta">
             Discordに参加する
@@ -982,12 +1455,17 @@
     <footer>
         <div class="page-wrapper">
             <div class="footer-inner">
+                <div class="footer-brand">
+                    <img src="AFNJP.jpg" alt="AFNJP Small Logo" class="footer-logo">
+                    <span class="footer-logo-text">AI Frontier News JP</span>
+                </div>
                 <div class="footer-links">
                     <a href="https://discord.gg/B3eJAX6mnN" target="_blank" rel="noopener noreferrer" class="footer-link">Discord</a>
                     <a href="https://twitter.com/AI_FrontierNews" target="_blank" rel="noopener noreferrer" class="footer-link">X (Twitter)</a>
                 </div>
                 <div class="footer-meta">
-                    &copy; 2025–2026 AI Frontier News JP &nbsp;|&nbsp; Admin &amp; Dev Team &nbsp;|&nbsp; Est. September 2025
+                    &copy; 2025–2026 AI Frontier News JP &nbsp;|&nbsp; Admin &amp; Dev Team<br>
+                    <span style="color: var(--text-dim); font-size: 0.7rem;">Est. September 2025</span>
                 </div>
             </div>
         </div>
@@ -995,28 +1473,48 @@
 
     <script>
         const heroCard = document.getElementById('heroCard');
+        const pointerGlow = document.getElementById('pointerGlow');
         const isTouchDevice = window.matchMedia('(hover: none)').matches;
 
-        // ── 1. Page Load Animation ──
+        // ── 1. Page Load Initial Animation ──
         window.addEventListener('load', () => {
             setTimeout(() => {
                 document.querySelector('.hero-inner').classList.add('page-loaded');
-            }, 80);
+            }, 100);
         });
 
-        // ── 2. 3D Tilt: desktop mouse ──
+        // ── 2. Interactive Pointer-Glow Tracking ──
         if (!isTouchDevice) {
-            document.addEventListener('mousemove', (e) => {
-                const xAxis = (window.innerWidth / 2 - e.pageX) / 30;
-                const yAxis = (window.innerHeight / 2 - e.pageY) / 30;
-                heroCard.style.transform = `rotateY(${xAxis}deg) rotateX(${yAxis}deg)`;
+            window.addEventListener('mousemove', (e) => {
+                pointerGlow.style.setProperty('--mouse-x', `${e.clientX}px`);
+                pointerGlow.style.setProperty('--mouse-y', `${e.clientY}px`);
             });
-            document.addEventListener('mouseleave', () => {
-                heroCard.style.transform = 'rotateY(0deg) rotateX(0deg)';
-            });
+        } else {
+            pointerGlow.style.display = 'none'; // Disable pointer glow on touch devices
         }
 
-        // ── 3. Gyroscope tilt: mobile ──
+        // ── 3. Premium Eased 3D Tilt for Hero Card ──
+        if (!isTouchDevice) {
+            const handleHeroTilt = (e) => {
+                const rect = heroCard.getBoundingClientRect();
+                const x = e.clientX - rect.left - rect.width/2;
+                const y = e.clientY - rect.top - rect.height/2;
+                // Eased tilt angles (maximum 8 degrees)
+                const rotateX = -(y / (rect.height/2)) * 8;
+                const rotateY = (x / (rect.width/2)) * 8;
+                
+                heroCard.style.transform = `rotateX(${rotateX}deg) rotateY(${rotateY}deg)`;
+            };
+
+            const resetHeroTilt = () => {
+                heroCard.style.transform = 'rotateX(0deg) rotateY(0deg)';
+            };
+
+            heroCard.addEventListener('mousemove', handleHeroTilt);
+            heroCard.addEventListener('mouseleave', resetHeroTilt);
+        }
+
+        // ── 4. Mobile Gyroscope tilt ──
         if (isTouchDevice && window.DeviceOrientationEvent) {
             const handleOrientation = (e) => {
                 if (e.gamma === null) return;
@@ -1027,7 +1525,6 @@
 
             const startGyro = () => {
                 if (typeof DeviceOrientationEvent.requestPermission === 'function') {
-                    // iOS 13+ requires explicit permission
                     DeviceOrientationEvent.requestPermission()
                         .then(state => {
                             if (state === 'granted') {
@@ -1039,19 +1536,17 @@
                     window.addEventListener('deviceorientation', handleOrientation);
                 }
             };
-
-            // Trigger on first touch (iOS needs user gesture for permission)
             document.addEventListener('touchstart', startGyro, { once: true });
         }
 
-        // ── Count-up animation ──
-        function countUp(el, target, duration = 1800) {
+        // ── 5. Slick Eased Counter Count-Up ──
+        function countUp(el, target, duration = 2000) {
             const start = performance.now();
             const update = (now) => {
                 const elapsed = now - start;
                 const progress = Math.min(elapsed / duration, 1);
-                // ease out cubic
-                const eased = 1 - Math.pow(1 - progress, 3);
+                // quartic ease-out
+                const eased = 1 - Math.pow(1 - progress, 4);
                 el.textContent = Math.floor(eased * target) + '+';
                 if (progress < 1) requestAnimationFrame(update);
             };
@@ -1064,36 +1559,58 @@
             entries.forEach(entry => {
                 if (entry.isIntersecting && !counted) {
                     counted = true;
-                    setTimeout(() => countUp(memberCountEl, 150), 400);
+                    setTimeout(() => countUp(memberCountEl, 150), 300);
                 }
             });
         }, { threshold: 0.5 });
         countObserver.observe(memberCountEl);
 
-        // ── Sticky Nav + Mobile CTA Bar ──
+        // ── 6. Header Nav & Mobile Action Bar Reveal ──
         const stickyNav = document.getElementById('stickyNav');
         const mobileCta = document.getElementById('mobileCta');
         const heroHeight = window.innerHeight;
         window.addEventListener('scroll', () => {
-            const pastHero = window.scrollY > heroHeight * 0.6;
+            const pastHero = window.scrollY > heroHeight * 0.5;
             stickyNav.classList.toggle('nav-visible', pastHero);
             mobileCta.classList.toggle('bar-visible', pastHero);
         }, { passive: true });
 
-        // ── Accordion ──
-        document.querySelectorAll('[data-accordion]').forEach(card => {
-            const header = card.querySelector('.company-header');
+        // ── 7. Modern Explorer Terminal Accordion Logic ──
+        document.querySelectorAll('[data-explorer-item]').forEach(row => {
+            const header = row.querySelector('.explorer-header');
             header.addEventListener('click', () => {
-                card.classList.toggle('collapsed');
+                const isCollapsed = row.classList.contains('collapsed');
+                
+                // Optional: Close other folders for a single open accordian flow
+                // document.querySelectorAll('[data-explorer-item]').forEach(r => {
+                //     r.classList.add('collapsed');
+                //     r.classList.remove('active-folder');
+                //     const folderIcon = r.querySelector('.explorer-icon');
+                //     if (folderIcon) folderIcon.textContent = '📁';
+                // });
+
+                if (isCollapsed) {
+                    row.classList.remove('collapsed');
+                    row.classList.add('active-folder');
+                    row.querySelector('.explorer-icon').textContent = '📂';
+                } else {
+                    row.classList.add('collapsed');
+                    row.classList.remove('active-folder');
+                    row.querySelector('.explorer-icon').textContent = '📁';
+                }
             });
         });
 
-        // ── Scroll Reveal ──
+        // ── 8. Intersection Scroll Reveal ──
         const revealObserver = new IntersectionObserver((entries) => {
             entries.forEach(entry => {
-                if (entry.isIntersecting) entry.target.classList.add('visible');
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                    // Unobserve to run animation only once
+                    revealObserver.unobserve(entry.target);
+                }
             });
-        }, { threshold: 0.08 });
+        }, { threshold: 0.1 });
 
         document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
     </script>
