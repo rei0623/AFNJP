@@ -24,20 +24,39 @@
     <meta name="twitter:image:alt" content="AI Frontier News JP コミュニティアイコン">
     <link rel="canonical" href="https://rei0623.github.io/AFNJP/">
     <link rel="icon" href="AFNJP.jpg" type="image/jpeg">
-    
-    <!-- Premium Fonts -->
+
+    <!-- Structured Data (Organization) -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "AI Frontier News JP",
+        "alternateName": "AFNJP",
+        "url": "https://rei0623.github.io/AFNJP/",
+        "logo": "https://rei0623.github.io/AFNJP/AFNJP.jpg",
+        "description": "世界の最新AIニュースを、日本語で、どこよりも分かりやすくキャッチアップできるDiscordコミュニティ。",
+        "foundingDate": "2025-09",
+        "sameAs": [
+            "https://twitter.com/AI_FrontierNews",
+            "https://discord.gg/B3eJAX6mnN"
+        ]
+    }
+    </script>
+
+    <!-- Premium Fonts (weights trimmed for performance) -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;800;900&family=Space+Grotesk:wght@400;500;600;700&family=Zen+Kaku+Gothic+New:wght@300;400;500;700&family=Shippori+Mincho:wght@500;700&display=swap" rel="stylesheet">
-    
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700;900&family=Space+Grotesk:wght@400;500;700&family=Zen+Kaku+Gothic+New:wght@400;700&family=Shippori+Mincho:wght@600;700&display=swap" rel="stylesheet">
+
     <style>
         :root {
             --bg-deep: #020204;
             --bg-panel: rgba(8, 8, 14, 0.75);
+            /* Color system: cyan = primary / purple = support / green = live-status only */
             --accent-cyan: #00f0ff;
             --accent-purple: #7d00ff;
-            --accent-green: #39ff14;
-            --accent-orange: #ff9d00;
+            --accent-purple-soft: #a86bff;
+            --accent-live: #39ff14;
             --glass-border: rgba(255, 255, 255, 0.05);
             --glass-border-glow: rgba(0, 240, 255, 0.15);
             --text-main: #ffffff;
@@ -66,7 +85,7 @@
             position: fixed;
             inset: 0;
             z-index: -3;
-            background-image: 
+            background-image:
                 radial-gradient(circle at center, transparent 15%, var(--bg-deep) 90%),
                 linear-gradient(to right, rgba(255, 255, 255, 0.02) 1px, transparent 1px),
                 linear-gradient(to bottom, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
@@ -97,7 +116,7 @@
             pointer-events: none;
         }
 
-        /* Decorative Circuit Lines (Animated SVG Backgrounds) */
+        /* Decorative Circuit Lines */
         .decor-circuit {
             position: absolute;
             width: 100%;
@@ -107,7 +126,6 @@
             pointer-events: none;
             opacity: 0.25;
         }
-
         .circuit-path {
             stroke: var(--accent-cyan);
             stroke-width: 1.5;
@@ -116,22 +134,96 @@
             stroke-dashoffset: 600;
             animation: drawCircuit 12s infinite linear;
         }
-
         .circuit-node {
             fill: var(--accent-cyan);
-            box-shadow: 0 0 8px var(--accent-cyan);
             animation: pulseNode 3s infinite ease-in-out;
         }
-
         @keyframes drawCircuit {
             0% { stroke-dashoffset: 600; }
             50% { stroke-dashoffset: 0; }
             100% { stroke-dashoffset: -600; }
         }
-
         @keyframes pulseNode {
             0%, 100% { transform: scale(1); opacity: 0.6; }
             50% { transform: scale(1.3); opacity: 1; }
+        }
+
+        /* ════════════════════════
+           NEWS TICKER (TOP STRIP)
+        ════════════════════════ */
+        .news-ticker {
+            position: relative;
+            z-index: 5;
+            display: flex;
+            align-items: center;
+            border-bottom: 1px solid var(--glass-border);
+            background: rgba(2, 2, 4, 0.9);
+            overflow: hidden;
+            height: 38px;
+        }
+        .ticker-label {
+            flex-shrink: 0;
+            display: flex;
+            align-items: center;
+            gap: 0.45rem;
+            height: 100%;
+            padding: 0 1rem;
+            font-family: var(--font-logo);
+            font-size: 0.6rem;
+            font-weight: 700;
+            letter-spacing: 0.18em;
+            color: var(--accent-cyan);
+            background: rgba(0, 240, 255, 0.05);
+            border-right: 1px solid var(--glass-border);
+            white-space: nowrap;
+        }
+        .ticker-label-dot {
+            width: 5px; height: 5px;
+            border-radius: 50%;
+            background: var(--accent-live);
+            box-shadow: 0 0 6px var(--accent-live);
+            animation: pulseGreen 1.8s infinite;
+        }
+        .ticker-viewport {
+            flex: 1;
+            overflow: hidden;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            mask-image: linear-gradient(to right, transparent, #000 4%, #000 96%, transparent);
+            -webkit-mask-image: linear-gradient(to right, transparent, #000 4%, #000 96%, transparent);
+        }
+        .ticker-track {
+            display: flex;
+            flex-shrink: 0;
+            align-items: center;
+            white-space: nowrap;
+            animation: tickerScroll 38s linear infinite;
+        }
+        .news-ticker:hover .ticker-track { animation-play-state: paused; }
+        .ticker-item {
+            font-family: var(--font-logo);
+            font-size: 0.66rem;
+            letter-spacing: 0.12em;
+            color: var(--text-muted);
+            padding: 0 1.6rem;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.6rem;
+        }
+        .ticker-item::after {
+            content: '//';
+            color: var(--text-dim);
+            margin-left: 1.6rem;
+            font-weight: 700;
+        }
+        .ticker-item strong {
+            color: var(--accent-cyan);
+            font-weight: 700;
+        }
+        @keyframes tickerScroll {
+            from { transform: translateX(0); }
+            to   { transform: translateX(-50%); }
         }
 
         /* ════════════════════════
@@ -144,9 +236,7 @@
             transform: translateY(-100%);
             transition: transform 0.5s var(--ease-out-expo), background 0.3s ease;
         }
-        .sticky-nav.nav-visible {
-            transform: translateY(0);
-        }
+        .sticky-nav.nav-visible { transform: translateY(0); }
         .nav-inner {
             max-width: 1000px;
             margin: 0 auto;
@@ -181,7 +271,6 @@
             font-family: var(--font-logo);
             font-size: 0.95rem;
             font-weight: 700;
-            color: #ffffff;
             letter-spacing: 0.08em;
             background: linear-gradient(90deg, #ffffff, var(--accent-cyan));
             -webkit-background-clip: text;
@@ -212,7 +301,7 @@
         }
         .nav-link:hover { color: #ffffff; }
         .nav-link:hover::after { width: 100%; }
-        
+
         .nav-cta {
             font-size: 0.82rem;
             font-weight: 700;
@@ -226,9 +315,9 @@
             letter-spacing: 0.08em;
             text-transform: uppercase;
         }
-        .nav-cta:hover { 
-            background: #ffffff; 
-            box-shadow: 0 0 25px rgba(255, 255, 255, 0.4); 
+        .nav-cta:hover {
+            background: #ffffff;
+            box-shadow: 0 0 25px rgba(255, 255, 255, 0.4);
             transform: translateY(-1px);
         }
 
@@ -259,8 +348,6 @@
             border-color: var(--glass-border-glow);
             box-shadow: 0 30px 80px rgba(0,0,0,0.8), 0 0 25px rgba(0, 240, 255, 0.03), inset 0 1px 0 rgba(255,255,255,0.08);
         }
-        
-        /* Cyberpunk Corner Elements */
         .tech-panel::after {
             content: '';
             position: absolute;
@@ -285,9 +372,7 @@
             opacity: 0.4;
             transition: opacity 0.3s;
         }
-        .tech-panel:hover::after, .tech-panel:hover::before {
-            opacity: 1;
-        }
+        .tech-panel:hover::after, .tech-panel:hover::before { opacity: 1; }
 
         /* ── Scroll Reveal ── */
         .reveal {
@@ -331,7 +416,7 @@
             background-clip: text;
         }
 
-        /* ── Live Badge ── */
+        /* ── Live Badge (green reserved for live status) ── */
         .live-badge {
             display: inline-flex;
             align-items: center;
@@ -343,7 +428,7 @@
             font-weight: 700;
             background: rgba(57, 255, 20, 0.08);
             border: 1px solid rgba(57, 255, 20, 0.2);
-            color: var(--accent-green);
+            color: var(--accent-live);
             margin-left: 0.8rem;
             vertical-align: middle;
             letter-spacing: 0.08em;
@@ -352,10 +437,10 @@
         .live-dot {
             width: 6px; height: 6px;
             border-radius: 50%;
-            background: var(--accent-green);
+            background: var(--accent-live);
             flex-shrink: 0;
             animation: pulseGreen 1.8s infinite;
-            box-shadow: 0 0 8px var(--accent-green);
+            box-shadow: 0 0 8px var(--accent-live);
         }
         @keyframes pulseGreen {
             0%, 100% { opacity: 1; transform: scale(1); }
@@ -366,15 +451,15 @@
            HERO SECTION
         ════════════════════════ */
         .hero {
-            min-height: 100vh;
+            min-height: calc(100vh - 38px);
             display: grid;
             place-items: center;
-            padding: 6rem 1.5rem 4rem;
+            padding: 4rem 1.5rem 4rem;
             position: relative;
         }
         .hero-inner {
             width: 100%;
-            max-width: 550px;
+            max-width: 580px;
             text-align: center;
             perspective: 1000px;
         }
@@ -383,8 +468,8 @@
             transition: transform 0.25s var(--ease-out-expo);
             will-change: transform;
         }
-        #heroCard .tech-panel { 
-            padding: 4rem 2.5rem 3.5rem; 
+        #heroCard .tech-panel {
+            padding: 3.5rem 2.5rem 3rem;
         }
 
         /* System Status Bar */
@@ -392,6 +477,7 @@
             display: flex;
             align-items: center;
             justify-content: center;
+            flex-wrap: wrap;
             gap: 0.75rem;
             margin-bottom: 2rem;
             font-family: var(--font-logo);
@@ -417,16 +503,13 @@
             0%, 100% { opacity: 1; }
             50% { opacity: 0.4; }
         }
-        .status-divider {
-            color: var(--text-dim);
-            font-weight: 300;
-        }
+        .status-divider { color: var(--text-dim); font-weight: 300; }
 
-        /* Inverted Logo integration with circuit animations */
+        /* Inverted Logo with orbit rings */
         .logo-container {
             position: relative;
-            width: 140px; height: 140px;
-            margin: 0 auto 2rem;
+            width: 120px; height: 120px;
+            margin: 0 auto 1.75rem;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -441,7 +524,6 @@
             width: 100%; height: 100%;
             border-radius: 50%;
             object-fit: cover;
-            /* Inverts white background to black, and black lines to pure glowing white */
             filter: invert(0.94) contrast(1.1) brightness(1.25);
             transition: all 0.5s var(--ease-out-expo);
             border: 1px solid rgba(255, 255, 255, 0.05);
@@ -450,8 +532,6 @@
             transform: scale(1.06) rotate(6deg);
             filter: invert(0.94) contrast(1.2) brightness(1.5) drop-shadow(0 0 10px rgba(0, 240, 255, 0.5));
         }
-        
-        /* Circuit Glow Loop Orbiting Logo */
         .logo-orbit {
             position: absolute;
             inset: -8px;
@@ -469,7 +549,6 @@
             border-radius: 50%;
             box-shadow: 0 0 10px var(--accent-cyan);
         }
-
         .logo-orbit-2 {
             position: absolute;
             inset: -16px;
@@ -478,35 +557,57 @@
             animation: orbitSpin 40s linear infinite reverse;
             pointer-events: none;
         }
-
         @keyframes orbitSpin {
             from { transform: rotate(0deg); }
             to { transform: rotate(360deg); }
         }
 
-        h1 {
+        /* Brand eyebrow (logo name now supports the JP copy) */
+        .hero-eyebrow {
             font-family: var(--font-logo);
-            font-size: 2.1rem;
-            font-weight: 800;
-            margin-bottom: 0.85rem;
-            letter-spacing: 0.06em;
-            background: linear-gradient(180deg, #ffffff 40%, #aab1c0);
+            font-size: 0.85rem;
+            font-weight: 700;
+            letter-spacing: 0.25em;
+            text-transform: uppercase;
+            margin-bottom: 1.1rem;
+            background: linear-gradient(90deg, #ffffff, var(--accent-cyan));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            transform: translateZ(15px);
+        }
+
+        /* Japanese value proposition as the main headline */
+        h1.hero-copy {
+            font-family: var(--font-serif);
+            font-size: 2.15rem;
+            font-weight: 700;
+            line-height: 1.55;
+            letter-spacing: 0.04em;
+            margin-bottom: 1rem;
+            background: linear-gradient(180deg, #ffffff 55%, #aab1c0);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
             transform: translateZ(20px);
         }
-        
+        h1.hero-copy .copy-accent {
+            background: linear-gradient(135deg, var(--accent-cyan), var(--accent-purple-soft));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
         .hero-description {
             font-size: 0.95rem;
             line-height: 1.8;
             color: var(--text-muted);
-            margin-bottom: 2rem;
+            margin-bottom: 1.75rem;
             transform: translateZ(10px);
             font-weight: 400;
         }
 
-        /* Stats Section */
+        /* Stats Section (live numbers from Discord) */
         .stats-row {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
@@ -517,9 +618,7 @@
             border-bottom: 1px solid var(--glass-border);
             transform: translateZ(15px);
         }
-        .stat-item {
-            position: relative;
-        }
+        .stat-item { position: relative; }
         .stat-item:not(:last-child)::after {
             content: '';
             position: absolute;
@@ -530,27 +629,36 @@
         .stat-number {
             font-family: var(--font-logo);
             font-size: 1.55rem;
-            font-weight: 800;
+            font-weight: 700;
             background: linear-gradient(135deg, #ffffff, var(--accent-cyan));
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
             line-height: 1.2;
             margin-bottom: 0.25rem;
-            text-shadow: 0 0 15px rgba(0, 240, 255, 0.15);
+        }
+        .stat-number.stat-live {
+            background: linear-gradient(135deg, #ffffff, var(--accent-live));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
         }
         .stat-label {
             font-size: 0.68rem;
             color: var(--text-muted);
             letter-spacing: 0.04em;
             font-weight: 500;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.3rem;
         }
+        .stat-label .live-dot { width: 5px; height: 5px; }
 
         /* Premium Cyber Action Buttons */
-        .actions { 
-            display: flex; 
-            flex-direction: column; 
-            gap: 1rem; 
+        .actions {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
             transform: translateZ(25px);
         }
         .btn-cyber {
@@ -592,9 +700,7 @@
             box-shadow: 0 0 30px rgba(0, 240, 255, 0.4);
             transform: translateY(-2px);
         }
-        .btn-cyber-primary:hover::before {
-            opacity: 1;
-        }
+        .btn-cyber-primary:hover::before { opacity: 1; }
 
         .btn-cyber-secondary {
             background: transparent;
@@ -643,9 +749,7 @@
             grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
             gap: 1.5rem;
         }
-        .feature-card { 
-            padding: 2.5rem 2rem; 
-        }
+        .feature-card { padding: 2.5rem 2rem; }
         .feature-icon-box {
             width: 52px; height: 52px;
             border-radius: 12px;
@@ -656,11 +760,8 @@
             margin-bottom: 1.5rem;
             position: relative;
         }
-        .fc-cyan   { background: rgba(0, 240, 255, 0.08);   border: 1px solid rgba(0, 240, 255, 0.2); }
+        .fc-cyan   { background: rgba(0, 240, 255, 0.08);  border: 1px solid rgba(0, 240, 255, 0.2); }
         .fc-purple { background: rgba(125, 0, 255, 0.08);  border: 1px solid rgba(125, 0, 255, 0.2); }
-        .fc-orange { background: rgba(255, 157, 0, 0.08);  border: 1px solid rgba(255, 157, 0, 0.2); }
-        
-        /* Tiny internal glow dots */
         .feature-icon-box::after {
             content: '';
             position: absolute;
@@ -668,9 +769,8 @@
             border-radius: 50%;
             top: 4px; right: 4px;
         }
-        .fc-cyan::after { background: var(--accent-cyan); box-shadow: 0 0 6px var(--accent-cyan); }
+        .fc-cyan::after   { background: var(--accent-cyan);   box-shadow: 0 0 6px var(--accent-cyan); }
         .fc-purple::after { background: var(--accent-purple); box-shadow: 0 0 6px var(--accent-purple); }
-        .fc-orange::after { background: var(--accent-orange); box-shadow: 0 0 6px var(--accent-orange); }
 
         .feature-title {
             font-family: var(--font-logo);
@@ -696,27 +796,142 @@
             letter-spacing: 0.06em;
             text-transform: uppercase;
         }
-        .badge-cyan   { background: rgba(0, 240, 255, 0.06);   color: var(--accent-cyan);   border: 1px solid rgba(0, 240, 255, 0.15); }
-        .badge-purple { background: rgba(125, 0, 255, 0.06);  color: #a86bff; border: 1px solid rgba(125, 0, 255, 0.15); }
-        .badge-orange { background: rgba(255, 157, 0, 0.06);  color: var(--accent-orange); border: 1px solid rgba(255, 157, 0, 0.15); }
+        .badge-cyan   { background: rgba(0, 240, 255, 0.06);  color: var(--accent-cyan);        border: 1px solid rgba(0, 240, 255, 0.15); }
+        .badge-purple { background: rgba(125, 0, 255, 0.06); color: var(--accent-purple-soft); border: 1px solid rgba(125, 0, 255, 0.15); }
 
         /* ════════════════════════
-           CHANNELS + ACCORDION (SYSTEM FILE EXPLORER STYLE)
+           SAMPLE FEED (DISCORD-STYLE PREVIEW)
         ════════════════════════ */
-        .channels-wrapper {
-            display: flex;
-            flex-direction: column;
-            gap: 1rem;
-        }
-        .explorer-terminal {
+        .feed-terminal {
             border: 1px solid var(--glass-border);
             border-radius: 20px;
             background: rgba(4, 4, 8, 0.85);
             overflow: hidden;
             box-shadow: 0 30px 70px rgba(0,0,0,0.8);
         }
-        
-        /* Terminal Header */
+        .feed-body {
+            padding: 1.75rem;
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+        .feed-message {
+            display: flex;
+            gap: 0.9rem;
+            align-items: flex-start;
+        }
+        .feed-avatar {
+            width: 40px; height: 40px;
+            flex-shrink: 0;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.1rem;
+            background: rgba(0, 240, 255, 0.08);
+            border: 1px solid rgba(0, 240, 255, 0.25);
+        }
+        .feed-avatar.av-purple {
+            background: rgba(125, 0, 255, 0.1);
+            border-color: rgba(125, 0, 255, 0.3);
+        }
+        .feed-content { flex: 1; min-width: 0; }
+        .feed-meta {
+            display: flex;
+            align-items: baseline;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-bottom: 0.5rem;
+        }
+        .feed-author {
+            font-weight: 700;
+            font-size: 0.9rem;
+            color: var(--accent-cyan);
+        }
+        .feed-author.au-purple { color: var(--accent-purple-soft); }
+        .feed-bot-tag {
+            font-family: var(--font-logo);
+            font-size: 0.55rem;
+            font-weight: 700;
+            letter-spacing: 0.08em;
+            padding: 0.1rem 0.4rem;
+            border-radius: 4px;
+            background: rgba(0, 240, 255, 0.12);
+            color: var(--accent-cyan);
+            border: 1px solid rgba(0, 240, 255, 0.2);
+        }
+        .feed-time {
+            font-size: 0.7rem;
+            color: var(--text-dim);
+        }
+        .feed-embed {
+            border-left: 3px solid var(--accent-cyan);
+            border-radius: 6px;
+            background: rgba(255, 255, 255, 0.025);
+            padding: 1rem 1.25rem;
+        }
+        .feed-embed.em-purple { border-left-color: var(--accent-purple); }
+        .feed-embed-title {
+            font-weight: 700;
+            font-size: 0.92rem;
+            color: var(--text-main);
+            margin-bottom: 0.75rem;
+        }
+        .feed-news-item {
+            font-size: 0.85rem;
+            line-height: 1.7;
+            color: var(--text-muted);
+            padding: 0.4rem 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+        }
+        .feed-news-item:last-of-type { border-bottom: none; }
+        .feed-news-item .news-source {
+            font-family: var(--font-logo);
+            font-size: 0.62rem;
+            letter-spacing: 0.08em;
+            color: var(--accent-cyan);
+            margin-right: 0.5rem;
+            text-transform: uppercase;
+        }
+        .feed-rank-item {
+            display: flex;
+            align-items: baseline;
+            gap: 0.6rem;
+            font-size: 0.85rem;
+            line-height: 1.7;
+            color: var(--text-muted);
+            padding: 0.4rem 0;
+        }
+        .feed-rank-medal { flex-shrink: 0; }
+        .feed-reactions {
+            display: flex;
+            gap: 0.5rem;
+            margin-top: 0.75rem;
+            flex-wrap: wrap;
+        }
+        .feed-reaction {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.35rem;
+            padding: 0.2rem 0.6rem;
+            border-radius: 8px;
+            font-size: 0.75rem;
+            background: rgba(0, 240, 255, 0.05);
+            border: 1px solid rgba(0, 240, 255, 0.15);
+            color: var(--text-muted);
+        }
+        .feed-note {
+            text-align: center;
+            font-size: 0.72rem;
+            color: var(--text-dim);
+            padding: 0.9rem 1.5rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.03);
+            letter-spacing: 0.05em;
+        }
+
+        /* ════════════════════════
+           TERMINAL CHROME (SHARED)
+        ════════════════════════ */
         .terminal-header {
             background: rgba(12, 12, 22, 0.9);
             border-bottom: 1px solid var(--glass-border);
@@ -725,18 +940,11 @@
             align-items: center;
             justify-content: space-between;
         }
-        .terminal-dots {
-            display: flex;
-            gap: 0.4rem;
-        }
-        .t-dot {
-            width: 8px; height: 8px;
-            border-radius: 50%;
-        }
+        .terminal-dots { display: flex; gap: 0.4rem; }
+        .t-dot { width: 8px; height: 8px; border-radius: 50%; }
         .t-red   { background: #ff5f56; }
         .t-yellow{ background: #ffbd2e; }
         .t-green { background: #27c93f; }
-        
         .terminal-title {
             font-family: var(--font-logo);
             font-size: 0.72rem;
@@ -745,31 +953,45 @@
             text-transform: uppercase;
         }
 
-        /* Channels Accordions */
-        .channels-stack { 
-            display: flex; 
-            flex-direction: column; 
+        /* ════════════════════════
+           CHANNELS + ACCESSIBLE ACCORDION
+        ════════════════════════ */
+        .explorer-terminal {
+            border: 1px solid var(--glass-border);
+            border-radius: 20px;
+            background: rgba(4, 4, 8, 0.85);
+            overflow: hidden;
+            box-shadow: 0 30px 70px rgba(0,0,0,0.8);
         }
+        .channels-stack { display: flex; flex-direction: column; }
 
         .explorer-row {
             border-bottom: 1px solid rgba(255, 255, 255, 0.03);
             transition: background 0.3s;
         }
-        .explorer-row:last-child {
-            border-bottom: none;
-        }
+        .explorer-row:last-child { border-bottom: none; }
 
+        /* Header is a real <button> for keyboard / screen-reader support */
         .explorer-header {
             display: flex;
             align-items: center;
             gap: 0.85rem;
+            width: 100%;
             padding: 1.25rem 1.75rem;
             cursor: pointer;
             user-select: none;
             transition: all 0.2s ease;
+            background: transparent;
+            border: none;
+            font: inherit;
+            color: inherit;
+            text-align: left;
         }
-        .explorer-header:hover { 
-            background: rgba(255,255,255,0.02); 
+        .explorer-header:hover { background: rgba(255,255,255,0.02); }
+        .explorer-header:focus-visible {
+            outline: 1px solid var(--accent-cyan);
+            outline-offset: -1px;
+            background: rgba(0, 240, 255, 0.03);
         }
 
         .explorer-icon {
@@ -785,7 +1007,6 @@
             transform: scale(1.1);
         }
 
-        /* Distinctive LED dots for companies */
         .company-led {
             width: 7px; height: 7px;
             border-radius: 50%;
@@ -802,11 +1023,11 @@
         .led-other     { color: var(--accent-purple); background: var(--accent-purple); }
         .led-model     { color: var(--accent-cyan); background: var(--accent-cyan); }
 
-        .company-name { 
+        .company-name {
             font-family: var(--font-logo);
-            font-weight: 700; 
-            font-size: 0.88rem; 
-            flex: 1; 
+            font-weight: 700;
+            font-size: 0.88rem;
+            flex: 1;
             letter-spacing: 0.05em;
             color: var(--text-main);
         }
@@ -819,33 +1040,30 @@
             align-items: center;
             justify-content: center;
         }
-        .explorer-row.collapsed .explorer-arrow {
-            transform: rotate(-90deg);
-        }
+        .explorer-row.collapsed .explorer-arrow { transform: rotate(-90deg); }
 
-        /* Beautiful Panel Body */
+        /* Grid-rows animation: no max-height, so long lists never get clipped */
+        .explorer-body-wrap {
+            display: grid;
+            grid-template-rows: 1fr;
+            transition: grid-template-rows 0.5s var(--ease-out-expo), opacity 0.3s ease;
+            opacity: 1;
+            background: rgba(2, 2, 4, 0.4);
+        }
+        .explorer-row.collapsed .explorer-body-wrap {
+            grid-template-rows: 0fr;
+            opacity: 0;
+        }
         .explorer-body {
             overflow: hidden;
-            max-height: 400px;
-            transition: max-height 0.5s var(--ease-out-expo), opacity 0.3s ease, padding 0.3s ease;
-            opacity: 1;
-            padding: 0.5rem 1.75rem 1.5rem 3.5rem;
-            background: rgba(2, 2, 4, 0.4);
-            border-top: 1px solid rgba(255, 255, 255, 0.01);
+            min-height: 0;
         }
-        .explorer-row.collapsed .explorer-body {
-            max-height: 0;
-            opacity: 0;
-            padding-top: 0;
-            padding-bottom: 0;
-            pointer-events: none;
+        .explorer-row.collapsed .explorer-body { pointer-events: none; }
+        .explorer-body-inner {
+            padding: 0.5rem 1.75rem 1.5rem 3.5rem;
         }
 
-        .channels-tags { 
-            display: flex; 
-            flex-wrap: wrap; 
-            gap: 0.6rem; 
-        }
+        .channels-tags { display: flex; flex-wrap: wrap; gap: 0.6rem; }
         .channel-tag {
             padding: 0.35rem 0.85rem;
             border-radius: 6px;
@@ -870,9 +1088,7 @@
             color: var(--accent-cyan);
             transform: translateY(-1px);
         }
-        .channel-tag:hover::before {
-            color: var(--accent-cyan);
-        }
+        .channel-tag:hover::before { color: var(--accent-cyan); }
         .channel-tag-more {
             padding: 0.35rem 0.85rem;
             border-radius: 6px;
@@ -884,7 +1100,6 @@
             letter-spacing: 0.04em;
         }
 
-        /* Smaller Companies Grid (In Terminal Layout) */
         .companies-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -894,20 +1109,87 @@
             border-bottom: none;
             border-right: 1px solid rgba(255, 255, 255, 0.03);
         }
-        .companies-grid .explorer-row:last-child {
-            border-right: none;
-        }
+        .companies-grid .explorer-row:last-child { border-right: none; }
         @media (max-width: 650px) {
             .companies-grid { grid-template-columns: 1fr; }
             .companies-grid .explorer-row { border-right: none; border-bottom: 1px solid rgba(255, 255, 255, 0.03); }
         }
 
         /* ════════════════════════
+           JOIN STEPS (3-STEP FLOW)
+        ════════════════════════ */
+        .steps-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1.5rem;
+            position: relative;
+        }
+        .step-card {
+            padding: 2.5rem 1.75rem 2.25rem;
+            text-align: center;
+            position: relative;
+        }
+        .step-number {
+            font-family: var(--font-logo);
+            font-size: 0.68rem;
+            font-weight: 700;
+            letter-spacing: 0.2em;
+            color: var(--accent-cyan);
+            margin-bottom: 1.25rem;
+        }
+        .step-icon {
+            width: 56px; height: 56px;
+            margin: 0 auto 1.25rem;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.4rem;
+            background: rgba(0, 240, 255, 0.05);
+            border: 1px solid rgba(0, 240, 255, 0.2);
+            box-shadow: 0 0 20px rgba(0, 240, 255, 0.08);
+        }
+        .step-title {
+            font-size: 1rem;
+            font-weight: 700;
+            color: #ffffff;
+            margin-bottom: 0.6rem;
+            letter-spacing: 0.04em;
+        }
+        .step-desc {
+            font-size: 0.83rem;
+            line-height: 1.75;
+            color: var(--text-muted);
+        }
+        /* Connector arrows between steps (desktop) */
+        .step-card:not(:last-child)::after {
+            content: '▸';
+            position: absolute;
+            top: 50%;
+            right: -1.25rem;
+            transform: translateY(-50%);
+            color: var(--accent-cyan);
+            opacity: 0.5;
+            font-size: 1rem;
+            z-index: 2;
+        }
+        @media (max-width: 768px) {
+            .steps-grid { grid-template-columns: 1fr; }
+            .step-card:not(:last-child)::after {
+                content: '▾';
+                top: auto;
+                bottom: -1.4rem;
+                right: 50%;
+                transform: translateX(50%);
+            }
+        }
+
+        /* ════════════════════════
            CALL TO ACTION (CTA)
         ════════════════════════ */
         .cta-section { padding: 6rem 0 8rem; }
-        .cta-card { 
-            padding: 5rem 3rem; 
+        .cta-card {
+            padding: 5rem 3rem;
             text-align: center;
             position: relative;
         }
@@ -945,7 +1227,7 @@
             border-radius: 12px;
             text-decoration: none;
             font-family: var(--font-logo);
-            font-weight: 800;
+            font-weight: 700;
             font-size: 1rem;
             letter-spacing: 0.12em;
             text-transform: uppercase;
@@ -956,8 +1238,8 @@
             position: relative;
             z-index: 1;
         }
-        .btn-cta:hover { 
-            transform: translateY(-3px); 
+        .btn-cta:hover {
+            transform: translateY(-3px);
             box-shadow: 0 20px 40px rgba(0, 240, 255, 0.35);
             background: var(--accent-cyan);
         }
@@ -996,10 +1278,7 @@
             letter-spacing: 0.08em;
             color: #ffffff;
         }
-        .footer-links { 
-            display: flex; 
-            gap: 3rem; 
-        }
+        .footer-links { display: flex; gap: 3rem; }
         .footer-link {
             font-family: var(--font-logo);
             font-size: 0.75rem;
@@ -1010,9 +1289,8 @@
             transition: color 0.3s;
         }
         .footer-link:hover { color: var(--accent-cyan); }
-        
-        .footer-meta { 
-            font-size: 0.75rem; 
+        .footer-meta {
+            font-size: 0.75rem;
             color: var(--text-dim);
             letter-spacing: 0.02em;
             text-align: center;
@@ -1049,9 +1327,7 @@
             transform: translateY(100%);
             transition: transform 0.5s var(--ease-out-expo);
         }
-        .mobile-cta-bar.bar-visible {
-            transform: translateY(0);
-        }
+        .mobile-cta-bar.bar-visible { transform: translateY(0); }
         .mobile-cta-bar .btn-cta {
             width: 100%;
             justify-content: center;
@@ -1062,14 +1338,15 @@
         @media (max-width: 768px) {
             .mobile-cta-bar { display: block; }
             footer { padding-bottom: 6rem; }
-            /* Mobile performance optimization: Disable heavy noise overlay and animated circuit lines */
+            /* Mobile performance: drop heavy overlays */
             .cyber-noise { display: none; }
             .decor-circuit { display: none; }
         }
 
         /* ── Responsive Easing ── */
         @media (max-width: 600px) {
-            h1 { font-size: 1.7rem; }
+            h1.hero-copy { font-size: 1.55rem; }
+            .hero-eyebrow { font-size: 0.72rem; }
             .section-title { font-size: 1.4rem; }
             .features-grid { grid-template-columns: 1fr; }
             .cta-title { font-size: 1.8rem; }
@@ -1079,7 +1356,24 @@
             .nav-links .nav-link { display: none; }
             .hero-inner { width: 100%; }
             #heroCard .tech-panel { padding: 3rem 1.5rem 2.5rem; }
-            .explorer-body { padding-left: 2rem; }
+            .explorer-body-inner { padding-left: 2rem; }
+            .feed-body { padding: 1.25rem 1rem; }
+            .ticker-label span:last-child { display: none; }
+        }
+
+        /* ════════════════════════
+           REDUCED MOTION
+        ════════════════════════ */
+        @media (prefers-reduced-motion: reduce) {
+            html { scroll-behavior: auto; }
+            *, *::before, *::after {
+                animation-duration: 0.01ms !important;
+                animation-iteration-count: 1 !important;
+                transition-duration: 0.01ms !important;
+            }
+            .reveal { opacity: 1; transform: none; }
+            .hero-inner { opacity: 1; transform: none; }
+            .ticker-track { animation: none; }
         }
     </style>
 </head>
@@ -1095,11 +1389,28 @@
         <path class="circuit-path" d="M -100 150 L 200 150 L 300 250 L 300 450 L 200 550 L -100 550" />
         <circle class="circuit-node" cx="300" cy="250" r="4" />
         <circle class="circuit-node" cx="200" cy="550" r="4" />
-        
+
         <path class="circuit-path" d="M 1200 800 L 950 800 L 850 700 L 850 400 L 950 300 L 1200 300" style="animation-delay: -6s;" />
         <circle class="circuit-node" cx="850" cy="700" r="4" />
         <circle class="circuit-node" cx="950" cy="300" r="4" />
     </svg>
+
+    <!-- ════ NEWS TICKER ════ -->
+    <div class="news-ticker" aria-hidden="true">
+        <div class="ticker-label">
+            <span class="ticker-label-dot"></span>
+            <span>AFNJP LIVE</span>
+        </div>
+        <div class="ticker-viewport">
+            <div class="ticker-track" id="tickerTrack">
+                <span class="ticker-item"><strong>DAILY REPORT</strong> 毎朝、世界のAIニュースを日本語で自動配信中</span>
+                <span class="ticker-item"><strong>WEEKLY RANKING</strong> 今週のホットニュース Best 3 を毎週集計</span>
+                <span class="ticker-item"><strong>30+ CHANNELS</strong> 企業別・モデル別チャンネル稼働中</span>
+                <span class="ticker-item"><strong>INSTANT UPDATE</strong> 新しいAIが登場次第チャンネル即時追加</span>
+                <span class="ticker-item"><strong>COMMUNITY</strong> メンバー増加中 — あなたの参加をお待ちしています</span>
+            </div>
+        </div>
+    </div>
 
     <!-- ════ STICKY NAV ════ -->
     <nav class="sticky-nav" id="stickyNav">
@@ -1110,6 +1421,7 @@
             </a>
             <div class="nav-links">
                 <a href="#features" class="nav-link">Features</a>
+                <a href="#sample" class="nav-link">Sample</a>
                 <a href="#channels" class="nav-link">Channels</a>
                 <a href="https://discord.gg/B3eJAX6mnN" target="_blank" rel="noopener noreferrer" class="nav-cta">参加する</a>
             </div>
@@ -1121,7 +1433,7 @@
         <div class="hero-inner">
             <div id="heroCard">
                 <div class="tech-panel">
-                    
+
                     <!-- Digital Dashboard Indicator -->
                     <div class="status-indicator-bar">
                         <span class="status-badge">
@@ -1138,25 +1450,30 @@
                         <img src="AFNJP.jpg" alt="AI Frontier News JP Logo" class="logo-img">
                     </div>
 
-                    <h1>AI Frontier News JP</h1>
+                    <!-- Brand name as eyebrow / JP value prop as the headline -->
+                    <p class="hero-eyebrow">AI Frontier News JP</p>
+                    <h1 class="hero-copy">
+                        世界の最新AIニュースを、<br>
+                        <span class="copy-accent">日本語で。</span>
+                    </h1>
                     <p class="hero-description">
-                        世界の最新AIニュースを、日本語で、<br>
-                        どこよりも分かりやすくキャッチアップできる場所。
+                        どこよりも分かりやすくキャッチアップできる、<br>
+                        Discordで毎日稼働中のAIニュースコミュニティ。
                     </p>
 
-                    <!-- Advanced Counters Grid -->
+                    <!-- Live Counters Grid (auto-synced with Discord) -->
                     <div class="stats-row">
                         <div class="stat-item">
-                            <div class="stat-number" id="memberCount">0+</div>
+                            <div class="stat-number" id="memberCount">150+</div>
                             <div class="stat-label">メンバー・増加中</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number stat-live" id="onlineCount">--</div>
+                            <div class="stat-label"><span class="live-dot"></span>現在オンライン</div>
                         </div>
                         <div class="stat-item">
                             <div class="stat-number">毎日</div>
                             <div class="stat-label">ニュース配信</div>
-                        </div>
-                        <div class="stat-item">
-                            <div class="stat-number">毎週</div>
-                            <div class="stat-label">ランキング更新</div>
                         </div>
                     </div>
 
@@ -1201,11 +1518,79 @@
 
                 <!-- Card 3: Channel Structure -->
                 <div class="tech-panel feature-card reveal reveal-delay-3">
-                    <div class="feature-icon-box fc-orange">🗂️</div>
+                    <div class="feature-icon-box fc-cyan">🗂️</div>
                     <div class="feature-title">構造化チャンネル</div>
                     <p class="feature-desc">企業別・モデル別に専用チャンネルを完備。OpenAI・Google・Anthropicなど、必要な情報に即座にアクセスできます。</p>
-                    <span class="feature-badge badge-orange">30+ チャンネル</span>
+                    <span class="feature-badge badge-cyan">30+ チャンネル</span>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ════ SAMPLE FEED ════ -->
+    <section class="section" id="sample">
+        <div class="page-wrapper">
+            <div class="section-header reveal">
+                <div class="section-label">Live Preview</div>
+                <h2 class="section-title">実際の配信イメージ</h2>
+                <p class="section-sub">参加すると、こんな配信が毎日届きます。Botによる自動要約とメンバーのリアクションで、重要なニュースが一目で分かります。</p>
+            </div>
+
+            <div class="feed-terminal reveal">
+                <div class="terminal-header">
+                    <div class="terminal-dots">
+                        <span class="t-dot t-red"></span>
+                        <span class="t-dot t-yellow"></span>
+                        <span class="t-dot t-green"></span>
+                    </div>
+                    <span class="terminal-title">#daily-report — AFNJP</span>
+                    <div style="width: 32px;"></div>
+                </div>
+
+                <div class="feed-body">
+                    <!-- Daily Report sample -->
+                    <div class="feed-message">
+                        <div class="feed-avatar">🤖</div>
+                        <div class="feed-content">
+                            <div class="feed-meta">
+                                <span class="feed-author">AFNJP News Bot</span>
+                                <span class="feed-bot-tag">BOT</span>
+                                <span class="feed-time">今日 09:00</span>
+                            </div>
+                            <div class="feed-embed">
+                                <div class="feed-embed-title">📰 デイリーAIニュース — 本日のヘッドライン</div>
+                                <div class="feed-news-item"><span class="news-source">OpenAI</span>次世代モデルの新機能を発表 — 推論性能が大幅に向上</div>
+                                <div class="feed-news-item"><span class="news-source">Google</span>Geminiの大型アップデートを公開 — マルチモーダル機能を強化</div>
+                                <div class="feed-news-item"><span class="news-source">Anthropic</span>Claudeの新バージョンをリリース — エージェント機能を拡充</div>
+                                <div class="feed-reactions">
+                                    <span class="feed-reaction">🔥 24</span>
+                                    <span class="feed-reaction">👀 18</span>
+                                    <span class="feed-reaction">🚀 12</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Weekly Ranking sample -->
+                    <div class="feed-message">
+                        <div class="feed-avatar av-purple">🏆</div>
+                        <div class="feed-content">
+                            <div class="feed-meta">
+                                <span class="feed-author au-purple">AFNJP Ranking Bot</span>
+                                <span class="feed-bot-tag">BOT</span>
+                                <span class="feed-time">月曜 12:00</span>
+                            </div>
+                            <div class="feed-embed em-purple">
+                                <div class="feed-embed-title">🏆 今週のホットニュース Best 3</div>
+                                <div class="feed-rank-item"><span class="feed-rank-medal">🥇</span><span>新世代コーディングエージェントの発表が圧倒的リアクション数で1位を獲得</span></div>
+                                <div class="feed-rank-item"><span class="feed-rank-medal">🥈</span><span>動画生成AIの大型アップデートが話題に — クオリティ進化に注目集まる</span></div>
+                                <div class="feed-rank-item"><span class="feed-rank-medal">🥉</span><span>オープンソースモデルの新ベンチマーク結果にコミュニティ沸騰</span></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="feed-note">※ 配信内容のイメージです。実際の最新配信はDiscordでご覧いただけます。</div>
             </div>
         </div>
     </section>
@@ -1221,7 +1606,7 @@
 
             <!-- Terminal System Directory style channel explorer -->
             <div class="explorer-terminal reveal">
-                
+
                 <!-- Terminal Header Bar -->
                 <div class="terminal-header">
                     <div class="terminal-dots">
@@ -1230,141 +1615,169 @@
                         <span class="t-dot t-green"></span>
                     </div>
                     <span class="terminal-title">AFNJP SYSTEM DIRECTORY</span>
-                    <div style="width: 32px;"></div> <!-- Spacer to center title -->
+                    <div style="width: 32px;"></div>
                 </div>
 
                 <div class="channels-stack">
 
                     <!-- Google -->
                     <div class="explorer-row active-folder" data-explorer-item>
-                        <div class="explorer-header">
-                            <span class="explorer-icon">📁</span>
+                        <button type="button" class="explorer-header" aria-expanded="true" aria-controls="body-google">
+                            <span class="explorer-icon" aria-hidden="true">📂</span>
                             <div class="company-led led-google"></div>
                             <div class="company-name">Google</div>
-                            <span class="explorer-arrow">▼</span>
-                        </div>
-                        <div class="explorer-body">
-                            <div class="channels-tags">
-                                <span class="channel-tag">google</span>
-                                <span class="channel-tag">gemini</span>
-                                <span class="channel-tag">geminicli</span>
-                                <span class="channel-tag">antigravity</span>
-                                <span class="channel-tag">jules</span>
-                                <span class="channel-tag">firebase</span>
-                                <span class="channel-tag">google-ai-studio</span>
-                                <span class="channel-tag">notebook-lm</span>
-                                <span class="channel-tag">google-labs</span>
-                                <span class="channel-tag">stitch</span>
-                                <span class="channel-tag-more">and more...</span>
+                            <span class="explorer-arrow" aria-hidden="true">▼</span>
+                        </button>
+                        <div class="explorer-body-wrap">
+                            <div class="explorer-body" id="body-google">
+                                <div class="explorer-body-inner">
+                                    <div class="channels-tags">
+                                        <span class="channel-tag">google</span>
+                                        <span class="channel-tag">gemini</span>
+                                        <span class="channel-tag">geminicli</span>
+                                        <span class="channel-tag">antigravity</span>
+                                        <span class="channel-tag">jules</span>
+                                        <span class="channel-tag">firebase</span>
+                                        <span class="channel-tag">google-ai-studio</span>
+                                        <span class="channel-tag">notebook-lm</span>
+                                        <span class="channel-tag">google-labs</span>
+                                        <span class="channel-tag">stitch</span>
+                                        <span class="channel-tag-more">and more...</span>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
 
                     <!-- OpenAI -->
                     <div class="explorer-row collapsed" data-explorer-item>
-                        <div class="explorer-header">
-                            <span class="explorer-icon">📁</span>
+                        <button type="button" class="explorer-header" aria-expanded="false" aria-controls="body-openai">
+                            <span class="explorer-icon" aria-hidden="true">📁</span>
                             <div class="company-led led-openai"></div>
                             <div class="company-name">OpenAI</div>
-                            <span class="explorer-arrow">▼</span>
-                        </div>
-                        <div class="explorer-body">
-                            <div class="channels-tags">
-                                <span class="channel-tag">open-ai</span>
-                                <span class="channel-tag">chatgpt</span>
-                                <span class="channel-tag">codex</span>
-                                <span class="channel-tag">sora</span>
-                                <span class="channel-tag-more">and more...</span>
+                            <span class="explorer-arrow" aria-hidden="true">▼</span>
+                        </button>
+                        <div class="explorer-body-wrap">
+                            <div class="explorer-body" id="body-openai">
+                                <div class="explorer-body-inner">
+                                    <div class="channels-tags">
+                                        <span class="channel-tag">open-ai</span>
+                                        <span class="channel-tag">chatgpt</span>
+                                        <span class="channel-tag">codex</span>
+                                        <span class="channel-tag">sora</span>
+                                        <span class="channel-tag-more">and more...</span>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
 
                     <!-- Anthropic -->
                     <div class="explorer-row collapsed" data-explorer-item>
-                        <div class="explorer-header">
-                            <span class="explorer-icon">📁</span>
+                        <button type="button" class="explorer-header" aria-expanded="false" aria-controls="body-anthropic">
+                            <span class="explorer-icon" aria-hidden="true">📁</span>
                             <div class="company-led led-anthropic"></div>
                             <div class="company-name">Anthropic</div>
-                            <span class="explorer-arrow">▼</span>
-                        </div>
-                        <div class="explorer-body">
-                            <div class="channels-tags">
-                                <span class="channel-tag">anthropic</span>
-                                <span class="channel-tag">claude</span>
-                                <span class="channel-tag">claude-code</span>
-                                <span class="channel-tag-more">and more...</span>
+                            <span class="explorer-arrow" aria-hidden="true">▼</span>
+                        </button>
+                        <div class="explorer-body-wrap">
+                            <div class="explorer-body" id="body-anthropic">
+                                <div class="explorer-body-inner">
+                                    <div class="channels-tags">
+                                        <span class="channel-tag">anthropic</span>
+                                        <span class="channel-tag">claude</span>
+                                        <span class="channel-tag">claude-code</span>
+                                        <span class="channel-tag-more">and more...</span>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
 
                     <!-- Smaller companies grid inside Terminal -->
                     <div class="companies-grid">
-                        
+
                         <!-- xAI -->
                         <div class="explorer-row collapsed" data-explorer-item>
-                            <div class="explorer-header">
-                                <span class="explorer-icon">📁</span>
+                            <button type="button" class="explorer-header" aria-expanded="false" aria-controls="body-xai">
+                                <span class="explorer-icon" aria-hidden="true">📁</span>
                                 <div class="company-led led-xai"></div>
                                 <div class="company-name">xAI</div>
-                                <span class="explorer-arrow">▼</span>
-                            </div>
-                            <div class="explorer-body">
-                                <div class="channels-tags">
-                                    <span class="channel-tag">grok</span>
-                                    <span class="channel-tag">grok-code</span>
-                                    <span class="channel-tag-more">など</span>
+                                <span class="explorer-arrow" aria-hidden="true">▼</span>
+                            </button>
+                            <div class="explorer-body-wrap">
+                                <div class="explorer-body" id="body-xai">
+                                    <div class="explorer-body-inner">
+                                        <div class="channels-tags">
+                                            <span class="channel-tag">grok</span>
+                                            <span class="channel-tag">grok-code</span>
+                                            <span class="channel-tag-more">など</span>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
 
                         <!-- Microsoft -->
                         <div class="explorer-row collapsed" data-explorer-item>
-                            <div class="explorer-header">
-                                <span class="explorer-icon">📁</span>
+                            <button type="button" class="explorer-header" aria-expanded="false" aria-controls="body-microsoft">
+                                <span class="explorer-icon" aria-hidden="true">📁</span>
                                 <div class="company-led led-microsoft"></div>
                                 <div class="company-name">Microsoft</div>
-                                <span class="explorer-arrow">▼</span>
-                            </div>
-                            <div class="explorer-body">
-                                <div class="channels-tags">
-                                    <span class="channel-tag">microsoft</span>
-                                    <span class="channel-tag">copilot</span>
-                                    <span class="channel-tag-more">など</span>
+                                <span class="explorer-arrow" aria-hidden="true">▼</span>
+                            </button>
+                            <div class="explorer-body-wrap">
+                                <div class="explorer-body" id="body-microsoft">
+                                    <div class="explorer-body-inner">
+                                        <div class="channels-tags">
+                                            <span class="channel-tag">microsoft</span>
+                                            <span class="channel-tag">copilot</span>
+                                            <span class="channel-tag-more">など</span>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
 
                         <!-- Meta -->
                         <div class="explorer-row collapsed" data-explorer-item>
-                            <div class="explorer-header">
-                                <span class="explorer-icon">📁</span>
+                            <button type="button" class="explorer-header" aria-expanded="false" aria-controls="body-meta">
+                                <span class="explorer-icon" aria-hidden="true">📁</span>
                                 <div class="company-led led-meta"></div>
                                 <div class="company-name">Meta</div>
-                                <span class="explorer-arrow">▼</span>
-                            </div>
-                            <div class="explorer-body">
-                                <div class="channels-tags">
-                                    <span class="channel-tag">meta</span>
-                                    <span class="channel-tag">manus</span>
-                                    <span class="channel-tag-more">など</span>
+                                <span class="explorer-arrow" aria-hidden="true">▼</span>
+                            </button>
+                            <div class="explorer-body-wrap">
+                                <div class="explorer-body" id="body-meta">
+                                    <div class="explorer-body-inner">
+                                        <div class="channels-tags">
+                                            <span class="channel-tag">meta</span>
+                                            <span class="channel-tag">manus</span>
+                                            <span class="channel-tag-more">など</span>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
 
                         <!-- Alibaba -->
                         <div class="explorer-row collapsed" data-explorer-item>
-                            <div class="explorer-header">
-                                <span class="explorer-icon">📁</span>
+                            <button type="button" class="explorer-header" aria-expanded="false" aria-controls="body-alibaba">
+                                <span class="explorer-icon" aria-hidden="true">📁</span>
                                 <div class="company-led led-alibaba"></div>
                                 <div class="company-name">Alibaba</div>
-                                <span class="explorer-arrow">▼</span>
-                            </div>
-                            <div class="explorer-body">
-                                <div class="channels-tags">
-                                    <span class="channel-tag">alibaba</span>
-                                    <span class="channel-tag">qwen</span>
-                                    <span class="channel-tag">qwen-code</span>
-                                    <span class="channel-tag-more">など</span>
+                                <span class="explorer-arrow" aria-hidden="true">▼</span>
+                            </button>
+                            <div class="explorer-body-wrap">
+                                <div class="explorer-body" id="body-alibaba">
+                                    <div class="explorer-body-inner">
+                                        <div class="channels-tags">
+                                            <span class="channel-tag">alibaba</span>
+                                            <span class="channel-tag">qwen</span>
+                                            <span class="channel-tag">qwen-code</span>
+                                            <span class="channel-tag-more">など</span>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -1372,59 +1785,99 @@
 
                     <!-- Others (Accordion item) -->
                     <div class="explorer-row collapsed" data-explorer-item>
-                        <div class="explorer-header">
-                            <span class="explorer-icon">📁</span>
+                        <button type="button" class="explorer-header" aria-expanded="false" aria-controls="body-others">
+                            <span class="explorer-icon" aria-hidden="true">📁</span>
                             <div class="company-led led-other"></div>
                             <div class="company-name">その他 (随時追加)</div>
-                            <span class="explorer-arrow">▼</span>
-                        </div>
-                        <div class="explorer-body">
-                            <div class="channels-tags">
-                                <span class="channel-tag">kimi</span>
-                                <span class="channel-tag">glm</span>
-                                <span class="channel-tag">deep-seek</span>
-                                <span class="channel-tag">mistral-ai</span>
-                                <span class="channel-tag">hunyuan</span>
-                                <span class="channel-tag">genspark</span>
-                                <span class="channel-tag">perplexity</span>
-                                <span class="channel-tag">skywork</span>
-                                <span class="channel-tag">cursor</span>
-                                <span class="channel-tag">wind-surf</span>
-                                <span class="channel-tag">kiro</span>
-                                <span class="channel-tag">qoder</span>
-                                <span class="channel-tag">open-code</span>
-                                <span class="channel-tag">eleven-labs</span>
-                                <span class="channel-tag-more">新しいAIが登場次第、即時追加...</span>
+                            <span class="explorer-arrow" aria-hidden="true">▼</span>
+                        </button>
+                        <div class="explorer-body-wrap">
+                            <div class="explorer-body" id="body-others">
+                                <div class="explorer-body-inner">
+                                    <div class="channels-tags">
+                                        <span class="channel-tag">kimi</span>
+                                        <span class="channel-tag">glm</span>
+                                        <span class="channel-tag">deep-seek</span>
+                                        <span class="channel-tag">mistral-ai</span>
+                                        <span class="channel-tag">hunyuan</span>
+                                        <span class="channel-tag">genspark</span>
+                                        <span class="channel-tag">perplexity</span>
+                                        <span class="channel-tag">skywork</span>
+                                        <span class="channel-tag">cursor</span>
+                                        <span class="channel-tag">wind-surf</span>
+                                        <span class="channel-tag">kiro</span>
+                                        <span class="channel-tag">qoder</span>
+                                        <span class="channel-tag">open-code</span>
+                                        <span class="channel-tag">eleven-labs</span>
+                                        <span class="channel-tag-more">新しいAIが登場次第、即時追加...</span>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
 
                     <!-- Model Comparison (Accordion item) -->
                     <div class="explorer-row collapsed" data-explorer-item>
-                        <div class="explorer-header">
-                            <span class="explorer-icon">📁</span>
+                        <button type="button" class="explorer-header" aria-expanded="false" aria-controls="body-models">
+                            <span class="explorer-icon" aria-hidden="true">📁</span>
                             <div class="company-led led-model"></div>
                             <div class="company-name">モデル比較</div>
-                            <span class="explorer-arrow">▼</span>
-                        </div>
-                        <div class="explorer-body">
-                            <div class="channels-tags">
-                                <span class="channel-tag">text</span>
-                                <span class="channel-tag">webdev</span>
-                                <span class="channel-tag">vision</span>
-                                <span class="channel-tag">text-to-image</span>
-                                <span class="channel-tag">image-edit</span>
-                                <span class="channel-tag">search</span>
-                                <span class="channel-tag">text-to-video</span>
-                                <span class="channel-tag">image-to-video</span>
-                                <span class="channel-tag">copilot</span>
-                                <span class="channel-tag">open-model-ranked</span>
-                                <span class="channel-tag">arena-expert</span>
-                                <span class="channel-tag-more">and more...</span>
+                            <span class="explorer-arrow" aria-hidden="true">▼</span>
+                        </button>
+                        <div class="explorer-body-wrap">
+                            <div class="explorer-body" id="body-models">
+                                <div class="explorer-body-inner">
+                                    <div class="channels-tags">
+                                        <span class="channel-tag">text</span>
+                                        <span class="channel-tag">webdev</span>
+                                        <span class="channel-tag">vision</span>
+                                        <span class="channel-tag">text-to-image</span>
+                                        <span class="channel-tag">image-edit</span>
+                                        <span class="channel-tag">search</span>
+                                        <span class="channel-tag">text-to-video</span>
+                                        <span class="channel-tag">image-to-video</span>
+                                        <span class="channel-tag">copilot</span>
+                                        <span class="channel-tag">open-model-ranked</span>
+                                        <span class="channel-tag">arena-expert</span>
+                                        <span class="channel-tag-more">and more...</span>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
 
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ════ JOIN STEPS ════ -->
+    <section class="section" id="join">
+        <div class="page-wrapper">
+            <div class="section-header reveal">
+                <div class="section-label">How to Join</div>
+                <h2 class="section-title">参加はかんたん、3ステップ</h2>
+                <p class="section-sub">登録・費用は一切不要。Discordアカウントがあれば、今すぐ最新AIニュースのキャッチアップを始められます。</p>
+            </div>
+
+            <div class="steps-grid">
+                <div class="tech-panel step-card reveal reveal-delay-1">
+                    <div class="step-number">STEP 01</div>
+                    <div class="step-icon">🔗</div>
+                    <div class="step-title">招待リンクを開く</div>
+                    <p class="step-desc">このページの「Discordに参加する」ボタンから、ワンクリックでサーバーへ。</p>
+                </div>
+                <div class="tech-panel step-card reveal reveal-delay-2">
+                    <div class="step-number">STEP 02</div>
+                    <div class="step-icon">📋</div>
+                    <div class="step-title">ルールをサッと確認</div>
+                    <p class="step-desc">welcomeチャンネルで簡単なルールを確認。面倒な自己紹介や審査はありません。</p>
+                </div>
+                <div class="tech-panel step-card reveal reveal-delay-3">
+                    <div class="step-number">STEP 03</div>
+                    <div class="step-icon">🚀</div>
+                    <div class="step-title">今日からニュースが届く</div>
+                    <p class="step-desc">デイリーレポートと週刊ランキングが自動で流れてきます。気になるチャンネルをフォローするだけ。</p>
                 </div>
             </div>
         </div>
@@ -1437,7 +1890,7 @@
                 <span class="section-label">JOIN NETWORK</span>
                 <h2 class="cta-title">AIの最前線を、一緒に追いかけよう</h2>
                 <p class="cta-description">
-                    150名以上の最先端メンバーが集うフロンティア・コミュニティで、<br>
+                    <span id="ctaMemberLine">150名以上</span>の最先端メンバーが集うフロンティア・コミュニティで、<br>
                     世界中の最新AIニュースをどこよりも分かりやすくキャッチアップ。<br>
                     <span style="font-size: 0.85rem; color: var(--text-dim);">コミュニティは進化し続けています。あなたのジョインをお待ちしています。</span>
                 </p>
@@ -1479,6 +1932,7 @@
         const heroCard = document.getElementById('heroCard');
         const pointerGlow = document.getElementById('pointerGlow');
         const isTouchDevice = window.matchMedia('(hover: none)').matches;
+        const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
         // ── 1. Page Load Initial Animation ──
         window.addEventListener('load', () => {
@@ -1488,90 +1942,94 @@
         });
 
         // ── 2. Interactive Pointer-Glow Tracking ──
-        if (!isTouchDevice) {
+        if (!isTouchDevice && !prefersReducedMotion) {
             window.addEventListener('mousemove', (e) => {
                 pointerGlow.style.setProperty('--mouse-x', `${e.clientX}px`);
                 pointerGlow.style.setProperty('--mouse-y', `${e.clientY}px`);
             });
         } else {
-            pointerGlow.style.display = 'none'; // Disable pointer glow on touch devices
+            pointerGlow.style.display = 'none';
         }
 
         // ── 3. Premium Eased 3D Tilt for Hero Card ──
-        if (!isTouchDevice) {
+        if (!isTouchDevice && !prefersReducedMotion) {
             const handleHeroTilt = (e) => {
                 const rect = heroCard.getBoundingClientRect();
                 const x = e.clientX - rect.left - rect.width/2;
                 const y = e.clientY - rect.top - rect.height/2;
-                // Eased tilt angles (maximum 8 degrees)
                 const rotateX = -(y / (rect.height/2)) * 8;
                 const rotateY = (x / (rect.width/2)) * 8;
-                
                 heroCard.style.transform = `rotateX(${rotateX}deg) rotateY(${rotateY}deg)`;
             };
-
             const resetHeroTilt = () => {
                 heroCard.style.transform = 'rotateX(0deg) rotateY(0deg)';
             };
-
             heroCard.addEventListener('mousemove', handleHeroTilt);
             heroCard.addEventListener('mouseleave', resetHeroTilt);
         }
 
-        // ── 4. Mobile Gyroscope tilt (Disabled for performance and layout stability) ──
-        /* 
-        if (isTouchDevice && window.DeviceOrientationEvent) {
-            const handleOrientation = (e) => {
-                if (e.gamma === null) return;
-                const xAxis = Math.max(-8, Math.min(8, e.gamma / 4));
-                const yAxis = Math.max(-8, Math.min(8, (e.beta - 45) / 5));
-                heroCard.style.transform = `rotateY(${xAxis}deg) rotateX(${-yAxis}deg)`;
-            };
+        // ── 4. News Ticker: duplicate track content for a seamless loop ──
+        const tickerTrack = document.getElementById('tickerTrack');
+        tickerTrack.innerHTML += tickerTrack.innerHTML;
 
-            const startGyro = () => {
-                if (typeof DeviceOrientationEvent.requestPermission === 'function') {
-                    DeviceOrientationEvent.requestPermission()
-                        .then(state => {
-                            if (state === 'granted') {
-                                window.addEventListener('deviceorientation', handleOrientation);
-                            }
-                        })
-                        .catch(() => {});
-                } else {
-                    window.addEventListener('deviceorientation', handleOrientation);
-                }
-            };
-            document.addEventListener('touchstart', startGyro, { once: true });
-        }
-        */
+        // ── 5. Live Discord Stats (invite API, no auth required) ──
+        // Falls back to static numbers if the API is unreachable.
+        const DISCORD_INVITE_CODE = 'B3eJAX6mnN';
+        let liveStats = { members: 150, online: null };
 
-        // ── 5. Slick Eased Counter Count-Up ──
-        function countUp(el, target, duration = 2000) {
+        const statsReady = fetch(`https://discord.com/api/v10/invites/${DISCORD_INVITE_CODE}?with_counts=true`)
+            .then(r => r.ok ? r.json() : Promise.reject())
+            .then(data => {
+                if (data.approximate_member_count) liveStats.members = data.approximate_member_count;
+                if (data.approximate_presence_count) liveStats.online = data.approximate_presence_count;
+            })
+            .catch(() => { /* keep fallback values */ });
+
+        // ── 6. Slick Eased Counter Count-Up ──
+        function countUp(el, target, suffix = '', duration = 2000) {
+            if (prefersReducedMotion) {
+                el.textContent = target + suffix;
+                return;
+            }
             const start = performance.now();
             const update = (now) => {
                 const elapsed = now - start;
                 const progress = Math.min(elapsed / duration, 1);
                 // quartic ease-out
                 const eased = 1 - Math.pow(1 - progress, 4);
-                el.textContent = Math.floor(eased * target) + '+';
+                el.textContent = Math.floor(eased * target) + suffix;
                 if (progress < 1) requestAnimationFrame(update);
             };
             requestAnimationFrame(update);
         }
 
         const memberCountEl = document.getElementById('memberCount');
+        const onlineCountEl = document.getElementById('onlineCount');
+        const ctaMemberLine = document.getElementById('ctaMemberLine');
         let counted = false;
         const countObserver = new IntersectionObserver((entries) => {
             entries.forEach(entry => {
                 if (entry.isIntersecting && !counted) {
                     counted = true;
-                    setTimeout(() => countUp(memberCountEl, 150), 300);
+                    // Wait for the API response (or its failure) before animating
+                    statsReady.then(() => {
+                        setTimeout(() => {
+                            countUp(memberCountEl, liveStats.members, '+');
+                            if (liveStats.online !== null) {
+                                countUp(onlineCountEl, liveStats.online, '');
+                            } else {
+                                onlineCountEl.textContent = '--';
+                            }
+                            const rounded = Math.floor(liveStats.members / 10) * 10;
+                            ctaMemberLine.textContent = `${rounded}名以上`;
+                        }, 300);
+                    });
                 }
             });
         }, { threshold: 0.5 });
         countObserver.observe(memberCountEl);
 
-        // ── 6. Header Nav & Mobile Action Bar Reveal ──
+        // ── 7. Header Nav & Mobile Action Bar Reveal ──
         const stickyNav = document.getElementById('stickyNav');
         const mobileCta = document.getElementById('mobileCta');
         const heroHeight = window.innerHeight;
@@ -1581,43 +2039,27 @@
             mobileCta.classList.toggle('bar-visible', pastHero);
         }, { passive: true });
 
-        // ── 7. Modern Explorer Terminal Accordion Logic ──
+        // ── 8. Accessible Explorer Accordion (button + aria-expanded) ──
         document.querySelectorAll('[data-explorer-item]').forEach(row => {
             const header = row.querySelector('.explorer-header');
             header.addEventListener('click', () => {
                 const isCollapsed = row.classList.contains('collapsed');
-                
-                // Optional: Close other folders for a single open accordian flow
-                // document.querySelectorAll('[data-explorer-item]').forEach(r => {
-                //     r.classList.add('collapsed');
-                //     r.classList.remove('active-folder');
-                //     const folderIcon = r.querySelector('.explorer-icon');
-                //     if (folderIcon) folderIcon.textContent = '📁';
-                // });
-
-                if (isCollapsed) {
-                    row.classList.remove('collapsed');
-                    row.classList.add('active-folder');
-                    row.querySelector('.explorer-icon').textContent = '📂';
-                } else {
-                    row.classList.add('collapsed');
-                    row.classList.remove('active-folder');
-                    row.querySelector('.explorer-icon').textContent = '📁';
-                }
+                row.classList.toggle('collapsed', !isCollapsed);
+                row.classList.toggle('active-folder', isCollapsed);
+                header.setAttribute('aria-expanded', String(isCollapsed));
+                row.querySelector('.explorer-icon').textContent = isCollapsed ? '📂' : '📁';
             });
         });
 
-        // ── 8. Intersection Scroll Reveal ──
+        // ── 9. Intersection Scroll Reveal ──
         const revealObserver = new IntersectionObserver((entries) => {
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
                     entry.target.classList.add('visible');
-                    // Unobserve to run animation only once
                     revealObserver.unobserve(entry.target);
                 }
             });
         }, { threshold: 0.1 });
-
         document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
     </script>
 </body>
