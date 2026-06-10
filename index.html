@@ -43,783 +43,731 @@
     }
     </script>
 
-    <!-- Premium Fonts (weights trimmed for performance) -->
+    <!--
+        DESIGN CONCEPT: 「電子新聞 — The Frontier Press」
+        ロゴ（墨一色・山と回路とパラボラの円形エンブレム）が無加工で最も映える、
+        紙白 × 墨 × 朱印の和モダン・エディトリアル。新聞の紙面構造（題字・段組・
+        罫線・索引・奥付）でコミュニティを「報道機関」として見せる。
+    -->
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700;900&family=Space+Grotesk:wght@400;500;700&family=Zen+Kaku+Gothic+New:wght@400;700&family=Shippori+Mincho:wght@600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@500;600;700;800&family=Zen+Kaku+Gothic+New:wght@400;500;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 
     <style>
         :root {
-            --bg-deep: #020204;
-            --bg-panel: rgba(8, 8, 14, 0.75);
-            /* Color system: cyan = primary / purple = support / green = live-status only */
-            --accent-cyan: #00f0ff;
-            --accent-purple: #7d00ff;
-            --accent-purple-soft: #a86bff;
-            --accent-live: #39ff14;
-            --glass-border: rgba(255, 255, 255, 0.05);
-            --glass-border-glow: rgba(0, 240, 255, 0.15);
-            --text-main: #ffffff;
-            --text-muted: #8e939e;
-            --text-dim: #54575e;
-            --font-tech: "Space Grotesk", "Zen Kaku Gothic New", sans-serif;
-            --font-logo: "Orbitron", sans-serif;
-            --font-serif: "Shippori Mincho", serif;
-            --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);
+            --paper: #f6f3ec;
+            --paper-warm: #efeadf;
+            --ink: #1b1b1f;
+            --ink-soft: #3c3c42;
+            --ink-faint: #8a877f;
+            --rule: rgba(27, 27, 31, 0.18);
+            --rule-strong: rgba(27, 27, 31, 0.82);
+            --shu: #c3271d;            /* 朱 — 印泥の赤。アクセントはこの一色のみ */
+            --shu-deep: #9e1f17;
+            --font-mincho: "Shippori Mincho", "Hiragino Mincho ProN", serif;
+            --font-gothic: "Zen Kaku Gothic New", "Hiragino Kaku Gothic ProN", sans-serif;
+            --font-mono: "IBM Plex Mono", "Consolas", monospace;
+            --ease-press: cubic-bezier(0.16, 1, 0.3, 1);
+            --max-w: 1080px;
         }
 
         * { margin: 0; padding: 0; box-sizing: border-box; }
-        html { scroll-behavior: smooth; scroll-padding-top: 70px; overflow-x: hidden; }
+        html { scroll-behavior: smooth; scroll-padding-top: 84px; }
 
         body {
-            font-family: var(--font-tech);
-            background-color: var(--bg-deep);
-            color: var(--text-main);
-            min-height: 100vh;
+            font-family: var(--font-gothic);
+            background: var(--paper);
+            color: var(--ink);
+            line-height: 1.8;
+            letter-spacing: 0.03em;
             overflow-x: hidden;
-            letter-spacing: 0.02em;
         }
 
-        /* ── Futuristic Background Grid & Ambient Glow ── */
-        .ambient-grid {
+        ::selection { background: var(--shu); color: #fff; }
+
+        /* ── 紙の質感（微細ノイズ） ── */
+        .paper-grain {
             position: fixed;
             inset: 0;
-            z-index: -3;
-            background-image:
-                radial-gradient(circle at center, transparent 15%, var(--bg-deep) 90%),
-                linear-gradient(to right, rgba(255, 255, 255, 0.02) 1px, transparent 1px),
-                linear-gradient(to bottom, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
-            background-size: 100% 100%, 50px 50px, 50px 50px;
+            z-index: 0;
             pointer-events: none;
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 240 240' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='g'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23g)' opacity='0.05'/%3E%3C/svg%3E");
+            mix-blend-mode: multiply;
         }
 
-        .pointer-glow {
-            position: fixed;
-            width: 800px;
-            height: 800px;
-            background: radial-gradient(circle, rgba(0, 240, 255, 0.06) 0%, rgba(125, 0, 255, 0.03) 35%, transparent 70%);
-            border-radius: 50%;
-            pointer-events: none;
-            z-index: -2;
-            transform: translate(-50%, -50%);
-            left: var(--mouse-x, 50%);
-            top: var(--mouse-y, 50%);
-            will-change: left, top;
-            transition: left 0.1s ease-out, top 0.1s ease-out;
-        }
-
-        .cyber-noise {
-            position: fixed;
-            inset: 0;
-            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)' opacity='0.04'/%3E%3C/svg%3E");
-            z-index: -1;
-            pointer-events: none;
-        }
-
-        /* Decorative Circuit Lines */
-        .decor-circuit {
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            top: 0; left: 0;
-            z-index: -1;
-            pointer-events: none;
-            opacity: 0.25;
-        }
-        .circuit-path {
-            stroke: var(--accent-cyan);
-            stroke-width: 1.5;
-            fill: none;
-            stroke-dasharray: 600;
-            stroke-dashoffset: 600;
-            animation: drawCircuit 12s infinite linear;
-        }
-        .circuit-node {
-            fill: var(--accent-cyan);
-            animation: pulseNode 3s infinite ease-in-out;
-        }
-        @keyframes drawCircuit {
-            0% { stroke-dashoffset: 600; }
-            50% { stroke-dashoffset: 0; }
-            100% { stroke-dashoffset: -600; }
-        }
-        @keyframes pulseNode {
-            0%, 100% { transform: scale(1); opacity: 0.6; }
-            50% { transform: scale(1.3); opacity: 1; }
+        .sheet {
+            position: relative;
+            z-index: 1;
+            max-width: var(--max-w);
+            margin: 0 auto;
+            padding: 0 2rem;
         }
 
         /* ════════════════════════
-           NEWS TICKER (TOP STRIP)
+           日付欄（最上部のデートライン）
         ════════════════════════ */
-        .news-ticker {
+        .dateline {
+            border-bottom: 1px solid var(--rule-strong);
+            background: var(--paper);
             position: relative;
             z-index: 5;
+        }
+        .dateline-inner {
+            max-width: var(--max-w);
+            margin: 0 auto;
+            padding: 0.45rem 2rem;
             display: flex;
             align-items: center;
-            border-bottom: 1px solid var(--glass-border);
-            background: rgba(2, 2, 4, 0.9);
-            overflow: hidden;
-            height: 38px;
+            justify-content: space-between;
+            gap: 1rem;
+            font-family: var(--font-mono);
+            font-size: 0.7rem;
+            letter-spacing: 0.08em;
+            color: var(--ink-soft);
         }
-        .ticker-label {
-            flex-shrink: 0;
-            display: flex;
-            align-items: center;
-            gap: 0.45rem;
-            height: 100%;
-            padding: 0 1rem;
-            font-family: var(--font-logo);
-            font-size: 0.6rem;
-            font-weight: 700;
-            letter-spacing: 0.18em;
-            color: var(--accent-cyan);
-            background: rgba(0, 240, 255, 0.05);
-            border-right: 1px solid var(--glass-border);
-            white-space: nowrap;
+        .dateline-center {
+            display: none;
+            letter-spacing: 0.35em;
+            color: var(--ink-faint);
+            text-transform: uppercase;
         }
-        .ticker-label-dot {
-            width: 5px; height: 5px;
-            border-radius: 50%;
-            background: var(--accent-live);
-            box-shadow: 0 0 6px var(--accent-live);
-            animation: pulseGreen 1.8s infinite;
+        @media (min-width: 760px) {
+            .dateline-center { display: block; }
         }
-        .ticker-viewport {
-            flex: 1;
-            overflow: hidden;
-            height: 100%;
-            display: flex;
-            align-items: center;
-            mask-image: linear-gradient(to right, transparent, #000 4%, #000 96%, transparent);
-            -webkit-mask-image: linear-gradient(to right, transparent, #000 4%, #000 96%, transparent);
-        }
-        .ticker-track {
-            display: flex;
-            flex-shrink: 0;
-            align-items: center;
-            white-space: nowrap;
-            animation: tickerScroll 38s linear infinite;
-        }
-        .news-ticker:hover .ticker-track { animation-play-state: paused; }
-        .ticker-item {
-            font-family: var(--font-logo);
-            font-size: 0.66rem;
-            letter-spacing: 0.12em;
-            color: var(--text-muted);
-            padding: 0 1.6rem;
+        .dateline-issue {
             display: inline-flex;
             align-items: center;
-            gap: 0.6rem;
+            gap: 0.5rem;
         }
-        .ticker-item::after {
-            content: '//';
-            color: var(--text-dim);
-            margin-left: 1.6rem;
+        .live-mark {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.35rem;
+            color: var(--shu);
+            font-weight: 600;
+        }
+        .live-mark::before {
+            content: '';
+            width: 6px; height: 6px;
+            border-radius: 50%;
+            background: var(--shu);
+            animation: inkPulse 1.8s infinite;
+        }
+        @keyframes inkPulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.25; }
+        }
+
+        /* ════════════════════════
+           題字（マストヘッド）
+        ════════════════════════ */
+        .masthead {
+            position: relative;
+            text-align: center;
+            padding: 3.2rem 2rem 0;
+            z-index: 1;
+        }
+        .masthead-logo {
+            width: 92px;
+            height: 92px;
+            border-radius: 50%;
+            object-fit: cover;
+            display: block;
+            margin: 0 auto 1.4rem;
+            border: 1.5px solid var(--ink);
+            box-shadow: 4px 4px 0 rgba(27, 27, 31, 0.12);
+        }
+        .masthead-title {
+            font-family: var(--font-mincho);
+            font-weight: 800;
+            font-size: clamp(1.9rem, 5.2vw, 3.4rem);
+            letter-spacing: 0.12em;
+            line-height: 1.25;
+            color: var(--ink);
+        }
+        .masthead-sub {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 1.2rem;
+            margin: 1.1rem auto 0;
+            max-width: 640px;
+            font-family: var(--font-mincho);
+            font-size: 0.88rem;
+            letter-spacing: 0.28em;
+            color: var(--ink-soft);
+        }
+        .masthead-sub::before,
+        .masthead-sub::after {
+            content: '';
+            flex: 1;
+            height: 4px;
+            border-top: 1px solid var(--rule-strong);
+            border-bottom: 1px solid var(--rule-strong);
+        }
+        /* 題字下の二重罫線 — 新聞の紙面区切り */
+        .masthead-rule {
+            max-width: var(--max-w);
+            margin: 2.2rem auto 0;
+            border-top: 3px double var(--rule-strong);
+        }
+
+        /* ════════════════════════
+           号外ティッカー（活版ストリップ）
+        ════════════════════════ */
+        .gogai {
+            display: flex;
+            align-items: stretch;
+            background: var(--ink);
+            color: var(--paper);
+            overflow: hidden;
+            height: 40px;
+            position: relative;
+            z-index: 5;
+        }
+        .gogai-label {
+            flex-shrink: 0;
+            display: flex;
+            align-items: center;
+            padding: 0 1.1rem;
+            background: var(--shu);
+            color: #fff;
+            font-family: var(--font-mincho);
             font-weight: 700;
+            font-size: 0.82rem;
+            letter-spacing: 0.25em;
+            white-space: nowrap;
         }
-        .ticker-item strong {
-            color: var(--accent-cyan);
-            font-weight: 700;
+        .gogai-viewport {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            overflow: hidden;
+            mask-image: linear-gradient(to right, transparent, #000 3%, #000 97%, transparent);
+            -webkit-mask-image: linear-gradient(to right, transparent, #000 3%, #000 97%, transparent);
         }
-        @keyframes tickerScroll {
+        .gogai-track {
+            display: flex;
+            flex-shrink: 0;
+            align-items: center;
+            white-space: nowrap;
+            animation: gogaiScroll 42s linear infinite;
+        }
+        .gogai:hover .gogai-track { animation-play-state: paused; }
+        .gogai-item {
+            font-family: var(--font-gothic);
+            font-size: 0.78rem;
+            letter-spacing: 0.1em;
+            padding: 0 1.4rem;
+            display: inline-flex;
+            align-items: center;
+        }
+        .gogai-item::after {
+            content: '◆';
+            font-size: 0.5rem;
+            margin-left: 2.8rem;
+            opacity: 0.4;
+        }
+        .gogai-item strong {
+            font-family: var(--font-mono);
+            font-weight: 600;
+            letter-spacing: 0.15em;
+            margin-right: 0.7rem;
+            color: #f0b8b2;
+        }
+        @keyframes gogaiScroll {
             from { transform: translateX(0); }
             to   { transform: translateX(-50%); }
         }
 
         /* ════════════════════════
-           STICKY NAV (PREMIUM HEADER)
+           追尾ナビ（スクロール後に出現）
         ════════════════════════ */
-        .sticky-nav {
+        .press-nav {
             position: fixed;
             top: 0; left: 0; right: 0;
             z-index: 100;
-            transform: translateY(-100%);
-            transition: transform 0.5s var(--ease-out-expo), background 0.3s ease;
+            background: rgba(246, 243, 236, 0.94);
+            backdrop-filter: blur(14px);
+            -webkit-backdrop-filter: blur(14px);
+            border-bottom: 2px solid var(--ink);
+            transform: translateY(-101%);
+            transition: transform 0.5s var(--ease-press);
         }
-        .sticky-nav.nav-visible { transform: translateY(0); }
-        .nav-inner {
-            max-width: 1000px;
+        .press-nav.nav-visible { transform: translateY(0); }
+        .press-nav-inner {
+            max-width: var(--max-w);
             margin: 0 auto;
             padding: 0 2rem;
-            height: 64px;
+            height: 60px;
             display: flex;
             align-items: center;
             justify-content: space-between;
-            background: rgba(2, 2, 4, 0.85);
-            backdrop-filter: blur(25px) saturate(180%);
-            -webkit-backdrop-filter: blur(25px) saturate(180%);
-            border-bottom: 1px solid var(--glass-border);
-            border-left: 1px solid var(--glass-border);
-            border-right: 1px solid var(--glass-border);
-            border-bottom-left-radius: 16px;
-            border-bottom-right-radius: 16px;
+            gap: 1rem;
         }
-        .nav-brand {
+        .press-brand {
             display: flex;
             align-items: center;
-            gap: 0.75rem;
+            gap: 0.7rem;
             text-decoration: none;
+            color: var(--ink);
         }
-        .nav-brand-logo {
-            width: 28px;
-            height: 28px;
+        .press-brand img {
+            width: 30px; height: 30px;
             border-radius: 50%;
-            filter: invert(0.95) contrast(1.2);
-            border: 1px solid rgba(255, 255, 255, 0.2);
+            border: 1px solid var(--ink);
         }
-        .nav-logo-text {
-            font-family: var(--font-logo);
-            font-size: 0.95rem;
+        .press-brand span {
+            font-family: var(--font-mincho);
             font-weight: 700;
-            letter-spacing: 0.08em;
-            background: linear-gradient(90deg, #ffffff, var(--accent-cyan));
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
+            font-size: 0.95rem;
+            letter-spacing: 0.12em;
         }
-        .nav-links {
+        .press-links {
             display: flex;
             align-items: center;
-            gap: 2rem;
+            gap: 1.6rem;
         }
-        .nav-link {
-            font-size: 0.82rem;
-            color: var(--text-muted);
-            text-decoration: none;
-            letter-spacing: 0.08em;
-            text-transform: uppercase;
+        .press-link {
+            font-size: 0.8rem;
             font-weight: 500;
-            transition: color 0.3s;
+            letter-spacing: 0.12em;
+            color: var(--ink-soft);
+            text-decoration: none;
             position: relative;
+            transition: color 0.25s;
         }
-        .nav-link::after {
+        .press-link::after {
             content: '';
             position: absolute;
-            bottom: -4px; left: 0; width: 0; height: 1px;
-            background: var(--accent-cyan);
-            transition: width 0.3s ease;
+            left: 0; right: 100%; bottom: -3px;
+            height: 2px;
+            background: var(--shu);
+            transition: right 0.3s var(--ease-press);
         }
-        .nav-link:hover { color: #ffffff; }
-        .nav-link:hover::after { width: 100%; }
-
-        .nav-cta {
-            font-size: 0.82rem;
+        .press-link:hover { color: var(--ink); }
+        .press-link:hover::after { right: 0; }
+        .press-cta {
+            font-size: 0.78rem;
             font-weight: 700;
-            color: #020204;
+            letter-spacing: 0.15em;
+            color: var(--paper);
+            background: var(--ink);
             text-decoration: none;
-            padding: 0.5rem 1.25rem;
-            border-radius: 8px;
-            background: var(--accent-cyan);
-            box-shadow: 0 0 15px rgba(0, 240, 255, 0.25);
-            transition: all 0.3s ease;
-            letter-spacing: 0.08em;
-            text-transform: uppercase;
+            padding: 0.5rem 1.3rem;
+            transition: background 0.25s, transform 0.25s;
         }
-        .nav-cta:hover {
-            background: #ffffff;
-            box-shadow: 0 0 25px rgba(255, 255, 255, 0.4);
+        .press-cta:hover {
+            background: var(--shu);
             transform: translateY(-1px);
         }
+        @media (max-width: 640px) {
+            .press-links .press-link { display: none; }
+        }
 
-        /* ── Layout ── */
-        .page-wrapper {
-            position: relative;
-            z-index: 1;
-            max-width: 1000px;
+        /* ════════════════════════
+           面ラベル（セクション見出し）
+        ════════════════════════ */
+        .page-head { margin-bottom: 2.8rem; }
+        .page-head-label {
+            display: flex;
+            align-items: center;
+            gap: 0.9rem;
+            font-family: var(--font-mono);
+            font-size: 0.7rem;
+            letter-spacing: 0.3em;
+            color: var(--shu);
+            font-weight: 600;
+            margin-bottom: 0.9rem;
+        }
+        .page-head-label::after {
+            content: '';
+            flex: 1;
+            height: 1px;
+            background: var(--rule);
+        }
+        .page-head-title {
+            font-family: var(--font-mincho);
+            font-weight: 700;
+            font-size: clamp(1.6rem, 3.4vw, 2.3rem);
+            letter-spacing: 0.08em;
+            line-height: 1.4;
+        }
+        .page-head-sub {
+            margin-top: 0.7rem;
+            font-size: 0.9rem;
+            color: var(--ink-soft);
+            max-width: 620px;
+        }
+
+        /* ── 回路罫線（ロゴの回路モチーフを面区切りに） ── */
+        .circuit-rule {
+            max-width: var(--max-w);
             margin: 0 auto;
             padding: 0 2rem;
-        }
-
-        /* ════════════════════════
-           PREMIUM CYBER PANEL (GLASS CARD)
-        ════════════════════════ */
-        .tech-panel {
-            background: var(--bg-panel);
-            backdrop-filter: blur(20px) saturate(180%);
-            -webkit-backdrop-filter: blur(20px) saturate(180%);
-            border: 1px solid var(--glass-border);
-            border-radius: 24px;
-            position: relative;
-            overflow: hidden;
-            box-shadow: 0 20px 60px rgba(0,0,0,0.6), inset 0 1px 0 rgba(255,255,255,0.05);
-            transition: border-color 0.5s var(--ease-out-expo), box-shadow 0.5s var(--ease-out-expo);
-        }
-        .tech-panel:hover {
-            border-color: var(--glass-border-glow);
-            box-shadow: 0 30px 80px rgba(0,0,0,0.8), 0 0 25px rgba(0, 240, 255, 0.03), inset 0 1px 0 rgba(255,255,255,0.08);
-        }
-        .tech-panel::after {
-            content: '';
-            position: absolute;
-            top: 0; right: 0;
-            width: 32px; height: 32px;
-            border-right: 2px solid var(--accent-cyan);
-            border-top: 2px solid var(--accent-cyan);
-            border-top-right-radius: 24px;
-            pointer-events: none;
-            opacity: 0.4;
-            transition: opacity 0.3s;
-        }
-        .tech-panel::before {
-            content: '';
-            position: absolute;
-            bottom: 0; left: 0;
-            width: 32px; height: 32px;
-            border-left: 2px solid var(--accent-purple);
-            border-bottom: 2px solid var(--accent-purple);
-            border-bottom-left-radius: 24px;
-            pointer-events: none;
-            opacity: 0.4;
-            transition: opacity 0.3s;
-        }
-        .tech-panel:hover::after, .tech-panel:hover::before { opacity: 1; }
-
-        /* ── Scroll Reveal ── */
-        .reveal {
-            opacity: 0;
-            transform: translateY(30px);
-            transition: opacity 1s var(--ease-out-expo), transform 1s var(--ease-out-expo);
-        }
-        .reveal.visible { opacity: 1; transform: translateY(0); }
-        .reveal-delay-1 { transition-delay: 0.15s; }
-        .reveal-delay-2 { transition-delay: 0.3s; }
-        .reveal-delay-3 { transition-delay: 0.45s; }
-
-        /* ── Section Labels ── */
-        .section-label {
-            font-family: var(--font-logo);
-            font-size: 0.72rem;
-            letter-spacing: 0.25em;
-            color: var(--accent-cyan);
-            text-transform: uppercase;
-            font-weight: 700;
-            margin-bottom: 0.75rem;
-            display: inline-flex;
-            align-items: center;
-            gap: 0.5rem;
-        }
-        .section-label::before {
-            content: '';
-            width: 6px; height: 6px;
-            background: var(--accent-cyan);
-            border-radius: 50%;
-            box-shadow: 0 0 8px var(--accent-cyan);
-        }
-        .section-title {
-            font-family: var(--font-serif);
-            font-size: 2rem;
-            font-weight: 700;
-            letter-spacing: 0.02em;
-            background: linear-gradient(135deg, #ffffff 40%, #c4cbd6);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-        }
-
-        /* ── Live Badge (green reserved for live status) ── */
-        .live-badge {
-            display: inline-flex;
-            align-items: center;
-            gap: 0.4rem;
-            padding: 0.3rem 0.8rem;
-            border-radius: 20px;
-            font-family: var(--font-logo);
-            font-size: 0.68rem;
-            font-weight: 700;
-            background: rgba(57, 255, 20, 0.08);
-            border: 1px solid rgba(57, 255, 20, 0.2);
-            color: var(--accent-live);
-            margin-left: 0.8rem;
-            vertical-align: middle;
-            letter-spacing: 0.08em;
-            box-shadow: 0 0 10px rgba(57, 255, 20, 0.05);
-        }
-        .live-dot {
-            width: 6px; height: 6px;
-            border-radius: 50%;
-            background: var(--accent-live);
-            flex-shrink: 0;
-            animation: pulseGreen 1.8s infinite;
-            box-shadow: 0 0 8px var(--accent-live);
-        }
-        @keyframes pulseGreen {
-            0%, 100% { opacity: 1; transform: scale(1); }
-            50% { opacity: 0.3; transform: scale(0.7); }
-        }
-
-        /* ════════════════════════
-           HERO SECTION
-        ════════════════════════ */
-        .hero {
-            min-height: calc(100vh - 38px);
-            display: grid;
-            place-items: center;
-            padding: 4rem 1.5rem 4rem;
-            position: relative;
-        }
-        .hero-inner {
-            width: 100%;
-            max-width: 580px;
-            text-align: center;
-            perspective: 1000px;
-        }
-        #heroCard {
-            transform-style: preserve-3d;
-            transition: transform 0.25s var(--ease-out-expo);
-            will-change: transform;
-        }
-        #heroCard .tech-panel {
-            padding: 3.5rem 2.5rem 3rem;
-        }
-
-        /* System Status Bar */
-        .status-indicator-bar {
             display: flex;
             align-items: center;
-            justify-content: center;
-            flex-wrap: wrap;
-            gap: 0.75rem;
-            margin-bottom: 2rem;
-            font-family: var(--font-logo);
-            font-size: 0.65rem;
-            letter-spacing: 0.12em;
-            color: var(--text-muted);
         }
-        .status-badge {
-            display: inline-flex;
-            align-items: center;
-            gap: 0.4rem;
-            color: var(--accent-cyan);
-            font-weight: 700;
+        .circuit-rule .cr-line { flex: 1; height: 1px; background: var(--rule-strong); opacity: 0.55; }
+        .circuit-rule .cr-jog {
+            width: 26px; height: 9px;
+            border: 1px solid var(--rule-strong);
+            border-bottom: none;
+            opacity: 0.55;
+            margin-bottom: 8px;
         }
-        .status-pulse-dot {
-            width: 5px; height: 5px;
-            border-radius: 50%;
-            background: var(--accent-cyan);
-            box-shadow: 0 0 6px var(--accent-cyan);
-            animation: pulseCyan 1.5s infinite;
-        }
-        @keyframes pulseCyan {
-            0%, 100% { opacity: 1; }
-            50% { opacity: 0.4; }
-        }
-        .status-divider { color: var(--text-dim); font-weight: 300; }
-
-        /* Inverted Logo with orbit rings */
-        .logo-container {
-            position: relative;
-            width: 120px; height: 120px;
-            margin: 0 auto 1.75rem;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            border-radius: 50%;
-            background: rgba(255, 255, 255, 0.01);
-            border: 1px solid rgba(255, 255, 255, 0.05);
-            box-shadow: inset 0 0 25px rgba(255, 255, 255, 0.02);
-            padding: 10px;
-            transform: translateZ(30px);
-        }
-        .logo-img {
-            width: 100%; height: 100%;
-            border-radius: 50%;
-            object-fit: cover;
-            filter: invert(0.94) contrast(1.1) brightness(1.25);
-            transition: all 0.5s var(--ease-out-expo);
-            border: 1px solid rgba(255, 255, 255, 0.05);
-        }
-        .logo-container:hover .logo-img {
-            transform: scale(1.06) rotate(6deg);
-            filter: invert(0.94) contrast(1.2) brightness(1.5) drop-shadow(0 0 10px rgba(0, 240, 255, 0.5));
-        }
-        .logo-orbit {
-            position: absolute;
-            inset: -8px;
-            border-radius: 50%;
-            border: 1.5px dashed rgba(0, 240, 255, 0.2);
-            animation: orbitSpin 25s linear infinite;
-            pointer-events: none;
-        }
-        .logo-orbit::after {
-            content: '';
-            position: absolute;
-            top: -4px; left: 50%;
+        .circuit-rule .cr-node {
             width: 8px; height: 8px;
-            background: var(--accent-cyan);
+            border: 1.5px solid var(--ink);
             border-radius: 50%;
-            box-shadow: 0 0 10px var(--accent-cyan);
+            background: var(--paper);
+            margin: 0 8px;
+            flex-shrink: 0;
         }
-        .logo-orbit-2 {
+        .circuit-rule .cr-node.filled { background: var(--ink); }
+
+        /* ════════════════════════
+           第一面（ヒーロー）
+        ════════════════════════ */
+        .front-page {
+            position: relative;
+            padding: 4.2rem 0 5rem;
+        }
+        .front-grid {
+            display: grid;
+            grid-template-columns: auto 1fr;
+            gap: clamp(2rem, 6vw, 5rem);
+            align-items: start;
+        }
+
+        /* 縦書き大見出し */
+        .tategaki-headline {
+            writing-mode: vertical-rl;
+            font-family: var(--font-mincho);
+            font-weight: 800;
+            font-size: clamp(2.3rem, 4.6vw, 3.5rem);
+            letter-spacing: 0.22em;
+            line-height: 1.65;
+            height: 30rem;
+            max-height: 62vh;
+            color: var(--ink);
+            position: relative;
+            padding-left: 1.6rem;
+        }
+        .tategaki-headline .shu-text { color: var(--shu); }
+        .tategaki-headline::after {
+            content: '';
             position: absolute;
-            inset: -16px;
-            border-radius: 50%;
-            border: 1px dashed rgba(125, 0, 255, 0.15);
-            animation: orbitSpin 40s linear infinite reverse;
-            pointer-events: none;
-        }
-        @keyframes orbitSpin {
-            from { transform: rotate(0deg); }
-            to { transform: rotate(360deg); }
+            left: 0; top: 0.3rem; bottom: 0.3rem;
+            width: 1px;
+            background: var(--rule-strong);
         }
 
-        /* Brand eyebrow (logo name now supports the JP copy) */
-        .hero-eyebrow {
-            font-family: var(--font-logo);
-            font-size: 0.85rem;
+        .front-body { padding-top: 0.6rem; min-width: 0; }
+
+        .front-lead {
+            font-family: var(--font-mincho);
+            font-size: 1.02rem;
+            line-height: 2.15;
+            color: var(--ink-soft);
+            text-align: justify;
+            max-width: 36em;
+        }
+        .front-lead em {
+            font-style: normal;
             font-weight: 700;
+            color: var(--ink);
+            background: linear-gradient(transparent 62%, rgba(195, 39, 29, 0.18) 62%);
+        }
+
+        /* コミュニティ現況（データ欄） */
+        .data-box {
+            margin: 2.2rem 0;
+            border: 1.5px solid var(--ink);
+            background: rgba(255, 255, 255, 0.45);
+            box-shadow: 5px 5px 0 rgba(27, 27, 31, 0.1);
+        }
+        .data-box-head {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0.5rem 1.1rem;
+            border-bottom: 1px solid var(--rule-strong);
+            font-family: var(--font-mono);
+            font-size: 0.68rem;
             letter-spacing: 0.25em;
-            text-transform: uppercase;
-            margin-bottom: 1.1rem;
-            background: linear-gradient(90deg, #ffffff, var(--accent-cyan));
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-            transform: translateZ(15px);
+            color: var(--ink-soft);
         }
-
-        /* Japanese value proposition as the main headline */
-        h1.hero-copy {
-            font-family: var(--font-serif);
-            font-size: 2.15rem;
-            font-weight: 700;
-            line-height: 1.55;
-            letter-spacing: 0.04em;
-            margin-bottom: 1rem;
-            background: linear-gradient(180deg, #ffffff 55%, #aab1c0);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-            transform: translateZ(20px);
-        }
-        h1.hero-copy .copy-accent {
-            background: linear-gradient(135deg, var(--accent-cyan), var(--accent-purple-soft));
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-        }
-
-        .hero-description {
-            font-size: 0.95rem;
-            line-height: 1.8;
-            color: var(--text-muted);
-            margin-bottom: 1.75rem;
-            transform: translateZ(10px);
-            font-weight: 400;
-        }
-
-        /* Stats Section (live numbers from Discord) */
-        .stats-row {
+        .data-rows {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
-            gap: 1rem;
-            padding: 1.5rem 0;
-            margin-bottom: 2rem;
-            border-top: 1px solid var(--glass-border);
-            border-bottom: 1px solid var(--glass-border);
-            transform: translateZ(15px);
         }
-        .stat-item { position: relative; }
-        .stat-item:not(:last-child)::after {
-            content: '';
-            position: absolute;
-            right: 0; top: 20%; height: 60%;
-            width: 1px;
-            background: var(--glass-border);
+        .data-cell {
+            padding: 1.1rem 1rem 1rem;
+            text-align: center;
         }
-        .stat-number {
-            font-family: var(--font-logo);
-            font-size: 1.55rem;
-            font-weight: 700;
-            background: linear-gradient(135deg, #ffffff, var(--accent-cyan));
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
+        .data-cell:not(:last-child) { border-right: 1px solid var(--rule); }
+        .data-num {
+            font-family: var(--font-mono);
+            font-weight: 600;
+            font-size: 1.7rem;
             line-height: 1.2;
-            margin-bottom: 0.25rem;
+            color: var(--ink);
+            font-variant-numeric: tabular-nums;
         }
-        .stat-number.stat-live {
-            background: linear-gradient(135deg, #ffffff, var(--accent-live));
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
+        .data-num.num-shu { color: var(--shu); }
+        .data-unit { font-size: 0.85rem; margin-left: 0.1rem; }
+        .data-label {
+            margin-top: 0.3rem;
+            font-size: 0.7rem;
+            letter-spacing: 0.12em;
+            color: var(--ink-faint);
         }
-        .stat-label {
-            font-size: 0.68rem;
-            color: var(--text-muted);
-            letter-spacing: 0.04em;
-            font-weight: 500;
+
+        /* 行動ボタン（インク／白抜き） */
+        .front-actions {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        .btn-ink, .btn-outline {
             display: inline-flex;
             align-items: center;
-            gap: 0.3rem;
-        }
-        .stat-label .live-dot { width: 5px; height: 5px; }
-
-        /* Premium Cyber Action Buttons */
-        .actions {
-            display: flex;
-            flex-direction: column;
-            gap: 1rem;
-            transform: translateZ(25px);
-        }
-        .btn-cyber {
-            position: relative;
-            display: flex;
-            align-items: center;
             justify-content: center;
-            padding: 1rem 2rem;
-            border-radius: 12px;
-            text-decoration: none;
-            font-family: var(--font-logo);
-            font-size: 0.85rem;
+            gap: 0.7rem;
+            padding: 1rem 2.4rem;
+            font-family: var(--font-gothic);
             font-weight: 700;
-            letter-spacing: 0.12em;
-            text-transform: uppercase;
-            transition: all 0.4s var(--ease-out-expo);
-            overflow: hidden;
-            border: 1px solid rgba(255, 255, 255, 0.08);
-            cursor: pointer;
+            font-size: 0.92rem;
+            letter-spacing: 0.16em;
+            text-decoration: none;
+            transition: all 0.3s var(--ease-press);
+            position: relative;
         }
-        .btn-cyber-primary {
-            background: rgba(0, 240, 255, 0.05);
-            border-color: rgba(0, 240, 255, 0.35);
-            color: var(--accent-cyan);
-            box-shadow: 0 4px 20px rgba(0, 240, 255, 0.1);
+        .btn-ink {
+            background: var(--ink);
+            color: var(--paper);
+            box-shadow: 4px 4px 0 rgba(27, 27, 31, 0.18);
         }
-        .btn-cyber-primary::before {
-            content: '';
-            position: absolute;
-            inset: 0;
-            background: linear-gradient(90deg, var(--accent-cyan), var(--accent-purple));
-            opacity: 0;
-            transition: opacity 0.3s ease;
-            z-index: -1;
+        .btn-ink:hover {
+            background: var(--shu);
+            box-shadow: 6px 6px 0 rgba(195, 39, 29, 0.22);
+            transform: translate(-1px, -2px);
         }
-        .btn-cyber-primary:hover {
-            color: #020204;
-            border-color: transparent;
-            box-shadow: 0 0 30px rgba(0, 240, 255, 0.4);
+        .btn-ink .btn-arrow { transition: transform 0.3s var(--ease-press); }
+        .btn-ink:hover .btn-arrow { transform: translateX(4px); }
+        .btn-outline {
+            background: transparent;
+            color: var(--ink);
+            border: 1.5px solid var(--ink);
+        }
+        .btn-outline:hover {
+            background: var(--ink);
+            color: var(--paper);
             transform: translateY(-2px);
         }
-        .btn-cyber-primary:hover::before { opacity: 1; }
 
-        .btn-cyber-secondary {
-            background: transparent;
-            color: var(--text-muted);
-            border-color: var(--glass-border);
+        /* 朱印（公式の判子） */
+        .hanko {
+            position: absolute;
+            top: 0.4rem;
+            right: 0;
+            width: 72px;
+            height: 72px;
+            border: 3px solid var(--shu);
+            border-radius: 8px;
+            display: grid;
+            place-items: center;
+            writing-mode: vertical-rl;
+            font-family: var(--font-mincho);
+            font-weight: 800;
+            font-size: 1.5rem;
+            letter-spacing: 0.18em;
+            color: var(--shu);
+            transform: rotate(-5deg);
+            opacity: 0;
+            user-select: none;
+            mix-blend-mode: multiply;
         }
-        .btn-cyber-secondary:hover {
-            background: rgba(255, 255, 255, 0.03);
-            color: #ffffff;
-            border-color: rgba(255, 255, 255, 0.2);
-            transform: translateY(-1px);
+        .hanko.stamped {
+            animation: stampIn 0.5s var(--ease-press) forwards;
+            animation-delay: 0.7s;
+        }
+        @keyframes stampIn {
+            0%   { opacity: 0; transform: rotate(-14deg) scale(2.1); }
+            55%  { opacity: 1; transform: rotate(-4deg) scale(0.94); }
+            100% { opacity: 0.92; transform: rotate(-5deg) scale(1); }
+        }
+
+        /* 等高線＋電波（ロゴの山とパラボラのモチーフ） */
+        .topo-decor {
+            position: absolute;
+            right: -120px;
+            bottom: -60px;
+            width: 520px;
+            height: 420px;
+            pointer-events: none;
+            opacity: 0.5;
+            z-index: -1;
+        }
+        .topo-path {
+            fill: none;
+            stroke: var(--ink);
+            stroke-width: 1;
+            opacity: 0.1;
+        }
+        .wave-decor {
+            position: absolute;
+            top: 0.2rem;
+            right: 110px;
+            width: 120px;
+            height: 90px;
+            pointer-events: none;
+        }
+        .wave-arc {
+            fill: none;
+            stroke: var(--ink);
+            stroke-width: 1.5;
+            opacity: 0;
+            animation: waveOut 3.2s infinite;
+        }
+        .wave-arc:nth-child(2) { animation-delay: 0.5s; }
+        .wave-arc:nth-child(3) { animation-delay: 1s; }
+        .wave-dot { fill: var(--shu); }
+        @keyframes waveOut {
+            0%   { opacity: 0; }
+            25%  { opacity: 0.55; }
+            70%  { opacity: 0; }
+            100% { opacity: 0; }
         }
 
         .scroll-hint {
-            margin-top: 2rem;
-            font-family: var(--font-logo);
-            font-size: 0.72rem;
-            color: var(--text-dim);
-            letter-spacing: 0.15em;
-            text-transform: uppercase;
-            animation: floatHint 2.5s infinite;
+            margin-top: 3.4rem;
+            text-align: center;
+            font-family: var(--font-mono);
+            font-size: 0.68rem;
+            letter-spacing: 0.35em;
+            color: var(--ink-faint);
         }
-        @keyframes floatHint {
-            0%, 100% { transform: translateY(0); opacity: 0.4; }
-            50% { transform: translateY(8px); opacity: 0.8; color: var(--accent-cyan); }
+        .scroll-hint::after {
+            content: '';
+            display: block;
+            width: 1px;
+            height: 42px;
+            margin: 0.8rem auto 0;
+            background: var(--rule-strong);
+            animation: dropLine 2.2s var(--ease-press) infinite;
+            transform-origin: top;
         }
-
-        /* ════════════════════════
-           SECTIONS (GENERAL)
-        ════════════════════════ */
-        .section { padding: 6rem 0; }
-        .section-header { margin-bottom: 3.5rem; }
-        .section-sub {
-            font-size: 0.92rem;
-            color: var(--text-muted);
-            margin-top: 0.75rem;
-            line-height: 1.7;
-            max-width: 600px;
+        @keyframes dropLine {
+            0%   { transform: scaleY(0); }
+            45%  { transform: scaleY(1); }
+            100% { transform: scaleY(1); opacity: 0; }
         }
 
         /* ════════════════════════
-           FEATURES
+           第二面：機能（新聞の段組）
         ════════════════════════ */
-        .features-grid {
+        .section { padding: 5.5rem 0; }
+
+        .columns-3 {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 1.5rem;
+            grid-template-columns: repeat(3, 1fr);
+            border-top: 1px solid var(--rule-strong);
+            border-bottom: 1px solid var(--rule-strong);
         }
-        .feature-card { padding: 2.5rem 2rem; }
-        .feature-icon-box {
-            width: 52px; height: 52px;
-            border-radius: 12px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 1.5rem;
-            margin-bottom: 1.5rem;
+        .column {
+            padding: 2.4rem 2rem 2.6rem;
             position: relative;
         }
-        .fc-cyan   { background: rgba(0, 240, 255, 0.08);  border: 1px solid rgba(0, 240, 255, 0.2); }
-        .fc-purple { background: rgba(125, 0, 255, 0.08);  border: 1px solid rgba(125, 0, 255, 0.2); }
-        .feature-icon-box::after {
-            content: '';
-            position: absolute;
-            width: 4px; height: 4px;
-            border-radius: 50%;
-            top: 4px; right: 4px;
-        }
-        .fc-cyan::after   { background: var(--accent-cyan);   box-shadow: 0 0 6px var(--accent-cyan); }
-        .fc-purple::after { background: var(--accent-purple); box-shadow: 0 0 6px var(--accent-purple); }
-
-        .feature-title {
-            font-family: var(--font-logo);
-            font-size: 1rem;
+        .column:not(:last-child) { border-right: 1px solid var(--rule); }
+        .kanji-mark {
+            width: 46px; height: 46px;
+            border: 1.5px solid var(--ink);
+            display: grid;
+            place-items: center;
+            font-family: var(--font-mincho);
             font-weight: 700;
-            margin-bottom: 0.85rem;
-            letter-spacing: 0.04em;
-            color: #ffffff;
+            font-size: 1.35rem;
+            margin-bottom: 1.3rem;
+            background: var(--paper);
+            box-shadow: 3px 3px 0 rgba(27, 27, 31, 0.12);
+            transition: all 0.3s var(--ease-press);
         }
-        .feature-desc {
-            font-size: 0.88rem;
-            line-height: 1.8;
-            color: var(--text-muted);
-            margin-bottom: 1.25rem;
+        .column:hover .kanji-mark {
+            background: var(--ink);
+            color: var(--paper);
+            transform: translate(-1px, -2px);
+            box-shadow: 4px 5px 0 rgba(27, 27, 31, 0.18);
         }
-        .feature-badge {
-            display: inline-flex;
-            padding: 0.3rem 0.8rem;
-            border-radius: 6px;
-            font-family: var(--font-logo);
-            font-size: 0.68rem;
+        .column-title {
+            font-family: var(--font-mincho);
             font-weight: 700;
+            font-size: 1.12rem;
             letter-spacing: 0.06em;
-            text-transform: uppercase;
+            margin-bottom: 0.7rem;
         }
-        .badge-cyan   { background: rgba(0, 240, 255, 0.06);  color: var(--accent-cyan);        border: 1px solid rgba(0, 240, 255, 0.15); }
-        .badge-purple { background: rgba(125, 0, 255, 0.06); color: var(--accent-purple-soft); border: 1px solid rgba(125, 0, 255, 0.15); }
+        .column-desc {
+            font-size: 0.86rem;
+            line-height: 1.95;
+            color: var(--ink-soft);
+            text-align: justify;
+            margin-bottom: 1.2rem;
+        }
+        .column-tag {
+            display: inline-block;
+            font-family: var(--font-mono);
+            font-size: 0.66rem;
+            font-weight: 600;
+            letter-spacing: 0.18em;
+            color: var(--shu);
+            border: 1px solid rgba(195, 39, 29, 0.45);
+            padding: 0.25rem 0.7rem;
+        }
+        @media (max-width: 760px) {
+            .columns-3 { grid-template-columns: 1fr; }
+            .column:not(:last-child) {
+                border-right: none;
+                border-bottom: 1px solid var(--rule);
+            }
+        }
 
         /* ════════════════════════
-           SAMPLE FEED (DISCORD-STYLE PREVIEW)
+           第三面：配信プレビュー（紙面に刷られた"写真"）
         ════════════════════════ */
-        .feed-terminal {
-            border: 1px solid var(--glass-border);
-            border-radius: 20px;
-            background: rgba(4, 4, 8, 0.85);
-            overflow: hidden;
-            box-shadow: 0 30px 70px rgba(0,0,0,0.8);
+        .photo-frame {
+            border: 1.5px solid var(--ink);
+            padding: 10px;
+            background: #fff;
+            box-shadow: 7px 7px 0 rgba(27, 27, 31, 0.12);
         }
+        .feed-screen {
+            background: #17181d;
+            color: #e7e5df;
+            overflow: hidden;
+        }
+        .feed-titlebar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0.7rem 1.2rem;
+            background: #101116;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.07);
+            font-family: var(--font-mono);
+            font-size: 0.7rem;
+            letter-spacing: 0.15em;
+            color: #9a978f;
+        }
+        .feed-titlebar .tb-dots { display: flex; gap: 0.35rem; }
+        .feed-titlebar .tb-dot { width: 8px; height: 8px; border-radius: 50%; background: #3a3b42; }
         .feed-body {
-            padding: 1.75rem;
+            padding: 1.6rem;
             display: flex;
             flex-direction: column;
             gap: 1.5rem;
         }
-        .feed-message {
-            display: flex;
-            gap: 0.9rem;
-            align-items: flex-start;
-        }
+        .feed-message { display: flex; gap: 0.9rem; align-items: flex-start; }
         .feed-avatar {
             width: 40px; height: 40px;
             flex-shrink: 0;
@@ -827,13 +775,9 @@
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 1.1rem;
-            background: rgba(0, 240, 255, 0.08);
-            border: 1px solid rgba(0, 240, 255, 0.25);
-        }
-        .feed-avatar.av-purple {
-            background: rgba(125, 0, 255, 0.1);
-            border-color: rgba(125, 0, 255, 0.3);
+            font-size: 1.05rem;
+            background: #23242b;
+            border: 1px solid rgba(255, 255, 255, 0.12);
         }
         .feed-content { flex: 1; min-width: 0; }
         .feed-meta {
@@ -843,526 +787,489 @@
             gap: 0.5rem;
             margin-bottom: 0.5rem;
         }
-        .feed-author {
-            font-weight: 700;
-            font-size: 0.9rem;
-            color: var(--accent-cyan);
-        }
-        .feed-author.au-purple { color: var(--accent-purple-soft); }
+        .feed-author { font-weight: 700; font-size: 0.88rem; color: #fff; }
         .feed-bot-tag {
-            font-family: var(--font-logo);
+            font-family: var(--font-mono);
             font-size: 0.55rem;
-            font-weight: 700;
-            letter-spacing: 0.08em;
-            padding: 0.1rem 0.4rem;
-            border-radius: 4px;
-            background: rgba(0, 240, 255, 0.12);
-            color: var(--accent-cyan);
-            border: 1px solid rgba(0, 240, 255, 0.2);
+            font-weight: 600;
+            letter-spacing: 0.1em;
+            padding: 0.1rem 0.45rem;
+            background: var(--shu);
+            color: #fff;
+            border-radius: 3px;
         }
-        .feed-time {
-            font-size: 0.7rem;
-            color: var(--text-dim);
-        }
+        .feed-time { font-size: 0.68rem; color: #76746e; }
         .feed-embed {
-            border-left: 3px solid var(--accent-cyan);
-            border-radius: 6px;
-            background: rgba(255, 255, 255, 0.025);
-            padding: 1rem 1.25rem;
+            border-left: 3px solid var(--shu);
+            background: rgba(255, 255, 255, 0.04);
+            padding: 1rem 1.2rem;
+            border-radius: 0 4px 4px 0;
         }
-        .feed-embed.em-purple { border-left-color: var(--accent-purple); }
         .feed-embed-title {
             font-weight: 700;
-            font-size: 0.92rem;
-            color: var(--text-main);
-            margin-bottom: 0.75rem;
+            font-size: 0.9rem;
+            color: #fff;
+            margin-bottom: 0.7rem;
         }
         .feed-news-item {
-            font-size: 0.85rem;
-            line-height: 1.7;
-            color: var(--text-muted);
-            padding: 0.4rem 0;
-            border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+            font-size: 0.83rem;
+            line-height: 1.75;
+            color: #b9b6ae;
+            padding: 0.35rem 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
         }
         .feed-news-item:last-of-type { border-bottom: none; }
         .feed-news-item .news-source {
-            font-family: var(--font-logo);
-            font-size: 0.62rem;
-            letter-spacing: 0.08em;
-            color: var(--accent-cyan);
-            margin-right: 0.5rem;
+            font-family: var(--font-mono);
+            font-size: 0.6rem;
+            letter-spacing: 0.12em;
+            color: #f0b8b2;
+            margin-right: 0.55rem;
             text-transform: uppercase;
         }
         .feed-rank-item {
             display: flex;
             align-items: baseline;
             gap: 0.6rem;
-            font-size: 0.85rem;
-            line-height: 1.7;
-            color: var(--text-muted);
-            padding: 0.4rem 0;
+            font-size: 0.83rem;
+            line-height: 1.75;
+            color: #b9b6ae;
+            padding: 0.35rem 0;
         }
-        .feed-rank-medal { flex-shrink: 0; }
-        .feed-reactions {
-            display: flex;
-            gap: 0.5rem;
-            margin-top: 0.75rem;
-            flex-wrap: wrap;
-        }
+        .feed-reactions { display: flex; gap: 0.5rem; margin-top: 0.7rem; flex-wrap: wrap; }
         .feed-reaction {
             display: inline-flex;
             align-items: center;
             gap: 0.35rem;
-            padding: 0.2rem 0.6rem;
-            border-radius: 8px;
-            font-size: 0.75rem;
-            background: rgba(0, 240, 255, 0.05);
-            border: 1px solid rgba(0, 240, 255, 0.15);
-            color: var(--text-muted);
-        }
-        .feed-note {
-            text-align: center;
+            padding: 0.18rem 0.6rem;
+            border-radius: 4px;
             font-size: 0.72rem;
-            color: var(--text-dim);
-            padding: 0.9rem 1.5rem;
-            border-top: 1px solid rgba(255, 255, 255, 0.03);
-            letter-spacing: 0.05em;
+            background: rgba(255, 255, 255, 0.06);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            color: #b9b6ae;
         }
+        .photo-caption {
+            margin-top: 0.9rem;
+            font-size: 0.74rem;
+            color: var(--ink-faint);
+            letter-spacing: 0.06em;
+        }
+        .photo-caption::before { content: '▲ '; color: var(--shu); }
 
         /* ════════════════════════
-           TERMINAL CHROME (SHARED)
+           第四面：チャンネル索引
         ════════════════════════ */
-        .terminal-header {
-            background: rgba(12, 12, 22, 0.9);
-            border-bottom: 1px solid var(--glass-border);
-            padding: 0.9rem 1.5rem;
+        .index-table {
+            border: 1.5px solid var(--ink);
+            background: rgba(255, 255, 255, 0.45);
+            box-shadow: 7px 7px 0 rgba(27, 27, 31, 0.12);
+        }
+        .index-caption {
             display: flex;
             align-items: center;
             justify-content: space-between;
+            padding: 0.6rem 1.4rem;
+            border-bottom: 1px solid var(--rule-strong);
+            font-family: var(--font-mono);
+            font-size: 0.68rem;
+            letter-spacing: 0.25em;
+            color: var(--ink-soft);
         }
-        .terminal-dots { display: flex; gap: 0.4rem; }
-        .t-dot { width: 8px; height: 8px; border-radius: 50%; }
-        .t-red   { background: #ff5f56; }
-        .t-yellow{ background: #ffbd2e; }
-        .t-green { background: #27c93f; }
-        .terminal-title {
-            font-family: var(--font-logo);
-            font-size: 0.72rem;
-            color: var(--text-muted);
-            letter-spacing: 0.15em;
-            text-transform: uppercase;
-        }
-
-        /* ════════════════════════
-           CHANNELS + ACCESSIBLE ACCORDION
-        ════════════════════════ */
-        .explorer-terminal {
-            border: 1px solid var(--glass-border);
-            border-radius: 20px;
-            background: rgba(4, 4, 8, 0.85);
-            overflow: hidden;
-            box-shadow: 0 30px 70px rgba(0,0,0,0.8);
-        }
-        .channels-stack { display: flex; flex-direction: column; }
-
-        .explorer-row {
-            border-bottom: 1px solid rgba(255, 255, 255, 0.03);
-            transition: background 0.3s;
-        }
-        .explorer-row:last-child { border-bottom: none; }
-
-        /* Header is a real <button> for keyboard / screen-reader support */
-        .explorer-header {
+        .index-row { border-bottom: 1px solid var(--rule); }
+        .index-row:last-child { border-bottom: none; }
+        .index-header {
             display: flex;
             align-items: center;
-            gap: 0.85rem;
+            gap: 1rem;
             width: 100%;
-            padding: 1.25rem 1.75rem;
-            cursor: pointer;
-            user-select: none;
-            transition: all 0.2s ease;
+            padding: 1.15rem 1.4rem;
             background: transparent;
             border: none;
             font: inherit;
             color: inherit;
             text-align: left;
+            cursor: pointer;
+            transition: background 0.2s;
         }
-        .explorer-header:hover { background: rgba(255,255,255,0.02); }
-        .explorer-header:focus-visible {
-            outline: 1px solid var(--accent-cyan);
-            outline-offset: -1px;
-            background: rgba(0, 240, 255, 0.03);
+        .index-header:hover { background: rgba(27, 27, 31, 0.035); }
+        .index-header:focus-visible {
+            outline: 2px solid var(--shu);
+            outline-offset: -2px;
         }
-
-        .explorer-icon {
-            font-size: 0.9rem;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            transition: transform 0.3s ease;
-            color: var(--text-muted);
-        }
-        .explorer-row.active-folder .explorer-icon {
-            color: var(--accent-cyan);
-            transform: scale(1.1);
-        }
-
-        .company-led {
-            width: 7px; height: 7px;
-            border-radius: 50%;
+        .index-led {
+            width: 9px; height: 9px;
             flex-shrink: 0;
-            box-shadow: 0 0 6px currentColor;
         }
-        .led-google    { color: #34a853; background: #34a853; }
-        .led-openai    { color: #10a37f; background: #10a37f; }
-        .led-anthropic { color: #d97757; background: #d97757; }
-        .led-xai       { color: #aaaaaa; background: #aaaaaa; }
-        .led-microsoft { color: #0078d4; background: #0078d4; }
-        .led-meta      { color: #0866ff; background: #0866ff; }
-        .led-alibaba   { color: #ff6a00; background: #ff6a00; }
-        .led-other     { color: var(--accent-purple); background: var(--accent-purple); }
-        .led-model     { color: var(--accent-cyan); background: var(--accent-cyan); }
-
-        .company-name {
-            font-family: var(--font-logo);
-            font-weight: 700;
-            font-size: 0.88rem;
+        .il-google    { background: #34a853; }
+        .il-openai    { background: #10a37f; }
+        .il-anthropic { background: #d97757; }
+        .il-xai       { background: #707070; }
+        .il-microsoft { background: #0078d4; }
+        .il-meta      { background: #0866ff; }
+        .il-alibaba   { background: #ff6a00; }
+        .il-other     { background: var(--shu); }
+        .il-model     { background: var(--ink); }
+        .index-name {
             flex: 1;
-            letter-spacing: 0.05em;
-            color: var(--text-main);
+            font-family: var(--font-mincho);
+            font-weight: 700;
+            font-size: 0.98rem;
+            letter-spacing: 0.08em;
         }
-
-        .explorer-arrow {
-            font-size: 0.72rem;
-            color: var(--text-dim);
-            transition: transform 0.4s var(--ease-out-expo);
-            display: flex;
-            align-items: center;
-            justify-content: center;
+        .index-count {
+            font-family: var(--font-mono);
+            font-size: 0.66rem;
+            letter-spacing: 0.12em;
+            color: var(--ink-faint);
         }
-        .explorer-row.collapsed .explorer-arrow { transform: rotate(-90deg); }
+        .index-arrow {
+            font-size: 0.7rem;
+            color: var(--ink-faint);
+            transition: transform 0.4s var(--ease-press);
+        }
+        .index-row.collapsed .index-arrow { transform: rotate(-90deg); }
 
-        /* Grid-rows animation: no max-height, so long lists never get clipped */
-        .explorer-body-wrap {
+        .index-body-wrap {
             display: grid;
             grid-template-rows: 1fr;
-            transition: grid-template-rows 0.5s var(--ease-out-expo), opacity 0.3s ease;
+            transition: grid-template-rows 0.5s var(--ease-press), opacity 0.3s ease;
             opacity: 1;
-            background: rgba(2, 2, 4, 0.4);
+            background: rgba(27, 27, 31, 0.025);
         }
-        .explorer-row.collapsed .explorer-body-wrap {
+        .index-row.collapsed .index-body-wrap {
             grid-template-rows: 0fr;
             opacity: 0;
         }
-        .explorer-body {
-            overflow: hidden;
-            min-height: 0;
-        }
-        .explorer-row.collapsed .explorer-body { pointer-events: none; }
-        .explorer-body-inner {
-            padding: 0.5rem 1.75rem 1.5rem 3.5rem;
-        }
+        .index-body { overflow: hidden; min-height: 0; }
+        .index-row.collapsed .index-body { pointer-events: none; }
+        .index-body-inner { padding: 0.5rem 1.4rem 1.4rem 3rem; }
 
-        .channels-tags { display: flex; flex-wrap: wrap; gap: 0.6rem; }
-        .channel-tag {
-            padding: 0.35rem 0.85rem;
-            border-radius: 6px;
-            font-size: 0.8rem;
-            font-family: var(--font-tech);
-            background: rgba(255, 255, 255, 0.02);
-            border: 1px solid rgba(255, 255, 255, 0.04);
-            color: var(--text-muted);
-            transition: all 0.3s var(--ease-out-expo);
-            display: inline-flex;
-            align-items: center;
-            gap: 0.25rem;
+        .tag-list { display: flex; flex-wrap: wrap; gap: 0.55rem; }
+        .ch-tag {
+            font-family: var(--font-mono);
+            font-size: 0.74rem;
+            padding: 0.3rem 0.75rem;
+            border: 1px solid var(--rule);
+            color: var(--ink-soft);
+            background: var(--paper);
+            transition: all 0.25s var(--ease-press);
         }
-        .channel-tag::before {
-            content: '#';
-            color: var(--text-dim);
-            transition: color 0.3s;
-        }
-        .channel-tag:hover {
-            background: rgba(0, 240, 255, 0.05);
-            border-color: rgba(0, 240, 255, 0.25);
-            color: var(--accent-cyan);
+        .ch-tag::before { content: '# '; color: var(--ink-faint); }
+        .ch-tag:hover {
+            border-color: var(--shu);
+            color: var(--shu);
             transform: translateY(-1px);
         }
-        .channel-tag:hover::before { color: var(--accent-cyan); }
-        .channel-tag-more {
-            padding: 0.35rem 0.85rem;
-            border-radius: 6px;
-            font-size: 0.77rem;
-            background: transparent;
-            border: 1px dashed rgba(255, 255, 255, 0.1);
-            color: var(--text-dim);
+        .ch-tag-more {
+            font-family: var(--font-gothic);
+            font-size: 0.72rem;
+            padding: 0.3rem 0.75rem;
+            border: 1px dashed var(--rule);
+            color: var(--ink-faint);
             font-style: italic;
-            letter-spacing: 0.04em;
-        }
-
-        .companies-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-            border-bottom: 1px solid rgba(255, 255, 255, 0.03);
-        }
-        .companies-grid .explorer-row {
-            border-bottom: none;
-            border-right: 1px solid rgba(255, 255, 255, 0.03);
-        }
-        .companies-grid .explorer-row:last-child { border-right: none; }
-        @media (max-width: 650px) {
-            .companies-grid { grid-template-columns: 1fr; }
-            .companies-grid .explorer-row { border-right: none; border-bottom: 1px solid rgba(255, 255, 255, 0.03); }
         }
 
         /* ════════════════════════
-           JOIN STEPS (3-STEP FLOW)
+           第五面：購読案内（参加3ステップ）
         ════════════════════════ */
-        .steps-grid {
+        .steps-flow {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
-            gap: 1.5rem;
+            gap: 0;
+            border-top: 1px solid var(--rule-strong);
+            border-bottom: 1px solid var(--rule-strong);
+            counter-reset: step;
+        }
+        .step {
             position: relative;
+            padding: 2.6rem 2rem 2.8rem;
         }
-        .step-card {
-            padding: 2.5rem 1.75rem 2.25rem;
-            text-align: center;
-            position: relative;
+        .step:not(:last-child) { border-right: 1px solid var(--rule); }
+        .step-no {
+            font-family: var(--font-mincho);
+            font-weight: 800;
+            font-size: 2.6rem;
+            line-height: 1;
+            color: transparent;
+            -webkit-text-stroke: 1.2px var(--ink);
+            margin-bottom: 1.1rem;
+            opacity: 0.85;
         }
-        .step-number {
-            font-family: var(--font-logo);
-            font-size: 0.68rem;
-            font-weight: 700;
-            letter-spacing: 0.2em;
-            color: var(--accent-cyan);
-            margin-bottom: 1.25rem;
-        }
-        .step-icon {
-            width: 56px; height: 56px;
-            margin: 0 auto 1.25rem;
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 1.4rem;
-            background: rgba(0, 240, 255, 0.05);
-            border: 1px solid rgba(0, 240, 255, 0.2);
-            box-shadow: 0 0 20px rgba(0, 240, 255, 0.08);
+        .step:hover .step-no {
+            color: var(--shu);
+            -webkit-text-stroke: 0;
+            transition: color 0.3s;
         }
         .step-title {
-            font-size: 1rem;
+            font-family: var(--font-mincho);
             font-weight: 700;
-            color: #ffffff;
+            font-size: 1.08rem;
+            letter-spacing: 0.06em;
             margin-bottom: 0.6rem;
-            letter-spacing: 0.04em;
         }
         .step-desc {
-            font-size: 0.83rem;
-            line-height: 1.75;
-            color: var(--text-muted);
+            font-size: 0.84rem;
+            line-height: 1.95;
+            color: var(--ink-soft);
+            text-align: justify;
         }
-        /* Connector arrows between steps (desktop) */
-        .step-card:not(:last-child)::after {
-            content: '▸';
-            position: absolute;
-            top: 50%;
-            right: -1.25rem;
-            transform: translateY(-50%);
-            color: var(--accent-cyan);
-            opacity: 0.5;
-            font-size: 1rem;
-            z-index: 2;
+        .step-free-note {
+            display: inline-block;
+            margin-top: 1rem;
+            font-family: var(--font-mono);
+            font-size: 0.64rem;
+            letter-spacing: 0.2em;
+            color: var(--shu);
+            border-bottom: 1px solid rgba(195, 39, 29, 0.4);
+            padding-bottom: 2px;
         }
-        @media (max-width: 768px) {
-            .steps-grid { grid-template-columns: 1fr; }
-            .step-card:not(:last-child)::after {
-                content: '▾';
-                top: auto;
-                bottom: -1.4rem;
-                right: 50%;
-                transform: translateX(50%);
+        @media (max-width: 760px) {
+            .steps-flow { grid-template-columns: 1fr; }
+            .step:not(:last-child) {
+                border-right: none;
+                border-bottom: 1px solid var(--rule);
             }
         }
 
         /* ════════════════════════
-           CALL TO ACTION (CTA)
+           購読CTA（黒インクの反転面）
         ════════════════════════ */
-        .cta-section { padding: 6rem 0 8rem; }
-        .cta-card {
+        .ink-block {
+            background: var(--ink);
+            color: var(--paper);
+            position: relative;
+            overflow: hidden;
             padding: 5rem 3rem;
             text-align: center;
-            position: relative;
+            box-shadow: 9px 9px 0 rgba(27, 27, 31, 0.16);
         }
-        .cta-card::after {
+        .ink-block::before {
             content: '';
             position: absolute;
-            inset: 0;
-            background: radial-gradient(circle at center 60%, rgba(0, 240, 255, 0.05), transparent 70%);
+            inset: 10px;
+            border: 1px solid rgba(246, 243, 236, 0.22);
             pointer-events: none;
         }
-        .cta-title {
-            font-family: var(--font-serif);
-            font-size: 2.2rem;
-            font-weight: 700;
-            margin-bottom: 1rem;
-            background: linear-gradient(135deg, #ffffff 40%, var(--accent-cyan));
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
+        .ink-label {
+            font-family: var(--font-mono);
+            font-size: 0.66rem;
+            letter-spacing: 0.45em;
+            color: #f0b8b2;
+            margin-bottom: 1.4rem;
         }
-        .cta-description {
-            font-size: 0.95rem;
-            color: var(--text-muted);
-            margin-bottom: 3rem;
-            line-height: 1.85;
-            max-width: 580px;
-            margin-left: auto;
-            margin-right: auto;
+        .ink-title {
+            font-family: var(--font-mincho);
+            font-weight: 800;
+            font-size: clamp(1.7rem, 4vw, 2.6rem);
+            letter-spacing: 0.1em;
+            line-height: 1.6;
+            margin-bottom: 1.2rem;
         }
-        .btn-cta {
+        .ink-desc {
+            font-size: 0.92rem;
+            line-height: 2.05;
+            color: rgba(246, 243, 236, 0.75);
+            max-width: 560px;
+            margin: 0 auto 2.6rem;
+        }
+        .ink-desc strong { color: #fff; font-weight: 700; }
+        .btn-shu {
             display: inline-flex;
             align-items: center;
-            gap: 0.75rem;
-            padding: 1.1rem 3.5rem;
-            border-radius: 12px;
-            text-decoration: none;
-            font-family: var(--font-logo);
+            gap: 0.8rem;
+            padding: 1.15rem 3.6rem;
+            background: var(--shu);
+            color: #fff;
+            font-family: var(--font-gothic);
             font-weight: 700;
             font-size: 1rem;
+            letter-spacing: 0.2em;
+            text-decoration: none;
+            position: relative;
+            z-index: 1;
+            transition: all 0.3s var(--ease-press);
+            box-shadow: 0 8px 26px rgba(195, 39, 29, 0.35);
+        }
+        .btn-shu:hover {
+            background: #fff;
+            color: var(--ink);
+            transform: translateY(-3px);
+            box-shadow: 0 14px 34px rgba(246, 243, 236, 0.2);
+        }
+        .ink-sub-link {
+            display: inline-block;
+            margin-top: 1.6rem;
+            font-size: 0.78rem;
             letter-spacing: 0.12em;
-            text-transform: uppercase;
-            background: #ffffff;
-            color: #020204;
-            transition: all 0.4s var(--ease-out-expo);
-            box-shadow: 0 10px 30px rgba(255, 255, 255, 0.15);
+            color: rgba(246, 243, 236, 0.6);
+            text-decoration: none;
+            border-bottom: 1px solid rgba(246, 243, 236, 0.3);
+            padding-bottom: 2px;
+            transition: color 0.25s, border-color 0.25s;
             position: relative;
             z-index: 1;
         }
-        .btn-cta:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 20px 40px rgba(0, 240, 255, 0.35);
-            background: var(--accent-cyan);
-        }
+        .ink-sub-link:hover { color: #fff; border-color: #fff; }
 
         /* ════════════════════════
-           FOOTER
+           奥付（フッター）
         ════════════════════════ */
         footer {
-            border-top: 1px solid var(--glass-border);
-            padding: 3rem 0 4rem;
-            background: rgba(2, 2, 4, 0.95);
+            padding: 4.5rem 0 5rem;
             position: relative;
-            z-index: 10;
+            z-index: 1;
         }
-        .footer-inner {
+        .colophon {
+            border-top: 3px double var(--rule-strong);
+            padding-top: 2.6rem;
+            display: grid;
+            grid-template-columns: auto 1fr auto;
+            gap: 2.5rem;
+            align-items: start;
+        }
+        .colophon-brand {
+            display: flex;
+            align-items: center;
+            gap: 0.9rem;
+        }
+        .colophon-brand img {
+            width: 44px; height: 44px;
+            border-radius: 50%;
+            border: 1px solid var(--ink);
+        }
+        .colophon-brand-name {
+            font-family: var(--font-mincho);
+            font-weight: 700;
+            font-size: 1rem;
+            letter-spacing: 0.1em;
+            line-height: 1.5;
+        }
+        .colophon-brand-name small {
+            display: block;
+            font-family: var(--font-mono);
+            font-weight: 400;
+            font-size: 0.62rem;
+            letter-spacing: 0.25em;
+            color: var(--ink-faint);
+        }
+        .colophon-table {
+            font-size: 0.78rem;
+            color: var(--ink-soft);
+            line-height: 2.1;
+        }
+        .colophon-table dt {
+            display: inline-block;
+            width: 5.5em;
+            font-weight: 700;
+            color: var(--ink);
+            letter-spacing: 0.15em;
+        }
+        .colophon-table dd { display: inline; margin: 0; }
+        .colophon-table div { border-bottom: 1px dotted var(--rule); }
+        .colophon-links {
             display: flex;
             flex-direction: column;
-            align-items: center;
-            gap: 1.5rem;
+            gap: 0.7rem;
         }
-        .footer-brand {
-            display: flex;
-            align-items: center;
-            gap: 0.75rem;
-        }
-        .footer-logo {
-            width: 32px; height: 32px;
-            border-radius: 50%;
-            filter: invert(0.95) contrast(1.2);
-            border: 1px solid rgba(255, 255, 255, 0.1);
-        }
-        .footer-logo-text {
-            font-family: var(--font-logo);
-            font-size: 1rem;
-            font-weight: 700;
-            letter-spacing: 0.08em;
-            color: #ffffff;
-        }
-        .footer-links { display: flex; gap: 3rem; }
-        .footer-link {
-            font-family: var(--font-logo);
-            font-size: 0.75rem;
-            color: var(--text-muted);
+        .colophon-link {
+            font-family: var(--font-mono);
+            font-size: 0.72rem;
+            letter-spacing: 0.18em;
+            color: var(--ink-soft);
             text-decoration: none;
-            letter-spacing: 0.1em;
-            text-transform: uppercase;
-            transition: color 0.3s;
+            transition: color 0.25s;
         }
-        .footer-link:hover { color: var(--accent-cyan); }
-        .footer-meta {
-            font-size: 0.75rem;
-            color: var(--text-dim);
-            letter-spacing: 0.02em;
+        .colophon-link::before { content: '→ '; color: var(--shu); }
+        .colophon-link:hover { color: var(--shu); }
+        .footer-copy {
+            margin-top: 2.8rem;
             text-align: center;
-            line-height: 1.6;
+            font-family: var(--font-mono);
+            font-size: 0.64rem;
+            letter-spacing: 0.25em;
+            color: var(--ink-faint);
+        }
+        @media (max-width: 760px) {
+            .colophon { grid-template-columns: 1fr; gap: 1.8rem; }
         }
 
         /* ════════════════════════
-           PAGE LOAD TRANSITION
+           スクロール出現
         ════════════════════════ */
-        .hero-inner {
+        .reveal {
             opacity: 0;
-            transform: translateY(30px);
-            transition: opacity 1.2s var(--ease-out-expo), transform 1.2s var(--ease-out-expo);
+            transform: translateY(26px);
+            transition: opacity 0.9s var(--ease-press), transform 0.9s var(--ease-press);
         }
-        .hero-inner.page-loaded {
-            opacity: 1;
-            transform: translateY(0);
-        }
+        .reveal.visible { opacity: 1; transform: translateY(0); }
+        .reveal-d1 { transition-delay: 0.12s; }
+        .reveal-d2 { transition-delay: 0.24s; }
+        .reveal-d3 { transition-delay: 0.36s; }
 
         /* ════════════════════════
-           MOBILE STICKY ACTION BAR
+           モバイル固定購読バー
         ════════════════════════ */
-        .mobile-cta-bar {
+        .mobile-bar {
             display: none;
             position: fixed;
             bottom: 0; left: 0; right: 0;
             z-index: 90;
-            padding: 1rem 1.5rem;
-            padding-bottom: calc(1rem + env(safe-area-inset-bottom));
-            background: rgba(2, 2, 4, 0.9);
-            backdrop-filter: blur(20px) saturate(180%);
-            -webkit-backdrop-filter: blur(20px) saturate(180%);
-            border-top: 1px solid var(--glass-border);
-            transform: translateY(100%);
-            transition: transform 0.5s var(--ease-out-expo);
+            padding: 0.9rem 1.2rem;
+            padding-bottom: calc(0.9rem + env(safe-area-inset-bottom));
+            background: rgba(246, 243, 236, 0.96);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border-top: 2px solid var(--ink);
+            transform: translateY(101%);
+            transition: transform 0.5s var(--ease-press);
         }
-        .mobile-cta-bar.bar-visible { transform: translateY(0); }
-        .mobile-cta-bar .btn-cta {
+        .mobile-bar.bar-visible { transform: translateY(0); }
+        .mobile-bar .btn-ink {
             width: 100%;
-            justify-content: center;
             padding: 1rem;
             font-size: 0.9rem;
-            border-radius: 10px;
         }
         @media (max-width: 768px) {
-            .mobile-cta-bar { display: block; }
-            footer { padding-bottom: 6rem; }
-            /* Mobile performance: drop heavy overlays */
-            .cyber-noise { display: none; }
-            .decor-circuit { display: none; }
+            .mobile-bar { display: block; }
+            footer { padding-bottom: 8rem; }
         }
 
-        /* ── Responsive Easing ── */
-        @media (max-width: 600px) {
-            h1.hero-copy { font-size: 1.55rem; }
-            .hero-eyebrow { font-size: 0.72rem; }
-            .section-title { font-size: 1.4rem; }
-            .features-grid { grid-template-columns: 1fr; }
-            .cta-title { font-size: 1.8rem; }
-            .btn-cta { padding: 1rem 2rem; font-size: 0.9rem; }
-            .stats-row { gap: 0.5rem; }
-            .cta-card { padding: 3rem 1.5rem; }
-            .nav-links .nav-link { display: none; }
-            .hero-inner { width: 100%; }
-            #heroCard .tech-panel { padding: 3rem 1.5rem 2.5rem; }
-            .explorer-body-inner { padding-left: 2rem; }
-            .feed-body { padding: 1.25rem 1rem; }
-            .ticker-label span:last-child { display: none; }
+        /* ── レスポンシブ ── */
+        @media (max-width: 860px) {
+            .topo-decor { display: none; }
+        }
+        @media (max-width: 720px) {
+            .front-grid { grid-template-columns: 1fr; }
+            .tategaki-headline {
+                writing-mode: horizontal-tb;
+                height: auto;
+                max-height: none;
+                padding-left: 0;
+                padding-top: 1.3rem;
+                font-size: clamp(1.75rem, 7.5vw, 2.3rem);
+                letter-spacing: 0.12em;
+                line-height: 1.7;
+            }
+            .tategaki-headline::after {
+                top: 0; left: 0.2rem; right: 0.2rem; bottom: auto;
+                width: auto; height: 1px;
+            }
+            .hanko { top: auto; bottom: 100%; margin-bottom: -3.2rem; width: 60px; height: 60px; font-size: 1.2rem; }
+            .wave-decor { display: none; }
+            .data-rows { grid-template-columns: 1fr; }
+            .data-cell:not(:last-child) {
+                border-right: none;
+                border-bottom: 1px solid var(--rule);
+            }
+            .front-actions { flex-direction: column; }
+            .btn-ink, .btn-outline { width: 100%; }
+            .ink-block { padding: 3.4rem 1.6rem; }
+            .gogai-label { font-size: 0.72rem; padding: 0 0.8rem; }
+            .index-body-inner { padding-left: 1.4rem; }
         }
 
         /* ════════════════════════
-           REDUCED MOTION
+           モーション低減設定
         ════════════════════════ */
         @media (prefers-reduced-motion: reduce) {
             html { scroll-behavior: auto; }
@@ -1372,277 +1279,278 @@
                 transition-duration: 0.01ms !important;
             }
             .reveal { opacity: 1; transform: none; }
-            .hero-inner { opacity: 1; transform: none; }
-            .ticker-track { animation: none; }
+            .gogai-track { animation: none; }
+            .hanko { opacity: 0.92; transform: rotate(-5deg); }
         }
     </style>
 </head>
 
 <body>
-    <!-- Premium Ambient Cyber Environment -->
-    <div class="ambient-grid"></div>
-    <div class="pointer-glow" id="pointerGlow"></div>
-    <div class="cyber-noise"></div>
+    <div class="paper-grain" aria-hidden="true"></div>
 
-    <!-- Animated Circuit Path SVGs -->
-    <svg class="decor-circuit" xmlns="http://www.w3.org/2000/svg">
-        <path class="circuit-path" d="M -100 150 L 200 150 L 300 250 L 300 450 L 200 550 L -100 550" />
-        <circle class="circuit-node" cx="300" cy="250" r="4" />
-        <circle class="circuit-node" cx="200" cy="550" r="4" />
-
-        <path class="circuit-path" d="M 1200 800 L 950 800 L 850 700 L 850 400 L 950 300 L 1200 300" style="animation-delay: -6s;" />
-        <circle class="circuit-node" cx="850" cy="700" r="4" />
-        <circle class="circuit-node" cx="950" cy="300" r="4" />
-    </svg>
-
-    <!-- ════ NEWS TICKER ════ -->
-    <div class="news-ticker" aria-hidden="true">
-        <div class="ticker-label">
-            <span class="ticker-label-dot"></span>
-            <span>AFNJP LIVE</span>
-        </div>
-        <div class="ticker-viewport">
-            <div class="ticker-track" id="tickerTrack">
-                <span class="ticker-item"><strong>DAILY REPORT</strong> 毎朝、世界のAIニュースを日本語で自動配信中</span>
-                <span class="ticker-item"><strong>WEEKLY RANKING</strong> 今週のホットニュース Best 3 を毎週集計</span>
-                <span class="ticker-item"><strong>30+ CHANNELS</strong> 企業別・モデル別チャンネル稼働中</span>
-                <span class="ticker-item"><strong>INSTANT UPDATE</strong> 新しいAIが登場次第チャンネル即時追加</span>
-                <span class="ticker-item"><strong>COMMUNITY</strong> メンバー増加中 — あなたの参加をお待ちしています</span>
-            </div>
+    <!-- ════ 日付欄 ════ -->
+    <div class="dateline">
+        <div class="dateline-inner">
+            <span id="datelineDate">2026年6月11日</span>
+            <span class="dateline-center">THE AI FRONTIER PRESS — TOKYO, JAPAN</span>
+            <span class="dateline-issue">
+                <span id="datelineIssue">第—号</span>
+                <span class="live-mark">配信中</span>
+            </span>
         </div>
     </div>
 
-    <!-- ════ STICKY NAV ════ -->
-    <nav class="sticky-nav" id="stickyNav">
-        <div class="nav-inner">
-            <a href="#" class="nav-brand">
-                <img src="AFNJP.jpg" alt="AFNJP Mini Logo" class="nav-brand-logo">
-                <span class="nav-logo-text">AFNJP</span>
+    <!-- ════ 追尾ナビ ════ -->
+    <nav class="press-nav" id="pressNav">
+        <div class="press-nav-inner">
+            <a href="#" class="press-brand">
+                <img src="AFNJP.jpg" alt="AFNJP ロゴ">
+                <span>AI Frontier News JP</span>
             </a>
-            <div class="nav-links">
-                <a href="#features" class="nav-link">Features</a>
-                <a href="#sample" class="nav-link">Sample</a>
-                <a href="#channels" class="nav-link">Channels</a>
-                <a href="https://discord.gg/B3eJAX6mnN" target="_blank" rel="noopener noreferrer" class="nav-cta">参加する</a>
+            <div class="press-links">
+                <a href="#features" class="press-link">機能</a>
+                <a href="#sample" class="press-link">配信例</a>
+                <a href="#channels" class="press-link">索引</a>
+                <a href="#join" class="press-link">参加方法</a>
+                <a href="https://discord.gg/B3eJAX6mnN" target="_blank" rel="noopener noreferrer" class="press-cta">購読する</a>
             </div>
         </div>
     </nav>
 
-    <!-- ════ HERO ════ -->
-    <section class="hero">
-        <div class="hero-inner">
-            <div id="heroCard">
-                <div class="tech-panel">
+    <!-- ════ 題字（マストヘッド） ════ -->
+    <header class="masthead">
+        <img src="AFNJP.jpg" alt="AI Frontier News JP エンブレム" class="masthead-logo">
+        <h1 class="masthead-title">AI Frontier News JP</h1>
+        <p class="masthead-sub">世界の最新AIニュースを、日本語で。</p>
+        <div class="masthead-rule"></div>
+    </header>
 
-                    <!-- Digital Dashboard Indicator -->
-                    <div class="status-indicator-bar">
-                        <span class="status-badge">
-                            <span class="status-pulse-dot"></span>SYSTEM: ONLINE
-                        </span>
-                        <span class="status-divider">|</span>
-                        <span class="status-timestamp">EST. SEP 2025</span>
-                    </div>
-
-                    <!-- Glowing Inverted Circular Logo -->
-                    <div class="logo-container">
-                        <div class="logo-orbit"></div>
-                        <div class="logo-orbit-2"></div>
-                        <img src="AFNJP.jpg" alt="AI Frontier News JP Logo" class="logo-img">
-                    </div>
-
-                    <!-- Brand name as eyebrow / JP value prop as the headline -->
-                    <p class="hero-eyebrow">AI Frontier News JP</p>
-                    <h1 class="hero-copy">
-                        世界の最新AIニュースを、<br>
-                        <span class="copy-accent">日本語で。</span>
-                    </h1>
-                    <p class="hero-description">
-                        どこよりも分かりやすくキャッチアップできる、<br>
-                        Discordで毎日稼働中のAIニュースコミュニティ。
-                    </p>
-
-                    <!-- Live Counters Grid (auto-synced with Discord) -->
-                    <div class="stats-row">
-                        <div class="stat-item">
-                            <div class="stat-number" id="memberCount">150+</div>
-                            <div class="stat-label">メンバー・増加中</div>
-                        </div>
-                        <div class="stat-item">
-                            <div class="stat-number stat-live" id="onlineCount">--</div>
-                            <div class="stat-label"><span class="live-dot"></span>現在オンライン</div>
-                        </div>
-                        <div class="stat-item">
-                            <div class="stat-number">毎日</div>
-                            <div class="stat-label">ニュース配信</div>
-                        </div>
-                    </div>
-
-                    <div class="actions">
-                        <a href="https://discord.gg/B3eJAX6mnN" target="_blank" rel="noopener noreferrer" class="btn-cyber btn-cyber-primary">
-                            Discordに参加する
-                        </a>
-                        <a href="https://twitter.com/AI_FrontierNews" target="_blank" rel="noopener noreferrer" class="btn-cyber btn-cyber-secondary">
-                            公式X (Twitter) を見る
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <p class="scroll-hint">▼ スクロールして詳細を見る</p>
-        </div>
-    </section>
-
-    <!-- ════ FEATURES ════ -->
-    <section class="section" id="features">
-        <div class="page-wrapper">
-            <div class="section-header reveal">
-                <div class="section-label">Features</div>
-                <h2 class="section-title">コミュニティの主な機能</h2>
-            </div>
-
-            <div class="features-grid">
-                <!-- Card 1: Daily Report -->
-                <div class="tech-panel feature-card reveal reveal-delay-1">
-                    <div class="feature-icon-box fc-cyan">📰</div>
-                    <div class="feature-title">デイリーレポート</div>
-                    <p class="feature-desc">毎日のAIニュースをBotが自動で要約・配信。忙しい日常でも世界の最新情報を見逃しません。</p>
-                    <span class="feature-badge badge-cyan">毎日配信</span>
-                </div>
-
-                <!-- Card 2: Weekly Ranking -->
-                <div class="tech-panel feature-card reveal reveal-delay-2">
-                    <div class="feature-icon-box fc-purple">🏆</div>
-                    <div class="feature-title">週刊ニュースランキング</div>
-                    <p class="feature-desc">メンバーのリアクション数をBotが自動集計し、「今週のホットニュース Best 3」を毎週配信。集合知でニュースを可視化します。</p>
-                    <span class="feature-badge badge-purple">毎週更新</span>
-                </div>
-
-                <!-- Card 3: Channel Structure -->
-                <div class="tech-panel feature-card reveal reveal-delay-3">
-                    <div class="feature-icon-box fc-cyan">🗂️</div>
-                    <div class="feature-title">構造化チャンネル</div>
-                    <p class="feature-desc">企業別・モデル別に専用チャンネルを完備。OpenAI・Google・Anthropicなど、必要な情報に即座にアクセスできます。</p>
-                    <span class="feature-badge badge-cyan">30+ チャンネル</span>
-                </div>
+    <!-- ════ 号外ティッカー ════ -->
+    <div class="gogai" aria-hidden="true">
+        <span class="gogai-label">号外</span>
+        <div class="gogai-viewport">
+            <div class="gogai-track" id="gogaiTrack">
+                <span class="gogai-item"><strong>DAILY</strong>毎朝、世界のAIニュースを日本語で自動配信中</span>
+                <span class="gogai-item"><strong>WEEKLY</strong>今週のホットニュース Best 3 を毎週月曜に集計・発表</span>
+                <span class="gogai-item"><strong>CHANNELS</strong>企業別・モデル別 30以上の専門チャンネルが稼働中</span>
+                <span class="gogai-item"><strong>UPDATE</strong>新しいAIが登場次第、チャンネルを即日増設</span>
+                <span class="gogai-item"><strong>FREE</strong>購読料は無料 — Discordアカウントだけで今日から</span>
             </div>
         </div>
-    </section>
+    </div>
 
-    <!-- ════ SAMPLE FEED ════ -->
-    <section class="section" id="sample">
-        <div class="page-wrapper">
-            <div class="section-header reveal">
-                <div class="section-label">Live Preview</div>
-                <h2 class="section-title">実際の配信イメージ</h2>
-                <p class="section-sub">参加すると、こんな配信が毎日届きます。Botによる自動要約とメンバーのリアクションで、重要なニュースが一目で分かります。</p>
-            </div>
+    <!-- ════ 第一面 ════ -->
+    <main>
+        <section class="front-page">
+            <div class="sheet">
+                <div class="front-grid">
+                    <h2 class="tategaki-headline">
+                        ＡＩの最前線を、<br>
+                        <span class="shu-text">日本語</span>で読む。
+                    </h2>
 
-            <div class="feed-terminal reveal">
-                <div class="terminal-header">
-                    <div class="terminal-dots">
-                        <span class="t-dot t-red"></span>
-                        <span class="t-dot t-yellow"></span>
-                        <span class="t-dot t-green"></span>
-                    </div>
-                    <span class="terminal-title">#daily-report — AFNJP</span>
-                    <div style="width: 32px;"></div>
-                </div>
+                    <div class="front-body">
+                        <div class="hanko" id="hankoStamp">公式</div>
 
-                <div class="feed-body">
-                    <!-- Daily Report sample -->
-                    <div class="feed-message">
-                        <div class="feed-avatar">🤖</div>
-                        <div class="feed-content">
-                            <div class="feed-meta">
-                                <span class="feed-author">AFNJP News Bot</span>
-                                <span class="feed-bot-tag">BOT</span>
-                                <span class="feed-time">今日 09:00</span>
+                        <svg class="wave-decor" viewBox="0 0 120 90" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                            <path class="wave-arc" d="M 30 60 A 30 30 0 0 1 60 30" />
+                            <path class="wave-arc" d="M 22 68 A 42 42 0 0 1 64 18" />
+                            <path class="wave-arc" d="M 14 76 A 56 56 0 0 1 70 8" />
+                            <circle class="wave-dot" cx="28" cy="62" r="3.5" />
+                        </svg>
+
+                        <p class="front-lead">
+                            　本紙「AI Frontier News JP」は、世界中で日々生まれる膨大なAIニュースの中から重要なものを選び抜き、<em>Botによる自動要約とメンバーの集合知</em>で毎日お届けするDiscordコミュニティです。英語の一次情報を追いかける時間がなくても、ここを見れば最前線が分かる——そんな「日本語のAI報道拠点」を目指して、創刊以来休まず配信を続けています。
+                        </p>
+
+                        <div class="data-box reveal">
+                            <div class="data-box-head">
+                                <span>COMMUNITY INDEX</span>
+                                <span class="live-mark">LIVE</span>
                             </div>
-                            <div class="feed-embed">
-                                <div class="feed-embed-title">📰 デイリーAIニュース — 本日のヘッドライン</div>
-                                <div class="feed-news-item"><span class="news-source">OpenAI</span>次世代モデルの新機能を発表 — 推論性能が大幅に向上</div>
-                                <div class="feed-news-item"><span class="news-source">Google</span>Geminiの大型アップデートを公開 — マルチモーダル機能を強化</div>
-                                <div class="feed-news-item"><span class="news-source">Anthropic</span>Claudeの新バージョンをリリース — エージェント機能を拡充</div>
-                                <div class="feed-reactions">
-                                    <span class="feed-reaction">🔥 24</span>
-                                    <span class="feed-reaction">👀 18</span>
-                                    <span class="feed-reaction">🚀 12</span>
+                            <div class="data-rows">
+                                <div class="data-cell">
+                                    <div class="data-num" id="memberCount">150<span class="data-unit">+</span></div>
+                                    <div class="data-label">読者（メンバー）数</div>
+                                </div>
+                                <div class="data-cell">
+                                    <div class="data-num num-shu" id="onlineCount">--</div>
+                                    <div class="data-label">現在オンライン</div>
+                                </div>
+                                <div class="data-cell">
+                                    <div class="data-num">毎日</div>
+                                    <div class="data-label">ニュース配信</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="front-actions">
+                            <a href="https://discord.gg/B3eJAX6mnN" target="_blank" rel="noopener noreferrer" class="btn-ink">
+                                Discordで購読する <span class="btn-arrow">→</span>
+                            </a>
+                            <a href="https://twitter.com/AI_FrontierNews" target="_blank" rel="noopener noreferrer" class="btn-outline">
+                                公式X（Twitter）
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <svg class="topo-decor" viewBox="0 0 520 420" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <path class="topo-path" d="M 60 380 Q 150 290 260 300 T 470 240" />
+                    <path class="topo-path" d="M 40 340 Q 160 240 270 255 T 490 185" />
+                    <path class="topo-path" d="M 70 300 Q 180 200 290 215 T 500 140" />
+                    <path class="topo-path" d="M 110 260 Q 210 165 310 180 T 510 100" />
+                    <path class="topo-path" d="M 160 225 Q 240 140 330 150 T 515 65" />
+                    <path class="topo-path" d="M 220 195 Q 280 120 360 125 T 520 38" />
+                </svg>
+
+                <p class="scroll-hint">SCROLL</p>
+            </div>
+        </section>
+
+        <div class="circuit-rule" aria-hidden="true">
+            <span class="cr-line"></span><span class="cr-node filled"></span><span class="cr-jog"></span><span class="cr-node"></span><span class="cr-line"></span><span class="cr-node"></span><span class="cr-line"></span>
+        </div>
+
+        <!-- ════ 第二面：機能 ════ -->
+        <section class="section" id="features">
+            <div class="sheet">
+                <div class="page-head reveal">
+                    <div class="page-head-label">第二面 — FEATURES</div>
+                    <h2 class="page-head-title">本紙の三本柱</h2>
+                    <p class="page-head-sub">Botと人の集合知を組み合わせた、三つの仕組みでAIの最前線を毎日キャッチアップ。</p>
+                </div>
+
+                <div class="columns-3">
+                    <div class="column reveal reveal-d1">
+                        <div class="kanji-mark">報</div>
+                        <h3 class="column-title">デイリーレポート</h3>
+                        <p class="column-desc">毎日のAIニュースをBotが自動で要約・配信。忙しい日常でも、世界の最新情報を一日数分で押さえられます。</p>
+                        <span class="column-tag">毎日配信</span>
+                    </div>
+                    <div class="column reveal reveal-d2">
+                        <div class="kanji-mark">選</div>
+                        <h3 class="column-title">週刊ニュースランキング</h3>
+                        <p class="column-desc">メンバーのリアクション数をBotが自動集計し、「今週のホットニュース Best 3」を毎週発表。集合知が真に重要なニュースを浮かび上がらせます。</p>
+                        <span class="column-tag">毎週月曜</span>
+                    </div>
+                    <div class="column reveal reveal-d3">
+                        <div class="kanji-mark">索</div>
+                        <h3 class="column-title">構造化チャンネル</h3>
+                        <p class="column-desc">企業別・モデル別に30以上の専門チャンネルを完備。OpenAI・Google・Anthropicなど、追いたい情報源に新聞の索引のように即アクセス。</p>
+                        <span class="column-tag">30+ チャンネル</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="circuit-rule" aria-hidden="true">
+            <span class="cr-line"></span><span class="cr-node"></span><span class="cr-line"></span><span class="cr-jog"></span><span class="cr-node filled"></span><span class="cr-line"></span>
+        </div>
+
+        <!-- ════ 第三面：配信プレビュー ════ -->
+        <section class="section" id="sample">
+            <div class="sheet">
+                <div class="page-head reveal">
+                    <div class="page-head-label">第三面 — LIVE PREVIEW</div>
+                    <h2 class="page-head-title">実際の配信、誌面より</h2>
+                    <p class="page-head-sub">参加すると毎日届く配信のイメージ。Botの自動要約とメンバーのリアクションで、重要なニュースが一目で分かります。</p>
+                </div>
+
+                <div class="photo-frame reveal">
+                    <div class="feed-screen">
+                        <div class="feed-titlebar">
+                            <div class="tb-dots"><span class="tb-dot"></span><span class="tb-dot"></span><span class="tb-dot"></span></div>
+                            <span>#daily-report — AFNJP</span>
+                            <span style="width:40px"></span>
+                        </div>
+                        <div class="feed-body">
+                            <div class="feed-message">
+                                <div class="feed-avatar">🤖</div>
+                                <div class="feed-content">
+                                    <div class="feed-meta">
+                                        <span class="feed-author">AFNJP News Bot</span>
+                                        <span class="feed-bot-tag">BOT</span>
+                                        <span class="feed-time">今日 09:00</span>
+                                    </div>
+                                    <div class="feed-embed">
+                                        <div class="feed-embed-title">📰 デイリーAIニュース — 本日のヘッドライン</div>
+                                        <div class="feed-news-item"><span class="news-source">OpenAI</span>次世代モデルの新機能を発表 — 推論性能が大幅に向上</div>
+                                        <div class="feed-news-item"><span class="news-source">Google</span>Geminiの大型アップデートを公開 — マルチモーダル機能を強化</div>
+                                        <div class="feed-news-item"><span class="news-source">Anthropic</span>Claudeの新バージョンをリリース — エージェント機能を拡充</div>
+                                        <div class="feed-reactions">
+                                            <span class="feed-reaction">🔥 24</span>
+                                            <span class="feed-reaction">👀 18</span>
+                                            <span class="feed-reaction">🚀 12</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="feed-message">
+                                <div class="feed-avatar">🏆</div>
+                                <div class="feed-content">
+                                    <div class="feed-meta">
+                                        <span class="feed-author">AFNJP Ranking Bot</span>
+                                        <span class="feed-bot-tag">BOT</span>
+                                        <span class="feed-time">月曜 12:00</span>
+                                    </div>
+                                    <div class="feed-embed">
+                                        <div class="feed-embed-title">🏆 今週のホットニュース Best 3</div>
+                                        <div class="feed-rank-item"><span>🥇</span><span>新世代コーディングエージェントの発表が圧倒的リアクション数で1位を獲得</span></div>
+                                        <div class="feed-rank-item"><span>🥈</span><span>動画生成AIの大型アップデートが話題に — クオリティ進化に注目集まる</span></div>
+                                        <div class="feed-rank-item"><span>🥉</span><span>オープンソースモデルの新ベンチマーク結果にコミュニティ沸騰</span></div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-
-                    <!-- Weekly Ranking sample -->
-                    <div class="feed-message">
-                        <div class="feed-avatar av-purple">🏆</div>
-                        <div class="feed-content">
-                            <div class="feed-meta">
-                                <span class="feed-author au-purple">AFNJP Ranking Bot</span>
-                                <span class="feed-bot-tag">BOT</span>
-                                <span class="feed-time">月曜 12:00</span>
-                            </div>
-                            <div class="feed-embed em-purple">
-                                <div class="feed-embed-title">🏆 今週のホットニュース Best 3</div>
-                                <div class="feed-rank-item"><span class="feed-rank-medal">🥇</span><span>新世代コーディングエージェントの発表が圧倒的リアクション数で1位を獲得</span></div>
-                                <div class="feed-rank-item"><span class="feed-rank-medal">🥈</span><span>動画生成AIの大型アップデートが話題に — クオリティ進化に注目集まる</span></div>
-                                <div class="feed-rank-item"><span class="feed-rank-medal">🥉</span><span>オープンソースモデルの新ベンチマーク結果にコミュニティ沸騰</span></div>
-                            </div>
-                        </div>
-                    </div>
                 </div>
-
-                <div class="feed-note">※ 配信内容のイメージです。実際の最新配信はDiscordでご覧いただけます。</div>
+                <p class="photo-caption reveal">配信内容のイメージ。実際の最新配信はDiscordで毎日更新されています。</p>
             </div>
+        </section>
+
+        <div class="circuit-rule" aria-hidden="true">
+            <span class="cr-line"></span><span class="cr-jog"></span><span class="cr-node filled"></span><span class="cr-line"></span><span class="cr-node"></span><span class="cr-line"></span>
         </div>
-    </section>
 
-    <!-- ════ CHANNELS ════ -->
-    <section class="section" id="channels">
-        <div class="page-wrapper">
-            <div class="section-header reveal">
-                <div class="section-label">Channels</div>
-                <h2 class="section-title">チャンネル構成 <span class="live-badge"><span class="live-dot"></span>随時更新中</span></h2>
-                <p class="section-sub">企業・サービス・モデル別に情報を整理。新しいAIが登場するたびにチャンネルを瞬時に拡充しています。</p>
-            </div>
-
-            <!-- Terminal System Directory style channel explorer -->
-            <div class="explorer-terminal reveal">
-
-                <!-- Terminal Header Bar -->
-                <div class="terminal-header">
-                    <div class="terminal-dots">
-                        <span class="t-dot t-red"></span>
-                        <span class="t-dot t-yellow"></span>
-                        <span class="t-dot t-green"></span>
-                    </div>
-                    <span class="terminal-title">AFNJP SYSTEM DIRECTORY</span>
-                    <div style="width: 32px;"></div>
+        <!-- ════ 第四面：チャンネル索引 ════ -->
+        <section class="section" id="channels">
+            <div class="sheet">
+                <div class="page-head reveal">
+                    <div class="page-head-label">第四面 — INDEX</div>
+                    <h2 class="page-head-title">チャンネル索引</h2>
+                    <p class="page-head-sub">企業・サービス・モデル別に情報を整理。新しいAIが登場するたびに、索引は随時拡充されています。</p>
                 </div>
 
-                <div class="channels-stack">
+                <div class="index-table reveal">
+                    <div class="index-caption">
+                        <span>AFNJP CHANNEL INDEX</span>
+                        <span class="live-mark">随時更新</span>
+                    </div>
 
                     <!-- Google -->
-                    <div class="explorer-row active-folder" data-explorer-item>
-                        <button type="button" class="explorer-header" aria-expanded="true" aria-controls="body-google">
-                            <span class="explorer-icon" aria-hidden="true">📂</span>
-                            <div class="company-led led-google"></div>
-                            <div class="company-name">Google</div>
-                            <span class="explorer-arrow" aria-hidden="true">▼</span>
+                    <div class="index-row" data-index-item>
+                        <button type="button" class="index-header" aria-expanded="true" aria-controls="idx-google">
+                            <span class="index-led il-google"></span>
+                            <span class="index-name">Google</span>
+                            <span class="index-count">10+ CH</span>
+                            <span class="index-arrow" aria-hidden="true">▼</span>
                         </button>
-                        <div class="explorer-body-wrap">
-                            <div class="explorer-body" id="body-google">
-                                <div class="explorer-body-inner">
-                                    <div class="channels-tags">
-                                        <span class="channel-tag">google</span>
-                                        <span class="channel-tag">gemini</span>
-                                        <span class="channel-tag">geminicli</span>
-                                        <span class="channel-tag">antigravity</span>
-                                        <span class="channel-tag">jules</span>
-                                        <span class="channel-tag">firebase</span>
-                                        <span class="channel-tag">google-ai-studio</span>
-                                        <span class="channel-tag">notebook-lm</span>
-                                        <span class="channel-tag">google-labs</span>
-                                        <span class="channel-tag">stitch</span>
-                                        <span class="channel-tag-more">and more...</span>
+                        <div class="index-body-wrap">
+                            <div class="index-body" id="idx-google">
+                                <div class="index-body-inner">
+                                    <div class="tag-list">
+                                        <span class="ch-tag">google</span>
+                                        <span class="ch-tag">gemini</span>
+                                        <span class="ch-tag">geminicli</span>
+                                        <span class="ch-tag">antigravity</span>
+                                        <span class="ch-tag">jules</span>
+                                        <span class="ch-tag">firebase</span>
+                                        <span class="ch-tag">google-ai-studio</span>
+                                        <span class="ch-tag">notebook-lm</span>
+                                        <span class="ch-tag">google-labs</span>
+                                        <span class="ch-tag">stitch</span>
+                                        <span class="ch-tag-more">ほか</span>
                                     </div>
                                 </div>
                             </div>
@@ -1650,22 +1558,22 @@
                     </div>
 
                     <!-- OpenAI -->
-                    <div class="explorer-row collapsed" data-explorer-item>
-                        <button type="button" class="explorer-header" aria-expanded="false" aria-controls="body-openai">
-                            <span class="explorer-icon" aria-hidden="true">📁</span>
-                            <div class="company-led led-openai"></div>
-                            <div class="company-name">OpenAI</div>
-                            <span class="explorer-arrow" aria-hidden="true">▼</span>
+                    <div class="index-row collapsed" data-index-item>
+                        <button type="button" class="index-header" aria-expanded="false" aria-controls="idx-openai">
+                            <span class="index-led il-openai"></span>
+                            <span class="index-name">OpenAI</span>
+                            <span class="index-count">4+ CH</span>
+                            <span class="index-arrow" aria-hidden="true">▼</span>
                         </button>
-                        <div class="explorer-body-wrap">
-                            <div class="explorer-body" id="body-openai">
-                                <div class="explorer-body-inner">
-                                    <div class="channels-tags">
-                                        <span class="channel-tag">open-ai</span>
-                                        <span class="channel-tag">chatgpt</span>
-                                        <span class="channel-tag">codex</span>
-                                        <span class="channel-tag">sora</span>
-                                        <span class="channel-tag-more">and more...</span>
+                        <div class="index-body-wrap">
+                            <div class="index-body" id="idx-openai">
+                                <div class="index-body-inner">
+                                    <div class="tag-list">
+                                        <span class="ch-tag">open-ai</span>
+                                        <span class="ch-tag">chatgpt</span>
+                                        <span class="ch-tag">codex</span>
+                                        <span class="ch-tag">sora</span>
+                                        <span class="ch-tag-more">ほか</span>
                                     </div>
                                 </div>
                             </div>
@@ -1673,331 +1581,308 @@
                     </div>
 
                     <!-- Anthropic -->
-                    <div class="explorer-row collapsed" data-explorer-item>
-                        <button type="button" class="explorer-header" aria-expanded="false" aria-controls="body-anthropic">
-                            <span class="explorer-icon" aria-hidden="true">📁</span>
-                            <div class="company-led led-anthropic"></div>
-                            <div class="company-name">Anthropic</div>
-                            <span class="explorer-arrow" aria-hidden="true">▼</span>
+                    <div class="index-row collapsed" data-index-item>
+                        <button type="button" class="index-header" aria-expanded="false" aria-controls="idx-anthropic">
+                            <span class="index-led il-anthropic"></span>
+                            <span class="index-name">Anthropic</span>
+                            <span class="index-count">3+ CH</span>
+                            <span class="index-arrow" aria-hidden="true">▼</span>
                         </button>
-                        <div class="explorer-body-wrap">
-                            <div class="explorer-body" id="body-anthropic">
-                                <div class="explorer-body-inner">
-                                    <div class="channels-tags">
-                                        <span class="channel-tag">anthropic</span>
-                                        <span class="channel-tag">claude</span>
-                                        <span class="channel-tag">claude-code</span>
-                                        <span class="channel-tag-more">and more...</span>
+                        <div class="index-body-wrap">
+                            <div class="index-body" id="idx-anthropic">
+                                <div class="index-body-inner">
+                                    <div class="tag-list">
+                                        <span class="ch-tag">anthropic</span>
+                                        <span class="ch-tag">claude</span>
+                                        <span class="ch-tag">claude-code</span>
+                                        <span class="ch-tag-more">ほか</span>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <!-- Smaller companies grid inside Terminal -->
-                    <div class="companies-grid">
-
-                        <!-- xAI -->
-                        <div class="explorer-row collapsed" data-explorer-item>
-                            <button type="button" class="explorer-header" aria-expanded="false" aria-controls="body-xai">
-                                <span class="explorer-icon" aria-hidden="true">📁</span>
-                                <div class="company-led led-xai"></div>
-                                <div class="company-name">xAI</div>
-                                <span class="explorer-arrow" aria-hidden="true">▼</span>
-                            </button>
-                            <div class="explorer-body-wrap">
-                                <div class="explorer-body" id="body-xai">
-                                    <div class="explorer-body-inner">
-                                        <div class="channels-tags">
-                                            <span class="channel-tag">grok</span>
-                                            <span class="channel-tag">grok-code</span>
-                                            <span class="channel-tag-more">など</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Microsoft -->
-                        <div class="explorer-row collapsed" data-explorer-item>
-                            <button type="button" class="explorer-header" aria-expanded="false" aria-controls="body-microsoft">
-                                <span class="explorer-icon" aria-hidden="true">📁</span>
-                                <div class="company-led led-microsoft"></div>
-                                <div class="company-name">Microsoft</div>
-                                <span class="explorer-arrow" aria-hidden="true">▼</span>
-                            </button>
-                            <div class="explorer-body-wrap">
-                                <div class="explorer-body" id="body-microsoft">
-                                    <div class="explorer-body-inner">
-                                        <div class="channels-tags">
-                                            <span class="channel-tag">microsoft</span>
-                                            <span class="channel-tag">copilot</span>
-                                            <span class="channel-tag-more">など</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Meta -->
-                        <div class="explorer-row collapsed" data-explorer-item>
-                            <button type="button" class="explorer-header" aria-expanded="false" aria-controls="body-meta">
-                                <span class="explorer-icon" aria-hidden="true">📁</span>
-                                <div class="company-led led-meta"></div>
-                                <div class="company-name">Meta</div>
-                                <span class="explorer-arrow" aria-hidden="true">▼</span>
-                            </button>
-                            <div class="explorer-body-wrap">
-                                <div class="explorer-body" id="body-meta">
-                                    <div class="explorer-body-inner">
-                                        <div class="channels-tags">
-                                            <span class="channel-tag">meta</span>
-                                            <span class="channel-tag">manus</span>
-                                            <span class="channel-tag-more">など</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Alibaba -->
-                        <div class="explorer-row collapsed" data-explorer-item>
-                            <button type="button" class="explorer-header" aria-expanded="false" aria-controls="body-alibaba">
-                                <span class="explorer-icon" aria-hidden="true">📁</span>
-                                <div class="company-led led-alibaba"></div>
-                                <div class="company-name">Alibaba</div>
-                                <span class="explorer-arrow" aria-hidden="true">▼</span>
-                            </button>
-                            <div class="explorer-body-wrap">
-                                <div class="explorer-body" id="body-alibaba">
-                                    <div class="explorer-body-inner">
-                                        <div class="channels-tags">
-                                            <span class="channel-tag">alibaba</span>
-                                            <span class="channel-tag">qwen</span>
-                                            <span class="channel-tag">qwen-code</span>
-                                            <span class="channel-tag-more">など</span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Others (Accordion item) -->
-                    <div class="explorer-row collapsed" data-explorer-item>
-                        <button type="button" class="explorer-header" aria-expanded="false" aria-controls="body-others">
-                            <span class="explorer-icon" aria-hidden="true">📁</span>
-                            <div class="company-led led-other"></div>
-                            <div class="company-name">その他 (随時追加)</div>
-                            <span class="explorer-arrow" aria-hidden="true">▼</span>
+                    <!-- xAI -->
+                    <div class="index-row collapsed" data-index-item>
+                        <button type="button" class="index-header" aria-expanded="false" aria-controls="idx-xai">
+                            <span class="index-led il-xai"></span>
+                            <span class="index-name">xAI</span>
+                            <span class="index-count">2+ CH</span>
+                            <span class="index-arrow" aria-hidden="true">▼</span>
                         </button>
-                        <div class="explorer-body-wrap">
-                            <div class="explorer-body" id="body-others">
-                                <div class="explorer-body-inner">
-                                    <div class="channels-tags">
-                                        <span class="channel-tag">kimi</span>
-                                        <span class="channel-tag">glm</span>
-                                        <span class="channel-tag">deep-seek</span>
-                                        <span class="channel-tag">mistral-ai</span>
-                                        <span class="channel-tag">hunyuan</span>
-                                        <span class="channel-tag">genspark</span>
-                                        <span class="channel-tag">perplexity</span>
-                                        <span class="channel-tag">skywork</span>
-                                        <span class="channel-tag">cursor</span>
-                                        <span class="channel-tag">wind-surf</span>
-                                        <span class="channel-tag">kiro</span>
-                                        <span class="channel-tag">qoder</span>
-                                        <span class="channel-tag">open-code</span>
-                                        <span class="channel-tag">eleven-labs</span>
-                                        <span class="channel-tag-more">新しいAIが登場次第、即時追加...</span>
+                        <div class="index-body-wrap">
+                            <div class="index-body" id="idx-xai">
+                                <div class="index-body-inner">
+                                    <div class="tag-list">
+                                        <span class="ch-tag">grok</span>
+                                        <span class="ch-tag">grok-code</span>
+                                        <span class="ch-tag-more">ほか</span>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <!-- Model Comparison (Accordion item) -->
-                    <div class="explorer-row collapsed" data-explorer-item>
-                        <button type="button" class="explorer-header" aria-expanded="false" aria-controls="body-models">
-                            <span class="explorer-icon" aria-hidden="true">📁</span>
-                            <div class="company-led led-model"></div>
-                            <div class="company-name">モデル比較</div>
-                            <span class="explorer-arrow" aria-hidden="true">▼</span>
+                    <!-- Microsoft -->
+                    <div class="index-row collapsed" data-index-item>
+                        <button type="button" class="index-header" aria-expanded="false" aria-controls="idx-microsoft">
+                            <span class="index-led il-microsoft"></span>
+                            <span class="index-name">Microsoft</span>
+                            <span class="index-count">2+ CH</span>
+                            <span class="index-arrow" aria-hidden="true">▼</span>
                         </button>
-                        <div class="explorer-body-wrap">
-                            <div class="explorer-body" id="body-models">
-                                <div class="explorer-body-inner">
-                                    <div class="channels-tags">
-                                        <span class="channel-tag">text</span>
-                                        <span class="channel-tag">webdev</span>
-                                        <span class="channel-tag">vision</span>
-                                        <span class="channel-tag">text-to-image</span>
-                                        <span class="channel-tag">image-edit</span>
-                                        <span class="channel-tag">search</span>
-                                        <span class="channel-tag">text-to-video</span>
-                                        <span class="channel-tag">image-to-video</span>
-                                        <span class="channel-tag">copilot</span>
-                                        <span class="channel-tag">open-model-ranked</span>
-                                        <span class="channel-tag">arena-expert</span>
-                                        <span class="channel-tag-more">and more...</span>
+                        <div class="index-body-wrap">
+                            <div class="index-body" id="idx-microsoft">
+                                <div class="index-body-inner">
+                                    <div class="tag-list">
+                                        <span class="ch-tag">microsoft</span>
+                                        <span class="ch-tag">copilot</span>
+                                        <span class="ch-tag-more">ほか</span>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
 
+                    <!-- Meta -->
+                    <div class="index-row collapsed" data-index-item>
+                        <button type="button" class="index-header" aria-expanded="false" aria-controls="idx-meta">
+                            <span class="index-led il-meta"></span>
+                            <span class="index-name">Meta</span>
+                            <span class="index-count">2+ CH</span>
+                            <span class="index-arrow" aria-hidden="true">▼</span>
+                        </button>
+                        <div class="index-body-wrap">
+                            <div class="index-body" id="idx-meta">
+                                <div class="index-body-inner">
+                                    <div class="tag-list">
+                                        <span class="ch-tag">meta</span>
+                                        <span class="ch-tag">manus</span>
+                                        <span class="ch-tag-more">ほか</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Alibaba -->
+                    <div class="index-row collapsed" data-index-item>
+                        <button type="button" class="index-header" aria-expanded="false" aria-controls="idx-alibaba">
+                            <span class="index-led il-alibaba"></span>
+                            <span class="index-name">Alibaba</span>
+                            <span class="index-count">3+ CH</span>
+                            <span class="index-arrow" aria-hidden="true">▼</span>
+                        </button>
+                        <div class="index-body-wrap">
+                            <div class="index-body" id="idx-alibaba">
+                                <div class="index-body-inner">
+                                    <div class="tag-list">
+                                        <span class="ch-tag">alibaba</span>
+                                        <span class="ch-tag">qwen</span>
+                                        <span class="ch-tag">qwen-code</span>
+                                        <span class="ch-tag-more">ほか</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- その他 -->
+                    <div class="index-row collapsed" data-index-item>
+                        <button type="button" class="index-header" aria-expanded="false" aria-controls="idx-others">
+                            <span class="index-led il-other"></span>
+                            <span class="index-name">その他（随時追加）</span>
+                            <span class="index-count">14+ CH</span>
+                            <span class="index-arrow" aria-hidden="true">▼</span>
+                        </button>
+                        <div class="index-body-wrap">
+                            <div class="index-body" id="idx-others">
+                                <div class="index-body-inner">
+                                    <div class="tag-list">
+                                        <span class="ch-tag">kimi</span>
+                                        <span class="ch-tag">glm</span>
+                                        <span class="ch-tag">deep-seek</span>
+                                        <span class="ch-tag">mistral-ai</span>
+                                        <span class="ch-tag">hunyuan</span>
+                                        <span class="ch-tag">genspark</span>
+                                        <span class="ch-tag">perplexity</span>
+                                        <span class="ch-tag">skywork</span>
+                                        <span class="ch-tag">cursor</span>
+                                        <span class="ch-tag">wind-surf</span>
+                                        <span class="ch-tag">kiro</span>
+                                        <span class="ch-tag">qoder</span>
+                                        <span class="ch-tag">open-code</span>
+                                        <span class="ch-tag">eleven-labs</span>
+                                        <span class="ch-tag-more">新しいAIが登場次第、即日追加</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- モデル比較 -->
+                    <div class="index-row collapsed" data-index-item>
+                        <button type="button" class="index-header" aria-expanded="false" aria-controls="idx-models">
+                            <span class="index-led il-model"></span>
+                            <span class="index-name">モデル比較</span>
+                            <span class="index-count">11+ CH</span>
+                            <span class="index-arrow" aria-hidden="true">▼</span>
+                        </button>
+                        <div class="index-body-wrap">
+                            <div class="index-body" id="idx-models">
+                                <div class="index-body-inner">
+                                    <div class="tag-list">
+                                        <span class="ch-tag">text</span>
+                                        <span class="ch-tag">webdev</span>
+                                        <span class="ch-tag">vision</span>
+                                        <span class="ch-tag">text-to-image</span>
+                                        <span class="ch-tag">image-edit</span>
+                                        <span class="ch-tag">search</span>
+                                        <span class="ch-tag">text-to-video</span>
+                                        <span class="ch-tag">image-to-video</span>
+                                        <span class="ch-tag">copilot</span>
+                                        <span class="ch-tag">open-model-ranked</span>
+                                        <span class="ch-tag">arena-expert</span>
+                                        <span class="ch-tag-more">ほか</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
+        </section>
+
+        <div class="circuit-rule" aria-hidden="true">
+            <span class="cr-line"></span><span class="cr-node"></span><span class="cr-jog"></span><span class="cr-line"></span><span class="cr-node filled"></span><span class="cr-line"></span>
         </div>
-    </section>
 
-    <!-- ════ JOIN STEPS ════ -->
-    <section class="section" id="join">
-        <div class="page-wrapper">
-            <div class="section-header reveal">
-                <div class="section-label">How to Join</div>
-                <h2 class="section-title">参加はかんたん、3ステップ</h2>
-                <p class="section-sub">登録・費用は一切不要。Discordアカウントがあれば、今すぐ最新AIニュースのキャッチアップを始められます。</p>
-            </div>
+        <!-- ════ 第五面：購読案内 ════ -->
+        <section class="section" id="join">
+            <div class="sheet">
+                <div class="page-head reveal">
+                    <div class="page-head-label">第五面 — SUBSCRIPTION</div>
+                    <h2 class="page-head-title">購読のご案内 — 三つの手順</h2>
+                    <p class="page-head-sub">購読料は無料。審査や面倒な手続きはなく、Discordアカウントがあれば今日から読み始められます。</p>
+                </div>
 
-            <div class="steps-grid">
-                <div class="tech-panel step-card reveal reveal-delay-1">
-                    <div class="step-number">STEP 01</div>
-                    <div class="step-icon">🔗</div>
-                    <div class="step-title">招待リンクを開く</div>
-                    <p class="step-desc">このページの「Discordに参加する」ボタンから、ワンクリックでサーバーへ。</p>
-                </div>
-                <div class="tech-panel step-card reveal reveal-delay-2">
-                    <div class="step-number">STEP 02</div>
-                    <div class="step-icon">📋</div>
-                    <div class="step-title">ルールをサッと確認</div>
-                    <p class="step-desc">welcomeチャンネルで簡単なルールを確認。面倒な自己紹介や審査はありません。</p>
-                </div>
-                <div class="tech-panel step-card reveal reveal-delay-3">
-                    <div class="step-number">STEP 03</div>
-                    <div class="step-icon">🚀</div>
-                    <div class="step-title">今日からニュースが届く</div>
-                    <p class="step-desc">デイリーレポートと週刊ランキングが自動で流れてきます。気になるチャンネルをフォローするだけ。</p>
+                <div class="steps-flow">
+                    <div class="step reveal reveal-d1">
+                        <div class="step-no">壱</div>
+                        <h3 class="step-title">招待リンクを開く</h3>
+                        <p class="step-desc">本紙の「Discordで購読する」ボタンから、ワンクリックでサーバーへ。スマートフォンでもPCでも参加できます。</p>
+                    </div>
+                    <div class="step reveal reveal-d2">
+                        <div class="step-no">弐</div>
+                        <h3 class="step-title">ルールをさっと確認</h3>
+                        <p class="step-desc">welcomeチャンネルで簡単なルールに目を通すだけ。自己紹介の強制や入会審査は一切ありません。</p>
+                    </div>
+                    <div class="step reveal reveal-d3">
+                        <div class="step-no">参</div>
+                        <h3 class="step-title">今日から紙面が届く</h3>
+                        <p class="step-desc">デイリーレポートと週刊ランキングが自動で届きます。気になる企業のチャンネルを覗くだけでも十分です。</p>
+                        <span class="step-free-note">購読料：無料</span>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- ════ CALL TO ACTION (CTA) ════ -->
-    <section class="cta-section">
-        <div class="page-wrapper">
-            <div class="tech-panel cta-card reveal">
-                <span class="section-label">JOIN NETWORK</span>
-                <h2 class="cta-title">AIの最前線を、一緒に追いかけよう</h2>
-                <p class="cta-description">
-                    <span id="ctaMemberLine">150名以上</span>の最先端メンバーが集うフロンティア・コミュニティで、<br>
-                    世界中の最新AIニュースをどこよりも分かりやすくキャッチアップ。<br>
-                    <span style="font-size: 0.85rem; color: var(--text-dim);">コミュニティは進化し続けています。あなたのジョインをお待ちしています。</span>
-                </p>
-                <a href="https://discord.gg/B3eJAX6mnN" target="_blank" rel="noopener noreferrer" class="btn-cta">
-                    Discordに参加する
-                </a>
+        <!-- ════ 購読CTA（反転面） ════ -->
+        <section class="section" style="padding-top: 1.5rem;">
+            <div class="sheet">
+                <div class="ink-block reveal">
+                    <p class="ink-label">SUBSCRIBE — 購読のお誘い</p>
+                    <h2 class="ink-title">AIの最前線を、<br>一緒に追いかけよう。</h2>
+                    <p class="ink-desc">
+                        <strong id="ctaMemberLine">150名以上</strong>の読者が集うフロンティア・コミュニティで、世界中の最新AIニュースをどこよりも分かりやすくキャッチアップ。紙面は今日も更新され続けています。
+                    </p>
+                    <a href="https://discord.gg/B3eJAX6mnN" target="_blank" rel="noopener noreferrer" class="btn-shu">
+                        Discordで購読する
+                    </a>
+                    <br>
+                    <a href="https://twitter.com/AI_FrontierNews" target="_blank" rel="noopener noreferrer" class="ink-sub-link">
+                        まずは公式X（Twitter）を見る
+                    </a>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </main>
 
-    <!-- ════ MOBILE STICKY ACTION BAR ════ -->
-    <div class="mobile-cta-bar" id="mobileCta">
-        <a href="https://discord.gg/B3eJAX6mnN" target="_blank" rel="noopener noreferrer" class="btn-cta">
-            Discordに参加する
+    <!-- ════ モバイル固定購読バー ════ -->
+    <div class="mobile-bar" id="mobileBar">
+        <a href="https://discord.gg/B3eJAX6mnN" target="_blank" rel="noopener noreferrer" class="btn-ink">
+            Discordで購読する <span class="btn-arrow">→</span>
         </a>
     </div>
 
-    <!-- ════ FOOTER ════ -->
+    <!-- ════ 奥付 ════ -->
     <footer>
-        <div class="page-wrapper">
-            <div class="footer-inner">
-                <div class="footer-brand">
-                    <img src="AFNJP.jpg" alt="AFNJP Small Logo" class="footer-logo">
-                    <span class="footer-logo-text">AI Frontier News JP</span>
+        <div class="sheet">
+            <div class="colophon">
+                <div class="colophon-brand">
+                    <img src="AFNJP.jpg" alt="AFNJP ロゴ">
+                    <div class="colophon-brand-name">
+                        AI Frontier News JP
+                        <small>THE AI FRONTIER PRESS</small>
+                    </div>
                 </div>
-                <div class="footer-links">
-                    <a href="https://discord.gg/B3eJAX6mnN" target="_blank" rel="noopener noreferrer" class="footer-link">Discord</a>
-                    <a href="https://twitter.com/AI_FrontierNews" target="_blank" rel="noopener noreferrer" class="footer-link">X (Twitter)</a>
-                </div>
-                <div class="footer-meta">
-                    &copy; 2025–2026 AI Frontier News JP &nbsp;|&nbsp; Admin &amp; Dev Team<br>
-                    <span style="color: var(--text-dim); font-size: 0.7rem;">Est. September 2025</span>
+                <dl class="colophon-table">
+                    <div><dt>題号</dt><dd>AI Frontier News JP（AFNJP）</dd></div>
+                    <div><dt>創刊</dt><dd>2025年（令和7年）9月</dd></div>
+                    <div><dt>発行</dt><dd>AFNJP Admin &amp; Dev Team</dd></div>
+                    <div><dt>発行形態</dt><dd>Discordサーバーにて毎日配信</dd></div>
+                    <div><dt>購読料</dt><dd>無料（Discordアカウントのみ必要）</dd></div>
+                </dl>
+                <div class="colophon-links">
+                    <a href="https://discord.gg/B3eJAX6mnN" target="_blank" rel="noopener noreferrer" class="colophon-link">DISCORD</a>
+                    <a href="https://twitter.com/AI_FrontierNews" target="_blank" rel="noopener noreferrer" class="colophon-link">X / TWITTER</a>
                 </div>
             </div>
+            <p class="footer-copy">&copy; 2025–2026 AI FRONTIER NEWS JP — ALL RIGHTS RESERVED</p>
         </div>
     </footer>
 
     <script>
-        const heroCard = document.getElementById('heroCard');
-        const pointerGlow = document.getElementById('pointerGlow');
-        const isTouchDevice = window.matchMedia('(hover: none)').matches;
         const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
-        // ── 1. Page Load Initial Animation ──
-        window.addEventListener('load', () => {
-            setTimeout(() => {
-                document.querySelector('.hero-inner').classList.add('page-loaded');
-            }, 100);
-        });
+        // ── 1. 日付欄：和暦の日付と号数（創刊からの日数）を自動計算 ──
+        (() => {
+            const now = new Date();
+            const youbi = ['日', '月', '火', '水', '木', '金', '土'];
+            const reiwa = now.getFullYear() - 2018;
+            document.getElementById('datelineDate').textContent =
+                `令和${reiwa}年${now.getMonth() + 1}月${now.getDate()}日（${youbi[now.getDay()]}）`;
+            const founded = new Date('2025-09-01T00:00:00+09:00');
+            const issue = Math.max(1, Math.floor((now - founded) / 86400000) + 1);
+            document.getElementById('datelineIssue').textContent = `第${issue}号`;
+        })();
 
-        // ── 2. Interactive Pointer-Glow Tracking ──
-        if (!isTouchDevice && !prefersReducedMotion) {
-            window.addEventListener('mousemove', (e) => {
-                pointerGlow.style.setProperty('--mouse-x', `${e.clientX}px`);
-                pointerGlow.style.setProperty('--mouse-y', `${e.clientY}px`);
-            });
-        } else {
-            pointerGlow.style.display = 'none';
-        }
+        // ── 2. 号外ティッカー：トラック複製でシームレスにループ ──
+        const gogaiTrack = document.getElementById('gogaiTrack');
+        gogaiTrack.innerHTML += gogaiTrack.innerHTML;
 
-        // ── 3. Premium Eased 3D Tilt for Hero Card ──
-        if (!isTouchDevice && !prefersReducedMotion) {
-            const handleHeroTilt = (e) => {
-                const rect = heroCard.getBoundingClientRect();
-                const x = e.clientX - rect.left - rect.width/2;
-                const y = e.clientY - rect.top - rect.height/2;
-                const rotateX = -(y / (rect.height/2)) * 8;
-                const rotateY = (x / (rect.width/2)) * 8;
-                heroCard.style.transform = `rotateX(${rotateX}deg) rotateY(${rotateY}deg)`;
-            };
-            const resetHeroTilt = () => {
-                heroCard.style.transform = 'rotateX(0deg) rotateY(0deg)';
-            };
-            heroCard.addEventListener('mousemove', handleHeroTilt);
-            heroCard.addEventListener('mouseleave', resetHeroTilt);
-        }
-
-        // ── 4. News Ticker: duplicate track content for a seamless loop ──
-        const tickerTrack = document.getElementById('tickerTrack');
-        tickerTrack.innerHTML += tickerTrack.innerHTML;
-
-        // ── 5. Live Discord Stats (invite API, no auth required) ──
-        // Falls back to static numbers if the API is unreachable.
+        // ── 3. Discordライブ統計（招待API・認証不要、失敗時は静的値） ──
         const DISCORD_INVITE_CODE = 'B3eJAX6mnN';
         let liveStats = { members: 150, online: null };
-
         const statsReady = fetch(`https://discord.com/api/v10/invites/${DISCORD_INVITE_CODE}?with_counts=true`)
             .then(r => r.ok ? r.json() : Promise.reject())
             .then(data => {
                 if (data.approximate_member_count) liveStats.members = data.approximate_member_count;
                 if (data.approximate_presence_count) liveStats.online = data.approximate_presence_count;
             })
-            .catch(() => { /* keep fallback values */ });
+            .catch(() => { /* fallback */ });
 
-        // ── 6. Slick Eased Counter Count-Up ──
-        function countUp(el, target, suffix = '', duration = 2000) {
+        // ── 4. 活字が刻まれるようなカウントアップ ──
+        function countUp(el, target, suffixHtml = '', duration = 1800) {
             if (prefersReducedMotion) {
-                el.textContent = target + suffix;
+                el.innerHTML = target + suffixHtml;
                 return;
             }
             const start = performance.now();
             const update = (now) => {
-                const elapsed = now - start;
-                const progress = Math.min(elapsed / duration, 1);
-                // quartic ease-out
+                const progress = Math.min((now - start) / duration, 1);
                 const eased = 1 - Math.pow(1 - progress, 4);
-                el.textContent = Math.floor(eased * target) + suffix;
+                el.innerHTML = Math.floor(eased * target) + suffixHtml;
                 if (progress < 1) requestAnimationFrame(update);
             };
             requestAnimationFrame(update);
@@ -2011,47 +1896,50 @@
             entries.forEach(entry => {
                 if (entry.isIntersecting && !counted) {
                     counted = true;
-                    // Wait for the API response (or its failure) before animating
                     statsReady.then(() => {
                         setTimeout(() => {
-                            countUp(memberCountEl, liveStats.members, '+');
+                            countUp(memberCountEl, liveStats.members, '<span class="data-unit">+</span>');
                             if (liveStats.online !== null) {
-                                countUp(onlineCountEl, liveStats.online, '');
+                                countUp(onlineCountEl, liveStats.online);
                             } else {
                                 onlineCountEl.textContent = '--';
                             }
                             const rounded = Math.floor(liveStats.members / 10) * 10;
                             ctaMemberLine.textContent = `${rounded}名以上`;
-                        }, 300);
+                        }, 250);
                     });
                 }
             });
-        }, { threshold: 0.5 });
+        }, { threshold: 0.4 });
         countObserver.observe(memberCountEl);
 
-        // ── 7. Header Nav & Mobile Action Bar Reveal ──
-        const stickyNav = document.getElementById('stickyNav');
-        const mobileCta = document.getElementById('mobileCta');
-        const heroHeight = window.innerHeight;
+        // ── 5. 朱印：第一面が見えたら捺印 ──
+        const hanko = document.getElementById('hankoStamp');
+        window.addEventListener('load', () => {
+            hanko.classList.add('stamped');
+        });
+
+        // ── 6. 追尾ナビ＆モバイル購読バー ──
+        const pressNav = document.getElementById('pressNav');
+        const mobileBar = document.getElementById('mobileBar');
+        const threshold = () => window.innerHeight * 0.6;
         window.addEventListener('scroll', () => {
-            const pastHero = window.scrollY > heroHeight * 0.5;
-            stickyNav.classList.toggle('nav-visible', pastHero);
-            mobileCta.classList.toggle('bar-visible', pastHero);
+            const past = window.scrollY > threshold();
+            pressNav.classList.toggle('nav-visible', past);
+            mobileBar.classList.toggle('bar-visible', past);
         }, { passive: true });
 
-        // ── 8. Accessible Explorer Accordion (button + aria-expanded) ──
-        document.querySelectorAll('[data-explorer-item]').forEach(row => {
-            const header = row.querySelector('.explorer-header');
+        // ── 7. 索引アコーディオン（button + aria-expanded） ──
+        document.querySelectorAll('[data-index-item]').forEach(row => {
+            const header = row.querySelector('.index-header');
             header.addEventListener('click', () => {
                 const isCollapsed = row.classList.contains('collapsed');
                 row.classList.toggle('collapsed', !isCollapsed);
-                row.classList.toggle('active-folder', isCollapsed);
                 header.setAttribute('aria-expanded', String(isCollapsed));
-                row.querySelector('.explorer-icon').textContent = isCollapsed ? '📂' : '📁';
             });
         });
 
-        // ── 9. Intersection Scroll Reveal ──
+        // ── 8. スクロール出現 ──
         const revealObserver = new IntersectionObserver((entries) => {
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
