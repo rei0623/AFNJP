@@ -1,0 +1,9 @@
+# Bot トークンなどの秘密情報。絶対にコミットしないこと。
+.env
+.env.local
+*.token
+
+# OS / エディタ
+.DS_Store
+Thumbs.db
+desktop.ini

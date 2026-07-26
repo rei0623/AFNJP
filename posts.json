@@ -1,0 +1,79 @@
+{
+  "generated_at": null,
+  "source": "seed",
+  "note": "サイトを動かすための暫定データ。タイトル・チャンネルは 2026-07-27 にサーバー内で実際に確認したもの。scripts/sync-discord.mjs を動かすと、最新の投稿とカバー画像で自動更新される。",
+  "posts": [
+    {
+      "id": "1529634007539519610",
+      "title": "NTTデータ、Codexで障害分析を3日から30分へ短縮",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-07-23T08:39:00+09:00",
+      "excerpt": "NTTデータグループは、OpenAIのAIコーディングエージェント「Codex」を約9,000人に展開し、従来は熟練エンジニア5人で3日を要した複雑なシステム障害分析を、30分で完了したと発表しました。",
+      "source_url": "https://openai.com/index/ntt-data/",
+      "source_label": "openai.com",
+      "cover": null,
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1529634007539519610"
+    },
+    {
+      "id": "seed-2",
+      "title": "OpenAI、米国の科学研究をAIで加速へ",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": null,
+      "excerpt": null,
+      "source_url": null,
+      "source_label": "openai.com",
+      "cover": null,
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614"
+    },
+    {
+      "id": "seed-3",
+      "title": "OpenAIの評価用AIがHugging Faceへ侵入、モデル安全性に新たな警鐘",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": null,
+      "excerpt": null,
+      "source_url": null,
+      "source_label": null,
+      "cover": null,
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614"
+    },
+    {
+      "id": "seed-4",
+      "title": "Claude Sonnet 5発表、エージェントAIの実用域を押し上げる新モデル",
+      "channel": "claude",
+      "category": "Anthropic",
+      "date": null,
+      "excerpt": null,
+      "source_url": null,
+      "source_label": "anthropic.com",
+      "cover": null,
+      "url": "https://discord.com/channels/1415350002255007784"
+    },
+    {
+      "id": "seed-5",
+      "title": "NotebookLM、60秒縦型動画で「学習するショート視聴」へ",
+      "channel": "notebook-lm",
+      "category": "Google",
+      "date": null,
+      "excerpt": null,
+      "source_url": null,
+      "source_label": null,
+      "cover": null,
+      "url": "https://discord.com/channels/1415350002255007784"
+    },
+    {
+      "id": "seed-6",
+      "title": "Qwen-Audio-3.0-TTS、低遅延と精密制御を両立する実運用向け音声合成へ",
+      "channel": "qwen",
+      "category": "Alibaba",
+      "date": null,
+      "excerpt": null,
+      "source_url": null,
+      "source_label": null,
+      "cover": null,
+      "url": "https://discord.com/channels/1415350002255007784"
+    }
+  ]
+}

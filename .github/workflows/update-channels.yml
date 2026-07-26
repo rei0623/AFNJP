@@ -1,0 +1,46 @@
+name: Sync Discord data
+
+# チャンネル構成と最新の記事を channels.json / posts.json に自動反映する。
+# 前提: リポジトリの Settings > Secrets and variables > Actions に
+#       DISCORD_BOT_TOKEN を登録し、その Bot を AFNJP サーバーに招待しておく。
+#       Bot に必要な権限は View Channels と Read Message History のみ。
+
+on:
+  schedule:
+    - cron: '17 * * * *' # 毎時17分（UTC）
+  workflow_dispatch: # 手動実行も可
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sync-discord
+  cancel-in-progress: true
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Sync from Discord
+        env:
+          DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
+          DISCORD_GUILD_ID: '1415350002255007784'
+        run: node scripts/sync-discord.mjs
+
+      - name: Commit if changed
+        run: |
+          git add -A channels.json posts.json assets/posts
+          if git diff --cached --quiet; then
+            echo "変化なし。コミットしません。"
+            exit 0
+          fi
+          git config user.name  "afnjp-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "chore: sync Discord data [skip ci]"
+          git push
