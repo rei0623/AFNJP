@@ -1,70 +1,143 @@
 {
-  "generated_at": null,
-  "source": "seed",
-  "note": "2026-07-27 に Discord の画面で確認した実際の構成。scripts/sync-discord.mjs を動かすと自動更新される。",
+  "generated_at": "2026-07-26T17:24:07.370Z",
+  "source": "discord-api",
   "guild_id": "1415350002255007784",
   "count": 59,
   "previous_count": 59,
   "groups": [
     {
-      "category": "Welcome & Info",
-      "channels": ["はじめに", "免責事項", "アナウンス"]
+      "category": "====== Welcome & Info ======",
+      "channels": [
+        "はじめに",
+        "免責事項",
+        "アナウンス"
+      ]
     },
     {
-      "category": "コミュニティ",
-      "channels": ["ご意見・ご要望", "一般", "ユースケース"]
+      "category": "======コミュニティ======",
+      "channels": [
+        "ご意見 ご要望",
+        "一般",
+        "ユースケース"
+      ]
     },
     {
-      "category": "デイリーレポート",
-      "channels": ["ニュースをおさらい！", "今週のニュースランキング"]
+      "category": "====== デイリーレポート ======",
+      "channels": [
+        "ニュースをおさらい！",
+        "今週のニュースランキング"
+      ]
     },
     {
-      "category": "ライブ配信・イベント情報",
-      "channels": ["ライブ配信・イベント情報", "告知・宣伝"]
+      "category": "====== ライブ配信 イベント情報 ======",
+      "channels": [
+        "ライブ配信 イベント情報",
+        "告知 宣伝"
+      ]
     },
     {
-      "category": "Google",
-      "channels": ["google", "gemini", "geminicli", "antigravity", "jules", "firebase", "google-ai-studio", "notebook-lm", "google-labs", "stitch"]
+      "category": "====== Google ======",
+      "channels": [
+        "google",
+        "gemini",
+        "geminicli",
+        "antigravity",
+        "jules",
+        "firebase",
+        "google-ai-studio",
+        "notebook-lm",
+        "google-labs",
+        "stitch"
+      ]
     },
     {
-      "category": "Open AI",
-      "channels": ["open-ai", "chatgpt", "codex", "sora"]
+      "category": "====== Open AI ======",
+      "channels": [
+        "open-ai",
+        "chatgpt",
+        "codex",
+        "sora"
+      ]
     },
     {
-      "category": "Anthropic",
-      "channels": ["anthropic", "claude", "claude-code"]
+      "category": "====== Anthropic ======",
+      "channels": [
+        "anthropic",
+        "claude",
+        "claude-code"
+      ]
     },
     {
-      "category": "Space X",
-      "channels": ["space-x", "grok", "grok-code"]
+      "category": "====== Space X ======",
+      "channels": [
+        "space-x",
+        "grok",
+        "grok-code"
+      ]
     },
     {
-      "category": "Microsoft",
-      "channels": ["microsoft", "copilot"]
+      "category": "====== Microsoft ======",
+      "channels": [
+        "microsoft",
+        "copilot"
+      ]
     },
     {
-      "category": "Meta",
-      "channels": ["meta", "manus", "muse-spark"]
+      "category": "====== Meta ======",
+      "channels": [
+        "meta",
+        "manus",
+        "muse-spark"
+      ]
     },
     {
-      "category": "Alibaba",
-      "channels": ["alibaba", "qwen", "qwen-code"]
+      "category": "====== Alibaba ======",
+      "channels": [
+        "alibaba",
+        "qwen",
+        "qwen-code"
+      ]
     },
     {
-      "category": "その他",
-      "channels": ["kimi", "glm", "deep-seek", "mistral-ai", "hunyuan", "minimax", "genspark", "perplexity", "skywork", "cursor", "wind-surf", "kiro", "qoder", "open-code", "eleven-labs", "open-claw", "その他"]
+      "category": "======その他======",
+      "channels": [
+        "kimi",
+        "glm",
+        "deep-seek",
+        "mistral-ai",
+        "hunyuan",
+        "minimax",
+        "genspark",
+        "perplexity",
+        "skywork",
+        "cursor",
+        "wind-surf",
+        "kiro",
+        "qoder",
+        "open-code",
+        "eleven-labs",
+        "open-claw",
+        "その他"
+      ]
     },
     {
-      "category": "モデルの比較",
-      "channels": ["arena-ai"]
+      "category": "====== モデルの比較 ======",
+      "channels": [
+        "arena-ai"
+      ]
     },
     {
-      "category": "リーク情報",
-      "channels": ["リーク情報"]
+      "category": "====== リーク情報 ======",
+      "channels": [
+        "リーク情報"
+      ]
     },
     {
-      "category": "日本国内",
-      "channels": ["日本国内", "sakana-ai"]
+      "category": "====== 日本国内 ======",
+      "channels": [
+        "日本国内",
+        "sakana-ai"
+      ]
     }
   ]
 }
