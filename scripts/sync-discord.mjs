@@ -46,14 +46,29 @@ if (!TOKEN) {
     process.exit(1);
 }
 
-/** 絵文字プレフィックスや区切り記号を落として素の名前にする */
+const EMOJI = /[\u{1F000}-\u{1FAFF}\u{2190}-\u{2BFF}\u{2600}-\u{27BF}\u{FE0F}\u{200D}]/gu;
+
+/** チャンネル名：絵文字プレフィックスと区切り記号を落として素の名前にする（例「💻｜cursor」→「cursor」） */
 function clean(name = '') {
     return name
-        .replace(/[\u{1F000}-\u{1FAFF}\u{2190}-\u{2BFF}\u{2600}-\u{27BF}\u{FE0F}\u{200D}]/gu, '')
+        .replace(EMOJI, '')
         .replace(/[｜|・:：]/g, ' ')
         .replace(/\s+/g, ' ')
         .trim()
         .replace(/^[-_\s]+|[-_\s]+$/g, '');
+}
+
+/** カテゴリ名：「====== Google ======」のような飾りを落とす */
+function cleanCategory(name = '') {
+    return clean(name).replace(/^[=＝\-—\s]+|[=＝\-—\s]+$/g, '').trim();
+}
+
+/** 記事タイトル：先頭の絵文字だけを落とし、「・」などの句読点はそのまま残す */
+function cleanTitle(name = '') {
+    return name
+        .replace(EMOJI, '')
+        .replace(/\s+/g, ' ')
+        .trim();
 }
 
 async function api(path) {
@@ -81,7 +96,7 @@ const all = await api(`/guilds/${GUILD_ID}/channels`);
 const catById = new Map(
     all.filter(c => c.type === CATEGORY_TYPE)
         .sort((a, b) => a.position - b.position)
-        .map(c => [c.id, { name: clean(c.name) || c.name, channels: [], raw: [] }])
+        .map(c => [c.id, { name: cleanCategory(c.name) || c.name, channels: [], raw: [] }])
 );
 const orphan = { name: 'その他', channels: [], raw: [] };
 
@@ -211,7 +226,7 @@ for (const { t, created } of threads) {
 
     posts.push({
         id: t.id,
-        title: clean(t.name),
+        title: cleanTitle(t.name),
         channel: meta.channel,
         category: meta.category,
         date: new Date(created).toISOString(),
