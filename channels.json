@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-07-26T17:24:07.370Z",
+  "generated_at": "2026-07-26T17:28:43.124Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "count": 59,
   "previous_count": 59,
   "groups": [
     {
-      "category": "====== Welcome & Info ======",
+      "category": "Welcome & Info",
       "channels": [
         "はじめに",
         "免責事項",
@@ -14,7 +14,7 @@
       ]
     },
     {
-      "category": "======コミュニティ======",
+      "category": "コミュニティ",
       "channels": [
         "ご意見 ご要望",
         "一般",
@@ -22,21 +22,21 @@
       ]
     },
     {
-      "category": "====== デイリーレポート ======",
+      "category": "デイリーレポート",
       "channels": [
         "ニュースをおさらい！",
         "今週のニュースランキング"
       ]
     },
     {
-      "category": "====== ライブ配信 イベント情報 ======",
+      "category": "ライブ配信 イベント情報",
       "channels": [
         "ライブ配信 イベント情報",
         "告知 宣伝"
       ]
     },
     {
-      "category": "====== Google ======",
+      "category": "Google",
       "channels": [
         "google",
         "gemini",
@@ -51,7 +51,7 @@
       ]
     },
     {
-      "category": "====== Open AI ======",
+      "category": "Open AI",
       "channels": [
         "open-ai",
         "chatgpt",
@@ -60,7 +60,7 @@
       ]
     },
     {
-      "category": "====== Anthropic ======",
+      "category": "Anthropic",
       "channels": [
         "anthropic",
         "claude",
@@ -68,7 +68,7 @@
       ]
     },
     {
-      "category": "====== Space X ======",
+      "category": "Space X",
       "channels": [
         "space-x",
         "grok",
@@ -76,14 +76,14 @@
       ]
     },
     {
-      "category": "====== Microsoft ======",
+      "category": "Microsoft",
       "channels": [
         "microsoft",
         "copilot"
       ]
     },
     {
-      "category": "====== Meta ======",
+      "category": "Meta",
       "channels": [
         "meta",
         "manus",
@@ -91,7 +91,7 @@
       ]
     },
     {
-      "category": "====== Alibaba ======",
+      "category": "Alibaba",
       "channels": [
         "alibaba",
         "qwen",
@@ -99,7 +99,7 @@
       ]
     },
     {
-      "category": "======その他======",
+      "category": "その他",
       "channels": [
         "kimi",
         "glm",
@@ -121,19 +121,19 @@
       ]
     },
     {
-      "category": "====== モデルの比較 ======",
+      "category": "モデルの比較",
       "channels": [
         "arena-ai"
       ]
     },
     {
-      "category": "====== リーク情報 ======",
+      "category": "リーク情報",
       "channels": [
         "リーク情報"
       ]
     },
     {
-      "category": "====== 日本国内 ======",
+      "category": "日本国内",
       "channels": [
         "日本国内",
         "sakana-ai"
