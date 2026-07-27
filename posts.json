@@ -1,8 +1,32 @@
 {
-  "generated_at": "2026-07-27T11:37:20.119Z",
+  "generated_at": "2026-07-27T15:11:35.145Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1531285424239018146",
+      "title": "Google DeepMind、ロボットAIの3層構造を公開",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-07-27T13:01:35.046Z",
+      "excerpt": "Google DeepMindは、ロボット向けAI「Gemini Robotics」の新しい製品ページを公開しました。今回示されたのは、物理世界を理解して計画を立てる「Gemini Robotics-ER 1.6」、視覚と言語から動作を生成する「Gemin…",
+      "source_url": "https://deepmind.google/models/gemini-robotics/embodied-reasoning/",
+      "source_label": "deepmind.google",
+      "cover": "assets/posts/1531285424239018146.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1531285424239018146"
+    },
+    {
+      "id": "1531285140091965500",
+      "title": "AIが職務の境界を再編、ChatGPT利用の43.5％が「他職種の仕事」",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-07-27T13:00:27.300Z",
+      "excerpt": "OpenAIは2026年7月27日、生成AIが単なる業務効率化ツールではなく、従業員の担当領域そのものを広げているとする調査結果を発表しました。米国のChatGPTユーザーによる80万件超のメッセージを分析したところ、職種固有の業務に関する利用の43.5％…",
+      "source_url": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work/",
+      "source_label": "openai.com",
+      "cover": "assets/posts/1531285140091965500.png",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1531285140091965500"
+    },
     {
       "id": "1530919004385054911",
       "title": "Microsoft、画像・音声生成AIの新モデルを発表 品質・速度・コストを用途別に最適化",
@@ -122,30 +146,6 @@
       "source_label": "testingcatalog.com",
       "cover": "assets/posts/1529801316056961086.png",
       "url": "https://discord.com/channels/1415350002255007784/1415534435712897124/threads/1529801316056961086"
-    },
-    {
-      "id": "1529709849720656003",
-      "title": "Grok Build、生成したアプリの公開・ホスティング機能を開発中",
-      "channel": "grok",
-      "category": "Space X",
-      "date": "2026-07-23T04:40:48.808Z",
-      "excerpt": "xAIが、Grok Buildで生成したアプリをそのままデプロイし、一般公開できる仕組みを開発していることが明らかになりました。実現すれば、Grokは単なるコード生成AIから、アプリの作成、配布、運用までを一体化した開発プラットフォームへ進化します。",
-      "source_url": "https://www.testingcatalog.com/spacexai-develops-deployable-applications-for-grok-build/",
-      "source_label": "testingcatalog.com",
-      "cover": "assets/posts/1529709849720656003.jpg",
-      "url": "https://discord.com/channels/1415350002255007784/1417803120225816596/threads/1529709849720656003"
-    },
-    {
-      "id": "1529634007539519610",
-      "title": "NTTデータ、Codexで障害分析を3日から30分へ短縮",
-      "channel": "open-ai",
-      "category": "Open AI",
-      "date": "2026-07-22T23:39:26.623Z",
-      "excerpt": "NTTデータグループは、OpenAIのAIコーディングエージェント「Codex」を約9,000人に展開し、従来は熟練エンジニア5人で3日を要した複雑なシステム障害分析を、30分で完了したと発表しました。生成AIを質問応答ツールから、実務を自律的に遂行するエ…",
-      "source_url": "https://openai.com/index/ntt-data/",
-      "source_label": "openai.com",
-      "cover": "assets/posts/1529634007539519610.png",
-      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1529634007539519610"
     }
   ]
 }
