@@ -1,8 +1,32 @@
 {
-  "generated_at": "2026-07-27T15:11:35.145Z",
+  "generated_at": "2026-07-27T17:06:29.400Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1531327256398401647",
+      "title": "NVIDIAらが「Open Secure AI Alliance」設立、AIエージェント防御をオープン技術で共同構築",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-07-27T15:47:48.610Z",
+      "excerpt": "NVIDIAは2026年7月27日、AIの安全性とサイバーセキュリティを強化する「Open Secure AI Alliance」の発足を発表しました。クラウド、セキュリティ、企業ソフトウェア、AI研究などの主要組織が参加し、AIエージェントを安全に運用す…",
+      "source_url": "https://blogs.nvidia.com/blog/open-secure-ai-alliance/?ncid=so-twit-957725",
+      "source_label": "blogs.nvidia.com",
+      "cover": "assets/posts/1531327256398401647.png",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1531327256398401647"
+    },
+    {
+      "id": "1531325763469574185",
+      "title": "AnthropicとCognizant、企業向けClaude導入を世界規模で拡大",
+      "channel": "anthropic",
+      "category": "Anthropic",
+      "date": "2026-07-27T15:41:52.668Z",
+      "excerpt": "Anthropicと大手ITサービス企業Cognizantは2026年7月27日、提携の拡大を発表しました。CognizantはClaudeを顧客向けシステムだけでなく、自社の開発・運用基盤にも組み込み、人材育成から実運用までを包括する企業向けAI導入体制…",
+      "source_url": "https://www.anthropic.com/news/cognizant-anthropic",
+      "source_label": "anthropic.com",
+      "cover": "assets/posts/1531325763469574185.jpg",
+      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1531325763469574185"
+    },
     {
       "id": "1531285424239018146",
       "title": "Google DeepMind、ロボットAIの3層構造を公開",
@@ -122,30 +146,6 @@
       "source_label": "bfl.ai",
       "cover": "assets/posts/1529879869616427118.png",
       "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1529879869616427118"
-    },
-    {
-      "id": "1529870383879159908",
-      "title": "Qwen-Audio-3.0-TTS、低遅延と精密制御を両立する実運用向け音声合成へ",
-      "channel": "qwen",
-      "category": "Alibaba",
-      "date": "2026-07-23T15:18:43.134Z",
-      "excerpt": "Alibaba GroupのQwen Audioチームは、音声合成システム「Qwen-Audio-3.0-TTS」を公開しました。低遅延化、話者再現、感情表現、多言語対応、長文生成、ノイズ耐性を一体的に強化し、研究用途にとどまらない実運用志向を打ち出してい…",
-      "source_url": "https://funaudiollm.github.io/qwen-audio-3.0-tts/",
-      "source_label": "funaudiollm.github.io",
-      "cover": null,
-      "url": "https://discord.com/channels/1415350002255007784/1419932032716243027/threads/1529870383879159908"
-    },
-    {
-      "id": "1529801316056961086",
-      "title": "OpenAI、「Codexリアルタイム音声モード」を開発か",
-      "channel": "リーク情報",
-      "category": "リーク情報",
-      "date": "2026-07-23T10:44:16.082Z",
-      "excerpt": "OpenAIが、音声でCodexに指示し、複数の作業を並行して実行させる新機能をテストしている可能性が浮上しました。確認されたChatGPTの内部文字列や関連機能からは、コーディング支援を超え、Slack確認や資料検索、買い物まで扱う汎用エージェント構想が…",
-      "source_url": "https://www.testingcatalog.com/openai-tests-codex-realtime-voice-mode-for-chatgpt/",
-      "source_label": "testingcatalog.com",
-      "cover": "assets/posts/1529801316056961086.png",
-      "url": "https://discord.com/channels/1415350002255007784/1415534435712897124/threads/1529801316056961086"
     }
   ]
 }
