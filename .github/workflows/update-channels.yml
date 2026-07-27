@@ -42,5 +42,7 @@ jobs:
           fi
           git config user.name  "afnjp-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -m "chore: sync Discord data [skip ci]"
+          # [skip ci] は GitHub Actions 用、[skip render] は Render 用。
+          # データ更新のたびに外部のデプロイが走らないようにする。
+          git commit -m "chore: sync Discord data [skip ci] [skip render]"
           git push
