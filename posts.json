@@ -1,8 +1,92 @@
 {
-  "generated_at": "2026-07-28T20:33:37.140Z",
+  "generated_at": "2026-07-28T22:15:48.734Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1531772474633621745",
+      "title": "Grokに「Buildモード」登場、1プロンプトでアプリ公開まで自動化",
+      "channel": "grok",
+      "category": "Space X",
+      "date": "2026-07-28T21:16:56.909Z",
+      "excerpt": "xAIのGrokに、新たな「Buildモード」が導入されました。GrokのWeb版、iOS版、Android版から、自然言語による指示だけでアプリ、ダッシュボード、ゲームを生成し、独自ドメインを持つプロダクトとして公開できる機能です。記事作成時点では、Su…",
+      "source_url": "https://twitter.com/i/status/2082134072793637196",
+      "source_label": "twitter.com",
+      "cover": "assets/posts/1531772474633621745.png",
+      "url": "https://discord.com/channels/1415350002255007784/1417803120225816596/threads/1531772474633621745"
+    },
+    {
+      "id": "1531772318437736598",
+      "title": "Fish Audio、約5200万ドル調達 音声AI「S2.1 Pro」を一般公開",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-07-28T21:16:19.669Z",
+      "excerpt": "音声生成AIを開発するFish Audioは、5200万ドルのシード資金調達と、最新の音声合成モデル「S2.1 Pro」の一般公開を発表しました。同社は、わずか5秒の音声から声を再現できることに加え、高速性、低コスト、単語単位の感情制御を強みとして掲げてい…",
+      "source_url": "https://twitter.com/i/status/2082152596739862853",
+      "source_label": "twitter.com",
+      "cover": "assets/posts/1531772318437736598.png",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1531772318437736598"
+    },
+    {
+      "id": "1531772215006068866",
+      "title": "Claudeが「MCP 2026-07-28」対応へ、AI連携基盤をステートレス化",
+      "channel": "claude",
+      "category": "Anthropic",
+      "date": "2026-07-28T21:15:55.009Z",
+      "excerpt": "Anthropicは2026年7月28日、Model Context Protocol（MCP）の第5版となる「MCP 2026-07-28」への対応をClaude製品群で順次開始すると発表しました。新仕様の柱は、通信コアのステートレス化、拡張機能の標準化…",
+      "source_url": "https://claude.com/blog/bringing-mcp-2026-07-28-to-claude",
+      "source_label": "claude.com",
+      "cover": "assets/posts/1531772215006068866.jpg",
+      "url": "https://discord.com/channels/1415350002255007784/1415353403269185546/threads/1531772215006068866"
+    },
+    {
+      "id": "1531770731396993204",
+      "title": "Claudeが暗号アルゴリズムの弱点を発見、HAWKと縮小版AESの攻撃を大幅改善",
+      "channel": "anthropic",
+      "category": "Anthropic",
+      "date": "2026-07-28T21:10:01.289Z",
+      "excerpt": "Anthropicは2026年7月28日、研究用モデル「Claude Mythos Preview」が、暗号ソフトウェアの実装ミスではなく、暗号アルゴリズムそのものに対する新しい攻撃手法を発見したと発表しました。対象は耐量子デジタル署名候補「HAWK」と、…",
+      "source_url": "https://www.anthropic.com/research/discovering-cryptographic-weaknesses",
+      "source_label": "anthropic.com",
+      "cover": "assets/posts/1531770731396993204.png",
+      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1531770731396993204"
+    },
+    {
+      "id": "1531770604523491571",
+      "title": "AIエージェントが科学計算を再設計、実装から「検証・統率」へ",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-07-28T21:09:31.040Z",
+      "excerpt": "OpenAIは2026年7月28日、コーディングエージェントが科学ソフトウェア開発をどのように変えつつあるかをまとめたフィールドレポートを公開しました。生命科学を中心とする8件のプロジェクトでは、保守作業から言語移行、GPU向け再設計までをAIが支援してい…",
+      "source_url": "https://openai.com/index/scientific-computing-agentic-ai/",
+      "source_label": "openai.com",
+      "cover": "assets/posts/1531770604523491571.png",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1531770604523491571"
+    },
+    {
+      "id": "1531770486911008950",
+      "title": "Gemini 3.6 Flashが酪農経営を自動化、複数AIエージェントが収益性を毎日分析",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-07-28T21:09:02.999Z",
+      "excerpt": "Googleは、米ミシガン州の酪農家が「Gemini 3.6 Flash」を使い、農場内に分散したデータの統合と経営分析を自動化した事例を公開しました。センサー、搾乳ロボット、飼料記録、請求書などを複数のAIエージェントが処理し、従来は数時間かかっていた表…",
+      "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/using-gemini-to-manage-farm/",
+      "source_label": "blog.google",
+      "cover": "assets/posts/1531770486911008950.png",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1531770486911008950"
+    },
+    {
+      "id": "1531770337082212452",
+      "title": "Gemini API「Managed Agents」が進化、3.6 Flashと実行フックで本番運用へ",
+      "channel": "gemini",
+      "category": "Google",
+      "date": "2026-07-28T21:08:27.277Z",
+      "excerpt": "Googleは2026年7月28日、Gemini APIの「Managed Agents」を拡張し、標準モデルをGemini 3.6 Flashへ更新しました。さらに、ツール実行を監視・制御するEnvironment hooks、トークン予算管理、定期実行…",
+      "source_url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/",
+      "source_label": "blog.google",
+      "cover": "assets/posts/1531770337082212452.png",
+      "url": "https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1531770337082212452"
+    },
     {
       "id": "1531687493781557349",
       "title": "OpenAI、学生主導のAI実践プログラムを日本など8カ国で展開",
@@ -62,90 +146,6 @@
       "source_label": "anthropic.com",
       "cover": "assets/posts/1531325763469574185.jpg",
       "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1531325763469574185"
-    },
-    {
-      "id": "1531285424239018146",
-      "title": "Google DeepMind、ロボットAIの3層構造を公開",
-      "channel": "google",
-      "category": "Google",
-      "date": "2026-07-27T13:01:35.046Z",
-      "excerpt": "Google DeepMindは、ロボット向けAI「Gemini Robotics」の新しい製品ページを公開しました。今回示されたのは、物理世界を理解して計画を立てる「Gemini Robotics-ER 1.6」、視覚と言語から動作を生成する「Gemin…",
-      "source_url": "https://deepmind.google/models/gemini-robotics/embodied-reasoning/",
-      "source_label": "deepmind.google",
-      "cover": "assets/posts/1531285424239018146.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1531285424239018146"
-    },
-    {
-      "id": "1531285140091965500",
-      "title": "AIが職務の境界を再編、ChatGPT利用の43.5％が「他職種の仕事」",
-      "channel": "open-ai",
-      "category": "Open AI",
-      "date": "2026-07-27T13:00:27.300Z",
-      "excerpt": "OpenAIは2026年7月27日、生成AIが単なる業務効率化ツールではなく、従業員の担当領域そのものを広げているとする調査結果を発表しました。米国のChatGPTユーザーによる80万件超のメッセージを分析したところ、職種固有の業務に関する利用の43.5％…",
-      "source_url": "https://openai.com/index/how-ai-is-expanding-what-people-do-at-work/",
-      "source_label": "openai.com",
-      "cover": "assets/posts/1531285140091965500.png",
-      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1531285140091965500"
-    },
-    {
-      "id": "1530919004385054911",
-      "title": "Microsoft、画像・音声生成AIの新モデルを発表 品質・速度・コストを用途別に最適化",
-      "channel": "microsoft",
-      "category": "Microsoft",
-      "date": "2026-07-26T12:45:33.745Z",
-      "excerpt": "Microsoft AIは2026年7月23日、画像生成モデル「MAI-Image-2.5-Pro」と音声合成モデル「MAI-Voice-2-Flash」をパブリックプレビューとして公開しました。単一の巨大モデルですべてを処理するのではなく、品質、応答速度…",
-      "source_url": "https://microsoft.ai/news/introducing-mai-image-2-5-pro-and-mai-voice-2-flash/",
-      "source_label": "microsoft.ai",
-      "cover": "assets/posts/1530919004385054911.jpg",
-      "url": "https://discord.com/channels/1415350002255007784/1432720743279497367/threads/1530919004385054911"
-    },
-    {
-      "id": "1530645401948917930",
-      "title": "NVIDIAとSK、75兆円超のAI基盤構想 2GW級AI工場と次世代HBMを共同開発",
-      "channel": "その他",
-      "category": "その他",
-      "date": "2026-07-25T18:38:21.841Z",
-      "excerpt": "NVIDIAと韓国SK Groupは2026年7月24日、AIファクトリー建設と次世代AIメモリーを対象とする、5000億ドル超の包括的提携計画を発表しました。SK Telecomが最大2ギガワット級のAIクラウド基盤を構築し、SK hynixはHBMを含…",
-      "source_url": "https://nvidianews.nvidia.com/news/sk-group-and-nvidia-expand-strategic-partnership-across-ai-factories-and-next-generation-memory?ncid=so-twit-914435",
-      "source_label": "nvidianews.nvidia.com",
-      "cover": "assets/posts/1530645401948917930.jpg",
-      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1530645401948917930"
-    },
-    {
-      "id": "1530313392449912933",
-      "title": "Claude Opus 5登場、日常業務向けAIの性能と費用対効果を刷新",
-      "channel": "claude",
-      "category": "Anthropic",
-      "date": "2026-07-24T20:39:04.608Z",
-      "excerpt": "Anthropicは2026年7月24日、最新AIモデル「Claude Opus 5」を公開しました。コーディングや知識労働、コンピューター操作で高い性能を示しつつ、前世代と同じAPI価格を維持したことが大きな特徴です。Claude Proでは最上位モデル…",
-      "source_url": "https://www.anthropic.com/news/claude-opus-5",
-      "source_label": "anthropic.com",
-      "cover": "assets/posts/1530313392449912933.png",
-      "url": "https://discord.com/channels/1415350002255007784/1415353403269185546/threads/1530313392449912933"
-    },
-    {
-      "id": "1530313268369952919",
-      "title": "Anthropic、AIによる自律ドローン制御を検証",
-      "channel": "anthropic",
-      "category": "Anthropic",
-      "date": "2026-07-24T20:38:35.025Z",
-      "excerpt": "AnthropicとAndon Labsは、AIモデルが飛行ドローンを自律制御し、屋内で特定人物を発見・追跡できるかを調べる「Project Pilot」を発表しました。最新モデルは人物検出と追従で高い性能を示した一方、空間の正確な復元が実運用への最大の壁…",
-      "source_url": "https://www.anthropic.com/research/project-pilot",
-      "source_label": "anthropic.com",
-      "cover": "assets/posts/1530313268369952919.jpg",
-      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1530313268369952919"
-    },
-    {
-      "id": "1530005880005726248",
-      "title": "Claude音声モード刷新、Opus・Sonnetと外部ツールに対応",
-      "channel": "claude",
-      "category": "Anthropic",
-      "date": "2026-07-24T00:17:07.928Z",
-      "excerpt": "Anthropicは2026年7月24日、Claudeの音声モードを強化し、Claude OpusやSonnetなど、チャットで利用できる高性能モデルの活用範囲を拡大したと発表しました。会話の途中でもメールやカレンダーなど、接続済みツールへアクセスできるよ…",
-      "source_url": "https://twitter.com/i/status/2080376096873177300",
-      "source_label": "twitter.com",
-      "cover": "assets/posts/1530005880005726248.jpg",
-      "url": "https://discord.com/channels/1415350002255007784/1415353403269185546/threads/1530005880005726248"
     }
   ]
 }
