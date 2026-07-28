@@ -1,8 +1,20 @@
 {
-  "generated_at": "2026-07-28T12:11:58.789Z",
+  "generated_at": "2026-07-28T14:34:13.833Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1531658394409107607",
+      "title": "Cursor、インド向け低価格プラン「Start」を投入",
+      "channel": "cursor",
+      "category": "その他",
+      "date": "2026-07-28T13:43:38.064Z",
+      "excerpt": "Cursorは2026年7月28日、インドの開発者向け新料金プラン「Cursor Start」を発表しました。月額649インドルピー（税込）で、Grok 4.5やComposer、クラウドエージェントなどを利用でき、UPIによる現地通貨決済にも対応します。",
+      "source_url": "https://cursor.com/ja/blog/cursor-start-india",
+      "source_label": "cursor.com",
+      "cover": "assets/posts/1531658394409107607.png",
+      "url": "https://discord.com/channels/1415350002255007784/1416106151585644636/threads/1531658394409107607"
+    },
     {
       "id": "1531443934599839894",
       "title": "Anthropic、オープンウェイトAIの全面禁止を否定 高性能モデルには一律の安全評価を提言",
@@ -134,18 +146,6 @@
       "source_label": "x.ai",
       "cover": "assets/posts/1530005719737307246.png",
       "url": "https://discord.com/channels/1415350002255007784/1417803120225816596/threads/1530005719737307246"
-    },
-    {
-      "id": "1530003117733838940",
-      "title": "ChatGPTに「Health」登場、医療記録とApple Healthを安全に統合",
-      "channel": "chatgpt",
-      "category": "Open AI",
-      "date": "2026-07-24T00:06:09.351Z",
-      "excerpt": "OpenAIは2026年7月23日、健康情報をChatGPTへ接続できる新機能「Health in ChatGPT」を発表しました。米国の18歳以上を対象に、WebとiOSのFree、Go、Plus、Pro各プランで順次提供します。Apple Health…",
-      "source_url": "https://openai.com/index/health-in-chatgpt/",
-      "source_label": "openai.com",
-      "cover": "assets/posts/1530003117733838940.jpg",
-      "url": "https://discord.com/channels/1415350002255007784/1415353131604377641/threads/1530003117733838940"
     }
   ]
 }
