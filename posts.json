@@ -1,8 +1,20 @@
 {
-  "generated_at": "2026-07-27T23:28:32.152Z",
+  "generated_at": "2026-07-28T03:32:31.152Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1531443934599839894",
+      "title": "Anthropic、オープンウェイトAIの全面禁止を否定 高性能モデルには一律の安全評価を提言",
+      "channel": "anthropic",
+      "category": "Anthropic",
+      "date": "2026-07-27T23:31:26.861Z",
+      "excerpt": "Anthropicのダリオ・アモデイCEOは2026年7月27日、オープンウェイトモデルを一律に禁止する考えを明確に否定しました。同社が問題視しているのは公開方式そのものではなく、権威主義国家による先端AI開発、産業規模のモデル蒸留、サイバー攻撃や生物兵器…",
+      "source_url": "https://www.anthropic.com/news/position-open-weights-models",
+      "source_label": "anthropic.com",
+      "cover": "assets/posts/1531443934599839894.png",
+      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1531443934599839894"
+    },
     {
       "id": "1531327256398401647",
       "title": "NVIDIAらが「Open Secure AI Alliance」設立、AIエージェント防御をオープン技術で共同構築",
@@ -134,18 +146,6 @@
       "source_label": "openai.com",
       "cover": "assets/posts/1530003117733838940.jpg",
       "url": "https://discord.com/channels/1415350002255007784/1415353131604377641/threads/1530003117733838940"
-    },
-    {
-      "id": "1529879869616427118",
-      "title": "FLUX 3発表、画像・動画・音声・ロボット動作を統合する「世界モデル」へ",
-      "channel": "その他",
-      "category": "その他",
-      "date": "2026-07-23T15:56:24.710Z",
-      "excerpt": "Black Forest Labsは2026年7月23日、マルチモーダル基盤モデル「FLUX 3」を発表し、早期アクセスの提供を開始しました。画像生成モデルの延長ではなく、画像・動画・音声を同一アーキテクチャで同時に学習し、現実世界の構造や時間変化、因果関…",
-      "source_url": "https://bfl.ai/blog/flux-3",
-      "source_label": "bfl.ai",
-      "cover": "assets/posts/1529879869616427118.png",
-      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1529879869616427118"
     }
   ]
 }
