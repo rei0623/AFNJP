@@ -1,8 +1,20 @@
 {
-  "generated_at": "2026-07-28T14:34:13.833Z",
+  "generated_at": "2026-07-28T16:49:31.591Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1531687493781557349",
+      "title": "OpenAI、学生主導のAI実践プログラムを日本など8カ国で展開",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-07-28T15:39:15.895Z",
+      "excerpt": "OpenAIは、大学生が学内でChatGPTやCodexの活用を広げる「OpenAI Student Collective」のCampus Lead募集を開始しました。採用された学生は、研修や資金、AIサービスの利用枠を受けながら、ワークショップや開発交流…",
+      "source_url": "https://openai.com/student-collective/",
+      "source_label": "openai.com",
+      "cover": "assets/posts/1531687493781557349.png",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1531687493781557349"
+    },
     {
       "id": "1531658394409107607",
       "title": "Cursor、インド向け低価格プラン「Start」を投入",
@@ -134,18 +146,6 @@
       "source_label": "twitter.com",
       "cover": "assets/posts/1530005880005726248.jpg",
       "url": "https://discord.com/channels/1415350002255007784/1415353403269185546/threads/1530005880005726248"
-    },
-    {
-      "id": "1530005719737307246",
-      "title": "Grok 4.5、Web・X・スマホへ全面展開",
-      "channel": "grok",
-      "category": "Space X",
-      "date": "2026-07-24T00:16:29.717Z",
-      "excerpt": "xAIは2026年7月22日、最新AIモデル「Grok 4.5」をgrok.com、X、iOS、Androidで提供開始したと発表しました。単なるモデル更新ではなく、会話、調査、資料作成までを端末やサービスをまたいで実行できる、統合型AIアシスタントへの進…",
-      "source_url": "https://x.ai/news/grok-4-5-everywhere",
-      "source_label": "x.ai",
-      "cover": "assets/posts/1530005719737307246.png",
-      "url": "https://discord.com/channels/1415350002255007784/1417803120225816596/threads/1530005719737307246"
     }
   ]
 }
