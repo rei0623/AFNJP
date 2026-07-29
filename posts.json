@@ -1,8 +1,32 @@
 {
-  "generated_at": "2026-07-29T06:43:33.714Z",
+  "generated_at": "2026-07-29T09:48:28.361Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1531960675180478484",
+      "title": "画像を書き換えて動画AIの推論力を引き出す「VIPE」",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-07-29T09:44:47.416Z",
+      "excerpt": "Google DeepMindは2026年7月28日、動画モデル向けの新手法「Visual Prompt Engineering（VIPE）」を発表しました。文章による指示を工夫する従来のプロンプトエンジニアリングとは異なり、モデルへ入力する画像そのものを…",
+      "source_url": "https://deepmind.google/research/publications/264392/",
+      "source_label": "deepmind.google",
+      "cover": "assets/posts/1531960675180478484.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1531960675180478484"
+    },
+    {
+      "id": "1531949775484751882",
+      "title": "Grok 4.6は8月7日頃、4.7も数週間後か――巨大モデルを段階投入へ",
+      "channel": "grok",
+      "category": "Space X",
+      "date": "2026-07-29T09:01:28.726Z",
+      "excerpt": "xAIのイーロン・マスク氏は、次期AIモデル「Grok 4.6」を2026年8月7日頃に公開し、その数週間後に「Grok 4.7」を投入する見通しを示しました。投稿によると、両モデルは規模だけでなく、学習後処理や推論効率も大幅に強化されます。ただし、現時点…",
+      "source_url": "https://twitter.com/i/status/2082123925283041545",
+      "source_label": "twitter.com",
+      "cover": null,
+      "url": "https://discord.com/channels/1415350002255007784/1417803120225816596/threads/1531949775484751882"
+    },
     {
       "id": "1531772474633621745",
       "title": "Grokに「Buildモード」登場、1プロンプトでアプリ公開まで自動化",
@@ -122,30 +146,6 @@
       "source_label": "anthropic.com",
       "cover": "assets/posts/1531443934599839894.png",
       "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1531443934599839894"
-    },
-    {
-      "id": "1531327256398401647",
-      "title": "NVIDIAらが「Open Secure AI Alliance」設立、AIエージェント防御をオープン技術で共同構築",
-      "channel": "その他",
-      "category": "その他",
-      "date": "2026-07-27T15:47:48.610Z",
-      "excerpt": "NVIDIAは2026年7月27日、AIの安全性とサイバーセキュリティを強化する「Open Secure AI Alliance」の発足を発表しました。クラウド、セキュリティ、企業ソフトウェア、AI研究などの主要組織が参加し、AIエージェントを安全に運用す…",
-      "source_url": "https://blogs.nvidia.com/blog/open-secure-ai-alliance/?ncid=so-twit-957725",
-      "source_label": "blogs.nvidia.com",
-      "cover": "assets/posts/1531327256398401647.png",
-      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1531327256398401647"
-    },
-    {
-      "id": "1531325763469574185",
-      "title": "AnthropicとCognizant、企業向けClaude導入を世界規模で拡大",
-      "channel": "anthropic",
-      "category": "Anthropic",
-      "date": "2026-07-27T15:41:52.668Z",
-      "excerpt": "Anthropicと大手ITサービス企業Cognizantは2026年7月27日、提携の拡大を発表しました。CognizantはClaudeを顧客向けシステムだけでなく、自社の開発・運用基盤にも組み込み、人材育成から実運用までを包括する企業向けAI導入体制…",
-      "source_url": "https://www.anthropic.com/news/cognizant-anthropic",
-      "source_label": "anthropic.com",
-      "cover": "assets/posts/1531325763469574185.jpg",
-      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1531325763469574185"
     }
   ]
 }
