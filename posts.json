@@ -1,8 +1,44 @@
 {
-  "generated_at": "2026-07-29T15:18:29.824Z",
+  "generated_at": "2026-07-29T17:36:31.943Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1532055723884810371",
+      "title": "Google DeepMind「Lyria 3.5」公開、音質と歌詞制御を強化",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-07-29T16:02:28.793Z",
+      "excerpt": "Google DeepMindは2026年7月29日、テキストから高品質な音楽と歌詞を生成するAIモデル「Lyria 3.5」のモデルカードを公開しました。従来のLyria 2と比べて音声の明瞭度や指示追従性が向上し、制作支援ツールとしての実用性を高めてい…",
+      "source_url": "https://deepmind.google/models/model-cards/lyria-3-5/",
+      "source_label": "deepmind.google",
+      "cover": "assets/posts/1532055723884810371.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1532055723884810371"
+    },
+    {
+      "id": "1532052830096195815",
+      "title": "Gemini Notebookに「対話型アプリ」生成機能、Googleが開発中か",
+      "channel": "リーク情報",
+      "category": "リーク情報",
+      "date": "2026-07-29T15:50:58.860Z",
+      "excerpt": "Googleが、Gemini Notebookに新たな成果物タイプ「App」を追加する準備を進めていることが明らかになりました。ノートブックへ登録した資料を基に、ダッシュボードや学習ツール、簡易ゲームなど、ユーザーが実際に操作できるアプリを生成する機能とみ…",
+      "source_url": "https://www.testingcatalog.com/google-is-working-on-interactive-apps-for-gemini-notebook/",
+      "source_label": "testingcatalog.com",
+      "cover": "assets/posts/1532052830096195815.jpg",
+      "url": "https://discord.com/channels/1415350002255007784/1415534435712897124/threads/1532052830096195815"
+    },
+    {
+      "id": "1532052719874085066",
+      "title": "GeminiがMacの「音声操作」を再設計、Fnキー長押しで文章作成から画像編集まで",
+      "channel": "gemini",
+      "category": "Google",
+      "date": "2026-07-29T15:50:32.581Z",
+      "excerpt": "Googleは2026年7月29日、macOS版Geminiアプリに新たな音声入力機能を追加すると発表しました。ユーザーはFnキーを長押しして自然に話すだけで、文字起こし、文章の編集・要約、画像生成などを、作業中のアプリから離れずに実行できます。",
+      "source_url": "https://blog.google/innovation-and-ai/products/gemini-app/speak-naturally-gemini-app-mac-os/",
+      "source_label": "blog.google",
+      "cover": "assets/posts/1532052719874085066.png",
+      "url": "https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1532052719874085066"
+    },
     {
       "id": "1531960675180478484",
       "title": "画像を書き換えて動画AIの推論力を引き出す「VIPE」",
@@ -110,42 +146,6 @@
       "source_label": "blog.google",
       "cover": "assets/posts/1531770337082212452.png",
       "url": "https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1531770337082212452"
-    },
-    {
-      "id": "1531687493781557349",
-      "title": "OpenAI、学生主導のAI実践プログラムを日本など8カ国で展開",
-      "channel": "open-ai",
-      "category": "Open AI",
-      "date": "2026-07-28T15:39:15.895Z",
-      "excerpt": "OpenAIは、大学生が学内でChatGPTやCodexの活用を広げる「OpenAI Student Collective」のCampus Lead募集を開始しました。採用された学生は、研修や資金、AIサービスの利用枠を受けながら、ワークショップや開発交流…",
-      "source_url": "https://openai.com/student-collective/",
-      "source_label": "openai.com",
-      "cover": "assets/posts/1531687493781557349.png",
-      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1531687493781557349"
-    },
-    {
-      "id": "1531658394409107607",
-      "title": "Cursor、インド向け低価格プラン「Start」を投入",
-      "channel": "cursor",
-      "category": "その他",
-      "date": "2026-07-28T13:43:38.064Z",
-      "excerpt": "Cursorは2026年7月28日、インドの開発者向け新料金プラン「Cursor Start」を発表しました。月額649インドルピー（税込）で、Grok 4.5やComposer、クラウドエージェントなどを利用でき、UPIによる現地通貨決済にも対応します。",
-      "source_url": "https://cursor.com/ja/blog/cursor-start-india",
-      "source_label": "cursor.com",
-      "cover": "assets/posts/1531658394409107607.png",
-      "url": "https://discord.com/channels/1415350002255007784/1416106151585644636/threads/1531658394409107607"
-    },
-    {
-      "id": "1531443934599839894",
-      "title": "Anthropic、オープンウェイトAIの全面禁止を否定 高性能モデルには一律の安全評価を提言",
-      "channel": "anthropic",
-      "category": "Anthropic",
-      "date": "2026-07-27T23:31:26.861Z",
-      "excerpt": "Anthropicのダリオ・アモデイCEOは2026年7月27日、オープンウェイトモデルを一律に禁止する考えを明確に否定しました。同社が問題視しているのは公開方式そのものではなく、権威主義国家による先端AI開発、産業規模のモデル蒸留、サイバー攻撃や生物兵器…",
-      "source_url": "https://www.anthropic.com/news/position-open-weights-models",
-      "source_label": "anthropic.com",
-      "cover": "assets/posts/1531443934599839894.png",
-      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1531443934599839894"
     }
   ]
 }
