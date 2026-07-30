@@ -1,8 +1,68 @@
 {
-  "generated_at": "2026-07-30T14:29:44.737Z",
+  "generated_at": "2026-07-30T16:47:07.422Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1532425907191414916",
+      "title": "OpenClaw、LTSへの布石となる「Extended-Stable」を導入",
+      "channel": "open-claw",
+      "category": "その他",
+      "date": "2026-07-30T16:33:27.371Z",
+      "excerpt": "OpenClawは、重要な業務で利用する企業や開発者に向け、長期間の安定運用を重視した新リリースチャネル「extended-stable」と、各機能の成熟度を公開する「Maturity Scorecard」を発表しました。正式なLTS（長期サポート）提供に…",
+      "source_url": "https://openclaw.ai/blog/extended-stable-releases-and-maturity-scorecards",
+      "source_label": "openclaw.ai",
+      "cover": "assets/posts/1532425907191414916.png",
+      "url": "https://discord.com/channels/1415350002255007784/1469665728721588320/threads/1532425907191414916"
+    },
+    {
+      "id": "1532415799069773924",
+      "title": "ElevenLabs、原稿からAI音声書籍を一気通貫で制作・配信",
+      "channel": "eleven-labs",
+      "category": "その他",
+      "date": "2026-07-30T15:53:17.407Z",
+      "excerpt": "ElevenLabsは、原稿のアップロードからAIナレーションの生成、編集、配信、分析までを単一環境で扱えるオーディオブック制作基盤を展開しています。従来は数週間から数カ月を要した収録工程を大幅に短縮し、出版社だけでなく個人著者にも音声出版を開放するサービ…",
+      "source_url": "https://elevenlabs.io/audiobooks",
+      "source_label": "elevenlabs.io",
+      "cover": "assets/posts/1532415799069773924.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1441006356399259719/threads/1532415799069773924"
+    },
+    {
+      "id": "1532407041522532352",
+      "title": "Google Earthに「Nano Banana 2」統合、現実の地形を基に未来や歴史を画像生成",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-07-30T15:18:29.445Z",
+      "excerpt": "Googleは2026年7月30日、Google EarthのWeb版に画像生成モデル「Nano Banana 2」を統合したと発表しました。衛星写真、航空写真、3D地形を土台に、自然言語の指示だけで、過去の街並みや建築計画、未来都市などを視覚化できます。…",
+      "source_url": "https://blog.google/products-and-platforms/products/earth/nano-banana-google-earth-image-generation/?utm_source=tw&utm_medium=social&utm_campaign=og",
+      "source_label": "blog.google",
+      "cover": "assets/posts/1532407041522532352.png",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1532407041522532352"
+    },
+    {
+      "id": "1532406814069494011",
+      "title": "Cursor、クラウドエージェントがPRの半数超を作成する開発環境を公開",
+      "channel": "cursor",
+      "category": "その他",
+      "date": "2026-07-30T15:17:35.216Z",
+      "excerpt": "Cursorは2026年7月30日、クラウド上で動くAIコーディングエージェントを自社の大規模モノレポへ導入するために構築した開発環境の仕組みを明らかにしました。現在、同社でマージされるPRの半数以上をクラウドエージェントが作成しており、AIの性能だけでな…",
+      "source_url": "https://cursor.com/ja/blog/cloud-agent-environment",
+      "source_label": "cursor.com",
+      "cover": "assets/posts/1532406814069494011.png",
+      "url": "https://discord.com/channels/1415350002255007784/1416106151585644636/threads/1532406814069494011"
+    },
+    {
+      "id": "1532405072439410878",
+      "title": "Google「Gemini Robotics ER 2」発表、ロボットにリアルタイム判断と協調能力",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-07-30T15:10:39.979Z",
+      "excerpt": "Google DeepMindは2026年7月30日、ロボット向けの具現化推論モデル「Gemini Robotics ER 2」を発表しました。映像を継続的に理解しながら作業を計画・監視し、失敗時には修正するほか、複数の異なるロボットを連携させられる点が大…",
+      "source_url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/gemini-robotics-er-2/",
+      "source_label": "blog.google",
+      "cover": "assets/posts/1532405072439410878.png",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1532405072439410878"
+    },
     {
       "id": "1532169338046517248",
       "title": "Perplexity、AIエージェント監視基盤「Numbat」を公開",
@@ -86,66 +146,6 @@
       "source_label": "openai.com",
       "cover": "assets/posts/1532168713191559369.png",
       "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1532168713191559369"
-    },
-    {
-      "id": "1532168609173082303",
-      "title": "OpenAI、研究者10万人に最先端AIを無償提供へ",
-      "channel": "open-ai",
-      "category": "Open AI",
-      "date": "2026-07-29T23:31:02.743Z",
-      "excerpt": "OpenAIは2026年7月29日、科学・数学・工学分野の研究者を対象とする「ChatGPT for Academic Researchers」を発表しました。選定された大学・研究機関の研究者に最先端モデルやCodex、研究支援機能を無償提供し、2027年…",
-      "source_url": "https://openai.com/index/chatgpt-for-academic-researchers/",
-      "source_label": "openai.com",
-      "cover": "assets/posts/1532168609173082303.png",
-      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1532168609173082303"
-    },
-    {
-      "id": "1532055723884810371",
-      "title": "Google DeepMind「Lyria 3.5」公開、音質と歌詞制御を強化",
-      "channel": "google",
-      "category": "Google",
-      "date": "2026-07-29T16:02:28.793Z",
-      "excerpt": "Google DeepMindは2026年7月29日、テキストから高品質な音楽と歌詞を生成するAIモデル「Lyria 3.5」のモデルカードを公開しました。従来のLyria 2と比べて音声の明瞭度や指示追従性が向上し、制作支援ツールとしての実用性を高めてい…",
-      "source_url": "https://deepmind.google/models/model-cards/lyria-3-5/",
-      "source_label": "deepmind.google",
-      "cover": "assets/posts/1532055723884810371.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1532055723884810371"
-    },
-    {
-      "id": "1532052830096195815",
-      "title": "Gemini Notebookに「対話型アプリ」生成機能、Googleが開発中か",
-      "channel": "リーク情報",
-      "category": "リーク情報",
-      "date": "2026-07-29T15:50:58.860Z",
-      "excerpt": "Googleが、Gemini Notebookに新たな成果物タイプ「App」を追加する準備を進めていることが明らかになりました。ノートブックへ登録した資料を基に、ダッシュボードや学習ツール、簡易ゲームなど、ユーザーが実際に操作できるアプリを生成する機能とみ…",
-      "source_url": "https://www.testingcatalog.com/google-is-working-on-interactive-apps-for-gemini-notebook/",
-      "source_label": "testingcatalog.com",
-      "cover": "assets/posts/1532052830096195815.jpg",
-      "url": "https://discord.com/channels/1415350002255007784/1415534435712897124/threads/1532052830096195815"
-    },
-    {
-      "id": "1532052719874085066",
-      "title": "GeminiがMacの「音声操作」を再設計、Fnキー長押しで文章作成から画像編集まで",
-      "channel": "gemini",
-      "category": "Google",
-      "date": "2026-07-29T15:50:32.581Z",
-      "excerpt": "Googleは2026年7月29日、macOS版Geminiアプリに新たな音声入力機能を追加すると発表しました。ユーザーはFnキーを長押しして自然に話すだけで、文字起こし、文章の編集・要約、画像生成などを、作業中のアプリから離れずに実行できます。",
-      "source_url": "https://blog.google/innovation-and-ai/products/gemini-app/speak-naturally-gemini-app-mac-os/",
-      "source_label": "blog.google",
-      "cover": "assets/posts/1532052719874085066.png",
-      "url": "https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1532052719874085066"
-    },
-    {
-      "id": "1531960675180478484",
-      "title": "画像を書き換えて動画AIの推論力を引き出す「VIPE」",
-      "channel": "google",
-      "category": "Google",
-      "date": "2026-07-29T09:44:47.416Z",
-      "excerpt": "Google DeepMindは2026年7月28日、動画モデル向けの新手法「Visual Prompt Engineering（VIPE）」を発表しました。文章による指示を工夫する従来のプロンプトエンジニアリングとは異なり、モデルへ入力する画像そのものを…",
-      "source_url": "https://deepmind.google/research/publications/264392/",
-      "source_label": "deepmind.google",
-      "cover": "assets/posts/1531960675180478484.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1531960675180478484"
     }
   ]
 }
