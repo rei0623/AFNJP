@@ -1,8 +1,104 @@
 {
-  "generated_at": "2026-07-29T23:12:36.754Z",
+  "generated_at": "2026-07-30T00:09:22.722Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1532169338046517248",
+      "title": "Perplexity、AIエージェント監視基盤「Numbat」を公開",
+      "channel": "perplexity",
+      "category": "その他",
+      "date": "2026-07-29T23:33:56.520Z",
+      "excerpt": "Perplexityは、PC上で動くAIエージェントの危険な挙動を検知・阻止・調査するオープンソースのセキュリティスイート「Numbat」を公開しました。macOS、Linux、Windowsに対応し、Claude Code、Codex、OpenCode、…",
+      "source_url": "https://research.perplexity.ai/articles/securing-agents-across-perplexity%E2%80%99s-client-endpoints-with-numbat",
+      "source_label": "research.perplexity.ai",
+      "cover": "assets/posts/1532169338046517248.jpg",
+      "url": "https://discord.com/channels/1415350002255007784/1417545518539739166/threads/1532169338046517248"
+    },
+    {
+      "id": "1532169230735118577",
+      "title": "Codex CLI 0.146.0公開、スレッド管理とプラグイン連携を大幅強化",
+      "channel": "codex",
+      "category": "Open AI",
+      "date": "2026-07-29T23:33:30.935Z",
+      "excerpt": "OpenAIは2026年7月29日、開発支援エージェント「Codex CLI 0.146.0」を公開しました。新バージョンでは、複数の作業スレッドを整理する機能や、Agent Pluginsへの対応、遠隔実行環境とのWebSocket接続などが追加されてい…",
+      "source_url": "https://learn.chatgpt.com/docs/changelog",
+      "source_label": "learn.chatgpt.com",
+      "cover": "assets/posts/1532169230735118577.png",
+      "url": "https://discord.com/channels/1415350002255007784/1415355102939578490/threads/1532169230735118577"
+    },
+    {
+      "id": "1532169126125240431",
+      "title": "xAI、低遅延音声AI「Grok Voice Think Fast 2.0」を発表",
+      "channel": "grok",
+      "category": "Space X",
+      "date": "2026-07-29T23:33:05.994Z",
+      "excerpt": "xAIは2026年7月29日、次世代の音声対話モデル「Grok Voice Think Fast 2.0」を発表しました。推論能力、文字起こし精度、会話性能、ツール実行の信頼性を強化し、音声入力から音声出力までを直接処理するリアルタイムAIエージェントとし…",
+      "source_url": "https://x.ai/news/grok-voice-think-fast-2",
+      "source_label": "x.ai",
+      "cover": "assets/posts/1532169126125240431.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417803120225816596/threads/1532169126125240431"
+    },
+    {
+      "id": "1532169023238701179",
+      "title": "Microsoft AI、巨大モデル偏重から「成果当たりコスト」競争へ",
+      "channel": "microsoft",
+      "category": "Microsoft",
+      "date": "2026-07-29T23:32:41.464Z",
+      "excerpt": "Microsoft AIは、AI開発の競争軸をモデル単体の最大性能から、トークン・GPUコストに対して実利用でどれだけ高い成果を得られるかへ移す方針を示しました。製品別にモデル、実行基盤、強化学習環境を共同最適化し、難易度に応じて複数モデルを使い分ける戦略…",
+      "source_url": "https://microsoft.ai/news/optimizing-the-frontier-performance-curve/",
+      "source_label": "microsoft.ai",
+      "cover": "assets/posts/1532169023238701179.png",
+      "url": "https://discord.com/channels/1415350002255007784/1432720743279497367/threads/1532169023238701179"
+    },
+    {
+      "id": "1532168921053138995",
+      "title": "AI性能はモデルだけで決まらない、2設定でARC-AGI-3スコアが約3倍に",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-07-29T23:32:17.101Z",
+      "excerpt": "OpenAIは、AIエージェント向けベンチマーク「ARC-AGI-3」において、推論履歴の保持とコンテキスト圧縮という2つの設定を有効化した結果、GPT-5.6 Solのスコアが13.3％から38.3％へ上昇し、出力トークンも約6分の1に減少したと報告しま…",
+      "source_url": "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores/",
+      "source_label": "openai.com",
+      "cover": "assets/posts/1532168921053138995.png",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1532168921053138995"
+    },
+    {
+      "id": "1532168815817785407",
+      "title": "OpenAI、広告クレジット利用規約を公開",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-07-29T23:31:52.011Z",
+      "excerpt": "OpenAIは2026年7月29日、広告サービス向けのプロモーション残高「Ad Credit」に関する利用規約を公開しました。クレジットの適用条件、有効期限、譲渡禁止、失効・取消しの扱いを明文化し、広告主が負担すべき費用やリスクの範囲を整理しています。",
+      "source_url": "https://openai.com/policies/ad-credit-terms/",
+      "source_label": "openai.com",
+      "cover": "assets/posts/1532168815817785407.png",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1532168815817785407"
+    },
+    {
+      "id": "1532168713191559369",
+      "title": "GPT-5.6、自ら推論基盤を最適化 性能とコスト効率を同時追求",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-07-29T23:31:27.543Z",
+      "excerpt": "OpenAIは2026年7月29日、GPT-5.6モデル群の効率化技術を公開しました。最上位モデル「GPT-5.6 Sol」は、高度な推論を提供するだけでなく、推論基盤のコードや運用設定を自律的に改善し、モデル提供コストの削減にも貢献しています。",
+      "source_url": "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency/",
+      "source_label": "openai.com",
+      "cover": "assets/posts/1532168713191559369.png",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1532168713191559369"
+    },
+    {
+      "id": "1532168609173082303",
+      "title": "OpenAI、研究者10万人に最先端AIを無償提供へ",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-07-29T23:31:02.743Z",
+      "excerpt": "OpenAIは2026年7月29日、科学・数学・工学分野の研究者を対象とする「ChatGPT for Academic Researchers」を発表しました。選定された大学・研究機関の研究者に最先端モデルやCodex、研究支援機能を無償提供し、2027年…",
+      "source_url": "https://openai.com/index/chatgpt-for-academic-researchers/",
+      "source_label": "openai.com",
+      "cover": "assets/posts/1532168609173082303.png",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1532168609173082303"
+    },
     {
       "id": "1532055723884810371",
       "title": "Google DeepMind「Lyria 3.5」公開、音質と歌詞制御を強化",
@@ -50,102 +146,6 @@
       "source_label": "deepmind.google",
       "cover": "assets/posts/1531960675180478484.webp",
       "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1531960675180478484"
-    },
-    {
-      "id": "1531949775484751882",
-      "title": "Grok 4.6は8月7日頃、4.7も数週間後か――巨大モデルを段階投入へ",
-      "channel": "grok",
-      "category": "Space X",
-      "date": "2026-07-29T09:01:28.726Z",
-      "excerpt": "xAIのイーロン・マスク氏は、次期AIモデル「Grok 4.6」を2026年8月7日頃に公開し、その数週間後に「Grok 4.7」を投入する見通しを示しました。投稿によると、両モデルは規模だけでなく、学習後処理や推論効率も大幅に強化されます。ただし、現時点…",
-      "source_url": "https://twitter.com/i/status/2082123925283041545",
-      "source_label": "twitter.com",
-      "cover": null,
-      "url": "https://discord.com/channels/1415350002255007784/1417803120225816596/threads/1531949775484751882"
-    },
-    {
-      "id": "1531772474633621745",
-      "title": "Grokに「Buildモード」登場、1プロンプトでアプリ公開まで自動化",
-      "channel": "grok",
-      "category": "Space X",
-      "date": "2026-07-28T21:16:56.909Z",
-      "excerpt": "xAIのGrokに、新たな「Buildモード」が導入されました。GrokのWeb版、iOS版、Android版から、自然言語による指示だけでアプリ、ダッシュボード、ゲームを生成し、独自ドメインを持つプロダクトとして公開できる機能です。記事作成時点では、Su…",
-      "source_url": "https://twitter.com/i/status/2082134072793637196",
-      "source_label": "twitter.com",
-      "cover": "assets/posts/1531772474633621745.png",
-      "url": "https://discord.com/channels/1415350002255007784/1417803120225816596/threads/1531772474633621745"
-    },
-    {
-      "id": "1531772318437736598",
-      "title": "Fish Audio、約5200万ドル調達 音声AI「S2.1 Pro」を一般公開",
-      "channel": "その他",
-      "category": "その他",
-      "date": "2026-07-28T21:16:19.669Z",
-      "excerpt": "音声生成AIを開発するFish Audioは、5200万ドルのシード資金調達と、最新の音声合成モデル「S2.1 Pro」の一般公開を発表しました。同社は、わずか5秒の音声から声を再現できることに加え、高速性、低コスト、単語単位の感情制御を強みとして掲げてい…",
-      "source_url": "https://twitter.com/i/status/2082152596739862853",
-      "source_label": "twitter.com",
-      "cover": "assets/posts/1531772318437736598.png",
-      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1531772318437736598"
-    },
-    {
-      "id": "1531772215006068866",
-      "title": "Claudeが「MCP 2026-07-28」対応へ、AI連携基盤をステートレス化",
-      "channel": "claude",
-      "category": "Anthropic",
-      "date": "2026-07-28T21:15:55.009Z",
-      "excerpt": "Anthropicは2026年7月28日、Model Context Protocol（MCP）の第5版となる「MCP 2026-07-28」への対応をClaude製品群で順次開始すると発表しました。新仕様の柱は、通信コアのステートレス化、拡張機能の標準化…",
-      "source_url": "https://claude.com/blog/bringing-mcp-2026-07-28-to-claude",
-      "source_label": "claude.com",
-      "cover": "assets/posts/1531772215006068866.jpg",
-      "url": "https://discord.com/channels/1415350002255007784/1415353403269185546/threads/1531772215006068866"
-    },
-    {
-      "id": "1531770731396993204",
-      "title": "Claudeが暗号アルゴリズムの弱点を発見、HAWKと縮小版AESの攻撃を大幅改善",
-      "channel": "anthropic",
-      "category": "Anthropic",
-      "date": "2026-07-28T21:10:01.289Z",
-      "excerpt": "Anthropicは2026年7月28日、研究用モデル「Claude Mythos Preview」が、暗号ソフトウェアの実装ミスではなく、暗号アルゴリズムそのものに対する新しい攻撃手法を発見したと発表しました。対象は耐量子デジタル署名候補「HAWK」と、…",
-      "source_url": "https://www.anthropic.com/research/discovering-cryptographic-weaknesses",
-      "source_label": "anthropic.com",
-      "cover": "assets/posts/1531770731396993204.png",
-      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1531770731396993204"
-    },
-    {
-      "id": "1531770604523491571",
-      "title": "AIエージェントが科学計算を再設計、実装から「検証・統率」へ",
-      "channel": "open-ai",
-      "category": "Open AI",
-      "date": "2026-07-28T21:09:31.040Z",
-      "excerpt": "OpenAIは2026年7月28日、コーディングエージェントが科学ソフトウェア開発をどのように変えつつあるかをまとめたフィールドレポートを公開しました。生命科学を中心とする8件のプロジェクトでは、保守作業から言語移行、GPU向け再設計までをAIが支援してい…",
-      "source_url": "https://openai.com/index/scientific-computing-agentic-ai/",
-      "source_label": "openai.com",
-      "cover": "assets/posts/1531770604523491571.png",
-      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1531770604523491571"
-    },
-    {
-      "id": "1531770486911008950",
-      "title": "Gemini 3.6 Flashが酪農経営を自動化、複数AIエージェントが収益性を毎日分析",
-      "channel": "google",
-      "category": "Google",
-      "date": "2026-07-28T21:09:02.999Z",
-      "excerpt": "Googleは、米ミシガン州の酪農家が「Gemini 3.6 Flash」を使い、農場内に分散したデータの統合と経営分析を自動化した事例を公開しました。センサー、搾乳ロボット、飼料記録、請求書などを複数のAIエージェントが処理し、従来は数時間かかっていた表…",
-      "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/using-gemini-to-manage-farm/",
-      "source_label": "blog.google",
-      "cover": "assets/posts/1531770486911008950.png",
-      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1531770486911008950"
-    },
-    {
-      "id": "1531770337082212452",
-      "title": "Gemini API「Managed Agents」が進化、3.6 Flashと実行フックで本番運用へ",
-      "channel": "gemini",
-      "category": "Google",
-      "date": "2026-07-28T21:08:27.277Z",
-      "excerpt": "Googleは2026年7月28日、Gemini APIの「Managed Agents」を拡張し、標準モデルをGemini 3.6 Flashへ更新しました。さらに、ツール実行を監視・制御するEnvironment hooks、トークン予算管理、定期実行…",
-      "source_url": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api-3-6-flash-hooks/",
-      "source_label": "blog.google",
-      "cover": "assets/posts/1531770337082212452.png",
-      "url": "https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1531770337082212452"
     }
   ]
 }
