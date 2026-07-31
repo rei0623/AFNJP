@@ -1,8 +1,44 @@
 {
-  "generated_at": "2026-07-31T03:49:40.279Z",
+  "generated_at": "2026-07-31T07:12:25.723Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1532600286315544657",
+      "title": "avatarin、GPT-Realtimeで24時間対応の家電販売AIを実現",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-07-31T04:06:22.594Z",
+      "excerpt": "OpenAIは2026年7月30日、avatarinがGPT-Realtimeを活用し、ヤマダデンキ向けの対話型接客サービス「くらしまるごとAIエージェント」を構築した事例を公開しました。2週間の一般公開では約3万人が利用し、利用後アンケートの92％が肯定…",
+      "source_url": "https://openai.com/index/avatarin/",
+      "source_label": "openai.com",
+      "cover": "assets/posts/1532600286315544657.png",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1532600286315544657"
+    },
+    {
+      "id": "1532599458427047976",
+      "title": "ChatGPTデスクトップ版が大型更新、ブラウザ・コードレビュー・画像編集を強化",
+      "channel": "chatgpt",
+      "category": "Open AI",
+      "date": "2026-07-31T04:03:05.210Z",
+      "excerpt": "OpenAIは2026年7月30日、ChatGPTデスクトップアプリのアップデート「26.727」を公開しました。ブラウジング履歴を活用した情報探索、複数リポジトリを横断するコードレビュー、生成画像への部分修正指示など、調査から開発、クリエイティブ作業まで…",
+      "source_url": "https://learn.chatgpt.com/docs/changelog",
+      "source_label": "learn.chatgpt.com",
+      "cover": "assets/posts/1532599458427047976.png",
+      "url": "https://discord.com/channels/1415350002255007784/1415353131604377641/threads/1532599458427047976"
+    },
+    {
+      "id": "1532599084085416087",
+      "title": "MiniMax H3、2K動画生成APIを刷新 画像・映像・音声を統合入力",
+      "channel": "minimax",
+      "category": "その他",
+      "date": "2026-07-31T04:01:35.960Z",
+      "excerpt": "MiniMaxは、汎用マルチモーダル動画モデル「MiniMax H3」を利用する動画生成APIの開発者向けガイドを公開しています。テキストだけでなく、画像、動画、音声を統一形式で入力でき、2K解像度・5～15秒の動画生成や、参照素材を使った人物・動作・映像…",
+      "source_url": "https://platform.minimax.io/docs/guides/video-generation",
+      "source_label": "platform.minimax.io",
+      "cover": "assets/posts/1532599084085416087.png",
+      "url": "https://discord.com/channels/1415350002255007784/1471542643900158023/threads/1532599084085416087"
+    },
     {
       "id": "1532531009629716490",
       "title": "12B稼働で大型モデル級、Thinking Machines Labが「Inkling-Small」公開",
@@ -110,42 +146,6 @@
       "source_label": "blog.google",
       "cover": "assets/posts/1532405072439410878.png",
       "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1532405072439410878"
-    },
-    {
-      "id": "1532169338046517248",
-      "title": "Perplexity、AIエージェント監視基盤「Numbat」を公開",
-      "channel": "perplexity",
-      "category": "その他",
-      "date": "2026-07-29T23:33:56.520Z",
-      "excerpt": "Perplexityは、PC上で動くAIエージェントの危険な挙動を検知・阻止・調査するオープンソースのセキュリティスイート「Numbat」を公開しました。macOS、Linux、Windowsに対応し、Claude Code、Codex、OpenCode、…",
-      "source_url": "https://research.perplexity.ai/articles/securing-agents-across-perplexity%E2%80%99s-client-endpoints-with-numbat",
-      "source_label": "research.perplexity.ai",
-      "cover": "assets/posts/1532169338046517248.jpg",
-      "url": "https://discord.com/channels/1415350002255007784/1417545518539739166/threads/1532169338046517248"
-    },
-    {
-      "id": "1532169230735118577",
-      "title": "Codex CLI 0.146.0公開、スレッド管理とプラグイン連携を大幅強化",
-      "channel": "codex",
-      "category": "Open AI",
-      "date": "2026-07-29T23:33:30.935Z",
-      "excerpt": "OpenAIは2026年7月29日、開発支援エージェント「Codex CLI 0.146.0」を公開しました。新バージョンでは、複数の作業スレッドを整理する機能や、Agent Pluginsへの対応、遠隔実行環境とのWebSocket接続などが追加されてい…",
-      "source_url": "https://learn.chatgpt.com/docs/changelog",
-      "source_label": "learn.chatgpt.com",
-      "cover": "assets/posts/1532169230735118577.png",
-      "url": "https://discord.com/channels/1415350002255007784/1415355102939578490/threads/1532169230735118577"
-    },
-    {
-      "id": "1532169126125240431",
-      "title": "xAI、低遅延音声AI「Grok Voice Think Fast 2.0」を発表",
-      "channel": "grok",
-      "category": "Space X",
-      "date": "2026-07-29T23:33:05.994Z",
-      "excerpt": "xAIは2026年7月29日、次世代の音声対話モデル「Grok Voice Think Fast 2.0」を発表しました。推論能力、文字起こし精度、会話性能、ツール実行の信頼性を強化し、音声入力から音声出力までを直接処理するリアルタイムAIエージェントとし…",
-      "source_url": "https://x.ai/news/grok-voice-think-fast-2",
-      "source_label": "x.ai",
-      "cover": "assets/posts/1532169126125240431.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1417803120225816596/threads/1532169126125240431"
     }
   ]
 }

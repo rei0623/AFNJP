@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T03:49:35.351Z",
+  "generated_at": "2026-07-31T07:12:18.148Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "count": 59,
@@ -45,7 +45,7 @@
         "jules",
         "firebase",
         "google-ai-studio",
-        "notebook-lm",
+        "gemini-notebook",
         "google-labs",
         "stitch"
       ]
