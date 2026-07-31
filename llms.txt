@@ -1,0 +1,22 @@
+# AI Frontier News JP (AFNJP)
+
+> 海外のAIニュースを、公式発表・リリースノートなどの一次情報を直接確認したうえで、出典リンク付きの日本語記事として毎日配信しているDiscordコミュニティの公式サイト。
+
+## 概要
+
+- サイト: https://rei0623.github.io/AFNJP/
+- Discord サーバー参加(無料): https://discord.gg/B3eJAX6mnN
+- X (Twitter): https://x.com/AI_FrontierNews
+- 対象領域: OpenAI / Anthropic / Google / Meta / Microsoft / xAI / Alibaba ほか主要AI企業の公式発表、モデルリリース、開発者ツール
+- 記事の特徴: 一次情報の直接確認・出典リンク付き・日本語
+
+## 機械可読データ
+
+- 最新記事一覧 (JSON): https://rei0623.github.io/AFNJP/posts.json
+  - フィールド: id, title, channel, category, date (ISO 8601), excerpt, source_url (一次情報URL), source_label, cover, url (Discordスレッド)
+- チャンネル構成 (JSON): https://rei0623.github.io/AFNJP/channels.json
+- どちらも Discord API から毎時自動更新される。
+
+## 注記
+
+このファイルは実験的・補助的な案内であり、正確な最新情報は上記 JSON とサイト本体を参照のこと。
