@@ -4,20 +4,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI Frontier News JP | 世界のAIニュースを、一次情報から日本語で</title>
+    <title>AI Frontier News JP | AIニュースを一次情報から日本語で届けるDiscordコミュニティ</title>
     <meta name="description"
         content="海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。参加無料。">
     <meta name="theme-color" content="#ffffff">
     <meta property="og:type" content="website">
     <meta property="og:site_name" content="AI Frontier News JP">
-    <meta property="og:title" content="AI Frontier News JP | 世界のAIニュースを、一次情報から日本語で">
+    <meta property="og:title" content="AI Frontier News JP | AIニュースを一次情報から日本語で届けるDiscordコミュニティ">
     <meta property="og:description" content="公式発表を直接確認して、出典リンク付きで日本語記事にしているDiscordコミュニティ。参加無料。">
     <meta property="og:url" content="https://rei0623.github.io/AFNJP/">
     <meta property="og:image" content="https://rei0623.github.io/AFNJP/AFNJP.jpg">
     <meta property="og:locale" content="ja_JP">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@AI_FrontierNews">
-    <meta name="twitter:title" content="AI Frontier News JP | 世界のAIニュースを、一次情報から日本語で">
+    <meta name="twitter:title" content="AI Frontier News JP | AIニュースを一次情報から日本語で届けるDiscordコミュニティ">
     <meta name="twitter:description" content="公式発表を直接確認して、出典リンク付きで日本語記事にしているDiscordコミュニティ。参加無料。">
     <meta name="twitter:image" content="https://rei0623.github.io/AFNJP/AFNJP.jpg">
     <link rel="canonical" href="https://rei0623.github.io/AFNJP/">
@@ -1568,6 +1568,36 @@
                 transform: scaleX(1) !important;
             }
         }
+
+        /* ═ FAQ ═ */
+        .faq-list {
+            border-top: 1px solid var(--line);
+        }
+
+        .faq-item {
+            padding: 22px 0;
+            border-bottom: 1px solid var(--line);
+        }
+
+        .faq-item h3 {
+            font-size: 1.02rem;
+            font-weight: 700;
+            margin-bottom: 8px;
+        }
+
+        .faq-item h3::before {
+            content: "Q";
+            font-family: var(--f-mono);
+            color: var(--shu);
+            margin-right: 10px;
+        }
+
+        .faq-item p {
+            color: var(--ink-2);
+            font-size: .95rem;
+            line-height: 1.9;
+            max-width: 720px;
+        }
     </style>
 </head>
 
@@ -1902,10 +1932,38 @@
                 <div class="groups rv" id="groups"></div>
             </section>
 
-            <!-- ════ 06 参加方法 ════ -->
-            <section class="sec" id="join">
+            <!-- ════ 06 よくある質問 ════ -->
+            <section class="sec" id="faq">
                 <div class="sec-tag rv">
                     <span class="node"></span><span class="no">06</span>
+                    <span class="ln"></span><span class="en">FAQ</span>
+                </div>
+                <h2 class="rv">よくある質問</h2>
+
+                <div class="faq-list rv">
+                    <div class="faq-item">
+                        <h3>どのようなAIニュースを読めますか？</h3>
+                        <p>OpenAI・Anthropic・Google・Microsoft など主要AI企業の公式発表やモデルリリースを中心に、海外のAIニュースを日本語で読めます。記事には確認した一次情報への出典リンクが付きます。</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>記事はどのように作られていますか？</h3>
+                        <p>管理人が公式発表やリリースノートなどの一次情報を直接確認し、出典リンク付きの日本語記事として投稿しています。</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>参加は無料ですか？</h3>
+                        <p>無料です。登録費用も審査もなく、Discordアカウントがあれば30秒で参加できます。読むだけの参加も歓迎です。</p>
+                    </div>
+                    <div class="faq-item">
+                        <h3>興味のある話題だけ追えますか？</h3>
+                        <p>企業別・モデル別にチャンネルが分かれているので、興味のある部屋だけ通知をONにして読めます。</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- ════ 07 参加方法 ════ -->
+            <section class="sec" id="join">
+                <div class="sec-tag rv">
+                    <span class="node"></span><span class="no">07</span>
                     <span class="ln"></span><span class="en">How to join</span>
                 </div>
                 <h2 class="rv">30秒で参加できます。</h2>
