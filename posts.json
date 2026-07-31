@@ -1,8 +1,20 @@
 {
-  "generated_at": "2026-07-31T12:14:46.714Z",
+  "generated_at": "2026-07-31T14:35:19.910Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1532725175907385364",
+      "title": "Dreamina Seedance 2.5公開、最長3分のAI動画生成と制作ツール連携を強化",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-07-31T12:22:38.593Z",
+      "excerpt": "Dreamina AIは、動画生成モデル「Dreamina Seedance 2.5」の提供開始を発表しました。単一生成で30秒の映像を作れるほか、最長3分の長尺モード、フレーム内の部分編集、Maya・Blender連携などを搭載し、AI動画を試作ツールか…",
+      "source_url": "https://twitter.com/i/status/2083056471147958714",
+      "source_label": "twitter.com",
+      "cover": "assets/posts/1532725175907385364.png",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1532725175907385364"
+    },
     {
       "id": "1532681450321739936",
       "title": "DeepSeek-V4-Flash公式API公開、エージェント性能を大幅強化",
@@ -134,18 +146,6 @@
       "source_label": "openclaw.ai",
       "cover": "assets/posts/1532425907191414916.png",
       "url": "https://discord.com/channels/1415350002255007784/1469665728721588320/threads/1532425907191414916"
-    },
-    {
-      "id": "1532415799069773924",
-      "title": "ElevenLabs、原稿からAI音声書籍を一気通貫で制作・配信",
-      "channel": "eleven-labs",
-      "category": "その他",
-      "date": "2026-07-30T15:53:17.407Z",
-      "excerpt": "ElevenLabsは、原稿のアップロードからAIナレーションの生成、編集、配信、分析までを単一環境で扱えるオーディオブック制作基盤を展開しています。従来は数週間から数カ月を要した収録工程を大幅に短縮し、出版社だけでなく個人著者にも音声出版を開放するサービ…",
-      "source_url": "https://elevenlabs.io/audiobooks",
-      "source_label": "elevenlabs.io",
-      "cover": "assets/posts/1532415799069773924.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1441006356399259719/threads/1532415799069773924"
     }
   ]
 }
