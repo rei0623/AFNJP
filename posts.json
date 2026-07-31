@@ -1,8 +1,44 @@
 {
-  "generated_at": "2026-07-31T07:12:25.723Z",
+  "generated_at": "2026-07-31T09:51:45.664Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1532681450321739936",
+      "title": "DeepSeek-V4-Flash公式API公開、エージェント性能を大幅強化",
+      "channel": "deep-seek",
+      "category": "その他",
+      "date": "2026-07-31T09:28:53.601Z",
+      "excerpt": "DeepSeekは2026年7月31日、軽量モデル「DeepSeek-V4-Flash」の公式APIをパブリックベータとして公開しました。プレビュー版と同じモデル規模・アーキテクチャを維持しながら、API向けの追加学習や最適化によってエージェント能力を引き…",
+      "source_url": "https://twitter.com/i/status/2083084415157022911",
+      "source_label": "twitter.com",
+      "cover": "assets/posts/1532681450321739936.jpg",
+      "url": "https://discord.com/channels/1415350002255007784/1419690651490193470/threads/1532681450321739936"
+    },
+    {
+      "id": "1532681227214000249",
+      "title": "保険大手Univé、ChatGPT Enterpriseを全社展開AI活用率85％を支えた「統制と現場主導」",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-07-31T09:28:00.408Z",
+      "excerpt": "オランダの協同組合系保険大手Univéが、ChatGPT Enterpriseを単なる業務効率化ツールではなく、組織全体の働き方を再設計する基盤として導入しています。ライセンス有効化率は97％、週間アクティブ率は85％に達し、従業員が作成したカスタムGPT…",
+      "source_url": "https://openai.com/index/unive/",
+      "source_label": "openai.com",
+      "cover": "assets/posts/1532681227214000249.png",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1532681227214000249"
+    },
+    {
+      "id": "1532681112046928052",
+      "title": "OpenAI、EU AI法に沿う安全・透明性基盤を強化",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-07-31T09:27:32.950Z",
+      "excerpt": "OpenAIは2026年7月31日、欧州における責任あるAIの取り組みを公表しました。EU AI法の実装が次段階へ進むなか、汎用AIモデルの安全性、セキュリティ、透明性、生成物の来歴証明を、技術とガバナンスの両面から強化します。",
+      "source_url": "https://openai.com/index/advancing-responsible-ai-across-europe/",
+      "source_label": "openai.com",
+      "cover": "assets/posts/1532681112046928052.png",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1532681112046928052"
+    },
     {
       "id": "1532600286315544657",
       "title": "avatarin、GPT-Realtimeで24時間対応の家電販売AIを実現",
@@ -110,42 +146,6 @@
       "source_label": "elevenlabs.io",
       "cover": "assets/posts/1532415799069773924.webp",
       "url": "https://discord.com/channels/1415350002255007784/1441006356399259719/threads/1532415799069773924"
-    },
-    {
-      "id": "1532407041522532352",
-      "title": "Google Earthに「Nano Banana 2」統合、現実の地形を基に未来や歴史を画像生成",
-      "channel": "google",
-      "category": "Google",
-      "date": "2026-07-30T15:18:29.445Z",
-      "excerpt": "Googleは2026年7月30日、Google EarthのWeb版に画像生成モデル「Nano Banana 2」を統合したと発表しました。衛星写真、航空写真、3D地形を土台に、自然言語の指示だけで、過去の街並みや建築計画、未来都市などを視覚化できます。…",
-      "source_url": "https://blog.google/products-and-platforms/products/earth/nano-banana-google-earth-image-generation/?utm_source=tw&utm_medium=social&utm_campaign=og",
-      "source_label": "blog.google",
-      "cover": "assets/posts/1532407041522532352.png",
-      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1532407041522532352"
-    },
-    {
-      "id": "1532406814069494011",
-      "title": "Cursor、クラウドエージェントがPRの半数超を作成する開発環境を公開",
-      "channel": "cursor",
-      "category": "その他",
-      "date": "2026-07-30T15:17:35.216Z",
-      "excerpt": "Cursorは2026年7月30日、クラウド上で動くAIコーディングエージェントを自社の大規模モノレポへ導入するために構築した開発環境の仕組みを明らかにしました。現在、同社でマージされるPRの半数以上をクラウドエージェントが作成しており、AIの性能だけでな…",
-      "source_url": "https://cursor.com/ja/blog/cloud-agent-environment",
-      "source_label": "cursor.com",
-      "cover": "assets/posts/1532406814069494011.png",
-      "url": "https://discord.com/channels/1415350002255007784/1416106151585644636/threads/1532406814069494011"
-    },
-    {
-      "id": "1532405072439410878",
-      "title": "Google「Gemini Robotics ER 2」発表、ロボットにリアルタイム判断と協調能力",
-      "channel": "google",
-      "category": "Google",
-      "date": "2026-07-30T15:10:39.979Z",
-      "excerpt": "Google DeepMindは2026年7月30日、ロボット向けの具現化推論モデル「Gemini Robotics ER 2」を発表しました。映像を継続的に理解しながら作業を計画・監視し、失敗時には修正するほか、複数の異なるロボットを連携させられる点が大…",
-      "source_url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/gemini-robotics-er-2/",
-      "source_label": "blog.google",
-      "cover": "assets/posts/1532405072439410878.png",
-      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1532405072439410878"
     }
   ]
 }
