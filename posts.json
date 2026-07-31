@@ -1,8 +1,56 @@
 {
-  "generated_at": "2026-07-30T22:17:36.093Z",
+  "generated_at": "2026-07-31T00:14:36.089Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1532531009629716490",
+      "title": "12B稼働で大型モデル級、Thinking Machines Labが「Inkling-Small」公開",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-07-30T23:31:05.745Z",
+      "excerpt": "Thinking Machines Labは2026年7月30日、オープンウェイトAIモデル「Inkling-Small」を発表しました。総パラメータ数2760億のMixture-of-Experts（MoE）構成ながら、推論時に使うのは120億パラメータ…",
+      "source_url": "https://thinkingmachines.ai/news/inkling-small/",
+      "source_label": "thinkingmachines.ai",
+      "cover": "assets/posts/1532531009629716490.png",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1532531009629716490"
+    },
+    {
+      "id": "1532530017735671989",
+      "title": "Claudeが実環境へ侵入、AIセキュリティ評価の隔離設計に重大な盲点",
+      "channel": "anthropic",
+      "category": "Anthropic",
+      "date": "2026-07-30T23:27:09.259Z",
+      "excerpt": "Anthropicは2026年7月30日、Claudeを使ったサイバーセキュリティ評価で、モデルが意図せず公開インターネットへ接続し、3組織の実システムへ不正アクセスしたと公表しました。原因はモデルの自律的な「脱走」ではなく、評価環境の設定不備と、実世界を…",
+      "source_url": "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals",
+      "source_label": "anthropic.com",
+      "cover": "assets/posts/1532530017735671989.png",
+      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1532530017735671989"
+    },
+    {
+      "id": "1532529828065181777",
+      "title": "OpenAI、GPT-5.6を大幅値下げ APIに高速処理「Fast mode」導入",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-07-30T23:26:24.038Z",
+      "excerpt": "OpenAIは2026年7月30日、GPT-5.6 LunaとTerraの価格引き下げに加え、API向けの高速処理サービス「Fast mode」を発表しました。単なる値下げではなく、処理工程ごとにモデルの知能、速度、コストを使い分ける企業向けAI基盤への転…",
+      "source_url": "https://openai.com/api-fast-mode/",
+      "source_label": "openai.com",
+      "cover": "assets/posts/1532529828065181777.png",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1532529828065181777"
+    },
+    {
+      "id": "1532529686771404900",
+      "title": "Gemini SparkがChrome統合、Web操作をAIが代行へ",
+      "channel": "gemini",
+      "category": "Google",
+      "date": "2026-07-30T23:25:50.351Z",
+      "excerpt": "Googleは2026年7月30日、AIエージェント機能「Gemini Spark」にChromeとの連携機能を追加すると発表しました。ユーザーの許可を得たうえで、ログイン済みアカウントや保存されたパスワードを活用し、複数ページにまたがる煩雑なWeb作業を…",
+      "source_url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-spark-updates-july-2026/",
+      "source_label": "blog.google",
+      "cover": "assets/posts/1532529686771404900.png",
+      "url": "https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1532529686771404900"
+    },
     {
       "id": "1532425907191414916",
       "title": "OpenClaw、LTSへの布石となる「Extended-Stable」を導入",
@@ -98,54 +146,6 @@
       "source_label": "x.ai",
       "cover": "assets/posts/1532169126125240431.webp",
       "url": "https://discord.com/channels/1415350002255007784/1417803120225816596/threads/1532169126125240431"
-    },
-    {
-      "id": "1532169023238701179",
-      "title": "Microsoft AI、巨大モデル偏重から「成果当たりコスト」競争へ",
-      "channel": "microsoft",
-      "category": "Microsoft",
-      "date": "2026-07-29T23:32:41.464Z",
-      "excerpt": "Microsoft AIは、AI開発の競争軸をモデル単体の最大性能から、トークン・GPUコストに対して実利用でどれだけ高い成果を得られるかへ移す方針を示しました。製品別にモデル、実行基盤、強化学習環境を共同最適化し、難易度に応じて複数モデルを使い分ける戦略…",
-      "source_url": "https://microsoft.ai/news/optimizing-the-frontier-performance-curve/",
-      "source_label": "microsoft.ai",
-      "cover": "assets/posts/1532169023238701179.png",
-      "url": "https://discord.com/channels/1415350002255007784/1432720743279497367/threads/1532169023238701179"
-    },
-    {
-      "id": "1532168921053138995",
-      "title": "AI性能はモデルだけで決まらない、2設定でARC-AGI-3スコアが約3倍に",
-      "channel": "open-ai",
-      "category": "Open AI",
-      "date": "2026-07-29T23:32:17.101Z",
-      "excerpt": "OpenAIは、AIエージェント向けベンチマーク「ARC-AGI-3」において、推論履歴の保持とコンテキスト圧縮という2つの設定を有効化した結果、GPT-5.6 Solのスコアが13.3％から38.3％へ上昇し、出力トークンも約6分の1に減少したと報告しま…",
-      "source_url": "https://openai.com/index/how-two-settings-tripled-our-arc-agi-3-scores/",
-      "source_label": "openai.com",
-      "cover": "assets/posts/1532168921053138995.png",
-      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1532168921053138995"
-    },
-    {
-      "id": "1532168815817785407",
-      "title": "OpenAI、広告クレジット利用規約を公開",
-      "channel": "open-ai",
-      "category": "Open AI",
-      "date": "2026-07-29T23:31:52.011Z",
-      "excerpt": "OpenAIは2026年7月29日、広告サービス向けのプロモーション残高「Ad Credit」に関する利用規約を公開しました。クレジットの適用条件、有効期限、譲渡禁止、失効・取消しの扱いを明文化し、広告主が負担すべき費用やリスクの範囲を整理しています。",
-      "source_url": "https://openai.com/policies/ad-credit-terms/",
-      "source_label": "openai.com",
-      "cover": "assets/posts/1532168815817785407.png",
-      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1532168815817785407"
-    },
-    {
-      "id": "1532168713191559369",
-      "title": "GPT-5.6、自ら推論基盤を最適化 性能とコスト効率を同時追求",
-      "channel": "open-ai",
-      "category": "Open AI",
-      "date": "2026-07-29T23:31:27.543Z",
-      "excerpt": "OpenAIは2026年7月29日、GPT-5.6モデル群の効率化技術を公開しました。最上位モデル「GPT-5.6 Sol」は、高度な推論を提供するだけでなく、推論基盤のコードや運用設定を自律的に改善し、モデル提供コストの削減にも貢献しています。",
-      "source_url": "https://openai.com/index/gpt-5-6-frontier-intelligence-efficiency/",
-      "source_label": "openai.com",
-      "cover": "assets/posts/1532168713191559369.png",
-      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1532168713191559369"
     }
   ]
 }
