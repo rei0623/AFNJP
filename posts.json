@@ -1,8 +1,20 @@
 {
-  "generated_at": "2026-08-01T11:34:11.267Z",
+  "generated_at": "2026-08-01T13:52:06.719Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1533096481282723982",
+      "title": "xAI「Imagine Video 1.5」強化、画像・音声参照とネイティブ1080pに対応",
+      "channel": "grok",
+      "category": "Space X",
+      "date": "2026-08-01T12:58:04.693Z",
+      "excerpt": "xAIは2026年7月31日、動画生成モデル「Grok Imagine Video 1.5」に、画像・音声を参照して映像を生成する機能を追加しました。テキストだけからの動画生成、最大7枚の画像参照、人物の顔と声の一貫性維持、ネイティブ1080p出力に対応し…",
+      "source_url": "https://x.ai/news/grok-imagine-video-1-5-references",
+      "source_label": "x.ai",
+      "cover": "assets/posts/1533096481282723982.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417803120225816596/threads/1533096481282723982"
+    },
     {
       "id": "1533016547172548678",
       "title": "OpenAIの新モデル「Astra」、数学・理論計算機科学の未解決問題10件で新成果",
@@ -134,18 +146,6 @@
       "source_label": "learn.chatgpt.com",
       "cover": "assets/posts/1532599458427047976.png",
       "url": "https://discord.com/channels/1415350002255007784/1415353131604377641/threads/1532599458427047976"
-    },
-    {
-      "id": "1532599084085416087",
-      "title": "MiniMax H3、2K動画生成APIを刷新 画像・映像・音声を統合入力",
-      "channel": "minimax",
-      "category": "その他",
-      "date": "2026-07-31T04:01:35.960Z",
-      "excerpt": "MiniMaxは、汎用マルチモーダル動画モデル「MiniMax H3」を利用する動画生成APIの開発者向けガイドを公開しています。テキストだけでなく、画像、動画、音声を統一形式で入力でき、2K解像度・5～15秒の動画生成や、参照素材を使った人物・動作・映像…",
-      "source_url": "https://platform.minimax.io/docs/guides/video-generation",
-      "source_label": "platform.minimax.io",
-      "cover": "assets/posts/1532599084085416087.png",
-      "url": "https://discord.com/channels/1415350002255007784/1471542643900158023/threads/1532599084085416087"
     }
   ]
 }
