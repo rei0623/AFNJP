@@ -1,8 +1,20 @@
 {
-  "generated_at": "2026-08-01T06:39:42.548Z",
+  "generated_at": "2026-08-01T09:19:11.027Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1533016547172548678",
+      "title": "OpenAIの新モデル「Astra」、数学・理論計算機科学の未解決問題10件で新成果",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-08-01T07:40:26.916Z",
+      "excerpt": "OpenAIは2026年8月1日、次世代モデル「Astra」の内部版が、数学と理論計算機科学における10件の長年の未解決問題で新たな成果を生み出したと発表しました。対象は高次元幾何、符号理論、群論、量子計算、格子暗号、組合せ論などに及び、AIが研究支援ツー…",
+      "source_url": "https://openai.com/index/ten-advances-in-mathematics/",
+      "source_label": "openai.com",
+      "cover": "assets/posts/1533016547172548678.png",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1533016547172548678"
+    },
     {
       "id": "1532990619868205176",
       "title": "Google、Gemini Enterpriseのエージェント評価機能を正式提供",
@@ -134,18 +146,6 @@
       "source_label": "platform.minimax.io",
       "cover": "assets/posts/1532599084085416087.png",
       "url": "https://discord.com/channels/1415350002255007784/1471542643900158023/threads/1532599084085416087"
-    },
-    {
-      "id": "1532531009629716490",
-      "title": "12B稼働で大型モデル級、Thinking Machines Labが「Inkling-Small」公開",
-      "channel": "その他",
-      "category": "その他",
-      "date": "2026-07-30T23:31:05.745Z",
-      "excerpt": "Thinking Machines Labは2026年7月30日、オープンウェイトAIモデル「Inkling-Small」を発表しました。総パラメータ数2760億のMixture-of-Experts（MoE）構成ながら、推論時に使うのは120億パラメータ…",
-      "source_url": "https://thinkingmachines.ai/news/inkling-small/",
-      "source_label": "thinkingmachines.ai",
-      "cover": "assets/posts/1532531009629716490.png",
-      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1532531009629716490"
     }
   ]
 }
