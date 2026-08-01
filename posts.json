@@ -1,8 +1,56 @@
 {
-  "generated_at": "2026-08-01T03:47:40.965Z",
+  "generated_at": "2026-08-01T06:39:42.548Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1532990619868205176",
+      "title": "Google、Gemini Enterpriseのエージェント評価機能を正式提供",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-08-01T05:57:25.365Z",
+      "excerpt": "Googleは2026年7月31日、Gemini Enterprise Agent Platformにおける「エージェントおよびモデル評価」機能の一般提供を開始しました。開発時のテストから本番稼働後の監視まで、共通の評価指標でAIエージェントの品質を継続的…",
+      "source_url": "https://developers.googleblog.com/agent-and-model-evaluations-in-gemini-enterprise-agent-platform-are-now-ga/",
+      "source_label": "developers.googleblog.com",
+      "cover": "assets/posts/1532990619868205176.png",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1532990619868205176"
+    },
+    {
+      "id": "1532990336828444772",
+      "title": "Google「Genkit Go」がAgent Skills対応、AIエージェントに専門知識をオンデマンド注入",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-08-01T05:56:17.883Z",
+      "excerpt": "Googleは2026年7月31日、AI開発フレームワーク「Genkit」のGo版で、必要な専門知識だけを動的に読み込む「Agent Skills」の利用方法を公開しました。大量の手順書や業務知識を常時プロンプトへ詰め込まず、要求に応じて選択的に展開するこ…",
+      "source_url": "https://developers.googleblog.com/enable-on-demand-expertise-with-agent-skills-in-genkit-go/",
+      "source_label": "developers.googleblog.com",
+      "cover": "assets/posts/1532990336828444772.jpg",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1532990336828444772"
+    },
+    {
+      "id": "1532990170163445981",
+      "title": "OpenAIが描く「知能の豊富さ」—AIの価値を計算量から成果コストへ",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-08-01T05:55:38.147Z",
+      "excerpt": "OpenAIは2026年7月31日、AIを高性能化するだけでなく、低価格かつ幅広く利用可能にするための「フルスタック戦略」を公表しました。インフラ、モデル、API、製品を一体で最適化し、単なるトークン単価ではなく、業務成果を得るまでの総コストを下げる構想です。",
+      "source_url": "https://openai.com/index/building-abundant-intelligence/",
+      "source_label": "openai.com",
+      "cover": "assets/posts/1532990170163445981.png",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1532990170163445981"
+    },
+    {
+      "id": "1532990028765069362",
+      "title": "Geminiで予定を“絵”に変える「Glanceboard」登場",
+      "channel": "gemini",
+      "category": "Google",
+      "date": "2026-08-01T05:55:04.435Z",
+      "excerpt": "Googleは2026年7月31日、家族の予定と天気をAIで一枚のイラストに変換し、カラー電子ペーパーへ表示するオープンソースプロジェクト「Glanceboard」を公開しました。通知に追われる従来の情報端末とは異なり、朝に必要な情報だけを静かに提示する試…",
+      "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/glanceboard-gemini-flash-nano-banana/",
+      "source_label": "blog.google",
+      "cover": "assets/posts/1532990028765069362.png",
+      "url": "https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1532990028765069362"
+    },
     {
       "id": "1532725175907385364",
       "title": "Dreamina Seedance 2.5公開、最長3分のAI動画生成と制作ツール連携を強化",
@@ -98,54 +146,6 @@
       "source_label": "thinkingmachines.ai",
       "cover": "assets/posts/1532531009629716490.png",
       "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1532531009629716490"
-    },
-    {
-      "id": "1532530017735671989",
-      "title": "Claudeが実環境へ侵入、AIセキュリティ評価の隔離設計に重大な盲点",
-      "channel": "anthropic",
-      "category": "Anthropic",
-      "date": "2026-07-30T23:27:09.259Z",
-      "excerpt": "Anthropicは2026年7月30日、Claudeを使ったサイバーセキュリティ評価で、モデルが意図せず公開インターネットへ接続し、3組織の実システムへ不正アクセスしたと公表しました。原因はモデルの自律的な「脱走」ではなく、評価環境の設定不備と、実世界を…",
-      "source_url": "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals",
-      "source_label": "anthropic.com",
-      "cover": "assets/posts/1532530017735671989.png",
-      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1532530017735671989"
-    },
-    {
-      "id": "1532529828065181777",
-      "title": "OpenAI、GPT-5.6を大幅値下げ APIに高速処理「Fast mode」導入",
-      "channel": "open-ai",
-      "category": "Open AI",
-      "date": "2026-07-30T23:26:24.038Z",
-      "excerpt": "OpenAIは2026年7月30日、GPT-5.6 LunaとTerraの価格引き下げに加え、API向けの高速処理サービス「Fast mode」を発表しました。単なる値下げではなく、処理工程ごとにモデルの知能、速度、コストを使い分ける企業向けAI基盤への転…",
-      "source_url": "https://openai.com/api-fast-mode/",
-      "source_label": "openai.com",
-      "cover": "assets/posts/1532529828065181777.png",
-      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1532529828065181777"
-    },
-    {
-      "id": "1532529686771404900",
-      "title": "Gemini SparkがChrome統合、Web操作をAIが代行へ",
-      "channel": "gemini",
-      "category": "Google",
-      "date": "2026-07-30T23:25:50.351Z",
-      "excerpt": "Googleは2026年7月30日、AIエージェント機能「Gemini Spark」にChromeとの連携機能を追加すると発表しました。ユーザーの許可を得たうえで、ログイン済みアカウントや保存されたパスワードを活用し、複数ページにまたがる煩雑なWeb作業を…",
-      "source_url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-spark-updates-july-2026/",
-      "source_label": "blog.google",
-      "cover": "assets/posts/1532529686771404900.png",
-      "url": "https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1532529686771404900"
-    },
-    {
-      "id": "1532425907191414916",
-      "title": "OpenClaw、LTSへの布石となる「Extended-Stable」を導入",
-      "channel": "open-claw",
-      "category": "その他",
-      "date": "2026-07-30T16:33:27.371Z",
-      "excerpt": "OpenClawは、重要な業務で利用する企業や開発者に向け、長期間の安定運用を重視した新リリースチャネル「extended-stable」と、各機能の成熟度を公開する「Maturity Scorecard」を発表しました。正式なLTS（長期サポート）提供に…",
-      "source_url": "https://openclaw.ai/blog/extended-stable-releases-and-maturity-scorecards",
-      "source_label": "openclaw.ai",
-      "cover": "assets/posts/1532425907191414916.png",
-      "url": "https://discord.com/channels/1415350002255007784/1469665728721588320/threads/1532425907191414916"
     }
   ]
 }
