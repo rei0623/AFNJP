@@ -4,7 +4,7 @@ Discord コミュニティ「AI Frontier News JP」の公式ランディング�
 海外の AI ニュースを一次情報から確認し、出典リンク付きの日本語記事として配信するコミュニティの入口です。
 
 - **公開サイト**: https://rei0623.github.io/AFNJP/ (GitHub Pages / main ブランチ直下から配信)
-- **Discord**: https://discord.gg/B3eJAX6mnN
+- **Discord**: https://discord.gg/WUWE6Ev7yh
 - **X (Twitter)**: https://x.com/AI_FrontierNews
 
 ## 構成

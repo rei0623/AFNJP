@@ -5,7 +5,7 @@
 ## 概要
 
 - サイト: https://rei0623.github.io/AFNJP/
-- Discord サーバー参加(無料): https://discord.gg/B3eJAX6mnN
+- Discord サーバー参加(無料): https://discord.gg/WUWE6Ev7yh
 - X (Twitter): https://x.com/AI_FrontierNews
 - 対象領域: OpenAI / Anthropic / Google / Meta / Microsoft / xAI / Alibaba ほか主要AI企業の公式発表、モデルリリース、開発者ツール
 - 記事の特徴: 一次情報の直接確認・出典リンク付き・日本語
