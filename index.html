@@ -14,6 +14,10 @@
     <meta property="og:description" content="公式発表を直接確認して、出典リンク付きで日本語記事にしているDiscordコミュニティ。参加無料。">
     <meta property="og:url" content="https://rei0623.github.io/AFNJP/">
     <meta property="og:image" content="https://rei0623.github.io/AFNJP/AFNJP.jpg">
+    <meta property="og:image:type" content="image/jpeg">
+    <meta property="og:image:width" content="1024">
+    <meta property="og:image:height" content="1024">
+    <meta property="og:image:alt" content="AI Frontier News JP のロゴ">
     <meta property="og:locale" content="ja_JP">
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@AI_FrontierNews">
@@ -63,6 +67,16 @@
         チャンネル・記事        → channels.json / posts.json（Botが自動更新）
       ───────────────────────────────────────────────────────────
     -->
+
+    <!-- JS無効時もコンテンツを可視にする（.rv はスクロール出現アニメ用に opacity:0 で始まるため） -->
+    <noscript>
+        <style>
+            .rv {
+                opacity: 1 !important;
+                transform: none !important;
+            }
+        </style>
+    </noscript>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -1711,6 +1725,13 @@
 
                 <div class="cards rv" id="cards"></div>
 
+                <noscript>
+                    <p class="lead">最新記事の一覧表示にはJavaScriptが必要です。海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きの日本語記事として毎日投稿しています。最新記事は
+                        <a href="https://discord.gg/B3eJAX6mnN" target="_blank" rel="noopener noreferrer">Discordサーバー</a>または
+                        <a href="https://twitter.com/AI_FrontierNews" target="_blank" rel="noopener noreferrer">X（@AI_FrontierNews）</a>でご覧いただけます。
+                    </p>
+                </noscript>
+
                 <div class="feed-more rv">
                     <a class="btn btn-o" href="https://discord.gg/B3eJAX6mnN" target="_blank" rel="noopener noreferrer">
                         <span>続きはDiscordで読む</span>
@@ -2046,7 +2067,7 @@
 
                 host.innerHTML = posts.map((p, i) => {
                     const cover = p.cover
-                        ? `<div class="cover"><img src="${esc(p.cover)}" alt="" loading="lazy"></div>`
+                        ? `<div class="cover"><img src="${esc(p.cover)}" alt="${esc(p.title)}" loading="lazy"></div>`
                         : `<div class="cover blank">${RIDGE_SVG}<span class="ch"># ${esc(p.channel)}</span></div>`;
                     const when = ago(p.date);
                     return `<a class="card" style="animation-delay:${Math.min(i * 45, 400)}ms"
