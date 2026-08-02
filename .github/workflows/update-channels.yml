@@ -22,6 +22,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
+        with:
+          # push 失敗時に rebase で追いつけるよう、浅いクローンにしない
+          fetch-depth: 0
 
       - uses: actions/setup-node@v5
         with:
@@ -45,4 +48,19 @@ jobs:
           # [skip ci] は GitHub Actions 用、[skip render] は Render 用。
           # データ更新のたびに外部のデプロイが走らないようにする。
           git commit -m "chore: sync Discord data [skip ci] [skip render]"
-          git push
+
+          # 実行中に main が進んでいると push が弾かれるため、
+          # rebase で追いついてから最大3回まで再試行する。
+          for i in 1 2 3; do
+            if git push; then
+              echo "push しました（試行 $i 回目）"
+              exit 0
+            fi
+            echo "push に失敗しました。main を取り込んで再試行します（$i/3）"
+            git pull --rebase origin main || {
+              echo "rebase に失敗しました。今回はスキップします。" >&2
+              exit 1
+            }
+          done
+          echo "3回試行しても push できませんでした。" >&2
+          exit 1
