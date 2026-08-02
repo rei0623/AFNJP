@@ -1,8 +1,20 @@
 {
-  "generated_at": "2026-08-02T21:09:18.054Z",
+  "generated_at": "2026-08-02T22:08:44.367Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1533593933861359750",
+      "title": "Microsoft、双方向音声AI「MAI Realtime」をテスト",
+      "channel": "リーク情報",
+      "category": "リーク情報",
+      "date": "2026-08-02T21:54:46.630Z",
+      "excerpt": "Microsoftが、リアルタイム音声モデル「MAI Realtime」を開発している可能性が明らかになりました。TestingCatalogが、同社の実験環境「MAI Playground」に隠された早期アクセス項目を確認したと報じています。現時点でMi…",
+      "source_url": "https://www.testingcatalog.com/exclusive-microsoft-tests-new-mai-realtime-voice-model/",
+      "source_label": "testingcatalog.com",
+      "cover": "assets/posts/1533593933861359750.jpg",
+      "url": "https://discord.com/channels/1415350002255007784/1415534435712897124/threads/1533593933861359750"
+    },
     {
       "id": "1533096481282723982",
       "title": "xAI「Imagine Video 1.5」強化、画像・音声参照とネイティブ1080pに対応",
@@ -134,18 +146,6 @@
       "source_label": "openai.com",
       "cover": "assets/posts/1532600286315544657.png",
       "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1532600286315544657"
-    },
-    {
-      "id": "1532599458427047976",
-      "title": "ChatGPTデスクトップ版が大型更新、ブラウザ・コードレビュー・画像編集を強化",
-      "channel": "chatgpt",
-      "category": "Open AI",
-      "date": "2026-07-31T04:03:05.210Z",
-      "excerpt": "OpenAIは2026年7月30日、ChatGPTデスクトップアプリのアップデート「26.727」を公開しました。ブラウジング履歴を活用した情報探索、複数リポジトリを横断するコードレビュー、生成画像への部分修正指示など、調査から開発、クリエイティブ作業まで…",
-      "source_url": "https://learn.chatgpt.com/docs/changelog",
-      "source_label": "learn.chatgpt.com",
-      "cover": "assets/posts/1532599458427047976.png",
-      "url": "https://discord.com/channels/1415350002255007784/1415353131604377641/threads/1532599458427047976"
     }
   ]
 }
