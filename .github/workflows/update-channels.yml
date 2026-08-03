@@ -36,9 +36,18 @@ jobs:
           DISCORD_GUILD_ID: '1415350002255007784'
         run: node scripts/sync-discord.mjs
 
+      # 記事一覧とチャンネル一覧を index.html へ静的に焼き込み、feed.xml / sitemap.xml も更新する。
+      # JS を実行しない AI クローラー（GPTBot / ClaudeBot / PerplexityBot など）に読ませるため。
+      # DISCORD_BOT_TOKEN は使わない（posts.json / channels.json を読むだけ）。
+      # 失敗しても Discord データの同期は止めない。生成物は検証を通ってから書き込まれるので、
+      # 途中で失敗した場合は index.html は前回の内容のまま残る。
+      - name: Generate static HTML and feeds
+        continue-on-error: true
+        run: node scripts/generate-seo.mjs
+
       - name: Commit if changed
         run: |
-          git add -A channels.json posts.json assets/posts
+          git add -A channels.json posts.json assets/posts index.html feed.xml sitemap.xml
           if git diff --cached --quiet; then
             echo "変化なし。コミットしません。"
             exit 0
