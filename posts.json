@@ -1,8 +1,44 @@
 {
-  "generated_at": "2026-08-03T07:44:39.153Z",
+  "generated_at": "2026-08-03T11:42:10.547Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1533753014073163898",
+      "title": "MiniMax H3公開、映像とステレオ音声を一体生成するオムニモーダルAI",
+      "channel": "minimax",
+      "category": "その他",
+      "date": "2026-08-03T08:26:54.308Z",
+      "excerpt": "MiniMaxAIは、テキスト・画像・動画・音声を統合的に理解し、最大15秒の映像とステレオ音声を同時生成する「MiniMax H3」をHugging Faceで公開しました。単なる動画生成モデルではなく、複雑な参照素材を解釈し、映像・会話・効果音・音楽を…",
+      "source_url": "https://huggingface.co/MiniMaxAI/MiniMax-H3",
+      "source_label": "huggingface.co",
+      "cover": "assets/posts/1533753014073163898.png",
+      "url": "https://discord.com/channels/1415350002255007784/1471542643900158023/threads/1533753014073163898"
+    },
+    {
+      "id": "1533752882753568910",
+      "title": "Qwen3.8-Max登場、2.4兆パラメータで「自律開発」を強化",
+      "channel": "qwen",
+      "category": "Alibaba",
+      "date": "2026-08-03T08:26:22.999Z",
+      "excerpt": "AlibabaのQwenチームは、同シリーズで最も高性能なAIモデル「Qwen3.8-Max」を発表しました。総パラメータ数は2.4兆に達し、コーディング支援だけでなく、長期間にわたってツールを操作し、作業を継続する「AIエージェント」の実用性向上を打ち出…",
+      "source_url": "https://qwen.ai/blog?id=qwen3.8",
+      "source_label": "qwen.ai",
+      "cover": "assets/posts/1533752882753568910.png",
+      "url": "https://discord.com/channels/1415350002255007784/1419932032716243027/threads/1533752882753568910"
+    },
+    {
+      "id": "1533752767447957544",
+      "title": "Sakana AI、日本語業務向けLLM API「Sakana Namazu」を提供開始",
+      "channel": "sakana-ai",
+      "category": "日本国内",
+      "date": "2026-08-03T08:25:55.508Z",
+      "excerpt": "Sakana AIは2026年8月3日、日本語と日本の商習慣に特化した大規模言語モデルAPI「Sakana Namazu」の提供を開始しました。Web検索やコード実行を標準搭載し、OpenAI互換APIとして既存システムへ導入しやすい点が特徴です。",
+      "source_url": "https://sakana.ai/namazu-api/",
+      "source_label": "sakana.ai",
+      "cover": "assets/posts/1533752767447957544.png",
+      "url": "https://discord.com/channels/1415350002255007784/1420683387395375115/threads/1533752767447957544"
+    },
     {
       "id": "1533593933861359750",
       "title": "Microsoft、双方向音声AI「MAI Realtime」をテスト",
@@ -110,42 +146,6 @@
       "source_label": "twitter.com",
       "cover": "assets/posts/1532681450321739936.jpg",
       "url": "https://discord.com/channels/1415350002255007784/1419690651490193470/threads/1532681450321739936"
-    },
-    {
-      "id": "1532681227214000249",
-      "title": "保険大手Univé、ChatGPT Enterpriseを全社展開AI活用率85％を支えた「統制と現場主導」",
-      "channel": "open-ai",
-      "category": "Open AI",
-      "date": "2026-07-31T09:28:00.408Z",
-      "excerpt": "オランダの協同組合系保険大手Univéが、ChatGPT Enterpriseを単なる業務効率化ツールではなく、組織全体の働き方を再設計する基盤として導入しています。ライセンス有効化率は97％、週間アクティブ率は85％に達し、従業員が作成したカスタムGPT…",
-      "source_url": "https://openai.com/index/unive/",
-      "source_label": "openai.com",
-      "cover": "assets/posts/1532681227214000249.png",
-      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1532681227214000249"
-    },
-    {
-      "id": "1532681112046928052",
-      "title": "OpenAI、EU AI法に沿う安全・透明性基盤を強化",
-      "channel": "open-ai",
-      "category": "Open AI",
-      "date": "2026-07-31T09:27:32.950Z",
-      "excerpt": "OpenAIは2026年7月31日、欧州における責任あるAIの取り組みを公表しました。EU AI法の実装が次段階へ進むなか、汎用AIモデルの安全性、セキュリティ、透明性、生成物の来歴証明を、技術とガバナンスの両面から強化します。",
-      "source_url": "https://openai.com/index/advancing-responsible-ai-across-europe/",
-      "source_label": "openai.com",
-      "cover": "assets/posts/1532681112046928052.png",
-      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1532681112046928052"
-    },
-    {
-      "id": "1532600286315544657",
-      "title": "avatarin、GPT-Realtimeで24時間対応の家電販売AIを実現",
-      "channel": "open-ai",
-      "category": "Open AI",
-      "date": "2026-07-31T04:06:22.594Z",
-      "excerpt": "OpenAIは2026年7月30日、avatarinがGPT-Realtimeを活用し、ヤマダデンキ向けの対話型接客サービス「くらしまるごとAIエージェント」を構築した事例を公開しました。2週間の一般公開では約3万人が利用し、利用後アンケートの92％が肯定…",
-      "source_url": "https://openai.com/index/avatarin/",
-      "source_label": "openai.com",
-      "cover": "assets/posts/1532600286315544657.png",
-      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1532600286315544657"
     }
   ]
 }
