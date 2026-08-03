@@ -1,8 +1,20 @@
 {
-  "generated_at": "2026-08-03T11:42:10.547Z",
+  "generated_at": "2026-08-03T15:14:04.430Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1533840221890809908",
+      "title": "Google、Gemini Enterprise向け「プラグイン」を開発か",
+      "channel": "リーク情報",
+      "category": "リーク情報",
+      "date": "2026-08-03T14:13:26.272Z",
+      "excerpt": "Googleが、企業向けAI基盤「Gemini Enterprise」にプラグイン機能と専用の通知領域を追加する準備を進めている可能性が明らかになりました。チャット中心だった生成AIを、社内データや外部サービスを横断して業務を実行する「アプリケーション基盤…",
+      "source_url": "https://www.testingcatalog.com/google-is-working-on-plugins-for-gemini-enterprise/",
+      "source_label": "testingcatalog.com",
+      "cover": "assets/posts/1533840221890809908.jpg",
+      "url": "https://discord.com/channels/1415350002255007784/1415534435712897124/threads/1533840221890809908"
+    },
     {
       "id": "1533753014073163898",
       "title": "MiniMax H3公開、映像とステレオ音声を一体生成するオムニモーダルAI",
@@ -134,18 +146,6 @@
       "source_label": "twitter.com",
       "cover": "assets/posts/1532725175907385364.png",
       "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1532725175907385364"
-    },
-    {
-      "id": "1532681450321739936",
-      "title": "DeepSeek-V4-Flash公式API公開、エージェント性能を大幅強化",
-      "channel": "deep-seek",
-      "category": "その他",
-      "date": "2026-07-31T09:28:53.601Z",
-      "excerpt": "DeepSeekは2026年7月31日、軽量モデル「DeepSeek-V4-Flash」の公式APIをパブリックベータとして公開しました。プレビュー版と同じモデル規模・アーキテクチャを維持しながら、API向けの追加学習や最適化によってエージェント能力を引き…",
-      "source_url": "https://twitter.com/i/status/2083084415157022911",
-      "source_label": "twitter.com",
-      "cover": "assets/posts/1532681450321739936.jpg",
-      "url": "https://discord.com/channels/1415350002255007784/1419690651490193470/threads/1532681450321739936"
     }
   ]
 }
