@@ -1,8 +1,44 @@
 {
-  "generated_at": "2026-08-03T19:55:18.476Z",
+  "generated_at": "2026-08-03T21:20:34.214Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1533943972718706941",
+      "title": "Copilot Studioに「GitHub Copilot harness」正式導入、複雑な業務プロセスを自律実行へ",
+      "channel": "copilot",
+      "category": "Microsoft",
+      "date": "2026-08-03T21:05:42.397Z",
+      "excerpt": "Microsoftは2026年8月3日、Copilot Studioで複雑かつ長時間に及ぶ業務プロセスを処理する「GitHub Copilot harness」の一般提供を開始しました。単純な対話や定型フローを超え、複数のファイル、知識、コード、外部ツール…",
+      "source_url": "https://techcommunity.microsoft.com/blog/copilot-studio-blog/more-powerful-agents-and-workflows-for-autonomous-business-processes-introducing/4542969",
+      "source_label": "techcommunity.microsoft.com",
+      "cover": "assets/posts/1533943972718706941.png",
+      "url": "https://discord.com/channels/1415350002255007784/1423003108790767748/threads/1533943972718706941"
+    },
+    {
+      "id": "1533943850132045854",
+      "title": "OpenAI「GPT-Live」、会話AIをターン制から常時接続へ",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-08-03T21:05:13.170Z",
+      "excerpt": "OpenAIは2026年8月3日、応答性の高い音声AI基盤「GPT-Live」の設計を公開しました。最大の転換点は、ユーザーの発話終了を待って回答する従来方式をやめ、音声の受信と生成を同時に続けるフルデュプレックス構成を採用したことです。0",
+      "source_url": "https://openai.com/index/continuous-voice-interaction-with-gpt-live/",
+      "source_label": "openai.com",
+      "cover": "assets/posts/1533943850132045854.png",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1533943850132045854"
+    },
+    {
+      "id": "1533943729097015406",
+      "title": "リアルタイムAIの負荷分散、Googleが「セッション重視」を提唱",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-08-03T21:04:44.313Z",
+      "excerpt": "Googleは、音声対話などのリアルタイムAIエージェントを安定して拡張するため、従来のQPSやCPU使用率だけでなく、接続中の「アクティブセッション数」を負荷分散の判断材料に組み込む設計を解説しました。長時間続く双方向通信では、リクエスト数だけを見ても、…",
+      "source_url": "https://developers.googleblog.com/scaling-real-time-ai-agents-with-session-aware-load-balancing/",
+      "source_label": "developers.googleblog.com",
+      "cover": "assets/posts/1533943729097015406.png",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1533943729097015406"
+    },
     {
       "id": "1533840221890809908",
       "title": "Google、Gemini Enterprise向け「プラグイン」を開発か",
@@ -110,42 +146,6 @@
       "source_label": "developers.googleblog.com",
       "cover": "assets/posts/1532990336828444772.jpg",
       "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1532990336828444772"
-    },
-    {
-      "id": "1532990170163445981",
-      "title": "OpenAIが描く「知能の豊富さ」—AIの価値を計算量から成果コストへ",
-      "channel": "open-ai",
-      "category": "Open AI",
-      "date": "2026-08-01T05:55:38.147Z",
-      "excerpt": "OpenAIは2026年7月31日、AIを高性能化するだけでなく、低価格かつ幅広く利用可能にするための「フルスタック戦略」を公表しました。インフラ、モデル、API、製品を一体で最適化し、単なるトークン単価ではなく、業務成果を得るまでの総コストを下げる構想です。",
-      "source_url": "https://openai.com/index/building-abundant-intelligence/",
-      "source_label": "openai.com",
-      "cover": "assets/posts/1532990170163445981.png",
-      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1532990170163445981"
-    },
-    {
-      "id": "1532990028765069362",
-      "title": "Geminiで予定を“絵”に変える「Glanceboard」登場",
-      "channel": "gemini",
-      "category": "Google",
-      "date": "2026-08-01T05:55:04.435Z",
-      "excerpt": "Googleは2026年7月31日、家族の予定と天気をAIで一枚のイラストに変換し、カラー電子ペーパーへ表示するオープンソースプロジェクト「Glanceboard」を公開しました。通知に追われる従来の情報端末とは異なり、朝に必要な情報だけを静かに提示する試…",
-      "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/glanceboard-gemini-flash-nano-banana/",
-      "source_label": "blog.google",
-      "cover": "assets/posts/1532990028765069362.png",
-      "url": "https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1532990028765069362"
-    },
-    {
-      "id": "1532725175907385364",
-      "title": "Dreamina Seedance 2.5公開、最長3分のAI動画生成と制作ツール連携を強化",
-      "channel": "その他",
-      "category": "その他",
-      "date": "2026-07-31T12:22:38.593Z",
-      "excerpt": "Dreamina AIは、動画生成モデル「Dreamina Seedance 2.5」の提供開始を発表しました。単一生成で30秒の映像を作れるほか、最長3分の長尺モード、フレーム内の部分編集、Maya・Blender連携などを搭載し、AI動画を試作ツールか…",
-      "source_url": "https://twitter.com/i/status/2083056471147958714",
-      "source_label": "twitter.com",
-      "cover": "assets/posts/1532725175907385364.png",
-      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1532725175907385364"
     }
   ]
 }
