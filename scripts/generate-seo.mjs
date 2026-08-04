@@ -289,7 +289,14 @@ function buildSitemap(latestIso) {
     // lastmod は「自動生成処理が把握できる範囲での最終更新日」。
     // 厳密なページ最終更新日ではない（FAQ や説明文の手直しはここに現れない）。
     // 実行時刻を書くと毎時更新になり、Google に lastmod ごと無視されるため使わない。
-    const lastmod = latestIso ? new Date(latestIso).toISOString() : null;
+    //
+    // sitemap の lastmod は W3C Datetime 形式で、ミリ秒は許容されない。
+    // toISOString() の "2026-08-04T14:12:10.731Z" をそのまま書くと
+    // Google に「サイトマップを読み込めませんでした」と弾かれるため、
+    // 秒までに丸めた "2026-08-04T14:12:10Z" にする。
+    const lastmod = latestIso
+        ? new Date(latestIso).toISOString().replace(/\.\d{3}Z$/, 'Z')
+        : null;
     return [
         '<?xml version="1.0" encoding="UTF-8"?>',
         '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
