@@ -1,8 +1,56 @@
 {
-  "generated_at": "2026-08-04T12:17:30.597Z",
+  "generated_at": "2026-08-04T14:24:59.322Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1534202292914491422",
+      "title": "CursorがGoogle Workspace連携、AIコーディングエージェントが業務領域へ進出",
+      "channel": "cursor",
+      "category": "その他",
+      "date": "2026-08-04T14:12:10.731Z",
+      "excerpt": "Cursorは2026年8月3日、GmailやGoogle Drive、Calendar、Docs、Sheetsを直接操作できるGoogle Workspaceプラグインを発表しました。これによりCursorのAIエージェントは、コード生成だけでなく、メー…",
+      "source_url": "https://cursor.com/ja/changelog/google-workspace-plugins",
+      "source_label": "cursor.com",
+      "cover": "assets/posts/1534202292914491422.png",
+      "url": "https://discord.com/channels/1415350002255007784/1416106151585644636/threads/1534202292914491422"
+    },
+    {
+      "id": "1534202070452670505",
+      "title": "AIの「意識否定」が価値観まで変える――安全調整の副作用を解明",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-08-04T14:11:17.692Z",
+      "excerpt": "大規模言語モデルに「自分は意識を持たない」と回答させる安全調整が、自己認識だけでなく、動物や自然物への心の帰属、宗教観、希望、幸福感などにも波及する可能性が示されました。Googleなどの研究者は、モデル内部の活性化を操作し、この連動が安全性と「心」に関す…",
+      "source_url": "https://arxiv.org/pdf/2607.28607v1",
+      "source_label": "arxiv.org",
+      "cover": null,
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1534202070452670505"
+    },
+    {
+      "id": "1534200899105194195",
+      "title": "OpenAIがAppleを痛烈批判、機密情報訴訟で主張の矛盾を指摘",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-08-04T14:06:38.421Z",
+      "excerpt": "OpenAIは2026年8月3日、Appleが元従業員による機密情報の持ち出しを巡って起こした訴訟について、事実関係に誤りがあり、差し止め命令も不要だと反論しました。公開されたメールやメッセージからは、単なる企業間紛争ではなく、退職者のアクセス管理や技術者…",
+      "source_url": "https://openai.com/index/apple-is-getting-this-wrong/",
+      "source_label": "openai.com",
+      "cover": "assets/posts/1534200899105194195.png",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1534200899105194195"
+    },
+    {
+      "id": "1534200817559670876",
+      "title": "Circles、OpenAIで通信顧客対応を自律化",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-08-04T14:06:18.979Z",
+      "excerpt": "通信テクノロジー企業Circlesは、OpenAI APIを活用した顧客対応・パーソナライゼーション基盤を展開しています。シンガポールでは、AIによる提案を通じて顧客単価を22％向上させ、解約率を9％削減。サポート業務では、問い合わせの65％を人手を介さず…",
+      "source_url": "https://openai.com/index/circles/",
+      "source_label": "openai.com",
+      "cover": "assets/posts/1534200817559670876.png",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1534200817559670876"
+    },
     {
       "id": "1533943972718706941",
       "title": "Copilot Studioに「GitHub Copilot harness」正式導入、複雑な業務プロセスを自律実行へ",
@@ -98,54 +146,6 @@
       "source_label": "testingcatalog.com",
       "cover": "assets/posts/1533593933861359750.jpg",
       "url": "https://discord.com/channels/1415350002255007784/1415534435712897124/threads/1533593933861359750"
-    },
-    {
-      "id": "1533096481282723982",
-      "title": "xAI「Imagine Video 1.5」強化、画像・音声参照とネイティブ1080pに対応",
-      "channel": "grok",
-      "category": "Space X",
-      "date": "2026-08-01T12:58:04.693Z",
-      "excerpt": "xAIは2026年7月31日、動画生成モデル「Grok Imagine Video 1.5」に、画像・音声を参照して映像を生成する機能を追加しました。テキストだけからの動画生成、最大7枚の画像参照、人物の顔と声の一貫性維持、ネイティブ1080p出力に対応し…",
-      "source_url": "https://x.ai/news/grok-imagine-video-1-5-references",
-      "source_label": "x.ai",
-      "cover": "assets/posts/1533096481282723982.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1417803120225816596/threads/1533096481282723982"
-    },
-    {
-      "id": "1533016547172548678",
-      "title": "OpenAIの新モデル「Astra」、数学・理論計算機科学の未解決問題10件で新成果",
-      "channel": "open-ai",
-      "category": "Open AI",
-      "date": "2026-08-01T07:40:26.916Z",
-      "excerpt": "OpenAIは2026年8月1日、次世代モデル「Astra」の内部版が、数学と理論計算機科学における10件の長年の未解決問題で新たな成果を生み出したと発表しました。対象は高次元幾何、符号理論、群論、量子計算、格子暗号、組合せ論などに及び、AIが研究支援ツー…",
-      "source_url": "https://openai.com/index/ten-advances-in-mathematics/",
-      "source_label": "openai.com",
-      "cover": "assets/posts/1533016547172548678.png",
-      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1533016547172548678"
-    },
-    {
-      "id": "1532990619868205176",
-      "title": "Google、Gemini Enterpriseのエージェント評価機能を正式提供",
-      "channel": "google",
-      "category": "Google",
-      "date": "2026-08-01T05:57:25.365Z",
-      "excerpt": "Googleは2026年7月31日、Gemini Enterprise Agent Platformにおける「エージェントおよびモデル評価」機能の一般提供を開始しました。開発時のテストから本番稼働後の監視まで、共通の評価指標でAIエージェントの品質を継続的…",
-      "source_url": "https://developers.googleblog.com/agent-and-model-evaluations-in-gemini-enterprise-agent-platform-are-now-ga/",
-      "source_label": "developers.googleblog.com",
-      "cover": "assets/posts/1532990619868205176.png",
-      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1532990619868205176"
-    },
-    {
-      "id": "1532990336828444772",
-      "title": "Google「Genkit Go」がAgent Skills対応、AIエージェントに専門知識をオンデマンド注入",
-      "channel": "google",
-      "category": "Google",
-      "date": "2026-08-01T05:56:17.883Z",
-      "excerpt": "Googleは2026年7月31日、AI開発フレームワーク「Genkit」のGo版で、必要な専門知識だけを動的に読み込む「Agent Skills」の利用方法を公開しました。大量の手順書や業務知識を常時プロンプトへ詰め込まず、要求に応じて選択的に展開するこ…",
-      "source_url": "https://developers.googleblog.com/enable-on-demand-expertise-with-agent-skills-in-genkit-go/",
-      "source_label": "developers.googleblog.com",
-      "cover": "assets/posts/1532990336828444772.jpg",
-      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1532990336828444772"
     }
   ]
 }

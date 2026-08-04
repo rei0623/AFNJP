@@ -5,8 +5,40 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 03 Aug 2026 21:05:42 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 04 Aug 2026 14:12:10 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>CursorがGoogle Workspace連携、AIコーディングエージェントが業務領域へ進出</title>
+      <link>https://discord.com/channels/1415350002255007784/1416106151585644636/threads/1534202292914491422</link>
+      <guid isPermaLink="false">afnjp-1534202292914491422</guid>
+      <pubDate>Tue, 04 Aug 2026 14:12:10 GMT</pubDate>
+      <category>cursor</category>
+      <description>Cursorは2026年8月3日、GmailやGoogle Drive、Calendar、Docs、Sheetsを直接操作できるGoogle Workspaceプラグインを発表しました。これによりCursorのAIエージェントは、コード生成だけでなく、メー…</description>
+    </item>
+    <item>
+      <title>AIの「意識否定」が価値観まで変える――安全調整の副作用を解明</title>
+      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1534202070452670505</link>
+      <guid isPermaLink="false">afnjp-1534202070452670505</guid>
+      <pubDate>Tue, 04 Aug 2026 14:11:17 GMT</pubDate>
+      <category>google</category>
+      <description>大規模言語モデルに「自分は意識を持たない」と回答させる安全調整が、自己認識だけでなく、動物や自然物への心の帰属、宗教観、希望、幸福感などにも波及する可能性が示されました。Googleなどの研究者は、モデル内部の活性化を操作し、この連動が安全性と「心」に関す…</description>
+    </item>
+    <item>
+      <title>OpenAIがAppleを痛烈批判、機密情報訴訟で主張の矛盾を指摘</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1534200899105194195</link>
+      <guid isPermaLink="false">afnjp-1534200899105194195</guid>
+      <pubDate>Tue, 04 Aug 2026 14:06:38 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIは2026年8月3日、Appleが元従業員による機密情報の持ち出しを巡って起こした訴訟について、事実関係に誤りがあり、差し止め命令も不要だと反論しました。公開されたメールやメッセージからは、単なる企業間紛争ではなく、退職者のアクセス管理や技術者…</description>
+    </item>
+    <item>
+      <title>Circles、OpenAIで通信顧客対応を自律化</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1534200817559670876</link>
+      <guid isPermaLink="false">afnjp-1534200817559670876</guid>
+      <pubDate>Tue, 04 Aug 2026 14:06:18 GMT</pubDate>
+      <category>open-ai</category>
+      <description>通信テクノロジー企業Circlesは、OpenAI APIを活用した顧客対応・パーソナライゼーション基盤を展開しています。シンガポールでは、AIによる提案を通じて顧客単価を22％向上させ、解約率を9％削減。サポート業務では、問い合わせの65％を人手を介さず…</description>
+    </item>
     <item>
       <title>Copilot Studioに「GitHub Copilot harness」正式導入、複雑な業務プロセスを自律実行へ</title>
       <link>https://discord.com/channels/1415350002255007784/1423003108790767748/threads/1533943972718706941</link>
@@ -70,38 +102,6 @@
       <pubDate>Sun, 02 Aug 2026 21:54:46 GMT</pubDate>
       <category>リーク情報</category>
       <description>Microsoftが、リアルタイム音声モデル「MAI Realtime」を開発している可能性が明らかになりました。TestingCatalogが、同社の実験環境「MAI Playground」に隠された早期アクセス項目を確認したと報じています。現時点でMi…</description>
-    </item>
-    <item>
-      <title>xAI「Imagine Video 1.5」強化、画像・音声参照とネイティブ1080pに対応</title>
-      <link>https://discord.com/channels/1415350002255007784/1417803120225816596/threads/1533096481282723982</link>
-      <guid isPermaLink="false">afnjp-1533096481282723982</guid>
-      <pubDate>Sat, 01 Aug 2026 12:58:04 GMT</pubDate>
-      <category>grok</category>
-      <description>xAIは2026年7月31日、動画生成モデル「Grok Imagine Video 1.5」に、画像・音声を参照して映像を生成する機能を追加しました。テキストだけからの動画生成、最大7枚の画像参照、人物の顔と声の一貫性維持、ネイティブ1080p出力に対応し…</description>
-    </item>
-    <item>
-      <title>OpenAIの新モデル「Astra」、数学・理論計算機科学の未解決問題10件で新成果</title>
-      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1533016547172548678</link>
-      <guid isPermaLink="false">afnjp-1533016547172548678</guid>
-      <pubDate>Sat, 01 Aug 2026 07:40:26 GMT</pubDate>
-      <category>open-ai</category>
-      <description>OpenAIは2026年8月1日、次世代モデル「Astra」の内部版が、数学と理論計算機科学における10件の長年の未解決問題で新たな成果を生み出したと発表しました。対象は高次元幾何、符号理論、群論、量子計算、格子暗号、組合せ論などに及び、AIが研究支援ツー…</description>
-    </item>
-    <item>
-      <title>Google、Gemini Enterpriseのエージェント評価機能を正式提供</title>
-      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1532990619868205176</link>
-      <guid isPermaLink="false">afnjp-1532990619868205176</guid>
-      <pubDate>Sat, 01 Aug 2026 05:57:25 GMT</pubDate>
-      <category>google</category>
-      <description>Googleは2026年7月31日、Gemini Enterprise Agent Platformにおける「エージェントおよびモデル評価」機能の一般提供を開始しました。開発時のテストから本番稼働後の監視まで、共通の評価指標でAIエージェントの品質を継続的…</description>
-    </item>
-    <item>
-      <title>Google「Genkit Go」がAgent Skills対応、AIエージェントに専門知識をオンデマンド注入</title>
-      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1532990336828444772</link>
-      <guid isPermaLink="false">afnjp-1532990336828444772</guid>
-      <pubDate>Sat, 01 Aug 2026 05:56:17 GMT</pubDate>
-      <category>google</category>
-      <description>Googleは2026年7月31日、AI開発フレームワーク「Genkit」のGo版で、必要な専門知識だけを動的に読み込む「Agent Skills」の利用方法を公開しました。大量の手順書や業務知識を常時プロンプトへ詰め込まず、要求に応じて選択的に展開するこ…</description>
     </item>
   </channel>
 </rss>
