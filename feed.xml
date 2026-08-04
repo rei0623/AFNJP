@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AI Frontier News JP</title>
+    <link>https://rei0623.github.io/AFNJP/</link>
+    <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
+    <language>ja</language>
+    <lastBuildDate>Mon, 03 Aug 2026 21:05:42 GMT</lastBuildDate>
+    <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Copilot Studioに「GitHub Copilot harness」正式導入、複雑な業務プロセスを自律実行へ</title>
+      <link>https://discord.com/channels/1415350002255007784/1423003108790767748/threads/1533943972718706941</link>
+      <guid isPermaLink="false">afnjp-1533943972718706941</guid>
+      <pubDate>Mon, 03 Aug 2026 21:05:42 GMT</pubDate>
+      <category>copilot</category>
+      <description>Microsoftは2026年8月3日、Copilot Studioで複雑かつ長時間に及ぶ業務プロセスを処理する「GitHub Copilot harness」の一般提供を開始しました。単純な対話や定型フローを超え、複数のファイル、知識、コード、外部ツール…</description>
+    </item>
+    <item>
+      <title>OpenAI「GPT-Live」、会話AIをターン制から常時接続へ</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1533943850132045854</link>
+      <guid isPermaLink="false">afnjp-1533943850132045854</guid>
+      <pubDate>Mon, 03 Aug 2026 21:05:13 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIは2026年8月3日、応答性の高い音声AI基盤「GPT-Live」の設計を公開しました。最大の転換点は、ユーザーの発話終了を待って回答する従来方式をやめ、音声の受信と生成を同時に続けるフルデュプレックス構成を採用したことです。0</description>
+    </item>
+    <item>
+      <title>リアルタイムAIの負荷分散、Googleが「セッション重視」を提唱</title>
+      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1533943729097015406</link>
+      <guid isPermaLink="false">afnjp-1533943729097015406</guid>
+      <pubDate>Mon, 03 Aug 2026 21:04:44 GMT</pubDate>
+      <category>google</category>
+      <description>Googleは、音声対話などのリアルタイムAIエージェントを安定して拡張するため、従来のQPSやCPU使用率だけでなく、接続中の「アクティブセッション数」を負荷分散の判断材料に組み込む設計を解説しました。長時間続く双方向通信では、リクエスト数だけを見ても、…</description>
+    </item>
+    <item>
+      <title>Google、Gemini Enterprise向け「プラグイン」を開発か</title>
+      <link>https://discord.com/channels/1415350002255007784/1415534435712897124/threads/1533840221890809908</link>
+      <guid isPermaLink="false">afnjp-1533840221890809908</guid>
+      <pubDate>Mon, 03 Aug 2026 14:13:26 GMT</pubDate>
+      <category>リーク情報</category>
+      <description>Googleが、企業向けAI基盤「Gemini Enterprise」にプラグイン機能と専用の通知領域を追加する準備を進めている可能性が明らかになりました。チャット中心だった生成AIを、社内データや外部サービスを横断して業務を実行する「アプリケーション基盤…</description>
+    </item>
+    <item>
+      <title>MiniMax H3公開、映像とステレオ音声を一体生成するオムニモーダルAI</title>
+      <link>https://discord.com/channels/1415350002255007784/1471542643900158023/threads/1533753014073163898</link>
+      <guid isPermaLink="false">afnjp-1533753014073163898</guid>
+      <pubDate>Mon, 03 Aug 2026 08:26:54 GMT</pubDate>
+      <category>minimax</category>
+      <description>MiniMaxAIは、テキスト・画像・動画・音声を統合的に理解し、最大15秒の映像とステレオ音声を同時生成する「MiniMax H3」をHugging Faceで公開しました。単なる動画生成モデルではなく、複雑な参照素材を解釈し、映像・会話・効果音・音楽を…</description>
+    </item>
+    <item>
+      <title>Qwen3.8-Max登場、2.4兆パラメータで「自律開発」を強化</title>
+      <link>https://discord.com/channels/1415350002255007784/1419932032716243027/threads/1533752882753568910</link>
+      <guid isPermaLink="false">afnjp-1533752882753568910</guid>
+      <pubDate>Mon, 03 Aug 2026 08:26:22 GMT</pubDate>
+      <category>qwen</category>
+      <description>AlibabaのQwenチームは、同シリーズで最も高性能なAIモデル「Qwen3.8-Max」を発表しました。総パラメータ数は2.4兆に達し、コーディング支援だけでなく、長期間にわたってツールを操作し、作業を継続する「AIエージェント」の実用性向上を打ち出…</description>
+    </item>
+    <item>
+      <title>Sakana AI、日本語業務向けLLM API「Sakana Namazu」を提供開始</title>
+      <link>https://discord.com/channels/1415350002255007784/1420683387395375115/threads/1533752767447957544</link>
+      <guid isPermaLink="false">afnjp-1533752767447957544</guid>
+      <pubDate>Mon, 03 Aug 2026 08:25:55 GMT</pubDate>
+      <category>sakana-ai</category>
+      <description>Sakana AIは2026年8月3日、日本語と日本の商習慣に特化した大規模言語モデルAPI「Sakana Namazu」の提供を開始しました。Web検索やコード実行を標準搭載し、OpenAI互換APIとして既存システムへ導入しやすい点が特徴です。</description>
+    </item>
+    <item>
+      <title>Microsoft、双方向音声AI「MAI Realtime」をテスト</title>
+      <link>https://discord.com/channels/1415350002255007784/1415534435712897124/threads/1533593933861359750</link>
+      <guid isPermaLink="false">afnjp-1533593933861359750</guid>
+      <pubDate>Sun, 02 Aug 2026 21:54:46 GMT</pubDate>
+      <category>リーク情報</category>
+      <description>Microsoftが、リアルタイム音声モデル「MAI Realtime」を開発している可能性が明らかになりました。TestingCatalogが、同社の実験環境「MAI Playground」に隠された早期アクセス項目を確認したと報じています。現時点でMi…</description>
+    </item>
+    <item>
+      <title>xAI「Imagine Video 1.5」強化、画像・音声参照とネイティブ1080pに対応</title>
+      <link>https://discord.com/channels/1415350002255007784/1417803120225816596/threads/1533096481282723982</link>
+      <guid isPermaLink="false">afnjp-1533096481282723982</guid>
+      <pubDate>Sat, 01 Aug 2026 12:58:04 GMT</pubDate>
+      <category>grok</category>
+      <description>xAIは2026年7月31日、動画生成モデル「Grok Imagine Video 1.5」に、画像・音声を参照して映像を生成する機能を追加しました。テキストだけからの動画生成、最大7枚の画像参照、人物の顔と声の一貫性維持、ネイティブ1080p出力に対応し…</description>
+    </item>
+    <item>
+      <title>OpenAIの新モデル「Astra」、数学・理論計算機科学の未解決問題10件で新成果</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1533016547172548678</link>
+      <guid isPermaLink="false">afnjp-1533016547172548678</guid>
+      <pubDate>Sat, 01 Aug 2026 07:40:26 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIは2026年8月1日、次世代モデル「Astra」の内部版が、数学と理論計算機科学における10件の長年の未解決問題で新たな成果を生み出したと発表しました。対象は高次元幾何、符号理論、群論、量子計算、格子暗号、組合せ論などに及び、AIが研究支援ツー…</description>
+    </item>
+    <item>
+      <title>Google、Gemini Enterpriseのエージェント評価機能を正式提供</title>
+      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1532990619868205176</link>
+      <guid isPermaLink="false">afnjp-1532990619868205176</guid>
+      <pubDate>Sat, 01 Aug 2026 05:57:25 GMT</pubDate>
+      <category>google</category>
+      <description>Googleは2026年7月31日、Gemini Enterprise Agent Platformにおける「エージェントおよびモデル評価」機能の一般提供を開始しました。開発時のテストから本番稼働後の監視まで、共通の評価指標でAIエージェントの品質を継続的…</description>
+    </item>
+    <item>
+      <title>Google「Genkit Go」がAgent Skills対応、AIエージェントに専門知識をオンデマンド注入</title>
+      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1532990336828444772</link>
+      <guid isPermaLink="false">afnjp-1532990336828444772</guid>
+      <pubDate>Sat, 01 Aug 2026 05:56:17 GMT</pubDate>
+      <category>google</category>
+      <description>Googleは2026年7月31日、AI開発フレームワーク「Genkit」のGo版で、必要な専門知識だけを動的に読み込む「Agent Skills」の利用方法を公開しました。大量の手順書や業務知識を常時プロンプトへ詰め込まず、要求に応じて選択的に展開するこ…</description>
+    </item>
+  </channel>
+</rss>

@@ -25,6 +25,7 @@
     <meta name="twitter:description" content="公式発表を直接確認して、出典リンク付きで日本語記事にしているDiscordコミュニティ。参加無料。">
     <meta name="twitter:image" content="https://rei0623.github.io/AFNJP/AFNJP.jpg">
     <link rel="canonical" href="https://rei0623.github.io/AFNJP/">
+    <link rel="alternate" type="application/rss+xml" title="AI Frontier News JP の最新記事" href="feed.xml">
     <link rel="icon" href="AFNJP.jpg" type="image/jpeg">
 
     <!-- Google Search Console の所有権確認。削除すると確認が外れるので消さないこと。 -->
@@ -1796,10 +1797,133 @@
                     <p class="feed-note" id="feedNote">—</p>
                 </div>
 
-                <div class="cards rv" id="cards"></div>
+                <!-- 記事カードは scripts/generate-seo.mjs が posts.json から自動生成する。
+                     JSを実行しないAIクローラーにも記事が見えるようにするため。
+                     ブラウザではこの中身が最新データで置き換えられる。 -->
+                <div class="cards rv in" id="cards">
+                    <!-- POSTS:START 自動生成。この区間は手で編集しないこと -->
+                    <a class="card" style="animation-delay:0ms"
+                        href="https://discord.com/channels/1415350002255007784/1423003108790767748/threads/1533943972718706941" target="_blank" rel="noopener noreferrer">
+                        <div class="cover"><img src="assets/posts/1533943972718706941.png" alt="" loading="lazy"></div>
+                        <div class="body">
+                            <p class="meta"><span class="tag">#copilot</span><span><time datetime="2026-08-03T21:05:42.397Z">2026.08.04</time></span></p>
+                            <h3>Copilot Studioに「GitHub Copilot harness」正式導入、複雑な業務プロセスを自律実行へ</h3>
+                            <p class="ex">Microsoftは2026年8月3日、Copilot Studioで複雑かつ長時間に及ぶ業務プロセスを処理する「GitHub Copilot harness」の一般提供を開始しました。単純な対話や定型フローを超え、複数のファイル、知識、コード、外部ツール…</p>
+                            <p class="foot">
+                                <span class="src">出典 techcommunity.microsoft.com</span>
+                                <span class="go">Discordで読む ↗</span>
+                            </p>
+                        </div>
+                    </a>
+                    <a class="card" style="animation-delay:45ms"
+                        href="https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1533943850132045854" target="_blank" rel="noopener noreferrer">
+                        <div class="cover"><img src="assets/posts/1533943850132045854.png" alt="" loading="lazy"></div>
+                        <div class="body">
+                            <p class="meta"><span class="tag">#open-ai</span><span><time datetime="2026-08-03T21:05:13.170Z">2026.08.04</time></span></p>
+                            <h3>OpenAI「GPT-Live」、会話AIをターン制から常時接続へ</h3>
+                            <p class="ex">OpenAIは2026年8月3日、応答性の高い音声AI基盤「GPT-Live」の設計を公開しました。最大の転換点は、ユーザーの発話終了を待って回答する従来方式をやめ、音声の受信と生成を同時に続けるフルデュプレックス構成を採用したことです。0</p>
+                            <p class="foot">
+                                <span class="src">出典 openai.com</span>
+                                <span class="go">Discordで読む ↗</span>
+                            </p>
+                        </div>
+                    </a>
+                    <a class="card" style="animation-delay:90ms"
+                        href="https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1533943729097015406" target="_blank" rel="noopener noreferrer">
+                        <div class="cover"><img src="assets/posts/1533943729097015406.png" alt="" loading="lazy"></div>
+                        <div class="body">
+                            <p class="meta"><span class="tag">#google</span><span><time datetime="2026-08-03T21:04:44.313Z">2026.08.04</time></span></p>
+                            <h3>リアルタイムAIの負荷分散、Googleが「セッション重視」を提唱</h3>
+                            <p class="ex">Googleは、音声対話などのリアルタイムAIエージェントを安定して拡張するため、従来のQPSやCPU使用率だけでなく、接続中の「アクティブセッション数」を負荷分散の判断材料に組み込む設計を解説しました。長時間続く双方向通信では、リクエスト数だけを見ても、…</p>
+                            <p class="foot">
+                                <span class="src">出典 developers.googleblog.com</span>
+                                <span class="go">Discordで読む ↗</span>
+                            </p>
+                        </div>
+                    </a>
+                    <a class="card" style="animation-delay:135ms"
+                        href="https://discord.com/channels/1415350002255007784/1415534435712897124/threads/1533840221890809908" target="_blank" rel="noopener noreferrer">
+                        <div class="cover"><img src="assets/posts/1533840221890809908.jpg" alt="" loading="lazy"></div>
+                        <div class="body">
+                            <p class="meta"><span class="tag">#リーク情報</span><span><time datetime="2026-08-03T14:13:26.272Z">2026.08.03</time></span></p>
+                            <h3>Google、Gemini Enterprise向け「プラグイン」を開発か</h3>
+                            <p class="ex">Googleが、企業向けAI基盤「Gemini Enterprise」にプラグイン機能と専用の通知領域を追加する準備を進めている可能性が明らかになりました。チャット中心だった生成AIを、社内データや外部サービスを横断して業務を実行する「アプリケーション基盤…</p>
+                            <p class="foot">
+                                <span class="src">出典 testingcatalog.com</span>
+                                <span class="go">Discordで読む ↗</span>
+                            </p>
+                        </div>
+                    </a>
+                    <a class="card" style="animation-delay:180ms"
+                        href="https://discord.com/channels/1415350002255007784/1471542643900158023/threads/1533753014073163898" target="_blank" rel="noopener noreferrer">
+                        <div class="cover"><img src="assets/posts/1533753014073163898.png" alt="" loading="lazy"></div>
+                        <div class="body">
+                            <p class="meta"><span class="tag">#minimax</span><span><time datetime="2026-08-03T08:26:54.308Z">2026.08.03</time></span></p>
+                            <h3>MiniMax H3公開、映像とステレオ音声を一体生成するオムニモーダルAI</h3>
+                            <p class="ex">MiniMaxAIは、テキスト・画像・動画・音声を統合的に理解し、最大15秒の映像とステレオ音声を同時生成する「MiniMax H3」をHugging Faceで公開しました。単なる動画生成モデルではなく、複雑な参照素材を解釈し、映像・会話・効果音・音楽を…</p>
+                            <p class="foot">
+                                <span class="src">出典 huggingface.co</span>
+                                <span class="go">Discordで読む ↗</span>
+                            </p>
+                        </div>
+                    </a>
+                    <a class="card" style="animation-delay:225ms"
+                        href="https://discord.com/channels/1415350002255007784/1419932032716243027/threads/1533752882753568910" target="_blank" rel="noopener noreferrer">
+                        <div class="cover"><img src="assets/posts/1533752882753568910.png" alt="" loading="lazy"></div>
+                        <div class="body">
+                            <p class="meta"><span class="tag">#qwen</span><span><time datetime="2026-08-03T08:26:22.999Z">2026.08.03</time></span></p>
+                            <h3>Qwen3.8-Max登場、2.4兆パラメータで「自律開発」を強化</h3>
+                            <p class="ex">AlibabaのQwenチームは、同シリーズで最も高性能なAIモデル「Qwen3.8-Max」を発表しました。総パラメータ数は2.4兆に達し、コーディング支援だけでなく、長期間にわたってツールを操作し、作業を継続する「AIエージェント」の実用性向上を打ち出…</p>
+                            <p class="foot">
+                                <span class="src">出典 qwen.ai</span>
+                                <span class="go">Discordで読む ↗</span>
+                            </p>
+                        </div>
+                    </a>
+                    <a class="card" style="animation-delay:270ms"
+                        href="https://discord.com/channels/1415350002255007784/1420683387395375115/threads/1533752767447957544" target="_blank" rel="noopener noreferrer">
+                        <div class="cover"><img src="assets/posts/1533752767447957544.png" alt="" loading="lazy"></div>
+                        <div class="body">
+                            <p class="meta"><span class="tag">#sakana-ai</span><span><time datetime="2026-08-03T08:25:55.508Z">2026.08.03</time></span></p>
+                            <h3>Sakana AI、日本語業務向けLLM API「Sakana Namazu」を提供開始</h3>
+                            <p class="ex">Sakana AIは2026年8月3日、日本語と日本の商習慣に特化した大規模言語モデルAPI「Sakana Namazu」の提供を開始しました。Web検索やコード実行を標準搭載し、OpenAI互換APIとして既存システムへ導入しやすい点が特徴です。</p>
+                            <p class="foot">
+                                <span class="src">出典 sakana.ai</span>
+                                <span class="go">Discordで読む ↗</span>
+                            </p>
+                        </div>
+                    </a>
+                    <a class="card" style="animation-delay:315ms"
+                        href="https://discord.com/channels/1415350002255007784/1415534435712897124/threads/1533593933861359750" target="_blank" rel="noopener noreferrer">
+                        <div class="cover"><img src="assets/posts/1533593933861359750.jpg" alt="" loading="lazy"></div>
+                        <div class="body">
+                            <p class="meta"><span class="tag">#リーク情報</span><span><time datetime="2026-08-02T21:54:46.630Z">2026.08.03</time></span></p>
+                            <h3>Microsoft、双方向音声AI「MAI Realtime」をテスト</h3>
+                            <p class="ex">Microsoftが、リアルタイム音声モデル「MAI Realtime」を開発している可能性が明らかになりました。TestingCatalogが、同社の実験環境「MAI Playground」に隠された早期アクセス項目を確認したと報じています。現時点でMi…</p>
+                            <p class="foot">
+                                <span class="src">出典 testingcatalog.com</span>
+                                <span class="go">Discordで読む ↗</span>
+                            </p>
+                        </div>
+                    </a>
+                    <a class="card" style="animation-delay:360ms"
+                        href="https://discord.com/channels/1415350002255007784/1417803120225816596/threads/1533096481282723982" target="_blank" rel="noopener noreferrer">
+                        <div class="cover"><img src="assets/posts/1533096481282723982.webp" alt="" loading="lazy"></div>
+                        <div class="body">
+                            <p class="meta"><span class="tag">#grok</span><span><time datetime="2026-08-01T12:58:04.693Z">2026.08.01</time></span></p>
+                            <h3>xAI「Imagine Video 1.5」強化、画像・音声参照とネイティブ1080pに対応</h3>
+                            <p class="ex">xAIは2026年7月31日、動画生成モデル「Grok Imagine Video 1.5」に、画像・音声を参照して映像を生成する機能を追加しました。テキストだけからの動画生成、最大7枚の画像参照、人物の顔と声の一貫性維持、ネイティブ1080p出力に対応し…</p>
+                            <p class="foot">
+                                <span class="src">出典 x.ai</span>
+                                <span class="go">Discordで読む ↗</span>
+                            </p>
+                        </div>
+                    </a>
+                    <!-- POSTS:END -->
+                </div>
 
                 <noscript>
-                    <p class="lead">最新記事の一覧表示にはJavaScriptが必要です。海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きの日本語記事として毎日投稿しています。最新記事は
+                    <p class="lead">上の一覧は1時間ごとに更新される、その時点のものです。海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きの日本語記事として毎日投稿しています。より新しい記事は
                         <a href="https://discord.gg/WUWE6Ev7yh" target="_blank" rel="noopener noreferrer">Discordサーバー</a>または
                         <a href="https://twitter.com/AI_FrontierNews" target="_blank" rel="noopener noreferrer">X（@AI_FrontierNews）</a>でご覧いただけます。
                     </p>
@@ -1994,7 +2118,145 @@
                     <p class="ch-meta"><span id="chHit">—</span><br><span id="chSync"></span></p>
                 </div>
 
-                <div class="groups rv" id="groups"></div>
+                <!-- チャンネル一覧も scripts/generate-seo.mjs が channels.json から自動生成する。 -->
+                <div class="groups rv in" id="groups">
+                    <!-- CHANNELS:START 自動生成。この区間は手で編集しないこと -->
+                    <div class="group">
+                        <h4>Welcome &amp; Info<span class="n">3</span></h4>
+                        <div class="chlist">
+                        <span class="ch" style="animation-delay:0ms"><span class="h">#</span>はじめに</span>
+                        <span class="ch" style="animation-delay:8ms"><span class="h">#</span>免責事項</span>
+                        <span class="ch" style="animation-delay:16ms"><span class="h">#</span>アナウンス</span>
+                        </div>
+                    </div>
+                    <div class="group">
+                        <h4>コミュニティ<span class="n">3</span></h4>
+                        <div class="chlist">
+                        <span class="ch" style="animation-delay:24ms"><span class="h">#</span>ご意見 ご要望</span>
+                        <span class="ch" style="animation-delay:32ms"><span class="h">#</span>一般</span>
+                        <span class="ch" style="animation-delay:40ms"><span class="h">#</span>ユースケース</span>
+                        </div>
+                    </div>
+                    <div class="group">
+                        <h4>デイリーレポート<span class="n">2</span></h4>
+                        <div class="chlist">
+                        <span class="ch" style="animation-delay:48ms"><span class="h">#</span>ニュースをおさらい！</span>
+                        <span class="ch" style="animation-delay:56ms"><span class="h">#</span>今週のニュースランキング</span>
+                        </div>
+                    </div>
+                    <div class="group">
+                        <h4>ライブ配信 イベント情報<span class="n">2</span></h4>
+                        <div class="chlist">
+                        <span class="ch" style="animation-delay:64ms"><span class="h">#</span>ライブ配信 イベント情報</span>
+                        <span class="ch" style="animation-delay:72ms"><span class="h">#</span>告知 宣伝</span>
+                        </div>
+                    </div>
+                    <div class="group">
+                        <h4>Google<span class="n">10</span></h4>
+                        <div class="chlist">
+                        <span class="ch" style="animation-delay:80ms"><span class="h">#</span>google</span>
+                        <span class="ch" style="animation-delay:88ms"><span class="h">#</span>gemini</span>
+                        <span class="ch" style="animation-delay:96ms"><span class="h">#</span>geminicli</span>
+                        <span class="ch" style="animation-delay:104ms"><span class="h">#</span>antigravity</span>
+                        <span class="ch" style="animation-delay:112ms"><span class="h">#</span>jules</span>
+                        <span class="ch" style="animation-delay:120ms"><span class="h">#</span>firebase</span>
+                        <span class="ch" style="animation-delay:128ms"><span class="h">#</span>google-ai-studio</span>
+                        <span class="ch" style="animation-delay:136ms"><span class="h">#</span>gemini-notebook</span>
+                        <span class="ch" style="animation-delay:144ms"><span class="h">#</span>google-labs</span>
+                        <span class="ch" style="animation-delay:152ms"><span class="h">#</span>stitch</span>
+                        </div>
+                    </div>
+                    <div class="group">
+                        <h4>Open AI<span class="n">4</span></h4>
+                        <div class="chlist">
+                        <span class="ch" style="animation-delay:160ms"><span class="h">#</span>open-ai</span>
+                        <span class="ch" style="animation-delay:168ms"><span class="h">#</span>chatgpt</span>
+                        <span class="ch" style="animation-delay:176ms"><span class="h">#</span>codex</span>
+                        <span class="ch" style="animation-delay:184ms"><span class="h">#</span>sora</span>
+                        </div>
+                    </div>
+                    <div class="group">
+                        <h4>Anthropic<span class="n">3</span></h4>
+                        <div class="chlist">
+                        <span class="ch" style="animation-delay:192ms"><span class="h">#</span>anthropic</span>
+                        <span class="ch" style="animation-delay:200ms"><span class="h">#</span>claude</span>
+                        <span class="ch" style="animation-delay:208ms"><span class="h">#</span>claude-code</span>
+                        </div>
+                    </div>
+                    <div class="group">
+                        <h4>Space X<span class="n">3</span></h4>
+                        <div class="chlist">
+                        <span class="ch" style="animation-delay:216ms"><span class="h">#</span>space-x</span>
+                        <span class="ch" style="animation-delay:224ms"><span class="h">#</span>grok</span>
+                        <span class="ch" style="animation-delay:232ms"><span class="h">#</span>grok-code</span>
+                        </div>
+                    </div>
+                    <div class="group">
+                        <h4>Microsoft<span class="n">2</span></h4>
+                        <div class="chlist">
+                        <span class="ch" style="animation-delay:240ms"><span class="h">#</span>microsoft</span>
+                        <span class="ch" style="animation-delay:248ms"><span class="h">#</span>copilot</span>
+                        </div>
+                    </div>
+                    <div class="group">
+                        <h4>Meta<span class="n">3</span></h4>
+                        <div class="chlist">
+                        <span class="ch" style="animation-delay:256ms"><span class="h">#</span>meta</span>
+                        <span class="ch" style="animation-delay:264ms"><span class="h">#</span>manus</span>
+                        <span class="ch" style="animation-delay:272ms"><span class="h">#</span>muse-spark</span>
+                        </div>
+                    </div>
+                    <div class="group">
+                        <h4>Alibaba<span class="n">3</span></h4>
+                        <div class="chlist">
+                        <span class="ch" style="animation-delay:280ms"><span class="h">#</span>alibaba</span>
+                        <span class="ch" style="animation-delay:280ms"><span class="h">#</span>qwen</span>
+                        <span class="ch" style="animation-delay:280ms"><span class="h">#</span>qwen-code</span>
+                        </div>
+                    </div>
+                    <div class="group">
+                        <h4>その他<span class="n">17</span></h4>
+                        <div class="chlist">
+                        <span class="ch" style="animation-delay:280ms"><span class="h">#</span>kimi</span>
+                        <span class="ch" style="animation-delay:280ms"><span class="h">#</span>glm</span>
+                        <span class="ch" style="animation-delay:280ms"><span class="h">#</span>deep-seek</span>
+                        <span class="ch" style="animation-delay:280ms"><span class="h">#</span>mistral-ai</span>
+                        <span class="ch" style="animation-delay:280ms"><span class="h">#</span>hunyuan</span>
+                        <span class="ch" style="animation-delay:280ms"><span class="h">#</span>minimax</span>
+                        <span class="ch" style="animation-delay:280ms"><span class="h">#</span>genspark</span>
+                        <span class="ch" style="animation-delay:280ms"><span class="h">#</span>perplexity</span>
+                        <span class="ch" style="animation-delay:280ms"><span class="h">#</span>skywork</span>
+                        <span class="ch" style="animation-delay:280ms"><span class="h">#</span>cursor</span>
+                        <span class="ch" style="animation-delay:280ms"><span class="h">#</span>wind-surf</span>
+                        <span class="ch" style="animation-delay:280ms"><span class="h">#</span>kiro</span>
+                        <span class="ch" style="animation-delay:280ms"><span class="h">#</span>qoder</span>
+                        <span class="ch" style="animation-delay:280ms"><span class="h">#</span>open-code</span>
+                        <span class="ch" style="animation-delay:280ms"><span class="h">#</span>eleven-labs</span>
+                        <span class="ch" style="animation-delay:280ms"><span class="h">#</span>open-claw</span>
+                        <span class="ch" style="animation-delay:280ms"><span class="h">#</span>その他</span>
+                        </div>
+                    </div>
+                    <div class="group">
+                        <h4>モデルの比較<span class="n">1</span></h4>
+                        <div class="chlist">
+                        <span class="ch" style="animation-delay:280ms"><span class="h">#</span>arena-ai</span>
+                        </div>
+                    </div>
+                    <div class="group">
+                        <h4>リーク情報<span class="n">1</span></h4>
+                        <div class="chlist">
+                        <span class="ch" style="animation-delay:280ms"><span class="h">#</span>リーク情報</span>
+                        </div>
+                    </div>
+                    <div class="group">
+                        <h4>日本国内<span class="n">2</span></h4>
+                        <div class="chlist">
+                        <span class="ch" style="animation-delay:280ms"><span class="h">#</span>日本国内</span>
+                        <span class="ch" style="animation-delay:280ms"><span class="h">#</span>sakana-ai</span>
+                        </div>
+                    </div>
+                    <!-- CHANNELS:END -->
+                </div>
             </section>
 
             <!-- ════ 06 よくある質問 ════ -->
@@ -2165,7 +2427,11 @@
                 const host = $('#cards');
                 host.classList.add('in');
                 const posts = (data.posts || []).slice(0, 9);
-                if (!posts.length) { host.innerHTML = ''; return; }
+                if (!posts.length) {
+                    // 取得できたが0件だった場合も、静的に埋め込まれたカードは消さずに残す
+                    if (!host.querySelector('.card')) host.innerHTML = '';
+                    return;
+                }
 
                 host.innerHTML = posts.map((p, i) => {
                     // カード全体が1つのリンクで、直下の h3 に同じタイトルがあるため、
@@ -2199,8 +2465,14 @@
                 .then(r => r.ok ? r.json() : Promise.reject())
                 .then(renderPosts)
                 .catch(() => {
-                    $('#cards').innerHTML = '<p class="nohit">記事データを読み込めませんでした。DiscordのサーバーでAI関連の最新記事をご覧いただけます。</p>';
-                    $('#feedNote').textContent = '';
+                    const host = $('#cards');
+                    // 静的に埋め込まれたカードがあるときは、それを消さずに残す
+                    if (!host.querySelector('.card')) {
+                        host.innerHTML = '<p class="nohit">記事データを読み込めませんでした。DiscordのサーバーでAI関連の最新記事をご覧いただけます。</p>';
+                        $('#feedNote').textContent = '';
+                    } else {
+                        $('#feedNote').textContent = '最新の取得に失敗しました';
+                    }
                 });
 
             /* ══════ 稜線グラフ ══════ */
