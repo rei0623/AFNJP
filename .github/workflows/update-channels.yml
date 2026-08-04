@@ -45,9 +45,18 @@ jobs:
         continue-on-error: true
         run: node scripts/generate-seo.mjs
 
+      # 新しい記事の X 投稿用の下書きを組み立て、Discord の #x-下書き へ送る。
+      # X API は使わない（無料）。投稿はコピペで人が行う。
+      # 失敗しても Discord データの同期は止めない。
+      - name: Post X drafts to Discord
+        continue-on-error: true
+        env:
+          DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
+        run: node scripts/post-x-drafts.mjs
+
       - name: Commit if changed
         run: |
-          git add -A channels.json posts.json assets/posts index.html feed.xml sitemap.xml
+          git add -A channels.json posts.json assets/posts index.html feed.xml sitemap.xml .x-drafted.json
           if git diff --cached --quiet; then
             echo "変化なし。コミットしません。"
             exit 0
