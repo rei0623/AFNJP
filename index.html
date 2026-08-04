@@ -51,6 +51,46 @@
           "name": "AI Frontier News JP",
           "inLanguage": "ja-JP",
           "publisher": { "@id": "https://rei0623.github.io/AFNJP/#org" }
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://rei0623.github.io/AFNJP/#faq",
+          "inLanguage": "ja-JP",
+          "isPartOf": { "@id": "https://rei0623.github.io/AFNJP/#org" },
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "どのようなAIニュースを読めますか？",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "OpenAI・Anthropic・Google・Microsoft など主要AI企業の公式発表やモデルリリースを中心に、海外のAIニュースを日本語で読めます。記事には確認した一次情報への出典リンクが付きます。"
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "記事はどのように作られていますか？",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "管理人が公式発表やリリースノートなどの一次情報を直接確認し、出典リンク付きの日本語記事として投稿しています。執筆にはAIを補助として使っていますが、取り上げるニュースの選定と、公開する文章の確認・編集は人が行っています。"
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "参加は無料ですか？",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "無料です。登録費用も審査もなく、Discordアカウントがあれば30秒で参加できます。読むだけの参加も歓迎です。"
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "興味のある話題だけ追えますか？",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "企業別・モデル別にチャンネルが分かれているので、興味のある部屋だけ通知をONにして読めます。"
+              }
+            }
+          ]
         }
       ]
     }
@@ -2128,8 +2168,10 @@
                 if (!posts.length) { host.innerHTML = ''; return; }
 
                 host.innerHTML = posts.map((p, i) => {
+                    // カード全体が1つのリンクで、直下の h3 に同じタイトルがあるため、
+                    // カバー画像は装飾扱い（alt=""）にして読み上げの重複を避ける
                     const cover = p.cover
-                        ? `<div class="cover"><img src="${esc(p.cover)}" alt="${esc(p.title)}" loading="lazy"></div>`
+                        ? `<div class="cover"><img src="${esc(p.cover)}" alt="" loading="lazy"></div>`
                         : `<div class="cover blank">${RIDGE_SVG}<span class="ch"># ${esc(p.channel)}</span></div>`;
                     const when = ago(p.date);
                     return `<a class="card" style="animation-delay:${Math.min(i * 45, 400)}ms"
