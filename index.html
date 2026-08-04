@@ -1883,7 +1883,7 @@
                 </div>
 
                 <noscript>
-                    <p class="lead">最新記事の一覧表示にはJavaScriptが必要です。海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きの日本語記事として毎日投稿しています。最新記事は
+                    <p class="lead">上の一覧は1時間ごとに更新される、その時点のものです。海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きの日本語記事として毎日投稿しています。より新しい記事は
                         <a href="https://discord.gg/WUWE6Ev7yh" target="_blank" rel="noopener noreferrer">Discordサーバー</a>または
                         <a href="https://twitter.com/AI_FrontierNews" target="_blank" rel="noopener noreferrer">X（@AI_FrontierNews）</a>でご覧いただけます。
                     </p>
@@ -2387,7 +2387,11 @@
                 const host = $('#cards');
                 host.classList.add('in');
                 const posts = (data.posts || []).slice(0, 9);
-                if (!posts.length) { host.innerHTML = ''; return; }
+                if (!posts.length) {
+                    // 取得できたが0件だった場合も、静的に埋め込まれたカードは消さずに残す
+                    if (!host.querySelector('.card')) host.innerHTML = '';
+                    return;
+                }
 
                 host.innerHTML = posts.map((p, i) => {
                     const cover = p.cover

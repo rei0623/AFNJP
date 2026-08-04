@@ -64,8 +64,30 @@ const COVER_PATH = /^assets\/posts\/[A-Za-z0-9._-]+$/;
 
 /* ═══════════ 小さな道具 ═══════════ */
 
+/**
+ * 出力に混ぜてはいけない文字。
+ * XML 1.0 が禁じる C0 制御文字と、対を欠いたサロゲートを対象にする。
+ * HTML はこれらがあってもブラウザが読み飛ばすが、XML は1文字でパース全体が失敗する。
+ * Discord の本文にターミナル出力や PDF からの貼り付けが混じると ESC(U+001B) などが
+ * 紛れ込みうるため、HTML / XML の両方から除去する。
+ * タブ・改行・復帰(U+0009 / U+000A / U+000D)は有効な文字なので残す。
+ */
+const FORBIDDEN_SRC = '[\\u0000-\\u0008\\u000B\\u000C\\u000E-\\u001F\\uFFFE\\uFFFF]';
+const LONE_SURROGATE_SRC = '[\\uD800-\\uDBFF](?![\\uDC00-\\uDFFF])|(?<![\\uD800-\\uDBFF])[\\uDC00-\\uDFFF]';
+
+// 除去用は g 付き、判定用は g なし。g 付きの正規表現に test() を使うと
+// lastIndex が進んで2回目以降の結果が変わってしまうため、用途ごとに分ける。
+const FORBIDDEN_G = new RegExp(FORBIDDEN_SRC, 'g');
+const LONE_SURROGATE_G = new RegExp(LONE_SURROGATE_SRC, 'g');
+const hasUnsafeChars = text =>
+    new RegExp(FORBIDDEN_SRC).test(text) || new RegExp(LONE_SURROGATE_SRC).test(text);
+
+const stripUnsafeChars = s => String(s ?? '')
+    .replace(LONE_SURROGATE_G, '')
+    .replace(FORBIDDEN_G, '');
+
 /** HTML のテキスト・属性値の両方に使えるエスケープ。' も落とす（属性を壊さないため） */
-const escHtml = s => String(s ?? '').replace(/[&<>"']/g, m => ({
+const escHtml = s => stripUnsafeChars(s).replace(/[&<>"']/g, m => ({
     '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;',
 }[m]));
 
@@ -383,18 +405,48 @@ if (!problems.length) {
 if (outHtml.length < srcHtml.length * 0.5 || outHtml.length > srcHtml.length * 2) {
     problems.push(`出力サイズが不自然です（${srcHtml.length} → ${outHtml.length} バイト）`);
 }
+
+/* ── feed.xml / sitemap.xml も同じゲートで検証する ──
+   XML は1文字でもパース不能になると全体が読めなくなるため、
+   index.html と同じく「検証を通ってから書く」方針に揃える。 */
+const dates = allPosts.map(p => new Date(p.date).getTime()).filter(t => !Number.isNaN(t));
+const latestIso = dates.length ? new Date(Math.max(...dates)).toISOString() : null;
+
+const feedPosts = allPosts.slice(0, FEED_POSTS);
+const feedXml = buildFeed(feedPosts, latestIso);
+const sitemapXml = buildSitemap(latestIso);
+
+const expectedItems = feedPosts.filter(p => safeLink(p.url)).length;
+if (countOf(feedXml, '<item>') !== expectedItems) {
+    problems.push(`feed.xml の item 数が ${countOf(feedXml, '<item>')} 件で、期待の ${expectedItems} 件と一致しません`);
+}
+if (countOf(feedXml, '<item>') !== countOf(feedXml, '</item>')) {
+    problems.push('feed.xml の <item> と </item> の数が一致しません');
+}
+// 検査対象は「このスクリプトが生成した部分」に限る。
+// index.html 全体を対象にすると、マーカー外に想定外の文字が1つあるだけで
+// 以後ずっと更新が止まってしまうため。
+for (const [label, text] of [
+    ['index.html の記事カード', cards.join('')],
+    ['index.html のチャンネル一覧', groupBlocks.join('')],
+    ['feed.xml', feedXml],
+    ['sitemap.xml', sitemapXml],
+]) {
+    if (hasUnsafeChars(text)) {
+        problems.push(`${label}に出力してはいけない文字（制御文字など）が残っています`);
+    }
+}
+for (const [label, xml] of [['feed.xml', feedXml], ['sitemap.xml', sitemapXml]]) {
+    if (!xml.trimEnd().endsWith('>')) problems.push(`${label} が途中で終わっています`);
+}
+if (!feedXml.trimEnd().endsWith('</rss>')) problems.push('feed.xml が </rss> で終わっていません');
+if (!sitemapXml.trimEnd().endsWith('</urlset>')) problems.push('sitemap.xml が </urlset> で終わっていません');
+
 if (problems.length) {
     console.error('✗ 生成結果の検証に失敗しました。ファイルは変更しません。');
     for (const p of problems) console.error(`   - ${p}`);
     process.exit(1);
 }
-
-/* ── feed.xml / sitemap.xml ── */
-const dates = allPosts.map(p => new Date(p.date).getTime()).filter(t => !Number.isNaN(t));
-const latestIso = dates.length ? new Date(Math.max(...dates)).toISOString() : null;
-
-const feedXml = buildFeed(allPosts.slice(0, FEED_POSTS), latestIso);
-const sitemapXml = buildSitemap(latestIso);
 
 /* ── すべての検証を通ってから書き込む（一時ファイル経由で rename） ── */
 async function writeAtomic(path, content) {
