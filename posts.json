@@ -1,8 +1,32 @@
 {
-  "generated_at": "2026-08-04T15:51:28.600Z",
+  "generated_at": "2026-08-04T17:02:00.265Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1534230551462940833",
+      "title": "Google Cloud、AIモデル切り替えを統一APIで実現",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-08-04T16:04:28.094Z",
+      "excerpt": "Googleは2026年8月4日、Google Cloud API GatewayにAIモデルルーティング機能を追加し、パブリックプレビューとして提供開始しました。アプリケーション側の接続先を個別実装せず、OpenAI互換APIを通じてGemini、Cla…",
+      "source_url": "https://developers.googleblog.com/a-unified-api-for-ai-model-routing/",
+      "source_label": "developers.googleblog.com",
+      "cover": "assets/posts/1534230551462940833.jpg",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1534230551462940833"
+    },
+    {
+      "id": "1534229773734383637",
+      "title": "35万人が学んだ「Vibe Coding」、GoogleとKaggleが示すAIエージェント開発の現在地",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-08-04T16:01:22.669Z",
+      "excerpt": "GoogleとKaggleは、自然言語を使ってAIエージェントを構築する5日間の集中講座「AI Agents: Intensive Vibe Coding」の成果を公開しました。登録者は35万3,000人を超え、試作中心だったVibe Codingを、安全…",
+      "source_url": "https://blog.google/innovation-and-ai/technology/developers-tools/ai-agents-intensive-recap-2026/",
+      "source_label": "blog.google",
+      "cover": "assets/posts/1534229773734383637.png",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1534229773734383637"
+    },
     {
       "id": "1534202292914491422",
       "title": "CursorがGoogle Workspace連携、AIコーディングエージェントが業務領域へ進出",
@@ -122,30 +146,6 @@
       "source_label": "qwen.ai",
       "cover": "assets/posts/1533752882753568910.png",
       "url": "https://discord.com/channels/1415350002255007784/1419932032716243027/threads/1533752882753568910"
-    },
-    {
-      "id": "1533752767447957544",
-      "title": "Sakana AI、日本語業務向けLLM API「Sakana Namazu」を提供開始",
-      "channel": "sakana-ai",
-      "category": "日本国内",
-      "date": "2026-08-03T08:25:55.508Z",
-      "excerpt": "Sakana AIは2026年8月3日、日本語と日本の商習慣に特化した大規模言語モデルAPI「Sakana Namazu」の提供を開始しました。Web検索やコード実行を標準搭載し、OpenAI互換APIとして既存システムへ導入しやすい点が特徴です。",
-      "source_url": "https://sakana.ai/namazu-api/",
-      "source_label": "sakana.ai",
-      "cover": "assets/posts/1533752767447957544.png",
-      "url": "https://discord.com/channels/1415350002255007784/1420683387395375115/threads/1533752767447957544"
-    },
-    {
-      "id": "1533593933861359750",
-      "title": "Microsoft、双方向音声AI「MAI Realtime」をテスト",
-      "channel": "リーク情報",
-      "category": "リーク情報",
-      "date": "2026-08-02T21:54:46.630Z",
-      "excerpt": "Microsoftが、リアルタイム音声モデル「MAI Realtime」を開発している可能性が明らかになりました。TestingCatalogが、同社の実験環境「MAI Playground」に隠された早期アクセス項目を確認したと報じています。現時点でMi…",
-      "source_url": "https://www.testingcatalog.com/exclusive-microsoft-tests-new-mai-realtime-voice-model/",
-      "source_label": "testingcatalog.com",
-      "cover": "assets/posts/1533593933861359750.jpg",
-      "url": "https://discord.com/channels/1415350002255007784/1415534435712897124/threads/1533593933861359750"
     }
   ]
 }

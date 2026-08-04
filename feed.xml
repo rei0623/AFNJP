@@ -5,8 +5,24 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 04 Aug 2026 14:12:10 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 04 Aug 2026 16:04:28 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Google Cloud、AIモデル切り替えを統一APIで実現</title>
+      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1534230551462940833</link>
+      <guid isPermaLink="false">afnjp-1534230551462940833</guid>
+      <pubDate>Tue, 04 Aug 2026 16:04:28 GMT</pubDate>
+      <category>google</category>
+      <description>Googleは2026年8月4日、Google Cloud API GatewayにAIモデルルーティング機能を追加し、パブリックプレビューとして提供開始しました。アプリケーション側の接続先を個別実装せず、OpenAI互換APIを通じてGemini、Cla…</description>
+    </item>
+    <item>
+      <title>35万人が学んだ「Vibe Coding」、GoogleとKaggleが示すAIエージェント開発の現在地</title>
+      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1534229773734383637</link>
+      <guid isPermaLink="false">afnjp-1534229773734383637</guid>
+      <pubDate>Tue, 04 Aug 2026 16:01:22 GMT</pubDate>
+      <category>google</category>
+      <description>GoogleとKaggleは、自然言語を使ってAIエージェントを構築する5日間の集中講座「AI Agents: Intensive Vibe Coding」の成果を公開しました。登録者は35万3,000人を超え、試作中心だったVibe Codingを、安全…</description>
+    </item>
     <item>
       <title>CursorがGoogle Workspace連携、AIコーディングエージェントが業務領域へ進出</title>
       <link>https://discord.com/channels/1415350002255007784/1416106151585644636/threads/1534202292914491422</link>
@@ -86,22 +102,6 @@
       <pubDate>Mon, 03 Aug 2026 08:26:22 GMT</pubDate>
       <category>qwen</category>
       <description>AlibabaのQwenチームは、同シリーズで最も高性能なAIモデル「Qwen3.8-Max」を発表しました。総パラメータ数は2.4兆に達し、コーディング支援だけでなく、長期間にわたってツールを操作し、作業を継続する「AIエージェント」の実用性向上を打ち出…</description>
-    </item>
-    <item>
-      <title>Sakana AI、日本語業務向けLLM API「Sakana Namazu」を提供開始</title>
-      <link>https://discord.com/channels/1415350002255007784/1420683387395375115/threads/1533752767447957544</link>
-      <guid isPermaLink="false">afnjp-1533752767447957544</guid>
-      <pubDate>Mon, 03 Aug 2026 08:25:55 GMT</pubDate>
-      <category>sakana-ai</category>
-      <description>Sakana AIは2026年8月3日、日本語と日本の商習慣に特化した大規模言語モデルAPI「Sakana Namazu」の提供を開始しました。Web検索やコード実行を標準搭載し、OpenAI互換APIとして既存システムへ導入しやすい点が特徴です。</description>
-    </item>
-    <item>
-      <title>Microsoft、双方向音声AI「MAI Realtime」をテスト</title>
-      <link>https://discord.com/channels/1415350002255007784/1415534435712897124/threads/1533593933861359750</link>
-      <guid isPermaLink="false">afnjp-1533593933861359750</guid>
-      <pubDate>Sun, 02 Aug 2026 21:54:46 GMT</pubDate>
-      <category>リーク情報</category>
-      <description>Microsoftが、リアルタイム音声モデル「MAI Realtime」を開発している可能性が明らかになりました。TestingCatalogが、同社の実験環境「MAI Playground」に隠された早期アクセス項目を確認したと報じています。現時点でMi…</description>
     </item>
   </channel>
 </rss>
