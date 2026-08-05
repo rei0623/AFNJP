@@ -1,8 +1,92 @@
 {
-  "generated_at": "2026-08-05T14:33:07.204Z",
+  "generated_at": "2026-08-05T16:51:35.134Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1534597816624615494",
+      "title": "OpenAI Codex 0.146.1公開、サイバー対応モデルの権限設定を安全側へ修正",
+      "channel": "codex",
+      "category": "Open AI",
+      "date": "2026-08-05T16:23:50.932Z",
+      "excerpt": "OpenAIは2026年8月5日、コーディングエージェント「Codex」のRust版「0.146.1」を公開しました。今回の更新は機能追加ではなく、サイバーセキュリティ用途に対応するモデルを選択した際の自動レビューと実行権限を、より安全な初期状態へ変更する…",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.146.1",
+      "source_label": "github.com",
+      "cover": "assets/posts/1534597816624615494.png",
+      "url": "https://discord.com/channels/1415350002255007784/1415355102939578490/threads/1534597816624615494"
+    },
+    {
+      "id": "1534597626568118272",
+      "title": "Google DeepMind再編、ハサビス氏はAlphabet最高科学責任者へ",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-08-05T16:23:05.619Z",
+      "excerpt": "GoogleはAI開発体制を再編し、Google DeepMindを率いてきたデミス・ハサビス氏を同組織の会長兼Alphabet最高科学責任者に任命しました。日常的な組織運営は、GoogleのチーフAIアーキテクトであるコライ・カヴクチュオール氏が上級副社…",
+      "source_url": "https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum/",
+      "source_label": "blog.google",
+      "cover": "assets/posts/1534597626568118272.jpg",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1534597626568118272"
+    },
+    {
+      "id": "1534580335659188424",
+      "title": "Cursor、MoE学習を最大2.37倍高速化する「Mixture-of-Kittens」を公開",
+      "channel": "cursor",
+      "category": "その他",
+      "date": "2026-08-05T15:14:23.145Z",
+      "excerpt": "Cursorは2026年8月4日、NVIDIA GB300 NVL72向けのMoE学習基盤「Mixture-of-Kittens（MoK）」をオープンソース化しました。GPU間通信と演算を単一のメガカーネルへ統合し、公開実装との比較で最大2.37倍、実運用…",
+      "source_url": "https://cursor.com/ja/blog/mixture-of-kittens",
+      "source_label": "cursor.com",
+      "cover": "assets/posts/1534580335659188424.png",
+      "url": "https://discord.com/channels/1415350002255007784/1416106151585644636/threads/1534580335659188424"
+    },
+    {
+      "id": "1534579531439018174",
+      "title": "ByteDance「SeedRealtime」公開、映像も会話の間合いを決めるAIへ",
+      "channel": "リーク情報",
+      "category": "リーク情報",
+      "date": "2026-08-05T15:11:11.404Z",
+      "excerpt": "ByteDanceのSeedチームは、音声・映像・発話を単一モデルで同時処理するリアルタイムAI「SeedRealtime」を発表しました。豆包（Doubao）アプリのビデオ通話機能に無料で展開され、カメラ映像を理解するだけでなく、映像を踏まえて「いつ話す…",
+      "source_url": "https://best.xiaohu.ai/article/seed-realtime/",
+      "source_label": "best.xiaohu.ai",
+      "cover": "assets/posts/1534579531439018174.jpg",
+      "url": "https://discord.com/channels/1415350002255007784/1415534435712897124/threads/1534579531439018174"
+    },
+    {
+      "id": "1534579446416412744",
+      "title": "Cloudflare Wallets発表、AIエージェントに「財布」と身元を与える",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-08-05T15:10:51.133Z",
+      "excerpt": "Cloudflareは2026年8月4日、AIエージェントがAPIやコンテンツを自律的に購入できる「Cloudflare Wallets」を発表しました。ステーブルコインによる少額決済、利用上限付きの仮想ウォレット、人間が読める識別子を組み合わせ、エージェ…",
+      "source_url": "https://blog.cloudflare.com/wallets/?utm_campaign=cf_blog&utm_content=20260804&utm_medium=organic_social&utm_source=twitter",
+      "source_label": "blog.cloudflare.com",
+      "cover": "assets/posts/1534579446416412744.png",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1534579446416412744"
+    },
+    {
+      "id": "1534579360068010084",
+      "title": "Mistral AI、文脈で安全基準を変えられる「Shieldstral」を公開",
+      "channel": "mistral-ai",
+      "category": "その他",
+      "date": "2026-08-05T15:10:30.546Z",
+      "excerpt": "Mistral AIは2026年8月4日、ポリシーを自然言語で指定できるマルチモーダル安全分類モデル「Shieldstral」を発表しました。30億パラメータのオープンウェイトモデルで、テキストと画像を共通の仕組みで評価し、最大7倍規模の既存オープンモデル…",
+      "source_url": "https://mistral.ai/news/shieldstral/",
+      "source_label": "mistral.ai",
+      "cover": "assets/posts/1534579360068010084.jpg",
+      "url": "https://discord.com/channels/1415350002255007784/1460897850354438283/threads/1534579360068010084"
+    },
+    {
+      "id": "1534579255030186064",
+      "title": "OpenAI、AIの経済影響を検証する外部研究プログラムを始動",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-08-05T15:10:05.503Z",
+      "excerpt": "OpenAIは2026年6月8日、AIが雇用や企業活動、教育、格差などに与える影響を実証的に調査する「OpenAI Economic Research Exchange」を発表しました。外部研究者と連携し、OpenAIのツールやデータを活用しながら、政策や…",
+      "source_url": "https://openai.com/index/introducing-the-openai-economic-research-exchange/",
+      "source_label": "openai.com",
+      "cover": "assets/posts/1534579255030186064.png",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1534579255030186064"
+    },
     {
       "id": "1534344553316876318",
       "title": "Anthropic、初の国際渉外責任者にティノ・クエヤル氏を起用",
@@ -62,90 +146,6 @@
       "source_label": "blog.google",
       "cover": "assets/posts/1534229773734383637.png",
       "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1534229773734383637"
-    },
-    {
-      "id": "1534202292914491422",
-      "title": "CursorがGoogle Workspace連携、AIコーディングエージェントが業務領域へ進出",
-      "channel": "cursor",
-      "category": "その他",
-      "date": "2026-08-04T14:12:10.731Z",
-      "excerpt": "Cursorは2026年8月3日、GmailやGoogle Drive、Calendar、Docs、Sheetsを直接操作できるGoogle Workspaceプラグインを発表しました。これによりCursorのAIエージェントは、コード生成だけでなく、メー…",
-      "source_url": "https://cursor.com/ja/changelog/google-workspace-plugins",
-      "source_label": "cursor.com",
-      "cover": "assets/posts/1534202292914491422.png",
-      "url": "https://discord.com/channels/1415350002255007784/1416106151585644636/threads/1534202292914491422"
-    },
-    {
-      "id": "1534202070452670505",
-      "title": "AIの「意識否定」が価値観まで変える――安全調整の副作用を解明",
-      "channel": "google",
-      "category": "Google",
-      "date": "2026-08-04T14:11:17.692Z",
-      "excerpt": "大規模言語モデルに「自分は意識を持たない」と回答させる安全調整が、自己認識だけでなく、動物や自然物への心の帰属、宗教観、希望、幸福感などにも波及する可能性が示されました。Googleなどの研究者は、モデル内部の活性化を操作し、この連動が安全性と「心」に関す…",
-      "source_url": "https://arxiv.org/pdf/2607.28607v1",
-      "source_label": "arxiv.org",
-      "cover": null,
-      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1534202070452670505"
-    },
-    {
-      "id": "1534200899105194195",
-      "title": "OpenAIがAppleを痛烈批判、機密情報訴訟で主張の矛盾を指摘",
-      "channel": "open-ai",
-      "category": "Open AI",
-      "date": "2026-08-04T14:06:38.421Z",
-      "excerpt": "OpenAIは2026年8月3日、Appleが元従業員による機密情報の持ち出しを巡って起こした訴訟について、事実関係に誤りがあり、差し止め命令も不要だと反論しました。公開されたメールやメッセージからは、単なる企業間紛争ではなく、退職者のアクセス管理や技術者…",
-      "source_url": "https://openai.com/index/apple-is-getting-this-wrong/",
-      "source_label": "openai.com",
-      "cover": "assets/posts/1534200899105194195.png",
-      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1534200899105194195"
-    },
-    {
-      "id": "1534200817559670876",
-      "title": "Circles、OpenAIで通信顧客対応を自律化",
-      "channel": "open-ai",
-      "category": "Open AI",
-      "date": "2026-08-04T14:06:18.979Z",
-      "excerpt": "通信テクノロジー企業Circlesは、OpenAI APIを活用した顧客対応・パーソナライゼーション基盤を展開しています。シンガポールでは、AIによる提案を通じて顧客単価を22％向上させ、解約率を9％削減。サポート業務では、問い合わせの65％を人手を介さず…",
-      "source_url": "https://openai.com/index/circles/",
-      "source_label": "openai.com",
-      "cover": "assets/posts/1534200817559670876.png",
-      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1534200817559670876"
-    },
-    {
-      "id": "1533943972718706941",
-      "title": "Copilot Studioに「GitHub Copilot harness」正式導入、複雑な業務プロセスを自律実行へ",
-      "channel": "copilot",
-      "category": "Microsoft",
-      "date": "2026-08-03T21:05:42.397Z",
-      "excerpt": "Microsoftは2026年8月3日、Copilot Studioで複雑かつ長時間に及ぶ業務プロセスを処理する「GitHub Copilot harness」の一般提供を開始しました。単純な対話や定型フローを超え、複数のファイル、知識、コード、外部ツール…",
-      "source_url": "https://techcommunity.microsoft.com/blog/copilot-studio-blog/more-powerful-agents-and-workflows-for-autonomous-business-processes-introducing/4542969",
-      "source_label": "techcommunity.microsoft.com",
-      "cover": "assets/posts/1533943972718706941.png",
-      "url": "https://discord.com/channels/1415350002255007784/1423003108790767748/threads/1533943972718706941"
-    },
-    {
-      "id": "1533943850132045854",
-      "title": "OpenAI「GPT-Live」、会話AIをターン制から常時接続へ",
-      "channel": "open-ai",
-      "category": "Open AI",
-      "date": "2026-08-03T21:05:13.170Z",
-      "excerpt": "OpenAIは2026年8月3日、応答性の高い音声AI基盤「GPT-Live」の設計を公開しました。最大の転換点は、ユーザーの発話終了を待って回答する従来方式をやめ、音声の受信と生成を同時に続けるフルデュプレックス構成を採用したことです。0",
-      "source_url": "https://openai.com/index/continuous-voice-interaction-with-gpt-live/",
-      "source_label": "openai.com",
-      "cover": "assets/posts/1533943850132045854.png",
-      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1533943850132045854"
-    },
-    {
-      "id": "1533943729097015406",
-      "title": "リアルタイムAIの負荷分散、Googleが「セッション重視」を提唱",
-      "channel": "google",
-      "category": "Google",
-      "date": "2026-08-03T21:04:44.313Z",
-      "excerpt": "Googleは、音声対話などのリアルタイムAIエージェントを安定して拡張するため、従来のQPSやCPU使用率だけでなく、接続中の「アクティブセッション数」を負荷分散の判断材料に組み込む設計を解説しました。長時間続く双方向通信では、リクエスト数だけを見ても、…",
-      "source_url": "https://developers.googleblog.com/scaling-real-time-ai-agents-with-session-aware-load-balancing/",
-      "source_label": "developers.googleblog.com",
-      "cover": "assets/posts/1533943729097015406.png",
-      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1533943729097015406"
     }
   ]
 }

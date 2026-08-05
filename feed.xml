@@ -5,8 +5,64 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 04 Aug 2026 23:37:28 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 05 Aug 2026 16:23:50 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>OpenAI Codex 0.146.1公開、サイバー対応モデルの権限設定を安全側へ修正</title>
+      <link>https://discord.com/channels/1415350002255007784/1415355102939578490/threads/1534597816624615494</link>
+      <guid isPermaLink="false">afnjp-1534597816624615494</guid>
+      <pubDate>Wed, 05 Aug 2026 16:23:50 GMT</pubDate>
+      <category>codex</category>
+      <description>OpenAIは2026年8月5日、コーディングエージェント「Codex」のRust版「0.146.1」を公開しました。今回の更新は機能追加ではなく、サイバーセキュリティ用途に対応するモデルを選択した際の自動レビューと実行権限を、より安全な初期状態へ変更する…</description>
+    </item>
+    <item>
+      <title>Google DeepMind再編、ハサビス氏はAlphabet最高科学責任者へ</title>
+      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1534597626568118272</link>
+      <guid isPermaLink="false">afnjp-1534597626568118272</guid>
+      <pubDate>Wed, 05 Aug 2026 16:23:05 GMT</pubDate>
+      <category>google</category>
+      <description>GoogleはAI開発体制を再編し、Google DeepMindを率いてきたデミス・ハサビス氏を同組織の会長兼Alphabet最高科学責任者に任命しました。日常的な組織運営は、GoogleのチーフAIアーキテクトであるコライ・カヴクチュオール氏が上級副社…</description>
+    </item>
+    <item>
+      <title>Cursor、MoE学習を最大2.37倍高速化する「Mixture-of-Kittens」を公開</title>
+      <link>https://discord.com/channels/1415350002255007784/1416106151585644636/threads/1534580335659188424</link>
+      <guid isPermaLink="false">afnjp-1534580335659188424</guid>
+      <pubDate>Wed, 05 Aug 2026 15:14:23 GMT</pubDate>
+      <category>cursor</category>
+      <description>Cursorは2026年8月4日、NVIDIA GB300 NVL72向けのMoE学習基盤「Mixture-of-Kittens（MoK）」をオープンソース化しました。GPU間通信と演算を単一のメガカーネルへ統合し、公開実装との比較で最大2.37倍、実運用…</description>
+    </item>
+    <item>
+      <title>ByteDance「SeedRealtime」公開、映像も会話の間合いを決めるAIへ</title>
+      <link>https://discord.com/channels/1415350002255007784/1415534435712897124/threads/1534579531439018174</link>
+      <guid isPermaLink="false">afnjp-1534579531439018174</guid>
+      <pubDate>Wed, 05 Aug 2026 15:11:11 GMT</pubDate>
+      <category>リーク情報</category>
+      <description>ByteDanceのSeedチームは、音声・映像・発話を単一モデルで同時処理するリアルタイムAI「SeedRealtime」を発表しました。豆包（Doubao）アプリのビデオ通話機能に無料で展開され、カメラ映像を理解するだけでなく、映像を踏まえて「いつ話す…</description>
+    </item>
+    <item>
+      <title>Cloudflare Wallets発表、AIエージェントに「財布」と身元を与える</title>
+      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1534579446416412744</link>
+      <guid isPermaLink="false">afnjp-1534579446416412744</guid>
+      <pubDate>Wed, 05 Aug 2026 15:10:51 GMT</pubDate>
+      <category>その他</category>
+      <description>Cloudflareは2026年8月4日、AIエージェントがAPIやコンテンツを自律的に購入できる「Cloudflare Wallets」を発表しました。ステーブルコインによる少額決済、利用上限付きの仮想ウォレット、人間が読める識別子を組み合わせ、エージェ…</description>
+    </item>
+    <item>
+      <title>Mistral AI、文脈で安全基準を変えられる「Shieldstral」を公開</title>
+      <link>https://discord.com/channels/1415350002255007784/1460897850354438283/threads/1534579360068010084</link>
+      <guid isPermaLink="false">afnjp-1534579360068010084</guid>
+      <pubDate>Wed, 05 Aug 2026 15:10:30 GMT</pubDate>
+      <category>mistral-ai</category>
+      <description>Mistral AIは2026年8月4日、ポリシーを自然言語で指定できるマルチモーダル安全分類モデル「Shieldstral」を発表しました。30億パラメータのオープンウェイトモデルで、テキストと画像を共通の仕組みで評価し、最大7倍規模の既存オープンモデル…</description>
+    </item>
+    <item>
+      <title>OpenAI、AIの経済影響を検証する外部研究プログラムを始動</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1534579255030186064</link>
+      <guid isPermaLink="false">afnjp-1534579255030186064</guid>
+      <pubDate>Wed, 05 Aug 2026 15:10:05 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIは2026年6月8日、AIが雇用や企業活動、教育、格差などに与える影響を実証的に調査する「OpenAI Economic Research Exchange」を発表しました。外部研究者と連携し、OpenAIのツールやデータを活用しながら、政策や…</description>
+    </item>
     <item>
       <title>Anthropic、初の国際渉外責任者にティノ・クエヤル氏を起用</title>
       <link>https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1534344553316876318</link>
@@ -46,62 +102,6 @@
       <pubDate>Tue, 04 Aug 2026 16:01:22 GMT</pubDate>
       <category>google</category>
       <description>GoogleとKaggleは、自然言語を使ってAIエージェントを構築する5日間の集中講座「AI Agents: Intensive Vibe Coding」の成果を公開しました。登録者は35万3,000人を超え、試作中心だったVibe Codingを、安全…</description>
-    </item>
-    <item>
-      <title>CursorがGoogle Workspace連携、AIコーディングエージェントが業務領域へ進出</title>
-      <link>https://discord.com/channels/1415350002255007784/1416106151585644636/threads/1534202292914491422</link>
-      <guid isPermaLink="false">afnjp-1534202292914491422</guid>
-      <pubDate>Tue, 04 Aug 2026 14:12:10 GMT</pubDate>
-      <category>cursor</category>
-      <description>Cursorは2026年8月3日、GmailやGoogle Drive、Calendar、Docs、Sheetsを直接操作できるGoogle Workspaceプラグインを発表しました。これによりCursorのAIエージェントは、コード生成だけでなく、メー…</description>
-    </item>
-    <item>
-      <title>AIの「意識否定」が価値観まで変える――安全調整の副作用を解明</title>
-      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1534202070452670505</link>
-      <guid isPermaLink="false">afnjp-1534202070452670505</guid>
-      <pubDate>Tue, 04 Aug 2026 14:11:17 GMT</pubDate>
-      <category>google</category>
-      <description>大規模言語モデルに「自分は意識を持たない」と回答させる安全調整が、自己認識だけでなく、動物や自然物への心の帰属、宗教観、希望、幸福感などにも波及する可能性が示されました。Googleなどの研究者は、モデル内部の活性化を操作し、この連動が安全性と「心」に関す…</description>
-    </item>
-    <item>
-      <title>OpenAIがAppleを痛烈批判、機密情報訴訟で主張の矛盾を指摘</title>
-      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1534200899105194195</link>
-      <guid isPermaLink="false">afnjp-1534200899105194195</guid>
-      <pubDate>Tue, 04 Aug 2026 14:06:38 GMT</pubDate>
-      <category>open-ai</category>
-      <description>OpenAIは2026年8月3日、Appleが元従業員による機密情報の持ち出しを巡って起こした訴訟について、事実関係に誤りがあり、差し止め命令も不要だと反論しました。公開されたメールやメッセージからは、単なる企業間紛争ではなく、退職者のアクセス管理や技術者…</description>
-    </item>
-    <item>
-      <title>Circles、OpenAIで通信顧客対応を自律化</title>
-      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1534200817559670876</link>
-      <guid isPermaLink="false">afnjp-1534200817559670876</guid>
-      <pubDate>Tue, 04 Aug 2026 14:06:18 GMT</pubDate>
-      <category>open-ai</category>
-      <description>通信テクノロジー企業Circlesは、OpenAI APIを活用した顧客対応・パーソナライゼーション基盤を展開しています。シンガポールでは、AIによる提案を通じて顧客単価を22％向上させ、解約率を9％削減。サポート業務では、問い合わせの65％を人手を介さず…</description>
-    </item>
-    <item>
-      <title>Copilot Studioに「GitHub Copilot harness」正式導入、複雑な業務プロセスを自律実行へ</title>
-      <link>https://discord.com/channels/1415350002255007784/1423003108790767748/threads/1533943972718706941</link>
-      <guid isPermaLink="false">afnjp-1533943972718706941</guid>
-      <pubDate>Mon, 03 Aug 2026 21:05:42 GMT</pubDate>
-      <category>copilot</category>
-      <description>Microsoftは2026年8月3日、Copilot Studioで複雑かつ長時間に及ぶ業務プロセスを処理する「GitHub Copilot harness」の一般提供を開始しました。単純な対話や定型フローを超え、複数のファイル、知識、コード、外部ツール…</description>
-    </item>
-    <item>
-      <title>OpenAI「GPT-Live」、会話AIをターン制から常時接続へ</title>
-      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1533943850132045854</link>
-      <guid isPermaLink="false">afnjp-1533943850132045854</guid>
-      <pubDate>Mon, 03 Aug 2026 21:05:13 GMT</pubDate>
-      <category>open-ai</category>
-      <description>OpenAIは2026年8月3日、応答性の高い音声AI基盤「GPT-Live」の設計を公開しました。最大の転換点は、ユーザーの発話終了を待って回答する従来方式をやめ、音声の受信と生成を同時に続けるフルデュプレックス構成を採用したことです。0</description>
-    </item>
-    <item>
-      <title>リアルタイムAIの負荷分散、Googleが「セッション重視」を提唱</title>
-      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1533943729097015406</link>
-      <guid isPermaLink="false">afnjp-1533943729097015406</guid>
-      <pubDate>Mon, 03 Aug 2026 21:04:44 GMT</pubDate>
-      <category>google</category>
-      <description>Googleは、音声対話などのリアルタイムAIエージェントを安定して拡張するため、従来のQPSやCPU使用率だけでなく、接続中の「アクティブセッション数」を負荷分散の判断材料に組み込む設計を解説しました。長時間続く双方向通信では、リクエスト数だけを見ても、…</description>
     </item>
   </channel>
 </rss>
