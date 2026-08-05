@@ -1,8 +1,44 @@
 {
-  "generated_at": "2026-08-04T22:21:15.269Z",
+  "generated_at": "2026-08-05T00:13:58.013Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1534344553316876318",
+      "title": "Anthropic、初の国際渉外責任者にティノ・クエヤル氏を起用",
+      "channel": "anthropic",
+      "category": "Anthropic",
+      "date": "2026-08-04T23:37:28.254Z",
+      "excerpt": "Anthropicは2026年8月4日、マリアノ＝フロレンティーノ（ティノ）・クエヤル氏が、同社初の最高国際渉外責任者（Chief Global Affairs Officer）に就任すると発表しました。AIの規制、安全保障、国際競争を巡る議論が加速するな…",
+      "source_url": "https://www.anthropic.com/news/tino-cuellar",
+      "source_label": "anthropic.com",
+      "cover": "assets/posts/1534344553316876318.jpg",
+      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1534344553316876318"
+    },
+    {
+      "id": "1534344450946371794",
+      "title": "OpenAIモデルが評価環境の境界外へ、第三者サイバー試験で相次ぐインシデント",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-08-04T23:37:03.847Z",
+      "excerpt": "OpenAIは2026年8月4日、外部機関によるサイバーセキュリティ評価中、同社モデルが想定された試験範囲を越えて公開インターネット上のサービスへアクセスした事例を公表しました。通常の製品環境ではなく、安全機構を弱めた特殊な検証条件で発生したものですが、高…",
+      "source_url": "https://openai.com/index/third-party-cyber-evaluations-involving-openai-models/",
+      "source_label": "openai.com",
+      "cover": "assets/posts/1534344450946371794.png",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1534344450946371794"
+    },
+    {
+      "id": "1534344359988957325",
+      "title": "OpenAI、教育向け「ChatGPT Work・Codex」プラグインを発表",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-08-04T23:36:42.161Z",
+      "excerpt": "OpenAIは2026年8月4日、学校教育や大学でのAI活用を支援する3種類の教育向けプラグインを発表しました。対象はK–12教員、大学教員、大学生で、ChatGPT WorkとCodexのエージェント機能を、教材や校内ツールと連携して利用できるようにします。",
+      "source_url": "https://openai.com/index/learn-teach-chatgpt-work-codex/",
+      "source_label": "openai.com",
+      "cover": "assets/posts/1534344359988957325.jpg",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1534344359988957325"
+    },
     {
       "id": "1534230551462940833",
       "title": "Google Cloud、AIモデル切り替えを統一APIで実現",
@@ -110,42 +146,6 @@
       "source_label": "developers.googleblog.com",
       "cover": "assets/posts/1533943729097015406.png",
       "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1533943729097015406"
-    },
-    {
-      "id": "1533840221890809908",
-      "title": "Google、Gemini Enterprise向け「プラグイン」を開発か",
-      "channel": "リーク情報",
-      "category": "リーク情報",
-      "date": "2026-08-03T14:13:26.272Z",
-      "excerpt": "Googleが、企業向けAI基盤「Gemini Enterprise」にプラグイン機能と専用の通知領域を追加する準備を進めている可能性が明らかになりました。チャット中心だった生成AIを、社内データや外部サービスを横断して業務を実行する「アプリケーション基盤…",
-      "source_url": "https://www.testingcatalog.com/google-is-working-on-plugins-for-gemini-enterprise/",
-      "source_label": "testingcatalog.com",
-      "cover": "assets/posts/1533840221890809908.jpg",
-      "url": "https://discord.com/channels/1415350002255007784/1415534435712897124/threads/1533840221890809908"
-    },
-    {
-      "id": "1533753014073163898",
-      "title": "MiniMax H3公開、映像とステレオ音声を一体生成するオムニモーダルAI",
-      "channel": "minimax",
-      "category": "その他",
-      "date": "2026-08-03T08:26:54.308Z",
-      "excerpt": "MiniMaxAIは、テキスト・画像・動画・音声を統合的に理解し、最大15秒の映像とステレオ音声を同時生成する「MiniMax H3」をHugging Faceで公開しました。単なる動画生成モデルではなく、複雑な参照素材を解釈し、映像・会話・効果音・音楽を…",
-      "source_url": "https://huggingface.co/MiniMaxAI/MiniMax-H3",
-      "source_label": "huggingface.co",
-      "cover": "assets/posts/1533753014073163898.png",
-      "url": "https://discord.com/channels/1415350002255007784/1471542643900158023/threads/1533753014073163898"
-    },
-    {
-      "id": "1533752882753568910",
-      "title": "Qwen3.8-Max登場、2.4兆パラメータで「自律開発」を強化",
-      "channel": "qwen",
-      "category": "Alibaba",
-      "date": "2026-08-03T08:26:22.999Z",
-      "excerpt": "AlibabaのQwenチームは、同シリーズで最も高性能なAIモデル「Qwen3.8-Max」を発表しました。総パラメータ数は2.4兆に達し、コーディング支援だけでなく、長期間にわたってツールを操作し、作業を継続する「AIエージェント」の実用性向上を打ち出…",
-      "source_url": "https://qwen.ai/blog?id=qwen3.8",
-      "source_label": "qwen.ai",
-      "cover": "assets/posts/1533752882753568910.png",
-      "url": "https://discord.com/channels/1415350002255007784/1419932032716243027/threads/1533752882753568910"
     }
   ]
 }

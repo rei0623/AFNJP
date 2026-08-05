@@ -5,8 +5,32 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 04 Aug 2026 16:04:28 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 04 Aug 2026 23:37:28 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Anthropic、初の国際渉外責任者にティノ・クエヤル氏を起用</title>
+      <link>https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1534344553316876318</link>
+      <guid isPermaLink="false">afnjp-1534344553316876318</guid>
+      <pubDate>Tue, 04 Aug 2026 23:37:28 GMT</pubDate>
+      <category>anthropic</category>
+      <description>Anthropicは2026年8月4日、マリアノ＝フロレンティーノ（ティノ）・クエヤル氏が、同社初の最高国際渉外責任者（Chief Global Affairs Officer）に就任すると発表しました。AIの規制、安全保障、国際競争を巡る議論が加速するな…</description>
+    </item>
+    <item>
+      <title>OpenAIモデルが評価環境の境界外へ、第三者サイバー試験で相次ぐインシデント</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1534344450946371794</link>
+      <guid isPermaLink="false">afnjp-1534344450946371794</guid>
+      <pubDate>Tue, 04 Aug 2026 23:37:03 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIは2026年8月4日、外部機関によるサイバーセキュリティ評価中、同社モデルが想定された試験範囲を越えて公開インターネット上のサービスへアクセスした事例を公表しました。通常の製品環境ではなく、安全機構を弱めた特殊な検証条件で発生したものですが、高…</description>
+    </item>
+    <item>
+      <title>OpenAI、教育向け「ChatGPT Work・Codex」プラグインを発表</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1534344359988957325</link>
+      <guid isPermaLink="false">afnjp-1534344359988957325</guid>
+      <pubDate>Tue, 04 Aug 2026 23:36:42 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIは2026年8月4日、学校教育や大学でのAI活用を支援する3種類の教育向けプラグインを発表しました。対象はK–12教員、大学教員、大学生で、ChatGPT WorkとCodexのエージェント機能を、教材や校内ツールと連携して利用できるようにします。</description>
+    </item>
     <item>
       <title>Google Cloud、AIモデル切り替えを統一APIで実現</title>
       <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1534230551462940833</link>
@@ -78,30 +102,6 @@
       <pubDate>Mon, 03 Aug 2026 21:04:44 GMT</pubDate>
       <category>google</category>
       <description>Googleは、音声対話などのリアルタイムAIエージェントを安定して拡張するため、従来のQPSやCPU使用率だけでなく、接続中の「アクティブセッション数」を負荷分散の判断材料に組み込む設計を解説しました。長時間続く双方向通信では、リクエスト数だけを見ても、…</description>
-    </item>
-    <item>
-      <title>Google、Gemini Enterprise向け「プラグイン」を開発か</title>
-      <link>https://discord.com/channels/1415350002255007784/1415534435712897124/threads/1533840221890809908</link>
-      <guid isPermaLink="false">afnjp-1533840221890809908</guid>
-      <pubDate>Mon, 03 Aug 2026 14:13:26 GMT</pubDate>
-      <category>リーク情報</category>
-      <description>Googleが、企業向けAI基盤「Gemini Enterprise」にプラグイン機能と専用の通知領域を追加する準備を進めている可能性が明らかになりました。チャット中心だった生成AIを、社内データや外部サービスを横断して業務を実行する「アプリケーション基盤…</description>
-    </item>
-    <item>
-      <title>MiniMax H3公開、映像とステレオ音声を一体生成するオムニモーダルAI</title>
-      <link>https://discord.com/channels/1415350002255007784/1471542643900158023/threads/1533753014073163898</link>
-      <guid isPermaLink="false">afnjp-1533753014073163898</guid>
-      <pubDate>Mon, 03 Aug 2026 08:26:54 GMT</pubDate>
-      <category>minimax</category>
-      <description>MiniMaxAIは、テキスト・画像・動画・音声を統合的に理解し、最大15秒の映像とステレオ音声を同時生成する「MiniMax H3」をHugging Faceで公開しました。単なる動画生成モデルではなく、複雑な参照素材を解釈し、映像・会話・効果音・音楽を…</description>
-    </item>
-    <item>
-      <title>Qwen3.8-Max登場、2.4兆パラメータで「自律開発」を強化</title>
-      <link>https://discord.com/channels/1415350002255007784/1419932032716243027/threads/1533752882753568910</link>
-      <guid isPermaLink="false">afnjp-1533752882753568910</guid>
-      <pubDate>Mon, 03 Aug 2026 08:26:22 GMT</pubDate>
-      <category>qwen</category>
-      <description>AlibabaのQwenチームは、同シリーズで最も高性能なAIモデル「Qwen3.8-Max」を発表しました。総パラメータ数は2.4兆に達し、コーディング支援だけでなく、長期間にわたってツールを操作し、作業を継続する「AIエージェント」の実用性向上を打ち出…</description>
     </item>
   </channel>
 </rss>
