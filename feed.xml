@@ -5,8 +5,24 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 05 Aug 2026 16:23:50 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 05 Aug 2026 23:40:24 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Meta、長時間の開発を担う「Muse Code」と新モデル「Muse Spark 1.2」を発表</title>
+      <link>https://discord.com/channels/1415350002255007784/1491820892789936220/threads/1534707680965558343</link>
+      <guid isPermaLink="false">afnjp-1534707680965558343</guid>
+      <pubDate>Wed, 05 Aug 2026 23:40:24 GMT</pubDate>
+      <category>muse-spark</category>
+      <description>Metaは2026年8月5日、ターミナル型コーディングエージェント「Muse Code」のベータ版と、その中核を担う新モデル「Muse Spark 1.2」を発表しました。大規模リポジトリの調査から実装、検証までを継続的に進め、数時間規模の高度なソフトウェ…</description>
+    </item>
+    <item>
+      <title>OpenAI、AIの経済影響を外部研究者と検証する新プログラム始動</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1534706583848751176</link>
+      <guid isPermaLink="false">afnjp-1534706583848751176</guid>
+      <pubDate>Wed, 05 Aug 2026 23:36:03 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIは、AIが雇用、企業活動、教育、制度、世界経済をどう変えるのかを実証的に調査する「OpenAI Economic Research Exchange」の初期研究者を公開しました。社内分析だけに依存せず、大学などの外部研究者と連携し、プライバシー…</description>
+    </item>
     <item>
       <title>OpenAI Codex 0.146.1公開、サイバー対応モデルの権限設定を安全側へ修正</title>
       <link>https://discord.com/channels/1415350002255007784/1415355102939578490/threads/1534597816624615494</link>
@@ -86,22 +102,6 @@
       <pubDate>Tue, 04 Aug 2026 23:36:42 GMT</pubDate>
       <category>open-ai</category>
       <description>OpenAIは2026年8月4日、学校教育や大学でのAI活用を支援する3種類の教育向けプラグインを発表しました。対象はK–12教員、大学教員、大学生で、ChatGPT WorkとCodexのエージェント機能を、教材や校内ツールと連携して利用できるようにします。</description>
-    </item>
-    <item>
-      <title>Google Cloud、AIモデル切り替えを統一APIで実現</title>
-      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1534230551462940833</link>
-      <guid isPermaLink="false">afnjp-1534230551462940833</guid>
-      <pubDate>Tue, 04 Aug 2026 16:04:28 GMT</pubDate>
-      <category>google</category>
-      <description>Googleは2026年8月4日、Google Cloud API GatewayにAIモデルルーティング機能を追加し、パブリックプレビューとして提供開始しました。アプリケーション側の接続先を個別実装せず、OpenAI互換APIを通じてGemini、Cla…</description>
-    </item>
-    <item>
-      <title>35万人が学んだ「Vibe Coding」、GoogleとKaggleが示すAIエージェント開発の現在地</title>
-      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1534229773734383637</link>
-      <guid isPermaLink="false">afnjp-1534229773734383637</guid>
-      <pubDate>Tue, 04 Aug 2026 16:01:22 GMT</pubDate>
-      <category>google</category>
-      <description>GoogleとKaggleは、自然言語を使ってAIエージェントを構築する5日間の集中講座「AI Agents: Intensive Vibe Coding」の成果を公開しました。登録者は35万3,000人を超え、試作中心だったVibe Codingを、安全…</description>
     </item>
   </channel>
 </rss>

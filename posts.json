@@ -1,8 +1,32 @@
 {
-  "generated_at": "2026-08-05T22:19:32.810Z",
+  "generated_at": "2026-08-06T00:09:21.099Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1534707680965558343",
+      "title": "Meta、長時間の開発を担う「Muse Code」と新モデル「Muse Spark 1.2」を発表",
+      "channel": "muse-spark",
+      "category": "Meta",
+      "date": "2026-08-05T23:40:24.632Z",
+      "excerpt": "Metaは2026年8月5日、ターミナル型コーディングエージェント「Muse Code」のベータ版と、その中核を担う新モデル「Muse Spark 1.2」を発表しました。大規模リポジトリの調査から実装、検証までを継続的に進め、数時間規模の高度なソフトウェ…",
+      "source_url": "https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2",
+      "source_label": "research.meta.ai",
+      "cover": "assets/posts/1534707680965558343.png",
+      "url": "https://discord.com/channels/1415350002255007784/1491820892789936220/threads/1534707680965558343"
+    },
+    {
+      "id": "1534706583848751176",
+      "title": "OpenAI、AIの経済影響を外部研究者と検証する新プログラム始動",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-08-05T23:36:03.059Z",
+      "excerpt": "OpenAIは、AIが雇用、企業活動、教育、制度、世界経済をどう変えるのかを実証的に調査する「OpenAI Economic Research Exchange」の初期研究者を公開しました。社内分析だけに依存せず、大学などの外部研究者と連携し、プライバシー…",
+      "source_url": "https://openai.com/economic-research-exchange/",
+      "source_label": "openai.com",
+      "cover": "assets/posts/1534706583848751176.png",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1534706583848751176"
+    },
     {
       "id": "1534597816624615494",
       "title": "OpenAI Codex 0.146.1公開、サイバー対応モデルの権限設定を安全側へ修正",
@@ -122,30 +146,6 @@
       "source_label": "openai.com",
       "cover": "assets/posts/1534344359988957325.jpg",
       "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1534344359988957325"
-    },
-    {
-      "id": "1534230551462940833",
-      "title": "Google Cloud、AIモデル切り替えを統一APIで実現",
-      "channel": "google",
-      "category": "Google",
-      "date": "2026-08-04T16:04:28.094Z",
-      "excerpt": "Googleは2026年8月4日、Google Cloud API GatewayにAIモデルルーティング機能を追加し、パブリックプレビューとして提供開始しました。アプリケーション側の接続先を個別実装せず、OpenAI互換APIを通じてGemini、Cla…",
-      "source_url": "https://developers.googleblog.com/a-unified-api-for-ai-model-routing/",
-      "source_label": "developers.googleblog.com",
-      "cover": "assets/posts/1534230551462940833.jpg",
-      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1534230551462940833"
-    },
-    {
-      "id": "1534229773734383637",
-      "title": "35万人が学んだ「Vibe Coding」、GoogleとKaggleが示すAIエージェント開発の現在地",
-      "channel": "google",
-      "category": "Google",
-      "date": "2026-08-04T16:01:22.669Z",
-      "excerpt": "GoogleとKaggleは、自然言語を使ってAIエージェントを構築する5日間の集中講座「AI Agents: Intensive Vibe Coding」の成果を公開しました。登録者は35万3,000人を超え、試作中心だったVibe Codingを、安全…",
-      "source_url": "https://blog.google/innovation-and-ai/technology/developers-tools/ai-agents-intensive-recap-2026/",
-      "source_label": "blog.google",
-      "cover": "assets/posts/1534229773734383637.png",
-      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1534229773734383637"
     }
   ]
 }
