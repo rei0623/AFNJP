@@ -175,15 +175,25 @@ for (const post of targets) {
         continue;
     }
 
-    // Discord 側でリンクの展開を抑え、コピーしやすいようコードブロックで包む
-    const content =
-        `📋 **X投稿用**  \`${draft.weight}/${X_LIMIT}\`  ・ ${post.channel}\n` +
-        '```\n' + draft.body + draft.url + '\n```';
+    // 2通に分けて送る。
+    // スマホの Discord にはコードブロックのコピーボタンが無く、長押しの
+    // 「テキストをコピー」はメッセージ全体（見出しやバッククォート込み）を拾う。
+    // そのため下書き本体は装飾を一切付けない単独メッセージにして、
+    // 長押ししたものがそのまま X に貼れるようにする。
+    const header =
+        `**X投稿用**  \`${draft.weight}/${X_LIMIT}\`  ・ ${post.channel}\n` +
+        '-# 下のメッセージを長押し →「テキストをコピー」でそのまま貼れます';
+    const body = draft.body + draft.url;
 
     try {
         await discord(`/channels/${CHANNEL_ID}/messages`, {
             method: 'POST',
-            body: JSON.stringify({ content, flags: 4 }), // flags:4 = 埋め込みを抑制
+            body: JSON.stringify({ content: header, flags: 4 }), // flags:4 = 埋め込みを抑制
+        });
+        await new Promise(r => setTimeout(r, 400));
+        await discord(`/channels/${CHANNEL_ID}/messages`, {
+            method: 'POST',
+            body: JSON.stringify({ content: body, flags: 4 }),
         });
         done.add(post.id);
         sent++;
