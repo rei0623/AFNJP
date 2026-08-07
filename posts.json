@@ -1,8 +1,20 @@
 {
-  "generated_at": "2026-08-07T19:13:20.768Z",
+  "generated_at": "2026-08-07T19:58:28.652Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1535373042505744404",
+      "title": "OpenAI、新モデル「Astra」で重大なサイバー能力の可能性",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-08-07T19:44:19.185Z",
+      "excerpt": "OpenAIは2026年8月7日、開発中の次世代モデル「Astra」について、同社の安全評価基準「Preparedness Framework」におけるサイバーセキュリティ能力が、最高警戒水準の「Critical」に達する可能性を排除できないと発表しました…",
+      "source_url": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities/",
+      "source_label": "openai.com",
+      "cover": "assets/posts/1535373042505744404.png",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1535373042505744404"
+    },
     {
       "id": "1535315516003188777",
       "title": "AIの判断は「AIだと思った瞬間」に嫌われる？DeepMind参加研究が示す反AIバイアス",
@@ -134,18 +146,6 @@
       "source_label": "research.meta.ai",
       "cover": "assets/posts/1534707680965558343.png",
       "url": "https://discord.com/channels/1415350002255007784/1491820892789936220/threads/1534707680965558343"
-    },
-    {
-      "id": "1534706583848751176",
-      "title": "OpenAI、AIの経済影響を外部研究者と検証する新プログラム始動",
-      "channel": "open-ai",
-      "category": "Open AI",
-      "date": "2026-08-05T23:36:03.059Z",
-      "excerpt": "OpenAIは、AIが雇用、企業活動、教育、制度、世界経済をどう変えるのかを実証的に調査する「OpenAI Economic Research Exchange」の初期研究者を公開しました。社内分析だけに依存せず、大学などの外部研究者と連携し、プライバシー…",
-      "source_url": "https://openai.com/economic-research-exchange/",
-      "source_label": "openai.com",
-      "cover": "assets/posts/1534706583848751176.png",
-      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1534706583848751176"
     }
   ]
 }
