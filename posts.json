@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-07T05:49:38.998Z",
+  "generated_at": "2026-08-07T07:39:25.809Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
@@ -84,7 +84,7 @@
       "excerpt": "OpenAIは2026年8月5日、コーディングエージェント「Codex」のRust版「0.146.1」を公開しました。今回の更新は機能追加ではなく、サイバーセキュリティ用途に対応するモデルを選択した際の自動レビューと実行権限を、より安全な初期状態へ変更する…",
       "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.146.1",
       "source_label": "github.com",
-      "cover": null,
+      "cover": "assets/posts/1534597816624615494.png",
       "url": "https://discord.com/channels/1415350002255007784/1415355102939578490/threads/1534597816624615494"
     },
     {
