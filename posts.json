@@ -1,8 +1,68 @@
 {
-  "generated_at": "2026-08-07T10:10:38.511Z",
+  "generated_at": "2026-08-07T11:06:04.777Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1535232328706822215",
+      "title": "Codex 0.147.0公開、Agent Pluginsと自動承認を強化",
+      "channel": "codex",
+      "category": "Open AI",
+      "date": "2026-08-07T10:25:10.401Z",
+      "excerpt": "OpenAIは2026年8月7日、Codexの「0.147.0」を公開しました。今回の更新では、Agent Pluginsの導入、会話管理の強化、自動承認機能、Cursorとの連携拡大、MCP新プロトコル対応など、Codexを単体のコーディング支援ツールか…",
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.147.0",
+      "source_label": "github.com",
+      "cover": "assets/posts/1535232328706822215.png",
+      "url": "https://discord.com/channels/1415350002255007784/1415355102939578490/threads/1535232328706822215"
+    },
+    {
+      "id": "1535230482965332048",
+      "title": "HSP GRUPPE、ChatGPT Enterpriseで税務業務を再設計—年間4万時間超の追加能力を創出へ",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-08-07T10:17:50.342Z",
+      "excerpt": "OpenAIは2026年8月7日、ドイツの税務・監査・法律事務所ネットワーク「HSP GRUPPE」におけるChatGPT Enterprise活用事例を公開しました。共同ワークスペースでは週次アクティブ利用率84％を達成し、従業員の98.6％が生産性向上…",
+      "source_url": "https://openai.com/index/hsp-gruppe/",
+      "source_label": "openai.com",
+      "cover": "assets/posts/1535230482965332048.png",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1535230482965332048"
+    },
+    {
+      "id": "1535230376899776543",
+      "title": "Anthropic、Fable 5の生物学セーフガードを改善 誤検知によるフォールバックを約85％削減",
+      "channel": "anthropic",
+      "category": "Anthropic",
+      "date": "2026-08-07T10:17:25.054Z",
+      "excerpt": "Anthropicは2026年8月7日、Claude Fable 5の生物学分野における安全対策を更新し、生物関連の質問が別モデルへ切り替えられる「フォールバック」をテスト環境で約85％削減したと発表しました。危険なデュアルユース用途への制限を維持しながら…",
+      "source_url": "https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards",
+      "source_label": "anthropic.com",
+      "cover": "assets/posts/1535230376899776543.png",
+      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1535230376899776543"
+    },
+    {
+      "id": "1535230289029103712",
+      "title": "Geminiが旅行計画を“代行”へ、Googleサービス横断で旅程を自動構築",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-08-07T10:17:04.104Z",
+      "excerpt": "Googleは2026年8月6日、Geminiが旅行計画をどのように作成するのか、その仕組みを公開しました。単なる観光地の提案ではなく、Google Maps、Flights、Hotelsなどのリアルタイム情報に、ユーザー自身の予定や好みを組み合わせ、実行…",
+      "source_url": "https://blog.google/products-and-platforms/products/gemini/how-gemini-plans-trips/",
+      "source_label": "blog.google",
+      "cover": "assets/posts/1535230289029103712.png",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1535230289029103712"
+    },
+    {
+      "id": "1535230027707322418",
+      "title": "GPT-5.6 Sol刷新、ChatGPTは「質問するAI」から「仕事をするAI」へ",
+      "channel": "chatgpt",
+      "category": "Open AI",
+      "date": "2026-08-07T10:16:01.800Z",
+      "excerpt": "OpenAIは2026年8月6日、ChatGPTにおけるGPT-5.6 Solの改善と無料ユーザー向けGPT-5.6 Lunaのアクセス拡大を発表しました。同時に公開した世界各国の利用データからは、ChatGPTが単なる検索・質問ツールではなく、文章作成、…",
+      "source_url": "https://openai.com/index/how-the-world-is-putting-chatgpt-to-work/",
+      "source_label": "openai.com",
+      "cover": "assets/posts/1535230027707322418.png",
+      "url": "https://discord.com/channels/1415350002255007784/1415353131604377641/threads/1535230027707322418"
+    },
     {
       "id": "1534955300061188279",
       "title": "Cursor Routerの仕組み、AIモデルを「性能」ではなく実務データで選択",
@@ -86,66 +146,6 @@
       "source_label": "github.com",
       "cover": "assets/posts/1534597816624615494.png",
       "url": "https://discord.com/channels/1415350002255007784/1415355102939578490/threads/1534597816624615494"
-    },
-    {
-      "id": "1534597626568118272",
-      "title": "Google DeepMind再編、ハサビス氏はAlphabet最高科学責任者へ",
-      "channel": "google",
-      "category": "Google",
-      "date": "2026-08-05T16:23:05.619Z",
-      "excerpt": "GoogleはAI開発体制を再編し、Google DeepMindを率いてきたデミス・ハサビス氏を同組織の会長兼Alphabet最高科学責任者に任命しました。日常的な組織運営は、GoogleのチーフAIアーキテクトであるコライ・カヴクチュオール氏が上級副社…",
-      "source_url": "https://blog.google/company-news/inside-google/message-ceo/next-chapter-ai-momentum/",
-      "source_label": "blog.google",
-      "cover": "assets/posts/1534597626568118272.jpg",
-      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1534597626568118272"
-    },
-    {
-      "id": "1534580335659188424",
-      "title": "Cursor、MoE学習を最大2.37倍高速化する「Mixture-of-Kittens」を公開",
-      "channel": "cursor",
-      "category": "その他",
-      "date": "2026-08-05T15:14:23.145Z",
-      "excerpt": "Cursorは2026年8月4日、NVIDIA GB300 NVL72向けのMoE学習基盤「Mixture-of-Kittens（MoK）」をオープンソース化しました。GPU間通信と演算を単一のメガカーネルへ統合し、公開実装との比較で最大2.37倍、実運用…",
-      "source_url": "https://cursor.com/ja/blog/mixture-of-kittens",
-      "source_label": "cursor.com",
-      "cover": "assets/posts/1534580335659188424.png",
-      "url": "https://discord.com/channels/1415350002255007784/1416106151585644636/threads/1534580335659188424"
-    },
-    {
-      "id": "1534579531439018174",
-      "title": "ByteDance「SeedRealtime」公開、映像も会話の間合いを決めるAIへ",
-      "channel": "リーク情報",
-      "category": "リーク情報",
-      "date": "2026-08-05T15:11:11.404Z",
-      "excerpt": "ByteDanceのSeedチームは、音声・映像・発話を単一モデルで同時処理するリアルタイムAI「SeedRealtime」を発表しました。豆包（Doubao）アプリのビデオ通話機能に無料で展開され、カメラ映像を理解するだけでなく、映像を踏まえて「いつ話す…",
-      "source_url": "https://best.xiaohu.ai/article/seed-realtime/",
-      "source_label": "best.xiaohu.ai",
-      "cover": "assets/posts/1534579531439018174.jpg",
-      "url": "https://discord.com/channels/1415350002255007784/1415534435712897124/threads/1534579531439018174"
-    },
-    {
-      "id": "1534579446416412744",
-      "title": "Cloudflare Wallets発表、AIエージェントに「財布」と身元を与える",
-      "channel": "その他",
-      "category": "その他",
-      "date": "2026-08-05T15:10:51.133Z",
-      "excerpt": "Cloudflareは2026年8月4日、AIエージェントがAPIやコンテンツを自律的に購入できる「Cloudflare Wallets」を発表しました。ステーブルコインによる少額決済、利用上限付きの仮想ウォレット、人間が読める識別子を組み合わせ、エージェ…",
-      "source_url": "https://blog.cloudflare.com/wallets/?utm_campaign=cf_blog&utm_content=20260804&utm_medium=organic_social&utm_source=twitter",
-      "source_label": "blog.cloudflare.com",
-      "cover": "assets/posts/1534579446416412744.png",
-      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1534579446416412744"
-    },
-    {
-      "id": "1534579360068010084",
-      "title": "Mistral AI、文脈で安全基準を変えられる「Shieldstral」を公開",
-      "channel": "mistral-ai",
-      "category": "その他",
-      "date": "2026-08-05T15:10:30.546Z",
-      "excerpt": "Mistral AIは2026年8月4日、ポリシーを自然言語で指定できるマルチモーダル安全分類モデル「Shieldstral」を発表しました。30億パラメータのオープンウェイトモデルで、テキストと画像を共通の仕組みで評価し、最大7倍規模の既存オープンモデル…",
-      "source_url": "https://mistral.ai/news/shieldstral/",
-      "source_label": "mistral.ai",
-      "cover": "assets/posts/1534579360068010084.jpg",
-      "url": "https://discord.com/channels/1415350002255007784/1460897850354438283/threads/1534579360068010084"
     }
   ]
 }
