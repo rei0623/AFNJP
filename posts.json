@@ -1,8 +1,20 @@
 {
-  "generated_at": "2026-08-07T15:07:58.899Z",
+  "generated_at": "2026-08-07T16:07:55.696Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1535315516003188777",
+      "title": "AIの判断は「AIだと思った瞬間」に嫌われる？DeepMind参加研究が示す反AIバイアス",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-08-07T15:55:43.798Z",
+      "excerpt": "Google DeepMindの研究者らが参加した研究チームは2026年8月5日、人間がLLMによる道徳的判断をどこまで見抜き、その内容をどう評価するのかを調べた研究をPLOS ONEで発表しました。最大のポイントは、実際の文章の作者よりも「AIが書いたと…",
+      "source_url": "https://deepmind.google/research/publications/118955/",
+      "source_label": "deepmind.google",
+      "cover": "assets/posts/1535315516003188777.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1535315516003188777"
+    },
     {
       "id": "1535232328706822215",
       "title": "Codex 0.147.0公開、Agent Pluginsと自動承認を強化",
@@ -134,18 +146,6 @@
       "source_label": "openai.com",
       "cover": "assets/posts/1534706583848751176.png",
       "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1534706583848751176"
-    },
-    {
-      "id": "1534597816624615494",
-      "title": "OpenAI Codex 0.146.1公開、サイバー対応モデルの権限設定を安全側へ修正",
-      "channel": "codex",
-      "category": "Open AI",
-      "date": "2026-08-05T16:23:50.932Z",
-      "excerpt": "OpenAIは2026年8月5日、コーディングエージェント「Codex」のRust版「0.146.1」を公開しました。今回の更新は機能追加ではなく、サイバーセキュリティ用途に対応するモデルを選択した際の自動レビューと実行権限を、より安全な初期状態へ変更する…",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.146.1",
-      "source_label": "github.com",
-      "cover": "assets/posts/1534597816624615494.png",
-      "url": "https://discord.com/channels/1415350002255007784/1415355102939578490/threads/1534597816624615494"
     }
   ]
 }

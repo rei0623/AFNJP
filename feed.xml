@@ -5,8 +5,16 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 07 Aug 2026 10:25:10 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 07 Aug 2026 15:55:43 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>AIの判断は「AIだと思った瞬間」に嫌われる？DeepMind参加研究が示す反AIバイアス</title>
+      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1535315516003188777</link>
+      <guid isPermaLink="false">afnjp-1535315516003188777</guid>
+      <pubDate>Fri, 07 Aug 2026 15:55:43 GMT</pubDate>
+      <category>google</category>
+      <description>Google DeepMindの研究者らが参加した研究チームは2026年8月5日、人間がLLMによる道徳的判断をどこまで見抜き、その内容をどう評価するのかを調べた研究をPLOS ONEで発表しました。最大のポイントは、実際の文章の作者よりも「AIが書いたと…</description>
+    </item>
     <item>
       <title>Codex 0.147.0公開、Agent Pluginsと自動承認を強化</title>
       <link>https://discord.com/channels/1415350002255007784/1415355102939578490/threads/1535232328706822215</link>
@@ -94,14 +102,6 @@
       <pubDate>Wed, 05 Aug 2026 23:36:03 GMT</pubDate>
       <category>open-ai</category>
       <description>OpenAIは、AIが雇用、企業活動、教育、制度、世界経済をどう変えるのかを実証的に調査する「OpenAI Economic Research Exchange」の初期研究者を公開しました。社内分析だけに依存せず、大学などの外部研究者と連携し、プライバシー…</description>
-    </item>
-    <item>
-      <title>OpenAI Codex 0.146.1公開、サイバー対応モデルの権限設定を安全側へ修正</title>
-      <link>https://discord.com/channels/1415350002255007784/1415355102939578490/threads/1534597816624615494</link>
-      <guid isPermaLink="false">afnjp-1534597816624615494</guid>
-      <pubDate>Wed, 05 Aug 2026 16:23:50 GMT</pubDate>
-      <category>codex</category>
-      <description>OpenAIは2026年8月5日、コーディングエージェント「Codex」のRust版「0.146.1」を公開しました。今回の更新は機能追加ではなく、サイバーセキュリティ用途に対応するモデルを選択した際の自動レビューと実行権限を、より安全な初期状態へ変更する…</description>
     </item>
   </channel>
 </rss>
