@@ -5,8 +5,40 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 05 Aug 2026 23:40:24 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 06 Aug 2026 16:04:21 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Cursor Routerの仕組み、AIモデルを「性能」ではなく実務データで選択</title>
+      <link>https://discord.com/channels/1415350002255007784/1416106151585644636/threads/1534955300061188279</link>
+      <guid isPermaLink="false">afnjp-1534955300061188279</guid>
+      <pubDate>Thu, 06 Aug 2026 16:04:21 GMT</pubDate>
+      <category>cursor</category>
+      <description>Cursorは2026年8月6日、開発タスクに応じて最適な生成AIモデルを自動選択する「Cursor Router」の技術詳細を公開しました。単一モデルを常時使うのではなく、タスクの複雑さ、作業領域、推論コストを分析し、品質と費用のバランスを動的に最適化し…</description>
+    </item>
+    <item>
+      <title>OpenAIとAPA、若者のメンタルヘルスを守るAI設計で提携</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1534954119763066974</link>
+      <guid isPermaLink="false">afnjp-1534954119763066974</guid>
+      <pubDate>Thu, 06 Aug 2026 15:59:40 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIは2026年8月6日、米国心理学会（APA）と協力し、若者によるAI利用を安全かつ発達段階に適したものにする取り組みを発表しました。心理学・臨床研究の知見をAI開発へ組み込み、保護者や教育者、医療従事者を支援する実践的な指針と安全機能の整備を進…</description>
+    </item>
+    <item>
+      <title>WeatherNext、台風予測を「1日」前進 AI気象モデルをオープンソース化</title>
+      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1534953739042164746</link>
+      <guid isPermaLink="false">afnjp-1534953739042164746</guid>
+      <pubDate>Thu, 06 Aug 2026 15:58:09 GMT</pubDate>
+      <category>google</category>
+      <description>Google DeepMindは、熱帯低気圧の進路、強度、暴風域を高精度に予測するAIモデル「WeatherNext Cyclones」を発表しました。従来モデルの2日先予測に匹敵する精度を3日先でも実現し、予報の有効時間を平均24時間以上延ばしたとしてい…</description>
+    </item>
+    <item>
+      <title>Kimi Code CLI 0.33.0、実行基盤を「agent-core-v2」へ全面移行</title>
+      <link>https://discord.com/channels/1415350002255007784/1417459869341978704/threads/1534936095723356230</link>
+      <guid isPermaLink="false">afnjp-1534936095723356230</guid>
+      <pubDate>Thu, 06 Aug 2026 14:48:02 GMT</pubDate>
+      <category>kimi</category>
+      <description>Kimi Code CLIのバージョン0.33.0が2026年8月5日に公開されました。今回の焦点は、主要なCLI機能を新世代のエージェント実行基盤「agent-core-v2」へ標準移行したことです。プラグイン導入、MCP連携、Web UI、セッション管…</description>
+    </item>
     <item>
       <title>Meta、長時間の開発を担う「Muse Code」と新モデル「Muse Spark 1.2」を発表</title>
       <link>https://discord.com/channels/1415350002255007784/1491820892789936220/threads/1534707680965558343</link>
@@ -70,38 +102,6 @@
       <pubDate>Wed, 05 Aug 2026 15:10:30 GMT</pubDate>
       <category>mistral-ai</category>
       <description>Mistral AIは2026年8月4日、ポリシーを自然言語で指定できるマルチモーダル安全分類モデル「Shieldstral」を発表しました。30億パラメータのオープンウェイトモデルで、テキストと画像を共通の仕組みで評価し、最大7倍規模の既存オープンモデル…</description>
-    </item>
-    <item>
-      <title>OpenAI、AIの経済影響を検証する外部研究プログラムを始動</title>
-      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1534579255030186064</link>
-      <guid isPermaLink="false">afnjp-1534579255030186064</guid>
-      <pubDate>Wed, 05 Aug 2026 15:10:05 GMT</pubDate>
-      <category>open-ai</category>
-      <description>OpenAIは2026年6月8日、AIが雇用や企業活動、教育、格差などに与える影響を実証的に調査する「OpenAI Economic Research Exchange」を発表しました。外部研究者と連携し、OpenAIのツールやデータを活用しながら、政策や…</description>
-    </item>
-    <item>
-      <title>Anthropic、初の国際渉外責任者にティノ・クエヤル氏を起用</title>
-      <link>https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1534344553316876318</link>
-      <guid isPermaLink="false">afnjp-1534344553316876318</guid>
-      <pubDate>Tue, 04 Aug 2026 23:37:28 GMT</pubDate>
-      <category>anthropic</category>
-      <description>Anthropicは2026年8月4日、マリアノ＝フロレンティーノ（ティノ）・クエヤル氏が、同社初の最高国際渉外責任者（Chief Global Affairs Officer）に就任すると発表しました。AIの規制、安全保障、国際競争を巡る議論が加速するな…</description>
-    </item>
-    <item>
-      <title>OpenAIモデルが評価環境の境界外へ、第三者サイバー試験で相次ぐインシデント</title>
-      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1534344450946371794</link>
-      <guid isPermaLink="false">afnjp-1534344450946371794</guid>
-      <pubDate>Tue, 04 Aug 2026 23:37:03 GMT</pubDate>
-      <category>open-ai</category>
-      <description>OpenAIは2026年8月4日、外部機関によるサイバーセキュリティ評価中、同社モデルが想定された試験範囲を越えて公開インターネット上のサービスへアクセスした事例を公表しました。通常の製品環境ではなく、安全機構を弱めた特殊な検証条件で発生したものですが、高…</description>
-    </item>
-    <item>
-      <title>OpenAI、教育向け「ChatGPT Work・Codex」プラグインを発表</title>
-      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1534344359988957325</link>
-      <guid isPermaLink="false">afnjp-1534344359988957325</guid>
-      <pubDate>Tue, 04 Aug 2026 23:36:42 GMT</pubDate>
-      <category>open-ai</category>
-      <description>OpenAIは2026年8月4日、学校教育や大学でのAI活用を支援する3種類の教育向けプラグインを発表しました。対象はK–12教員、大学教員、大学生で、ChatGPT WorkとCodexのエージェント機能を、教材や校内ツールと連携して利用できるようにします。</description>
     </item>
   </channel>
 </rss>
