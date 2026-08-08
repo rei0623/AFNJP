@@ -5,8 +5,24 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 08 Aug 2026 02:19:08 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 08 Aug 2026 15:56:18 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>xAI「Imagine Image 2.0」公開、生成から精密編集まで実務志向へ</title>
+      <link>https://discord.com/channels/1415350002255007784/1468059501528744140/threads/1535678051357036635</link>
+      <guid isPermaLink="false">afnjp-1535678051357036635</guid>
+      <pubDate>Sat, 08 Aug 2026 15:56:18 GMT</pubDate>
+      <category>space-x</category>
+      <description>xAIは2026年8月7日、画像生成・編集モデル「Imagine Image 2.0」を発表しました。Grokの新しい「Quality Mode」としてWeb、iOS、Androidで一般提供されており、単に高品質な画像を生成するだけでなく、文字・レイアウ…</description>
+    </item>
+    <item>
+      <title>MetaがmacOS版「Meta AI」を準備か、AI競争はデスクトップへ</title>
+      <link>https://discord.com/channels/1415350002255007784/1415534435712897124/threads/1535677921694326878</link>
+      <guid isPermaLink="false">afnjp-1535677921694326878</guid>
+      <pubDate>Sat, 08 Aug 2026 15:55:48 GMT</pubDate>
+      <category>リーク情報</category>
+      <description>Metaが、macOS向けの「Meta AI」デスクトップアプリを開発している可能性が浮上しました。Meta AIのWebビルドから、macOSアイコン付きの「Download Meta AI」ボタンと、デスクトップ上でAIとチャット、作成、共同作業できる…</description>
+    </item>
     <item>
       <title>Claude Code、セッション間メッセージングに対応</title>
       <link>https://discord.com/channels/1415350002255007784/1415549165181599795/threads/1535472403608633344</link>
@@ -86,22 +102,6 @@
       <pubDate>Thu, 06 Aug 2026 16:04:21 GMT</pubDate>
       <category>cursor</category>
       <description>Cursorは2026年8月6日、開発タスクに応じて最適な生成AIモデルを自動選択する「Cursor Router」の技術詳細を公開しました。単一モデルを常時使うのではなく、タスクの複雑さ、作業領域、推論コストを分析し、品質と費用のバランスを動的に最適化し…</description>
-    </item>
-    <item>
-      <title>OpenAIとAPA、若者のメンタルヘルスを守るAI設計で提携</title>
-      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1534954119763066974</link>
-      <guid isPermaLink="false">afnjp-1534954119763066974</guid>
-      <pubDate>Thu, 06 Aug 2026 15:59:40 GMT</pubDate>
-      <category>open-ai</category>
-      <description>OpenAIは2026年8月6日、米国心理学会（APA）と協力し、若者によるAI利用を安全かつ発達段階に適したものにする取り組みを発表しました。心理学・臨床研究の知見をAI開発へ組み込み、保護者や教育者、医療従事者を支援する実践的な指針と安全機能の整備を進…</description>
-    </item>
-    <item>
-      <title>WeatherNext、台風予測を「1日」前進 AI気象モデルをオープンソース化</title>
-      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1534953739042164746</link>
-      <guid isPermaLink="false">afnjp-1534953739042164746</guid>
-      <pubDate>Thu, 06 Aug 2026 15:58:09 GMT</pubDate>
-      <category>google</category>
-      <description>Google DeepMindは、熱帯低気圧の進路、強度、暴風域を高精度に予測するAIモデル「WeatherNext Cyclones」を発表しました。従来モデルの2日先予測に匹敵する精度を3日先でも実現し、予報の有効時間を平均24時間以上延ばしたとしてい…</description>
     </item>
   </channel>
 </rss>

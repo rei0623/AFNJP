@@ -1,8 +1,32 @@
 {
-  "generated_at": "2026-08-08T15:43:58.883Z",
+  "generated_at": "2026-08-08T16:50:10.882Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1535678051357036635",
+      "title": "xAI「Imagine Image 2.0」公開、生成から精密編集まで実務志向へ",
+      "channel": "space-x",
+      "category": "Space X",
+      "date": "2026-08-08T15:56:18.962Z",
+      "excerpt": "xAIは2026年8月7日、画像生成・編集モデル「Imagine Image 2.0」を発表しました。Grokの新しい「Quality Mode」としてWeb、iOS、Androidで一般提供されており、単に高品質な画像を生成するだけでなく、文字・レイアウ…",
+      "source_url": "https://x.ai/news/grok-imagine-image-2",
+      "source_label": "x.ai",
+      "cover": "assets/posts/1535678051357036635.jpg",
+      "url": "https://discord.com/channels/1415350002255007784/1468059501528744140/threads/1535678051357036635"
+    },
+    {
+      "id": "1535677921694326878",
+      "title": "MetaがmacOS版「Meta AI」を準備か、AI競争はデスクトップへ",
+      "channel": "リーク情報",
+      "category": "リーク情報",
+      "date": "2026-08-08T15:55:48.048Z",
+      "excerpt": "Metaが、macOS向けの「Meta AI」デスクトップアプリを開発している可能性が浮上しました。Meta AIのWebビルドから、macOSアイコン付きの「Download Meta AI」ボタンと、デスクトップ上でAIとチャット、作成、共同作業できる…",
+      "source_url": "https://www.testingcatalog.com/meta-prepares-desktop-ai-app-for-macos-as-rivals-race-ahead/",
+      "source_label": "testingcatalog.com",
+      "cover": "assets/posts/1535677921694326878.jpg",
+      "url": "https://discord.com/channels/1415350002255007784/1415534435712897124/threads/1535677921694326878"
+    },
     {
       "id": "1535472403608633344",
       "title": "Claude Code、セッション間メッセージングに対応",
@@ -122,30 +146,6 @@
       "source_label": "cursor.com",
       "cover": "assets/posts/1534955300061188279.png",
       "url": "https://discord.com/channels/1415350002255007784/1416106151585644636/threads/1534955300061188279"
-    },
-    {
-      "id": "1534954119763066974",
-      "title": "OpenAIとAPA、若者のメンタルヘルスを守るAI設計で提携",
-      "channel": "open-ai",
-      "category": "Open AI",
-      "date": "2026-08-06T15:59:40.220Z",
-      "excerpt": "OpenAIは2026年8月6日、米国心理学会（APA）と協力し、若者によるAI利用を安全かつ発達段階に適したものにする取り組みを発表しました。心理学・臨床研究の知見をAI開発へ組み込み、保護者や教育者、医療従事者を支援する実践的な指針と安全機能の整備を進…",
-      "source_url": "https://openai.com/index/openai-and-apa-partner-to-advance-responsible-ai/",
-      "source_label": "openai.com",
-      "cover": "assets/posts/1534954119763066974.png",
-      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1534954119763066974"
-    },
-    {
-      "id": "1534953739042164746",
-      "title": "WeatherNext、台風予測を「1日」前進 AI気象モデルをオープンソース化",
-      "channel": "google",
-      "category": "Google",
-      "date": "2026-08-06T15:58:09.449Z",
-      "excerpt": "Google DeepMindは、熱帯低気圧の進路、強度、暴風域を高精度に予測するAIモデル「WeatherNext Cyclones」を発表しました。従来モデルの2日先予測に匹敵する精度を3日先でも実現し、予報の有効時間を平均24時間以上延ばしたとしてい…",
-      "source_url": "https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/",
-      "source_label": "deepmind.google",
-      "cover": "assets/posts/1534953739042164746.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1534953739042164746"
     }
   ]
 }
