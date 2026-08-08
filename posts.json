@@ -1,8 +1,32 @@
 {
-  "generated_at": "2026-08-07T23:46:49.909Z",
+  "generated_at": "2026-08-08T02:19:42.548Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1535472403608633344",
+      "title": "Claude Code、セッション間メッセージングに対応",
+      "channel": "claude-code",
+      "category": "Anthropic",
+      "date": "2026-08-08T02:19:08.718Z",
+      "excerpt": "AnthropicのClaude Codeでは、複数の独立したClaude Codeセッション同士がメッセージを交換できる「Cross-session messaging」が利用できます。並列開発中の変更通知や調査結果の共有、長時間処理の進捗確認などを、人…",
+      "source_url": "https://code.claude.com/docs/en/cross-session-messaging",
+      "source_label": "code.claude.com",
+      "cover": "assets/posts/1535472403608633344.png",
+      "url": "https://discord.com/channels/1415350002255007784/1415549165181599795/threads/1535472403608633344"
+    },
+    {
+      "id": "1535472126625316984",
+      "title": "Claude Code「Auto mode」が標準へ、手動承認より危険操作を高精度で検知",
+      "channel": "claude-code",
+      "category": "Anthropic",
+      "date": "2026-08-08T02:18:02.680Z",
+      "excerpt": "Anthropicは2026年8月7日、Claude Codeの「Auto mode」をPro、Max、Teamプランの標準動作にすると発表しました。8月14日以降、新規セッションでは原則としてAuto modeが利用されます。最大の狙いは、開発者を大量の…",
+      "source_url": "https://claude.com/blog/auto-mode-default-in-claude-code",
+      "source_label": "claude.com",
+      "cover": "assets/posts/1535472126625316984.jpg",
+      "url": "https://discord.com/channels/1415350002255007784/1415549165181599795/threads/1535472126625316984"
+    },
     {
       "id": "1535373042505744404",
       "title": "OpenAI、新モデル「Astra」で重大なサイバー能力の可能性",
@@ -122,30 +146,6 @@
       "source_label": "deepmind.google",
       "cover": "assets/posts/1534953739042164746.webp",
       "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1534953739042164746"
-    },
-    {
-      "id": "1534936095723356230",
-      "title": "Kimi Code CLI 0.33.0、実行基盤を「agent-core-v2」へ全面移行",
-      "channel": "kimi",
-      "category": "その他",
-      "date": "2026-08-06T14:48:02.954Z",
-      "excerpt": "Kimi Code CLIのバージョン0.33.0が2026年8月5日に公開されました。今回の焦点は、主要なCLI機能を新世代のエージェント実行基盤「agent-core-v2」へ標準移行したことです。プラグイン導入、MCP連携、Web UI、セッション管…",
-      "source_url": "https://www.kimi.com/code/docs/en/kimi-code-cli/release-notes/changelog.html",
-      "source_label": "kimi.com",
-      "cover": null,
-      "url": "https://discord.com/channels/1415350002255007784/1417459869341978704/threads/1534936095723356230"
-    },
-    {
-      "id": "1534707680965558343",
-      "title": "Meta、長時間の開発を担う「Muse Code」と新モデル「Muse Spark 1.2」を発表",
-      "channel": "muse-spark",
-      "category": "Meta",
-      "date": "2026-08-05T23:40:24.632Z",
-      "excerpt": "Metaは2026年8月5日、ターミナル型コーディングエージェント「Muse Code」のベータ版と、その中核を担う新モデル「Muse Spark 1.2」を発表しました。大規模リポジトリの調査から実装、検証までを継続的に進め、数時間規模の高度なソフトウェ…",
-      "source_url": "https://research.meta.ai/blog/introducing-muse-code-and-muse-spark-1-2",
-      "source_label": "research.meta.ai",
-      "cover": "assets/posts/1534707680965558343.png",
-      "url": "https://discord.com/channels/1415350002255007784/1491820892789936220/threads/1534707680965558343"
     }
   ]
 }
