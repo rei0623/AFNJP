@@ -1,8 +1,32 @@
 {
-  "generated_at": "2026-08-09T20:50:14.506Z",
+  "generated_at": "2026-08-09T21:46:16.317Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1536117779613352006",
+      "title": "「Mona-lisa-1」がArenaに出現、OpenAI次期画像モデルの可能性",
+      "channel": "リーク情報",
+      "category": "リーク情報",
+      "date": "2026-08-09T21:03:38.348Z",
+      "excerpt": "AIモデル比較のArenaに、「Mona-lisa-1」と呼ばれる新たな画像生成モデルが登場したとの報告が注目を集めています。さらに、生成画像をOpenAIの検証ツールで確認したところ、OpenAI由来を示すSynthIDウォーターマークが検出されたと報告…",
+      "source_url": "https://twitter.com/i/status/2086405404368503240",
+      "source_label": "twitter.com",
+      "cover": "assets/posts/1536117779613352006.jpg",
+      "url": "https://discord.com/channels/1415350002255007784/1415534435712897124/threads/1536117779613352006"
+    },
+    {
+      "id": "1536117650172805190",
+      "title": "Google「Gems」終了か、GeminiのカスタムAIは「Skills」へ移行の可能性",
+      "channel": "リーク情報",
+      "category": "リーク情報",
+      "date": "2026-08-09T21:03:07.487Z",
+      "excerpt": "GoogleがGeminiのカスタムAI機能「Gems」を2026年10月20日に終了し、新しい「Skills」へ移行する準備を進めている可能性が浮上しました。TestingCatalogがGemini Webアプリ内の未公開フラグから確認したもので、現時…",
+      "source_url": "https://www.testingcatalog.com/google-may-retire-gems-in-october-forcing-migration-to-skills/",
+      "source_label": "testingcatalog.com",
+      "cover": "assets/posts/1536117650172805190.jpg",
+      "url": "https://discord.com/channels/1415350002255007784/1415534435712897124/threads/1536117650172805190"
+    },
     {
       "id": "1535678051357036635",
       "title": "xAI「Imagine Image 2.0」公開、生成から精密編集まで実務志向へ",
@@ -122,30 +146,6 @@
       "source_label": "blog.google",
       "cover": "assets/posts/1535230289029103712.png",
       "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1535230289029103712"
-    },
-    {
-      "id": "1535230027707322418",
-      "title": "GPT-5.6 Sol刷新、ChatGPTは「質問するAI」から「仕事をするAI」へ",
-      "channel": "chatgpt",
-      "category": "Open AI",
-      "date": "2026-08-07T10:16:01.800Z",
-      "excerpt": "OpenAIは2026年8月6日、ChatGPTにおけるGPT-5.6 Solの改善と無料ユーザー向けGPT-5.6 Lunaのアクセス拡大を発表しました。同時に公開した世界各国の利用データからは、ChatGPTが単なる検索・質問ツールではなく、文章作成、…",
-      "source_url": "https://openai.com/index/how-the-world-is-putting-chatgpt-to-work/",
-      "source_label": "openai.com",
-      "cover": "assets/posts/1535230027707322418.png",
-      "url": "https://discord.com/channels/1415350002255007784/1415353131604377641/threads/1535230027707322418"
-    },
-    {
-      "id": "1534955300061188279",
-      "title": "Cursor Routerの仕組み、AIモデルを「性能」ではなく実務データで選択",
-      "channel": "cursor",
-      "category": "その他",
-      "date": "2026-08-06T16:04:21.625Z",
-      "excerpt": "Cursorは2026年8月6日、開発タスクに応じて最適な生成AIモデルを自動選択する「Cursor Router」の技術詳細を公開しました。単一モデルを常時使うのではなく、タスクの複雑さ、作業領域、推論コストを分析し、品質と費用のバランスを動的に最適化し…",
-      "source_url": "https://cursor.com/ja/blog/how-cursor-router-works?v=2",
-      "source_label": "cursor.com",
-      "cover": "assets/posts/1534955300061188279.png",
-      "url": "https://discord.com/channels/1415350002255007784/1416106151585644636/threads/1534955300061188279"
     }
   ]
 }
