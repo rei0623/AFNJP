@@ -1,8 +1,32 @@
 {
-  "generated_at": "2026-08-10T22:55:19.183Z",
+  "generated_at": "2026-08-10T23:49:48.311Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1536516960102125608",
+      "title": "Virgin Atlantic、ChatGPT Workで航空顧客体験を再設計 数週間の調査を数時間へ",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-08-10T23:29:50.393Z",
+      "excerpt": "Virgin Atlanticは、OpenAIの「ChatGPT Work」を競合調査、商品企画、データ分析、意思決定に活用し、航空会社特有の複雑な顧客ジャーニーを横断的に把握する取り組みを進めています。特に注目されるのは、従来数週間を要していた調査を数時…",
+      "source_url": "https://openai.com/index/virgin-atlantic/chatgpt-work/",
+      "source_label": "openai.com",
+      "cover": "assets/posts/1536516960102125608.png",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1536516960102125608"
+    },
+    {
+      "id": "1536516823829454888",
+      "title": "Zapier、ChatGPT Workでマーケティングを「自動運転」へ",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-08-10T23:29:17.903Z",
+      "excerpt": "OpenAIは2026年8月10日、Zapierのエンタープライズマーケティング部門による「ChatGPT Work」の活用事例を公開しました。大量のリード分析から問題修正、キャンペーン制作、レポーティングまでを自動化し、毎月7桁規模のパイプライン価値を営…",
+      "source_url": "https://openai.com/index/zapier/",
+      "source_label": "openai.com",
+      "cover": "assets/posts/1536516823829454888.png",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1536516823829454888"
+    },
     {
       "id": "1536433824081383514",
       "title": "OpenAI「Daybreak」をBlue／Redに二層化、GPT-5.6 Cyberは別承認制へ",
@@ -122,30 +146,6 @@
       "source_label": "openai.com",
       "cover": "assets/posts/1536419974334259271.png",
       "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1536419974334259271"
-    },
-    {
-      "id": "1536117779613352006",
-      "title": "「Mona-lisa-1」がArenaに出現、OpenAI次期画像モデルの可能性",
-      "channel": "リーク情報",
-      "category": "リーク情報",
-      "date": "2026-08-09T21:03:38.348Z",
-      "excerpt": "AIモデル比較のArenaに、「Mona-lisa-1」と呼ばれる新たな画像生成モデルが登場したとの報告が注目を集めています。さらに、生成画像をOpenAIの検証ツールで確認したところ、OpenAI由来を示すSynthIDウォーターマークが検出されたと報告…",
-      "source_url": "https://twitter.com/i/status/2086405404368503240",
-      "source_label": "twitter.com",
-      "cover": "assets/posts/1536117779613352006.jpg",
-      "url": "https://discord.com/channels/1415350002255007784/1415534435712897124/threads/1536117779613352006"
-    },
-    {
-      "id": "1536117650172805190",
-      "title": "Google「Gems」終了か、GeminiのカスタムAIは「Skills」へ移行の可能性",
-      "channel": "リーク情報",
-      "category": "リーク情報",
-      "date": "2026-08-09T21:03:07.487Z",
-      "excerpt": "GoogleがGeminiのカスタムAI機能「Gems」を2026年10月20日に終了し、新しい「Skills」へ移行する準備を進めている可能性が浮上しました。TestingCatalogがGemini Webアプリ内の未公開フラグから確認したもので、現時…",
-      "source_url": "https://www.testingcatalog.com/google-may-retire-gems-in-october-forcing-migration-to-skills/",
-      "source_label": "testingcatalog.com",
-      "cover": "assets/posts/1536117650172805190.jpg",
-      "url": "https://discord.com/channels/1415350002255007784/1415534435712897124/threads/1536117650172805190"
     }
   ]
 }

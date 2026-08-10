@@ -5,8 +5,24 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 10 Aug 2026 17:59:29 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 10 Aug 2026 23:29:50 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Virgin Atlantic、ChatGPT Workで航空顧客体験を再設計 数週間の調査を数時間へ</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1536516960102125608</link>
+      <guid isPermaLink="false">afnjp-1536516960102125608</guid>
+      <pubDate>Mon, 10 Aug 2026 23:29:50 GMT</pubDate>
+      <category>open-ai</category>
+      <description>Virgin Atlanticは、OpenAIの「ChatGPT Work」を競合調査、商品企画、データ分析、意思決定に活用し、航空会社特有の複雑な顧客ジャーニーを横断的に把握する取り組みを進めています。特に注目されるのは、従来数週間を要していた調査を数時…</description>
+    </item>
+    <item>
+      <title>Zapier、ChatGPT Workでマーケティングを「自動運転」へ</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1536516823829454888</link>
+      <guid isPermaLink="false">afnjp-1536516823829454888</guid>
+      <pubDate>Mon, 10 Aug 2026 23:29:17 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIは2026年8月10日、Zapierのエンタープライズマーケティング部門による「ChatGPT Work」の活用事例を公開しました。大量のリード分析から問題修正、キャンペーン制作、レポーティングまでを自動化し、毎月7桁規模のパイプライン価値を営…</description>
+    </item>
     <item>
       <title>OpenAI「Daybreak」をBlue／Redに二層化、GPT-5.6 Cyberは別承認制へ</title>
       <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1536433824081383514</link>
@@ -86,22 +102,6 @@
       <pubDate>Mon, 10 Aug 2026 17:04:27 GMT</pubDate>
       <category>open-ai</category>
       <description>OpenAIは2026年8月10日、金融業務向けAIエージェントを開発するModel MLが「GPT-5.6 Sol」を活用し、PowerPointやExcelの生成効率と実務品質を高めている事例を公開しました。単なる文章生成ではなく、計算・調査・資料構成…</description>
-    </item>
-    <item>
-      <title>「Mona-lisa-1」がArenaに出現、OpenAI次期画像モデルの可能性</title>
-      <link>https://discord.com/channels/1415350002255007784/1415534435712897124/threads/1536117779613352006</link>
-      <guid isPermaLink="false">afnjp-1536117779613352006</guid>
-      <pubDate>Sun, 09 Aug 2026 21:03:38 GMT</pubDate>
-      <category>リーク情報</category>
-      <description>AIモデル比較のArenaに、「Mona-lisa-1」と呼ばれる新たな画像生成モデルが登場したとの報告が注目を集めています。さらに、生成画像をOpenAIの検証ツールで確認したところ、OpenAI由来を示すSynthIDウォーターマークが検出されたと報告…</description>
-    </item>
-    <item>
-      <title>Google「Gems」終了か、GeminiのカスタムAIは「Skills」へ移行の可能性</title>
-      <link>https://discord.com/channels/1415350002255007784/1415534435712897124/threads/1536117650172805190</link>
-      <guid isPermaLink="false">afnjp-1536117650172805190</guid>
-      <pubDate>Sun, 09 Aug 2026 21:03:07 GMT</pubDate>
-      <category>リーク情報</category>
-      <description>GoogleがGeminiのカスタムAI機能「Gems」を2026年10月20日に終了し、新しい「Skills」へ移行する準備を進めている可能性が浮上しました。TestingCatalogがGemini Webアプリ内の未公開フラグから確認したもので、現時…</description>
     </item>
   </channel>
 </rss>
