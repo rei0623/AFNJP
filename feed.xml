@@ -5,8 +5,40 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 10 Aug 2026 17:06:40 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 10 Aug 2026 17:59:29 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>OpenAI「Daybreak」をBlue／Redに二層化、GPT-5.6 Cyberは別承認制へ</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1536433824081383514</link>
+      <guid isPermaLink="false">afnjp-1536433824081383514</guid>
+      <pubDate>Mon, 10 Aug 2026 17:59:29 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIは2026年8月10日、サイバーセキュリティ用途向けの「Daybreak」に「Daybreak Blue」と「Daybreak Red」という2段階のアクセス体系を導入しました。防御業務と、攻撃手法の再現・検証を伴う高度なセキュリティ業務を明確…</description>
+    </item>
+    <item>
+      <title>Claude、リーマンゼータ関数の零点下限を67.2%へ更新</title>
+      <link>https://discord.com/channels/1415350002255007784/1415353403269185546/threads/1536433712835592302</link>
+      <guid isPermaLink="false">afnjp-1536433712835592302</guid>
+      <pubDate>Mon, 10 Aug 2026 17:59:02 GMT</pubDate>
+      <category>claude</category>
+      <description>Anthropicは2026年8月10日、未公開の研究版Claudeが、リーマンゼータ関数の零点のうち「臨界線」上に存在すると無条件に保証できる割合を、従来の約41.6%から67.2%へ引き上げる結果を得たと発表しました。リーマン予想そのものを証明したわけ…</description>
+    </item>
+    <item>
+      <title>Sakana AI、Fuguの「指揮者」をGemma 4へ移植 AIオーケストレーションのモデル依存脱却へ</title>
+      <link>https://discord.com/channels/1415350002255007784/1420683387395375115/threads/1536421605876564069</link>
+      <guid isPermaLink="false">afnjp-1536421605876564069</guid>
+      <pubDate>Mon, 10 Aug 2026 17:10:56 GMT</pubDate>
+      <category>sakana-ai</category>
+      <description>Sakana AIは2026年8月10日、マルチエージェント基盤「Sakana Fugu」の指揮者モデルを、従来とは異なる系統の「Gemma 4」ベースで訓練し、既存Fuguとほぼ同等の性能とコスト効率を確認したと発表しました。AIシステム全体を特定の基盤…</description>
+    </item>
+    <item>
+      <title>Google「Gemini 3.7 Flash」準備か、Python GenAI SDKのモデル候補に名称が浮上</title>
+      <link>https://discord.com/channels/1415350002255007784/1415534435712897124/threads/1536421515921457192</link>
+      <guid isPermaLink="false">afnjp-1536421515921457192</guid>
+      <pubDate>Mon, 10 Aug 2026 17:10:34 GMT</pubDate>
+      <category>リーク情報</category>
+      <description>Googleの公式Python GenAI SDKに「Gemini-3.7-flash」とされるモデル名が追加されたとの情報が確認されました。現時点でGoogleからGemini 3.7 Flashの正式なリリース日や仕様は発表されていませんが、SDK側で…</description>
+    </item>
     <item>
       <title>Meta「Muse Glimmer」発表、30BモデルをPC上の常駐AIエージェントへ</title>
       <link>https://discord.com/channels/1415350002255007784/1441473829951111330/threads/1536420534714114159</link>
@@ -70,38 +102,6 @@
       <pubDate>Sun, 09 Aug 2026 21:03:07 GMT</pubDate>
       <category>リーク情報</category>
       <description>GoogleがGeminiのカスタムAI機能「Gems」を2026年10月20日に終了し、新しい「Skills」へ移行する準備を進めている可能性が浮上しました。TestingCatalogがGemini Webアプリ内の未公開フラグから確認したもので、現時…</description>
-    </item>
-    <item>
-      <title>xAI「Imagine Image 2.0」公開、生成から精密編集まで実務志向へ</title>
-      <link>https://discord.com/channels/1415350002255007784/1468059501528744140/threads/1535678051357036635</link>
-      <guid isPermaLink="false">afnjp-1535678051357036635</guid>
-      <pubDate>Sat, 08 Aug 2026 15:56:18 GMT</pubDate>
-      <category>space-x</category>
-      <description>xAIは2026年8月7日、画像生成・編集モデル「Imagine Image 2.0」を発表しました。Grokの新しい「Quality Mode」としてWeb、iOS、Androidで一般提供されており、単に高品質な画像を生成するだけでなく、文字・レイアウ…</description>
-    </item>
-    <item>
-      <title>MetaがmacOS版「Meta AI」を準備か、AI競争はデスクトップへ</title>
-      <link>https://discord.com/channels/1415350002255007784/1415534435712897124/threads/1535677921694326878</link>
-      <guid isPermaLink="false">afnjp-1535677921694326878</guid>
-      <pubDate>Sat, 08 Aug 2026 15:55:48 GMT</pubDate>
-      <category>リーク情報</category>
-      <description>Metaが、macOS向けの「Meta AI」デスクトップアプリを開発している可能性が浮上しました。Meta AIのWebビルドから、macOSアイコン付きの「Download Meta AI」ボタンと、デスクトップ上でAIとチャット、作成、共同作業できる…</description>
-    </item>
-    <item>
-      <title>Claude Code、セッション間メッセージングに対応</title>
-      <link>https://discord.com/channels/1415350002255007784/1415549165181599795/threads/1535472403608633344</link>
-      <guid isPermaLink="false">afnjp-1535472403608633344</guid>
-      <pubDate>Sat, 08 Aug 2026 02:19:08 GMT</pubDate>
-      <category>claude-code</category>
-      <description>AnthropicのClaude Codeでは、複数の独立したClaude Codeセッション同士がメッセージを交換できる「Cross-session messaging」が利用できます。並列開発中の変更通知や調査結果の共有、長時間処理の進捗確認などを、人…</description>
-    </item>
-    <item>
-      <title>Claude Code「Auto mode」が標準へ、手動承認より危険操作を高精度で検知</title>
-      <link>https://discord.com/channels/1415350002255007784/1415549165181599795/threads/1535472126625316984</link>
-      <guid isPermaLink="false">afnjp-1535472126625316984</guid>
-      <pubDate>Sat, 08 Aug 2026 02:18:02 GMT</pubDate>
-      <category>claude-code</category>
-      <description>Anthropicは2026年8月7日、Claude Codeの「Auto mode」をPro、Max、Teamプランの標準動作にすると発表しました。8月14日以降、新規セッションでは原則としてAuto modeが利用されます。最大の狙いは、開発者を大量の…</description>
     </item>
   </channel>
 </rss>
