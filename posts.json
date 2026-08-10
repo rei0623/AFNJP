@@ -1,8 +1,80 @@
 {
-  "generated_at": "2026-08-10T16:09:17.515Z",
+  "generated_at": "2026-08-10T17:07:15.085Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1536420534714114159",
+      "title": "Meta「Muse Glimmer」発表、30BモデルをPC上の常駐AIエージェントへ",
+      "channel": "meta",
+      "category": "Meta",
+      "date": "2026-08-10T17:06:40.789Z",
+      "excerpt": "Metaは2026年8月10日、端末内で常時稼働するAIエージェント向けモデル「Muse Glimmer」を発表しました。300億パラメータ規模ながら量子化によって一般的な高性能PCでも動作可能とし、モデルウェイトをApache 2.0ライセンスで公開しま…",
+      "source_url": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
+      "source_label": "research.meta.ai",
+      "cover": "assets/posts/1536420534714114159.png",
+      "url": "https://discord.com/channels/1415350002255007784/1441473829951111330/threads/1536420534714114159"
+    },
+    {
+      "id": "1536420384537059358",
+      "title": "ChatGPT Businessに「Premium seats」、利用量5倍・5時間制限を撤廃",
+      "channel": "chatgpt",
+      "category": "Open AI",
+      "date": "2026-08-10T17:06:04.984Z",
+      "excerpt": "OpenAIは2026年8月10日、ChatGPT Business向けに新たな座席種別「Premium seats」を導入すると発表しました。Standard席の5倍の利用量を提供し、5時間単位の利用制限も撤廃。AIを一部業務の補助ではなく、開発や分析、…",
+      "source_url": "https://openai.com/index/premium-seats-chatgpt-business/",
+      "source_label": "openai.com",
+      "cover": "assets/posts/1536420384537059358.png",
+      "url": "https://discord.com/channels/1415350002255007784/1415353131604377641/threads/1536420384537059358"
+    },
+    {
+      "id": "1536420288445816862",
+      "title": "OpenAIが示す「AIネイティブ財務」――ゼロデイ決算と継続予測でCFO業務を再設計",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-08-10T17:05:42.074Z",
+      "excerpt": "OpenAIは2026年8月10日、CFOのSarah Friar氏によるAIネイティブな財務部門構築の実践知を公開しました。目標は単なる業務効率化ではありません。決算や予測をリアルタイム化し、財務部門そのものを「意思決定を支えるシステム」へ変える構想です。",
+      "source_url": "https://openai.com/index/building-an-ai-native-finance-function/",
+      "source_label": "openai.com",
+      "cover": "assets/posts/1536420288445816862.png",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1536420288445816862"
+    },
+    {
+      "id": "1536420194183028826",
+      "title": "Google Ads・Analyticsが「AIエージェント化」、分析から施策実行まで加速",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-08-10T17:05:19.600Z",
+      "excerpt": "Googleは、Google AdsとGoogle Analyticsに新たなAI機能を導入しました。単なる生成AIによる文章作成ではなく、データの変化を発見し、その理由を分析して次の施策につなげる「エージェント型」のマーケティング環境へ進化する点が特徴です。",
+      "source_url": "https://blog.google/products/ads-commerce/google-ads-analytics-ai-updates/",
+      "source_label": "blog.google",
+      "cover": "assets/posts/1536420194183028826.jpg",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1536420194183028826"
+    },
+    {
+      "id": "1536420053170262089",
+      "title": "OpenAI、テキサス州で「責任あるAIインフラ」推進へ",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-08-10T17:04:45.980Z",
+      "excerpt": "OpenAIは2026年8月10日、テキサス州のグレッグ・アボット知事に書簡を送り、同州におけるAIインフラ開発を責任ある形で進める方針を表明しました。州政府、自治体、電力会社、地域社会と協力し、巨大データセンターの経済効果と電力・水資源への負荷を両立させ…",
+      "source_url": "https://openai.com/index/responsible-ai-infrastructure-texas/",
+      "source_label": "openai.com",
+      "cover": "assets/posts/1536420053170262089.png",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1536420053170262089"
+    },
+    {
+      "id": "1536419974334259271",
+      "title": "GPT-5.6 Sol、金融資料作成で「レビュー可能な完成品」へ前進",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-08-10T17:04:27.184Z",
+      "excerpt": "OpenAIは2026年8月10日、金融業務向けAIエージェントを開発するModel MLが「GPT-5.6 Sol」を活用し、PowerPointやExcelの生成効率と実務品質を高めている事例を公開しました。単なる文章生成ではなく、計算・調査・資料構成…",
+      "source_url": "https://openai.com/index/model-ml/",
+      "source_label": "openai.com",
+      "cover": "assets/posts/1536419974334259271.png",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1536419974334259271"
+    },
     {
       "id": "1536117779613352006",
       "title": "「Mona-lisa-1」がArenaに出現、OpenAI次期画像モデルの可能性",
@@ -74,78 +146,6 @@
       "source_label": "claude.com",
       "cover": "assets/posts/1535472126625316984.jpg",
       "url": "https://discord.com/channels/1415350002255007784/1415549165181599795/threads/1535472126625316984"
-    },
-    {
-      "id": "1535373042505744404",
-      "title": "OpenAI、新モデル「Astra」で重大なサイバー能力の可能性",
-      "channel": "open-ai",
-      "category": "Open AI",
-      "date": "2026-08-07T19:44:19.185Z",
-      "excerpt": "OpenAIは2026年8月7日、開発中の次世代モデル「Astra」について、同社の安全評価基準「Preparedness Framework」におけるサイバーセキュリティ能力が、最高警戒水準の「Critical」に達する可能性を排除できないと発表しました…",
-      "source_url": "https://openai.com/index/responding-next-frontier-critical-cyber-capabilities/",
-      "source_label": "openai.com",
-      "cover": "assets/posts/1535373042505744404.png",
-      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1535373042505744404"
-    },
-    {
-      "id": "1535315516003188777",
-      "title": "AIの判断は「AIだと思った瞬間」に嫌われる？DeepMind参加研究が示す反AIバイアス",
-      "channel": "google",
-      "category": "Google",
-      "date": "2026-08-07T15:55:43.798Z",
-      "excerpt": "Google DeepMindの研究者らが参加した研究チームは2026年8月5日、人間がLLMによる道徳的判断をどこまで見抜き、その内容をどう評価するのかを調べた研究をPLOS ONEで発表しました。最大のポイントは、実際の文章の作者よりも「AIが書いたと…",
-      "source_url": "https://deepmind.google/research/publications/118955/",
-      "source_label": "deepmind.google",
-      "cover": "assets/posts/1535315516003188777.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1535315516003188777"
-    },
-    {
-      "id": "1535232328706822215",
-      "title": "Codex 0.147.0公開、Agent Pluginsと自動承認を強化",
-      "channel": "codex",
-      "category": "Open AI",
-      "date": "2026-08-07T10:25:10.401Z",
-      "excerpt": "OpenAIは2026年8月7日、Codexの「0.147.0」を公開しました。今回の更新では、Agent Pluginsの導入、会話管理の強化、自動承認機能、Cursorとの連携拡大、MCP新プロトコル対応など、Codexを単体のコーディング支援ツールか…",
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.147.0",
-      "source_label": "github.com",
-      "cover": "assets/posts/1535232328706822215.png",
-      "url": "https://discord.com/channels/1415350002255007784/1415355102939578490/threads/1535232328706822215"
-    },
-    {
-      "id": "1535230482965332048",
-      "title": "HSP GRUPPE、ChatGPT Enterpriseで税務業務を再設計—年間4万時間超の追加能力を創出へ",
-      "channel": "open-ai",
-      "category": "Open AI",
-      "date": "2026-08-07T10:17:50.342Z",
-      "excerpt": "OpenAIは2026年8月7日、ドイツの税務・監査・法律事務所ネットワーク「HSP GRUPPE」におけるChatGPT Enterprise活用事例を公開しました。共同ワークスペースでは週次アクティブ利用率84％を達成し、従業員の98.6％が生産性向上…",
-      "source_url": "https://openai.com/index/hsp-gruppe/",
-      "source_label": "openai.com",
-      "cover": "assets/posts/1535230482965332048.png",
-      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1535230482965332048"
-    },
-    {
-      "id": "1535230376899776543",
-      "title": "Anthropic、Fable 5の生物学セーフガードを改善 誤検知によるフォールバックを約85％削減",
-      "channel": "anthropic",
-      "category": "Anthropic",
-      "date": "2026-08-07T10:17:25.054Z",
-      "excerpt": "Anthropicは2026年8月7日、Claude Fable 5の生物学分野における安全対策を更新し、生物関連の質問が別モデルへ切り替えられる「フォールバック」をテスト環境で約85％削減したと発表しました。危険なデュアルユース用途への制限を維持しながら…",
-      "source_url": "https://www.anthropic.com/news/improving-fable-5-s-biology-safeguards",
-      "source_label": "anthropic.com",
-      "cover": "assets/posts/1535230376899776543.png",
-      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1535230376899776543"
-    },
-    {
-      "id": "1535230289029103712",
-      "title": "Geminiが旅行計画を“代行”へ、Googleサービス横断で旅程を自動構築",
-      "channel": "google",
-      "category": "Google",
-      "date": "2026-08-07T10:17:04.104Z",
-      "excerpt": "Googleは2026年8月6日、Geminiが旅行計画をどのように作成するのか、その仕組みを公開しました。単なる観光地の提案ではなく、Google Maps、Flights、Hotelsなどのリアルタイム情報に、ユーザー自身の予定や好みを組み合わせ、実行…",
-      "source_url": "https://blog.google/products-and-platforms/products/gemini/how-gemini-plans-trips/",
-      "source_label": "blog.google",
-      "cover": "assets/posts/1535230289029103712.png",
-      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1535230289029103712"
     }
   ]
 }

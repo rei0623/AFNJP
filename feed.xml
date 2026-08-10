@@ -5,8 +5,56 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 09 Aug 2026 21:03:38 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 10 Aug 2026 17:06:40 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Meta「Muse Glimmer」発表、30BモデルをPC上の常駐AIエージェントへ</title>
+      <link>https://discord.com/channels/1415350002255007784/1441473829951111330/threads/1536420534714114159</link>
+      <guid isPermaLink="false">afnjp-1536420534714114159</guid>
+      <pubDate>Mon, 10 Aug 2026 17:06:40 GMT</pubDate>
+      <category>meta</category>
+      <description>Metaは2026年8月10日、端末内で常時稼働するAIエージェント向けモデル「Muse Glimmer」を発表しました。300億パラメータ規模ながら量子化によって一般的な高性能PCでも動作可能とし、モデルウェイトをApache 2.0ライセンスで公開しま…</description>
+    </item>
+    <item>
+      <title>ChatGPT Businessに「Premium seats」、利用量5倍・5時間制限を撤廃</title>
+      <link>https://discord.com/channels/1415350002255007784/1415353131604377641/threads/1536420384537059358</link>
+      <guid isPermaLink="false">afnjp-1536420384537059358</guid>
+      <pubDate>Mon, 10 Aug 2026 17:06:04 GMT</pubDate>
+      <category>chatgpt</category>
+      <description>OpenAIは2026年8月10日、ChatGPT Business向けに新たな座席種別「Premium seats」を導入すると発表しました。Standard席の5倍の利用量を提供し、5時間単位の利用制限も撤廃。AIを一部業務の補助ではなく、開発や分析、…</description>
+    </item>
+    <item>
+      <title>OpenAIが示す「AIネイティブ財務」――ゼロデイ決算と継続予測でCFO業務を再設計</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1536420288445816862</link>
+      <guid isPermaLink="false">afnjp-1536420288445816862</guid>
+      <pubDate>Mon, 10 Aug 2026 17:05:42 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIは2026年8月10日、CFOのSarah Friar氏によるAIネイティブな財務部門構築の実践知を公開しました。目標は単なる業務効率化ではありません。決算や予測をリアルタイム化し、財務部門そのものを「意思決定を支えるシステム」へ変える構想です。</description>
+    </item>
+    <item>
+      <title>Google Ads・Analyticsが「AIエージェント化」、分析から施策実行まで加速</title>
+      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1536420194183028826</link>
+      <guid isPermaLink="false">afnjp-1536420194183028826</guid>
+      <pubDate>Mon, 10 Aug 2026 17:05:19 GMT</pubDate>
+      <category>google</category>
+      <description>Googleは、Google AdsとGoogle Analyticsに新たなAI機能を導入しました。単なる生成AIによる文章作成ではなく、データの変化を発見し、その理由を分析して次の施策につなげる「エージェント型」のマーケティング環境へ進化する点が特徴です。</description>
+    </item>
+    <item>
+      <title>OpenAI、テキサス州で「責任あるAIインフラ」推進へ</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1536420053170262089</link>
+      <guid isPermaLink="false">afnjp-1536420053170262089</guid>
+      <pubDate>Mon, 10 Aug 2026 17:04:45 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIは2026年8月10日、テキサス州のグレッグ・アボット知事に書簡を送り、同州におけるAIインフラ開発を責任ある形で進める方針を表明しました。州政府、自治体、電力会社、地域社会と協力し、巨大データセンターの経済効果と電力・水資源への負荷を両立させ…</description>
+    </item>
+    <item>
+      <title>GPT-5.6 Sol、金融資料作成で「レビュー可能な完成品」へ前進</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1536419974334259271</link>
+      <guid isPermaLink="false">afnjp-1536419974334259271</guid>
+      <pubDate>Mon, 10 Aug 2026 17:04:27 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIは2026年8月10日、金融業務向けAIエージェントを開発するModel MLが「GPT-5.6 Sol」を活用し、PowerPointやExcelの生成効率と実務品質を高めている事例を公開しました。単なる文章生成ではなく、計算・調査・資料構成…</description>
+    </item>
     <item>
       <title>「Mona-lisa-1」がArenaに出現、OpenAI次期画像モデルの可能性</title>
       <link>https://discord.com/channels/1415350002255007784/1415534435712897124/threads/1536117779613352006</link>
@@ -54,54 +102,6 @@
       <pubDate>Sat, 08 Aug 2026 02:18:02 GMT</pubDate>
       <category>claude-code</category>
       <description>Anthropicは2026年8月7日、Claude Codeの「Auto mode」をPro、Max、Teamプランの標準動作にすると発表しました。8月14日以降、新規セッションでは原則としてAuto modeが利用されます。最大の狙いは、開発者を大量の…</description>
-    </item>
-    <item>
-      <title>OpenAI、新モデル「Astra」で重大なサイバー能力の可能性</title>
-      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1535373042505744404</link>
-      <guid isPermaLink="false">afnjp-1535373042505744404</guid>
-      <pubDate>Fri, 07 Aug 2026 19:44:19 GMT</pubDate>
-      <category>open-ai</category>
-      <description>OpenAIは2026年8月7日、開発中の次世代モデル「Astra」について、同社の安全評価基準「Preparedness Framework」におけるサイバーセキュリティ能力が、最高警戒水準の「Critical」に達する可能性を排除できないと発表しました…</description>
-    </item>
-    <item>
-      <title>AIの判断は「AIだと思った瞬間」に嫌われる？DeepMind参加研究が示す反AIバイアス</title>
-      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1535315516003188777</link>
-      <guid isPermaLink="false">afnjp-1535315516003188777</guid>
-      <pubDate>Fri, 07 Aug 2026 15:55:43 GMT</pubDate>
-      <category>google</category>
-      <description>Google DeepMindの研究者らが参加した研究チームは2026年8月5日、人間がLLMによる道徳的判断をどこまで見抜き、その内容をどう評価するのかを調べた研究をPLOS ONEで発表しました。最大のポイントは、実際の文章の作者よりも「AIが書いたと…</description>
-    </item>
-    <item>
-      <title>Codex 0.147.0公開、Agent Pluginsと自動承認を強化</title>
-      <link>https://discord.com/channels/1415350002255007784/1415355102939578490/threads/1535232328706822215</link>
-      <guid isPermaLink="false">afnjp-1535232328706822215</guid>
-      <pubDate>Fri, 07 Aug 2026 10:25:10 GMT</pubDate>
-      <category>codex</category>
-      <description>OpenAIは2026年8月7日、Codexの「0.147.0」を公開しました。今回の更新では、Agent Pluginsの導入、会話管理の強化、自動承認機能、Cursorとの連携拡大、MCP新プロトコル対応など、Codexを単体のコーディング支援ツールか…</description>
-    </item>
-    <item>
-      <title>HSP GRUPPE、ChatGPT Enterpriseで税務業務を再設計—年間4万時間超の追加能力を創出へ</title>
-      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1535230482965332048</link>
-      <guid isPermaLink="false">afnjp-1535230482965332048</guid>
-      <pubDate>Fri, 07 Aug 2026 10:17:50 GMT</pubDate>
-      <category>open-ai</category>
-      <description>OpenAIは2026年8月7日、ドイツの税務・監査・法律事務所ネットワーク「HSP GRUPPE」におけるChatGPT Enterprise活用事例を公開しました。共同ワークスペースでは週次アクティブ利用率84％を達成し、従業員の98.6％が生産性向上…</description>
-    </item>
-    <item>
-      <title>Anthropic、Fable 5の生物学セーフガードを改善 誤検知によるフォールバックを約85％削減</title>
-      <link>https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1535230376899776543</link>
-      <guid isPermaLink="false">afnjp-1535230376899776543</guid>
-      <pubDate>Fri, 07 Aug 2026 10:17:25 GMT</pubDate>
-      <category>anthropic</category>
-      <description>Anthropicは2026年8月7日、Claude Fable 5の生物学分野における安全対策を更新し、生物関連の質問が別モデルへ切り替えられる「フォールバック」をテスト環境で約85％削減したと発表しました。危険なデュアルユース用途への制限を維持しながら…</description>
-    </item>
-    <item>
-      <title>Geminiが旅行計画を“代行”へ、Googleサービス横断で旅程を自動構築</title>
-      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1535230289029103712</link>
-      <guid isPermaLink="false">afnjp-1535230289029103712</guid>
-      <pubDate>Fri, 07 Aug 2026 10:17:04 GMT</pubDate>
-      <category>google</category>
-      <description>Googleは2026年8月6日、Geminiが旅行計画をどのように作成するのか、その仕組みを公開しました。単なる観光地の提案ではなく、Google Maps、Flights、Hotelsなどのリアルタイム情報に、ユーザー自身の予定や好みを組み合わせ、実行…</description>
     </item>
   </channel>
 </rss>
