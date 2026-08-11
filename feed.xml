@@ -5,8 +5,72 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 11 Aug 2026 15:44:35 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 11 Aug 2026 23:43:25 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Microsoft「MAI-Code-1.1-Flash」公開、性能向上と4分の1のコストを両立</title>
+      <link>https://discord.com/channels/1415350002255007784/1432720743279497367/threads/1536882767281918075</link>
+      <guid isPermaLink="false">afnjp-1536882767281918075</guid>
+      <pubDate>Tue, 11 Aug 2026 23:43:25 GMT</pubDate>
+      <category>microsoft</category>
+      <description>Microsoft AIは2026年8月11日、コーディング向けAIモデル「MAI-Code-1.1-Flash」を発表しました。GitHub Copilotですでに本番導入されており、6月にMicrosoft Buildで公開した前世代モデルと比べ、コー…</description>
+    </item>
+    <item>
+      <title>ChatGPT Linux版がプレビュー公開、WorkとCodexも統合</title>
+      <link>https://discord.com/channels/1415350002255007784/1415353131604377641/threads/1536882461097853009</link>
+      <guid isPermaLink="false">afnjp-1536882461097853009</guid>
+      <pubDate>Tue, 11 Aug 2026 23:42:12 GMT</pubDate>
+      <category>chatgpt</category>
+      <description>OpenAIは、ChatGPTのLinux向けデスクトップアプリをプレビュー公開しました。対応するのはUbuntu、Debian、Fedoraの主要ディストリビューションで、ChatGPTだけでなく「ChatGPT Work」と「Codex」もLinuxデ…</description>
+    </item>
+    <item>
+      <title>xAI「Grok Bot」公開、AIが“自分専用PC”で業務を代行する時代へ</title>
+      <link>https://discord.com/channels/1415350002255007784/1417803120225816596/threads/1536882341866381333</link>
+      <guid isPermaLink="false">afnjp-1536882341866381333</guid>
+      <pubDate>Tue, 11 Aug 2026 23:41:44 GMT</pubDate>
+      <category>grok</category>
+      <description>xAIは、AIを単なる質問応答ツールではなく、実際の業務を遂行する「AIチームメイト」として使う新サービス「Grok Bot」を公開しました。Grok Botは専用のコンピューター環境を持ち、Webサイトや業務アプリへログインして、人間と同じように操作しな…</description>
+    </item>
+    <item>
+      <title>Google「AMIE」がリアルタイム診療へ、動画AIで専門医級性能を実証</title>
+      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1536882190170726440</link>
+      <guid isPermaLink="false">afnjp-1536882190170726440</guid>
+      <pubDate>Tue, 11 Aug 2026 23:41:08 GMT</pubDate>
+      <category>google</category>
+      <description>Google Researchは、医療AI「AMIE」をリアルタイムの音声・映像診療に対応させた「AMIE (Video)」を発表しました。模擬患者を用いた無作為化試験では、問診、診断精度、治療方針、コミュニケーションなど主要指標でプライマリケア医と同等水…</description>
+    </item>
+    <item>
+      <title>ChatGPT、ClaudeやCursorから設定・履歴を移行可能に</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1536882043168759898</link>
+      <guid isPermaLink="false">afnjp-1536882043168759898</guid>
+      <pubDate>Tue, 11 Aug 2026 23:40:32 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIはChatGPTおよびCodexに、他のAIエージェント環境から設定やプロジェクト、最近の作業履歴を取り込む「Import」機能を用意しています。ChatGPTデスクトップアプリではClaude Code、Claude Cowork、Curso…</description>
+    </item>
+    <item>
+      <title>Cursor、AI時代のコードレビュー基盤「Origin」投入へ</title>
+      <link>https://discord.com/channels/1415350002255007784/1415534435712897124/threads/1536880628606435328</link>
+      <guid isPermaLink="false">afnjp-1536880628606435328</guid>
+      <pubDate>Tue, 11 Aug 2026 23:34:55 GMT</pubDate>
+      <category>リーク情報</category>
+      <description>AIコードエディタ「Cursor」を開発するAnysphereが、新たなコードレビュー基盤「Origin」の公開を準備していることが明らかになりました。TestingCatalogによると、GitHubリポジトリを同期する「Codebase」と、Pull …</description>
+    </item>
+    <item>
+      <title>OpenAI、米大学生向け「ChatGPT Plus 1年間無料」を準備か</title>
+      <link>https://discord.com/channels/1415350002255007784/1415534435712897124/threads/1536880537199976538</link>
+      <guid isPermaLink="false">afnjp-1536880537199976538</guid>
+      <pubDate>Tue, 11 Aug 2026 23:34:33 GMT</pubDate>
+      <category>リーク情報</category>
+      <description>OpenAIが、米国の大学生を対象に「ChatGPT Plus」を1年間無料で提供する大型キャンペーンを準備しているとTestingCatalogが報じました。現時点では正式提供前で、OpenAIから利用規約も公開されていないため、確定した施策ではない点に…</description>
+    </item>
+    <item>
+      <title>OpenAI「Daybreak」がAWSに登場、サイバー防御AIをAmazon Bedrockで提供</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1536879950043549786</link>
+      <guid isPermaLink="false">afnjp-1536879950043549786</guid>
+      <pubDate>Tue, 11 Aug 2026 23:32:13 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIは2026年8月11日、サイバーセキュリティ向けAI「Daybreak」の機能をAmazon Bedrockで利用可能にしたと発表しました。企業は既存のAWS環境やガバナンス基盤を維持しながら、高度な脆弱性調査やインシデント対応へOpenAIの…</description>
+    </item>
     <item>
       <title>Raspberry Pi 5でGemma 4が動く、Google「LiteRT」が切り開く完全ローカルAI</title>
       <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1536762264323883038</link>
@@ -38,70 +102,6 @@
       <pubDate>Mon, 10 Aug 2026 23:29:50 GMT</pubDate>
       <category>open-ai</category>
       <description>Virgin Atlanticは、OpenAIの「ChatGPT Work」を競合調査、商品企画、データ分析、意思決定に活用し、航空会社特有の複雑な顧客ジャーニーを横断的に把握する取り組みを進めています。特に注目されるのは、従来数週間を要していた調査を数時…</description>
-    </item>
-    <item>
-      <title>Zapier、ChatGPT Workでマーケティングを「自動運転」へ</title>
-      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1536516823829454888</link>
-      <guid isPermaLink="false">afnjp-1536516823829454888</guid>
-      <pubDate>Mon, 10 Aug 2026 23:29:17 GMT</pubDate>
-      <category>open-ai</category>
-      <description>OpenAIは2026年8月10日、Zapierのエンタープライズマーケティング部門による「ChatGPT Work」の活用事例を公開しました。大量のリード分析から問題修正、キャンペーン制作、レポーティングまでを自動化し、毎月7桁規模のパイプライン価値を営…</description>
-    </item>
-    <item>
-      <title>OpenAI「Daybreak」をBlue／Redに二層化、GPT-5.6 Cyberは別承認制へ</title>
-      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1536433824081383514</link>
-      <guid isPermaLink="false">afnjp-1536433824081383514</guid>
-      <pubDate>Mon, 10 Aug 2026 17:59:29 GMT</pubDate>
-      <category>open-ai</category>
-      <description>OpenAIは2026年8月10日、サイバーセキュリティ用途向けの「Daybreak」に「Daybreak Blue」と「Daybreak Red」という2段階のアクセス体系を導入しました。防御業務と、攻撃手法の再現・検証を伴う高度なセキュリティ業務を明確…</description>
-    </item>
-    <item>
-      <title>Claude、リーマンゼータ関数の零点下限を67.2%へ更新</title>
-      <link>https://discord.com/channels/1415350002255007784/1415353403269185546/threads/1536433712835592302</link>
-      <guid isPermaLink="false">afnjp-1536433712835592302</guid>
-      <pubDate>Mon, 10 Aug 2026 17:59:02 GMT</pubDate>
-      <category>claude</category>
-      <description>Anthropicは2026年8月10日、未公開の研究版Claudeが、リーマンゼータ関数の零点のうち「臨界線」上に存在すると無条件に保証できる割合を、従来の約41.6%から67.2%へ引き上げる結果を得たと発表しました。リーマン予想そのものを証明したわけ…</description>
-    </item>
-    <item>
-      <title>Sakana AI、Fuguの「指揮者」をGemma 4へ移植 AIオーケストレーションのモデル依存脱却へ</title>
-      <link>https://discord.com/channels/1415350002255007784/1420683387395375115/threads/1536421605876564069</link>
-      <guid isPermaLink="false">afnjp-1536421605876564069</guid>
-      <pubDate>Mon, 10 Aug 2026 17:10:56 GMT</pubDate>
-      <category>sakana-ai</category>
-      <description>Sakana AIは2026年8月10日、マルチエージェント基盤「Sakana Fugu」の指揮者モデルを、従来とは異なる系統の「Gemma 4」ベースで訓練し、既存Fuguとほぼ同等の性能とコスト効率を確認したと発表しました。AIシステム全体を特定の基盤…</description>
-    </item>
-    <item>
-      <title>Google「Gemini 3.7 Flash」準備か、Python GenAI SDKのモデル候補に名称が浮上</title>
-      <link>https://discord.com/channels/1415350002255007784/1415534435712897124/threads/1536421515921457192</link>
-      <guid isPermaLink="false">afnjp-1536421515921457192</guid>
-      <pubDate>Mon, 10 Aug 2026 17:10:34 GMT</pubDate>
-      <category>リーク情報</category>
-      <description>Googleの公式Python GenAI SDKに「Gemini-3.7-flash」とされるモデル名が追加されたとの情報が確認されました。現時点でGoogleからGemini 3.7 Flashの正式なリリース日や仕様は発表されていませんが、SDK側で…</description>
-    </item>
-    <item>
-      <title>Meta「Muse Glimmer」発表、30BモデルをPC上の常駐AIエージェントへ</title>
-      <link>https://discord.com/channels/1415350002255007784/1441473829951111330/threads/1536420534714114159</link>
-      <guid isPermaLink="false">afnjp-1536420534714114159</guid>
-      <pubDate>Mon, 10 Aug 2026 17:06:40 GMT</pubDate>
-      <category>meta</category>
-      <description>Metaは2026年8月10日、端末内で常時稼働するAIエージェント向けモデル「Muse Glimmer」を発表しました。300億パラメータ規模ながら量子化によって一般的な高性能PCでも動作可能とし、モデルウェイトをApache 2.0ライセンスで公開しま…</description>
-    </item>
-    <item>
-      <title>ChatGPT Businessに「Premium seats」、利用量5倍・5時間制限を撤廃</title>
-      <link>https://discord.com/channels/1415350002255007784/1415353131604377641/threads/1536420384537059358</link>
-      <guid isPermaLink="false">afnjp-1536420384537059358</guid>
-      <pubDate>Mon, 10 Aug 2026 17:06:04 GMT</pubDate>
-      <category>chatgpt</category>
-      <description>OpenAIは2026年8月10日、ChatGPT Business向けに新たな座席種別「Premium seats」を導入すると発表しました。Standard席の5倍の利用量を提供し、5時間単位の利用制限も撤廃。AIを一部業務の補助ではなく、開発や分析、…</description>
-    </item>
-    <item>
-      <title>OpenAIが示す「AIネイティブ財務」――ゼロデイ決算と継続予測でCFO業務を再設計</title>
-      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1536420288445816862</link>
-      <guid isPermaLink="false">afnjp-1536420288445816862</guid>
-      <pubDate>Mon, 10 Aug 2026 17:05:42 GMT</pubDate>
-      <category>open-ai</category>
-      <description>OpenAIは2026年8月10日、CFOのSarah Friar氏によるAIネイティブな財務部門構築の実践知を公開しました。目標は単なる業務効率化ではありません。決算や予測をリアルタイム化し、財務部門そのものを「意思決定を支えるシステム」へ変える構想です。</description>
     </item>
   </channel>
 </rss>

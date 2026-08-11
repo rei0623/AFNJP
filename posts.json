@@ -1,8 +1,104 @@
 {
-  "generated_at": "2026-08-11T23:00:46.485Z",
+  "generated_at": "2026-08-11T23:57:42.299Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1536882767281918075",
+      "title": "Microsoft「MAI-Code-1.1-Flash」公開、性能向上と4分の1のコストを両立",
+      "channel": "microsoft",
+      "category": "Microsoft",
+      "date": "2026-08-11T23:43:25.621Z",
+      "excerpt": "Microsoft AIは2026年8月11日、コーディング向けAIモデル「MAI-Code-1.1-Flash」を発表しました。GitHub Copilotですでに本番導入されており、6月にMicrosoft Buildで公開した前世代モデルと比べ、コー…",
+      "source_url": "https://microsoft.ai/news/mai-code-1-1-flash-br-better-faster-at-a-quarter-of-the-cost/",
+      "source_label": "microsoft.ai",
+      "cover": "assets/posts/1536882767281918075.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1432720743279497367/threads/1536882767281918075"
+    },
+    {
+      "id": "1536882461097853009",
+      "title": "ChatGPT Linux版がプレビュー公開、WorkとCodexも統合",
+      "channel": "chatgpt",
+      "category": "Open AI",
+      "date": "2026-08-11T23:42:12.621Z",
+      "excerpt": "OpenAIは、ChatGPTのLinux向けデスクトップアプリをプレビュー公開しました。対応するのはUbuntu、Debian、Fedoraの主要ディストリビューションで、ChatGPTだけでなく「ChatGPT Work」と「Codex」もLinuxデ…",
+      "source_url": "https://twitter.com/i/status/2087231350134980830",
+      "source_label": "twitter.com",
+      "cover": "assets/posts/1536882461097853009.png",
+      "url": "https://discord.com/channels/1415350002255007784/1415353131604377641/threads/1536882461097853009"
+    },
+    {
+      "id": "1536882341866381333",
+      "title": "xAI「Grok Bot」公開、AIが“自分専用PC”で業務を代行する時代へ",
+      "channel": "grok",
+      "category": "Space X",
+      "date": "2026-08-11T23:41:44.194Z",
+      "excerpt": "xAIは、AIを単なる質問応答ツールではなく、実際の業務を遂行する「AIチームメイト」として使う新サービス「Grok Bot」を公開しました。Grok Botは専用のコンピューター環境を持ち、Webサイトや業務アプリへログインして、人間と同じように操作しな…",
+      "source_url": "https://x.ai/bot",
+      "source_label": "x.ai",
+      "cover": "assets/posts/1536882341866381333.png",
+      "url": "https://discord.com/channels/1415350002255007784/1417803120225816596/threads/1536882341866381333"
+    },
+    {
+      "id": "1536882190170726440",
+      "title": "Google「AMIE」がリアルタイム診療へ、動画AIで専門医級性能を実証",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-08-11T23:41:08.027Z",
+      "excerpt": "Google Researchは、医療AI「AMIE」をリアルタイムの音声・映像診療に対応させた「AMIE (Video)」を発表しました。模擬患者を用いた無作為化試験では、問診、診断精度、治療方針、コミュニケーションなど主要指標でプライマリケア医と同等水…",
+      "source_url": "https://research.google/blog/advancing-amie-towards-expert-level-audio-visual-clinical-consultations/?linkId=63191787",
+      "source_label": "research.google",
+      "cover": "assets/posts/1536882190170726440.jpg",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1536882190170726440"
+    },
+    {
+      "id": "1536882043168759898",
+      "title": "ChatGPT、ClaudeやCursorから設定・履歴を移行可能に",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-08-11T23:40:32.979Z",
+      "excerpt": "OpenAIはChatGPTおよびCodexに、他のAIエージェント環境から設定やプロジェクト、最近の作業履歴を取り込む「Import」機能を用意しています。ChatGPTデスクトップアプリではClaude Code、Claude Cowork、Curso…",
+      "source_url": "https://learn.chatgpt.com/docs/import",
+      "source_label": "learn.chatgpt.com",
+      "cover": "assets/posts/1536882043168759898.png",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1536882043168759898"
+    },
+    {
+      "id": "1536880628606435328",
+      "title": "Cursor、AI時代のコードレビュー基盤「Origin」投入へ",
+      "channel": "リーク情報",
+      "category": "リーク情報",
+      "date": "2026-08-11T23:34:55.721Z",
+      "excerpt": "AIコードエディタ「Cursor」を開発するAnysphereが、新たなコードレビュー基盤「Origin」の公開を準備していることが明らかになりました。TestingCatalogによると、GitHubリポジトリを同期する「Codebase」と、Pull …",
+      "source_url": "https://www.testingcatalog.com/cursor-prepares-to-launch-origin-platform-for-code-reviews/",
+      "source_label": "testingcatalog.com",
+      "cover": "assets/posts/1536880628606435328.jpg",
+      "url": "https://discord.com/channels/1415350002255007784/1415534435712897124/threads/1536880628606435328"
+    },
+    {
+      "id": "1536880537199976538",
+      "title": "OpenAI、米大学生向け「ChatGPT Plus 1年間無料」を準備か",
+      "channel": "リーク情報",
+      "category": "リーク情報",
+      "date": "2026-08-11T23:34:33.928Z",
+      "excerpt": "OpenAIが、米国の大学生を対象に「ChatGPT Plus」を1年間無料で提供する大型キャンペーンを準備しているとTestingCatalogが報じました。現時点では正式提供前で、OpenAIから利用規約も公開されていないため、確定した施策ではない点に…",
+      "source_url": "https://www.testingcatalog.com/openai-plans-free-chatgpt-plus-year-for-us-college-students/",
+      "source_label": "testingcatalog.com",
+      "cover": "assets/posts/1536880537199976538.jpg",
+      "url": "https://discord.com/channels/1415350002255007784/1415534435712897124/threads/1536880537199976538"
+    },
+    {
+      "id": "1536879950043549786",
+      "title": "OpenAI「Daybreak」がAWSに登場、サイバー防御AIをAmazon Bedrockで提供",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-08-11T23:32:13.939Z",
+      "excerpt": "OpenAIは2026年8月11日、サイバーセキュリティ向けAI「Daybreak」の機能をAmazon Bedrockで利用可能にしたと発表しました。企業は既存のAWS環境やガバナンス基盤を維持しながら、高度な脆弱性調査やインシデント対応へOpenAIの…",
+      "source_url": "https://openai.com/index/daybreak-models-are-now-available-on-aws/",
+      "source_label": "openai.com",
+      "cover": "assets/posts/1536879950043549786.png",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1536879950043549786"
+    },
     {
       "id": "1536762264323883038",
       "title": "Raspberry Pi 5でGemma 4が動く、Google「LiteRT」が切り開く完全ローカルAI",
@@ -50,102 +146,6 @@
       "source_label": "openai.com",
       "cover": "assets/posts/1536516960102125608.png",
       "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1536516960102125608"
-    },
-    {
-      "id": "1536516823829454888",
-      "title": "Zapier、ChatGPT Workでマーケティングを「自動運転」へ",
-      "channel": "open-ai",
-      "category": "Open AI",
-      "date": "2026-08-10T23:29:17.903Z",
-      "excerpt": "OpenAIは2026年8月10日、Zapierのエンタープライズマーケティング部門による「ChatGPT Work」の活用事例を公開しました。大量のリード分析から問題修正、キャンペーン制作、レポーティングまでを自動化し、毎月7桁規模のパイプライン価値を営…",
-      "source_url": "https://openai.com/index/zapier/",
-      "source_label": "openai.com",
-      "cover": "assets/posts/1536516823829454888.png",
-      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1536516823829454888"
-    },
-    {
-      "id": "1536433824081383514",
-      "title": "OpenAI「Daybreak」をBlue／Redに二層化、GPT-5.6 Cyberは別承認制へ",
-      "channel": "open-ai",
-      "category": "Open AI",
-      "date": "2026-08-10T17:59:29.221Z",
-      "excerpt": "OpenAIは2026年8月10日、サイバーセキュリティ用途向けの「Daybreak」に「Daybreak Blue」と「Daybreak Red」という2段階のアクセス体系を導入しました。防御業務と、攻撃手法の再現・検証を伴う高度なセキュリティ業務を明確…",
-      "source_url": "https://learn.chatgpt.com/docs/changelog",
-      "source_label": "learn.chatgpt.com",
-      "cover": "assets/posts/1536433824081383514.png",
-      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1536433824081383514"
-    },
-    {
-      "id": "1536433712835592302",
-      "title": "Claude、リーマンゼータ関数の零点下限を67.2%へ更新",
-      "channel": "claude",
-      "category": "Anthropic",
-      "date": "2026-08-10T17:59:02.698Z",
-      "excerpt": "Anthropicは2026年8月10日、未公開の研究版Claudeが、リーマンゼータ関数の零点のうち「臨界線」上に存在すると無条件に保証できる割合を、従来の約41.6%から67.2%へ引き上げる結果を得たと発表しました。リーマン予想そのものを証明したわけ…",
-      "source_url": "https://www.anthropic.com/research/riemann-zeta",
-      "source_label": "anthropic.com",
-      "cover": "assets/posts/1536433712835592302.jpg",
-      "url": "https://discord.com/channels/1415350002255007784/1415353403269185546/threads/1536433712835592302"
-    },
-    {
-      "id": "1536421605876564069",
-      "title": "Sakana AI、Fuguの「指揮者」をGemma 4へ移植 AIオーケストレーションのモデル依存脱却へ",
-      "channel": "sakana-ai",
-      "category": "日本国内",
-      "date": "2026-08-10T17:10:56.174Z",
-      "excerpt": "Sakana AIは2026年8月10日、マルチエージェント基盤「Sakana Fugu」の指揮者モデルを、従来とは異なる系統の「Gemma 4」ベースで訓練し、既存Fuguとほぼ同等の性能とコスト効率を確認したと発表しました。AIシステム全体を特定の基盤…",
-      "source_url": "https://sakana.ai/fugu-gemma4/",
-      "source_label": "sakana.ai",
-      "cover": "assets/posts/1536421605876564069.png",
-      "url": "https://discord.com/channels/1415350002255007784/1420683387395375115/threads/1536421605876564069"
-    },
-    {
-      "id": "1536421515921457192",
-      "title": "Google「Gemini 3.7 Flash」準備か、Python GenAI SDKのモデル候補に名称が浮上",
-      "channel": "リーク情報",
-      "category": "リーク情報",
-      "date": "2026-08-10T17:10:34.727Z",
-      "excerpt": "Googleの公式Python GenAI SDKに「Gemini-3.7-flash」とされるモデル名が追加されたとの情報が確認されました。現時点でGoogleからGemini 3.7 Flashの正式なリリース日や仕様は発表されていませんが、SDK側で…",
-      "source_url": "https://twitter.com/i/status/2086834146681184263",
-      "source_label": "twitter.com",
-      "cover": "assets/posts/1536421515921457192.jpg",
-      "url": "https://discord.com/channels/1415350002255007784/1415534435712897124/threads/1536421515921457192"
-    },
-    {
-      "id": "1536420534714114159",
-      "title": "Meta「Muse Glimmer」発表、30BモデルをPC上の常駐AIエージェントへ",
-      "channel": "meta",
-      "category": "Meta",
-      "date": "2026-08-10T17:06:40.789Z",
-      "excerpt": "Metaは2026年8月10日、端末内で常時稼働するAIエージェント向けモデル「Muse Glimmer」を発表しました。300億パラメータ規模ながら量子化によって一般的な高性能PCでも動作可能とし、モデルウェイトをApache 2.0ライセンスで公開しま…",
-      "source_url": "https://research.meta.ai/blog/introducing-muse-glimmer-open-agentic-model",
-      "source_label": "research.meta.ai",
-      "cover": "assets/posts/1536420534714114159.png",
-      "url": "https://discord.com/channels/1415350002255007784/1441473829951111330/threads/1536420534714114159"
-    },
-    {
-      "id": "1536420384537059358",
-      "title": "ChatGPT Businessに「Premium seats」、利用量5倍・5時間制限を撤廃",
-      "channel": "chatgpt",
-      "category": "Open AI",
-      "date": "2026-08-10T17:06:04.984Z",
-      "excerpt": "OpenAIは2026年8月10日、ChatGPT Business向けに新たな座席種別「Premium seats」を導入すると発表しました。Standard席の5倍の利用量を提供し、5時間単位の利用制限も撤廃。AIを一部業務の補助ではなく、開発や分析、…",
-      "source_url": "https://openai.com/index/premium-seats-chatgpt-business/",
-      "source_label": "openai.com",
-      "cover": "assets/posts/1536420384537059358.png",
-      "url": "https://discord.com/channels/1415350002255007784/1415353131604377641/threads/1536420384537059358"
-    },
-    {
-      "id": "1536420288445816862",
-      "title": "OpenAIが示す「AIネイティブ財務」――ゼロデイ決算と継続予測でCFO業務を再設計",
-      "channel": "open-ai",
-      "category": "Open AI",
-      "date": "2026-08-10T17:05:42.074Z",
-      "excerpt": "OpenAIは2026年8月10日、CFOのSarah Friar氏によるAIネイティブな財務部門構築の実践知を公開しました。目標は単なる業務効率化ではありません。決算や予測をリアルタイム化し、財務部門そのものを「意思決定を支えるシステム」へ変える構想です。",
-      "source_url": "https://openai.com/index/building-an-ai-native-finance-function/",
-      "source_label": "openai.com",
-      "cover": "assets/posts/1536420288445816862.png",
-      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1536420288445816862"
     }
   ]
 }
