@@ -5,8 +5,32 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 10 Aug 2026 23:29:50 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 11 Aug 2026 15:44:35 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Raspberry Pi 5でGemma 4が動く、Google「LiteRT」が切り開く完全ローカルAI</title>
+      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1536762264323883038</link>
+      <guid isPermaLink="false">afnjp-1536762264323883038</guid>
+      <pubDate>Tue, 11 Aug 2026 15:44:35 GMT</pubDate>
+      <category>google</category>
+      <description>Googleは2026年8月11日、Raspberry Pi 5上で「LiteRT」とGemmaを組み合わせ、クラウドに依存しないエッジAIを構築する技術を公開しました。LLMだけでなく画像認識、音声認識、音声合成まで端末内で並列処理でき、ロボットやIoT…</description>
+    </item>
+    <item>
+      <title>NVIDIA「Nemotron 3.5 Lightning」公開、30B級AIを3Bアクティブで高速化</title>
+      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1536759958207594576</link>
+      <guid isPermaLink="false">afnjp-1536759958207594576</guid>
+      <pubDate>Tue, 11 Aug 2026 15:35:25 GMT</pubDate>
+      <category>その他</category>
+      <description>NVIDIAは2026年8月11日、オープンウェイトLLM「NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4」を公開しました。総パラメータ数は300億ながら、推論時に利用するのは約30億パラメータです。最大100万トー…</description>
+    </item>
+    <item>
+      <title>ManusがMetaから分離へ、一部ユーザーはデータ移行対応が必要に</title>
+      <link>https://discord.com/channels/1415350002255007784/1416105983415156887/threads/1536759824207839373</link>
+      <guid isPermaLink="false">afnjp-1536759824207839373</guid>
+      <pubDate>Tue, 11 Aug 2026 15:34:53 GMT</pubDate>
+      <category>manus</category>
+      <description>AIエージェント「Manus」は、Metaから分離し、再び独立企業として運営を開始すると発表しました。これに伴い、規制要件への対応として、一部ユーザーが2025年12月29日以降に生成したデータが2026年8月23日から24日にかけて削除されます。対象ユー…</description>
+    </item>
     <item>
       <title>Virgin Atlantic、ChatGPT Workで航空顧客体験を再設計 数週間の調査を数時間へ</title>
       <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1536516960102125608</link>
@@ -78,30 +102,6 @@
       <pubDate>Mon, 10 Aug 2026 17:05:42 GMT</pubDate>
       <category>open-ai</category>
       <description>OpenAIは2026年8月10日、CFOのSarah Friar氏によるAIネイティブな財務部門構築の実践知を公開しました。目標は単なる業務効率化ではありません。決算や予測をリアルタイム化し、財務部門そのものを「意思決定を支えるシステム」へ変える構想です。</description>
-    </item>
-    <item>
-      <title>Google Ads・Analyticsが「AIエージェント化」、分析から施策実行まで加速</title>
-      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1536420194183028826</link>
-      <guid isPermaLink="false">afnjp-1536420194183028826</guid>
-      <pubDate>Mon, 10 Aug 2026 17:05:19 GMT</pubDate>
-      <category>google</category>
-      <description>Googleは、Google AdsとGoogle Analyticsに新たなAI機能を導入しました。単なる生成AIによる文章作成ではなく、データの変化を発見し、その理由を分析して次の施策につなげる「エージェント型」のマーケティング環境へ進化する点が特徴です。</description>
-    </item>
-    <item>
-      <title>OpenAI、テキサス州で「責任あるAIインフラ」推進へ</title>
-      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1536420053170262089</link>
-      <guid isPermaLink="false">afnjp-1536420053170262089</guid>
-      <pubDate>Mon, 10 Aug 2026 17:04:45 GMT</pubDate>
-      <category>open-ai</category>
-      <description>OpenAIは2026年8月10日、テキサス州のグレッグ・アボット知事に書簡を送り、同州におけるAIインフラ開発を責任ある形で進める方針を表明しました。州政府、自治体、電力会社、地域社会と協力し、巨大データセンターの経済効果と電力・水資源への負荷を両立させ…</description>
-    </item>
-    <item>
-      <title>GPT-5.6 Sol、金融資料作成で「レビュー可能な完成品」へ前進</title>
-      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1536419974334259271</link>
-      <guid isPermaLink="false">afnjp-1536419974334259271</guid>
-      <pubDate>Mon, 10 Aug 2026 17:04:27 GMT</pubDate>
-      <category>open-ai</category>
-      <description>OpenAIは2026年8月10日、金融業務向けAIエージェントを開発するModel MLが「GPT-5.6 Sol」を活用し、PowerPointやExcelの生成効率と実務品質を高めている事例を公開しました。単なる文章生成ではなく、計算・調査・資料構成…</description>
     </item>
   </channel>
 </rss>
