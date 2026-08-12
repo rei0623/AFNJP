@@ -1,8 +1,20 @@
 {
-  "generated_at": "2026-08-12T11:56:34.375Z",
+  "generated_at": "2026-08-12T13:43:49.748Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1537093830619430994",
+      "title": "企業AIは「回答」から「実行」へ、OpenAIが示すエージェント時代の競争力",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-08-12T13:42:07.042Z",
+      "excerpt": "OpenAIは2026年8月12日、企業におけるAI利用の最新動向を公開しました。調査から浮かび上がるのは、AIを質問への回答役として使う段階から、ツールや社内データへ接続し、複数工程の仕事そのものを任せる「エージェント型AI」への急速な移行です。",
+      "source_url": "https://openai.com/index/how-enterprises-put-ai-to-work/",
+      "source_label": "openai.com",
+      "cover": "assets/posts/1537093830619430994.png",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1537093830619430994"
+    },
     {
       "id": "1536882767281918075",
       "title": "Microsoft「MAI-Code-1.1-Flash」公開、性能向上と4分の1のコストを両立",
@@ -134,18 +146,6 @@
       "source_label": "manus.im",
       "cover": "assets/posts/1536759824207839373.webp",
       "url": "https://discord.com/channels/1415350002255007784/1416105983415156887/threads/1536759824207839373"
-    },
-    {
-      "id": "1536516960102125608",
-      "title": "Virgin Atlantic、ChatGPT Workで航空顧客体験を再設計 数週間の調査を数時間へ",
-      "channel": "open-ai",
-      "category": "Open AI",
-      "date": "2026-08-10T23:29:50.393Z",
-      "excerpt": "Virgin Atlanticは、OpenAIの「ChatGPT Work」を競合調査、商品企画、データ分析、意思決定に活用し、航空会社特有の複雑な顧客ジャーニーを横断的に把握する取り組みを進めています。特に注目されるのは、従来数週間を要していた調査を数時…",
-      "source_url": "https://openai.com/index/virgin-atlantic/chatgpt-work/",
-      "source_label": "openai.com",
-      "cover": "assets/posts/1536516960102125608.png",
-      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1536516960102125608"
     }
   ]
 }

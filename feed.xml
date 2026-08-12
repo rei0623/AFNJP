@@ -5,8 +5,16 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 11 Aug 2026 23:43:25 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 12 Aug 2026 13:42:07 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>企業AIは「回答」から「実行」へ、OpenAIが示すエージェント時代の競争力</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1537093830619430994</link>
+      <guid isPermaLink="false">afnjp-1537093830619430994</guid>
+      <pubDate>Wed, 12 Aug 2026 13:42:07 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIは2026年8月12日、企業におけるAI利用の最新動向を公開しました。調査から浮かび上がるのは、AIを質問への回答役として使う段階から、ツールや社内データへ接続し、複数工程の仕事そのものを任せる「エージェント型AI」への急速な移行です。</description>
+    </item>
     <item>
       <title>Microsoft「MAI-Code-1.1-Flash」公開、性能向上と4分の1のコストを両立</title>
       <link>https://discord.com/channels/1415350002255007784/1432720743279497367/threads/1536882767281918075</link>
@@ -94,14 +102,6 @@
       <pubDate>Tue, 11 Aug 2026 15:34:53 GMT</pubDate>
       <category>manus</category>
       <description>AIエージェント「Manus」は、Metaから分離し、再び独立企業として運営を開始すると発表しました。これに伴い、規制要件への対応として、一部ユーザーが2025年12月29日以降に生成したデータが2026年8月23日から24日にかけて削除されます。対象ユー…</description>
-    </item>
-    <item>
-      <title>Virgin Atlantic、ChatGPT Workで航空顧客体験を再設計 数週間の調査を数時間へ</title>
-      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1536516960102125608</link>
-      <guid isPermaLink="false">afnjp-1536516960102125608</guid>
-      <pubDate>Mon, 10 Aug 2026 23:29:50 GMT</pubDate>
-      <category>open-ai</category>
-      <description>Virgin Atlanticは、OpenAIの「ChatGPT Work」を競合調査、商品企画、データ分析、意思決定に活用し、航空会社特有の複雑な顧客ジャーニーを横断的に把握する取り組みを進めています。特に注目されるのは、従来数週間を要していた調査を数時…</description>
     </item>
   </channel>
 </rss>
