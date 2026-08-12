@@ -1,8 +1,44 @@
 {
-  "generated_at": "2026-08-12T22:59:26.196Z",
+  "generated_at": "2026-08-12T23:56:08.810Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1537244083783868538",
+      "title": "NotebookLM、共有ノートを「丸ごと複製」可能に ソースや生成物もコピー",
+      "channel": "gemini-notebook",
+      "category": "Google",
+      "date": "2026-08-12T23:39:10.188Z",
+      "excerpt": "GoogleのNotebookLMが、既存のノートブックをコピーして自分用に複製できる新機能を発表しました。投稿によると、コピー対象にはノートブック本体だけでなく、登録された「Sources（ソース）」と「Artifacts（生成物）」も含まれます。共有さ…",
+      "source_url": "https://twitter.com/i/status/2087628041090687210",
+      "source_label": "twitter.com",
+      "cover": "assets/posts/1537244083783868538.png",
+      "url": "https://discord.com/channels/1415350002255007784/1418011435287707648/threads/1537244083783868538"
+    },
+    {
+      "id": "1537243899930615950",
+      "title": "Claude in Chromeが「端末をまたぐAI作業環境」へ、Coworkセッションを共通化",
+      "channel": "anthropic",
+      "category": "Anthropic",
+      "date": "2026-08-12T23:38:26.354Z",
+      "excerpt": "Anthropicは「Claude in Chrome」のセッションを、デスクトップ、Web、モバイルへ引き継げるようにしました。Chromeのサイドパネルで始めた会話や作業を別の端末から継続でき、SkillsやConnectorsもブラウザ内で利用できま…",
+      "source_url": "https://twitter.com/i/status/2087635262390026525",
+      "source_label": "twitter.com",
+      "cover": "assets/posts/1537243899930615950.png",
+      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1537243899930615950"
+    },
+    {
+      "id": "1537242424991154307",
+      "title": "AI時代の「学び直し」は万能薬ではない、Anthropicが56件の無作為化試験を検証",
+      "channel": "anthropic",
+      "category": "Anthropic",
+      "date": "2026-08-12T23:32:34.701Z",
+      "excerpt": "AIによる雇用変動への代表的な政策として期待される「労働者の再訓練」は、本当に大規模な失業への備えになるのでしょうか。Anthropicは2026年8月12日、米国の56件の無作為化比較試験などを分析した研究を公開しました。結論は、一般的な職業訓練にはプラ…",
+      "source_url": "https://www.anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs",
+      "source_label": "anthropic.com",
+      "cover": "assets/posts/1537242424991154307.png",
+      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1537242424991154307"
+    },
     {
       "id": "1537130781489631242",
       "title": "Liquid AI「LFM2.5-VL-3B」発表、3B級で高速なエッジ向け視覚AI",
@@ -110,42 +146,6 @@
       "source_label": "research.google",
       "cover": "assets/posts/1536882190170726440.jpg",
       "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1536882190170726440"
-    },
-    {
-      "id": "1536882043168759898",
-      "title": "ChatGPT、ClaudeやCursorから設定・履歴を移行可能に",
-      "channel": "open-ai",
-      "category": "Open AI",
-      "date": "2026-08-11T23:40:32.979Z",
-      "excerpt": "OpenAIはChatGPTおよびCodexに、他のAIエージェント環境から設定やプロジェクト、最近の作業履歴を取り込む「Import」機能を用意しています。ChatGPTデスクトップアプリではClaude Code、Claude Cowork、Curso…",
-      "source_url": "https://learn.chatgpt.com/docs/import",
-      "source_label": "learn.chatgpt.com",
-      "cover": "assets/posts/1536882043168759898.png",
-      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1536882043168759898"
-    },
-    {
-      "id": "1536880628606435328",
-      "title": "Cursor、AI時代のコードレビュー基盤「Origin」投入へ",
-      "channel": "リーク情報",
-      "category": "リーク情報",
-      "date": "2026-08-11T23:34:55.721Z",
-      "excerpt": "AIコードエディタ「Cursor」を開発するAnysphereが、新たなコードレビュー基盤「Origin」の公開を準備していることが明らかになりました。TestingCatalogによると、GitHubリポジトリを同期する「Codebase」と、Pull …",
-      "source_url": "https://www.testingcatalog.com/cursor-prepares-to-launch-origin-platform-for-code-reviews/",
-      "source_label": "testingcatalog.com",
-      "cover": "assets/posts/1536880628606435328.jpg",
-      "url": "https://discord.com/channels/1415350002255007784/1415534435712897124/threads/1536880628606435328"
-    },
-    {
-      "id": "1536880537199976538",
-      "title": "OpenAI、米大学生向け「ChatGPT Plus 1年間無料」を準備か",
-      "channel": "リーク情報",
-      "category": "リーク情報",
-      "date": "2026-08-11T23:34:33.928Z",
-      "excerpt": "OpenAIが、米国の大学生を対象に「ChatGPT Plus」を1年間無料で提供する大型キャンペーンを準備しているとTestingCatalogが報じました。現時点では正式提供前で、OpenAIから利用規約も公開されていないため、確定した施策ではない点に…",
-      "source_url": "https://www.testingcatalog.com/openai-plans-free-chatgpt-plus-year-for-us-college-students/",
-      "source_label": "testingcatalog.com",
-      "cover": "assets/posts/1536880537199976538.jpg",
-      "url": "https://discord.com/channels/1415350002255007784/1415534435712897124/threads/1536880537199976538"
     }
   ]
 }

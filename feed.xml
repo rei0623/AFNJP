@@ -5,8 +5,32 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 12 Aug 2026 16:08:56 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 12 Aug 2026 23:39:10 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>NotebookLM、共有ノートを「丸ごと複製」可能に ソースや生成物もコピー</title>
+      <link>https://discord.com/channels/1415350002255007784/1418011435287707648/threads/1537244083783868538</link>
+      <guid isPermaLink="false">afnjp-1537244083783868538</guid>
+      <pubDate>Wed, 12 Aug 2026 23:39:10 GMT</pubDate>
+      <category>gemini-notebook</category>
+      <description>GoogleのNotebookLMが、既存のノートブックをコピーして自分用に複製できる新機能を発表しました。投稿によると、コピー対象にはノートブック本体だけでなく、登録された「Sources（ソース）」と「Artifacts（生成物）」も含まれます。共有さ…</description>
+    </item>
+    <item>
+      <title>Claude in Chromeが「端末をまたぐAI作業環境」へ、Coworkセッションを共通化</title>
+      <link>https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1537243899930615950</link>
+      <guid isPermaLink="false">afnjp-1537243899930615950</guid>
+      <pubDate>Wed, 12 Aug 2026 23:38:26 GMT</pubDate>
+      <category>anthropic</category>
+      <description>Anthropicは「Claude in Chrome」のセッションを、デスクトップ、Web、モバイルへ引き継げるようにしました。Chromeのサイドパネルで始めた会話や作業を別の端末から継続でき、SkillsやConnectorsもブラウザ内で利用できま…</description>
+    </item>
+    <item>
+      <title>AI時代の「学び直し」は万能薬ではない、Anthropicが56件の無作為化試験を検証</title>
+      <link>https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1537242424991154307</link>
+      <guid isPermaLink="false">afnjp-1537242424991154307</guid>
+      <pubDate>Wed, 12 Aug 2026 23:32:34 GMT</pubDate>
+      <category>anthropic</category>
+      <description>AIによる雇用変動への代表的な政策として期待される「労働者の再訓練」は、本当に大規模な失業への備えになるのでしょうか。Anthropicは2026年8月12日、米国の56件の無作為化比較試験などを分析した研究を公開しました。結論は、一般的な職業訓練にはプラ…</description>
+    </item>
     <item>
       <title>Liquid AI「LFM2.5-VL-3B」発表、3B級で高速なエッジ向け視覚AI</title>
       <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1537130781489631242</link>
@@ -78,30 +102,6 @@
       <pubDate>Tue, 11 Aug 2026 23:41:08 GMT</pubDate>
       <category>google</category>
       <description>Google Researchは、医療AI「AMIE」をリアルタイムの音声・映像診療に対応させた「AMIE (Video)」を発表しました。模擬患者を用いた無作為化試験では、問診、診断精度、治療方針、コミュニケーションなど主要指標でプライマリケア医と同等水…</description>
-    </item>
-    <item>
-      <title>ChatGPT、ClaudeやCursorから設定・履歴を移行可能に</title>
-      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1536882043168759898</link>
-      <guid isPermaLink="false">afnjp-1536882043168759898</guid>
-      <pubDate>Tue, 11 Aug 2026 23:40:32 GMT</pubDate>
-      <category>open-ai</category>
-      <description>OpenAIはChatGPTおよびCodexに、他のAIエージェント環境から設定やプロジェクト、最近の作業履歴を取り込む「Import」機能を用意しています。ChatGPTデスクトップアプリではClaude Code、Claude Cowork、Curso…</description>
-    </item>
-    <item>
-      <title>Cursor、AI時代のコードレビュー基盤「Origin」投入へ</title>
-      <link>https://discord.com/channels/1415350002255007784/1415534435712897124/threads/1536880628606435328</link>
-      <guid isPermaLink="false">afnjp-1536880628606435328</guid>
-      <pubDate>Tue, 11 Aug 2026 23:34:55 GMT</pubDate>
-      <category>リーク情報</category>
-      <description>AIコードエディタ「Cursor」を開発するAnysphereが、新たなコードレビュー基盤「Origin」の公開を準備していることが明らかになりました。TestingCatalogによると、GitHubリポジトリを同期する「Codebase」と、Pull …</description>
-    </item>
-    <item>
-      <title>OpenAI、米大学生向け「ChatGPT Plus 1年間無料」を準備か</title>
-      <link>https://discord.com/channels/1415350002255007784/1415534435712897124/threads/1536880537199976538</link>
-      <guid isPermaLink="false">afnjp-1536880537199976538</guid>
-      <pubDate>Tue, 11 Aug 2026 23:34:33 GMT</pubDate>
-      <category>リーク情報</category>
-      <description>OpenAIが、米国の大学生を対象に「ChatGPT Plus」を1年間無料で提供する大型キャンペーンを準備しているとTestingCatalogが報じました。現時点では正式提供前で、OpenAIから利用規約も公開されていないため、確定した施策ではない点に…</description>
     </item>
   </channel>
 </rss>
