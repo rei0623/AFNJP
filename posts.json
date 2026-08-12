@@ -1,8 +1,20 @@
 {
-  "generated_at": "2026-08-12T15:12:50.461Z",
+  "generated_at": "2026-08-12T16:08:02.679Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1537130385371299991",
+      "title": "Grok 4.6発表、長時間AIエージェントと開発能力を大幅強化",
+      "channel": "grok",
+      "category": "Space X",
+      "date": "2026-08-12T16:07:22.374Z",
+      "excerpt": "xAIは2026年8月12日、最新AIモデル「Grok 4.6」を発表しました。Grok 4.5を基盤に、長時間にわたるエージェント処理、コーディング、調査、インタラクティブ・ビジュアル制作を重点的に強化したモデルです。複数工程をまたぐ複雑な作業を継続して…",
+      "source_url": "https://x.ai/news/grok-4-6",
+      "source_label": "x.ai",
+      "cover": "assets/posts/1537130385371299991.png",
+      "url": "https://discord.com/channels/1415350002255007784/1417803120225816596/threads/1537130385371299991"
+    },
     {
       "id": "1537104757305643059",
       "title": "Google DeepMind、手話を直接テキスト化する「SL2T」公開",
@@ -134,18 +146,6 @@
       "source_label": "openai.com",
       "cover": "assets/posts/1536879950043549786.png",
       "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1536879950043549786"
-    },
-    {
-      "id": "1536762264323883038",
-      "title": "Raspberry Pi 5でGemma 4が動く、Google「LiteRT」が切り開く完全ローカルAI",
-      "channel": "google",
-      "category": "Google",
-      "date": "2026-08-11T15:44:35.477Z",
-      "excerpt": "Googleは2026年8月11日、Raspberry Pi 5上で「LiteRT」とGemmaを組み合わせ、クラウドに依存しないエッジAIを構築する技術を公開しました。LLMだけでなく画像認識、音声認識、音声合成まで端末内で並列処理でき、ロボットやIoT…",
-      "source_url": "https://developers.googleblog.com/mastering-edge-ai-on-raspberry-pi-with-litert-and-gemma/",
-      "source_label": "developers.googleblog.com",
-      "cover": "assets/posts/1536762264323883038.png",
-      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1536762264323883038"
     }
   ]
 }
