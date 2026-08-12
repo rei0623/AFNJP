@@ -1,8 +1,20 @@
 {
-  "generated_at": "2026-08-12T16:08:02.679Z",
+  "generated_at": "2026-08-12T17:10:35.181Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1537130781489631242",
+      "title": "Liquid AI「LFM2.5-VL-3B」発表、3B級で高速なエッジ向け視覚AI",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-08-12T16:08:56.816Z",
+      "excerpt": "Liquid AIは2026年8月12日、約31億パラメータのVision-Language Model（VLM）「LFM2.5-VL-3B」を公開しました。前世代から画面理解、画像内オブジェクトの位置特定、Function Calling、複数画像処理を…",
+      "source_url": "https://www.liquid.ai/blog/lfm2-5-vl-3b",
+      "source_label": "liquid.ai",
+      "cover": null,
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1537130781489631242"
+    },
     {
       "id": "1537130385371299991",
       "title": "Grok 4.6発表、長時間AIエージェントと開発能力を大幅強化",
@@ -134,18 +146,6 @@
       "source_label": "testingcatalog.com",
       "cover": "assets/posts/1536880537199976538.jpg",
       "url": "https://discord.com/channels/1415350002255007784/1415534435712897124/threads/1536880537199976538"
-    },
-    {
-      "id": "1536879950043549786",
-      "title": "OpenAI「Daybreak」がAWSに登場、サイバー防御AIをAmazon Bedrockで提供",
-      "channel": "open-ai",
-      "category": "Open AI",
-      "date": "2026-08-11T23:32:13.939Z",
-      "excerpt": "OpenAIは2026年8月11日、サイバーセキュリティ向けAI「Daybreak」の機能をAmazon Bedrockで利用可能にしたと発表しました。企業は既存のAWS環境やガバナンス基盤を維持しながら、高度な脆弱性調査やインシデント対応へOpenAIの…",
-      "source_url": "https://openai.com/index/daybreak-models-are-now-available-on-aws/",
-      "source_label": "openai.com",
-      "cover": "assets/posts/1536879950043549786.png",
-      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1536879950043549786"
     }
   ]
 }
