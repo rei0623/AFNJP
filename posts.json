@@ -1,8 +1,32 @@
 {
-  "generated_at": "2026-08-12T13:43:49.748Z",
+  "generated_at": "2026-08-12T15:12:50.461Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1537104757305643059",
+      "title": "Google DeepMind、手話を直接テキスト化する「SL2T」公開",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-08-12T14:25:32.167Z",
+      "excerpt": "Google DeepMindは2026年8月12日、手話をリアルタイムでテキストへ翻訳するAIモデル「Sign-Language-to-Text（SL2T）」を発表しました。まず米国手話（ASL）から英語への変換に対応し、Pixel 11のGboardと…",
+      "source_url": "https://deepmind.google/blog/putting-sign-language-ai-into-users-hands/",
+      "source_label": "deepmind.google",
+      "cover": "assets/posts/1537104757305643059.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1537104757305643059"
+    },
+    {
+      "id": "1537104592800587796",
+      "title": "Geminiが外部サービス連携を大幅拡張、予約・会議・音楽までAIから操作へ",
+      "channel": "gemini",
+      "category": "Google",
+      "date": "2026-08-12T14:24:52.946Z",
+      "excerpt": "Googleは2026年8月12日、Geminiアプリから利用できる「Connected Apps」の拡充を発表しました。今後数週間かけて、会議要約やWebサイト編集、レストラン予約、チケット検索、音楽再生、医師の予約などを、Geminiを起点に実行できる…",
+      "source_url": "https://blog.google/innovation-and-ai/products/gemini-app/new-connected-apps-services-gemini-august-2026/",
+      "source_label": "blog.google",
+      "cover": "assets/posts/1537104592800587796.png",
+      "url": "https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1537104592800587796"
+    },
     {
       "id": "1537093830619430994",
       "title": "企業AIは「回答」から「実行」へ、OpenAIが示すエージェント時代の競争力",
@@ -122,30 +146,6 @@
       "source_label": "developers.googleblog.com",
       "cover": "assets/posts/1536762264323883038.png",
       "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1536762264323883038"
-    },
-    {
-      "id": "1536759958207594576",
-      "title": "NVIDIA「Nemotron 3.5 Lightning」公開、30B級AIを3Bアクティブで高速化",
-      "channel": "その他",
-      "category": "その他",
-      "date": "2026-08-11T15:35:25.656Z",
-      "excerpt": "NVIDIAは2026年8月11日、オープンウェイトLLM「NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4」を公開しました。総パラメータ数は300億ながら、推論時に利用するのは約30億パラメータです。最大100万トー…",
-      "source_url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Lightning-30B-A3B-NVFP4",
-      "source_label": "huggingface.co",
-      "cover": "assets/posts/1536759958207594576.png",
-      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1536759958207594576"
-    },
-    {
-      "id": "1536759824207839373",
-      "title": "ManusがMetaから分離へ、一部ユーザーはデータ移行対応が必要に",
-      "channel": "manus",
-      "category": "Meta",
-      "date": "2026-08-11T15:34:53.708Z",
-      "excerpt": "AIエージェント「Manus」は、Metaから分離し、再び独立企業として運営を開始すると発表しました。これに伴い、規制要件への対応として、一部ユーザーが2025年12月29日以降に生成したデータが2026年8月23日から24日にかけて削除されます。対象ユー…",
-      "source_url": "https://manus.im/ja/blog/a-note-to-our-users",
-      "source_label": "manus.im",
-      "cover": "assets/posts/1536759824207839373.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1416105983415156887/threads/1536759824207839373"
     }
   ]
 }
