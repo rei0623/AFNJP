@@ -1,8 +1,20 @@
 {
-  "generated_at": "2026-08-13T23:00:17.824Z",
+  "generated_at": "2026-08-13T23:56:24.723Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1537605927694237837",
+      "title": "ChatGPT「Computer History」登場、Mac上の作業履歴をAIの記憶へ",
+      "channel": "chatgpt",
+      "category": "Open AI",
+      "date": "2026-08-13T23:37:00.499Z",
+      "excerpt": "OpenAIは、macOS版ChatGPTでPC上の作業履歴をChatGPTやCodexのコンテキストとして利用できる「Computer History」を提供しています。単なる閲覧履歴ではなく、複数アプリをまたぐ作業の流れをAIが理解し、「さっき何をして…",
+      "source_url": "https://learn.chatgpt.com/docs/customization/computer-history",
+      "source_label": "learn.chatgpt.com",
+      "cover": "assets/posts/1537605927694237837.png",
+      "url": "https://discord.com/channels/1415350002255007784/1415353131604377641/threads/1537605927694237837"
+    },
     {
       "id": "1537522824355512351",
       "title": "DeepSeek-V4-Pro正式投入、Agent強化と「推論量の可変制御」を実装",
@@ -134,18 +146,6 @@
       "source_label": "anthropic.com",
       "cover": "assets/posts/1537242424991154307.png",
       "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1537242424991154307"
-    },
-    {
-      "id": "1537130781489631242",
-      "title": "Liquid AI「LFM2.5-VL-3B」発表、3B級で高速なエッジ向け視覚AI",
-      "channel": "その他",
-      "category": "その他",
-      "date": "2026-08-12T16:08:56.816Z",
-      "excerpt": "Liquid AIは2026年8月12日、約31億パラメータのVision-Language Model（VLM）「LFM2.5-VL-3B」を公開しました。前世代から画面理解、画像内オブジェクトの位置特定、Function Calling、複数画像処理を…",
-      "source_url": "https://www.liquid.ai/blog/lfm2-5-vl-3b",
-      "source_label": "liquid.ai",
-      "cover": null,
-      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1537130781489631242"
     }
   ]
 }

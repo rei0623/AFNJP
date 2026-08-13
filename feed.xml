@@ -5,8 +5,16 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 13 Aug 2026 18:06:47 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 13 Aug 2026 23:37:00 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>ChatGPT「Computer History」登場、Mac上の作業履歴をAIの記憶へ</title>
+      <link>https://discord.com/channels/1415350002255007784/1415353131604377641/threads/1537605927694237837</link>
+      <guid isPermaLink="false">afnjp-1537605927694237837</guid>
+      <pubDate>Thu, 13 Aug 2026 23:37:00 GMT</pubDate>
+      <category>chatgpt</category>
+      <description>OpenAIは、macOS版ChatGPTでPC上の作業履歴をChatGPTやCodexのコンテキストとして利用できる「Computer History」を提供しています。単なる閲覧履歴ではなく、複数アプリをまたぐ作業の流れをAIが理解し、「さっき何をして…</description>
+    </item>
     <item>
       <title>DeepSeek-V4-Pro正式投入、Agent強化と「推論量の可変制御」を実装</title>
       <link>https://discord.com/channels/1415350002255007784/1419690651490193470/threads/1537522824355512351</link>
@@ -94,14 +102,6 @@
       <pubDate>Wed, 12 Aug 2026 23:32:34 GMT</pubDate>
       <category>anthropic</category>
       <description>AIによる雇用変動への代表的な政策として期待される「労働者の再訓練」は、本当に大規模な失業への備えになるのでしょうか。Anthropicは2026年8月12日、米国の56件の無作為化比較試験などを分析した研究を公開しました。結論は、一般的な職業訓練にはプラ…</description>
-    </item>
-    <item>
-      <title>Liquid AI「LFM2.5-VL-3B」発表、3B級で高速なエッジ向け視覚AI</title>
-      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1537130781489631242</link>
-      <guid isPermaLink="false">afnjp-1537130781489631242</guid>
-      <pubDate>Wed, 12 Aug 2026 16:08:56 GMT</pubDate>
-      <category>その他</category>
-      <description>Liquid AIは2026年8月12日、約31億パラメータのVision-Language Model（VLM）「LFM2.5-VL-3B」を公開しました。前世代から画面理解、画像内オブジェクトの位置特定、Function Calling、複数画像処理を…</description>
     </item>
   </channel>
 </rss>
