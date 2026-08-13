@@ -1,8 +1,20 @@
 {
-  "generated_at": "2026-08-13T18:05:51.433Z",
+  "generated_at": "2026-08-13T19:18:17.231Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1537522824355512351",
+      "title": "DeepSeek-V4-Pro正式投入、Agent強化と「推論量の可変制御」を実装",
+      "channel": "deep-seek",
+      "category": "その他",
+      "date": "2026-08-13T18:06:47.119Z",
+      "excerpt": "DeepSeekは「DeepSeek-V4-Pro」の正式提供を開始しました。今回の更新ではAgent性能を重点的に強化し、タスクに応じて推論量をlow・high・maxへ切り替える仕組みを導入。さらにOpenAI Responses APIをネイティブサ…",
+      "source_url": "https://twitter.com/i/status/2087864585504305397",
+      "source_label": "twitter.com",
+      "cover": "assets/posts/1537522824355512351.jpg",
+      "url": "https://discord.com/channels/1415350002255007784/1419690651490193470/threads/1537522824355512351"
+    },
     {
       "id": "1537522384372768888",
       "title": "DeepSeekが「DeepSeek Harness」を公開、AIエージェント基盤を“すべてプラグイン”で再設計",
@@ -134,18 +146,6 @@
       "source_label": "liquid.ai",
       "cover": null,
       "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1537130781489631242"
-    },
-    {
-      "id": "1537130385371299991",
-      "title": "Grok 4.6発表、長時間AIエージェントと開発能力を大幅強化",
-      "channel": "grok",
-      "category": "Space X",
-      "date": "2026-08-12T16:07:22.374Z",
-      "excerpt": "xAIは2026年8月12日、最新AIモデル「Grok 4.6」を発表しました。Grok 4.5を基盤に、長時間にわたるエージェント処理、コーディング、調査、インタラクティブ・ビジュアル制作を重点的に強化したモデルです。複数工程をまたぐ複雑な作業を継続して…",
-      "source_url": "https://x.ai/news/grok-4-6",
-      "source_label": "x.ai",
-      "cover": "assets/posts/1537130385371299991.png",
-      "url": "https://discord.com/channels/1415350002255007784/1417803120225816596/threads/1537130385371299991"
     }
   ]
 }
