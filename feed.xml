@@ -5,8 +5,64 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 12 Aug 2026 23:39:10 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 13 Aug 2026 18:05:02 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>DeepSeekが「DeepSeek Harness」を公開、AIエージェント基盤を“すべてプラグイン”で再設計</title>
+      <link>https://discord.com/channels/1415350002255007784/1419690651490193470/threads/1537522384372768888</link>
+      <guid isPermaLink="false">afnjp-1537522384372768888</guid>
+      <pubDate>Thu, 13 Aug 2026 18:05:02 GMT</pubDate>
+      <category>deep-seek</category>
+      <description>DeepSeek AIが、オープンソースのAIエージェント基盤「DeepSeek Harness（dsh）」を公開しています。最大の特徴は、モデル接続、ツール、セッション管理、エージェントループまでをプラグインとして交換可能にする設計です。現在はDevel…</description>
+    </item>
+    <item>
+      <title>Google、AI Studioに「Agents」管理UIを準備か</title>
+      <link>https://discord.com/channels/1415350002255007784/1415534435712897124/threads/1537522233491197962</link>
+      <guid isPermaLink="false">afnjp-1537522233491197962</guid>
+      <pubDate>Thu, 13 Aug 2026 18:04:26 GMT</pubDate>
+      <category>リーク情報</category>
+      <description>Googleが「AI Studio」に、AIエージェントを作成・設定・管理するための専用「Agents」セクションを開発していることが明らかになりました。TestingCatalogが2026年8月13日に報じたもので、Google Cloudプロジェクト…</description>
+    </item>
+    <item>
+      <title>OpenAI「Ultrafast」公開、GPT-5.6 Solを最大14倍高速化</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1537520353323253922</link>
+      <guid isPermaLink="false">afnjp-1537520353323253922</guid>
+      <pubDate>Thu, 13 Aug 2026 17:56:57 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIは2026年8月13日、GPT-5.6 Solを標準処理比で最大14倍高速に実行する新サービス階層「Ultrafast」を発表しました。Cerebrasの推論基盤を活用し、最大750出力トークン/秒を実現します。まずOpenAI APIで限定プ…</description>
+    </item>
+    <item>
+      <title>OpenAI、Dali Rajic氏を最高収益責任者に任命</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1537520267524579378</link>
+      <guid isPermaLink="false">afnjp-1537520267524579378</guid>
+      <pubDate>Thu, 13 Aug 2026 17:56:37 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIは2026年8月13日、Dali Rajic氏がChief Revenue Officer（CRO、最高収益責任者）として入社し、グローバルな収益組織を率いると発表しました。ChatGPTなどの製品が週10億人超のアクティブユーザー、200万社…</description>
+    </item>
+    <item>
+      <title>Anthropicが警告する「マルチエージェント社会」の新たなリスク</title>
+      <link>https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1537520182556360714</link>
+      <guid isPermaLink="false">afnjp-1537520182556360714</guid>
+      <pubDate>Thu, 13 Aug 2026 17:56:17 GMT</pubDate>
+      <category>anthropic</category>
+      <description>Anthropicは2026年8月13日、複数のAIエージェントが相互作用する環境で生じる協調失敗を分析した研究「Patterns and problems in emerging multiagent systems」を公開しました。実験では、単体AIの…</description>
+    </item>
+    <item>
+      <title>Google Sheetsが「ミニアプリ」に進化、Gemini搭載「Sheets canvas」登場</title>
+      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1537520085843837030</link>
+      <guid isPermaLink="false">afnjp-1537520085843837030</guid>
+      <pubDate>Thu, 13 Aug 2026 17:55:54 GMT</pubDate>
+      <category>google</category>
+      <description>Googleは2026年8月13日、Google Sheetsのデータを自然言語だけでインタラクティブな「ミニアプリ」に変換できる新機能「Sheets canvas」を発表しました。表計算データを維持したまま、ダッシュボードや学習管理、座席表などの専用UI…</description>
+    </item>
+    <item>
+      <title>Gemini 3.7 Flash登場、コーディングとAIエージェント性能を大幅強化</title>
+      <link>https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1537519928503173160</link>
+      <guid isPermaLink="false">afnjp-1537519928503173160</guid>
+      <pubDate>Thu, 13 Aug 2026 17:55:16 GMT</pubDate>
+      <category>gemini</category>
+      <description>Googleは2026年8月13日、「Gemini 3.7 Flash」を発表しました。高速・低コストを担うFlash系モデルを、単純な応答速度だけでなく、コーディングや複数ツールを扱うAIエージェント向けの「実務モデル」へ進化させた点が最大の特徴です。G…</description>
+    </item>
     <item>
       <title>NotebookLM、共有ノートを「丸ごと複製」可能に ソースや生成物もコピー</title>
       <link>https://discord.com/channels/1415350002255007784/1418011435287707648/threads/1537244083783868538</link>
@@ -46,62 +102,6 @@
       <pubDate>Wed, 12 Aug 2026 16:07:22 GMT</pubDate>
       <category>grok</category>
       <description>xAIは2026年8月12日、最新AIモデル「Grok 4.6」を発表しました。Grok 4.5を基盤に、長時間にわたるエージェント処理、コーディング、調査、インタラクティブ・ビジュアル制作を重点的に強化したモデルです。複数工程をまたぐ複雑な作業を継続して…</description>
-    </item>
-    <item>
-      <title>Google DeepMind、手話を直接テキスト化する「SL2T」公開</title>
-      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1537104757305643059</link>
-      <guid isPermaLink="false">afnjp-1537104757305643059</guid>
-      <pubDate>Wed, 12 Aug 2026 14:25:32 GMT</pubDate>
-      <category>google</category>
-      <description>Google DeepMindは2026年8月12日、手話をリアルタイムでテキストへ翻訳するAIモデル「Sign-Language-to-Text（SL2T）」を発表しました。まず米国手話（ASL）から英語への変換に対応し、Pixel 11のGboardと…</description>
-    </item>
-    <item>
-      <title>Geminiが外部サービス連携を大幅拡張、予約・会議・音楽までAIから操作へ</title>
-      <link>https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1537104592800587796</link>
-      <guid isPermaLink="false">afnjp-1537104592800587796</guid>
-      <pubDate>Wed, 12 Aug 2026 14:24:52 GMT</pubDate>
-      <category>gemini</category>
-      <description>Googleは2026年8月12日、Geminiアプリから利用できる「Connected Apps」の拡充を発表しました。今後数週間かけて、会議要約やWebサイト編集、レストラン予約、チケット検索、音楽再生、医師の予約などを、Geminiを起点に実行できる…</description>
-    </item>
-    <item>
-      <title>企業AIは「回答」から「実行」へ、OpenAIが示すエージェント時代の競争力</title>
-      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1537093830619430994</link>
-      <guid isPermaLink="false">afnjp-1537093830619430994</guid>
-      <pubDate>Wed, 12 Aug 2026 13:42:07 GMT</pubDate>
-      <category>open-ai</category>
-      <description>OpenAIは2026年8月12日、企業におけるAI利用の最新動向を公開しました。調査から浮かび上がるのは、AIを質問への回答役として使う段階から、ツールや社内データへ接続し、複数工程の仕事そのものを任せる「エージェント型AI」への急速な移行です。</description>
-    </item>
-    <item>
-      <title>Microsoft「MAI-Code-1.1-Flash」公開、性能向上と4分の1のコストを両立</title>
-      <link>https://discord.com/channels/1415350002255007784/1432720743279497367/threads/1536882767281918075</link>
-      <guid isPermaLink="false">afnjp-1536882767281918075</guid>
-      <pubDate>Tue, 11 Aug 2026 23:43:25 GMT</pubDate>
-      <category>microsoft</category>
-      <description>Microsoft AIは2026年8月11日、コーディング向けAIモデル「MAI-Code-1.1-Flash」を発表しました。GitHub Copilotですでに本番導入されており、6月にMicrosoft Buildで公開した前世代モデルと比べ、コー…</description>
-    </item>
-    <item>
-      <title>ChatGPT Linux版がプレビュー公開、WorkとCodexも統合</title>
-      <link>https://discord.com/channels/1415350002255007784/1415353131604377641/threads/1536882461097853009</link>
-      <guid isPermaLink="false">afnjp-1536882461097853009</guid>
-      <pubDate>Tue, 11 Aug 2026 23:42:12 GMT</pubDate>
-      <category>chatgpt</category>
-      <description>OpenAIは、ChatGPTのLinux向けデスクトップアプリをプレビュー公開しました。対応するのはUbuntu、Debian、Fedoraの主要ディストリビューションで、ChatGPTだけでなく「ChatGPT Work」と「Codex」もLinuxデ…</description>
-    </item>
-    <item>
-      <title>xAI「Grok Bot」公開、AIが“自分専用PC”で業務を代行する時代へ</title>
-      <link>https://discord.com/channels/1415350002255007784/1417803120225816596/threads/1536882341866381333</link>
-      <guid isPermaLink="false">afnjp-1536882341866381333</guid>
-      <pubDate>Tue, 11 Aug 2026 23:41:44 GMT</pubDate>
-      <category>grok</category>
-      <description>xAIは、AIを単なる質問応答ツールではなく、実際の業務を遂行する「AIチームメイト」として使う新サービス「Grok Bot」を公開しました。Grok Botは専用のコンピューター環境を持ち、Webサイトや業務アプリへログインして、人間と同じように操作しな…</description>
-    </item>
-    <item>
-      <title>Google「AMIE」がリアルタイム診療へ、動画AIで専門医級性能を実証</title>
-      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1536882190170726440</link>
-      <guid isPermaLink="false">afnjp-1536882190170726440</guid>
-      <pubDate>Tue, 11 Aug 2026 23:41:08 GMT</pubDate>
-      <category>google</category>
-      <description>Google Researchは、医療AI「AMIE」をリアルタイムの音声・映像診療に対応させた「AMIE (Video)」を発表しました。模擬患者を用いた無作為化試験では、問診、診断精度、治療方針、コミュニケーションなど主要指標でプライマリケア医と同等水…</description>
     </item>
   </channel>
 </rss>
