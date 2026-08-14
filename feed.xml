@@ -5,8 +5,16 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 13 Aug 2026 23:37:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 14 Aug 2026 10:55:25 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>GLM-5.3登場、同じ基盤モデルの「後学習」でコーディング能力を大幅強化</title>
+      <link>https://discord.com/channels/1415350002255007784/1418395473290461285/threads/1537776656821911665</link>
+      <guid isPermaLink="false">afnjp-1537776656821911665</guid>
+      <pubDate>Fri, 14 Aug 2026 10:55:25 GMT</pubDate>
+      <category>glm</category>
+      <description>Z.aiは、コーディングと長期エージェントタスクを重点的に強化した「GLM-5.3」を発表しました。最大の特徴は、GLM-5.2から基盤モデル自体を変更せず、長期タスク環境を用いた大規模なポストトレーニングによって性能を引き上げたことです。さらに、学習規模…</description>
+    </item>
     <item>
       <title>ChatGPT「Computer History」登場、Mac上の作業履歴をAIの記憶へ</title>
       <link>https://discord.com/channels/1415350002255007784/1415353131604377641/threads/1537605927694237837</link>
@@ -94,14 +102,6 @@
       <pubDate>Wed, 12 Aug 2026 23:38:26 GMT</pubDate>
       <category>anthropic</category>
       <description>Anthropicは「Claude in Chrome」のセッションを、デスクトップ、Web、モバイルへ引き継げるようにしました。Chromeのサイドパネルで始めた会話や作業を別の端末から継続でき、SkillsやConnectorsもブラウザ内で利用できま…</description>
-    </item>
-    <item>
-      <title>AI時代の「学び直し」は万能薬ではない、Anthropicが56件の無作為化試験を検証</title>
-      <link>https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1537242424991154307</link>
-      <guid isPermaLink="false">afnjp-1537242424991154307</guid>
-      <pubDate>Wed, 12 Aug 2026 23:32:34 GMT</pubDate>
-      <category>anthropic</category>
-      <description>AIによる雇用変動への代表的な政策として期待される「労働者の再訓練」は、本当に大規模な失業への備えになるのでしょうか。Anthropicは2026年8月12日、米国の56件の無作為化比較試験などを分析した研究を公開しました。結論は、一般的な職業訓練にはプラ…</description>
     </item>
   </channel>
 </rss>

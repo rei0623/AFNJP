@@ -1,8 +1,20 @@
 {
-  "generated_at": "2026-08-14T10:15:21.959Z",
+  "generated_at": "2026-08-14T11:08:19.755Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1537776656821911665",
+      "title": "GLM-5.3登場、同じ基盤モデルの「後学習」でコーディング能力を大幅強化",
+      "channel": "glm",
+      "category": "その他",
+      "date": "2026-08-14T10:55:25.495Z",
+      "excerpt": "Z.aiは、コーディングと長期エージェントタスクを重点的に強化した「GLM-5.3」を発表しました。最大の特徴は、GLM-5.2から基盤モデル自体を変更せず、長期タスク環境を用いた大規模なポストトレーニングによって性能を引き上げたことです。さらに、学習規模…",
+      "source_url": "https://z.ai/blog/glm-5.3",
+      "source_label": "z.ai",
+      "cover": null,
+      "url": "https://discord.com/channels/1415350002255007784/1418395473290461285/threads/1537776656821911665"
+    },
     {
       "id": "1537605927694237837",
       "title": "ChatGPT「Computer History」登場、Mac上の作業履歴をAIの記憶へ",
@@ -134,18 +146,6 @@
       "source_label": "twitter.com",
       "cover": "assets/posts/1537243899930615950.png",
       "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1537243899930615950"
-    },
-    {
-      "id": "1537242424991154307",
-      "title": "AI時代の「学び直し」は万能薬ではない、Anthropicが56件の無作為化試験を検証",
-      "channel": "anthropic",
-      "category": "Anthropic",
-      "date": "2026-08-12T23:32:34.701Z",
-      "excerpt": "AIによる雇用変動への代表的な政策として期待される「労働者の再訓練」は、本当に大規模な失業への備えになるのでしょうか。Anthropicは2026年8月12日、米国の56件の無作為化比較試験などを分析した研究を公開しました。結論は、一般的な職業訓練にはプラ…",
-      "source_url": "https://www.anthropic.com/research/reviewing-the-evidence-on-worker-retraining-programs",
-      "source_label": "anthropic.com",
-      "cover": "assets/posts/1537242424991154307.png",
-      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1537242424991154307"
     }
   ]
 }
