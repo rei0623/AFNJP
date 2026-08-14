@@ -1,8 +1,32 @@
 {
-  "generated_at": "2026-08-14T17:09:26.567Z",
+  "generated_at": "2026-08-14T18:04:53.649Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1537873662533836820",
+      "title": "Cursor、SpaceX傘下入りを正式発表 GrokとAI開発基盤を統合へ",
+      "channel": "cursor",
+      "category": "その他",
+      "date": "2026-08-14T17:20:53.459Z",
+      "excerpt": "AIコーディング環境「Cursor」を開発するAnysphereは、SpaceXによる買収手続きが正式に完了したと発表しました。CursorチームはSpaceXのAI部門「SpaceXAI」に加わり、Grokを中心に、Grok Build、Grok Bot…",
+      "source_url": "https://twitter.com/i/status/2088249881718919393",
+      "source_label": "twitter.com",
+      "cover": null,
+      "url": "https://discord.com/channels/1415350002255007784/1416106151585644636/threads/1537873662533836820"
+    },
+    {
+      "id": "1537873375454564392",
+      "title": "Qwen3.8-27Bがオープンウェイト化、27Bでマルチモーダルと262K文脈に対応",
+      "channel": "qwen",
+      "category": "Alibaba",
+      "date": "2026-08-14T17:19:45.014Z",
+      "excerpt": "AlibabaのQwenチームは、Qwen3.8シリーズの「Qwen3.8-27B」のオープンウェイトを公開しました。27Bパラメータの比較的コンパクトなDenseモデルながら、ネイティブなマルチモーダル処理、長大なコンテキスト、コーディングやオフィス業務…",
+      "source_url": "https://twitter.com/i/status/2088280182356611304",
+      "source_label": "twitter.com",
+      "cover": "assets/posts/1537873375454564392.jpg",
+      "url": "https://discord.com/channels/1415350002255007784/1419932032716243027/threads/1537873375454564392"
+    },
     {
       "id": "1537776656821911665",
       "title": "GLM-5.3登場、同じ基盤モデルの「後学習」でコーディング能力を大幅強化",
@@ -122,30 +146,6 @@
       "source_label": "blog.google",
       "cover": "assets/posts/1537519928503173160.png",
       "url": "https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1537519928503173160"
-    },
-    {
-      "id": "1537244083783868538",
-      "title": "NotebookLM、共有ノートを「丸ごと複製」可能に ソースや生成物もコピー",
-      "channel": "gemini-notebook",
-      "category": "Google",
-      "date": "2026-08-12T23:39:10.188Z",
-      "excerpt": "GoogleのNotebookLMが、既存のノートブックをコピーして自分用に複製できる新機能を発表しました。投稿によると、コピー対象にはノートブック本体だけでなく、登録された「Sources（ソース）」と「Artifacts（生成物）」も含まれます。共有さ…",
-      "source_url": "https://twitter.com/i/status/2087628041090687210",
-      "source_label": "twitter.com",
-      "cover": "assets/posts/1537244083783868538.png",
-      "url": "https://discord.com/channels/1415350002255007784/1418011435287707648/threads/1537244083783868538"
-    },
-    {
-      "id": "1537243899930615950",
-      "title": "Claude in Chromeが「端末をまたぐAI作業環境」へ、Coworkセッションを共通化",
-      "channel": "anthropic",
-      "category": "Anthropic",
-      "date": "2026-08-12T23:38:26.354Z",
-      "excerpt": "Anthropicは「Claude in Chrome」のセッションを、デスクトップ、Web、モバイルへ引き継げるようにしました。Chromeのサイドパネルで始めた会話や作業を別の端末から継続でき、SkillsやConnectorsもブラウザ内で利用できま…",
-      "source_url": "https://twitter.com/i/status/2087635262390026525",
-      "source_label": "twitter.com",
-      "cover": "assets/posts/1537243899930615950.png",
-      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1537243899930615950"
     }
   ]
 }
