@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T02:43:39.868Z",
+  "generated_at": "2026-08-14T04:59:37.141Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
@@ -60,7 +60,7 @@
       "excerpt": "OpenAIは2026年8月13日、GPT-5.6 Solを標準処理比で最大14倍高速に実行する新サービス階層「Ultrafast」を発表しました。Cerebrasの推論基盤を活用し、最大750出力トークン/秒を実現します。まずOpenAI APIで限定プ…",
       "source_url": "https://openai.com/index/previewing-ultrafast/",
       "source_label": "openai.com",
-      "cover": "assets/posts/1537520353323253922.png",
+      "cover": null,
       "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1537520353323253922"
     },
     {
