@@ -5,8 +5,16 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 14 Aug 2026 17:20:53 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 15 Aug 2026 04:40:40 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Claudeに「見えない透かし」導入へ、Anthropicが仕組みを公開</title>
+      <link>https://discord.com/channels/1415350002255007784/1415353403269185546/threads/1538044734440742983</link>
+      <guid isPermaLink="false">afnjp-1538044734440742983</guid>
+      <pubDate>Sat, 15 Aug 2026 04:40:40 GMT</pubDate>
+      <category>claude</category>
+      <description>Anthropicは2026年8月14日、将来のClaudeモデルが生成する文章にテキストウォーターマークを導入すると発表しました。人間には見えない統計的なパターンを文章生成時に埋め込み、Claudeが文章作成に関与した可能性を判定できるようにします。EU…</description>
+    </item>
     <item>
       <title>Cursor、SpaceX傘下入りを正式発表 GrokとAI開発基盤を統合へ</title>
       <link>https://discord.com/channels/1415350002255007784/1416106151585644636/threads/1537873662533836820</link>
@@ -94,14 +102,6 @@
       <pubDate>Thu, 13 Aug 2026 17:55:54 GMT</pubDate>
       <category>google</category>
       <description>Googleは2026年8月13日、Google Sheetsのデータを自然言語だけでインタラクティブな「ミニアプリ」に変換できる新機能「Sheets canvas」を発表しました。表計算データを維持したまま、ダッシュボードや学習管理、座席表などの専用UI…</description>
-    </item>
-    <item>
-      <title>Gemini 3.7 Flash登場、コーディングとAIエージェント性能を大幅強化</title>
-      <link>https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1537519928503173160</link>
-      <guid isPermaLink="false">afnjp-1537519928503173160</guid>
-      <pubDate>Thu, 13 Aug 2026 17:55:16 GMT</pubDate>
-      <category>gemini</category>
-      <description>Googleは2026年8月13日、「Gemini 3.7 Flash」を発表しました。高速・低コストを担うFlash系モデルを、単純な応答速度だけでなく、コーディングや複数ツールを扱うAIエージェント向けの「実務モデル」へ進化させた点が最大の特徴です。G…</description>
     </item>
   </channel>
 </rss>

@@ -1,8 +1,20 @@
 {
-  "generated_at": "2026-08-15T03:51:52.648Z",
+  "generated_at": "2026-08-15T04:45:04.648Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1538044734440742983",
+      "title": "Claudeに「見えない透かし」導入へ、Anthropicが仕組みを公開",
+      "channel": "claude",
+      "category": "Anthropic",
+      "date": "2026-08-15T04:40:40.180Z",
+      "excerpt": "Anthropicは2026年8月14日、将来のClaudeモデルが生成する文章にテキストウォーターマークを導入すると発表しました。人間には見えない統計的なパターンを文章生成時に埋め込み、Claudeが文章作成に関与した可能性を判定できるようにします。EU…",
+      "source_url": "https://www.anthropic.com/news/claude-text-watermark",
+      "source_label": "anthropic.com",
+      "cover": "assets/posts/1538044734440742983.png",
+      "url": "https://discord.com/channels/1415350002255007784/1415353403269185546/threads/1538044734440742983"
+    },
     {
       "id": "1537873662533836820",
       "title": "Cursor、SpaceX傘下入りを正式発表 GrokとAI開発基盤を統合へ",
@@ -134,18 +146,6 @@
       "source_label": "blog.google",
       "cover": "assets/posts/1537520085843837030.jpg",
       "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1537520085843837030"
-    },
-    {
-      "id": "1537519928503173160",
-      "title": "Gemini 3.7 Flash登場、コーディングとAIエージェント性能を大幅強化",
-      "channel": "gemini",
-      "category": "Google",
-      "date": "2026-08-13T17:55:16.694Z",
-      "excerpt": "Googleは2026年8月13日、「Gemini 3.7 Flash」を発表しました。高速・低コストを担うFlash系モデルを、単純な応答速度だけでなく、コーディングや複数ツールを扱うAIエージェント向けの「実務モデル」へ進化させた点が最大の特徴です。G…",
-      "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/",
-      "source_label": "blog.google",
-      "cover": "assets/posts/1537519928503173160.png",
-      "url": "https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1537519928503173160"
     }
   ]
 }
