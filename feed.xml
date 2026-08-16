@@ -5,8 +5,16 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 15 Aug 2026 04:40:40 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 16 Aug 2026 15:44:37 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Claudeが「AIスーパーアプリ」へ、ブラウザとSlack型共同開発を統合か</title>
+      <link>https://discord.com/channels/1415350002255007784/1415534435712897124/threads/1538574212950654996</link>
+      <guid isPermaLink="false">afnjp-1538574212950654996</guid>
+      <pubDate>Sun, 16 Aug 2026 15:44:37 GMT</pubDate>
+      <category>リーク情報</category>
+      <description>Anthropicが、Claude Desktopを単なるAIチャットから「仕事そのものを行う統合環境」へ進化させようとしていることが明らかになりました。TestingCatalogが2026年8月16日に報じた情報によると、Cowork向け内蔵Webブラ…</description>
+    </item>
     <item>
       <title>Claudeに「見えない透かし」導入へ、Anthropicが仕組みを公開</title>
       <link>https://discord.com/channels/1415350002255007784/1415353403269185546/threads/1538044734440742983</link>
@@ -94,14 +102,6 @@
       <pubDate>Thu, 13 Aug 2026 17:56:17 GMT</pubDate>
       <category>anthropic</category>
       <description>Anthropicは2026年8月13日、複数のAIエージェントが相互作用する環境で生じる協調失敗を分析した研究「Patterns and problems in emerging multiagent systems」を公開しました。実験では、単体AIの…</description>
-    </item>
-    <item>
-      <title>Google Sheetsが「ミニアプリ」に進化、Gemini搭載「Sheets canvas」登場</title>
-      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1537520085843837030</link>
-      <guid isPermaLink="false">afnjp-1537520085843837030</guid>
-      <pubDate>Thu, 13 Aug 2026 17:55:54 GMT</pubDate>
-      <category>google</category>
-      <description>Googleは2026年8月13日、Google Sheetsのデータを自然言語だけでインタラクティブな「ミニアプリ」に変換できる新機能「Sheets canvas」を発表しました。表計算データを維持したまま、ダッシュボードや学習管理、座席表などの専用UI…</description>
     </item>
   </channel>
 </rss>

@@ -1,8 +1,20 @@
 {
-  "generated_at": "2026-08-16T15:34:08.350Z",
+  "generated_at": "2026-08-16T16:39:57.259Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1538574212950654996",
+      "title": "Claudeが「AIスーパーアプリ」へ、ブラウザとSlack型共同開発を統合か",
+      "channel": "リーク情報",
+      "category": "リーク情報",
+      "date": "2026-08-16T15:44:37.694Z",
+      "excerpt": "Anthropicが、Claude Desktopを単なるAIチャットから「仕事そのものを行う統合環境」へ進化させようとしていることが明らかになりました。TestingCatalogが2026年8月16日に報じた情報によると、Cowork向け内蔵Webブラ…",
+      "source_url": "https://www.testingcatalog.com/claude-turns-into-super-app-adding-web-browser-for-cowork/",
+      "source_label": "testingcatalog.com",
+      "cover": "assets/posts/1538574212950654996.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415534435712897124/threads/1538574212950654996"
+    },
     {
       "id": "1538044734440742983",
       "title": "Claudeに「見えない透かし」導入へ、Anthropicが仕組みを公開",
@@ -134,18 +146,6 @@
       "source_label": "anthropic.com",
       "cover": "assets/posts/1537520182556360714.jpg",
       "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1537520182556360714"
-    },
-    {
-      "id": "1537520085843837030",
-      "title": "Google Sheetsが「ミニアプリ」に進化、Gemini搭載「Sheets canvas」登場",
-      "channel": "google",
-      "category": "Google",
-      "date": "2026-08-13T17:55:54.207Z",
-      "excerpt": "Googleは2026年8月13日、Google Sheetsのデータを自然言語だけでインタラクティブな「ミニアプリ」に変換できる新機能「Sheets canvas」を発表しました。表計算データを維持したまま、ダッシュボードや学習管理、座席表などの専用UI…",
-      "source_url": "https://blog.google/products-and-platforms/products/workspace/sheets-canvas-for-google-sheets-spreadsheets/",
-      "source_label": "blog.google",
-      "cover": "assets/posts/1537520085843837030.jpg",
-      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1537520085843837030"
     }
   ]
 }
