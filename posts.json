@@ -1,8 +1,20 @@
 {
-  "generated_at": "2026-08-17T22:38:45.235Z",
+  "generated_at": "2026-08-17T23:35:19.525Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1539054407466098729",
+      "title": "Cursorが「Origin」発表、AIエージェント時代のコードホスティングへ進出",
+      "channel": "cursor",
+      "category": "その他",
+      "date": "2026-08-17T23:32:44.988Z",
+      "excerpt": "Cursorは2026年8月17日、Cursor上でコードを直接ホストできる新機能「Origin」を発表しました。初期ベータとして有料プラン向けに順次提供し、リポジトリ管理、Pull Request（PR）、コード閲覧、GitHub同期を一体化します。AI…",
+      "source_url": "https://cursor.com/ja/changelog/origin-code-hosting",
+      "source_label": "cursor.com",
+      "cover": "assets/posts/1539054407466098729.png",
+      "url": "https://discord.com/channels/1415350002255007784/1416106151585644636/threads/1539054407466098729"
+    },
     {
       "id": "1538894807638872184",
       "title": "OpenAI、AI時代の政策実験に200万ドル規模の支援 「知能の時代」の経済と社会を再設計へ",
@@ -134,18 +146,6 @@
       "source_label": "twitter.com",
       "cover": "assets/posts/1537522824355512351.jpg",
       "url": "https://discord.com/channels/1415350002255007784/1419690651490193470/threads/1537522824355512351"
-    },
-    {
-      "id": "1537522384372768888",
-      "title": "DeepSeekが「DeepSeek Harness」を公開、AIエージェント基盤を“すべてプラグイン”で再設計",
-      "channel": "deep-seek",
-      "category": "その他",
-      "date": "2026-08-13T18:05:02.219Z",
-      "excerpt": "DeepSeek AIが、オープンソースのAIエージェント基盤「DeepSeek Harness（dsh）」を公開しています。最大の特徴は、モデル接続、ツール、セッション管理、エージェントループまでをプラグインとして交換可能にする設計です。現在はDevel…",
-      "source_url": "https://github.com/deepseek-ai/deepseek-harness",
-      "source_label": "github.com",
-      "cover": null,
-      "url": "https://discord.com/channels/1415350002255007784/1419690651490193470/threads/1537522384372768888"
     }
   ]
 }

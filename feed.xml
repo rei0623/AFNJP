@@ -5,8 +5,16 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 17 Aug 2026 12:58:33 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 17 Aug 2026 23:32:44 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Cursorが「Origin」発表、AIエージェント時代のコードホスティングへ進出</title>
+      <link>https://discord.com/channels/1415350002255007784/1416106151585644636/threads/1539054407466098729</link>
+      <guid isPermaLink="false">afnjp-1539054407466098729</guid>
+      <pubDate>Mon, 17 Aug 2026 23:32:44 GMT</pubDate>
+      <category>cursor</category>
+      <description>Cursorは2026年8月17日、Cursor上でコードを直接ホストできる新機能「Origin」を発表しました。初期ベータとして有料プラン向けに順次提供し、リポジトリ管理、Pull Request（PR）、コード閲覧、GitHub同期を一体化します。AI…</description>
+    </item>
     <item>
       <title>OpenAI、AI時代の政策実験に200万ドル規模の支援 「知能の時代」の経済と社会を再設計へ</title>
       <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1538894807638872184</link>
@@ -94,14 +102,6 @@
       <pubDate>Thu, 13 Aug 2026 18:06:47 GMT</pubDate>
       <category>deep-seek</category>
       <description>DeepSeekは「DeepSeek-V4-Pro」の正式提供を開始しました。今回の更新ではAgent性能を重点的に強化し、タスクに応じて推論量をlow・high・maxへ切り替える仕組みを導入。さらにOpenAI Responses APIをネイティブサ…</description>
-    </item>
-    <item>
-      <title>DeepSeekが「DeepSeek Harness」を公開、AIエージェント基盤を“すべてプラグイン”で再設計</title>
-      <link>https://discord.com/channels/1415350002255007784/1419690651490193470/threads/1537522384372768888</link>
-      <guid isPermaLink="false">afnjp-1537522384372768888</guid>
-      <pubDate>Thu, 13 Aug 2026 18:05:02 GMT</pubDate>
-      <category>deep-seek</category>
-      <description>DeepSeek AIが、オープンソースのAIエージェント基盤「DeepSeek Harness（dsh）」を公開しています。最大の特徴は、モデル接続、ツール、セッション管理、エージェントループまでをプラグインとして交換可能にする設計です。現在はDevel…</description>
     </item>
   </channel>
 </rss>
