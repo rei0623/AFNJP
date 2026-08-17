@@ -5,8 +5,40 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 16 Aug 2026 15:44:37 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 17 Aug 2026 12:58:33 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>OpenAI、AI時代の政策実験に200万ドル規模の支援 「知能の時代」の経済と社会を再設計へ</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1538894807638872184</link>
+      <guid isPermaLink="false">afnjp-1538894807638872184</guid>
+      <pubDate>Mon, 17 Aug 2026 12:58:33 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIは2026年8月17日、AIの進歩に伴う経済機会の拡大と社会的レジリエンスの強化を目的に、独立機関が主導する14のプロジェクトを支援すると発表しました。総額100万ドルの助成金に加え、最大100万ドル相当のAPIクレジットを提供します。400件…</description>
+    </item>
+    <item>
+      <title>OpenAI、「守る側の猶予」を警告 AI時代のサイバー防御を全面自動化へ</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1538894714517061662</link>
+      <guid isPermaLink="false">afnjp-1538894714517061662</guid>
+      <pubDate>Mon, 17 Aug 2026 12:58:11 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIは2026年8月17日、共同創業者Greg Brockman氏による「The Defender’s Window」を公開しました。AIが現実のサイバー攻撃を自動化し始める一方、防御側もAIを使って脆弱性発見から修正までを高速化できるとして、企業…</description>
+    </item>
+    <item>
+      <title>OpenAI、オハイオ州で8GW級AI拠点へ NVIDIA・SB Energyと巨大計算基盤</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1538894635223748659</link>
+      <guid isPermaLink="false">afnjp-1538894635223748659</guid>
+      <pubDate>Mon, 17 Aug 2026 12:57:52 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIは2026年8月17日、米オハイオ州パイク郡の「PORTS-Pike Technology Campus」で約8GW-ITのAI計算能力を確保する契約を締結したと発表しました。SB Energy、NVIDIA、米エネルギー省と連携し、最先端AI…</description>
+    </item>
+    <item>
+      <title>Google、欧州5大クラブと提携 GeminiとPixelでサッカー観戦をAI化</title>
+      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1538894420076920862</link>
+      <guid isPermaLink="false">afnjp-1538894420076920862</guid>
+      <pubDate>Mon, 17 Aug 2026 12:57:01 GMT</pubDate>
+      <category>google</category>
+      <description>Googleは2026年8月17日、Arsenal FC、FC Barcelona、FC Bayern München、Liverpool FC、Paris Saint-Germainの5クラブと長期パートナーシップを締結したと発表しました。Geminiを…</description>
+    </item>
     <item>
       <title>Claudeが「AIスーパーアプリ」へ、ブラウザとSlack型共同開発を統合か</title>
       <link>https://discord.com/channels/1415350002255007784/1415534435712897124/threads/1538574212950654996</link>
@@ -70,38 +102,6 @@
       <pubDate>Thu, 13 Aug 2026 18:05:02 GMT</pubDate>
       <category>deep-seek</category>
       <description>DeepSeek AIが、オープンソースのAIエージェント基盤「DeepSeek Harness（dsh）」を公開しています。最大の特徴は、モデル接続、ツール、セッション管理、エージェントループまでをプラグインとして交換可能にする設計です。現在はDevel…</description>
-    </item>
-    <item>
-      <title>Google、AI Studioに「Agents」管理UIを準備か</title>
-      <link>https://discord.com/channels/1415350002255007784/1415534435712897124/threads/1537522233491197962</link>
-      <guid isPermaLink="false">afnjp-1537522233491197962</guid>
-      <pubDate>Thu, 13 Aug 2026 18:04:26 GMT</pubDate>
-      <category>リーク情報</category>
-      <description>Googleが「AI Studio」に、AIエージェントを作成・設定・管理するための専用「Agents」セクションを開発していることが明らかになりました。TestingCatalogが2026年8月13日に報じたもので、Google Cloudプロジェクト…</description>
-    </item>
-    <item>
-      <title>OpenAI「Ultrafast」公開、GPT-5.6 Solを最大14倍高速化</title>
-      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1537520353323253922</link>
-      <guid isPermaLink="false">afnjp-1537520353323253922</guid>
-      <pubDate>Thu, 13 Aug 2026 17:56:57 GMT</pubDate>
-      <category>open-ai</category>
-      <description>OpenAIは2026年8月13日、GPT-5.6 Solを標準処理比で最大14倍高速に実行する新サービス階層「Ultrafast」を発表しました。Cerebrasの推論基盤を活用し、最大750出力トークン/秒を実現します。まずOpenAI APIで限定プ…</description>
-    </item>
-    <item>
-      <title>OpenAI、Dali Rajic氏を最高収益責任者に任命</title>
-      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1537520267524579378</link>
-      <guid isPermaLink="false">afnjp-1537520267524579378</guid>
-      <pubDate>Thu, 13 Aug 2026 17:56:37 GMT</pubDate>
-      <category>open-ai</category>
-      <description>OpenAIは2026年8月13日、Dali Rajic氏がChief Revenue Officer（CRO、最高収益責任者）として入社し、グローバルな収益組織を率いると発表しました。ChatGPTなどの製品が週10億人超のアクティブユーザー、200万社…</description>
-    </item>
-    <item>
-      <title>Anthropicが警告する「マルチエージェント社会」の新たなリスク</title>
-      <link>https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1537520182556360714</link>
-      <guid isPermaLink="false">afnjp-1537520182556360714</guid>
-      <pubDate>Thu, 13 Aug 2026 17:56:17 GMT</pubDate>
-      <category>anthropic</category>
-      <description>Anthropicは2026年8月13日、複数のAIエージェントが相互作用する環境で生じる協調失敗を分析した研究「Patterns and problems in emerging multiagent systems」を公開しました。実験では、単体AIの…</description>
     </item>
   </channel>
 </rss>
