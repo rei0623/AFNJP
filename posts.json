@@ -1,8 +1,20 @@
 {
-  "generated_at": "2026-08-18T15:44:36.322Z",
+  "generated_at": "2026-08-18T16:48:14.744Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1539303846591987782",
+      "title": "Asana、5年規模の技術負債をCodexで2週間に短縮",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-08-18T16:03:55.910Z",
+      "excerpt": "OpenAIは2026年8月18日、業務管理サービスを提供するAsanaが、長年残っていたフロントエンドのテスト基盤刷新をCodexで自動化し、従来5年以上かかると見積もっていた作業を約2週間で完了した事例を公開しました。モデルとインフラの費用は約1万20…",
+      "source_url": "https://openai.com/index/asana/",
+      "source_label": "openai.com",
+      "cover": "assets/posts/1539303846591987782.png",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1539303846591987782"
+    },
     {
       "id": "1539295739606466670",
       "title": "Google、Geminiデスクトップで「Computer Use」をテストか",
@@ -134,18 +146,6 @@
       "source_label": "openai.com",
       "cover": "assets/posts/1538894635223748659.png",
       "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1538894635223748659"
-    },
-    {
-      "id": "1538894420076920862",
-      "title": "Google、欧州5大クラブと提携 GeminiとPixelでサッカー観戦をAI化",
-      "channel": "google",
-      "category": "Google",
-      "date": "2026-08-17T12:57:01.022Z",
-      "excerpt": "Googleは2026年8月17日、Arsenal FC、FC Barcelona、FC Bayern München、Liverpool FC、Paris Saint-Germainの5クラブと長期パートナーシップを締結したと発表しました。Geminiを…",
-      "source_url": "https://blog.google/products-and-platforms/products/gemini/google-gemini-pixel-football-club-partnerships/",
-      "source_label": "blog.google",
-      "cover": "assets/posts/1538894420076920862.png",
-      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1538894420076920862"
     }
   ]
 }

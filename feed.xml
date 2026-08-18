@@ -5,8 +5,16 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 18 Aug 2026 15:31:43 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 18 Aug 2026 16:03:55 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Asana、5年規模の技術負債をCodexで2週間に短縮</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1539303846591987782</link>
+      <guid isPermaLink="false">afnjp-1539303846591987782</guid>
+      <pubDate>Tue, 18 Aug 2026 16:03:55 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIは2026年8月18日、業務管理サービスを提供するAsanaが、長年残っていたフロントエンドのテスト基盤刷新をCodexで自動化し、従来5年以上かかると見積もっていた作業を約2週間で完了した事例を公開しました。モデルとインフラの費用は約1万20…</description>
+    </item>
     <item>
       <title>Google、Geminiデスクトップで「Computer Use」をテストか</title>
       <link>https://discord.com/channels/1415350002255007784/1415534435712897124/threads/1539295739606466670</link>
@@ -94,14 +102,6 @@
       <pubDate>Mon, 17 Aug 2026 12:57:52 GMT</pubDate>
       <category>open-ai</category>
       <description>OpenAIは2026年8月17日、米オハイオ州パイク郡の「PORTS-Pike Technology Campus」で約8GW-ITのAI計算能力を確保する契約を締結したと発表しました。SB Energy、NVIDIA、米エネルギー省と連携し、最先端AI…</description>
-    </item>
-    <item>
-      <title>Google、欧州5大クラブと提携 GeminiとPixelでサッカー観戦をAI化</title>
-      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1538894420076920862</link>
-      <guid isPermaLink="false">afnjp-1538894420076920862</guid>
-      <pubDate>Mon, 17 Aug 2026 12:57:01 GMT</pubDate>
-      <category>google</category>
-      <description>Googleは2026年8月17日、Arsenal FC、FC Barcelona、FC Bayern München、Liverpool FC、Paris Saint-Germainの5クラブと長期パートナーシップを締結したと発表しました。Geminiを…</description>
     </item>
   </channel>
 </rss>
