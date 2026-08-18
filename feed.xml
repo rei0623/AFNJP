@@ -5,8 +5,32 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 18 Aug 2026 14:49:57 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 18 Aug 2026 15:31:43 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Google、Geminiデスクトップで「Computer Use」をテストか</title>
+      <link>https://discord.com/channels/1415350002255007784/1415534435712897124/threads/1539295739606466670</link>
+      <guid isPermaLink="false">afnjp-1539295739606466670</guid>
+      <pubDate>Tue, 18 Aug 2026 15:31:43 GMT</pubDate>
+      <category>リーク情報</category>
+      <description>Googleが、Geminiのデスクトップアプリから他のアプリを操作したり、指定フォルダ内のファイルへアクセスしたりできる「Computer Use」機能を開発している可能性が明らかになりました。TestingCatalogによると、アプリ設定内に関連する…</description>
+    </item>
+    <item>
+      <title>Anthropicが「Hub Mode」をテスト、Claudeの複数サブエージェント管理機能か</title>
+      <link>https://discord.com/channels/1415350002255007784/1415534435712897124/threads/1539295636095111249</link>
+      <guid isPermaLink="false">afnjp-1539295636095111249</guid>
+      <pubDate>Tue, 18 Aug 2026 15:31:18 GMT</pubDate>
+      <category>リーク情報</category>
+      <description>Anthropicが、Claudeのモバイルアプリで「Hub Mode」と呼ばれる新機能を内部テストしていることが確認されました。現時点では正式提供されておらず詳細も不明ですが、複数のサブエージェントを一元管理し、タスク進行を可視化するためのインターフェー…</description>
+    </item>
+    <item>
+      <title>Google、AIで飛行機雲を回避へ 英国政府と「Operation Blue Skies」始動</title>
+      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1539286765464981595</link>
+      <guid isPermaLink="false">afnjp-1539286765464981595</guid>
+      <pubDate>Tue, 18 Aug 2026 14:56:03 GMT</pubDate>
+      <category>google</category>
+      <description>Googleは2026年8月18日、英国政府や航空業界、研究機関と共同で、AIを活用して温暖化効果の強い飛行機雲（コントレイル）の発生を回避する「Operation Blue Skies」を発表しました。北大西洋の航空空域を対象に、個別便での実証から空域全…</description>
+    </item>
     <item>
       <title>OpenAI「ChatGPT for Teens」発表、13〜17歳を自動判定し学習支援と安全機能を標準化</title>
       <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1539285228634251325</link>
@@ -78,30 +102,6 @@
       <pubDate>Mon, 17 Aug 2026 12:57:01 GMT</pubDate>
       <category>google</category>
       <description>Googleは2026年8月17日、Arsenal FC、FC Barcelona、FC Bayern München、Liverpool FC、Paris Saint-Germainの5クラブと長期パートナーシップを締結したと発表しました。Geminiを…</description>
-    </item>
-    <item>
-      <title>Claudeが「AIスーパーアプリ」へ、ブラウザとSlack型共同開発を統合か</title>
-      <link>https://discord.com/channels/1415350002255007784/1415534435712897124/threads/1538574212950654996</link>
-      <guid isPermaLink="false">afnjp-1538574212950654996</guid>
-      <pubDate>Sun, 16 Aug 2026 15:44:37 GMT</pubDate>
-      <category>リーク情報</category>
-      <description>Anthropicが、Claude Desktopを単なるAIチャットから「仕事そのものを行う統合環境」へ進化させようとしていることが明らかになりました。TestingCatalogが2026年8月16日に報じた情報によると、Cowork向け内蔵Webブラ…</description>
-    </item>
-    <item>
-      <title>Claudeに「見えない透かし」導入へ、Anthropicが仕組みを公開</title>
-      <link>https://discord.com/channels/1415350002255007784/1415353403269185546/threads/1538044734440742983</link>
-      <guid isPermaLink="false">afnjp-1538044734440742983</guid>
-      <pubDate>Sat, 15 Aug 2026 04:40:40 GMT</pubDate>
-      <category>claude</category>
-      <description>Anthropicは2026年8月14日、将来のClaudeモデルが生成する文章にテキストウォーターマークを導入すると発表しました。人間には見えない統計的なパターンを文章生成時に埋め込み、Claudeが文章作成に関与した可能性を判定できるようにします。EU…</description>
-    </item>
-    <item>
-      <title>Cursor、SpaceX傘下入りを正式発表 GrokとAI開発基盤を統合へ</title>
-      <link>https://discord.com/channels/1415350002255007784/1416106151585644636/threads/1537873662533836820</link>
-      <guid isPermaLink="false">afnjp-1537873662533836820</guid>
-      <pubDate>Fri, 14 Aug 2026 17:20:53 GMT</pubDate>
-      <category>cursor</category>
-      <description>AIコーディング環境「Cursor」を開発するAnysphereは、SpaceXによる買収手続きが正式に完了したと発表しました。CursorチームはSpaceXのAI部門「SpaceXAI」に加わり、Grokを中心に、Grok Build、Grok Bot…</description>
     </item>
   </channel>
 </rss>
