@@ -1,8 +1,32 @@
 {
-  "generated_at": "2026-08-18T13:55:21.148Z",
+  "generated_at": "2026-08-18T14:50:57.951Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1539285228634251325",
+      "title": "OpenAI「ChatGPT for Teens」発表、13〜17歳を自動判定し学習支援と安全機能を標準化",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-08-18T14:49:57.043Z",
+      "excerpt": "OpenAIは2026年8月18日、13〜17歳の利用者向けに「ChatGPT for Teens」を発表しました。年齢を13〜17歳と申告した場合や、システムが18歳未満と推定した場合、自動的に専用体験へ移行します。通常版の機能を単純に制限するのではなく…",
+      "source_url": "https://openai.com/index/chatgpt-for-teens/",
+      "source_label": "openai.com",
+      "cover": "assets/posts/1539285228634251325.png",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1539285228634251325"
+    },
+    {
+      "id": "1539285123025870888",
+      "title": "OpenAIとCodeAIが提携、10代の「AIを使う力」から「AIを疑う力」へ",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-08-18T14:49:31.864Z",
+      "excerpt": "OpenAIは2026年8月18日、CodeAIとの提携を発表しました。生成AIを日常的に使う最初の世代となる学生に対し、単なる操作方法ではなく、AIの仕組みや限界を理解し、出力を批判的に評価する能力を育成することが狙いです。新たに展開する「ChatGPT…",
+      "source_url": "https://openai.com/index/partnering-with-codeai/",
+      "source_label": "openai.com",
+      "cover": "assets/posts/1539285123025870888.png",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1539285123025870888"
+    },
     {
       "id": "1539055732081696849",
       "title": "Claude Codeに「/design」登場、UI設計から実装までをCLIで一体化",
@@ -122,30 +146,6 @@
       "source_label": "twitter.com",
       "cover": null,
       "url": "https://discord.com/channels/1415350002255007784/1416106151585644636/threads/1537873662533836820"
-    },
-    {
-      "id": "1537873375454564392",
-      "title": "Qwen3.8-27Bがオープンウェイト化、27Bでマルチモーダルと262K文脈に対応",
-      "channel": "qwen",
-      "category": "Alibaba",
-      "date": "2026-08-14T17:19:45.014Z",
-      "excerpt": "AlibabaのQwenチームは、Qwen3.8シリーズの「Qwen3.8-27B」のオープンウェイトを公開しました。27Bパラメータの比較的コンパクトなDenseモデルながら、ネイティブなマルチモーダル処理、長大なコンテキスト、コーディングやオフィス業務…",
-      "source_url": "https://twitter.com/i/status/2088280182356611304",
-      "source_label": "twitter.com",
-      "cover": "assets/posts/1537873375454564392.jpg",
-      "url": "https://discord.com/channels/1415350002255007784/1419932032716243027/threads/1537873375454564392"
-    },
-    {
-      "id": "1537776656821911665",
-      "title": "GLM-5.3登場、同じ基盤モデルの「後学習」でコーディング能力を大幅強化",
-      "channel": "glm",
-      "category": "その他",
-      "date": "2026-08-14T10:55:25.495Z",
-      "excerpt": "Z.aiは、コーディングと長期エージェントタスクを重点的に強化した「GLM-5.3」を発表しました。最大の特徴は、GLM-5.2から基盤モデル自体を変更せず、長期タスク環境を用いた大規模なポストトレーニングによって性能を引き上げたことです。さらに、学習規模…",
-      "source_url": "https://z.ai/blog/glm-5.3",
-      "source_label": "z.ai",
-      "cover": null,
-      "url": "https://discord.com/channels/1415350002255007784/1418395473290461285/threads/1537776656821911665"
     }
   ]
 }
