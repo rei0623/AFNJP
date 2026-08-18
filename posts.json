@@ -1,8 +1,32 @@
 {
-  "generated_at": "2026-08-17T23:35:19.525Z",
+  "generated_at": "2026-08-18T01:49:00.120Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1539055732081696849",
+      "title": "Claude Codeに「/design」登場、UI設計から実装までをCLIで一体化",
+      "channel": "claude-code",
+      "category": "Anthropic",
+      "date": "2026-08-17T23:38:00.801Z",
+      "excerpt": "Anthropicは、Claude CodeでUIデザインを作成できる新しい「/design」スキルを研究プレビューとして公開しました。Claude Designのアートボード型ワークフローをClaude CodeのCLIおよびDesktopへ持ち込み、デ…",
+      "source_url": "https://twitter.com/i/status/2089471692762673408",
+      "source_label": "twitter.com",
+      "cover": "assets/posts/1539055732081696849.jpg",
+      "url": "https://discord.com/channels/1415350002255007784/1415549165181599795/threads/1539055732081696849"
+    },
+    {
+      "id": "1539055382079606916",
+      "title": "Hermes Desktopに「Bot Mode」登場、専門AIエージェントを常設チーム化",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-08-17T23:36:37.354Z",
+      "excerpt": "Nous Researchは、Hermes Desktop向けに「Bot Mode」を導入しました。従来のエージェントプロファイルを、名前や役割を持つ独立した「Bot」として扱える仕組みで、モデル、メモリ、スキル、プロフィール画像をBotごとに設定できます…",
+      "source_url": "https://twitter.com/i/status/2089429432612147572",
+      "source_label": "twitter.com",
+      "cover": "assets/posts/1539055382079606916.png",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1539055382079606916"
+    },
     {
       "id": "1539054407466098729",
       "title": "Cursorが「Origin」発表、AIエージェント時代のコードホスティングへ進出",
@@ -122,30 +146,6 @@
       "source_label": "z.ai",
       "cover": null,
       "url": "https://discord.com/channels/1415350002255007784/1418395473290461285/threads/1537776656821911665"
-    },
-    {
-      "id": "1537605927694237837",
-      "title": "ChatGPT「Computer History」登場、Mac上の作業履歴をAIの記憶へ",
-      "channel": "chatgpt",
-      "category": "Open AI",
-      "date": "2026-08-13T23:37:00.499Z",
-      "excerpt": "OpenAIは、macOS版ChatGPTでPC上の作業履歴をChatGPTやCodexのコンテキストとして利用できる「Computer History」を提供しています。単なる閲覧履歴ではなく、複数アプリをまたぐ作業の流れをAIが理解し、「さっき何をして…",
-      "source_url": "https://learn.chatgpt.com/docs/customization/computer-history",
-      "source_label": "learn.chatgpt.com",
-      "cover": "assets/posts/1537605927694237837.png",
-      "url": "https://discord.com/channels/1415350002255007784/1415353131604377641/threads/1537605927694237837"
-    },
-    {
-      "id": "1537522824355512351",
-      "title": "DeepSeek-V4-Pro正式投入、Agent強化と「推論量の可変制御」を実装",
-      "channel": "deep-seek",
-      "category": "その他",
-      "date": "2026-08-13T18:06:47.119Z",
-      "excerpt": "DeepSeekは「DeepSeek-V4-Pro」の正式提供を開始しました。今回の更新ではAgent性能を重点的に強化し、タスクに応じて推論量をlow・high・maxへ切り替える仕組みを導入。さらにOpenAI Responses APIをネイティブサ…",
-      "source_url": "https://twitter.com/i/status/2087864585504305397",
-      "source_label": "twitter.com",
-      "cover": "assets/posts/1537522824355512351.jpg",
-      "url": "https://discord.com/channels/1415350002255007784/1419690651490193470/threads/1537522824355512351"
     }
   ]
 }

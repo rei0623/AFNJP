@@ -5,8 +5,24 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 17 Aug 2026 23:32:44 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 17 Aug 2026 23:38:00 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Claude Codeに「/design」登場、UI設計から実装までをCLIで一体化</title>
+      <link>https://discord.com/channels/1415350002255007784/1415549165181599795/threads/1539055732081696849</link>
+      <guid isPermaLink="false">afnjp-1539055732081696849</guid>
+      <pubDate>Mon, 17 Aug 2026 23:38:00 GMT</pubDate>
+      <category>claude-code</category>
+      <description>Anthropicは、Claude CodeでUIデザインを作成できる新しい「/design」スキルを研究プレビューとして公開しました。Claude Designのアートボード型ワークフローをClaude CodeのCLIおよびDesktopへ持ち込み、デ…</description>
+    </item>
+    <item>
+      <title>Hermes Desktopに「Bot Mode」登場、専門AIエージェントを常設チーム化</title>
+      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1539055382079606916</link>
+      <guid isPermaLink="false">afnjp-1539055382079606916</guid>
+      <pubDate>Mon, 17 Aug 2026 23:36:37 GMT</pubDate>
+      <category>その他</category>
+      <description>Nous Researchは、Hermes Desktop向けに「Bot Mode」を導入しました。従来のエージェントプロファイルを、名前や役割を持つ独立した「Bot」として扱える仕組みで、モデル、メモリ、スキル、プロフィール画像をBotごとに設定できます…</description>
+    </item>
     <item>
       <title>Cursorが「Origin」発表、AIエージェント時代のコードホスティングへ進出</title>
       <link>https://discord.com/channels/1415350002255007784/1416106151585644636/threads/1539054407466098729</link>
@@ -86,22 +102,6 @@
       <pubDate>Fri, 14 Aug 2026 10:55:25 GMT</pubDate>
       <category>glm</category>
       <description>Z.aiは、コーディングと長期エージェントタスクを重点的に強化した「GLM-5.3」を発表しました。最大の特徴は、GLM-5.2から基盤モデル自体を変更せず、長期タスク環境を用いた大規模なポストトレーニングによって性能を引き上げたことです。さらに、学習規模…</description>
-    </item>
-    <item>
-      <title>ChatGPT「Computer History」登場、Mac上の作業履歴をAIの記憶へ</title>
-      <link>https://discord.com/channels/1415350002255007784/1415353131604377641/threads/1537605927694237837</link>
-      <guid isPermaLink="false">afnjp-1537605927694237837</guid>
-      <pubDate>Thu, 13 Aug 2026 23:37:00 GMT</pubDate>
-      <category>chatgpt</category>
-      <description>OpenAIは、macOS版ChatGPTでPC上の作業履歴をChatGPTやCodexのコンテキストとして利用できる「Computer History」を提供しています。単なる閲覧履歴ではなく、複数アプリをまたぐ作業の流れをAIが理解し、「さっき何をして…</description>
-    </item>
-    <item>
-      <title>DeepSeek-V4-Pro正式投入、Agent強化と「推論量の可変制御」を実装</title>
-      <link>https://discord.com/channels/1415350002255007784/1419690651490193470/threads/1537522824355512351</link>
-      <guid isPermaLink="false">afnjp-1537522824355512351</guid>
-      <pubDate>Thu, 13 Aug 2026 18:06:47 GMT</pubDate>
-      <category>deep-seek</category>
-      <description>DeepSeekは「DeepSeek-V4-Pro」の正式提供を開始しました。今回の更新ではAgent性能を重点的に強化し、タスクに応じて推論量をlow・high・maxへ切り替える仕組みを導入。さらにOpenAI Responses APIをネイティブサ…</description>
     </item>
   </channel>
 </rss>
