@@ -22,6 +22,9 @@ package.json          生成スクリプトの依存(sharp のみ)。サイト�
 scripts/
   sync-discord.mjs    Discord API からデータを同期するスクリプト
   generate-seo.mjs    記事ページ・一覧・静的化・feed / sitemap を生成
+  post-x-drafts.mjs   新着記事の X 投稿用の下書きを #x-下書き へ送る
+  post-to-x.mjs       #x-下書き で ✅ が付いた下書きだけを X へ投稿する
+  lib/oauth1.mjs      X 投稿に使う OAuth 1.0a 署名(node:crypto のみ)
 .github/workflows/
   update-channels.yml 毎時 :17 (UTC) に同期と静的化を実行するワークフロー
 feed.xml              最新記事の RSS フィード(自動生成)
@@ -81,6 +84,41 @@ GitHub Pages (main ブランチ) ── HTML に記事が入った状態で配�
 - ワークフローでは `continue-on-error: true` にしてあるため、静的化が失敗しても Discord データの同期は止まらない
 
 **ロールバック手順**: `update-channels.yml` から `Generate static HTML and feeds` ステップを取り除けば次回実行から停止します。`index.html` は直前のコミットへ revert してください。
+
+## X への投稿(半自動)
+
+「人が確かめてから出す」という原則を崩さないため、**完全自動投稿にはしていません**。
+
+```text
+新着記事 → post-x-drafts.mjs → Discord #x-下書き に下書きが流れる
+                                      │
+                                      │  人が読んで ✅ を付ける（＝承認）
+                                      ▼
+                               post-to-x.mjs → X へ投稿 → 🚀 が付く
+```
+
+- ✅ を付けなければ**何も投稿されません**。誤りに気づいたら承認しなければよいだけです
+- 投稿済みの下書きには 🚀 が付き、`.x-posted.json` にも記録されるので二重投稿しません
+- 1回の実行で投稿するのは最大3件(事故ったときに連投しないための歯止め)
+- 下書きのリンク先は**サイトの記事ページ**です。X ではサイトの OGP カードが出て、そこから Discord へ進めます
+
+### 有効にする手順
+
+`X_API_KEY` / `X_API_SECRET` / `X_ACCESS_TOKEN` / `X_ACCESS_SECRET` の4つを
+リポジトリの Settings > Secrets and variables > Actions に登録すると動きだします。
+**1つでも欠けていると `post-to-x.mjs` は何もせず正常終了する**ので、
+登録するまでは今までどおり手動でのコピペ運用が続きます。
+
+X 側で必要な設定:
+
+1. [X Developer Portal](https://developer.x.com/) でアプリを作る
+2. User authentication settings で **App permissions を Read and write** にする
+3. Keys and tokens から API Key / Secret と Access Token / Secret を発行する
+   (権限を Read and write に変えた**後**に Access Token を再発行すること。
+   変更前に発行したトークンは読み取り専用のままです)
+
+OAuth 1.0a の署名は `scripts/lib/oauth1.mjs` に自前で実装しています(依存を増やさないため)。
+`npm test` で、X 公式ドキュメントに載っている既知の署名例と一致することを確認できます。
 
 ## カバー画像の扱い
 

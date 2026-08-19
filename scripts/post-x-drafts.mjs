@@ -33,6 +33,8 @@ const STATE = resolve(ROOT, '.x-drafted.json');
 const TOKEN = process.env.DISCORD_BOT_TOKEN;
 const CHANNEL_ID = process.env.X_DRAFT_CHANNEL_ID || '1534223121232560369';
 
+const SITE = 'https://rei0623.github.io/AFNJP/';
+
 /** X の投稿上限（重み付き） */
 const X_LIMIT = 280;
 /** X では URL は長さに関わらず一律この重みで数えられる */
@@ -101,8 +103,14 @@ function buildDraft(post) {
         }
     }
 
+    // リンク先はサイトの記事ページ。X ではカード（OGP）がサイトのものになり、
+    // そこから Discord へ進める。記事ページが作れない場合だけ Discord へ直接飛ばす。
+    const url = /^[0-9]{5,25}$/.test(String(post.id || ''))
+        ? `${SITE}posts/${post.id}.html`
+        : post.url;
+
     const body = head + excerpt + tail;
-    return { body, url: post.url, weight: totalWeight(body, true) };
+    return { body, url, weight: totalWeight(body, true) };
 }
 
 async function discord(path, init = {}) {
