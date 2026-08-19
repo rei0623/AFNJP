@@ -206,13 +206,22 @@ self.addEventListener('pushsubscriptionchange', event => {
     event.waitUntil((async () => {
         try {
             const cfg = await fetch('./push-config.json', { cache: 'no-store' }).then(r => r.json());
-            if (!cfg.enabled || !cfg.endpoint || !cfg.publicKey) return;
+            if (!cfg.enabled || !cfg.endpoint) return;
+
+            const base = cfg.endpoint.replace(/\/+$/, '');
+            const publicKey = cfg.publicKey
+                || (await fetch(base + '/key').then(r => r.json())).publicKey;
+            if (!publicKey) return;
+
+            // base64url の公開鍵を Uint8Array に直す（subscribe が要求する形）
+            const pad = '='.repeat((4 - publicKey.length % 4) % 4);
+            const raw = atob((publicKey + pad).replace(/-/g, '+').replace(/_/g, '/'));
 
             const sub = await self.registration.pushManager.subscribe({
                 userVisibleOnly: true,
-                applicationServerKey: cfg.publicKey,
+                applicationServerKey: Uint8Array.from(raw, c => c.charCodeAt(0)),
             });
-            await fetch(`${cfg.endpoint}/subscribe`, {
+            await fetch(`${base}/subscribe`, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(sub),

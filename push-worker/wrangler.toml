@@ -3,7 +3,8 @@
 # デプロイ:
 #   cd push-worker
 #   npx wrangler login
-#   npx wrangler kv namespace create SUBS      ← 出力された id を下に貼る
+#   npx wrangler kv namespace create SUBS      ← 出力された id を下の kv_namespaces に貼る
+#                                                （貼る前に deploy すると 10042 で失敗する）
 #   npx wrangler secret put VAPID_PUBLIC_KEY
 #   npx wrangler secret put VAPID_PRIVATE_KEY
 #   npx wrangler secret put VAPID_SUBJECT
@@ -16,10 +17,16 @@ name = "afnjp-push"
 main = "src/worker.js"
 compatibility_date = "2026-08-01"
 
-# npx wrangler kv namespace create SUBS の出力に置き換える
+# 公開URL（https://afnjp-push.<サブドメイン>.workers.dev）を有効にする。
+# プレビューURLは使わないので明示的に切る（意図しない口を増やさないため）。
+workers_dev = true
+preview_urls = false
+
+# npx wrangler kv namespace create SUBS の出力。
+# これは識別子であって秘密情報ではない（アカウント認証が無ければ使えない）。
 [[kv_namespaces]]
 binding = "SUBS"
-id = "ここに KV namespace の id を貼る"
+id = "8e9607d100ba49b397b87d716b03138a"
 
 [observability]
 enabled = true

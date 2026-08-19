@@ -2972,7 +2972,20 @@
                 } catch {
                     return;
                 }
-                if (!cfg?.enabled || !cfg.endpoint || !cfg.publicKey) return; // 未設定なら出さない
+                if (!cfg?.enabled || !cfg.endpoint) return; // 未設定なら出さない
+
+                // 公開鍵は Worker から取る。ここに書き写さないことで、
+                // サーバー側と食い違ったまま気づかない、という事故を防ぐ。
+                let publicKey = cfg.publicKey;
+                if (!publicKey) {
+                    try {
+                        publicKey = (await fetch(cfg.endpoint.replace(/\/+$/, '') + '/key')
+                            .then(r => r.json())).publicKey;
+                    } catch {
+                        return;
+                    }
+                }
+                if (!publicKey) return;
 
                 const reg = await swReady;
                 if (!reg) return;
@@ -3012,7 +3025,7 @@
                             }
                             const sub = await reg.pushManager.subscribe({
                                 userVisibleOnly: true,
-                                applicationServerKey: toKey(cfg.publicKey),
+                                applicationServerKey: toKey(publicKey),
                             });
                             const res = await fetch(cfg.endpoint + '/subscribe', {
                                 method: 'POST',

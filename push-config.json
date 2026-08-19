@@ -1,6 +1,6 @@
 {
-  "_note": "プッシュ通知の設定。enabled を true にし、endpoint と publicKey を埋めると購読ボタンが出ます。publicKey は VAPID の公開鍵（公開して問題ないもの）。秘密鍵は絶対にここへ書かないこと。手順は README を参照。",
-  "enabled": false,
-  "endpoint": "",
+  "_note": "プッシュ通知の公開設定。ここに入れてよいのは Worker の URL だけで、鍵は入れない。VAPID の公開鍵は Worker の /key から取得する（サーバー側と食い違う事故を防ぐため）。秘密鍵と SEND_TOKEN は絶対にここへ書かないこと。手順は README を参照。",
+  "enabled": true,
+  "endpoint": "https://afnjp-push.big32on.workers.dev",
   "publicKey": ""
 }
