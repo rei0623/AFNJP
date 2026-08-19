@@ -1,9 +1,22 @@
 {
-  "generated_at": "2026-08-19T13:57:20.866Z",
+  "generated_at": "2026-08-19T14:51:26.591Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 12,
+  "count": 13,
   "posts": [
+    {
+      "id": "1539637529391931482",
+      "title": "Replit「Free Mode」登場、GPT-5.6 Lunaでソフトウェア開発の無料体験を拡大",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-08-19T14:09:52.089Z",
+      "excerpt": "OpenAIは2026年8月19日、Replitが「GPT-5.6 Luna」を活用した「Free Mode」を導入すると発表しました。アイデアの整理や設計、分析などを利用量を消費せず進められる仕組みで、AIによるソフトウェア開発をより幅広いユーザーへ開放…",
+      "source_url": "https://openai.com/index/replit/",
+      "source_label": "openai.com",
+      "cover": "assets/posts/1539637529391931482.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1539637529391931482",
+      "first_seen": "2026-08-19T14:09:52.089Z"
+    },
     {
       "id": "1539601354371366933",
       "title": "ChatGPT広告、欧州31カ国へ拡大 「検索広告」と異なる意思決定市場を狙う",

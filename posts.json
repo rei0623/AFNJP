@@ -1,8 +1,20 @@
 {
-  "generated_at": "2026-08-19T13:57:20.866Z",
+  "generated_at": "2026-08-19T14:51:26.591Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1539637529391931482",
+      "title": "Replit「Free Mode」登場、GPT-5.6 Lunaでソフトウェア開発の無料体験を拡大",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-08-19T14:09:52.089Z",
+      "excerpt": "OpenAIは2026年8月19日、Replitが「GPT-5.6 Luna」を活用した「Free Mode」を導入すると発表しました。アイデアの整理や設計、分析などを利用量を消費せず進められる仕組みで、AIによるソフトウェア開発をより幅広いユーザーへ開放…",
+      "source_url": "https://openai.com/index/replit/",
+      "source_label": "openai.com",
+      "cover": "assets/posts/1539637529391931482.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1539637529391931482"
+    },
     {
       "id": "1539601354371366933",
       "title": "ChatGPT広告、欧州31カ国へ拡大 「検索広告」と異なる意思決定市場を狙う",
@@ -134,18 +146,6 @@
       "source_label": "testingcatalog.com",
       "cover": "assets/posts/1539295636095111249.webp",
       "url": "https://discord.com/channels/1415350002255007784/1415534435712897124/threads/1539295636095111249"
-    },
-    {
-      "id": "1539286765464981595",
-      "title": "Google、AIで飛行機雲を回避へ 英国政府と「Operation Blue Skies」始動",
-      "channel": "google",
-      "category": "Google",
-      "date": "2026-08-18T14:56:03.452Z",
-      "excerpt": "Googleは2026年8月18日、英国政府や航空業界、研究機関と共同で、AIを活用して温暖化効果の強い飛行機雲（コントレイル）の発生を回避する「Operation Blue Skies」を発表しました。北大西洋の航空空域を対象に、個別便での実証から空域全…",
-      "source_url": "https://blog.google/innovation-and-ai/models-and-research/google-research/blue-skies/?utm_source=tw&utm_medium=social&utm_campaign=nfg",
-      "source_label": "blog.google",
-      "cover": "assets/posts/1539286765464981595.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1539286765464981595"
     }
   ]
 }

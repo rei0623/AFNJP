@@ -5,8 +5,16 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 19 Aug 2026 11:46:07 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 19 Aug 2026 14:09:52 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Replit「Free Mode」登場、GPT-5.6 Lunaでソフトウェア開発の無料体験を拡大</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1539637529391931482</link>
+      <guid isPermaLink="false">afnjp-1539637529391931482</guid>
+      <pubDate>Wed, 19 Aug 2026 14:09:52 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIは2026年8月19日、Replitが「GPT-5.6 Luna」を活用した「Free Mode」を導入すると発表しました。アイデアの整理や設計、分析などを利用量を消費せず進められる仕組みで、AIによるソフトウェア開発をより幅広いユーザーへ開放…</description>
+    </item>
     <item>
       <title>ChatGPT広告、欧州31カ国へ拡大 「検索広告」と異なる意思決定市場を狙う</title>
       <link>https://discord.com/channels/1415350002255007784/1415353131604377641/threads/1539601354371366933</link>
@@ -94,14 +102,6 @@
       <pubDate>Tue, 18 Aug 2026 15:31:18 GMT</pubDate>
       <category>リーク情報</category>
       <description>Anthropicが、Claudeのモバイルアプリで「Hub Mode」と呼ばれる新機能を内部テストしていることが確認されました。現時点では正式提供されておらず詳細も不明ですが、複数のサブエージェントを一元管理し、タスク進行を可視化するためのインターフェー…</description>
-    </item>
-    <item>
-      <title>Google、AIで飛行機雲を回避へ 英国政府と「Operation Blue Skies」始動</title>
-      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1539286765464981595</link>
-      <guid isPermaLink="false">afnjp-1539286765464981595</guid>
-      <pubDate>Tue, 18 Aug 2026 14:56:03 GMT</pubDate>
-      <category>google</category>
-      <description>Googleは2026年8月18日、英国政府や航空業界、研究機関と共同で、AIを活用して温暖化効果の強い飛行機雲（コントレイル）の発生を回避する「Operation Blue Skies」を発表しました。北大西洋の航空空域を対象に、個別便での実証から空域全…</description>
     </item>
   </channel>
 </rss>
