@@ -1,8 +1,32 @@
 {
-  "generated_at": "2026-08-19T11:36:58.309Z",
+  "generated_at": "2026-08-19T13:06:47.695Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1539601354371366933",
+      "title": "ChatGPT広告、欧州31カ国へ拡大 「検索広告」と異なる意思決定市場を狙う",
+      "channel": "chatgpt",
+      "category": "Open AI",
+      "date": "2026-08-19T11:46:07.292Z",
+      "excerpt": "OpenAIは2026年8月18日、ChatGPT Adsを欧州31市場へ拡大すると発表しました。米国で広告テストを開始してから約6カ月での大規模展開となり、ChatGPTを単なるAIチャットから、商品やサービスの比較・検討が行われる新たな広告接点へ発展さ…",
+      "source_url": "https://openai.com/index/chatgpt-ads-expands-across-europe/",
+      "source_label": "openai.com",
+      "cover": "assets/posts/1539601354371366933.png",
+      "url": "https://discord.com/channels/1415350002255007784/1415353131604377641/threads/1539601354371366933"
+    },
+    {
+      "id": "1539601231536726027",
+      "title": "Google「Gemini」とBTSが連携、ファン向け4つの対話型AI体験を期間限定提供",
+      "channel": "gemini",
+      "category": "Google",
+      "date": "2026-08-19T11:45:38.006Z",
+      "excerpt": "Googleは2026年8月18日、Geminiアプリ内でBTSと連携した4つのインタラクティブ体験を公開しました。BTSメンバーが実際に使うプロンプトの紹介から、楽曲当て、最新情報の整理、韓国語学習までを生成AIと組み合わせ、ファン体験そのものをGemi…",
+      "source_url": "https://blog.google/innovation-and-ai/products/gemini-app/four-new-interactive-bts-experiences/",
+      "source_label": "blog.google",
+      "cover": "assets/posts/1539601231536726027.jpg",
+      "url": "https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1539601231536726027"
+    },
     {
       "id": "1539420520875958382",
       "title": "ClaudeがGmail送信とGoogle Driveのファイル操作に対応",
@@ -122,30 +146,6 @@
       "source_label": "blog.google",
       "cover": "assets/posts/1539286765464981595.jpg",
       "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1539286765464981595"
-    },
-    {
-      "id": "1539285228634251325",
-      "title": "OpenAI「ChatGPT for Teens」発表、13〜17歳を自動判定し学習支援と安全機能を標準化",
-      "channel": "open-ai",
-      "category": "Open AI",
-      "date": "2026-08-18T14:49:57.043Z",
-      "excerpt": "OpenAIは2026年8月18日、13〜17歳の利用者向けに「ChatGPT for Teens」を発表しました。年齢を13〜17歳と申告した場合や、システムが18歳未満と推定した場合、自動的に専用体験へ移行します。通常版の機能を単純に制限するのではなく…",
-      "source_url": "https://openai.com/index/chatgpt-for-teens/",
-      "source_label": "openai.com",
-      "cover": "assets/posts/1539285228634251325.png",
-      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1539285228634251325"
-    },
-    {
-      "id": "1539285123025870888",
-      "title": "OpenAIとCodeAIが提携、10代の「AIを使う力」から「AIを疑う力」へ",
-      "channel": "open-ai",
-      "category": "Open AI",
-      "date": "2026-08-18T14:49:31.864Z",
-      "excerpt": "OpenAIは2026年8月18日、CodeAIとの提携を発表しました。生成AIを日常的に使う最初の世代となる学生に対し、単なる操作方法ではなく、AIの仕組みや限界を理解し、出力を批判的に評価する能力を育成することが狙いです。新たに展開する「ChatGPT…",
-      "source_url": "https://openai.com/index/partnering-with-codeai/",
-      "source_label": "openai.com",
-      "cover": "assets/posts/1539285123025870888.png",
-      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1539285123025870888"
     }
   ]
 }

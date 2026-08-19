@@ -5,8 +5,24 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 18 Aug 2026 23:47:33 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 19 Aug 2026 11:46:07 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>ChatGPT広告、欧州31カ国へ拡大 「検索広告」と異なる意思決定市場を狙う</title>
+      <link>https://discord.com/channels/1415350002255007784/1415353131604377641/threads/1539601354371366933</link>
+      <guid isPermaLink="false">afnjp-1539601354371366933</guid>
+      <pubDate>Wed, 19 Aug 2026 11:46:07 GMT</pubDate>
+      <category>chatgpt</category>
+      <description>OpenAIは2026年8月18日、ChatGPT Adsを欧州31市場へ拡大すると発表しました。米国で広告テストを開始してから約6カ月での大規模展開となり、ChatGPTを単なるAIチャットから、商品やサービスの比較・検討が行われる新たな広告接点へ発展さ…</description>
+    </item>
+    <item>
+      <title>Google「Gemini」とBTSが連携、ファン向け4つの対話型AI体験を期間限定提供</title>
+      <link>https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1539601231536726027</link>
+      <guid isPermaLink="false">afnjp-1539601231536726027</guid>
+      <pubDate>Wed, 19 Aug 2026 11:45:38 GMT</pubDate>
+      <category>gemini</category>
+      <description>Googleは2026年8月18日、Geminiアプリ内でBTSと連携した4つのインタラクティブ体験を公開しました。BTSメンバーが実際に使うプロンプトの紹介から、楽曲当て、最新情報の整理、韓国語学習までを生成AIと組み合わせ、ファン体験そのものをGemi…</description>
+    </item>
     <item>
       <title>ClaudeがGmail送信とGoogle Driveのファイル操作に対応</title>
       <link>https://discord.com/channels/1415350002255007784/1415353403269185546/threads/1539420520875958382</link>
@@ -86,22 +102,6 @@
       <pubDate>Tue, 18 Aug 2026 14:56:03 GMT</pubDate>
       <category>google</category>
       <description>Googleは2026年8月18日、英国政府や航空業界、研究機関と共同で、AIを活用して温暖化効果の強い飛行機雲（コントレイル）の発生を回避する「Operation Blue Skies」を発表しました。北大西洋の航空空域を対象に、個別便での実証から空域全…</description>
-    </item>
-    <item>
-      <title>OpenAI「ChatGPT for Teens」発表、13〜17歳を自動判定し学習支援と安全機能を標準化</title>
-      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1539285228634251325</link>
-      <guid isPermaLink="false">afnjp-1539285228634251325</guid>
-      <pubDate>Tue, 18 Aug 2026 14:49:57 GMT</pubDate>
-      <category>open-ai</category>
-      <description>OpenAIは2026年8月18日、13〜17歳の利用者向けに「ChatGPT for Teens」を発表しました。年齢を13〜17歳と申告した場合や、システムが18歳未満と推定した場合、自動的に専用体験へ移行します。通常版の機能を単純に制限するのではなく…</description>
-    </item>
-    <item>
-      <title>OpenAIとCodeAIが提携、10代の「AIを使う力」から「AIを疑う力」へ</title>
-      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1539285123025870888</link>
-      <guid isPermaLink="false">afnjp-1539285123025870888</guid>
-      <pubDate>Tue, 18 Aug 2026 14:49:31 GMT</pubDate>
-      <category>open-ai</category>
-      <description>OpenAIは2026年8月18日、CodeAIとの提携を発表しました。生成AIを日常的に使う最初の世代となる学生に対し、単なる操作方法ではなく、AIの仕組みや限界を理解し、出力を批判的に評価する能力を育成することが狙いです。新たに展開する「ChatGPT…</description>
     </item>
   </channel>
 </rss>
