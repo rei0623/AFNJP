@@ -5,8 +5,16 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 19 Aug 2026 14:09:52 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 19 Aug 2026 15:46:26 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Ornith-1.5登場、AIが自ら課題を作り学習する「自己改善ループ」へ</title>
+      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1539661831621185577</link>
+      <guid isPermaLink="false">afnjp-1539661831621185577</guid>
+      <pubDate>Wed, 19 Aug 2026 15:46:26 GMT</pubDate>
+      <category>その他</category>
+      <description>Ornith Teamは2026年8月、基盤モデル「Ornith-1.5」を発表しました。最大の特徴は、AIが与えられた課題を解くだけでなく、自ら新しい学習課題を生成し、その課題に適した実行方法や評価環境まで構築しながら強化学習を進める「自己改善ループ」です…</description>
+    </item>
     <item>
       <title>Replit「Free Mode」登場、GPT-5.6 Lunaでソフトウェア開発の無料体験を拡大</title>
       <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1539637529391931482</link>
@@ -94,14 +102,6 @@
       <pubDate>Tue, 18 Aug 2026 15:31:43 GMT</pubDate>
       <category>リーク情報</category>
       <description>Googleが、Geminiのデスクトップアプリから他のアプリを操作したり、指定フォルダ内のファイルへアクセスしたりできる「Computer Use」機能を開発している可能性が明らかになりました。TestingCatalogによると、アプリ設定内に関連する痕…</description>
-    </item>
-    <item>
-      <title>Anthropicが「Hub Mode」をテスト、Claudeの複数サブエージェント管理機能か</title>
-      <link>https://discord.com/channels/1415350002255007784/1415534435712897124/threads/1539295636095111249</link>
-      <guid isPermaLink="false">afnjp-1539295636095111249</guid>
-      <pubDate>Tue, 18 Aug 2026 15:31:18 GMT</pubDate>
-      <category>リーク情報</category>
-      <description>Anthropicが、Claudeのモバイルアプリで「Hub Mode」と呼ばれる新機能を内部テストしていることが確認されました。現時点では正式提供されておらず詳細も不明ですが、複数のサブエージェントを一元管理し、タスク進行を可視化するためのインターフェース…</description>
     </item>
   </channel>
 </rss>
