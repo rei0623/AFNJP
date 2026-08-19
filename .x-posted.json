@@ -1,0 +1,5 @@
+{
+  "note": "X へ投稿済みの Discord メッセージID。同じ下書きを二度投稿しないための記録。scripts/post-to-x.mjs が更新する。",
+  "updated_at": null,
+  "posted": []
+}

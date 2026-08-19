@@ -29,6 +29,12 @@ jobs:
       - uses: actions/setup-node@v5
         with:
           node-version: '20'
+          cache: npm
+
+      # カバー画像の WebP 変換に sharp を使う。
+      # 依存はこれ1つで、サイト本体（配信されるファイル）には何も足さない。
+      - name: Install dependencies
+        run: npm ci
 
       - name: Sync from Discord
         env:
@@ -36,7 +42,8 @@ jobs:
           DISCORD_GUILD_ID: '1415350002255007784'
         run: node scripts/sync-discord.mjs
 
-      # 記事一覧とチャンネル一覧を index.html へ静的に焼き込み、feed.xml / sitemap.xml も更新する。
+      # 記事一覧とチャンネル一覧を index.html へ静的に焼き込み、
+      # 個別記事ページ（posts/）・archive.html・feed.xml・sitemap.xml も更新する。
       # JS を実行しない AI クローラー（GPTBot / ClaudeBot / PerplexityBot など）に読ませるため。
       # DISCORD_BOT_TOKEN は使わない（posts.json / channels.json を読むだけ）。
       # 失敗しても Discord データの同期は止めない。生成物は検証を通ってから書き込まれるので、
@@ -46,7 +53,6 @@ jobs:
         run: node scripts/generate-seo.mjs
 
       # 新しい記事の X 投稿用の下書きを組み立て、Discord の #x-下書き へ送る。
-      # X API は使わない（無料）。投稿はコピペで人が行う。
       # 失敗しても Discord データの同期は止めない。
       - name: Post X drafts to Discord
         continue-on-error: true
@@ -54,9 +60,24 @@ jobs:
           DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
         run: node scripts/post-x-drafts.mjs
 
+      # #x-下書き で ✅ が付いた下書きだけを X へ投稿する。
+      # ✅ を付けるのは人なので、承認しなければ何も出ない。
+      # X の鍵（X_API_KEY など）が未設定のときは何もせず正常終了する。
+      - name: Post approved drafts to X
+        continue-on-error: true
+        env:
+          DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
+          X_API_KEY: ${{ secrets.X_API_KEY }}
+          X_API_SECRET: ${{ secrets.X_API_SECRET }}
+          X_ACCESS_TOKEN: ${{ secrets.X_ACCESS_TOKEN }}
+          X_ACCESS_SECRET: ${{ secrets.X_ACCESS_SECRET }}
+        run: node scripts/post-to-x.mjs
+
       - name: Commit if changed
         run: |
-          git add -A channels.json posts.json assets/posts index.html feed.xml sitemap.xml .x-drafted.json
+          git add -A channels.json posts.json posts-archive.json assets/posts \
+                    index.html archive.html posts feed.xml sitemap.xml \
+                    .x-drafted.json .x-posted.json
           if git diff --cached --quiet; then
             echo "変化なし。コミットしません。"
             exit 0
