@@ -2,10 +2,12 @@
 /**
  * AFNJP ─ 静的HTML / フィード生成スクリプト
  *
- * posts.json / channels.json を読んで、次の3つを更新する。
+ * posts.json / posts-archive.json / channels.json を読んで、次の5つを更新する。
  *   1. index.html のマーカー区間 … 記事カードとチャンネル一覧を静的HTMLとして焼き込む
- *   2. feed.xml                  … 最新記事の RSS 2.0 フィード
- *   3. sitemap.xml               … lastmod を最新記事の日付で更新
+ *   2. posts/<id>.html           … 記事ごとの個別ページ
+ *   3. archive.html              … 記事アーカイブの一覧
+ *   4. feed.xml                  … 最新記事の RSS 2.0 フィード
+ *   5. sitemap.xml               … トップ・アーカイブ・全記事ページのURL一覧
  *
  * なぜ必要か:
  *   ChatGPT / Claude / Perplexity のクローラー（GPTBot, OAI-SearchBot, ClaudeBot,
@@ -22,6 +24,12 @@
  *   - すべての検証を通ってから、一時ファイル経由で rename して書き込む
  *   - Discord 由来の文字列はすべてエスケープし、URL は許可リストで検証する
  *
+ * 記事ページの方針:
+ *   本文は転載しない。リード（先頭の段落）と小見出しの一覧、そして一次情報への
+ *   出典リンクだけを載せ、続きと議論は Discord へ誘導する。
+ *   検索エンジンには「記事ごとの URL」を持たせつつ、コミュニティの中身は
+ *   Discord に残す、という切り分け。
+ *
  * 冪等性:
  *   同じ posts.json / channels.json に対して何度実行しても出力は同一になる。
  *   日付は「今日 / 昨日」のような相対表記を使わず絶対表記にし、lastBuildDate や
@@ -31,7 +39,7 @@
  *   node scripts/generate-seo.mjs
  */
 
-import { readFile, writeFile, rename } from 'node:fs/promises';
+import { readFile, writeFile, rename, mkdir, readdir, unlink } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import { dirname, resolve } from 'node:path';
 
@@ -40,15 +48,19 @@ const ROOT = resolve(HERE, '..');
 
 const INDEX = resolve(ROOT, 'index.html');
 const POSTS_JSON = resolve(ROOT, 'posts.json');
+const ARCHIVE_JSON = resolve(ROOT, 'posts-archive.json');
 const CHANNELS_JSON = resolve(ROOT, 'channels.json');
 const FEED = resolve(ROOT, 'feed.xml');
 const SITEMAP = resolve(ROOT, 'sitemap.xml');
+const ARCHIVE_HTML = resolve(ROOT, 'archive.html');
+const POSTS_DIR = resolve(ROOT, 'posts');
 
 const SITE = 'https://rei0623.github.io/AFNJP/';
 const FEED_URL = `${SITE}feed.xml`;
 const SITE_TITLE = 'AI Frontier News JP';
 const SITE_DESC = '海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、'
     + '出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。';
+const DISCORD_INVITE = 'https://discord.gg/WUWE6Ev7yh';
 
 /** index.html に表示する記事の数（renderPosts の slice と合わせる） */
 const VISIBLE_POSTS = 9;
@@ -116,13 +128,59 @@ function safeCover(value) {
     return COVER_PATH.test(s) ? s : null;
 }
 
-/** ISO 文字列から JST の年月日を得る。実行環境のタイムゾーンに依存させない */
-function jstDate(iso) {
+/**
+ * 記事ID（Discord のスノーフレーク）の検証。
+ * これがそのままファイル名 posts/<id>.html になるため、
+ * 数字以外が混ざったものは受け付けない（パス外への書き出しを防ぐ）。
+ */
+const safeId = value => (/^[0-9]{5,25}$/.test(String(value ?? '')) ? String(value) : null);
+
+/**
+ * 一次情報（出典）のURL検証。こちらは外部サイト全般が対象なので
+ * ホストの許可リストは使わず、スキームだけを https / http に絞る。
+ */
+function safeSource(value) {
+    let url;
+    try {
+        url = new URL(String(value));
+    } catch {
+        return null;
+    }
+    return (url.protocol === 'https:' || url.protocol === 'http:') ? url.href : null;
+}
+
+/** ISO 文字列を JST の年月日に割る。実行環境のタイムゾーンに依存させない */
+function jstParts(iso) {
     const t = new Date(iso);
     if (Number.isNaN(t.getTime())) return null;
     const jst = new Date(t.getTime() + 9 * 3600 * 1000);
-    const p2 = n => String(n).padStart(2, '0');
-    return `${jst.getUTCFullYear()}.${p2(jst.getUTCMonth() + 1)}.${p2(jst.getUTCDate())}`;
+    return { y: jst.getUTCFullYear(), m: jst.getUTCMonth() + 1, d: jst.getUTCDate() };
+}
+
+const p2 = n => String(n).padStart(2, '0');
+
+/** 「2026.08.19」形式（カード・一覧用） */
+function jstDate(iso) {
+    const p = jstParts(iso);
+    return p ? `${p.y}.${p2(p.m)}.${p2(p.d)}` : null;
+}
+
+/** 「2026年8月19日」形式（記事ページの本文用） */
+function jstLongDate(iso) {
+    const p = jstParts(iso);
+    return p ? `${p.y}年${p.m}月${p.d}日` : null;
+}
+
+/** 「2026年8月」形式（アーカイブの見出し用） */
+function jstMonth(iso) {
+    const p = jstParts(iso);
+    return p ? `${p.y}年${p.m}月` : null;
+}
+
+/** 月ごとのグループ化キー。降順に並べたいので YYYY-MM の文字列にする */
+function jstMonthKey(iso) {
+    const p = jstParts(iso);
+    return p ? `${p.y}-${p2(p.m)}` : null;
 }
 
 /** 各行に指定量のインデントを付ける */
@@ -189,8 +247,13 @@ const RIDGE_SVG =
     + 'fill="none" stroke="#d8d5cc" stroke-width="1"/></svg>';
 
 function cardHtml(post, i) {
-    const href = safeLink(post.url);
-    if (!href) return null; // リンクが検証を通らない記事は載せない
+    // カードの行き先はサイト内の記事ページ。ID が検証を通らないものだけ
+    // 従来どおり Discord へ直接リンクする。
+    const id = safeId(post.id);
+    const discord = safeLink(post.url);
+    const href = id ? `posts/${id}.html` : discord;
+    if (!href) return null; // 行き先が決まらない記事は載せない
+    const external = !id;
 
     const cover = safeCover(post.cover);
     const coverHtml = cover
@@ -208,8 +271,11 @@ function cardHtml(post, i) {
 
     const delay = Math.min(i * 45, 400);
 
+    const attrs = external ? ' target="_blank" rel="noopener noreferrer"' : '';
+    const go = external ? 'Discordで読む ↗' : '記事を読む →';
+
     return `<a class="card" style="animation-delay:${delay}ms"
-    href="${escHtml(href)}" target="_blank" rel="noopener noreferrer">
+    href="${escHtml(href)}"${attrs}>
     ${coverHtml}
     <div class="body">
         <p class="meta"><span class="tag">#${escHtml(post.channel)}</span>${when}</p>
@@ -217,7 +283,7 @@ function cardHtml(post, i) {
         ${post.excerpt ? `<p class="ex">${escHtml(post.excerpt)}</p>` : ''}
         <p class="foot">
             <span class="src">${post.source_label ? '出典 ' + escHtml(post.source_label) : ''}</span>
-            <span class="go">Discordで読む ↗</span>
+            <span class="go">${go}</span>
         </p>
     </div>
 </a>`;
@@ -241,6 +307,274 @@ ${chips}
     </div>
 </div>`;
     return { html, used: names.length };
+}
+
+/* ═══════════ 個別記事ページ / アーカイブ一覧 ═══════════ */
+
+/**
+ * JSON-LD を <script> の中に安全に埋める。
+ * "<" をエスケープしないと、本文に "</script>" があった場合に
+ * スクリプトタグが途中で閉じてしまう。
+ */
+const jsonLd = obj => stripUnsafeChars(JSON.stringify(obj, null, 2)).replace(/</g, '\\u003C');
+
+/** ページ共通のヘッダー。depth は階層の深さ（posts/ の中なら 1） */
+function siteHeader(depth) {
+    const up = '../'.repeat(depth);
+    return `<header class="hd">
+    <div class="wrap">
+        <a href="${up}index.html" style="display:flex;align-items:center;gap:10px">
+            <img src="${up}AFNJP.jpg" alt="" width="30" height="30">
+            <b>AI Frontier News JP</b>
+        </a>
+        <nav>
+            <a href="${up}archive.html">記事一覧</a>
+            <a href="${DISCORD_INVITE}" target="_blank" rel="noopener noreferrer">Discordに参加</a>
+        </nav>
+    </div>
+</header>`;
+}
+
+function siteFooter(depth) {
+    const up = '../'.repeat(depth);
+    return `<footer class="ft">
+    <div class="wrap">
+        <a href="${up}index.html">トップ</a>
+        <a href="${up}archive.html">記事一覧</a>
+        <a href="${up}feed.xml">RSS</a>
+        <a href="https://x.com/AI_FrontierNews" target="_blank" rel="noopener noreferrer">X</a>
+        <span class="r">AI Frontier News JP</span>
+    </div>
+</footer>`;
+}
+
+/** 記事ページの meta description。リードを検索結果に収まる長さへ詰める */
+function metaDesc(post) {
+    const base = String(post.lead || post.excerpt || '').replace(/\s+/g, ' ').trim();
+    if (!base) return SITE_DESC;
+    return base.length > 158 ? base.slice(0, 157) + '…' : base;
+}
+
+/**
+ * 記事1本ぶんのページ。
+ * 本文は載せず、リード・小見出し・出典・Discordへの導線だけを置く。
+ */
+function articleHtml(post) {
+    const id = safeId(post.id);
+    if (!id) return null;
+
+    const url = `${SITE}posts/${id}.html`;
+    const cover = safeCover(post.cover);
+    const source = safeSource(post.source_url);
+    const discord = safeLink(post.url);
+    const iso = new Date(post.date);
+    const isoStr = Number.isNaN(iso.getTime()) ? null : iso.toISOString();
+    const shownDate = jstLongDate(post.date);
+    const ogImage = cover ? SITE + cover : `${SITE}AFNJP.jpg`;
+    const desc = metaDesc(post);
+    // lead は同期スクリプトが入れる長めの要約。まだ無い記事は短い excerpt で代用する。
+    const lead = post.lead || post.excerpt || '';
+    const headings = (post.headings || [])
+        .map(h => String(h ?? '').trim())
+        .filter(Boolean)
+        .slice(0, 8);
+
+    const ld = jsonLd({
+        '@context': 'https://schema.org',
+        '@graph': [
+            {
+                '@type': 'NewsArticle',
+                headline: stripUnsafeChars(post.title).slice(0, 110),
+                description: desc,
+                inLanguage: 'ja-JP',
+                mainEntityOfPage: { '@type': 'WebPage', '@id': url },
+                url,
+                ...(isoStr ? { datePublished: isoStr, dateModified: isoStr } : {}),
+                image: [ogImage],
+                articleSection: stripUnsafeChars(post.category || ''),
+                author: { '@type': 'Organization', name: SITE_TITLE, url: SITE },
+                publisher: { '@id': `${SITE}#org` },
+                ...(source ? { isBasedOn: source, citation: source } : {}),
+            },
+            {
+                '@type': 'BreadcrumbList',
+                itemListElement: [
+                    { '@type': 'ListItem', position: 1, name: 'トップ', item: SITE },
+                    { '@type': 'ListItem', position: 2, name: '記事一覧', item: `${SITE}archive.html` },
+                    { '@type': 'ListItem', position: 3, name: stripUnsafeChars(post.title) },
+                ],
+            },
+        ],
+    });
+
+    return `<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>${escHtml(post.title)} | AI Frontier News JP</title>
+<meta name="description" content="${escHtml(desc)}">
+<meta name="theme-color" content="#ffffff">
+<link rel="canonical" href="${escHtml(url)}">
+<link rel="icon" href="../AFNJP.jpg" type="image/jpeg">
+<link rel="alternate" type="application/rss+xml" title="AI Frontier News JP の最新記事" href="../feed.xml">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="AI Frontier News JP">
+<meta property="og:title" content="${escHtml(post.title)}">
+<meta property="og:description" content="${escHtml(desc)}">
+<meta property="og:url" content="${escHtml(url)}">
+<meta property="og:image" content="${escHtml(ogImage)}">
+<meta property="og:locale" content="ja_JP">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@AI_FrontierNews">
+<meta name="twitter:title" content="${escHtml(post.title)}">
+<meta name="twitter:description" content="${escHtml(desc)}">
+<meta name="twitter:image" content="${escHtml(ogImage)}">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=JetBrains+Mono:wght@400;500&family=Zen+Kaku+Gothic+New:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/article.css">
+<script type="application/ld+json">
+${ld}
+</script>
+</head>
+
+<body>
+${siteHeader(1)}
+
+<div class="wrap">
+    <p class="crumb">
+        <a href="../index.html">トップ</a><span>/</span><a href="../archive.html">記事一覧</a><span>/</span>${escHtml(post.category || '記事')}
+    </p>
+
+    <article class="art">
+        <p class="tag">#${escHtml(post.channel)}</p>
+        <h1>${escHtml(post.title)}</h1>
+        ${isoStr && shownDate
+            ? `<p class="when"><time datetime="${escHtml(isoStr)}">${escHtml(shownDate)}</time></p>`
+            : ''}
+
+        ${cover ? `<div class="cover"><img src="../${escHtml(cover)}" alt="" width="640" height="360"></div>` : ''}
+
+        ${lead ? `<p class="lead">${escHtml(lead)}</p>` : ''}
+
+        ${headings.length ? `<section class="points">
+            <h2>記事で取り上げている点</h2>
+            <ul>
+${headings.map(h => `                <li>${escHtml(h)}</li>`).join('\n')}
+            </ul>
+        </section>` : ''}
+
+        ${source ? `<p class="src">
+            <b>一次情報（出典）</b>
+            <a href="${escHtml(source)}" target="_blank" rel="noopener noreferrer nofollow">${escHtml(post.source_label || source)}</a>
+        </p>` : ''}
+
+        <div class="cta">
+            <p>記事の全文と、この話題についてのやり取りは Discord にあります。</p>
+            <a class="btn" href="${escHtml(discord || DISCORD_INVITE)}" target="_blank" rel="noopener noreferrer">Discordで全文を読む</a>
+            <p class="sub">参加は無料。読むだけの参加も歓迎です。</p>
+        </div>
+    </article>
+</div>
+
+${siteFooter(1)}
+</body>
+
+</html>
+`;
+}
+
+/** 記事アーカイブの一覧ページ。月ごとに区切って全記事を並べる */
+function archiveHtml(posts) {
+    const url = `${SITE}archive.html`;
+    const desc = `AI Frontier News JP がこれまでに配信したAIニュース記事の一覧。全${posts.length}本を月ごとに掲載しています。`;
+
+    // 月ごとにまとめる。posts は日付の降順で渡ってくる前提。
+    const months = [];
+    for (const p of posts) {
+        const key = jstMonthKey(p.date);
+        if (!key) continue;
+        if (months.at(-1)?.key !== key) months.push({ key, label: jstMonth(p.date), items: [] });
+        months.at(-1).items.push(p);
+    }
+
+    const sections = months.map(mo => {
+        const rows = mo.items.map(p => {
+            const id = safeId(p.id);
+            if (!id) return null;
+            const d = jstDate(p.date);
+            const isoStr = new Date(p.date);
+            return `        <li><a href="posts/${id}.html">`
+                + (d && !Number.isNaN(isoStr.getTime())
+                    ? `<time datetime="${escHtml(isoStr.toISOString())}">${escHtml(d)}</time>` : '')
+                + `<span class="t">${escHtml(p.title)}</span>`
+                + `<span class="c">${escHtml(p.category || '')}</span>`
+                + `</a></li>`;
+        }).filter(Boolean);
+        if (!rows.length) return null;
+        return `    <h2>${escHtml(mo.label)}</h2>\n    <ol>\n${rows.join('\n')}\n    </ol>`;
+    }).filter(Boolean);
+
+    const ld = jsonLd({
+        '@context': 'https://schema.org',
+        '@type': 'CollectionPage',
+        name: '記事一覧 | AI Frontier News JP',
+        description: desc,
+        url,
+        inLanguage: 'ja-JP',
+        isPartOf: { '@id': `${SITE}#org` },
+    });
+
+    return `<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>記事一覧 | AI Frontier News JP</title>
+<meta name="description" content="${escHtml(desc)}">
+<meta name="theme-color" content="#ffffff">
+<link rel="canonical" href="${url}">
+<link rel="icon" href="AFNJP.jpg" type="image/jpeg">
+<link rel="alternate" type="application/rss+xml" title="AI Frontier News JP の最新記事" href="feed.xml">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="AI Frontier News JP">
+<meta property="og:title" content="記事一覧 | AI Frontier News JP">
+<meta property="og:description" content="${escHtml(desc)}">
+<meta property="og:url" content="${url}">
+<meta property="og:image" content="${SITE}AFNJP.jpg">
+<meta property="og:locale" content="ja_JP">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@AI_FrontierNews">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=JetBrains+Mono:wght@400;500&family=Zen+Kaku+Gothic+New:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/article.css">
+<script type="application/ld+json">
+${ld}
+</script>
+</head>
+
+<body>
+${siteHeader(0)}
+
+<div class="wrap">
+    <p class="crumb"><a href="index.html">トップ</a><span>/</span>記事一覧</p>
+
+    <main class="arc">
+    <h1>記事一覧</h1>
+    <p class="note">これまでに配信した記事 ${posts.length} 本。新しいものから順に並んでいます。</p>
+${sections.join('\n')}
+    </main>
+</div>
+
+${siteFooter(0)}
+</body>
+
+</html>
+`;
 }
 
 /* ═══════════ feed.xml ═══════════ */
@@ -285,7 +619,7 @@ function buildFeed(posts, latestIso) {
 
 /* ═══════════ sitemap.xml ═══════════ */
 
-function buildSitemap(latestIso) {
+function buildSitemap(latestIso, archived) {
     // lastmod は「自動生成処理が把握できる範囲での最終更新日」。
     // 厳密なページ最終更新日ではない（FAQ や説明文の手直しはここに現れない）。
     // 実行時刻を書くと毎時更新になり、Google に lastmod ごと無視されるため使わない。
@@ -294,31 +628,56 @@ function buildSitemap(latestIso) {
     // toISOString() の "2026-08-04T14:12:10.731Z" をそのまま書くと
     // Google に「サイトマップを読み込めませんでした」と弾かれるため、
     // 秒までに丸めた "2026-08-04T14:12:10Z" にする。
-    const lastmod = latestIso
-        ? new Date(latestIso).toISOString().replace(/\.\d{3}Z$/, 'Z')
-        : null;
+    const w3c = iso => {
+        const t = new Date(iso);
+        return Number.isNaN(t.getTime()) ? null : t.toISOString().replace(/\.\d{3}Z$/, 'Z');
+    };
+    const lastmod = latestIso ? w3c(latestIso) : null;
+
+    const entry = (loc, mod) => [
+        '  <url>',
+        `    <loc>${escXml(loc)}</loc>`,
+        mod ? `    <lastmod>${mod}</lastmod>` : null,
+        '  </url>',
+    ].filter(v => v !== null).join('\n');
+
+    // 記事ページは公開後に書き換わらないので、lastmod には記事の投稿日を入れる。
+    const articles = archived
+        .map(p => {
+            const id = safeId(p.id);
+            return id ? entry(`${SITE}posts/${id}.html`, w3c(p.date)) : null;
+        })
+        .filter(Boolean);
+
     return [
         '<?xml version="1.0" encoding="UTF-8"?>',
         '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
-        '  <url>',
-        `    <loc>${SITE}</loc>`,
-        lastmod ? `    <lastmod>${lastmod}</lastmod>` : null,
-        '  </url>',
+        entry(SITE, lastmod),
+        entry(`${SITE}archive.html`, lastmod),
+        ...articles,
         '</urlset>',
         '',
-    ].filter(v => v !== null).join('\n');
+    ].join('\n');
 }
 
 /* ═══════════ 本体 ═══════════ */
 
-const [srcHtml, postsData, channelsData] = await Promise.all([
+const [srcHtml, postsData, channelsData, archiveData] = await Promise.all([
     readFile(INDEX, 'utf8'),
     readFile(POSTS_JSON, 'utf8').then(JSON.parse),
     readFile(CHANNELS_JSON, 'utf8').then(JSON.parse),
+    // アーカイブはまだ存在しないことがある（初回実行時）。その場合は posts.json で代用する。
+    readFile(ARCHIVE_JSON, 'utf8').then(JSON.parse).catch(() => null),
 ]);
 
 const allPosts = Array.isArray(postsData.posts) ? postsData.posts : [];
 const groups = Array.isArray(channelsData.groups) ? channelsData.groups : [];
+
+/** 記事ページ / アーカイブ / sitemap の元になる全記事（日付の降順） */
+const archived = (Array.isArray(archiveData?.posts) && archiveData.posts.length
+    ? archiveData.posts
+    : allPosts
+).filter(p => safeId(p.id)).sort((a, b) => new Date(b.date) - new Date(a.date));
 
 if (!allPosts.length) {
     console.error('✗ posts.json に記事がありません。index.html は変更しません。');
@@ -360,12 +719,18 @@ if (!groupBlocks.length) {
 /* ── index.html を組み立てる ── */
 const PAD = ' '.repeat(20); // マーカー内側のインデント（#cards / #groups の中）
 
+/* 記事一覧への導線。累計本数を出すことで「積み上がっている」ことが一目で分かる */
+const archiveLink = `<a class="btn btn-o" href="archive.html"><span>これまでの記事 ${archived.length} 本をすべて見る</span></a>`;
+const ARCHIVE_PAD = ' '.repeat(20);
+
 let outHtml;
 try {
     outHtml = replaceMarkerBlock(srcHtml, 'POSTS',
         '\n' + indent(cards.join('\n'), PAD) + '\n' + PAD);
     outHtml = replaceMarkerBlock(outHtml, 'CHANNELS',
         '\n' + indent(groupBlocks.join('\n'), PAD) + '\n' + PAD);
+    outHtml = replaceMarkerBlock(outHtml, 'ARCHIVE',
+        '\n' + ARCHIVE_PAD + archiveLink + '\n' + ARCHIVE_PAD);
 } catch (err) {
     console.error('✗ index.html のマーカー処理に失敗しました。ファイルは変更しません。');
     console.error(`   - ${err.message}`);
@@ -384,7 +749,7 @@ function innerOf(html, name) {
 const problems = [];
 if (countOf(outHtml, '</html>') !== 1) problems.push('</html> がちょうど1つではありません');
 
-for (const name of ['POSTS', 'CHANNELS']) {
+for (const name of ['POSTS', 'CHANNELS', 'ARCHIVE']) {
     if (countOf(outHtml, `<!-- ${name}:START`) !== 1 || countOf(outHtml, `<!-- ${name}:END -->`) !== 1) {
         problems.push(`マーカー ${name} が失われました`);
     }
@@ -421,7 +786,40 @@ const latestIso = dates.length ? new Date(Math.max(...dates)).toISOString() : nu
 
 const feedPosts = allPosts.slice(0, FEED_POSTS);
 const feedXml = buildFeed(feedPosts, latestIso);
-const sitemapXml = buildSitemap(latestIso);
+const sitemapXml = buildSitemap(latestIso, archived);
+
+/* ── 個別記事ページ / アーカイブ一覧 ── */
+const articlePages = new Map(); // ファイル名 -> HTML
+for (const p of archived) {
+    const html = articleHtml(p);
+    if (html) articlePages.set(`${safeId(p.id)}.html`, html);
+}
+const archivePage = archived.length ? archiveHtml(archived) : null;
+
+if (!articlePages.size) {
+    problems.push('生成できる記事ページが1件もありません');
+}
+if (!archivePage) {
+    problems.push('アーカイブ一覧に載せる記事がありません');
+}
+for (const [name, html] of articlePages) {
+    if (!html.trimEnd().endsWith('</html>')) problems.push(`posts/${name} が </html> で終わっていません`);
+    if (countOf(html, '</html>') !== 1) problems.push(`posts/${name} の </html> が1つではありません`);
+    if (hasUnsafeChars(html)) problems.push(`posts/${name} に出力してはいけない文字が残っています`);
+}
+if (archivePage) {
+    const rows = countOf(archivePage, '<li><a href="posts/');
+    if (rows !== articlePages.size) {
+        problems.push(`archive.html の行数が ${rows} 件で、記事ページ ${articlePages.size} 件と一致しません`);
+    }
+    if (hasUnsafeChars(archivePage)) problems.push('archive.html に出力してはいけない文字が残っています');
+}
+{
+    const locs = countOf(sitemapXml, '<loc>');
+    if (locs !== articlePages.size + 2) {
+        problems.push(`sitemap.xml の URL が ${locs} 件で、期待の ${articlePages.size + 2} 件と一致しません`);
+    }
+}
 
 const expectedItems = feedPosts.filter(p => safeLink(p.url)).length;
 if (countOf(feedXml, '<item>') !== expectedItems) {
@@ -467,6 +865,7 @@ for (const [path, content, label] of [
     [INDEX, outHtml, 'index.html'],
     [FEED, feedXml, 'feed.xml'],
     [SITEMAP, sitemapXml, 'sitemap.xml'],
+    [ARCHIVE_HTML, archivePage, 'archive.html'],
 ]) {
     const current = await readFile(path, 'utf8').catch(() => null);
     if (current === content) continue;
@@ -474,6 +873,31 @@ for (const [path, content, label] of [
     changed.push(label);
 }
 
+/* ── 記事ページ ── */
+await mkdir(POSTS_DIR, { recursive: true });
+
+let written = 0;
+for (const [name, html] of articlePages) {
+    const path = resolve(POSTS_DIR, name);
+    const current = await readFile(path, 'utf8').catch(() => null);
+    if (current === html) continue;
+    await writeAtomic(path, html);
+    written++;
+}
+
+// アーカイブから消えた記事のページを片付ける。
+// 通常アーカイブは追記のみなので、ここが動くのは記事を意図的に取り下げたときだけ。
+let removed = 0;
+for (const f of await readdir(POSTS_DIR).catch(() => [])) {
+    if (f.endsWith('.html') && !articlePages.has(f)) {
+        await unlink(resolve(POSTS_DIR, f)).catch(() => { });
+        removed++;
+    }
+}
+
 console.log(`✓ 静的化: 記事カード ${cards.length} 件 / チャンネル ${channelTotal} 件`);
 console.log(`✓ feed.xml: ${countOf(feedXml, '<item>')} 件（最新 ${latestIso ?? '不明'}）`);
-console.log(changed.length ? `✓ 更新: ${changed.join(', ')}` : '✓ 変化なし（すべて最新）');
+console.log(`✓ 記事ページ: ${articlePages.size} 件（うち更新 ${written} 件`
+    + (removed ? ` / 削除 ${removed} 件` : '') + '）');
+console.log(`✓ sitemap.xml: ${countOf(sitemapXml, '<loc>')} URL`);
+console.log(changed.length ? `✓ 更新: ${changed.join(', ')}` : '✓ 変化なし（トップとフィードは最新）');

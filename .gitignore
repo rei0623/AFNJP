@@ -6,6 +6,9 @@
 # 生成スクリプトの書き込み用一時ファイル（正常時は rename されて残らない）
 *.tmp
 
+# 生成スクリプトの依存（package-lock.json はコミットする）
+node_modules/
+
 # OS / エディタ
 .DS_Store
 Thumbs.db

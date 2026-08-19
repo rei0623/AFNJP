@@ -1,0 +1,17 @@
+{
+  "name": "afnjp-site",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "AI Frontier News JP 公式サイトの生成スクリプト用。サイト本体は依存を持たない静的ファイル。",
+  "scripts": {
+    "sync": "node scripts/sync-discord.mjs",
+    "seo": "node scripts/generate-seo.mjs"
+  },
+  "dependencies": {
+    "sharp": "^0.35.3"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

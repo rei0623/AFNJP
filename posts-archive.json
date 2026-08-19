@@ -2,6 +2,7 @@
   "generated_at": "2026-08-19T13:57:20.866Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
+  "count": 12,
   "posts": [
     {
       "id": "1539601354371366933",
@@ -13,7 +14,8 @@
       "source_url": "https://openai.com/index/chatgpt-ads-expands-across-europe/",
       "source_label": "openai.com",
       "cover": "assets/posts/1539601354371366933.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1415353131604377641/threads/1539601354371366933"
+      "url": "https://discord.com/channels/1415350002255007784/1415353131604377641/threads/1539601354371366933",
+      "first_seen": "2026-08-19T11:46:07.292Z"
     },
     {
       "id": "1539601231536726027",
@@ -25,7 +27,8 @@
       "source_url": "https://blog.google/innovation-and-ai/products/gemini-app/four-new-interactive-bts-experiences/",
       "source_label": "blog.google",
       "cover": "assets/posts/1539601231536726027.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1539601231536726027"
+      "url": "https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1539601231536726027",
+      "first_seen": "2026-08-19T11:45:38.006Z"
     },
     {
       "id": "1539420520875958382",
@@ -37,7 +40,8 @@
       "source_url": "https://twitter.com/claudeai/status/2089806039088517356",
       "source_label": "twitter.com",
       "cover": "assets/posts/1539420520875958382.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1415353403269185546/threads/1539420520875958382"
+      "url": "https://discord.com/channels/1415350002255007784/1415353403269185546/threads/1539420520875958382",
+      "first_seen": "2026-08-18T23:47:33.227Z"
     },
     {
       "id": "1539420431415771247",
@@ -49,7 +53,8 @@
       "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.148.0",
       "source_label": "github.com",
       "cover": "assets/posts/1539420431415771247.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1415355102939578490/threads/1539420431415771247"
+      "url": "https://discord.com/channels/1415350002255007784/1415355102939578490/threads/1539420431415771247",
+      "first_seen": "2026-08-18T23:47:11.898Z"
     },
     {
       "id": "1539420342433357854",
@@ -61,7 +66,8 @@
       "source_url": "https://www.anthropic.com/research/Claude-accelerates-protein-design",
       "source_label": "anthropic.com",
       "cover": "assets/posts/1539420342433357854.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1539420342433357854"
+      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1539420342433357854",
+      "first_seen": "2026-08-18T23:46:50.683Z"
     },
     {
       "id": "1539419464569983107",
@@ -73,7 +79,8 @@
       "source_url": "https://openai.com/index/nvidia/chatgpt-work/",
       "source_label": "openai.com",
       "cover": "assets/posts/1539419464569983107.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1539419464569983107"
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1539419464569983107",
+      "first_seen": "2026-08-18T23:43:21.384Z"
     },
     {
       "id": "1539419365571829991",
@@ -85,7 +92,8 @@
       "source_url": "https://openai.com/index/strengthening-democratic-oversight-in-national-security/",
       "source_label": "openai.com",
       "cover": "assets/posts/1539419365571829991.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1539419365571829991"
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1539419365571829991",
+      "first_seen": "2026-08-18T23:42:57.781Z"
     },
     {
       "id": "1539419271967285339",
@@ -97,7 +105,8 @@
       "source_url": "https://openai.com/index/pacing-model-development-cyber-capabilities/",
       "source_label": "openai.com",
       "cover": "assets/posts/1539419271967285339.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1539419271967285339"
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1539419271967285339",
+      "first_seen": "2026-08-18T23:42:35.464Z"
     },
     {
       "id": "1539303846591987782",
@@ -109,7 +118,8 @@
       "source_url": "https://openai.com/index/asana/",
       "source_label": "openai.com",
       "cover": "assets/posts/1539303846591987782.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1539303846591987782"
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1539303846591987782",
+      "first_seen": "2026-08-18T16:03:55.910Z"
     },
     {
       "id": "1539295739606466670",
@@ -121,7 +131,8 @@
       "source_url": "https://www.testingcatalog.com/google-tests-computer-use-on-gemini-desktop/",
       "source_label": "testingcatalog.com",
       "cover": "assets/posts/1539295739606466670.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1415534435712897124/threads/1539295739606466670"
+      "url": "https://discord.com/channels/1415350002255007784/1415534435712897124/threads/1539295739606466670",
+      "first_seen": "2026-08-18T15:31:43.054Z"
     },
     {
       "id": "1539295636095111249",
@@ -133,7 +144,8 @@
       "source_url": "https://www.testingcatalog.com/anthropic-tests-hub-mode-in-claude-for-sub-agents/",
       "source_label": "testingcatalog.com",
       "cover": "assets/posts/1539295636095111249.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1415534435712897124/threads/1539295636095111249"
+      "url": "https://discord.com/channels/1415350002255007784/1415534435712897124/threads/1539295636095111249",
+      "first_seen": "2026-08-18T15:31:18.375Z"
     },
     {
       "id": "1539286765464981595",
@@ -145,7 +157,8 @@
       "source_url": "https://blog.google/innovation-and-ai/models-and-research/google-research/blue-skies/?utm_source=tw&utm_medium=social&utm_campaign=nfg",
       "source_label": "blog.google",
       "cover": "assets/posts/1539286765464981595.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1539286765464981595"
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1539286765464981595",
+      "first_seen": "2026-08-18T14:56:03.452Z"
     }
   ]
 }

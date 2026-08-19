@@ -1,0 +1,390 @@
+/*
+ * AFNJP ─ 個別記事ページ / アーカイブ一覧の共通スタイル
+ *
+ * index.html の造形言語（紙白・墨・朱の3色、稜線）に合わせている。
+ * 記事ページは scripts/generate-seo.mjs が大量に生成するため、
+ * CSS はページに埋め込まずこの1枚を共有してキャッシュを効かせる。
+ * トークン名は index.html の :root と揃えてあるので、色を変えるときは両方を直すこと。
+ */
+
+:root {
+    --paper: #fffefb;
+    --paper-2: #f7f6f1;
+    --ink: #111214;
+    --ink-2: #4a4d52;
+    --ink-3: #8b8e93;
+    --line: #e5e3dc;
+    --line-2: #c9c6bc;
+    --shu: #d93a16;
+    --shu-soft: #fdefe9;
+
+    --f-jp: "Zen Kaku Gothic New", "Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif;
+    --f-en: "Inter", var(--f-jp), sans-serif;
+    --f-mono: "JetBrains Mono", ui-monospace, monospace;
+    --max: 760px;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: var(--f-jp);
+    font-size: 16px;
+    line-height: 1.95;
+    -webkit-font-smoothing: antialiased;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.wrap {
+    max-width: var(--max);
+    margin: 0 auto;
+    padding: 0 22px;
+}
+
+/* ── ヘッダー ── */
+
+.hd {
+    border-bottom: 1px solid var(--line);
+    background: var(--paper);
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.hd .wrap {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    height: 60px;
+}
+
+.hd img {
+    width: 30px;
+    height: 30px;
+    border-radius: 7px;
+}
+
+.hd b {
+    font-family: var(--f-en);
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: .01em;
+}
+
+.hd nav {
+    margin-left: auto;
+    display: flex;
+    gap: 20px;
+    font-size: 13px;
+    color: var(--ink-2);
+}
+
+.hd nav a:hover {
+    color: var(--shu);
+}
+
+/* ── パンくず ── */
+
+.crumb {
+    font-size: 12px;
+    color: var(--ink-3);
+    padding: 26px 0 0;
+    font-family: var(--f-en);
+}
+
+.crumb a:hover {
+    color: var(--shu);
+}
+
+.crumb span {
+    margin: 0 7px;
+    color: var(--line-2);
+}
+
+/* ── 記事本体 ── */
+
+.art {
+    padding: 18px 0 64px;
+}
+
+.art .tag {
+    display: inline-block;
+    font-family: var(--f-mono);
+    font-size: 11px;
+    letter-spacing: .04em;
+    color: var(--shu);
+    background: var(--shu-soft);
+    border-radius: 4px;
+    padding: 3px 8px;
+    margin-bottom: 14px;
+}
+
+.art h1 {
+    font-size: clamp(24px, 4.4vw, 34px);
+    line-height: 1.5;
+    font-weight: 900;
+    letter-spacing: -.01em;
+    margin-bottom: 14px;
+}
+
+.art .when {
+    font-family: var(--f-mono);
+    font-size: 12px;
+    color: var(--ink-3);
+    letter-spacing: .03em;
+}
+
+.art .cover {
+    margin: 26px 0;
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    overflow: hidden;
+    background: var(--paper-2);
+}
+
+.art .cover img {
+    width: 100%;
+}
+
+.art .lead {
+    font-size: 17px;
+    line-height: 2.05;
+    color: var(--ink);
+    margin: 26px 0;
+}
+
+/* 記事の要点（本文の小見出しを並べたもの） */
+.points {
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 22px 24px;
+    margin: 30px 0;
+    background: var(--paper-2);
+}
+
+.points h2 {
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: .06em;
+    color: var(--ink-2);
+    margin-bottom: 12px;
+}
+
+.points ul {
+    list-style: none;
+}
+
+.points li {
+    position: relative;
+    padding-left: 20px;
+    font-size: 15px;
+    line-height: 1.85;
+    margin-bottom: 6px;
+}
+
+.points li::before {
+    content: "";
+    position: absolute;
+    left: 2px;
+    top: 13px;
+    width: 8px;
+    height: 1px;
+    background: var(--shu);
+}
+
+.points li:last-child {
+    margin-bottom: 0;
+}
+
+/* 出典 */
+.src {
+    border-top: 1px solid var(--line);
+    padding-top: 22px;
+    margin: 34px 0;
+    font-size: 14px;
+}
+
+.src b {
+    display: block;
+    font-size: 12px;
+    letter-spacing: .06em;
+    color: var(--ink-3);
+    font-weight: 700;
+    margin-bottom: 6px;
+}
+
+.src a {
+    color: var(--shu);
+    word-break: break-all;
+    border-bottom: 1px solid transparent;
+}
+
+.src a:hover {
+    border-bottom-color: var(--shu);
+}
+
+/* Discord への導線 */
+.cta {
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    padding: 28px 26px;
+    text-align: center;
+    background: var(--paper-2);
+}
+
+.cta p {
+    font-size: 15px;
+    color: var(--ink-2);
+    margin-bottom: 18px;
+}
+
+.cta .btn {
+    display: inline-block;
+    background: var(--shu);
+    color: #fff;
+    font-weight: 700;
+    font-size: 15px;
+    border-radius: 8px;
+    padding: 13px 30px;
+    letter-spacing: .01em;
+}
+
+.cta .btn:hover {
+    background: #c02f0f;
+}
+
+.cta .sub {
+    margin: 14px 0 0;
+    font-size: 12px;
+    color: var(--ink-3);
+}
+
+/* ── アーカイブ一覧 ── */
+
+.arc {
+    padding: 20px 0 64px;
+}
+
+.arc h1 {
+    font-size: clamp(24px, 4.4vw, 32px);
+    font-weight: 900;
+    letter-spacing: -.01em;
+    margin-bottom: 10px;
+}
+
+.arc .note {
+    font-size: 14px;
+    color: var(--ink-2);
+    margin-bottom: 34px;
+}
+
+.arc h2 {
+    font-family: var(--f-mono);
+    font-size: 13px;
+    letter-spacing: .06em;
+    color: var(--ink-3);
+    font-weight: 500;
+    border-bottom: 1px solid var(--line);
+    padding-bottom: 8px;
+    margin: 38px 0 4px;
+}
+
+.arc ol {
+    list-style: none;
+}
+
+.arc li {
+    border-bottom: 1px solid var(--line);
+}
+
+.arc li a {
+    display: flex;
+    gap: 16px;
+    align-items: baseline;
+    padding: 15px 2px;
+}
+
+.arc li a:hover {
+    color: var(--shu);
+}
+
+.arc time {
+    font-family: var(--f-mono);
+    font-size: 12px;
+    color: var(--ink-3);
+    flex: 0 0 auto;
+    padding-top: 3px;
+}
+
+.arc .t {
+    font-size: 15px;
+    line-height: 1.7;
+    font-weight: 500;
+}
+
+.arc .c {
+    font-family: var(--f-mono);
+    font-size: 11px;
+    color: var(--ink-3);
+    margin-left: auto;
+    flex: 0 0 auto;
+    padding-top: 3px;
+}
+
+@media (max-width: 560px) {
+    .arc li a {
+        flex-wrap: wrap;
+        gap: 4px 14px;
+    }
+
+    .arc .t {
+        flex: 1 1 100%;
+        order: 3;
+    }
+}
+
+/* ── フッター ── */
+
+.ft {
+    border-top: 1px solid var(--line);
+    padding: 30px 0 46px;
+    font-size: 12px;
+    color: var(--ink-3);
+}
+
+.ft .wrap {
+    display: flex;
+    gap: 18px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.ft a:hover {
+    color: var(--shu);
+}
+
+.ft .r {
+    margin-left: auto;
+    font-family: var(--f-en);
+}

@@ -29,6 +29,12 @@ jobs:
       - uses: actions/setup-node@v5
         with:
           node-version: '20'
+          cache: npm
+
+      # カバー画像の WebP 変換に sharp を使う。
+      # 依存はこれ1つで、サイト本体（配信されるファイル）には何も足さない。
+      - name: Install dependencies
+        run: npm ci
 
       - name: Sync from Discord
         env:
@@ -36,7 +42,8 @@ jobs:
           DISCORD_GUILD_ID: '1415350002255007784'
         run: node scripts/sync-discord.mjs
 
-      # 記事一覧とチャンネル一覧を index.html へ静的に焼き込み、feed.xml / sitemap.xml も更新する。
+      # 記事一覧とチャンネル一覧を index.html へ静的に焼き込み、
+      # 個別記事ページ（posts/）・archive.html・feed.xml・sitemap.xml も更新する。
       # JS を実行しない AI クローラー（GPTBot / ClaudeBot / PerplexityBot など）に読ませるため。
       # DISCORD_BOT_TOKEN は使わない（posts.json / channels.json を読むだけ）。
       # 失敗しても Discord データの同期は止めない。生成物は検証を通ってから書き込まれるので、
@@ -56,7 +63,8 @@ jobs:
 
       - name: Commit if changed
         run: |
-          git add -A channels.json posts.json assets/posts index.html feed.xml sitemap.xml .x-drafted.json
+          git add -A channels.json posts.json posts-archive.json assets/posts \
+                    index.html archive.html posts feed.xml sitemap.xml .x-drafted.json
           if git diff --cached --quiet; then
             echo "変化なし。コミットしません。"
             exit 0
