@@ -73,11 +73,20 @@ jobs:
           X_ACCESS_SECRET: ${{ secrets.X_ACCESS_SECRET }}
         run: node scripts/post-to-x.mjs
 
+      # 新着記事があれば、サイトの通知を購読している人へプッシュを送る。
+      # 送るのは「新着があった」という合図だけで、中身は各ブラウザの sw.js が組み立てる。
+      # push-config.json が無効、または PUSH_SEND_TOKEN が未設定なら何もしない。
+      - name: Send push notifications
+        continue-on-error: true
+        env:
+          PUSH_SEND_TOKEN: ${{ secrets.PUSH_SEND_TOKEN }}
+        run: node scripts/notify-push.mjs
+
       - name: Commit if changed
         run: |
           git add -A channels.json posts.json posts-archive.json assets/posts \
                     index.html archive.html posts feed.xml sitemap.xml \
-                    .x-drafted.json .x-posted.json
+                    .x-drafted.json .x-posted.json .push-sent.json
           if git diff --cached --quiet; then
             echo "変化なし。コミットしません。"
             exit 0
