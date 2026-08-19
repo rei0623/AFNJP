@@ -5,8 +5,56 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 18 Aug 2026 16:03:55 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 18 Aug 2026 23:47:33 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>ClaudeがGmail送信とGoogle Driveのファイル操作に対応</title>
+      <link>https://discord.com/channels/1415350002255007784/1415353403269185546/threads/1539420520875958382</link>
+      <guid isPermaLink="false">afnjp-1539420520875958382</guid>
+      <pubDate>Tue, 18 Aug 2026 23:47:33 GMT</pubDate>
+      <category>claude</category>
+      <description>Anthropicは、ClaudeからGmailのメール送信やGoogle Driveのファイル管理を直接実行できる新機能を発表しました。これまで情報を検索・要約・下書きするだけだったAIアシスタントから、外部サービスへ実際に変更を加える「実行型エージェン…</description>
+    </item>
+    <item>
+      <title>OpenAI「Codex CLI 0.148.0」公開、大規模更新で安定性を強化</title>
+      <link>https://discord.com/channels/1415350002255007784/1415355102939578490/threads/1539420431415771247</link>
+      <guid isPermaLink="false">afnjp-1539420431415771247</guid>
+      <pubDate>Tue, 18 Aug 2026 23:47:11 GMT</pubDate>
+      <category>codex</category>
+      <description>OpenAIは、AIコーディングエージェント「Codex」のRust実装について、正式版「rust-v0.148.0」を公開しました。GitHubのリリースページでは「Release 0.148.0」として提供されており、0.147.0からの比較では381…</description>
+    </item>
+    <item>
+      <title>Claudeが創薬研究を自動化、タンパク質設計で15標的中14標的に成功</title>
+      <link>https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1539420342433357854</link>
+      <guid isPermaLink="false">afnjp-1539420342433357854</guid>
+      <pubDate>Tue, 18 Aug 2026 23:46:50 GMT</pubDate>
+      <category>anthropic</category>
+      <description>Anthropicは2026年8月18日、Claudeを生命科学研究に活用した実験結果を公表しました。タンパク質結合体の設計では15標的中14標的で実験的な結合を確認し、分析化学ではNMRとLC-MSの生データを約20分で処理しました。汎用AIが「科学を説…</description>
+    </item>
+    <item>
+      <title>NVIDIA、ChatGPT Workで専門業務を自動化 GTC準備を週16時間削減</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1539419464569983107</link>
+      <guid isPermaLink="false">afnjp-1539419464569983107</guid>
+      <pubDate>Tue, 18 Aug 2026 23:43:21 GMT</pubDate>
+      <category>open-ai</category>
+      <description>NVIDIAが、ChatGPT Workを営業支援やAI情報分析などの実務に組み込み、専門知識を再利用可能なワークフローとして組織全体へ展開しています。OpenAIが2026年8月18日に公開した事例では、単なるチャット利用ではなく、情報収集、分析、判断支…</description>
+    </item>
+    <item>
+      <title>OpenAI、国家安全保障AIの「民主的監督」を強化へ 500万ドル規模で支援</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1539419365571829991</link>
+      <guid isPermaLink="false">afnjp-1539419365571829991</guid>
+      <pubDate>Tue, 18 Aug 2026 23:42:57 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIは2026年8月18日、民主主義国家の政府が国家安全保障分野でAIを利用する際、その運用を監督する公的機関の能力強化を支援する新たな取り組みを発表しました。今後1年間で500万ドル相当の研修、技術支援、OpenAIクレジットを提供し、AIによる…</description>
+    </item>
+    <item>
+      <title>OpenAI、サイバー能力高度化で最先端AIの学習を一時減速</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1539419271967285339</link>
+      <guid isPermaLink="false">afnjp-1539419271967285339</guid>
+      <pubDate>Tue, 18 Aug 2026 23:42:35 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIは2026年8月18日、高度なAIモデルが重大なサイバー攻撃能力を獲得する可能性を踏まえ、モデル開発の進め方と研究環境の安全基準を強化したと発表しました。最新モデルの強化学習を一時停止するなど、性能向上よりも監視・アラインメント・隔離対策を優先…</description>
+    </item>
     <item>
       <title>Asana、5年規模の技術負債をCodexで2週間に短縮</title>
       <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1539303846591987782</link>
@@ -54,54 +102,6 @@
       <pubDate>Tue, 18 Aug 2026 14:49:31 GMT</pubDate>
       <category>open-ai</category>
       <description>OpenAIは2026年8月18日、CodeAIとの提携を発表しました。生成AIを日常的に使う最初の世代となる学生に対し、単なる操作方法ではなく、AIの仕組みや限界を理解し、出力を批判的に評価する能力を育成することが狙いです。新たに展開する「ChatGPT…</description>
-    </item>
-    <item>
-      <title>Claude Codeに「/design」登場、UI設計から実装までをCLIで一体化</title>
-      <link>https://discord.com/channels/1415350002255007784/1415549165181599795/threads/1539055732081696849</link>
-      <guid isPermaLink="false">afnjp-1539055732081696849</guid>
-      <pubDate>Mon, 17 Aug 2026 23:38:00 GMT</pubDate>
-      <category>claude-code</category>
-      <description>Anthropicは、Claude CodeでUIデザインを作成できる新しい「/design」スキルを研究プレビューとして公開しました。Claude Designのアートボード型ワークフローをClaude CodeのCLIおよびDesktopへ持ち込み、デ…</description>
-    </item>
-    <item>
-      <title>Hermes Desktopに「Bot Mode」登場、専門AIエージェントを常設チーム化</title>
-      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1539055382079606916</link>
-      <guid isPermaLink="false">afnjp-1539055382079606916</guid>
-      <pubDate>Mon, 17 Aug 2026 23:36:37 GMT</pubDate>
-      <category>その他</category>
-      <description>Nous Researchは、Hermes Desktop向けに「Bot Mode」を導入しました。従来のエージェントプロファイルを、名前や役割を持つ独立した「Bot」として扱える仕組みで、モデル、メモリ、スキル、プロフィール画像をBotごとに設定できます…</description>
-    </item>
-    <item>
-      <title>Cursorが「Origin」発表、AIエージェント時代のコードホスティングへ進出</title>
-      <link>https://discord.com/channels/1415350002255007784/1416106151585644636/threads/1539054407466098729</link>
-      <guid isPermaLink="false">afnjp-1539054407466098729</guid>
-      <pubDate>Mon, 17 Aug 2026 23:32:44 GMT</pubDate>
-      <category>cursor</category>
-      <description>Cursorは2026年8月17日、Cursor上でコードを直接ホストできる新機能「Origin」を発表しました。初期ベータとして有料プラン向けに順次提供し、リポジトリ管理、Pull Request（PR）、コード閲覧、GitHub同期を一体化します。AI…</description>
-    </item>
-    <item>
-      <title>OpenAI、AI時代の政策実験に200万ドル規模の支援 「知能の時代」の経済と社会を再設計へ</title>
-      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1538894807638872184</link>
-      <guid isPermaLink="false">afnjp-1538894807638872184</guid>
-      <pubDate>Mon, 17 Aug 2026 12:58:33 GMT</pubDate>
-      <category>open-ai</category>
-      <description>OpenAIは2026年8月17日、AIの進歩に伴う経済機会の拡大と社会的レジリエンスの強化を目的に、独立機関が主導する14のプロジェクトを支援すると発表しました。総額100万ドルの助成金に加え、最大100万ドル相当のAPIクレジットを提供します。400件…</description>
-    </item>
-    <item>
-      <title>OpenAI、「守る側の猶予」を警告 AI時代のサイバー防御を全面自動化へ</title>
-      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1538894714517061662</link>
-      <guid isPermaLink="false">afnjp-1538894714517061662</guid>
-      <pubDate>Mon, 17 Aug 2026 12:58:11 GMT</pubDate>
-      <category>open-ai</category>
-      <description>OpenAIは2026年8月17日、共同創業者Greg Brockman氏による「The Defender’s Window」を公開しました。AIが現実のサイバー攻撃を自動化し始める一方、防御側もAIを使って脆弱性発見から修正までを高速化できるとして、企業…</description>
-    </item>
-    <item>
-      <title>OpenAI、オハイオ州で8GW級AI拠点へ NVIDIA・SB Energyと巨大計算基盤</title>
-      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1538894635223748659</link>
-      <guid isPermaLink="false">afnjp-1538894635223748659</guid>
-      <pubDate>Mon, 17 Aug 2026 12:57:52 GMT</pubDate>
-      <category>open-ai</category>
-      <description>OpenAIは2026年8月17日、米オハイオ州パイク郡の「PORTS-Pike Technology Campus」で約8GW-ITのAI計算能力を確保する契約を締結したと発表しました。SB Energy、NVIDIA、米エネルギー省と連携し、最先端AI…</description>
     </item>
   </channel>
 </rss>
