@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>DeepSeekが「DeepSeek Harness」を公開、AIエージェント基盤を“すべてプラグイン”で再設計 | AI Frontier News JP</title>
+<meta name="description" content="DeepSeek AIが、オープンソースのAIエージェント基盤「DeepSeek Harness（dsh）」を公開しています。最大の特徴は、モデル接続、ツール、セッション管理、エージェントループまでをプラグインとして交換可能にする設計です。現在はDeveloper Previewで、互換性を壊す変更が今後行われる…">
+<meta name="theme-color" content="#ffffff">
+<link rel="canonical" href="https://rei0623.github.io/AFNJP/posts/1537522384372768888.html">
+<link rel="icon" href="../AFNJP.jpg" type="image/jpeg">
+<link rel="alternate" type="application/rss+xml" title="AI Frontier News JP の最新記事" href="../feed.xml">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="AI Frontier News JP">
+<meta property="og:title" content="DeepSeekが「DeepSeek Harness」を公開、AIエージェント基盤を“すべてプラグイン”で再設計">
+<meta property="og:description" content="DeepSeek AIが、オープンソースのAIエージェント基盤「DeepSeek Harness（dsh）」を公開しています。最大の特徴は、モデル接続、ツール、セッション管理、エージェントループまでをプラグインとして交換可能にする設計です。現在はDeveloper Previewで、互換性を壊す変更が今後行われる…">
+<meta property="og:url" content="https://rei0623.github.io/AFNJP/posts/1537522384372768888.html">
+<meta property="og:image" content="https://rei0623.github.io/AFNJP/AFNJP.jpg">
+<meta property="og:locale" content="ja_JP">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@AI_FrontierNews">
+<meta name="twitter:title" content="DeepSeekが「DeepSeek Harness」を公開、AIエージェント基盤を“すべてプラグイン”で再設計">
+<meta name="twitter:description" content="DeepSeek AIが、オープンソースのAIエージェント基盤「DeepSeek Harness（dsh）」を公開しています。最大の特徴は、モデル接続、ツール、セッション管理、エージェントループまでをプラグインとして交換可能にする設計です。現在はDeveloper Previewで、互換性を壊す変更が今後行われる…">
+<meta name="twitter:image" content="https://rei0623.github.io/AFNJP/AFNJP.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=JetBrains+Mono:wght@400;500&family=Zen+Kaku+Gothic+New:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/article.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "NewsArticle",
+      "headline": "DeepSeekが「DeepSeek Harness」を公開、AIエージェント基盤を“すべてプラグイン”で再設計",
+      "description": "DeepSeek AIが、オープンソースのAIエージェント基盤「DeepSeek Harness（dsh）」を公開しています。最大の特徴は、モデル接続、ツール、セッション管理、エージェントループまでをプラグインとして交換可能にする設計です。現在はDeveloper Previewで、互換性を壊す変更が今後行われる…",
+      "inLanguage": "ja-JP",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://rei0623.github.io/AFNJP/posts/1537522384372768888.html"
+      },
+      "url": "https://rei0623.github.io/AFNJP/posts/1537522384372768888.html",
+      "datePublished": "2026-08-13T18:05:02.219Z",
+      "dateModified": "2026-08-13T18:05:02.219Z",
+      "image": [
+        "https://rei0623.github.io/AFNJP/AFNJP.jpg"
+      ],
+      "articleSection": "その他",
+      "author": {
+        "@type": "Organization",
+        "name": "AI Frontier News JP",
+        "url": "https://rei0623.github.io/AFNJP/"
+      },
+      "publisher": {
+        "@id": "https://rei0623.github.io/AFNJP/#org"
+      },
+      "isBasedOn": "https://github.com/deepseek-ai/deepseek-harness",
+      "citation": "https://github.com/deepseek-ai/deepseek-harness"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "トップ",
+          "item": "https://rei0623.github.io/AFNJP/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "記事一覧",
+          "item": "https://rei0623.github.io/AFNJP/archive.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "DeepSeekが「DeepSeek Harness」を公開、AIエージェント基盤を“すべてプラグイン”で再設計"
+        }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+
+<body>
+<header class="hd">
+    <div class="wrap">
+        <a href="../index.html" style="display:flex;align-items:center;gap:10px">
+            <img src="../AFNJP.jpg" alt="" width="30" height="30">
+            <b>AI Frontier News JP</b>
+        </a>
+        <nav>
+            <a href="../archive.html">記事一覧</a>
+            <a href="https://discord.gg/WUWE6Ev7yh" target="_blank" rel="noopener noreferrer">Discordに参加</a>
+        </nav>
+    </div>
+</header>
+
+<div class="wrap">
+    <p class="crumb">
+        <a href="../index.html">トップ</a><span>/</span><a href="../archive.html">記事一覧</a><span>/</span>その他
+    </p>
+
+    <article class="art">
+        <p class="tag">#deep-seek</p>
+        <h1>DeepSeekが「DeepSeek Harness」を公開、AIエージェント基盤を“すべてプラグイン”で再設計</h1>
+        <p class="when"><time datetime="2026-08-13T18:05:02.219Z">2026年8月14日</time></p>
+
+        
+
+        <p class="lead">DeepSeek AIが、オープンソースのAIエージェント基盤「DeepSeek Harness（dsh）」を公開しています。最大の特徴は、モデル接続、ツール、セッション管理、エージェントループまでをプラグインとして交換可能にする設計です。現在はDeveloper Previewで、互換性を壊す変更が今後行われる可能性があります。 0</p>
+
+        <section class="points">
+            <h2>記事で取り上げている点</h2>
+            <ul>
+                <li>「AIモデル」ではなくエージェント実行基盤</li>
+                <li>エージェントの処理をイベントとして分解</li>
+                <li>Web UIからすぐ試せる</li>
+                <li>AIエージェント競争は「モデルの外側」へ</li>
+                <li>結論</li>
+            </ul>
+        </section>
+
+        <p class="src">
+            <b>一次情報（出典）</b>
+            <a href="https://github.com/deepseek-ai/deepseek-harness" target="_blank" rel="noopener noreferrer nofollow">github.com</a>
+        </p>
+
+        <div class="cta">
+            <p>記事の全文と、この話題についてのやり取りは Discord にあります。</p>
+            <a class="btn" href="https://discord.com/channels/1415350002255007784/1419690651490193470/threads/1537522384372768888" target="_blank" rel="noopener noreferrer">Discordで全文を読む</a>
+            <p class="sub">参加は無料。読むだけの参加も歓迎です。</p>
+        </div>
+    </article>
+</div>
+
+<footer class="ft">
+    <div class="wrap">
+        <a href="../index.html">トップ</a>
+        <a href="../archive.html">記事一覧</a>
+        <a href="../feed.xml">RSS</a>
+        <a href="https://x.com/AI_FrontierNews" target="_blank" rel="noopener noreferrer">X</a>
+        <span class="r">AI Frontier News JP</span>
+    </div>
+</footer>
+</body>
+
+</html>

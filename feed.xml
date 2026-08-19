@@ -13,7 +13,7 @@
       <guid isPermaLink="false">afnjp-1539637529391931482</guid>
       <pubDate>Wed, 19 Aug 2026 14:09:52 GMT</pubDate>
       <category>open-ai</category>
-      <description>OpenAIは2026年8月19日、Replitが「GPT-5.6 Luna」を活用した「Free Mode」を導入すると発表しました。アイデアの整理や設計、分析などを利用量を消費せず進められる仕組みで、AIによるソフトウェア開発をより幅広いユーザーへ開放…</description>
+      <description>OpenAIは2026年8月19日、Replitが「GPT-5.6 Luna」を活用した「Free Mode」を導入すると発表しました。アイデアの整理や設計、分析などを利用量を消費せず進められる仕組みで、AIによるソフトウェア開発をより幅広いユーザーへ開放す…</description>
     </item>
     <item>
       <title>ChatGPT広告、欧州31カ国へ拡大 「検索広告」と異なる意思決定市場を狙う</title>
@@ -21,7 +21,7 @@
       <guid isPermaLink="false">afnjp-1539601354371366933</guid>
       <pubDate>Wed, 19 Aug 2026 11:46:07 GMT</pubDate>
       <category>chatgpt</category>
-      <description>OpenAIは2026年8月18日、ChatGPT Adsを欧州31市場へ拡大すると発表しました。米国で広告テストを開始してから約6カ月での大規模展開となり、ChatGPTを単なるAIチャットから、商品やサービスの比較・検討が行われる新たな広告接点へ発展さ…</description>
+      <description>OpenAIは2026年8月18日、ChatGPT Adsを欧州31市場へ拡大すると発表しました。米国で広告テストを開始してから約6カ月での大規模展開となり、ChatGPTを単なるAIチャットから、商品やサービスの比較・検討が行われる新たな広告接点へ発展させ…</description>
     </item>
     <item>
       <title>Google「Gemini」とBTSが連携、ファン向け4つの対話型AI体験を期間限定提供</title>
@@ -29,7 +29,7 @@
       <guid isPermaLink="false">afnjp-1539601231536726027</guid>
       <pubDate>Wed, 19 Aug 2026 11:45:38 GMT</pubDate>
       <category>gemini</category>
-      <description>Googleは2026年8月18日、Geminiアプリ内でBTSと連携した4つのインタラクティブ体験を公開しました。BTSメンバーが実際に使うプロンプトの紹介から、楽曲当て、最新情報の整理、韓国語学習までを生成AIと組み合わせ、ファン体験そのものをGemi…</description>
+      <description>Googleは2026年8月18日、Geminiアプリ内でBTSと連携した4つのインタラクティブ体験を公開しました。BTSメンバーが実際に使うプロンプトの紹介から、楽曲当て、最新情報の整理、韓国語学習までを生成AIと組み合わせ、ファン体験そのものをGemin…</description>
     </item>
     <item>
       <title>ClaudeがGmail送信とGoogle Driveのファイル操作に対応</title>
@@ -37,7 +37,7 @@
       <guid isPermaLink="false">afnjp-1539420520875958382</guid>
       <pubDate>Tue, 18 Aug 2026 23:47:33 GMT</pubDate>
       <category>claude</category>
-      <description>Anthropicは、ClaudeからGmailのメール送信やGoogle Driveのファイル管理を直接実行できる新機能を発表しました。これまで情報を検索・要約・下書きするだけだったAIアシスタントから、外部サービスへ実際に変更を加える「実行型エージェン…</description>
+      <description>Anthropicは、ClaudeからGmailのメール送信やGoogle Driveのファイル管理を直接実行できる新機能を発表しました。これまで情報を検索・要約・下書きするだけだったAIアシスタントから、外部サービスへ実際に変更を加える「実行型エージェント…</description>
     </item>
     <item>
       <title>OpenAI「Codex CLI 0.148.0」公開、大規模更新で安定性を強化</title>
@@ -45,7 +45,7 @@
       <guid isPermaLink="false">afnjp-1539420431415771247</guid>
       <pubDate>Tue, 18 Aug 2026 23:47:11 GMT</pubDate>
       <category>codex</category>
-      <description>OpenAIは、AIコーディングエージェント「Codex」のRust実装について、正式版「rust-v0.148.0」を公開しました。GitHubのリリースページでは「Release 0.148.0」として提供されており、0.147.0からの比較では381…</description>
+      <description>OpenAIは、AIコーディングエージェント「Codex」のRust実装について、正式版「rust-v0.148.0」を公開しました。GitHubのリリースページでは「Release 0.148.0」として提供されており、0.147.0からの比較では381件…</description>
     </item>
     <item>
       <title>Claudeが創薬研究を自動化、タンパク質設計で15標的中14標的に成功</title>
@@ -53,7 +53,7 @@
       <guid isPermaLink="false">afnjp-1539420342433357854</guid>
       <pubDate>Tue, 18 Aug 2026 23:46:50 GMT</pubDate>
       <category>anthropic</category>
-      <description>Anthropicは2026年8月18日、Claudeを生命科学研究に活用した実験結果を公表しました。タンパク質結合体の設計では15標的中14標的で実験的な結合を確認し、分析化学ではNMRとLC-MSの生データを約20分で処理しました。汎用AIが「科学を説…</description>
+      <description>Anthropicは2026年8月18日、Claudeを生命科学研究に活用した実験結果を公表しました。タンパク質結合体の設計では15標的中14標的で実験的な結合を確認し、分析化学ではNMRとLC-MSの生データを約20分で処理しました。汎用AIが「科学を説明…</description>
     </item>
     <item>
       <title>NVIDIA、ChatGPT Workで専門業務を自動化 GTC準備を週16時間削減</title>
@@ -61,7 +61,7 @@
       <guid isPermaLink="false">afnjp-1539419464569983107</guid>
       <pubDate>Tue, 18 Aug 2026 23:43:21 GMT</pubDate>
       <category>open-ai</category>
-      <description>NVIDIAが、ChatGPT Workを営業支援やAI情報分析などの実務に組み込み、専門知識を再利用可能なワークフローとして組織全体へ展開しています。OpenAIが2026年8月18日に公開した事例では、単なるチャット利用ではなく、情報収集、分析、判断支…</description>
+      <description>NVIDIAが、ChatGPT Workを営業支援やAI情報分析などの実務に組み込み、専門知識を再利用可能なワークフローとして組織全体へ展開しています。OpenAIが2026年8月18日に公開した事例では、単なるチャット利用ではなく、情報収集、分析、判断支援…</description>
     </item>
     <item>
       <title>OpenAI、国家安全保障AIの「民主的監督」を強化へ 500万ドル規模で支援</title>
@@ -69,7 +69,7 @@
       <guid isPermaLink="false">afnjp-1539419365571829991</guid>
       <pubDate>Tue, 18 Aug 2026 23:42:57 GMT</pubDate>
       <category>open-ai</category>
-      <description>OpenAIは2026年8月18日、民主主義国家の政府が国家安全保障分野でAIを利用する際、その運用を監督する公的機関の能力強化を支援する新たな取り組みを発表しました。今後1年間で500万ドル相当の研修、技術支援、OpenAIクレジットを提供し、AIによる…</description>
+      <description>OpenAIは2026年8月18日、民主主義国家の政府が国家安全保障分野でAIを利用する際、その運用を監督する公的機関の能力強化を支援する新たな取り組みを発表しました。今後1年間で500万ドル相当の研修、技術支援、OpenAIクレジットを提供し、AIによる意…</description>
     </item>
     <item>
       <title>OpenAI、サイバー能力高度化で最先端AIの学習を一時減速</title>
@@ -77,7 +77,7 @@
       <guid isPermaLink="false">afnjp-1539419271967285339</guid>
       <pubDate>Tue, 18 Aug 2026 23:42:35 GMT</pubDate>
       <category>open-ai</category>
-      <description>OpenAIは2026年8月18日、高度なAIモデルが重大なサイバー攻撃能力を獲得する可能性を踏まえ、モデル開発の進め方と研究環境の安全基準を強化したと発表しました。最新モデルの強化学習を一時停止するなど、性能向上よりも監視・アラインメント・隔離対策を優先…</description>
+      <description>OpenAIは2026年8月18日、高度なAIモデルが重大なサイバー攻撃能力を獲得する可能性を踏まえ、モデル開発の進め方と研究環境の安全基準を強化したと発表しました。最新モデルの強化学習を一時停止するなど、性能向上よりも監視・アラインメント・隔離対策を優先す…</description>
     </item>
     <item>
       <title>Asana、5年規模の技術負債をCodexで2週間に短縮</title>
@@ -85,7 +85,7 @@
       <guid isPermaLink="false">afnjp-1539303846591987782</guid>
       <pubDate>Tue, 18 Aug 2026 16:03:55 GMT</pubDate>
       <category>open-ai</category>
-      <description>OpenAIは2026年8月18日、業務管理サービスを提供するAsanaが、長年残っていたフロントエンドのテスト基盤刷新をCodexで自動化し、従来5年以上かかると見積もっていた作業を約2週間で完了した事例を公開しました。モデルとインフラの費用は約1万20…</description>
+      <description>OpenAIは2026年8月18日、業務管理サービスを提供するAsanaが、長年残っていたフロントエンドのテスト基盤刷新をCodexで自動化し、従来5年以上かかると見積もっていた作業を約2週間で完了した事例を公開しました。モデルとインフラの費用は約1万200…</description>
     </item>
     <item>
       <title>Google、Geminiデスクトップで「Computer Use」をテストか</title>
@@ -93,7 +93,7 @@
       <guid isPermaLink="false">afnjp-1539295739606466670</guid>
       <pubDate>Tue, 18 Aug 2026 15:31:43 GMT</pubDate>
       <category>リーク情報</category>
-      <description>Googleが、Geminiのデスクトップアプリから他のアプリを操作したり、指定フォルダ内のファイルへアクセスしたりできる「Computer Use」機能を開発している可能性が明らかになりました。TestingCatalogによると、アプリ設定内に関連する…</description>
+      <description>Googleが、Geminiのデスクトップアプリから他のアプリを操作したり、指定フォルダ内のファイルへアクセスしたりできる「Computer Use」機能を開発している可能性が明らかになりました。TestingCatalogによると、アプリ設定内に関連する痕…</description>
     </item>
     <item>
       <title>Anthropicが「Hub Mode」をテスト、Claudeの複数サブエージェント管理機能か</title>
@@ -101,7 +101,7 @@
       <guid isPermaLink="false">afnjp-1539295636095111249</guid>
       <pubDate>Tue, 18 Aug 2026 15:31:18 GMT</pubDate>
       <category>リーク情報</category>
-      <description>Anthropicが、Claudeのモバイルアプリで「Hub Mode」と呼ばれる新機能を内部テストしていることが確認されました。現時点では正式提供されておらず詳細も不明ですが、複数のサブエージェントを一元管理し、タスク進行を可視化するためのインターフェー…</description>
+      <description>Anthropicが、Claudeのモバイルアプリで「Hub Mode」と呼ばれる新機能を内部テストしていることが確認されました。現時点では正式提供されておらず詳細も不明ですが、複数のサブエージェントを一元管理し、タスク進行を可視化するためのインターフェース…</description>
     </item>
   </channel>
 </rss>
