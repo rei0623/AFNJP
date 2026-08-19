@@ -5,6 +5,8 @@
  * プッシュサービスへ送る主体がどこかに必要になる。それがこの Worker。
  *
  * 経路:
+ *   GET  /key          … VAPID の公開鍵。ブラウザが購読するのに必要
+ *   GET  /selftest     … 鍵ペアが噛み合っているかの診断（鍵そのものは返さない）
  *   POST /subscribe    … ブラウザから購読を受け取り KV に保存する
  *   POST /unsubscribe  … 購読を削除する
  *   POST /notify       … 新着があったとき GitHub Actions から叩く。50件ずつ送る
@@ -48,14 +50,29 @@ function b64uDecode(str) {
 /* ═══════════ VAPID ═══════════ */
 
 /**
+ * VAPID 公開鍵として妥当か。
+ * 非圧縮の楕円曲線点なので、必ず 65 バイトで 0x04 から始まる。
+ * 秘密鍵（32バイト）を取り違えて入れた場合はここで弾ける。
+ */
+function isValidPublicKey(value) {
+    if (typeof value !== 'string' || !/^[A-Za-z0-9_-]+$/.test(value)) return false;
+    try {
+        const raw = b64uDecode(value);
+        return raw.length === 65 && raw[0] === 0x04;
+    } catch {
+        return false;
+    }
+}
+
+/**
  * VAPID の署名鍵を読み込む。
  * 公開鍵は非圧縮点（0x04 || x(32) || y(32)）なので、そこから JWK を組む。
  */
 async function importSigningKey(publicKeyB64u, privateKeyB64u) {
-    const pub = b64uDecode(publicKeyB64u);
-    if (pub.length !== 65 || pub[0] !== 0x04) {
+    if (!isValidPublicKey(publicKeyB64u)) {
         throw new Error('VAPID_PUBLIC_KEY の形式が不正です（非圧縮の65バイトである必要があります）');
     }
+    const pub = b64uDecode(publicKeyB64u);
     return crypto.subtle.importKey(
         'jwk',
         {
@@ -130,6 +147,66 @@ export default {
 
         if (request.method === 'OPTIONS') {
             return new Response(null, { status: 204, headers: head });
+        }
+
+        /* ── VAPID 公開鍵 ──
+           公開鍵は仕様上ブラウザに配るものなので、隠す意味はない。
+           サイト側に鍵を書き写さずここから取らせることで、
+           Cloudflare 側とサイト側で鍵がずれる事故を防いでいる。 */
+        if (url.pathname === '/key' && request.method === 'GET') {
+            // 形式を検めてから返す。
+            // VAPID_PUBLIC_KEY に誤って秘密鍵（32バイト）が入れられた場合に
+            // それをそのまま公開してしまわないための歯止め。
+            // 公開鍵は非圧縮の楕円曲線点なので必ず 65 バイトで 0x04 から始まる。
+            if (!isValidPublicKey(env.VAPID_PUBLIC_KEY)) {
+                console.error('VAPID_PUBLIC_KEY の形式が不正です。値は返しません。');
+                return json({ error: 'server misconfigured' }, 500, head);
+            }
+            return json({ publicKey: env.VAPID_PUBLIC_KEY }, 200, {
+                ...head,
+                // 鍵はまず変わらないので、少しキャッシュさせて無駄な呼び出しを減らす
+                'Cache-Control': 'public, max-age=3600',
+            });
+        }
+
+        /* ── 自己診断 ──
+           鍵ペアが噛み合っているかを確認する。実際に JWT を署名し、
+           公開鍵で検証できるかを見るだけで、鍵そのものは一切返さない。
+           「通知が届かない」ときに、まずここを見れば原因を切り分けられる。 */
+        if (url.pathname === '/selftest' && request.method === 'GET') {
+            const result = { publicKeyFormat: false, keyPairMatches: false };
+            try {
+                result.publicKeyFormat = isValidPublicKey(env.VAPID_PUBLIC_KEY);
+                if (!result.publicKeyFormat) throw new Error('公開鍵の形式が不正');
+
+                const key = await importSigningKey(env.VAPID_PUBLIC_KEY, env.VAPID_PRIVATE_KEY);
+                const data = new TextEncoder().encode('afnjp-selftest');
+                const sig = await crypto.subtle.sign(
+                    { name: 'ECDSA', hash: 'SHA-256' }, key, data);
+
+                // 署名を「公開鍵だけ」で検証する。ここが通れば鍵ペアは対になっている
+                const pub = b64uDecode(env.VAPID_PUBLIC_KEY);
+                const verifyKey = await crypto.subtle.importKey(
+                    'jwk',
+                    {
+                        kty: 'EC', crv: 'P-256',
+                        x: b64uEncode(pub.slice(1, 33)),
+                        y: b64uEncode(pub.slice(33, 65)),
+                        ext: true, key_ops: ['verify'],
+                    },
+                    { name: 'ECDSA', namedCurve: 'P-256' }, true, ['verify'],
+                );
+                result.keyPairMatches = await crypto.subtle.verify(
+                    { name: 'ECDSA', hash: 'SHA-256' }, verifyKey, sig, data);
+            } catch (e) {
+                // 例外の中身は返さない（鍵に関する情報を漏らさないため）
+                console.error('selftest 失敗:', e.message);
+            }
+            result.subject = Boolean(env.VAPID_SUBJECT);
+            result.sendToken = Boolean(env.SEND_TOKEN);
+            result.ok = result.publicKeyFormat && result.keyPairMatches
+                && result.subject && result.sendToken;
+            return json(result, result.ok ? 200 : 500, head);
         }
 
         /* ── 購読の登録 ── */
