@@ -29,6 +29,12 @@
     <link rel="alternate" type="application/rss+xml" title="AI Frontier News JP の最新記事" href="feed.xml">
     <link rel="icon" href="AFNJP.jpg" type="image/jpeg">
 
+    <!-- ホーム画面に追加してアプリのように使うための設定。sw.js と対で動く。 -->
+    <link rel="manifest" href="manifest.webmanifest">
+    <link rel="apple-touch-icon" href="assets/icons/icon-192.png">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-title" content="AFNJP">
+
     <!-- Google Search Console の所有権確認。削除すると確認が外れるので消さないこと。 -->
     <meta name="google-site-verification" content="9aohNOFTFXKJ8zQVN42nPthuANA8EQ7atlTjp3CF1NU">
 
@@ -853,6 +859,58 @@
             justify-content: center;
             flex-wrap: wrap;
             gap: .7rem;
+        }
+
+        /* ══════ 更新の受け取り方（通知 / RSS / ホーム画面） ══════ */
+        .subs {
+            margin-top: 2.6rem;
+            border: 1px solid var(--line);
+            border-radius: 12px;
+            background: var(--paper-2);
+            padding: 1.8rem 1.4rem;
+            text-align: center;
+        }
+
+        .subs-h {
+            font-size: .78rem;
+            font-weight: 700;
+            letter-spacing: .08em;
+            color: var(--ink-2);
+        }
+
+        .subs-lead {
+            font-size: .9rem;
+            color: var(--ink-2);
+            margin-top: .4rem;
+        }
+
+        .subs-row {
+            margin-top: 1.1rem;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: .6rem;
+        }
+
+        .subs-b {
+            background: var(--paper);
+        }
+
+        /* .btn の display: inline-flex が hidden 属性に勝ってしまうため、明示的に打ち消す。
+           これが無いと、未設定のはずの通知ボタンが表示されてしまう。 */
+        .subs-b[hidden] {
+            display: none;
+        }
+
+        .subs-note {
+            margin-top: 1rem;
+            font-size: .74rem;
+            color: var(--ink-3);
+            line-height: 1.8;
+        }
+
+        .subs-note .mono {
+            font-family: var(--f-mono);
         }
 
         /* ══════ 記事の中身（構造） ══════ */
@@ -1943,6 +2001,25 @@
                         <span>続きはDiscordで読む</span>
                     </a>
                 </div>
+
+                <!-- 更新の受け取り方。Discordに入らない人でも追えるようにするための導線。
+                     通知ボタンは push-config.json が有効なときだけ JS が表示する。 -->
+                <div class="subs rv">
+                    <p class="subs-h">更新を受け取る</p>
+                    <p class="subs-lead">Discordに入らなくても、新しい記事が出たときに気づけます。</p>
+                    <div class="subs-row">
+                        <button class="btn btn-o subs-b" id="pushBtn" type="button" hidden>
+                            <span id="pushLabel">通知を受け取る</span>
+                        </button>
+                        <a class="btn btn-o subs-b" href="feed.xml">
+                            <span>RSSで購読</span>
+                        </a>
+                        <button class="btn btn-o subs-b" id="installBtn" type="button" hidden>
+                            <span>ホーム画面に追加</span>
+                        </button>
+                    </div>
+                    <p class="subs-note" id="subsNote">RSSリーダーに <span class="mono">feed.xml</span> を登録すると、新着がそのまま流れてきます。</p>
+                </div>
             </section>
 
             <!-- ════ 02 記事のつくり ════ -->
@@ -2823,6 +2900,137 @@
             fit();
             pullLive();
             setInterval(pullLive, 60000);
+        })();
+    </script>
+
+    <!--
+      ホーム画面への追加と、新着記事のプッシュ通知。
+      Discordに入らない人でも更新を追えるようにするための部分で、
+      サイト本体の表示には一切関与しない（失敗しても他が壊れないよう独立させている）。
+    -->
+    <script>
+        (() => {
+            'use strict';
+            const $ = s => document.querySelector(s);
+            const note = $('#subsNote');
+            const say = html => { if (note) note.innerHTML = html; };
+
+            /* ── Service Worker ── */
+            let swReg = null;
+            const swReady = (async () => {
+                if (!('serviceWorker' in navigator)) return null;
+                try {
+                    swReg = await navigator.serviceWorker.register('sw.js');
+                    return swReg;
+                } catch {
+                    return null; // 対応していない環境では黙って諦める
+                }
+            })();
+
+            /* ── ホーム画面に追加 ── */
+            let installEvent = null;
+            const installBtn = $('#installBtn');
+
+            addEventListener('beforeinstallprompt', e => {
+                // Chrome は既定のミニバーを出すので、こちらのボタンに置き換える
+                e.preventDefault();
+                installEvent = e;
+                if (installBtn) installBtn.hidden = false;
+            });
+
+            installBtn?.addEventListener('click', async () => {
+                if (!installEvent) return;
+                installEvent.prompt();
+                const { outcome } = await installEvent.userChoice;
+                installEvent = null;
+                installBtn.hidden = true;
+                if (outcome === 'accepted') say('ホーム画面に追加しました。アイコンから開けます。');
+            });
+
+            addEventListener('appinstalled', () => {
+                if (installBtn) installBtn.hidden = true;
+            });
+
+            /* ── プッシュ通知 ── */
+            const pushBtn = $('#pushBtn');
+            const pushLabel = $('#pushLabel');
+
+            /** VAPID の公開鍵は base64url。subscribe には Uint8Array で渡す必要がある */
+            function toKey(base64url) {
+                const pad = '='.repeat((4 - base64url.length % 4) % 4);
+                const raw = atob((base64url + pad).replace(/-/g, '+').replace(/_/g, '/'));
+                return Uint8Array.from(raw, c => c.charCodeAt(0));
+            }
+
+            (async () => {
+                if (!pushBtn) return;
+                if (!('PushManager' in window) || !('Notification' in window)) return;
+
+                let cfg;
+                try {
+                    cfg = await fetch('push-config.json', { cache: 'no-store' }).then(r => r.json());
+                } catch {
+                    return;
+                }
+                if (!cfg?.enabled || !cfg.endpoint || !cfg.publicKey) return; // 未設定なら出さない
+
+                const reg = await swReady;
+                if (!reg) return;
+
+                pushBtn.hidden = false;
+
+                const existing = await reg.pushManager.getSubscription();
+                let on = Boolean(existing);
+                const paint = () => { pushLabel.textContent = on ? '通知を停止する' : '通知を受け取る'; };
+                paint();
+
+                if (on) say('新しい記事が出たときに通知が届きます。');
+
+                pushBtn.addEventListener('click', async () => {
+                    pushBtn.disabled = true;
+                    try {
+                        if (on) {
+                            const sub = await reg.pushManager.getSubscription();
+                            if (sub) {
+                                // 先に自分の登録を消してから解除する（解除後は endpoint が取れなくなるため）
+                                await fetch(cfg.endpoint + '/unsubscribe', {
+                                    method: 'POST',
+                                    headers: { 'Content-Type': 'application/json' },
+                                    body: JSON.stringify({ endpoint: sub.endpoint }),
+                                }).catch(() => { });
+                                await sub.unsubscribe();
+                            }
+                            on = false;
+                            say('通知を停止しました。RSSでも新着を追えます。');
+                        } else {
+                            const perm = await Notification.requestPermission();
+                            if (perm !== 'granted') {
+                                say(perm === 'denied'
+                                    ? 'ブラウザ側で通知がブロックされています。サイトの設定から許可すると受け取れます。'
+                                    : '通知は許可されませんでした。');
+                                return;
+                            }
+                            const sub = await reg.pushManager.subscribe({
+                                userVisibleOnly: true,
+                                applicationServerKey: toKey(cfg.publicKey),
+                            });
+                            const res = await fetch(cfg.endpoint + '/subscribe', {
+                                method: 'POST',
+                                headers: { 'Content-Type': 'application/json' },
+                                body: JSON.stringify(sub),
+                            });
+                            if (!res.ok) throw new Error('登録に失敗しました');
+                            on = true;
+                            say('登録しました。新しい記事が出たときに通知が届きます。');
+                        }
+                    } catch (e) {
+                        say('うまくいきませんでした。時間をおいて試すか、RSSをご利用ください。');
+                    } finally {
+                        paint();
+                        pushBtn.disabled = false;
+                    }
+                });
+            })();
         })();
     </script>
 </body>

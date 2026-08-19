@@ -10,6 +10,10 @@
 <link rel="canonical" href="https://rei0623.github.io/AFNJP/posts/1539285228634251325.html">
 <link rel="icon" href="../AFNJP.jpg" type="image/jpeg">
 <link rel="alternate" type="application/rss+xml" title="AI Frontier News JP の最新記事" href="../feed.xml">
+<link rel="manifest" href="../manifest.webmanifest">
+<link rel="apple-touch-icon" href="../assets/icons/icon-192.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="AFNJP">
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="AI Frontier News JP">
 <meta property="og:title" content="OpenAI「ChatGPT for Teens」発表、13〜17歳を自動判定し学習支援と安全機能を標準化">
@@ -144,6 +148,11 @@
         <span class="r">AI Frontier News JP</span>
     </div>
 </footer>
+
+<script>
+// 記事ページから開いた場合でも、ホーム画面への追加とオフライン閲覧が効くようにする
+if ('serviceWorker' in navigator) navigator.serviceWorker.register('../sw.js').catch(() => {});
+</script>
 </body>
 
 </html>

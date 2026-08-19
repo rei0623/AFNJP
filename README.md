@@ -13,6 +13,10 @@ Discord コミュニティ「AI Frontier News JP」の公式ランディング�
 index.html            サイト本体(単一ファイル。CSS/JS 同梱)
 archive.html          記事アーカイブの一覧(自動生成)
 posts/<id>.html       個別記事ページ(自動生成)
+manifest.webmanifest  ホーム画面に追加するための設定(PWA)
+sw.js                 Service Worker。オフライン閲覧とプッシュ通知の受け口
+push-config.json      プッシュ通知の公開設定(公開鍵と Worker のURL。秘密は入れない)
+push-worker/          プッシュ配信用の Cloudflare Worker(サイトからは配信されない)
 posts.json            最新記事データ(Bot が毎時自動生成)
 posts-archive.json    過去記事の蓄積。追記のみで消さない(Bot が毎時自動生成)
 channels.json         チャンネル構成データ(Bot が毎時自動生成)
@@ -24,7 +28,9 @@ scripts/
   generate-seo.mjs    記事ページ・一覧・静的化・feed / sitemap を生成
   post-x-drafts.mjs   新着記事の X 投稿用の下書きを #x-下書き へ送る
   post-to-x.mjs       #x-下書き で ✅ が付いた下書きだけを X へ投稿する
+  notify-push.mjs     新着があれば Worker を叩いてプッシュ通知を送る
   lib/oauth1.mjs      X 投稿に使う OAuth 1.0a 署名(node:crypto のみ)
+  lib/*.test.mjs      署名まわりの検証(npm test)
 .github/workflows/
   update-channels.yml 毎時 :17 (UTC) に同期と静的化を実行するワークフロー
 feed.xml              最新記事の RSS フィード(自動生成)
@@ -136,6 +142,96 @@ X 側で必要な設定:
 
 OAuth 1.0a の署名は `scripts/lib/oauth1.mjs` に自前で実装しています(依存を増やさないため)。
 `npm test` で、X 公式ドキュメントに載っている既知の署名例と一致することを確認できます。
+
+## 更新の受け取り方(PWA / RSS / プッシュ通知)
+
+Discord に入りたくない人でもサイト側で新着を追えるようにするための仕組みです。
+トップの「更新を受け取る」ブロックにまとまっています。
+
+| 手段 | 状態 | 必要なもの |
+|---|---|---|
+| RSS (`feed.xml`) | 有効 | なし |
+| ホーム画面に追加(PWA) | 有効 | なし |
+| プッシュ通知 | **無効(要設定)** | Cloudflare アカウント |
+
+### PWA
+
+`manifest.webmanifest` と `sw.js` で、ホーム画面に追加するとアプリのように起動し、
+一度開いた記事はオフラインでも読めます。
+
+キャッシュ方針は `sw.js` の冒頭に書いてあります。要点は
+**HTML と JSON はネットワーク優先**(記事が毎時更新されるため)、
+**CSS と画像はキャッシュ優先**(画像のファイル名は記事IDなので中身が変わらない)。
+
+`sw.js` の `VERSION` を上げると、次の訪問で古いキャッシュが破棄されます。
+配信するファイルの構成を変えたときは上げてください。
+
+### プッシュ通知
+
+**通知はペイロードを持ちません。** 「新着があった」という合図だけを送り、
+文面はブラウザ側の `sw.js` が `posts.json` を読んで組み立てます。
+本文を載せると購読者ごとに暗号化が必要になり、Cloudflare Workers 無料枠の
+CPU 制限(10ms/リクエスト)に収まらないためです。
+副次的な利点として、**通知の文面はサーバーを触らずに変えられます**。
+
+```text
+ブラウザ ──購読──▶ Cloudflare Worker ──▶ Workers KV(購読者を保存)
+                          ▲
+毎時の GitHub Actions ─────┘  新着があれば /notify を叩く
+   scripts/notify-push.mjs      Worker が各ブラウザへプッシュ
+                                       │
+                                       ▼
+                              sw.js が posts.json を読んで通知を表示
+```
+
+**注意: iPhone はホーム画面に追加した場合のみ通知が届きます**(Safari のタブのままでは届かない)。
+Android と PC の Chrome / Edge / Firefox は通常のタブでも届きます。
+
+#### 有効にする手順
+
+1. **VAPID の鍵ペアを作る**(自分の手元で。秘密鍵を他人に渡さないこと)
+
+   ```bash
+   npx web-push generate-vapid-keys
+   ```
+
+2. **Worker をデプロイする**
+
+   ```bash
+   cd push-worker
+   npx wrangler login
+   npx wrangler kv namespace create SUBS   # 出力された id を wrangler.toml に貼る
+   npx wrangler secret put VAPID_PUBLIC_KEY
+   npx wrangler secret put VAPID_PRIVATE_KEY
+   npx wrangler secret put VAPID_SUBJECT    # mailto:あなたのメール
+   npx wrangler secret put SEND_TOKEN       # 自分で決めた長いランダム文字列
+   npx wrangler deploy
+   ```
+
+3. **`push-config.json` を編集する**(公開鍵と Worker の URL。どちらも公開情報)
+
+   ```json
+   {
+     "enabled": true,
+     "endpoint": "https://afnjp-push.<あなた>.workers.dev",
+     "publicKey": "<VAPID の公開鍵>"
+   }
+   ```
+
+4. **GitHub Secrets に `PUSH_SEND_TOKEN`** を登録する(手順2の `SEND_TOKEN` と同じ値)
+
+**秘密鍵と SEND_TOKEN は絶対にリポジトリに置かないこと。**
+`push-config.json` に入れてよいのは公開鍵と Worker の URL だけです。
+
+設定が1つでも欠けている間は `scripts/notify-push.mjs` が何もせず正常終了し、
+サイト側の通知ボタンも表示されません。
+
+#### 費用
+
+Cloudflare Workers 無料枠は 10万リクエスト/日、KV は 読み10万/日・書き1,000/日・1GB。
+購読1件につき KV 書き込み1回、通知1回につき購読者数ぶんの読み取りと送信です。
+**Workers のサブリクエスト上限が 50/リクエスト**のため、`/notify` は45件ずつ処理し、
+`notify-push.mjs` がカーソルで残りを回します。
 
 ## カバー画像の扱い
 

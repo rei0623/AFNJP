@@ -419,6 +419,10 @@ function articleHtml(post) {
 <link rel="canonical" href="${escHtml(url)}">
 <link rel="icon" href="../AFNJP.jpg" type="image/jpeg">
 <link rel="alternate" type="application/rss+xml" title="AI Frontier News JP の最新記事" href="../feed.xml">
+<link rel="manifest" href="../manifest.webmanifest">
+<link rel="apple-touch-icon" href="../assets/icons/icon-192.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="AFNJP">
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="AI Frontier News JP">
 <meta property="og:title" content="${escHtml(post.title)}">
@@ -480,6 +484,11 @@ ${headings.map(h => `                <li>${escHtml(h)}</li>`).join('\n')}
 </div>
 
 ${siteFooter(1)}
+
+<script>
+// 記事ページから開いた場合でも、ホーム画面への追加とオフライン閲覧が効くようにする
+if ('serviceWorker' in navigator) navigator.serviceWorker.register('../sw.js').catch(() => {});
+</script>
 </body>
 
 </html>
@@ -539,6 +548,10 @@ function archiveHtml(posts) {
 <link rel="canonical" href="${url}">
 <link rel="icon" href="AFNJP.jpg" type="image/jpeg">
 <link rel="alternate" type="application/rss+xml" title="AI Frontier News JP の最新記事" href="feed.xml">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="assets/icons/icon-192.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="AFNJP">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="AI Frontier News JP">
 <meta property="og:title" content="記事一覧 | AI Frontier News JP">
@@ -571,6 +584,10 @@ ${sections.join('\n')}
 </div>
 
 ${siteFooter(0)}
+
+<script>
+if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(() => {});
+</script>
 </body>
 
 </html>

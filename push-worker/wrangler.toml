@@ -1,0 +1,25 @@
+# AFNJP のプッシュ通知配信 Worker
+#
+# デプロイ:
+#   cd push-worker
+#   npx wrangler login
+#   npx wrangler kv namespace create SUBS      ← 出力された id を下に貼る
+#   npx wrangler secret put VAPID_PUBLIC_KEY
+#   npx wrangler secret put VAPID_PRIVATE_KEY
+#   npx wrangler secret put VAPID_SUBJECT
+#   npx wrangler secret put SEND_TOKEN
+#   npx wrangler deploy
+#
+# シークレットは wrangler が対話的に受け取るので、このファイルには絶対に書かないこと。
+
+name = "afnjp-push"
+main = "src/worker.js"
+compatibility_date = "2026-08-01"
+
+# npx wrangler kv namespace create SUBS の出力に置き換える
+[[kv_namespaces]]
+binding = "SUBS"
+id = "ここに KV namespace の id を貼る"
+
+[observability]
+enabled = true

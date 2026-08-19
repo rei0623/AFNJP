@@ -1,0 +1,5 @@
+{
+  "note": "最後に通知した記事ID。scripts/notify-push.mjs が更新する。last_id が空のうちは「未初期化」として扱われ、最初の実行では通知を送らずに現在の最新を記録するだけになる。",
+  "initialized_at": null,
+  "last_id": null
+}
