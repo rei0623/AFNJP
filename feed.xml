@@ -5,8 +5,32 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 19 Aug 2026 15:46:26 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 19 Aug 2026 16:58:15 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Sunoがプレイリスト機能を強化、楽曲整理と発見体験を刷新</title>
+      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1539679905472843806</link>
+      <guid isPermaLink="false">afnjp-1539679905472843806</guid>
+      <pubDate>Wed, 19 Aug 2026 16:58:15 GMT</pubDate>
+      <category>その他</category>
+      <description>AI音楽生成サービス「Suno」は2026年8月18日、Webおよびモバイル向けのプレイリスト機能改善を発表しました。楽曲の追加・並べ替え、プレイリスト検索、ライブラリ整理、カバーアート生成などを強化し、生成した楽曲を「作る」だけでなく「整理して聴く」ための…</description>
+    </item>
+    <item>
+      <title>Liquid AI、4bit量子化の精度低下を蒸留で回復 LFM2.5にQAD導入</title>
+      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1539679482305319035</link>
+      <guid isPermaLink="false">afnjp-1539679482305319035</guid>
+      <pubDate>Wed, 19 Aug 2026 16:56:34 GMT</pubDate>
+      <category>その他</category>
+      <description>Liquid AIは2026年8月19日、LFM2.5シリーズ向けに「Quantization-Aware Distillation（QAD）」で学習した新しい4bit量子化モデルを公開しました。対象は230M、350M、1.2B、2.6Bの4モデルで、低メ…</description>
+    </item>
+    <item>
+      <title>Grok 4.6がAmazon Bedrockで一般提供、50万トークンと推論強度設定に対応</title>
+      <link>https://discord.com/channels/1415350002255007784/1468059501528744140/threads/1539679393633538088</link>
+      <guid isPermaLink="false">afnjp-1539679393633538088</guid>
+      <pubDate>Wed, 19 Aug 2026 16:56:13 GMT</pubDate>
+      <category>space-x</category>
+      <description>xAIは2026年8月19日、最新のフラッグシップAIモデル「Grok 4.6」をAmazon Bedrockで一般提供開始したと発表しました。長時間動作するAIエージェントやインタラクティブ、ビジュアル系の処理を想定したモデルで、最大50万トークンのコンテ…</description>
+    </item>
     <item>
       <title>Ornith-1.5登場、AIが自ら課題を作り学習する「自己改善ループ」へ</title>
       <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1539661831621185577</link>
@@ -78,30 +102,6 @@
       <pubDate>Tue, 18 Aug 2026 23:42:57 GMT</pubDate>
       <category>open-ai</category>
       <description>OpenAIは2026年8月18日、民主主義国家の政府が国家安全保障分野でAIを利用する際、その運用を監督する公的機関の能力強化を支援する新たな取り組みを発表しました。今後1年間で500万ドル相当の研修、技術支援、OpenAIクレジットを提供し、AIによる意…</description>
-    </item>
-    <item>
-      <title>OpenAI、サイバー能力高度化で最先端AIの学習を一時減速</title>
-      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1539419271967285339</link>
-      <guid isPermaLink="false">afnjp-1539419271967285339</guid>
-      <pubDate>Tue, 18 Aug 2026 23:42:35 GMT</pubDate>
-      <category>open-ai</category>
-      <description>OpenAIは2026年8月18日、高度なAIモデルが重大なサイバー攻撃能力を獲得する可能性を踏まえ、モデル開発の進め方と研究環境の安全基準を強化したと発表しました。最新モデルの強化学習を一時停止するなど、性能向上よりも監視・アラインメント・隔離対策を優先す…</description>
-    </item>
-    <item>
-      <title>Asana、5年規模の技術負債をCodexで2週間に短縮</title>
-      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1539303846591987782</link>
-      <guid isPermaLink="false">afnjp-1539303846591987782</guid>
-      <pubDate>Tue, 18 Aug 2026 16:03:55 GMT</pubDate>
-      <category>open-ai</category>
-      <description>OpenAIは2026年8月18日、業務管理サービスを提供するAsanaが、長年残っていたフロントエンドのテスト基盤刷新をCodexで自動化し、従来5年以上かかると見積もっていた作業を約2週間で完了した事例を公開しました。モデルとインフラの費用は約1万200…</description>
-    </item>
-    <item>
-      <title>Google、Geminiデスクトップで「Computer Use」をテストか</title>
-      <link>https://discord.com/channels/1415350002255007784/1415534435712897124/threads/1539295739606466670</link>
-      <guid isPermaLink="false">afnjp-1539295739606466670</guid>
-      <pubDate>Tue, 18 Aug 2026 15:31:43 GMT</pubDate>
-      <category>リーク情報</category>
-      <description>Googleが、Geminiのデスクトップアプリから他のアプリを操作したり、指定フォルダ内のファイルへアクセスしたりできる「Computer Use」機能を開発している可能性が明らかになりました。TestingCatalogによると、アプリ設定内に関連する痕…</description>
     </item>
   </channel>
 </rss>
