@@ -1,9 +1,29 @@
 {
-  "generated_at": "2026-08-20T16:49:30.275Z",
+  "generated_at": "2026-08-20T17:44:24.477Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 52,
+  "count": 53,
   "posts": [
+    {
+      "id": "1540046884905816189",
+      "title": "Stampli、ChatGPT WorkとCodexで市場投入を3.16倍高速化",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-08-20T17:16:30.049Z",
+      "excerpt": "OpenAIは2026年8月20日、調達・買掛金管理などを手掛けるStampliが、ChatGPT WorkとCodexを製品マーケティングへ組み込み、新サービス「Deep Finance」の市場投入を大幅に高速化した事例を公開しました。従来なら約243時間…",
+      "lead": "OpenAIは2026年8月20日、調達・買掛金管理などを手掛けるStampliが、ChatGPT WorkとCodexを製品マーケティングへ組み込み、新サービス「Deep Finance」の市場投入を大幅に高速化した事例を公開しました。従来なら約243時間と見積もられた制作工程を約77時間まで圧縮し、約166時間を削減したとしています。",
+      "headings": [
+        "プロトタイプから約6週間で市場投入",
+        "AIを「コンテンツ生成」ではなく情報基盤に",
+        "経営判断にもリアルタイムでAIを投入",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/stampli/",
+      "source_label": "openai.com",
+      "cover": "assets/posts/1540046884905816189.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1540046884905816189",
+      "first_seen": "2026-08-20T17:16:30.049Z"
+    },
     {
       "id": "1539784421928869918",
       "title": "Claude Managed Agents強化、自己ホスト環境のMemory対応やドメイン制御を追加",

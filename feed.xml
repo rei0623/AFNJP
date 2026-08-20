@@ -5,8 +5,16 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 19 Aug 2026 23:53:33 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 20 Aug 2026 17:16:30 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Stampli、ChatGPT WorkとCodexで市場投入を3.16倍高速化</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1540046884905816189</link>
+      <guid isPermaLink="false">afnjp-1540046884905816189</guid>
+      <pubDate>Thu, 20 Aug 2026 17:16:30 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIは2026年8月20日、調達・買掛金管理などを手掛けるStampliが、ChatGPT WorkとCodexを製品マーケティングへ組み込み、新サービス「Deep Finance」の市場投入を大幅に高速化した事例を公開しました。従来なら約243時間…</description>
+    </item>
     <item>
       <title>Claude Managed Agents強化、自己ホスト環境のMemory対応やドメイン制御を追加</title>
       <link>https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1539784421928869918</link>
@@ -94,14 +102,6 @@
       <pubDate>Wed, 19 Aug 2026 16:56:13 GMT</pubDate>
       <category>space-x</category>
       <description>xAIは2026年8月19日、最新のフラッグシップAIモデル「Grok 4.6」をAmazon Bedrockで一般提供開始したと発表しました。長時間動作するAIエージェントやインタラクティブ、ビジュアル系の処理を想定したモデルで、最大50万トークンのコンテ…</description>
-    </item>
-    <item>
-      <title>Ornith-1.5登場、AIが自ら課題を作り学習する「自己改善ループ」へ</title>
-      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1539661831621185577</link>
-      <guid isPermaLink="false">afnjp-1539661831621185577</guid>
-      <pubDate>Wed, 19 Aug 2026 15:46:26 GMT</pubDate>
-      <category>その他</category>
-      <description>Ornith Teamは2026年8月、基盤モデル「Ornith-1.5」を発表しました。最大の特徴は、AIが与えられた課題を解くだけでなく、自ら新しい学習課題を生成し、その課題に適した実行方法や評価環境まで構築しながら強化学習を進める「自己改善ループ」です…</description>
     </item>
   </channel>
 </rss>
