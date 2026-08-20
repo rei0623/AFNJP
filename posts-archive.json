@@ -1,9 +1,50 @@
 {
-  "generated_at": "2026-08-20T21:41:55.181Z",
+  "generated_at": "2026-08-20T22:42:48.222Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 53,
+  "count": 55,
   "posts": [
+    {
+      "id": "1540128858416611378",
+      "title": "Grokのアプリ生成機能、全SuperGrok・X Premiumプランへ拡大",
+      "channel": "grok",
+      "category": "Space X",
+      "date": "2026-08-20T22:42:14.057Z",
+      "excerpt": "xAIのGrokは、grok.com、iOS、Androidから利用できるアプリ構築機能について、すべてのSuperGrokおよびX Premiumプランへ提供範囲を拡大しました。自然言語でアイデアを入力するだけで、アプリを生成し、独自ドメインを持つ公開プロ…",
+      "lead": "xAIのGrokは、grok.com、iOS、Androidから利用できるアプリ構築機能について、すべてのSuperGrokおよびX Premiumプランへ提供範囲を拡大しました。自然言語でアイデアを入力するだけで、アプリを生成し、独自ドメインを持つ公開プロダクトまで仕上げられる点が特徴です。",
+      "headings": [
+        "1プロンプトから「公開」までを一体化",
+        "有料ユーザーへの開放が示す戦略",
+        "エンジニアにも影響する開発体験の変化",
+        "今後の展望"
+      ],
+      "source_url": "https://twitter.com/grok/status/2090518541480898973",
+      "source_label": "twitter.com",
+      "cover": "assets/posts/1540128858416611378.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417803120225816596/threads/1540128858416611378",
+      "first_seen": "2026-08-20T22:42:14.057Z"
+    },
+    {
+      "id": "1540128762027450560",
+      "title": "OpenAIが「AI Futures」始動、超高度AI時代の権力集中と自由を再設計へ",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-08-20T22:41:51.076Z",
+      "excerpt": "OpenAIは2026年8月20日、新チーム「Strategic Futures」によるブログ「AI Futures」の開始を発表しました。中心テーマは、変革的なAIが登場する社会で、個人の権利や主体性を維持しながら自由社会をどのように再構築するかです。なお…",
+      "lead": "OpenAIは2026年8月20日、新チーム「Strategic Futures」によるブログ「AI Futures」の開始を発表しました。中心テーマは、変革的なAIが登場する社会で、個人の権利や主体性を維持しながら自由社会をどのように再構築するかです。なお、今回の記事は著者Dean Ball氏個人の見解であり、OpenAI全体の公式見解ではないと明記されています。",
+      "headings": [
+        "AIが変えるのは仕事だけではなく「権力の構造」",
+        "「完全な分散化」も解決策ではない",
+        "AIガバナンスに「追跡可能性」と匿名性を両立",
+        "企業そのものもAIで変形する",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/introducing-ai-futures/",
+      "source_label": "openai.com",
+      "cover": "assets/posts/1540128762027450560.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1540128762027450560",
+      "first_seen": "2026-08-20T22:41:51.076Z"
+    },
     {
       "id": "1540046884905816189",
       "title": "Stampli、ChatGPT WorkとCodexで市場投入を3.16倍高速化",

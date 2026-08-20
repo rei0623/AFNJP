@@ -5,8 +5,24 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 20 Aug 2026 17:16:30 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 20 Aug 2026 22:42:14 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Grokのアプリ生成機能、全SuperGrok・X Premiumプランへ拡大</title>
+      <link>https://discord.com/channels/1415350002255007784/1417803120225816596/threads/1540128858416611378</link>
+      <guid isPermaLink="false">afnjp-1540128858416611378</guid>
+      <pubDate>Thu, 20 Aug 2026 22:42:14 GMT</pubDate>
+      <category>grok</category>
+      <description>xAIのGrokは、grok.com、iOS、Androidから利用できるアプリ構築機能について、すべてのSuperGrokおよびX Premiumプランへ提供範囲を拡大しました。自然言語でアイデアを入力するだけで、アプリを生成し、独自ドメインを持つ公開プロ…</description>
+    </item>
+    <item>
+      <title>OpenAIが「AI Futures」始動、超高度AI時代の権力集中と自由を再設計へ</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1540128762027450560</link>
+      <guid isPermaLink="false">afnjp-1540128762027450560</guid>
+      <pubDate>Thu, 20 Aug 2026 22:41:51 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIは2026年8月20日、新チーム「Strategic Futures」によるブログ「AI Futures」の開始を発表しました。中心テーマは、変革的なAIが登場する社会で、個人の権利や主体性を維持しながら自由社会をどのように再構築するかです。なお…</description>
+    </item>
     <item>
       <title>Stampli、ChatGPT WorkとCodexで市場投入を3.16倍高速化</title>
       <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1540046884905816189</link>
@@ -86,22 +102,6 @@
       <pubDate>Wed, 19 Aug 2026 16:58:15 GMT</pubDate>
       <category>その他</category>
       <description>AI音楽生成サービス「Suno」は2026年8月18日、Webおよびモバイル向けのプレイリスト機能改善を発表しました。楽曲の追加・並べ替え、プレイリスト検索、ライブラリ整理、カバーアート生成などを強化し、生成した楽曲を「作る」だけでなく「整理して聴く」ための…</description>
-    </item>
-    <item>
-      <title>Liquid AI、4bit量子化の精度低下を蒸留で回復 LFM2.5にQAD導入</title>
-      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1539679482305319035</link>
-      <guid isPermaLink="false">afnjp-1539679482305319035</guid>
-      <pubDate>Wed, 19 Aug 2026 16:56:34 GMT</pubDate>
-      <category>その他</category>
-      <description>Liquid AIは2026年8月19日、LFM2.5シリーズ向けに「Quantization-Aware Distillation（QAD）」で学習した新しい4bit量子化モデルを公開しました。対象は230M、350M、1.2B、2.6Bの4モデルで、低メ…</description>
-    </item>
-    <item>
-      <title>Grok 4.6がAmazon Bedrockで一般提供、50万トークンと推論強度設定に対応</title>
-      <link>https://discord.com/channels/1415350002255007784/1468059501528744140/threads/1539679393633538088</link>
-      <guid isPermaLink="false">afnjp-1539679393633538088</guid>
-      <pubDate>Wed, 19 Aug 2026 16:56:13 GMT</pubDate>
-      <category>space-x</category>
-      <description>xAIは2026年8月19日、最新のフラッグシップAIモデル「Grok 4.6」をAmazon Bedrockで一般提供開始したと発表しました。長時間動作するAIエージェントやインタラクティブ、ビジュアル系の処理を想定したモデルで、最大50万トークンのコンテ…</description>
     </item>
   </channel>
 </rss>
