@@ -1,8 +1,48 @@
 {
-  "generated_at": "2026-08-20T22:42:48.223Z",
+  "generated_at": "2026-08-20T23:37:38.990Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1540129170665906206",
+      "title": "OpenAI Codex「rust-v0.149.0」公開、Rust実装が0.149.0へ更新",
+      "channel": "codex",
+      "category": "Open AI",
+      "date": "2026-08-20T22:43:28.503Z",
+      "excerpt": "OpenAIは、GitHub上の「openai/codex」リポジトリで「rust-v0.149.0」を公開しました。リリースページでは「Release 0.149.0」として登録されており、CodexのRust実装に対する新しいバージョンとして位置付けられ…",
+      "lead": "OpenAIは、GitHub上の「openai/codex」リポジトリで「rust-v0.149.0」を公開しました。リリースページでは「Release 0.149.0」として登録されており、CodexのRust実装に対する新しいバージョンとして位置付けられています。",
+      "headings": [
+        "rust-v0.149.0が公開",
+        "詳細な変更内容はページ上で確認できず",
+        "エンジニアが確認すべきポイント",
+        "今後の展望"
+      ],
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.149.0",
+      "source_label": "github.com",
+      "cover": "assets/posts/1540129170665906206.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415355102939578490/threads/1540129170665906206",
+      "first_seen": "2026-08-20T22:43:28.503Z"
+    },
+    {
+      "id": "1540129063853625454",
+      "title": "ChatGPTがApple「メッセージ」と連携、Mac上で検索から返信送信まで可能に",
+      "channel": "chatgpt",
+      "category": "Open AI",
+      "date": "2026-08-20T22:43:03.037Z",
+      "excerpt": "OpenAIは、Appleの「メッセージ」アプリをChatGPTから操作できる新しいMessagesプラグインを公開しました。Mac上のChatGPT WorkとCodexから、過去のメッセージ検索、会話内容の把握、返信文の作成、送信までを一連のワークフロー…",
+      "lead": "OpenAIは、Appleの「メッセージ」アプリをChatGPTから操作できる新しいMessagesプラグインを公開しました。Mac上のChatGPT WorkとCodexから、過去のメッセージ検索、会話内容の把握、返信文の作成、送信までを一連のワークフローとして実行できます。",
+      "headings": [
+        "メッセージを「読む」だけでなく「処理する」AIへ",
+        "ChatGPT WorkとCodexの役割が拡大",
+        "利便性と同時に権限管理が重要に",
+        "今後の展望"
+      ],
+      "source_url": "https://twitter.com/ChatGPT/status/2090499359641329950",
+      "source_label": "twitter.com",
+      "cover": "assets/posts/1540129063853625454.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415353131604377641/threads/1540129063853625454",
+      "first_seen": "2026-08-20T22:43:03.037Z"
+    },
     {
       "id": "1540128858416611378",
       "title": "Grokのアプリ生成機能、全SuperGrok・X Premiumプランへ拡大",
@@ -206,47 +246,6 @@
       "cover": "assets/posts/1539731023321890949.webp",
       "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1539731023321890949",
       "first_seen": "2026-08-19T20:21:22.779Z"
-    },
-    {
-      "id": "1539730826244128859",
-      "title": "OpenAI、最先端モデルでも「Zero Data Retention」を維持へ 安全監視を秘匿化する新方式",
-      "channel": "open-ai",
-      "category": "Open AI",
-      "date": "2026-08-19T20:20:35.792Z",
-      "excerpt": "OpenAIは2026年8月19日、API顧客向けのZero Data Retention（ZDR）を維持しながら、高度化するAIの安全監視を強化する「Private Safety Processing」を発表しました。複数のやり取りを横断してリスクを検知し…",
-      "lead": "OpenAIは2026年8月19日、API顧客向けのZero Data Retention（ZDR）を維持しながら、高度化するAIの安全監視を強化する「Private Safety Processing」を発表しました。複数のやり取りを横断してリスクを検知しつつ、OpenAIの担当者が顧客のプロンプトや応答内容そのものを閲覧できない設計を目指します。",
-      "headings": [
-        "ZDRと高度な安全監視を両立",
-        "Private Safety Processingの仕組み",
-        "企業AI導入にとって重要な意味",
-        "今後の展望"
-      ],
-      "source_url": "https://openai.com/index/our-commitment-to-zero-data-retention/",
-      "source_label": "openai.com",
-      "cover": "assets/posts/1539730826244128859.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1539730826244128859",
-      "first_seen": "2026-08-19T20:20:35.792Z"
-    },
-    {
-      "id": "1539679905472843806",
-      "title": "Sunoがプレイリスト機能を強化、楽曲整理と発見体験を刷新",
-      "channel": "その他",
-      "category": "その他",
-      "date": "2026-08-19T16:58:15.334Z",
-      "excerpt": "AI音楽生成サービス「Suno」は2026年8月18日、Webおよびモバイル向けのプレイリスト機能改善を発表しました。楽曲の追加・並べ替え、プレイリスト検索、ライブラリ整理、カバーアート生成などを強化し、生成した楽曲を「作る」だけでなく「整理して聴く」ための…",
-      "lead": "AI音楽生成サービス「Suno」は2026年8月18日、Webおよびモバイル向けのプレイリスト機能改善を発表しました。楽曲の追加・並べ替え、プレイリスト検索、ライブラリ整理、カバーアート生成などを強化し、生成した楽曲を「作る」だけでなく「整理して聴く」ための環境を拡充しています。",
-      "headings": [
-        "プレイリスト内で楽曲管理が完結",
-        "ライブラリ検索と表示方法も改善",
-        "AI生成カバーでプレイリストの視覚表現も強化",
-        "「生成ツール」から音楽プラットフォームへ",
-        "今後の展望"
-      ],
-      "source_url": "https://suno.com/release-notes/playlist-improvements-on-web-and-ios",
-      "source_label": "suno.com",
-      "cover": "assets/posts/1539679905472843806.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1539679905472843806",
-      "first_seen": "2026-08-19T16:58:15.334Z"
     }
   ]
 }

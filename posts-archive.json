@@ -1,9 +1,49 @@
 {
-  "generated_at": "2026-08-20T22:42:48.222Z",
+  "generated_at": "2026-08-20T23:37:38.989Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 55,
+  "count": 57,
   "posts": [
+    {
+      "id": "1540129170665906206",
+      "title": "OpenAI Codex「rust-v0.149.0」公開、Rust実装が0.149.0へ更新",
+      "channel": "codex",
+      "category": "Open AI",
+      "date": "2026-08-20T22:43:28.503Z",
+      "excerpt": "OpenAIは、GitHub上の「openai/codex」リポジトリで「rust-v0.149.0」を公開しました。リリースページでは「Release 0.149.0」として登録されており、CodexのRust実装に対する新しいバージョンとして位置付けられ…",
+      "lead": "OpenAIは、GitHub上の「openai/codex」リポジトリで「rust-v0.149.0」を公開しました。リリースページでは「Release 0.149.0」として登録されており、CodexのRust実装に対する新しいバージョンとして位置付けられています。",
+      "headings": [
+        "rust-v0.149.0が公開",
+        "詳細な変更内容はページ上で確認できず",
+        "エンジニアが確認すべきポイント",
+        "今後の展望"
+      ],
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.149.0",
+      "source_label": "github.com",
+      "cover": "assets/posts/1540129170665906206.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415355102939578490/threads/1540129170665906206",
+      "first_seen": "2026-08-20T22:43:28.503Z"
+    },
+    {
+      "id": "1540129063853625454",
+      "title": "ChatGPTがApple「メッセージ」と連携、Mac上で検索から返信送信まで可能に",
+      "channel": "chatgpt",
+      "category": "Open AI",
+      "date": "2026-08-20T22:43:03.037Z",
+      "excerpt": "OpenAIは、Appleの「メッセージ」アプリをChatGPTから操作できる新しいMessagesプラグインを公開しました。Mac上のChatGPT WorkとCodexから、過去のメッセージ検索、会話内容の把握、返信文の作成、送信までを一連のワークフロー…",
+      "lead": "OpenAIは、Appleの「メッセージ」アプリをChatGPTから操作できる新しいMessagesプラグインを公開しました。Mac上のChatGPT WorkとCodexから、過去のメッセージ検索、会話内容の把握、返信文の作成、送信までを一連のワークフローとして実行できます。",
+      "headings": [
+        "メッセージを「読む」だけでなく「処理する」AIへ",
+        "ChatGPT WorkとCodexの役割が拡大",
+        "利便性と同時に権限管理が重要に",
+        "今後の展望"
+      ],
+      "source_url": "https://twitter.com/ChatGPT/status/2090499359641329950",
+      "source_label": "twitter.com",
+      "cover": "assets/posts/1540129063853625454.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415353131604377641/threads/1540129063853625454",
+      "first_seen": "2026-08-20T22:43:03.037Z"
+    },
     {
       "id": "1540128858416611378",
       "title": "Grokのアプリ生成機能、全SuperGrok・X Premiumプランへ拡大",
