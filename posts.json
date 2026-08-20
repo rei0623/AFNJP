@@ -1,8 +1,50 @@
 {
-  "generated_at": "2026-08-19T23:34:35.353Z",
+  "generated_at": "2026-08-20T01:49:57.176Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1539784421928869918",
+      "title": "Claude Managed Agents強化、自己ホスト環境のMemory対応やドメイン制御を追加",
+      "channel": "anthropic",
+      "category": "Anthropic",
+      "date": "2026-08-19T23:53:33.999Z",
+      "excerpt": "Anthropicは、Claude Managed Agentsに3つのアップデートを投入しました。Self-Hosted SandboxesでのMemory利用、Webアクセスのドメイン制御、マルチエージェント向けConsoleセッションビューアーの刷新で…",
+      "lead": "Anthropicは、Claude Managed Agentsに3つのアップデートを投入しました。Self-Hosted SandboxesでのMemory利用、Webアクセスのドメイン制御、マルチエージェント向けConsoleセッションビューアーの刷新です。企業がAIエージェントを本番運用する際の「継続性・セキュリティ・可観測性」をまとめて強化する内容です。",
+      "headings": [
+        "Self-Hosted Sandboxesでも作業内容をMemoryへ保存",
+        "web_searchとweb_fetchにドメイン制御",
+        "マルチエージェントの実行状況を可視化",
+        "今後の展望"
+      ],
+      "source_url": "https://twitter.com/ClaudeDevs/status/2090218983962390950",
+      "source_label": "twitter.com",
+      "cover": "assets/posts/1539784421928869918.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1539784421928869918",
+      "first_seen": "2026-08-19T23:53:33.999Z"
+    },
+    {
+      "id": "1539784253670301887",
+      "title": "Cursorがクラウドエージェントを強化、PR監視から長期目標まで自律開発を拡大",
+      "channel": "cursor",
+      "category": "その他",
+      "date": "2026-08-19T23:52:53.883Z",
+      "excerpt": "Cursorは2026年8月19日、クラウドエージェントとエージェント実行基盤である「Cursor harness」の改善を発表しました。今回の更新では、イベントを契機にエージェントが作業を再開する仕組みや、長期目標の維持、隔離環境で動くサブエージェントなど…",
+      "lead": "Cursorは2026年8月19日、クラウドエージェントとエージェント実行基盤である「Cursor harness」の改善を発表しました。今回の更新では、イベントを契機にエージェントが作業を再開する仕組みや、長期目標の維持、隔離環境で動くサブエージェントなどが追加され、人間が逐次指示しなくても開発タスクを継続できる方向へ大きく進んでいます。",
+      "headings": [
+        "PRやSlackを監視する「サブスクリプション」",
+        "スキルを常時適用する「カスタムモード」",
+        "サブエージェントを専用VMで隔離",
+        "`/goal`で完了条件を長期間維持",
+        "作業を止めずに追加指示",
+        "今後の展望"
+      ],
+      "source_url": "https://cursor.com/ja/changelog/08-19-26",
+      "source_label": "cursor.com",
+      "cover": "assets/posts/1539784253670301887.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416106151585644636/threads/1539784253670301887",
+      "first_seen": "2026-08-19T23:52:53.883Z"
+    },
     {
       "id": "1539734838624395274",
       "title": "OpenAI Supplyにレーシング新商品、INDYCARとの世界観をグッズへ展開",
@@ -205,47 +247,6 @@
       "cover": "assets/posts/1539661831621185577.webp",
       "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1539661831621185577",
       "first_seen": "2026-08-19T15:46:26.192Z"
-    },
-    {
-      "id": "1539637529391931482",
-      "title": "Replit「Free Mode」登場、GPT-5.6 Lunaでソフトウェア開発の無料体験を拡大",
-      "channel": "open-ai",
-      "category": "Open AI",
-      "date": "2026-08-19T14:09:52.089Z",
-      "excerpt": "OpenAIは2026年8月19日、Replitが「GPT-5.6 Luna」を活用した「Free Mode」を導入すると発表しました。アイデアの整理や設計、分析などを利用量を消費せず進められる仕組みで、AIによるソフトウェア開発をより幅広いユーザーへ開放す…",
-      "source_url": "https://openai.com/index/replit/",
-      "source_label": "openai.com",
-      "cover": "assets/posts/1539637529391931482.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1539637529391931482",
-      "first_seen": "2026-08-19T14:09:52.089Z",
-      "lead": "OpenAIは2026年8月19日、Replitが「GPT-5.6 Luna」を活用した「Free Mode」を導入すると発表しました。アイデアの整理や設計、分析などを利用量を消費せず進められる仕組みで、AIによるソフトウェア開発をより幅広いユーザーへ開放する狙いがあります。",
-      "headings": [
-        "GPT-5.6 LunaがFree Modeを支える",
-        "コーディング前の思考までAgentが支援",
-        "「モデルを使い分ける」AI開発環境へ",
-        "今後の展望"
-      ]
-    },
-    {
-      "id": "1539601354371366933",
-      "title": "ChatGPT広告、欧州31カ国へ拡大 「検索広告」と異なる意思決定市場を狙う",
-      "channel": "chatgpt",
-      "category": "Open AI",
-      "date": "2026-08-19T11:46:07.292Z",
-      "excerpt": "OpenAIは2026年8月18日、ChatGPT Adsを欧州31市場へ拡大すると発表しました。米国で広告テストを開始してから約6カ月での大規模展開となり、ChatGPTを単なるAIチャットから、商品やサービスの比較・検討が行われる新たな広告接点へ発展させ…",
-      "source_url": "https://openai.com/index/chatgpt-ads-expands-across-europe/",
-      "source_label": "openai.com",
-      "cover": "assets/posts/1539601354371366933.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1415353131604377641/threads/1539601354371366933",
-      "first_seen": "2026-08-19T11:46:07.292Z",
-      "lead": "OpenAIは2026年8月18日、ChatGPT Adsを欧州31市場へ拡大すると発表しました。米国で広告テストを開始してから約6カ月での大規模展開となり、ChatGPTを単なるAIチャットから、商品やサービスの比較・検討が行われる新たな広告接点へ発展させる動きです。",
-      "headings": [
-        "欧州31市場へ一気に拡大",
-        "ChatGPT特有の「意図」が広告価値になる",
-        "CPM・CPCからコンバージョン最適化へ",
-        "会話と広告の分離が最大の課題",
-        "今後の展望"
-      ]
     }
   ]
 }
