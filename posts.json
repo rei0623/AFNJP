@@ -1,8 +1,90 @@
 {
-  "generated_at": "2026-08-21T19:35:42.240Z",
+  "generated_at": "2026-08-21T20:38:46.889Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1540445952236720228",
+      "title": "Grok Botが利用対象を大幅拡大、無料トライアルも開始",
+      "channel": "grok",
+      "category": "Space X",
+      "date": "2026-08-21T19:42:15.115Z",
+      "excerpt": "xAIは、PC上でアプリやWebサービスを操作し、実務を継続的に処理するAIエージェント「Grok Bot」の提供範囲を拡大しました。新たにSuperGrok Plus、Cursor Pro+、Cursor Teamsの加入者が利用可能となり、それ以外のユー…",
+      "lead": "xAIは、PC上でアプリやWebサービスを操作し、実務を継続的に処理するAIエージェント「Grok Bot」の提供範囲を拡大しました。新たにSuperGrok Plus、Cursor Pro+、Cursor Teamsの加入者が利用可能となり、それ以外のユーザー向けにも利用量を制限した無料トライアルが提供されます。",
+      "headings": [
+        "「回答するAI」から「仕事を実行するAI」へ",
+        "SuperGrok PlusやCursor Pro+まで対象を拡大",
+        "エンジニアリングでは「権限設計」が重要に",
+        "今後の展望"
+      ],
+      "source_url": "https://x.ai/bot",
+      "source_label": "x.ai",
+      "cover": "assets/posts/1540445952236720228.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417803120225816596/threads/1540445952236720228",
+      "first_seen": "2026-08-21T19:42:15.115Z"
+    },
+    {
+      "id": "1540445800033820743",
+      "title": "NVIDIA「AVO」がARC-AGI-3で100点、AIエージェントは「モデル性能だけ」では測れない時代へ",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-08-21T19:41:38.827Z",
+      "excerpt": "NVIDIAは2026年8月21日、長時間にわたり自律的に作業を継続するエージェント基盤「Agentic Variation Operators（AVO）」が、ARC-AGI-3の公開セットで100.00のRHAEスコアを達成したと発表しました。Claude…",
+      "lead": "NVIDIAは2026年8月21日、長時間にわたり自律的に作業を継続するエージェント基盤「Agentic Variation Operators（AVO）」が、ARC-AGI-3の公開セットで100.00のRHAEスコアを達成したと発表しました。Claude Opus 5単体の評価では約30%とされる一方、AVOを含むエージェントシステムでは全183レベルを完了しており、AIの実用性能を左右するのは基盤モデルだけではないことを示す結果です。",
+      "headings": [
+        "AVOは「長期作業を止めない」エージェント基盤",
+        "GPU最適化では7日間で500以上の方向を探索",
+        "ARC-AGI-3で25環境・183レベルを完全攻略",
+        "「強いモデル」から「強いシステム」へ",
+        "今後の展望"
+      ],
+      "source_url": "https://developer.nvidia.com/blog/nvidia-avo-reaches-100-on-arc-agi-3-demonstrating-a-frontier-level-general-purpose-architecture-for-long-horizon-autonomous-agents/?ncid=so-twit-543600",
+      "source_label": "developer.nvidia.com",
+      "cover": "assets/posts/1540445800033820743.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1540445800033820743",
+      "first_seen": "2026-08-21T19:41:38.827Z"
+    },
+    {
+      "id": "1540445701287452803",
+      "title": "Anthropic、Claude Mythos 5をサイバー防御へ本格展開",
+      "channel": "anthropic",
+      "category": "Anthropic",
+      "date": "2026-08-21T19:41:15.284Z",
+      "excerpt": "Anthropicは2026年8月21日、最先端モデル「Claude Mythos 5」のサイバーセキュリティ用途を拡大すると発表しました。Claude Securityで利用可能になったほか、セキュリティ企業の製品への統合、オープンソース防御を支援する3,…",
+      "lead": "Anthropicは2026年8月21日、最先端モデル「Claude Mythos 5」のサイバーセキュリティ用途を拡大すると発表しました。Claude Securityで利用可能になったほか、セキュリティ企業の製品への統合、オープンソース防御を支援する3,500万ドル相当の基金、Cyber Verification Programの拡張を進めます。",
+      "headings": [
+        "「モデルへの直接アクセス」を避けて能力を提供",
+        "Claude SecurityがMythos 5に対応",
+        "OSS防御に3,500万ドル相当を投入",
+        "認証済み防御組織には制限を緩和",
+        "今後の展望"
+      ],
+      "source_url": "https://claude.com/blog/bringing-claude-mythos-5-to-more-defenders",
+      "source_label": "claude.com",
+      "cover": "assets/posts/1540445701287452803.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1540445701287452803",
+      "first_seen": "2026-08-21T19:41:15.284Z"
+    },
+    {
+      "id": "1540445486870433792",
+      "title": "OpenAI、GPT-5.6 Solを3カ月限定で20％超値下げ APIとクレジット料金を引き下げ",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-08-21T19:40:24.163Z",
+      "excerpt": "OpenAIは、GPT-5.6 SolのAPI料金とクレジット価格を今後3カ月間、20％超引き下げると発表しました。高性能モデルの能力向上と同時に計算効率を改善した成果を価格へ反映する施策で、APIではすでに利用可能となり、ChatGPT WorkとCode…",
+      "lead": "OpenAIは、GPT-5.6 SolのAPI料金とクレジット価格を今後3カ月間、20％超引き下げると発表しました。高性能モデルの能力向上と同時に計算効率を改善した成果を価格へ反映する施策で、APIではすでに利用可能となり、ChatGPT WorkとCodexでも対象プランへの展開が進められています。",
+      "headings": [
+        "値下げ対象はAPIと従量制クレジット",
+        "エージェント処理では20％超の差が積み重なる",
+        "能力競争から「性能当たりコスト」の競争へ",
+        "今後の展望"
+      ],
+      "source_url": "https://twitter.com/OpenAI/status/2090885187634905500",
+      "source_label": "twitter.com",
+      "cover": "assets/posts/1540445486870433792.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1540445486870433792",
+      "first_seen": "2026-08-21T19:40:24.163Z"
+    },
     {
       "id": "1540350324932485150",
       "title": "DeepSeek、視覚対応「V4-Flash-Vision-Exp」をAPI公開",
@@ -166,87 +248,6 @@
       "cover": "assets/posts/1539784253670301887.webp",
       "url": "https://discord.com/channels/1415350002255007784/1416106151585644636/threads/1539784253670301887",
       "first_seen": "2026-08-19T23:52:53.883Z"
-    },
-    {
-      "id": "1539734838624395274",
-      "title": "OpenAI Supplyにレーシング新商品、INDYCARとの世界観をグッズへ展開",
-      "channel": "open-ai",
-      "category": "Open AI",
-      "date": "2026-08-19T20:36:32.418Z",
-      "excerpt": "OpenAIの公式グッズストア「OpenAI Supply Co.」に、レーシングをテーマとした複数の商品ページが登場しました。Alex Palou選手のNo.10 OpenAI INDYCARを軸に、ミニカー、アパレル、ピン、ステッカー、エアフレッシュナー…",
-      "lead": "OpenAIの公式グッズストア「OpenAI Supply Co.」に、レーシングをテーマとした複数の商品ページが登場しました。Alex Palou選手のNo.10 OpenAI INDYCARを軸に、ミニカー、アパレル、ピン、ステッカー、エアフレッシュナーまで展開しており、AI研究とモータースポーツを結び付けたブランド表現が鮮明になっています。",
-      "headings": [
-        "1:64ミニカーなど7製品を展開",
-        "AI研究を「レーシング」という物語に変換",
-        "今後の展望"
-      ],
-      "source_url": "https://openai.com/supply/product/air-freshener/",
-      "source_label": "openai.com",
-      "cover": "assets/posts/1539734838624395274.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1539734838624395274",
-      "first_seen": "2026-08-19T20:36:32.418Z"
-    },
-    {
-      "id": "1539733664227922051",
-      "title": "Google AI Studio Build、GitHubとの双方向同期に対応",
-      "channel": "google-ai-studio",
-      "category": "Google",
-      "date": "2026-08-19T20:31:52.420Z",
-      "excerpt": "Google AI Studioの「Build」で、GitHubとの双方向同期がサポートされました。既存のGitHubリポジトリから開発を開始し、AI Studio上から変更をプッシュするだけでなく、GitHub側の更新をプルして取り込めるようになります。",
-      "lead": "Google AI Studioの「Build」で、GitHubとの双方向同期がサポートされました。既存のGitHubリポジトリから開発を開始し、AI Studio上から変更をプッシュするだけでなく、GitHub側の更新をプルして取り込めるようになります。",
-      "headings": [
-        "GitHubを開発の中心に置ける構成へ",
-        "ローカルIDEとAI Studioを往復しやすくなる",
-        "チーム開発では運用設計も重要",
-        "今後の展望"
-      ],
-      "source_url": "https://twitter.com/GoogleAIStudio/status/2090149753312932026",
-      "source_label": "twitter.com",
-      "cover": "assets/posts/1539733664227922051.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1425507195818348564/threads/1539733664227922051",
-      "first_seen": "2026-08-19T20:31:52.420Z"
-    },
-    {
-      "id": "1539731488776650812",
-      "title": "Google検索が「AI学習環境」へ進化、クイズ・Lens・ノート・教材生成を統合",
-      "channel": "google",
-      "category": "Google",
-      "date": "2026-08-19T20:23:13.752Z",
-      "excerpt": "Googleは2026年8月19日、Google SearchのAI機能を活用した5つの新しい学習支援機能を発表しました。AI OverviewsやAI Mode、Google Lens、Gemini Notebookを横断し、概念理解から問題演習、教材整理…",
-      "lead": "Googleは2026年8月19日、Google SearchのAI機能を活用した5つの新しい学習支援機能を発表しました。AI OverviewsやAI Mode、Google Lens、Gemini Notebookを横断し、概念理解から問題演習、教材整理、学習資料の生成までを検索画面中心に完結させる構想です。",
-      "headings": [
-        "複雑な概念を「生成UI」で可視化",
-        "Search内で練習問題を自動生成",
-        "Google Lensが「答え」ではなく途中過程を指導",
-        "Gemini NotebookをAI Modeへ統合",
-        "文書・スライド・表計算までSearchが生成",
-        "今後の展望"
-      ],
-      "source_url": "https://blog.google/products-and-platforms/products/search/back-to-school-study-tools/",
-      "source_label": "blog.google",
-      "cover": "assets/posts/1539731488776650812.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1539731488776650812",
-      "first_seen": "2026-08-19T20:23:13.752Z"
-    },
-    {
-      "id": "1539731183179669505",
-      "title": "Google、大学生にGemini有料AIプランを1年間無料提供",
-      "channel": "gemini",
-      "category": "Google",
-      "date": "2026-08-19T20:22:00.892Z",
-      "excerpt": "Googleは2026年8月19日、対象となる大学生にGoogleの有料AIプランを1年間無料で提供すると発表しました。同時にGeminiアプリへ学生専用ハブ、学習ノート、インタラクティブな3D可視化、Gemini Liveから利用できるDeep Resea…",
-      "lead": "Googleは2026年8月19日、対象となる大学生にGoogleの有料AIプランを1年間無料で提供すると発表しました。同時にGeminiアプリへ学生専用ハブ、学習ノート、インタラクティブな3D可視化、Gemini Liveから利用できるDeep Researchなどを投入し、生成AIを単なる質問応答ツールから「学習環境」へ発展させます。",
-      "headings": [
-        "米国ではGoogle AI Pro、国外ではGoogle AI Plus",
-        "Geminiが「個人向けAI学習システム」に進化",
-        "3D教材とDeep Researchも統合",
-        "今後の展望"
-      ],
-      "source_url": "https://blog.google/innovation-and-ai/products/gemini-app/student-offer-google-ai/",
-      "source_label": "blog.google",
-      "cover": "assets/posts/1539731183179669505.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1539731183179669505",
-      "first_seen": "2026-08-19T20:22:00.892Z"
     }
   ]
 }

@@ -5,8 +5,40 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 21 Aug 2026 13:22:15 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 21 Aug 2026 19:42:15 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Grok Botが利用対象を大幅拡大、無料トライアルも開始</title>
+      <link>https://discord.com/channels/1415350002255007784/1417803120225816596/threads/1540445952236720228</link>
+      <guid isPermaLink="false">afnjp-1540445952236720228</guid>
+      <pubDate>Fri, 21 Aug 2026 19:42:15 GMT</pubDate>
+      <category>grok</category>
+      <description>xAIは、PC上でアプリやWebサービスを操作し、実務を継続的に処理するAIエージェント「Grok Bot」の提供範囲を拡大しました。新たにSuperGrok Plus、Cursor Pro+、Cursor Teamsの加入者が利用可能となり、それ以外のユー…</description>
+    </item>
+    <item>
+      <title>NVIDIA「AVO」がARC-AGI-3で100点、AIエージェントは「モデル性能だけ」では測れない時代へ</title>
+      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1540445800033820743</link>
+      <guid isPermaLink="false">afnjp-1540445800033820743</guid>
+      <pubDate>Fri, 21 Aug 2026 19:41:38 GMT</pubDate>
+      <category>その他</category>
+      <description>NVIDIAは2026年8月21日、長時間にわたり自律的に作業を継続するエージェント基盤「Agentic Variation Operators（AVO）」が、ARC-AGI-3の公開セットで100.00のRHAEスコアを達成したと発表しました。Claude…</description>
+    </item>
+    <item>
+      <title>Anthropic、Claude Mythos 5をサイバー防御へ本格展開</title>
+      <link>https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1540445701287452803</link>
+      <guid isPermaLink="false">afnjp-1540445701287452803</guid>
+      <pubDate>Fri, 21 Aug 2026 19:41:15 GMT</pubDate>
+      <category>anthropic</category>
+      <description>Anthropicは2026年8月21日、最先端モデル「Claude Mythos 5」のサイバーセキュリティ用途を拡大すると発表しました。Claude Securityで利用可能になったほか、セキュリティ企業の製品への統合、オープンソース防御を支援する3,…</description>
+    </item>
+    <item>
+      <title>OpenAI、GPT-5.6 Solを3カ月限定で20％超値下げ APIとクレジット料金を引き下げ</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1540445486870433792</link>
+      <guid isPermaLink="false">afnjp-1540445486870433792</guid>
+      <pubDate>Fri, 21 Aug 2026 19:40:24 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIは、GPT-5.6 SolのAPI料金とクレジット価格を今後3カ月間、20％超引き下げると発表しました。高性能モデルの能力向上と同時に計算効率を改善した成果を価格へ反映する施策で、APIではすでに利用可能となり、ChatGPT WorkとCode…</description>
+    </item>
     <item>
       <title>DeepSeek、視覚対応「V4-Flash-Vision-Exp」をAPI公開</title>
       <link>https://discord.com/channels/1415350002255007784/1419690651490193470/threads/1540350324932485150</link>
@@ -70,38 +102,6 @@
       <pubDate>Wed, 19 Aug 2026 23:52:53 GMT</pubDate>
       <category>cursor</category>
       <description>Cursorは2026年8月19日、クラウドエージェントとエージェント実行基盤である「Cursor harness」の改善を発表しました。今回の更新では、イベントを契機にエージェントが作業を再開する仕組みや、長期目標の維持、隔離環境で動くサブエージェントなど…</description>
-    </item>
-    <item>
-      <title>OpenAI Supplyにレーシング新商品、INDYCARとの世界観をグッズへ展開</title>
-      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1539734838624395274</link>
-      <guid isPermaLink="false">afnjp-1539734838624395274</guid>
-      <pubDate>Wed, 19 Aug 2026 20:36:32 GMT</pubDate>
-      <category>open-ai</category>
-      <description>OpenAIの公式グッズストア「OpenAI Supply Co.」に、レーシングをテーマとした複数の商品ページが登場しました。Alex Palou選手のNo.10 OpenAI INDYCARを軸に、ミニカー、アパレル、ピン、ステッカー、エアフレッシュナー…</description>
-    </item>
-    <item>
-      <title>Google AI Studio Build、GitHubとの双方向同期に対応</title>
-      <link>https://discord.com/channels/1415350002255007784/1425507195818348564/threads/1539733664227922051</link>
-      <guid isPermaLink="false">afnjp-1539733664227922051</guid>
-      <pubDate>Wed, 19 Aug 2026 20:31:52 GMT</pubDate>
-      <category>google-ai-studio</category>
-      <description>Google AI Studioの「Build」で、GitHubとの双方向同期がサポートされました。既存のGitHubリポジトリから開発を開始し、AI Studio上から変更をプッシュするだけでなく、GitHub側の更新をプルして取り込めるようになります。</description>
-    </item>
-    <item>
-      <title>Google検索が「AI学習環境」へ進化、クイズ・Lens・ノート・教材生成を統合</title>
-      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1539731488776650812</link>
-      <guid isPermaLink="false">afnjp-1539731488776650812</guid>
-      <pubDate>Wed, 19 Aug 2026 20:23:13 GMT</pubDate>
-      <category>google</category>
-      <description>Googleは2026年8月19日、Google SearchのAI機能を活用した5つの新しい学習支援機能を発表しました。AI OverviewsやAI Mode、Google Lens、Gemini Notebookを横断し、概念理解から問題演習、教材整理…</description>
-    </item>
-    <item>
-      <title>Google、大学生にGemini有料AIプランを1年間無料提供</title>
-      <link>https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1539731183179669505</link>
-      <guid isPermaLink="false">afnjp-1539731183179669505</guid>
-      <pubDate>Wed, 19 Aug 2026 20:22:00 GMT</pubDate>
-      <category>gemini</category>
-      <description>Googleは2026年8月19日、対象となる大学生にGoogleの有料AIプランを1年間無料で提供すると発表しました。同時にGeminiアプリへ学生専用ハブ、学習ノート、インタラクティブな3D可視化、Gemini Liveから利用できるDeep Resea…</description>
     </item>
   </channel>
 </rss>
