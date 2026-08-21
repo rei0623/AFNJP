@@ -5,8 +5,16 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 20 Aug 2026 22:43:28 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 21 Aug 2026 13:22:15 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>DeepSeek、視覚対応「V4-Flash-Vision-Exp」をAPI公開</title>
+      <link>https://discord.com/channels/1415350002255007784/1419690651490193470/threads/1540350324932485150</link>
+      <guid isPermaLink="false">afnjp-1540350324932485150</guid>
+      <pubDate>Fri, 21 Aug 2026 13:22:15 GMT</pubDate>
+      <category>deep-seek</category>
+      <description>DeepSeekは、実験的なマルチモーダルモデル「DeepSeek-V4-Flash-Vision-Exp」をAPI Platformで公開しました。テキスト性能を維持しながら画像理解を統合し、ブラウザ操作やGUI解析など、視覚情報を扱うAIエージェント用途…</description>
+    </item>
     <item>
       <title>OpenAI Codex「rust-v0.149.0」公開、Rust実装が0.149.0へ更新</title>
       <link>https://discord.com/channels/1415350002255007784/1415355102939578490/threads/1540129170665906206</link>
@@ -94,14 +102,6 @@
       <pubDate>Wed, 19 Aug 2026 20:22:00 GMT</pubDate>
       <category>gemini</category>
       <description>Googleは2026年8月19日、対象となる大学生にGoogleの有料AIプランを1年間無料で提供すると発表しました。同時にGeminiアプリへ学生専用ハブ、学習ノート、インタラクティブな3D可視化、Gemini Liveから利用できるDeep Resea…</description>
-    </item>
-    <item>
-      <title>Waymoの自動運転車にGemini搭載、車内AIアシスタントへ進化</title>
-      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1539731023321890949</link>
-      <guid isPermaLink="false">afnjp-1539731023321890949</guid>
-      <pubDate>Wed, 19 Aug 2026 20:21:22 GMT</pubDate>
-      <category>google</category>
-      <description>Googleは2026年8月19日、Waymoの専用設計車両「Ojai」にGeminiを導入したと発表しました。自動運転そのものを担うWaymo Driverとは独立したAIとして動作し、乗客は音声で空調を操作したり、周辺情報を調べたりできるようになります。</description>
     </item>
   </channel>
 </rss>

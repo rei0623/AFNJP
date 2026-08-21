@@ -1,9 +1,30 @@
 {
-  "generated_at": "2026-08-21T13:09:16.839Z",
+  "generated_at": "2026-08-21T13:56:56.991Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 57,
+  "count": 58,
   "posts": [
+    {
+      "id": "1540350324932485150",
+      "title": "DeepSeek、視覚対応「V4-Flash-Vision-Exp」をAPI公開",
+      "channel": "deep-seek",
+      "category": "その他",
+      "date": "2026-08-21T13:22:15.789Z",
+      "excerpt": "DeepSeekは、実験的なマルチモーダルモデル「DeepSeek-V4-Flash-Vision-Exp」をAPI Platformで公開しました。テキスト性能を維持しながら画像理解を統合し、ブラウザ操作やGUI解析など、視覚情報を扱うAIエージェント用途…",
+      "lead": "DeepSeekは、実験的なマルチモーダルモデル「DeepSeek-V4-Flash-Vision-Exp」をAPI Platformで公開しました。テキスト性能を維持しながら画像理解を統合し、ブラウザ操作やGUI解析など、視覚情報を扱うAIエージェント用途の拡大を狙います。",
+      "headings": [
+        "テキスト性能を維持したまま視覚能力を追加",
+        "APIは主要3形式に対応",
+        "Files APIでAgentの画像再利用を効率化",
+        "マルチモーダルAgent競争が次の焦点に",
+        "今後の展望"
+      ],
+      "source_url": "https://twitter.com/deepseek_ai/status/2090730032574631962",
+      "source_label": "twitter.com",
+      "cover": "assets/posts/1540350324932485150.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1419690651490193470/threads/1540350324932485150",
+      "first_seen": "2026-08-21T13:22:15.789Z"
+    },
     {
       "id": "1540129170665906206",
       "title": "OpenAI Codex「rust-v0.149.0」公開、Rust実装が0.149.0へ更新",
