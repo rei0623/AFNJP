@@ -1,8 +1,29 @@
 {
-  "generated_at": "2026-08-22T03:54:05.644Z",
+  "generated_at": "2026-08-22T04:47:37.467Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1540576191348478033",
+      "title": "Google「Antigravity」にRemote Control登場、AIエージェント開発をブラウザから遠隔操作",
+      "channel": "antigravity",
+      "category": "Google",
+      "date": "2026-08-22T04:19:46.539Z",
+      "excerpt": "GoogleのAntigravityチームは2026年8月21日、エージェント型AI開発環境「Antigravity」に「Remote Control」を導入しました。PCやサーバー上で動作するAntigravityのセッションへWebブラウザから接続し、A…",
+      "lead": "GoogleのAntigravityチームは2026年8月21日、エージェント型AI開発環境「Antigravity」に「Remote Control」を導入しました。PCやサーバー上で動作するAntigravityのセッションへWebブラウザから接続し、AIエージェントの進捗確認や操作を遠隔で行える機能です。長時間化するAIエージェントの処理を、開発者が作業端末の前で監視し続ける必要を減らす狙いがあります。",
+      "headings": [
+        "ブラウザが開発マシンへの「安全な窓」に",
+        "複数マシンと複数エージェントを一元管理",
+        "席を離れても進捗確認、コマンド実行が可能",
+        "AI開発環境の設計思想が変わる",
+        "今後の展望"
+      ],
+      "source_url": "https://antigravity.google/blog/remote-control-for-antigravity",
+      "source_label": "antigravity.google",
+      "cover": "assets/posts/1540576191348478033.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1440381933371527311/threads/1540576191348478033",
+      "first_seen": "2026-08-22T04:19:46.539Z"
+    },
     {
       "id": "1540445952236720228",
       "title": "Grok Botが利用対象を大幅拡大、無料トライアルも開始",
@@ -226,28 +247,6 @@
       "cover": "assets/posts/1539784421928869918.webp",
       "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1539784421928869918",
       "first_seen": "2026-08-19T23:53:33.999Z"
-    },
-    {
-      "id": "1539784253670301887",
-      "title": "Cursorがクラウドエージェントを強化、PR監視から長期目標まで自律開発を拡大",
-      "channel": "cursor",
-      "category": "その他",
-      "date": "2026-08-19T23:52:53.883Z",
-      "excerpt": "Cursorは2026年8月19日、クラウドエージェントとエージェント実行基盤である「Cursor harness」の改善を発表しました。今回の更新では、イベントを契機にエージェントが作業を再開する仕組みや、長期目標の維持、隔離環境で動くサブエージェントなど…",
-      "lead": "Cursorは2026年8月19日、クラウドエージェントとエージェント実行基盤である「Cursor harness」の改善を発表しました。今回の更新では、イベントを契機にエージェントが作業を再開する仕組みや、長期目標の維持、隔離環境で動くサブエージェントなどが追加され、人間が逐次指示しなくても開発タスクを継続できる方向へ大きく進んでいます。",
-      "headings": [
-        "PRやSlackを監視する「サブスクリプション」",
-        "スキルを常時適用する「カスタムモード」",
-        "サブエージェントを専用VMで隔離",
-        "`/goal`で完了条件を長期間維持",
-        "作業を止めずに追加指示",
-        "今後の展望"
-      ],
-      "source_url": "https://cursor.com/ja/changelog/08-19-26",
-      "source_label": "cursor.com",
-      "cover": "assets/posts/1539784253670301887.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1416106151585644636/threads/1539784253670301887",
-      "first_seen": "2026-08-19T23:52:53.883Z"
     }
   ]
 }

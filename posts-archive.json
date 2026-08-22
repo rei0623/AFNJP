@@ -1,9 +1,30 @@
 {
-  "generated_at": "2026-08-22T03:54:05.644Z",
+  "generated_at": "2026-08-22T04:47:37.466Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 62,
+  "count": 63,
   "posts": [
+    {
+      "id": "1540576191348478033",
+      "title": "Google「Antigravity」にRemote Control登場、AIエージェント開発をブラウザから遠隔操作",
+      "channel": "antigravity",
+      "category": "Google",
+      "date": "2026-08-22T04:19:46.539Z",
+      "excerpt": "GoogleのAntigravityチームは2026年8月21日、エージェント型AI開発環境「Antigravity」に「Remote Control」を導入しました。PCやサーバー上で動作するAntigravityのセッションへWebブラウザから接続し、A…",
+      "lead": "GoogleのAntigravityチームは2026年8月21日、エージェント型AI開発環境「Antigravity」に「Remote Control」を導入しました。PCやサーバー上で動作するAntigravityのセッションへWebブラウザから接続し、AIエージェントの進捗確認や操作を遠隔で行える機能です。長時間化するAIエージェントの処理を、開発者が作業端末の前で監視し続ける必要を減らす狙いがあります。",
+      "headings": [
+        "ブラウザが開発マシンへの「安全な窓」に",
+        "複数マシンと複数エージェントを一元管理",
+        "席を離れても進捗確認、コマンド実行が可能",
+        "AI開発環境の設計思想が変わる",
+        "今後の展望"
+      ],
+      "source_url": "https://antigravity.google/blog/remote-control-for-antigravity",
+      "source_label": "antigravity.google",
+      "cover": "assets/posts/1540576191348478033.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1440381933371527311/threads/1540576191348478033",
+      "first_seen": "2026-08-22T04:19:46.539Z"
+    },
     {
       "id": "1540445952236720228",
       "title": "Grok Botが利用対象を大幅拡大、無料トライアルも開始",
