@@ -1,8 +1,28 @@
 {
-  "generated_at": "2026-08-24T07:18:44.514Z",
+  "generated_at": "2026-08-24T09:02:38.169Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1541353435213996142",
+      "title": "OpenAI Codex 0.149.1公開、スレッド分類と画像コンテキスト圧縮を改善",
+      "channel": "codex",
+      "category": "Open AI",
+      "date": "2026-08-24T07:48:15.917Z",
+      "excerpt": "OpenAIは2026年8月24日、CodexのRust版「0.149.1」を公開しました。今回の更新は大規模な新機能追加というより、エージェント実行時のスレッド分類、メモリ処理、画像を含む長い会話履歴のコンテキスト管理を改善する内容が中心です。",
+      "lead": "OpenAIは2026年8月24日、CodexのRust版「0.149.1」を公開しました。今回の更新は大規模な新機能追加というより、エージェント実行時のスレッド分類、メモリ処理、画像を含む長い会話履歴のコンテキスト管理を改善する内容が中心です。",
+      "headings": [
+        "`codex exec`にスレッド分類を追加",
+        "画像を含むコンテキスト圧縮をより厳密に",
+        "メモリ統合処理の識別も改善",
+        "今後の展望"
+      ],
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.149.1",
+      "source_label": "github.com",
+      "cover": "assets/posts/1541353435213996142.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415355102939578490/threads/1541353435213996142",
+      "first_seen": "2026-08-24T07:48:15.917Z"
+    },
     {
       "id": "1540576191348478033",
       "title": "Google「Antigravity」にRemote Control登場、AIエージェント開発をブラウザから遠隔操作",
@@ -227,26 +247,6 @@
       "cover": "assets/posts/1540046884905816189.webp",
       "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1540046884905816189",
       "first_seen": "2026-08-20T17:16:30.049Z"
-    },
-    {
-      "id": "1539784421928869918",
-      "title": "Claude Managed Agents強化、自己ホスト環境のMemory対応やドメイン制御を追加",
-      "channel": "anthropic",
-      "category": "Anthropic",
-      "date": "2026-08-19T23:53:33.999Z",
-      "excerpt": "Anthropicは、Claude Managed Agentsに3つのアップデートを投入しました。Self-Hosted SandboxesでのMemory利用、Webアクセスのドメイン制御、マルチエージェント向けConsoleセッションビューアーの刷新で…",
-      "lead": "Anthropicは、Claude Managed Agentsに3つのアップデートを投入しました。Self-Hosted SandboxesでのMemory利用、Webアクセスのドメイン制御、マルチエージェント向けConsoleセッションビューアーの刷新です。企業がAIエージェントを本番運用する際の「継続性・セキュリティ・可観測性」をまとめて強化する内容です。",
-      "headings": [
-        "Self-Hosted Sandboxesでも作業内容をMemoryへ保存",
-        "web_searchとweb_fetchにドメイン制御",
-        "マルチエージェントの実行状況を可視化",
-        "今後の展望"
-      ],
-      "source_url": "https://twitter.com/ClaudeDevs/status/2090218983962390950",
-      "source_label": "twitter.com",
-      "cover": "assets/posts/1539784421928869918.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1539784421928869918",
-      "first_seen": "2026-08-19T23:53:33.999Z"
     }
   ]
 }

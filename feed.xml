@@ -5,8 +5,16 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 22 Aug 2026 04:19:46 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 24 Aug 2026 07:48:15 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>OpenAI Codex 0.149.1公開、スレッド分類と画像コンテキスト圧縮を改善</title>
+      <link>https://discord.com/channels/1415350002255007784/1415355102939578490/threads/1541353435213996142</link>
+      <guid isPermaLink="false">afnjp-1541353435213996142</guid>
+      <pubDate>Mon, 24 Aug 2026 07:48:15 GMT</pubDate>
+      <category>codex</category>
+      <description>OpenAIは2026年8月24日、CodexのRust版「0.149.1」を公開しました。今回の更新は大規模な新機能追加というより、エージェント実行時のスレッド分類、メモリ処理、画像を含む長い会話履歴のコンテキスト管理を改善する内容が中心です。</description>
+    </item>
     <item>
       <title>Google「Antigravity」にRemote Control登場、AIエージェント開発をブラウザから遠隔操作</title>
       <link>https://discord.com/channels/1415350002255007784/1440381933371527311/threads/1540576191348478033</link>
@@ -94,14 +102,6 @@
       <pubDate>Thu, 20 Aug 2026 17:16:30 GMT</pubDate>
       <category>open-ai</category>
       <description>OpenAIは2026年8月20日、調達・買掛金管理などを手掛けるStampliが、ChatGPT WorkとCodexを製品マーケティングへ組み込み、新サービス「Deep Finance」の市場投入を大幅に高速化した事例を公開しました。従来なら約243時間…</description>
-    </item>
-    <item>
-      <title>Claude Managed Agents強化、自己ホスト環境のMemory対応やドメイン制御を追加</title>
-      <link>https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1539784421928869918</link>
-      <guid isPermaLink="false">afnjp-1539784421928869918</guid>
-      <pubDate>Wed, 19 Aug 2026 23:53:33 GMT</pubDate>
-      <category>anthropic</category>
-      <description>Anthropicは、Claude Managed Agentsに3つのアップデートを投入しました。Self-Hosted SandboxesでのMemory利用、Webアクセスのドメイン制御、マルチエージェント向けConsoleセッションビューアーの刷新で…</description>
     </item>
   </channel>
 </rss>
