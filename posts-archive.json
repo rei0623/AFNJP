@@ -1,9 +1,29 @@
 {
-  "generated_at": "2026-08-24T14:00:38.756Z",
+  "generated_at": "2026-08-24T14:58:26.263Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 64,
+  "count": 65,
   "posts": [
+    {
+      "id": "1541458031378960536",
+      "title": "Google「Gemini 4」準備か、デスクトップ版にアバター・プラグイン基盤",
+      "channel": "リーク情報",
+      "category": "リーク情報",
+      "date": "2026-08-24T14:43:53.586Z",
+      "excerpt": "GoogleがGeminiデスクトップアプリの機能拡張を進めています。最新開発版では「Avatars」が追加され、アプリやスキル、プラグインを探す「Customize」領域も確認されました。さらに内部では次世代モデル「Gemini 4」への準備とみられる動き…",
+      "lead": "GoogleがGeminiデスクトップアプリの機能拡張を進めています。最新開発版では「Avatars」が追加され、アプリやスキル、プラグインを探す「Customize」領域も確認されました。さらに内部では次世代モデル「Gemini 4」への準備とみられる動きが増えていると報じられています。",
+      "headings": [
+        "Geminiが「AIアプリ基盤」へ拡張",
+        "Gmail・Calendarウィジェットも準備",
+        "「Gemini 4」の内部準備も進行か",
+        "今後の展望"
+      ],
+      "source_url": "https://www.testingcatalog.com/google-prepares-gemini-app-for-avatars-plugins-and-gemini-4/",
+      "source_label": "testingcatalog.com",
+      "cover": "assets/posts/1541458031378960536.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415534435712897124/threads/1541458031378960536",
+      "first_seen": "2026-08-24T14:43:53.586Z"
+    },
     {
       "id": "1541353435213996142",
       "title": "OpenAI Codex 0.149.1公開、スレッド分類と画像コンテキスト圧縮を改善",

@@ -1,8 +1,28 @@
 {
-  "generated_at": "2026-08-24T14:00:38.797Z",
+  "generated_at": "2026-08-24T14:58:26.264Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1541458031378960536",
+      "title": "Google「Gemini 4」準備か、デスクトップ版にアバター・プラグイン基盤",
+      "channel": "リーク情報",
+      "category": "リーク情報",
+      "date": "2026-08-24T14:43:53.586Z",
+      "excerpt": "GoogleがGeminiデスクトップアプリの機能拡張を進めています。最新開発版では「Avatars」が追加され、アプリやスキル、プラグインを探す「Customize」領域も確認されました。さらに内部では次世代モデル「Gemini 4」への準備とみられる動き…",
+      "lead": "GoogleがGeminiデスクトップアプリの機能拡張を進めています。最新開発版では「Avatars」が追加され、アプリやスキル、プラグインを探す「Customize」領域も確認されました。さらに内部では次世代モデル「Gemini 4」への準備とみられる動きが増えていると報じられています。",
+      "headings": [
+        "Geminiが「AIアプリ基盤」へ拡張",
+        "Gmail・Calendarウィジェットも準備",
+        "「Gemini 4」の内部準備も進行か",
+        "今後の展望"
+      ],
+      "source_url": "https://www.testingcatalog.com/google-prepares-gemini-app-for-avatars-plugins-and-gemini-4/",
+      "source_label": "testingcatalog.com",
+      "cover": "assets/posts/1541458031378960536.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415534435712897124/threads/1541458031378960536",
+      "first_seen": "2026-08-24T14:43:53.586Z"
+    },
     {
       "id": "1541353435213996142",
       "title": "OpenAI Codex 0.149.1公開、スレッド分類と画像コンテキスト圧縮を改善",
@@ -227,26 +247,6 @@
       "cover": "assets/posts/1540128762027450560.webp",
       "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1540128762027450560",
       "first_seen": "2026-08-20T22:41:51.076Z"
-    },
-    {
-      "id": "1540046884905816189",
-      "title": "Stampli、ChatGPT WorkとCodexで市場投入を3.16倍高速化",
-      "channel": "open-ai",
-      "category": "Open AI",
-      "date": "2026-08-20T17:16:30.049Z",
-      "excerpt": "OpenAIは2026年8月20日、調達・買掛金管理などを手掛けるStampliが、ChatGPT WorkとCodexを製品マーケティングへ組み込み、新サービス「Deep Finance」の市場投入を大幅に高速化した事例を公開しました。従来なら約243時間…",
-      "lead": "OpenAIは2026年8月20日、調達・買掛金管理などを手掛けるStampliが、ChatGPT WorkとCodexを製品マーケティングへ組み込み、新サービス「Deep Finance」の市場投入を大幅に高速化した事例を公開しました。従来なら約243時間と見積もられた制作工程を約77時間まで圧縮し、約166時間を削減したとしています。",
-      "headings": [
-        "プロトタイプから約6週間で市場投入",
-        "AIを「コンテンツ生成」ではなく情報基盤に",
-        "経営判断にもリアルタイムでAIを投入",
-        "今後の展望"
-      ],
-      "source_url": "https://openai.com/index/stampli/",
-      "source_label": "openai.com",
-      "cover": "assets/posts/1540046884905816189.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1540046884905816189",
-      "first_seen": "2026-08-20T17:16:30.049Z"
     }
   ]
 }
