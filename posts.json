@@ -1,8 +1,92 @@
 {
-  "generated_at": "2026-08-25T22:43:12.337Z",
+  "generated_at": "2026-08-25T23:35:51.997Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1541947818376437880",
+      "title": "Google、法務特化AI「Gemini Enterprise for Legal」を発表",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-08-25T23:10:07.906Z",
+      "excerpt": "Google Cloudは2026年8月25日、法律事務所や企業法務部門向けのAI基盤「Gemini Enterprise for Legal」を発表しました。汎用AIを単に法務へ転用するのではなく、権限管理や機密保持、根拠追跡、専門業務向けエージェントまで…",
+      "lead": "Google Cloudは2026年8月25日、法律事務所や企業法務部門向けのAI基盤「Gemini Enterprise for Legal」を発表しました。汎用AIを単に法務へ転用するのではなく、権限管理や機密保持、根拠追跡、専門業務向けエージェントまでを一体化した点が特徴です。現在はプレビューとして提供されています。",
+      "headings": [
+        "法務AIを「回答」から「実行」へ",
+        "MCPで既存の法務データ基盤を接続",
+        "契約、規制監視、個人情報対応を自動化",
+        "機密データをモデル学習に利用しない設計",
+        "今後の展望"
+      ],
+      "source_url": "https://cloud.google.com/blog/products/ai-machine-learning/introducing-gemini-enterprise-for-legal?hl=en",
+      "source_label": "cloud.google.com",
+      "cover": "assets/posts/1541947818376437880.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1541947818376437880",
+      "first_seen": "2026-08-25T23:10:07.906Z"
+    },
+    {
+      "id": "1541947624842727484",
+      "title": "Keenable AI始動、AIエージェント向け「生きたWeb」の検索基盤を公開",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-08-25T23:09:21.764Z",
+      "excerpt": "AIエージェントがWeb上の知識を継続的に検索・推論できるようにする新興企業Keenable AIが始動しました。共同創業者のAndrey Styskin氏は、Web Search APIとAI向けWeb Query Languageを公開し、9月末まで無料…",
+      "lead": "AIエージェントがWeb上の知識を継続的に検索・推論できるようにする新興企業Keenable AIが始動しました。共同創業者のAndrey Styskin氏は、Web Search APIとAI向けWeb Query Languageを公開し、9月末まで無料提供すると発表しています。AccelとConvictionから2600万ドルのシード資金も調達しました。",
+      "headings": [
+        "「平均的な回答」から脱却する検索基盤",
+        "Web Search APIと「Web Query Language」",
+        "検索エンジン経験者が開発",
+        "今後の展望"
+      ],
+      "source_url": "https://twitter.com/styskin/status/2092265673041084505",
+      "source_label": "twitter.com",
+      "cover": "assets/posts/1541947624842727484.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1541947624842727484",
+      "first_seen": "2026-08-25T23:09:21.764Z"
+    },
+    {
+      "id": "1541947499797807144",
+      "title": "Claudeの「記憶」がChatとCoworkで統合、ユーザー自身が内容を管理可能に",
+      "channel": "claude",
+      "category": "Anthropic",
+      "date": "2026-08-25T23:08:51.951Z",
+      "excerpt": "Anthropicは2026年8月25日、Claudeのメモリー機能を拡張し、通常のチャットとClaude Coworkで同じ記憶を共有すると発表しました。会話や作業環境をまたいで文脈を引き継げる一方、保存内容をユーザー自身が確認・編集・削除できる設計が特徴…",
+      "lead": "Anthropicは2026年8月25日、Claudeのメモリー機能を拡張し、通常のチャットとClaude Coworkで同じ記憶を共有すると発表しました。会話や作業環境をまたいで文脈を引き継げる一方、保存内容をユーザー自身が確認・編集・削除できる設計が特徴です。",
+      "headings": [
+        "ChatとCoworkが1つの記憶を共有",
+        "会話中にメモリーを更新",
+        "保存内容をファイル単位で編集可能",
+        "センシティブ情報は標準では保存しない",
+        "利用範囲",
+        "今後の展望"
+      ],
+      "source_url": "https://claude.com/blog/claudes-memory-works-everywhere-and-you-decide-whats-in-it",
+      "source_label": "claude.com",
+      "cover": "assets/posts/1541947499797807144.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415353403269185546/threads/1541947499797807144",
+      "first_seen": "2026-08-25T23:08:51.951Z"
+    },
+    {
+      "id": "1541946657485357148",
+      "title": "OpenAI、ChatGPT WorkとCodex向け「Admin plugin」発表",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-08-25T23:05:31.128Z",
+      "excerpt": "OpenAIは2026年8月25日、ChatGPT WorkとCodexから企業ワークスペースを管理できる「Admin plugin」を発表しました。利用状況の分析から権限変更、予算管理までを会話形式で実行でき、管理者が複数の管理画面を行き来する運用を減らす…",
+      "lead": "OpenAIは2026年8月25日、ChatGPT WorkとCodexから企業ワークスペースを管理できる「Admin plugin」を発表しました。利用状況の分析から権限変更、予算管理までを会話形式で実行でき、管理者が複数の管理画面を行き来する運用を減らす狙いです。",
+      "headings": [
+        "会話から分析と管理操作まで一気通貫",
+        "権限を無視するAIではなく、管理APIの会話型インターフェース",
+        "定型的な管理業務も自動化",
+        "OpenAI社内ではITチケットの約45％を処理",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/introducing-admin-plugin/",
+      "source_label": "openai.com",
+      "cover": "assets/posts/1541946657485357148.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1541946657485357148",
+      "first_seen": "2026-08-25T23:05:31.128Z"
+    },
     {
       "id": "1541842739300405319",
       "title": "Gatikが2億ドル調達、無人貨物輸送を商用展開から本格拡大へ",
@@ -163,88 +247,6 @@
       "cover": "assets/posts/1541458031378960536.webp",
       "url": "https://discord.com/channels/1415350002255007784/1415534435712897124/threads/1541458031378960536",
       "first_seen": "2026-08-24T14:43:53.586Z"
-    },
-    {
-      "id": "1541353435213996142",
-      "title": "OpenAI Codex 0.149.1公開、スレッド分類と画像コンテキスト圧縮を改善",
-      "channel": "codex",
-      "category": "Open AI",
-      "date": "2026-08-24T07:48:15.917Z",
-      "excerpt": "OpenAIは2026年8月24日、CodexのRust版「0.149.1」を公開しました。今回の更新は大規模な新機能追加というより、エージェント実行時のスレッド分類、メモリ処理、画像を含む長い会話履歴のコンテキスト管理を改善する内容が中心です。",
-      "lead": "OpenAIは2026年8月24日、CodexのRust版「0.149.1」を公開しました。今回の更新は大規模な新機能追加というより、エージェント実行時のスレッド分類、メモリ処理、画像を含む長い会話履歴のコンテキスト管理を改善する内容が中心です。",
-      "headings": [
-        "`codex exec`にスレッド分類を追加",
-        "画像を含むコンテキスト圧縮をより厳密に",
-        "メモリ統合処理の識別も改善",
-        "今後の展望"
-      ],
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.149.1",
-      "source_label": "github.com",
-      "cover": "assets/posts/1541353435213996142.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1415355102939578490/threads/1541353435213996142",
-      "first_seen": "2026-08-24T07:48:15.917Z"
-    },
-    {
-      "id": "1540576191348478033",
-      "title": "Google「Antigravity」にRemote Control登場、AIエージェント開発をブラウザから遠隔操作",
-      "channel": "antigravity",
-      "category": "Google",
-      "date": "2026-08-22T04:19:46.539Z",
-      "excerpt": "GoogleのAntigravityチームは2026年8月21日、エージェント型AI開発環境「Antigravity」に「Remote Control」を導入しました。PCやサーバー上で動作するAntigravityのセッションへWebブラウザから接続し、A…",
-      "lead": "GoogleのAntigravityチームは2026年8月21日、エージェント型AI開発環境「Antigravity」に「Remote Control」を導入しました。PCやサーバー上で動作するAntigravityのセッションへWebブラウザから接続し、AIエージェントの進捗確認や操作を遠隔で行える機能です。長時間化するAIエージェントの処理を、開発者が作業端末の前で監視し続ける必要を減らす狙いがあります。",
-      "headings": [
-        "ブラウザが開発マシンへの「安全な窓」に",
-        "複数マシンと複数エージェントを一元管理",
-        "席を離れても進捗確認、コマンド実行が可能",
-        "AI開発環境の設計思想が変わる",
-        "今後の展望"
-      ],
-      "source_url": "https://antigravity.google/blog/remote-control-for-antigravity",
-      "source_label": "antigravity.google",
-      "cover": "assets/posts/1540576191348478033.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1440381933371527311/threads/1540576191348478033",
-      "first_seen": "2026-08-22T04:19:46.539Z"
-    },
-    {
-      "id": "1540445952236720228",
-      "title": "Grok Botが利用対象を大幅拡大、無料トライアルも開始",
-      "channel": "grok",
-      "category": "Space X",
-      "date": "2026-08-21T19:42:15.115Z",
-      "excerpt": "xAIは、PC上でアプリやWebサービスを操作し、実務を継続的に処理するAIエージェント「Grok Bot」の提供範囲を拡大しました。新たにSuperGrok Plus、Cursor Pro+、Cursor Teamsの加入者が利用可能となり、それ以外のユー…",
-      "lead": "xAIは、PC上でアプリやWebサービスを操作し、実務を継続的に処理するAIエージェント「Grok Bot」の提供範囲を拡大しました。新たにSuperGrok Plus、Cursor Pro+、Cursor Teamsの加入者が利用可能となり、それ以外のユーザー向けにも利用量を制限した無料トライアルが提供されます。",
-      "headings": [
-        "「回答するAI」から「仕事を実行するAI」へ",
-        "SuperGrok PlusやCursor Pro+まで対象を拡大",
-        "エンジニアリングでは「権限設計」が重要に",
-        "今後の展望"
-      ],
-      "source_url": "https://x.ai/bot",
-      "source_label": "x.ai",
-      "cover": "assets/posts/1540445952236720228.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1417803120225816596/threads/1540445952236720228",
-      "first_seen": "2026-08-21T19:42:15.115Z"
-    },
-    {
-      "id": "1540445800033820743",
-      "title": "NVIDIA「AVO」がARC-AGI-3で100点、AIエージェントは「モデル性能だけ」では測れない時代へ",
-      "channel": "その他",
-      "category": "その他",
-      "date": "2026-08-21T19:41:38.827Z",
-      "excerpt": "NVIDIAは2026年8月21日、長時間にわたり自律的に作業を継続するエージェント基盤「Agentic Variation Operators（AVO）」が、ARC-AGI-3の公開セットで100.00のRHAEスコアを達成したと発表しました。Claude…",
-      "lead": "NVIDIAは2026年8月21日、長時間にわたり自律的に作業を継続するエージェント基盤「Agentic Variation Operators（AVO）」が、ARC-AGI-3の公開セットで100.00のRHAEスコアを達成したと発表しました。Claude Opus 5単体の評価では約30%とされる一方、AVOを含むエージェントシステムでは全183レベルを完了しており、AIの実用性能を左右するのは基盤モデルだけではないことを示す結果です。",
-      "headings": [
-        "AVOは「長期作業を止めない」エージェント基盤",
-        "GPU最適化では7日間で500以上の方向を探索",
-        "ARC-AGI-3で25環境・183レベルを完全攻略",
-        "「強いモデル」から「強いシステム」へ",
-        "今後の展望"
-      ],
-      "source_url": "https://developer.nvidia.com/blog/nvidia-avo-reaches-100-on-arc-agi-3-demonstrating-a-frontier-level-general-purpose-architecture-for-long-horizon-autonomous-agents/?ncid=so-twit-543600",
-      "source_label": "developer.nvidia.com",
-      "cover": "assets/posts/1540445800033820743.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1540445800033820743",
-      "first_seen": "2026-08-21T19:41:38.827Z"
     }
   ]
 }

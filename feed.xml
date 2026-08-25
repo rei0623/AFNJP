@@ -5,8 +5,40 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 25 Aug 2026 16:12:35 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 25 Aug 2026 23:10:07 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Google、法務特化AI「Gemini Enterprise for Legal」を発表</title>
+      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1541947818376437880</link>
+      <guid isPermaLink="false">afnjp-1541947818376437880</guid>
+      <pubDate>Tue, 25 Aug 2026 23:10:07 GMT</pubDate>
+      <category>google</category>
+      <description>Google Cloudは2026年8月25日、法律事務所や企業法務部門向けのAI基盤「Gemini Enterprise for Legal」を発表しました。汎用AIを単に法務へ転用するのではなく、権限管理や機密保持、根拠追跡、専門業務向けエージェントまで…</description>
+    </item>
+    <item>
+      <title>Keenable AI始動、AIエージェント向け「生きたWeb」の検索基盤を公開</title>
+      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1541947624842727484</link>
+      <guid isPermaLink="false">afnjp-1541947624842727484</guid>
+      <pubDate>Tue, 25 Aug 2026 23:09:21 GMT</pubDate>
+      <category>その他</category>
+      <description>AIエージェントがWeb上の知識を継続的に検索・推論できるようにする新興企業Keenable AIが始動しました。共同創業者のAndrey Styskin氏は、Web Search APIとAI向けWeb Query Languageを公開し、9月末まで無料…</description>
+    </item>
+    <item>
+      <title>Claudeの「記憶」がChatとCoworkで統合、ユーザー自身が内容を管理可能に</title>
+      <link>https://discord.com/channels/1415350002255007784/1415353403269185546/threads/1541947499797807144</link>
+      <guid isPermaLink="false">afnjp-1541947499797807144</guid>
+      <pubDate>Tue, 25 Aug 2026 23:08:51 GMT</pubDate>
+      <category>claude</category>
+      <description>Anthropicは2026年8月25日、Claudeのメモリー機能を拡張し、通常のチャットとClaude Coworkで同じ記憶を共有すると発表しました。会話や作業環境をまたいで文脈を引き継げる一方、保存内容をユーザー自身が確認・編集・削除できる設計が特徴…</description>
+    </item>
+    <item>
+      <title>OpenAI、ChatGPT WorkとCodex向け「Admin plugin」発表</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1541946657485357148</link>
+      <guid isPermaLink="false">afnjp-1541946657485357148</guid>
+      <pubDate>Tue, 25 Aug 2026 23:05:31 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIは2026年8月25日、ChatGPT WorkとCodexから企業ワークスペースを管理できる「Admin plugin」を発表しました。利用状況の分析から権限変更、予算管理までを会話形式で実行でき、管理者が複数の管理画面を行き来する運用を減らす…</description>
+    </item>
     <item>
       <title>Gatikが2億ドル調達、無人貨物輸送を商用展開から本格拡大へ</title>
       <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1541842739300405319</link>
@@ -70,38 +102,6 @@
       <pubDate>Mon, 24 Aug 2026 14:43:53 GMT</pubDate>
       <category>リーク情報</category>
       <description>GoogleがGeminiデスクトップアプリの機能拡張を進めています。最新開発版では「Avatars」が追加され、アプリやスキル、プラグインを探す「Customize」領域も確認されました。さらに内部では次世代モデル「Gemini 4」への準備とみられる動き…</description>
-    </item>
-    <item>
-      <title>OpenAI Codex 0.149.1公開、スレッド分類と画像コンテキスト圧縮を改善</title>
-      <link>https://discord.com/channels/1415350002255007784/1415355102939578490/threads/1541353435213996142</link>
-      <guid isPermaLink="false">afnjp-1541353435213996142</guid>
-      <pubDate>Mon, 24 Aug 2026 07:48:15 GMT</pubDate>
-      <category>codex</category>
-      <description>OpenAIは2026年8月24日、CodexのRust版「0.149.1」を公開しました。今回の更新は大規模な新機能追加というより、エージェント実行時のスレッド分類、メモリ処理、画像を含む長い会話履歴のコンテキスト管理を改善する内容が中心です。</description>
-    </item>
-    <item>
-      <title>Google「Antigravity」にRemote Control登場、AIエージェント開発をブラウザから遠隔操作</title>
-      <link>https://discord.com/channels/1415350002255007784/1440381933371527311/threads/1540576191348478033</link>
-      <guid isPermaLink="false">afnjp-1540576191348478033</guid>
-      <pubDate>Sat, 22 Aug 2026 04:19:46 GMT</pubDate>
-      <category>antigravity</category>
-      <description>GoogleのAntigravityチームは2026年8月21日、エージェント型AI開発環境「Antigravity」に「Remote Control」を導入しました。PCやサーバー上で動作するAntigravityのセッションへWebブラウザから接続し、A…</description>
-    </item>
-    <item>
-      <title>Grok Botが利用対象を大幅拡大、無料トライアルも開始</title>
-      <link>https://discord.com/channels/1415350002255007784/1417803120225816596/threads/1540445952236720228</link>
-      <guid isPermaLink="false">afnjp-1540445952236720228</guid>
-      <pubDate>Fri, 21 Aug 2026 19:42:15 GMT</pubDate>
-      <category>grok</category>
-      <description>xAIは、PC上でアプリやWebサービスを操作し、実務を継続的に処理するAIエージェント「Grok Bot」の提供範囲を拡大しました。新たにSuperGrok Plus、Cursor Pro+、Cursor Teamsの加入者が利用可能となり、それ以外のユー…</description>
-    </item>
-    <item>
-      <title>NVIDIA「AVO」がARC-AGI-3で100点、AIエージェントは「モデル性能だけ」では測れない時代へ</title>
-      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1540445800033820743</link>
-      <guid isPermaLink="false">afnjp-1540445800033820743</guid>
-      <pubDate>Fri, 21 Aug 2026 19:41:38 GMT</pubDate>
-      <category>その他</category>
-      <description>NVIDIAは2026年8月21日、長時間にわたり自律的に作業を継続するエージェント基盤「Agentic Variation Operators（AVO）」が、ARC-AGI-3の公開セットで100.00のRHAEスコアを達成したと発表しました。Claude…</description>
     </item>
   </channel>
 </rss>
