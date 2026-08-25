@@ -5,8 +5,48 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 25 Aug 2026 00:00:24 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 25 Aug 2026 16:12:35 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Gatikが2億ドル調達、無人貨物輸送を商用展開から本格拡大へ</title>
+      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1541842739300405319</link>
+      <guid isPermaLink="false">afnjp-1541842739300405319</guid>
+      <pubDate>Tue, 25 Aug 2026 16:12:35 GMT</pubDate>
+      <category>その他</category>
+      <description>自動運転トラックを開発するGatikが2億ドルの資金調達を実施しました。CEO兼共同創業者のGautam Narang氏は、すでに無人貨物輸送を商用運用し、PepsiCoなどの顧客が利用していると説明しています。今回の大型調達は、自動運転トラック市場が「技術…</description>
+    </item>
+    <item>
+      <title>Perplexity「Portable Computer」登場、DGX SparkでAIエージェントを完全ローカル実行</title>
+      <link>https://discord.com/channels/1415350002255007784/1417545518539739166/threads/1541842634551595079</link>
+      <guid isPermaLink="false">afnjp-1541842634551595079</guid>
+      <pubDate>Tue, 25 Aug 2026 16:12:10 GMT</pubDate>
+      <category>perplexity</category>
+      <description>Perplexityは、NVIDIA DGX Spark上で動作する「Portable Computer」を発表しました。クラウド版Perplexity Computerの機能をローカル環境へ移し、オーケストレーターLLM、サブエージェントLLM、エージェン…</description>
+    </item>
+    <item>
+      <title>Anthropic、AIの「幸福への影響」を測る研究に500万ドル助成</title>
+      <link>https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1541842546311962635</link>
+      <guid isPermaLink="false">afnjp-1541842546311962635</guid>
+      <pubDate>Tue, 25 Aug 2026 16:11:49 GMT</pubDate>
+      <category>anthropic</category>
+      <description>Anthropicは2026年8月25日、AIがユーザーのウェルビーイングに与える影響を評価する独立研究へ、総額500万ドルを提供する助成プログラムを発表しました。研究者には資金だけでなく、同社モデルへのアクセスや技術支援も提供し、成果は誰でも利用できるオー…</description>
+    </item>
+    <item>
+      <title>OpenAI初の推論チップ「Jalapeño」、電力効率と低遅延を両立</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1541841275186319440</link>
+      <guid isPermaLink="false">afnjp-1541841275186319440</guid>
+      <pubDate>Tue, 25 Aug 2026 16:06:46 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIは2026年8月25日、同社初のカスタムAI推論チップ「Jalapeño」の初期性能結果を公開しました。GPT-OSS 120B、DeepSeek R1 670B、Kimi K2.5 1Tを用いた測定では、比較対象システムに対してピーク時の電力当…</description>
+    </item>
+    <item>
+      <title>OpenAI、ロシア発の新たな秘密影響工作を遮断</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1541841181925703775</link>
+      <guid isPermaLink="false">afnjp-1541841181925703775</guid>
+      <pubDate>Tue, 25 Aug 2026 16:06:23 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIは2026年8月25日、ロシア発とみられる新たな秘密影響工作を特定し、関連するChatGPTアカウント群を停止したと発表しました。AI単独で偽情報を大量生成する単純な手法ではなく、実在する研究機関のように見える組織や学術コンテンツ、独自指標を組み…</description>
+    </item>
     <item>
       <title>SpaceXAIがNVIDIA Vera採用、AIエージェント基盤を宇宙へ拡張</title>
       <link>https://discord.com/channels/1415350002255007784/1468059501528744140/threads/1541598084855898222</link>
@@ -62,46 +102,6 @@
       <pubDate>Fri, 21 Aug 2026 19:41:38 GMT</pubDate>
       <category>その他</category>
       <description>NVIDIAは2026年8月21日、長時間にわたり自律的に作業を継続するエージェント基盤「Agentic Variation Operators（AVO）」が、ARC-AGI-3の公開セットで100.00のRHAEスコアを達成したと発表しました。Claude…</description>
-    </item>
-    <item>
-      <title>Anthropic、Claude Mythos 5をサイバー防御へ本格展開</title>
-      <link>https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1540445701287452803</link>
-      <guid isPermaLink="false">afnjp-1540445701287452803</guid>
-      <pubDate>Fri, 21 Aug 2026 19:41:15 GMT</pubDate>
-      <category>anthropic</category>
-      <description>Anthropicは2026年8月21日、最先端モデル「Claude Mythos 5」のサイバーセキュリティ用途を拡大すると発表しました。Claude Securityで利用可能になったほか、セキュリティ企業の製品への統合、オープンソース防御を支援する3,…</description>
-    </item>
-    <item>
-      <title>OpenAI、GPT-5.6 Solを3カ月限定で20％超値下げ APIとクレジット料金を引き下げ</title>
-      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1540445486870433792</link>
-      <guid isPermaLink="false">afnjp-1540445486870433792</guid>
-      <pubDate>Fri, 21 Aug 2026 19:40:24 GMT</pubDate>
-      <category>open-ai</category>
-      <description>OpenAIは、GPT-5.6 SolのAPI料金とクレジット価格を今後3カ月間、20％超引き下げると発表しました。高性能モデルの能力向上と同時に計算効率を改善した成果を価格へ反映する施策で、APIではすでに利用可能となり、ChatGPT WorkとCode…</description>
-    </item>
-    <item>
-      <title>DeepSeek、視覚対応「V4-Flash-Vision-Exp」をAPI公開</title>
-      <link>https://discord.com/channels/1415350002255007784/1419690651490193470/threads/1540350324932485150</link>
-      <guid isPermaLink="false">afnjp-1540350324932485150</guid>
-      <pubDate>Fri, 21 Aug 2026 13:22:15 GMT</pubDate>
-      <category>deep-seek</category>
-      <description>DeepSeekは、実験的なマルチモーダルモデル「DeepSeek-V4-Flash-Vision-Exp」をAPI Platformで公開しました。テキスト性能を維持しながら画像理解を統合し、ブラウザ操作やGUI解析など、視覚情報を扱うAIエージェント用途…</description>
-    </item>
-    <item>
-      <title>OpenAI Codex「rust-v0.149.0」公開、Rust実装が0.149.0へ更新</title>
-      <link>https://discord.com/channels/1415350002255007784/1415355102939578490/threads/1540129170665906206</link>
-      <guid isPermaLink="false">afnjp-1540129170665906206</guid>
-      <pubDate>Thu, 20 Aug 2026 22:43:28 GMT</pubDate>
-      <category>codex</category>
-      <description>OpenAIは、GitHub上の「openai/codex」リポジトリで「rust-v0.149.0」を公開しました。リリースページでは「Release 0.149.0」として登録されており、CodexのRust実装に対する新しいバージョンとして位置付けられ…</description>
-    </item>
-    <item>
-      <title>ChatGPTがApple「メッセージ」と連携、Mac上で検索から返信送信まで可能に</title>
-      <link>https://discord.com/channels/1415350002255007784/1415353131604377641/threads/1540129063853625454</link>
-      <guid isPermaLink="false">afnjp-1540129063853625454</guid>
-      <pubDate>Thu, 20 Aug 2026 22:43:03 GMT</pubDate>
-      <category>chatgpt</category>
-      <description>OpenAIは、Appleの「メッセージ」アプリをChatGPTから操作できる新しいMessagesプラグインを公開しました。Mac上のChatGPT WorkとCodexから、過去のメッセージ検索、会話内容の把握、返信文の作成、送信までを一連のワークフロー…</description>
     </item>
   </channel>
 </rss>

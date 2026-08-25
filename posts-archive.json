@@ -1,9 +1,110 @@
 {
-  "generated_at": "2026-08-25T15:58:44.759Z",
+  "generated_at": "2026-08-25T16:53:16.457Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 67,
+  "count": 72,
   "posts": [
+    {
+      "id": "1541842739300405319",
+      "title": "Gatikが2億ドル調達、無人貨物輸送を商用展開から本格拡大へ",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-08-25T16:12:35.102Z",
+      "excerpt": "自動運転トラックを開発するGatikが2億ドルの資金調達を実施しました。CEO兼共同創業者のGautam Narang氏は、すでに無人貨物輸送を商用運用し、PepsiCoなどの顧客が利用していると説明しています。今回の大型調達は、自動運転トラック市場が「技術…",
+      "lead": "自動運転トラックを開発するGatikが2億ドルの資金調達を実施しました。CEO兼共同創業者のGautam Narang氏は、すでに無人貨物輸送を商用運用し、PepsiCoなどの顧客が利用していると説明しています。今回の大型調達は、自動運転トラック市場が「技術実証」から「商用インフラの拡張」へ移りつつあることを示す動きです。",
+      "headings": [
+        "2億ドルを調達、長期的な事業拡大へ",
+        "PepsiCoの物流網で40台超が稼働",
+        "自動運転競争の評価軸が変わる",
+        "今後の展望"
+      ],
+      "source_url": "https://twitter.com/gautam_narang/status/2092258195968282648",
+      "source_label": "twitter.com",
+      "cover": "assets/posts/1541842739300405319.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1541842739300405319",
+      "first_seen": "2026-08-25T16:12:35.102Z"
+    },
+    {
+      "id": "1541842634551595079",
+      "title": "Perplexity「Portable Computer」登場、DGX SparkでAIエージェントを完全ローカル実行",
+      "channel": "perplexity",
+      "category": "その他",
+      "date": "2026-08-25T16:12:10.128Z",
+      "excerpt": "Perplexityは、NVIDIA DGX Spark上で動作する「Portable Computer」を発表しました。クラウド版Perplexity Computerの機能をローカル環境へ移し、オーケストレーターLLM、サブエージェントLLM、エージェン…",
+      "lead": "Perplexityは、NVIDIA DGX Spark上で動作する「Portable Computer」を発表しました。クラウド版Perplexity Computerの機能をローカル環境へ移し、オーケストレーターLLM、サブエージェントLLM、エージェントハーネスまで端末上で実行する点が最大の特徴です。機密文書をクラウドへ送らず、AIエージェントによる複雑な作業を処理できる設計です。",
+      "headings": [
+        "AIエージェントの実行基盤までローカル化",
+        "高度な推論だけクラウドへ委譲",
+        "ローカルAI競争はモデルからエージェント基盤へ",
+        "今後の展望"
+      ],
+      "source_url": "https://twitter.com/perplexity_ai/status/2092268362386780270",
+      "source_label": "twitter.com",
+      "cover": "assets/posts/1541842634551595079.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417545518539739166/threads/1541842634551595079",
+      "first_seen": "2026-08-25T16:12:10.128Z"
+    },
+    {
+      "id": "1541842546311962635",
+      "title": "Anthropic、AIの「幸福への影響」を測る研究に500万ドル助成",
+      "channel": "anthropic",
+      "category": "Anthropic",
+      "date": "2026-08-25T16:11:49.090Z",
+      "excerpt": "Anthropicは2026年8月25日、AIがユーザーのウェルビーイングに与える影響を評価する独立研究へ、総額500万ドルを提供する助成プログラムを発表しました。研究者には資金だけでなく、同社モデルへのアクセスや技術支援も提供し、成果は誰でも利用できるオー…",
+      "lead": "Anthropicは2026年8月25日、AIがユーザーのウェルビーイングに与える影響を評価する独立研究へ、総額500万ドルを提供する助成プログラムを発表しました。研究者には資金だけでなく、同社モデルへのアクセスや技術支援も提供し、成果は誰でも利用できるオープンソース評価として公開されます。",
+      "headings": [
+        "なぜAIのウェルビーイング評価が難しいのか",
+        "Anthropicが求める評価手法",
+        "AI評価は「正答率」から人間への影響へ",
+        "今後の展望"
+      ],
+      "source_url": "https://www.anthropic.com/news/wellbeing-research-grants",
+      "source_label": "anthropic.com",
+      "cover": "assets/posts/1541842546311962635.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1541842546311962635",
+      "first_seen": "2026-08-25T16:11:49.090Z"
+    },
+    {
+      "id": "1541841275186319440",
+      "title": "OpenAI初の推論チップ「Jalapeño」、電力効率と低遅延を両立",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-08-25T16:06:46.030Z",
+      "excerpt": "OpenAIは2026年8月25日、同社初のカスタムAI推論チップ「Jalapeño」の初期性能結果を公開しました。GPT-OSS 120B、DeepSeek R1 670B、Kimi K2.5 1Tを用いた測定では、比較対象システムに対してピーク時の電力当…",
+      "lead": "OpenAIは2026年8月25日、同社初のカスタムAI推論チップ「Jalapeño」の初期性能結果を公開しました。GPT-OSS 120B、DeepSeek R1 670B、Kimi K2.5 1Tを用いた測定では、比較対象システムに対してピーク時の電力当たり処理性能を1.5～1.9倍に高めながら、エンドツーエンド遅延を1.7～3.6倍短縮したとしています。",
+      "headings": [
+        "推論処理をチップからラックまで一体設計",
+        "GPT-OSSでは電力当たり性能約1.9倍",
+        "AI自身がチップ設計と最適化を支援",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/jalapeno-first-results/",
+      "source_label": "openai.com",
+      "cover": "assets/posts/1541841275186319440.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1541841275186319440",
+      "first_seen": "2026-08-25T16:06:46.030Z"
+    },
+    {
+      "id": "1541841181925703775",
+      "title": "OpenAI、ロシア発の新たな秘密影響工作を遮断",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-08-25T16:06:23.795Z",
+      "excerpt": "OpenAIは2026年8月25日、ロシア発とみられる新たな秘密影響工作を特定し、関連するChatGPTアカウント群を停止したと発表しました。AI単独で偽情報を大量生成する単純な手法ではなく、実在する研究機関のように見える組織や学術コンテンツ、独自指標を組み…",
+      "lead": "OpenAIは2026年8月25日、ロシア発とみられる新たな秘密影響工作を特定し、関連するChatGPTアカウント群を停止したと発表しました。AI単独で偽情報を大量生成する単純な手法ではなく、実在する研究機関のように見える組織や学術コンテンツ、独自指標を組み合わせて「権威そのもの」を構築しようとしていた点が特徴です。",
+      "headings": [
+        "ChatGPTは宣伝コンテンツ生成に利用",
+        "本体は「偽の権威」を作る情報インフラ",
+        "AIが影響工作を支える新しい構造",
+        "影響は限定的、しかし拡張性に警戒",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/disrupting-malicious-uses-of-ai-influence-campaign-russia/",
+      "source_label": "openai.com",
+      "cover": "assets/posts/1541841181925703775.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1541841181925703775",
+      "first_seen": "2026-08-25T16:06:23.795Z"
+    },
     {
       "id": "1541598084855898222",
       "title": "SpaceXAIがNVIDIA Vera採用、AIエージェント基盤を宇宙へ拡張",
