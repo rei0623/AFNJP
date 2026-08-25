@@ -5,8 +5,24 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 24 Aug 2026 14:43:53 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 25 Aug 2026 00:00:24 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>SpaceXAIがNVIDIA Vera採用、AIエージェント基盤を宇宙へ拡張</title>
+      <link>https://discord.com/channels/1415350002255007784/1468059501528744140/threads/1541598084855898222</link>
+      <guid isPermaLink="false">afnjp-1541598084855898222</guid>
+      <pubDate>Tue, 25 Aug 2026 00:00:24 GMT</pubDate>
+      <category>space-x</category>
+      <description>NVIDIAは2026年8月24日、SpaceXAIが次世代のエージェント型AI基盤に「NVIDIA Vera CPU」を採用すると発表しました。Grokを支えるAIインフラをVera Rubinプラットフォームへ拡張し、将来的には同じ計算アーキテクチャを軌…</description>
+    </item>
+    <item>
+      <title>GPT-5.6がAWS「Kiro」に統合、AIコーディングの費用対効果を大幅改善</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1541597565034823720</link>
+      <guid isPermaLink="false">afnjp-1541597565034823720</guid>
+      <pubDate>Mon, 24 Aug 2026 23:58:21 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIは2026年8月24日、GPT-5.6モデルファミリーがAWSのソフトウェア開発エージェント「Kiro」で利用可能になったと発表しました。Sol、Terra、Lunaを開発工程に組み込み、要件整理から設計、実装、レビュー、テストまでを支援します。…</description>
+    </item>
     <item>
       <title>Google「Gemini 4」準備か、デスクトップ版にアバター・プラグイン基盤</title>
       <link>https://discord.com/channels/1415350002255007784/1415534435712897124/threads/1541458031378960536</link>
@@ -86,22 +102,6 @@
       <pubDate>Thu, 20 Aug 2026 22:43:03 GMT</pubDate>
       <category>chatgpt</category>
       <description>OpenAIは、Appleの「メッセージ」アプリをChatGPTから操作できる新しいMessagesプラグインを公開しました。Mac上のChatGPT WorkとCodexから、過去のメッセージ検索、会話内容の把握、返信文の作成、送信までを一連のワークフロー…</description>
-    </item>
-    <item>
-      <title>Grokのアプリ生成機能、全SuperGrok・X Premiumプランへ拡大</title>
-      <link>https://discord.com/channels/1415350002255007784/1417803120225816596/threads/1540128858416611378</link>
-      <guid isPermaLink="false">afnjp-1540128858416611378</guid>
-      <pubDate>Thu, 20 Aug 2026 22:42:14 GMT</pubDate>
-      <category>grok</category>
-      <description>xAIのGrokは、grok.com、iOS、Androidから利用できるアプリ構築機能について、すべてのSuperGrokおよびX Premiumプランへ提供範囲を拡大しました。自然言語でアイデアを入力するだけで、アプリを生成し、独自ドメインを持つ公開プロ…</description>
-    </item>
-    <item>
-      <title>OpenAIが「AI Futures」始動、超高度AI時代の権力集中と自由を再設計へ</title>
-      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1540128762027450560</link>
-      <guid isPermaLink="false">afnjp-1540128762027450560</guid>
-      <pubDate>Thu, 20 Aug 2026 22:41:51 GMT</pubDate>
-      <category>open-ai</category>
-      <description>OpenAIは2026年8月20日、新チーム「Strategic Futures」によるブログ「AI Futures」の開始を発表しました。中心テーマは、変革的なAIが登場する社会で、個人の権利や主体性を維持しながら自由社会をどのように再構築するかです。なお…</description>
     </item>
   </channel>
 </rss>

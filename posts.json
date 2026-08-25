@@ -1,8 +1,48 @@
 {
-  "generated_at": "2026-08-24T23:33:28.523Z",
+  "generated_at": "2026-08-25T01:50:36.967Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1541598084855898222",
+      "title": "SpaceXAIがNVIDIA Vera採用、AIエージェント基盤を宇宙へ拡張",
+      "channel": "space-x",
+      "category": "Space X",
+      "date": "2026-08-25T00:00:24.937Z",
+      "excerpt": "NVIDIAは2026年8月24日、SpaceXAIが次世代のエージェント型AI基盤に「NVIDIA Vera CPU」を採用すると発表しました。Grokを支えるAIインフラをVera Rubinプラットフォームへ拡張し、将来的には同じ計算アーキテクチャを軌…",
+      "lead": "NVIDIAは2026年8月24日、SpaceXAIが次世代のエージェント型AI基盤に「NVIDIA Vera CPU」を採用すると発表しました。Grokを支えるAIインフラをVera Rubinプラットフォームへ拡張し、将来的には同じ計算アーキテクチャを軌道上のAI衛星「Starmind」に展開する計画です。",
+      "headings": [
+        "AIエージェントではCPU性能が再び重要に",
+        "Grok基盤をギガワット級へ",
+        "同じAI基盤を軌道上へ",
+        "今後の展望"
+      ],
+      "source_url": "https://nvidianews.nvidia.com/news/spacexai-adopts-nvidia-vera-cpu-to-accelerate-agentic-ai-at-massive-scale?ncid=so-twit-884062",
+      "source_label": "nvidianews.nvidia.com",
+      "cover": "assets/posts/1541598084855898222.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1468059501528744140/threads/1541598084855898222",
+      "first_seen": "2026-08-25T00:00:24.937Z"
+    },
+    {
+      "id": "1541597565034823720",
+      "title": "GPT-5.6がAWS「Kiro」に統合、AIコーディングの費用対効果を大幅改善",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-08-24T23:58:21.002Z",
+      "excerpt": "OpenAIは2026年8月24日、GPT-5.6モデルファミリーがAWSのソフトウェア開発エージェント「Kiro」で利用可能になったと発表しました。Sol、Terra、Lunaを開発工程に組み込み、要件整理から設計、実装、レビュー、テストまでを支援します。…",
+      "lead": "OpenAIは2026年8月24日、GPT-5.6モデルファミリーがAWSのソフトウェア開発エージェント「Kiro」で利用可能になったと発表しました。Sol、Terra、Lunaを開発工程に組み込み、要件整理から設計、実装、レビュー、テストまでを支援します。特に注目されるのは、GPT-5.6 Terraを使った評価で、タスク成功時のコストを大幅に削減した点です。",
+      "headings": [
+        "GPT-5.6を「仕様駆動」の開発工程へ統合",
+        "GPT-5.6 Terraで約82％のコスト削減",
+        "企業のAI開発はモデル選択と工程設計が重要に",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/gpt-5-6-in-kiro/",
+      "source_label": "openai.com",
+      "cover": "assets/posts/1541597565034823720.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1541597565034823720",
+      "first_seen": "2026-08-24T23:58:21.002Z"
+    },
     {
       "id": "1541458031378960536",
       "title": "Google「Gemini 4」準備か、デスクトップ版にアバター・プラグイン基盤",
@@ -206,47 +246,6 @@
       "cover": "assets/posts/1540129063853625454.webp",
       "url": "https://discord.com/channels/1415350002255007784/1415353131604377641/threads/1540129063853625454",
       "first_seen": "2026-08-20T22:43:03.037Z"
-    },
-    {
-      "id": "1540128858416611378",
-      "title": "Grokのアプリ生成機能、全SuperGrok・X Premiumプランへ拡大",
-      "channel": "grok",
-      "category": "Space X",
-      "date": "2026-08-20T22:42:14.057Z",
-      "excerpt": "xAIのGrokは、grok.com、iOS、Androidから利用できるアプリ構築機能について、すべてのSuperGrokおよびX Premiumプランへ提供範囲を拡大しました。自然言語でアイデアを入力するだけで、アプリを生成し、独自ドメインを持つ公開プロ…",
-      "lead": "xAIのGrokは、grok.com、iOS、Androidから利用できるアプリ構築機能について、すべてのSuperGrokおよびX Premiumプランへ提供範囲を拡大しました。自然言語でアイデアを入力するだけで、アプリを生成し、独自ドメインを持つ公開プロダクトまで仕上げられる点が特徴です。",
-      "headings": [
-        "1プロンプトから「公開」までを一体化",
-        "有料ユーザーへの開放が示す戦略",
-        "エンジニアにも影響する開発体験の変化",
-        "今後の展望"
-      ],
-      "source_url": "https://twitter.com/grok/status/2090518541480898973",
-      "source_label": "twitter.com",
-      "cover": "assets/posts/1540128858416611378.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1417803120225816596/threads/1540128858416611378",
-      "first_seen": "2026-08-20T22:42:14.057Z"
-    },
-    {
-      "id": "1540128762027450560",
-      "title": "OpenAIが「AI Futures」始動、超高度AI時代の権力集中と自由を再設計へ",
-      "channel": "open-ai",
-      "category": "Open AI",
-      "date": "2026-08-20T22:41:51.076Z",
-      "excerpt": "OpenAIは2026年8月20日、新チーム「Strategic Futures」によるブログ「AI Futures」の開始を発表しました。中心テーマは、変革的なAIが登場する社会で、個人の権利や主体性を維持しながら自由社会をどのように再構築するかです。なお…",
-      "lead": "OpenAIは2026年8月20日、新チーム「Strategic Futures」によるブログ「AI Futures」の開始を発表しました。中心テーマは、変革的なAIが登場する社会で、個人の権利や主体性を維持しながら自由社会をどのように再構築するかです。なお、今回の記事は著者Dean Ball氏個人の見解であり、OpenAI全体の公式見解ではないと明記されています。",
-      "headings": [
-        "AIが変えるのは仕事だけではなく「権力の構造」",
-        "「完全な分散化」も解決策ではない",
-        "AIガバナンスに「追跡可能性」と匿名性を両立",
-        "企業そのものもAIで変形する",
-        "今後の展望"
-      ],
-      "source_url": "https://openai.com/index/introducing-ai-futures/",
-      "source_label": "openai.com",
-      "cover": "assets/posts/1540128762027450560.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1540128762027450560",
-      "first_seen": "2026-08-20T22:41:51.076Z"
     }
   ]
 }

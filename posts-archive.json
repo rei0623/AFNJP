@@ -1,9 +1,49 @@
 {
-  "generated_at": "2026-08-24T23:33:28.522Z",
+  "generated_at": "2026-08-25T01:50:36.966Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 65,
+  "count": 67,
   "posts": [
+    {
+      "id": "1541598084855898222",
+      "title": "SpaceXAIがNVIDIA Vera採用、AIエージェント基盤を宇宙へ拡張",
+      "channel": "space-x",
+      "category": "Space X",
+      "date": "2026-08-25T00:00:24.937Z",
+      "excerpt": "NVIDIAは2026年8月24日、SpaceXAIが次世代のエージェント型AI基盤に「NVIDIA Vera CPU」を採用すると発表しました。Grokを支えるAIインフラをVera Rubinプラットフォームへ拡張し、将来的には同じ計算アーキテクチャを軌…",
+      "lead": "NVIDIAは2026年8月24日、SpaceXAIが次世代のエージェント型AI基盤に「NVIDIA Vera CPU」を採用すると発表しました。Grokを支えるAIインフラをVera Rubinプラットフォームへ拡張し、将来的には同じ計算アーキテクチャを軌道上のAI衛星「Starmind」に展開する計画です。",
+      "headings": [
+        "AIエージェントではCPU性能が再び重要に",
+        "Grok基盤をギガワット級へ",
+        "同じAI基盤を軌道上へ",
+        "今後の展望"
+      ],
+      "source_url": "https://nvidianews.nvidia.com/news/spacexai-adopts-nvidia-vera-cpu-to-accelerate-agentic-ai-at-massive-scale?ncid=so-twit-884062",
+      "source_label": "nvidianews.nvidia.com",
+      "cover": "assets/posts/1541598084855898222.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1468059501528744140/threads/1541598084855898222",
+      "first_seen": "2026-08-25T00:00:24.937Z"
+    },
+    {
+      "id": "1541597565034823720",
+      "title": "GPT-5.6がAWS「Kiro」に統合、AIコーディングの費用対効果を大幅改善",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-08-24T23:58:21.002Z",
+      "excerpt": "OpenAIは2026年8月24日、GPT-5.6モデルファミリーがAWSのソフトウェア開発エージェント「Kiro」で利用可能になったと発表しました。Sol、Terra、Lunaを開発工程に組み込み、要件整理から設計、実装、レビュー、テストまでを支援します。…",
+      "lead": "OpenAIは2026年8月24日、GPT-5.6モデルファミリーがAWSのソフトウェア開発エージェント「Kiro」で利用可能になったと発表しました。Sol、Terra、Lunaを開発工程に組み込み、要件整理から設計、実装、レビュー、テストまでを支援します。特に注目されるのは、GPT-5.6 Terraを使った評価で、タスク成功時のコストを大幅に削減した点です。",
+      "headings": [
+        "GPT-5.6を「仕様駆動」の開発工程へ統合",
+        "GPT-5.6 Terraで約82％のコスト削減",
+        "企業のAI開発はモデル選択と工程設計が重要に",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/gpt-5-6-in-kiro/",
+      "source_label": "openai.com",
+      "cover": "assets/posts/1541597565034823720.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1541597565034823720",
+      "first_seen": "2026-08-24T23:58:21.002Z"
+    },
     {
       "id": "1541458031378960536",
       "title": "Google「Gemini 4」準備か、デスクトップ版にアバター・プラグイン基盤",
