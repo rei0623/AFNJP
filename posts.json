@@ -1,8 +1,49 @@
 {
-  "generated_at": "2026-08-25T23:35:51.997Z",
+  "generated_at": "2026-08-26T01:56:38.422Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1541959605083574293",
+      "title": "ChatGPT Businessに「Premium Seat」、少人数チーム向けにAI利用枠を大幅拡張",
+      "channel": "chatgpt",
+      "category": "Open AI",
+      "date": "2026-08-25T23:56:58.076Z",
+      "excerpt": "OpenAIは、ChatGPT Business向けに新たな「Premium Seat」を導入しました。年払いでは1ユーザーあたり月額100ドルで、Standard Seatより大きな利用枠を提供し、AIを日常業務の補助ではなく本格的な業務基盤として使う企業…",
+      "lead": "OpenAIは、ChatGPT Business向けに新たな「Premium Seat」を導入しました。年払いでは1ユーザーあたり月額100ドルで、Standard Seatより大きな利用枠を提供し、AIを日常業務の補助ではなく本格的な業務基盤として使う企業を狙ったプランです。",
+      "headings": [
+        "Standardの5倍、5時間制限も撤廃",
+        "必要な社員だけPremiumにできる",
+        "中小企業のAI活用は「導入」から「容量設計」へ",
+        "今後の展望"
+      ],
+      "source_url": "https://twitter.com/OpenAI/status/2092335305366069305",
+      "source_label": "twitter.com",
+      "cover": "assets/posts/1541959605083574293.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415353131604377641/threads/1541959605083574293",
+      "first_seen": "2026-08-25T23:56:58.076Z"
+    },
+    {
+      "id": "1541959414217572423",
+      "title": "ChatGPTブラウザ機能が拡張、Edge・Brave・Opera・Vivaldi対応とWebMCPを導入",
+      "channel": "chatgpt",
+      "category": "Open AI",
+      "date": "2026-08-25T23:56:12.570Z",
+      "excerpt": "OpenAIは2026年8月25日、ChatGPTとCodexのブラウザ関連機能を拡張しました。Chromeに加えMicrosoft Edge、Brave、Opera、Vivaldiでもブラウザ拡張機能を利用できるようになり、さらにWebサイト側がAI向けの…",
+      "lead": "OpenAIは2026年8月25日、ChatGPTとCodexのブラウザ関連機能を拡張しました。Chromeに加えMicrosoft Edge、Brave、Opera、Vivaldiでもブラウザ拡張機能を利用できるようになり、さらにWebサイト側がAI向けの操作機能を提供する「Site tools（WebMCP）」や、クラウドブラウザでのWebサービスへのサインイン機能も追加されています。",
+      "headings": [
+        "5種類のブラウザでChatGPTによる操作が可能に",
+        "WebMCPでWebサイトがAI向けツールを直接提供",
+        "クラウドブラウザからWebサービスへサインイン",
+        "AIエージェントとWebの接続方法が変わる",
+        "今後の展望"
+      ],
+      "source_url": "https://learn.chatgpt.com/docs/changelog",
+      "source_label": "learn.chatgpt.com",
+      "cover": "assets/posts/1541959414217572423.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415353131604377641/threads/1541959414217572423",
+      "first_seen": "2026-08-25T23:56:12.570Z"
+    },
     {
       "id": "1541947818376437880",
       "title": "Google、法務特化AI「Gemini Enterprise for Legal」を発表",
@@ -207,46 +248,6 @@
       "cover": "assets/posts/1541598084855898222.webp",
       "url": "https://discord.com/channels/1415350002255007784/1468059501528744140/threads/1541598084855898222",
       "first_seen": "2026-08-25T00:00:24.937Z"
-    },
-    {
-      "id": "1541597565034823720",
-      "title": "GPT-5.6がAWS「Kiro」に統合、AIコーディングの費用対効果を大幅改善",
-      "channel": "open-ai",
-      "category": "Open AI",
-      "date": "2026-08-24T23:58:21.002Z",
-      "excerpt": "OpenAIは2026年8月24日、GPT-5.6モデルファミリーがAWSのソフトウェア開発エージェント「Kiro」で利用可能になったと発表しました。Sol、Terra、Lunaを開発工程に組み込み、要件整理から設計、実装、レビュー、テストまでを支援します。…",
-      "lead": "OpenAIは2026年8月24日、GPT-5.6モデルファミリーがAWSのソフトウェア開発エージェント「Kiro」で利用可能になったと発表しました。Sol、Terra、Lunaを開発工程に組み込み、要件整理から設計、実装、レビュー、テストまでを支援します。特に注目されるのは、GPT-5.6 Terraを使った評価で、タスク成功時のコストを大幅に削減した点です。",
-      "headings": [
-        "GPT-5.6を「仕様駆動」の開発工程へ統合",
-        "GPT-5.6 Terraで約82％のコスト削減",
-        "企業のAI開発はモデル選択と工程設計が重要に",
-        "今後の展望"
-      ],
-      "source_url": "https://openai.com/index/gpt-5-6-in-kiro/",
-      "source_label": "openai.com",
-      "cover": "assets/posts/1541597565034823720.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1541597565034823720",
-      "first_seen": "2026-08-24T23:58:21.002Z"
-    },
-    {
-      "id": "1541458031378960536",
-      "title": "Google「Gemini 4」準備か、デスクトップ版にアバター・プラグイン基盤",
-      "channel": "リーク情報",
-      "category": "リーク情報",
-      "date": "2026-08-24T14:43:53.586Z",
-      "excerpt": "GoogleがGeminiデスクトップアプリの機能拡張を進めています。最新開発版では「Avatars」が追加され、アプリやスキル、プラグインを探す「Customize」領域も確認されました。さらに内部では次世代モデル「Gemini 4」への準備とみられる動き…",
-      "lead": "GoogleがGeminiデスクトップアプリの機能拡張を進めています。最新開発版では「Avatars」が追加され、アプリやスキル、プラグインを探す「Customize」領域も確認されました。さらに内部では次世代モデル「Gemini 4」への準備とみられる動きが増えていると報じられています。",
-      "headings": [
-        "Geminiが「AIアプリ基盤」へ拡張",
-        "Gmail・Calendarウィジェットも準備",
-        "「Gemini 4」の内部準備も進行か",
-        "今後の展望"
-      ],
-      "source_url": "https://www.testingcatalog.com/google-prepares-gemini-app-for-avatars-plugins-and-gemini-4/",
-      "source_label": "testingcatalog.com",
-      "cover": "assets/posts/1541458031378960536.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1415534435712897124/threads/1541458031378960536",
-      "first_seen": "2026-08-24T14:43:53.586Z"
     }
   ]
 }

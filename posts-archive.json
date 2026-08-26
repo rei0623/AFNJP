@@ -1,9 +1,50 @@
 {
-  "generated_at": "2026-08-25T23:35:51.996Z",
+  "generated_at": "2026-08-26T01:56:38.421Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 76,
+  "count": 78,
   "posts": [
+    {
+      "id": "1541959605083574293",
+      "title": "ChatGPT Businessに「Premium Seat」、少人数チーム向けにAI利用枠を大幅拡張",
+      "channel": "chatgpt",
+      "category": "Open AI",
+      "date": "2026-08-25T23:56:58.076Z",
+      "excerpt": "OpenAIは、ChatGPT Business向けに新たな「Premium Seat」を導入しました。年払いでは1ユーザーあたり月額100ドルで、Standard Seatより大きな利用枠を提供し、AIを日常業務の補助ではなく本格的な業務基盤として使う企業…",
+      "lead": "OpenAIは、ChatGPT Business向けに新たな「Premium Seat」を導入しました。年払いでは1ユーザーあたり月額100ドルで、Standard Seatより大きな利用枠を提供し、AIを日常業務の補助ではなく本格的な業務基盤として使う企業を狙ったプランです。",
+      "headings": [
+        "Standardの5倍、5時間制限も撤廃",
+        "必要な社員だけPremiumにできる",
+        "中小企業のAI活用は「導入」から「容量設計」へ",
+        "今後の展望"
+      ],
+      "source_url": "https://twitter.com/OpenAI/status/2092335305366069305",
+      "source_label": "twitter.com",
+      "cover": "assets/posts/1541959605083574293.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415353131604377641/threads/1541959605083574293",
+      "first_seen": "2026-08-25T23:56:58.076Z"
+    },
+    {
+      "id": "1541959414217572423",
+      "title": "ChatGPTブラウザ機能が拡張、Edge・Brave・Opera・Vivaldi対応とWebMCPを導入",
+      "channel": "chatgpt",
+      "category": "Open AI",
+      "date": "2026-08-25T23:56:12.570Z",
+      "excerpt": "OpenAIは2026年8月25日、ChatGPTとCodexのブラウザ関連機能を拡張しました。Chromeに加えMicrosoft Edge、Brave、Opera、Vivaldiでもブラウザ拡張機能を利用できるようになり、さらにWebサイト側がAI向けの…",
+      "lead": "OpenAIは2026年8月25日、ChatGPTとCodexのブラウザ関連機能を拡張しました。Chromeに加えMicrosoft Edge、Brave、Opera、Vivaldiでもブラウザ拡張機能を利用できるようになり、さらにWebサイト側がAI向けの操作機能を提供する「Site tools（WebMCP）」や、クラウドブラウザでのWebサービスへのサインイン機能も追加されています。",
+      "headings": [
+        "5種類のブラウザでChatGPTによる操作が可能に",
+        "WebMCPでWebサイトがAI向けツールを直接提供",
+        "クラウドブラウザからWebサービスへサインイン",
+        "AIエージェントとWebの接続方法が変わる",
+        "今後の展望"
+      ],
+      "source_url": "https://learn.chatgpt.com/docs/changelog",
+      "source_label": "learn.chatgpt.com",
+      "cover": "assets/posts/1541959414217572423.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415353131604377641/threads/1541959414217572423",
+      "first_seen": "2026-08-25T23:56:12.570Z"
+    },
     {
       "id": "1541947818376437880",
       "title": "Google、法務特化AI「Gemini Enterprise for Legal」を発表",
