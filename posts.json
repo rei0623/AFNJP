@@ -1,8 +1,29 @@
 {
-  "generated_at": "2026-08-26T11:43:10.942Z",
+  "generated_at": "2026-08-26T13:14:15.048Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1542157957859516436",
+      "title": "Qwen3.8-Flash-Next公開、Qwen4を先取りする新アーキテクチャ",
+      "channel": "qwen",
+      "category": "Alibaba",
+      "date": "2026-08-26T13:05:09.063Z",
+      "excerpt": "AlibabaのQwenチームは、次世代モデル「Qwen4」の設計を先行公開する位置付けとなるオープンウェイトモデル「Qwen3.8-Flash-Next」を発表しました。1250億パラメータのMoE本体に510億パラメータのN-gram Embedding…",
+      "lead": "AlibabaのQwenチームは、次世代モデル「Qwen4」の設計を先行公開する位置付けとなるオープンウェイトモデル「Qwen3.8-Flash-Next」を発表しました。1250億パラメータのMoE本体に510億パラメータのN-gram Embeddingを組み合わせながら、1トークンあたりの活性化パラメータを60億に抑え、性能と計算効率の両立を狙います。",
+      "headings": [
+        "GDNとQSAで長大コンテキストを効率化",
+        "4本のResidual経路と510億の「局所記憶」",
+        "60億パラメータ活性化でも高い性能",
+        "Muon採用で学習方法も再設計",
+        "今後の展望"
+      ],
+      "source_url": "https://qwen.ai/blog?id=qwen3.8-flash-next",
+      "source_label": "qwen.ai",
+      "cover": "assets/posts/1542157957859516436.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1419932032716243027/threads/1542157957859516436",
+      "first_seen": "2026-08-26T13:05:09.063Z"
+    },
     {
       "id": "1541959605083574293",
       "title": "ChatGPT Businessに「Premium Seat」、少人数チーム向けにAI利用枠を大幅拡張",
@@ -228,26 +249,6 @@
       "cover": "assets/posts/1541841181925703775.webp",
       "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1541841181925703775",
       "first_seen": "2026-08-25T16:06:23.795Z"
-    },
-    {
-      "id": "1541598084855898222",
-      "title": "SpaceXAIがNVIDIA Vera採用、AIエージェント基盤を宇宙へ拡張",
-      "channel": "space-x",
-      "category": "Space X",
-      "date": "2026-08-25T00:00:24.937Z",
-      "excerpt": "NVIDIAは2026年8月24日、SpaceXAIが次世代のエージェント型AI基盤に「NVIDIA Vera CPU」を採用すると発表しました。Grokを支えるAIインフラをVera Rubinプラットフォームへ拡張し、将来的には同じ計算アーキテクチャを軌…",
-      "lead": "NVIDIAは2026年8月24日、SpaceXAIが次世代のエージェント型AI基盤に「NVIDIA Vera CPU」を採用すると発表しました。Grokを支えるAIインフラをVera Rubinプラットフォームへ拡張し、将来的には同じ計算アーキテクチャを軌道上のAI衛星「Starmind」に展開する計画です。",
-      "headings": [
-        "AIエージェントではCPU性能が再び重要に",
-        "Grok基盤をギガワット級へ",
-        "同じAI基盤を軌道上へ",
-        "今後の展望"
-      ],
-      "source_url": "https://nvidianews.nvidia.com/news/spacexai-adopts-nvidia-vera-cpu-to-accelerate-agentic-ai-at-massive-scale?ncid=so-twit-884062",
-      "source_label": "nvidianews.nvidia.com",
-      "cover": "assets/posts/1541598084855898222.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1468059501528744140/threads/1541598084855898222",
-      "first_seen": "2026-08-25T00:00:24.937Z"
     }
   ]
 }

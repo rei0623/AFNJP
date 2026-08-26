@@ -5,8 +5,16 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 25 Aug 2026 23:56:58 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 26 Aug 2026 13:05:09 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Qwen3.8-Flash-Next公開、Qwen4を先取りする新アーキテクチャ</title>
+      <link>https://discord.com/channels/1415350002255007784/1419932032716243027/threads/1542157957859516436</link>
+      <guid isPermaLink="false">afnjp-1542157957859516436</guid>
+      <pubDate>Wed, 26 Aug 2026 13:05:09 GMT</pubDate>
+      <category>qwen</category>
+      <description>AlibabaのQwenチームは、次世代モデル「Qwen4」の設計を先行公開する位置付けとなるオープンウェイトモデル「Qwen3.8-Flash-Next」を発表しました。1250億パラメータのMoE本体に510億パラメータのN-gram Embedding…</description>
+    </item>
     <item>
       <title>ChatGPT Businessに「Premium Seat」、少人数チーム向けにAI利用枠を大幅拡張</title>
       <link>https://discord.com/channels/1415350002255007784/1415353131604377641/threads/1541959605083574293</link>
@@ -94,14 +102,6 @@
       <pubDate>Tue, 25 Aug 2026 16:06:23 GMT</pubDate>
       <category>open-ai</category>
       <description>OpenAIは2026年8月25日、ロシア発とみられる新たな秘密影響工作を特定し、関連するChatGPTアカウント群を停止したと発表しました。AI単独で偽情報を大量生成する単純な手法ではなく、実在する研究機関のように見える組織や学術コンテンツ、独自指標を組み…</description>
-    </item>
-    <item>
-      <title>SpaceXAIがNVIDIA Vera採用、AIエージェント基盤を宇宙へ拡張</title>
-      <link>https://discord.com/channels/1415350002255007784/1468059501528744140/threads/1541598084855898222</link>
-      <guid isPermaLink="false">afnjp-1541598084855898222</guid>
-      <pubDate>Tue, 25 Aug 2026 00:00:24 GMT</pubDate>
-      <category>space-x</category>
-      <description>NVIDIAは2026年8月24日、SpaceXAIが次世代のエージェント型AI基盤に「NVIDIA Vera CPU」を採用すると発表しました。Grokを支えるAIインフラをVera Rubinプラットフォームへ拡張し、将来的には同じ計算アーキテクチャを軌…</description>
     </item>
   </channel>
 </rss>

@@ -1,9 +1,30 @@
 {
-  "generated_at": "2026-08-26T11:43:10.941Z",
+  "generated_at": "2026-08-26T13:14:15.047Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 78,
+  "count": 79,
   "posts": [
+    {
+      "id": "1542157957859516436",
+      "title": "Qwen3.8-Flash-Next公開、Qwen4を先取りする新アーキテクチャ",
+      "channel": "qwen",
+      "category": "Alibaba",
+      "date": "2026-08-26T13:05:09.063Z",
+      "excerpt": "AlibabaのQwenチームは、次世代モデル「Qwen4」の設計を先行公開する位置付けとなるオープンウェイトモデル「Qwen3.8-Flash-Next」を発表しました。1250億パラメータのMoE本体に510億パラメータのN-gram Embedding…",
+      "lead": "AlibabaのQwenチームは、次世代モデル「Qwen4」の設計を先行公開する位置付けとなるオープンウェイトモデル「Qwen3.8-Flash-Next」を発表しました。1250億パラメータのMoE本体に510億パラメータのN-gram Embeddingを組み合わせながら、1トークンあたりの活性化パラメータを60億に抑え、性能と計算効率の両立を狙います。",
+      "headings": [
+        "GDNとQSAで長大コンテキストを効率化",
+        "4本のResidual経路と510億の「局所記憶」",
+        "60億パラメータ活性化でも高い性能",
+        "Muon採用で学習方法も再設計",
+        "今後の展望"
+      ],
+      "source_url": "https://qwen.ai/blog?id=qwen3.8-flash-next",
+      "source_label": "qwen.ai",
+      "cover": "assets/posts/1542157957859516436.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1419932032716243027/threads/1542157957859516436",
+      "first_seen": "2026-08-26T13:05:09.063Z"
+    },
     {
       "id": "1541959605083574293",
       "title": "ChatGPT Businessに「Premium Seat」、少人数チーム向けにAI利用枠を大幅拡張",
