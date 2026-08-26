@@ -5,8 +5,24 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 26 Aug 2026 13:05:09 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 26 Aug 2026 14:57:31 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>GLM-5.3-Flash登場、320Bモデルで「高性能・低コスト・100万トークン」を狙う</title>
+      <link>https://discord.com/channels/1415350002255007784/1418395473290461285/threads/1542186237639659562</link>
+      <guid isPermaLink="false">afnjp-1542186237639659562</guid>
+      <pubDate>Wed, 26 Aug 2026 14:57:31 GMT</pubDate>
+      <category>glm</category>
+      <description>Z.aiは2026年8月26日、GLM-5シリーズ初のネイティブマルチモーダルモデル「GLM-5.3-Flash」を発表しました。総パラメータ数320Bに対し、推論時に使うアクティブパラメータは18B。GLM-5.2を複数のコーディング・エージェント評価で上…</description>
+    </item>
+    <item>
+      <title>Google Labs「Play with Putty」公開、バイブコーディングをリアルタイム共同作業へ</title>
+      <link>https://discord.com/channels/1415350002255007784/1420666565506105375/threads/1542186107486212166</link>
+      <guid isPermaLink="false">afnjp-1542186107486212166</guid>
+      <pubDate>Wed, 26 Aug 2026 14:57:00 GMT</pubDate>
+      <category>google-labs</category>
+      <description>Google Labsは2026年8月25日、新たな実験プロジェクト「Play with Putty」を発表しました。AIを活用してツールやWebサイトを作る「バイブコーディング」に、複数人が同時参加できるリアルタイム共同作業という要素を持ち込む試みです。現…</description>
+    </item>
     <item>
       <title>Qwen3.8-Flash-Next公開、Qwen4を先取りする新アーキテクチャ</title>
       <link>https://discord.com/channels/1415350002255007784/1419932032716243027/threads/1542157957859516436</link>
@@ -86,22 +102,6 @@
       <pubDate>Tue, 25 Aug 2026 16:11:49 GMT</pubDate>
       <category>anthropic</category>
       <description>Anthropicは2026年8月25日、AIがユーザーのウェルビーイングに与える影響を評価する独立研究へ、総額500万ドルを提供する助成プログラムを発表しました。研究者には資金だけでなく、同社モデルへのアクセスや技術支援も提供し、成果は誰でも利用できるオー…</description>
-    </item>
-    <item>
-      <title>OpenAI初の推論チップ「Jalapeño」、電力効率と低遅延を両立</title>
-      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1541841275186319440</link>
-      <guid isPermaLink="false">afnjp-1541841275186319440</guid>
-      <pubDate>Tue, 25 Aug 2026 16:06:46 GMT</pubDate>
-      <category>open-ai</category>
-      <description>OpenAIは2026年8月25日、同社初のカスタムAI推論チップ「Jalapeño」の初期性能結果を公開しました。GPT-OSS 120B、DeepSeek R1 670B、Kimi K2.5 1Tを用いた測定では、比較対象システムに対してピーク時の電力当…</description>
-    </item>
-    <item>
-      <title>OpenAI、ロシア発の新たな秘密影響工作を遮断</title>
-      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1541841181925703775</link>
-      <guid isPermaLink="false">afnjp-1541841181925703775</guid>
-      <pubDate>Tue, 25 Aug 2026 16:06:23 GMT</pubDate>
-      <category>open-ai</category>
-      <description>OpenAIは2026年8月25日、ロシア発とみられる新たな秘密影響工作を特定し、関連するChatGPTアカウント群を停止したと発表しました。AI単独で偽情報を大量生成する単純な手法ではなく、実在する研究機関のように見える組織や学術コンテンツ、独自指標を組み…</description>
     </item>
   </channel>
 </rss>
