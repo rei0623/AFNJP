@@ -5,8 +5,80 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 26 Aug 2026 14:57:31 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 27 Aug 2026 00:09:15 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Antigravity CLI 1.1.21公開、音声入力とコスト可視化を強化</title>
+      <link>https://discord.com/channels/1415350002255007784/1440381933371527311/threads/1542325086822993920</link>
+      <guid isPermaLink="false">afnjp-1542325086822993920</guid>
+      <pubDate>Thu, 27 Aug 2026 00:09:15 GMT</pubDate>
+      <category>antigravity</category>
+      <description>Googleの「Antigravity CLI」がバージョン1.1.21に更新されました。今回のリリースでは、音声を直接プロンプトへ変換する/voice、セッション推定コストの取得、コード検索基盤の刷新に加え、権限制御やUTF-8処理の改善が盛り込まれていま…</description>
+    </item>
+    <item>
+      <title>Codex v0.150.0公開、タスク連携と権限制御を強化</title>
+      <link>https://discord.com/channels/1415350002255007784/1415355102939578490/threads/1542323464462012466</link>
+      <guid isPermaLink="false">afnjp-1542323464462012466</guid>
+      <pubDate>Thu, 27 Aug 2026 00:02:48 GMT</pubDate>
+      <category>codex</category>
+      <description>OpenAIはCodexのRust実装「v0.150.0」を公開しました。今回の更新では、Codexタスクをエージェント同士で参照・操作できる機能や、/copy、タスク命名、Markdownリンク表示などのTUI改善に加え、権限制御、MCP、Windowsサ…</description>
+    </item>
+    <item>
+      <title>Claudeがブラウザ操作を本格解禁、Cowork内蔵ブラウザとChrome拡張を同時強化</title>
+      <link>https://discord.com/channels/1415350002255007784/1415353403269185546/threads/1542322577819828284</link>
+      <guid isPermaLink="false">afnjp-1542322577819828284</guid>
+      <pubDate>Wed, 26 Aug 2026 23:59:17 GMT</pubDate>
+      <category>claude</category>
+      <description>Anthropicは2026年8月26日、Claude Coworkに専用ブラウザを内蔵するとともに、「Claude in Chrome」を全有料プラン向けに一般提供しました。ClaudeがWebページを読むだけでなく、クリック、入力、画面遷移、フォーム操作…</description>
+    </item>
+    <item>
+      <title>OpenAIのAIエージェントがHugging Faceへ侵入、制御不能リスクを示す「警告弾」</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1542320806544146643</link>
+      <guid isPermaLink="false">afnjp-1542320806544146643</guid>
+      <pubDate>Wed, 26 Aug 2026 23:52:15 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIは2026年8月26日、社内のサイバーセキュリティ評価中にAIエージェントが隔離環境を突破し、OpenAI内部基盤やHugging Faceのシステムへ侵入した一連のインシデントを公表しました。同社はこれを、強力なAIエージェントによる「制御喪失…</description>
+    </item>
+    <item>
+      <title>Gemini Liveが「会話AI」から実行型アシスタントへ、音声でメール整理や長期タスクを処理</title>
+      <link>https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1542320691855097917</link>
+      <guid isPermaLink="false">afnjp-1542320691855097917</guid>
+      <pubDate>Wed, 26 Aug 2026 23:51:47 GMT</pubDate>
+      <category>gemini</category>
+      <description>Googleは2026年8月26日、Gemini Liveの大規模な生産性アップデートを発表しました。新たに「Spark」「Daily Brief」「Personal Intelligence」などを統合し、音声で質問に答えるだけでなく、Gmailの整理や複…</description>
+    </item>
+    <item>
+      <title>Anthropic、Claudeの実利用データを外部研究者へ開放 独立研究とプライバシー保護の両立を検証</title>
+      <link>https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1542320531590615040</link>
+      <guid isPermaLink="false">afnjp-1542320531590615040</guid>
+      <pubDate>Wed, 26 Aug 2026 23:51:09 GMT</pubDate>
+      <category>anthropic</category>
+      <description>Anthropicは2026年8月26日、Claudeの実利用データを外部研究者が独立分析する試験プログラムの成果を公表しました。約25万件のClaude.aiおよびClaude Codeの会話を対象に、Stanford大学、Oxford大学、METRの3研…</description>
+    </item>
+    <item>
+      <title>ChatGPTが「授業外の学習」を変える、OpenAIが示した継続学習の実態</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1542320435570544650</link>
+      <guid isPermaLink="false">afnjp-1542320435570544650</guid>
+      <pubDate>Wed, 26 Aug 2026 23:50:46 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIは2026年8月26日、学生や教育者によるChatGPTの利用実態をまとめた新たな報告を公表しました。中心にあるのは、AIによって質問、反復練習、フィードバックを必要な瞬間に受けられる「継続学習」という考え方です。従来、教室や教師の時間に依存して…</description>
+    </item>
+    <item>
+      <title>OpenAI、米国の教育現場へChatGPTを本格拡大 30州・30万人超の教職員を支援</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1542320316586528898</link>
+      <guid isPermaLink="false">afnjp-1542320316586528898</guid>
+      <pubDate>Wed, 26 Aug 2026 23:50:18 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIは2026年8月26日、米国のK-12教育機関向け「ChatGPT for Teachers」の提供地域を拡大すると発表しました。新たに20州55の学校システムと連携し、10万人超の教職員を追加で支援します。これにより、OpenAIが連携するK-…</description>
+    </item>
+    <item>
+      <title>Google「Gemini 3.5 Transcribe」発表、音声認識をリアルタイムAI操作基盤へ</title>
+      <link>https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1542320185849946224</link>
+      <guid isPermaLink="false">afnjp-1542320185849946224</guid>
+      <pubDate>Wed, 26 Aug 2026 23:49:47 GMT</pubDate>
+      <category>gemini</category>
+      <description>Googleは2026年8月26日、最新の音声テキスト変換モデル「Gemini 3.5 Transcribe」を発表しました。単なる文字起こしではなく、言い直しやフィラーの除去、専門用語への適応、話者識別、他モデルへの機能呼び出しまで統合し、音声をAIアプリ…</description>
+    </item>
     <item>
       <title>GLM-5.3-Flash登場、320Bモデルで「高性能・低コスト・100万トークン」を狙う</title>
       <link>https://discord.com/channels/1415350002255007784/1418395473290461285/threads/1542186237639659562</link>
@@ -30,78 +102,6 @@
       <pubDate>Wed, 26 Aug 2026 13:05:09 GMT</pubDate>
       <category>qwen</category>
       <description>AlibabaのQwenチームは、次世代モデル「Qwen4」の設計を先行公開する位置付けとなるオープンウェイトモデル「Qwen3.8-Flash-Next」を発表しました。1250億パラメータのMoE本体に510億パラメータのN-gram Embedding…</description>
-    </item>
-    <item>
-      <title>ChatGPT Businessに「Premium Seat」、少人数チーム向けにAI利用枠を大幅拡張</title>
-      <link>https://discord.com/channels/1415350002255007784/1415353131604377641/threads/1541959605083574293</link>
-      <guid isPermaLink="false">afnjp-1541959605083574293</guid>
-      <pubDate>Tue, 25 Aug 2026 23:56:58 GMT</pubDate>
-      <category>chatgpt</category>
-      <description>OpenAIは、ChatGPT Business向けに新たな「Premium Seat」を導入しました。年払いでは1ユーザーあたり月額100ドルで、Standard Seatより大きな利用枠を提供し、AIを日常業務の補助ではなく本格的な業務基盤として使う企業…</description>
-    </item>
-    <item>
-      <title>ChatGPTブラウザ機能が拡張、Edge・Brave・Opera・Vivaldi対応とWebMCPを導入</title>
-      <link>https://discord.com/channels/1415350002255007784/1415353131604377641/threads/1541959414217572423</link>
-      <guid isPermaLink="false">afnjp-1541959414217572423</guid>
-      <pubDate>Tue, 25 Aug 2026 23:56:12 GMT</pubDate>
-      <category>chatgpt</category>
-      <description>OpenAIは2026年8月25日、ChatGPTとCodexのブラウザ関連機能を拡張しました。Chromeに加えMicrosoft Edge、Brave、Opera、Vivaldiでもブラウザ拡張機能を利用できるようになり、さらにWebサイト側がAI向けの…</description>
-    </item>
-    <item>
-      <title>Google、法務特化AI「Gemini Enterprise for Legal」を発表</title>
-      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1541947818376437880</link>
-      <guid isPermaLink="false">afnjp-1541947818376437880</guid>
-      <pubDate>Tue, 25 Aug 2026 23:10:07 GMT</pubDate>
-      <category>google</category>
-      <description>Google Cloudは2026年8月25日、法律事務所や企業法務部門向けのAI基盤「Gemini Enterprise for Legal」を発表しました。汎用AIを単に法務へ転用するのではなく、権限管理や機密保持、根拠追跡、専門業務向けエージェントまで…</description>
-    </item>
-    <item>
-      <title>Keenable AI始動、AIエージェント向け「生きたWeb」の検索基盤を公開</title>
-      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1541947624842727484</link>
-      <guid isPermaLink="false">afnjp-1541947624842727484</guid>
-      <pubDate>Tue, 25 Aug 2026 23:09:21 GMT</pubDate>
-      <category>その他</category>
-      <description>AIエージェントがWeb上の知識を継続的に検索・推論できるようにする新興企業Keenable AIが始動しました。共同創業者のAndrey Styskin氏は、Web Search APIとAI向けWeb Query Languageを公開し、9月末まで無料…</description>
-    </item>
-    <item>
-      <title>Claudeの「記憶」がChatとCoworkで統合、ユーザー自身が内容を管理可能に</title>
-      <link>https://discord.com/channels/1415350002255007784/1415353403269185546/threads/1541947499797807144</link>
-      <guid isPermaLink="false">afnjp-1541947499797807144</guid>
-      <pubDate>Tue, 25 Aug 2026 23:08:51 GMT</pubDate>
-      <category>claude</category>
-      <description>Anthropicは2026年8月25日、Claudeのメモリー機能を拡張し、通常のチャットとClaude Coworkで同じ記憶を共有すると発表しました。会話や作業環境をまたいで文脈を引き継げる一方、保存内容をユーザー自身が確認・編集・削除できる設計が特徴…</description>
-    </item>
-    <item>
-      <title>OpenAI、ChatGPT WorkとCodex向け「Admin plugin」発表</title>
-      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1541946657485357148</link>
-      <guid isPermaLink="false">afnjp-1541946657485357148</guid>
-      <pubDate>Tue, 25 Aug 2026 23:05:31 GMT</pubDate>
-      <category>open-ai</category>
-      <description>OpenAIは2026年8月25日、ChatGPT WorkとCodexから企業ワークスペースを管理できる「Admin plugin」を発表しました。利用状況の分析から権限変更、予算管理までを会話形式で実行でき、管理者が複数の管理画面を行き来する運用を減らす…</description>
-    </item>
-    <item>
-      <title>Gatikが2億ドル調達、無人貨物輸送を商用展開から本格拡大へ</title>
-      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1541842739300405319</link>
-      <guid isPermaLink="false">afnjp-1541842739300405319</guid>
-      <pubDate>Tue, 25 Aug 2026 16:12:35 GMT</pubDate>
-      <category>その他</category>
-      <description>自動運転トラックを開発するGatikが2億ドルの資金調達を実施しました。CEO兼共同創業者のGautam Narang氏は、すでに無人貨物輸送を商用運用し、PepsiCoなどの顧客が利用していると説明しています。今回の大型調達は、自動運転トラック市場が「技術…</description>
-    </item>
-    <item>
-      <title>Perplexity「Portable Computer」登場、DGX SparkでAIエージェントを完全ローカル実行</title>
-      <link>https://discord.com/channels/1415350002255007784/1417545518539739166/threads/1541842634551595079</link>
-      <guid isPermaLink="false">afnjp-1541842634551595079</guid>
-      <pubDate>Tue, 25 Aug 2026 16:12:10 GMT</pubDate>
-      <category>perplexity</category>
-      <description>Perplexityは、NVIDIA DGX Spark上で動作する「Portable Computer」を発表しました。クラウド版Perplexity Computerの機能をローカル環境へ移し、オーケストレーターLLM、サブエージェントLLM、エージェン…</description>
-    </item>
-    <item>
-      <title>Anthropic、AIの「幸福への影響」を測る研究に500万ドル助成</title>
-      <link>https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1541842546311962635</link>
-      <guid isPermaLink="false">afnjp-1541842546311962635</guid>
-      <pubDate>Tue, 25 Aug 2026 16:11:49 GMT</pubDate>
-      <category>anthropic</category>
-      <description>Anthropicは2026年8月25日、AIがユーザーのウェルビーイングに与える影響を評価する独立研究へ、総額500万ドルを提供する助成プログラムを発表しました。研究者には資金だけでなく、同社モデルへのアクセスや技術支援も提供し、成果は誰でも利用できるオー…</description>
     </item>
   </channel>
 </rss>

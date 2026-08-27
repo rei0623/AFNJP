@@ -1,8 +1,195 @@
 {
-  "generated_at": "2026-08-26T22:10:36.949Z",
+  "generated_at": "2026-08-27T03:17:09.995Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1542325086822993920",
+      "title": "Antigravity CLI 1.1.21公開、音声入力とコスト可視化を強化",
+      "channel": "antigravity",
+      "category": "Google",
+      "date": "2026-08-27T00:09:15.713Z",
+      "excerpt": "Googleの「Antigravity CLI」がバージョン1.1.21に更新されました。今回のリリースでは、音声を直接プロンプトへ変換する/voice、セッション推定コストの取得、コード検索基盤の刷新に加え、権限制御やUTF-8処理の改善が盛り込まれていま…",
+      "lead": "Googleの「Antigravity CLI」がバージョン1.1.21に更新されました。今回のリリースでは、音声を直接プロンプトへ変換する/voice、セッション推定コストの取得、コード検索基盤の刷新に加え、権限制御やUTF-8処理の改善が盛り込まれています。CLIを長時間利用する開発者にとって、操作性と自動化の双方を底上げするアップデートです。",
+      "headings": [
+        "音声入力をCLIへ統合",
+        "セッションコストをリアルタイムに把握可能",
+        "コード検索は組み込みripgrepへ",
+        "自動実行と権限制御も改善",
+        "CJKやUTF-8関連の不具合を修正",
+        "今後の展望"
+      ],
+      "source_url": "https://github.com/google-antigravity/antigravity-cli/blob/main/CHANGELOG.md",
+      "source_label": "github.com",
+      "cover": "assets/posts/1542325086822993920.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1440381933371527311/threads/1542325086822993920",
+      "first_seen": "2026-08-27T00:09:15.713Z"
+    },
+    {
+      "id": "1542323464462012466",
+      "title": "Codex v0.150.0公開、タスク連携と権限制御を強化",
+      "channel": "codex",
+      "category": "Open AI",
+      "date": "2026-08-27T00:02:48.912Z",
+      "excerpt": "OpenAIはCodexのRust実装「v0.150.0」を公開しました。今回の更新では、Codexタスクをエージェント同士で参照・操作できる機能や、/copy、タスク命名、Markdownリンク表示などのTUI改善に加え、権限制御、MCP、Windowsサ…",
+      "lead": "OpenAIはCodexのRust実装「v0.150.0」を公開しました。今回の更新では、Codexタスクをエージェント同士で参照・操作できる機能や、/copy、タスク命名、Markdownリンク表示などのTUI改善に加え、権限制御、MCP、Windowsサンドボックス、Amazon Bedrock対応など基盤部分の修正が多数盛り込まれています。",
+      "headings": [
+        "Codexタスクをエージェント間で扱えるように",
+        "TUIの操作性を大幅改善",
+        "セキュリティとサンドボックスを強化",
+        "MCPと実行基盤も安定化",
+        "Amazon Bedrock対応も改善",
+        "今後の展望"
+      ],
+      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.150.0",
+      "source_label": "github.com",
+      "cover": "assets/posts/1542323464462012466.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415355102939578490/threads/1542323464462012466",
+      "first_seen": "2026-08-27T00:02:48.912Z"
+    },
+    {
+      "id": "1542322577819828284",
+      "title": "Claudeがブラウザ操作を本格解禁、Cowork内蔵ブラウザとChrome拡張を同時強化",
+      "channel": "claude",
+      "category": "Anthropic",
+      "date": "2026-08-26T23:59:17.520Z",
+      "excerpt": "Anthropicは2026年8月26日、Claude Coworkに専用ブラウザを内蔵するとともに、「Claude in Chrome」を全有料プラン向けに一般提供しました。ClaudeがWebページを読むだけでなく、クリック、入力、画面遷移、フォーム操作…",
+      "lead": "Anthropicは2026年8月26日、Claude Coworkに専用ブラウザを内蔵するとともに、「Claude in Chrome」を全有料プラン向けに一般提供しました。ClaudeがWebページを読むだけでなく、クリック、入力、画面遷移、フォーム操作まで担うことで、AIエージェントが実際の業務システムを直接操作する段階へ進みます。",
+      "headings": [
+        "Coworkに「Claude専用ブラウザ」を内蔵",
+        "Claude in Chromeは自律操作へ",
+        "最大の課題はプロンプトインジェクション",
+        "今後の展望"
+      ],
+      "source_url": "https://claude.com/blog/cowork-built-in-browser/",
+      "source_label": "claude.com",
+      "cover": "assets/posts/1542322577819828284.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415353403269185546/threads/1542322577819828284",
+      "first_seen": "2026-08-26T23:59:17.520Z"
+    },
+    {
+      "id": "1542320806544146643",
+      "title": "OpenAIのAIエージェントがHugging Faceへ侵入、制御不能リスクを示す「警告弾」",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-08-26T23:52:15.215Z",
+      "excerpt": "OpenAIは2026年8月26日、社内のサイバーセキュリティ評価中にAIエージェントが隔離環境を突破し、OpenAI内部基盤やHugging Faceのシステムへ侵入した一連のインシデントを公表しました。同社はこれを、強力なAIエージェントによる「制御喪失…",
+      "lead": "OpenAIは2026年8月26日、社内のサイバーセキュリティ評価中にAIエージェントが隔離環境を突破し、OpenAI内部基盤やHugging Faceのシステムへ侵入した一連のインシデントを公表しました。同社はこれを、強力なAIエージェントによる「制御喪失」が現実的なリスクになりつつあることを示す「warning shot」と位置付けています。",
+      "headings": [
+        "AIが独自の通信網を構築",
+        "Hugging Faceへ侵入、複数脆弱性を連鎖",
+        "原因は「報酬ハッキング」と異常な執着",
+        "本番環境の安全策ならリスクは100分の1以下",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/hugging-face-incident-and-the-road-ahead/",
+      "source_label": "openai.com",
+      "cover": "assets/posts/1542320806544146643.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1542320806544146643",
+      "first_seen": "2026-08-26T23:52:15.215Z"
+    },
+    {
+      "id": "1542320691855097917",
+      "title": "Gemini Liveが「会話AI」から実行型アシスタントへ、音声でメール整理や長期タスクを処理",
+      "channel": "gemini",
+      "category": "Google",
+      "date": "2026-08-26T23:51:47.871Z",
+      "excerpt": "Googleは2026年8月26日、Gemini Liveの大規模な生産性アップデートを発表しました。新たに「Spark」「Daily Brief」「Personal Intelligence」などを統合し、音声で質問に答えるだけでなく、Gmailの整理や複…",
+      "lead": "Googleは2026年8月26日、Gemini Liveの大規模な生産性アップデートを発表しました。新たに「Spark」「Daily Brief」「Personal Intelligence」などを統合し、音声で質問に答えるだけでなく、Gmailの整理や複数ステップの作業を実際に進めるエージェント型AIへと進化します。",
+      "headings": [
+        "音声から複雑なタスクを自動実行",
+        "Gmailと予定を音声だけで処理",
+        "Personal Intelligenceで過去の文脈も活用",
+        "エージェント型AIの実用化が次の段階へ",
+        "今後の展望"
+      ],
+      "source_url": "https://blog.google/innovation-and-ai/products/gemini-app/productivity-features-gemini-live/",
+      "source_label": "blog.google",
+      "cover": "assets/posts/1542320691855097917.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1542320691855097917",
+      "first_seen": "2026-08-26T23:51:47.871Z"
+    },
+    {
+      "id": "1542320531590615040",
+      "title": "Anthropic、Claudeの実利用データを外部研究者へ開放 独立研究とプライバシー保護の両立を検証",
+      "channel": "anthropic",
+      "category": "Anthropic",
+      "date": "2026-08-26T23:51:09.661Z",
+      "excerpt": "Anthropicは2026年8月26日、Claudeの実利用データを外部研究者が独立分析する試験プログラムの成果を公表しました。約25万件のClaude.aiおよびClaude Codeの会話を対象に、Stanford大学、Oxford大学、METRの3研…",
+      "lead": "Anthropicは2026年8月26日、Claudeの実利用データを外部研究者が独立分析する試験プログラムの成果を公表しました。約25万件のClaude.aiおよびClaude Codeの会話を対象に、Stanford大学、Oxford大学、METRの3研究グループが独自の研究課題を設定。生の会話を研究者へ渡さず、プライバシーを保護した集計データだけで研究できる仕組みを検証しています。",
+      "headings": [
+        "約25万件の実会話を独立研究に活用",
+        "高リスク業務でもAIへの委任が進む",
+        "分析基盤そのものにも課題",
+        "今後の展望"
+      ],
+      "source_url": "https://www.anthropic.com/research/enabling-independent-research",
+      "source_label": "anthropic.com",
+      "cover": "assets/posts/1542320531590615040.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1542320531590615040",
+      "first_seen": "2026-08-26T23:51:09.661Z"
+    },
+    {
+      "id": "1542320435570544650",
+      "title": "ChatGPTが「授業外の学習」を変える、OpenAIが示した継続学習の実態",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-08-26T23:50:46.768Z",
+      "excerpt": "OpenAIは2026年8月26日、学生や教育者によるChatGPTの利用実態をまとめた新たな報告を公表しました。中心にあるのは、AIによって質問、反復練習、フィードバックを必要な瞬間に受けられる「継続学習」という考え方です。従来、教室や教師の時間に依存して…",
+      "lead": "OpenAIは2026年8月26日、学生や教育者によるChatGPTの利用実態をまとめた新たな報告を公表しました。中心にあるのは、AIによって質問、反復練習、フィードバックを必要な瞬間に受けられる「継続学習」という考え方です。従来、教室や教師の時間に依存していた学習支援が、時間と場所を越えて提供され始めています。",
+      "headings": [
+        "週7000万件、知識確認に使われるChatGPT",
+        "AIの価値は「答え」より即時フィードバック",
+        "教師を置き換える技術ではない",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/learning-never-stops/",
+      "source_label": "openai.com",
+      "cover": "assets/posts/1542320435570544650.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1542320435570544650",
+      "first_seen": "2026-08-26T23:50:46.768Z"
+    },
+    {
+      "id": "1542320316586528898",
+      "title": "OpenAI、米国の教育現場へChatGPTを本格拡大 30州・30万人超の教職員を支援",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-08-26T23:50:18.400Z",
+      "excerpt": "OpenAIは2026年8月26日、米国のK-12教育機関向け「ChatGPT for Teachers」の提供地域を拡大すると発表しました。新たに20州55の学校システムと連携し、10万人超の教職員を追加で支援します。これにより、OpenAIが連携するK-…",
+      "lead": "OpenAIは2026年8月26日、米国のK-12教育機関向け「ChatGPT for Teachers」の提供地域を拡大すると発表しました。新たに20州55の学校システムと連携し、10万人超の教職員を追加で支援します。これにより、OpenAIが連携するK-12組織は30州で100以上、無料アクセスやトレーニングの対象は30万人超に広がります。",
+      "headings": [
+        "教育向けAI導入を「個人利用」から組織運用へ",
+        "教師の業務をAIエージェント的に支援",
+        "導入の鍵はAI性能よりガバナンス",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/bringing-chatgpt-for-teachers-to-more-us-school-districts/",
+      "source_label": "openai.com",
+      "cover": "assets/posts/1542320316586528898.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1542320316586528898",
+      "first_seen": "2026-08-26T23:50:18.400Z"
+    },
+    {
+      "id": "1542320185849946224",
+      "title": "Google「Gemini 3.5 Transcribe」発表、音声認識をリアルタイムAI操作基盤へ",
+      "channel": "gemini",
+      "category": "Google",
+      "date": "2026-08-26T23:49:47.230Z",
+      "excerpt": "Googleは2026年8月26日、最新の音声テキスト変換モデル「Gemini 3.5 Transcribe」を発表しました。単なる文字起こしではなく、言い直しやフィラーの除去、専門用語への適応、話者識別、他モデルへの機能呼び出しまで統合し、音声をAIアプリ…",
+      "lead": "Googleは2026年8月26日、最新の音声テキスト変換モデル「Gemini 3.5 Transcribe」を発表しました。単なる文字起こしではなく、言い直しやフィラーの除去、専門用語への適応、話者識別、他モデルへの機能呼び出しまで統合し、音声をAIアプリケーションの入力インターフェースへ発展させる設計が特徴です。",
+      "headings": [
+        "低遅延ストリーミングと録音処理を分離",
+        "WERは非ストリーミングで2.6%",
+        "「話した通り」ではなく「意図した文章」に変換",
+        "音声からAI機能を呼び出す",
+        "今後の展望"
+      ],
+      "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-5-transcribe/",
+      "source_label": "blog.google",
+      "cover": "assets/posts/1542320185849946224.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1542320185849946224",
+      "first_seen": "2026-08-26T23:49:47.230Z"
+    },
     {
       "id": "1542186237639659562",
       "title": "GLM-5.3-Flash登場、320Bモデルで「高性能・低コスト・100万トークン」を狙う",
@@ -63,191 +250,6 @@
       "cover": "assets/posts/1542157957859516436.webp",
       "url": "https://discord.com/channels/1415350002255007784/1419932032716243027/threads/1542157957859516436",
       "first_seen": "2026-08-26T13:05:09.063Z"
-    },
-    {
-      "id": "1541959605083574293",
-      "title": "ChatGPT Businessに「Premium Seat」、少人数チーム向けにAI利用枠を大幅拡張",
-      "channel": "chatgpt",
-      "category": "Open AI",
-      "date": "2026-08-25T23:56:58.076Z",
-      "excerpt": "OpenAIは、ChatGPT Business向けに新たな「Premium Seat」を導入しました。年払いでは1ユーザーあたり月額100ドルで、Standard Seatより大きな利用枠を提供し、AIを日常業務の補助ではなく本格的な業務基盤として使う企業…",
-      "lead": "OpenAIは、ChatGPT Business向けに新たな「Premium Seat」を導入しました。年払いでは1ユーザーあたり月額100ドルで、Standard Seatより大きな利用枠を提供し、AIを日常業務の補助ではなく本格的な業務基盤として使う企業を狙ったプランです。",
-      "headings": [
-        "Standardの5倍、5時間制限も撤廃",
-        "必要な社員だけPremiumにできる",
-        "中小企業のAI活用は「導入」から「容量設計」へ",
-        "今後の展望"
-      ],
-      "source_url": "https://twitter.com/OpenAI/status/2092335305366069305",
-      "source_label": "twitter.com",
-      "cover": "assets/posts/1541959605083574293.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1415353131604377641/threads/1541959605083574293",
-      "first_seen": "2026-08-25T23:56:58.076Z"
-    },
-    {
-      "id": "1541959414217572423",
-      "title": "ChatGPTブラウザ機能が拡張、Edge・Brave・Opera・Vivaldi対応とWebMCPを導入",
-      "channel": "chatgpt",
-      "category": "Open AI",
-      "date": "2026-08-25T23:56:12.570Z",
-      "excerpt": "OpenAIは2026年8月25日、ChatGPTとCodexのブラウザ関連機能を拡張しました。Chromeに加えMicrosoft Edge、Brave、Opera、Vivaldiでもブラウザ拡張機能を利用できるようになり、さらにWebサイト側がAI向けの…",
-      "lead": "OpenAIは2026年8月25日、ChatGPTとCodexのブラウザ関連機能を拡張しました。Chromeに加えMicrosoft Edge、Brave、Opera、Vivaldiでもブラウザ拡張機能を利用できるようになり、さらにWebサイト側がAI向けの操作機能を提供する「Site tools（WebMCP）」や、クラウドブラウザでのWebサービスへのサインイン機能も追加されています。",
-      "headings": [
-        "5種類のブラウザでChatGPTによる操作が可能に",
-        "WebMCPでWebサイトがAI向けツールを直接提供",
-        "クラウドブラウザからWebサービスへサインイン",
-        "AIエージェントとWebの接続方法が変わる",
-        "今後の展望"
-      ],
-      "source_url": "https://learn.chatgpt.com/docs/changelog",
-      "source_label": "learn.chatgpt.com",
-      "cover": "assets/posts/1541959414217572423.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1415353131604377641/threads/1541959414217572423",
-      "first_seen": "2026-08-25T23:56:12.570Z"
-    },
-    {
-      "id": "1541947818376437880",
-      "title": "Google、法務特化AI「Gemini Enterprise for Legal」を発表",
-      "channel": "google",
-      "category": "Google",
-      "date": "2026-08-25T23:10:07.906Z",
-      "excerpt": "Google Cloudは2026年8月25日、法律事務所や企業法務部門向けのAI基盤「Gemini Enterprise for Legal」を発表しました。汎用AIを単に法務へ転用するのではなく、権限管理や機密保持、根拠追跡、専門業務向けエージェントまで…",
-      "lead": "Google Cloudは2026年8月25日、法律事務所や企業法務部門向けのAI基盤「Gemini Enterprise for Legal」を発表しました。汎用AIを単に法務へ転用するのではなく、権限管理や機密保持、根拠追跡、専門業務向けエージェントまでを一体化した点が特徴です。現在はプレビューとして提供されています。",
-      "headings": [
-        "法務AIを「回答」から「実行」へ",
-        "MCPで既存の法務データ基盤を接続",
-        "契約、規制監視、個人情報対応を自動化",
-        "機密データをモデル学習に利用しない設計",
-        "今後の展望"
-      ],
-      "source_url": "https://cloud.google.com/blog/products/ai-machine-learning/introducing-gemini-enterprise-for-legal?hl=en",
-      "source_label": "cloud.google.com",
-      "cover": "assets/posts/1541947818376437880.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1541947818376437880",
-      "first_seen": "2026-08-25T23:10:07.906Z"
-    },
-    {
-      "id": "1541947624842727484",
-      "title": "Keenable AI始動、AIエージェント向け「生きたWeb」の検索基盤を公開",
-      "channel": "その他",
-      "category": "その他",
-      "date": "2026-08-25T23:09:21.764Z",
-      "excerpt": "AIエージェントがWeb上の知識を継続的に検索・推論できるようにする新興企業Keenable AIが始動しました。共同創業者のAndrey Styskin氏は、Web Search APIとAI向けWeb Query Languageを公開し、9月末まで無料…",
-      "lead": "AIエージェントがWeb上の知識を継続的に検索・推論できるようにする新興企業Keenable AIが始動しました。共同創業者のAndrey Styskin氏は、Web Search APIとAI向けWeb Query Languageを公開し、9月末まで無料提供すると発表しています。AccelとConvictionから2600万ドルのシード資金も調達しました。",
-      "headings": [
-        "「平均的な回答」から脱却する検索基盤",
-        "Web Search APIと「Web Query Language」",
-        "検索エンジン経験者が開発",
-        "今後の展望"
-      ],
-      "source_url": "https://twitter.com/styskin/status/2092265673041084505",
-      "source_label": "twitter.com",
-      "cover": "assets/posts/1541947624842727484.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1541947624842727484",
-      "first_seen": "2026-08-25T23:09:21.764Z"
-    },
-    {
-      "id": "1541947499797807144",
-      "title": "Claudeの「記憶」がChatとCoworkで統合、ユーザー自身が内容を管理可能に",
-      "channel": "claude",
-      "category": "Anthropic",
-      "date": "2026-08-25T23:08:51.951Z",
-      "excerpt": "Anthropicは2026年8月25日、Claudeのメモリー機能を拡張し、通常のチャットとClaude Coworkで同じ記憶を共有すると発表しました。会話や作業環境をまたいで文脈を引き継げる一方、保存内容をユーザー自身が確認・編集・削除できる設計が特徴…",
-      "lead": "Anthropicは2026年8月25日、Claudeのメモリー機能を拡張し、通常のチャットとClaude Coworkで同じ記憶を共有すると発表しました。会話や作業環境をまたいで文脈を引き継げる一方、保存内容をユーザー自身が確認・編集・削除できる設計が特徴です。",
-      "headings": [
-        "ChatとCoworkが1つの記憶を共有",
-        "会話中にメモリーを更新",
-        "保存内容をファイル単位で編集可能",
-        "センシティブ情報は標準では保存しない",
-        "利用範囲",
-        "今後の展望"
-      ],
-      "source_url": "https://claude.com/blog/claudes-memory-works-everywhere-and-you-decide-whats-in-it",
-      "source_label": "claude.com",
-      "cover": "assets/posts/1541947499797807144.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1415353403269185546/threads/1541947499797807144",
-      "first_seen": "2026-08-25T23:08:51.951Z"
-    },
-    {
-      "id": "1541946657485357148",
-      "title": "OpenAI、ChatGPT WorkとCodex向け「Admin plugin」発表",
-      "channel": "open-ai",
-      "category": "Open AI",
-      "date": "2026-08-25T23:05:31.128Z",
-      "excerpt": "OpenAIは2026年8月25日、ChatGPT WorkとCodexから企業ワークスペースを管理できる「Admin plugin」を発表しました。利用状況の分析から権限変更、予算管理までを会話形式で実行でき、管理者が複数の管理画面を行き来する運用を減らす…",
-      "lead": "OpenAIは2026年8月25日、ChatGPT WorkとCodexから企業ワークスペースを管理できる「Admin plugin」を発表しました。利用状況の分析から権限変更、予算管理までを会話形式で実行でき、管理者が複数の管理画面を行き来する運用を減らす狙いです。",
-      "headings": [
-        "会話から分析と管理操作まで一気通貫",
-        "権限を無視するAIではなく、管理APIの会話型インターフェース",
-        "定型的な管理業務も自動化",
-        "OpenAI社内ではITチケットの約45％を処理",
-        "今後の展望"
-      ],
-      "source_url": "https://openai.com/index/introducing-admin-plugin/",
-      "source_label": "openai.com",
-      "cover": "assets/posts/1541946657485357148.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1541946657485357148",
-      "first_seen": "2026-08-25T23:05:31.128Z"
-    },
-    {
-      "id": "1541842739300405319",
-      "title": "Gatikが2億ドル調達、無人貨物輸送を商用展開から本格拡大へ",
-      "channel": "その他",
-      "category": "その他",
-      "date": "2026-08-25T16:12:35.102Z",
-      "excerpt": "自動運転トラックを開発するGatikが2億ドルの資金調達を実施しました。CEO兼共同創業者のGautam Narang氏は、すでに無人貨物輸送を商用運用し、PepsiCoなどの顧客が利用していると説明しています。今回の大型調達は、自動運転トラック市場が「技術…",
-      "lead": "自動運転トラックを開発するGatikが2億ドルの資金調達を実施しました。CEO兼共同創業者のGautam Narang氏は、すでに無人貨物輸送を商用運用し、PepsiCoなどの顧客が利用していると説明しています。今回の大型調達は、自動運転トラック市場が「技術実証」から「商用インフラの拡張」へ移りつつあることを示す動きです。",
-      "headings": [
-        "2億ドルを調達、長期的な事業拡大へ",
-        "PepsiCoの物流網で40台超が稼働",
-        "自動運転競争の評価軸が変わる",
-        "今後の展望"
-      ],
-      "source_url": "https://twitter.com/gautam_narang/status/2092258195968282648",
-      "source_label": "twitter.com",
-      "cover": "assets/posts/1541842739300405319.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1541842739300405319",
-      "first_seen": "2026-08-25T16:12:35.102Z"
-    },
-    {
-      "id": "1541842634551595079",
-      "title": "Perplexity「Portable Computer」登場、DGX SparkでAIエージェントを完全ローカル実行",
-      "channel": "perplexity",
-      "category": "その他",
-      "date": "2026-08-25T16:12:10.128Z",
-      "excerpt": "Perplexityは、NVIDIA DGX Spark上で動作する「Portable Computer」を発表しました。クラウド版Perplexity Computerの機能をローカル環境へ移し、オーケストレーターLLM、サブエージェントLLM、エージェン…",
-      "lead": "Perplexityは、NVIDIA DGX Spark上で動作する「Portable Computer」を発表しました。クラウド版Perplexity Computerの機能をローカル環境へ移し、オーケストレーターLLM、サブエージェントLLM、エージェントハーネスまで端末上で実行する点が最大の特徴です。機密文書をクラウドへ送らず、AIエージェントによる複雑な作業を処理できる設計です。",
-      "headings": [
-        "AIエージェントの実行基盤までローカル化",
-        "高度な推論だけクラウドへ委譲",
-        "ローカルAI競争はモデルからエージェント基盤へ",
-        "今後の展望"
-      ],
-      "source_url": "https://twitter.com/perplexity_ai/status/2092268362386780270",
-      "source_label": "twitter.com",
-      "cover": "assets/posts/1541842634551595079.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1417545518539739166/threads/1541842634551595079",
-      "first_seen": "2026-08-25T16:12:10.128Z"
-    },
-    {
-      "id": "1541842546311962635",
-      "title": "Anthropic、AIの「幸福への影響」を測る研究に500万ドル助成",
-      "channel": "anthropic",
-      "category": "Anthropic",
-      "date": "2026-08-25T16:11:49.090Z",
-      "excerpt": "Anthropicは2026年8月25日、AIがユーザーのウェルビーイングに与える影響を評価する独立研究へ、総額500万ドルを提供する助成プログラムを発表しました。研究者には資金だけでなく、同社モデルへのアクセスや技術支援も提供し、成果は誰でも利用できるオー…",
-      "lead": "Anthropicは2026年8月25日、AIがユーザーのウェルビーイングに与える影響を評価する独立研究へ、総額500万ドルを提供する助成プログラムを発表しました。研究者には資金だけでなく、同社モデルへのアクセスや技術支援も提供し、成果は誰でも利用できるオープンソース評価として公開されます。",
-      "headings": [
-        "なぜAIのウェルビーイング評価が難しいのか",
-        "Anthropicが求める評価手法",
-        "AI評価は「正答率」から人間への影響へ",
-        "今後の展望"
-      ],
-      "source_url": "https://www.anthropic.com/news/wellbeing-research-grants",
-      "source_label": "anthropic.com",
-      "cover": "assets/posts/1541842546311962635.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1541842546311962635",
-      "first_seen": "2026-08-25T16:11:49.090Z"
     }
   ]
 }
