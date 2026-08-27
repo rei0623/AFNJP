@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-27T03:17:03.521Z",
+  "generated_at": "2026-08-27T14:17:35.754Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "count": 59,
@@ -86,7 +86,6 @@
       "category": "Meta",
       "channels": [
         "meta",
-        "manus",
         "muse-spark"
       ]
     },
@@ -107,6 +106,7 @@
         "mistral-ai",
         "hunyuan",
         "minimax",
+        "manus",
         "genspark",
         "perplexity",
         "skywork",
