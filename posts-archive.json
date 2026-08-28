@@ -1,9 +1,195 @@
 {
-  "generated_at": "2026-08-27T23:52:32.150Z",
+  "generated_at": "2026-08-28T11:20:14.618Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 91,
+  "count": 100,
   "posts": [
+    {
+      "id": "1542836198131896421",
+      "title": "OpenAI、タイ政府とAIスタートアップ育成へ 医療・教育10社を8週間支援",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-08-28T10:00:14.145Z",
+      "excerpt": "OpenAIとタイ高等教育・科学・研究・イノベーション省（MHESI）は2026年8月28日、タイのAIスタートアップを対象とする8週間のアクセラレータープログラム「OpenAI x MHESI AI Accelerator」を発表しました。医療・ウェルネス…",
+      "lead": "OpenAIとタイ高等教育・科学・研究・イノベーション省（MHESI）は2026年8月28日、タイのAIスタートアップを対象とする8週間のアクセラレータープログラム「OpenAI x MHESI AI Accelerator」を発表しました。医療・ウェルネスと教育分野の10社を支援し、試作段階のAIを実運用可能な製品へ引き上げることを狙います。",
+      "headings": [
+        "API提供だけでなく「実装力」を育成",
+        "医療5社、教育5社が参加",
+        "タイでCodex利用が急拡大",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/supporting-next-generation-ai-startups-thailand/",
+      "source_label": "openai.com",
+      "cover": "assets/posts/1542836198131896421.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1542836198131896421",
+      "first_seen": "2026-08-28T10:00:14.145Z"
+    },
+    {
+      "id": "1542694217246179429",
+      "title": "Google「Expert Intelligence」始動、購入書籍をAIの“専門家集団”に変える新構想",
+      "channel": "gemini-notebook",
+      "category": "Google",
+      "date": "2026-08-28T00:36:03.264Z",
+      "excerpt": "Googleは、信頼できる書籍や個人資料をAI上で統合活用する「Expert Intelligence」を発表しました。まずGemini NotebookでGoogle Play Booksの一部購入済み電子書籍を情報源として追加できるようにし、将来的には教…",
+      "lead": "Googleは、信頼できる書籍や個人資料をAI上で統合活用する「Expert Intelligence」を発表しました。まずGemini NotebookでGoogle Play Booksの一部購入済み電子書籍を情報源として追加できるようにし、将来的には教科書や第三者の有料購読コンテンツ、Geminiアプリ、Google検索のAI Modeにも展開する計画です。",
+      "headings": [
+        "書籍を「読む」から「対話して使う」へ",
+        "回答根拠を原文まで追跡可能",
+        "出版ビジネスにも新しい接点",
+        "今後の展望"
+      ],
+      "source_url": "https://notebook.google/expert-intelligence?utm_source=twitter_x&utm_medium=social&utm_campaign=expert_intelligence&utm_content=&utm_smc=twitter_x_social_expert_intelligence_&ct=twitter_x_social_expert_intelligence_&mt=8",
+      "source_label": "notebook.google",
+      "cover": "assets/posts/1542694217246179429.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1418011435287707648/threads/1542694217246179429",
+      "first_seen": "2026-08-28T00:36:03.264Z"
+    },
+    {
+      "id": "1542688342205005925",
+      "title": "Anthropic、米公立K-12向け契約条項を制定 Claude導入で自治体法を重視",
+      "channel": "anthropic",
+      "category": "Anthropic",
+      "date": "2026-08-28T00:12:42.545Z",
+      "excerpt": "Anthropicは2026年8月28日、米国の公立K-12教育機関を対象とした「U.S. K-12 Public Sector Addendum」を発効しました。公立学校や学区、州教育機関などがAnthropicのサービスを利用する際、通常のK-12利用規…",
+      "lead": "Anthropicは2026年8月28日、米国の公立K-12教育機関を対象とした「U.S. K-12 Public Sector Addendum」を発効しました。公立学校や学区、州教育機関などがAnthropicのサービスを利用する際、通常のK-12利用規約を政府・公共部門特有の法制度に適合させる追加条項です。",
+      "headings": [
+        "公立学校・学区向けに契約条件を調整",
+        "情報公開法や自治体特有の法制度に対応",
+        "学校側には30日前通知による解約権",
+        "WCAG 2.2 AAへの適合を目標",
+        "今後の展望"
+      ],
+      "source_url": "https://www.anthropic.com/legal/k12-addendum",
+      "source_label": "anthropic.com",
+      "cover": "assets/posts/1542688342205005925.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1542688342205005925",
+      "first_seen": "2026-08-28T00:12:42.545Z"
+    },
+    {
+      "id": "1542688170225967184",
+      "title": "Anthropic、科学者1万人にClaudeを無償・割引提供 研究用途へのAI導入を大幅拡大",
+      "channel": "anthropic",
+      "category": "Anthropic",
+      "date": "2026-08-28T00:12:01.542Z",
+      "excerpt": "Anthropicは2026年8月27日、科学研究向けClaude支援策を大幅に拡大すると発表しました。世界の科学者を対象に、Claudeのチームプラン1万席を1年間、無料または割引料金で提供します。同社はAIを研究支援ツールとして普及させるだけでなく、高負…",
+      "lead": "Anthropicは2026年8月27日、科学研究向けClaude支援策を大幅に拡大すると発表しました。世界の科学者を対象に、Claudeのチームプラン1万席を1年間、無料または割引料金で提供します。同社はAIを研究支援ツールとして普及させるだけでなく、高負荷な計算研究まで支援範囲を広げる方針です。",
+      "headings": [
+        "科学者向けに1万席を提供",
+        "最大5万ドルのAI利用クレジットも提供",
+        "高性能モデルには安全上のアクセス制限",
+        "今後の展望"
+      ],
+      "source_url": "https://www.anthropic.com/news/expanding-support-for-scientists",
+      "source_label": "anthropic.com",
+      "cover": "assets/posts/1542688170225967184.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1542688170225967184",
+      "first_seen": "2026-08-28T00:12:01.542Z"
+    },
+    {
+      "id": "1542688005133828116",
+      "title": "Anthropic、AIが実験機器を直接操る「Model Hardware Standard」を公開",
+      "channel": "anthropic",
+      "category": "Anthropic",
+      "date": "2026-08-28T00:11:22.181Z",
+      "excerpt": "Anthropicは2026年8月27日、AIエージェントが研究設備や製造装置を安全に操作するための共通仕様「Model Hardware Standard（MHS）」の研究プレビューを公開しました。顕微鏡、液体処理装置、ロボットアームなど異なる機器を統一的…",
+      "lead": "Anthropicは2026年8月27日、AIエージェントが研究設備や製造装置を安全に操作するための共通仕様「Model Hardware Standard（MHS）」の研究プレビューを公開しました。顕微鏡、液体処理装置、ロボットアームなど異なる機器を統一的に接続し、AIによる実験・製造工程の自律化を進める狙いです。",
+      "headings": [
+        "ハードウェア版「共通インターフェース」",
+        "AIが実験を観察し、条件まで調整",
+        "量子コンピューターでも自律改善",
+        "安全性が最大の課題",
+        "今後の展望"
+      ],
+      "source_url": "https://www.anthropic.com/news/model-hardware-standard-research-preview",
+      "source_label": "anthropic.com",
+      "cover": "assets/posts/1542688005133828116.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1542688005133828116",
+      "first_seen": "2026-08-28T00:11:22.181Z"
+    },
+    {
+      "id": "1542687849311379477",
+      "title": "Google「Gemini Omni 1.1 Flash」発表、AI動画を最大40秒へ拡張し4K出力にも対応",
+      "channel": "gemini",
+      "category": "Google",
+      "date": "2026-08-28T00:10:45.030Z",
+      "excerpt": "Googleは2026年8月27日、生成動画モデル「Gemini Omni 1.1 Flash」を発表しました。動画のシーン延長、開始・終了フレームの指定、低解像度での高速な試作、4Kアップスケールなどを追加し、AI動画を単発生成から本格的な制作ワークフロー…",
+      "lead": "Googleは2026年8月27日、生成動画モデル「Gemini Omni 1.1 Flash」を発表しました。動画のシーン延長、開始・終了フレームの指定、低解像度での高速な試作、4Kアップスケールなどを追加し、AI動画を単発生成から本格的な制作ワークフローへ組み込むことを狙ったアップデートです。",
+      "headings": [
+        "最大40秒までシーンを連続生成",
+        "最初と最後のフレームを指定",
+        "360pで試作し、完成版を4Kへ",
+        "動画そのものを参照素材として利用",
+        "今後の展望"
+      ],
+      "source_url": "https://blog.google/innovation-and-ai/technology/developers-tools/build-with-gemini-omni-1-1-flash/",
+      "source_label": "blog.google",
+      "cover": "assets/posts/1542687849311379477.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1542687849311379477",
+      "first_seen": "2026-08-28T00:10:45.030Z"
+    },
+    {
+      "id": "1542687630846861312",
+      "title": "Google検索「AI Mode」が旅行予約を強化、航空券価格追跡からホテル決済まで統合",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-08-28T00:09:52.944Z",
+      "excerpt": "Googleは2026年8月27日、Google検索の「AI Mode」に旅行向けの新機能を追加しました。航空券の価格追跡、ポイント・マイルによる料金表示、ホテル予約を対話形式で利用できるようにし、旅行の検索から予約までをAIとの会話の中で完結させる方向を鮮…",
+      "lead": "Googleは2026年8月27日、Google検索の「AI Mode」に旅行向けの新機能を追加しました。航空券の価格追跡、ポイント・マイルによる料金表示、ホテル予約を対話形式で利用できるようにし、旅行の検索から予約までをAIとの会話の中で完結させる方向を鮮明にしています。",
+      "headings": [
+        "航空券の価格追跡をAIとの会話から設定",
+        "マイルやポイントで必要額を直接確認",
+        "AI Modeからホテル予約とGoogle Pay決済へ",
+        "検索エンジンから旅行エージェント型AIへ",
+        "今後の展望"
+      ],
+      "source_url": "https://blog.google/products-and-platforms/products/search/book-travel-ai-mode/",
+      "source_label": "blog.google",
+      "cover": "assets/posts/1542687630846861312.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1542687630846861312",
+      "first_seen": "2026-08-28T00:09:52.944Z"
+    },
+    {
+      "id": "1542687399044321411",
+      "title": "ChatGPTは学生の思考力を奪うのか、1000人超の実験が示した「AIと批判的思考」の補完関係",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-08-28T00:08:57.678Z",
+      "excerpt": "OpenAIは2026年8月27日、ボッコーニ大学の研究者とOpenAI Economic Researchによる、1000人超の大学生を対象としたランダム化実験の結果を公開しました。ChatGPTへのアクセスは学生の回答品質や論理性を高める一方、因果推論を…",
+      "lead": "OpenAIは2026年8月27日、ボッコーニ大学の研究者とOpenAI Economic Researchによる、1000人超の大学生を対象としたランダム化実験の結果を公開しました。ChatGPTへのアクセスは学生の回答品質や論理性を高める一方、因果推論を用いた批判的思考トレーニングはアイデアの独自性や多様性を高めることが確認されました。両者は代替関係ではなく、異なる能力を補完する可能性があります。",
+      "headings": [
+        "ChatGPT利用で「専門家らしい回答」に近づく",
+        "批判的思考は「点数」より独自性を伸ばした",
+        "AIと人間の思考力は競合しない",
+        "教育評価そのものを変える必要性",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/what-students-gain-from-chatgpt-critical-thinking-training/",
+      "source_label": "openai.com",
+      "cover": "assets/posts/1542687399044321411.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1542687399044321411",
+      "first_seen": "2026-08-28T00:08:57.678Z"
+    },
+    {
+      "id": "1542687278885773382",
+      "title": "Google DeepMind、世界初の「二重盲検AI評価」を実証",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-08-28T00:08:29.030Z",
+      "excerpt": "Google DeepMindは、モデル開発者にも外部評価者にも互いの機密情報を見せずにAIを検証する「Double-Blind Evaluation」の試験運用を発表しました。ベンチマーク汚染を抑えつつ、非公開モデルの知的財産も守ることで、AI評価の信頼性…",
+      "lead": "Google DeepMindは、モデル開発者にも外部評価者にも互いの機密情報を見せずにAIを検証する「Double-Blind Evaluation」の試験運用を発表しました。ベンチマーク汚染を抑えつつ、非公開モデルの知的財産も守ることで、AI評価の信頼性を暗号技術で高める試みです。",
+      "headings": [
+        "従来のAI評価が抱える構造的な問題",
+        "Gemini 2.5 Flash LiteをH100上で隔離評価",
+        "「信頼する」評価から「暗号的に検証する」評価へ",
+        "なお残る課題",
+        "今後の展望"
+      ],
+      "source_url": "https://deepmind.google/blog/piloting-the-worlds-first-double-blind-ai-evaluations/",
+      "source_label": "deepmind.google",
+      "cover": "assets/posts/1542687278885773382.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1542687278885773382",
+      "first_seen": "2026-08-28T00:08:29.030Z"
+    },
     {
       "id": "1542382801158930503",
       "title": "OpenAI「Codex CLI 0.150.1」公開、Rust版の新リリース",

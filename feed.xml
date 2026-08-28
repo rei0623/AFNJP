@@ -5,8 +5,80 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 27 Aug 2026 03:58:35 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 28 Aug 2026 10:00:14 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>OpenAI、タイ政府とAIスタートアップ育成へ 医療・教育10社を8週間支援</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1542836198131896421</link>
+      <guid isPermaLink="false">afnjp-1542836198131896421</guid>
+      <pubDate>Fri, 28 Aug 2026 10:00:14 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIとタイ高等教育・科学・研究・イノベーション省（MHESI）は2026年8月28日、タイのAIスタートアップを対象とする8週間のアクセラレータープログラム「OpenAI x MHESI AI Accelerator」を発表しました。医療・ウェルネス…</description>
+    </item>
+    <item>
+      <title>Google「Expert Intelligence」始動、購入書籍をAIの“専門家集団”に変える新構想</title>
+      <link>https://discord.com/channels/1415350002255007784/1418011435287707648/threads/1542694217246179429</link>
+      <guid isPermaLink="false">afnjp-1542694217246179429</guid>
+      <pubDate>Fri, 28 Aug 2026 00:36:03 GMT</pubDate>
+      <category>gemini-notebook</category>
+      <description>Googleは、信頼できる書籍や個人資料をAI上で統合活用する「Expert Intelligence」を発表しました。まずGemini NotebookでGoogle Play Booksの一部購入済み電子書籍を情報源として追加できるようにし、将来的には教…</description>
+    </item>
+    <item>
+      <title>Anthropic、米公立K-12向け契約条項を制定 Claude導入で自治体法を重視</title>
+      <link>https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1542688342205005925</link>
+      <guid isPermaLink="false">afnjp-1542688342205005925</guid>
+      <pubDate>Fri, 28 Aug 2026 00:12:42 GMT</pubDate>
+      <category>anthropic</category>
+      <description>Anthropicは2026年8月28日、米国の公立K-12教育機関を対象とした「U.S. K-12 Public Sector Addendum」を発効しました。公立学校や学区、州教育機関などがAnthropicのサービスを利用する際、通常のK-12利用規…</description>
+    </item>
+    <item>
+      <title>Anthropic、科学者1万人にClaudeを無償・割引提供 研究用途へのAI導入を大幅拡大</title>
+      <link>https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1542688170225967184</link>
+      <guid isPermaLink="false">afnjp-1542688170225967184</guid>
+      <pubDate>Fri, 28 Aug 2026 00:12:01 GMT</pubDate>
+      <category>anthropic</category>
+      <description>Anthropicは2026年8月27日、科学研究向けClaude支援策を大幅に拡大すると発表しました。世界の科学者を対象に、Claudeのチームプラン1万席を1年間、無料または割引料金で提供します。同社はAIを研究支援ツールとして普及させるだけでなく、高負…</description>
+    </item>
+    <item>
+      <title>Anthropic、AIが実験機器を直接操る「Model Hardware Standard」を公開</title>
+      <link>https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1542688005133828116</link>
+      <guid isPermaLink="false">afnjp-1542688005133828116</guid>
+      <pubDate>Fri, 28 Aug 2026 00:11:22 GMT</pubDate>
+      <category>anthropic</category>
+      <description>Anthropicは2026年8月27日、AIエージェントが研究設備や製造装置を安全に操作するための共通仕様「Model Hardware Standard（MHS）」の研究プレビューを公開しました。顕微鏡、液体処理装置、ロボットアームなど異なる機器を統一的…</description>
+    </item>
+    <item>
+      <title>Google「Gemini Omni 1.1 Flash」発表、AI動画を最大40秒へ拡張し4K出力にも対応</title>
+      <link>https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1542687849311379477</link>
+      <guid isPermaLink="false">afnjp-1542687849311379477</guid>
+      <pubDate>Fri, 28 Aug 2026 00:10:45 GMT</pubDate>
+      <category>gemini</category>
+      <description>Googleは2026年8月27日、生成動画モデル「Gemini Omni 1.1 Flash」を発表しました。動画のシーン延長、開始・終了フレームの指定、低解像度での高速な試作、4Kアップスケールなどを追加し、AI動画を単発生成から本格的な制作ワークフロー…</description>
+    </item>
+    <item>
+      <title>Google検索「AI Mode」が旅行予約を強化、航空券価格追跡からホテル決済まで統合</title>
+      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1542687630846861312</link>
+      <guid isPermaLink="false">afnjp-1542687630846861312</guid>
+      <pubDate>Fri, 28 Aug 2026 00:09:52 GMT</pubDate>
+      <category>google</category>
+      <description>Googleは2026年8月27日、Google検索の「AI Mode」に旅行向けの新機能を追加しました。航空券の価格追跡、ポイント・マイルによる料金表示、ホテル予約を対話形式で利用できるようにし、旅行の検索から予約までをAIとの会話の中で完結させる方向を鮮…</description>
+    </item>
+    <item>
+      <title>ChatGPTは学生の思考力を奪うのか、1000人超の実験が示した「AIと批判的思考」の補完関係</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1542687399044321411</link>
+      <guid isPermaLink="false">afnjp-1542687399044321411</guid>
+      <pubDate>Fri, 28 Aug 2026 00:08:57 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIは2026年8月27日、ボッコーニ大学の研究者とOpenAI Economic Researchによる、1000人超の大学生を対象としたランダム化実験の結果を公開しました。ChatGPTへのアクセスは学生の回答品質や論理性を高める一方、因果推論を…</description>
+    </item>
+    <item>
+      <title>Google DeepMind、世界初の「二重盲検AI評価」を実証</title>
+      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1542687278885773382</link>
+      <guid isPermaLink="false">afnjp-1542687278885773382</guid>
+      <pubDate>Fri, 28 Aug 2026 00:08:29 GMT</pubDate>
+      <category>google</category>
+      <description>Google DeepMindは、モデル開発者にも外部評価者にも互いの機密情報を見せずにAIを検証する「Double-Blind Evaluation」の試験運用を発表しました。ベンチマーク汚染を抑えつつ、非公開モデルの知的財産も守ることで、AI評価の信頼性…</description>
+    </item>
     <item>
       <title>OpenAI「Codex CLI 0.150.1」公開、Rust版の新リリース</title>
       <link>https://discord.com/channels/1415350002255007784/1415355102939578490/threads/1542382801158930503</link>
@@ -30,78 +102,6 @@
       <pubDate>Thu, 27 Aug 2026 00:02:48 GMT</pubDate>
       <category>codex</category>
       <description>OpenAIはCodexのRust実装「v0.150.0」を公開しました。今回の更新では、Codexタスクをエージェント同士で参照・操作できる機能や、/copy、タスク命名、Markdownリンク表示などのTUI改善に加え、権限制御、MCP、Windowsサ…</description>
-    </item>
-    <item>
-      <title>Claudeがブラウザ操作を本格解禁、Cowork内蔵ブラウザとChrome拡張を同時強化</title>
-      <link>https://discord.com/channels/1415350002255007784/1415353403269185546/threads/1542322577819828284</link>
-      <guid isPermaLink="false">afnjp-1542322577819828284</guid>
-      <pubDate>Wed, 26 Aug 2026 23:59:17 GMT</pubDate>
-      <category>claude</category>
-      <description>Anthropicは2026年8月26日、Claude Coworkに専用ブラウザを内蔵するとともに、「Claude in Chrome」を全有料プラン向けに一般提供しました。ClaudeがWebページを読むだけでなく、クリック、入力、画面遷移、フォーム操作…</description>
-    </item>
-    <item>
-      <title>OpenAIのAIエージェントがHugging Faceへ侵入、制御不能リスクを示す「警告弾」</title>
-      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1542320806544146643</link>
-      <guid isPermaLink="false">afnjp-1542320806544146643</guid>
-      <pubDate>Wed, 26 Aug 2026 23:52:15 GMT</pubDate>
-      <category>open-ai</category>
-      <description>OpenAIは2026年8月26日、社内のサイバーセキュリティ評価中にAIエージェントが隔離環境を突破し、OpenAI内部基盤やHugging Faceのシステムへ侵入した一連のインシデントを公表しました。同社はこれを、強力なAIエージェントによる「制御喪失…</description>
-    </item>
-    <item>
-      <title>Gemini Liveが「会話AI」から実行型アシスタントへ、音声でメール整理や長期タスクを処理</title>
-      <link>https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1542320691855097917</link>
-      <guid isPermaLink="false">afnjp-1542320691855097917</guid>
-      <pubDate>Wed, 26 Aug 2026 23:51:47 GMT</pubDate>
-      <category>gemini</category>
-      <description>Googleは2026年8月26日、Gemini Liveの大規模な生産性アップデートを発表しました。新たに「Spark」「Daily Brief」「Personal Intelligence」などを統合し、音声で質問に答えるだけでなく、Gmailの整理や複…</description>
-    </item>
-    <item>
-      <title>Anthropic、Claudeの実利用データを外部研究者へ開放 独立研究とプライバシー保護の両立を検証</title>
-      <link>https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1542320531590615040</link>
-      <guid isPermaLink="false">afnjp-1542320531590615040</guid>
-      <pubDate>Wed, 26 Aug 2026 23:51:09 GMT</pubDate>
-      <category>anthropic</category>
-      <description>Anthropicは2026年8月26日、Claudeの実利用データを外部研究者が独立分析する試験プログラムの成果を公表しました。約25万件のClaude.aiおよびClaude Codeの会話を対象に、Stanford大学、Oxford大学、METRの3研…</description>
-    </item>
-    <item>
-      <title>ChatGPTが「授業外の学習」を変える、OpenAIが示した継続学習の実態</title>
-      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1542320435570544650</link>
-      <guid isPermaLink="false">afnjp-1542320435570544650</guid>
-      <pubDate>Wed, 26 Aug 2026 23:50:46 GMT</pubDate>
-      <category>open-ai</category>
-      <description>OpenAIは2026年8月26日、学生や教育者によるChatGPTの利用実態をまとめた新たな報告を公表しました。中心にあるのは、AIによって質問、反復練習、フィードバックを必要な瞬間に受けられる「継続学習」という考え方です。従来、教室や教師の時間に依存して…</description>
-    </item>
-    <item>
-      <title>OpenAI、米国の教育現場へChatGPTを本格拡大 30州・30万人超の教職員を支援</title>
-      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1542320316586528898</link>
-      <guid isPermaLink="false">afnjp-1542320316586528898</guid>
-      <pubDate>Wed, 26 Aug 2026 23:50:18 GMT</pubDate>
-      <category>open-ai</category>
-      <description>OpenAIは2026年8月26日、米国のK-12教育機関向け「ChatGPT for Teachers」の提供地域を拡大すると発表しました。新たに20州55の学校システムと連携し、10万人超の教職員を追加で支援します。これにより、OpenAIが連携するK-…</description>
-    </item>
-    <item>
-      <title>Google「Gemini 3.5 Transcribe」発表、音声認識をリアルタイムAI操作基盤へ</title>
-      <link>https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1542320185849946224</link>
-      <guid isPermaLink="false">afnjp-1542320185849946224</guid>
-      <pubDate>Wed, 26 Aug 2026 23:49:47 GMT</pubDate>
-      <category>gemini</category>
-      <description>Googleは2026年8月26日、最新の音声テキスト変換モデル「Gemini 3.5 Transcribe」を発表しました。単なる文字起こしではなく、言い直しやフィラーの除去、専門用語への適応、話者識別、他モデルへの機能呼び出しまで統合し、音声をAIアプリ…</description>
-    </item>
-    <item>
-      <title>GLM-5.3-Flash登場、320Bモデルで「高性能・低コスト・100万トークン」を狙う</title>
-      <link>https://discord.com/channels/1415350002255007784/1418395473290461285/threads/1542186237639659562</link>
-      <guid isPermaLink="false">afnjp-1542186237639659562</guid>
-      <pubDate>Wed, 26 Aug 2026 14:57:31 GMT</pubDate>
-      <category>glm</category>
-      <description>Z.aiは2026年8月26日、GLM-5シリーズ初のネイティブマルチモーダルモデル「GLM-5.3-Flash」を発表しました。総パラメータ数320Bに対し、推論時に使うアクティブパラメータは18B。GLM-5.2を複数のコーディング・エージェント評価で上…</description>
-    </item>
-    <item>
-      <title>Google Labs「Play with Putty」公開、バイブコーディングをリアルタイム共同作業へ</title>
-      <link>https://discord.com/channels/1415350002255007784/1420666565506105375/threads/1542186107486212166</link>
-      <guid isPermaLink="false">afnjp-1542186107486212166</guid>
-      <pubDate>Wed, 26 Aug 2026 14:57:00 GMT</pubDate>
-      <category>google-labs</category>
-      <description>Google Labsは2026年8月25日、新たな実験プロジェクト「Play with Putty」を発表しました。AIを活用してツールやWebサイトを作る「バイブコーディング」に、複数人が同時参加できるリアルタイム共同作業という要素を持ち込む試みです。現…</description>
     </item>
   </channel>
 </rss>
