@@ -1,8 +1,49 @@
 {
-  "generated_at": "2026-08-28T11:20:14.619Z",
+  "generated_at": "2026-08-28T22:16:21.926Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1542945727141908480",
+      "title": "Tencent「Hy4 preview」公開、7700億パラメータと100万トークンで長期タスクを狙う",
+      "channel": "hunyuan",
+      "category": "その他",
+      "date": "2026-08-28T17:15:27.896Z",
+      "excerpt": "Tencentは2026年8月28日、新世代のフラッグシップAIモデル「Hy4 preview」を公開しました。7700億パラメータ、490億アクティブパラメータ、100万トークンのコンテキストウィンドウを備え、ソフトウェア開発、オフィス業務、ゲーム開発、科…",
+      "lead": "Tencentは2026年8月28日、新世代のフラッグシップAIモデル「Hy4 preview」を公開しました。7700億パラメータ、490億アクティブパラメータ、100万トークンのコンテキストウィンドウを備え、ソフトウェア開発、オフィス業務、ゲーム開発、科学研究など、長時間かつ複雑な作業を主な対象としています。",
+      "headings": [
+        "大規模化と長文処理を同時に強化",
+        "ソフトウェア開発から財務分析まで",
+        "社内ブラインド評価では競合を僅差で上回る",
+        "API価格は出力100万トークン2.501ドル",
+        "今後の展望"
+      ],
+      "source_url": "https://hy.tencent.ai/research/hy4-preview",
+      "source_label": "hy.tencent.ai",
+      "url": "https://discord.com/channels/1415350002255007784/1460898443923820618/threads/1542945727141908480",
+      "first_seen": "2026-08-28T17:15:27.896Z"
+    },
+    {
+      "id": "1542943412788006932",
+      "title": "ClaudeがAI安全研究を自動化、10種類のアライメント問題を改善",
+      "channel": "anthropic",
+      "category": "Anthropic",
+      "date": "2026-08-28T17:06:16.111Z",
+      "excerpt": "Anthropicは2026年8月28日、Claudeを自律的な「アライメント研究者」として動かし、AIモデルの欺瞞、迎合、プライバシー侵害、報酬ハッキングなど10種類の安全上の問題を改善できたと発表しました。研究では、人間が手作業で安全対策を設計するだけで…",
+      "lead": "Anthropicは2026年8月28日、Claudeを自律的な「アライメント研究者」として動かし、AIモデルの欺瞞、迎合、プライバシー侵害、報酬ハッキングなど10種類の安全上の問題を改善できたと発表しました。研究では、人間が手作業で安全対策を設計するだけでなく、AI自身が文献調査、手法提案、学習、評価を反復する仕組みの実用性を検証しています。",
+      "headings": [
+        "AIが安全対策を自ら研究する",
+        "欺瞞対策では人間研究者を上回る結果",
+        "Sonnet 5がOpus 4.8を改善",
+        "自動研究には「不正」の監視も必要",
+        "今後の展望"
+      ],
+      "source_url": "https://www.anthropic.com/research/automated-researchers-mitigate-alignment-failures",
+      "source_label": "anthropic.com",
+      "cover": "assets/posts/1542943412788006932.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1542943412788006932",
+      "first_seen": "2026-08-28T17:06:16.111Z"
+    },
     {
       "id": "1542836198131896421",
       "title": "OpenAI、タイ政府とAIスタートアップ育成へ 医療・教育10社を8週間支援",
@@ -207,50 +248,6 @@
       "source_label": "github.com",
       "url": "https://discord.com/channels/1415350002255007784/1415355102939578490/threads/1542382801158930503",
       "first_seen": "2026-08-27T03:58:35.883Z"
-    },
-    {
-      "id": "1542325086822993920",
-      "title": "Antigravity CLI 1.1.21公開、音声入力とコスト可視化を強化",
-      "channel": "antigravity",
-      "category": "Google",
-      "date": "2026-08-27T00:09:15.713Z",
-      "excerpt": "Googleの「Antigravity CLI」がバージョン1.1.21に更新されました。今回のリリースでは、音声を直接プロンプトへ変換する/voice、セッション推定コストの取得、コード検索基盤の刷新に加え、権限制御やUTF-8処理の改善が盛り込まれていま…",
-      "lead": "Googleの「Antigravity CLI」がバージョン1.1.21に更新されました。今回のリリースでは、音声を直接プロンプトへ変換する/voice、セッション推定コストの取得、コード検索基盤の刷新に加え、権限制御やUTF-8処理の改善が盛り込まれています。CLIを長時間利用する開発者にとって、操作性と自動化の双方を底上げするアップデートです。",
-      "headings": [
-        "音声入力をCLIへ統合",
-        "セッションコストをリアルタイムに把握可能",
-        "コード検索は組み込みripgrepへ",
-        "自動実行と権限制御も改善",
-        "CJKやUTF-8関連の不具合を修正",
-        "今後の展望"
-      ],
-      "source_url": "https://github.com/google-antigravity/antigravity-cli/blob/main/CHANGELOG.md",
-      "source_label": "github.com",
-      "cover": "assets/posts/1542325086822993920.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1440381933371527311/threads/1542325086822993920",
-      "first_seen": "2026-08-27T00:09:15.713Z"
-    },
-    {
-      "id": "1542323464462012466",
-      "title": "Codex v0.150.0公開、タスク連携と権限制御を強化",
-      "channel": "codex",
-      "category": "Open AI",
-      "date": "2026-08-27T00:02:48.912Z",
-      "excerpt": "OpenAIはCodexのRust実装「v0.150.0」を公開しました。今回の更新では、Codexタスクをエージェント同士で参照・操作できる機能や、/copy、タスク命名、Markdownリンク表示などのTUI改善に加え、権限制御、MCP、Windowsサ…",
-      "lead": "OpenAIはCodexのRust実装「v0.150.0」を公開しました。今回の更新では、Codexタスクをエージェント同士で参照・操作できる機能や、/copy、タスク命名、Markdownリンク表示などのTUI改善に加え、権限制御、MCP、Windowsサンドボックス、Amazon Bedrock対応など基盤部分の修正が多数盛り込まれています。",
-      "headings": [
-        "Codexタスクをエージェント間で扱えるように",
-        "TUIの操作性を大幅改善",
-        "セキュリティとサンドボックスを強化",
-        "MCPと実行基盤も安定化",
-        "Amazon Bedrock対応も改善",
-        "今後の展望"
-      ],
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.150.0",
-      "source_label": "github.com",
-      "cover": "assets/posts/1542323464462012466.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1415355102939578490/threads/1542323464462012466",
-      "first_seen": "2026-08-27T00:02:48.912Z"
     }
   ]
 }

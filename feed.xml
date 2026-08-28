@@ -5,8 +5,24 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 28 Aug 2026 10:00:14 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 28 Aug 2026 17:15:27 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Tencent「Hy4 preview」公開、7700億パラメータと100万トークンで長期タスクを狙う</title>
+      <link>https://discord.com/channels/1415350002255007784/1460898443923820618/threads/1542945727141908480</link>
+      <guid isPermaLink="false">afnjp-1542945727141908480</guid>
+      <pubDate>Fri, 28 Aug 2026 17:15:27 GMT</pubDate>
+      <category>hunyuan</category>
+      <description>Tencentは2026年8月28日、新世代のフラッグシップAIモデル「Hy4 preview」を公開しました。7700億パラメータ、490億アクティブパラメータ、100万トークンのコンテキストウィンドウを備え、ソフトウェア開発、オフィス業務、ゲーム開発、科…</description>
+    </item>
+    <item>
+      <title>ClaudeがAI安全研究を自動化、10種類のアライメント問題を改善</title>
+      <link>https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1542943412788006932</link>
+      <guid isPermaLink="false">afnjp-1542943412788006932</guid>
+      <pubDate>Fri, 28 Aug 2026 17:06:16 GMT</pubDate>
+      <category>anthropic</category>
+      <description>Anthropicは2026年8月28日、Claudeを自律的な「アライメント研究者」として動かし、AIモデルの欺瞞、迎合、プライバシー侵害、報酬ハッキングなど10種類の安全上の問題を改善できたと発表しました。研究では、人間が手作業で安全対策を設計するだけで…</description>
+    </item>
     <item>
       <title>OpenAI、タイ政府とAIスタートアップ育成へ 医療・教育10社を8週間支援</title>
       <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1542836198131896421</link>
@@ -86,22 +102,6 @@
       <pubDate>Thu, 27 Aug 2026 03:58:35 GMT</pubDate>
       <category>codex</category>
       <description>OpenAIは2026年8月27日、ローカル環境で動作するコーディングエージェント「Codex CLI」のRust版「rust-v0.150.1」をGitHubで公開しました。今回のリリースページには個別の変更内容が記載されておらず、機能追加や不具合修正の詳…</description>
-    </item>
-    <item>
-      <title>Antigravity CLI 1.1.21公開、音声入力とコスト可視化を強化</title>
-      <link>https://discord.com/channels/1415350002255007784/1440381933371527311/threads/1542325086822993920</link>
-      <guid isPermaLink="false">afnjp-1542325086822993920</guid>
-      <pubDate>Thu, 27 Aug 2026 00:09:15 GMT</pubDate>
-      <category>antigravity</category>
-      <description>Googleの「Antigravity CLI」がバージョン1.1.21に更新されました。今回のリリースでは、音声を直接プロンプトへ変換する/voice、セッション推定コストの取得、コード検索基盤の刷新に加え、権限制御やUTF-8処理の改善が盛り込まれていま…</description>
-    </item>
-    <item>
-      <title>Codex v0.150.0公開、タスク連携と権限制御を強化</title>
-      <link>https://discord.com/channels/1415350002255007784/1415355102939578490/threads/1542323464462012466</link>
-      <guid isPermaLink="false">afnjp-1542323464462012466</guid>
-      <pubDate>Thu, 27 Aug 2026 00:02:48 GMT</pubDate>
-      <category>codex</category>
-      <description>OpenAIはCodexのRust実装「v0.150.0」を公開しました。今回の更新では、Codexタスクをエージェント同士で参照・操作できる機能や、/copy、タスク命名、Markdownリンク表示などのTUI改善に加え、権限制御、MCP、Windowsサ…</description>
     </item>
   </channel>
 </rss>
