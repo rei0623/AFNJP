@@ -71,6 +71,13 @@ const UA = 'Mozilla/5.0 (compatible; AFNJP-web-watch/1.0; +https://rei0623.githu
  */
 const DRY = process.argv.includes('--dry-run');
 
+/**
+ * --ping … 投稿先チャンネルへテスト投稿を1件だけ出す。
+ * Bot の権限（チャンネルを見る / メッセージを送信）が付いているかを、
+ * 実際の新着を待たずに確かめるためのもの。状態には触らない。
+ */
+const PING = process.argv.includes('--ping');
+
 if (!DRY && !TOKEN) {
     console.log('… DISCORD_BOT_TOKEN が未設定のため、監視をスキップします。');
     process.exit(0);
@@ -281,6 +288,27 @@ function embedOf(item, source) {
 /* ═══════════ 本処理 ═══════════ */
 
 const { sources } = JSON.parse(await readFile(SOURCES, 'utf8'));
+
+if (PING) {
+    try {
+        await postToDiscord([{
+            author: { name: '一次情報ウォッチ' },
+            title: '疎通確認',
+            description: 'Bot からこのチャンネルへ投稿できています。\n'
+                + `監視対象は ${sources.length} ソースです。`,
+            color: 0x4285f4,
+            timestamp: new Date().toISOString(),
+            footer: { text: 'このメッセージは消して構いません' },
+        }]);
+        console.log('✓ 投稿できました。権限は足りています。');
+    } catch (e) {
+        console.error(`✗ 投稿できませんでした: ${e.message}`);
+        console.error('   Bot がチャンネルに追加され、「メッセージを送信」が許可されているか確認してください。');
+        process.exit(1);
+    }
+    process.exit(0);
+}
+
 const state = DRY ? {} : await loadState();
 
 if (DRY) {

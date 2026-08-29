@@ -17,6 +17,11 @@ on:
     # 5分ごと。ただし GitHub の混雑時は遅れることがある（仕様）
     - cron: '*/5 * * * *'
   workflow_dispatch:
+    inputs:
+      ping:
+        description: '疎通確認だけ行う（テスト投稿を1件出して終了）'
+        type: boolean
+        default: false
 
 permissions:
   contents: read
@@ -45,4 +50,4 @@ jobs:
           DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
           PUSH_SEND_TOKEN: ${{ secrets.PUSH_SEND_TOKEN }}
           WATCH_CHANNEL_ID: '1543192400237699112'
-        run: node scripts/web-watch.mjs
+        run: node scripts/web-watch.mjs ${{ inputs.ping && '--ping' || '' }}
