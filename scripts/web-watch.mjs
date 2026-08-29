@@ -258,6 +258,28 @@ async function saveState(state) {
 
 /* ═══════════ Discord ═══════════ */
 
+/** 投稿ずみメッセージの埋め込みを差し替える。🔴 を ✅ に変えるのに使う */
+async function editDiscord(messageId, embeds) {
+    const res = await fetch(
+        `https://discord.com/api/v10/channels/${CHANNEL_ID}/messages/${messageId}`, {
+        method: 'PATCH',
+        headers: {
+            Authorization: `Bot ${TOKEN}`,
+            'Content-Type': 'application/json',
+            'User-Agent': DISCORD_UA,
+        },
+        body: JSON.stringify({ embeds }),
+    });
+    if (res.status === 429) {
+        const retry = Number(res.headers.get('retry-after') || 2);
+        await new Promise(r => setTimeout(r, retry * 1000 + 250));
+        return editDiscord(messageId, embeds);
+    }
+    // 消されたメッセージは 404。追いかける意味がないので呼び出し側で捨てる
+    if (!res.ok) throw new Error(`Discord ${res.status} — ${await res.text()}`);
+    return res.json();
+}
+
 async function postToDiscord(embeds) {
     const res = await fetch(`https://discord.com/api/v10/channels/${CHANNEL_ID}/messages`, {
         method: 'POST',
@@ -284,15 +306,17 @@ const COLOR = {
     Alibaba: 0xff6a00, その他: 0x8b8e93,
 };
 
-function embedOf(item, source) {
-    const isCovered = covered.has(normalize(item.url));
+const MARK_TODO = '🔴 未記事化';
+const MARK_DONE = '✅ AFNJP で記事化ずみ';
+
+function embedOf(item, source, isCovered = covered.has(normalize(item.url))) {
     const when = item.date ? new Date(item.date) : null;
 
     return {
         author: { name: source.label },
         title: (item.title || item.url).slice(0, 250),
         url: item.url,
-        description: isCovered ? '✅ AFNJP で記事化ずみ' : '🔴 未記事化',
+        description: isCovered ? MARK_DONE : MARK_TODO,
         color: COLOR[source.category] ?? COLOR['その他'],
         timestamp: when && !Number.isNaN(when.getTime()) ? when.toISOString() : new Date().toISOString(),
         footer: { text: `一次情報ウォッチ · ${source.category}` },
@@ -347,6 +371,42 @@ if (PREVIEW) {
 }
 
 const state = DRY ? {} : await loadState();
+
+/* ═══════════ 記事化ずみになったものを ✅ に直す ═══════════
+   投稿は一度きりなので、あとで記事を書いても 🔴 のまま残ってしまう。
+   未記事化で出したものを覚えておき、毎回アーカイブと突き合わせて書き換える。
+   posts-archive.json の更新が毎時なので、✅ になるまで最大1時間ほどかかる。 */
+
+/** 45日たっても記事化されなかったものは追跡をやめる（見送った発表とみなす） */
+const PENDING_TTL_MS = 45 * 24 * 3600 * 1000;
+
+state._pending ??= {};
+const pending = state._pending;
+
+let fixed = 0, dropped = 0;
+for (const [messageId, entry] of (DRY ? [] : Object.entries(pending))) {
+    const age = Date.now() - new Date(entry.at || 0).getTime();
+    if (!entry.url || Number.isNaN(age) || age > PENDING_TTL_MS) {
+        delete pending[messageId];
+        dropped++;
+        continue;
+    }
+    if (!covered.has(normalize(entry.url))) continue;
+
+    try {
+        await editDiscord(messageId, [{ ...entry.embed, description: MARK_DONE }]);
+        fixed++;
+    } catch (e) {
+        // 404（消された）なら追う意味がないので捨てる。それ以外は次回に再試行する
+        if (/Discord 404/.test(e.message)) dropped++;
+        else continue;
+    }
+    delete pending[messageId];
+}
+if (fixed || dropped) {
+    console.log(`✓ 記事化ずみに更新: ${fixed} 件`
+        + (dropped ? `（追跡をやめたもの ${dropped} 件）` : ''));
+}
 
 if (DRY) {
     // 各ソースが実際に何件返すかを一覧する。定義の確認用で、投稿も保存もしない。
@@ -409,12 +469,11 @@ await Promise.all(sources.map(async source => {
     const fresh = items.filter(i => !seen.has(i.url));
     if (!fresh.length) return;
 
-    // 新しいものから順に。ただし1ソースが暴発しても他を潰さないよう頭を切る
-    for (const item of fresh.slice(0, MAX_POST_PER_RUN)) {
-        found.push({ item, source });
-    }
-    // 既読には「取れた全部」を入れる。投稿を絞っても取りこぼしを繰り返さないため
-    state[source.id] = [...items.map(i => i.url), ...known].slice(0, KEEP_PER_SOURCE);
+    for (const item of fresh) found.push({ item, source });
+
+    // ここでは既読にしない。実際に投稿できたものだけを、あとでまとめて既読にする。
+    // 先に既読へ入れてしまうと、投稿に失敗したぶんや上限で溢れたぶんが
+    // 二度と流れてこなくなる（発表を取りこぼす）。
 }));
 
 if (seeded) {
@@ -423,14 +482,19 @@ if (seeded) {
 for (const e of errors) console.warn(`  … ${e}`);
 
 if (!found.length) {
-    if (seeded) await saveState(state);
+    // 新着が無くても、初回登録や ✅ への更新で state が変わっていれば保存する
+    if (seeded || fixed || dropped) await saveState(state);
     console.log(`✓ 新着なし（監視 ${sources.length} ソース / 失敗 ${errors.length}）`);
     process.exit(0);
 }
 
-// 新しい順に並べ、投稿数に上限をかける
+// 新しい順に並べ、1回の投稿数に上限をかける。
+// 溢れたぶんは既読にしないので、次の実行（5分後）に持ち越される。
 found.sort((a, b) => new Date(b.item.date || 0) - new Date(a.item.date || 0));
 const targets = found.slice(0, MAX_POST_PER_RUN);
+if (found.length > targets.length) {
+    console.log(`  … 新着 ${found.length} 件のうち ${targets.length} 件を投稿します（残りは次回）`);
+}
 
 // sitemap 由来はタイトルが無いので、投稿するぶんだけ取りに行く
 for (const t of targets) {
@@ -439,12 +503,24 @@ for (const t of targets) {
 
 let posted = 0;
 try {
-    // Discord は1メッセージに埋め込み10件まで
-    for (let i = 0; i < targets.length; i += 10) {
-        const batch = targets.slice(i, i + 10);
-        await postToDiscord(batch.map(t => embedOf(t.item, t.source)));
-        posted += batch.length;
-        if (i + 10 < targets.length) await new Promise(r => setTimeout(r, 800));
+    // 1件につき1メッセージ。まとめて出すと、あとで1件だけ ✅ に直すときに
+    // 同じメッセージの他の埋め込みまで作り直すことになるため。
+    for (const t of targets) {
+        const isCovered = covered.has(normalize(t.item.url));
+        const embed = embedOf(t.item, t.source, isCovered);
+        const msg = await postToDiscord([embed]);
+        posted++;
+
+        // まだ書かれていないものだけ、あとで ✅ に直せるよう覚えておく
+        if (!isCovered && msg?.id) {
+            pending[msg.id] = { url: t.item.url, at: new Date().toISOString(), embed };
+        }
+
+        // 投稿できたものだけを既読にする。ここで初めて state を更新する
+        const list = Array.isArray(state[t.source.id]) ? state[t.source.id] : [];
+        state[t.source.id] = [t.item.url, ...list].slice(0, KEEP_PER_SOURCE);
+
+        await new Promise(r => setTimeout(r, 700)); // 連投を避ける
     }
 } catch (e) {
     // 投稿できなかったぶんは既読にしない → 次回やり直せる
