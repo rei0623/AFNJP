@@ -85,6 +85,13 @@ const DRY = process.argv.includes('--dry-run');
  */
 const PING = process.argv.includes('--ping');
 
+/**
+ * --preview … 各社の最新1件を、実際の投稿と同じ見た目で出す。
+ * 状態には触らないので、何度実行しても本番の検知には影響しない。
+ * 見た目を変えたいときの確認用。
+ */
+const PREVIEW = process.argv.includes('--preview');
+
 if (!DRY && !TOKEN) {
     console.log('… DISCORD_BOT_TOKEN が未設定のため、監視をスキップします。');
     process.exit(0);
@@ -313,6 +320,29 @@ if (PING) {
         console.error('   Bot がチャンネルに追加され、「メッセージを送信」が許可されているか確認してください。');
         process.exit(1);
     }
+    process.exit(0);
+}
+
+if (PREVIEW) {
+    // 見た目の確認用。各社の最新1件を、本番と同じ組み立てで出す。
+    const picks = [];
+    for (const source of sources.slice(0, 6)) {
+        try {
+            const items = source.type === 'rss'
+                ? parseFeed(await get(source.url, 'application/rss+xml,application/xml,text/xml'))
+                : await readSitemap(source);
+            const item = items[0];
+            if (!item) continue;
+            if (!item.title) item.title = await titleOf(item.url);
+            picks.push({ item, source });
+        } catch { /* 取れないソースは飛ばす */ }
+    }
+    if (!picks.length) {
+        console.error('✗ サンプルを1件も取得できませんでした。');
+        process.exit(1);
+    }
+    await postToDiscord(picks.map(p => embedOf(p.item, p.source)));
+    console.log(`✓ サンプル ${picks.length} 件を投稿しました（状態は変更していません）。`);
     process.exit(0);
 }
 
