@@ -1,8 +1,29 @@
 {
-  "generated_at": "2026-08-28T22:16:21.926Z",
+  "generated_at": "2026-08-29T03:43:30.278Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1543075670496780410",
+      "title": "OpenAI、SpaceXによるCursor買収を受けモデル提供契約を終了へ",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-08-29T01:51:48.806Z",
+      "excerpt": "OpenAIは2026年8月28日、SpaceXに対し、AIコーディング環境「Cursor」へのOpenAIモデル提供契約を終了する意向を通知したと発表しました。提案されている提供停止日は2026年11月12日です。Cursorを利用する開発者への影響を抑え…",
+      "lead": "OpenAIは2026年8月28日、SpaceXに対し、AIコーディング環境「Cursor」へのOpenAIモデル提供契約を終了する意向を通知したと発表しました。提案されている提供停止日は2026年11月12日です。Cursorを利用する開発者への影響を抑えるため、契約上認められる最大限の通知期間を確保するとしています。",
+      "headings": [
+        "SpaceX傘下入りが契約見直しの引き金に",
+        "過去の契約・規約違反を問題視",
+        "次世代モデル「Astra」はCursorに提供せず",
+        "Cursorユーザーへの影響",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/",
+      "source_label": "openai.com",
+      "cover": "assets/posts/1543075670496780410.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1543075670496780410",
+      "first_seen": "2026-08-29T01:51:48.806Z"
+    },
     {
       "id": "1542945727141908480",
       "title": "Tencent「Hy4 preview」公開、7700億パラメータと100万トークンで長期タスクを狙う",
@@ -229,25 +250,6 @@
       "cover": "assets/posts/1542687278885773382.webp",
       "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1542687278885773382",
       "first_seen": "2026-08-28T00:08:29.030Z"
-    },
-    {
-      "id": "1542382801158930503",
-      "title": "OpenAI「Codex CLI 0.150.1」公開、Rust版の新リリース",
-      "channel": "codex",
-      "category": "Open AI",
-      "date": "2026-08-27T03:58:35.883Z",
-      "excerpt": "OpenAIは2026年8月27日、ローカル環境で動作するコーディングエージェント「Codex CLI」のRust版「rust-v0.150.1」をGitHubで公開しました。今回のリリースページには個別の変更内容が記載されておらず、機能追加や不具合修正の詳…",
-      "lead": "OpenAIは2026年8月27日、ローカル環境で動作するコーディングエージェント「Codex CLI」のRust版「rust-v0.150.1」をGitHubで公開しました。今回のリリースページには個別の変更内容が記載されておらず、機能追加や不具合修正の詳細は確認できません。",
-      "headings": [
-        "Codex CLIとは",
-        "0.150.1で確認できる情報",
-        "導入時に注意すべき点",
-        "今後の展望"
-      ],
-      "source_url": "https://github.com/openai/codex/releases/tag/rust-v0.150.1",
-      "source_label": "github.com",
-      "url": "https://discord.com/channels/1415350002255007784/1415355102939578490/threads/1542382801158930503",
-      "first_seen": "2026-08-27T03:58:35.883Z"
     }
   ]
 }
