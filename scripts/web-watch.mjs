@@ -159,7 +159,7 @@ function parseFeed(xml) {
         }
 
         const date = tagOf(block, 'pubDate') || tagOf(block, 'published') || tagOf(block, 'updated');
-        if (title && link) out.push({ title, url: link, date });
+        if (title && link) out.push({ title, url: link, date, dateKind: 'published' });
     }
     return out;
 }
@@ -167,6 +167,25 @@ function parseFeed(xml) {
 /* ═══════════ アダプタ: sitemap ═══════════ */
 
 const locsOf = xml => [...xml.matchAll(/<loc>([\s\S]*?)<\/loc>/gi)].map(m => unescapeXml(m[1]));
+
+/**
+ * <url> ごとに loc と lastmod を取り出す。
+ * lastmod は「最終更新日」であって公開日ではない。サイト全体の再ビルドで
+ * 全URLが同じ日時になるところもある（Runway など）ので、表示ではそう断る。
+ */
+function entriesOf(xml) {
+    const out = [];
+    for (const m of xml.matchAll(/<url>([\s\S]*?)<\/url>/gi)) {
+        const block = m[1];
+        const loc = block.match(/<loc>([\s\S]*?)<\/loc>/i);
+        if (!loc) continue;
+        const mod = block.match(/<lastmod>([\s\S]*?)<\/lastmod>/i);
+        out.push({ url: unescapeXml(loc[1]), lastmod: mod ? unescapeXml(mod[1]) : null });
+    }
+    // <url> で囲まれていない書き方にも一応備える
+    if (!out.length) return locsOf(xml).map(url => ({ url, lastmod: null }));
+    return out;
+}
 
 /**
  * sitemap を読んで、対象パスに合う URL を返す。
@@ -182,28 +201,32 @@ async function readSitemap(source) {
         for (const child of children) {
             try {
                 const sub = await get(child, 'application/xml,text/xml');
-                urls.push(...locsOf(sub));
+                urls.push(...entriesOf(sub));
             } catch { /* 一部が落ちても他は続ける */ }
         }
     } else {
-        urls = locsOf(xml);
+        urls = entriesOf(xml);
     }
 
     const include = source.include ? new RegExp(source.include) : null;
     const seen = new Set();
     const out = [];
-    for (const u of urls) {
+    for (const e of urls) {
         let path;
         try {
-            path = new URL(u).pathname.replace(/\/$/, '');
+            path = new URL(e.url).pathname.replace(/\/$/, '');
         } catch {
             continue;
         }
         if (include && !include.test(path)) continue;
-        if (seen.has(u)) continue;
-        seen.add(u);
-        out.push({ title: null, url: u, date: null });
+        if (seen.has(e.url)) continue;
+        seen.add(e.url);
+        // sitemap から分かるのは更新日まで。公開日とは限らないので印を付ける
+        out.push({ title: null, url: e.url, date: e.lastmod, dateKind: 'lastmod' });
     }
+    // 新しい順に並べ替える。sitemap は多くがアルファベット順なので、
+    // 並べ替えないと「最新」を選んだつもりで古い記事を掴む
+    out.sort((a, b) => new Date(b.date || 0) - new Date(a.date || 0));
     return out;
 }
 
@@ -309,8 +332,34 @@ const COLOR = {
 const MARK_TODO = '🔴 未記事化';
 const MARK_DONE = '✅ AFNJP で記事化ずみ';
 
+/** 「12分前」のような相対表記。検知の速さを毎回見えるようにするためのもの */
+function ago(ms) {
+    const m = Math.round(ms / 60000);
+    if (m < 1) return '1分以内';
+    if (m < 60) return `${m}分前`;
+    const h = Math.round(m / 60);
+    if (h < 24) return `${h}時間前`;
+    return `${Math.round(h / 24)}日前`;
+}
+
 function embedOf(item, source, isCovered = covered.has(normalize(item.url))) {
     const when = item.date ? new Date(item.date) : null;
+    const valid = when && !Number.isNaN(when.getTime());
+
+    /*
+     * フッターに「何を基準にした時刻か」と「そこからの経過」を出す。
+     *   published … フィードの公開日時。検知の遅れがそのまま読める
+     *   lastmod   … sitemap の最終更新日。公開日とは限らないので断る
+     *   なし      … 日付が取れないので検知時刻
+     */
+    let stamp;
+    if (valid && item.dateKind === 'published') {
+        stamp = `公開から ${ago(Date.now() - when.getTime())}`;
+    } else if (valid && item.dateKind === 'lastmod') {
+        stamp = `更新から ${ago(Date.now() - when.getTime())}（公開日は不明）`;
+    } else {
+        stamp = '公開日は不明（検知時刻を表示）';
+    }
 
     return {
         author: { name: source.label },
@@ -318,8 +367,8 @@ function embedOf(item, source, isCovered = covered.has(normalize(item.url))) {
         url: item.url,
         description: isCovered ? MARK_DONE : MARK_TODO,
         color: COLOR[source.category] ?? COLOR['その他'],
-        timestamp: when && !Number.isNaN(when.getTime()) ? when.toISOString() : new Date().toISOString(),
-        footer: { text: `一次情報ウォッチ · ${source.category}` },
+        timestamp: valid ? when.toISOString() : new Date().toISOString(),
+        footer: { text: `${source.category} · ${stamp}` },
     };
 }
 
