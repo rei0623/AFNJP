@@ -5,8 +5,16 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 29 Aug 2026 01:51:48 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 29 Aug 2026 10:02:59 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Gemini Notebook、利用上限を刷新 5時間ごと回復の「計算量ベース」方式へ</title>
+      <link>https://discord.com/channels/1415350002255007784/1418011435287707648/threads/1543199277965381662</link>
+      <guid isPermaLink="false">afnjp-1543199277965381662</guid>
+      <pubDate>Sat, 29 Aug 2026 10:02:59 GMT</pubDate>
+      <category>gemini-notebook</category>
+      <description>Googleは2026年8月28日、Gemini Notebookに新しい柔軟な利用上限を導入すると発表しました。従来の単純な回数制限ではなく、処理に必要な計算資源を意識した仕組みに変更し、ユーザーが限られた利用枠をより柔軟に配分できるようにします。一般ユー…</description>
+    </item>
     <item>
       <title>OpenAI、SpaceXによるCursor買収を受けモデル提供契約を終了へ</title>
       <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1543075670496780410</link>
@@ -94,14 +102,6 @@
       <pubDate>Fri, 28 Aug 2026 00:08:57 GMT</pubDate>
       <category>open-ai</category>
       <description>OpenAIは2026年8月27日、ボッコーニ大学の研究者とOpenAI Economic Researchによる、1000人超の大学生を対象としたランダム化実験の結果を公開しました。ChatGPTへのアクセスは学生の回答品質や論理性を高める一方、因果推論を…</description>
-    </item>
-    <item>
-      <title>Google DeepMind、世界初の「二重盲検AI評価」を実証</title>
-      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1542687278885773382</link>
-      <guid isPermaLink="false">afnjp-1542687278885773382</guid>
-      <pubDate>Fri, 28 Aug 2026 00:08:29 GMT</pubDate>
-      <category>google</category>
-      <description>Google DeepMindは、モデル開発者にも外部評価者にも互いの機密情報を見せずにAIを検証する「Double-Blind Evaluation」の試験運用を発表しました。ベンチマーク汚染を抑えつつ、非公開モデルの知的財産も守ることで、AI評価の信頼性…</description>
     </item>
   </channel>
 </rss>

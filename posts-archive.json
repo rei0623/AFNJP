@@ -1,9 +1,30 @@
 {
-  "generated_at": "2026-08-29T03:43:30.277Z",
+  "generated_at": "2026-08-29T10:34:20.169Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 103,
+  "count": 104,
   "posts": [
+    {
+      "id": "1543199277965381662",
+      "title": "Gemini Notebook、利用上限を刷新 5時間ごと回復の「計算量ベース」方式へ",
+      "channel": "gemini-notebook",
+      "category": "Google",
+      "date": "2026-08-29T10:02:59.123Z",
+      "excerpt": "Googleは2026年8月28日、Gemini Notebookに新しい柔軟な利用上限を導入すると発表しました。従来の単純な回数制限ではなく、処理に必要な計算資源を意識した仕組みに変更し、ユーザーが限られた利用枠をより柔軟に配分できるようにします。一般ユー…",
+      "lead": "Googleは2026年8月28日、Gemini Notebookに新しい柔軟な利用上限を導入すると発表しました。従来の単純な回数制限ではなく、処理に必要な計算資源を意識した仕組みに変更し、ユーザーが限られた利用枠をより柔軟に配分できるようにします。一般ユーザー向けアカウントでは9月2日からWebとモバイルで展開されます。",
+      "headings": [
+        "利用上限は5時間ごとに更新",
+        "プロンプトの複雑さやソース数も消費量に反映",
+        "重い生成処理は後回しにできる",
+        "企業・開発者にも示唆する「計算量課金型」の考え方",
+        "今後の展望"
+      ],
+      "source_url": "https://blog.google/innovation-and-ai/products/gemini-notebook/new-flexible-usage-limits/",
+      "source_label": "blog.google",
+      "cover": "assets/posts/1543199277965381662.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1418011435287707648/threads/1543199277965381662",
+      "first_seen": "2026-08-29T10:02:59.123Z"
+    },
     {
       "id": "1543075670496780410",
       "title": "OpenAI、SpaceXによるCursor買収を受けモデル提供契約を終了へ",
