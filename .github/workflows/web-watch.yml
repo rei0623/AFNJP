@@ -1,0 +1,48 @@
+name: Web watch
+
+# 各社の公式ブログの新着を拾い、Discord の #一次情報ウォッチ へ投稿する。
+#
+# 毎時の Sync Discord data とは別のワークフローにしてある。
+#   - 動く間隔が違う（こちらは短い間隔で回したい）
+#   - どちらかが落ちても、もう一方は止めたくない
+#
+# 既読URLは Cloudflare KV に置いており、このリポジトリには何もコミットしない。
+# 5分ごとにコミットが積まれると履歴が使い物にならなくなるため。
+#
+# 前提: Secrets に DISCORD_BOT_TOKEN と PUSH_SEND_TOKEN があること。
+#       Bot が投稿先チャンネルで「メッセージを送信」できること。
+
+on:
+  schedule:
+    # 5分ごと。ただし GitHub の混雑時は遅れることがある（仕様）
+    - cron: '*/5 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+# 前の実行が終わっていないうちに次が始まると二重投稿になりうるので、重ねない。
+# 走っている最中の実行は殺さず、終わるのを待たせる。
+concurrency:
+  group: web-watch
+  cancel-in-progress: false
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '20'
+
+      # posts-archive.json を読んで「記事化ずみか」を判定するだけなので、
+      # npm の依存は要らない（sharp は使わない）。
+      - name: Watch official blogs
+        env:
+          DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
+          PUSH_SEND_TOKEN: ${{ secrets.PUSH_SEND_TOKEN }}
+          WATCH_CHANNEL_ID: '1543192400237699112'
+        run: node scripts/web-watch.mjs
