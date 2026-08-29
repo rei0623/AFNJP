@@ -1,0 +1,135 @@
+{
+  "_note": "公式ブログの新着を監視する対象。scripts/web-watch.mjs が読む。すべて 2026-08-29 に実際に取得できることを確認済み（node scripts/web-watch.mjs --dry-run で再確認できる）。type は rss（フィードがある）か sitemap（無いので sitemap の差分で拾う）。include は sitemap のときにブログ記事のパスだけへ絞る正規表現。",
+  "_未対応": {
+    "xAI": "x.ai は Cloudflare のbot対策で 403 を返す。回避はしない方針のため対象外。Grok の情報は当面 Discord で人が拾う",
+    "Meta AI": "ai.meta.com に sitemap も RSS も無い。代わりに about.fb.com/news のフィードを見ている（AI以外も混ざる）",
+    "DeepSeek / Sakana AI / Moonshot / Zhipu": "RSS も sitemap も見つからず。HTML を直接読むアダプタが要る"
+  },
+  "sources": [
+    {
+      "id": "openai",
+      "label": "OpenAI",
+      "category": "Open AI",
+      "type": "rss",
+      "url": "https://openai.com/news/rss.xml"
+    },
+    {
+      "id": "anthropic",
+      "label": "Anthropic",
+      "category": "Anthropic",
+      "type": "sitemap",
+      "url": "https://www.anthropic.com/sitemap.xml",
+      "include": "^/(news|research|engineering)/[^/]+$"
+    },
+    {
+      "id": "google-blog",
+      "label": "Google",
+      "category": "Google",
+      "type": "rss",
+      "url": "https://blog.google/rss/"
+    },
+    {
+      "id": "deepmind",
+      "label": "Google DeepMind",
+      "category": "Google",
+      "type": "rss",
+      "url": "https://deepmind.google/blog/rss.xml"
+    },
+    {
+      "id": "meta",
+      "label": "Meta",
+      "category": "Meta",
+      "type": "rss",
+      "url": "https://about.fb.com/news/feed/"
+    },
+    {
+      "id": "microsoft",
+      "label": "Microsoft",
+      "category": "Microsoft",
+      "type": "rss",
+      "url": "https://news.microsoft.com/source/feed/"
+    },
+    {
+      "id": "azure",
+      "label": "Microsoft Azure",
+      "category": "Microsoft",
+      "type": "rss",
+      "url": "https://azure.microsoft.com/en-us/blog/feed/"
+    },
+    {
+      "id": "mistral",
+      "label": "Mistral AI",
+      "category": "その他",
+      "type": "sitemap",
+      "url": "https://mistral.ai/sitemap.xml",
+      "include": "^/news/[^/]+$"
+    },
+    {
+      "id": "cohere",
+      "label": "Cohere",
+      "category": "その他",
+      "type": "sitemap",
+      "url": "https://cohere.com/sitemap.xml",
+      "include": "^/blog/[^/]+$"
+    },
+    {
+      "id": "perplexity",
+      "label": "Perplexity",
+      "category": "その他",
+      "type": "sitemap",
+      "url": "https://www.perplexity.ai/sitemap.xml",
+      "include": "^/hub/[^/]+$"
+    },
+    {
+      "id": "qwen",
+      "label": "Alibaba Qwen",
+      "category": "Alibaba",
+      "type": "rss",
+      "url": "https://qwenlm.github.io/blog/index.xml"
+    },
+    {
+      "id": "huggingface",
+      "label": "Hugging Face",
+      "category": "その他",
+      "type": "rss",
+      "url": "https://huggingface.co/blog/feed.xml"
+    },
+    {
+      "id": "nvidia",
+      "label": "NVIDIA",
+      "category": "その他",
+      "type": "rss",
+      "url": "https://blogs.nvidia.com/blog/category/deep-learning/feed/"
+    },
+    {
+      "id": "together",
+      "label": "Together AI",
+      "category": "その他",
+      "type": "rss",
+      "url": "https://www.together.ai/blog/rss.xml"
+    },
+    {
+      "id": "elevenlabs",
+      "label": "ElevenLabs",
+      "category": "その他",
+      "type": "sitemap",
+      "url": "https://elevenlabs.io/sitemap.xml",
+      "include": "^/blog/[^/]+$"
+    },
+    {
+      "id": "runway",
+      "label": "Runway",
+      "category": "その他",
+      "type": "sitemap",
+      "url": "https://runwayml.com/sitemap.xml",
+      "include": "^/(news|research)/[^/]+$"
+    },
+    {
+      "id": "replit",
+      "label": "Replit",
+      "category": "その他",
+      "type": "rss",
+      "url": "https://blog.replit.com/feed.xml"
+    }
+  ]
+}

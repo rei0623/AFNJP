@@ -209,6 +209,38 @@ export default {
             return json(result, result.ok ? 200 : 500, head);
         }
 
+        /* ── 公式ブログ監視の状態 ──
+           scripts/web-watch.mjs が「どのURLを既に見たか」を置く場所。
+           5分ごとに動くのでリポジトリにコミットすると履歴が汚れる。KV に逃がす。
+           全ソースぶんを1つの鍵にまとめており、1回の実行で読み書きは各1回で済む。 */
+        if (url.pathname === '/watch/state') {
+            const auth = request.headers.get('Authorization') || '';
+            if (!env.SEND_TOKEN || auth !== `Bearer ${env.SEND_TOKEN}`) {
+                return json({ error: 'unauthorized' }, 401);
+            }
+
+            if (request.method === 'GET') {
+                const raw = await env.SUBS.get('watch:state');
+                return json(raw ? JSON.parse(raw) : {}, 200);
+            }
+
+            if (request.method === 'PUT') {
+                let body;
+                try {
+                    body = await request.json();
+                } catch {
+                    return json({ error: 'json' }, 400);
+                }
+                if (!body || typeof body !== 'object' || Array.isArray(body)) {
+                    return json({ error: 'shape' }, 400);
+                }
+                await env.SUBS.put('watch:state', JSON.stringify(body));
+                return json({ ok: true, sources: Object.keys(body).length }, 200);
+            }
+
+            return json({ error: 'method' }, 405);
+        }
+
         /* ── 購読の登録 ── */
         if (url.pathname === '/subscribe' && request.method === 'POST') {
             if (!ALLOWED_ORIGINS.has(origin)) return json({ error: 'origin' }, 403, head);
