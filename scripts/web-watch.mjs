@@ -66,6 +66,13 @@ const TIMEOUT_MS = 15000;
 const UA = 'Mozilla/5.0 (compatible; AFNJP-web-watch/1.0; +https://rei0623.github.io/AFNJP/)';
 
 /**
+ * Discord API 用の User-Agent。
+ * 上のクローラー用UAを使い回すと 403（code 40333）で弾かれる。
+ * Discord は Bot に "DiscordBot (URL, version)" の形式を求めている。
+ */
+const DISCORD_UA = 'DiscordBot (https://github.com/rei0623/AFNJP, 1.0)';
+
+/**
  * --dry-run … 状態も Discord も触らず、各ソースから何件取れるかだけを見る。
  * 監視先を足したときに、その定義が正しいかを手元で確かめるためのもの。
  */
@@ -250,7 +257,7 @@ async function postToDiscord(embeds) {
         headers: {
             Authorization: `Bot ${TOKEN}`,
             'Content-Type': 'application/json',
-            'User-Agent': UA,
+            'User-Agent': DISCORD_UA,
         },
         body: JSON.stringify({ embeds }),
     });
