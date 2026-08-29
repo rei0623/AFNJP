@@ -155,27 +155,54 @@ self.addEventListener('push', event => {
             return;
         }
 
-        const newest = posts[0];
         const last = await readMark();
 
-        // 前回通知した記事より新しいものが何本あるか数える
+        /*
+         * 前回通知した記事より新しいものを数える。
+         *   idx === 0  … 先頭が前回と同じ＝新着なし
+         *   idx > 0    … その手前までが新着
+         *   idx === -1 … 前回の記事が一覧から押し出されている＝全部が新着
+         * 最後の場合に1件としていたため、まとめて出たときに1本しか通知されなかった。
+         */
         const idx = last ? posts.findIndex(p => String(p.id) === last) : -1;
-        const fresh = idx > 0 ? idx : (idx === 0 ? 0 : 1);
-        if (fresh === 0) return; // 新着なし。通知を出さない
+        if (idx === 0) return; // 新着なし
+        const fresh = idx > 0 ? posts.slice(0, idx) : posts;
+        if (!fresh.length) return;
 
-        const more = fresh > 1 ? `　ほか${fresh - 1}本` : '';
+        /*
+         * 1件ずつ通知する。サイトを開かなくても何が来たか分かるようにするため。
+         * ただし一度に大量に出ると通知欄が埋まるので上限を設け、
+         * 溢れたぶんは最後にまとめて1件で知らせる。
+         */
+        const MAX = 5;
+        const shown = fresh.slice(0, MAX);
 
-        await self.registration.showNotification(newest.title, {
-            body: (newest.excerpt || 'AI Frontier News JP の新着記事です。') + more,
-            icon: './assets/icons/icon-192.png',
-            badge: './assets/icons/icon-192.png',
-            image: newest.cover ? './' + newest.cover : undefined,
-            tag: 'afnjp-news', // 同じタグの通知は積み上がらず置き換わる
-            renotify: true,
-            data: { url: `./posts/${newest.id}.html` },
-        });
+        // 古い順に出す。通知欄では新しいものが上に積まれる
+        for (const post of [...shown].reverse()) {
+            await self.registration.showNotification(post.title, {
+                body: post.excerpt || 'AI Frontier News JP の新着記事です。',
+                icon: './assets/icons/icon-192.png',
+                badge: './assets/icons/icon-192.png',
+                image: post.cover ? './' + post.cover : undefined,
+                // 記事ごとに違うタグにする。同じだと積み上がらず置き換わってしまう
+                tag: `afnjp-${post.id}`,
+                data: { url: `./posts/${post.id}.html` },
+            });
+        }
 
-        await writeMark(newest.id);
+        const rest = fresh.length - shown.length;
+        if (rest > 0) {
+            await self.registration.showNotification(`ほか ${rest} 本の新着があります`, {
+                body: 'まとめて読むには記事一覧を開いてください。',
+                icon: './assets/icons/icon-192.png',
+                badge: './assets/icons/icon-192.png',
+                tag: 'afnjp-more',
+                renotify: true,
+                data: { url: './archive.html' },
+            });
+        }
+
+        await writeMark(fresh[0].id);
     })());
 });
 
