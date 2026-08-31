@@ -5,8 +5,16 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 31 Aug 2026 12:09:21 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 31 Aug 2026 15:27:15 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>ChatGPT Adsが年換算10億ドル規模へ、OpenAIが広告事業を世界展開</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1544005660755365998</link>
+      <guid isPermaLink="false">afnjp-1544005660755365998</guid>
+      <pubDate>Mon, 31 Aug 2026 15:27:15 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIは2026年8月31日、ChatGPT Adsの年換算売上高ランレートが、提供開始から200日未満で10億ドルに到達したと発表しました。広告主は数万社規模に拡大しており、インド、欧州、中東、北アフリカではセルフサービス型の広告購入も開始されます。…</description>
+    </item>
     <item>
       <title>Perplexity、Mac向け「Hybrid Mode」を準備 ローカルAIとクラウドを自動分担</title>
       <link>https://discord.com/channels/1415350002255007784/1415534435712897124/threads/1543955855399981096</link>
@@ -94,14 +102,6 @@
       <pubDate>Fri, 28 Aug 2026 00:10:45 GMT</pubDate>
       <category>gemini</category>
       <description>Googleは2026年8月27日、生成動画モデル「Gemini Omni 1.1 Flash」を発表しました。動画のシーン延長、開始・終了フレームの指定、低解像度での高速な試作、4Kアップスケールなどを追加し、AI動画を単発生成から本格的な制作ワークフロー…</description>
-    </item>
-    <item>
-      <title>Google検索「AI Mode」が旅行予約を強化、航空券価格追跡からホテル決済まで統合</title>
-      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1542687630846861312</link>
-      <guid isPermaLink="false">afnjp-1542687630846861312</guid>
-      <pubDate>Fri, 28 Aug 2026 00:09:52 GMT</pubDate>
-      <category>google</category>
-      <description>Googleは2026年8月27日、Google検索の「AI Mode」に旅行向けの新機能を追加しました。航空券の価格追跡、ポイント・マイルによる料金表示、ホテル予約を対話形式で利用できるようにし、旅行の検索から予約までをAIとの会話の中で完結させる方向を鮮…</description>
     </item>
   </channel>
 </rss>

@@ -1,9 +1,29 @@
 {
-  "generated_at": "2026-08-31T13:43:27.660Z",
+  "generated_at": "2026-08-31T20:01:38.949Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 105,
+  "count": 106,
   "posts": [
+    {
+      "id": "1544005660755365998",
+      "title": "ChatGPT Adsが年換算10億ドル規模へ、OpenAIが広告事業を世界展開",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-08-31T15:27:15.762Z",
+      "excerpt": "OpenAIは2026年8月31日、ChatGPT Adsの年換算売上高ランレートが、提供開始から200日未満で10億ドルに到達したと発表しました。広告主は数万社規模に拡大しており、インド、欧州、中東、北アフリカではセルフサービス型の広告購入も開始されます。…",
+      "lead": "OpenAIは2026年8月31日、ChatGPT Adsの年換算売上高ランレートが、提供開始から200日未満で10億ドルに到達したと発表しました。広告主は数万社規模に拡大しており、インド、欧州、中東、北アフリカではセルフサービス型の広告購入も開始されます。ChatGPTは、サブスクリプションやAPI、法人向けサービスに加え、広告を新たな収益基盤として急速に成長させています。",
+      "headings": [
+        "「検索広告」とは異なる会話コンテキスト型広告",
+        "広告基盤は本格的な運用フェーズへ",
+        "週10億人規模の利用基盤を収益化",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads/",
+      "source_label": "openai.com",
+      "cover": "assets/posts/1544005660755365998.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1544005660755365998",
+      "first_seen": "2026-08-31T15:27:15.762Z"
+    },
     {
       "id": "1543955855399981096",
       "title": "Perplexity、Mac向け「Hybrid Mode」を準備 ローカルAIとクラウドを自動分担",
