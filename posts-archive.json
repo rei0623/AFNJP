@@ -1,9 +1,30 @@
 {
-  "generated_at": "2026-08-31T05:29:49.646Z",
+  "generated_at": "2026-08-31T13:43:27.660Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 104,
+  "count": 105,
   "posts": [
+    {
+      "id": "1543955855399981096",
+      "title": "Perplexity、Mac向け「Hybrid Mode」を準備 ローカルAIとクラウドを自動分担",
+      "channel": "リーク情報",
+      "category": "リーク情報",
+      "date": "2026-08-31T12:09:21.240Z",
+      "excerpt": "Perplexityが、Mac版「Perplexity Computer」にローカル推論を組み込む「Hybrid Mode」を準備していることが明らかになりました。クラウドの高性能モデルとMac上のローカルモデルを役割分担させ、推論コストの削減とプライバシー…",
+      "lead": "Perplexityが、Mac版「Perplexity Computer」にローカル推論を組み込む「Hybrid Mode」を準備していることが明らかになりました。クラウドの高性能モデルとMac上のローカルモデルを役割分担させ、推論コストの削減とプライバシー保護を両立する構想です。",
+      "headings": [
+        "クラウドとローカルをタスク単位で使い分け",
+        "16GB Macでも利用可能なモデルを準備",
+        "「Privacy Gate」でクラウド送信前に機密情報を検査",
+        "AIエージェントは「クラウドサービス」から分散実行基盤へ",
+        "今後の展望"
+      ],
+      "source_url": "https://www.testingcatalog.com/perplexity-prepares-hybrid-mode-for-computer-on-mac/",
+      "source_label": "testingcatalog.com",
+      "cover": "assets/posts/1543955855399981096.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415534435712897124/threads/1543955855399981096",
+      "first_seen": "2026-08-31T12:09:21.240Z"
+    },
     {
       "id": "1543199277965381662",
       "title": "Gemini Notebook、利用上限を刷新 5時間ごと回復の「計算量ベース」方式へ",
