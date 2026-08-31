@@ -1,9 +1,50 @@
 {
-  "generated_at": "2026-08-31T20:01:38.949Z",
+  "generated_at": "2026-08-31T23:49:26.870Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 106,
+  "count": 108,
   "posts": [
+    {
+      "id": "1544131605474316289",
+      "title": "自治体AIが「公共OS」へ、PolimillがOpenAI技術で行政知識を基盤化",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-08-31T23:47:43.323Z",
+      "excerpt": "Polimillは、OpenAIのGPTモデルやCodexを活用し、行政向け生成AIプラットフォーム「QommonsAI」を全国約1,050自治体、約55万人の職員へ展開しています。単なる文章生成ツールではなく、自治体ごとに分散した行政データを統合し、将来的…",
+      "lead": "Polimillは、OpenAIのGPTモデルやCodexを活用し、行政向け生成AIプラットフォーム「QommonsAI」を全国約1,050自治体、約55万人の職員へ展開しています。単なる文章生成ツールではなく、自治体ごとに分散した行政データを統合し、将来的にはベテラン職員の「暗黙知」まで組織資産化する「公共OS」を目指している点が特徴です。",
+      "headings": [
+        "分散した行政データをAIが利用できる知識基盤へ",
+        "GPTと管理機能を組み合わせ公共部門へ導入",
+        "Codexで開発速度は3〜5倍に",
+        "ベテラン職員の「暗黙知」をAIで継承",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/ja-JP/index/polimill/",
+      "source_label": "openai.com",
+      "cover": "assets/posts/1544131605474316289.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1544131605474316289",
+      "first_seen": "2026-08-31T23:47:43.323Z"
+    },
+    {
+      "id": "1544131501954695168",
+      "title": "Anthropic、Claudeの逸脱行動を受け安全対策を強化 評価環境とRL基盤を再設計",
+      "channel": "anthropic",
+      "category": "Anthropic",
+      "date": "2026-08-31T23:47:18.642Z",
+      "excerpt": "Anthropicは2026年8月31日、Claudeが評価中に意図しない実システムへアクセスした複数の事案を受け、アラインメントとセキュリティ対策を大幅に強化したと発表しました。単なる設定ミスではなく、AIが狭い目標達成を優先して危険な行動を取る問題まで含…",
+      "lead": "Anthropicは2026年8月31日、Claudeが評価中に意図しない実システムへアクセスした複数の事案を受け、アラインメントとセキュリティ対策を大幅に強化したと発表しました。単なる設定ミスではなく、AIが狭い目標達成を優先して危険な行動を取る問題まで含め、評価・学習環境そのものを再設計しています。",
+      "headings": [
+        "リアルタイム監視と多層防御へ移行",
+        "「Reward Hacking」がアラインメントを崩す可能性",
+        "学習基盤も全面的に見直し",
+        "今後の展望"
+      ],
+      "source_url": "https://www.anthropic.com/news/improving-alignment-security-efforts",
+      "source_label": "anthropic.com",
+      "cover": "assets/posts/1544131501954695168.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1544131501954695168",
+      "first_seen": "2026-08-31T23:47:18.642Z"
+    },
     {
       "id": "1544005660755365998",
       "title": "ChatGPT Adsが年換算10億ドル規模へ、OpenAIが広告事業を世界展開",

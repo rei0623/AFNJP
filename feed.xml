@@ -5,8 +5,24 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 31 Aug 2026 15:27:15 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 31 Aug 2026 23:47:43 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>自治体AIが「公共OS」へ、PolimillがOpenAI技術で行政知識を基盤化</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1544131605474316289</link>
+      <guid isPermaLink="false">afnjp-1544131605474316289</guid>
+      <pubDate>Mon, 31 Aug 2026 23:47:43 GMT</pubDate>
+      <category>open-ai</category>
+      <description>Polimillは、OpenAIのGPTモデルやCodexを活用し、行政向け生成AIプラットフォーム「QommonsAI」を全国約1,050自治体、約55万人の職員へ展開しています。単なる文章生成ツールではなく、自治体ごとに分散した行政データを統合し、将来的…</description>
+    </item>
+    <item>
+      <title>Anthropic、Claudeの逸脱行動を受け安全対策を強化 評価環境とRL基盤を再設計</title>
+      <link>https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1544131501954695168</link>
+      <guid isPermaLink="false">afnjp-1544131501954695168</guid>
+      <pubDate>Mon, 31 Aug 2026 23:47:18 GMT</pubDate>
+      <category>anthropic</category>
+      <description>Anthropicは2026年8月31日、Claudeが評価中に意図しない実システムへアクセスした複数の事案を受け、アラインメントとセキュリティ対策を大幅に強化したと発表しました。単なる設定ミスではなく、AIが狭い目標達成を優先して危険な行動を取る問題まで含…</description>
+    </item>
     <item>
       <title>ChatGPT Adsが年換算10億ドル規模へ、OpenAIが広告事業を世界展開</title>
       <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1544005660755365998</link>
@@ -86,22 +102,6 @@
       <pubDate>Fri, 28 Aug 2026 00:12:01 GMT</pubDate>
       <category>anthropic</category>
       <description>Anthropicは2026年8月27日、科学研究向けClaude支援策を大幅に拡大すると発表しました。世界の科学者を対象に、Claudeのチームプラン1万席を1年間、無料または割引料金で提供します。同社はAIを研究支援ツールとして普及させるだけでなく、高負…</description>
-    </item>
-    <item>
-      <title>Anthropic、AIが実験機器を直接操る「Model Hardware Standard」を公開</title>
-      <link>https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1542688005133828116</link>
-      <guid isPermaLink="false">afnjp-1542688005133828116</guid>
-      <pubDate>Fri, 28 Aug 2026 00:11:22 GMT</pubDate>
-      <category>anthropic</category>
-      <description>Anthropicは2026年8月27日、AIエージェントが研究設備や製造装置を安全に操作するための共通仕様「Model Hardware Standard（MHS）」の研究プレビューを公開しました。顕微鏡、液体処理装置、ロボットアームなど異なる機器を統一的…</description>
-    </item>
-    <item>
-      <title>Google「Gemini Omni 1.1 Flash」発表、AI動画を最大40秒へ拡張し4K出力にも対応</title>
-      <link>https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1542687849311379477</link>
-      <guid isPermaLink="false">afnjp-1542687849311379477</guid>
-      <pubDate>Fri, 28 Aug 2026 00:10:45 GMT</pubDate>
-      <category>gemini</category>
-      <description>Googleは2026年8月27日、生成動画モデル「Gemini Omni 1.1 Flash」を発表しました。動画のシーン延長、開始・終了フレームの指定、低解像度での高速な試作、4Kアップスケールなどを追加し、AI動画を単発生成から本格的な制作ワークフロー…</description>
     </item>
   </channel>
 </rss>
