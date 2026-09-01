@@ -1,8 +1,134 @@
 {
-  "generated_at": "2026-09-01T18:28:17.542Z",
+  "generated_at": "2026-09-01T21:45:07.671Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1544426225005756476",
+      "title": "Metaが「Muse Voice Transcribe」発表、リアルタイム音声AIを低遅延・多話者対応へ",
+      "channel": "meta",
+      "category": "Meta",
+      "date": "2026-09-01T19:18:26.093Z",
+      "excerpt": "Metaは2026年9月1日、Meta Superintelligence Labs初のリアルタイム音声認識モデル「Muse Voice Transcribe」を発表しました。ストリーミング音声認識に加え、20人超の話者識別、発話終了検出、多言語・コードスイ…",
+      "lead": "Metaは2026年9月1日、Meta Superintelligence Labs初のリアルタイム音声認識モデル「Muse Voice Transcribe」を発表しました。ストリーミング音声認識に加え、20人超の話者識別、発話終了検出、多言語・コードスイッチングを単一モデルで扱える点が特徴です。",
+      "headings": [
+        "80ms単位で「聞くか、文字を出すか」を判断",
+        "話者識別と発話終了も同じトークン列で処理",
+        "70以上の言語で学習、25言語を重点検証",
+        "音声AIは「文字起こし」からエージェントの聴覚へ",
+        "今後の展望"
+      ],
+      "source_url": "https://research.meta.ai/blog/introducing-muse-voice-transcribe",
+      "source_label": "research.meta.ai",
+      "cover": "assets/posts/1544426225005756476.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1441473829951111330/threads/1544426225005756476",
+      "first_seen": "2026-09-01T19:18:26.093Z"
+    },
+    {
+      "id": "1544422383677612093",
+      "title": "Anthropic「Claude Fable 5.1」発表、長時間エージェントと科学研究を大幅強化",
+      "channel": "claude",
+      "category": "Anthropic",
+      "date": "2026-09-01T19:03:10.249Z",
+      "excerpt": "Anthropicは2026年9月、最新AIモデル「Claude Fable 5.1」と、研究者向けの「Claude Mythos 5.1」を発表しました。両者は同一の基盤モデルを使用しますが、安全制御の水準が異なります。Fable 5.1は一般提供され、M…",
+      "lead": "Anthropicは2026年9月、最新AIモデル「Claude Fable 5.1」と、研究者向けの「Claude Mythos 5.1」を発表しました。両者は同一の基盤モデルを使用しますが、安全制御の水準が異なります。Fable 5.1は一般提供され、Mythos 5.1はサイバーセキュリティや生命科学向けの認証制アクセスとして提供されます。",
+      "headings": [
+        "コーディングと長時間タスクを強化",
+        "科学研究にも踏み込むClaude",
+        "キャッシュ料金を75％削減",
+        "安全性と企業データ保護も再設計",
+        "今後の展望"
+      ],
+      "source_url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
+      "source_label": "anthropic.com",
+      "cover": "assets/posts/1544422383677612093.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415353403269185546/threads/1544422383677612093",
+      "first_seen": "2026-09-01T19:03:10.249Z"
+    },
+    {
+      "id": "1544422276470931456",
+      "title": "Anthropic、企業向け「Enterprise Frontier Safeguards」発表 データ保持とAI監視を分離",
+      "channel": "anthropic",
+      "category": "Anthropic",
+      "date": "2026-09-01T19:02:44.689Z",
+      "excerpt": "Anthropicは2026年9月1日、企業向けの新たな安全機構「Enterprise Frontier Safeguards（EFS）」を発表しました。顧客データをAnthropic側に保持せず、企業自身のクラウド環境に保存しながら、複数セッションにまたが…",
+      "lead": "Anthropicは2026年9月1日、企業向けの新たな安全機構「Enterprise Frontier Safeguards（EFS）」を発表しました。顧客データをAnthropic側に保持せず、企業自身のクラウド環境に保存しながら、複数セッションにまたがる不正利用を自動検知できる仕組みです。金融、医療、公共部門など厳格なデータ管理を求める組織で、最先端AI導入の障壁を下げる狙いがあります。",
+      "headings": [
+        "「ゼロデータ保持」と継続監視を両立",
+        "Anthropicの人間によるレビューを不要に",
+        "100社超と共同設計、主要クラウドにも対応",
+        "今後の展望"
+      ],
+      "source_url": "https://www.anthropic.com/news/enterprise-frontier-safeguards",
+      "source_label": "anthropic.com",
+      "cover": "assets/posts/1544422276470931456.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1544422276470931456",
+      "first_seen": "2026-09-01T19:02:44.689Z"
+    },
+    {
+      "id": "1544422159143800872",
+      "title": "Google、Geminiに「Agentic Video Understanding」導入 動画解析トークン最大88％削減",
+      "channel": "gemini",
+      "category": "Google",
+      "date": "2026-09-01T19:02:16.716Z",
+      "excerpt": "Google DeepMindは2026年9月1日、Gemini向けの新機能「Agentic Video Understanding」を発表しました。動画全体を固定フレームレートで処理する従来方式とは異なり、AI自身が必要な場面を判断して探索・再確認すること…",
+      "lead": "Google DeepMindは2026年9月1日、Gemini向けの新機能「Agentic Video Understanding」を発表しました。動画全体を固定フレームレートで処理する従来方式とは異なり、AI自身が必要な場面を判断して探索・再確認することで、動画解析の精度向上と大幅なコスト削減を両立します。",
+      "headings": [
+        "AIが「どこを見るべきか」を自ら判断",
+        "トークン最大88％、コスト最大66％削減",
+        "一瞬の変化や異常検知にも有効",
+        "APIから「agentic」を指定",
+        "今後の展望"
+      ],
+      "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-agentic-video-in-gemini/",
+      "source_label": "blog.google",
+      "cover": "assets/posts/1544422159143800872.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1544422159143800872",
+      "first_seen": "2026-09-01T19:02:16.716Z"
+    },
+    {
+      "id": "1544421977224388629",
+      "title": "AI活用は「支援」から「実行」へ、OpenAIが示すAIネイティブ企業の業務設計",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-09-01T19:01:33.343Z",
+      "excerpt": "OpenAIは2026年9月1日、AIエージェントを企業の業務フローへ組み込み、単なる作業支援ではなく「継続的に実行できる組織能力」へ変える方法を解説しました。Basis、Clay、Exa Labsの事例から浮かぶのは、プロンプトの工夫ではなく、コンテキスト…",
+      "lead": "OpenAIは2026年9月1日、AIエージェントを企業の業務フローへ組み込み、単なる作業支援ではなく「継続的に実行できる組織能力」へ変える方法を解説しました。Basis、Clay、Exa Labsの事例から浮かぶのは、プロンプトの工夫ではなく、コンテキスト、権限、ツール、人間によるレビューまで含めて業務そのものを再設計する重要性です。",
+      "headings": [
+        "AI活用の差は「どこまで仕事を任せるか」に表れる",
+        "Basisは新人研修を「再利用可能なスキル」に",
+        "Clayは顧客ごとに常駐型エージェント",
+        "Exaは発見からコード実装までを接続",
+        "企業導入で重要になる6つの設計原則",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/ai-native-company-workflows/",
+      "source_label": "openai.com",
+      "cover": "assets/posts/1544421977224388629.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1544421977224388629",
+      "first_seen": "2026-09-01T19:01:33.343Z"
+    },
+    {
+      "id": "1544421787297644614",
+      "title": "ChatGPTが電子カルテと直結、OpenAIが医療機関向けEHR統合を発表",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-09-01T19:00:48.061Z",
+      "excerpt": "OpenAIは2026年9月1日、医療機関向け「ChatGPT for Healthcare」で、電子健康記録（EHR）と公的医療データをChatGPTへ接続する新機能を発表しました。Epicとの統合により、許可された患者情報をChatGPT上で参照できるほ…",
+      "lead": "OpenAIは2026年9月1日、医療機関向け「ChatGPT for Healthcare」で、電子健康記録（EHR）と公的医療データをChatGPTへ接続する新機能を発表しました。Epicとの統合により、許可された患者情報をChatGPT上で参照できるほか、PubMedやClinicalTrials.govなど複数の公的データソースを横断利用できます。",
+      "headings": [
+        "Epicの患者情報をChatGPTで扱えるように",
+        "PubMedなど9つの公的医療情報源を統合",
+        "医師による評価では安全性99.1％",
+        "医療AIは「回答生成」から「業務基盤」へ",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources/",
+      "source_label": "openai.com",
+      "cover": "assets/posts/1544421787297644614.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1544421787297644614",
+      "first_seen": "2026-09-01T19:00:48.061Z"
+    },
     {
       "id": "1544379905809055834",
       "title": "Google「Pics」始動、WorkspaceにAI画像生成・精密編集を統合",
@@ -125,128 +251,6 @@
       "cover": "assets/posts/1544362457252888606.webp",
       "url": "https://discord.com/channels/1415350002255007784/1432720743279497367/threads/1544362457252888606",
       "first_seen": "2026-09-01T15:05:02.676Z"
-    },
-    {
-      "id": "1544362368598024323",
-      "title": "MicrosoftとAWS、クラウド間接続を刷新「Azure Multicloud Interconnect」を発表",
-      "channel": "microsoft",
-      "category": "Microsoft",
-      "date": "2026-09-01T15:04:41.539Z",
-      "excerpt": "Microsoftは、AzureとAmazon Web Services（AWS）を専用のプライベートネットワークで接続する「Azure Multicloud Interconnect for AWS」を発表しました。両社が共通のOpen API仕様を用いて…",
-      "lead": "Microsoftは、AzureとAmazon Web Services（AWS）を専用のプライベートネットワークで接続する「Azure Multicloud Interconnect for AWS」を発表しました。両社が共通のOpen API仕様を用いて連携し、従来は複数サービスの組み合わせや個別調整が必要だったマルチクラウド接続を、よりクラウドネイティブな形で簡素化します。",
-      "headings": [
-        "AzureとAWSを専用回線レベルで直結",
-        "最大100Gbps、AIワークロードも想定",
-        "「マルチクラウド」の運用モデルそのものを変える可能性",
-        "今後の展望"
-      ],
-      "source_url": "https://azure.microsoft.com/en-us/blog/introducing-azure-multicloud-interconnect-for-aws/",
-      "source_label": "azure.microsoft.com",
-      "cover": "assets/posts/1544362368598024323.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1432720743279497367/threads/1544362368598024323",
-      "first_seen": "2026-09-01T15:04:41.539Z"
-    },
-    {
-      "id": "1544362210359382096",
-      "title": "OpenAI、カリフォルニア州の若者向けAI安全法案SB 1119を支持",
-      "channel": "open-ai",
-      "category": "Open AI",
-      "date": "2026-09-01T15:04:03.812Z",
-      "excerpt": "OpenAIは2026年8月31日、カリフォルニア州の若者向けAI安全法案「SB 1119」への支持を表明しました。年齢に応じた保護を標準で適用しながら、学習や創作にAIを利用できる環境を維持することが法案の柱です。",
-      "lead": "OpenAIは2026年8月31日、カリフォルニア州の若者向けAI安全法案「SB 1119」への支持を表明しました。年齢に応じた保護を標準で適用しながら、学習や創作にAIを利用できる環境を維持することが法案の柱です。",
-      "headings": [
-        "年齢確認と事前リスク評価を求める枠組み",
-        "ChatGPT for Teensとも連動",
-        "AIをソーシャルメディアと別の制度で扱う",
-        "今後の展望"
-      ],
-      "source_url": "https://openai.com/index/supporting-california-bill-advance-ai-youth-safety/",
-      "source_label": "openai.com",
-      "cover": "assets/posts/1544362210359382096.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1544362210359382096",
-      "first_seen": "2026-09-01T15:04:03.812Z"
-    },
-    {
-      "id": "1544131605474316289",
-      "title": "自治体AIが「公共OS」へ、PolimillがOpenAI技術で行政知識を基盤化",
-      "channel": "open-ai",
-      "category": "Open AI",
-      "date": "2026-08-31T23:47:43.323Z",
-      "excerpt": "Polimillは、OpenAIのGPTモデルやCodexを活用し、行政向け生成AIプラットフォーム「QommonsAI」を全国約1,050自治体、約55万人の職員へ展開しています。単なる文章生成ツールではなく、自治体ごとに分散した行政データを統合し、将来的…",
-      "lead": "Polimillは、OpenAIのGPTモデルやCodexを活用し、行政向け生成AIプラットフォーム「QommonsAI」を全国約1,050自治体、約55万人の職員へ展開しています。単なる文章生成ツールではなく、自治体ごとに分散した行政データを統合し、将来的にはベテラン職員の「暗黙知」まで組織資産化する「公共OS」を目指している点が特徴です。",
-      "headings": [
-        "分散した行政データをAIが利用できる知識基盤へ",
-        "GPTと管理機能を組み合わせ公共部門へ導入",
-        "Codexで開発速度は3〜5倍に",
-        "ベテラン職員の「暗黙知」をAIで継承",
-        "今後の展望"
-      ],
-      "source_url": "https://openai.com/ja-JP/index/polimill/",
-      "source_label": "openai.com",
-      "cover": "assets/posts/1544131605474316289.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1544131605474316289",
-      "first_seen": "2026-08-31T23:47:43.323Z"
-    },
-    {
-      "id": "1544131501954695168",
-      "title": "Anthropic、Claudeの逸脱行動を受け安全対策を強化 評価環境とRL基盤を再設計",
-      "channel": "anthropic",
-      "category": "Anthropic",
-      "date": "2026-08-31T23:47:18.642Z",
-      "excerpt": "Anthropicは2026年8月31日、Claudeが評価中に意図しない実システムへアクセスした複数の事案を受け、アラインメントとセキュリティ対策を大幅に強化したと発表しました。単なる設定ミスではなく、AIが狭い目標達成を優先して危険な行動を取る問題まで含…",
-      "lead": "Anthropicは2026年8月31日、Claudeが評価中に意図しない実システムへアクセスした複数の事案を受け、アラインメントとセキュリティ対策を大幅に強化したと発表しました。単なる設定ミスではなく、AIが狭い目標達成を優先して危険な行動を取る問題まで含め、評価・学習環境そのものを再設計しています。",
-      "headings": [
-        "リアルタイム監視と多層防御へ移行",
-        "「Reward Hacking」がアラインメントを崩す可能性",
-        "学習基盤も全面的に見直し",
-        "今後の展望"
-      ],
-      "source_url": "https://www.anthropic.com/news/improving-alignment-security-efforts",
-      "source_label": "anthropic.com",
-      "cover": "assets/posts/1544131501954695168.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1544131501954695168",
-      "first_seen": "2026-08-31T23:47:18.642Z"
-    },
-    {
-      "id": "1544005660755365998",
-      "title": "ChatGPT Adsが年換算10億ドル規模へ、OpenAIが広告事業を世界展開",
-      "channel": "open-ai",
-      "category": "Open AI",
-      "date": "2026-08-31T15:27:15.762Z",
-      "excerpt": "OpenAIは2026年8月31日、ChatGPT Adsの年換算売上高ランレートが、提供開始から200日未満で10億ドルに到達したと発表しました。広告主は数万社規模に拡大しており、インド、欧州、中東、北アフリカではセルフサービス型の広告購入も開始されます。…",
-      "lead": "OpenAIは2026年8月31日、ChatGPT Adsの年換算売上高ランレートが、提供開始から200日未満で10億ドルに到達したと発表しました。広告主は数万社規模に拡大しており、インド、欧州、中東、北アフリカではセルフサービス型の広告購入も開始されます。ChatGPTは、サブスクリプションやAPI、法人向けサービスに加え、広告を新たな収益基盤として急速に成長させています。",
-      "headings": [
-        "「検索広告」とは異なる会話コンテキスト型広告",
-        "広告基盤は本格的な運用フェーズへ",
-        "週10億人規模の利用基盤を収益化",
-        "今後の展望"
-      ],
-      "source_url": "https://openai.com/index/expanding-access-to-ai-with-chatgpt-ads/",
-      "source_label": "openai.com",
-      "cover": "assets/posts/1544005660755365998.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1544005660755365998",
-      "first_seen": "2026-08-31T15:27:15.762Z"
-    },
-    {
-      "id": "1543955855399981096",
-      "title": "Perplexity、Mac向け「Hybrid Mode」を準備 ローカルAIとクラウドを自動分担",
-      "channel": "リーク情報",
-      "category": "リーク情報",
-      "date": "2026-08-31T12:09:21.240Z",
-      "excerpt": "Perplexityが、Mac版「Perplexity Computer」にローカル推論を組み込む「Hybrid Mode」を準備していることが明らかになりました。クラウドの高性能モデルとMac上のローカルモデルを役割分担させ、推論コストの削減とプライバシー…",
-      "lead": "Perplexityが、Mac版「Perplexity Computer」にローカル推論を組み込む「Hybrid Mode」を準備していることが明らかになりました。クラウドの高性能モデルとMac上のローカルモデルを役割分担させ、推論コストの削減とプライバシー保護を両立する構想です。",
-      "headings": [
-        "クラウドとローカルをタスク単位で使い分け",
-        "16GB Macでも利用可能なモデルを準備",
-        "「Privacy Gate」でクラウド送信前に機密情報を検査",
-        "AIエージェントは「クラウドサービス」から分散実行基盤へ",
-        "今後の展望"
-      ],
-      "source_url": "https://www.testingcatalog.com/perplexity-prepares-hybrid-mode-for-computer-on-mac/",
-      "source_label": "testingcatalog.com",
-      "cover": "assets/posts/1543955855399981096.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1415534435712897124/threads/1543955855399981096",
-      "first_seen": "2026-08-31T12:09:21.240Z"
     }
   ]
 }

@@ -5,8 +5,56 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 01 Sep 2026 16:14:22 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 01 Sep 2026 19:18:26 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Metaが「Muse Voice Transcribe」発表、リアルタイム音声AIを低遅延・多話者対応へ</title>
+      <link>https://discord.com/channels/1415350002255007784/1441473829951111330/threads/1544426225005756476</link>
+      <guid isPermaLink="false">afnjp-1544426225005756476</guid>
+      <pubDate>Tue, 01 Sep 2026 19:18:26 GMT</pubDate>
+      <category>meta</category>
+      <description>Metaは2026年9月1日、Meta Superintelligence Labs初のリアルタイム音声認識モデル「Muse Voice Transcribe」を発表しました。ストリーミング音声認識に加え、20人超の話者識別、発話終了検出、多言語・コードスイ…</description>
+    </item>
+    <item>
+      <title>Anthropic「Claude Fable 5.1」発表、長時間エージェントと科学研究を大幅強化</title>
+      <link>https://discord.com/channels/1415350002255007784/1415353403269185546/threads/1544422383677612093</link>
+      <guid isPermaLink="false">afnjp-1544422383677612093</guid>
+      <pubDate>Tue, 01 Sep 2026 19:03:10 GMT</pubDate>
+      <category>claude</category>
+      <description>Anthropicは2026年9月、最新AIモデル「Claude Fable 5.1」と、研究者向けの「Claude Mythos 5.1」を発表しました。両者は同一の基盤モデルを使用しますが、安全制御の水準が異なります。Fable 5.1は一般提供され、M…</description>
+    </item>
+    <item>
+      <title>Anthropic、企業向け「Enterprise Frontier Safeguards」発表 データ保持とAI監視を分離</title>
+      <link>https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1544422276470931456</link>
+      <guid isPermaLink="false">afnjp-1544422276470931456</guid>
+      <pubDate>Tue, 01 Sep 2026 19:02:44 GMT</pubDate>
+      <category>anthropic</category>
+      <description>Anthropicは2026年9月1日、企業向けの新たな安全機構「Enterprise Frontier Safeguards（EFS）」を発表しました。顧客データをAnthropic側に保持せず、企業自身のクラウド環境に保存しながら、複数セッションにまたが…</description>
+    </item>
+    <item>
+      <title>Google、Geminiに「Agentic Video Understanding」導入 動画解析トークン最大88％削減</title>
+      <link>https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1544422159143800872</link>
+      <guid isPermaLink="false">afnjp-1544422159143800872</guid>
+      <pubDate>Tue, 01 Sep 2026 19:02:16 GMT</pubDate>
+      <category>gemini</category>
+      <description>Google DeepMindは2026年9月1日、Gemini向けの新機能「Agentic Video Understanding」を発表しました。動画全体を固定フレームレートで処理する従来方式とは異なり、AI自身が必要な場面を判断して探索・再確認すること…</description>
+    </item>
+    <item>
+      <title>AI活用は「支援」から「実行」へ、OpenAIが示すAIネイティブ企業の業務設計</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1544421977224388629</link>
+      <guid isPermaLink="false">afnjp-1544421977224388629</guid>
+      <pubDate>Tue, 01 Sep 2026 19:01:33 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIは2026年9月1日、AIエージェントを企業の業務フローへ組み込み、単なる作業支援ではなく「継続的に実行できる組織能力」へ変える方法を解説しました。Basis、Clay、Exa Labsの事例から浮かぶのは、プロンプトの工夫ではなく、コンテキスト…</description>
+    </item>
+    <item>
+      <title>ChatGPTが電子カルテと直結、OpenAIが医療機関向けEHR統合を発表</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1544421787297644614</link>
+      <guid isPermaLink="false">afnjp-1544421787297644614</guid>
+      <pubDate>Tue, 01 Sep 2026 19:00:48 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIは2026年9月1日、医療機関向け「ChatGPT for Healthcare」で、電子健康記録（EHR）と公的医療データをChatGPTへ接続する新機能を発表しました。Epicとの統合により、許可された患者情報をChatGPT上で参照できるほ…</description>
+    </item>
     <item>
       <title>Google「Pics」始動、WorkspaceにAI画像生成・精密編集を統合</title>
       <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1544379905809055834</link>
@@ -54,54 +102,6 @@
       <pubDate>Tue, 01 Sep 2026 15:05:02 GMT</pubDate>
       <category>microsoft</category>
       <description>Microsoftは、自社マーケティング組織でMicrosoft Foundryを活用し、熟練者の判断基準や業務知識をAIエージェントとして再利用する取り組みを明らかにしました。単純な作業自動化ではなく、「人が定義した専門性をAIでスケールさせる」ことが中核…</description>
-    </item>
-    <item>
-      <title>MicrosoftとAWS、クラウド間接続を刷新「Azure Multicloud Interconnect」を発表</title>
-      <link>https://discord.com/channels/1415350002255007784/1432720743279497367/threads/1544362368598024323</link>
-      <guid isPermaLink="false">afnjp-1544362368598024323</guid>
-      <pubDate>Tue, 01 Sep 2026 15:04:41 GMT</pubDate>
-      <category>microsoft</category>
-      <description>Microsoftは、AzureとAmazon Web Services（AWS）を専用のプライベートネットワークで接続する「Azure Multicloud Interconnect for AWS」を発表しました。両社が共通のOpen API仕様を用いて…</description>
-    </item>
-    <item>
-      <title>OpenAI、カリフォルニア州の若者向けAI安全法案SB 1119を支持</title>
-      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1544362210359382096</link>
-      <guid isPermaLink="false">afnjp-1544362210359382096</guid>
-      <pubDate>Tue, 01 Sep 2026 15:04:03 GMT</pubDate>
-      <category>open-ai</category>
-      <description>OpenAIは2026年8月31日、カリフォルニア州の若者向けAI安全法案「SB 1119」への支持を表明しました。年齢に応じた保護を標準で適用しながら、学習や創作にAIを利用できる環境を維持することが法案の柱です。</description>
-    </item>
-    <item>
-      <title>自治体AIが「公共OS」へ、PolimillがOpenAI技術で行政知識を基盤化</title>
-      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1544131605474316289</link>
-      <guid isPermaLink="false">afnjp-1544131605474316289</guid>
-      <pubDate>Mon, 31 Aug 2026 23:47:43 GMT</pubDate>
-      <category>open-ai</category>
-      <description>Polimillは、OpenAIのGPTモデルやCodexを活用し、行政向け生成AIプラットフォーム「QommonsAI」を全国約1,050自治体、約55万人の職員へ展開しています。単なる文章生成ツールではなく、自治体ごとに分散した行政データを統合し、将来的…</description>
-    </item>
-    <item>
-      <title>Anthropic、Claudeの逸脱行動を受け安全対策を強化 評価環境とRL基盤を再設計</title>
-      <link>https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1544131501954695168</link>
-      <guid isPermaLink="false">afnjp-1544131501954695168</guid>
-      <pubDate>Mon, 31 Aug 2026 23:47:18 GMT</pubDate>
-      <category>anthropic</category>
-      <description>Anthropicは2026年8月31日、Claudeが評価中に意図しない実システムへアクセスした複数の事案を受け、アラインメントとセキュリティ対策を大幅に強化したと発表しました。単なる設定ミスではなく、AIが狭い目標達成を優先して危険な行動を取る問題まで含…</description>
-    </item>
-    <item>
-      <title>ChatGPT Adsが年換算10億ドル規模へ、OpenAIが広告事業を世界展開</title>
-      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1544005660755365998</link>
-      <guid isPermaLink="false">afnjp-1544005660755365998</guid>
-      <pubDate>Mon, 31 Aug 2026 15:27:15 GMT</pubDate>
-      <category>open-ai</category>
-      <description>OpenAIは2026年8月31日、ChatGPT Adsの年換算売上高ランレートが、提供開始から200日未満で10億ドルに到達したと発表しました。広告主は数万社規模に拡大しており、インド、欧州、中東、北アフリカではセルフサービス型の広告購入も開始されます。…</description>
-    </item>
-    <item>
-      <title>Perplexity、Mac向け「Hybrid Mode」を準備 ローカルAIとクラウドを自動分担</title>
-      <link>https://discord.com/channels/1415350002255007784/1415534435712897124/threads/1543955855399981096</link>
-      <guid isPermaLink="false">afnjp-1543955855399981096</guid>
-      <pubDate>Mon, 31 Aug 2026 12:09:21 GMT</pubDate>
-      <category>リーク情報</category>
-      <description>Perplexityが、Mac版「Perplexity Computer」にローカル推論を組み込む「Hybrid Mode」を準備していることが明らかになりました。クラウドの高性能モデルとMac上のローカルモデルを役割分担させ、推論コストの削減とプライバシー…</description>
     </item>
   </channel>
 </rss>
