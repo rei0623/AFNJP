@@ -5,8 +5,72 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 31 Aug 2026 23:47:43 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 01 Sep 2026 16:14:22 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Google「Pics」始動、WorkspaceにAI画像生成・精密編集を統合</title>
+      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1544379905809055834</link>
+      <guid isPermaLink="false">afnjp-1544379905809055834</guid>
+      <pubDate>Tue, 01 Sep 2026 16:14:22 GMT</pubDate>
+      <category>google</category>
+      <description>Googleは2026年9月1日、AIを使って画像を生成・編集できる新サービス「Google Pics」を発表しました。単独の画像編集ツールとして提供するだけでなく、Google Docs、Slides、Driveへ順次統合し、資料作成中に別アプリへ移動せず…</description>
+    </item>
+    <item>
+      <title>Studioが「Drop」を刷新、URL投入だけで既存サイトをAI Ready化</title>
+      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1544365872427044954</link>
+      <guid isPermaLink="false">afnjp-1544365872427044954</guid>
+      <pubDate>Tue, 01 Sep 2026 15:18:36 GMT</pubDate>
+      <category>その他</category>
+      <description>Web制作プラットフォームのStudioは、新しい「Studio.Drop」をClosed Betaとして公開しています。既存サイトのURLやコード資産を取り込み、AIによる編集、ビジュアル調整、ホスティング、AIエージェント連携までを一体化する「Agent…</description>
+    </item>
+    <item>
+      <title>Runway「Solaris」発表、アプリをコードではなくAIがリアルタイム生成する時代へ</title>
+      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1544364812753178774</link>
+      <guid isPermaLink="false">afnjp-1544364812753178774</guid>
+      <pubDate>Tue, 01 Sep 2026 15:14:24 GMT</pubDate>
+      <category>その他</category>
+      <description>Runwayは2026年8月31日、新たなAIモデル群「Interface World Models」の第一弾として「Solaris」を発表しました。従来のWebサイトやアプリのように事前にコードで画面と挙動を定義するのではなく、ユーザー操作に応じてAIがイ…</description>
+    </item>
+    <item>
+      <title>Manusが独立運営を再開、汎用AIエージェント開発を加速へ</title>
+      <link>https://discord.com/channels/1415350002255007784/1416105983415156887/threads/1544364543634051182</link>
+      <guid isPermaLink="false">afnjp-1544364543634051182</guid>
+      <pubDate>Tue, 01 Sep 2026 15:13:20 GMT</pubDate>
+      <category>manus</category>
+      <description>Manusは、創業チームの主導による独立運営を正式に再開したと発表しました。今後は「独立したエージェント研究所」として、汎用AIエージェントの研究と製品開発を継続し、ユーザーの仕事や日常により深く入り込む自律型AIの実現を目指します。</description>
+    </item>
+    <item>
+      <title>Perplexity、Macで「Hybrid Compute」開始 機密データを端末内AIで処理</title>
+      <link>https://discord.com/channels/1415350002255007784/1417545518539739166/threads/1544364279560540212</link>
+      <guid isPermaLink="false">afnjp-1544364279560540212</guid>
+      <pubDate>Tue, 01 Sep 2026 15:12:17 GMT</pubDate>
+      <category>perplexity</category>
+      <description>Perplexityは、AIエージェント機能「Perplexity Computer」において、クラウドAIとMac上のローカルモデルを組み合わせる「Hybrid Compute」を導入しました。検索や推論ではクラウドの性能を活用しつつ、個人情報や機密ファイ…</description>
+    </item>
+    <item>
+      <title>Microsoft、AIで「専門知」を組織全体へ拡張 マーケティング現場で年間2000時間超を削減</title>
+      <link>https://discord.com/channels/1415350002255007784/1432720743279497367/threads/1544362457252888606</link>
+      <guid isPermaLink="false">afnjp-1544362457252888606</guid>
+      <pubDate>Tue, 01 Sep 2026 15:05:02 GMT</pubDate>
+      <category>microsoft</category>
+      <description>Microsoftは、自社マーケティング組織でMicrosoft Foundryを活用し、熟練者の判断基準や業務知識をAIエージェントとして再利用する取り組みを明らかにしました。単純な作業自動化ではなく、「人が定義した専門性をAIでスケールさせる」ことが中核…</description>
+    </item>
+    <item>
+      <title>MicrosoftとAWS、クラウド間接続を刷新「Azure Multicloud Interconnect」を発表</title>
+      <link>https://discord.com/channels/1415350002255007784/1432720743279497367/threads/1544362368598024323</link>
+      <guid isPermaLink="false">afnjp-1544362368598024323</guid>
+      <pubDate>Tue, 01 Sep 2026 15:04:41 GMT</pubDate>
+      <category>microsoft</category>
+      <description>Microsoftは、AzureとAmazon Web Services（AWS）を専用のプライベートネットワークで接続する「Azure Multicloud Interconnect for AWS」を発表しました。両社が共通のOpen API仕様を用いて…</description>
+    </item>
+    <item>
+      <title>OpenAI、カリフォルニア州の若者向けAI安全法案SB 1119を支持</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1544362210359382096</link>
+      <guid isPermaLink="false">afnjp-1544362210359382096</guid>
+      <pubDate>Tue, 01 Sep 2026 15:04:03 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIは2026年8月31日、カリフォルニア州の若者向けAI安全法案「SB 1119」への支持を表明しました。年齢に応じた保護を標準で適用しながら、学習や創作にAIを利用できる環境を維持することが法案の柱です。</description>
+    </item>
     <item>
       <title>自治体AIが「公共OS」へ、PolimillがOpenAI技術で行政知識を基盤化</title>
       <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1544131605474316289</link>
@@ -38,70 +102,6 @@
       <pubDate>Mon, 31 Aug 2026 12:09:21 GMT</pubDate>
       <category>リーク情報</category>
       <description>Perplexityが、Mac版「Perplexity Computer」にローカル推論を組み込む「Hybrid Mode」を準備していることが明らかになりました。クラウドの高性能モデルとMac上のローカルモデルを役割分担させ、推論コストの削減とプライバシー…</description>
-    </item>
-    <item>
-      <title>Gemini Notebook、利用上限を刷新 5時間ごと回復の「計算量ベース」方式へ</title>
-      <link>https://discord.com/channels/1415350002255007784/1418011435287707648/threads/1543199277965381662</link>
-      <guid isPermaLink="false">afnjp-1543199277965381662</guid>
-      <pubDate>Sat, 29 Aug 2026 10:02:59 GMT</pubDate>
-      <category>gemini-notebook</category>
-      <description>Googleは2026年8月28日、Gemini Notebookに新しい柔軟な利用上限を導入すると発表しました。従来の単純な回数制限ではなく、処理に必要な計算資源を意識した仕組みに変更し、ユーザーが限られた利用枠をより柔軟に配分できるようにします。一般ユー…</description>
-    </item>
-    <item>
-      <title>OpenAI、SpaceXによるCursor買収を受けモデル提供契約を終了へ</title>
-      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1543075670496780410</link>
-      <guid isPermaLink="false">afnjp-1543075670496780410</guid>
-      <pubDate>Sat, 29 Aug 2026 01:51:48 GMT</pubDate>
-      <category>open-ai</category>
-      <description>OpenAIは2026年8月28日、SpaceXに対し、AIコーディング環境「Cursor」へのOpenAIモデル提供契約を終了する意向を通知したと発表しました。提案されている提供停止日は2026年11月12日です。Cursorを利用する開発者への影響を抑え…</description>
-    </item>
-    <item>
-      <title>Tencent「Hy4 preview」公開、7700億パラメータと100万トークンで長期タスクを狙う</title>
-      <link>https://discord.com/channels/1415350002255007784/1460898443923820618/threads/1542945727141908480</link>
-      <guid isPermaLink="false">afnjp-1542945727141908480</guid>
-      <pubDate>Fri, 28 Aug 2026 17:15:27 GMT</pubDate>
-      <category>hunyuan</category>
-      <description>Tencentは2026年8月28日、新世代のフラッグシップAIモデル「Hy4 preview」を公開しました。7700億パラメータ、490億アクティブパラメータ、100万トークンのコンテキストウィンドウを備え、ソフトウェア開発、オフィス業務、ゲーム開発、科…</description>
-    </item>
-    <item>
-      <title>ClaudeがAI安全研究を自動化、10種類のアライメント問題を改善</title>
-      <link>https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1542943412788006932</link>
-      <guid isPermaLink="false">afnjp-1542943412788006932</guid>
-      <pubDate>Fri, 28 Aug 2026 17:06:16 GMT</pubDate>
-      <category>anthropic</category>
-      <description>Anthropicは2026年8月28日、Claudeを自律的な「アライメント研究者」として動かし、AIモデルの欺瞞、迎合、プライバシー侵害、報酬ハッキングなど10種類の安全上の問題を改善できたと発表しました。研究では、人間が手作業で安全対策を設計するだけで…</description>
-    </item>
-    <item>
-      <title>OpenAI、タイ政府とAIスタートアップ育成へ 医療・教育10社を8週間支援</title>
-      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1542836198131896421</link>
-      <guid isPermaLink="false">afnjp-1542836198131896421</guid>
-      <pubDate>Fri, 28 Aug 2026 10:00:14 GMT</pubDate>
-      <category>open-ai</category>
-      <description>OpenAIとタイ高等教育・科学・研究・イノベーション省（MHESI）は2026年8月28日、タイのAIスタートアップを対象とする8週間のアクセラレータープログラム「OpenAI x MHESI AI Accelerator」を発表しました。医療・ウェルネス…</description>
-    </item>
-    <item>
-      <title>Google「Expert Intelligence」始動、購入書籍をAIの“専門家集団”に変える新構想</title>
-      <link>https://discord.com/channels/1415350002255007784/1418011435287707648/threads/1542694217246179429</link>
-      <guid isPermaLink="false">afnjp-1542694217246179429</guid>
-      <pubDate>Fri, 28 Aug 2026 00:36:03 GMT</pubDate>
-      <category>gemini-notebook</category>
-      <description>Googleは、信頼できる書籍や個人資料をAI上で統合活用する「Expert Intelligence」を発表しました。まずGemini NotebookでGoogle Play Booksの一部購入済み電子書籍を情報源として追加できるようにし、将来的には教…</description>
-    </item>
-    <item>
-      <title>Anthropic、米公立K-12向け契約条項を制定 Claude導入で自治体法を重視</title>
-      <link>https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1542688342205005925</link>
-      <guid isPermaLink="false">afnjp-1542688342205005925</guid>
-      <pubDate>Fri, 28 Aug 2026 00:12:42 GMT</pubDate>
-      <category>anthropic</category>
-      <description>Anthropicは2026年8月28日、米国の公立K-12教育機関を対象とした「U.S. K-12 Public Sector Addendum」を発効しました。公立学校や学区、州教育機関などがAnthropicのサービスを利用する際、通常のK-12利用規…</description>
-    </item>
-    <item>
-      <title>Anthropic、科学者1万人にClaudeを無償・割引提供 研究用途へのAI導入を大幅拡大</title>
-      <link>https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1542688170225967184</link>
-      <guid isPermaLink="false">afnjp-1542688170225967184</guid>
-      <pubDate>Fri, 28 Aug 2026 00:12:01 GMT</pubDate>
-      <category>anthropic</category>
-      <description>Anthropicは2026年8月27日、科学研究向けClaude支援策を大幅に拡大すると発表しました。世界の科学者を対象に、Claudeのチームプラン1万席を1年間、無料または割引料金で提供します。同社はAIを研究支援ツールとして普及させるだけでなく、高負…</description>
     </item>
   </channel>
 </rss>

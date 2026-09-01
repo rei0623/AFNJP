@@ -1,8 +1,171 @@
 {
-  "generated_at": "2026-09-01T14:51:31.089Z",
+  "generated_at": "2026-09-01T18:28:17.542Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1544379905809055834",
+      "title": "Google「Pics」始動、WorkspaceにAI画像生成・精密編集を統合",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-09-01T16:14:22.736Z",
+      "excerpt": "Googleは2026年9月1日、AIを使って画像を生成・編集できる新サービス「Google Pics」を発表しました。単独の画像編集ツールとして提供するだけでなく、Google Docs、Slides、Driveへ順次統合し、資料作成中に別アプリへ移動せず…",
+      "lead": "Googleは2026年9月1日、AIを使って画像を生成・編集できる新サービス「Google Pics」を発表しました。単独の画像編集ツールとして提供するだけでなく、Google Docs、Slides、Driveへ順次統合し、資料作成中に別アプリへ移動せず画像を加工できる環境を構築します。",
+      "headings": [
+        "Nano Bananaを基盤にした画像編集",
+        "DocsとSlidesから利用、Driveにも展開",
+        "生成AIが業務ツールの「編集機能」になる",
+        "今後の展望"
+      ],
+      "source_url": "https://blog.google/products-and-platforms/products/workspace/google-pics/",
+      "source_label": "blog.google",
+      "cover": "assets/posts/1544379905809055834.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1544379905809055834",
+      "first_seen": "2026-09-01T16:14:22.736Z"
+    },
+    {
+      "id": "1544365872427044954",
+      "title": "Studioが「Drop」を刷新、URL投入だけで既存サイトをAI Ready化",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-09-01T15:18:36.917Z",
+      "excerpt": "Web制作プラットフォームのStudioは、新しい「Studio.Drop」をClosed Betaとして公開しています。既存サイトのURLやコード資産を取り込み、AIによる編集、ビジュアル調整、ホスティング、AIエージェント連携までを一体化する「Agent…",
+      "lead": "Web制作プラットフォームのStudioは、新しい「Studio.Drop」をClosed Betaとして公開しています。既存サイトのURLやコード資産を取り込み、AIによる編集、ビジュアル調整、ホスティング、AIエージェント連携までを一体化する「Agentic Web Platform」を目指したサービスです。",
+      "headings": [
+        "URL・ファイル・プロンプトの3経路でサイトを取り込む",
+        "AI編集と手動デザインを行き来できる",
+        "ホスティングまで統合、MCPでClaudeやCodexとも接続",
+        "今後の展望"
+      ],
+      "source_url": "https://drop.studio.design/",
+      "source_label": "drop.studio.design",
+      "cover": "assets/posts/1544365872427044954.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1544365872427044954",
+      "first_seen": "2026-09-01T15:18:36.917Z"
+    },
+    {
+      "id": "1544364812753178774",
+      "title": "Runway「Solaris」発表、アプリをコードではなくAIがリアルタイム生成する時代へ",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-09-01T15:14:24.271Z",
+      "excerpt": "Runwayは2026年8月31日、新たなAIモデル群「Interface World Models」の第一弾として「Solaris」を発表しました。従来のWebサイトやアプリのように事前にコードで画面と挙動を定義するのではなく、ユーザー操作に応じてAIがイ…",
+      "lead": "Runwayは2026年8月31日、新たなAIモデル群「Interface World Models」の第一弾として「Solaris」を発表しました。従来のWebサイトやアプリのように事前にコードで画面と挙動を定義するのではなく、ユーザー操作に応じてAIがインターフェースそのものをフレーム単位で生成する研究モデルです。",
+      "headings": [
+        "「画面そのもの」がアプリになる",
+        "Gen-4.5をリアルタイムエンジンへ転換",
+        "LLMが判断し、世界モデルが描画する",
+        "コード生成型UIとの比較",
+        "まだ残る大きな課題",
+        "今後の展望"
+      ],
+      "source_url": "https://runway.com/news/research/introducing-solaris",
+      "source_label": "runway.com",
+      "cover": "assets/posts/1544364812753178774.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1544364812753178774",
+      "first_seen": "2026-09-01T15:14:24.271Z"
+    },
+    {
+      "id": "1544364543634051182",
+      "title": "Manusが独立運営を再開、汎用AIエージェント開発を加速へ",
+      "channel": "manus",
+      "category": "その他",
+      "date": "2026-09-01T15:13:20.108Z",
+      "excerpt": "Manusは、創業チームの主導による独立運営を正式に再開したと発表しました。今後は「独立したエージェント研究所」として、汎用AIエージェントの研究と製品開発を継続し、ユーザーの仕事や日常により深く入り込む自律型AIの実現を目指します。",
+      "lead": "Manusは、創業チームの主導による独立運営を正式に再開したと発表しました。今後は「独立したエージェント研究所」として、汎用AIエージェントの研究と製品開発を継続し、ユーザーの仕事や日常により深く入り込む自律型AIの実現を目指します。",
+      "headings": [
+        "創業チームが引き続き経営を主導",
+        "移行ではデータ復元やアクセス中断も",
+        "より主体的に行動するAIへ",
+        "今後の展望"
+      ],
+      "source_url": "https://manus.im/ja/blog/manus-resumes-independent-operations",
+      "source_label": "manus.im",
+      "cover": "assets/posts/1544364543634051182.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416105983415156887/threads/1544364543634051182",
+      "first_seen": "2026-09-01T15:13:20.108Z"
+    },
+    {
+      "id": "1544364279560540212",
+      "title": "Perplexity、Macで「Hybrid Compute」開始 機密データを端末内AIで処理",
+      "channel": "perplexity",
+      "category": "その他",
+      "date": "2026-09-01T15:12:17.148Z",
+      "excerpt": "Perplexityは、AIエージェント機能「Perplexity Computer」において、クラウドAIとMac上のローカルモデルを組み合わせる「Hybrid Compute」を導入しました。検索や推論ではクラウドの性能を活用しつつ、個人情報や機密ファイ…",
+      "lead": "Perplexityは、AIエージェント機能「Perplexity Computer」において、クラウドAIとMac上のローカルモデルを組み合わせる「Hybrid Compute」を導入しました。検索や推論ではクラウドの性能を活用しつつ、個人情報や機密ファイルを扱う処理を端末内に切り替えることで、利便性とプライバシーの両立を狙います。",
+      "headings": [
+        "クラウドからローカルAIへ処理を切り替え",
+        "Mac上の「Privacy Gate」がPIIを検出",
+        "AIエージェントの弱点だった「データ送信」に対応",
+        "今後の展望"
+      ],
+      "source_url": "https://www.perplexity.ai/hub/products/hybrid-compute",
+      "source_label": "perplexity.ai",
+      "cover": "assets/posts/1544364279560540212.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417545518539739166/threads/1544364279560540212",
+      "first_seen": "2026-09-01T15:12:17.148Z"
+    },
+    {
+      "id": "1544362457252888606",
+      "title": "Microsoft、AIで「専門知」を組織全体へ拡張 マーケティング現場で年間2000時間超を削減",
+      "channel": "microsoft",
+      "category": "Microsoft",
+      "date": "2026-09-01T15:05:02.676Z",
+      "excerpt": "Microsoftは、自社マーケティング組織でMicrosoft Foundryを活用し、熟練者の判断基準や業務知識をAIエージェントとして再利用する取り組みを明らかにしました。単純な作業自動化ではなく、「人が定義した専門性をAIでスケールさせる」ことが中核…",
+      "lead": "Microsoftは、自社マーケティング組織でMicrosoft Foundryを活用し、熟練者の判断基準や業務知識をAIエージェントとして再利用する取り組みを明らかにしました。単純な作業自動化ではなく、「人が定義した専門性をAIでスケールさせる」ことが中核にあります。",
+      "headings": [
+        "製品投入が週次・日次へ、従来の運用が限界に",
+        "熟練者のレビュー基準をAIワークフロー化",
+        "顧客ペルソナでメッセージを事前検証",
+        "「エージェント導入」より業務設計が重要",
+        "今後の展望"
+      ],
+      "source_url": "https://azure.microsoft.com/en-us/blog/inside-microsofts-marketing-team-scaling-expertise-with-ai/",
+      "source_label": "azure.microsoft.com",
+      "cover": "assets/posts/1544362457252888606.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1432720743279497367/threads/1544362457252888606",
+      "first_seen": "2026-09-01T15:05:02.676Z"
+    },
+    {
+      "id": "1544362368598024323",
+      "title": "MicrosoftとAWS、クラウド間接続を刷新「Azure Multicloud Interconnect」を発表",
+      "channel": "microsoft",
+      "category": "Microsoft",
+      "date": "2026-09-01T15:04:41.539Z",
+      "excerpt": "Microsoftは、AzureとAmazon Web Services（AWS）を専用のプライベートネットワークで接続する「Azure Multicloud Interconnect for AWS」を発表しました。両社が共通のOpen API仕様を用いて…",
+      "lead": "Microsoftは、AzureとAmazon Web Services（AWS）を専用のプライベートネットワークで接続する「Azure Multicloud Interconnect for AWS」を発表しました。両社が共通のOpen API仕様を用いて連携し、従来は複数サービスの組み合わせや個別調整が必要だったマルチクラウド接続を、よりクラウドネイティブな形で簡素化します。",
+      "headings": [
+        "AzureとAWSを専用回線レベルで直結",
+        "最大100Gbps、AIワークロードも想定",
+        "「マルチクラウド」の運用モデルそのものを変える可能性",
+        "今後の展望"
+      ],
+      "source_url": "https://azure.microsoft.com/en-us/blog/introducing-azure-multicloud-interconnect-for-aws/",
+      "source_label": "azure.microsoft.com",
+      "cover": "assets/posts/1544362368598024323.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1432720743279497367/threads/1544362368598024323",
+      "first_seen": "2026-09-01T15:04:41.539Z"
+    },
+    {
+      "id": "1544362210359382096",
+      "title": "OpenAI、カリフォルニア州の若者向けAI安全法案SB 1119を支持",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-09-01T15:04:03.812Z",
+      "excerpt": "OpenAIは2026年8月31日、カリフォルニア州の若者向けAI安全法案「SB 1119」への支持を表明しました。年齢に応じた保護を標準で適用しながら、学習や創作にAIを利用できる環境を維持することが法案の柱です。",
+      "lead": "OpenAIは2026年8月31日、カリフォルニア州の若者向けAI安全法案「SB 1119」への支持を表明しました。年齢に応じた保護を標準で適用しながら、学習や創作にAIを利用できる環境を維持することが法案の柱です。",
+      "headings": [
+        "年齢確認と事前リスク評価を求める枠組み",
+        "ChatGPT for Teensとも連動",
+        "AIをソーシャルメディアと別の制度で扱う",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/supporting-california-bill-advance-ai-youth-safety/",
+      "source_label": "openai.com",
+      "cover": "assets/posts/1544362210359382096.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1544362210359382096",
+      "first_seen": "2026-09-01T15:04:03.812Z"
+    },
     {
       "id": "1544131605474316289",
       "title": "自治体AIが「公共OS」へ、PolimillがOpenAI技術で行政知識を基盤化",
@@ -84,170 +247,6 @@
       "cover": "assets/posts/1543955855399981096.webp",
       "url": "https://discord.com/channels/1415350002255007784/1415534435712897124/threads/1543955855399981096",
       "first_seen": "2026-08-31T12:09:21.240Z"
-    },
-    {
-      "id": "1543199277965381662",
-      "title": "Gemini Notebook、利用上限を刷新 5時間ごと回復の「計算量ベース」方式へ",
-      "channel": "gemini-notebook",
-      "category": "Google",
-      "date": "2026-08-29T10:02:59.123Z",
-      "excerpt": "Googleは2026年8月28日、Gemini Notebookに新しい柔軟な利用上限を導入すると発表しました。従来の単純な回数制限ではなく、処理に必要な計算資源を意識した仕組みに変更し、ユーザーが限られた利用枠をより柔軟に配分できるようにします。一般ユー…",
-      "lead": "Googleは2026年8月28日、Gemini Notebookに新しい柔軟な利用上限を導入すると発表しました。従来の単純な回数制限ではなく、処理に必要な計算資源を意識した仕組みに変更し、ユーザーが限られた利用枠をより柔軟に配分できるようにします。一般ユーザー向けアカウントでは9月2日からWebとモバイルで展開されます。",
-      "headings": [
-        "利用上限は5時間ごとに更新",
-        "プロンプトの複雑さやソース数も消費量に反映",
-        "重い生成処理は後回しにできる",
-        "企業・開発者にも示唆する「計算量課金型」の考え方",
-        "今後の展望"
-      ],
-      "source_url": "https://blog.google/innovation-and-ai/products/gemini-notebook/new-flexible-usage-limits/",
-      "source_label": "blog.google",
-      "cover": "assets/posts/1543199277965381662.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1418011435287707648/threads/1543199277965381662",
-      "first_seen": "2026-08-29T10:02:59.123Z"
-    },
-    {
-      "id": "1543075670496780410",
-      "title": "OpenAI、SpaceXによるCursor買収を受けモデル提供契約を終了へ",
-      "channel": "open-ai",
-      "category": "Open AI",
-      "date": "2026-08-29T01:51:48.806Z",
-      "excerpt": "OpenAIは2026年8月28日、SpaceXに対し、AIコーディング環境「Cursor」へのOpenAIモデル提供契約を終了する意向を通知したと発表しました。提案されている提供停止日は2026年11月12日です。Cursorを利用する開発者への影響を抑え…",
-      "lead": "OpenAIは2026年8月28日、SpaceXに対し、AIコーディング環境「Cursor」へのOpenAIモデル提供契約を終了する意向を通知したと発表しました。提案されている提供停止日は2026年11月12日です。Cursorを利用する開発者への影響を抑えるため、契約上認められる最大限の通知期間を確保するとしています。",
-      "headings": [
-        "SpaceX傘下入りが契約見直しの引き金に",
-        "過去の契約・規約違反を問題視",
-        "次世代モデル「Astra」はCursorに提供せず",
-        "Cursorユーザーへの影響",
-        "今後の展望"
-      ],
-      "source_url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/",
-      "source_label": "openai.com",
-      "cover": "assets/posts/1543075670496780410.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1543075670496780410",
-      "first_seen": "2026-08-29T01:51:48.806Z"
-    },
-    {
-      "id": "1542945727141908480",
-      "title": "Tencent「Hy4 preview」公開、7700億パラメータと100万トークンで長期タスクを狙う",
-      "channel": "hunyuan",
-      "category": "その他",
-      "date": "2026-08-28T17:15:27.896Z",
-      "excerpt": "Tencentは2026年8月28日、新世代のフラッグシップAIモデル「Hy4 preview」を公開しました。7700億パラメータ、490億アクティブパラメータ、100万トークンのコンテキストウィンドウを備え、ソフトウェア開発、オフィス業務、ゲーム開発、科…",
-      "lead": "Tencentは2026年8月28日、新世代のフラッグシップAIモデル「Hy4 preview」を公開しました。7700億パラメータ、490億アクティブパラメータ、100万トークンのコンテキストウィンドウを備え、ソフトウェア開発、オフィス業務、ゲーム開発、科学研究など、長時間かつ複雑な作業を主な対象としています。",
-      "headings": [
-        "大規模化と長文処理を同時に強化",
-        "ソフトウェア開発から財務分析まで",
-        "社内ブラインド評価では競合を僅差で上回る",
-        "API価格は出力100万トークン2.501ドル",
-        "今後の展望"
-      ],
-      "source_url": "https://hy.tencent.ai/research/hy4-preview",
-      "source_label": "hy.tencent.ai",
-      "url": "https://discord.com/channels/1415350002255007784/1460898443923820618/threads/1542945727141908480",
-      "first_seen": "2026-08-28T17:15:27.896Z"
-    },
-    {
-      "id": "1542943412788006932",
-      "title": "ClaudeがAI安全研究を自動化、10種類のアライメント問題を改善",
-      "channel": "anthropic",
-      "category": "Anthropic",
-      "date": "2026-08-28T17:06:16.111Z",
-      "excerpt": "Anthropicは2026年8月28日、Claudeを自律的な「アライメント研究者」として動かし、AIモデルの欺瞞、迎合、プライバシー侵害、報酬ハッキングなど10種類の安全上の問題を改善できたと発表しました。研究では、人間が手作業で安全対策を設計するだけで…",
-      "lead": "Anthropicは2026年8月28日、Claudeを自律的な「アライメント研究者」として動かし、AIモデルの欺瞞、迎合、プライバシー侵害、報酬ハッキングなど10種類の安全上の問題を改善できたと発表しました。研究では、人間が手作業で安全対策を設計するだけでなく、AI自身が文献調査、手法提案、学習、評価を反復する仕組みの実用性を検証しています。",
-      "headings": [
-        "AIが安全対策を自ら研究する",
-        "欺瞞対策では人間研究者を上回る結果",
-        "Sonnet 5がOpus 4.8を改善",
-        "自動研究には「不正」の監視も必要",
-        "今後の展望"
-      ],
-      "source_url": "https://www.anthropic.com/research/automated-researchers-mitigate-alignment-failures",
-      "source_label": "anthropic.com",
-      "cover": "assets/posts/1542943412788006932.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1542943412788006932",
-      "first_seen": "2026-08-28T17:06:16.111Z"
-    },
-    {
-      "id": "1542836198131896421",
-      "title": "OpenAI、タイ政府とAIスタートアップ育成へ 医療・教育10社を8週間支援",
-      "channel": "open-ai",
-      "category": "Open AI",
-      "date": "2026-08-28T10:00:14.145Z",
-      "excerpt": "OpenAIとタイ高等教育・科学・研究・イノベーション省（MHESI）は2026年8月28日、タイのAIスタートアップを対象とする8週間のアクセラレータープログラム「OpenAI x MHESI AI Accelerator」を発表しました。医療・ウェルネス…",
-      "lead": "OpenAIとタイ高等教育・科学・研究・イノベーション省（MHESI）は2026年8月28日、タイのAIスタートアップを対象とする8週間のアクセラレータープログラム「OpenAI x MHESI AI Accelerator」を発表しました。医療・ウェルネスと教育分野の10社を支援し、試作段階のAIを実運用可能な製品へ引き上げることを狙います。",
-      "headings": [
-        "API提供だけでなく「実装力」を育成",
-        "医療5社、教育5社が参加",
-        "タイでCodex利用が急拡大",
-        "今後の展望"
-      ],
-      "source_url": "https://openai.com/index/supporting-next-generation-ai-startups-thailand/",
-      "source_label": "openai.com",
-      "cover": "assets/posts/1542836198131896421.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1542836198131896421",
-      "first_seen": "2026-08-28T10:00:14.145Z"
-    },
-    {
-      "id": "1542694217246179429",
-      "title": "Google「Expert Intelligence」始動、購入書籍をAIの“専門家集団”に変える新構想",
-      "channel": "gemini-notebook",
-      "category": "Google",
-      "date": "2026-08-28T00:36:03.264Z",
-      "excerpt": "Googleは、信頼できる書籍や個人資料をAI上で統合活用する「Expert Intelligence」を発表しました。まずGemini NotebookでGoogle Play Booksの一部購入済み電子書籍を情報源として追加できるようにし、将来的には教…",
-      "lead": "Googleは、信頼できる書籍や個人資料をAI上で統合活用する「Expert Intelligence」を発表しました。まずGemini NotebookでGoogle Play Booksの一部購入済み電子書籍を情報源として追加できるようにし、将来的には教科書や第三者の有料購読コンテンツ、Geminiアプリ、Google検索のAI Modeにも展開する計画です。",
-      "headings": [
-        "書籍を「読む」から「対話して使う」へ",
-        "回答根拠を原文まで追跡可能",
-        "出版ビジネスにも新しい接点",
-        "今後の展望"
-      ],
-      "source_url": "https://notebook.google/expert-intelligence?utm_source=twitter_x&utm_medium=social&utm_campaign=expert_intelligence&utm_content=&utm_smc=twitter_x_social_expert_intelligence_&ct=twitter_x_social_expert_intelligence_&mt=8",
-      "source_label": "notebook.google",
-      "cover": "assets/posts/1542694217246179429.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1418011435287707648/threads/1542694217246179429",
-      "first_seen": "2026-08-28T00:36:03.264Z"
-    },
-    {
-      "id": "1542688342205005925",
-      "title": "Anthropic、米公立K-12向け契約条項を制定 Claude導入で自治体法を重視",
-      "channel": "anthropic",
-      "category": "Anthropic",
-      "date": "2026-08-28T00:12:42.545Z",
-      "excerpt": "Anthropicは2026年8月28日、米国の公立K-12教育機関を対象とした「U.S. K-12 Public Sector Addendum」を発効しました。公立学校や学区、州教育機関などがAnthropicのサービスを利用する際、通常のK-12利用規…",
-      "lead": "Anthropicは2026年8月28日、米国の公立K-12教育機関を対象とした「U.S. K-12 Public Sector Addendum」を発効しました。公立学校や学区、州教育機関などがAnthropicのサービスを利用する際、通常のK-12利用規約を政府・公共部門特有の法制度に適合させる追加条項です。",
-      "headings": [
-        "公立学校・学区向けに契約条件を調整",
-        "情報公開法や自治体特有の法制度に対応",
-        "学校側には30日前通知による解約権",
-        "WCAG 2.2 AAへの適合を目標",
-        "今後の展望"
-      ],
-      "source_url": "https://www.anthropic.com/legal/k12-addendum",
-      "source_label": "anthropic.com",
-      "cover": "assets/posts/1542688342205005925.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1542688342205005925",
-      "first_seen": "2026-08-28T00:12:42.545Z"
-    },
-    {
-      "id": "1542688170225967184",
-      "title": "Anthropic、科学者1万人にClaudeを無償・割引提供 研究用途へのAI導入を大幅拡大",
-      "channel": "anthropic",
-      "category": "Anthropic",
-      "date": "2026-08-28T00:12:01.542Z",
-      "excerpt": "Anthropicは2026年8月27日、科学研究向けClaude支援策を大幅に拡大すると発表しました。世界の科学者を対象に、Claudeのチームプラン1万席を1年間、無料または割引料金で提供します。同社はAIを研究支援ツールとして普及させるだけでなく、高負…",
-      "lead": "Anthropicは2026年8月27日、科学研究向けClaude支援策を大幅に拡大すると発表しました。世界の科学者を対象に、Claudeのチームプラン1万席を1年間、無料または割引料金で提供します。同社はAIを研究支援ツールとして普及させるだけでなく、高負荷な計算研究まで支援範囲を広げる方針です。",
-      "headings": [
-        "科学者向けに1万席を提供",
-        "最大5万ドルのAI利用クレジットも提供",
-        "高性能モデルには安全上のアクセス制限",
-        "今後の展望"
-      ],
-      "source_url": "https://www.anthropic.com/news/expanding-support-for-scientists",
-      "source_label": "anthropic.com",
-      "cover": "assets/posts/1542688170225967184.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1542688170225967184",
-      "first_seen": "2026-08-28T00:12:01.542Z"
     }
   ]
 }
