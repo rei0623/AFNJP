@@ -92,17 +92,26 @@ const PING = process.argv.includes('--ping');
  */
 const PREVIEW = process.argv.includes('--preview');
 
-if (!DRY && !TOKEN) {
+/**
+ * --volume … 各ソースが直近7日で何件出しているかを数える。
+ * 監視先を増やすと通知が増えるので、入れる前に流量を見るためのもの。
+ */
+const VOLUME = process.argv.includes('--volume');
+
+/** 取得して数えるだけのモードは、トークンも状態も要らない */
+const OFFLINE = DRY || VOLUME;
+
+if (!OFFLINE && !TOKEN) {
     console.log('… DISCORD_BOT_TOKEN が未設定のため、監視をスキップします。');
     process.exit(0);
 }
-if (!DRY && !STATE_TOKEN) {
+if (!OFFLINE && !STATE_TOKEN) {
     console.log('… PUSH_SEND_TOKEN が未設定のため、監視をスキップします。');
     process.exit(0);
 }
 
 const config = await readFile(CONFIG, 'utf8').then(JSON.parse).catch(() => null);
-if (!DRY && !config?.endpoint) {
+if (!OFFLINE && !config?.endpoint) {
     console.log('… 状態の保存先が未設定のため、監視をスキップします。');
     process.exit(0);
 }
@@ -396,6 +405,64 @@ if (PING) {
     process.exit(0);
 }
 
+if (VOLUME) {
+    const WINDOW_DAYS = 7;
+    const since = Date.now() - WINDOW_DAYS * 86400000;
+
+    const rows = await Promise.all(sources.map(async source => {
+        try {
+            const items = source.type === 'rss'
+                ? parseFeed(await get(source.url, 'application/rss+xml,application/xml,text/xml'))
+                : await readSitemap(source);
+            const dated = items.filter(i => i.date && !Number.isNaN(new Date(i.date).getTime()));
+            const recent = dated.filter(i => new Date(i.date).getTime() >= since).length;
+            return {
+                source,
+                perDay: dated.length ? recent / WINDOW_DAYS : null,
+                total: items.length,
+                dated: dated.length,
+            };
+        } catch (e) {
+            return { source, error: e.message };
+        }
+    }));
+
+    /*
+     * rss は公開日なので信用できる。
+     * sitemap の lastmod はサイト全体の一斉更新で動くことがあり、
+     * 「その日に出た記事の数」にはならない。実際の検知はURLの差分で行うので、
+     * ここの数字ほどは通知されない。数え方が違うものを足しても意味がないため分けて出す。
+     */
+    let sumRss = 0, sumSitemap = 0;
+    const show = kind => {
+        for (const r of rows
+            .filter(x => x.source.type === kind)
+            .sort((a, b) => (b.perDay ?? -1) - (a.perDay ?? -1))) {
+            if (r.error) {
+                console.log(`   ?      ${r.source.label.padEnd(24)} 取得失敗: ${r.error}`);
+                continue;
+            }
+            if (r.perDay === null) {
+                console.log(`   ?      ${r.source.label.padEnd(24)} 日付が取れません（全${r.total}件）`);
+                continue;
+            }
+            if (kind === 'rss') sumRss += r.perDay; else sumSitemap += r.perDay;
+            const bar = '█'.repeat(Math.min(24, Math.round(r.perDay * 2)));
+            console.log(`  ${r.perDay.toFixed(1).padStart(5)}/日  ${r.source.label.padEnd(24)} ${bar}`);
+        }
+    };
+
+    console.log('── RSS（公開日が取れるので信用できる） ──');
+    show('rss');
+    console.log('\n── sitemap（lastmod は一斉更新で動くため、あくまで参考値） ──');
+    show('sitemap');
+
+    console.log(`\n実際に近いのは RSS 側の およそ ${sumRss.toFixed(1)} 件/日。`);
+    console.log(`sitemap 側は ${sumSitemap.toFixed(1)} 件/日と出るが、これは水増しされている。`);
+    console.log('検知はURLの差分で行うので、通知量はこの合計より少なくなる。');
+    process.exit(0);
+}
+
 if (PREVIEW) {
     // 見た目の確認用。各社の最新1件を、本番と同じ組み立てで出す。
     const picks = [];
@@ -585,3 +652,4 @@ console.log(`✓ 一次情報ウォッチ: ${posted} 件を投稿`
 for (const t of targets.slice(0, posted)) {
     console.log(`   ${t.source.label}: ${t.item.title || t.item.url}`);
 }
+

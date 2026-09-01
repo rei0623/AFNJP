@@ -127,9 +127,19 @@ sitemap を使う場合も `include` でブログ記事のパスだけに絞っ�
 
 ```bash
 node scripts/web-watch.mjs --dry-run   # 各ソースが実際に取れるかを確認する
+node scripts/web-watch.mjs --volume    # 各ソースが1日何件出しているかを見る
 ```
 
-監視先を足したら、必ずこれを通してから入れてください。サイト側の作りが変わると黙って0件になります。
+監視先を足したら、必ず `--dry-run` を通してから入れてください。サイト側の作りが変わると黙って0件になります。
+
+**大手は製品ごとにブログが分かれています。** Microsoft は Copilot / 365 / Research / DevBlogs / Azure、
+Google は blog.google / DeepMind / Developers / Research / Cloud、Anthropic は anthropic.com と claude.com が別です。
+1社1フィードのつもりでいると取りこぼします。
+
+`--volume` の読み方に注意:
+**RSS の数字は公開日ベースなので信用できます**が、**sitemap の数字は水増しされます**。
+`lastmod` はサイト全体の再ビルドで一斉に動くことがあり、その日に出た記事の数にはなりません
+(ElevenLabs が 57 件/日 と出るのはこれ)。実際の検知は URL の差分で行うので、通知量はこの数字より少なくなります。
 
 対象外にしているものと、その理由も同じファイルに書いてあります(`_未対応`)。
 **x.ai は Cloudflare のbot対策で 403 を返しますが、回避はしません。**
