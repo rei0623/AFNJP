@@ -5,8 +5,16 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 02 Sep 2026 03:31:29 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 02 Sep 2026 14:09:33 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>MrBeastがGeminiとGoogle Healthを採用、Googleと複数年提携</title>
+      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1544710880560685158</link>
+      <guid isPermaLink="false">afnjp-1544710880560685158</guid>
+      <pubDate>Wed, 02 Sep 2026 14:09:33 GMT</pubDate>
+      <category>google</category>
+      <description>Googleは2026年9月2日、MrBeastことJimmy Donaldson氏率いるBeast Industriesとの複数年パートナーシップを発表しました。従来のYouTubeでの関係をGeminiとGoogle Healthへ拡大し、大規模な動画企…</description>
+    </item>
     <item>
       <title>Qwen3.8-Max-0902公開、1Mコンテキストと強化コーディング性能を統合</title>
       <link>https://discord.com/channels/1415350002255007784/1419932032716243027/threads/1544550307865034752</link>
@@ -94,14 +102,6 @@
       <pubDate>Tue, 01 Sep 2026 19:00:48 GMT</pubDate>
       <category>open-ai</category>
       <description>OpenAIは2026年9月1日、医療機関向け「ChatGPT for Healthcare」で、電子健康記録（EHR）と公的医療データをChatGPTへ接続する新機能を発表しました。Epicとの統合により、許可された患者情報をChatGPT上で参照できるほ…</description>
-    </item>
-    <item>
-      <title>Google「Pics」始動、WorkspaceにAI画像生成・精密編集を統合</title>
-      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1544379905809055834</link>
-      <guid isPermaLink="false">afnjp-1544379905809055834</guid>
-      <pubDate>Tue, 01 Sep 2026 16:14:22 GMT</pubDate>
-      <category>google</category>
-      <description>Googleは2026年9月1日、AIを使って画像を生成・編集できる新サービス「Google Pics」を発表しました。単独の画像編集ツールとして提供するだけでなく、Google Docs、Slides、Driveへ順次統合し、資料作成中に別アプリへ移動せず…</description>
     </item>
   </channel>
 </rss>

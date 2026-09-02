@@ -1,9 +1,29 @@
 {
-  "generated_at": "2026-09-02T09:35:00.742Z",
+  "generated_at": "2026-09-02T14:27:17.890Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 127,
+  "count": 128,
   "posts": [
+    {
+      "id": "1544710880560685158",
+      "title": "MrBeastがGeminiとGoogle Healthを採用、Googleと複数年提携",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-09-02T14:09:33.266Z",
+      "excerpt": "Googleは2026年9月2日、MrBeastことJimmy Donaldson氏率いるBeast Industriesとの複数年パートナーシップを発表しました。従来のYouTubeでの関係をGeminiとGoogle Healthへ拡大し、大規模な動画企…",
+      "lead": "Googleは2026年9月2日、MrBeastことJimmy Donaldson氏率いるBeast Industriesとの複数年パートナーシップを発表しました。従来のYouTubeでの関係をGeminiとGoogle Healthへ拡大し、大規模な動画企画の立案・遂行や健康管理にGoogleの技術を活用します。0",
+      "headings": [
+        "Geminiを「巨大プロジェクトの実行支援」に活用",
+        "Google HealthとFitbit Airも連携",
+        "巨大クリエイターがAIの利用例を実演",
+        "今後の展望"
+      ],
+      "source_url": "https://blog.google/company-news/inside-google/company-announcements/mrbeast-gemini-google-health/",
+      "source_label": "blog.google",
+      "cover": "assets/posts/1544710880560685158.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1544710880560685158",
+      "first_seen": "2026-09-02T14:09:33.266Z"
+    },
     {
       "id": "1544550307865034752",
       "title": "Qwen3.8-Max-0902公開、1Mコンテキストと強化コーディング性能を統合",

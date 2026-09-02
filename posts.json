@@ -1,8 +1,28 @@
 {
-  "generated_at": "2026-09-02T09:35:00.743Z",
+  "generated_at": "2026-09-02T14:27:17.891Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1544710880560685158",
+      "title": "MrBeastがGeminiとGoogle Healthを採用、Googleと複数年提携",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-09-02T14:09:33.266Z",
+      "excerpt": "Googleは2026年9月2日、MrBeastことJimmy Donaldson氏率いるBeast Industriesとの複数年パートナーシップを発表しました。従来のYouTubeでの関係をGeminiとGoogle Healthへ拡大し、大規模な動画企…",
+      "lead": "Googleは2026年9月2日、MrBeastことJimmy Donaldson氏率いるBeast Industriesとの複数年パートナーシップを発表しました。従来のYouTubeでの関係をGeminiとGoogle Healthへ拡大し、大規模な動画企画の立案・遂行や健康管理にGoogleの技術を活用します。0",
+      "headings": [
+        "Geminiを「巨大プロジェクトの実行支援」に活用",
+        "Google HealthとFitbit Airも連携",
+        "巨大クリエイターがAIの利用例を実演",
+        "今後の展望"
+      ],
+      "source_url": "https://blog.google/company-news/inside-google/company-announcements/mrbeast-gemini-google-health/",
+      "source_label": "blog.google",
+      "cover": "assets/posts/1544710880560685158.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1544710880560685158",
+      "first_seen": "2026-09-02T14:09:33.266Z"
+    },
     {
       "id": "1544550307865034752",
       "title": "Qwen3.8-Max-0902公開、1Mコンテキストと強化コーディング性能を統合",
@@ -232,26 +252,6 @@
       "cover": "assets/posts/1544421787297644614.webp",
       "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1544421787297644614",
       "first_seen": "2026-09-01T19:00:48.061Z"
-    },
-    {
-      "id": "1544379905809055834",
-      "title": "Google「Pics」始動、WorkspaceにAI画像生成・精密編集を統合",
-      "channel": "google",
-      "category": "Google",
-      "date": "2026-09-01T16:14:22.736Z",
-      "excerpt": "Googleは2026年9月1日、AIを使って画像を生成・編集できる新サービス「Google Pics」を発表しました。単独の画像編集ツールとして提供するだけでなく、Google Docs、Slides、Driveへ順次統合し、資料作成中に別アプリへ移動せず…",
-      "lead": "Googleは2026年9月1日、AIを使って画像を生成・編集できる新サービス「Google Pics」を発表しました。単独の画像編集ツールとして提供するだけでなく、Google Docs、Slides、Driveへ順次統合し、資料作成中に別アプリへ移動せず画像を加工できる環境を構築します。",
-      "headings": [
-        "Nano Bananaを基盤にした画像編集",
-        "DocsとSlidesから利用、Driveにも展開",
-        "生成AIが業務ツールの「編集機能」になる",
-        "今後の展望"
-      ],
-      "source_url": "https://blog.google/products-and-platforms/products/workspace/google-pics/",
-      "source_label": "blog.google",
-      "cover": "assets/posts/1544379905809055834.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1544379905809055834",
-      "first_seen": "2026-09-01T16:14:22.736Z"
     }
   ]
 }
