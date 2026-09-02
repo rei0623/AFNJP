@@ -5,8 +5,40 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 02 Sep 2026 14:09:33 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 02 Sep 2026 19:38:03 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Googleが「Mantis」を公開、AIで脆弱性の発見から修正まで自動化</title>
+      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1544793552347725986</link>
+      <guid isPermaLink="false">afnjp-1544793552347725986</guid>
+      <pubDate>Wed, 02 Sep 2026 19:38:03 GMT</pubDate>
+      <category>google</category>
+      <description>Googleは2026年9月2日、ソフトウェアの脆弱性をAIで発見・選別・再現・修正するオープンソースフレームワーク「Mantis」の利用方法を公開しました。単純なAIコードスキャンではなく、リポジトリ全体の文脈や過去の修正履歴を理解し、サンドボックス環境で…</description>
+    </item>
+    <item>
+      <title>Google Play Books「Book insights」が100万冊超へ、iOSにもGemini読書支援を展開</title>
+      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1544793367743828058</link>
+      <guid isPermaLink="false">afnjp-1544793367743828058</guid>
+      <pubDate>Wed, 02 Sep 2026 19:37:19 GMT</pubDate>
+      <category>google</category>
+      <description>Googleは2026年9月2日、Google Play BooksのAI読書支援機能「Book insights」を、100万冊を超える英語電子書籍へ拡大したと発表しました。従来のAndroidアプリとWebリーダーに加え、iOS版Google Play …</description>
+    </item>
+    <item>
+      <title>Anthropic、Claude向け「コマースエージェント」設計図を公開</title>
+      <link>https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1544793130593820702</link>
+      <guid isPermaLink="false">afnjp-1544793130593820702</guid>
+      <pubDate>Wed, 02 Sep 2026 19:36:23 GMT</pubDate>
+      <category>anthropic</category>
+      <description>Anthropicは2026年9月2日、Claudeを使ってECや旅行、通信、チケット販売向けのAIエージェントを構築するための「Commerce Agents」ブループリントを公開しました。商品検索から比較、カート作成、顧客対応までを会話形式で処理し、企業…</description>
+    </item>
+    <item>
+      <title>Google「Gemini 3.8 Flash」発表、サイバー防御特化モデルとFairwind Programを同時展開</title>
+      <link>https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1544792029190684774</link>
+      <guid isPermaLink="false">afnjp-1544792029190684774</guid>
+      <pubDate>Wed, 02 Sep 2026 19:32:00 GMT</pubDate>
+      <category>gemini</category>
+      <description>Googleは2026年9月2日、最新AIモデル「Gemini 3.8 Flash」とサイバーセキュリティ特化型の「Gemini 3.8 Flash Cyber」を発表しました。同時に、政府機関や重要インフラ事業者などへ高度なサイバー防御能力を提供する限定ア…</description>
+    </item>
     <item>
       <title>MrBeastがGeminiとGoogle Healthを採用、Googleと複数年提携</title>
       <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1544710880560685158</link>
@@ -70,38 +102,6 @@
       <pubDate>Tue, 01 Sep 2026 19:03:10 GMT</pubDate>
       <category>claude</category>
       <description>Anthropicは2026年9月、最新AIモデル「Claude Fable 5.1」と、研究者向けの「Claude Mythos 5.1」を発表しました。両者は同一の基盤モデルを使用しますが、安全制御の水準が異なります。Fable 5.1は一般提供され、M…</description>
-    </item>
-    <item>
-      <title>Anthropic、企業向け「Enterprise Frontier Safeguards」発表 データ保持とAI監視を分離</title>
-      <link>https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1544422276470931456</link>
-      <guid isPermaLink="false">afnjp-1544422276470931456</guid>
-      <pubDate>Tue, 01 Sep 2026 19:02:44 GMT</pubDate>
-      <category>anthropic</category>
-      <description>Anthropicは2026年9月1日、企業向けの新たな安全機構「Enterprise Frontier Safeguards（EFS）」を発表しました。顧客データをAnthropic側に保持せず、企業自身のクラウド環境に保存しながら、複数セッションにまたが…</description>
-    </item>
-    <item>
-      <title>Google、Geminiに「Agentic Video Understanding」導入 動画解析トークン最大88％削減</title>
-      <link>https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1544422159143800872</link>
-      <guid isPermaLink="false">afnjp-1544422159143800872</guid>
-      <pubDate>Tue, 01 Sep 2026 19:02:16 GMT</pubDate>
-      <category>gemini</category>
-      <description>Google DeepMindは2026年9月1日、Gemini向けの新機能「Agentic Video Understanding」を発表しました。動画全体を固定フレームレートで処理する従来方式とは異なり、AI自身が必要な場面を判断して探索・再確認すること…</description>
-    </item>
-    <item>
-      <title>AI活用は「支援」から「実行」へ、OpenAIが示すAIネイティブ企業の業務設計</title>
-      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1544421977224388629</link>
-      <guid isPermaLink="false">afnjp-1544421977224388629</guid>
-      <pubDate>Tue, 01 Sep 2026 19:01:33 GMT</pubDate>
-      <category>open-ai</category>
-      <description>OpenAIは2026年9月1日、AIエージェントを企業の業務フローへ組み込み、単なる作業支援ではなく「継続的に実行できる組織能力」へ変える方法を解説しました。Basis、Clay、Exa Labsの事例から浮かぶのは、プロンプトの工夫ではなく、コンテキスト…</description>
-    </item>
-    <item>
-      <title>ChatGPTが電子カルテと直結、OpenAIが医療機関向けEHR統合を発表</title>
-      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1544421787297644614</link>
-      <guid isPermaLink="false">afnjp-1544421787297644614</guid>
-      <pubDate>Tue, 01 Sep 2026 19:00:48 GMT</pubDate>
-      <category>open-ai</category>
-      <description>OpenAIは2026年9月1日、医療機関向け「ChatGPT for Healthcare」で、電子健康記録（EHR）と公的医療データをChatGPTへ接続する新機能を発表しました。Epicとの統合により、許可された患者情報をChatGPT上で参照できるほ…</description>
     </item>
   </channel>
 </rss>

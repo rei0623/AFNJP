@@ -1,9 +1,89 @@
 {
-  "generated_at": "2026-09-02T18:40:01.277Z",
+  "generated_at": "2026-09-02T21:47:33.684Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 128,
+  "count": 132,
   "posts": [
+    {
+      "id": "1544793552347725986",
+      "title": "Googleが「Mantis」を公開、AIで脆弱性の発見から修正まで自動化",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-09-02T19:38:03.756Z",
+      "excerpt": "Googleは2026年9月2日、ソフトウェアの脆弱性をAIで発見・選別・再現・修正するオープンソースフレームワーク「Mantis」の利用方法を公開しました。単純なAIコードスキャンではなく、リポジトリ全体の文脈や過去の修正履歴を理解し、サンドボックス環境で…",
+      "lead": "Googleは2026年9月2日、ソフトウェアの脆弱性をAIで発見・選別・再現・修正するオープンソースフレームワーク「Mantis」の利用方法を公開しました。単純なAIコードスキャンではなく、リポジトリ全体の文脈や過去の修正履歴を理解し、サンドボックス環境で実際に脆弱性を再現することで、誤検知を抑えながら実用的なセキュリティ分析を目指します。",
+      "headings": [
+        "Mantisは何を自動化するのか",
+        "巨大リポジトリでも文脈を維持",
+        "導入はGitHubから開始",
+        "AIセキュリティ運用では「文脈」が重要",
+        "今後の展望"
+      ],
+      "source_url": "https://cloud.google.com/blog/products/identity-security/getting-started-with-the-mantis-harness-to-find-and-fix-bugs/?hl=en",
+      "source_label": "cloud.google.com",
+      "cover": "assets/posts/1544793552347725986.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1544793552347725986",
+      "first_seen": "2026-09-02T19:38:03.756Z"
+    },
+    {
+      "id": "1544793367743828058",
+      "title": "Google Play Books「Book insights」が100万冊超へ、iOSにもGemini読書支援を展開",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-09-02T19:37:19.743Z",
+      "excerpt": "Googleは2026年9月2日、Google Play BooksのAI読書支援機能「Book insights」を、100万冊を超える英語電子書籍へ拡大したと発表しました。従来のAndroidアプリとWebリーダーに加え、iOS版Google Play …",
+      "lead": "Googleは2026年9月2日、Google Play BooksのAI読書支援機能「Book insights」を、100万冊を超える英語電子書籍へ拡大したと発表しました。従来のAndroidアプリとWebリーダーに加え、iOS版Google Play Booksでも利用可能になり、Geminiを活用した読書体験の提供範囲が大きく広がります。",
+      "headings": [
+        "100万冊超の電子書籍でAI読書支援",
+        "iOS対応でプラットフォームの壁を縮小",
+        "Geminiが電子書籍の「読む」を変える",
+        "今後の展望"
+      ],
+      "source_url": "https://blog.google/products-and-platforms/platforms/google-play/book-insights-ios-million-ebooks/",
+      "source_label": "blog.google",
+      "cover": "assets/posts/1544793367743828058.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1544793367743828058",
+      "first_seen": "2026-09-02T19:37:19.743Z"
+    },
+    {
+      "id": "1544793130593820702",
+      "title": "Anthropic、Claude向け「コマースエージェント」設計図を公開",
+      "channel": "anthropic",
+      "category": "Anthropic",
+      "date": "2026-09-02T19:36:23.202Z",
+      "excerpt": "Anthropicは2026年9月2日、Claudeを使ってECや旅行、通信、チケット販売向けのAIエージェントを構築するための「Commerce Agents」ブループリントを公開しました。商品検索から比較、カート作成、顧客対応までを会話形式で処理し、企業…",
+      "lead": "Anthropicは2026年9月2日、Claudeを使ってECや旅行、通信、チケット販売向けのAIエージェントを構築するための「Commerce Agents」ブループリントを公開しました。商品検索から比較、カート作成、顧客対応までを会話形式で処理し、企業が短期間で実用的なエージェントを構築できることを狙います。",
+      "headings": [
+        "買い物を会話だけで完結させるShopping Agent",
+        "Merchant Agentは店舗運営を支援",
+        "エージェント開発を「モデル選定」から「システム設計」へ",
+        "今後の展望"
+      ],
+      "source_url": "https://claude.com/blog/claude-for-commerce-agents",
+      "source_label": "claude.com",
+      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1544793130593820702",
+      "first_seen": "2026-09-02T19:36:23.202Z"
+    },
+    {
+      "id": "1544792029190684774",
+      "title": "Google「Gemini 3.8 Flash」発表、サイバー防御特化モデルとFairwind Programを同時展開",
+      "channel": "gemini",
+      "category": "Google",
+      "date": "2026-09-02T19:32:00.607Z",
+      "excerpt": "Googleは2026年9月2日、最新AIモデル「Gemini 3.8 Flash」とサイバーセキュリティ特化型の「Gemini 3.8 Flash Cyber」を発表しました。同時に、政府機関や重要インフラ事業者などへ高度なサイバー防御能力を提供する限定ア…",
+      "lead": "Googleは2026年9月2日、最新AIモデル「Gemini 3.8 Flash」とサイバーセキュリティ特化型の「Gemini 3.8 Flash Cyber」を発表しました。同時に、政府機関や重要インフラ事業者などへ高度なサイバー防御能力を提供する限定アクセス制度「Fairwind Program」も開始しています。",
+      "headings": [
+        "Gemini 3.8 Flashはエージェント処理を強化",
+        "Gemini 3.8 Flash Cyberは「発見」から「修正」へ",
+        "Fairwind Programで高度な能力を限定提供",
+        "今後の展望"
+      ],
+      "source_url": "https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/",
+      "source_label": "blog.google",
+      "cover": "assets/posts/1544792029190684774.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1544792029190684774",
+      "first_seen": "2026-09-02T19:32:00.607Z"
+    },
     {
       "id": "1544710880560685158",
       "title": "MrBeastがGeminiとGoogle Healthを採用、Googleと複数年提携",

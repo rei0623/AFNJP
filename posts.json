@@ -1,8 +1,88 @@
 {
-  "generated_at": "2026-09-02T18:40:01.279Z",
+  "generated_at": "2026-09-02T21:47:33.685Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1544793552347725986",
+      "title": "Googleが「Mantis」を公開、AIで脆弱性の発見から修正まで自動化",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-09-02T19:38:03.756Z",
+      "excerpt": "Googleは2026年9月2日、ソフトウェアの脆弱性をAIで発見・選別・再現・修正するオープンソースフレームワーク「Mantis」の利用方法を公開しました。単純なAIコードスキャンではなく、リポジトリ全体の文脈や過去の修正履歴を理解し、サンドボックス環境で…",
+      "lead": "Googleは2026年9月2日、ソフトウェアの脆弱性をAIで発見・選別・再現・修正するオープンソースフレームワーク「Mantis」の利用方法を公開しました。単純なAIコードスキャンではなく、リポジトリ全体の文脈や過去の修正履歴を理解し、サンドボックス環境で実際に脆弱性を再現することで、誤検知を抑えながら実用的なセキュリティ分析を目指します。",
+      "headings": [
+        "Mantisは何を自動化するのか",
+        "巨大リポジトリでも文脈を維持",
+        "導入はGitHubから開始",
+        "AIセキュリティ運用では「文脈」が重要",
+        "今後の展望"
+      ],
+      "source_url": "https://cloud.google.com/blog/products/identity-security/getting-started-with-the-mantis-harness-to-find-and-fix-bugs/?hl=en",
+      "source_label": "cloud.google.com",
+      "cover": "assets/posts/1544793552347725986.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1544793552347725986",
+      "first_seen": "2026-09-02T19:38:03.756Z"
+    },
+    {
+      "id": "1544793367743828058",
+      "title": "Google Play Books「Book insights」が100万冊超へ、iOSにもGemini読書支援を展開",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-09-02T19:37:19.743Z",
+      "excerpt": "Googleは2026年9月2日、Google Play BooksのAI読書支援機能「Book insights」を、100万冊を超える英語電子書籍へ拡大したと発表しました。従来のAndroidアプリとWebリーダーに加え、iOS版Google Play …",
+      "lead": "Googleは2026年9月2日、Google Play BooksのAI読書支援機能「Book insights」を、100万冊を超える英語電子書籍へ拡大したと発表しました。従来のAndroidアプリとWebリーダーに加え、iOS版Google Play Booksでも利用可能になり、Geminiを活用した読書体験の提供範囲が大きく広がります。",
+      "headings": [
+        "100万冊超の電子書籍でAI読書支援",
+        "iOS対応でプラットフォームの壁を縮小",
+        "Geminiが電子書籍の「読む」を変える",
+        "今後の展望"
+      ],
+      "source_url": "https://blog.google/products-and-platforms/platforms/google-play/book-insights-ios-million-ebooks/",
+      "source_label": "blog.google",
+      "cover": "assets/posts/1544793367743828058.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1544793367743828058",
+      "first_seen": "2026-09-02T19:37:19.743Z"
+    },
+    {
+      "id": "1544793130593820702",
+      "title": "Anthropic、Claude向け「コマースエージェント」設計図を公開",
+      "channel": "anthropic",
+      "category": "Anthropic",
+      "date": "2026-09-02T19:36:23.202Z",
+      "excerpt": "Anthropicは2026年9月2日、Claudeを使ってECや旅行、通信、チケット販売向けのAIエージェントを構築するための「Commerce Agents」ブループリントを公開しました。商品検索から比較、カート作成、顧客対応までを会話形式で処理し、企業…",
+      "lead": "Anthropicは2026年9月2日、Claudeを使ってECや旅行、通信、チケット販売向けのAIエージェントを構築するための「Commerce Agents」ブループリントを公開しました。商品検索から比較、カート作成、顧客対応までを会話形式で処理し、企業が短期間で実用的なエージェントを構築できることを狙います。",
+      "headings": [
+        "買い物を会話だけで完結させるShopping Agent",
+        "Merchant Agentは店舗運営を支援",
+        "エージェント開発を「モデル選定」から「システム設計」へ",
+        "今後の展望"
+      ],
+      "source_url": "https://claude.com/blog/claude-for-commerce-agents",
+      "source_label": "claude.com",
+      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1544793130593820702",
+      "first_seen": "2026-09-02T19:36:23.202Z"
+    },
+    {
+      "id": "1544792029190684774",
+      "title": "Google「Gemini 3.8 Flash」発表、サイバー防御特化モデルとFairwind Programを同時展開",
+      "channel": "gemini",
+      "category": "Google",
+      "date": "2026-09-02T19:32:00.607Z",
+      "excerpt": "Googleは2026年9月2日、最新AIモデル「Gemini 3.8 Flash」とサイバーセキュリティ特化型の「Gemini 3.8 Flash Cyber」を発表しました。同時に、政府機関や重要インフラ事業者などへ高度なサイバー防御能力を提供する限定ア…",
+      "lead": "Googleは2026年9月2日、最新AIモデル「Gemini 3.8 Flash」とサイバーセキュリティ特化型の「Gemini 3.8 Flash Cyber」を発表しました。同時に、政府機関や重要インフラ事業者などへ高度なサイバー防御能力を提供する限定アクセス制度「Fairwind Program」も開始しています。",
+      "headings": [
+        "Gemini 3.8 Flashはエージェント処理を強化",
+        "Gemini 3.8 Flash Cyberは「発見」から「修正」へ",
+        "Fairwind Programで高度な能力を限定提供",
+        "今後の展望"
+      ],
+      "source_url": "https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/",
+      "source_label": "blog.google",
+      "cover": "assets/posts/1544792029190684774.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1544792029190684774",
+      "first_seen": "2026-09-02T19:32:00.607Z"
+    },
     {
       "id": "1544710880560685158",
       "title": "MrBeastがGeminiとGoogle Healthを採用、Googleと複数年提携",
@@ -168,90 +248,6 @@
       "cover": "assets/posts/1544422383677612093.webp",
       "url": "https://discord.com/channels/1415350002255007784/1415353403269185546/threads/1544422383677612093",
       "first_seen": "2026-09-01T19:03:10.249Z"
-    },
-    {
-      "id": "1544422276470931456",
-      "title": "Anthropic、企業向け「Enterprise Frontier Safeguards」発表 データ保持とAI監視を分離",
-      "channel": "anthropic",
-      "category": "Anthropic",
-      "date": "2026-09-01T19:02:44.689Z",
-      "excerpt": "Anthropicは2026年9月1日、企業向けの新たな安全機構「Enterprise Frontier Safeguards（EFS）」を発表しました。顧客データをAnthropic側に保持せず、企業自身のクラウド環境に保存しながら、複数セッションにまたが…",
-      "lead": "Anthropicは2026年9月1日、企業向けの新たな安全機構「Enterprise Frontier Safeguards（EFS）」を発表しました。顧客データをAnthropic側に保持せず、企業自身のクラウド環境に保存しながら、複数セッションにまたがる不正利用を自動検知できる仕組みです。金融、医療、公共部門など厳格なデータ管理を求める組織で、最先端AI導入の障壁を下げる狙いがあります。",
-      "headings": [
-        "「ゼロデータ保持」と継続監視を両立",
-        "Anthropicの人間によるレビューを不要に",
-        "100社超と共同設計、主要クラウドにも対応",
-        "今後の展望"
-      ],
-      "source_url": "https://www.anthropic.com/news/enterprise-frontier-safeguards",
-      "source_label": "anthropic.com",
-      "cover": "assets/posts/1544422276470931456.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1544422276470931456",
-      "first_seen": "2026-09-01T19:02:44.689Z"
-    },
-    {
-      "id": "1544422159143800872",
-      "title": "Google、Geminiに「Agentic Video Understanding」導入 動画解析トークン最大88％削減",
-      "channel": "gemini",
-      "category": "Google",
-      "date": "2026-09-01T19:02:16.716Z",
-      "excerpt": "Google DeepMindは2026年9月1日、Gemini向けの新機能「Agentic Video Understanding」を発表しました。動画全体を固定フレームレートで処理する従来方式とは異なり、AI自身が必要な場面を判断して探索・再確認すること…",
-      "lead": "Google DeepMindは2026年9月1日、Gemini向けの新機能「Agentic Video Understanding」を発表しました。動画全体を固定フレームレートで処理する従来方式とは異なり、AI自身が必要な場面を判断して探索・再確認することで、動画解析の精度向上と大幅なコスト削減を両立します。",
-      "headings": [
-        "AIが「どこを見るべきか」を自ら判断",
-        "トークン最大88％、コスト最大66％削減",
-        "一瞬の変化や異常検知にも有効",
-        "APIから「agentic」を指定",
-        "今後の展望"
-      ],
-      "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-agentic-video-in-gemini/",
-      "source_label": "blog.google",
-      "cover": "assets/posts/1544422159143800872.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1544422159143800872",
-      "first_seen": "2026-09-01T19:02:16.716Z"
-    },
-    {
-      "id": "1544421977224388629",
-      "title": "AI活用は「支援」から「実行」へ、OpenAIが示すAIネイティブ企業の業務設計",
-      "channel": "open-ai",
-      "category": "Open AI",
-      "date": "2026-09-01T19:01:33.343Z",
-      "excerpt": "OpenAIは2026年9月1日、AIエージェントを企業の業務フローへ組み込み、単なる作業支援ではなく「継続的に実行できる組織能力」へ変える方法を解説しました。Basis、Clay、Exa Labsの事例から浮かぶのは、プロンプトの工夫ではなく、コンテキスト…",
-      "lead": "OpenAIは2026年9月1日、AIエージェントを企業の業務フローへ組み込み、単なる作業支援ではなく「継続的に実行できる組織能力」へ変える方法を解説しました。Basis、Clay、Exa Labsの事例から浮かぶのは、プロンプトの工夫ではなく、コンテキスト、権限、ツール、人間によるレビューまで含めて業務そのものを再設計する重要性です。",
-      "headings": [
-        "AI活用の差は「どこまで仕事を任せるか」に表れる",
-        "Basisは新人研修を「再利用可能なスキル」に",
-        "Clayは顧客ごとに常駐型エージェント",
-        "Exaは発見からコード実装までを接続",
-        "企業導入で重要になる6つの設計原則",
-        "今後の展望"
-      ],
-      "source_url": "https://openai.com/index/ai-native-company-workflows/",
-      "source_label": "openai.com",
-      "cover": "assets/posts/1544421977224388629.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1544421977224388629",
-      "first_seen": "2026-09-01T19:01:33.343Z"
-    },
-    {
-      "id": "1544421787297644614",
-      "title": "ChatGPTが電子カルテと直結、OpenAIが医療機関向けEHR統合を発表",
-      "channel": "open-ai",
-      "category": "Open AI",
-      "date": "2026-09-01T19:00:48.061Z",
-      "excerpt": "OpenAIは2026年9月1日、医療機関向け「ChatGPT for Healthcare」で、電子健康記録（EHR）と公的医療データをChatGPTへ接続する新機能を発表しました。Epicとの統合により、許可された患者情報をChatGPT上で参照できるほ…",
-      "lead": "OpenAIは2026年9月1日、医療機関向け「ChatGPT for Healthcare」で、電子健康記録（EHR）と公的医療データをChatGPTへ接続する新機能を発表しました。Epicとの統合により、許可された患者情報をChatGPT上で参照できるほか、PubMedやClinicalTrials.govなど複数の公的データソースを横断利用できます。",
-      "headings": [
-        "Epicの患者情報をChatGPTで扱えるように",
-        "PubMedなど9つの公的医療情報源を統合",
-        "医師による評価では安全性99.1％",
-        "医療AIは「回答生成」から「業務基盤」へ",
-        "今後の展望"
-      ],
-      "source_url": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources/",
-      "source_label": "openai.com",
-      "cover": "assets/posts/1544421787297644614.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1544421787297644614",
-      "first_seen": "2026-09-01T19:00:48.061Z"
     }
   ]
 }
