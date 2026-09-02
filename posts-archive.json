@@ -1,9 +1,113 @@
 {
-  "generated_at": "2026-09-02T00:11:03.267Z",
+  "generated_at": "2026-09-02T04:28:58.268Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 122,
+  "count": 127,
   "posts": [
+    {
+      "id": "1544550307865034752",
+      "title": "Qwen3.8-Max-0902公開、1Mコンテキストと強化コーディング性能を統合",
+      "channel": "qwen",
+      "category": "Alibaba",
+      "date": "2026-09-02T03:31:29.752Z",
+      "excerpt": "QwenCloudは「Qwen3.8-Max-0902」を公開しました。Qwen3.8-Maxのアップグレード版スナップショットで、コーディング、長期的な自律開発、複数ツールを扱うエージェント処理、画像・文書理解を重点的に強化しています。1Mトークンのコンテ…",
+      "lead": "QwenCloudは「Qwen3.8-Max-0902」を公開しました。Qwen3.8-Maxのアップグレード版スナップショットで、コーディング、長期的な自律開発、複数ツールを扱うエージェント処理、画像・文書理解を重点的に強化しています。1Mトークンのコンテキストや思考モードも継承しており、大規模な開発・分析ワークロードを意識したモデルです。",
+      "headings": [
+        "エンジニアリング規模のコーディングを強化",
+        "1Mコンテキスト、最大262Kの推論領域",
+        "画像・動画入力と実用機能を統合",
+        "API価格は入力100万トークン2ドル",
+        "今後の展望"
+      ],
+      "source_url": "https://www.qwencloud.com/models/qwen3.8-max-0902",
+      "source_label": "qwencloud.com",
+      "cover": "assets/posts/1544550307865034752.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1419932032716243027/threads/1544550307865034752",
+      "first_seen": "2026-09-02T03:31:29.752Z"
+    },
+    {
+      "id": "1544548223413264384",
+      "title": "GoogleのAI気象予測「WeatherNext」、台風・ハリケーン予測を高速化",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-09-02T03:23:12.780Z",
+      "excerpt": "Google DeepMindは、AIを活用した気象予測モデル「WeatherNext」によって、サイクロンの進路や強度を従来より高精度かつ高速に予測する取り組みを進めています。50年分の気象データから学習したAIを利用し、大規模スーパーコンピューターに依存…",
+      "lead": "Google DeepMindは、AIを活用した気象予測モデル「WeatherNext」によって、サイクロンの進路や強度を従来より高精度かつ高速に予測する取り組みを進めています。50年分の気象データから学習したAIを利用し、大規模スーパーコンピューターに依存してきた気象予測の計算構造そのものを変えようとしています。",
+      "headings": [
+        "物理シミュレーションからAI予測へ",
+        "5日予報から7日予報への可能性",
+        "「AIだけで天気を予測する」わけではない",
+        "オープン化で研究基盤にも",
+        "今後の展望"
+      ],
+      "source_url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/weathernext-extreme-weather-cyclone-predictions/",
+      "source_label": "blog.google",
+      "cover": "assets/posts/1544548223413264384.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1544548223413264384",
+      "first_seen": "2026-09-02T03:23:12.780Z"
+    },
+    {
+      "id": "1544548132812230716",
+      "title": "Google、衛星と深層学習で世界のメタン排出源を自動検出",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-09-02T03:22:51.179Z",
+      "excerpt": "Google Researchは、NASAの衛星観測データと深層学習を組み合わせ、世界各地のメタン排出プルームを自動検出する「MAPL-EMIT」を発表しました。専門家が確認したプルームの84％を検出し、従来手法より弱い排出も捉えられる可能性を示しています。",
+      "lead": "Google Researchは、NASAの衛星観測データと深層学習を組み合わせ、世界各地のメタン排出プルームを自動検出する「MAPL-EMIT」を発表しました。専門家が確認したプルームの84％を検出し、従来手法より弱い排出も捉えられる可能性を示しています。",
+      "headings": [
+        "衛星データから排出源まで特定",
+        "Swin Transformerで空間的な形状も解析",
+        "360万件の合成プルームで学習",
+        "専門家確認済みプルームの84％を検出",
+        "今後の展望"
+      ],
+      "source_url": "https://research.google/blog/mapping-global-methane-emissions-from-space-with-deep-learning/",
+      "source_label": "research.google",
+      "cover": "assets/posts/1544548132812230716.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1544548132812230716",
+      "first_seen": "2026-09-02T03:22:51.179Z"
+    },
+    {
+      "id": "1544547897327231006",
+      "title": "豪州大手法律事務所、ChatGPTとCodexでAIを全社業務へ拡大",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-09-02T03:21:55.035Z",
+      "excerpt": "オーストラリアの大手企業法務事務所Gilbert + Tobinは、ChatGPT EnterpriseとCodexを活用し、採用、マーケティング、財務、IT、コンプライアンスなど幅広い業務に生成AIを展開しています。特徴は、単なる効率化ではなく、厳格なガバ…",
+      "lead": "オーストラリアの大手企業法務事務所Gilbert + Tobinは、ChatGPT EnterpriseとCodexを活用し、採用、マーケティング、財務、IT、コンプライアンスなど幅広い業務に生成AIを展開しています。特徴は、単なる効率化ではなく、厳格なガバナンスと人間による最終責任を維持したまま、AIを「支援ツール」から「業務を実行する仕組み」へ発展させている点です。",
+      "headings": [
+        "ChatGPT利用率は87%、導入を支えた経営層の関与",
+        "数時間の業務を数分へ短縮",
+        "Codexで「回答」から「業務実行」へ",
+        "ガバナンスをAI導入の前提に",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/gilbert-tobin/",
+      "source_label": "openai.com",
+      "cover": "assets/posts/1544547897327231006.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1544547897327231006",
+      "first_seen": "2026-09-02T03:21:55.035Z"
+    },
+    {
+      "id": "1544547793388048476",
+      "title": "OpenAI「Astra」がサイバー能力でCritical到達、ゼロデイ発見から攻撃連鎖まで実証",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-09-02T03:21:30.254Z",
+      "excerpt": "OpenAIは2026年9月1日、開発中の「Astra」が同社のPreparedness Frameworkにおいて、サイバーセキュリティ能力の「Critical」しきい値に達したと発表しました。同社がこの水準に指定する初のモデルです。未知の脆弱性を発見し、…",
+      "lead": "OpenAIは2026年9月1日、開発中の「Astra」が同社のPreparedness Frameworkにおいて、サイバーセキュリティ能力の「Critical」しきい値に達したと発表しました。同社がこの水準に指定する初のモデルです。未知の脆弱性を発見し、人間が逐次指示しなくても攻撃手法を構築できる能力が確認されたため、公開には従来以上に強力な安全対策が導入されます。",
+      "headings": [
+        "Astraは何ができるのか",
+        "能力向上と同時に安全対策を強化",
+        "ユーザーへの影響",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/path-to-astra/",
+      "source_label": "openai.com",
+      "cover": "assets/posts/1544547793388048476.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1544547793388048476",
+      "first_seen": "2026-09-02T03:21:30.254Z"
+    },
     {
       "id": "1544426225005756476",
       "title": "Metaが「Muse Voice Transcribe」発表、リアルタイム音声AIを低遅延・多話者対応へ",

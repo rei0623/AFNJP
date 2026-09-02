@@ -5,8 +5,48 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 01 Sep 2026 19:18:26 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 02 Sep 2026 03:31:29 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Qwen3.8-Max-0902公開、1Mコンテキストと強化コーディング性能を統合</title>
+      <link>https://discord.com/channels/1415350002255007784/1419932032716243027/threads/1544550307865034752</link>
+      <guid isPermaLink="false">afnjp-1544550307865034752</guid>
+      <pubDate>Wed, 02 Sep 2026 03:31:29 GMT</pubDate>
+      <category>qwen</category>
+      <description>QwenCloudは「Qwen3.8-Max-0902」を公開しました。Qwen3.8-Maxのアップグレード版スナップショットで、コーディング、長期的な自律開発、複数ツールを扱うエージェント処理、画像・文書理解を重点的に強化しています。1Mトークンのコンテ…</description>
+    </item>
+    <item>
+      <title>GoogleのAI気象予測「WeatherNext」、台風・ハリケーン予測を高速化</title>
+      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1544548223413264384</link>
+      <guid isPermaLink="false">afnjp-1544548223413264384</guid>
+      <pubDate>Wed, 02 Sep 2026 03:23:12 GMT</pubDate>
+      <category>google</category>
+      <description>Google DeepMindは、AIを活用した気象予測モデル「WeatherNext」によって、サイクロンの進路や強度を従来より高精度かつ高速に予測する取り組みを進めています。50年分の気象データから学習したAIを利用し、大規模スーパーコンピューターに依存…</description>
+    </item>
+    <item>
+      <title>Google、衛星と深層学習で世界のメタン排出源を自動検出</title>
+      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1544548132812230716</link>
+      <guid isPermaLink="false">afnjp-1544548132812230716</guid>
+      <pubDate>Wed, 02 Sep 2026 03:22:51 GMT</pubDate>
+      <category>google</category>
+      <description>Google Researchは、NASAの衛星観測データと深層学習を組み合わせ、世界各地のメタン排出プルームを自動検出する「MAPL-EMIT」を発表しました。専門家が確認したプルームの84％を検出し、従来手法より弱い排出も捉えられる可能性を示しています。</description>
+    </item>
+    <item>
+      <title>豪州大手法律事務所、ChatGPTとCodexでAIを全社業務へ拡大</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1544547897327231006</link>
+      <guid isPermaLink="false">afnjp-1544547897327231006</guid>
+      <pubDate>Wed, 02 Sep 2026 03:21:55 GMT</pubDate>
+      <category>open-ai</category>
+      <description>オーストラリアの大手企業法務事務所Gilbert + Tobinは、ChatGPT EnterpriseとCodexを活用し、採用、マーケティング、財務、IT、コンプライアンスなど幅広い業務に生成AIを展開しています。特徴は、単なる効率化ではなく、厳格なガバ…</description>
+    </item>
+    <item>
+      <title>OpenAI「Astra」がサイバー能力でCritical到達、ゼロデイ発見から攻撃連鎖まで実証</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1544547793388048476</link>
+      <guid isPermaLink="false">afnjp-1544547793388048476</guid>
+      <pubDate>Wed, 02 Sep 2026 03:21:30 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIは2026年9月1日、開発中の「Astra」が同社のPreparedness Frameworkにおいて、サイバーセキュリティ能力の「Critical」しきい値に達したと発表しました。同社がこの水準に指定する初のモデルです。未知の脆弱性を発見し、…</description>
+    </item>
     <item>
       <title>Metaが「Muse Voice Transcribe」発表、リアルタイム音声AIを低遅延・多話者対応へ</title>
       <link>https://discord.com/channels/1415350002255007784/1441473829951111330/threads/1544426225005756476</link>
@@ -62,46 +102,6 @@
       <pubDate>Tue, 01 Sep 2026 16:14:22 GMT</pubDate>
       <category>google</category>
       <description>Googleは2026年9月1日、AIを使って画像を生成・編集できる新サービス「Google Pics」を発表しました。単独の画像編集ツールとして提供するだけでなく、Google Docs、Slides、Driveへ順次統合し、資料作成中に別アプリへ移動せず…</description>
-    </item>
-    <item>
-      <title>Studioが「Drop」を刷新、URL投入だけで既存サイトをAI Ready化</title>
-      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1544365872427044954</link>
-      <guid isPermaLink="false">afnjp-1544365872427044954</guid>
-      <pubDate>Tue, 01 Sep 2026 15:18:36 GMT</pubDate>
-      <category>その他</category>
-      <description>Web制作プラットフォームのStudioは、新しい「Studio.Drop」をClosed Betaとして公開しています。既存サイトのURLやコード資産を取り込み、AIによる編集、ビジュアル調整、ホスティング、AIエージェント連携までを一体化する「Agent…</description>
-    </item>
-    <item>
-      <title>Runway「Solaris」発表、アプリをコードではなくAIがリアルタイム生成する時代へ</title>
-      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1544364812753178774</link>
-      <guid isPermaLink="false">afnjp-1544364812753178774</guid>
-      <pubDate>Tue, 01 Sep 2026 15:14:24 GMT</pubDate>
-      <category>その他</category>
-      <description>Runwayは2026年8月31日、新たなAIモデル群「Interface World Models」の第一弾として「Solaris」を発表しました。従来のWebサイトやアプリのように事前にコードで画面と挙動を定義するのではなく、ユーザー操作に応じてAIがイ…</description>
-    </item>
-    <item>
-      <title>Manusが独立運営を再開、汎用AIエージェント開発を加速へ</title>
-      <link>https://discord.com/channels/1415350002255007784/1416105983415156887/threads/1544364543634051182</link>
-      <guid isPermaLink="false">afnjp-1544364543634051182</guid>
-      <pubDate>Tue, 01 Sep 2026 15:13:20 GMT</pubDate>
-      <category>manus</category>
-      <description>Manusは、創業チームの主導による独立運営を正式に再開したと発表しました。今後は「独立したエージェント研究所」として、汎用AIエージェントの研究と製品開発を継続し、ユーザーの仕事や日常により深く入り込む自律型AIの実現を目指します。</description>
-    </item>
-    <item>
-      <title>Perplexity、Macで「Hybrid Compute」開始 機密データを端末内AIで処理</title>
-      <link>https://discord.com/channels/1415350002255007784/1417545518539739166/threads/1544364279560540212</link>
-      <guid isPermaLink="false">afnjp-1544364279560540212</guid>
-      <pubDate>Tue, 01 Sep 2026 15:12:17 GMT</pubDate>
-      <category>perplexity</category>
-      <description>Perplexityは、AIエージェント機能「Perplexity Computer」において、クラウドAIとMac上のローカルモデルを組み合わせる「Hybrid Compute」を導入しました。検索や推論ではクラウドの性能を活用しつつ、個人情報や機密ファイ…</description>
-    </item>
-    <item>
-      <title>Microsoft、AIで「専門知」を組織全体へ拡張 マーケティング現場で年間2000時間超を削減</title>
-      <link>https://discord.com/channels/1415350002255007784/1432720743279497367/threads/1544362457252888606</link>
-      <guid isPermaLink="false">afnjp-1544362457252888606</guid>
-      <pubDate>Tue, 01 Sep 2026 15:05:02 GMT</pubDate>
-      <category>microsoft</category>
-      <description>Microsoftは、自社マーケティング組織でMicrosoft Foundryを活用し、熟練者の判断基準や業務知識をAIエージェントとして再利用する取り組みを明らかにしました。単純な作業自動化ではなく、「人が定義した専門性をAIでスケールさせる」ことが中核…</description>
     </item>
   </channel>
 </rss>

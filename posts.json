@@ -1,8 +1,112 @@
 {
-  "generated_at": "2026-09-02T00:11:03.268Z",
+  "generated_at": "2026-09-02T04:28:58.269Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1544550307865034752",
+      "title": "Qwen3.8-Max-0902公開、1Mコンテキストと強化コーディング性能を統合",
+      "channel": "qwen",
+      "category": "Alibaba",
+      "date": "2026-09-02T03:31:29.752Z",
+      "excerpt": "QwenCloudは「Qwen3.8-Max-0902」を公開しました。Qwen3.8-Maxのアップグレード版スナップショットで、コーディング、長期的な自律開発、複数ツールを扱うエージェント処理、画像・文書理解を重点的に強化しています。1Mトークンのコンテ…",
+      "lead": "QwenCloudは「Qwen3.8-Max-0902」を公開しました。Qwen3.8-Maxのアップグレード版スナップショットで、コーディング、長期的な自律開発、複数ツールを扱うエージェント処理、画像・文書理解を重点的に強化しています。1Mトークンのコンテキストや思考モードも継承しており、大規模な開発・分析ワークロードを意識したモデルです。",
+      "headings": [
+        "エンジニアリング規模のコーディングを強化",
+        "1Mコンテキスト、最大262Kの推論領域",
+        "画像・動画入力と実用機能を統合",
+        "API価格は入力100万トークン2ドル",
+        "今後の展望"
+      ],
+      "source_url": "https://www.qwencloud.com/models/qwen3.8-max-0902",
+      "source_label": "qwencloud.com",
+      "cover": "assets/posts/1544550307865034752.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1419932032716243027/threads/1544550307865034752",
+      "first_seen": "2026-09-02T03:31:29.752Z"
+    },
+    {
+      "id": "1544548223413264384",
+      "title": "GoogleのAI気象予測「WeatherNext」、台風・ハリケーン予測を高速化",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-09-02T03:23:12.780Z",
+      "excerpt": "Google DeepMindは、AIを活用した気象予測モデル「WeatherNext」によって、サイクロンの進路や強度を従来より高精度かつ高速に予測する取り組みを進めています。50年分の気象データから学習したAIを利用し、大規模スーパーコンピューターに依存…",
+      "lead": "Google DeepMindは、AIを活用した気象予測モデル「WeatherNext」によって、サイクロンの進路や強度を従来より高精度かつ高速に予測する取り組みを進めています。50年分の気象データから学習したAIを利用し、大規模スーパーコンピューターに依存してきた気象予測の計算構造そのものを変えようとしています。",
+      "headings": [
+        "物理シミュレーションからAI予測へ",
+        "5日予報から7日予報への可能性",
+        "「AIだけで天気を予測する」わけではない",
+        "オープン化で研究基盤にも",
+        "今後の展望"
+      ],
+      "source_url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/weathernext-extreme-weather-cyclone-predictions/",
+      "source_label": "blog.google",
+      "cover": "assets/posts/1544548223413264384.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1544548223413264384",
+      "first_seen": "2026-09-02T03:23:12.780Z"
+    },
+    {
+      "id": "1544548132812230716",
+      "title": "Google、衛星と深層学習で世界のメタン排出源を自動検出",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-09-02T03:22:51.179Z",
+      "excerpt": "Google Researchは、NASAの衛星観測データと深層学習を組み合わせ、世界各地のメタン排出プルームを自動検出する「MAPL-EMIT」を発表しました。専門家が確認したプルームの84％を検出し、従来手法より弱い排出も捉えられる可能性を示しています。",
+      "lead": "Google Researchは、NASAの衛星観測データと深層学習を組み合わせ、世界各地のメタン排出プルームを自動検出する「MAPL-EMIT」を発表しました。専門家が確認したプルームの84％を検出し、従来手法より弱い排出も捉えられる可能性を示しています。",
+      "headings": [
+        "衛星データから排出源まで特定",
+        "Swin Transformerで空間的な形状も解析",
+        "360万件の合成プルームで学習",
+        "専門家確認済みプルームの84％を検出",
+        "今後の展望"
+      ],
+      "source_url": "https://research.google/blog/mapping-global-methane-emissions-from-space-with-deep-learning/",
+      "source_label": "research.google",
+      "cover": "assets/posts/1544548132812230716.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1544548132812230716",
+      "first_seen": "2026-09-02T03:22:51.179Z"
+    },
+    {
+      "id": "1544547897327231006",
+      "title": "豪州大手法律事務所、ChatGPTとCodexでAIを全社業務へ拡大",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-09-02T03:21:55.035Z",
+      "excerpt": "オーストラリアの大手企業法務事務所Gilbert + Tobinは、ChatGPT EnterpriseとCodexを活用し、採用、マーケティング、財務、IT、コンプライアンスなど幅広い業務に生成AIを展開しています。特徴は、単なる効率化ではなく、厳格なガバ…",
+      "lead": "オーストラリアの大手企業法務事務所Gilbert + Tobinは、ChatGPT EnterpriseとCodexを活用し、採用、マーケティング、財務、IT、コンプライアンスなど幅広い業務に生成AIを展開しています。特徴は、単なる効率化ではなく、厳格なガバナンスと人間による最終責任を維持したまま、AIを「支援ツール」から「業務を実行する仕組み」へ発展させている点です。",
+      "headings": [
+        "ChatGPT利用率は87%、導入を支えた経営層の関与",
+        "数時間の業務を数分へ短縮",
+        "Codexで「回答」から「業務実行」へ",
+        "ガバナンスをAI導入の前提に",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/gilbert-tobin/",
+      "source_label": "openai.com",
+      "cover": "assets/posts/1544547897327231006.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1544547897327231006",
+      "first_seen": "2026-09-02T03:21:55.035Z"
+    },
+    {
+      "id": "1544547793388048476",
+      "title": "OpenAI「Astra」がサイバー能力でCritical到達、ゼロデイ発見から攻撃連鎖まで実証",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-09-02T03:21:30.254Z",
+      "excerpt": "OpenAIは2026年9月1日、開発中の「Astra」が同社のPreparedness Frameworkにおいて、サイバーセキュリティ能力の「Critical」しきい値に達したと発表しました。同社がこの水準に指定する初のモデルです。未知の脆弱性を発見し、…",
+      "lead": "OpenAIは2026年9月1日、開発中の「Astra」が同社のPreparedness Frameworkにおいて、サイバーセキュリティ能力の「Critical」しきい値に達したと発表しました。同社がこの水準に指定する初のモデルです。未知の脆弱性を発見し、人間が逐次指示しなくても攻撃手法を構築できる能力が確認されたため、公開には従来以上に強力な安全対策が導入されます。",
+      "headings": [
+        "Astraは何ができるのか",
+        "能力向上と同時に安全対策を強化",
+        "ユーザーへの影響",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/path-to-astra/",
+      "source_label": "openai.com",
+      "cover": "assets/posts/1544547793388048476.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1544547793388048476",
+      "first_seen": "2026-09-02T03:21:30.254Z"
+    },
     {
       "id": "1544426225005756476",
       "title": "Metaが「Muse Voice Transcribe」発表、リアルタイム音声AIを低遅延・多話者対応へ",
@@ -148,109 +252,6 @@
       "cover": "assets/posts/1544379905809055834.webp",
       "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1544379905809055834",
       "first_seen": "2026-09-01T16:14:22.736Z"
-    },
-    {
-      "id": "1544365872427044954",
-      "title": "Studioが「Drop」を刷新、URL投入だけで既存サイトをAI Ready化",
-      "channel": "その他",
-      "category": "その他",
-      "date": "2026-09-01T15:18:36.917Z",
-      "excerpt": "Web制作プラットフォームのStudioは、新しい「Studio.Drop」をClosed Betaとして公開しています。既存サイトのURLやコード資産を取り込み、AIによる編集、ビジュアル調整、ホスティング、AIエージェント連携までを一体化する「Agent…",
-      "lead": "Web制作プラットフォームのStudioは、新しい「Studio.Drop」をClosed Betaとして公開しています。既存サイトのURLやコード資産を取り込み、AIによる編集、ビジュアル調整、ホスティング、AIエージェント連携までを一体化する「Agentic Web Platform」を目指したサービスです。",
-      "headings": [
-        "URL・ファイル・プロンプトの3経路でサイトを取り込む",
-        "AI編集と手動デザインを行き来できる",
-        "ホスティングまで統合、MCPでClaudeやCodexとも接続",
-        "今後の展望"
-      ],
-      "source_url": "https://drop.studio.design/",
-      "source_label": "drop.studio.design",
-      "cover": "assets/posts/1544365872427044954.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1544365872427044954",
-      "first_seen": "2026-09-01T15:18:36.917Z"
-    },
-    {
-      "id": "1544364812753178774",
-      "title": "Runway「Solaris」発表、アプリをコードではなくAIがリアルタイム生成する時代へ",
-      "channel": "その他",
-      "category": "その他",
-      "date": "2026-09-01T15:14:24.271Z",
-      "excerpt": "Runwayは2026年8月31日、新たなAIモデル群「Interface World Models」の第一弾として「Solaris」を発表しました。従来のWebサイトやアプリのように事前にコードで画面と挙動を定義するのではなく、ユーザー操作に応じてAIがイ…",
-      "lead": "Runwayは2026年8月31日、新たなAIモデル群「Interface World Models」の第一弾として「Solaris」を発表しました。従来のWebサイトやアプリのように事前にコードで画面と挙動を定義するのではなく、ユーザー操作に応じてAIがインターフェースそのものをフレーム単位で生成する研究モデルです。",
-      "headings": [
-        "「画面そのもの」がアプリになる",
-        "Gen-4.5をリアルタイムエンジンへ転換",
-        "LLMが判断し、世界モデルが描画する",
-        "コード生成型UIとの比較",
-        "まだ残る大きな課題",
-        "今後の展望"
-      ],
-      "source_url": "https://runway.com/news/research/introducing-solaris",
-      "source_label": "runway.com",
-      "cover": "assets/posts/1544364812753178774.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1544364812753178774",
-      "first_seen": "2026-09-01T15:14:24.271Z"
-    },
-    {
-      "id": "1544364543634051182",
-      "title": "Manusが独立運営を再開、汎用AIエージェント開発を加速へ",
-      "channel": "manus",
-      "category": "その他",
-      "date": "2026-09-01T15:13:20.108Z",
-      "excerpt": "Manusは、創業チームの主導による独立運営を正式に再開したと発表しました。今後は「独立したエージェント研究所」として、汎用AIエージェントの研究と製品開発を継続し、ユーザーの仕事や日常により深く入り込む自律型AIの実現を目指します。",
-      "lead": "Manusは、創業チームの主導による独立運営を正式に再開したと発表しました。今後は「独立したエージェント研究所」として、汎用AIエージェントの研究と製品開発を継続し、ユーザーの仕事や日常により深く入り込む自律型AIの実現を目指します。",
-      "headings": [
-        "創業チームが引き続き経営を主導",
-        "移行ではデータ復元やアクセス中断も",
-        "より主体的に行動するAIへ",
-        "今後の展望"
-      ],
-      "source_url": "https://manus.im/ja/blog/manus-resumes-independent-operations",
-      "source_label": "manus.im",
-      "cover": "assets/posts/1544364543634051182.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1416105983415156887/threads/1544364543634051182",
-      "first_seen": "2026-09-01T15:13:20.108Z"
-    },
-    {
-      "id": "1544364279560540212",
-      "title": "Perplexity、Macで「Hybrid Compute」開始 機密データを端末内AIで処理",
-      "channel": "perplexity",
-      "category": "その他",
-      "date": "2026-09-01T15:12:17.148Z",
-      "excerpt": "Perplexityは、AIエージェント機能「Perplexity Computer」において、クラウドAIとMac上のローカルモデルを組み合わせる「Hybrid Compute」を導入しました。検索や推論ではクラウドの性能を活用しつつ、個人情報や機密ファイ…",
-      "lead": "Perplexityは、AIエージェント機能「Perplexity Computer」において、クラウドAIとMac上のローカルモデルを組み合わせる「Hybrid Compute」を導入しました。検索や推論ではクラウドの性能を活用しつつ、個人情報や機密ファイルを扱う処理を端末内に切り替えることで、利便性とプライバシーの両立を狙います。",
-      "headings": [
-        "クラウドからローカルAIへ処理を切り替え",
-        "Mac上の「Privacy Gate」がPIIを検出",
-        "AIエージェントの弱点だった「データ送信」に対応",
-        "今後の展望"
-      ],
-      "source_url": "https://www.perplexity.ai/hub/products/hybrid-compute",
-      "source_label": "perplexity.ai",
-      "cover": "assets/posts/1544364279560540212.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1417545518539739166/threads/1544364279560540212",
-      "first_seen": "2026-09-01T15:12:17.148Z"
-    },
-    {
-      "id": "1544362457252888606",
-      "title": "Microsoft、AIで「専門知」を組織全体へ拡張 マーケティング現場で年間2000時間超を削減",
-      "channel": "microsoft",
-      "category": "Microsoft",
-      "date": "2026-09-01T15:05:02.676Z",
-      "excerpt": "Microsoftは、自社マーケティング組織でMicrosoft Foundryを活用し、熟練者の判断基準や業務知識をAIエージェントとして再利用する取り組みを明らかにしました。単純な作業自動化ではなく、「人が定義した専門性をAIでスケールさせる」ことが中核…",
-      "lead": "Microsoftは、自社マーケティング組織でMicrosoft Foundryを活用し、熟練者の判断基準や業務知識をAIエージェントとして再利用する取り組みを明らかにしました。単純な作業自動化ではなく、「人が定義した専門性をAIでスケールさせる」ことが中核にあります。",
-      "headings": [
-        "製品投入が週次・日次へ、従来の運用が限界に",
-        "熟練者のレビュー基準をAIワークフロー化",
-        "顧客ペルソナでメッセージを事前検証",
-        "「エージェント導入」より業務設計が重要",
-        "今後の展望"
-      ],
-      "source_url": "https://azure.microsoft.com/en-us/blog/inside-microsofts-marketing-team-scaling-expertise-with-ai/",
-      "source_label": "azure.microsoft.com",
-      "cover": "assets/posts/1544362457252888606.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1432720743279497367/threads/1544362457252888606",
-      "first_seen": "2026-09-01T15:05:02.676Z"
     }
   ]
 }
