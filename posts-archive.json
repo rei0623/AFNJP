@@ -1,9 +1,29 @@
 {
-  "generated_at": "2026-09-02T21:47:33.684Z",
+  "generated_at": "2026-09-03T00:12:59.648Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 132,
+  "count": 133,
   "posts": [
+    {
+      "id": "1544862341819011172",
+      "title": "ChatGPT Workで「3日分の業務」を3時間に、2人企業ATV Big Air TourのAI活用",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-09-03T00:11:24.444Z",
+      "excerpt": "米国で年間約26公演を展開するATV Big Air Tourが、ChatGPT Workを業務の中核に組み込み、イベント情報確認、商品在庫管理、AI検索最適化を大幅に効率化しています。OpenAIが2026年9月2日に公開した事例では、少人数企業がAIを単…",
+      "lead": "米国で年間約26公演を展開するATV Big Air Tourが、ChatGPT Workを業務の中核に組み込み、イベント情報確認、商品在庫管理、AI検索最適化を大幅に効率化しています。OpenAIが2026年9月2日に公開した事例では、少人数企業がAIを単なる文章生成ではなく「業務フローそのもの」として活用する姿が示されています。",
+      "headings": [
+        "毎週8時間のイベント情報確認を1時間へ",
+        "写真から在庫を認識、3日仕事を2〜3時間に",
+        "SEOからAEOへ、AI検索を意識したサイト改善",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/atv-big-air-tour/",
+      "source_label": "openai.com",
+      "cover": "assets/posts/1544862341819011172.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1544862341819011172",
+      "first_seen": "2026-09-03T00:11:24.444Z"
+    },
     {
       "id": "1544793552347725986",
       "title": "Googleが「Mantis」を公開、AIで脆弱性の発見から修正まで自動化",
