@@ -5,8 +5,72 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 03 Sep 2026 00:11:24 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 04 Sep 2026 00:07:37 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Google、Kotlin向けGen AI SDK 1.0公開 Gemini開発をKMPで統一</title>
+      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1545223777095524514</link>
+      <guid isPermaLink="false">afnjp-1545223777095524514</guid>
+      <pubDate>Fri, 04 Sep 2026 00:07:37 GMT</pubDate>
+      <category>google</category>
+      <description>Google Cloudは2026年9月3日、KotlinからGeminiを利用するための「Google Gen AI SDK for Kotlin 1.0」を公開しました。Kotlin Multiplatformを前提に設計され、JVMやAndroidで、…</description>
+    </item>
+    <item>
+      <title>Runway「GWM Worlds 2」発表、生成AIがリアルタイムで動く世界そのものへ</title>
+      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1545223611185373316</link>
+      <guid isPermaLink="false">afnjp-1545223611185373316</guid>
+      <pubDate>Fri, 04 Sep 2026 00:06:57 GMT</pubDate>
+      <category>その他</category>
+      <description>Runwayは2026年9月3日、リアルタイム世界生成モデル「GWM Worlds 2」を研究プレビューとして発表しました。720p・24fpsの映像と48kHz音声を連続生成しながら、ユーザーの操作やテキスト指示に応じて人物、物体、カメラ、環境そのものを変…</description>
+    </item>
+    <item>
+      <title>Google「WeatherNext 3」発表、衛星データで毎時更新する5km級AI天気予報へ</title>
+      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1545223520751984700</link>
+      <guid isPermaLink="false">afnjp-1545223520751984700</guid>
+      <pubDate>Fri, 04 Sep 2026 00:06:36 GMT</pubDate>
+      <category>google</category>
+      <description>Google DeepMindとGoogle Researchは2026年9月3日、最新のグローバル気象AIモデル「WeatherNext 3」を発表しました。リアルタイムの衛星観測を直接取り込み、最短5kmの高解像度予報を毎時生成します。従来のWeathe…</description>
+    </item>
+    <item>
+      <title>Google Workspaceが「音声操作」へ進化、Gmail・Docs・KeepにLive機能を投入</title>
+      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1545223393522229318</link>
+      <guid isPermaLink="false">afnjp-1545223393522229318</guid>
+      <pubDate>Fri, 04 Sep 2026 00:06:05 GMT</pubDate>
+      <category>google</category>
+      <description>Googleは2026年9月3日、Gmail、Google Docs、Google Keepに、Gemini Audioモデルを活用した新しい音声対話機能を正式導入すると発表しました。単なる音声入力ではなく、ユーザーが自然な言葉で話しかけることで、メール検索…</description>
+    </item>
+    <item>
+      <title>OpenAI、重要インフラ防衛へ10億ドル 「Daybreak」でAIサイバー防御を前線へ</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1545222087256445069</link>
+      <guid isPermaLink="false">afnjp-1545222087256445069</guid>
+      <pubDate>Fri, 04 Sep 2026 00:00:54 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIは2026年9月3日、重要サービスを守るサイバー防衛担当者を支援する世界規模の新構想「Daybreak for Frontline Defenders」を発表しました。Daybreakへの補助付きアクセス、訓練、技術支援、パートナー連携に総額10…</description>
+    </item>
+    <item>
+      <title>GPT-6 Astra、財務諸表レビューを数日から数分へ Legoraが41文書を一括検証</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1545222001864474754</link>
+      <guid isPermaLink="false">afnjp-1545222001864474754</guid>
+      <pubDate>Fri, 04 Sep 2026 00:00:34 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIは2026年9月3日、リーガルテック企業Legoraが「GPT-6 Astra」を用い、財務諸表の照合作業を大幅に高速化した事例を公開しました。41文書を単一のAgent実行で数分以内にレビューし、意図的に仕込まれた4件の誤りをすべて検出したとし…</description>
+    </item>
+    <item>
+      <title>Playco、GPT-6 Astraでゲーム試作の手作業修正を50％削減</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1545221913222057994</link>
+      <guid isPermaLink="false">afnjp-1545221913222057994</guid>
+      <pubDate>Fri, 04 Sep 2026 00:00:12 GMT</pubDate>
+      <category>open-ai</category>
+      <description>Playcoは、OpenAIのGPT-6 Astraをゲーム開発向けAI IDE「Playbot」に組み込み、ゲームプロトタイピングにおける手作業の修正を従来モデル比で50％削減したと明らかにしました。単一のグレーボックスを基盤に3種類のテーマ付きゲームを生…</description>
+    </item>
+    <item>
+      <title>GPT-6 Astra登場、サイバー能力が「Critical」到達――安全対策も新段階へ</title>
+      <link>https://discord.com/channels/1415350002255007784/1415353131604377641/threads/1545221822012719175</link>
+      <guid isPermaLink="false">afnjp-1545221822012719175</guid>
+      <pubDate>Thu, 03 Sep 2026 23:59:51 GMT</pubDate>
+      <category>chatgpt</category>
+      <description>OpenAIは2026年9月3日、GPT-6 Astraの安全性概要を公開しました。Astraは同社が広範に展開するモデルとして過去最高の能力を持つ一方、Preparedness Frameworkにおいて、サイバーセキュリティ能力が初めて「Critical…</description>
+    </item>
     <item>
       <title>ChatGPT Workで「3日分の業務」を3時間に、2人企業ATV Big Air TourのAI活用</title>
       <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1544862341819011172</link>
@@ -38,70 +102,6 @@
       <pubDate>Wed, 02 Sep 2026 19:36:23 GMT</pubDate>
       <category>anthropic</category>
       <description>Anthropicは2026年9月2日、Claudeを使ってECや旅行、通信、チケット販売向けのAIエージェントを構築するための「Commerce Agents」ブループリントを公開しました。商品検索から比較、カート作成、顧客対応までを会話形式で処理し、企業…</description>
-    </item>
-    <item>
-      <title>Google「Gemini 3.8 Flash」発表、サイバー防御特化モデルとFairwind Programを同時展開</title>
-      <link>https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1544792029190684774</link>
-      <guid isPermaLink="false">afnjp-1544792029190684774</guid>
-      <pubDate>Wed, 02 Sep 2026 19:32:00 GMT</pubDate>
-      <category>gemini</category>
-      <description>Googleは2026年9月2日、最新AIモデル「Gemini 3.8 Flash」とサイバーセキュリティ特化型の「Gemini 3.8 Flash Cyber」を発表しました。同時に、政府機関や重要インフラ事業者などへ高度なサイバー防御能力を提供する限定ア…</description>
-    </item>
-    <item>
-      <title>MrBeastがGeminiとGoogle Healthを採用、Googleと複数年提携</title>
-      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1544710880560685158</link>
-      <guid isPermaLink="false">afnjp-1544710880560685158</guid>
-      <pubDate>Wed, 02 Sep 2026 14:09:33 GMT</pubDate>
-      <category>google</category>
-      <description>Googleは2026年9月2日、MrBeastことJimmy Donaldson氏率いるBeast Industriesとの複数年パートナーシップを発表しました。従来のYouTubeでの関係をGeminiとGoogle Healthへ拡大し、大規模な動画企…</description>
-    </item>
-    <item>
-      <title>Qwen3.8-Max-0902公開、1Mコンテキストと強化コーディング性能を統合</title>
-      <link>https://discord.com/channels/1415350002255007784/1419932032716243027/threads/1544550307865034752</link>
-      <guid isPermaLink="false">afnjp-1544550307865034752</guid>
-      <pubDate>Wed, 02 Sep 2026 03:31:29 GMT</pubDate>
-      <category>qwen</category>
-      <description>QwenCloudは「Qwen3.8-Max-0902」を公開しました。Qwen3.8-Maxのアップグレード版スナップショットで、コーディング、長期的な自律開発、複数ツールを扱うエージェント処理、画像・文書理解を重点的に強化しています。1Mトークンのコンテ…</description>
-    </item>
-    <item>
-      <title>GoogleのAI気象予測「WeatherNext」、台風・ハリケーン予測を高速化</title>
-      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1544548223413264384</link>
-      <guid isPermaLink="false">afnjp-1544548223413264384</guid>
-      <pubDate>Wed, 02 Sep 2026 03:23:12 GMT</pubDate>
-      <category>google</category>
-      <description>Google DeepMindは、AIを活用した気象予測モデル「WeatherNext」によって、サイクロンの進路や強度を従来より高精度かつ高速に予測する取り組みを進めています。50年分の気象データから学習したAIを利用し、大規模スーパーコンピューターに依存…</description>
-    </item>
-    <item>
-      <title>Google、衛星と深層学習で世界のメタン排出源を自動検出</title>
-      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1544548132812230716</link>
-      <guid isPermaLink="false">afnjp-1544548132812230716</guid>
-      <pubDate>Wed, 02 Sep 2026 03:22:51 GMT</pubDate>
-      <category>google</category>
-      <description>Google Researchは、NASAの衛星観測データと深層学習を組み合わせ、世界各地のメタン排出プルームを自動検出する「MAPL-EMIT」を発表しました。専門家が確認したプルームの84％を検出し、従来手法より弱い排出も捉えられる可能性を示しています。</description>
-    </item>
-    <item>
-      <title>豪州大手法律事務所、ChatGPTとCodexでAIを全社業務へ拡大</title>
-      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1544547897327231006</link>
-      <guid isPermaLink="false">afnjp-1544547897327231006</guid>
-      <pubDate>Wed, 02 Sep 2026 03:21:55 GMT</pubDate>
-      <category>open-ai</category>
-      <description>オーストラリアの大手企業法務事務所Gilbert + Tobinは、ChatGPT EnterpriseとCodexを活用し、採用、マーケティング、財務、IT、コンプライアンスなど幅広い業務に生成AIを展開しています。特徴は、単なる効率化ではなく、厳格なガバ…</description>
-    </item>
-    <item>
-      <title>OpenAI「Astra」がサイバー能力でCritical到達、ゼロデイ発見から攻撃連鎖まで実証</title>
-      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1544547793388048476</link>
-      <guid isPermaLink="false">afnjp-1544547793388048476</guid>
-      <pubDate>Wed, 02 Sep 2026 03:21:30 GMT</pubDate>
-      <category>open-ai</category>
-      <description>OpenAIは2026年9月1日、開発中の「Astra」が同社のPreparedness Frameworkにおいて、サイバーセキュリティ能力の「Critical」しきい値に達したと発表しました。同社がこの水準に指定する初のモデルです。未知の脆弱性を発見し、…</description>
-    </item>
-    <item>
-      <title>Metaが「Muse Voice Transcribe」発表、リアルタイム音声AIを低遅延・多話者対応へ</title>
-      <link>https://discord.com/channels/1415350002255007784/1441473829951111330/threads/1544426225005756476</link>
-      <guid isPermaLink="false">afnjp-1544426225005756476</guid>
-      <pubDate>Tue, 01 Sep 2026 19:18:26 GMT</pubDate>
-      <category>meta</category>
-      <description>Metaは2026年9月1日、Meta Superintelligence Labs初のリアルタイム音声認識モデル「Muse Voice Transcribe」を発表しました。ストリーミング音声認識に加え、20人超の話者識別、発話終了検出、多言語・コードスイ…</description>
     </item>
   </channel>
 </rss>

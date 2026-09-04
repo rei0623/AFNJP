@@ -1,9 +1,178 @@
 {
-  "generated_at": "2026-09-03T21:41:34.464Z",
+  "generated_at": "2026-09-04T00:07:44.943Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 133,
+  "count": 141,
   "posts": [
+    {
+      "id": "1545223777095524514",
+      "title": "Google、Kotlin向けGen AI SDK 1.0公開 Gemini開発をKMPで統一",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-09-04T00:07:37.329Z",
+      "excerpt": "Google Cloudは2026年9月3日、KotlinからGeminiを利用するための「Google Gen AI SDK for Kotlin 1.0」を公開しました。Kotlin Multiplatformを前提に設計され、JVMやAndroidで、…",
+      "lead": "Google Cloudは2026年9月3日、KotlinからGeminiを利用するための「Google Gen AI SDK for Kotlin 1.0」を公開しました。Kotlin Multiplatformを前提に設計され、JVMやAndroidで、生成AI、ストリーミング、マルチモーダル処理、Gemini Live、Function CallingなどをKotlinらしいAPIで扱えることが特徴です。",
+      "headings": [
+        "KotlinネイティブなGemini SDKが正式版に",
+        "Gemini Developer APIと企業向け環境を統一",
+        "Flowによるストリーミングから画像生成まで対応",
+        "Gemini Liveとエージェント開発も対象",
+        "今後の展望"
+      ],
+      "source_url": "https://cloud.google.com/blog/topics/developers-practitioners/announcing-the-google-gen-ai-sdk-for-kotlin-10-idiomatic-multiplatform-access-to-gemini/?hl=en",
+      "source_label": "cloud.google.com",
+      "cover": "assets/posts/1545223777095524514.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1545223777095524514",
+      "first_seen": "2026-09-04T00:07:37.329Z"
+    },
+    {
+      "id": "1545223611185373316",
+      "title": "Runway「GWM Worlds 2」発表、生成AIがリアルタイムで動く世界そのものへ",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-09-04T00:06:57.773Z",
+      "excerpt": "Runwayは2026年9月3日、リアルタイム世界生成モデル「GWM Worlds 2」を研究プレビューとして発表しました。720p・24fpsの映像と48kHz音声を連続生成しながら、ユーザーの操作やテキスト指示に応じて人物、物体、カメラ、環境そのものを変…",
+      "lead": "Runwayは2026年9月3日、リアルタイム世界生成モデル「GWM Worlds 2」を研究プレビューとして発表しました。720p・24fpsの映像と48kHz音声を連続生成しながら、ユーザーの操作やテキスト指示に応じて人物、物体、カメラ、環境そのものを変化させます。従来の動画生成を「完成した映像を作る技術」から「操作可能なシミュレーションを生成する技術」へ拡張する試みです。",
+      "headings": [
+        "映像を生成するのではなく「世界を継続生成」",
+        "核となる「WorldPrompt」",
+        "自己回帰型Diffusionで24fps生成",
+        "ゲーム、AIエージェント、ロボティクスへの可能性",
+        "現時点では整合性が課題",
+        "今後の展望"
+      ],
+      "source_url": "https://runway.com/research/introducing-gwm-worlds-2",
+      "source_label": "runway.com",
+      "cover": "assets/posts/1545223611185373316.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1545223611185373316",
+      "first_seen": "2026-09-04T00:06:57.773Z"
+    },
+    {
+      "id": "1545223520751984700",
+      "title": "Google「WeatherNext 3」発表、衛星データで毎時更新する5km級AI天気予報へ",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-09-04T00:06:36.212Z",
+      "excerpt": "Google DeepMindとGoogle Researchは2026年9月3日、最新のグローバル気象AIモデル「WeatherNext 3」を発表しました。リアルタイムの衛星観測を直接取り込み、最短5kmの高解像度予報を毎時生成します。従来のWeathe…",
+      "lead": "Google DeepMindとGoogle Researchは2026年9月3日、最新のグローバル気象AIモデル「WeatherNext 3」を発表しました。リアルタイムの衛星観測を直接取り込み、最短5kmの高解像度予報を毎時生成します。従来のWeatherNext 2と比べて空間解像度を大幅に高め、特に降水量や地域固有の気象、再生可能エネルギー向け変数の予測を強化しています。",
+      "headings": [
+        "最大の変化は「現実の観測を直接学ぶ」設計",
+        "山間部や沿岸部の局地予報を改善",
+        "降水予測は最大60％改善",
+        "再生可能エネルギーにも特化",
+        "Googleのサービスへ即時展開",
+        "今後の展望"
+      ],
+      "source_url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-weathernext-3/",
+      "source_label": "blog.google",
+      "cover": "assets/posts/1545223520751984700.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1545223520751984700",
+      "first_seen": "2026-09-04T00:06:36.212Z"
+    },
+    {
+      "id": "1545223393522229318",
+      "title": "Google Workspaceが「音声操作」へ進化、Gmail・Docs・KeepにLive機能を投入",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-09-04T00:06:05.878Z",
+      "excerpt": "Googleは2026年9月3日、Gmail、Google Docs、Google Keepに、Gemini Audioモデルを活用した新しい音声対話機能を正式導入すると発表しました。単なる音声入力ではなく、ユーザーが自然な言葉で話しかけることで、メール検索…",
+      "lead": "Googleは2026年9月3日、Gmail、Google Docs、Google Keepに、Gemini Audioモデルを活用した新しい音声対話機能を正式導入すると発表しました。単なる音声入力ではなく、ユーザーが自然な言葉で話しかけることで、メール検索、文書作成、メモ整理までを対話形式で処理できる点が大きな特徴です。",
+      "headings": [
+        "Gmail Live：メールを「検索する」から「質問する」へ",
+        "Docs Live：会話から文書構造まで生成",
+        "Keep Live：「思考の垂れ流し」を整理されたメモへ",
+        "Workspaceの操作モデルが変わる",
+        "提供対象",
+        "今後の展望"
+      ],
+      "source_url": "https://blog.google/products-and-platforms/products/workspace/voice-features-gmail-docs-keep/",
+      "source_label": "blog.google",
+      "cover": "assets/posts/1545223393522229318.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1545223393522229318",
+      "first_seen": "2026-09-04T00:06:05.878Z"
+    },
+    {
+      "id": "1545222087256445069",
+      "title": "OpenAI、重要インフラ防衛へ10億ドル 「Daybreak」でAIサイバー防御を前線へ",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-09-04T00:00:54.440Z",
+      "excerpt": "OpenAIは2026年9月3日、重要サービスを守るサイバー防衛担当者を支援する世界規模の新構想「Daybreak for Frontline Defenders」を発表しました。Daybreakへの補助付きアクセス、訓練、技術支援、パートナー連携に総額10…",
+      "lead": "OpenAIは2026年9月3日、重要サービスを守るサイバー防衛担当者を支援する世界規模の新構想「Daybreak for Frontline Defenders」を発表しました。Daybreakへの補助付きアクセス、訓練、技術支援、パートナー連携に総額10億ドルを投入し、電力、水道、自治体、金融など、社会基盤を支える組織へ高度なAI防御能力を広げます。",
+      "headings": [
+        "10億ドルを「防御側のAI能力」に投入",
+        "「Blue」と「Red」で防御業務を分離",
+        "MS-ISACと自治体・水道向けパイロット",
+        "AIサイバー防御は「発見」から「修復」へ",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/daybreak-for-frontline-defenders/",
+      "source_label": "openai.com",
+      "cover": "assets/posts/1545222087256445069.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1545222087256445069",
+      "first_seen": "2026-09-04T00:00:54.440Z"
+    },
+    {
+      "id": "1545222001864474754",
+      "title": "GPT-6 Astra、財務諸表レビューを数日から数分へ Legoraが41文書を一括検証",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-09-04T00:00:34.081Z",
+      "excerpt": "OpenAIは2026年9月3日、リーガルテック企業Legoraが「GPT-6 Astra」を用い、財務諸表の照合作業を大幅に高速化した事例を公開しました。41文書を単一のAgent実行で数分以内にレビューし、意図的に仕込まれた4件の誤りをすべて検出したとし…",
+      "lead": "OpenAIは2026年9月3日、リーガルテック企業Legoraが「GPT-6 Astra」を用い、財務諸表の照合作業を大幅に高速化した事例を公開しました。41文書を単一のAgent実行で数分以内にレビューし、意図的に仕込まれた4件の誤りをすべて検出したとしています。",
+      "headings": [
+        "41文書を横断して数字を自動照合",
+        "財務諸表ワークフローで性能が約40％向上",
+        "AIが判断者になるわけではない",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/legora-financial-statement-review-with-astra/",
+      "source_label": "openai.com",
+      "cover": "assets/posts/1545222001864474754.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1545222001864474754",
+      "first_seen": "2026-09-04T00:00:34.081Z"
+    },
+    {
+      "id": "1545221913222057994",
+      "title": "Playco、GPT-6 Astraでゲーム試作の手作業修正を50％削減",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-09-04T00:00:12.947Z",
+      "excerpt": "Playcoは、OpenAIのGPT-6 Astraをゲーム開発向けAI IDE「Playbot」に組み込み、ゲームプロトタイピングにおける手作業の修正を従来モデル比で50％削減したと明らかにしました。単一のグレーボックスを基盤に3種類のテーマ付きゲームを生…",
+      "lead": "Playcoは、OpenAIのGPT-6 Astraをゲーム開発向けAI IDE「Playbot」に組み込み、ゲームプロトタイピングにおける手作業の修正を従来モデル比で50％削減したと明らかにしました。単一のグレーボックスを基盤に3種類のテーマ付きゲームを生成し、多くが初回から動作したとしています。",
+      "headings": [
+        "AIがコードだけでなく「ゲームそのもの」を検証",
+        "1つの土台から3種類のゲームを一度に生成",
+        "ゲーム企画の検証速度を変える可能性",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/playco-game-prototyping-with-astra/",
+      "source_label": "openai.com",
+      "cover": "assets/posts/1545221913222057994.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1545221913222057994",
+      "first_seen": "2026-09-04T00:00:12.947Z"
+    },
+    {
+      "id": "1545221822012719175",
+      "title": "GPT-6 Astra登場、サイバー能力が「Critical」到達――安全対策も新段階へ",
+      "channel": "chatgpt",
+      "category": "Open AI",
+      "date": "2026-09-03T23:59:51.201Z",
+      "excerpt": "OpenAIは2026年9月3日、GPT-6 Astraの安全性概要を公開しました。Astraは同社が広範に展開するモデルとして過去最高の能力を持つ一方、Preparedness Frameworkにおいて、サイバーセキュリティ能力が初めて「Critical…",
+      "lead": "OpenAIは2026年9月3日、GPT-6 Astraの安全性概要を公開しました。Astraは同社が広範に展開するモデルとして過去最高の能力を持つ一方、Preparedness Frameworkにおいて、サイバーセキュリティ能力が初めて「Critical」水準に達したモデルです。高度化した能力に合わせ、監視・隔離・アラインメントを含む防御策も大幅に強化されています。",
+      "headings": [
+        "未知の脆弱性を発見できる水準へ",
+        "ジェイルブレイク耐性とアラインメントを強化",
+        "最大の課題は「監視しにくくなった」こと",
+        "エージェント利用でも安全性を改善",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/safety-overview-gpt-6-astra/",
+      "source_label": "openai.com",
+      "cover": "assets/posts/1545221822012719175.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415353131604377641/threads/1545221822012719175",
+      "first_seen": "2026-09-03T23:59:51.201Z"
+    },
     {
       "id": "1544862341819011172",
       "title": "ChatGPT Workで「3日分の業務」を3時間に、2人企業ATV Big Air TourのAI活用",
