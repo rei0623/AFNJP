@@ -5,8 +5,24 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 04 Sep 2026 00:07:37 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 04 Sep 2026 21:58:01 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Claude、フェルマーの最終定理を11日で完全形式化</title>
+      <link>https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1545553549419610204</link>
+      <guid isPermaLink="false">afnjp-1545553549419610204</guid>
+      <pubDate>Fri, 04 Sep 2026 21:58:01 GMT</pubDate>
+      <category>anthropic</category>
+      <description>Anthropicは2026年9月4日、Claudeが「フェルマーの最終定理」の初となるエンドツーエンドのコンピューター検証済み証明を完成させたと発表しました。Claudeは大部分を自律的に作業し、11日間で約1300万行のLeanコードを生成。AIによる数…</description>
+    </item>
+    <item>
+      <title>Google「Lyria 3.5」公開、Geminiが本格的なAI音楽制作ツールへ</title>
+      <link>https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1545552973172576307</link>
+      <guid isPermaLink="false">afnjp-1545552973172576307</guid>
+      <pubDate>Fri, 04 Sep 2026 21:55:43 GMT</pubDate>
+      <category>gemini</category>
+      <description>Googleは2026年9月4日、音楽生成モデル「Lyria 3.5」をGeminiアプリとGemini APIで提供開始しました。ボーカル表現や楽曲アレンジ、音質を強化し、一般ユーザーから開発者、クリエイターまで幅広くAIによる楽曲制作を利用できる環境を整…</description>
+    </item>
     <item>
       <title>Google、Kotlin向けGen AI SDK 1.0公開 Gemini開発をKMPで統一</title>
       <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1545223777095524514</link>
@@ -86,22 +102,6 @@
       <pubDate>Wed, 02 Sep 2026 19:38:03 GMT</pubDate>
       <category>google</category>
       <description>Googleは2026年9月2日、ソフトウェアの脆弱性をAIで発見・選別・再現・修正するオープンソースフレームワーク「Mantis」の利用方法を公開しました。単純なAIコードスキャンではなく、リポジトリ全体の文脈や過去の修正履歴を理解し、サンドボックス環境で…</description>
-    </item>
-    <item>
-      <title>Google Play Books「Book insights」が100万冊超へ、iOSにもGemini読書支援を展開</title>
-      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1544793367743828058</link>
-      <guid isPermaLink="false">afnjp-1544793367743828058</guid>
-      <pubDate>Wed, 02 Sep 2026 19:37:19 GMT</pubDate>
-      <category>google</category>
-      <description>Googleは2026年9月2日、Google Play BooksのAI読書支援機能「Book insights」を、100万冊を超える英語電子書籍へ拡大したと発表しました。従来のAndroidアプリとWebリーダーに加え、iOS版Google Play …</description>
-    </item>
-    <item>
-      <title>Anthropic、Claude向け「コマースエージェント」設計図を公開</title>
-      <link>https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1544793130593820702</link>
-      <guid isPermaLink="false">afnjp-1544793130593820702</guid>
-      <pubDate>Wed, 02 Sep 2026 19:36:23 GMT</pubDate>
-      <category>anthropic</category>
-      <description>Anthropicは2026年9月2日、Claudeを使ってECや旅行、通信、チケット販売向けのAIエージェントを構築するための「Commerce Agents」ブループリントを公開しました。商品検索から比較、カート作成、顧客対応までを会話形式で処理し、企業…</description>
     </item>
   </channel>
 </rss>

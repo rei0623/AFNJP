@@ -1,9 +1,49 @@
 {
-  "generated_at": "2026-09-04T21:26:17.489Z",
+  "generated_at": "2026-09-05T00:02:14.595Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 141,
+  "count": 143,
   "posts": [
+    {
+      "id": "1545553549419610204",
+      "title": "Claude、フェルマーの最終定理を11日で完全形式化",
+      "channel": "anthropic",
+      "category": "Anthropic",
+      "date": "2026-09-04T21:58:01.178Z",
+      "excerpt": "Anthropicは2026年9月4日、Claudeが「フェルマーの最終定理」の初となるエンドツーエンドのコンピューター検証済み証明を完成させたと発表しました。Claudeは大部分を自律的に作業し、11日間で約1300万行のLeanコードを生成。AIによる数…",
+      "lead": "Anthropicは2026年9月4日、Claudeが「フェルマーの最終定理」の初となるエンドツーエンドのコンピューター検証済み証明を完成させたと発表しました。Claudeは大部分を自律的に作業し、11日間で約1300万行のLeanコードを生成。AIによる数学研究で、証明そのものだけでなく「機械的に正しさを保証する」工程が大規模に自動化できる可能性を示しています。",
+      "headings": [
+        "13万ではなく1300万行、約3万定理を形式化",
+        "成功を支えたProve2Meとマルチエージェント",
+        "AI時代の数学で「検証」が重要になる",
+        "今後の展望"
+      ],
+      "source_url": "https://www.anthropic.com/research/formalizing-fermats-last-theorem",
+      "source_label": "anthropic.com",
+      "cover": "assets/posts/1545553549419610204.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1545553549419610204",
+      "first_seen": "2026-09-04T21:58:01.178Z"
+    },
+    {
+      "id": "1545552973172576307",
+      "title": "Google「Lyria 3.5」公開、Geminiが本格的なAI音楽制作ツールへ",
+      "channel": "gemini",
+      "category": "Google",
+      "date": "2026-09-04T21:55:43.790Z",
+      "excerpt": "Googleは2026年9月4日、音楽生成モデル「Lyria 3.5」をGeminiアプリとGemini APIで提供開始しました。ボーカル表現や楽曲アレンジ、音質を強化し、一般ユーザーから開発者、クリエイターまで幅広くAIによる楽曲制作を利用できる環境を整…",
+      "lead": "Googleは2026年9月4日、音楽生成モデル「Lyria 3.5」をGeminiアプリとGemini APIで提供開始しました。ボーカル表現や楽曲アレンジ、音質を強化し、一般ユーザーから開発者、クリエイターまで幅広くAIによる楽曲制作を利用できる環境を整えています。",
+      "headings": [
+        "Lyria 3.5で何が変わったのか",
+        "Geminiが音楽制作のインターフェースに",
+        "API提供でサービスへの組み込みも可能に",
+        "今後の展望"
+      ],
+      "source_url": "https://blog.google/innovation-and-ai/products/gemini-app/better-tracks-lyria-gemini/",
+      "source_label": "blog.google",
+      "cover": "assets/posts/1545552973172576307.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1545552973172576307",
+      "first_seen": "2026-09-04T21:55:43.790Z"
+    },
     {
       "id": "1545223777095524514",
       "title": "Google、Kotlin向けGen AI SDK 1.0公開 Gemini開発をKMPで統一",
