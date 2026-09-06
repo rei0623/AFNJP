@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T13:12:02.084Z",
+  "generated_at": "2026-09-06T13:15:52.192Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
@@ -22,25 +22,25 @@
       "cover": "assets/posts/1545553549419610204.webp",
       "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1545553549419610204",
       "first_seen": "2026-09-04T21:58:01.178Z",
-      "content_version": 1,
+      "content_version": 2,
       "source_urls": [
         "https://www.anthropic.com/research/formalizing-fermats-last-theorem"
       ],
       "summary_sections": [
         {
           "heading": "13万ではなく1300万行、約3万定理を形式化",
-          "text": "フェルマーの最終定理は、n2に対して正の整数a、b、cがaⁿ+bⁿ=cⁿを満たさないという命題です。Andrew Wilesらによる証明は1995年に確立しましたが、人間向けの数学的証明をLeanのような証明支援系で検証可能な形式へ変換する「形式化」は別の巨大な課題でした。 今回Claudeは、最終証明で利用した2万9500件を含む3万300件の定理を証明しました。コード量は約1300万行で、Anthropicによれば主要数学ライブラリMathlibの5倍以上です。 重要なのは、Claudeが新しいフェルマーの最終定理の証明を発見したわけではない点です。Darmon、Diamond、TaylorによるWilesの証明の簡略化された構成を基礎に、人間向けの論証をLeanが厳密に検査できる形へ…"
+          "text": "フェルマーの最終定理は、n>2に対して正の整数a、b、cがaⁿ+bⁿ=cⁿを満たさないという命題です。Andrew Wilesらによる証明は1995年に確立しましたが、人間向けの数学的証明をLeanのような証明支援系で検証可能な形式へ変換する「形式化」は別の巨大な課題でした。 今回Claudeは、最終証明で利用した2万9500件を含む3万300件の定理を証明しました。コード量は約1300万行で、Anthropicによれば主要数学ライブラリMathlibの5倍以上です。 重要なのは、Claudeが新しいフェルマーの最終定理の証明を発見したわけではない点です。…"
         },
         {
           "heading": "成功を支えたProve2Meとマルチエージェント",
-          "text": "初期のClaudeエージェント群は、プロジェクト全体の状態を見失い、協調が崩れる問題に直面しました。そこで導入されたのが、Columbia UniversityのTianyi Pengらが開発した共同形式化基盤「Prove2Me」です。 Prove2Meでは、定理間の依存関係をDAG（有向非巡回グラフ）として管理し、複数エージェントが次に証明すべき課題を判断できます。また、定理の宣言と証明を別ファイルへ分離してLeanのコンパイル負荷を抑え、各定理に自然言語の説明を持たせることで検索・再利用も容易にしました。 Claude Codeベースのマルチエージェント環境では約60億出力トークンを消費し、Anthropicの汎用内部研究モデルが使われました。完成した証明はLeanによって検査され、L…"
+          "text": "初期のClaudeエージェント群は、プロジェクト全体の状態を見失い、協調が崩れる問題に直面しました。そこで導入されたのが、Columbia UniversityのTianyi Pengらが開発した共同形式化基盤「Prove2Me」です。 Prove2Meでは、定理間の依存関係をDAG（有向非巡回グラフ）として管理し、複数エージェントが次に証明すべき課題を判断できます。また、定理の宣言と証明を別ファイルへ分離してLeanのコンパイル負荷を抑え、各定理に自然言語の説明を持たせることで検索・再利用も容易にしました。 Claude Codeベースのマルチエージェント環境では約60億出力トークンを消費し、Anthropicの汎用内部研究モデルが使われました。…"
         },
         {
           "heading": "AI時代の数学で「検証」が重要になる",
           "text": "LLMが多数の数学的証明を生成できるようになれば、人間がすべてを査読すること自体がボトルネックになります。形式化された証明なら、論理上の抜けや矛盾を証明支援系が機械的に検査できます。 一方、1300万行という規模や約60億トークンという計算量は、現在の自動形式化が依然として高コストであることも示しています。また形式証明は論理的正当性を確認する仕組みであり、人間が数学的アイデアを理解するための解説を置き換えるものではありません。"
         }
       ],
-      "content_checked_at": "2026-09-06T13:11:28.418Z",
+      "content_checked_at": "2026-09-06T13:15:26.419Z",
       "caution": null,
       "audience": null,
       "updated_at": null
@@ -64,7 +64,7 @@
       "cover": "assets/posts/1545552973172576307.webp",
       "url": "https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1545552973172576307",
       "first_seen": "2026-09-04T21:55:43.790Z",
-      "content_version": 1,
+      "content_version": 2,
       "source_urls": [
         "https://blog.google/innovation-and-ai/products/gemini-app/better-tracks-lyria-gemini/"
       ],
@@ -82,7 +82,7 @@
           "text": "Lyria 3.5はGemini APIでも利用可能です。開発者や技術者はGoogle AI Studioからアクセスできるため、音楽生成機能を独自アプリや制作ワークフローへ組み込む用途も考えられます。 また、GeminiのWeb版とモバイルアプリでは世界中の全ユーザーに提供され、アーティストやAIクリエイター向けにはGoogle Flow Music、映像制作ではGoogle Vidsからも利用できます。 つまりGoogleはLyria 3.5を単独の音楽生成モデルとしてではなく、Gemini、API、映像制作、クリエイティブ制作を横断する音楽生成基盤として展開しています。"
         }
       ],
-      "content_checked_at": "2026-09-06T13:11:28.558Z",
+      "content_checked_at": "2026-09-06T13:15:26.572Z",
       "caution": null,
       "audience": null,
       "updated_at": null
@@ -107,7 +107,7 @@
       "cover": "assets/posts/1545223777095524514.webp",
       "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1545223777095524514",
       "first_seen": "2026-09-04T00:07:37.329Z",
-      "content_version": 1,
+      "content_version": 2,
       "source_urls": [
         "https://cloud.google.com/blog/topics/developers-practitioners/announcing-the-google-gen-ai-sdk-for-kotlin-10-idiomatic-multiplatform-access-to-gemini/?hl=en"
       ],
@@ -122,10 +122,10 @@
         },
         {
           "heading": "Flowによるストリーミングから画像生成まで対応",
-          "text": "通常のテキスト生成に加え、generateContentStreamはFlow<GenerateContentResponseを返し、生成された断片を逐次処理できます。チャット用サービスでは会話履歴の保持やFunction CallingもSDK側が管理します。 さらに画像を入力したマルチモーダル分析ではGoogle Search Groundingを組み合わせられ、検索クエリや参照情報をレスポンスから確認できます。 Gemini 3系画像モデルによる画像生成や、既存画像と編集指示を同時に渡す対話型画像編集にも対応します。生成画像はレスポンス内のバイナリデータとして直接取得できます。"
+          "text": "通常のテキスト生成に加え、generateContentStreamはFlow<GenerateContentResponse>を返し、生成された断片を逐次処理できます。チャット用サービスでは会話履歴の保持やFunction CallingもSDK側が管理します。 さらに画像を入力したマルチモーダル分析ではGoogle Search Groundingを組み合わせられ、検索クエリや参照情報をレスポンスから確認できます。 Gemini 3系画像モデルによる画像生成や、既存画像と編集指示を同時に渡す対話型画像編集にも対応します。生成画像はレスポンス内のバイナリデータとして直接取得できます。"
         }
       ],
-      "content_checked_at": "2026-09-06T13:11:28.744Z",
+      "content_checked_at": "2026-09-06T13:15:26.706Z",
       "caution": null,
       "audience": null,
       "updated_at": null
@@ -151,7 +151,7 @@
       "cover": "assets/posts/1545223611185373316.webp",
       "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1545223611185373316",
       "first_seen": "2026-09-04T00:06:57.773Z",
-      "content_version": 1,
+      "content_version": 2,
       "source_urls": [
         "https://runway.com/research/introducing-gwm-worlds-2"
       ],
@@ -162,14 +162,14 @@
         },
         {
           "heading": "核となる「WorldPrompt」",
-          "text": "重要な技術要素が、世界の状態を記述する「WorldPrompt」です。Runwayは世界を「持続する情報」と「時間とともに変化する情報」に分離しています。 - 持続情報：環境、レイアウト、材質、照明、環境音、登場人物、物理法則、カメラ設定など - 最初のフレーム：生成世界の視覚的な基準 - イベントストリーム：移動、ジェスチャー、会話、物体操作、音などを開始・終了時刻付きで記述 - カメラ入力：フレーム単位の位置・回転操作 複数イベントを同時進行できるため、例えばキャラクターが歩きながら会話し、その間に別の人物が行動し、同時に環境が変化するといった構成も扱えます。"
+          "text": "重要な技術要素が、世界の状態を記述する「WorldPrompt」です。Runwayは世界を「持続する情報」と「時間とともに変化する情報」に分離しています。 持続情報：環境、レイアウト、材質、照明、環境音、登場人物、物理法則、カメラ設定など 最初のフレーム：生成世界の視覚的な基準 イベントストリーム：移動、ジェスチャー、会話、物体操作、音などを開始・終了時刻付きで記述 カメラ入力：フレーム単位の位置・回転操作 複数イベントを同時進行できるため、例えばキャラクターが歩きながら会話し、その間に別の人物が行動し、同時に環境が変化するといった構成も扱えます。"
         },
         {
           "heading": "自己回帰型Diffusionで24fps生成",
           "text": "モデルは自己回帰型の映像・音声Diffusionモデルです。各生成ステップでは、最初のフレームとGenesis Promptによるグローバル情報、現在フレームのカメラ・アクション入力、過去に生成したフレームを参照します。 過去情報にはSliding KV Cacheを利用し、古いフレームを順次破棄することで計算量を抑えます。映像・音声デコーダーも因果的に動作し、キャッシュによって高速化されています。 Runwayは元となる双方向モデルをWorldPrompt向けにファインチューニングした後、リアルタイム動作可能な自己回帰モデルへ追加学習しています。"
         }
       ],
-      "content_checked_at": "2026-09-06T13:11:28.891Z",
+      "content_checked_at": "2026-09-06T13:15:26.892Z",
       "caution": null,
       "audience": null,
       "updated_at": null
@@ -195,14 +195,14 @@
       "cover": "assets/posts/1545223520751984700.webp",
       "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1545223520751984700",
       "first_seen": "2026-09-04T00:06:36.212Z",
-      "content_version": 1,
+      "content_version": 2,
       "source_urls": [
         "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/introducing-weathernext-3/"
       ],
       "summary_sections": [
         {
           "heading": "最大の変化は「現実の観測を直接学ぶ」設計",
-          "text": "WeatherNext 3の重要な特徴は、従来型の数値予報モデル、NWPが生成したデータへの依存を減らし、全球の静止気象衛星による最新観測を直接利用する点です。 システムは1時間ごとの衛星モザイクと従来の解析データを取り込み、「Functional Generative Network（FGN）」と呼ばれるメッシュTransformerで処理します。そこから格子状の気象場だけでなく、サイクロンの進路や観測地点単位の予測も生成します。 WeatherNext 2が25km格子・6時間間隔だったのに対し、WeatherNext 3は用途に応じて、 - 気温や水分量など主要な地表変数：5km - その他の地表変数：10km - 風速など大気変数：25km という複数解像度で毎時予報します。Goo…"
+          "text": "WeatherNext 3の重要な特徴は、従来型の数値予報モデル、NWPが生成したデータへの依存を減らし、全球の静止気象衛星による最新観測を直接利用する点です。 システムは1時間ごとの衛星モザイクと従来の解析データを取り込み、「Functional Generative Network（FGN）」と呼ばれるメッシュTransformerで処理します。そこから格子状の気象場だけでなく、サイクロンの進路や観測地点単位の予測も生成します。 WeatherNext 2が25km格子・6時間間隔だったのに対し、WeatherNext 3は用途に応じて、 気温や水分量など主要な地表変数：5km その他の地表変数：10km 風速など大気変数：25km という複数解像度で毎時予報します。…"
         },
         {
           "heading": "山間部や沿岸部の局地予報を改善",
@@ -213,7 +213,7 @@
           "text": "降雨や降雪は局所的な雲の形成に左右されるため、全球モデルにとって難しい予測対象です。WeatherNext 3ではNASAのIMERG衛星降水データと、Google独自の衛星レーダー由来の全球降水再解析を学習に使用します。 中期予報の評価では、確率予報精度を示すCRPSについて、IMERG基準で最大60％、MRMSで30％、早期予報における雨量計測定値との比較で10％の改善が確認されたとしています。 Google製品で1日以上先を予報する場合には、降水予測精度が最大50％向上するとしています。"
         }
       ],
-      "content_checked_at": "2026-09-06T13:11:29.020Z",
+      "content_checked_at": "2026-09-06T13:15:27.014Z",
       "caution": null,
       "audience": null,
       "updated_at": null
@@ -239,7 +239,7 @@
       "cover": "assets/posts/1545223393522229318.webp",
       "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1545223393522229318",
       "first_seen": "2026-09-04T00:06:05.878Z",
-      "content_version": 1,
+      "content_version": 2,
       "source_urls": [
         "https://blog.google/products-and-platforms/products/workspace/voice-features-gmail-docs-keep/"
       ],
@@ -257,7 +257,7 @@
           "text": "Keep Liveでは、思いついた内容をそのまま話すだけで、発話を整理されたリストやメモへ変換できます。 Googleは、まとまりのない「brain dump」も処理し、実行可能な形に構造化できると説明しています。短時間でアイデアを残したい場面では、入力、整理、編集という一連の作業を大幅に減らせる可能性があります。"
         }
       ],
-      "content_checked_at": "2026-09-06T13:11:29.175Z",
+      "content_checked_at": "2026-09-06T13:15:27.167Z",
       "caution": null,
       "audience": null,
       "updated_at": null
@@ -282,7 +282,7 @@
       "cover": "assets/posts/1545222087256445069.webp",
       "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1545222087256445069",
       "first_seen": "2026-09-04T00:00:54.440Z",
-      "content_version": 1,
+      "content_version": 2,
       "source_urls": [
         "https://openai.com/index/daybreak-for-frontline-defenders/"
       ],
@@ -300,7 +300,7 @@
           "text": "今回の重要な柱が、Multi-State Information Sharing and Analysis Centerとの新たなパイロットです。 州、地方自治体、部族、準州、水道事業者などを対象に、Daybreakの利用環境だけでなく、訓練や実践的な技術支援も提供します。AIが発見した問題を人間が検証し、優先順位を決め、修復までつなげる再現可能な運用モデルの構築を目指します。 さらに「Daybreak Defense Network」では、35以上のパートナー製品・運用サービスを通じて、既存の企業向けセキュリティツールやワークフローへDaybreakモデルを組み込む計画です。"
         }
       ],
-      "content_checked_at": "2026-09-06T13:11:29.319Z",
+      "content_checked_at": "2026-09-06T13:15:27.284Z",
       "caution": null,
       "audience": null,
       "updated_at": null
@@ -324,7 +324,7 @@
       "cover": "assets/posts/1545222001864474754.webp",
       "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1545222001864474754",
       "first_seen": "2026-09-04T00:00:34.081Z",
-      "content_version": 1,
+      "content_version": 2,
       "source_urls": [
         "https://openai.com/index/legora-financial-statement-review-with-astra/"
       ],
@@ -342,7 +342,7 @@
           "text": "Legoraが強調しているのは、人間を判断ループから外していない点です。Agentは大量の比較と一次検証を担当しますが、最終的な判断は法律や財務の専門家が行います。 この構造は企業AI導入において重要です。処理速度だけを追求するのではなく、AIが「何を確認し、どこに問題を見つけたか」を記録することで、専門家が追跡・再確認できるワークフローを形成しています。 Legoraはこうした仕組みを、法律業務だけでなく監査、税務、コンプライアンス、リスク管理へ広げる方針です。"
         }
       ],
-      "content_checked_at": "2026-09-06T13:11:29.455Z",
+      "content_checked_at": "2026-09-06T13:15:27.471Z",
       "caution": null,
       "audience": null,
       "updated_at": null
@@ -366,7 +366,7 @@
       "cover": "assets/posts/1545221913222057994.webp",
       "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1545221913222057994",
       "first_seen": "2026-09-04T00:00:12.947Z",
-      "content_version": 1,
+      "content_version": 2,
       "source_urls": [
         "https://openai.com/index/playco-game-prototyping-with-astra/"
       ],
@@ -384,7 +384,7 @@
           "text": "重要なのは、生成速度だけでなく「複数案を実際に遊んで比較できる」点です。従来は10個のゲーム案があっても、すべてをプレイ可能な状態まで試作するには大きな開発コストが必要でした。 AIがエンジン内で実装、実行、検証まで担えるようになれば、企画段階で多数のアイデアを実物として比較し、面白さや操作感を基準に選別できるようになります。 一方、今回示された50％という数値はPlaycoの特定ワークフローにおける結果であり、あらゆるゲーム開発環境で同様の効果が保証されるわけではありません。性能負荷や複雑なゲームロジックでは、人間による検証も引き続き重要です。"
         }
       ],
-      "content_checked_at": "2026-09-06T13:11:29.577Z",
+      "content_checked_at": "2026-09-06T13:15:27.581Z",
       "caution": null,
       "audience": null,
       "updated_at": null
@@ -409,7 +409,7 @@
       "cover": "assets/posts/1545221822012719175.webp",
       "url": "https://discord.com/channels/1415350002255007784/1415353131604377641/threads/1545221822012719175",
       "first_seen": "2026-09-03T23:59:51.201Z",
-      "content_version": 1,
+      "content_version": 2,
       "source_urls": [
         "https://openai.com/index/safety-overview-gpt-6-astra/"
       ],
@@ -427,7 +427,7 @@
           "text": "一方、重要な懸念も明らかになりました。AstraはGPT-5.6 Solより自身のChain of Thoughtを制御する能力が高く、問題行動を示唆する情報を推論過程に残しにくい傾向があります。 敵対的な評価では、能力を意図的に低く見せる「sandbagging」によって監視を回避できるほか、一部の妨害タスクで内部モニターを回避するケースも確認されています。 通常の無害な文章に推論を隠すステガノグラフィックなChain of Thoughtの証拠は確認されていませんが、モデル能力の上昇に伴い、推論内容だけに依存しない監査技術が重要になります。"
         }
       ],
-      "content_checked_at": "2026-09-06T13:11:29.765Z",
+      "content_checked_at": "2026-09-06T13:15:27.700Z",
       "caution": null,
       "audience": null,
       "updated_at": null
@@ -451,7 +451,7 @@
       "cover": "assets/posts/1544862341819011172.webp",
       "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1544862341819011172",
       "first_seen": "2026-09-03T00:11:24.444Z",
-      "content_version": 1,
+      "content_version": 2,
       "source_urls": [
         "https://openai.com/index/atv-big-air-tour/"
       ],
@@ -469,7 +469,7 @@
           "text": "同社はGoogle検索だけでなく、ChatGPTなどAIアシスタントから発見されることを重視し、AEO（Answer Engine Optimization）にも取り組んでいます。 ChatGPT Workによる日次監査では、イベント日時、場所、チケット情報などがAIから読み取りやすい形になっているかを確認します。ある監査ではサイト内FAQの約90％をChatGPTが取得できない問題を検出し、改善策も提示しました。 同社によると、OpenAI検索およびユーザーボットからのアクセスは連続する30日間の比較で183件から2,421件へ増加し、1,223％増となりました。集計時には学習用ボットや他社AIプラットフォームを除外しています。"
         }
       ],
-      "content_checked_at": "2026-09-06T13:11:29.882Z",
+      "content_checked_at": "2026-09-06T13:15:27.850Z",
       "caution": null,
       "audience": null,
       "updated_at": null
@@ -494,7 +494,7 @@
       "cover": "assets/posts/1544793552347725986.webp",
       "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1544793552347725986",
       "first_seen": "2026-09-02T19:38:03.756Z",
-      "content_version": 1,
+      "content_version": 2,
       "source_urls": [
         "https://cloud.google.com/blog/products/identity-security/getting-started-with-the-mantis-harness-to-find-and-fix-bugs/?hl=en"
       ],
@@ -512,7 +512,7 @@
           "text": "MantisはGitHubで公開されており、リポジトリをローカル環境へcloneした後、対応するコーディングエージェントにMantisと解析対象コードのパスを指定して利用できます。 Google社内でも同様の方法で実際のコードリポジトリから脆弱性を発見しているとしています。また、利用者は付属するサンドボックス構成を使用できるほか、自社の開発環境に合わせた独自サンドボックスを実装することも可能です。"
         }
       ],
-      "content_checked_at": "2026-09-06T13:11:30.000Z",
+      "content_checked_at": "2026-09-06T13:15:27.975Z",
       "caution": null,
       "audience": null,
       "updated_at": null
