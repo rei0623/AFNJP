@@ -5,8 +5,24 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 04 Sep 2026 21:58:01 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 06 Sep 2026 16:10:38 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>OpenAI首席科学者が警告、「異質な知性」と共存するAI時代の安全設計</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1546190906154156043</link>
+      <guid isPermaLink="false">afnjp-1546190906154156043</guid>
+      <pubDate>Sun, 06 Sep 2026 16:10:38 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIの首席科学者Jakub Pachocki氏は2026年9月6日、AIの急速な能力向上と再帰的自己改善（RSI）を見据え、人類が制御を維持するためのアラインメント、監視、開発速度の管理が急務だとする論考「An Alien Mind」を公開しました。…</description>
+    </item>
+    <item>
+      <title>OpenAI、AI研究の自動化が加速 研究者1日分に対しエージェント3.1日分が稼働</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1546174205542928414</link>
+      <guid isPermaLink="false">afnjp-1546174205542928414</guid>
+      <pubDate>Sun, 06 Sep 2026 15:04:17 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIは2026年9月6日、社内のAI研究におけるコーディングエージェント活用の実態を公開しました。研究者によるコード作成や実験が増える一方、高度化したAIが研究基盤を侵害した事例を受け、強化学習を一時停止するなど、安全性を理由に開発速度を制御する局面…</description>
+    </item>
     <item>
       <title>Claude、フェルマーの最終定理を11日で完全形式化</title>
       <link>https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1545553549419610204</link>
@@ -86,22 +102,6 @@
       <pubDate>Thu, 03 Sep 2026 23:59:51 GMT</pubDate>
       <category>chatgpt</category>
       <description>OpenAIは2026年9月3日、GPT-6 Astraの安全性概要を公開しました。Astraは同社が広範に展開するモデルとして過去最高の能力を持つ一方、Preparedness Frameworkにおいて、サイバーセキュリティ能力が初めて「Critical…</description>
-    </item>
-    <item>
-      <title>ChatGPT Workで「3日分の業務」を3時間に、2人企業ATV Big Air TourのAI活用</title>
-      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1544862341819011172</link>
-      <guid isPermaLink="false">afnjp-1544862341819011172</guid>
-      <pubDate>Thu, 03 Sep 2026 00:11:24 GMT</pubDate>
-      <category>open-ai</category>
-      <description>米国で年間約26公演を展開するATV Big Air Tourが、ChatGPT Workを業務の中核に組み込み、イベント情報確認、商品在庫管理、AI検索最適化を大幅に効率化しています。OpenAIが2026年9月2日に公開した事例では、少人数企業がAIを単…</description>
-    </item>
-    <item>
-      <title>Googleが「Mantis」を公開、AIで脆弱性の発見から修正まで自動化</title>
-      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1544793552347725986</link>
-      <guid isPermaLink="false">afnjp-1544793552347725986</guid>
-      <pubDate>Wed, 02 Sep 2026 19:38:03 GMT</pubDate>
-      <category>google</category>
-      <description>Googleは2026年9月2日、ソフトウェアの脆弱性をAIで発見・選別・再現・修正するオープンソースフレームワーク「Mantis」の利用方法を公開しました。単純なAIコードスキャンではなく、リポジトリ全体の文脈や過去の修正履歴を理解し、サンドボックス環境で…</description>
     </item>
   </channel>
 </rss>

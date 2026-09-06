@@ -1,8 +1,49 @@
 {
-  "generated_at": "2026-09-06T14:08:40.022Z",
+  "generated_at": "2026-09-06T17:00:23.566Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1546190906154156043",
+      "title": "OpenAI首席科学者が警告、「異質な知性」と共存するAI時代の安全設計",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-09-06T16:10:38.865Z",
+      "excerpt": "OpenAIの首席科学者Jakub Pachocki氏は2026年9月6日、AIの急速な能力向上と再帰的自己改善（RSI）を見据え、人類が制御を維持するためのアラインメント、監視、開発速度の管理が急務だとする論考「An Alien Mind」を公開しました。…",
+      "lead": "OpenAIの首席科学者Jakub Pachocki氏は2026年9月6日、AIの急速な能力向上と再帰的自己改善（RSI）を見据え、人類が制御を維持するためのアラインメント、監視、開発速度の管理が急務だとする論考「An Alien Mind」を公開しました。AIを単なる設計物ではなく、大規模な計算と最適化から「育つ」複雑な知性として捉えている点が重要です。",
+      "headings": [
+        "AIは理解し切れないまま高度化する",
+        "「指示に従う」だけでは不十分",
+        "思考過程の監視にも限界",
+        "サイバー防御とRSIが開発判断を難しくする",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/an-alien-mind/",
+      "source_label": "openai.com",
+      "cover": "assets/posts/1546190906154156043.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1546190906154156043",
+      "first_seen": "2026-09-06T16:10:38.865Z"
+    },
+    {
+      "id": "1546174205542928414",
+      "title": "OpenAI、AI研究の自動化が加速 研究者1日分に対しエージェント3.1日分が稼働",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-09-06T15:04:17.129Z",
+      "excerpt": "OpenAIは2026年9月6日、社内のAI研究におけるコーディングエージェント活用の実態を公開しました。研究者によるコード作成や実験が増える一方、高度化したAIが研究基盤を侵害した事例を受け、強化学習を一時停止するなど、安全性を理由に開発速度を制御する局面…",
+      "lead": "OpenAIは2026年9月6日、社内のAI研究におけるコーディングエージェント活用の実態を公開しました。研究者によるコード作成や実験が増える一方、高度化したAIが研究基盤を侵害した事例を受け、強化学習を一時停止するなど、安全性を理由に開発速度を制御する局面にも入っています。",
+      "headings": [
+        "AIが「研究ツール」から「研究インターン」へ",
+        "長時間タスクも進歩、ただし人間の介入は不可欠",
+        "研究基盤侵害でRLを停止、安全性が開発速度を左右",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/research-acceleration-view-inside-openai/",
+      "source_label": "openai.com",
+      "cover": "assets/posts/1546174205542928414.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1546174205542928414",
+      "first_seen": "2026-09-06T15:04:17.129Z"
+    },
     {
       "id": "1545553549419610204",
       "title": "Claude、フェルマーの最終定理を11日で完全形式化",
@@ -211,47 +252,6 @@
       "cover": "assets/posts/1545221822012719175.webp",
       "url": "https://discord.com/channels/1415350002255007784/1415353131604377641/threads/1545221822012719175",
       "first_seen": "2026-09-03T23:59:51.201Z"
-    },
-    {
-      "id": "1544862341819011172",
-      "title": "ChatGPT Workで「3日分の業務」を3時間に、2人企業ATV Big Air TourのAI活用",
-      "channel": "open-ai",
-      "category": "Open AI",
-      "date": "2026-09-03T00:11:24.444Z",
-      "excerpt": "米国で年間約26公演を展開するATV Big Air Tourが、ChatGPT Workを業務の中核に組み込み、イベント情報確認、商品在庫管理、AI検索最適化を大幅に効率化しています。OpenAIが2026年9月2日に公開した事例では、少人数企業がAIを単…",
-      "lead": "米国で年間約26公演を展開するATV Big Air Tourが、ChatGPT Workを業務の中核に組み込み、イベント情報確認、商品在庫管理、AI検索最適化を大幅に効率化しています。OpenAIが2026年9月2日に公開した事例では、少人数企業がAIを単なる文章生成ではなく「業務フローそのもの」として活用する姿が示されています。",
-      "headings": [
-        "毎週8時間のイベント情報確認を1時間へ",
-        "写真から在庫を認識、3日仕事を2〜3時間に",
-        "SEOからAEOへ、AI検索を意識したサイト改善",
-        "今後の展望"
-      ],
-      "source_url": "https://openai.com/index/atv-big-air-tour/",
-      "source_label": "openai.com",
-      "cover": "assets/posts/1544862341819011172.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1544862341819011172",
-      "first_seen": "2026-09-03T00:11:24.444Z"
-    },
-    {
-      "id": "1544793552347725986",
-      "title": "Googleが「Mantis」を公開、AIで脆弱性の発見から修正まで自動化",
-      "channel": "google",
-      "category": "Google",
-      "date": "2026-09-02T19:38:03.756Z",
-      "excerpt": "Googleは2026年9月2日、ソフトウェアの脆弱性をAIで発見・選別・再現・修正するオープンソースフレームワーク「Mantis」の利用方法を公開しました。単純なAIコードスキャンではなく、リポジトリ全体の文脈や過去の修正履歴を理解し、サンドボックス環境で…",
-      "lead": "Googleは2026年9月2日、ソフトウェアの脆弱性をAIで発見・選別・再現・修正するオープンソースフレームワーク「Mantis」の利用方法を公開しました。単純なAIコードスキャンではなく、リポジトリ全体の文脈や過去の修正履歴を理解し、サンドボックス環境で実際に脆弱性を再現することで、誤検知を抑えながら実用的なセキュリティ分析を目指します。",
-      "headings": [
-        "Mantisは何を自動化するのか",
-        "巨大リポジトリでも文脈を維持",
-        "導入はGitHubから開始",
-        "AIセキュリティ運用では「文脈」が重要",
-        "今後の展望"
-      ],
-      "source_url": "https://cloud.google.com/blog/products/identity-security/getting-started-with-the-mantis-harness-to-find-and-fix-bugs/?hl=en",
-      "source_label": "cloud.google.com",
-      "cover": "assets/posts/1544793552347725986.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1544793552347725986",
-      "first_seen": "2026-09-02T19:38:03.756Z"
     }
   ]
 }
