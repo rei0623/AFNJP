@@ -1,7 +1,7 @@
 # AFNJP — AI Frontier News JP 公式サイト
 
-AI Frontier News JP の公式ニュースサイト。
-海外の AI ニュースを一次情報から確認し、要点・出典付きの日本語記事として配信します。全文と議論は Discord でも読めます。
+Discord コミュニティ「AI Frontier News JP」の公式ランディングページ。
+海外の AI ニュースを一次情報から確認し、出典リンク付きの日本語記事として配信するコミュニティの入口です。
 
 - **公開サイト**: https://rei0623.github.io/AFNJP/ (GitHub Pages / main ブランチ直下から配信)
 - **Discord**: https://discord.gg/WUWE6Ev7yh
@@ -10,23 +10,18 @@ AI Frontier News JP の公式ニュースサイト。
 ## 構成
 
 ```text
-index.html            トップページ(記事・チャンネル・週間欄は自動生成)
+index.html            サイト本体(単一ファイル。CSS/JS 同梱)
 archive.html          記事アーカイブの一覧(自動生成)
 posts/<id>.html       個別記事ページ(自動生成)
 manifest.webmanifest  ホーム画面に追加するための設定(PWA)
 sw.js                 Service Worker。オフライン閲覧とプッシュ通知の受け口
-push-config.json      プッシュ通知の公開設定(Worker のURLと有効化フラグのみ。鍵は入れない)
+push-config.json      プッシュ通知の公開設定(公開鍵と Worker のURL。秘密は入れない)
 push-worker/          プッシュ配信用の Cloudflare Worker(サイトからは配信されない)
 posts.json            最新記事データ(Bot が毎時自動生成)
 posts-archive.json    過去記事の蓄積。追記のみで消さない(Bot が毎時自動生成)
 channels.json         チャンネル構成データ(Bot が毎時自動生成)
 assets/posts/         記事カバー画像。640px 幅の WebP(Bot が毎時自動生成)
-assets/reader.css     全ページの共通スタイル(手で編集する)
-assets/reader-core.js 分類・検索・関連記事・カードの共通ルール
-assets/reader.js      検索・保存・閲覧履歴・共有のブラウザ操作
-assets/reader-state.js ブラウザ内保存と訪問判定のルール
-assets/subscriptions.js RSS/PWA/既存プッシュ通知の操作
-editorial.json       注目記事の選定理由・週の3本・読者案内・編集部の見方
+assets/article.css    記事ページ / アーカイブ一覧の共通スタイル(手で編集する)
 package.json          生成スクリプトの依存(sharp のみ)。サイト本体は依存を持たない
 scripts/
   sync-discord.mjs    Discord API からデータを同期するスクリプト
@@ -62,30 +57,17 @@ scripts/generate-seo.mjs
    │  feed.xml / sitemap.xml を更新してコミット
    ▼
 GitHub Pages (main ブランチ) ── HTML に記事が入った状態で配信され、
-                               ブラウザでは同じデータを使って検索・保存状態を表示する
+                               ブラウザでは JS が最新データで置き換える
 ```
 
-記事総数・最新掲載日・最新掲載日から7日間の掲載本数を、実際の記事データから生成します。
-取得できない活動グラフや人数の常時読み込み表示は使いません。
+メンバー数などの統計は、ブラウザから Discord の invite API を直接参照して表示しています。
+統計値やチャンネル件数の表示は live な値のため静的化しておらず、JavaScript が必要です。
 
 ## 開発ルール
 
-### 読者向け機能と運用
-
-- 記事検索はタイトル・リード・抜粋・企業・製品・テーマを対象とする。複数条件はAND検索。検索条件はURLに残り、ブックマークできる
-- 企業・テーマは元のカテゴリ、チャンネル、出典などから分類する。例外は `editorial.json` の記事ID別 `company` / `topics` で修正できる
-- 「あとで読む」「未閲覧」「閲覧履歴」「前回の訪問以降」はブラウザ内保存。閲覧済みは記事ページを開いたことを意味し、読了を意味しない。前回訪問は30分のセッション区切りで判定する。外部への閲覧履歴送信は行わない
-- `editorial.json` の `weekly.end` を最新記事の日本時間の日付に合わせると `weekly.ids` の3本を採用する。日付がずれた場合は最新7日間から企業が偏らないよう選び、選び方も画面に表示する。DiscordのリアクションBest 3とは別の選定
-- 記事の事実はDiscord原稿から抽出する。生成スクリプトは、対象者・注意点などが欠けていても推測で埋めない。編集部の `audience` / `commentary` は元の発表と区別して表示する
-- `Sync Discord data` を `data_only=true` で手動実行すると、通知・Discord投稿・X投稿をせずに記事データを更新できる。古い記事の出典補完は最大200本。通常は20本ずつ補完する。最近40本の内容は1日、古い記事は7日を目安に再確認する
-- RSSは記事のサイト内URLへ案内する。`guid` は従来の `afnjp-記事ID` を保ち、移行で過去記事を新着扱いにしない
-
-効果を見る際は、Search Consoleのサイト内記事への検索クリック数を公開前後28日間で比較する。
-回遊率・再訪率はアクセス解析の設定が別途必要。検索クリック数や保存件数を再訪率の代用として報告しない。
-
 - `posts.json` / `posts-archive.json` / `channels.json` / `assets/posts/` / `archive.html` / `posts/` は **Bot が自動生成するため手動編集しない**(編集しても毎時の同期で上書きされ、競合の原因になります)
 - `index.html` の **`POSTS` / `CHANNELS` / `ARCHIVE` の3組のマーカー区間も毎時自動生成される**ため手動編集しない。マーカーの外側は自由に編集できます(生成スクリプトは区間の外を1文字も変更しません)
-- 見た目は `assets/reader.css`、記事・アーカイブの構成は `scripts/lib/reader-templates.mjs` を編集する。CSSの変更時は同ファイルの `version` と index.html のアセットURLの版を揃えて更新する。既存端末に旧CSSを残さないための指定で、通知状態を持つ `sw.js` のキャッシュ名は変更しない
+- 記事ページの見た目を変えるときは `assets/article.css` を編集する。色のトークン名は `index.html` の `:root` と揃えてあるので、色を変えるときは両方を直すこと
 - `.github/workflows/` は Discord Bot トークンを使用するため、**変更前にオーナー(@rei0623)へ連絡する**
 - 変更は **ブランチ → Pull Request** で行う(main は force push / ブランチ削除が禁止されています)
 
@@ -94,7 +76,7 @@ GitHub Pages (main ブランチ) ── HTML に記事が入った状態で配�
 - **robots.txt は置いていない**: GitHub Pages のプロジェクトサイトでは robots.txt はホストルート(`rei0623.github.io/robots.txt`)にしか置けず、このリポジトリからは制御できないため。robots.txt が無い状態はクローラー全許可であり、現状はそれで問題ない
 - **sitemap.xml** は Google Search Console / Bing Webmaster Tools へ手動送信する(プロジェクトサイトでは robots.txt の Sitemap 行が使えないため)
 - **記事一覧とチャンネル一覧は静的化済み**: ChatGPT / Claude / Perplexity のクローラー(GPTBot, OAI-SearchBot, ClaudeBot, PerplexityBot)は JavaScript を実行しないため、JS で描画していた一覧はこれらから読めなかった。`generate-seo.mjs` が毎時 HTML へ書き込むことで解決している(Googlebot / Bingbot は JS を実行するので元から読めていた)
-- **個別記事ページ(`posts/<id>.html`)**: リードと短い抜粋(最大3節)、原稿にある対象者・注意点、全出典、編集部の読み方の提案、関連記事を掲載する。全文と議論へのDiscordリンクも残す。掲載日と元原稿の更新日を区別し、JSON-LDとsitemapにも反映する。抜粋や出典がまだない過去記事は、同期時に補完する
+- **個別記事ページ(`posts/<id>.html`)**: 記事1本が1URLになるので、記事が増えるほど検索対象のページが積み上がる。**本文は転載しない** —— リード(先頭の段落)・小見出しの一覧・一次情報への出典リンクだけを載せ、全文と議論は Discord へ誘導する。トップのカードとアーカイブ一覧からリンクされ、`sitemap.xml` にも全件が入る
 - **記事アーカイブ(`posts-archive.json`)**: Discord のアクティブスレッド一覧から記事が外れても、サイト側では消えないようにするための蓄積。**追記のみ**で、ここに残っている記事のカバー画像も削除されない
 - **feed.xml(RSS)の位置づけ**: 最新記事を機械可読な形で配信することが目的。リンク先は現時点では Discord のスレッド
 - **FAQPage JSON-LD** は可視 FAQ と文字列レベルで一致させている。Google の FAQ リッチリザルトは 2026-05 に廃止済みで検索結果の見た目には効かないが、JS を実行しない AI クローラーにとって機械可読な情報源になるため置いている。**可視 FAQ の文言を変えたら JSON-LD 側も必ず同時に直すこと**
@@ -130,7 +112,7 @@ sitemap を使う場合も `include` でブログ記事のパスだけに絞っ�
 
 ### 記事化ずみかの表示
 
-`posts-archive.json` の `source_url` と `source_urls` の全URLに突き合わせ、その発表を AFNJP で既に記事にしたかを出します。
+`posts-archive.json` の `source_url` と突き合わせ、その発表を AFNJP で既に記事にしたかを出します。
 
 ```text
 🔴 未記事化      … まだ書いていない
