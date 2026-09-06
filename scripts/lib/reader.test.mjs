@@ -131,3 +131,4 @@ test("local state handles invalid JSON, invalid IDs, and a fixed previous visit 
     300,
   );
 });
+test("metadata preserves mathematical operators and code identifiers",()=>{const m=articleMetadata({content:"## 数学\nn>2、a*b、x_y、**強調**。\n**参考文献**\nhttps://example.org/"});assert.equal(m.summary_sections[0].text,"n>2、a*b、x_y、強調。");assert.equal(m.source_urls.length,1);});

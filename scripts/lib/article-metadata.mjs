@@ -1,11 +1,13 @@
 import { sourceUrl } from "../../assets/reader-core.js";
-export const CONTENT_VERSION = 1;
+export const CONTENT_VERSION = 2;
 const plain = (value) =>
   String(value || "")
     .replace(/!\[[^\]]*\]\([^)]*\)/g, "")
     .replace(/\[([^\]]+)\]\([^)]*\)/g, "$1")
     .replace(/https?:\/\/\S+/g, "")
-    .replace(/[*_`>#]/g, "")
+    .replace(/^\s*(?:>\s+|[-*+]\s+|\d+\.\s+)/gm, "")
+    .replace(/(\*\*|__)([\s\S]*?)\1/g, "$2")
+    .replace(/`([^`]+)`/g, "$1")
     .replace(/\s+/g, " ")
     .trim();
 export function collectSources(msg = {}) {
@@ -49,7 +51,11 @@ export function articleMetadata(msg = {}) {
       return match ? { heading: plain(match[1]), text: plain(match[2]) } : null;
     })
     .filter((s) => s && s.text && !/参考文献|出典/.test(s.heading));
-  const shorten = (s) => (s.length > 350 ? s.slice(0, 349) + "…" : s);
+  const shorten = (s) => {
+    if (s.length <= 350) return s;
+    const cut = s.slice(0, 349), end = cut.lastIndexOf("。");
+    return (end >= 100 ? cut.slice(0, end + 1) : cut) + "…";
+  };
   const caution = sections.find((s) => /留意|注意|制約|限界/.test(s.heading));
   const audience = sections.find((s) =>
     /対象ユーザー|誰に|対象者/.test(s.heading),

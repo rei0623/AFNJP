@@ -480,7 +480,8 @@ if (!problems.length) {
         problems.push('カードの </a> の数が合いません');
     }
 }
-if (outHtml.length < 5000 || outHtml.length > 1500000) {
+if (outHtml.length < srcHtml.length * 0.5 || outHtml.length > srcHtml.length * 2
+    || outHtml.length < 5000 || outHtml.length > 1500000) {
     problems.push(`出力サイズが不自然です（${srcHtml.length} → ${outHtml.length} バイト）`);
 }
 

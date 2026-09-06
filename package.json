@@ -7,7 +7,7 @@
   "scripts": {
     "sync": "node scripts/sync-discord.mjs",
     "seo": "node scripts/generate-seo.mjs",
-    "test": "node --test \"scripts/**/*.test.mjs\""
+    "test": "node --test"
   },
   "dependencies": {
     "sharp": "^0.35.3"
