@@ -26,6 +26,7 @@ import { readFile, writeFile, mkdir, readdir, unlink, access } from 'node:fs/pro
 import { fileURLToPath } from 'node:url';
 import { dirname, resolve, extname } from 'node:path';
 import sharp from 'sharp';
+import { articleMetadata, CONTENT_VERSION } from './lib/article-metadata.mjs';
 
 const HERE = dirname(fileURLToPath(import.meta.url));
 const ROOT = resolve(HERE, '..');
@@ -87,7 +88,7 @@ function cleanTitle(name = '') {
 
 async function api(path) {
     const res = await fetch(`https://discord.com/api/v10${path}`, {
-        headers: { Authorization: `Bot ${TOKEN}`, 'User-Agent': 'AFNJP-site-sync/2.0' },
+        headers: { Authorization: `Bot ${TOKEN}`, 'User-Agent': 'DiscordBot (https://github.com/rei0623/AFNJP, 3.0)' },
     });
     if (res.status === 429) {
         const retry = Number(res.headers.get('retry-after') || 2);
@@ -207,17 +208,6 @@ function headingsOf(content = '') {
     return out.slice(0, 8);
 }
 
-/** 本文・埋め込みから一次情報のURLを拾う */
-function sourceOf(msg) {
-    const fromEmbed = msg.embeds?.find(e => e.url)?.url;
-    const fromText = (msg.content || '').match(/https?:\/\/[^\s<>)]+/g)?.find(u => !u.includes('discord'));
-    const url = fromEmbed || fromText || null;
-    if (!url) return { source_url: null, source_label: null };
-    let label = null;
-    try { label = new URL(url).hostname.replace(/^www\./, ''); } catch { }
-    return { source_url: url, source_label: label };
-}
-
 function coverUrlOf(msg) {
     for (const e of msg.embeds || []) {
         if (e.image?.url) return e.image.url;
@@ -268,15 +258,14 @@ async function fetchCover(threadId, remoteUrl) {
 const posts = [];
 
 /** アーカイブに本文由来の項目がそろっていれば、本文を取り直す必要はない */
-const isComplete = p => Boolean(p?.lead && p?.source_url && p?.headings?.length);
+const isComplete = p => p?.content_version === CONTENT_VERSION;
 
 for (const { t, created } of threads) {
     const meta = forumIds.get(t.parent_id);
     const known = archive.get(t.id);
 
-    // 記事は投稿後に書き換わらない運用なので、そろっているものは再取得しない。
-    // Discord API の呼び出し回数を記事の増分ぶんに抑える。
-    if (isComplete(known) && known.title === cleanTitle(t.name)) {
+    // 本文メタデータの移行後は24時間ごとに再確認し、記事の訂正も反映する。
+    if (isComplete(known) && known.title === cleanTitle(t.name) && Date.now() - new Date(known.content_checked_at || 0).getTime() < 24*60*60*1000) {
         posts.push(known);
         continue;
     }
@@ -289,7 +278,7 @@ for (const { t, created } of threads) {
         console.warn(`  … 「${t.name}」の本文を取得できませんでした`);
     }
 
-    const { source_url, source_label } = msg ? sourceOf(msg) : { source_url: null, source_label: null };
+    const metadata = msg ? { ...articleMetadata(msg), content_checked_at: new Date().toISOString() } : {};
 
     // カバー画像を取り込む（Discord の CDN URL は期限切れになるため）
     const cover = await fetchCover(t.id, msg && coverUrlOf(msg));
@@ -303,11 +292,27 @@ for (const { t, created } of threads) {
         excerpt: msg ? excerptOf(msg.content) || null : null,
         lead: msg ? leadOf(msg.content) || null : null,
         headings: msg ? headingsOf(msg.content) : [],
-        source_url,
-        source_label,
+        ...metadata,
         cover,
         url: `https://discord.com/channels/${GUILD_ID}/${t.parent_id}/threads/${t.id}`,
     });
+}
+
+// Refresh a bounded batch outside the active list. Failed IDs rotate to the back
+// so inaccessible/deleted threads cannot starve the rest of the archive.
+const activeIds=new Set(threads.map(({t})=>t.id));
+const backfill=[...archive.values()].filter(p=>!activeIds.has(p.id)&&(!isComplete(p)||Date.now()-new Date(p.content_checked_at||0).getTime()>7*86400000))
+    .sort((a,b)=>new Date(a.content_checked_at||0)-new Date(b.content_checked_at||0))
+    .slice(0, Math.min(200, Math.max(1, Number.parseInt(process.env.SYNC_BACKFILL_LIMIT || '20',10) || 20)));
+for(const p of backfill){
+    if(!/^\d{5,25}$/.test(p.id))continue;
+    try{
+        const msg=await api(`/channels/${p.id}/messages/${p.id}`);
+        archive.set(p.id,{...p,...articleMetadata(msg),lead:leadOf(msg.content)||p.lead,excerpt:excerptOf(msg.content)||p.excerpt,headings:headingsOf(msg.content),content_checked_at:new Date().toISOString()});
+    }catch{
+        archive.set(p.id,{...p,content_checked_at:new Date().toISOString()});
+        console.warn(`  … 過去記事 ${p.id} の本文は次回以降に再確認します`);
+    }
 }
 
 /*
@@ -324,7 +329,8 @@ if (!posts.length && prevArchive?.posts?.length) {
             ...before,
             ...Object.fromEntries(Object.entries(p).filter(([, v]) =>
                 v !== null && !(Array.isArray(v) && v.length === 0))),
-            first_seen: before?.first_seen || p.date,
+            ...(p.content_version === CONTENT_VERSION ? Object.fromEntries(["source_url","source_urls","source_label","summary_sections","caution","audience","updated_at","content_version","content_checked_at"].map(k=>[k,p[k]])) : {}),
+            first_seen: before?.first_seen || new Date().toISOString(),
         });
     }
 
