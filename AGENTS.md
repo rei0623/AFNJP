@@ -75,7 +75,7 @@ URL など)は対象外にしている。「一次情報を確認して書く」
 ## 触る前に走らせるもの
 
 ```bash
-npm test                                  # OAuth/VAPID・検索/保存・出典抽出・生成の検証
+npm test                                  # OAuth / VAPID 署名の検証（6件）
 node scripts/generate-seo.mjs             # 生成物を作り直す。検証を通らなければ何も書かない
 node scripts/web-watch.mjs --dry-run      # 33ソースが実際に取得できるか
 node scripts/web-watch.mjs --volume       # 各ソースが1日何件出しているか
@@ -155,9 +155,8 @@ X API は2026年2月に無料枠を廃止し、**URL付き投稿が $0.200/件**
   (1) アーカイブが 2026-08-12 以降しかない (それ以前の記事は存在しない)
   (2) 出典が X や GitHub の記事が全体の25%あり、公式ブログのURLと一致しない
   (3) 同じ発表が別ドメインで出る (`deepmind.google` と `blog.google` など)
-  → 2026-09-06: `source_urls` に本文・埋め込みの全URLを収集し、監視側も全URLと
-  照合するよう修正。既存記事はメタデータの版を見て再取得する。別ドメインの同一発表や
-  アーカイブ開始前の記事は、引き続き自動照合できない場合がある
+  → `sync-discord.mjs` は本文から**最初のURLしか取っていない**。参考文献の全URLを
+  拾えば大きく改善するはず。未着手
 - **Search Console のサイトマップ**が「読み込めませんでした」のまま。
   ファイル側は検証ずみで正常 (application/xml・BOMなし・パース可)
 
@@ -171,13 +170,3 @@ X API は2026年2月に無料枠を廃止し、**URL付き投稿が $0.200/件**
 - すべて通ってから一時ファイル経由で rename
 
 この設計は崩さないこと。壊れた index.html が本番に出ると、サイト全体が死ぬ。
-
-## 読者向け機能（2026-09-06）
-
-- 共通デザイン: `assets/reader.css`。カード・分類・検索: `assets/reader-core.js`
-- 記事・一覧のテンプレート: `scripts/lib/reader-templates.mjs`。編集部の補足: `editorial.json`
-- 保存と閲覧履歴はブラウザ内のみ。購読者データや `.push-sent.json` とは別物
-- `Sync Discord data` の手動実行で `data_only=true` を選ぶと、Discord投稿・X投稿・
-  プッシュ通知をすべてスキップし、過去記事を最大200本再確認する。通常同期は20本ずつ
-- CSS変更時はテンプレートの `version` と index.html のアセットURLを更新する。
-  `sw.js` の `VERSION` を安易に上げない。通知の重複防止記録が同じキャッシュにある

@@ -9,11 +9,6 @@ on:
   schedule:
     - cron: '17 * * * *' # 毎時17分（UTC）
   workflow_dispatch: # 手動実行も可
-    inputs:
-      data_only:
-        description: '記事データのみ再取得する（Discord投稿・X投稿・プッシュ通知を実行しない）'
-        type: boolean
-        default: false
 
 permissions:
   contents: write
@@ -45,7 +40,6 @@ jobs:
         env:
           DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
           DISCORD_GUILD_ID: '1415350002255007784'
-          SYNC_BACKFILL_LIMIT: ${{ inputs.data_only && '200' || '20' }}
         run: node scripts/sync-discord.mjs
 
       # 記事一覧とチャンネル一覧を index.html へ静的に焼き込み、
@@ -61,7 +55,6 @@ jobs:
       # 新しい記事の X 投稿用の下書きを組み立て、Discord の #x-下書き へ送る。
       # 失敗しても Discord データの同期は止めない。
       - name: Post X drafts to Discord
-        if: ${{ inputs.data_only != true }}
         continue-on-error: true
         env:
           DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
@@ -71,7 +64,6 @@ jobs:
       # ✅ を付けるのは人なので、承認しなければ何も出ない。
       # X の鍵（X_API_KEY など）が未設定のときは何もせず正常終了する。
       - name: Post approved drafts to X
-        if: ${{ inputs.data_only != true }}
         continue-on-error: true
         env:
           DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
@@ -85,7 +77,6 @@ jobs:
       # 送るのは「新着があった」という合図だけで、中身は各ブラウザの sw.js が組み立てる。
       # push-config.json が無効、または PUSH_SEND_TOKEN が未設定なら何もしない。
       - name: Send push notifications
-        if: ${{ inputs.data_only != true }}
         continue-on-error: true
         env:
           PUSH_SEND_TOKEN: ${{ secrets.PUSH_SEND_TOKEN }}

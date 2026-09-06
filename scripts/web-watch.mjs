@@ -266,7 +266,7 @@ function normalize(u) {
 
 const archive = await readFile(ARCHIVE, 'utf8').then(JSON.parse).catch(() => null);
 const covered = new Set(
-    (archive?.posts || []).flatMap(p => [p.source_url, ...(Array.isArray(p.source_urls) ? p.source_urls : [])]).filter(Boolean).map(normalize));
+    (archive?.posts || []).map(p => p.source_url).filter(Boolean).map(normalize));
 
 /* ═══════════ 状態 ═══════════ */
 
