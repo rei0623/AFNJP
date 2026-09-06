@@ -1,0 +1,21 @@
+name: Site checks
+on:
+  pull_request:
+  push:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '20'
+          cache: npm
+      - run: npm ci
+      - run: npm test
+      - run: npm run seo
+      - name: Generated pages are up to date
+        run: git diff --exit-code -- index.html archive.html posts feed.xml sitemap.xml

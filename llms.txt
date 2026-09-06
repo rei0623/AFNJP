@@ -13,7 +13,10 @@
 ## 機械可読データ
 
 - 最新記事一覧 (JSON): https://rei0623.github.io/AFNJP/posts.json
-  - フィールド: id, title, channel, category, date (ISO 8601), excerpt, source_url (一次情報URL), source_label, cover, url (Discordスレッド)
+  - フィールド: id, title, channel, category, date (AFNJP掲載日、ISO 8601), updated_at (原稿更新日), excerpt, lead, summary_sections, source_url, source_urls (全出典URL), source_label, cover, url (Discordスレッド)
+- 記事一覧・検索: https://rei0623.github.io/AFNJP/archive.html
+- RSS (サイト内記事へのリンク): https://rei0623.github.io/AFNJP/feed.xml
+- 全記事データ: https://rei0623.github.io/AFNJP/posts-archive.json
 - チャンネル構成 (JSON): https://rei0623.github.io/AFNJP/channels.json
 - どちらも Discord API から毎時自動更新される。
 
