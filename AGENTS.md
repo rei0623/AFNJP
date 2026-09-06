@@ -75,7 +75,7 @@ URL など)は対象外にしている。「一次情報を確認して書く」
 ## 触る前に走らせるもの
 
 ```bash
-npm test                                  # OAuth / VAPID 署名の検証（6件）
+npm test                                  # OAuth/VAPID・検索/保存・出典抽出・生成の検証
 node scripts/generate-seo.mjs             # 生成物を作り直す。検証を通らなければ何も書かない
 node scripts/web-watch.mjs --dry-run      # 33ソースが実際に取得できるか
 node scripts/web-watch.mjs --volume       # 各ソースが1日何件出しているか
