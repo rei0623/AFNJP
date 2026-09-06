@@ -99,6 +99,7 @@ export function enrich(post, notes = {}) {
   ].join(" ");
   const company =
     notes.company ||
+    companyRules.find(([, re]) => re.test(String(post.category || "")))?.[0] ||
     companyRules.find(([, re]) => re.test(companyText))?.[0] ||
     post.category ||
     "その他";
