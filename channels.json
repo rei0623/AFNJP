@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-07T10:14:07.284Z",
+  "generated_at": "2026-09-07T15:50:55.511Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 59,
+  "count": 60,
   "previous_count": 59,
   "groups": [
     {
@@ -24,6 +24,7 @@
     {
       "category": "デイリーレポート",
       "channels": [
+        "一次情報ウォッチ",
         "ニュースをおさらい！",
         "今週のニュースランキング"
       ]
