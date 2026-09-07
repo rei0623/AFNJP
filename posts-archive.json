@@ -1,9 +1,29 @@
 {
-  "generated_at": "2026-09-07T04:35:46.352Z",
+  "generated_at": "2026-09-07T10:14:11.049Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 145,
+  "count": 146,
   "posts": [
+    {
+      "id": "1546443722974171196",
+      "title": "OpenAI、ウクライナ独立系メディアのAI導入を支援",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-09-07T08:55:15.092Z",
+      "excerpt": "OpenAIは2026年9月7日、世界新聞・ニュース発行者協会WAN-IFRA、ウクライナ独立地域出版社協会AIRPPUと共同で、ウクライナの独立系ニュース組織によるAI活用を支援する新プログラムを発表しました。戦争と経済的圧力が続く中、編集業務だけでなく、…",
+      "lead": "OpenAIは2026年9月7日、世界新聞・ニュース発行者協会WAN-IFRA、ウクライナ独立地域出版社協会AIRPPUと共同で、ウクライナの独立系ニュース組織によるAI活用を支援する新プログラムを発表しました。戦争と経済的圧力が続く中、編集業務だけでなく、事業運営や収益面まで含めてメディアの持続可能性を高める狙いです。",
+      "headings": [
+        "編集と事業の両面でAI導入を支援",
+        "10社には実装まで踏み込む支援",
+        "AIの目的は「記者の時間を取り戻す」こと",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/supporting-independent-journalism-in-ukraine/",
+      "source_label": "openai.com",
+      "cover": "assets/posts/1546443722974171196.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1546443722974171196",
+      "first_seen": "2026-09-07T08:55:15.092Z"
+    },
     {
       "id": "1546190906154156043",
       "title": "OpenAI首席科学者が警告、「異質な知性」と共存するAI時代の安全設計",

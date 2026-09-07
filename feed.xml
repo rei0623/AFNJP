@@ -5,8 +5,16 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 06 Sep 2026 16:10:38 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 07 Sep 2026 08:55:15 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>OpenAI、ウクライナ独立系メディアのAI導入を支援</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1546443722974171196</link>
+      <guid isPermaLink="false">afnjp-1546443722974171196</guid>
+      <pubDate>Mon, 07 Sep 2026 08:55:15 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIは2026年9月7日、世界新聞・ニュース発行者協会WAN-IFRA、ウクライナ独立地域出版社協会AIRPPUと共同で、ウクライナの独立系ニュース組織によるAI活用を支援する新プログラムを発表しました。戦争と経済的圧力が続く中、編集業務だけでなく、…</description>
+    </item>
     <item>
       <title>OpenAI首席科学者が警告、「異質な知性」と共存するAI時代の安全設計</title>
       <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1546190906154156043</link>
@@ -94,14 +102,6 @@
       <pubDate>Fri, 04 Sep 2026 00:00:12 GMT</pubDate>
       <category>open-ai</category>
       <description>Playcoは、OpenAIのGPT-6 Astraをゲーム開発向けAI IDE「Playbot」に組み込み、ゲームプロトタイピングにおける手作業の修正を従来モデル比で50％削減したと明らかにしました。単一のグレーボックスを基盤に3種類のテーマ付きゲームを生…</description>
-    </item>
-    <item>
-      <title>GPT-6 Astra登場、サイバー能力が「Critical」到達――安全対策も新段階へ</title>
-      <link>https://discord.com/channels/1415350002255007784/1415353131604377641/threads/1545221822012719175</link>
-      <guid isPermaLink="false">afnjp-1545221822012719175</guid>
-      <pubDate>Thu, 03 Sep 2026 23:59:51 GMT</pubDate>
-      <category>chatgpt</category>
-      <description>OpenAIは2026年9月3日、GPT-6 Astraの安全性概要を公開しました。Astraは同社が広範に展開するモデルとして過去最高の能力を持つ一方、Preparedness Frameworkにおいて、サイバーセキュリティ能力が初めて「Critical…</description>
     </item>
   </channel>
 </rss>
