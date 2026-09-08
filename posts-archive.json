@@ -1,9 +1,69 @@
 {
-  "generated_at": "2026-09-08T11:13:56.973Z",
+  "generated_at": "2026-09-08T15:06:02.188Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 146,
+  "count": 149,
   "posts": [
+    {
+      "id": "1546870559927959592",
+      "title": "Mistral AIが30億ユーロ調達、主戦場は「主権AI」のフルスタック競争へ",
+      "channel": "mistral-ai",
+      "category": "その他",
+      "date": "2026-09-08T13:11:20.952Z",
+      "excerpt": "Mistral AIは、シリーズDで30億ユーロを調達し、ポストマネー評価額が210億ユーロ超になったと発表しました。Samsung Electronicsが主導し、Scaleup Europe Fundと既存投資家PSG Equityが共同主導します。同社…",
+      "lead": "Mistral AIは、シリーズDで30億ユーロを調達し、ポストマネー評価額が210億ユーロ超になったと発表しました。Samsung Electronicsが主導し、Scaleup Europe Fundと既存投資家PSG Equityが共同主導します。同社は資金を、最先端AI研究、計算能力、インフラ、商用展開の拡大に投入します。",
+      "headings": [
+        "競争軸を「モデル性能」から「AIを誰が支配するか」へ",
+        "30億ユーロが強化する「フルスタックAI」",
+        "企業導入では「性能以外」の評価がさらに重要に",
+        "今後の展望"
+      ],
+      "source_url": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/",
+      "source_label": "mistral.ai",
+      "cover": "assets/posts/1546870559927959592.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1460897850354438283/threads/1546870559927959592",
+      "first_seen": "2026-09-08T13:11:20.952Z"
+    },
+    {
+      "id": "1546870447545655316",
+      "title": "OpenAI、AI時代のジャーナリズム支援を拡大",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-09-08T13:10:54.158Z",
+      "excerpt": "OpenAIは2026年9月8日、ジャーナリズム教育から実際のニュースルームまでを対象とする包括的な支援策を発表しました。AIツールの提供だけでなく、教育、実践的トレーニング、技術支援、業界との知見共有を組み合わせ、報道現場での責任あるAI活用を広げる狙いで…",
+      "lead": "OpenAIは2026年9月8日、ジャーナリズム教育から実際のニュースルームまでを対象とする包括的な支援策を発表しました。AIツールの提供だけでなく、教育、実践的トレーニング、技術支援、業界との知見共有を組み合わせ、報道現場での責任あるAI活用を広げる狙いです。",
+      "headings": [
+        "400超のChatGPT Eduをジャーナリズム教育へ",
+        "AIは「記事を書く道具」だけではない",
+        "ニュースルーム支援も継続",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/supporting-journalism-from-classrooms-to-newsrooms/",
+      "source_label": "openai.com",
+      "cover": "assets/posts/1546870447545655316.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1546870447545655316",
+      "first_seen": "2026-09-08T13:10:54.158Z"
+    },
+    {
+      "id": "1546870359024861205",
+      "title": "OpenAIが描く「AIで仕事の採算ラインが変わる」未来、GPT-6と自社推論チップが支える成長戦略",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-09-08T13:10:33.053Z",
+      "excerpt": "OpenAIは2026年9月8日、AIの能力向上と計算コスト低下によって、従来は時間や専門人材、費用の問題で実行できなかった仕事が現実的になるとの見通しを示しました。その基盤として、GPT-6 Astra、AIエージェント、独自推論チップ「Jalapeño」…",
+      "lead": "OpenAIは2026年9月8日、AIの能力向上と計算コスト低下によって、従来は時間や専門人材、費用の問題で実行できなかった仕事が現実的になるとの見通しを示しました。その基盤として、GPT-6 Astra、AIエージェント、独自推論チップ「Jalapeño」、消費者・法人の双方に広がるサービス基盤を挙げています。",
+      "headings": [
+        "AIが「できる仕事」ではなく「採算の合う仕事」を増やす",
+        "GPT-6とフルスタック計算基盤",
+        "消費者と企業を循環させるビジネスモデル",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/the-work-now-within-reach/",
+      "source_label": "openai.com",
+      "cover": "assets/posts/1546870359024861205.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1546870359024861205",
+      "first_seen": "2026-09-08T13:10:33.053Z"
+    },
     {
       "id": "1546443722974171196",
       "title": "OpenAI、ウクライナ独立系メディアのAI導入を支援",

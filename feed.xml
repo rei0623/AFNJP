@@ -5,8 +5,32 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 07 Sep 2026 08:55:15 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 08 Sep 2026 13:11:20 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Mistral AIが30億ユーロ調達、主戦場は「主権AI」のフルスタック競争へ</title>
+      <link>https://discord.com/channels/1415350002255007784/1460897850354438283/threads/1546870559927959592</link>
+      <guid isPermaLink="false">afnjp-1546870559927959592</guid>
+      <pubDate>Tue, 08 Sep 2026 13:11:20 GMT</pubDate>
+      <category>mistral-ai</category>
+      <description>Mistral AIは、シリーズDで30億ユーロを調達し、ポストマネー評価額が210億ユーロ超になったと発表しました。Samsung Electronicsが主導し、Scaleup Europe Fundと既存投資家PSG Equityが共同主導します。同社…</description>
+    </item>
+    <item>
+      <title>OpenAI、AI時代のジャーナリズム支援を拡大</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1546870447545655316</link>
+      <guid isPermaLink="false">afnjp-1546870447545655316</guid>
+      <pubDate>Tue, 08 Sep 2026 13:10:54 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIは2026年9月8日、ジャーナリズム教育から実際のニュースルームまでを対象とする包括的な支援策を発表しました。AIツールの提供だけでなく、教育、実践的トレーニング、技術支援、業界との知見共有を組み合わせ、報道現場での責任あるAI活用を広げる狙いで…</description>
+    </item>
+    <item>
+      <title>OpenAIが描く「AIで仕事の採算ラインが変わる」未来、GPT-6と自社推論チップが支える成長戦略</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1546870359024861205</link>
+      <guid isPermaLink="false">afnjp-1546870359024861205</guid>
+      <pubDate>Tue, 08 Sep 2026 13:10:33 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIは2026年9月8日、AIの能力向上と計算コスト低下によって、従来は時間や専門人材、費用の問題で実行できなかった仕事が現実的になるとの見通しを示しました。その基盤として、GPT-6 Astra、AIエージェント、独自推論チップ「Jalapeño」…</description>
+    </item>
     <item>
       <title>OpenAI、ウクライナ独立系メディアのAI導入を支援</title>
       <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1546443722974171196</link>
@@ -78,30 +102,6 @@
       <pubDate>Fri, 04 Sep 2026 00:06:05 GMT</pubDate>
       <category>google</category>
       <description>Googleは2026年9月3日、Gmail、Google Docs、Google Keepに、Gemini Audioモデルを活用した新しい音声対話機能を正式導入すると発表しました。単なる音声入力ではなく、ユーザーが自然な言葉で話しかけることで、メール検索…</description>
-    </item>
-    <item>
-      <title>OpenAI、重要インフラ防衛へ10億ドル 「Daybreak」でAIサイバー防御を前線へ</title>
-      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1545222087256445069</link>
-      <guid isPermaLink="false">afnjp-1545222087256445069</guid>
-      <pubDate>Fri, 04 Sep 2026 00:00:54 GMT</pubDate>
-      <category>open-ai</category>
-      <description>OpenAIは2026年9月3日、重要サービスを守るサイバー防衛担当者を支援する世界規模の新構想「Daybreak for Frontline Defenders」を発表しました。Daybreakへの補助付きアクセス、訓練、技術支援、パートナー連携に総額10…</description>
-    </item>
-    <item>
-      <title>GPT-6 Astra、財務諸表レビューを数日から数分へ Legoraが41文書を一括検証</title>
-      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1545222001864474754</link>
-      <guid isPermaLink="false">afnjp-1545222001864474754</guid>
-      <pubDate>Fri, 04 Sep 2026 00:00:34 GMT</pubDate>
-      <category>open-ai</category>
-      <description>OpenAIは2026年9月3日、リーガルテック企業Legoraが「GPT-6 Astra」を用い、財務諸表の照合作業を大幅に高速化した事例を公開しました。41文書を単一のAgent実行で数分以内にレビューし、意図的に仕込まれた4件の誤りをすべて検出したとし…</description>
-    </item>
-    <item>
-      <title>Playco、GPT-6 Astraでゲーム試作の手作業修正を50％削減</title>
-      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1545221913222057994</link>
-      <guid isPermaLink="false">afnjp-1545221913222057994</guid>
-      <pubDate>Fri, 04 Sep 2026 00:00:12 GMT</pubDate>
-      <category>open-ai</category>
-      <description>Playcoは、OpenAIのGPT-6 Astraをゲーム開発向けAI IDE「Playbot」に組み込み、ゲームプロトタイピングにおける手作業の修正を従来モデル比で50％削減したと明らかにしました。単一のグレーボックスを基盤に3種類のテーマ付きゲームを生…</description>
     </item>
   </channel>
 </rss>
