@@ -5,8 +5,24 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 08 Sep 2026 13:11:20 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 08 Sep 2026 15:46:59 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>ミズーリ州とGoogleがAI教育で提携、110万人超の学生に無償ツール提供</title>
+      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1546909728737857537</link>
+      <guid isPermaLink="false">afnjp-1546909728737857537</guid>
+      <pubDate>Tue, 08 Sep 2026 15:46:59 GMT</pubDate>
+      <category>google</category>
+      <description>Googleは2026年9月8日、米ミズーリ州の教育・労働力開発機関と州規模のパートナーシップを締結したと発表しました。幼稚園から大学までの110万人超の学生と約10万人の教育関係者を対象に、生成AIツール、AI研修、職業資格プログラムを無償提供します。さら…</description>
+    </item>
+    <item>
+      <title>DeepMind、90億のDNA変異をAIで地図化「AlphaGenome Atlas」公開</title>
+      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1546909584499679372</link>
+      <guid isPermaLink="false">afnjp-1546909584499679372</guid>
+      <pubDate>Tue, 08 Sep 2026 15:46:25 GMT</pubDate>
+      <category>google</category>
+      <description>Google DeepMindは2026年9月8日、ヒトゲノムで起こり得る約90億の一塩基変異について、分子レベルの影響を事前計算した「AlphaGenome Atlas」を発表しました。約1ペタバイトに達する巨大データセットで、研究者が病気や形質に関わる候…</description>
+    </item>
     <item>
       <title>Mistral AIが30億ユーロ調達、主戦場は「主権AI」のフルスタック競争へ</title>
       <link>https://discord.com/channels/1415350002255007784/1460897850354438283/threads/1546870559927959592</link>
@@ -86,22 +102,6 @@
       <pubDate>Fri, 04 Sep 2026 00:06:57 GMT</pubDate>
       <category>その他</category>
       <description>Runwayは2026年9月3日、リアルタイム世界生成モデル「GWM Worlds 2」を研究プレビューとして発表しました。720p・24fpsの映像と48kHz音声を連続生成しながら、ユーザーの操作やテキスト指示に応じて人物、物体、カメラ、環境そのものを変…</description>
-    </item>
-    <item>
-      <title>Google「WeatherNext 3」発表、衛星データで毎時更新する5km級AI天気予報へ</title>
-      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1545223520751984700</link>
-      <guid isPermaLink="false">afnjp-1545223520751984700</guid>
-      <pubDate>Fri, 04 Sep 2026 00:06:36 GMT</pubDate>
-      <category>google</category>
-      <description>Google DeepMindとGoogle Researchは2026年9月3日、最新のグローバル気象AIモデル「WeatherNext 3」を発表しました。リアルタイムの衛星観測を直接取り込み、最短5kmの高解像度予報を毎時生成します。従来のWeathe…</description>
-    </item>
-    <item>
-      <title>Google Workspaceが「音声操作」へ進化、Gmail・Docs・KeepにLive機能を投入</title>
-      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1545223393522229318</link>
-      <guid isPermaLink="false">afnjp-1545223393522229318</guid>
-      <pubDate>Fri, 04 Sep 2026 00:06:05 GMT</pubDate>
-      <category>google</category>
-      <description>Googleは2026年9月3日、Gmail、Google Docs、Google Keepに、Gemini Audioモデルを活用した新しい音声対話機能を正式導入すると発表しました。単なる音声入力ではなく、ユーザーが自然な言葉で話しかけることで、メール検索…</description>
     </item>
   </channel>
 </rss>

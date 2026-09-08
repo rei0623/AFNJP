@@ -1,9 +1,50 @@
 {
-  "generated_at": "2026-09-08T15:06:02.188Z",
+  "generated_at": "2026-09-08T18:37:26.417Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 149,
+  "count": 151,
   "posts": [
+    {
+      "id": "1546909728737857537",
+      "title": "ミズーリ州とGoogleがAI教育で提携、110万人超の学生に無償ツール提供",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-09-08T15:46:59.524Z",
+      "excerpt": "Googleは2026年9月8日、米ミズーリ州の教育・労働力開発機関と州規模のパートナーシップを締結したと発表しました。幼稚園から大学までの110万人超の学生と約10万人の教育関係者を対象に、生成AIツール、AI研修、職業資格プログラムを無償提供します。さら…",
+      "lead": "Googleは2026年9月8日、米ミズーリ州の教育・労働力開発機関と州規模のパートナーシップを締結したと発表しました。幼稚園から大学までの110万人超の学生と約10万人の教育関係者を対象に、生成AIツール、AI研修、職業資格プログラムを無償提供します。さらに対象を学校に限定せず、州内の住民にもキャリア教育を開放する点が特徴です。",
+      "headings": [
+        "Geminiを教育現場の実務に導入",
+        "AIリテラシーから職業資格まで一体化",
+        "プライバシーと学校側の裁量を確保",
+        "州民全体を対象にしたAI人材育成",
+        "今後の展望"
+      ],
+      "source_url": "https://blog.google/products-and-platforms/products/education/missouri-state-education-partnership/",
+      "source_label": "blog.google",
+      "cover": "assets/posts/1546909728737857537.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1546909728737857537",
+      "first_seen": "2026-09-08T15:46:59.524Z"
+    },
+    {
+      "id": "1546909584499679372",
+      "title": "DeepMind、90億のDNA変異をAIで地図化「AlphaGenome Atlas」公開",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-09-08T15:46:25.135Z",
+      "excerpt": "Google DeepMindは2026年9月8日、ヒトゲノムで起こり得る約90億の一塩基変異について、分子レベルの影響を事前計算した「AlphaGenome Atlas」を発表しました。約1ペタバイトに達する巨大データセットで、研究者が病気や形質に関わる候…",
+      "lead": "Google DeepMindは2026年9月8日、ヒトゲノムで起こり得る約90億の一塩基変異について、分子レベルの影響を事前計算した「AlphaGenome Atlas」を発表しました。約1ペタバイトに達する巨大データセットで、研究者が病気や形質に関わる候補変異を高速に絞り込める新たなゲノム研究基盤を目指します。",
+      "headings": [
+        "90億の変異を事前計算する「ゲノム地図」",
+        "AlphaGenomeとAlphaMissenseを統合するAVIスコア",
+        "希少疾患から集団ゲノム解析まで",
+        "今後の展望"
+      ],
+      "source_url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
+      "source_label": "deepmind.google",
+      "cover": "assets/posts/1546909584499679372.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1546909584499679372",
+      "first_seen": "2026-09-08T15:46:25.135Z"
+    },
     {
       "id": "1546870559927959592",
       "title": "Mistral AIが30億ユーロ調達、主戦場は「主権AI」のフルスタック競争へ",
