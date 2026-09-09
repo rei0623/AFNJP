@@ -1,8 +1,87 @@
 {
-  "generated_at": "2026-09-09T14:33:59.001Z",
+  "generated_at": "2026-09-09T18:33:47.439Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1547305388234375198",
+      "title": "OpenAI、AIアラインメント研究者Paul Christiano氏を財団理事に任命",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-09-09T17:59:12.099Z",
+      "excerpt": "OpenAIは2026年9月9日、AIアラインメント研究で知られるPaul Christiano氏をOpenAI Foundationの理事に任命したと発表しました。同氏はOpenAI Group PBCの取締役会では議決権を持たないオブザーバーを務めるほか…",
+      "lead": "OpenAIは2026年9月9日、AIアラインメント研究で知られるPaul Christiano氏をOpenAI Foundationの理事に任命したと発表しました。同氏はOpenAI Group PBCの取締役会では議決権を持たないオブザーバーを務めるほか、財団のSafety and Security Committee（SSC）にも参加します。急速に能力を高めるフロンティアAIを巡り、技術的な安全性評価を経営・ガバナンスへ直接反映する狙いが鮮明になっています。",
+      "headings": [
+        "AI安全性の専門家をガバナンス中枢へ",
+        "SSCでモデル開発全体を監督",
+        "利益相反にも対応",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/paul-christiano-joins-openai-foundation-board/",
+      "source_label": "openai.com",
+      "cover": "assets/posts/1547305388234375198.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1547305388234375198",
+      "first_seen": "2026-09-09T17:59:12.099Z"
+    },
+    {
+      "id": "1547305276955303966",
+      "title": "Google、検索のスポーツ体験とAIによる「記憶の再構成」を相次ぎ公開",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-09-09T17:58:45.568Z",
+      "excerpt": "Googleは2026年9月9日、Google Searchのアメリカンフットボール向け新機能と、生成AIを活用して過去の記憶を映像化する短編ドキュメンタリー「Love, Rendered」を公開しました。両者に共通するのは、AIを単なる回答生成ではなく、リ…",
+      "lead": "Googleは2026年9月9日、Google Searchのアメリカンフットボール向け新機能と、生成AIを活用して過去の記憶を映像化する短編ドキュメンタリー「Love, Rendered」を公開しました。両者に共通するのは、AIを単なる回答生成ではなく、リアルタイム情報や人間の文脈を扱うインターフェースとして組み込んでいる点です。",
+      "headings": [
+        "Google Searchが試合観戦のリアルタイムハブへ",
+        "DeepMind、存在しない「記録」をAIで映像化",
+        "今後の展望"
+      ],
+      "source_url": "https://blog.google/products-and-platforms/products/search/football-features-google-search/",
+      "source_label": "blog.google",
+      "cover": "assets/posts/1547305276955303966.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1547305276955303966",
+      "first_seen": "2026-09-09T17:58:45.568Z"
+    },
+    {
+      "id": "1547305076257853512",
+      "title": "OpenAIが示すChatGPTの実用最前線、事業・アクセシビリティ・創薬へ拡大",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-09-09T17:57:57.718Z",
+      "excerpt": "OpenAIは、ChatGPTやCodexが実社会でどのように使われているかを示す3つの事例を公開しました。小規模エンターテインメント事業の運営、視覚障害者の自立支援、抗生物質候補の探索という異なる領域ですが、共通するのはAIが単なる質問応答から「仕事を前に…",
+      "lead": "OpenAIは、ChatGPTやCodexが実社会でどのように使われているかを示す3つの事例を公開しました。小規模エンターテインメント事業の運営、視覚障害者の自立支援、抗生物質候補の探索という異なる領域ですが、共通するのはAIが単なる質問応答から「仕事を前に進める実務基盤」へ変化している点です。",
+      "headings": [
+        "小規模事業では複数職種を横断",
+        "視覚情報を「行動可能な情報」に変換",
+        "創薬では「生物学を情報問題として扱う」",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/growing-atv-big-air-tour/",
+      "source_label": "openai.com",
+      "cover": "assets/posts/1547305076257853512.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1547305076257853512",
+      "first_seen": "2026-09-09T17:57:57.718Z"
+    },
+    {
+      "id": "1547304985249972285",
+      "title": "Google「ADK for Kotlin 1.0」正式公開、AndroidからサーバーまでAIエージェント開発を統合",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-09-09T17:57:36.020Z",
+      "excerpt": "Googleは2026年9月9日、AIエージェント開発基盤「Agent Development Kit（ADK）for Kotlin 1.0」の一般提供を開始しました。Kotlin Multiplatformを中核に、AndroidのオンデバイスAIからクラ…",
+      "lead": "Googleは2026年9月9日、AIエージェント開発基盤「Agent Development Kit（ADK）for Kotlin 1.0」の一般提供を開始しました。Kotlin Multiplatformを中核に、AndroidのオンデバイスAIからクラウド、サーバーサイドまでを共通の設計思想で扱える、本番運用を意識したフレームワークです。",
+      "headings": [
+        "ADK 1.0相当のエージェント機能をKotlinへ",
+        "KSPで型安全なツール呼び出し",
+        "Androidではオンデバイスとクラウドを両立",
+        "今後の展望"
+      ],
+      "source_url": "https://developers.googleblog.com/announcing-adk-for-kotlin-10-building-production-ready-ai-agents-in-kotlin-android-and-beyond/",
+      "source_label": "developers.googleblog.com",
+      "cover": "assets/posts/1547304985249972285.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1547304985249972285",
+      "first_seen": "2026-09-09T17:57:36.020Z"
+    },
     {
       "id": "1547183795059560519",
       "title": "Metaが個人向けAIエージェント「Muse」を発表、ブラウザ操作から決済まで自律実行",
@@ -162,86 +241,6 @@
       "cover": "assets/posts/1546909584499679372.webp",
       "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1546909584499679372",
       "first_seen": "2026-09-08T15:46:25.135Z"
-    },
-    {
-      "id": "1546870559927959592",
-      "title": "Mistral AIが30億ユーロ調達、主戦場は「主権AI」のフルスタック競争へ",
-      "channel": "mistral-ai",
-      "category": "その他",
-      "date": "2026-09-08T13:11:20.952Z",
-      "excerpt": "Mistral AIは、シリーズDで30億ユーロを調達し、ポストマネー評価額が210億ユーロ超になったと発表しました。Samsung Electronicsが主導し、Scaleup Europe Fundと既存投資家PSG Equityが共同主導します。同社…",
-      "lead": "Mistral AIは、シリーズDで30億ユーロを調達し、ポストマネー評価額が210億ユーロ超になったと発表しました。Samsung Electronicsが主導し、Scaleup Europe Fundと既存投資家PSG Equityが共同主導します。同社は資金を、最先端AI研究、計算能力、インフラ、商用展開の拡大に投入します。",
-      "headings": [
-        "競争軸を「モデル性能」から「AIを誰が支配するか」へ",
-        "30億ユーロが強化する「フルスタックAI」",
-        "企業導入では「性能以外」の評価がさらに重要に",
-        "今後の展望"
-      ],
-      "source_url": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/",
-      "source_label": "mistral.ai",
-      "cover": "assets/posts/1546870559927959592.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1460897850354438283/threads/1546870559927959592",
-      "first_seen": "2026-09-08T13:11:20.952Z"
-    },
-    {
-      "id": "1546870447545655316",
-      "title": "OpenAI、AI時代のジャーナリズム支援を拡大",
-      "channel": "open-ai",
-      "category": "Open AI",
-      "date": "2026-09-08T13:10:54.158Z",
-      "excerpt": "OpenAIは2026年9月8日、ジャーナリズム教育から実際のニュースルームまでを対象とする包括的な支援策を発表しました。AIツールの提供だけでなく、教育、実践的トレーニング、技術支援、業界との知見共有を組み合わせ、報道現場での責任あるAI活用を広げる狙いで…",
-      "lead": "OpenAIは2026年9月8日、ジャーナリズム教育から実際のニュースルームまでを対象とする包括的な支援策を発表しました。AIツールの提供だけでなく、教育、実践的トレーニング、技術支援、業界との知見共有を組み合わせ、報道現場での責任あるAI活用を広げる狙いです。",
-      "headings": [
-        "400超のChatGPT Eduをジャーナリズム教育へ",
-        "AIは「記事を書く道具」だけではない",
-        "ニュースルーム支援も継続",
-        "今後の展望"
-      ],
-      "source_url": "https://openai.com/index/supporting-journalism-from-classrooms-to-newsrooms/",
-      "source_label": "openai.com",
-      "cover": "assets/posts/1546870447545655316.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1546870447545655316",
-      "first_seen": "2026-09-08T13:10:54.158Z"
-    },
-    {
-      "id": "1546870359024861205",
-      "title": "OpenAIが描く「AIで仕事の採算ラインが変わる」未来、GPT-6と自社推論チップが支える成長戦略",
-      "channel": "open-ai",
-      "category": "Open AI",
-      "date": "2026-09-08T13:10:33.053Z",
-      "excerpt": "OpenAIは2026年9月8日、AIの能力向上と計算コスト低下によって、従来は時間や専門人材、費用の問題で実行できなかった仕事が現実的になるとの見通しを示しました。その基盤として、GPT-6 Astra、AIエージェント、独自推論チップ「Jalapeño」…",
-      "lead": "OpenAIは2026年9月8日、AIの能力向上と計算コスト低下によって、従来は時間や専門人材、費用の問題で実行できなかった仕事が現実的になるとの見通しを示しました。その基盤として、GPT-6 Astra、AIエージェント、独自推論チップ「Jalapeño」、消費者・法人の双方に広がるサービス基盤を挙げています。",
-      "headings": [
-        "AIが「できる仕事」ではなく「採算の合う仕事」を増やす",
-        "GPT-6とフルスタック計算基盤",
-        "消費者と企業を循環させるビジネスモデル",
-        "今後の展望"
-      ],
-      "source_url": "https://openai.com/index/the-work-now-within-reach/",
-      "source_label": "openai.com",
-      "cover": "assets/posts/1546870359024861205.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1546870359024861205",
-      "first_seen": "2026-09-08T13:10:33.053Z"
-    },
-    {
-      "id": "1546443722974171196",
-      "title": "OpenAI、ウクライナ独立系メディアのAI導入を支援",
-      "channel": "open-ai",
-      "category": "Open AI",
-      "date": "2026-09-07T08:55:15.092Z",
-      "excerpt": "OpenAIは2026年9月7日、世界新聞・ニュース発行者協会WAN-IFRA、ウクライナ独立地域出版社協会AIRPPUと共同で、ウクライナの独立系ニュース組織によるAI活用を支援する新プログラムを発表しました。戦争と経済的圧力が続く中、編集業務だけでなく、…",
-      "lead": "OpenAIは2026年9月7日、世界新聞・ニュース発行者協会WAN-IFRA、ウクライナ独立地域出版社協会AIRPPUと共同で、ウクライナの独立系ニュース組織によるAI活用を支援する新プログラムを発表しました。戦争と経済的圧力が続く中、編集業務だけでなく、事業運営や収益面まで含めてメディアの持続可能性を高める狙いです。",
-      "headings": [
-        "編集と事業の両面でAI導入を支援",
-        "10社には実装まで踏み込む支援",
-        "AIの目的は「記者の時間を取り戻す」こと",
-        "今後の展望"
-      ],
-      "source_url": "https://openai.com/index/supporting-independent-journalism-in-ukraine/",
-      "source_label": "openai.com",
-      "cover": "assets/posts/1546443722974171196.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1546443722974171196",
-      "first_seen": "2026-09-07T08:55:15.092Z"
     }
   ]
 }
