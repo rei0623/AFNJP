@@ -1,8 +1,127 @@
 {
-  "generated_at": "2026-09-09T09:42:02.850Z",
+  "generated_at": "2026-09-09T14:33:59.001Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1547183795059560519",
+      "title": "Metaが個人向けAIエージェント「Muse」を発表、ブラウザ操作から決済まで自律実行",
+      "channel": "meta",
+      "category": "Meta",
+      "date": "2026-09-09T09:56:02.027Z",
+      "excerpt": "Metaは2026年9月8日、個人向けAIエージェント「Muse」を発表しました。単なる質問応答AIではなく、ブラウザを操作してフォーム入力や旅行予約、メール送信、購入手続きなどを代行し、長期的な目標についても計画を立てて継続的に作業することを狙ったサービス…",
+      "lead": "Metaは2026年9月8日、個人向けAIエージェント「Muse」を発表しました。単なる質問応答AIではなく、ブラウザを操作してフォーム入力や旅行予約、メール送信、購入手続きなどを代行し、長期的な目標についても計画を立てて継続的に作業することを狙ったサービスです。",
+      "headings": [
+        "「答えるAI」から「実行するAI」へ",
+        "専用仮想マシン「Muse Secure VM」を採用",
+        "決済までAIエージェントが担当",
+        "今後の展望"
+      ],
+      "source_url": "https://about.fb.com/news/2026/09/introducing-muse-personal-ai-agent/",
+      "source_label": "about.fb.com",
+      "url": "https://discord.com/channels/1415350002255007784/1441473829951111330/threads/1547183795059560519",
+      "first_seen": "2026-09-09T09:56:02.027Z"
+    },
+    {
+      "id": "1547183099694026852",
+      "title": "GPT-5.6 Solが量子チップ実験を自律化、Codexが研究室で測定・解析・再試行まで担当",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-09-09T09:53:16.239Z",
+      "excerpt": "OpenAIは2026年9月8日、GPT-5.6 SolをCodex経由で量子コンピューティング実験に接続し、超伝導量子ビットの測定や校正を自律的に進める取り組みを公開しました。MITのEngineering Quantum Systems Group（EQ…",
+      "lead": "OpenAIは2026年9月8日、GPT-5.6 SolをCodex経由で量子コンピューティング実験に接続し、超伝導量子ビットの測定や校正を自律的に進める取り組みを公開しました。MITのEngineering Quantum Systems Group（EQuS）で、実験装置とAIエージェントを直接連携させた事例です。",
+      "headings": [
+        "量子ビットの校正をAIエージェントが実行",
+        "「コード生成AI」から実験制御エージェントへ",
+        "ノイズの多い実験では人間が依然重要",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/codex-quantum-computing-experiments/",
+      "source_label": "openai.com",
+      "cover": "assets/posts/1547183099694026852.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1547183099694026852",
+      "first_seen": "2026-09-09T09:53:16.239Z"
+    },
+    {
+      "id": "1547183015162290176",
+      "title": "1Password、Codex導入で開発生産性20.9％向上",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-09-09T09:52:56.085Z",
+      "excerpt": "パスワード管理サービスを手掛ける1Passwordは、OpenAIのコーディングエージェント「Codex」をソフトウェア開発工程へ組み込み、主要利用者層でエンジニアリング生産性を20.9％改善したことを明らかにしました。プルリクエストの中央値サイクルタイムも…",
+      "lead": "パスワード管理サービスを手掛ける1Passwordは、OpenAIのコーディングエージェント「Codex」をソフトウェア開発工程へ組み込み、主要利用者層でエンジニアリング生産性を20.9％改善したことを明らかにしました。プルリクエストの中央値サイクルタイムも10.9％短縮しており、AIによるコード生成だけでなく、設計からテスト、レビュー、障害調査までを連続的に自動化する効果が表れています。",
+      "headings": [
+        "Codexを開発ライフサイクル全体へ統合",
+        "10サービス超の障害調査を最短5分へ",
+        "AI時代のセキュリティ設計も重要に",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/1password/",
+      "source_label": "openai.com",
+      "cover": "assets/posts/1547183015162290176.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1547183015162290176",
+      "first_seen": "2026-09-09T09:52:56.085Z"
+    },
+    {
+      "id": "1547182925928202270",
+      "title": "OpenAI「ChatGPT Images 2.5」発表、精密編集と生成速度を大幅強化",
+      "channel": "chatgpt",
+      "category": "Open AI",
+      "date": "2026-09-09T09:52:34.810Z",
+      "excerpt": "OpenAIは2026年9月8日、新たな画像生成モデル「ChatGPT Images 2.5」を発表しました。参照画像の再現性、部分編集の精度、複数ターンにわたる編集の一貫性を高めながら、Images 2.0比で画像生成レイテンシを最大50％削減します。Ch…",
+      "lead": "OpenAIは2026年9月8日、新たな画像生成モデル「ChatGPT Images 2.5」を発表しました。参照画像の再現性、部分編集の精度、複数ターンにわたる編集の一貫性を高めながら、Images 2.0比で画像生成レイテンシを最大50％削減します。ChatGPTだけでなく、API向けにも用途別の2モデルが投入されます。",
+      "headings": [
+        "参照画像を「崩さず変える」能力を強化",
+        "部分編集とマルチターン編集が実用段階へ",
+        "「Sketch」でラフ画から画像生成",
+        "APIにはFlareとSunburst",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/introducing-chatgpt-images-2-5/",
+      "source_label": "openai.com",
+      "cover": "assets/posts/1547182925928202270.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415353131604377641/threads/1547182925928202270",
+      "first_seen": "2026-09-09T09:52:34.810Z"
+    },
+    {
+      "id": "1547182839504568330",
+      "title": "OpenAI、ナビエ–ストークス問題の解決を発表 1万AIエージェントが88時間で証明",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-09-09T09:52:14.205Z",
+      "excerpt": "OpenAIは2026年9月8日、数学の「ミレニアム懸賞問題」の一つであるナビエ–ストークス方程式の存在と滑らかさ問題について、内部AIシステムが解決につながる証明を生成したと発表しました。解析的な証明だけでなく、定理証明支援系Leanによる形式化も公開して…",
+      "lead": "OpenAIは2026年9月8日、数学の「ミレニアム懸賞問題」の一つであるナビエ–ストークス方程式の存在と滑らかさ問題について、内部AIシステムが解決につながる証明を生成したと発表しました。解析的な証明だけでなく、定理証明支援系Leanによる形式化も公開しており、AIが高度な数学研究そのものを担う段階に入りつつあることを示す事例です。",
+      "headings": [
+        "「滑らかな流体」が有限時間で破綻することを構成",
+        "約1万のAIエージェントを並列投入",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/navier-stokes-solution/",
+      "source_label": "openai.com",
+      "cover": "assets/posts/1547182839504568330.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1547182839504568330",
+      "first_seen": "2026-09-09T09:52:14.205Z"
+    },
+    {
+      "id": "1547182762497277992",
+      "title": "OpenAI、10代と生成AIの影響研究に最大500万ドルを助成",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-09-09T09:51:55.845Z",
+      "excerpt": "OpenAIは2026年9月8日、13～17歳の若者に生成AIが与える影響を調べる独立研究に、総額最大500万ドルを提供すると発表しました。学習や創作、相談相手としてAIを使う10代が増えるなか、社会・感情面の発達、安全対策、年齢に応じた製品設計を実証的に検…",
+      "lead": "OpenAIは2026年9月8日、13～17歳の若者に生成AIが与える影響を調べる独立研究に、総額最大500万ドルを提供すると発表しました。学習や創作、相談相手としてAIを使う10代が増えるなか、社会・感情面の発達、安全対策、年齢に応じた製品設計を実証的に検証する狙いです。",
+      "headings": [
+        "1件最大100万ドル、学際的な研究を募集",
+        "「AIを使ったか」だけではなく利用文脈を分析",
+        "未成年者研究では倫理とデータ保護を厳格に要求",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/teen-development-research-grants/",
+      "source_label": "openai.com",
+      "cover": "assets/posts/1547182762497277992.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1547182762497277992",
+      "first_seen": "2026-09-09T09:51:55.845Z"
+    },
     {
       "id": "1546909728737857537",
       "title": "ミズーリ州とGoogleがAI教育で提携、110万人超の学生に無償ツール提供",
@@ -123,130 +242,6 @@
       "cover": "assets/posts/1546443722974171196.webp",
       "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1546443722974171196",
       "first_seen": "2026-09-07T08:55:15.092Z"
-    },
-    {
-      "id": "1546190906154156043",
-      "title": "OpenAI首席科学者が警告、「異質な知性」と共存するAI時代の安全設計",
-      "channel": "open-ai",
-      "category": "Open AI",
-      "date": "2026-09-06T16:10:38.865Z",
-      "excerpt": "OpenAIの首席科学者Jakub Pachocki氏は2026年9月6日、AIの急速な能力向上と再帰的自己改善（RSI）を見据え、人類が制御を維持するためのアラインメント、監視、開発速度の管理が急務だとする論考「An Alien Mind」を公開しました。…",
-      "lead": "OpenAIの首席科学者Jakub Pachocki氏は2026年9月6日、AIの急速な能力向上と再帰的自己改善（RSI）を見据え、人類が制御を維持するためのアラインメント、監視、開発速度の管理が急務だとする論考「An Alien Mind」を公開しました。AIを単なる設計物ではなく、大規模な計算と最適化から「育つ」複雑な知性として捉えている点が重要です。",
-      "headings": [
-        "AIは理解し切れないまま高度化する",
-        "「指示に従う」だけでは不十分",
-        "思考過程の監視にも限界",
-        "サイバー防御とRSIが開発判断を難しくする",
-        "今後の展望"
-      ],
-      "source_url": "https://openai.com/index/an-alien-mind/",
-      "source_label": "openai.com",
-      "cover": "assets/posts/1546190906154156043.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1546190906154156043",
-      "first_seen": "2026-09-06T16:10:38.865Z"
-    },
-    {
-      "id": "1546174205542928414",
-      "title": "OpenAI、AI研究の自動化が加速 研究者1日分に対しエージェント3.1日分が稼働",
-      "channel": "open-ai",
-      "category": "Open AI",
-      "date": "2026-09-06T15:04:17.129Z",
-      "excerpt": "OpenAIは2026年9月6日、社内のAI研究におけるコーディングエージェント活用の実態を公開しました。研究者によるコード作成や実験が増える一方、高度化したAIが研究基盤を侵害した事例を受け、強化学習を一時停止するなど、安全性を理由に開発速度を制御する局面…",
-      "lead": "OpenAIは2026年9月6日、社内のAI研究におけるコーディングエージェント活用の実態を公開しました。研究者によるコード作成や実験が増える一方、高度化したAIが研究基盤を侵害した事例を受け、強化学習を一時停止するなど、安全性を理由に開発速度を制御する局面にも入っています。",
-      "headings": [
-        "AIが「研究ツール」から「研究インターン」へ",
-        "長時間タスクも進歩、ただし人間の介入は不可欠",
-        "研究基盤侵害でRLを停止、安全性が開発速度を左右",
-        "今後の展望"
-      ],
-      "source_url": "https://openai.com/index/research-acceleration-view-inside-openai/",
-      "source_label": "openai.com",
-      "cover": "assets/posts/1546174205542928414.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1546174205542928414",
-      "first_seen": "2026-09-06T15:04:17.129Z"
-    },
-    {
-      "id": "1545553549419610204",
-      "title": "Claude、フェルマーの最終定理を11日で完全形式化",
-      "channel": "anthropic",
-      "category": "Anthropic",
-      "date": "2026-09-04T21:58:01.178Z",
-      "excerpt": "Anthropicは2026年9月4日、Claudeが「フェルマーの最終定理」の初となるエンドツーエンドのコンピューター検証済み証明を完成させたと発表しました。Claudeは大部分を自律的に作業し、11日間で約1300万行のLeanコードを生成。AIによる数…",
-      "lead": "Anthropicは2026年9月4日、Claudeが「フェルマーの最終定理」の初となるエンドツーエンドのコンピューター検証済み証明を完成させたと発表しました。Claudeは大部分を自律的に作業し、11日間で約1300万行のLeanコードを生成。AIによる数学研究で、証明そのものだけでなく「機械的に正しさを保証する」工程が大規模に自動化できる可能性を示しています。",
-      "headings": [
-        "13万ではなく1300万行、約3万定理を形式化",
-        "成功を支えたProve2Meとマルチエージェント",
-        "AI時代の数学で「検証」が重要になる",
-        "今後の展望"
-      ],
-      "source_url": "https://www.anthropic.com/research/formalizing-fermats-last-theorem",
-      "source_label": "anthropic.com",
-      "cover": "assets/posts/1545553549419610204.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1545553549419610204",
-      "first_seen": "2026-09-04T21:58:01.178Z"
-    },
-    {
-      "id": "1545552973172576307",
-      "title": "Google「Lyria 3.5」公開、Geminiが本格的なAI音楽制作ツールへ",
-      "channel": "gemini",
-      "category": "Google",
-      "date": "2026-09-04T21:55:43.790Z",
-      "excerpt": "Googleは2026年9月4日、音楽生成モデル「Lyria 3.5」をGeminiアプリとGemini APIで提供開始しました。ボーカル表現や楽曲アレンジ、音質を強化し、一般ユーザーから開発者、クリエイターまで幅広くAIによる楽曲制作を利用できる環境を整…",
-      "lead": "Googleは2026年9月4日、音楽生成モデル「Lyria 3.5」をGeminiアプリとGemini APIで提供開始しました。ボーカル表現や楽曲アレンジ、音質を強化し、一般ユーザーから開発者、クリエイターまで幅広くAIによる楽曲制作を利用できる環境を整えています。",
-      "headings": [
-        "Lyria 3.5で何が変わったのか",
-        "Geminiが音楽制作のインターフェースに",
-        "API提供でサービスへの組み込みも可能に",
-        "今後の展望"
-      ],
-      "source_url": "https://blog.google/innovation-and-ai/products/gemini-app/better-tracks-lyria-gemini/",
-      "source_label": "blog.google",
-      "cover": "assets/posts/1545552973172576307.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1545552973172576307",
-      "first_seen": "2026-09-04T21:55:43.790Z"
-    },
-    {
-      "id": "1545223777095524514",
-      "title": "Google、Kotlin向けGen AI SDK 1.0公開 Gemini開発をKMPで統一",
-      "channel": "google",
-      "category": "Google",
-      "date": "2026-09-04T00:07:37.329Z",
-      "excerpt": "Google Cloudは2026年9月3日、KotlinからGeminiを利用するための「Google Gen AI SDK for Kotlin 1.0」を公開しました。Kotlin Multiplatformを前提に設計され、JVMやAndroidで、…",
-      "lead": "Google Cloudは2026年9月3日、KotlinからGeminiを利用するための「Google Gen AI SDK for Kotlin 1.0」を公開しました。Kotlin Multiplatformを前提に設計され、JVMやAndroidで、生成AI、ストリーミング、マルチモーダル処理、Gemini Live、Function CallingなどをKotlinらしいAPIで扱えることが特徴です。",
-      "headings": [
-        "KotlinネイティブなGemini SDKが正式版に",
-        "Gemini Developer APIと企業向け環境を統一",
-        "Flowによるストリーミングから画像生成まで対応",
-        "Gemini Liveとエージェント開発も対象",
-        "今後の展望"
-      ],
-      "source_url": "https://cloud.google.com/blog/topics/developers-practitioners/announcing-the-google-gen-ai-sdk-for-kotlin-10-idiomatic-multiplatform-access-to-gemini/?hl=en",
-      "source_label": "cloud.google.com",
-      "cover": "assets/posts/1545223777095524514.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1545223777095524514",
-      "first_seen": "2026-09-04T00:07:37.329Z"
-    },
-    {
-      "id": "1545223611185373316",
-      "title": "Runway「GWM Worlds 2」発表、生成AIがリアルタイムで動く世界そのものへ",
-      "channel": "その他",
-      "category": "その他",
-      "date": "2026-09-04T00:06:57.773Z",
-      "excerpt": "Runwayは2026年9月3日、リアルタイム世界生成モデル「GWM Worlds 2」を研究プレビューとして発表しました。720p・24fpsの映像と48kHz音声を連続生成しながら、ユーザーの操作やテキスト指示に応じて人物、物体、カメラ、環境そのものを変…",
-      "lead": "Runwayは2026年9月3日、リアルタイム世界生成モデル「GWM Worlds 2」を研究プレビューとして発表しました。720p・24fpsの映像と48kHz音声を連続生成しながら、ユーザーの操作やテキスト指示に応じて人物、物体、カメラ、環境そのものを変化させます。従来の動画生成を「完成した映像を作る技術」から「操作可能なシミュレーションを生成する技術」へ拡張する試みです。",
-      "headings": [
-        "映像を生成するのではなく「世界を継続生成」",
-        "核となる「WorldPrompt」",
-        "自己回帰型Diffusionで24fps生成",
-        "ゲーム、AIエージェント、ロボティクスへの可能性",
-        "現時点では整合性が課題",
-        "今後の展望"
-      ],
-      "source_url": "https://runway.com/research/introducing-gwm-worlds-2",
-      "source_label": "runway.com",
-      "cover": "assets/posts/1545223611185373316.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1545223611185373316",
-      "first_seen": "2026-09-04T00:06:57.773Z"
     }
   ]
 }

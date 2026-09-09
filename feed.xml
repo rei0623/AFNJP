@@ -5,8 +5,56 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 08 Sep 2026 15:46:59 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 09 Sep 2026 09:56:02 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Metaが個人向けAIエージェント「Muse」を発表、ブラウザ操作から決済まで自律実行</title>
+      <link>https://discord.com/channels/1415350002255007784/1441473829951111330/threads/1547183795059560519</link>
+      <guid isPermaLink="false">afnjp-1547183795059560519</guid>
+      <pubDate>Wed, 09 Sep 2026 09:56:02 GMT</pubDate>
+      <category>meta</category>
+      <description>Metaは2026年9月8日、個人向けAIエージェント「Muse」を発表しました。単なる質問応答AIではなく、ブラウザを操作してフォーム入力や旅行予約、メール送信、購入手続きなどを代行し、長期的な目標についても計画を立てて継続的に作業することを狙ったサービス…</description>
+    </item>
+    <item>
+      <title>GPT-5.6 Solが量子チップ実験を自律化、Codexが研究室で測定・解析・再試行まで担当</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1547183099694026852</link>
+      <guid isPermaLink="false">afnjp-1547183099694026852</guid>
+      <pubDate>Wed, 09 Sep 2026 09:53:16 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIは2026年9月8日、GPT-5.6 SolをCodex経由で量子コンピューティング実験に接続し、超伝導量子ビットの測定や校正を自律的に進める取り組みを公開しました。MITのEngineering Quantum Systems Group（EQ…</description>
+    </item>
+    <item>
+      <title>1Password、Codex導入で開発生産性20.9％向上</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1547183015162290176</link>
+      <guid isPermaLink="false">afnjp-1547183015162290176</guid>
+      <pubDate>Wed, 09 Sep 2026 09:52:56 GMT</pubDate>
+      <category>open-ai</category>
+      <description>パスワード管理サービスを手掛ける1Passwordは、OpenAIのコーディングエージェント「Codex」をソフトウェア開発工程へ組み込み、主要利用者層でエンジニアリング生産性を20.9％改善したことを明らかにしました。プルリクエストの中央値サイクルタイムも…</description>
+    </item>
+    <item>
+      <title>OpenAI「ChatGPT Images 2.5」発表、精密編集と生成速度を大幅強化</title>
+      <link>https://discord.com/channels/1415350002255007784/1415353131604377641/threads/1547182925928202270</link>
+      <guid isPermaLink="false">afnjp-1547182925928202270</guid>
+      <pubDate>Wed, 09 Sep 2026 09:52:34 GMT</pubDate>
+      <category>chatgpt</category>
+      <description>OpenAIは2026年9月8日、新たな画像生成モデル「ChatGPT Images 2.5」を発表しました。参照画像の再現性、部分編集の精度、複数ターンにわたる編集の一貫性を高めながら、Images 2.0比で画像生成レイテンシを最大50％削減します。Ch…</description>
+    </item>
+    <item>
+      <title>OpenAI、ナビエ–ストークス問題の解決を発表 1万AIエージェントが88時間で証明</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1547182839504568330</link>
+      <guid isPermaLink="false">afnjp-1547182839504568330</guid>
+      <pubDate>Wed, 09 Sep 2026 09:52:14 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIは2026年9月8日、数学の「ミレニアム懸賞問題」の一つであるナビエ–ストークス方程式の存在と滑らかさ問題について、内部AIシステムが解決につながる証明を生成したと発表しました。解析的な証明だけでなく、定理証明支援系Leanによる形式化も公開して…</description>
+    </item>
+    <item>
+      <title>OpenAI、10代と生成AIの影響研究に最大500万ドルを助成</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1547182762497277992</link>
+      <guid isPermaLink="false">afnjp-1547182762497277992</guid>
+      <pubDate>Wed, 09 Sep 2026 09:51:55 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIは2026年9月8日、13～17歳の若者に生成AIが与える影響を調べる独立研究に、総額最大500万ドルを提供すると発表しました。学習や創作、相談相手としてAIを使う10代が増えるなか、社会・感情面の発達、安全対策、年齢に応じた製品設計を実証的に検…</description>
+    </item>
     <item>
       <title>ミズーリ州とGoogleがAI教育で提携、110万人超の学生に無償ツール提供</title>
       <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1546909728737857537</link>
@@ -54,54 +102,6 @@
       <pubDate>Mon, 07 Sep 2026 08:55:15 GMT</pubDate>
       <category>open-ai</category>
       <description>OpenAIは2026年9月7日、世界新聞・ニュース発行者協会WAN-IFRA、ウクライナ独立地域出版社協会AIRPPUと共同で、ウクライナの独立系ニュース組織によるAI活用を支援する新プログラムを発表しました。戦争と経済的圧力が続く中、編集業務だけでなく、…</description>
-    </item>
-    <item>
-      <title>OpenAI首席科学者が警告、「異質な知性」と共存するAI時代の安全設計</title>
-      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1546190906154156043</link>
-      <guid isPermaLink="false">afnjp-1546190906154156043</guid>
-      <pubDate>Sun, 06 Sep 2026 16:10:38 GMT</pubDate>
-      <category>open-ai</category>
-      <description>OpenAIの首席科学者Jakub Pachocki氏は2026年9月6日、AIの急速な能力向上と再帰的自己改善（RSI）を見据え、人類が制御を維持するためのアラインメント、監視、開発速度の管理が急務だとする論考「An Alien Mind」を公開しました。…</description>
-    </item>
-    <item>
-      <title>OpenAI、AI研究の自動化が加速 研究者1日分に対しエージェント3.1日分が稼働</title>
-      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1546174205542928414</link>
-      <guid isPermaLink="false">afnjp-1546174205542928414</guid>
-      <pubDate>Sun, 06 Sep 2026 15:04:17 GMT</pubDate>
-      <category>open-ai</category>
-      <description>OpenAIは2026年9月6日、社内のAI研究におけるコーディングエージェント活用の実態を公開しました。研究者によるコード作成や実験が増える一方、高度化したAIが研究基盤を侵害した事例を受け、強化学習を一時停止するなど、安全性を理由に開発速度を制御する局面…</description>
-    </item>
-    <item>
-      <title>Claude、フェルマーの最終定理を11日で完全形式化</title>
-      <link>https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1545553549419610204</link>
-      <guid isPermaLink="false">afnjp-1545553549419610204</guid>
-      <pubDate>Fri, 04 Sep 2026 21:58:01 GMT</pubDate>
-      <category>anthropic</category>
-      <description>Anthropicは2026年9月4日、Claudeが「フェルマーの最終定理」の初となるエンドツーエンドのコンピューター検証済み証明を完成させたと発表しました。Claudeは大部分を自律的に作業し、11日間で約1300万行のLeanコードを生成。AIによる数…</description>
-    </item>
-    <item>
-      <title>Google「Lyria 3.5」公開、Geminiが本格的なAI音楽制作ツールへ</title>
-      <link>https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1545552973172576307</link>
-      <guid isPermaLink="false">afnjp-1545552973172576307</guid>
-      <pubDate>Fri, 04 Sep 2026 21:55:43 GMT</pubDate>
-      <category>gemini</category>
-      <description>Googleは2026年9月4日、音楽生成モデル「Lyria 3.5」をGeminiアプリとGemini APIで提供開始しました。ボーカル表現や楽曲アレンジ、音質を強化し、一般ユーザーから開発者、クリエイターまで幅広くAIによる楽曲制作を利用できる環境を整…</description>
-    </item>
-    <item>
-      <title>Google、Kotlin向けGen AI SDK 1.0公開 Gemini開発をKMPで統一</title>
-      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1545223777095524514</link>
-      <guid isPermaLink="false">afnjp-1545223777095524514</guid>
-      <pubDate>Fri, 04 Sep 2026 00:07:37 GMT</pubDate>
-      <category>google</category>
-      <description>Google Cloudは2026年9月3日、KotlinからGeminiを利用するための「Google Gen AI SDK for Kotlin 1.0」を公開しました。Kotlin Multiplatformを前提に設計され、JVMやAndroidで、…</description>
-    </item>
-    <item>
-      <title>Runway「GWM Worlds 2」発表、生成AIがリアルタイムで動く世界そのものへ</title>
-      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1545223611185373316</link>
-      <guid isPermaLink="false">afnjp-1545223611185373316</guid>
-      <pubDate>Fri, 04 Sep 2026 00:06:57 GMT</pubDate>
-      <category>その他</category>
-      <description>Runwayは2026年9月3日、リアルタイム世界生成モデル「GWM Worlds 2」を研究プレビューとして発表しました。720p・24fpsの映像と48kHz音声を連続生成しながら、ユーザーの操作やテキスト指示に応じて人物、物体、カメラ、環境そのものを変…</description>
     </item>
   </channel>
 </rss>
