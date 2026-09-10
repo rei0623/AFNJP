@@ -5,8 +5,72 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 10 Sep 2026 14:00:21 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 10 Sep 2026 16:04:21 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Google「Gemini」Windowsアプリ公開、Alt＋Spaceでデスクトップから即起動</title>
+      <link>https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1547638875940196412</link>
+      <guid isPermaLink="false">afnjp-1547638875940196412</guid>
+      <pubDate>Thu, 10 Sep 2026 16:04:21 GMT</pubDate>
+      <category>gemini</category>
+      <description>Googleは2026年9月10日、Windows向け「Gemini」アプリの提供開始を発表しました。Windows 10および11で利用でき、作業中のアプリを離れることなく、キーボードショートカットからAIを呼び出せる点が大きな特徴です。</description>
+    </item>
+    <item>
+      <title>CodexとChatGPT、ゲノムから新たな抗菌分子を探す研究を支援</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1547638758445162657</link>
+      <guid isPermaLink="false">afnjp-1547638758445162657</guid>
+      <pubDate>Thu, 10 Sep 2026 16:03:53 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIは2026年9月10日、ペンシルベニア大学のCésar de la Fuente氏らが、CodexとChatGPTを活用して新たな抗菌分子を探索する研究事例を公開しました。AIが薬そのものを自動発見するのではなく、膨大な生命情報から有望候補を絞り…</description>
+    </item>
+    <item>
+      <title>Cognition「SWE-2」発表、コーディングAIは性能競争から「コスト効率」競争へ</title>
+      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1547638655219269723</link>
+      <guid isPermaLink="false">afnjp-1547638655219269723</guid>
+      <pubDate>Thu, 10 Sep 2026 16:03:29 GMT</pubDate>
+      <category>その他</category>
+      <description>Cognitionは2026年9月10日、同社で最も高度なコーディングモデル「SWE-2」を発表しました。単純なベンチマーク性能ではなく、推論コストと問題解決能力を同時に改善する「Pareto frontier（パレートフロンティア）」の拡張を主眼に置いたモ…</description>
+    </item>
+    <item>
+      <title>MistralとClouderaが提携、企業データを「主権AI」へ直結</title>
+      <link>https://discord.com/channels/1415350002255007784/1460897850354438283/threads/1547637728756109402</link>
+      <guid isPermaLink="false">afnjp-1547637728756109402</guid>
+      <pubDate>Thu, 10 Sep 2026 15:59:48 GMT</pubDate>
+      <category>mistral-ai</category>
+      <description>MistralとClouderaは2026年9月10日、企業が自社のデータ、モデル、計算基盤を管理したままAIを導入できる「ソブリンAI」の実現に向けた提携を発表しました。金融、製造、通信など、データ管理や規制対応が特に重要な業界で、汎用AIを利用するだけで…</description>
+    </item>
+    <item>
+      <title>Google Ads、AI時代の広告計測を強化 1st Partyデータと因果推論を統合</title>
+      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1547637375465816164</link>
+      <guid isPermaLink="false">afnjp-1547637375465816164</guid>
+      <pubDate>Thu, 10 Sep 2026 15:58:24 GMT</pubDate>
+      <category>google</category>
+      <description>Googleは2026年9月10日、Google Adsを中心とする計測基盤の新機能を発表しました。Data Managerの連携範囲拡大や「Data Strength Uplift Metric」、オープンソースのマーケティング・ミックス・モデル「Meri…</description>
+    </item>
+    <item>
+      <title>OpenAI「Data agent」発表、自然言語だけで企業データを分析・可視化</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1547637280725008404</link>
+      <guid isPermaLink="false">afnjp-1547637280725008404</guid>
+      <pubDate>Thu, 10 Sep 2026 15:58:01 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIは2026年9月10日、ChatGPT Work向けの新機能「Data agent」を発表しました。企業内のデータソースへ接続し、自然言語で質問するだけで分析、原因調査、インタラクティブなダッシュボード作成、さらに承認済みのアクションまで実行でき…</description>
+    </item>
+    <item>
+      <title>ReplitとDatabricks連携が正式提供、Lakebaseで業務アプリ開発を自動化</title>
+      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1547637189201100970</link>
+      <guid isPermaLink="false">afnjp-1547637189201100970</guid>
+      <pubDate>Thu, 10 Sep 2026 15:57:39 GMT</pubDate>
+      <category>その他</category>
+      <description>Replitは2026年9月10日、Databricksとの統合機能を一般提供開始し、新たにDatabricks Lakebaseのネイティブサポートを追加したと発表しました。企業が管理されたデータを活用しながら、AIによるアプリ開発から本番デプロイまでを短…</description>
+    </item>
+    <item>
+      <title>OpenAI、米政府のAI利用を大幅拡大 月額ライセンス無料・利用料50％引きへ</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1547637110675349554</link>
+      <guid isPermaLink="false">afnjp-1547637110675349554</guid>
+      <pubDate>Thu, 10 Sep 2026 15:57:20 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIは2026年9月10日、米国一般調達局（GSA）との複数年契約を発表し、連邦政府だけでなく州・地方・部族政府までAI利用支援を拡大すると明らかにしました。対象組織では通常1ユーザー当たり月額15ドルのライセンス料を0ドルとし、利用料金も50％割引…</description>
+    </item>
     <item>
       <title>DeepSeek-V4.1-Flash公開、1Mトークン対応とKVキャッシュ圧縮を両立</title>
       <link>https://discord.com/channels/1415350002255007784/1419690651490193470/threads/1547607670888992849</link>
@@ -38,70 +102,6 @@
       <pubDate>Thu, 10 Sep 2026 01:03:49 GMT</pubDate>
       <category>open-ai</category>
       <description>OpenAIは2026年9月9日、AI能力の急速な向上を踏まえ、米国で能力ベースの国家AI安全規制を導入する必要があるとの方針を示しました。連邦法制化、州レベルの安全策、業界標準、国際的な共通基準を並行して進め、必要ならモデル開発を減速・停止する判断基準まで…</description>
-    </item>
-    <item>
-      <title>OpenAI、AIアラインメント研究者Paul Christiano氏を財団理事に任命</title>
-      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1547305388234375198</link>
-      <guid isPermaLink="false">afnjp-1547305388234375198</guid>
-      <pubDate>Wed, 09 Sep 2026 17:59:12 GMT</pubDate>
-      <category>open-ai</category>
-      <description>OpenAIは2026年9月9日、AIアラインメント研究で知られるPaul Christiano氏をOpenAI Foundationの理事に任命したと発表しました。同氏はOpenAI Group PBCの取締役会では議決権を持たないオブザーバーを務めるほか…</description>
-    </item>
-    <item>
-      <title>Google、検索のスポーツ体験とAIによる「記憶の再構成」を相次ぎ公開</title>
-      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1547305276955303966</link>
-      <guid isPermaLink="false">afnjp-1547305276955303966</guid>
-      <pubDate>Wed, 09 Sep 2026 17:58:45 GMT</pubDate>
-      <category>google</category>
-      <description>Googleは2026年9月9日、Google Searchのアメリカンフットボール向け新機能と、生成AIを活用して過去の記憶を映像化する短編ドキュメンタリー「Love, Rendered」を公開しました。両者に共通するのは、AIを単なる回答生成ではなく、リ…</description>
-    </item>
-    <item>
-      <title>OpenAIが示すChatGPTの実用最前線、事業・アクセシビリティ・創薬へ拡大</title>
-      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1547305076257853512</link>
-      <guid isPermaLink="false">afnjp-1547305076257853512</guid>
-      <pubDate>Wed, 09 Sep 2026 17:57:57 GMT</pubDate>
-      <category>open-ai</category>
-      <description>OpenAIは、ChatGPTやCodexが実社会でどのように使われているかを示す3つの事例を公開しました。小規模エンターテインメント事業の運営、視覚障害者の自立支援、抗生物質候補の探索という異なる領域ですが、共通するのはAIが単なる質問応答から「仕事を前に…</description>
-    </item>
-    <item>
-      <title>Google「ADK for Kotlin 1.0」正式公開、AndroidからサーバーまでAIエージェント開発を統合</title>
-      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1547304985249972285</link>
-      <guid isPermaLink="false">afnjp-1547304985249972285</guid>
-      <pubDate>Wed, 09 Sep 2026 17:57:36 GMT</pubDate>
-      <category>google</category>
-      <description>Googleは2026年9月9日、AIエージェント開発基盤「Agent Development Kit（ADK）for Kotlin 1.0」の一般提供を開始しました。Kotlin Multiplatformを中核に、AndroidのオンデバイスAIからクラ…</description>
-    </item>
-    <item>
-      <title>Metaが個人向けAIエージェント「Muse」を発表、ブラウザ操作から決済まで自律実行</title>
-      <link>https://discord.com/channels/1415350002255007784/1441473829951111330/threads/1547183795059560519</link>
-      <guid isPermaLink="false">afnjp-1547183795059560519</guid>
-      <pubDate>Wed, 09 Sep 2026 09:56:02 GMT</pubDate>
-      <category>meta</category>
-      <description>Metaは2026年9月8日、個人向けAIエージェント「Muse」を発表しました。単なる質問応答AIではなく、ブラウザを操作してフォーム入力や旅行予約、メール送信、購入手続きなどを代行し、長期的な目標についても計画を立てて継続的に作業することを狙ったサービス…</description>
-    </item>
-    <item>
-      <title>GPT-5.6 Solが量子チップ実験を自律化、Codexが研究室で測定・解析・再試行まで担当</title>
-      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1547183099694026852</link>
-      <guid isPermaLink="false">afnjp-1547183099694026852</guid>
-      <pubDate>Wed, 09 Sep 2026 09:53:16 GMT</pubDate>
-      <category>open-ai</category>
-      <description>OpenAIは2026年9月8日、GPT-5.6 SolをCodex経由で量子コンピューティング実験に接続し、超伝導量子ビットの測定や校正を自律的に進める取り組みを公開しました。MITのEngineering Quantum Systems Group（EQ…</description>
-    </item>
-    <item>
-      <title>1Password、Codex導入で開発生産性20.9％向上</title>
-      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1547183015162290176</link>
-      <guid isPermaLink="false">afnjp-1547183015162290176</guid>
-      <pubDate>Wed, 09 Sep 2026 09:52:56 GMT</pubDate>
-      <category>open-ai</category>
-      <description>パスワード管理サービスを手掛ける1Passwordは、OpenAIのコーディングエージェント「Codex」をソフトウェア開発工程へ組み込み、主要利用者層でエンジニアリング生産性を20.9％改善したことを明らかにしました。プルリクエストの中央値サイクルタイムも…</description>
-    </item>
-    <item>
-      <title>OpenAI「ChatGPT Images 2.5」発表、精密編集と生成速度を大幅強化</title>
-      <link>https://discord.com/channels/1415350002255007784/1415353131604377641/threads/1547182925928202270</link>
-      <guid isPermaLink="false">afnjp-1547182925928202270</guid>
-      <pubDate>Wed, 09 Sep 2026 09:52:34 GMT</pubDate>
-      <category>chatgpt</category>
-      <description>OpenAIは2026年9月8日、新たな画像生成モデル「ChatGPT Images 2.5」を発表しました。参照画像の再現性、部分編集の精度、複数ターンにわたる編集の一貫性を高めながら、Images 2.0比で画像生成レイテンシを最大50％削減します。Ch…</description>
     </item>
   </channel>
 </rss>
