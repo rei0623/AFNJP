@@ -1,9 +1,30 @@
 {
-  "generated_at": "2026-09-10T09:40:42.805Z",
+  "generated_at": "2026-09-10T14:24:22.329Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 164,
+  "count": 165,
   "posts": [
+    {
+      "id": "1547607670888992849",
+      "title": "DeepSeek-V4.1-Flash公開、1Mトークン対応とKVキャッシュ圧縮を両立",
+      "channel": "deep-seek",
+      "category": "その他",
+      "date": "2026-09-10T14:00:21.900Z",
+      "excerpt": "DeepSeekが「DeepSeek-V4.1-Flash」を公開しました。最大100万トークンのコンテキスト、画像とテキストのマルチモーダル入力に対応しながら、長文推論で大きな負担となるKVキャッシュを大幅に圧縮したことが最大の特徴です。",
+      "lead": "DeepSeekが「DeepSeek-V4.1-Flash」を公開しました。最大100万トークンのコンテキスト、画像とテキストのマルチモーダル入力に対応しながら、長文推論で大きな負担となるKVキャッシュを大幅に圧縮したことが最大の特徴です。",
+      "headings": [
+        "552B級MoEを8B／16Bだけ動かす新設計",
+        "100万トークンとマルチモーダルを標準化",
+        "コーディング・エージェント性能が大幅向上",
+        "実運用では推論基盤への対応が重要",
+        "今後の展望"
+      ],
+      "source_url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash",
+      "source_label": "huggingface.co",
+      "cover": "assets/posts/1547607670888992849.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1419690651490193470/threads/1547607670888992849",
+      "first_seen": "2026-09-10T14:00:21.900Z"
+    },
     {
       "id": "1547447245480271872",
       "title": "Sakana AI・SCSK・住友商事が包括提携、AIを「実験」から産業実装へ",

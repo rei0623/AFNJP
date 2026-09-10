@@ -5,8 +5,16 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 10 Sep 2026 03:22:53 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 10 Sep 2026 14:00:21 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>DeepSeek-V4.1-Flash公開、1Mトークン対応とKVキャッシュ圧縮を両立</title>
+      <link>https://discord.com/channels/1415350002255007784/1419690651490193470/threads/1547607670888992849</link>
+      <guid isPermaLink="false">afnjp-1547607670888992849</guid>
+      <pubDate>Thu, 10 Sep 2026 14:00:21 GMT</pubDate>
+      <category>deep-seek</category>
+      <description>DeepSeekが「DeepSeek-V4.1-Flash」を公開しました。最大100万トークンのコンテキスト、画像とテキストのマルチモーダル入力に対応しながら、長文推論で大きな負担となるKVキャッシュを大幅に圧縮したことが最大の特徴です。</description>
+    </item>
     <item>
       <title>Sakana AI・SCSK・住友商事が包括提携、AIを「実験」から産業実装へ</title>
       <link>https://discord.com/channels/1415350002255007784/1420683387395375115/threads/1547447245480271872</link>
@@ -94,14 +102,6 @@
       <pubDate>Wed, 09 Sep 2026 09:52:34 GMT</pubDate>
       <category>chatgpt</category>
       <description>OpenAIは2026年9月8日、新たな画像生成モデル「ChatGPT Images 2.5」を発表しました。参照画像の再現性、部分編集の精度、複数ターンにわたる編集の一貫性を高めながら、Images 2.0比で画像生成レイテンシを最大50％削減します。Ch…</description>
-    </item>
-    <item>
-      <title>OpenAI、ナビエ–ストークス問題の解決を発表 1万AIエージェントが88時間で証明</title>
-      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1547182839504568330</link>
-      <guid isPermaLink="false">afnjp-1547182839504568330</guid>
-      <pubDate>Wed, 09 Sep 2026 09:52:14 GMT</pubDate>
-      <category>open-ai</category>
-      <description>OpenAIは2026年9月8日、数学の「ミレニアム懸賞問題」の一つであるナビエ–ストークス方程式の存在と滑らかさ問題について、内部AIシステムが解決につながる証明を生成したと発表しました。解析的な証明だけでなく、定理証明支援系Leanによる形式化も公開して…</description>
     </item>
   </channel>
 </rss>
