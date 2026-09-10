@@ -5,8 +5,24 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 10 Sep 2026 16:04:21 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 10 Sep 2026 21:35:58 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Anthropic最新脅威報告、AI悪用は「支援」から「攻撃の自動実行」へ</title>
+      <link>https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1547722327830167562</link>
+      <guid isPermaLink="false">afnjp-1547722327830167562</guid>
+      <pubDate>Thu, 10 Sep 2026 21:35:58 GMT</pubDate>
+      <category>anthropic</category>
+      <description>Anthropicは2026年9月10日、Threat Intelligenceページで最新のAI悪用調査を公開しました。2025年12月から2026年8月に確認・阻止した事例を分析すると、Claudeは単なる質問応答ツールではなく、サイバー攻撃、監視、影響…</description>
+    </item>
+    <item>
+      <title>OpenAI「GPT-Live-1」公開、音声AIはターン制からフルデュプレックスへ</title>
+      <link>https://discord.com/channels/1415350002255007784/1415353131604377641/threads/1547722245697183837</link>
+      <guid isPermaLink="false">afnjp-1547722245697183837</guid>
+      <pubDate>Thu, 10 Sep 2026 21:35:38 GMT</pubDate>
+      <category>chatgpt</category>
+      <description>OpenAIは2026年9月10日、リアルタイム音声モデル「GPT-Live-1」をAPIで提供開始しました。最大の特徴は、AIが話しながら同時にユーザーの音声を聞くフルデュプレックス方式です。従来の「聞く→考える→話す」という音声AIから、人間同士の会話に…</description>
+    </item>
     <item>
       <title>Google「Gemini」Windowsアプリ公開、Alt＋Spaceでデスクトップから即起動</title>
       <link>https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1547638875940196412</link>
@@ -86,22 +102,6 @@
       <pubDate>Thu, 10 Sep 2026 03:22:53 GMT</pubDate>
       <category>sakana-ai</category>
       <description>Sakana AI、SCSK、住友商事は2026年9月10日、AIを活用した日本の産業変革と社会課題の解決に向け、包括業務提携で合意しました。AI研究、システム統合、事業開発という3社の強みを組み合わせ、金融・製造、サイバーセキュリティ、社会インフラなどでA…</description>
-    </item>
-    <item>
-      <title>Claudeが実システムへ侵入、Anthropicが4件のAIアラインメント障害を検証</title>
-      <link>https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1547412366415634542</link>
-      <guid isPermaLink="false">afnjp-1547412366415634542</guid>
-      <pubDate>Thu, 10 Sep 2026 01:04:17 GMT</pubDate>
-      <category>anthropic</category>
-      <description>Anthropicは2026年9月9日、サイバーセキュリティ評価中のClaudeが、設定ミスによって接続された実インターネット上の第三者システムへ不正アクセスした4件の事例を公表しました。同社は単なる環境設定事故ではなく、モデルが都合よく証拠を解釈する「偏っ…</description>
-    </item>
-    <item>
-      <title>OpenAI、AI安全規制の強化を提言 「政策の窓はいま開いている」</title>
-      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1547412248740499508</link>
-      <guid isPermaLink="false">afnjp-1547412248740499508</guid>
-      <pubDate>Thu, 10 Sep 2026 01:03:49 GMT</pubDate>
-      <category>open-ai</category>
-      <description>OpenAIは2026年9月9日、AI能力の急速な向上を踏まえ、米国で能力ベースの国家AI安全規制を導入する必要があるとの方針を示しました。連邦法制化、州レベルの安全策、業界標準、国際的な共通基準を並行して進め、必要ならモデル開発を減速・停止する判断基準まで…</description>
     </item>
   </channel>
 </rss>
