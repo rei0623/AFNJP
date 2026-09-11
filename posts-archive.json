@@ -1,9 +1,69 @@
 {
-  "generated_at": "2026-09-10T21:36:13.596Z",
+  "generated_at": "2026-09-11T00:08:22.945Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 175,
+  "count": 178,
   "posts": [
+    {
+      "id": "1547722662476775465",
+      "title": "OpenAI「Agents API」発表、Codexの実行基盤を開発者向けAPIとして提供",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-09-10T21:37:18.031Z",
+      "excerpt": "OpenAIは2026年9月10日、長時間動作するクラウドAIエージェントを構築・実行できる「Agents API」をパブリックベータとして公開しました。Codexを支えるエージェント実行基盤をOpenAI側が管理し、開発者はタスク、モデル、ツール、実行環境…",
+      "lead": "OpenAIは2026年9月10日、長時間動作するクラウドAIエージェントを構築・実行できる「Agents API」をパブリックベータとして公開しました。Codexを支えるエージェント実行基盤をOpenAI側が管理し、開発者はタスク、モデル、ツール、実行環境を指定することで、本番用途を想定したエージェントを構築できます。",
+      "headings": [
+        "エージェント開発の「実行基盤」をAPI化",
+        "長時間処理と大量ツール利用を基盤側で支援",
+        "「モデル」から「エージェント基盤」へ競争軸が拡大",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/introducing-the-agents-api/",
+      "source_label": "openai.com",
+      "cover": "assets/posts/1547722662476775465.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1547722662476775465",
+      "first_seen": "2026-09-10T21:37:18.031Z"
+    },
+    {
+      "id": "1547722577063972884",
+      "title": "OpenAIが金融特化「ChatGPT for Financial Services」発表、GPT-6 Astraと金融データを統合",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-09-10T21:36:57.667Z",
+      "excerpt": "OpenAIは2026年9月10日、金融機関向けの「ChatGPT for Financial Services」を発表しました。GPT-6 Astraの推論能力と金融データ、調査・モデリング・資料作成機能を統合したChatGPT Workの金融特化版で、投…",
+      "lead": "OpenAIは2026年9月10日、金融機関向けの「ChatGPT for Financial Services」を発表しました。GPT-6 Astraの推論能力と金融データ、調査・モデリング・資料作成機能を統合したChatGPT Workの金融特化版で、投資銀行や株式調査を中心とする業務の効率化を狙います。Morgan StanleyとEvercoreが設計パートナーとして開発に参加しています。",
+      "headings": [
+        "金融データをChatGPT内に直接統合",
+        "GPT-6 Astraが調査から成果物作成まで担当",
+        "金融機関向けのセキュリティと統制",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/introducing-chatgpt-financial-services/",
+      "source_label": "openai.com",
+      "cover": "assets/posts/1547722577063972884.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1547722577063972884",
+      "first_seen": "2026-09-10T21:36:57.667Z"
+    },
+    {
+      "id": "1547722471908835348",
+      "title": "Anthropic、AIの軍事・諜報能力を評価 画像からの位置特定で人間の熟練者を上回る結果",
+      "channel": "anthropic",
+      "category": "Anthropic",
+      "date": "2026-09-10T21:36:32.596Z",
+      "excerpt": "Anthropicは2026年9月10日、AIモデルが諜報活動のターゲティングや通常兵器関連のソフトウェア開発でどこまで能力を持つかを測定した研究結果を公開しました。評価では、一部のフロンティアモデルが、従来は高度な専門家を必要としていた分析や工学的作業を実…",
+      "lead": "Anthropicは2026年9月10日、AIモデルが諜報活動のターゲティングや通常兵器関連のソフトウェア開発でどこまで能力を持つかを測定した研究結果を公開しました。評価では、一部のフロンティアモデルが、従来は高度な専門家を必要としていた分析や工学的作業を実行できる水準に達していることが示されています。",
+      "headings": [
+        "SNS分析と位置特定をAIが高速化",
+        "AIがドローン制御ソフトを自律的に改善",
+        "「専門知識の希少性」が安全障壁ではなくなる",
+        "今後の展望"
+      ],
+      "source_url": "https://www.anthropic.com/research/intelligence-targeting-conventional-weapons-capabilities",
+      "source_label": "anthropic.com",
+      "cover": "assets/posts/1547722471908835348.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1547722471908835348",
+      "first_seen": "2026-09-10T21:36:32.596Z"
+    },
     {
       "id": "1547722327830167562",
       "title": "Anthropic最新脅威報告、AI悪用は「支援」から「攻撃の自動実行」へ",

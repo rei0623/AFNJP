@@ -1,8 +1,68 @@
 {
-  "generated_at": "2026-09-10T21:36:13.601Z",
+  "generated_at": "2026-09-11T00:08:22.946Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1547722662476775465",
+      "title": "OpenAI「Agents API」発表、Codexの実行基盤を開発者向けAPIとして提供",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-09-10T21:37:18.031Z",
+      "excerpt": "OpenAIは2026年9月10日、長時間動作するクラウドAIエージェントを構築・実行できる「Agents API」をパブリックベータとして公開しました。Codexを支えるエージェント実行基盤をOpenAI側が管理し、開発者はタスク、モデル、ツール、実行環境…",
+      "lead": "OpenAIは2026年9月10日、長時間動作するクラウドAIエージェントを構築・実行できる「Agents API」をパブリックベータとして公開しました。Codexを支えるエージェント実行基盤をOpenAI側が管理し、開発者はタスク、モデル、ツール、実行環境を指定することで、本番用途を想定したエージェントを構築できます。",
+      "headings": [
+        "エージェント開発の「実行基盤」をAPI化",
+        "長時間処理と大量ツール利用を基盤側で支援",
+        "「モデル」から「エージェント基盤」へ競争軸が拡大",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/introducing-the-agents-api/",
+      "source_label": "openai.com",
+      "cover": "assets/posts/1547722662476775465.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1547722662476775465",
+      "first_seen": "2026-09-10T21:37:18.031Z"
+    },
+    {
+      "id": "1547722577063972884",
+      "title": "OpenAIが金融特化「ChatGPT for Financial Services」発表、GPT-6 Astraと金融データを統合",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-09-10T21:36:57.667Z",
+      "excerpt": "OpenAIは2026年9月10日、金融機関向けの「ChatGPT for Financial Services」を発表しました。GPT-6 Astraの推論能力と金融データ、調査・モデリング・資料作成機能を統合したChatGPT Workの金融特化版で、投…",
+      "lead": "OpenAIは2026年9月10日、金融機関向けの「ChatGPT for Financial Services」を発表しました。GPT-6 Astraの推論能力と金融データ、調査・モデリング・資料作成機能を統合したChatGPT Workの金融特化版で、投資銀行や株式調査を中心とする業務の効率化を狙います。Morgan StanleyとEvercoreが設計パートナーとして開発に参加しています。",
+      "headings": [
+        "金融データをChatGPT内に直接統合",
+        "GPT-6 Astraが調査から成果物作成まで担当",
+        "金融機関向けのセキュリティと統制",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/introducing-chatgpt-financial-services/",
+      "source_label": "openai.com",
+      "cover": "assets/posts/1547722577063972884.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1547722577063972884",
+      "first_seen": "2026-09-10T21:36:57.667Z"
+    },
+    {
+      "id": "1547722471908835348",
+      "title": "Anthropic、AIの軍事・諜報能力を評価 画像からの位置特定で人間の熟練者を上回る結果",
+      "channel": "anthropic",
+      "category": "Anthropic",
+      "date": "2026-09-10T21:36:32.596Z",
+      "excerpt": "Anthropicは2026年9月10日、AIモデルが諜報活動のターゲティングや通常兵器関連のソフトウェア開発でどこまで能力を持つかを測定した研究結果を公開しました。評価では、一部のフロンティアモデルが、従来は高度な専門家を必要としていた分析や工学的作業を実…",
+      "lead": "Anthropicは2026年9月10日、AIモデルが諜報活動のターゲティングや通常兵器関連のソフトウェア開発でどこまで能力を持つかを測定した研究結果を公開しました。評価では、一部のフロンティアモデルが、従来は高度な専門家を必要としていた分析や工学的作業を実行できる水準に達していることが示されています。",
+      "headings": [
+        "SNS分析と位置特定をAIが高速化",
+        "AIがドローン制御ソフトを自律的に改善",
+        "「専門知識の希少性」が安全障壁ではなくなる",
+        "今後の展望"
+      ],
+      "source_url": "https://www.anthropic.com/research/intelligence-targeting-conventional-weapons-capabilities",
+      "source_label": "anthropic.com",
+      "cover": "assets/posts/1547722471908835348.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1547722471908835348",
+      "first_seen": "2026-09-10T21:36:32.596Z"
+    },
     {
       "id": "1547722327830167562",
       "title": "Anthropic最新脅威報告、AI悪用は「支援」から「攻撃の自動実行」へ",
@@ -183,68 +243,6 @@
       "cover": "assets/posts/1547637189201100970.webp",
       "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1547637189201100970",
       "first_seen": "2026-09-10T15:57:39.614Z"
-    },
-    {
-      "id": "1547637110675349554",
-      "title": "OpenAI、米政府のAI利用を大幅拡大 月額ライセンス無料・利用料50％引きへ",
-      "channel": "open-ai",
-      "category": "Open AI",
-      "date": "2026-09-10T15:57:20.892Z",
-      "excerpt": "OpenAIは2026年9月10日、米国一般調達局（GSA）との複数年契約を発表し、連邦政府だけでなく州・地方・部族政府までAI利用支援を拡大すると明らかにしました。対象組織では通常1ユーザー当たり月額15ドルのライセンス料を0ドルとし、利用料金も50％割引…",
-      "lead": "OpenAIは2026年9月10日、米国一般調達局（GSA）との複数年契約を発表し、連邦政府だけでなく州・地方・部族政府までAI利用支援を拡大すると明らかにしました。対象組織では通常1ユーザー当たり月額15ドルのライセンス料を0ドルとし、利用料金も50％割引します。行政機関における生成AI導入のコスト障壁を大きく下げる動きです。",
-      "headings": [
-        "約2300万人の公共部門を対象に拡大",
-        "サイバー防御向け「Daybreak」も強化",
-        "行政AIは実証段階から大規模展開へ",
-        "今後の展望"
-      ],
-      "source_url": "https://openai.com/index/expanding-ai-access-us-government/",
-      "source_label": "openai.com",
-      "cover": "assets/posts/1547637110675349554.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1547637110675349554",
-      "first_seen": "2026-09-10T15:57:20.892Z"
-    },
-    {
-      "id": "1547607670888992849",
-      "title": "DeepSeek-V4.1-Flash公開、1Mトークン対応とKVキャッシュ圧縮を両立",
-      "channel": "deep-seek",
-      "category": "その他",
-      "date": "2026-09-10T14:00:21.900Z",
-      "excerpt": "DeepSeekが「DeepSeek-V4.1-Flash」を公開しました。最大100万トークンのコンテキスト、画像とテキストのマルチモーダル入力に対応しながら、長文推論で大きな負担となるKVキャッシュを大幅に圧縮したことが最大の特徴です。",
-      "lead": "DeepSeekが「DeepSeek-V4.1-Flash」を公開しました。最大100万トークンのコンテキスト、画像とテキストのマルチモーダル入力に対応しながら、長文推論で大きな負担となるKVキャッシュを大幅に圧縮したことが最大の特徴です。",
-      "headings": [
-        "552B級MoEを8B／16Bだけ動かす新設計",
-        "100万トークンとマルチモーダルを標準化",
-        "コーディング・エージェント性能が大幅向上",
-        "実運用では推論基盤への対応が重要",
-        "今後の展望"
-      ],
-      "source_url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash",
-      "source_label": "huggingface.co",
-      "cover": "assets/posts/1547607670888992849.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1419690651490193470/threads/1547607670888992849",
-      "first_seen": "2026-09-10T14:00:21.900Z"
-    },
-    {
-      "id": "1547447245480271872",
-      "title": "Sakana AI・SCSK・住友商事が包括提携、AIを「実験」から産業実装へ",
-      "channel": "sakana-ai",
-      "category": "日本国内",
-      "date": "2026-09-10T03:22:53.502Z",
-      "excerpt": "Sakana AI、SCSK、住友商事は2026年9月10日、AIを活用した日本の産業変革と社会課題の解決に向け、包括業務提携で合意しました。AI研究、システム統合、事業開発という3社の強みを組み合わせ、金融・製造、サイバーセキュリティ、社会インフラなどでA…",
-      "lead": "Sakana AI、SCSK、住友商事は2026年9月10日、AIを活用した日本の産業変革と社会課題の解決に向け、包括業務提携で合意しました。AI研究、システム統合、事業開発という3社の強みを組み合わせ、金融・製造、サイバーセキュリティ、社会インフラなどでAIの本番導入を加速します。",
-      "headings": [
-        "3社が狙う「AI実装の壁」の突破",
-        "金融・製造から本番利用を想定",
-        "Sakana AIの技術をサイバーセキュリティへ",
-        "特定モデルに依存しないAI基盤へ",
-        "今後の展望"
-      ],
-      "source_url": "https://sakana.ai/scsk-sc-partnership/",
-      "source_label": "sakana.ai",
-      "cover": "assets/posts/1547447245480271872.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1420683387395375115/threads/1547447245480271872",
-      "first_seen": "2026-09-10T03:22:53.502Z"
     }
   ]
 }

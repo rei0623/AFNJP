@@ -5,8 +5,32 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 10 Sep 2026 21:35:58 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 10 Sep 2026 21:37:18 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>OpenAI「Agents API」発表、Codexの実行基盤を開発者向けAPIとして提供</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1547722662476775465</link>
+      <guid isPermaLink="false">afnjp-1547722662476775465</guid>
+      <pubDate>Thu, 10 Sep 2026 21:37:18 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIは2026年9月10日、長時間動作するクラウドAIエージェントを構築・実行できる「Agents API」をパブリックベータとして公開しました。Codexを支えるエージェント実行基盤をOpenAI側が管理し、開発者はタスク、モデル、ツール、実行環境…</description>
+    </item>
+    <item>
+      <title>OpenAIが金融特化「ChatGPT for Financial Services」発表、GPT-6 Astraと金融データを統合</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1547722577063972884</link>
+      <guid isPermaLink="false">afnjp-1547722577063972884</guid>
+      <pubDate>Thu, 10 Sep 2026 21:36:57 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIは2026年9月10日、金融機関向けの「ChatGPT for Financial Services」を発表しました。GPT-6 Astraの推論能力と金融データ、調査・モデリング・資料作成機能を統合したChatGPT Workの金融特化版で、投…</description>
+    </item>
+    <item>
+      <title>Anthropic、AIの軍事・諜報能力を評価 画像からの位置特定で人間の熟練者を上回る結果</title>
+      <link>https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1547722471908835348</link>
+      <guid isPermaLink="false">afnjp-1547722471908835348</guid>
+      <pubDate>Thu, 10 Sep 2026 21:36:32 GMT</pubDate>
+      <category>anthropic</category>
+      <description>Anthropicは2026年9月10日、AIモデルが諜報活動のターゲティングや通常兵器関連のソフトウェア開発でどこまで能力を持つかを測定した研究結果を公開しました。評価では、一部のフロンティアモデルが、従来は高度な専門家を必要としていた分析や工学的作業を実…</description>
+    </item>
     <item>
       <title>Anthropic最新脅威報告、AI悪用は「支援」から「攻撃の自動実行」へ</title>
       <link>https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1547722327830167562</link>
@@ -78,30 +102,6 @@
       <pubDate>Thu, 10 Sep 2026 15:57:39 GMT</pubDate>
       <category>その他</category>
       <description>Replitは2026年9月10日、Databricksとの統合機能を一般提供開始し、新たにDatabricks Lakebaseのネイティブサポートを追加したと発表しました。企業が管理されたデータを活用しながら、AIによるアプリ開発から本番デプロイまでを短…</description>
-    </item>
-    <item>
-      <title>OpenAI、米政府のAI利用を大幅拡大 月額ライセンス無料・利用料50％引きへ</title>
-      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1547637110675349554</link>
-      <guid isPermaLink="false">afnjp-1547637110675349554</guid>
-      <pubDate>Thu, 10 Sep 2026 15:57:20 GMT</pubDate>
-      <category>open-ai</category>
-      <description>OpenAIは2026年9月10日、米国一般調達局（GSA）との複数年契約を発表し、連邦政府だけでなく州・地方・部族政府までAI利用支援を拡大すると明らかにしました。対象組織では通常1ユーザー当たり月額15ドルのライセンス料を0ドルとし、利用料金も50％割引…</description>
-    </item>
-    <item>
-      <title>DeepSeek-V4.1-Flash公開、1Mトークン対応とKVキャッシュ圧縮を両立</title>
-      <link>https://discord.com/channels/1415350002255007784/1419690651490193470/threads/1547607670888992849</link>
-      <guid isPermaLink="false">afnjp-1547607670888992849</guid>
-      <pubDate>Thu, 10 Sep 2026 14:00:21 GMT</pubDate>
-      <category>deep-seek</category>
-      <description>DeepSeekが「DeepSeek-V4.1-Flash」を公開しました。最大100万トークンのコンテキスト、画像とテキストのマルチモーダル入力に対応しながら、長文推論で大きな負担となるKVキャッシュを大幅に圧縮したことが最大の特徴です。</description>
-    </item>
-    <item>
-      <title>Sakana AI・SCSK・住友商事が包括提携、AIを「実験」から産業実装へ</title>
-      <link>https://discord.com/channels/1415350002255007784/1420683387395375115/threads/1547447245480271872</link>
-      <guid isPermaLink="false">afnjp-1547447245480271872</guid>
-      <pubDate>Thu, 10 Sep 2026 03:22:53 GMT</pubDate>
-      <category>sakana-ai</category>
-      <description>Sakana AI、SCSK、住友商事は2026年9月10日、AIを活用した日本の産業変革と社会課題の解決に向け、包括業務提携で合意しました。AI研究、システム統合、事業開発という3社の強みを組み合わせ、金融・製造、サイバーセキュリティ、社会インフラなどでA…</description>
     </item>
   </channel>
 </rss>
