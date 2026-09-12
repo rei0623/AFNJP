@@ -5,8 +5,24 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 12 Sep 2026 10:47:35 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 12 Sep 2026 16:07:40 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Microsoft CopilotにGrok追加、Word・Excel・PowerPointでマルチモデル戦略を拡大</title>
+      <link>https://discord.com/channels/1415350002255007784/1423003108790767748/threads/1548364483490095184</link>
+      <guid isPermaLink="false">afnjp-1548364483490095184</guid>
+      <pubDate>Sat, 12 Sep 2026 16:07:40 GMT</pubDate>
+      <category>copilot</category>
+      <description>Microsoftは2026年9月12日、Copilotで利用できるAIモデルの選択肢にSpaceXAIの「Grok」モデルファミリーを追加すると発表しました。まずMicrosoft Frontierプログラムを通じ、Word、Excel、PowerPoin…</description>
+    </item>
+    <item>
+      <title>Dario Amodei氏、AI最前線の「減速」を提言 再帰的自己改善の加速に警鐘</title>
+      <link>https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1548364385913798676</link>
+      <guid isPermaLink="false">afnjp-1548364385913798676</guid>
+      <pubDate>Sat, 12 Sep 2026 16:07:16 GMT</pubDate>
+      <category>anthropic</category>
+      <description>Anthropic CEOのDario Amodei氏は2026年9月、「We Must Pace the Frontier」と題した論考を公開し、最先端AIの能力向上速度を意図的に抑える必要があるとの考えを示しました。開発停止ではなく、安全性研究や第三者評…</description>
+    </item>
     <item>
       <title>Sakana AI「Fugu Max」「Fugu Ultra v2」発表、単一LLM競争から“モデル編成”へ</title>
       <link>https://discord.com/channels/1415350002255007784/1420683387395375115/threads/1548283933865672704</link>
@@ -86,22 +102,6 @@
       <pubDate>Thu, 10 Sep 2026 16:03:53 GMT</pubDate>
       <category>open-ai</category>
       <description>OpenAIは2026年9月10日、ペンシルベニア大学のCésar de la Fuente氏らが、CodexとChatGPTを活用して新たな抗菌分子を探索する研究事例を公開しました。AIが薬そのものを自動発見するのではなく、膨大な生命情報から有望候補を絞り…</description>
-    </item>
-    <item>
-      <title>Cognition「SWE-2」発表、コーディングAIは性能競争から「コスト効率」競争へ</title>
-      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1547638655219269723</link>
-      <guid isPermaLink="false">afnjp-1547638655219269723</guid>
-      <pubDate>Thu, 10 Sep 2026 16:03:29 GMT</pubDate>
-      <category>その他</category>
-      <description>Cognitionは2026年9月10日、同社で最も高度なコーディングモデル「SWE-2」を発表しました。単純なベンチマーク性能ではなく、推論コストと問題解決能力を同時に改善する「Pareto frontier（パレートフロンティア）」の拡張を主眼に置いたモ…</description>
-    </item>
-    <item>
-      <title>MistralとClouderaが提携、企業データを「主権AI」へ直結</title>
-      <link>https://discord.com/channels/1415350002255007784/1460897850354438283/threads/1547637728756109402</link>
-      <guid isPermaLink="false">afnjp-1547637728756109402</guid>
-      <pubDate>Thu, 10 Sep 2026 15:59:48 GMT</pubDate>
-      <category>mistral-ai</category>
-      <description>MistralとClouderaは2026年9月10日、企業が自社のデータ、モデル、計算基盤を管理したままAIを導入できる「ソブリンAI」の実現に向けた提携を発表しました。金融、製造、通信など、データ管理や規制対応が特に重要な業界で、汎用AIを利用するだけで…</description>
     </item>
   </channel>
 </rss>

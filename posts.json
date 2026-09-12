@@ -1,8 +1,48 @@
 {
-  "generated_at": "2026-09-12T13:35:43.440Z",
+  "generated_at": "2026-09-12T17:07:30.272Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1548364483490095184",
+      "title": "Microsoft CopilotにGrok追加、Word・Excel・PowerPointでマルチモデル戦略を拡大",
+      "channel": "copilot",
+      "category": "Microsoft",
+      "date": "2026-09-12T16:07:40.085Z",
+      "excerpt": "Microsoftは2026年9月12日、Copilotで利用できるAIモデルの選択肢にSpaceXAIの「Grok」モデルファミリーを追加すると発表しました。まずMicrosoft Frontierプログラムを通じ、Word、Excel、PowerPoin…",
+      "lead": "Microsoftは2026年9月12日、Copilotで利用できるAIモデルの選択肢にSpaceXAIの「Grok」モデルファミリーを追加すると発表しました。まずMicrosoft Frontierプログラムを通じ、Word、Excel、PowerPointで限定的に展開します。企業向けAIで、単一モデルに依存せず用途に応じてモデルを選択する流れがさらに鮮明になります。",
+      "headings": [
+        "Grokはデフォルト無効、管理者による明示的な有効化が必要",
+        "Word、Excel、PowerPointから限定展開",
+        "Copilotは「単一モデル」から「モデル選択基盤」へ",
+        "今後の展望"
+      ],
+      "source_url": "https://techcommunity.microsoft.com/blog/microsoft-copilot-blog/expanding-model-choice-in-copilot-with-grok/4555749?ocid=usoc_TWITTER_M365_spl100011235693323",
+      "source_label": "techcommunity.microsoft.com",
+      "cover": "assets/posts/1548364483490095184.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1423003108790767748/threads/1548364483490095184",
+      "first_seen": "2026-09-12T16:07:40.085Z"
+    },
+    {
+      "id": "1548364385913798676",
+      "title": "Dario Amodei氏、AI最前線の「減速」を提言 再帰的自己改善の加速に警鐘",
+      "channel": "anthropic",
+      "category": "Anthropic",
+      "date": "2026-09-12T16:07:16.821Z",
+      "excerpt": "Anthropic CEOのDario Amodei氏は2026年9月、「We Must Pace the Frontier」と題した論考を公開し、最先端AIの能力向上速度を意図的に抑える必要があるとの考えを示しました。開発停止ではなく、安全性研究や第三者評…",
+      "lead": "Anthropic CEOのDario Amodei氏は2026年9月、「We Must Pace the Frontier」と題した論考を公開し、最先端AIの能力向上速度を意図的に抑える必要があるとの考えを示しました。開発停止ではなく、安全性研究や第三者評価が能力向上に追いつける速度へ調整する「pacing」が提案の核心です。",
+      "headings": [
+        "AI開発の速度そのものをリスクとして捉える",
+        "Anthropicが提案する3段階の「pacing」",
+        "得られた時間を安全技術へ振り向ける",
+        "今後の展望"
+      ],
+      "source_url": "https://darioamodei.com/post/we-must-pace-the-frontier",
+      "source_label": "darioamodei.com",
+      "cover": "assets/posts/1548364385913798676.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1548364385913798676",
+      "first_seen": "2026-09-12T16:07:16.821Z"
+    },
     {
       "id": "1548283933865672704",
       "title": "Sakana AI「Fugu Max」「Fugu Ultra v2」発表、単一LLM競争から“モデル編成”へ",
@@ -205,46 +245,6 @@
       "cover": "assets/posts/1547638758445162657.webp",
       "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1547638758445162657",
       "first_seen": "2026-09-10T16:03:53.751Z"
-    },
-    {
-      "id": "1547638655219269723",
-      "title": "Cognition「SWE-2」発表、コーディングAIは性能競争から「コスト効率」競争へ",
-      "channel": "その他",
-      "category": "その他",
-      "date": "2026-09-10T16:03:29.140Z",
-      "excerpt": "Cognitionは2026年9月10日、同社で最も高度なコーディングモデル「SWE-2」を発表しました。単純なベンチマーク性能ではなく、推論コストと問題解決能力を同時に改善する「Pareto frontier（パレートフロンティア）」の拡張を主眼に置いたモ…",
-      "lead": "Cognitionは2026年9月10日、同社で最も高度なコーディングモデル「SWE-2」を発表しました。単純なベンチマーク性能ではなく、推論コストと問題解決能力を同時に改善する「Pareto frontier（パレートフロンティア）」の拡張を主眼に置いたモデルです。",
-      "headings": [
-        "FrontierCodeで50%、低コストで最先端モデルに接近",
-        "最大の特徴は「コストを学習目標に組み込むRL」",
-        "「考えすぎるAI」から必要なコードを早く触るAIへ",
-        "今後の展望"
-      ],
-      "source_url": "https://cognition.com/blog/swe-2",
-      "source_label": "cognition.com",
-      "cover": "assets/posts/1547638655219269723.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1547638655219269723",
-      "first_seen": "2026-09-10T16:03:29.140Z"
-    },
-    {
-      "id": "1547637728756109402",
-      "title": "MistralとClouderaが提携、企業データを「主権AI」へ直結",
-      "channel": "mistral-ai",
-      "category": "その他",
-      "date": "2026-09-10T15:59:48.254Z",
-      "excerpt": "MistralとClouderaは2026年9月10日、企業が自社のデータ、モデル、計算基盤を管理したままAIを導入できる「ソブリンAI」の実現に向けた提携を発表しました。金融、製造、通信など、データ管理や規制対応が特に重要な業界で、汎用AIを利用するだけで…",
-      "lead": "MistralとClouderaは2026年9月10日、企業が自社のデータ、モデル、計算基盤を管理したままAIを導入できる「ソブリンAI」の実現に向けた提携を発表しました。金融、製造、通信など、データ管理や規制対応が特に重要な業界で、汎用AIを利用するだけでなく、自社固有の知識を組み込んだAIを構築できる環境を目指します。",
-      "headings": [
-        "MistralモデルをCloudera環境内で実行",
-        "数十年分の企業データから独自モデルを構築",
-        "「AIを借りる」から「知能を所有する」へ",
-        "今後の展望"
-      ],
-      "source_url": "https://mistral.ai/news/mistral-x-cloudera/",
-      "source_label": "mistral.ai",
-      "cover": "assets/posts/1547637728756109402.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1460897850354438283/threads/1547637728756109402",
-      "first_seen": "2026-09-10T15:59:48.254Z"
     }
   ]
 }
