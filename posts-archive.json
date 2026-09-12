@@ -1,9 +1,29 @@
 {
-  "generated_at": "2026-09-12T09:17:45.549Z",
+  "generated_at": "2026-09-12T13:35:43.438Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 180,
+  "count": 181,
   "posts": [
+    {
+      "id": "1548283933865672704",
+      "title": "Sakana AI「Fugu Max」「Fugu Ultra v2」発表、単一LLM競争から“モデル編成”へ",
+      "channel": "sakana-ai",
+      "category": "日本国内",
+      "date": "2026-09-12T10:47:35.558Z",
+      "excerpt": "Sakana AIは2026年9月11日、複数のAIモデルを動的に使い分ける「Sakana Fugu」の新モデル「Fugu Max」と「Fugu Ultra v2」を発表しました。前者は性能とコストの両立、後者は複雑なタスクでの最高性能を重視し、単一の巨大モ…",
+      "lead": "Sakana AIは2026年9月11日、複数のAIモデルを動的に使い分ける「Sakana Fugu」の新モデル「Fugu Max」と「Fugu Ultra v2」を発表しました。前者は性能とコストの両立、後者は複雑なタスクでの最高性能を重視し、単一の巨大モデルではなく複数モデルのオーケストレーションでAI性能を引き上げる戦略を鮮明にしています。",
+      "headings": [
+        "Fugu Maxは「必要十分なモデル」を動的選択",
+        "Fugu Ultra v2は複雑な長時間推論を重視",
+        "企業のAI設計にも変化",
+        "今後の展望"
+      ],
+      "source_url": "https://sakana.ai/fugu-max-release/",
+      "source_label": "sakana.ai",
+      "cover": "assets/posts/1548283933865672704.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1420683387395375115/threads/1548283933865672704",
+      "first_seen": "2026-09-12T10:47:35.558Z"
+    },
     {
       "id": "1548154974913957958",
       "title": "GPT-6 Astra、AIコーディングを「生成」から「自己検証」へ PerplexityとDevinが実運用",

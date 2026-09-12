@@ -5,8 +5,16 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 12 Sep 2026 02:15:09 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 12 Sep 2026 10:47:35 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Sakana AI「Fugu Max」「Fugu Ultra v2」発表、単一LLM競争から“モデル編成”へ</title>
+      <link>https://discord.com/channels/1415350002255007784/1420683387395375115/threads/1548283933865672704</link>
+      <guid isPermaLink="false">afnjp-1548283933865672704</guid>
+      <pubDate>Sat, 12 Sep 2026 10:47:35 GMT</pubDate>
+      <category>sakana-ai</category>
+      <description>Sakana AIは2026年9月11日、複数のAIモデルを動的に使い分ける「Sakana Fugu」の新モデル「Fugu Max」と「Fugu Ultra v2」を発表しました。前者は性能とコストの両立、後者は複雑なタスクでの最高性能を重視し、単一の巨大モ…</description>
+    </item>
     <item>
       <title>GPT-6 Astra、AIコーディングを「生成」から「自己検証」へ PerplexityとDevinが実運用</title>
       <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1548154974913957958</link>
@@ -94,14 +102,6 @@
       <pubDate>Thu, 10 Sep 2026 15:59:48 GMT</pubDate>
       <category>mistral-ai</category>
       <description>MistralとClouderaは2026年9月10日、企業が自社のデータ、モデル、計算基盤を管理したままAIを導入できる「ソブリンAI」の実現に向けた提携を発表しました。金融、製造、通信など、データ管理や規制対応が特に重要な業界で、汎用AIを利用するだけで…</description>
-    </item>
-    <item>
-      <title>Google Ads、AI時代の広告計測を強化 1st Partyデータと因果推論を統合</title>
-      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1547637375465816164</link>
-      <guid isPermaLink="false">afnjp-1547637375465816164</guid>
-      <pubDate>Thu, 10 Sep 2026 15:58:24 GMT</pubDate>
-      <category>google</category>
-      <description>Googleは2026年9月10日、Google Adsを中心とする計測基盤の新機能を発表しました。Data Managerの連携範囲拡大や「Data Strength Uplift Metric」、オープンソースのマーケティング・ミックス・モデル「Meri…</description>
     </item>
   </channel>
 </rss>
