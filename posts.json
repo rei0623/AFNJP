@@ -1,8 +1,30 @@
 {
-  "generated_at": "2026-09-11T21:41:49.210Z",
+  "generated_at": "2026-09-12T00:16:04.637Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1548086363558125570",
+      "title": "OpenAI、10億人超を支えるストレージ基盤「Habitat」の内部設計を公開",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-09-11T21:42:31.126Z",
+      "excerpt": "OpenAIは2026年9月11日、ChatGPTなどを支えるオンラインストレージ基盤「Habitat」の設計と大規模化の過程を公開しました。Habitatは現在、毎秒7000万件超のリクエストを処理し、約40地域で週10億人超が利用する製品群を支え、500…",
+      "lead": "OpenAIは2026年9月11日、ChatGPTなどを支えるオンラインストレージ基盤「Habitat」の設計と大規模化の過程を公開しました。Habitatは現在、毎秒7000万件超のリクエストを処理し、約40地域で週10億人超が利用する製品群を支え、500PB超のデータを扱っています。",
+      "headings": [
+        "Pythonライブラリから巨大分散システムへ",
+        "Python最大の課題は「平均」ではなくテール遅延",
+        "LIFO接続再利用が障害を増幅",
+        "「機能を減らす」ことでスケールさせる",
+        "PythonからRustへ、CPU効率6倍",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/scaling-storage-one-billion-users-part-one/",
+      "source_label": "openai.com",
+      "cover": "assets/posts/1548086363558125570.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1548086363558125570",
+      "first_seen": "2026-09-11T21:42:31.126Z"
+    },
     {
       "id": "1547722662476775465",
       "title": "OpenAI「Agents API」発表、Codexの実行基盤を開発者向けAPIとして提供",
@@ -223,26 +245,6 @@
       "cover": "assets/posts/1547637280725008404.webp",
       "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1547637280725008404",
       "first_seen": "2026-09-10T15:58:01.435Z"
-    },
-    {
-      "id": "1547637189201100970",
-      "title": "ReplitとDatabricks連携が正式提供、Lakebaseで業務アプリ開発を自動化",
-      "channel": "その他",
-      "category": "その他",
-      "date": "2026-09-10T15:57:39.614Z",
-      "excerpt": "Replitは2026年9月10日、Databricksとの統合機能を一般提供開始し、新たにDatabricks Lakebaseのネイティブサポートを追加したと発表しました。企業が管理されたデータを活用しながら、AIによるアプリ開発から本番デプロイまでを短…",
-      "lead": "Replitは2026年9月10日、Databricksとの統合機能を一般提供開始し、新たにDatabricks Lakebaseのネイティブサポートを追加したと発表しました。企業が管理されたデータを活用しながら、AIによるアプリ開発から本番デプロイまでを短縮することが狙いです。",
-      "headings": [
-        "LakebaseをReplit Agentが自動構築",
-        "プレビュー環境とガバナンスを強化",
-        "「データ分析」から「業務アプリ」へ",
-        "今後の展望"
-      ],
-      "source_url": "https://replit.com/blog/databricks2026",
-      "source_label": "replit.com",
-      "cover": "assets/posts/1547637189201100970.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1547637189201100970",
-      "first_seen": "2026-09-10T15:57:39.614Z"
     }
   ]
 }

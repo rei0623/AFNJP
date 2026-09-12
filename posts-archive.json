@@ -1,9 +1,31 @@
 {
-  "generated_at": "2026-09-11T21:41:49.209Z",
+  "generated_at": "2026-09-12T00:16:04.631Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 178,
+  "count": 179,
   "posts": [
+    {
+      "id": "1548086363558125570",
+      "title": "OpenAI、10億人超を支えるストレージ基盤「Habitat」の内部設計を公開",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-09-11T21:42:31.126Z",
+      "excerpt": "OpenAIは2026年9月11日、ChatGPTなどを支えるオンラインストレージ基盤「Habitat」の設計と大規模化の過程を公開しました。Habitatは現在、毎秒7000万件超のリクエストを処理し、約40地域で週10億人超が利用する製品群を支え、500…",
+      "lead": "OpenAIは2026年9月11日、ChatGPTなどを支えるオンラインストレージ基盤「Habitat」の設計と大規模化の過程を公開しました。Habitatは現在、毎秒7000万件超のリクエストを処理し、約40地域で週10億人超が利用する製品群を支え、500PB超のデータを扱っています。",
+      "headings": [
+        "Pythonライブラリから巨大分散システムへ",
+        "Python最大の課題は「平均」ではなくテール遅延",
+        "LIFO接続再利用が障害を増幅",
+        "「機能を減らす」ことでスケールさせる",
+        "PythonからRustへ、CPU効率6倍",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/scaling-storage-one-billion-users-part-one/",
+      "source_label": "openai.com",
+      "cover": "assets/posts/1548086363558125570.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1548086363558125570",
+      "first_seen": "2026-09-11T21:42:31.126Z"
+    },
     {
       "id": "1547722662476775465",
       "title": "OpenAI「Agents API」発表、Codexの実行基盤を開発者向けAPIとして提供",
