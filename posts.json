@@ -1,8 +1,28 @@
 {
-  "generated_at": "2026-09-12T00:16:04.637Z",
+  "generated_at": "2026-09-12T04:37:27.887Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1548154974913957958",
+      "title": "GPT-6 Astra、AIコーディングを「生成」から「自己検証」へ PerplexityとDevinが実運用",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-09-12T02:15:09.348Z",
+      "excerpt": "OpenAIが公開した2つの事例から、GPT-6 Astraの重要な特徴が見えてきました。焦点は単にコードを書く能力ではなく、生成したソフトウェアを自らテストし、動作を確認し、その証拠まで人間に提示する能力です。PerplexityとCognitionは、こ…",
+      "lead": "OpenAIが公開した2つの事例から、GPT-6 Astraの重要な特徴が見えてきました。焦点は単にコードを書く能力ではなく、生成したソフトウェアを自らテストし、動作を確認し、その証拠まで人間に提示する能力です。PerplexityとCognitionは、この能力を実際の開発・運用工程に組み込み始めています。",
+      "headings": [
+        "Perplexityはエンドツーエンドのシステムを任せる",
+        "Devinは「動く証拠」まで生成",
+        "AI開発のボトルネックは「レビュー」に移る",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/perplexity-improving-accuracy-with-astra/",
+      "source_label": "openai.com",
+      "cover": "assets/posts/1548154974913957958.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1548154974913957958",
+      "first_seen": "2026-09-12T02:15:09.348Z"
+    },
     {
       "id": "1548086363558125570",
       "title": "OpenAI、10億人超を支えるストレージ基盤「Habitat」の内部設計を公開",
@@ -225,26 +245,6 @@
       "cover": "assets/posts/1547637375465816164.webp",
       "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1547637375465816164",
       "first_seen": "2026-09-10T15:58:24.023Z"
-    },
-    {
-      "id": "1547637280725008404",
-      "title": "OpenAI「Data agent」発表、自然言語だけで企業データを分析・可視化",
-      "channel": "open-ai",
-      "category": "Open AI",
-      "date": "2026-09-10T15:58:01.435Z",
-      "excerpt": "OpenAIは2026年9月10日、ChatGPT Work向けの新機能「Data agent」を発表しました。企業内のデータソースへ接続し、自然言語で質問するだけで分析、原因調査、インタラクティブなダッシュボード作成、さらに承認済みのアクションまで実行でき…",
-      "lead": "OpenAIは2026年9月10日、ChatGPT Work向けの新機能「Data agent」を発表しました。企業内のデータソースへ接続し、自然言語で質問するだけで分析、原因調査、インタラクティブなダッシュボード作成、さらに承認済みのアクションまで実行できる仕組みです。",
-      "headings": [
-        "SQLを書かずに企業データを分析",
-        "分析結果をダッシュボードと業務アクションへ",
-        "権限管理を維持したままAIを接続",
-        "今後の展望"
-      ],
-      "source_url": "https://openai.com/index/put-data-to-work/",
-      "source_label": "openai.com",
-      "cover": "assets/posts/1547637280725008404.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1547637280725008404",
-      "first_seen": "2026-09-10T15:58:01.435Z"
     }
   ]
 }

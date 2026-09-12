@@ -5,8 +5,16 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 11 Sep 2026 21:42:31 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 12 Sep 2026 02:15:09 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>GPT-6 Astra、AIコーディングを「生成」から「自己検証」へ PerplexityとDevinが実運用</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1548154974913957958</link>
+      <guid isPermaLink="false">afnjp-1548154974913957958</guid>
+      <pubDate>Sat, 12 Sep 2026 02:15:09 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIが公開した2つの事例から、GPT-6 Astraの重要な特徴が見えてきました。焦点は単にコードを書く能力ではなく、生成したソフトウェアを自らテストし、動作を確認し、その証拠まで人間に提示する能力です。PerplexityとCognitionは、こ…</description>
+    </item>
     <item>
       <title>OpenAI、10億人超を支えるストレージ基盤「Habitat」の内部設計を公開</title>
       <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1548086363558125570</link>
@@ -94,14 +102,6 @@
       <pubDate>Thu, 10 Sep 2026 15:58:24 GMT</pubDate>
       <category>google</category>
       <description>Googleは2026年9月10日、Google Adsを中心とする計測基盤の新機能を発表しました。Data Managerの連携範囲拡大や「Data Strength Uplift Metric」、オープンソースのマーケティング・ミックス・モデル「Meri…</description>
-    </item>
-    <item>
-      <title>OpenAI「Data agent」発表、自然言語だけで企業データを分析・可視化</title>
-      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1547637280725008404</link>
-      <guid isPermaLink="false">afnjp-1547637280725008404</guid>
-      <pubDate>Thu, 10 Sep 2026 15:58:01 GMT</pubDate>
-      <category>open-ai</category>
-      <description>OpenAIは2026年9月10日、ChatGPT Work向けの新機能「Data agent」を発表しました。企業内のデータソースへ接続し、自然言語で質問するだけで分析、原因調査、インタラクティブなダッシュボード作成、さらに承認済みのアクションまで実行でき…</description>
     </item>
   </channel>
 </rss>
