@@ -1,8 +1,28 @@
 {
-  "generated_at": "2026-09-14T12:47:16.523Z",
+  "generated_at": "2026-09-14T18:36:16.271Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1549076738410287326",
+      "title": "Fyxerが示す「信頼されるAI秘書」の設計、単一LLMではなく30〜50モデルで仕事を分解",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-09-14T15:17:54.891Z",
+      "excerpt": "OpenAIは、AIエグゼクティブアシスタントを提供するFyxerの開発事例を公開しました。特徴は、メール返信を巨大な言語モデルへの単純な生成依頼として扱わず、30〜50の専門モデルに処理を分解している点です。さらに50万時間超の実務データとユーザーの修正履…",
+      "lead": "OpenAIは、AIエグゼクティブアシスタントを提供するFyxerの開発事例を公開しました。特徴は、メール返信を巨大な言語モデルへの単純な生成依頼として扱わず、30〜50の専門モデルに処理を分解している点です。さらに50万時間超の実務データとユーザーの修正履歴を学習へ戻すことで、個人ごとの文脈や文体に適応する仕組みを構築しています。",
+      "headings": [
+        "メール返信を「複数の予測問題」に分解",
+        "50万時間超の秘書業務を学習資産に",
+        "ユーザーの「修正」が次の学習データになる",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/fyxer/",
+      "source_label": "openai.com",
+      "cover": "assets/posts/1549076738410287326.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1549076738410287326",
+      "first_seen": "2026-09-14T15:17:54.891Z"
+    },
     {
       "id": "1548364483490095184",
       "title": "Microsoft CopilotにGrok追加、Word・Excel・PowerPointでマルチモデル戦略を拡大",
@@ -225,26 +245,6 @@
       "cover": "assets/posts/1547638875940196412.webp",
       "url": "https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1547638875940196412",
       "first_seen": "2026-09-10T16:04:21.764Z"
-    },
-    {
-      "id": "1547638758445162657",
-      "title": "CodexとChatGPT、ゲノムから新たな抗菌分子を探す研究を支援",
-      "channel": "open-ai",
-      "category": "Open AI",
-      "date": "2026-09-10T16:03:53.751Z",
-      "excerpt": "OpenAIは2026年9月10日、ペンシルベニア大学のCésar de la Fuente氏らが、CodexとChatGPTを活用して新たな抗菌分子を探索する研究事例を公開しました。AIが薬そのものを自動発見するのではなく、膨大な生命情報から有望候補を絞り…",
-      "lead": "OpenAIは2026年9月10日、ペンシルベニア大学のCésar de la Fuente氏らが、CodexとChatGPTを活用して新たな抗菌分子を探索する研究事例を公開しました。AIが薬そのものを自動発見するのではなく、膨大な生命情報から有望候補を絞り込み、研究者の仮説構築や解析を高速化する点が重要です。",
-      "headings": [
-        "「生命のコード」から候補分子を探索",
-        "CodexとChatGPTは研究開発の「接着剤」に",
-        "AIの予測だけでは「薬」にならない",
-        "今後の展望"
-      ],
-      "source_url": "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials/",
-      "source_label": "openai.com",
-      "cover": "assets/posts/1547638758445162657.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1547638758445162657",
-      "first_seen": "2026-09-10T16:03:53.751Z"
     }
   ]
 }

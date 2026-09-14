@@ -5,8 +5,16 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 12 Sep 2026 16:07:40 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 14 Sep 2026 15:17:54 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Fyxerが示す「信頼されるAI秘書」の設計、単一LLMではなく30〜50モデルで仕事を分解</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1549076738410287326</link>
+      <guid isPermaLink="false">afnjp-1549076738410287326</guid>
+      <pubDate>Mon, 14 Sep 2026 15:17:54 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIは、AIエグゼクティブアシスタントを提供するFyxerの開発事例を公開しました。特徴は、メール返信を巨大な言語モデルへの単純な生成依頼として扱わず、30〜50の専門モデルに処理を分解している点です。さらに50万時間超の実務データとユーザーの修正履…</description>
+    </item>
     <item>
       <title>Microsoft CopilotにGrok追加、Word・Excel・PowerPointでマルチモデル戦略を拡大</title>
       <link>https://discord.com/channels/1415350002255007784/1423003108790767748/threads/1548364483490095184</link>
@@ -94,14 +102,6 @@
       <pubDate>Thu, 10 Sep 2026 16:04:21 GMT</pubDate>
       <category>gemini</category>
       <description>Googleは2026年9月10日、Windows向け「Gemini」アプリの提供開始を発表しました。Windows 10および11で利用でき、作業中のアプリを離れることなく、キーボードショートカットからAIを呼び出せる点が大きな特徴です。</description>
-    </item>
-    <item>
-      <title>CodexとChatGPT、ゲノムから新たな抗菌分子を探す研究を支援</title>
-      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1547638758445162657</link>
-      <guid isPermaLink="false">afnjp-1547638758445162657</guid>
-      <pubDate>Thu, 10 Sep 2026 16:03:53 GMT</pubDate>
-      <category>open-ai</category>
-      <description>OpenAIは2026年9月10日、ペンシルベニア大学のCésar de la Fuente氏らが、CodexとChatGPTを活用して新たな抗菌分子を探索する研究事例を公開しました。AIが薬そのものを自動発見するのではなく、膨大な生命情報から有望候補を絞り…</description>
     </item>
   </channel>
 </rss>
