@@ -1,9 +1,49 @@
 {
-  "generated_at": "2026-09-15T13:30:35.759Z",
+  "generated_at": "2026-09-15T18:10:23.475Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 184,
+  "count": 186,
   "posts": [
+    {
+      "id": "1549434664274628618",
+      "title": "Claudeが金融アドバイザー業務へ本格進出、顧客データとAIを横断接続",
+      "channel": "anthropic",
+      "category": "Anthropic",
+      "date": "2026-09-15T15:00:11.067Z",
+      "excerpt": "Anthropicは2026年9月14日、金融アドバイザー向けの新製品群「Claude for Financial Advisors」を発表しました。資産管理、CRM、金融計画、相続・税務、会議記録など複数システムに分散した情報をClaudeへ接続し、面談準…",
+      "lead": "Anthropicは2026年9月14日、金融アドバイザー向けの新製品群「Claude for Financial Advisors」を発表しました。資産管理、CRM、金融計画、相続・税務、会議記録など複数システムに分散した情報をClaudeへ接続し、面談準備やポートフォリオ分析、コンプライアンス確認、記録作成までを一つのAIワークフローにまとめます。",
+      "headings": [
+        "金融システムをClaudeから横断利用",
+        "面談準備からリバランスまでSkillsで自動化",
+        "規制業務では人間の承認を前提に設計",
+        "今後の展望"
+      ],
+      "source_url": "https://claude.com/blog/claude-for-financial-advisors",
+      "source_label": "claude.com",
+      "cover": "assets/posts/1549434664274628618.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1549434664274628618",
+      "first_seen": "2026-09-15T15:00:11.067Z"
+    },
+    {
+      "id": "1549434235259981874",
+      "title": "Google「DevFest 2026」始動、AIエージェント時代の開発・セキュリティ・スケールを実践",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-09-15T14:58:28.782Z",
+      "excerpt": "Googleは、世界各地の開発者コミュニティが主導する技術イベント「DevFest 2026」を、2026年10月1日から12月31日まで開催すると発表しました。115カ国で800以上のイベントが計画され、約100万人の開発者やビルダーの参加を見込んでいます…",
+      "lead": "Googleは、世界各地の開発者コミュニティが主導する技術イベント「DevFest 2026」を、2026年10月1日から12月31日まで開催すると発表しました。115カ国で800以上のイベントが計画され、約100万人の開発者やビルダーの参加を見込んでいます。今年はAIエージェントを前提としたソフトウェア開発が中心テーマです。",
+      "headings": [
+        "テーマは「Build, Secure, Scale」",
+        "GeminiからWeb MCPまで幅広い技術を対象",
+        "地域コミュニティ主導で115カ国へ展開",
+        "今後の展望"
+      ],
+      "source_url": "https://blog.google/innovation-and-ai/technology/developers-tools/devfest2026/",
+      "source_label": "blog.google",
+      "cover": "assets/posts/1549434235259981874.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1549434235259981874",
+      "first_seen": "2026-09-15T14:58:28.782Z"
+    },
     {
       "id": "1549076738410287326",
       "title": "Fyxerが示す「信頼されるAI秘書」の設計、単一LLMではなく30〜50モデルで仕事を分解",

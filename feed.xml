@@ -5,8 +5,24 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 14 Sep 2026 15:17:54 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 15 Sep 2026 15:00:11 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Claudeが金融アドバイザー業務へ本格進出、顧客データとAIを横断接続</title>
+      <link>https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1549434664274628618</link>
+      <guid isPermaLink="false">afnjp-1549434664274628618</guid>
+      <pubDate>Tue, 15 Sep 2026 15:00:11 GMT</pubDate>
+      <category>anthropic</category>
+      <description>Anthropicは2026年9月14日、金融アドバイザー向けの新製品群「Claude for Financial Advisors」を発表しました。資産管理、CRM、金融計画、相続・税務、会議記録など複数システムに分散した情報をClaudeへ接続し、面談準…</description>
+    </item>
+    <item>
+      <title>Google「DevFest 2026」始動、AIエージェント時代の開発・セキュリティ・スケールを実践</title>
+      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1549434235259981874</link>
+      <guid isPermaLink="false">afnjp-1549434235259981874</guid>
+      <pubDate>Tue, 15 Sep 2026 14:58:28 GMT</pubDate>
+      <category>google</category>
+      <description>Googleは、世界各地の開発者コミュニティが主導する技術イベント「DevFest 2026」を、2026年10月1日から12月31日まで開催すると発表しました。115カ国で800以上のイベントが計画され、約100万人の開発者やビルダーの参加を見込んでいます…</description>
+    </item>
     <item>
       <title>Fyxerが示す「信頼されるAI秘書」の設計、単一LLMではなく30〜50モデルで仕事を分解</title>
       <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1549076738410287326</link>
@@ -86,22 +102,6 @@
       <pubDate>Thu, 10 Sep 2026 21:35:58 GMT</pubDate>
       <category>anthropic</category>
       <description>Anthropicは2026年9月10日、Threat Intelligenceページで最新のAI悪用調査を公開しました。2025年12月から2026年8月に確認・阻止した事例を分析すると、Claudeは単なる質問応答ツールではなく、サイバー攻撃、監視、影響…</description>
-    </item>
-    <item>
-      <title>OpenAI「GPT-Live-1」公開、音声AIはターン制からフルデュプレックスへ</title>
-      <link>https://discord.com/channels/1415350002255007784/1415353131604377641/threads/1547722245697183837</link>
-      <guid isPermaLink="false">afnjp-1547722245697183837</guid>
-      <pubDate>Thu, 10 Sep 2026 21:35:38 GMT</pubDate>
-      <category>chatgpt</category>
-      <description>OpenAIは2026年9月10日、リアルタイム音声モデル「GPT-Live-1」をAPIで提供開始しました。最大の特徴は、AIが話しながら同時にユーザーの音声を聞くフルデュプレックス方式です。従来の「聞く→考える→話す」という音声AIから、人間同士の会話に…</description>
-    </item>
-    <item>
-      <title>Google「Gemini」Windowsアプリ公開、Alt＋Spaceでデスクトップから即起動</title>
-      <link>https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1547638875940196412</link>
-      <guid isPermaLink="false">afnjp-1547638875940196412</guid>
-      <pubDate>Thu, 10 Sep 2026 16:04:21 GMT</pubDate>
-      <category>gemini</category>
-      <description>Googleは2026年9月10日、Windows向け「Gemini」アプリの提供開始を発表しました。Windows 10および11で利用でき、作業中のアプリを離れることなく、キーボードショートカットからAIを呼び出せる点が大きな特徴です。</description>
     </item>
   </channel>
 </rss>
