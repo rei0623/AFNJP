@@ -1,8 +1,67 @@
 {
-  "generated_at": "2026-09-15T21:17:46.683Z",
+  "generated_at": "2026-09-16T00:16:40.525Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1549567044834426880",
+      "title": "ClaudeにSalesforce統合、営業業務をAIが一気通貫で支援",
+      "channel": "claude",
+      "category": "Anthropic",
+      "date": "2026-09-15T23:46:13.052Z",
+      "excerpt": "Anthropicは2026年9月15日、Salesforceと共同開発した「Salesforce in Claude」をベータ公開しました。Salesforce上のアカウント、商談、パイプライン情報をClaudeから扱えるようにし、企業調査から商談準備、C…",
+      "lead": "Anthropicは2026年9月15日、Salesforceと共同開発した「Salesforce in Claude」をベータ公開しました。Salesforce上のアカウント、商談、パイプライン情報をClaudeから扱えるようにし、企業調査から商談準備、CRM更新まで営業担当者の日常業務をAIで支援します。",
+      "headings": [
+        "37のスキルで営業ワークフローを自動化",
+        "朝のブリーフから商談後処理まで連携",
+        "CRMを置き換えず、AIを操作レイヤーに",
+        "今後の展望"
+      ],
+      "source_url": "https://claude.com/blog/salesforce-in-claude",
+      "source_label": "claude.com",
+      "cover": "assets/posts/1549567044834426880.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415353403269185546/threads/1549567044834426880",
+      "first_seen": "2026-09-15T23:46:13.052Z"
+    },
+    {
+      "id": "1549566923744739328",
+      "title": "Metaが新サブスク「Meta One」発表、AI生成枠とInstagram・WhatsApp・Facebook機能を統合",
+      "channel": "meta",
+      "category": "Meta",
+      "date": "2026-09-15T23:45:44.182Z",
+      "excerpt": "Metaは2026年9月15日、新たなサブスクリプションサービス「Meta One」を発表しました。Instagram、Facebook、WhatsApp、Meta AIを横断し、AI機能の利用上限拡大、表現機能、クリエイター・企業向け運用ツールなどをまとめ…",
+      "lead": "Metaは2026年9月15日、新たなサブスクリプションサービス「Meta One」を発表しました。Instagram、Facebook、WhatsApp、Meta AIを横断し、AI機能の利用上限拡大、表現機能、クリエイター・企業向け運用ツールなどをまとめて提供します。50以上の機能を展開し、これまでの契約・トライアルは累計1500万件に達したとしています。",
+      "headings": [
+        "無料版を残しつつ「高負荷AI」を有料化",
+        "月額2.99ドルから、用途別に多段階化",
+        "企業向けはAIエージェントまで統合",
+        "今後の展望"
+      ],
+      "source_url": "https://about.fb.com/news/2026/09/introducing-meta-one-subscription-service-more-features-ai/",
+      "source_label": "about.fb.com",
+      "url": "https://discord.com/channels/1415350002255007784/1441473829951111330/threads/1549566923744739328",
+      "first_seen": "2026-09-15T23:45:44.182Z"
+    },
+    {
+      "id": "1549566212093255792",
+      "title": "Google DeepMind「Gemini 3.8 Audio」公開、リアルタイム音声対話と拡張推論を統合",
+      "channel": "gemini",
+      "category": "Google",
+      "date": "2026-09-15T23:42:54.511Z",
+      "excerpt": "Google DeepMindは2026年9月15日、「Gemini 3.8 Audio」のモデルカードを公開しました。Gemini 3シリーズに加わるネイティブ・マルチモーダルモデルで、低遅延のリアルタイム対話を重視した「Gemini 3.8 Live」と…",
+      "lead": "Google DeepMindは2026年9月15日、「Gemini 3.8 Audio」のモデルカードを公開しました。Gemini 3シリーズに加わるネイティブ・マルチモーダルモデルで、低遅延のリアルタイム対話を重視した「Gemini 3.8 Live」と、より深い推論を組み合わせる「Gemini 3.8 Live Extended Thinking」で構成されます。",
+      "headings": [
+        "128Kコンテキストで音声・映像・テキストを処理",
+        "LiveとExtended Thinkingを用途で使い分け",
+        "幻覚や遅延は依然として課題",
+        "今後の展望"
+      ],
+      "source_url": "https://deepmind.google/models/model-cards/gemini-3-8-audio/",
+      "source_label": "deepmind.google",
+      "cover": "assets/posts/1549566212093255792.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1549566212093255792",
+      "first_seen": "2026-09-15T23:42:54.511Z"
+    },
     {
       "id": "1549434664274628618",
       "title": "Claudeが金融アドバイザー業務へ本格進出、顧客データとAIを横断接続",
@@ -184,66 +243,6 @@
       "cover": "assets/posts/1547722662476775465.webp",
       "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1547722662476775465",
       "first_seen": "2026-09-10T21:37:18.031Z"
-    },
-    {
-      "id": "1547722577063972884",
-      "title": "OpenAIが金融特化「ChatGPT for Financial Services」発表、GPT-6 Astraと金融データを統合",
-      "channel": "open-ai",
-      "category": "Open AI",
-      "date": "2026-09-10T21:36:57.667Z",
-      "excerpt": "OpenAIは2026年9月10日、金融機関向けの「ChatGPT for Financial Services」を発表しました。GPT-6 Astraの推論能力と金融データ、調査・モデリング・資料作成機能を統合したChatGPT Workの金融特化版で、投…",
-      "lead": "OpenAIは2026年9月10日、金融機関向けの「ChatGPT for Financial Services」を発表しました。GPT-6 Astraの推論能力と金融データ、調査・モデリング・資料作成機能を統合したChatGPT Workの金融特化版で、投資銀行や株式調査を中心とする業務の効率化を狙います。Morgan StanleyとEvercoreが設計パートナーとして開発に参加しています。",
-      "headings": [
-        "金融データをChatGPT内に直接統合",
-        "GPT-6 Astraが調査から成果物作成まで担当",
-        "金融機関向けのセキュリティと統制",
-        "今後の展望"
-      ],
-      "source_url": "https://openai.com/index/introducing-chatgpt-financial-services/",
-      "source_label": "openai.com",
-      "cover": "assets/posts/1547722577063972884.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1547722577063972884",
-      "first_seen": "2026-09-10T21:36:57.667Z"
-    },
-    {
-      "id": "1547722471908835348",
-      "title": "Anthropic、AIの軍事・諜報能力を評価 画像からの位置特定で人間の熟練者を上回る結果",
-      "channel": "anthropic",
-      "category": "Anthropic",
-      "date": "2026-09-10T21:36:32.596Z",
-      "excerpt": "Anthropicは2026年9月10日、AIモデルが諜報活動のターゲティングや通常兵器関連のソフトウェア開発でどこまで能力を持つかを測定した研究結果を公開しました。評価では、一部のフロンティアモデルが、従来は高度な専門家を必要としていた分析や工学的作業を実…",
-      "lead": "Anthropicは2026年9月10日、AIモデルが諜報活動のターゲティングや通常兵器関連のソフトウェア開発でどこまで能力を持つかを測定した研究結果を公開しました。評価では、一部のフロンティアモデルが、従来は高度な専門家を必要としていた分析や工学的作業を実行できる水準に達していることが示されています。",
-      "headings": [
-        "SNS分析と位置特定をAIが高速化",
-        "AIがドローン制御ソフトを自律的に改善",
-        "「専門知識の希少性」が安全障壁ではなくなる",
-        "今後の展望"
-      ],
-      "source_url": "https://www.anthropic.com/research/intelligence-targeting-conventional-weapons-capabilities",
-      "source_label": "anthropic.com",
-      "cover": "assets/posts/1547722471908835348.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1547722471908835348",
-      "first_seen": "2026-09-10T21:36:32.596Z"
-    },
-    {
-      "id": "1547722327830167562",
-      "title": "Anthropic最新脅威報告、AI悪用は「支援」から「攻撃の自動実行」へ",
-      "channel": "anthropic",
-      "category": "Anthropic",
-      "date": "2026-09-10T21:35:58.245Z",
-      "excerpt": "Anthropicは2026年9月10日、Threat Intelligenceページで最新のAI悪用調査を公開しました。2025年12月から2026年8月に確認・阻止した事例を分析すると、Claudeは単なる質問応答ツールではなく、サイバー攻撃、監視、影響…",
-      "lead": "Anthropicは2026年9月10日、Threat Intelligenceページで最新のAI悪用調査を公開しました。2025年12月から2026年8月に確認・阻止した事例を分析すると、Claudeは単なる質問応答ツールではなく、サイバー攻撃、監視、影響工作、兵器開発などのワークフローを動かす「オーケストレーター」として悪用され始めています。",
-      "headings": [
-        "サイバー攻撃の「熟練度」という常識が崩れる",
-        "AIは監視・情報工作の人的コストも削減",
-        "兵器・生物研究・モデル蒸留にも拡大",
-        "今後の展望"
-      ],
-      "source_url": "https://www.anthropic.com/threat-intelligence",
-      "source_label": "anthropic.com",
-      "cover": "assets/posts/1547722327830167562.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1547722327830167562",
-      "first_seen": "2026-09-10T21:35:58.245Z"
     }
   ]
 }

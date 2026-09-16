@@ -5,8 +5,32 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 15 Sep 2026 15:00:11 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 15 Sep 2026 23:46:13 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>ClaudeにSalesforce統合、営業業務をAIが一気通貫で支援</title>
+      <link>https://discord.com/channels/1415350002255007784/1415353403269185546/threads/1549567044834426880</link>
+      <guid isPermaLink="false">afnjp-1549567044834426880</guid>
+      <pubDate>Tue, 15 Sep 2026 23:46:13 GMT</pubDate>
+      <category>claude</category>
+      <description>Anthropicは2026年9月15日、Salesforceと共同開発した「Salesforce in Claude」をベータ公開しました。Salesforce上のアカウント、商談、パイプライン情報をClaudeから扱えるようにし、企業調査から商談準備、C…</description>
+    </item>
+    <item>
+      <title>Metaが新サブスク「Meta One」発表、AI生成枠とInstagram・WhatsApp・Facebook機能を統合</title>
+      <link>https://discord.com/channels/1415350002255007784/1441473829951111330/threads/1549566923744739328</link>
+      <guid isPermaLink="false">afnjp-1549566923744739328</guid>
+      <pubDate>Tue, 15 Sep 2026 23:45:44 GMT</pubDate>
+      <category>meta</category>
+      <description>Metaは2026年9月15日、新たなサブスクリプションサービス「Meta One」を発表しました。Instagram、Facebook、WhatsApp、Meta AIを横断し、AI機能の利用上限拡大、表現機能、クリエイター・企業向け運用ツールなどをまとめ…</description>
+    </item>
+    <item>
+      <title>Google DeepMind「Gemini 3.8 Audio」公開、リアルタイム音声対話と拡張推論を統合</title>
+      <link>https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1549566212093255792</link>
+      <guid isPermaLink="false">afnjp-1549566212093255792</guid>
+      <pubDate>Tue, 15 Sep 2026 23:42:54 GMT</pubDate>
+      <category>gemini</category>
+      <description>Google DeepMindは2026年9月15日、「Gemini 3.8 Audio」のモデルカードを公開しました。Gemini 3シリーズに加わるネイティブ・マルチモーダルモデルで、低遅延のリアルタイム対話を重視した「Gemini 3.8 Live」と…</description>
+    </item>
     <item>
       <title>Claudeが金融アドバイザー業務へ本格進出、顧客データとAIを横断接続</title>
       <link>https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1549434664274628618</link>
@@ -78,30 +102,6 @@
       <pubDate>Thu, 10 Sep 2026 21:37:18 GMT</pubDate>
       <category>open-ai</category>
       <description>OpenAIは2026年9月10日、長時間動作するクラウドAIエージェントを構築・実行できる「Agents API」をパブリックベータとして公開しました。Codexを支えるエージェント実行基盤をOpenAI側が管理し、開発者はタスク、モデル、ツール、実行環境…</description>
-    </item>
-    <item>
-      <title>OpenAIが金融特化「ChatGPT for Financial Services」発表、GPT-6 Astraと金融データを統合</title>
-      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1547722577063972884</link>
-      <guid isPermaLink="false">afnjp-1547722577063972884</guid>
-      <pubDate>Thu, 10 Sep 2026 21:36:57 GMT</pubDate>
-      <category>open-ai</category>
-      <description>OpenAIは2026年9月10日、金融機関向けの「ChatGPT for Financial Services」を発表しました。GPT-6 Astraの推論能力と金融データ、調査・モデリング・資料作成機能を統合したChatGPT Workの金融特化版で、投…</description>
-    </item>
-    <item>
-      <title>Anthropic、AIの軍事・諜報能力を評価 画像からの位置特定で人間の熟練者を上回る結果</title>
-      <link>https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1547722471908835348</link>
-      <guid isPermaLink="false">afnjp-1547722471908835348</guid>
-      <pubDate>Thu, 10 Sep 2026 21:36:32 GMT</pubDate>
-      <category>anthropic</category>
-      <description>Anthropicは2026年9月10日、AIモデルが諜報活動のターゲティングや通常兵器関連のソフトウェア開発でどこまで能力を持つかを測定した研究結果を公開しました。評価では、一部のフロンティアモデルが、従来は高度な専門家を必要としていた分析や工学的作業を実…</description>
-    </item>
-    <item>
-      <title>Anthropic最新脅威報告、AI悪用は「支援」から「攻撃の自動実行」へ</title>
-      <link>https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1547722327830167562</link>
-      <guid isPermaLink="false">afnjp-1547722327830167562</guid>
-      <pubDate>Thu, 10 Sep 2026 21:35:58 GMT</pubDate>
-      <category>anthropic</category>
-      <description>Anthropicは2026年9月10日、Threat Intelligenceページで最新のAI悪用調査を公開しました。2025年12月から2026年8月に確認・阻止した事例を分析すると、Claudeは単なる質問応答ツールではなく、サイバー攻撃、監視、影響…</description>
     </item>
   </channel>
 </rss>
