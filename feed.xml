@@ -5,8 +5,24 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 16 Sep 2026 14:33:14 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 16 Sep 2026 15:05:35 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>OpenAI、高齢者1000人にChatGPT実践講座 AI活用と詐欺対策を米10都市で支援</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1549798414907220089</link>
+      <guid isPermaLink="false">afnjp-1549798414907220089</guid>
+      <pubDate>Wed, 16 Sep 2026 15:05:35 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIは2026年9月16日、AARP傘下のOlder Adults Technology Services（OATS）と協力し、高齢者向けの無料対面イベント「Older Adults AI Skills Jam」を実施すると発表しました。米国10都市…</description>
+    </item>
+    <item>
+      <title>Google、年末商戦向け「エージェント型コマース」を強化 YouTube広告内AI接客やUCP拡張</title>
+      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1549796225614872626</link>
+      <guid isPermaLink="false">afnjp-1549796225614872626</guid>
+      <pubDate>Wed, 16 Sep 2026 14:56:54 GMT</pubDate>
+      <category>google</category>
+      <description>Googleは2026年9月16日、年末商戦を見据えた小売事業者向けのAI・コマース機能を発表しました。Merchant CenterのAI分析、YouTube広告内で動作する「Business Agent」、Universal Commerce Proto…</description>
+    </item>
     <item>
       <title>OpenAI、ChatGPT広告をAIネイティブ化 対話型「Sponsored Agents」をテスト</title>
       <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1549790270848245862</link>
@@ -86,22 +102,6 @@
       <pubDate>Tue, 15 Sep 2026 14:58:28 GMT</pubDate>
       <category>google</category>
       <description>Googleは、世界各地の開発者コミュニティが主導する技術イベント「DevFest 2026」を、2026年10月1日から12月31日まで開催すると発表しました。115カ国で800以上のイベントが計画され、約100万人の開発者やビルダーの参加を見込んでいます…</description>
-    </item>
-    <item>
-      <title>Fyxerが示す「信頼されるAI秘書」の設計、単一LLMではなく30〜50モデルで仕事を分解</title>
-      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1549076738410287326</link>
-      <guid isPermaLink="false">afnjp-1549076738410287326</guid>
-      <pubDate>Mon, 14 Sep 2026 15:17:54 GMT</pubDate>
-      <category>open-ai</category>
-      <description>OpenAIは、AIエグゼクティブアシスタントを提供するFyxerの開発事例を公開しました。特徴は、メール返信を巨大な言語モデルへの単純な生成依頼として扱わず、30〜50の専門モデルに処理を分解している点です。さらに50万時間超の実務データとユーザーの修正履…</description>
-    </item>
-    <item>
-      <title>Microsoft CopilotにGrok追加、Word・Excel・PowerPointでマルチモデル戦略を拡大</title>
-      <link>https://discord.com/channels/1415350002255007784/1423003108790767748/threads/1548364483490095184</link>
-      <guid isPermaLink="false">afnjp-1548364483490095184</guid>
-      <pubDate>Sat, 12 Sep 2026 16:07:40 GMT</pubDate>
-      <category>copilot</category>
-      <description>Microsoftは2026年9月12日、Copilotで利用できるAIモデルの選択肢にSpaceXAIの「Grok」モデルファミリーを追加すると発表しました。まずMicrosoft Frontierプログラムを通じ、Word、Excel、PowerPoin…</description>
     </item>
   </channel>
 </rss>

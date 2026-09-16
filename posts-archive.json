@@ -1,9 +1,50 @@
 {
-  "generated_at": "2026-09-16T14:56:54.480Z",
+  "generated_at": "2026-09-16T18:53:03.276Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 194,
+  "count": 196,
   "posts": [
+    {
+      "id": "1549798414907220089",
+      "title": "OpenAI、高齢者1000人にChatGPT実践講座 AI活用と詐欺対策を米10都市で支援",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-09-16T15:05:35.976Z",
+      "excerpt": "OpenAIは2026年9月16日、AARP傘下のOlder Adults Technology Services（OATS）と協力し、高齢者向けの無料対面イベント「Older Adults AI Skills Jam」を実施すると発表しました。米国10都市…",
+      "lead": "OpenAIは2026年9月16日、AARP傘下のOlder Adults Technology Services（OATS）と協力し、高齢者向けの無料対面イベント「Older Adults AI Skills Jam」を実施すると発表しました。米国10都市・地域で計1000人を対象に、ChatGPTの日常利用とオンライン詐欺への対処を実践的に学ぶ取り組みです。",
+      "headings": [
+        "高齢者の「日常ツール」としてAIを学ぶ",
+        "詐欺対策にもChatGPTを活用",
+        "55歳以上のChatGPT利用も拡大",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life/",
+      "source_label": "openai.com",
+      "cover": "assets/posts/1549798414907220089.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1549798414907220089",
+      "first_seen": "2026-09-16T15:05:35.976Z"
+    },
+    {
+      "id": "1549796225614872626",
+      "title": "Google、年末商戦向け「エージェント型コマース」を強化 YouTube広告内AI接客やUCP拡張",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-09-16T14:56:54.008Z",
+      "excerpt": "Googleは2026年9月16日、年末商戦を見据えた小売事業者向けのAI・コマース機能を発表しました。Merchant CenterのAI分析、YouTube広告内で動作する「Business Agent」、Universal Commerce Proto…",
+      "lead": "Googleは2026年9月16日、年末商戦を見据えた小売事業者向けのAI・コマース機能を発表しました。Merchant CenterのAI分析、YouTube広告内で動作する「Business Agent」、Universal Commerce Protocol（UCP）の機能拡張などを組み合わせ、商品の発見から比較、購入までをAIが支援する「エージェント型コマース」を本格化します。",
+      "headings": [
+        "AI検索で「自社商品が見つかるか」を可視化",
+        "YouTube広告にAI販売員を組み込む",
+        "UCPでAIから購入までを接続",
+        "AI時代ほど商品データの品質が重要に",
+        "今後の展望"
+      ],
+      "source_url": "https://blog.google/products-and-platforms/products/shopping/google-shopping-updates-holiday-shopping/",
+      "source_label": "blog.google",
+      "cover": "assets/posts/1549796225614872626.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1549796225614872626",
+      "first_seen": "2026-09-16T14:56:54.008Z"
+    },
     {
       "id": "1549790270848245862",
       "title": "OpenAI、ChatGPT広告をAIネイティブ化 対話型「Sponsored Agents」をテスト",

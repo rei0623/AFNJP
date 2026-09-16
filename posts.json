@@ -1,8 +1,49 @@
 {
-  "generated_at": "2026-09-16T14:56:54.482Z",
+  "generated_at": "2026-09-16T18:53:03.310Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1549798414907220089",
+      "title": "OpenAI、高齢者1000人にChatGPT実践講座 AI活用と詐欺対策を米10都市で支援",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-09-16T15:05:35.976Z",
+      "excerpt": "OpenAIは2026年9月16日、AARP傘下のOlder Adults Technology Services（OATS）と協力し、高齢者向けの無料対面イベント「Older Adults AI Skills Jam」を実施すると発表しました。米国10都市…",
+      "lead": "OpenAIは2026年9月16日、AARP傘下のOlder Adults Technology Services（OATS）と協力し、高齢者向けの無料対面イベント「Older Adults AI Skills Jam」を実施すると発表しました。米国10都市・地域で計1000人を対象に、ChatGPTの日常利用とオンライン詐欺への対処を実践的に学ぶ取り組みです。",
+      "headings": [
+        "高齢者の「日常ツール」としてAIを学ぶ",
+        "詐欺対策にもChatGPTを活用",
+        "55歳以上のChatGPT利用も拡大",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life/",
+      "source_label": "openai.com",
+      "cover": "assets/posts/1549798414907220089.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1549798414907220089",
+      "first_seen": "2026-09-16T15:05:35.976Z"
+    },
+    {
+      "id": "1549796225614872626",
+      "title": "Google、年末商戦向け「エージェント型コマース」を強化 YouTube広告内AI接客やUCP拡張",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-09-16T14:56:54.008Z",
+      "excerpt": "Googleは2026年9月16日、年末商戦を見据えた小売事業者向けのAI・コマース機能を発表しました。Merchant CenterのAI分析、YouTube広告内で動作する「Business Agent」、Universal Commerce Proto…",
+      "lead": "Googleは2026年9月16日、年末商戦を見据えた小売事業者向けのAI・コマース機能を発表しました。Merchant CenterのAI分析、YouTube広告内で動作する「Business Agent」、Universal Commerce Protocol（UCP）の機能拡張などを組み合わせ、商品の発見から比較、購入までをAIが支援する「エージェント型コマース」を本格化します。",
+      "headings": [
+        "AI検索で「自社商品が見つかるか」を可視化",
+        "YouTube広告にAI販売員を組み込む",
+        "UCPでAIから購入までを接続",
+        "AI時代ほど商品データの品質が重要に",
+        "今後の展望"
+      ],
+      "source_url": "https://blog.google/products-and-platforms/products/shopping/google-shopping-updates-holiday-shopping/",
+      "source_label": "blog.google",
+      "cover": "assets/posts/1549796225614872626.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1549796225614872626",
+      "first_seen": "2026-09-16T14:56:54.008Z"
+    },
     {
       "id": "1549790270848245862",
       "title": "OpenAI、ChatGPT広告をAIネイティブ化 対話型「Sponsored Agents」をテスト",
@@ -204,46 +245,6 @@
       "cover": "assets/posts/1549434235259981874.webp",
       "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1549434235259981874",
       "first_seen": "2026-09-15T14:58:28.782Z"
-    },
-    {
-      "id": "1549076738410287326",
-      "title": "Fyxerが示す「信頼されるAI秘書」の設計、単一LLMではなく30〜50モデルで仕事を分解",
-      "channel": "open-ai",
-      "category": "Open AI",
-      "date": "2026-09-14T15:17:54.891Z",
-      "excerpt": "OpenAIは、AIエグゼクティブアシスタントを提供するFyxerの開発事例を公開しました。特徴は、メール返信を巨大な言語モデルへの単純な生成依頼として扱わず、30〜50の専門モデルに処理を分解している点です。さらに50万時間超の実務データとユーザーの修正履…",
-      "lead": "OpenAIは、AIエグゼクティブアシスタントを提供するFyxerの開発事例を公開しました。特徴は、メール返信を巨大な言語モデルへの単純な生成依頼として扱わず、30〜50の専門モデルに処理を分解している点です。さらに50万時間超の実務データとユーザーの修正履歴を学習へ戻すことで、個人ごとの文脈や文体に適応する仕組みを構築しています。",
-      "headings": [
-        "メール返信を「複数の予測問題」に分解",
-        "50万時間超の秘書業務を学習資産に",
-        "ユーザーの「修正」が次の学習データになる",
-        "今後の展望"
-      ],
-      "source_url": "https://openai.com/index/fyxer/",
-      "source_label": "openai.com",
-      "cover": "assets/posts/1549076738410287326.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1549076738410287326",
-      "first_seen": "2026-09-14T15:17:54.891Z"
-    },
-    {
-      "id": "1548364483490095184",
-      "title": "Microsoft CopilotにGrok追加、Word・Excel・PowerPointでマルチモデル戦略を拡大",
-      "channel": "copilot",
-      "category": "Microsoft",
-      "date": "2026-09-12T16:07:40.085Z",
-      "excerpt": "Microsoftは2026年9月12日、Copilotで利用できるAIモデルの選択肢にSpaceXAIの「Grok」モデルファミリーを追加すると発表しました。まずMicrosoft Frontierプログラムを通じ、Word、Excel、PowerPoin…",
-      "lead": "Microsoftは2026年9月12日、Copilotで利用できるAIモデルの選択肢にSpaceXAIの「Grok」モデルファミリーを追加すると発表しました。まずMicrosoft Frontierプログラムを通じ、Word、Excel、PowerPointで限定的に展開します。企業向けAIで、単一モデルに依存せず用途に応じてモデルを選択する流れがさらに鮮明になります。",
-      "headings": [
-        "Grokはデフォルト無効、管理者による明示的な有効化が必要",
-        "Word、Excel、PowerPointから限定展開",
-        "Copilotは「単一モデル」から「モデル選択基盤」へ",
-        "今後の展望"
-      ],
-      "source_url": "https://techcommunity.microsoft.com/blog/microsoft-copilot-blog/expanding-model-choice-in-copilot-with-grok/4555749?ocid=usoc_TWITTER_M365_spl100011235693323",
-      "source_label": "techcommunity.microsoft.com",
-      "cover": "assets/posts/1548364483490095184.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1423003108790767748/threads/1548364483490095184",
-      "first_seen": "2026-09-12T16:07:40.085Z"
     }
   ]
 }
