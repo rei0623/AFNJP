@@ -1,8 +1,70 @@
 {
-  "generated_at": "2026-09-16T04:52:17.447Z",
+  "generated_at": "2026-09-16T09:54:38.026Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1549685830770106408",
+      "title": "Claudeが中小企業向けAIを拡張、43ワークフローと27の新規連携を投入",
+      "channel": "claude",
+      "category": "Anthropic",
+      "date": "2026-09-16T07:38:13.826Z",
+      "excerpt": "Anthropicは2026年9月15日、「Claude for Small Business」を拡張し、43の業務ワークフローと27の新規インテグレーションを発表しました。Shopify、Salesforce、TikTok、Atlassian、Zoom、X…",
+      "lead": "Anthropicは2026年9月15日、「Claude for Small Business」を拡張し、43の業務ワークフローと27の新規インテグレーションを発表しました。Shopify、Salesforce、TikTok、Atlassian、Zoom、Xero、Gusto、Square、Stripe、Zapierなど、中小企業が日常的に使うシステムとClaudeを接続し、AIを単なる相談相手から「実際に業務を進める実行基盤」へ広げる狙いです。",
+      "headings": [
+        "会計から営業・マーケティングまでを横断",
+        "AIエージェント導入で「承認」を重視",
+        "導入支援も大規模化",
+        "今後の展望"
+      ],
+      "source_url": "https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs",
+      "source_label": "claude.com",
+      "cover": "assets/posts/1549685830770106408.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415353403269185546/threads/1549685830770106408",
+      "first_seen": "2026-09-16T07:38:13.826Z"
+    },
+    {
+      "id": "1549685673882161244",
+      "title": "Microsoft 365 G7発表、米政府向けAIとエージェント統制を一体化",
+      "channel": "microsoft",
+      "category": "Microsoft",
+      "date": "2026-09-16T07:37:36.421Z",
+      "excerpt": "Microsoftは2026年9月15日、米国政府機関向けの新スイート「Microsoft 365 G7」を発表しました。Government Community Cloud（GCC）環境を対象に、Microsoft 365の業務基盤へCopilot、AIエ…",
+      "lead": "Microsoftは2026年9月15日、米国政府機関向けの新スイート「Microsoft 365 G7」を発表しました。Government Community Cloud（GCC）環境を対象に、Microsoft 365の業務基盤へCopilot、AIエージェント、ID管理、セキュリティ、コンプライアンス、ガバナンスを統合します。G7と「Agent 365」は10月1日からGCC顧客が購入可能となり、各機能は政府クラウドに必要な認可状況に応じて段階的に提供されます。",
+      "headings": [
+        "G5から「AIを統制する基盤」へ",
+        "Work IQで組織データとCopilotを接続",
+        "AIエージェントを業務システムへ展開",
+        "Agent 365がAIの「コントロールプレーン」に",
+        "今後の展望"
+      ],
+      "source_url": "https://www.microsoft.com/en-us/microsoft-cloud/blog/industry-government/government-operations-and-infrastructure/2026/09/15/introducing-microsoft-365-g7-intelligence-trust-for-the-mission-ahead/",
+      "source_label": "microsoft.com",
+      "cover": "assets/posts/1549685673882161244.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1432720743279497367/threads/1549685673882161244",
+      "first_seen": "2026-09-16T07:37:36.421Z"
+    },
+    {
+      "id": "1549684851043733535",
+      "title": "Google「Gemini Notebook」が学習機能を大幅強化、ノートとリアルタイム対話へ",
+      "channel": "gemini-notebook",
+      "category": "Google",
+      "date": "2026-09-16T07:34:20.241Z",
+      "excerpt": "Googleは2026年9月15日、Gemini Notebookに学習支援機能を追加すると発表しました。ノート内の資料を根拠にしたリアルタイム音声対話、講義を取り込める音声レコーダー、クイズやフラッシュカードを統合した学習概要、約60秒の動画要約などを順次…",
+      "lead": "Googleは2026年9月15日、Gemini Notebookに学習支援機能を追加すると発表しました。ノート内の資料を根拠にしたリアルタイム音声対話、講義を取り込める音声レコーダー、クイズやフラッシュカードを統合した学習概要、約60秒の動画要約などを順次展開します。単なる資料整理ツールから、理解・演習・復習まで支援するAI学習環境へ進化する形です。",
+      "headings": [
+        "資料を根拠にAIと音声で対話",
+        "講義を直接取り込む音声レコーダー",
+        "クイズ・フラッシュカード・動画を統合",
+        "AI学習ツールから「学習ワークフロー」へ",
+        "今後の展望"
+      ],
+      "source_url": "https://blog.google/innovation-and-ai/products/gemini-notebook/new-study-tools-september-2026/?utm_source=tw&utm_medium=social&utm_campaign=og",
+      "source_label": "blog.google",
+      "cover": "assets/posts/1549684851043733535.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1418011435287707648/threads/1549684851043733535",
+      "first_seen": "2026-09-16T07:34:20.241Z"
+    },
     {
       "id": "1549567044834426880",
       "title": "ClaudeにSalesforce統合、営業業務をAIが一気通貫で支援",
@@ -181,68 +243,6 @@
       "cover": "assets/posts/1548283933865672704.webp",
       "url": "https://discord.com/channels/1415350002255007784/1420683387395375115/threads/1548283933865672704",
       "first_seen": "2026-09-12T10:47:35.558Z"
-    },
-    {
-      "id": "1548154974913957958",
-      "title": "GPT-6 Astra、AIコーディングを「生成」から「自己検証」へ PerplexityとDevinが実運用",
-      "channel": "open-ai",
-      "category": "Open AI",
-      "date": "2026-09-12T02:15:09.348Z",
-      "excerpt": "OpenAIが公開した2つの事例から、GPT-6 Astraの重要な特徴が見えてきました。焦点は単にコードを書く能力ではなく、生成したソフトウェアを自らテストし、動作を確認し、その証拠まで人間に提示する能力です。PerplexityとCognitionは、こ…",
-      "lead": "OpenAIが公開した2つの事例から、GPT-6 Astraの重要な特徴が見えてきました。焦点は単にコードを書く能力ではなく、生成したソフトウェアを自らテストし、動作を確認し、その証拠まで人間に提示する能力です。PerplexityとCognitionは、この能力を実際の開発・運用工程に組み込み始めています。",
-      "headings": [
-        "Perplexityはエンドツーエンドのシステムを任せる",
-        "Devinは「動く証拠」まで生成",
-        "AI開発のボトルネックは「レビュー」に移る",
-        "今後の展望"
-      ],
-      "source_url": "https://openai.com/index/perplexity-improving-accuracy-with-astra/",
-      "source_label": "openai.com",
-      "cover": "assets/posts/1548154974913957958.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1548154974913957958",
-      "first_seen": "2026-09-12T02:15:09.348Z"
-    },
-    {
-      "id": "1548086363558125570",
-      "title": "OpenAI、10億人超を支えるストレージ基盤「Habitat」の内部設計を公開",
-      "channel": "open-ai",
-      "category": "Open AI",
-      "date": "2026-09-11T21:42:31.126Z",
-      "excerpt": "OpenAIは2026年9月11日、ChatGPTなどを支えるオンラインストレージ基盤「Habitat」の設計と大規模化の過程を公開しました。Habitatは現在、毎秒7000万件超のリクエストを処理し、約40地域で週10億人超が利用する製品群を支え、500…",
-      "lead": "OpenAIは2026年9月11日、ChatGPTなどを支えるオンラインストレージ基盤「Habitat」の設計と大規模化の過程を公開しました。Habitatは現在、毎秒7000万件超のリクエストを処理し、約40地域で週10億人超が利用する製品群を支え、500PB超のデータを扱っています。",
-      "headings": [
-        "Pythonライブラリから巨大分散システムへ",
-        "Python最大の課題は「平均」ではなくテール遅延",
-        "LIFO接続再利用が障害を増幅",
-        "「機能を減らす」ことでスケールさせる",
-        "PythonからRustへ、CPU効率6倍",
-        "今後の展望"
-      ],
-      "source_url": "https://openai.com/index/scaling-storage-one-billion-users-part-one/",
-      "source_label": "openai.com",
-      "cover": "assets/posts/1548086363558125570.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1548086363558125570",
-      "first_seen": "2026-09-11T21:42:31.126Z"
-    },
-    {
-      "id": "1547722662476775465",
-      "title": "OpenAI「Agents API」発表、Codexの実行基盤を開発者向けAPIとして提供",
-      "channel": "open-ai",
-      "category": "Open AI",
-      "date": "2026-09-10T21:37:18.031Z",
-      "excerpt": "OpenAIは2026年9月10日、長時間動作するクラウドAIエージェントを構築・実行できる「Agents API」をパブリックベータとして公開しました。Codexを支えるエージェント実行基盤をOpenAI側が管理し、開発者はタスク、モデル、ツール、実行環境…",
-      "lead": "OpenAIは2026年9月10日、長時間動作するクラウドAIエージェントを構築・実行できる「Agents API」をパブリックベータとして公開しました。Codexを支えるエージェント実行基盤をOpenAI側が管理し、開発者はタスク、モデル、ツール、実行環境を指定することで、本番用途を想定したエージェントを構築できます。",
-      "headings": [
-        "エージェント開発の「実行基盤」をAPI化",
-        "長時間処理と大量ツール利用を基盤側で支援",
-        "「モデル」から「エージェント基盤」へ競争軸が拡大",
-        "今後の展望"
-      ],
-      "source_url": "https://openai.com/index/introducing-the-agents-api/",
-      "source_label": "openai.com",
-      "cover": "assets/posts/1547722662476775465.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1547722662476775465",
-      "first_seen": "2026-09-10T21:37:18.031Z"
     }
   ]
 }
