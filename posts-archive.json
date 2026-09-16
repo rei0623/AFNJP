@@ -1,9 +1,50 @@
 {
-  "generated_at": "2026-09-16T09:54:38.024Z",
+  "generated_at": "2026-09-16T14:56:54.480Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 192,
+  "count": 194,
   "posts": [
+    {
+      "id": "1549790270848245862",
+      "title": "OpenAI、ChatGPT広告をAIネイティブ化 対話型「Sponsored Agents」をテスト",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-09-16T14:33:14.281Z",
+      "excerpt": "OpenAIは2026年9月16日、ChatGPT Ads向けの新たなAI広告機能を発表しました。広告を単に表示するだけでなく、ユーザーと企業がAIを介して対話し、広告制作やキャンペーン管理まで自然言語で操作できる仕組みへ拡張します。",
+      "lead": "OpenAIは2026年9月16日、ChatGPT Ads向けの新たなAI広告機能を発表しました。広告を単に表示するだけでなく、ユーザーと企業がAIを介して対話し、広告制作やキャンペーン管理まで自然言語で操作できる仕組みへ拡張します。",
+      "headings": [
+        "広告から「企業AIとの対話」へ",
+        "自然言語で広告キャンペーンを管理",
+        "HubSpotとShopifyにも統合",
+        "広告プラットフォームそのものをAI化",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/reimagining-advertising-with-ai/",
+      "source_label": "openai.com",
+      "cover": "assets/posts/1549790270848245862.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1549790270848245862",
+      "first_seen": "2026-09-16T14:33:14.281Z"
+    },
+    {
+      "id": "1549748124698804245",
+      "title": "MistralとMozillaが提携、FirefoxのAIブラウジングを多言語・プライバシー重視へ",
+      "channel": "mistral-ai",
+      "category": "その他",
+      "date": "2026-09-16T11:45:45.856Z",
+      "excerpt": "Mistral AIとMozillaは2026年9月16日、AIを活用したWebブラウジング分野で提携すると発表しました。MozillaのAIブラウジング機能「Firefox Smart Window」ベータ版にMistralのモデルを採用し、プライバシー、…",
+      "lead": "Mistral AIとMozillaは2026年9月16日、AIを活用したWebブラウジング分野で提携すると発表しました。MozillaのAIブラウジング機能「Firefox Smart Window」ベータ版にMistralのモデルを採用し、プライバシー、ユーザーによる制御、多言語・地域対応を重視したAI体験を提供します。",
+      "headings": [
+        "Firefox Smart WindowをMistralモデルが支援",
+        "プライバシー保護をAI利用の前提に",
+        "AIブラウザーの「モデル選択」に新たな競争軸",
+        "今後の展望"
+      ],
+      "source_url": "https://mistral.ai/news/mistral-x-mozilla/",
+      "source_label": "mistral.ai",
+      "cover": "assets/posts/1549748124698804245.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1460897850354438283/threads/1549748124698804245",
+      "first_seen": "2026-09-16T11:45:45.856Z"
+    },
     {
       "id": "1549685830770106408",
       "title": "Claudeが中小企業向けAIを拡張、43ワークフローと27の新規連携を投入",

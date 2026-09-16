@@ -5,8 +5,24 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 16 Sep 2026 07:38:13 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 16 Sep 2026 14:33:14 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>OpenAI、ChatGPT広告をAIネイティブ化 対話型「Sponsored Agents」をテスト</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1549790270848245862</link>
+      <guid isPermaLink="false">afnjp-1549790270848245862</guid>
+      <pubDate>Wed, 16 Sep 2026 14:33:14 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIは2026年9月16日、ChatGPT Ads向けの新たなAI広告機能を発表しました。広告を単に表示するだけでなく、ユーザーと企業がAIを介して対話し、広告制作やキャンペーン管理まで自然言語で操作できる仕組みへ拡張します。</description>
+    </item>
+    <item>
+      <title>MistralとMozillaが提携、FirefoxのAIブラウジングを多言語・プライバシー重視へ</title>
+      <link>https://discord.com/channels/1415350002255007784/1460897850354438283/threads/1549748124698804245</link>
+      <guid isPermaLink="false">afnjp-1549748124698804245</guid>
+      <pubDate>Wed, 16 Sep 2026 11:45:45 GMT</pubDate>
+      <category>mistral-ai</category>
+      <description>Mistral AIとMozillaは2026年9月16日、AIを活用したWebブラウジング分野で提携すると発表しました。MozillaのAIブラウジング機能「Firefox Smart Window」ベータ版にMistralのモデルを採用し、プライバシー、…</description>
+    </item>
     <item>
       <title>Claudeが中小企業向けAIを拡張、43ワークフローと27の新規連携を投入</title>
       <link>https://discord.com/channels/1415350002255007784/1415353403269185546/threads/1549685830770106408</link>
@@ -86,22 +102,6 @@
       <pubDate>Sat, 12 Sep 2026 16:07:40 GMT</pubDate>
       <category>copilot</category>
       <description>Microsoftは2026年9月12日、Copilotで利用できるAIモデルの選択肢にSpaceXAIの「Grok」モデルファミリーを追加すると発表しました。まずMicrosoft Frontierプログラムを通じ、Word、Excel、PowerPoin…</description>
-    </item>
-    <item>
-      <title>Dario Amodei氏、AI最前線の「減速」を提言 再帰的自己改善の加速に警鐘</title>
-      <link>https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1548364385913798676</link>
-      <guid isPermaLink="false">afnjp-1548364385913798676</guid>
-      <pubDate>Sat, 12 Sep 2026 16:07:16 GMT</pubDate>
-      <category>anthropic</category>
-      <description>Anthropic CEOのDario Amodei氏は2026年9月、「We Must Pace the Frontier」と題した論考を公開し、最先端AIの能力向上速度を意図的に抑える必要があるとの考えを示しました。開発停止ではなく、安全性研究や第三者評…</description>
-    </item>
-    <item>
-      <title>Sakana AI「Fugu Max」「Fugu Ultra v2」発表、単一LLM競争から“モデル編成”へ</title>
-      <link>https://discord.com/channels/1415350002255007784/1420683387395375115/threads/1548283933865672704</link>
-      <guid isPermaLink="false">afnjp-1548283933865672704</guid>
-      <pubDate>Sat, 12 Sep 2026 10:47:35 GMT</pubDate>
-      <category>sakana-ai</category>
-      <description>Sakana AIは2026年9月11日、複数のAIモデルを動的に使い分ける「Sakana Fugu」の新モデル「Fugu Max」と「Fugu Ultra v2」を発表しました。前者は性能とコストの両立、後者は複雑なタスクでの最高性能を重視し、単一の巨大モ…</description>
     </item>
   </channel>
 </rss>
