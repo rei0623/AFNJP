@@ -1,9 +1,70 @@
 {
-  "generated_at": "2026-09-16T22:08:22.471Z",
+  "generated_at": "2026-09-17T00:28:40.285Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 196,
+  "count": 199,
   "posts": [
+    {
+      "id": "1549917108522065960",
+      "title": "OpenAI、AIの「不整合」を継続公開へ モデル安全性の新報告フレームワーク策定",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-09-16T22:57:14.739Z",
+      "excerpt": "OpenAIは2026年9月16日、AIモデルが意図された制約やユーザーの目的から逸脱する「モデル・ミスアラインメント」を追跡、調査、公開するための新たな報告フレームワークを発表しました。同時に、過去6カ月に訓練・評価過程で確認した6件の事例を公開しています。",
+      "lead": "OpenAIは2026年9月16日、AIモデルが意図された制約やユーザーの目的から逸脱する「モデル・ミスアラインメント」を追跡、調査、公開するための新たな報告フレームワークを発表しました。同時に、過去6カ月に訓練・評価過程で確認した6件の事例を公開しています。",
+      "headings": [
+        "発見から対策完了を待たず公開へ",
+        "公開された6件の異常行動",
+        "3段階で調査と公開を管理",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/model-misalignment-reporting-framework/",
+      "source_label": "openai.com",
+      "cover": "assets/posts/1549917108522065960.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1549917108522065960",
+      "first_seen": "2026-09-16T22:57:14.739Z"
+    },
+    {
+      "id": "1549917012552056932",
+      "title": "Google、AIエージェントの異常行動を検知する「Agent Anomaly Detection」を公開",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-09-16T22:56:51.858Z",
+      "excerpt": "Googleは2026年9月16日、Gemini Enterprise Agent Platform向けの「Agent Anomaly Detection」をPrivate Previewとして公開しました。AIエージェントのログやOpenTelemetry…",
+      "lead": "Googleは2026年9月16日、Gemini Enterprise Agent Platform向けの「Agent Anomaly Detection」をPrivate Previewとして公開しました。AIエージェントのログやOpenTelemetryトレース、ツール呼び出し、実行フローを分析し、本来の想定範囲を逸脱した行動やポリシー違反を検出する監視・監査レイヤーです。",
+      "headings": [
+        "AIエージェントの「結果」ではなく「行動」を監視",
+        "軽量検知とLLM推論を組み合わせた多段構成",
+        "OWASPのAgentic AIリスクにも対応",
+        "今後の展望"
+      ],
+      "source_url": "https://developers.googleblog.com/agent-anomaly-detection-now-in-private-preview-on-the-gemini-enterprise-agent-platform/",
+      "source_label": "developers.googleblog.com",
+      "cover": "assets/posts/1549917012552056932.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1549917012552056932",
+      "first_seen": "2026-09-16T22:56:51.858Z"
+    },
+    {
+      "id": "1549916848911417494",
+      "title": "OpenAI、AI投資の「利用量」から「事業価値」への測定手法を提示",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-09-16T22:56:12.843Z",
+      "excerpt": "OpenAIは2026年9月16日、企業がChatGPT WorkやCodexの利用状況を、売上や生産性などの事業成果へ結び付けて評価する方法を公開しました。単純なユーザー数やトークン消費量ではなく、「AIが何の仕事に使われ、その結果がどう変わったか」を追跡…",
+      "lead": "OpenAIは2026年9月16日、企業がChatGPT WorkやCodexの利用状況を、売上や生産性などの事業成果へ結び付けて評価する方法を公開しました。単純なユーザー数やトークン消費量ではなく、「AIが何の仕事に使われ、その結果がどう変わったか」を追跡する考え方が中心です。",
+      "headings": [
+        "利用量だけではAIの価値を測れない",
+        "Codexの成果を開発指標へ接続",
+        "ROIはベースラインから計算する",
+        "Admin APIで経営データと統合",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/how-to-connect-ai-usage-to-business-value/",
+      "source_label": "openai.com",
+      "cover": "assets/posts/1549916848911417494.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1549916848911417494",
+      "first_seen": "2026-09-16T22:56:12.843Z"
+    },
     {
       "id": "1549798414907220089",
       "title": "OpenAI、高齢者1000人にChatGPT実践講座 AI活用と詐欺対策を米10都市で支援",

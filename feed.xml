@@ -5,8 +5,32 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 16 Sep 2026 15:05:35 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 16 Sep 2026 22:57:14 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>OpenAI、AIの「不整合」を継続公開へ モデル安全性の新報告フレームワーク策定</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1549917108522065960</link>
+      <guid isPermaLink="false">afnjp-1549917108522065960</guid>
+      <pubDate>Wed, 16 Sep 2026 22:57:14 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIは2026年9月16日、AIモデルが意図された制約やユーザーの目的から逸脱する「モデル・ミスアラインメント」を追跡、調査、公開するための新たな報告フレームワークを発表しました。同時に、過去6カ月に訓練・評価過程で確認した6件の事例を公開しています。</description>
+    </item>
+    <item>
+      <title>Google、AIエージェントの異常行動を検知する「Agent Anomaly Detection」を公開</title>
+      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1549917012552056932</link>
+      <guid isPermaLink="false">afnjp-1549917012552056932</guid>
+      <pubDate>Wed, 16 Sep 2026 22:56:51 GMT</pubDate>
+      <category>google</category>
+      <description>Googleは2026年9月16日、Gemini Enterprise Agent Platform向けの「Agent Anomaly Detection」をPrivate Previewとして公開しました。AIエージェントのログやOpenTelemetry…</description>
+    </item>
+    <item>
+      <title>OpenAI、AI投資の「利用量」から「事業価値」への測定手法を提示</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1549916848911417494</link>
+      <guid isPermaLink="false">afnjp-1549916848911417494</guid>
+      <pubDate>Wed, 16 Sep 2026 22:56:12 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIは2026年9月16日、企業がChatGPT WorkやCodexの利用状況を、売上や生産性などの事業成果へ結び付けて評価する方法を公開しました。単純なユーザー数やトークン消費量ではなく、「AIが何の仕事に使われ、その結果がどう変わったか」を追跡…</description>
+    </item>
     <item>
       <title>OpenAI、高齢者1000人にChatGPT実践講座 AI活用と詐欺対策を米10都市で支援</title>
       <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1549798414907220089</link>
@@ -78,30 +102,6 @@
       <pubDate>Tue, 15 Sep 2026 23:45:44 GMT</pubDate>
       <category>meta</category>
       <description>Metaは2026年9月15日、新たなサブスクリプションサービス「Meta One」を発表しました。Instagram、Facebook、WhatsApp、Meta AIを横断し、AI機能の利用上限拡大、表現機能、クリエイター・企業向け運用ツールなどをまとめ…</description>
-    </item>
-    <item>
-      <title>Google DeepMind「Gemini 3.8 Audio」公開、リアルタイム音声対話と拡張推論を統合</title>
-      <link>https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1549566212093255792</link>
-      <guid isPermaLink="false">afnjp-1549566212093255792</guid>
-      <pubDate>Tue, 15 Sep 2026 23:42:54 GMT</pubDate>
-      <category>gemini</category>
-      <description>Google DeepMindは2026年9月15日、「Gemini 3.8 Audio」のモデルカードを公開しました。Gemini 3シリーズに加わるネイティブ・マルチモーダルモデルで、低遅延のリアルタイム対話を重視した「Gemini 3.8 Live」と…</description>
-    </item>
-    <item>
-      <title>Claudeが金融アドバイザー業務へ本格進出、顧客データとAIを横断接続</title>
-      <link>https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1549434664274628618</link>
-      <guid isPermaLink="false">afnjp-1549434664274628618</guid>
-      <pubDate>Tue, 15 Sep 2026 15:00:11 GMT</pubDate>
-      <category>anthropic</category>
-      <description>Anthropicは2026年9月14日、金融アドバイザー向けの新製品群「Claude for Financial Advisors」を発表しました。資産管理、CRM、金融計画、相続・税務、会議記録など複数システムに分散した情報をClaudeへ接続し、面談準…</description>
-    </item>
-    <item>
-      <title>Google「DevFest 2026」始動、AIエージェント時代の開発・セキュリティ・スケールを実践</title>
-      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1549434235259981874</link>
-      <guid isPermaLink="false">afnjp-1549434235259981874</guid>
-      <pubDate>Tue, 15 Sep 2026 14:58:28 GMT</pubDate>
-      <category>google</category>
-      <description>Googleは、世界各地の開発者コミュニティが主導する技術イベント「DevFest 2026」を、2026年10月1日から12月31日まで開催すると発表しました。115カ国で800以上のイベントが計画され、約100万人の開発者やビルダーの参加を見込んでいます…</description>
     </item>
   </channel>
 </rss>
