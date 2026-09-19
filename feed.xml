@@ -5,8 +5,40 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 16 Sep 2026 22:57:14 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 19 Sep 2026 00:04:03 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>GPT-6 Astra、Hexのデータ分析を「共有できる視覚レポート」へ進化</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1550658696827248740</link>
+      <guid isPermaLink="false">afnjp-1550658696827248740</guid>
+      <pubDate>Sat, 19 Sep 2026 00:04:03 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIは2026年9月16日、データ分析プラットフォームHexにおけるGPT-6 Astraの活用事例を公開しました。Hexでは、AIが単に分析結果を返すだけでなく、複雑なデータ変換や可視化、結果の妥当性確認まで担い、インタラクティブなビジュアルレポー…</description>
+    </item>
+    <item>
+      <title>Meta「SAM 3.1」登場、画像・動画の検出・分割・追跡を単一モデルで実現</title>
+      <link>https://discord.com/channels/1415350002255007784/1441473829951111330/threads/1550647991164080238</link>
+      <guid isPermaLink="false">afnjp-1550647991164080238</guid>
+      <pubDate>Fri, 18 Sep 2026 23:21:30 GMT</pubDate>
+      <category>meta</category>
+      <description>Metaは、画像や動画内のオブジェクトを検出、セグメンテーション、追跡できる知覚モデル「Segment Anything Model（SAM）3.1」を公開しています。Meta Model APIから直接利用でき、モデルのホスティングや個別調整を必要とせず、…</description>
+    </item>
+    <item>
+      <title>Grok Voice Transcribe 2.0登場、実環境の音声認識精度を大幅強化</title>
+      <link>https://discord.com/channels/1415350002255007784/1417803120225816596/threads/1550647584685690970</link>
+      <guid isPermaLink="false">afnjp-1550647584685690970</guid>
+      <pubDate>Fri, 18 Sep 2026 23:19:53 GMT</pubDate>
+      <category>grok</category>
+      <description>SpaceXAIは2026年9月18日、音声認識モデル「Grok Voice Transcribe 2.0」を発表しました。実際の電話回線や多言語音声、複数話者などを想定したSpeech-to-Textモデルで、同社によれば前世代のGrok Voice Tr…</description>
+    </item>
+    <item>
+      <title>AnthropicとAccenture、AI企業内部に「独立評価者」を常駐へ</title>
+      <link>https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1550646186183098460</link>
+      <guid isPermaLink="false">afnjp-1550646186183098460</guid>
+      <pubDate>Fri, 18 Sep 2026 23:14:20 GMT</pubDate>
+      <category>anthropic</category>
+      <description>Anthropicは2026年9月18日、Accentureと提携し、最先端AIを企業内部から継続的に検証する「Embedded Evaluation（組み込み型評価）」を導入すると発表しました。モデル完成後の外部監査ではなく、開発過程そのものに独立評価者を…</description>
+    </item>
     <item>
       <title>OpenAI、AIの「不整合」を継続公開へ モデル安全性の新報告フレームワーク策定</title>
       <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1549917108522065960</link>
@@ -70,38 +102,6 @@
       <pubDate>Wed, 16 Sep 2026 07:38:13 GMT</pubDate>
       <category>claude</category>
       <description>Anthropicは2026年9月15日、「Claude for Small Business」を拡張し、43の業務ワークフローと27の新規インテグレーションを発表しました。Shopify、Salesforce、TikTok、Atlassian、Zoom、X…</description>
-    </item>
-    <item>
-      <title>Microsoft 365 G7発表、米政府向けAIとエージェント統制を一体化</title>
-      <link>https://discord.com/channels/1415350002255007784/1432720743279497367/threads/1549685673882161244</link>
-      <guid isPermaLink="false">afnjp-1549685673882161244</guid>
-      <pubDate>Wed, 16 Sep 2026 07:37:36 GMT</pubDate>
-      <category>microsoft</category>
-      <description>Microsoftは2026年9月15日、米国政府機関向けの新スイート「Microsoft 365 G7」を発表しました。Government Community Cloud（GCC）環境を対象に、Microsoft 365の業務基盤へCopilot、AIエ…</description>
-    </item>
-    <item>
-      <title>Google「Gemini Notebook」が学習機能を大幅強化、ノートとリアルタイム対話へ</title>
-      <link>https://discord.com/channels/1415350002255007784/1418011435287707648/threads/1549684851043733535</link>
-      <guid isPermaLink="false">afnjp-1549684851043733535</guid>
-      <pubDate>Wed, 16 Sep 2026 07:34:20 GMT</pubDate>
-      <category>gemini-notebook</category>
-      <description>Googleは2026年9月15日、Gemini Notebookに学習支援機能を追加すると発表しました。ノート内の資料を根拠にしたリアルタイム音声対話、講義を取り込める音声レコーダー、クイズやフラッシュカードを統合した学習概要、約60秒の動画要約などを順次…</description>
-    </item>
-    <item>
-      <title>ClaudeにSalesforce統合、営業業務をAIが一気通貫で支援</title>
-      <link>https://discord.com/channels/1415350002255007784/1415353403269185546/threads/1549567044834426880</link>
-      <guid isPermaLink="false">afnjp-1549567044834426880</guid>
-      <pubDate>Tue, 15 Sep 2026 23:46:13 GMT</pubDate>
-      <category>claude</category>
-      <description>Anthropicは2026年9月15日、Salesforceと共同開発した「Salesforce in Claude」をベータ公開しました。Salesforce上のアカウント、商談、パイプライン情報をClaudeから扱えるようにし、企業調査から商談準備、C…</description>
-    </item>
-    <item>
-      <title>Metaが新サブスク「Meta One」発表、AI生成枠とInstagram・WhatsApp・Facebook機能を統合</title>
-      <link>https://discord.com/channels/1415350002255007784/1441473829951111330/threads/1549566923744739328</link>
-      <guid isPermaLink="false">afnjp-1549566923744739328</guid>
-      <pubDate>Tue, 15 Sep 2026 23:45:44 GMT</pubDate>
-      <category>meta</category>
-      <description>Metaは2026年9月15日、新たなサブスクリプションサービス「Meta One」を発表しました。Instagram、Facebook、WhatsApp、Meta AIを横断し、AI機能の利用上限拡大、表現機能、クリエイター・企業向け運用ツールなどをまとめ…</description>
     </item>
   </channel>
 </rss>
