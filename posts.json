@@ -1,8 +1,30 @@
 {
-  "generated_at": "2026-09-20T11:19:27.953Z",
+  "generated_at": "2026-09-20T16:01:58.529Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1551220150265585704",
+      "title": "Qwen-Image-2.1公開、7Bで画像生成・編集・透過処理を統合",
+      "channel": "qwen",
+      "category": "Alibaba",
+      "date": "2026-09-20T13:15:04.100Z",
+      "excerpt": "AlibabaのQwenチームは2026年9月20日、画像生成モデル「Qwen-Image-2.1」をオープンソースで公開しました。最大の特徴は、画像生成、画像編集、透過画像の生成・編集を単一モデルに統合しながら、視覚生成部分を70億パラメータに抑えた点です…",
+      "lead": "AlibabaのQwenチームは2026年9月20日、画像生成モデル「Qwen-Image-2.1」をオープンソースで公開しました。最大の特徴は、画像生成、画像編集、透過画像の生成・編集を単一モデルに統合しながら、視覚生成部分を70億パラメータに抑えた点です。画質だけでなく、推論速度や計算コストを重視した実用志向の設計となっています。",
+      "headings": [
+        "7Bの軽量構成と推論効率を両立",
+        "透過画像をネイティブ対応、RGBA抽出も可能",
+        "最大10枚の参照画像を使った編集",
+        "人物や商品の一貫性も強化",
+        "タイポグラフィと人物表現も改善",
+        "今後の展望"
+      ],
+      "source_url": "https://qwen.ai/blog?id=qwen-image-2.1",
+      "source_label": "qwen.ai",
+      "cover": "assets/posts/1551220150265585704.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1419932032716243027/threads/1551220150265585704",
+      "first_seen": "2026-09-20T13:15:04.100Z"
+    },
     {
       "id": "1551041990320197763",
       "title": "TypeSafe AI「Jev」公開、LLMとは異なる高速・型安全なAIモデルを提案",
@@ -227,26 +249,6 @@
       "cover": "assets/posts/1549916848911417494.webp",
       "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1549916848911417494",
       "first_seen": "2026-09-16T22:56:12.843Z"
-    },
-    {
-      "id": "1549798414907220089",
-      "title": "OpenAI、高齢者1000人にChatGPT実践講座 AI活用と詐欺対策を米10都市で支援",
-      "channel": "open-ai",
-      "category": "Open AI",
-      "date": "2026-09-16T15:05:35.976Z",
-      "excerpt": "OpenAIは2026年9月16日、AARP傘下のOlder Adults Technology Services（OATS）と協力し、高齢者向けの無料対面イベント「Older Adults AI Skills Jam」を実施すると発表しました。米国10都市…",
-      "lead": "OpenAIは2026年9月16日、AARP傘下のOlder Adults Technology Services（OATS）と協力し、高齢者向けの無料対面イベント「Older Adults AI Skills Jam」を実施すると発表しました。米国10都市・地域で計1000人を対象に、ChatGPTの日常利用とオンライン詐欺への対処を実践的に学ぶ取り組みです。",
-      "headings": [
-        "高齢者の「日常ツール」としてAIを学ぶ",
-        "詐欺対策にもChatGPTを活用",
-        "55歳以上のChatGPT利用も拡大",
-        "今後の展望"
-      ],
-      "source_url": "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life/",
-      "source_label": "openai.com",
-      "cover": "assets/posts/1549798414907220089.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1549798414907220089",
-      "first_seen": "2026-09-16T15:05:35.976Z"
     }
   ]
 }

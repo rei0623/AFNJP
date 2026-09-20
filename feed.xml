@@ -5,8 +5,16 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 20 Sep 2026 01:27:07 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 20 Sep 2026 13:15:04 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Qwen-Image-2.1公開、7Bで画像生成・編集・透過処理を統合</title>
+      <link>https://discord.com/channels/1415350002255007784/1419932032716243027/threads/1551220150265585704</link>
+      <guid isPermaLink="false">afnjp-1551220150265585704</guid>
+      <pubDate>Sun, 20 Sep 2026 13:15:04 GMT</pubDate>
+      <category>qwen</category>
+      <description>AlibabaのQwenチームは2026年9月20日、画像生成モデル「Qwen-Image-2.1」をオープンソースで公開しました。最大の特徴は、画像生成、画像編集、透過画像の生成・編集を単一モデルに統合しながら、視覚生成部分を70億パラメータに抑えた点です…</description>
+    </item>
     <item>
       <title>TypeSafe AI「Jev」公開、LLMとは異なる高速・型安全なAIモデルを提案</title>
       <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1551041990320197763</link>
@@ -94,14 +102,6 @@
       <pubDate>Wed, 16 Sep 2026 22:56:12 GMT</pubDate>
       <category>open-ai</category>
       <description>OpenAIは2026年9月16日、企業がChatGPT WorkやCodexの利用状況を、売上や生産性などの事業成果へ結び付けて評価する方法を公開しました。単純なユーザー数やトークン消費量ではなく、「AIが何の仕事に使われ、その結果がどう変わったか」を追跡…</description>
-    </item>
-    <item>
-      <title>OpenAI、高齢者1000人にChatGPT実践講座 AI活用と詐欺対策を米10都市で支援</title>
-      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1549798414907220089</link>
-      <guid isPermaLink="false">afnjp-1549798414907220089</guid>
-      <pubDate>Wed, 16 Sep 2026 15:05:35 GMT</pubDate>
-      <category>open-ai</category>
-      <description>OpenAIは2026年9月16日、AARP傘下のOlder Adults Technology Services（OATS）と協力し、高齢者向けの無料対面イベント「Older Adults AI Skills Jam」を実施すると発表しました。米国10都市…</description>
     </item>
   </channel>
 </rss>
