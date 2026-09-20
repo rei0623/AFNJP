@@ -1,8 +1,92 @@
 {
-  "generated_at": "2026-09-20T01:05:37.625Z",
+  "generated_at": "2026-09-20T06:12:46.745Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1551041990320197763",
+      "title": "TypeSafe AI「Jev」公開、LLMとは異なる高速・型安全なAIモデルを提案",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-09-20T01:27:07.459Z",
+      "excerpt": "TypeSafe AIは2026年9月15日、新しいモデル群「System One Models」と、その最初の公開モデル「Jev」を発表しました。文章生成を中心とする従来のLLMとは異なり、Jevはソフトウェアが直接利用できる「型付きの確率的判断」を高速に…",
+      "lead": "TypeSafe AIは2026年9月15日、新しいモデル群「System One Models」と、その最初の公開モデル「Jev」を発表しました。文章生成を中心とする従来のLLMとは異なり、Jevはソフトウェアが直接利用できる「型付きの確率的判断」を高速に返すことへ特化しています。現在はアーリーアクセスとして提供されています。",
+      "headings": [
+        "「文章を生成しない」AIモデル",
+        "並列出力と独自学習「RLCD」",
+        "最大200倍級の高速化を主張",
+        "LLMの代替ではなく「AI版if文」",
+        "今後の展望"
+      ],
+      "source_url": "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
+      "source_label": "typesafe.ai",
+      "cover": "assets/posts/1551041990320197763.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1551041990320197763",
+      "first_seen": "2026-09-20T01:27:07.459Z"
+    },
+    {
+      "id": "1551037678794047620",
+      "title": "OpenClaw 2026.9.5公開、AIエージェント運用を「止めない」基盤へ進化",
+      "channel": "open-claw",
+      "category": "その他",
+      "date": "2026-09-20T01:09:59.511Z",
+      "excerpt": "OpenClawは「v2026.9.5」を公開しました。今回の更新では、稼働中のGatewayを維持したまま更新候補を検証するAtomic Updates、再起動不要のプラグイン更新、GPT Liveの会議・電話対応、会話共有、ブラウザ共同操作などが追加され…",
+      "lead": "OpenClawは「v2026.9.5」を公開しました。今回の更新では、稼働中のGatewayを維持したまま更新候補を検証するAtomic Updates、再起動不要のプラグイン更新、GPT Liveの会議・電話対応、会話共有、ブラウザ共同操作などが追加されています。4,179件のプルリクエストと64件の直接コミット、502の貢献アカウントを含む大規模リリースです。",
+      "headings": [
+        "Atomic Updatesで更新時の停止リスクを低減",
+        "プラグインをGateway再起動なしで追加",
+        "GPT Liveが会議と電話へ拡張",
+        "人間とエージェントが同じブラウザ画面を操作",
+        "会話の共有と長期保存も強化",
+        "今後の展望"
+      ],
+      "source_url": "https://docs.openclaw.ai/releases/2026.9.5",
+      "source_label": "docs.openclaw.ai",
+      "cover": "assets/posts/1551037678794047620.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1469665728721588320/threads/1551037678794047620",
+      "first_seen": "2026-09-20T01:09:59.511Z"
+    },
+    {
+      "id": "1551037579460345916",
+      "title": "Qwen3.8-LiveTranslate登場、同時通訳を「話者・文脈」まで理解するAIへ",
+      "channel": "qwen",
+      "category": "Alibaba",
+      "date": "2026-09-20T01:09:35.828Z",
+      "excerpt": "AlibabaのQwen Teamは2026年9月18日、リアルタイム同時通訳モデル「Qwen3.8-LiveTranslate」を発表しました。新たなInterleaveアーキテクチャにより、翻訳品質を高めながら平均遅延指標LAALを従来の2.8秒から2.…",
+      "lead": "AlibabaのQwen Teamは2026年9月18日、リアルタイム同時通訳モデル「Qwen3.8-LiveTranslate」を発表しました。新たなInterleaveアーキテクチャにより、翻訳品質を高めながら平均遅延指標LAALを従来の2.8秒から2.3秒へ短縮。さらに、複数話者の識別、原文と翻訳の同期表示、長い会話履歴を使った曖昧性解消を統合しています。",
+      "headings": [
+        "音声とテキストを一つの時系列として処理",
+        "複数話者と長文脈への対応を強化",
+        "60言語を扱い、音声出力は29言語",
+        "APIでリアルタイム通訳アプリを構築可能",
+        "今後の展望"
+      ],
+      "source_url": "https://qwen.ai/blog?id=qwen3.8-livetranslate",
+      "source_label": "qwen.ai",
+      "cover": "assets/posts/1551037579460345916.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1419932032716243027/threads/1551037579460345916",
+      "first_seen": "2026-09-20T01:09:35.828Z"
+    },
+    {
+      "id": "1551036679127830588",
+      "title": "OpenAI、豪州向け「Youth Safety Blueprint」を公開 未成年AI利用を6本柱で設計",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-09-20T01:06:01.172Z",
+      "excerpt": "OpenAIは2026年9月18日、オーストラリアの若者がAIを安全に利用するための政策提言「Australian Youth Safety Blueprint」を公開しました。単なるコンテンツ規制ではなく、年齢推定、未成年向けモデル挙動、危機対応、保護者機…",
+      "lead": "OpenAIは2026年9月18日、オーストラリアの若者がAIを安全に利用するための政策提言「Australian Youth Safety Blueprint」を公開しました。単なるコンテンツ規制ではなく、年齢推定、未成年向けモデル挙動、危機対応、保護者機能、監査までを一体で設計する点が特徴です。",
+      "headings": [
+        "6本柱で「安全を初期設定」に",
+        "技術的焦点は「出力内容」から「関係性設計」へ",
+        "規制は固定ルールよりリスクベースを提案",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/australian-youth-safety-blueprint/",
+      "source_label": "openai.com",
+      "cover": "assets/posts/1551036679127830588.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1551036679127830588",
+      "first_seen": "2026-09-20T01:06:01.172Z"
+    },
     {
       "id": "1550658696827248740",
       "title": "GPT-6 Astra、Hexのデータ分析を「共有できる視覚レポート」へ進化",
@@ -163,88 +247,6 @@
       "cover": "assets/posts/1549798414907220089.webp",
       "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1549798414907220089",
       "first_seen": "2026-09-16T15:05:35.976Z"
-    },
-    {
-      "id": "1549796225614872626",
-      "title": "Google、年末商戦向け「エージェント型コマース」を強化 YouTube広告内AI接客やUCP拡張",
-      "channel": "google",
-      "category": "Google",
-      "date": "2026-09-16T14:56:54.008Z",
-      "excerpt": "Googleは2026年9月16日、年末商戦を見据えた小売事業者向けのAI・コマース機能を発表しました。Merchant CenterのAI分析、YouTube広告内で動作する「Business Agent」、Universal Commerce Proto…",
-      "lead": "Googleは2026年9月16日、年末商戦を見据えた小売事業者向けのAI・コマース機能を発表しました。Merchant CenterのAI分析、YouTube広告内で動作する「Business Agent」、Universal Commerce Protocol（UCP）の機能拡張などを組み合わせ、商品の発見から比較、購入までをAIが支援する「エージェント型コマース」を本格化します。",
-      "headings": [
-        "AI検索で「自社商品が見つかるか」を可視化",
-        "YouTube広告にAI販売員を組み込む",
-        "UCPでAIから購入までを接続",
-        "AI時代ほど商品データの品質が重要に",
-        "今後の展望"
-      ],
-      "source_url": "https://blog.google/products-and-platforms/products/shopping/google-shopping-updates-holiday-shopping/",
-      "source_label": "blog.google",
-      "cover": "assets/posts/1549796225614872626.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1549796225614872626",
-      "first_seen": "2026-09-16T14:56:54.008Z"
-    },
-    {
-      "id": "1549790270848245862",
-      "title": "OpenAI、ChatGPT広告をAIネイティブ化 対話型「Sponsored Agents」をテスト",
-      "channel": "open-ai",
-      "category": "Open AI",
-      "date": "2026-09-16T14:33:14.281Z",
-      "excerpt": "OpenAIは2026年9月16日、ChatGPT Ads向けの新たなAI広告機能を発表しました。広告を単に表示するだけでなく、ユーザーと企業がAIを介して対話し、広告制作やキャンペーン管理まで自然言語で操作できる仕組みへ拡張します。",
-      "lead": "OpenAIは2026年9月16日、ChatGPT Ads向けの新たなAI広告機能を発表しました。広告を単に表示するだけでなく、ユーザーと企業がAIを介して対話し、広告制作やキャンペーン管理まで自然言語で操作できる仕組みへ拡張します。",
-      "headings": [
-        "広告から「企業AIとの対話」へ",
-        "自然言語で広告キャンペーンを管理",
-        "HubSpotとShopifyにも統合",
-        "広告プラットフォームそのものをAI化",
-        "今後の展望"
-      ],
-      "source_url": "https://openai.com/index/reimagining-advertising-with-ai/",
-      "source_label": "openai.com",
-      "cover": "assets/posts/1549790270848245862.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1549790270848245862",
-      "first_seen": "2026-09-16T14:33:14.281Z"
-    },
-    {
-      "id": "1549748124698804245",
-      "title": "MistralとMozillaが提携、FirefoxのAIブラウジングを多言語・プライバシー重視へ",
-      "channel": "mistral-ai",
-      "category": "その他",
-      "date": "2026-09-16T11:45:45.856Z",
-      "excerpt": "Mistral AIとMozillaは2026年9月16日、AIを活用したWebブラウジング分野で提携すると発表しました。MozillaのAIブラウジング機能「Firefox Smart Window」ベータ版にMistralのモデルを採用し、プライバシー、…",
-      "lead": "Mistral AIとMozillaは2026年9月16日、AIを活用したWebブラウジング分野で提携すると発表しました。MozillaのAIブラウジング機能「Firefox Smart Window」ベータ版にMistralのモデルを採用し、プライバシー、ユーザーによる制御、多言語・地域対応を重視したAI体験を提供します。",
-      "headings": [
-        "Firefox Smart WindowをMistralモデルが支援",
-        "プライバシー保護をAI利用の前提に",
-        "AIブラウザーの「モデル選択」に新たな競争軸",
-        "今後の展望"
-      ],
-      "source_url": "https://mistral.ai/news/mistral-x-mozilla/",
-      "source_label": "mistral.ai",
-      "cover": "assets/posts/1549748124698804245.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1460897850354438283/threads/1549748124698804245",
-      "first_seen": "2026-09-16T11:45:45.856Z"
-    },
-    {
-      "id": "1549685830770106408",
-      "title": "Claudeが中小企業向けAIを拡張、43ワークフローと27の新規連携を投入",
-      "channel": "claude",
-      "category": "Anthropic",
-      "date": "2026-09-16T07:38:13.826Z",
-      "excerpt": "Anthropicは2026年9月15日、「Claude for Small Business」を拡張し、43の業務ワークフローと27の新規インテグレーションを発表しました。Shopify、Salesforce、TikTok、Atlassian、Zoom、X…",
-      "lead": "Anthropicは2026年9月15日、「Claude for Small Business」を拡張し、43の業務ワークフローと27の新規インテグレーションを発表しました。Shopify、Salesforce、TikTok、Atlassian、Zoom、Xero、Gusto、Square、Stripe、Zapierなど、中小企業が日常的に使うシステムとClaudeを接続し、AIを単なる相談相手から「実際に業務を進める実行基盤」へ広げる狙いです。",
-      "headings": [
-        "会計から営業・マーケティングまでを横断",
-        "AIエージェント導入で「承認」を重視",
-        "導入支援も大規模化",
-        "今後の展望"
-      ],
-      "source_url": "https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs",
-      "source_label": "claude.com",
-      "cover": "assets/posts/1549685830770106408.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1415353403269185546/threads/1549685830770106408",
-      "first_seen": "2026-09-16T07:38:13.826Z"
     }
   ]
 }

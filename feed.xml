@@ -5,8 +5,40 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 19 Sep 2026 00:04:03 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 20 Sep 2026 01:27:07 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>TypeSafe AI「Jev」公開、LLMとは異なる高速・型安全なAIモデルを提案</title>
+      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1551041990320197763</link>
+      <guid isPermaLink="false">afnjp-1551041990320197763</guid>
+      <pubDate>Sun, 20 Sep 2026 01:27:07 GMT</pubDate>
+      <category>その他</category>
+      <description>TypeSafe AIは2026年9月15日、新しいモデル群「System One Models」と、その最初の公開モデル「Jev」を発表しました。文章生成を中心とする従来のLLMとは異なり、Jevはソフトウェアが直接利用できる「型付きの確率的判断」を高速に…</description>
+    </item>
+    <item>
+      <title>OpenClaw 2026.9.5公開、AIエージェント運用を「止めない」基盤へ進化</title>
+      <link>https://discord.com/channels/1415350002255007784/1469665728721588320/threads/1551037678794047620</link>
+      <guid isPermaLink="false">afnjp-1551037678794047620</guid>
+      <pubDate>Sun, 20 Sep 2026 01:09:59 GMT</pubDate>
+      <category>open-claw</category>
+      <description>OpenClawは「v2026.9.5」を公開しました。今回の更新では、稼働中のGatewayを維持したまま更新候補を検証するAtomic Updates、再起動不要のプラグイン更新、GPT Liveの会議・電話対応、会話共有、ブラウザ共同操作などが追加され…</description>
+    </item>
+    <item>
+      <title>Qwen3.8-LiveTranslate登場、同時通訳を「話者・文脈」まで理解するAIへ</title>
+      <link>https://discord.com/channels/1415350002255007784/1419932032716243027/threads/1551037579460345916</link>
+      <guid isPermaLink="false">afnjp-1551037579460345916</guid>
+      <pubDate>Sun, 20 Sep 2026 01:09:35 GMT</pubDate>
+      <category>qwen</category>
+      <description>AlibabaのQwen Teamは2026年9月18日、リアルタイム同時通訳モデル「Qwen3.8-LiveTranslate」を発表しました。新たなInterleaveアーキテクチャにより、翻訳品質を高めながら平均遅延指標LAALを従来の2.8秒から2.…</description>
+    </item>
+    <item>
+      <title>OpenAI、豪州向け「Youth Safety Blueprint」を公開 未成年AI利用を6本柱で設計</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1551036679127830588</link>
+      <guid isPermaLink="false">afnjp-1551036679127830588</guid>
+      <pubDate>Sun, 20 Sep 2026 01:06:01 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIは2026年9月18日、オーストラリアの若者がAIを安全に利用するための政策提言「Australian Youth Safety Blueprint」を公開しました。単なるコンテンツ規制ではなく、年齢推定、未成年向けモデル挙動、危機対応、保護者機…</description>
+    </item>
     <item>
       <title>GPT-6 Astra、Hexのデータ分析を「共有できる視覚レポート」へ進化</title>
       <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1550658696827248740</link>
@@ -70,38 +102,6 @@
       <pubDate>Wed, 16 Sep 2026 15:05:35 GMT</pubDate>
       <category>open-ai</category>
       <description>OpenAIは2026年9月16日、AARP傘下のOlder Adults Technology Services（OATS）と協力し、高齢者向けの無料対面イベント「Older Adults AI Skills Jam」を実施すると発表しました。米国10都市…</description>
-    </item>
-    <item>
-      <title>Google、年末商戦向け「エージェント型コマース」を強化 YouTube広告内AI接客やUCP拡張</title>
-      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1549796225614872626</link>
-      <guid isPermaLink="false">afnjp-1549796225614872626</guid>
-      <pubDate>Wed, 16 Sep 2026 14:56:54 GMT</pubDate>
-      <category>google</category>
-      <description>Googleは2026年9月16日、年末商戦を見据えた小売事業者向けのAI・コマース機能を発表しました。Merchant CenterのAI分析、YouTube広告内で動作する「Business Agent」、Universal Commerce Proto…</description>
-    </item>
-    <item>
-      <title>OpenAI、ChatGPT広告をAIネイティブ化 対話型「Sponsored Agents」をテスト</title>
-      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1549790270848245862</link>
-      <guid isPermaLink="false">afnjp-1549790270848245862</guid>
-      <pubDate>Wed, 16 Sep 2026 14:33:14 GMT</pubDate>
-      <category>open-ai</category>
-      <description>OpenAIは2026年9月16日、ChatGPT Ads向けの新たなAI広告機能を発表しました。広告を単に表示するだけでなく、ユーザーと企業がAIを介して対話し、広告制作やキャンペーン管理まで自然言語で操作できる仕組みへ拡張します。</description>
-    </item>
-    <item>
-      <title>MistralとMozillaが提携、FirefoxのAIブラウジングを多言語・プライバシー重視へ</title>
-      <link>https://discord.com/channels/1415350002255007784/1460897850354438283/threads/1549748124698804245</link>
-      <guid isPermaLink="false">afnjp-1549748124698804245</guid>
-      <pubDate>Wed, 16 Sep 2026 11:45:45 GMT</pubDate>
-      <category>mistral-ai</category>
-      <description>Mistral AIとMozillaは2026年9月16日、AIを活用したWebブラウジング分野で提携すると発表しました。MozillaのAIブラウジング機能「Firefox Smart Window」ベータ版にMistralのモデルを採用し、プライバシー、…</description>
-    </item>
-    <item>
-      <title>Claudeが中小企業向けAIを拡張、43ワークフローと27の新規連携を投入</title>
-      <link>https://discord.com/channels/1415350002255007784/1415353403269185546/threads/1549685830770106408</link>
-      <guid isPermaLink="false">afnjp-1549685830770106408</guid>
-      <pubDate>Wed, 16 Sep 2026 07:38:13 GMT</pubDate>
-      <category>claude</category>
-      <description>Anthropicは2026年9月15日、「Claude for Small Business」を拡張し、43の業務ワークフローと27の新規インテグレーションを発表しました。Shopify、Salesforce、TikTok、Atlassian、Zoom、X…</description>
     </item>
   </channel>
 </rss>

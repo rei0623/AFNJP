@@ -1,9 +1,93 @@
 {
-  "generated_at": "2026-09-20T01:05:37.623Z",
+  "generated_at": "2026-09-20T06:12:46.743Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 203,
+  "count": 207,
   "posts": [
+    {
+      "id": "1551041990320197763",
+      "title": "TypeSafe AI「Jev」公開、LLMとは異なる高速・型安全なAIモデルを提案",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-09-20T01:27:07.459Z",
+      "excerpt": "TypeSafe AIは2026年9月15日、新しいモデル群「System One Models」と、その最初の公開モデル「Jev」を発表しました。文章生成を中心とする従来のLLMとは異なり、Jevはソフトウェアが直接利用できる「型付きの確率的判断」を高速に…",
+      "lead": "TypeSafe AIは2026年9月15日、新しいモデル群「System One Models」と、その最初の公開モデル「Jev」を発表しました。文章生成を中心とする従来のLLMとは異なり、Jevはソフトウェアが直接利用できる「型付きの確率的判断」を高速に返すことへ特化しています。現在はアーリーアクセスとして提供されています。",
+      "headings": [
+        "「文章を生成しない」AIモデル",
+        "並列出力と独自学習「RLCD」",
+        "最大200倍級の高速化を主張",
+        "LLMの代替ではなく「AI版if文」",
+        "今後の展望"
+      ],
+      "source_url": "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
+      "source_label": "typesafe.ai",
+      "cover": "assets/posts/1551041990320197763.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1551041990320197763",
+      "first_seen": "2026-09-20T01:27:07.459Z"
+    },
+    {
+      "id": "1551037678794047620",
+      "title": "OpenClaw 2026.9.5公開、AIエージェント運用を「止めない」基盤へ進化",
+      "channel": "open-claw",
+      "category": "その他",
+      "date": "2026-09-20T01:09:59.511Z",
+      "excerpt": "OpenClawは「v2026.9.5」を公開しました。今回の更新では、稼働中のGatewayを維持したまま更新候補を検証するAtomic Updates、再起動不要のプラグイン更新、GPT Liveの会議・電話対応、会話共有、ブラウザ共同操作などが追加され…",
+      "lead": "OpenClawは「v2026.9.5」を公開しました。今回の更新では、稼働中のGatewayを維持したまま更新候補を検証するAtomic Updates、再起動不要のプラグイン更新、GPT Liveの会議・電話対応、会話共有、ブラウザ共同操作などが追加されています。4,179件のプルリクエストと64件の直接コミット、502の貢献アカウントを含む大規模リリースです。",
+      "headings": [
+        "Atomic Updatesで更新時の停止リスクを低減",
+        "プラグインをGateway再起動なしで追加",
+        "GPT Liveが会議と電話へ拡張",
+        "人間とエージェントが同じブラウザ画面を操作",
+        "会話の共有と長期保存も強化",
+        "今後の展望"
+      ],
+      "source_url": "https://docs.openclaw.ai/releases/2026.9.5",
+      "source_label": "docs.openclaw.ai",
+      "cover": "assets/posts/1551037678794047620.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1469665728721588320/threads/1551037678794047620",
+      "first_seen": "2026-09-20T01:09:59.511Z"
+    },
+    {
+      "id": "1551037579460345916",
+      "title": "Qwen3.8-LiveTranslate登場、同時通訳を「話者・文脈」まで理解するAIへ",
+      "channel": "qwen",
+      "category": "Alibaba",
+      "date": "2026-09-20T01:09:35.828Z",
+      "excerpt": "AlibabaのQwen Teamは2026年9月18日、リアルタイム同時通訳モデル「Qwen3.8-LiveTranslate」を発表しました。新たなInterleaveアーキテクチャにより、翻訳品質を高めながら平均遅延指標LAALを従来の2.8秒から2.…",
+      "lead": "AlibabaのQwen Teamは2026年9月18日、リアルタイム同時通訳モデル「Qwen3.8-LiveTranslate」を発表しました。新たなInterleaveアーキテクチャにより、翻訳品質を高めながら平均遅延指標LAALを従来の2.8秒から2.3秒へ短縮。さらに、複数話者の識別、原文と翻訳の同期表示、長い会話履歴を使った曖昧性解消を統合しています。",
+      "headings": [
+        "音声とテキストを一つの時系列として処理",
+        "複数話者と長文脈への対応を強化",
+        "60言語を扱い、音声出力は29言語",
+        "APIでリアルタイム通訳アプリを構築可能",
+        "今後の展望"
+      ],
+      "source_url": "https://qwen.ai/blog?id=qwen3.8-livetranslate",
+      "source_label": "qwen.ai",
+      "cover": "assets/posts/1551037579460345916.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1419932032716243027/threads/1551037579460345916",
+      "first_seen": "2026-09-20T01:09:35.828Z"
+    },
+    {
+      "id": "1551036679127830588",
+      "title": "OpenAI、豪州向け「Youth Safety Blueprint」を公開 未成年AI利用を6本柱で設計",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-09-20T01:06:01.172Z",
+      "excerpt": "OpenAIは2026年9月18日、オーストラリアの若者がAIを安全に利用するための政策提言「Australian Youth Safety Blueprint」を公開しました。単なるコンテンツ規制ではなく、年齢推定、未成年向けモデル挙動、危機対応、保護者機…",
+      "lead": "OpenAIは2026年9月18日、オーストラリアの若者がAIを安全に利用するための政策提言「Australian Youth Safety Blueprint」を公開しました。単なるコンテンツ規制ではなく、年齢推定、未成年向けモデル挙動、危機対応、保護者機能、監査までを一体で設計する点が特徴です。",
+      "headings": [
+        "6本柱で「安全を初期設定」に",
+        "技術的焦点は「出力内容」から「関係性設計」へ",
+        "規制は固定ルールよりリスクベースを提案",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/australian-youth-safety-blueprint/",
+      "source_label": "openai.com",
+      "cover": "assets/posts/1551036679127830588.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1551036679127830588",
+      "first_seen": "2026-09-20T01:06:01.172Z"
+    },
     {
       "id": "1550658696827248740",
       "title": "GPT-6 Astra、Hexのデータ分析を「共有できる視覚レポート」へ進化",
