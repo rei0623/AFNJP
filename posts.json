@@ -1,8 +1,148 @@
 {
-  "generated_at": "2026-09-21T17:01:21.366Z",
+  "generated_at": "2026-09-21T21:02:11.458Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1551678510894940271",
+      "title": "Google「Googlebook」予約開始、Geminiを中核に据えた新世代ノートPC",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-09-21T19:36:25.790Z",
+      "excerpt": "Googleは、Gemini Intelligenceを中核に設計した新カテゴリーのノートPC「Googlebook」の予約受付を開始しました。価格は899ドルから。Intel Core UltraまたはSnapdragon X Eliteを搭載し、Andr…",
+      "lead": "Googleは、Gemini Intelligenceを中核に設計した新カテゴリーのノートPC「Googlebook」の予約受付を開始しました。価格は899ドルから。Intel Core UltraまたはSnapdragon X Eliteを搭載し、Androidアプリ、生成AI、スマートフォン連携をPC体験に統合します。",
+      "headings": [
+        "GeminiがOS操作に入り込む設計",
+        "Androidスマートフォンとの境界を縮小",
+        "5社から展開、899ドルから",
+        "AI PC市場への新しいアプローチ",
+        "今後の展望"
+      ],
+      "source_url": "https://googlebook.google/",
+      "source_urls": [
+        "https://googlebook.google/"
+      ],
+      "source_label": "googlebook.google",
+      "cover": "assets/posts/1551678510894940271.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1551678510894940271",
+      "first_seen": "2026-09-21T19:36:25.790Z"
+    },
+    {
+      "id": "1551676919064567840",
+      "title": "GKE「Pod snapshots」登場、GPUメモリごと保存しAI起動時間を最大89％短縮",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-09-21T19:30:06.268Z",
+      "excerpt": "Google Cloudは2026年9月21日、Google Kubernetes Engine（GKE）向けの新機能「Pod snapshots」を発表しました。実行中PodのCPUメモリやGPUメモリを含む状態を保存し、必要になった時点で復元することで、…",
+      "lead": "Google Cloudは2026年9月21日、Google Kubernetes Engine（GKE）向けの新機能「Pod snapshots」を発表しました。実行中PodのCPUメモリやGPUメモリを含む状態を保存し、必要になった時点で復元することで、AI推論やエージェント用サンドボックスのコールドスタートを大幅に短縮します。",
+      "headings": [
+        "「再起動」ではなく「再開」する仕組み",
+        "AIエージェントのサンドボックスにも有効",
+        "Kubernetesの宣言的運用に統合",
+        "今後の展望"
+      ],
+      "source_url": "https://cloud.google.com/blog/products/containers-kubernetes/gke-pod-snapshots/?hl=en",
+      "source_urls": [
+        "https://cloud.google.com/blog/products/containers-kubernetes/gke-pod-snapshots/?hl=en"
+      ],
+      "source_label": "cloud.google.com",
+      "cover": "assets/posts/1551676919064567840.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1551676919064567840",
+      "first_seen": "2026-09-21T19:30:06.268Z"
+    },
+    {
+      "id": "1551676815523975199",
+      "title": "Google、教育者向けAI研修を拡大 Digital Promiseに400万ドル支援",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-09-21T19:29:41.582Z",
+      "excerpt": "Google.orgは2026年9月21日、教育分野の非営利団体Digital Promiseに400万ドルを拠出し、米国の教師や大学教員が実践的なAIスキルを無料で学べる取り組みを拡大すると発表しました。",
+      "lead": "Google.orgは2026年9月21日、教育分野の非営利団体Digital Promiseに400万ドルを拠出し、米国の教師や大学教員が実践的なAIスキルを無料で学べる取り組みを拡大すると発表しました。",
+      "headings": [
+        "600万人の教育者を対象にAI研修",
+        "学校単位から教育システム全体へ展開",
+        "AI導入の焦点は「ツール」から「運用能力」へ",
+        "今後の展望"
+      ],
+      "source_url": "https://blog.google/products-and-platforms/products/education/digital-promise/",
+      "source_urls": [
+        "https://blog.google/products-and-platforms/products/education/digital-promise/"
+      ],
+      "source_label": "blog.google",
+      "cover": "assets/posts/1551676815523975199.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1551676815523975199",
+      "first_seen": "2026-09-21T19:29:41.582Z"
+    },
+    {
+      "id": "1551676723387432990",
+      "title": "OpenAI、数学AIの独立諮問グループ設立 新モデルが100超の未解決問題を解決と発表",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-09-21T19:29:19.615Z",
+      "excerpt": "OpenAIは2026年9月21日、数学と人工知能の関係を検討する独立組織「Advisory Group on Mathematics and Artificial Intelligence」の設立を発表しました。同社によると、8月28日に訓練を開始した新た…",
+      "lead": "OpenAIは2026年9月21日、数学と人工知能の関係を検討する独立組織「Advisory Group on Mathematics and Artificial Intelligence」の設立を発表しました。同社によると、8月28日に訓練を開始した新たな社内モデルが、ナビエ–ストークス方程式に関するミレニアム懸賞問題を含め、数学の幅広い分野で100件を超える長年の未解決問題を解決したとしています。0",
+      "headings": [
+        "数学AIの進歩をどう公開するか",
+        "OpenAIから独立した組織設計",
+        "著名数学者が参加",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/advisory-group-on-mathematics-and-ai/",
+      "source_urls": [
+        "https://openai.com/index/advisory-group-on-mathematics-and-ai/"
+      ],
+      "source_label": "openai.com",
+      "cover": "assets/posts/1551676723387432990.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1551676723387432990",
+      "first_seen": "2026-09-21T19:29:19.615Z"
+    },
+    {
+      "id": "1551676641363886132",
+      "title": "OpenAI、AI普及を「人材育成」と「国際標準」の両面から加速",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-09-21T19:29:00.059Z",
+      "excerpt": "OpenAIは2026年9月21日、AI活用スキルを体系化する「OpenAI Academy」の拡充と、フロンティアAIを対象とした国際的な技術標準の構想を相次いで発表しました。2つの発表は対象こそ異なりますが、高性能AIの普及に必要な「利用者側の能力」と「…",
+      "lead": "OpenAIは2026年9月21日、AI活用スキルを体系化する「OpenAI Academy」の拡充と、フロンティアAIを対象とした国際的な技術標準の構想を相次いで発表しました。2つの発表は対象こそ異なりますが、高性能AIの普及に必要な「利用者側の能力」と「開発側の安全基盤」を同時に整備しようとする動きとして捉えられます。",
+      "headings": [
+        "OpenAI Academyを職種別の学習体系へ",
+        "高度なAI研究を見据え国際標準を提案",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/expanding-openai-academy-with-new-learning-paths/",
+      "source_urls": [
+        "https://openai.com/index/expanding-openai-academy-with-new-learning-paths/",
+        "https://openai.com/index/building-standards-next-phase-ai/"
+      ],
+      "source_label": "openai.com",
+      "cover": "assets/posts/1551676641363886132.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1551676641363886132",
+      "first_seen": "2026-09-21T19:29:00.059Z"
+    },
+    {
+      "id": "1551676546987855903",
+      "title": "Grok 4.7登場、50万トークンとxhigh推論でエージェント開発を強化",
+      "channel": "grok",
+      "category": "Space X",
+      "date": "2026-09-21T19:28:37.558Z",
+      "excerpt": "xAIは、コーディング、エージェント処理、ナレッジワークを主用途とするフロンティアモデル「Grok 4.7」を公開しました。最大50万トークンのコンテキスト、画像入力、複数段階の推論強度、Web検索やコード実行などのツール利用を備え、長時間動作するAIエージ…",
+      "lead": "xAIは、コーディング、エージェント処理、ナレッジワークを主用途とするフロンティアモデル「Grok 4.7」を公開しました。最大50万トークンのコンテキスト、画像入力、複数段階の推論強度、Web検索やコード実行などのツール利用を備え、長時間動作するAIエージェントを意識した設計となっています。",
+      "headings": [
+        "Grok 4.7の主要仕様",
+        "長時間エージェントを支えるキャッシュ設計",
+        "暗号化されたReasoningを会話間で引き継ぐ",
+        "高速版とリージョナルAPI",
+        "今後の展望"
+      ],
+      "source_url": "https://docs.x.ai/developers/grok-4-7",
+      "source_urls": [
+        "https://docs.x.ai/developers/grok-4-7"
+      ],
+      "source_label": "docs.x.ai",
+      "cover": "assets/posts/1551676546987855903.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417803120225816596/threads/1551676546987855903",
+      "first_seen": "2026-09-21T19:28:37.558Z"
+    },
     {
       "id": "1551621185677033613",
       "title": "V7、企業データを「AIの記憶」に変換 GPT-6 Astraで難関クエリ89％精度",
@@ -25,7 +165,9 @@
       "source_label": "openai.com",
       "cover": "assets/posts/1551621185677033613.webp",
       "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1551621185677033613",
-      "first_seen": "2026-09-21T15:48:38.393Z"
+      "first_seen": "2026-09-21T15:48:38.393Z",
+      "kind": "adoption",
+      "kind_confidence": 0.98
     },
     {
       "id": "1551220150265585704",
@@ -156,156 +298,6 @@
       "kind_confidence": 1,
       "source_urls": [
         "https://openai.com/index/australian-youth-safety-blueprint/"
-      ]
-    },
-    {
-      "id": "1550658696827248740",
-      "title": "GPT-6 Astra、Hexのデータ分析を「共有できる視覚レポート」へ進化",
-      "channel": "open-ai",
-      "category": "Open AI",
-      "date": "2026-09-19T00:04:03.169Z",
-      "excerpt": "OpenAIは2026年9月16日、データ分析プラットフォームHexにおけるGPT-6 Astraの活用事例を公開しました。Hexでは、AIが単に分析結果を返すだけでなく、複雑なデータ変換や可視化、結果の妥当性確認まで担い、インタラクティブなビジュアルレポー…",
-      "lead": "OpenAIは2026年9月16日、データ分析プラットフォームHexにおけるGPT-6 Astraの活用事例を公開しました。Hexでは、AIが単に分析結果を返すだけでなく、複雑なデータ変換や可視化、結果の妥当性確認まで担い、インタラクティブなビジュアルレポートを生成しています。",
-      "headings": [
-        "複雑なデータ処理から可視化までをAIが担当",
-        "「正しい計算」だけではなく結果の意味まで検証",
-        "データエージェントの価値は「伝える能力」へ",
-        "今後の展望"
-      ],
-      "source_url": "https://openai.com/index/hex-gpt-6-astra/",
-      "source_label": "openai.com",
-      "cover": "assets/posts/1550658696827248740.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1550658696827248740",
-      "first_seen": "2026-09-19T00:04:03.169Z",
-      "kind": "adoption",
-      "kind_confidence": 0.98,
-      "source_urls": [
-        "https://openai.com/index/hex-gpt-6-astra/"
-      ]
-    },
-    {
-      "id": "1550647991164080238",
-      "title": "Meta「SAM 3.1」登場、画像・動画の検出・分割・追跡を単一モデルで実現",
-      "channel": "meta",
-      "category": "Meta",
-      "date": "2026-09-18T23:21:30.740Z",
-      "excerpt": "Metaは、画像や動画内のオブジェクトを検出、セグメンテーション、追跡できる知覚モデル「Segment Anything Model（SAM）3.1」を公開しています。Meta Model APIから直接利用でき、モデルのホスティングや個別調整を必要とせず、…",
-      "lead": "Metaは、画像や動画内のオブジェクトを検出、セグメンテーション、追跡できる知覚モデル「Segment Anything Model（SAM）3.1」を公開しています。Meta Model APIから直接利用でき、モデルのホスティングや個別調整を必要とせず、本番用途を意識した導入が可能です。",
-      "headings": [
-        "検出・分割・追跡を1モデルに統合",
-        "Meta Model APIでセットアップ負担を軽減",
-        "料金は画像1,000枚2.50ドル",
-        "今後の展望"
-      ],
-      "source_url": "https://developer.meta.com/ai/models/sam-3-1/?utm_source=social-x&utm_medium=M4D&utm_campaign=organic&utm_content=modelapisam3.1",
-      "source_label": "developer.meta.com",
-      "url": "https://discord.com/channels/1415350002255007784/1441473829951111330/threads/1550647991164080238",
-      "first_seen": "2026-09-18T23:21:30.740Z",
-      "kind": "model",
-      "kind_confidence": 1,
-      "source_urls": [
-        "https://developer.meta.com/ai/models/sam-3-1/?utm_source=social-x&utm_medium=M4D&utm_campaign=organic&utm_content=modelapisam3.1"
-      ]
-    },
-    {
-      "id": "1550647584685690970",
-      "title": "Grok Voice Transcribe 2.0登場、実環境の音声認識精度を大幅強化",
-      "channel": "grok",
-      "category": "Space X",
-      "date": "2026-09-18T23:19:53.828Z",
-      "excerpt": "SpaceXAIは2026年9月18日、音声認識モデル「Grok Voice Transcribe 2.0」を発表しました。実際の電話回線や多言語音声、複数話者などを想定したSpeech-to-Textモデルで、同社によれば前世代のGrok Voice Tr…",
-      "lead": "SpaceXAIは2026年9月18日、音声認識モデル「Grok Voice Transcribe 2.0」を発表しました。実際の電話回線や多言語音声、複数話者などを想定したSpeech-to-Textモデルで、同社によれば前世代のGrok Voice Transcribe 1.0と同価格のまま、実環境評価における精度を約2倍に改善しています。",
-      "headings": [
-        "ノイズの多い実環境を重視",
-        "多言語認識ではエラー率を大幅削減",
-        "ストリーミングから話者分離まで標準対応",
-        "価格は据え置き、Loomにも採用",
-        "今後の展望"
-      ],
-      "source_url": "https://x.ai/news/grok-voice-transcribe-2",
-      "source_label": "x.ai",
-      "cover": "assets/posts/1550647584685690970.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1417803120225816596/threads/1550647584685690970",
-      "first_seen": "2026-09-18T23:19:53.828Z",
-      "kind": "model",
-      "kind_confidence": 0.99,
-      "source_urls": [
-        "https://x.ai/news/grok-voice-transcribe-2"
-      ]
-    },
-    {
-      "id": "1550646186183098460",
-      "title": "AnthropicとAccenture、AI企業内部に「独立評価者」を常駐へ",
-      "channel": "anthropic",
-      "category": "Anthropic",
-      "date": "2026-09-18T23:14:20.399Z",
-      "excerpt": "Anthropicは2026年9月18日、Accentureと提携し、最先端AIを企業内部から継続的に検証する「Embedded Evaluation（組み込み型評価）」を導入すると発表しました。モデル完成後の外部監査ではなく、開発過程そのものに独立評価者を…",
-      "lead": "Anthropicは2026年9月18日、Accentureと提携し、最先端AIを企業内部から継続的に検証する「Embedded Evaluation（組み込み型評価）」を導入すると発表しました。モデル完成後の外部監査ではなく、開発過程そのものに独立評価者を参加させる新しい安全性評価の枠組みです。",
-      "headings": [
-        "開発現場に評価者が入る新モデル",
-        "両社が5年間で少なくとも10億ドルずつ投資",
-        "単独監査ではなく評価エコシステムへ",
-        "今後の展望"
-      ],
-      "source_url": "https://www.anthropic.com/news/accenture-embedded-evaluation",
-      "source_label": "anthropic.com",
-      "cover": "assets/posts/1550646186183098460.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1550646186183098460",
-      "first_seen": "2026-09-18T23:14:20.399Z",
-      "kind": "business",
-      "kind_confidence": 0.91,
-      "source_urls": [
-        "https://www.anthropic.com/news/accenture-embedded-evaluation"
-      ]
-    },
-    {
-      "id": "1549917108522065960",
-      "title": "OpenAI、AIの「不整合」を継続公開へ モデル安全性の新報告フレームワーク策定",
-      "channel": "open-ai",
-      "category": "Open AI",
-      "date": "2026-09-16T22:57:14.739Z",
-      "excerpt": "OpenAIは2026年9月16日、AIモデルが意図された制約やユーザーの目的から逸脱する「モデル・ミスアラインメント」を追跡、調査、公開するための新たな報告フレームワークを発表しました。同時に、過去6カ月に訓練・評価過程で確認した6件の事例を公開しています。",
-      "lead": "OpenAIは2026年9月16日、AIモデルが意図された制約やユーザーの目的から逸脱する「モデル・ミスアラインメント」を追跡、調査、公開するための新たな報告フレームワークを発表しました。同時に、過去6カ月に訓練・評価過程で確認した6件の事例を公開しています。",
-      "headings": [
-        "発見から対策完了を待たず公開へ",
-        "公開された6件の異常行動",
-        "3段階で調査と公開を管理",
-        "今後の展望"
-      ],
-      "source_url": "https://openai.com/index/model-misalignment-reporting-framework/",
-      "source_label": "openai.com",
-      "cover": "assets/posts/1549917108522065960.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1549917108522065960",
-      "first_seen": "2026-09-16T22:57:14.739Z",
-      "kind": "policy",
-      "kind_confidence": 0.89,
-      "source_urls": [
-        "https://openai.com/index/model-misalignment-reporting-framework/"
-      ]
-    },
-    {
-      "id": "1549917012552056932",
-      "title": "Google、AIエージェントの異常行動を検知する「Agent Anomaly Detection」を公開",
-      "channel": "google",
-      "category": "Google",
-      "date": "2026-09-16T22:56:51.858Z",
-      "excerpt": "Googleは2026年9月16日、Gemini Enterprise Agent Platform向けの「Agent Anomaly Detection」をPrivate Previewとして公開しました。AIエージェントのログやOpenTelemetry…",
-      "lead": "Googleは2026年9月16日、Gemini Enterprise Agent Platform向けの「Agent Anomaly Detection」をPrivate Previewとして公開しました。AIエージェントのログやOpenTelemetryトレース、ツール呼び出し、実行フローを分析し、本来の想定範囲を逸脱した行動やポリシー違反を検出する監視・監査レイヤーです。",
-      "headings": [
-        "AIエージェントの「結果」ではなく「行動」を監視",
-        "軽量検知とLLM推論を組み合わせた多段構成",
-        "OWASPのAgentic AIリスクにも対応",
-        "今後の展望"
-      ],
-      "source_url": "https://developers.googleblog.com/agent-anomaly-detection-now-in-private-preview-on-the-gemini-enterprise-agent-platform/",
-      "source_label": "developers.googleblog.com",
-      "cover": "assets/posts/1549917012552056932.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1549917012552056932",
-      "first_seen": "2026-09-16T22:56:51.858Z",
-      "kind": "tool",
-      "kind_confidence": 0.69,
-      "source_urls": [
-        "https://developers.googleblog.com/agent-anomaly-detection-now-in-private-preview-on-the-gemini-enterprise-agent-platform/"
       ]
     }
   ]

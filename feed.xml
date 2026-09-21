@@ -5,8 +5,56 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 21 Sep 2026 15:48:38 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 21 Sep 2026 19:36:25 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Google「Googlebook」予約開始、Geminiを中核に据えた新世代ノートPC</title>
+      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1551678510894940271</link>
+      <guid isPermaLink="false">afnjp-1551678510894940271</guid>
+      <pubDate>Mon, 21 Sep 2026 19:36:25 GMT</pubDate>
+      <category>google</category>
+      <description>Googleは、Gemini Intelligenceを中核に設計した新カテゴリーのノートPC「Googlebook」の予約受付を開始しました。価格は899ドルから。Intel Core UltraまたはSnapdragon X Eliteを搭載し、Andr…</description>
+    </item>
+    <item>
+      <title>GKE「Pod snapshots」登場、GPUメモリごと保存しAI起動時間を最大89％短縮</title>
+      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1551676919064567840</link>
+      <guid isPermaLink="false">afnjp-1551676919064567840</guid>
+      <pubDate>Mon, 21 Sep 2026 19:30:06 GMT</pubDate>
+      <category>google</category>
+      <description>Google Cloudは2026年9月21日、Google Kubernetes Engine（GKE）向けの新機能「Pod snapshots」を発表しました。実行中PodのCPUメモリやGPUメモリを含む状態を保存し、必要になった時点で復元することで、…</description>
+    </item>
+    <item>
+      <title>Google、教育者向けAI研修を拡大 Digital Promiseに400万ドル支援</title>
+      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1551676815523975199</link>
+      <guid isPermaLink="false">afnjp-1551676815523975199</guid>
+      <pubDate>Mon, 21 Sep 2026 19:29:41 GMT</pubDate>
+      <category>google</category>
+      <description>Google.orgは2026年9月21日、教育分野の非営利団体Digital Promiseに400万ドルを拠出し、米国の教師や大学教員が実践的なAIスキルを無料で学べる取り組みを拡大すると発表しました。</description>
+    </item>
+    <item>
+      <title>OpenAI、数学AIの独立諮問グループ設立 新モデルが100超の未解決問題を解決と発表</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1551676723387432990</link>
+      <guid isPermaLink="false">afnjp-1551676723387432990</guid>
+      <pubDate>Mon, 21 Sep 2026 19:29:19 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIは2026年9月21日、数学と人工知能の関係を検討する独立組織「Advisory Group on Mathematics and Artificial Intelligence」の設立を発表しました。同社によると、8月28日に訓練を開始した新た…</description>
+    </item>
+    <item>
+      <title>OpenAI、AI普及を「人材育成」と「国際標準」の両面から加速</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1551676641363886132</link>
+      <guid isPermaLink="false">afnjp-1551676641363886132</guid>
+      <pubDate>Mon, 21 Sep 2026 19:29:00 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIは2026年9月21日、AI活用スキルを体系化する「OpenAI Academy」の拡充と、フロンティアAIを対象とした国際的な技術標準の構想を相次いで発表しました。2つの発表は対象こそ異なりますが、高性能AIの普及に必要な「利用者側の能力」と「…</description>
+    </item>
+    <item>
+      <title>Grok 4.7登場、50万トークンとxhigh推論でエージェント開発を強化</title>
+      <link>https://discord.com/channels/1415350002255007784/1417803120225816596/threads/1551676546987855903</link>
+      <guid isPermaLink="false">afnjp-1551676546987855903</guid>
+      <pubDate>Mon, 21 Sep 2026 19:28:37 GMT</pubDate>
+      <category>grok</category>
+      <description>xAIは、コーディング、エージェント処理、ナレッジワークを主用途とするフロンティアモデル「Grok 4.7」を公開しました。最大50万トークンのコンテキスト、画像入力、複数段階の推論強度、Web検索やコード実行などのツール利用を備え、長時間動作するAIエージ…</description>
+    </item>
     <item>
       <title>V7、企業データを「AIの記憶」に変換 GPT-6 Astraで難関クエリ89％精度</title>
       <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1551621185677033613</link>
@@ -54,54 +102,6 @@
       <pubDate>Sun, 20 Sep 2026 01:06:01 GMT</pubDate>
       <category>open-ai</category>
       <description>OpenAIは2026年9月18日、オーストラリアの若者がAIを安全に利用するための政策提言「Australian Youth Safety Blueprint」を公開しました。単なるコンテンツ規制ではなく、年齢推定、未成年向けモデル挙動、危機対応、保護者機…</description>
-    </item>
-    <item>
-      <title>GPT-6 Astra、Hexのデータ分析を「共有できる視覚レポート」へ進化</title>
-      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1550658696827248740</link>
-      <guid isPermaLink="false">afnjp-1550658696827248740</guid>
-      <pubDate>Sat, 19 Sep 2026 00:04:03 GMT</pubDate>
-      <category>open-ai</category>
-      <description>OpenAIは2026年9月16日、データ分析プラットフォームHexにおけるGPT-6 Astraの活用事例を公開しました。Hexでは、AIが単に分析結果を返すだけでなく、複雑なデータ変換や可視化、結果の妥当性確認まで担い、インタラクティブなビジュアルレポー…</description>
-    </item>
-    <item>
-      <title>Meta「SAM 3.1」登場、画像・動画の検出・分割・追跡を単一モデルで実現</title>
-      <link>https://discord.com/channels/1415350002255007784/1441473829951111330/threads/1550647991164080238</link>
-      <guid isPermaLink="false">afnjp-1550647991164080238</guid>
-      <pubDate>Fri, 18 Sep 2026 23:21:30 GMT</pubDate>
-      <category>meta</category>
-      <description>Metaは、画像や動画内のオブジェクトを検出、セグメンテーション、追跡できる知覚モデル「Segment Anything Model（SAM）3.1」を公開しています。Meta Model APIから直接利用でき、モデルのホスティングや個別調整を必要とせず、…</description>
-    </item>
-    <item>
-      <title>Grok Voice Transcribe 2.0登場、実環境の音声認識精度を大幅強化</title>
-      <link>https://discord.com/channels/1415350002255007784/1417803120225816596/threads/1550647584685690970</link>
-      <guid isPermaLink="false">afnjp-1550647584685690970</guid>
-      <pubDate>Fri, 18 Sep 2026 23:19:53 GMT</pubDate>
-      <category>grok</category>
-      <description>SpaceXAIは2026年9月18日、音声認識モデル「Grok Voice Transcribe 2.0」を発表しました。実際の電話回線や多言語音声、複数話者などを想定したSpeech-to-Textモデルで、同社によれば前世代のGrok Voice Tr…</description>
-    </item>
-    <item>
-      <title>AnthropicとAccenture、AI企業内部に「独立評価者」を常駐へ</title>
-      <link>https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1550646186183098460</link>
-      <guid isPermaLink="false">afnjp-1550646186183098460</guid>
-      <pubDate>Fri, 18 Sep 2026 23:14:20 GMT</pubDate>
-      <category>anthropic</category>
-      <description>Anthropicは2026年9月18日、Accentureと提携し、最先端AIを企業内部から継続的に検証する「Embedded Evaluation（組み込み型評価）」を導入すると発表しました。モデル完成後の外部監査ではなく、開発過程そのものに独立評価者を…</description>
-    </item>
-    <item>
-      <title>OpenAI、AIの「不整合」を継続公開へ モデル安全性の新報告フレームワーク策定</title>
-      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1549917108522065960</link>
-      <guid isPermaLink="false">afnjp-1549917108522065960</guid>
-      <pubDate>Wed, 16 Sep 2026 22:57:14 GMT</pubDate>
-      <category>open-ai</category>
-      <description>OpenAIは2026年9月16日、AIモデルが意図された制約やユーザーの目的から逸脱する「モデル・ミスアラインメント」を追跡、調査、公開するための新たな報告フレームワークを発表しました。同時に、過去6カ月に訓練・評価過程で確認した6件の事例を公開しています。</description>
-    </item>
-    <item>
-      <title>Google、AIエージェントの異常行動を検知する「Agent Anomaly Detection」を公開</title>
-      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1549917012552056932</link>
-      <guid isPermaLink="false">afnjp-1549917012552056932</guid>
-      <pubDate>Wed, 16 Sep 2026 22:56:51 GMT</pubDate>
-      <category>google</category>
-      <description>Googleは2026年9月16日、Gemini Enterprise Agent Platform向けの「Agent Anomaly Detection」をPrivate Previewとして公開しました。AIエージェントのログやOpenTelemetry…</description>
     </item>
   </channel>
 </rss>
