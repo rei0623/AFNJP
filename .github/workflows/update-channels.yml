@@ -42,6 +42,16 @@ jobs:
           DISCORD_GUILD_ID: '1415350002255007784'
         run: node scripts/sync-discord.mjs
 
+      # 新しい記事に「発表の種類」のタグ（kind）を付ける。archive.html の絞り込みに使う。
+      # すでに kind が付いている記事は推論しないので、毎時の費用は新着ぶんだけ
+      # （1件あたり 約 $0.00004）。TYPESAFE_API_KEY が未設定なら何もせず正常終了する。
+      # generate-seo.mjs より先に走らせること（archive.html が kind を読むため）。
+      - name: Tag posts
+        continue-on-error: true
+        env:
+          TYPESAFE_API_KEY: ${{ secrets.TYPESAFE_API_KEY }}
+        run: node scripts/tag-posts.mjs
+
       # 記事一覧とチャンネル一覧を index.html へ静的に焼き込み、
       # 個別記事ページ（posts/）・archive.html・feed.xml・sitemap.xml も更新する。
       # JS を実行しない AI クローラー（GPTBot / ClaudeBot / PerplexityBot など）に読ませるため。
@@ -53,11 +63,14 @@ jobs:
         run: node scripts/generate-seo.mjs
 
       # 新しい記事の X 投稿用の下書きを組み立て、Discord の #x-下書き へ送る。
+      # TYPESAFE_API_KEY があれば、送る前に要約が途中で切れていないかを下読みし、
+      # 引っかかったら注意書きを1行足す（投稿は止めない。承認するのは人）。
       # 失敗しても Discord データの同期は止めない。
       - name: Post X drafts to Discord
         continue-on-error: true
         env:
           DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
+          TYPESAFE_API_KEY: ${{ secrets.TYPESAFE_API_KEY }}
         run: node scripts/post-x-drafts.mjs
 
       # #x-下書き で ✅ が付いた下書きだけを X へ投稿する。

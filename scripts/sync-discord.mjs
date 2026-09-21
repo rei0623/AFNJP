@@ -207,15 +207,46 @@ function headingsOf(content = '') {
     return out.slice(0, 8);
 }
 
-/** 本文・埋め込みから一次情報のURLを拾う */
+/** 記事の出典として意味を持たないURL。Discord 内部リンクと画像CDN */
+const NOT_A_SOURCE = /(^|\.)(discord\.com|discordapp\.com|discordapp\.net|discord\.gg)$/i;
+
+/** 末尾に紛れ込みがちな句読点・閉じ括弧を落とす */
+function trimUrl(u) {
+    return u.replace(/[),.、。」』】>]+$/, '');
+}
+
+/**
+ * 本文・埋め込みから一次情報のURLを拾う。
+ *
+ * 記事は末尾に「参考文献」として複数のURLを並べる構成なので、
+ * 最初の1本だけでは出典を取りこぼす。source_url は従来どおり代表の1本、
+ * source_urls には拾えた全部を入れる。
+ *
+ * これは web-watch.mjs の記事化ずみ判定に効く。同じ発表が
+ * deepmind.google と blog.google のように別ドメインで出たとき、
+ * 記事側が両方を参考文献に挙げていれば、それだけで一致する。
+ */
 function sourceOf(msg) {
-    const fromEmbed = msg.embeds?.find(e => e.url)?.url;
-    const fromText = (msg.content || '').match(/https?:\/\/[^\s<>)]+/g)?.find(u => !u.includes('discord'));
-    const url = fromEmbed || fromText || null;
-    if (!url) return { source_url: null, source_label: null };
+    const urls = [];
+    const push = u => {
+        if (!u) return;
+        const clean = trimUrl(u);
+        let host;
+        try { host = new URL(clean).hostname; } catch { return; }
+        if (NOT_A_SOURCE.test(host)) return;
+        if (!urls.includes(clean)) urls.push(clean);
+    };
+
+    // 埋め込みが先。Discord が展開したURLは記事本文が明示的に参照したもの
+    for (const e of msg.embeds || []) push(e.url);
+    for (const m of (msg.content || '').matchAll(/https?:\/\/[^\s<>)\]]+/g)) push(m[0]);
+
+    const source_urls = urls.slice(0, 12);
+    const url = source_urls[0] || null;
+    if (!url) return { source_url: null, source_urls: [], source_label: null };
     let label = null;
     try { label = new URL(url).hostname.replace(/^www\./, ''); } catch { }
-    return { source_url: url, source_label: label };
+    return { source_url: url, source_urls, source_label: label };
 }
 
 function coverUrlOf(msg) {
@@ -267,8 +298,15 @@ async function fetchCover(threadId, remoteUrl) {
 
 const posts = [];
 
-/** アーカイブに本文由来の項目がそろっていれば、本文を取り直す必要はない */
-const isComplete = p => Boolean(p?.lead && p?.source_url && p?.headings?.length);
+/**
+ * アーカイブに本文由来の項目がそろっていれば、本文を取り直す必要はない。
+ *
+ * source_urls を条件に含めているので、この項目が無い既存の記事は一度だけ
+ * 取り直しになる（Discord のアクティブ一覧に残っているものだけ）。
+ * 一巡すれば元どおり増分だけの取得に戻る。
+ */
+const isComplete = p =>
+    Boolean(p?.lead && p?.source_url && p?.headings?.length && Array.isArray(p?.source_urls));
 
 for (const { t, created } of threads) {
     const meta = forumIds.get(t.parent_id);
@@ -289,7 +327,9 @@ for (const { t, created } of threads) {
         console.warn(`  … 「${t.name}」の本文を取得できませんでした`);
     }
 
-    const { source_url, source_label } = msg ? sourceOf(msg) : { source_url: null, source_label: null };
+    const { source_url, source_urls, source_label } = msg
+        ? sourceOf(msg)
+        : { source_url: null, source_urls: [], source_label: null };
 
     // カバー画像を取り込む（Discord の CDN URL は期限切れになるため）
     const cover = await fetchCover(t.id, msg && coverUrlOf(msg));
@@ -304,6 +344,7 @@ for (const { t, created } of threads) {
         lead: msg ? leadOf(msg.content) || null : null,
         headings: msg ? headingsOf(msg.content) : [],
         source_url,
+        source_urls,
         source_label,
         cover,
         url: `https://discord.com/channels/${GUILD_ID}/${t.parent_id}/threads/${t.id}`,

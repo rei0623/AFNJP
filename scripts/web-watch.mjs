@@ -18,16 +18,25 @@
  *   Cloudflare Worker 経由で KV に保存する（/watch/state）。
  *
  * 記事化の判定:
- *   posts-archive.json の source_url と突き合わせ、AFNJP で既に記事化したかを示す。
- *   検知の時点ではまず未記事化なので、このチャンネルが
- *   「まだ書いていない発表」の一覧として機能する。
+ *   posts-archive.json の source_url / source_urls と突き合わせ、
+ *   AFNJP で既に記事化したかを示す。検知の時点ではまず未記事化なので、
+ *   このチャンネルが「まだ書いていない発表」の一覧として機能する。
+ *
+ *   URL が一致しなかったものは Jev に「同じ発表を書いた記事がアーカイブにあるか」を問う。
+ *   同じ発表が deepmind.google と blog.google のように別ドメインで出ても拾えるようにするため。
+ *   確信が持てないものは 🟡 として記事リンクを添えるだけにとどめ、🔴 から勝手に外さない。
+ *   外すと「まだ書いていない発表」がこの一覧から消えてしまうので、迷ったら人に見せる側へ倒す。
+ *
+ *   ついでに重要度・AI関連か・噂か・国内関連かも同じ呼び出しで取り、
+ *   🔥 / 🔇 / 🗣 の目印を付ける。投稿自体は止めない（取りこぼさないため）。
  *
  * 必要な環境変数:
  *   DISCORD_BOT_TOKEN … Bot トークン（投稿先チャンネルへの「メッセージを送信」権限が必要）
  *   WATCH_CHANNEL_ID  … 投稿先チャンネルID（省略時は #一次情報ウォッチ）
  *   PUSH_SEND_TOKEN   … Worker の /watch/state を読み書きするための合言葉
+ *   TYPESAFE_API_KEY  … 任意。無ければ Jev の判断は行わず、従来どおりの表示になる
  *
- * どれかが欠けているときは何もせず正常終了する。
+ * DISCORD_BOT_TOKEN / PUSH_SEND_TOKEN が欠けているときは何もせず正常終了する。
  *
  * 使い方:
  *   DISCORD_BOT_TOKEN=xxx PUSH_SEND_TOKEN=yyy node scripts/web-watch.mjs
@@ -36,6 +45,8 @@
 import { readFile } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import { dirname, resolve } from 'node:path';
+
+import * as jev from './lib/jev.mjs';
 
 const HERE = dirname(fileURLToPath(import.meta.url));
 const ROOT = resolve(HERE, '..');
@@ -98,8 +109,18 @@ const PREVIEW = process.argv.includes('--preview');
  */
 const VOLUME = process.argv.includes('--volume');
 
+/**
+ * --judge … Jev の「同じ発表か」の判定が実際に当たるかを、答えが分かっている
+ * 材料で測る。アーカイブの新しい記事の出典URLを「いま検知した新着」に見立て、
+ * URL 一致を使わずに、その記事自身を見つけられるかを見る。
+ * 見出しは出典ページから実際に取ってくる（本番と同じ、発表元の英語見出しで測るため。
+ * AFNJP 側の日本語タイトルを使うと当たって当然になり、測る意味がなくなる）。
+ * Discord にも状態にも触らない。
+ */
+const JUDGE = process.argv.includes('--judge');
+
 /** 取得して数えるだけのモードは、トークンも状態も要らない */
-const OFFLINE = DRY || VOLUME;
+const OFFLINE = DRY || VOLUME || JUDGE;
 
 if (!OFFLINE && !TOKEN) {
     console.log('… DISCORD_BOT_TOKEN が未設定のため、監視をスキップします。');
@@ -265,8 +286,182 @@ function normalize(u) {
 }
 
 const archive = await readFile(ARCHIVE, 'utf8').then(JSON.parse).catch(() => null);
-const covered = new Set(
-    (archive?.posts || []).map(p => p.source_url).filter(Boolean).map(normalize));
+const archivePosts = archive?.posts || [];
+
+/*
+ * URL の完全一致で分かるぶん。sync-discord.mjs が参考文献の全URLを
+ * source_urls に入れるようになったので、代表の1本だけでなく全部を突き合わせる。
+ * 同じ発表を別ドメインで検知しても、記事が両方を参考文献に挙げていれば
+ * ここで一致する（Jev を呼ばずに済む＝課金も発生しない）。
+ */
+const coveredBy = new Map();   // 正規化URL → その発表を書いた記事
+for (const p of archivePosts) {
+    for (const u of [p.source_url, ...(p.source_urls || [])].filter(Boolean)) {
+        const k = normalize(u);
+        if (!coveredBy.has(k)) coveredBy.set(k, p);
+    }
+}
+const covered = { has: u => coveredBy.has(u) };
+
+/* ═══════════ Jev による判断（TYPESAFE_API_KEY が無ければ全部スキップ） ═══════════
+ *
+ * ここで任せるのは2つだけ。
+ *
+ *   1. URL が一致しなかった新着について、アーカイブの中に
+ *      「同じ発表を書いた記事」があるか
+ *   2. その発表が読者にとってどれくらい重要か（＝拾う価値があるか）
+ *
+ * どちらも同じ state（新着1件＋候補記事）に対する独立した問いなので、
+ * 1回の呼び出しにまとめる。分けると同じ state を二重に課金することになる。
+ *
+ * 呼ぶのは「実際に投稿する新着」だけ。MAX_POST_PER_RUN（12件）が
+ * そのまま1回の実行あたりのリクエスト上限になる。
+ */
+
+/** 候補を探す時間窓。発表から記事になるまでの実運用のずれを見込む */
+const CANDIDATE_WINDOW_MS = 7 * 24 * 3600 * 1000;
+/** 1件の新着につき Jev に見せる候補記事の数。増やすほど state が伸びる */
+const MAX_CANDIDATES = 5;
+
+/** 比較用に単語へ割る。日本語は2文字ずつ、英数字は語単位 */
+function tokens(s = '') {
+    const t = String(s).toLowerCase();
+    const words = t.match(/[a-z0-9][a-z0-9.+-]{1,}/g) || [];
+    const kana = t.match(/[ぁ-んァ-ヶ一-龠]{2,}/g) || [];
+    const bigrams = kana.flatMap(w =>
+        Array.from({ length: w.length - 1 }, (_, i) => w.slice(i, i + 2)));
+    return new Set([...words, ...bigrams]);
+}
+
+/**
+ * Jev に見せる候補をコード側で絞る。
+ * ここを雑にすると state が伸びて課金だけ増えるので、
+ * 「日付が近い」かつ「語が重なる」ものだけを上位数件に落とす。
+ */
+function candidatesFor(item) {
+    const at = item.date ? new Date(item.date).getTime() : Date.now();
+    const base = Number.isNaN(at) ? Date.now() : at;
+    const host = (() => { try { return new URL(item.url).hostname.replace(/^www\./, ''); } catch { return ''; } })();
+    const want = tokens(item.title || item.url);
+
+    return archivePosts
+        .filter(p => Math.abs(new Date(p.date).getTime() - base) <= CANDIDATE_WINDOW_MS)
+        .map(p => {
+            const have = tokens(p.title);
+            let overlap = 0;
+            for (const w of want) if (have.has(w)) overlap++;
+            // 同じドメインの出典を持つ記事は、それだけで有力
+            const sameHost = [p.source_url, ...(p.source_urls || [])]
+                .some(u => u && normalize(u).startsWith(host));
+            return { p, rank: overlap + (sameHost ? 3 : 0) };
+        })
+        .filter(c => c.rank > 0)
+        .sort((a, b) => b.rank - a.rank)
+        .slice(0, MAX_CANDIDATES)
+        .map(c => c.p);
+}
+
+/*
+ * 以下の閾値は `node scripts/web-watch.mjs --judge 30` で実データを測って決めた。
+ * アーカイブの記事30件を「新着」に見立てた結果は
+ *   正解 29 / 見つけられず 1 / 別の記事を選んだ 0
+ * で、正解した一致確率は 0.66〜0.96 に収まっていた。
+ * 監視先や記事の傾向が変わったら、同じコマンドで測り直すこと。
+ */
+
+/** 「同じ発表か」の判定をこの確率から上に見なす。下回ったら未記事化のまま出す */
+const SAME_ANNOUNCEMENT_MIN = 0.55;
+/** ここを超えたら、まず間違いないと言える線 */
+const SAME_ANNOUNCEMENT_SURE = 0.80;
+
+/*
+ * 重要度の実分布は 0.3〜2.1（中央値 1.3）だった。
+ * 公式ブログの新着はほとんどが製品の通常アップデートなので、
+ * 上の段階（「その日のトップ級」以上）はめったに出ない。これは妥当な結果。
+ * 4.0 を基準に閾値を置くと 🔥 が一生点かないので、実分布に合わせてある。
+ */
+const IMPORTANT_MIN = 1.9;
+const MINOR_MAX = 0.7;
+
+/**
+ * 新着1件について、必要な判断をまとめて取る。
+ * 取れなければ null（＝従来どおりの表示に落ちる）。
+ */
+async function judge(item, source) {
+    if (!jev.enabled) return null;
+
+    const cands = candidatesFor(item);
+    const options = Object.fromEntries(cands.map((p, i) => [
+        `a${i}`,
+        `${p.title}（${new Date(p.date).toISOString().slice(0, 10)} / 出典 ${p.source_label || '不明'}）`,
+    ]));
+
+    const questions = {
+        importance: jev.score(
+            'この発表が、AIを日常的に追っている日本語読者にとってどれくらい重要か。'
+            + '`news.title` の内容で判断する',
+            [
+                '些末。製品の細かな更新や告知で、知らなくても何も困らない',
+                '業界の人なら知っておいてもよい程度',
+                '多くの読者が知りたい。記事にする価値が十分にある',
+                '重要。その日のトップに置くべき発表',
+                '極めて重要。業界の前提が変わるレベルの発表',
+            ],
+        ),
+        is_ai_news: jev.noul('AI に関する発表・記事である', {
+            true: 'AIのモデル・製品・研究・企業動向・規制に関する内容',
+            false: '採用情報、イベント告知、法務・規約の更新、AIと無関係な製品の話',
+        }),
+        is_rumor: jev.noul('未発表の製品に関するリーク・噂・観測にすぎない', {
+            true: '「〜らしい」「関係者によると」など、公式に確認されていない情報',
+            false: '公式に発表・確認された事実',
+        }),
+        japan_relevant: jev.noul(
+            '日本の読者に固有の関連性がある（国内企業・日本語対応・国内の規制など）'),
+    };
+
+    // 候補が1件も無いなら、この問いは立てない（state を無駄に伸ばさない）
+    if (cands.length) {
+        questions.same_as = jev.choice(
+            {
+                question: '`news` と同じ発表について書かれた記事が、'
+                    + '選択肢（AFNJP が既に公開した記事）の中にあるか。'
+                    + '同じ出来事を報じていれば、見出しの言い回しや参照しているURLが違っても「同じ発表」とみなす。'
+                    + '関連はするが別の出来事（別のモデル、別の日の発表、続報ではない独立した話題）は「なし」を選ぶ',
+            },
+            { ...options, none: 'この発表について書かれた記事は、選択肢の中に無い' },
+        );
+    }
+
+    const answers = await jev.ask({
+        news: {
+            title: item.title || item.url,
+            url: item.url,
+            publisher: source.label,
+            date: item.date || null,
+        },
+    }, questions);
+    if (!answers) return null;
+
+    // same_as の答えを記事オブジェクトに戻す。確率は none 以外の合計で見る
+    let match = null, matchP = 0;
+    const sa = answers.same_as;
+    if (sa && sa.choice !== 'none') {
+        const i = Number(String(sa.choice).slice(1));
+        match = cands[i] || null;
+        matchP = sa.probabilities?.[sa.choice] ?? 0;
+    }
+
+    return {
+        importance: answers.importance?.score ?? null,
+        importanceConfidence: answers.importance?.confidence ?? 0,
+        isAiNews: answers.is_ai_news?.noul ?? 1,
+        isRumor: answers.is_rumor?.noul ?? 0,
+        japanRelevant: answers.japan_relevant?.noul ?? 0,
+        match,
+        matchP,
+    };
+}
 
 /* ═══════════ 状態 ═══════════ */
 
@@ -340,6 +535,8 @@ const COLOR = {
 
 const MARK_TODO = '🔴 未記事化';
 const MARK_DONE = '✅ AFNJP で記事化ずみ';
+/** URL は一致しないが、Jev が「同じ発表の記事がある」と見たとき */
+const MARK_MAYBE = '🟡 記事化ずみかもしれない';
 
 /** 「12分前」のような相対表記。検知の速さを毎回見えるようにするためのもの */
 function ago(ms) {
@@ -351,7 +548,36 @@ function ago(ms) {
     return `${Math.round(h / 24)}日前`;
 }
 
-function embedOf(item, source, isCovered = covered.has(normalize(item.url))) {
+/**
+ * Jev の判断を1行の見出しにする。
+ *
+ * 方針はここ（コード側）が持つ。モデルに「載せるべきか」は聞いていない。
+ * 生の判断を残しておけば、基準を変えても推論をやり直す必要がない。
+ */
+function verdictOf(j) {
+    if (!j) return { badge: null, note: null };
+
+    // AIの話ですらないもの。sitemap 由来のソースで採用情報や規約更新を拾ったとき
+    if (j.isAiNews < 0.4) {
+        return { badge: '🔇', note: `AI以外の内容に見える（AI関連 ${(j.isAiNews * 100).toFixed(0)}%）` };
+    }
+    if (j.isRumor > 0.6) {
+        return { badge: '🗣', note: `噂・観測の可能性（${(j.isRumor * 100).toFixed(0)}%）` };
+    }
+    if (j.importance !== null && j.importance >= IMPORTANT_MIN) {
+        const extra = j.japanRelevant > 0.7 ? '・国内向けの切り口あり' : '';
+        return { badge: '🔥', note: `重要度 ${j.importance.toFixed(1)}/4${extra}` };
+    }
+    if (j.importance !== null && j.importance < MINOR_MAX) {
+        return { badge: '🔈', note: `重要度 ${j.importance.toFixed(1)}/4` };
+    }
+    return {
+        badge: null,
+        note: j.japanRelevant > 0.7 ? '国内向けの切り口あり' : null,
+    };
+}
+
+function embedOf(item, source, isCovered = covered.has(normalize(item.url)), j = null) {
     const when = item.date ? new Date(item.date) : null;
     const valid = when && !Number.isNaN(when.getTime());
 
@@ -370,11 +596,33 @@ function embedOf(item, source, isCovered = covered.has(normalize(item.url))) {
         stamp = '公開日は不明（検知時刻を表示）';
     }
 
+    const { badge, note } = verdictOf(j);
+
+    /*
+     * 記事化ずみの表示は3段階。
+     *   ✅ URL が一致した（確実）
+     *   🟡 URL は違うが、Jev が同じ発表の記事を見つけた（要確認・記事リンクを添える）
+     *   🔴 見つからなかった
+     * 🟡 を ✅ と同じ扱いにしないのは、ここを外すと
+     * 「まだ書いていない発表の一覧」から発表が消えてしまうため。
+     * 迷ったら人に見せる側へ倒す。
+     */
+    let description;
+    if (isCovered) {
+        description = MARK_DONE;
+    } else if (j?.match && j.matchP >= SAME_ANNOUNCEMENT_MIN) {
+        const sure = j.matchP >= SAME_ANNOUNCEMENT_SURE ? '' : '（確信度は低め）';
+        description = `${MARK_MAYBE}${sure}\n→ [${j.match.title}](${j.match.url})`;
+    } else {
+        description = MARK_TODO;
+    }
+    if (note) description += `\n${note}`;
+
     return {
         author: { name: source.label },
-        title: (item.title || item.url).slice(0, 250),
+        title: `${badge ? badge + ' ' : ''}${item.title || item.url}`.slice(0, 250),
         url: item.url,
-        description: isCovered ? MARK_DONE : MARK_TODO,
+        description,
         color: COLOR[source.category] ?? COLOR['その他'],
         timestamp: valid ? when.toISOString() : new Date().toISOString(),
         footer: { text: `${source.category} · ${stamp}` },
@@ -384,6 +632,53 @@ function embedOf(item, source, isCovered = covered.has(normalize(item.url))) {
 /* ═══════════ 本処理 ═══════════ */
 
 const { sources } = JSON.parse(await readFile(SOURCES, 'utf8'));
+
+if (JUDGE) {
+    if (!jev.enabled) {
+        console.log('… TYPESAFE_API_KEY が未設定です。判定を測るにはこの鍵が要ります。');
+        process.exit(0);
+    }
+
+    const n = Number(process.argv[process.argv.indexOf('--judge') + 1]) || 10;
+    const samples = archivePosts.filter(p => p.source_url).slice(0, n);
+    if (!samples.length) {
+        console.log('… 出典URLを持つ記事がアーカイブにありません。');
+        process.exit(0);
+    }
+
+    console.log(`アーカイブの新しい ${samples.length} 件を「新着」に見立てて、`
+        + `その記事自身を見つけられるか測ります。\n`);
+
+    let hit = 0, miss = 0, wrong = 0;
+    for (const post of samples) {
+        // 本番と同じ材料にするため、見出しは出典ページから取る
+        const title = await titleOf(post.source_url);
+        const item = { title, url: post.source_url, date: post.date };
+        const j = await judge(item, { label: post.source_label || '不明' });
+
+        const ok = j?.match?.id === post.id && j.matchP >= SAME_ANNOUNCEMENT_MIN;
+        const picked = j?.match && j.matchP >= SAME_ANNOUNCEMENT_MIN ? j.match : null;
+
+        if (ok) hit++;
+        else if (!picked) miss++;
+        else wrong++;
+
+        console.log(`${ok ? '✓' : picked ? '✗' : '−'} ${(title || post.source_url).slice(0, 64)}`);
+        console.log(`    正解: ${post.title.slice(0, 60)}`);
+        if (picked && !ok) console.log(`    選んだ: ${picked.title.slice(0, 60)}`);
+        console.log(`    一致確率 ${(j?.matchP ?? 0).toFixed(2)}`
+            + `  重要度 ${j?.importance?.toFixed(1) ?? '−'}/4`
+            + `  AI関連 ${((j?.isAiNews ?? 0) * 100).toFixed(0)}%`
+            + `  噂 ${((j?.isRumor ?? 0) * 100).toFixed(0)}%`);
+    }
+
+    console.log(`\n正解 ${hit} / 見つけられず ${miss} / 別の記事を選んだ ${wrong}`
+        + `  （${samples.length} 件中）`);
+    console.log(jev.usageLine());
+    console.log('\n「見つけられず」は 🔴 未記事化のまま出るだけなので、従来と同じ挙動です。'
+        + '\n「別の記事を選んだ」が多いなら SAME_ANNOUNCEMENT_MIN を上げてください。');
+    process.exit(0);
+}
 
 if (PING) {
     try {
@@ -617,17 +912,33 @@ for (const t of targets) {
     if (!t.item.title) t.item.title = await titleOf(t.item.url);
 }
 
+/*
+ * Jev に問うのは「投稿するぶん」だけ、かつ「URL で記事化ずみと分からなかったもの」だけ。
+ * 新着が無ければ上の early return で抜けているので、静かな時間帯は1回も呼ばない。
+ * 鍵が未設定なら judge() が null を返し、表示は従来どおりになる。
+ */
+const needJudge = targets.filter(t => !covered.has(normalize(t.item.url)));
+const judged = new Map();
+if (jev.enabled && needJudge.length) {
+    // 最大12件。4並行で回しても数秒で返る
+    await jev.inParallel(needJudge, async t => {
+        judged.set(t.item.url, await judge(t.item, t.source));
+    });
+    console.log(`  … ${jev.usageLine()}`);
+}
+
 let posted = 0;
 try {
     // 1件につき1メッセージ。まとめて出すと、あとで1件だけ ✅ に直すときに
     // 同じメッセージの他の埋め込みまで作り直すことになるため。
     for (const t of targets) {
         const isCovered = covered.has(normalize(t.item.url));
-        const embed = embedOf(t.item, t.source, isCovered);
+        const embed = embedOf(t.item, t.source, isCovered, judged.get(t.item.url) || null);
         const msg = await postToDiscord([embed]);
         posted++;
 
         // まだ書かれていないものだけ、あとで ✅ に直せるよう覚えておく
+        // （🟡 も「確定していない」側なので追跡対象に含める）
         if (!isCovered && msg?.id) {
             pending[msg.id] = { url: t.item.url, at: new Date().toISOString(), embed };
         }
@@ -650,6 +961,9 @@ console.log(`✓ 一次情報ウォッチ: ${posted} 件を投稿`
     + `（新着 ${found.length} / 監視 ${sources.length} ソース`
     + (errors.length ? ` / 失敗 ${errors.length}` : '') + '）');
 for (const t of targets.slice(0, posted)) {
-    console.log(`   ${t.source.label}: ${t.item.title || t.item.url}`);
+    const j = judged.get(t.item.url);
+    const tag = j?.match && j.matchP >= SAME_ANNOUNCEMENT_MIN ? ' 🟡' : '';
+    console.log(`   ${t.source.label}: ${t.item.title || t.item.url}${tag}`);
 }
+console.log(`  ${jev.usageLine()}`);
 

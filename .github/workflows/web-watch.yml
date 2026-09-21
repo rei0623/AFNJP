@@ -46,10 +46,15 @@ jobs:
 
       # posts-archive.json を読んで「記事化ずみか」を判定するだけなので、
       # npm の依存は要らない（sharp は使わない）。
+      # TYPESAFE_API_KEY は任意。あれば、URL が一致しなかった新着について
+      # 「同じ発表を書いた記事がアーカイブにあるか」と重要度を判定する。
+      # 呼ぶのは実際に投稿する新着だけ（1回あたり最大12件）で、
+      # 新着が無い実行では1回も呼ばない。未設定なら従来どおりの表示になる。
       - name: Watch official blogs
         env:
           DISCORD_BOT_TOKEN: ${{ secrets.DISCORD_BOT_TOKEN }}
           PUSH_SEND_TOKEN: ${{ secrets.PUSH_SEND_TOKEN }}
+          TYPESAFE_API_KEY: ${{ secrets.TYPESAFE_API_KEY }}
           WATCH_CHANNEL_ID: '1543192400237699112'
         run: |
           case "${{ inputs.mode }}" in

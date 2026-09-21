@@ -495,9 +495,91 @@ if ('serviceWorker' in navigator) navigator.serviceWorker.register('../sw.js').c
 `;
 }
 
+/**
+ * 発表の種類。scripts/tag-posts.mjs が posts-archive.json の kind に入れる。
+ * ここと tag-posts.mjs の KIND_LABEL は対応させること。
+ */
+const KIND_LABEL = {
+    model: 'モデル公開',
+    feature: '機能追加',
+    research: '研究・評価',
+    tool: '開発者向け',
+    business: '企業動向',
+    policy: '規制・方針',
+    adoption: '導入事例',
+    other: 'その他',
+};
+
+/**
+ * 種類で絞り込むバー。
+ *
+ * JavaScript を使わない。ラジオボタンと :checked だけで切り替える。
+ * GPTBot / ClaudeBot などは JS を実行しないので、JS で行を出し入れすると
+ * 一覧がこれらから読めなくなる。CSS で隠すだけなら HTML には全記事が
+ * 載ったままなので、クローラーからは今までどおり全件が見える。
+ *
+ * 行を増やさないのも重要で、`<li><a href="posts/` の数が記事ページの数と
+ * 一致することを生成後に検査している。絞り込みのために行を複製してはいけない。
+ */
+function kindFilter(posts) {
+    const tally = {};
+    for (const p of posts) if (p.kind && KIND_LABEL[p.kind]) tally[p.kind] = (tally[p.kind] || 0) + 1;
+
+    const kinds = Object.keys(KIND_LABEL).filter(k => tally[k]);
+    if (kinds.length < 2) return { inputs: '', bar: '', style: '' };
+
+    const inputs = ['all', ...kinds]
+        .map((k, i) => `    <input type="radio" name="kind" id="k-${k}"${i === 0 ? ' checked' : ''}>`)
+        .join('\n');
+
+    const bar = `    <nav class="kinds" aria-label="種類で絞り込む">\n`
+        + `      <label for="k-all">すべて<span>${posts.length}</span></label>\n`
+        + kinds.map(k =>
+            `      <label for="k-${k}">${escHtml(KIND_LABEL[k])}<span>${tally[k]}</span></label>`)
+            .join('\n')
+        + `\n    </nav>`;
+
+    /*
+     * 選ばれた種類以外の行を隠し、その結果 1件も残らなかった月を
+     * 見出しごと消す（月は section で包んである）。
+     *
+     * :has() の中に :has() は書けない（仕様で禁止されていて、
+     * ブラウザはその規則を丸ごと捨てる）。「空の ol の直前の h2」を
+     * 選ぼうとすると必ずそうなるので、section を挟んで1段で済ませている。
+     */
+    const rules = kinds.map(k =>
+        `#k-${k}:checked~.arc li:not([data-k="${k}"]){display:none}\n`
+        + `#k-${k}:checked~.arc section:not(:has(li[data-k="${k}"])){display:none}`
+    ).join('\n');
+
+    // 色はサイトの変数（assets/article.css の :root）に合わせる。
+    // ここで別の色を持ち込むと、article.css を直したときにここだけ取り残される。
+    const style = `<style>\n`
+        + `.arcfilter>input{position:absolute;opacity:0;pointer-events:none}\n`
+        + `.kinds{display:flex;flex-wrap:wrap;gap:8px;margin:20px 0 28px}\n`
+        + `.kinds label{cursor:pointer;border:1px solid var(--line);border-radius:999px;`
+        + `padding:5px 14px;font-size:13px;display:inline-flex;gap:6px;align-items:center;`
+        + `color:var(--ink-3);user-select:none;transition:border-color .12s,color .12s}\n`
+        + `.kinds label span{font-family:var(--f-mono);font-size:11px;opacity:.7}\n`
+        + `.kinds label:hover{border-color:var(--line-2);color:var(--shu)}\n`
+        + kinds.concat('all').map(k =>
+            `#k-${k}:checked~.arc .kinds label[for="k-${k}"]`).join(',\n')
+        + `{background:var(--shu-soft);border-color:var(--shu);color:var(--shu)}\n`
+        // ラジオ自体は見えないので、キーボードで移動したときは
+        // 対応するラベルに枠を出す（:checked と同じ書き方でつなぐ）
+        + kinds.concat('all').map(k =>
+            `#k-${k}:focus-visible~.arc .kinds label[for="k-${k}"]`).join(',\n')
+        + `{outline:2px solid var(--shu);outline-offset:2px}\n`
+        + rules + `\n`
+        + `</style>`;
+
+    return { inputs, bar, style };
+}
+
 /** 記事アーカイブの一覧ページ。月ごとに区切って全記事を並べる */
 function archiveHtml(posts) {
     const url = `${SITE}archive.html`;
+    const filter = kindFilter(posts);
     const desc = `AI Frontier News JP がこれまでに配信したAIニュース記事の一覧。全${posts.length}本を月ごとに掲載しています。`;
 
     // 月ごとにまとめる。posts は日付の降順で渡ってくる前提。
@@ -515,15 +597,21 @@ function archiveHtml(posts) {
             if (!id) return null;
             const d = jstDate(p.date);
             const isoStr = new Date(p.date);
-            return `        <li><a href="posts/${id}.html">`
+            const kind = p.kind && KIND_LABEL[p.kind] ? p.kind : null;
+            return `        <li${kind ? ` data-k="${kind}"` : ''}><a href="posts/${id}.html">`
                 + (d && !Number.isNaN(isoStr.getTime())
                     ? `<time datetime="${escHtml(isoStr.toISOString())}">${escHtml(d)}</time>` : '')
                 + `<span class="t">${escHtml(p.title)}</span>`
                 + `<span class="c">${escHtml(p.category || '')}</span>`
+                + (kind ? `<span class="k">${escHtml(KIND_LABEL[kind])}</span>` : '')
                 + `</a></li>`;
         }).filter(Boolean);
         if (!rows.length) return null;
-        return `    <h2>${escHtml(mo.label)}</h2>\n    <ol>\n${rows.join('\n')}\n    </ol>`;
+        // 月ごとに section で包む。絞り込みで中身が空になった月を
+        // 見出しごと隠すために要る（:has() は入れ子にできないので、
+        // 「空の ol の前の h2」を直接は選べない）。
+        return `    <section>\n    <h2>${escHtml(mo.label)}</h2>\n    <ol>\n`
+            + `${rows.join('\n')}\n    </ol>\n    </section>`;
     }).filter(Boolean);
 
     const ld = jsonLd({
@@ -565,6 +653,7 @@ function archiveHtml(posts) {
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=JetBrains+Mono:wght@400;500&family=Zen+Kaku+Gothic+New:wght@400;500;700;900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/article.css">
+${filter.style}
 <script type="application/ld+json">
 ${ld}
 </script>
@@ -576,11 +665,15 @@ ${siteHeader(0)}
 <div class="wrap">
     <p class="crumb"><a href="index.html">トップ</a><span>/</span>記事一覧</p>
 
+    <div class="arcfilter">
+${filter.inputs}
     <main class="arc">
     <h1>記事一覧</h1>
     <p class="note">これまでに配信した記事 ${posts.length} 本。新しいものから順に並んでいます。</p>
+${filter.bar}
 ${sections.join('\n')}
     </main>
+    </div>
 </div>
 
 ${siteFooter(0)}
@@ -825,7 +918,10 @@ for (const [name, html] of articlePages) {
     if (hasUnsafeChars(html)) problems.push(`posts/${name} に出力してはいけない文字が残っています`);
 }
 if (archivePage) {
-    const rows = countOf(archivePage, '<li><a href="posts/');
+    // 行には種類の絞り込み用に data-k が付くことがあるので、属性の有無を問わず数える。
+    // ここは「1記事につき1行、重複なし」を担保する検査なので、
+    // 絞り込みのために行を複製すると必ずここで止まる（それでよい）。
+    const rows = (archivePage.match(/<li(?: data-k="[a-z]+")?><a href="posts\//g) || []).length;
     if (rows !== articlePages.size) {
         problems.push(`archive.html の行数が ${rows} 件で、記事ページ ${articlePages.size} 件と一致しません`);
     }

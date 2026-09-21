@@ -6,6 +6,7 @@
   "description": "AI Frontier News JP 公式サイトの生成スクリプト用。サイト本体は依存を持たない静的ファイル。",
   "scripts": {
     "sync": "node scripts/sync-discord.mjs",
+    "tag": "node scripts/tag-posts.mjs",
     "seo": "node scripts/generate-seo.mjs",
     "test": "node --test \"scripts/**/*.test.mjs\""
   },
