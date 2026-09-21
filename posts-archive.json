@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T00:14:31.590Z",
+  "generated_at": "2026-09-21T04:55:33.003Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "count": 208,
@@ -26,7 +26,10 @@
       "url": "https://discord.com/channels/1415350002255007784/1419932032716243027/threads/1551220150265585704",
       "first_seen": "2026-09-20T13:15:04.100Z",
       "kind": "model",
-      "kind_confidence": 1
+      "kind_confidence": 1,
+      "source_urls": [
+        "https://qwen.ai/blog?id=qwen-image-2.1"
+      ]
     },
     {
       "id": "1551041990320197763",
@@ -49,7 +52,10 @@
       "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1551041990320197763",
       "first_seen": "2026-09-20T01:27:07.459Z",
       "kind": "model",
-      "kind_confidence": 1
+      "kind_confidence": 1,
+      "source_urls": [
+        "https://typesafe.ai/blog/introducing-system-one-models-and-jev"
+      ]
     },
     {
       "id": "1551037678794047620",
@@ -73,7 +79,10 @@
       "url": "https://discord.com/channels/1415350002255007784/1469665728721588320/threads/1551037678794047620",
       "first_seen": "2026-09-20T01:09:59.511Z",
       "kind": "tool",
-      "kind_confidence": 0.3
+      "kind_confidence": 0.3,
+      "source_urls": [
+        "https://docs.openclaw.ai/releases/2026.9.5"
+      ]
     },
     {
       "id": "1551037579460345916",
@@ -96,7 +105,10 @@
       "url": "https://discord.com/channels/1415350002255007784/1419932032716243027/threads/1551037579460345916",
       "first_seen": "2026-09-20T01:09:35.828Z",
       "kind": "model",
-      "kind_confidence": 1
+      "kind_confidence": 1,
+      "source_urls": [
+        "https://qwen.ai/blog?id=qwen3.8-livetranslate"
+      ]
     },
     {
       "id": "1551036679127830588",
@@ -118,7 +130,10 @@
       "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1551036679127830588",
       "first_seen": "2026-09-20T01:06:01.172Z",
       "kind": "policy",
-      "kind_confidence": 1
+      "kind_confidence": 1,
+      "source_urls": [
+        "https://openai.com/index/australian-youth-safety-blueprint/"
+      ]
     },
     {
       "id": "1550658696827248740",
@@ -140,7 +155,10 @@
       "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1550658696827248740",
       "first_seen": "2026-09-19T00:04:03.169Z",
       "kind": "adoption",
-      "kind_confidence": 0.98
+      "kind_confidence": 0.98,
+      "source_urls": [
+        "https://openai.com/index/hex-gpt-6-astra/"
+      ]
     },
     {
       "id": "1550647991164080238",
@@ -161,7 +179,10 @@
       "url": "https://discord.com/channels/1415350002255007784/1441473829951111330/threads/1550647991164080238",
       "first_seen": "2026-09-18T23:21:30.740Z",
       "kind": "model",
-      "kind_confidence": 1
+      "kind_confidence": 1,
+      "source_urls": [
+        "https://developer.meta.com/ai/models/sam-3-1/?utm_source=social-x&utm_medium=M4D&utm_campaign=organic&utm_content=modelapisam3.1"
+      ]
     },
     {
       "id": "1550647584685690970",
@@ -184,7 +205,10 @@
       "url": "https://discord.com/channels/1415350002255007784/1417803120225816596/threads/1550647584685690970",
       "first_seen": "2026-09-18T23:19:53.828Z",
       "kind": "model",
-      "kind_confidence": 0.99
+      "kind_confidence": 0.99,
+      "source_urls": [
+        "https://x.ai/news/grok-voice-transcribe-2"
+      ]
     },
     {
       "id": "1550646186183098460",
@@ -206,7 +230,10 @@
       "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1550646186183098460",
       "first_seen": "2026-09-18T23:14:20.399Z",
       "kind": "business",
-      "kind_confidence": 0.91
+      "kind_confidence": 0.91,
+      "source_urls": [
+        "https://www.anthropic.com/news/accenture-embedded-evaluation"
+      ]
     },
     {
       "id": "1549917108522065960",
@@ -228,7 +255,10 @@
       "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1549917108522065960",
       "first_seen": "2026-09-16T22:57:14.739Z",
       "kind": "policy",
-      "kind_confidence": 0.89
+      "kind_confidence": 0.89,
+      "source_urls": [
+        "https://openai.com/index/model-misalignment-reporting-framework/"
+      ]
     },
     {
       "id": "1549917012552056932",
@@ -250,7 +280,10 @@
       "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1549917012552056932",
       "first_seen": "2026-09-16T22:56:51.858Z",
       "kind": "tool",
-      "kind_confidence": 0.69
+      "kind_confidence": 0.69,
+      "source_urls": [
+        "https://developers.googleblog.com/agent-anomaly-detection-now-in-private-preview-on-the-gemini-enterprise-agent-platform/"
+      ]
     },
     {
       "id": "1549916848911417494",
@@ -273,7 +306,10 @@
       "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1549916848911417494",
       "first_seen": "2026-09-16T22:56:12.843Z",
       "kind": "research",
-      "kind_confidence": 0.64
+      "kind_confidence": 0.64,
+      "source_urls": [
+        "https://openai.com/index/how-to-connect-ai-usage-to-business-value/"
+      ]
     },
     {
       "id": "1549798414907220089",
@@ -295,7 +331,10 @@
       "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1549798414907220089",
       "first_seen": "2026-09-16T15:05:35.976Z",
       "kind": "business",
-      "kind_confidence": 0.54
+      "kind_confidence": 0.54,
+      "source_urls": [
+        "https://openai.com/index/helping-older-adults-use-ai-in-everyday-life/"
+      ]
     },
     {
       "id": "1549796225614872626",
@@ -318,7 +357,10 @@
       "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1549796225614872626",
       "first_seen": "2026-09-16T14:56:54.008Z",
       "kind": "feature",
-      "kind_confidence": 0.99
+      "kind_confidence": 0.99,
+      "source_urls": [
+        "https://blog.google/products-and-platforms/products/shopping/google-shopping-updates-holiday-shopping/"
+      ]
     },
     {
       "id": "1549790270848245862",
@@ -341,7 +383,10 @@
       "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1549790270848245862",
       "first_seen": "2026-09-16T14:33:14.281Z",
       "kind": "feature",
-      "kind_confidence": 1
+      "kind_confidence": 1,
+      "source_urls": [
+        "https://openai.com/index/reimagining-advertising-with-ai/"
+      ]
     },
     {
       "id": "1549748124698804245",
@@ -363,7 +408,10 @@
       "url": "https://discord.com/channels/1415350002255007784/1460897850354438283/threads/1549748124698804245",
       "first_seen": "2026-09-16T11:45:45.856Z",
       "kind": "business",
-      "kind_confidence": 0.99
+      "kind_confidence": 0.99,
+      "source_urls": [
+        "https://mistral.ai/news/mistral-x-mozilla/"
+      ]
     },
     {
       "id": "1549685830770106408",
@@ -385,7 +433,10 @@
       "url": "https://discord.com/channels/1415350002255007784/1415353403269185546/threads/1549685830770106408",
       "first_seen": "2026-09-16T07:38:13.826Z",
       "kind": "feature",
-      "kind_confidence": 1
+      "kind_confidence": 1,
+      "source_urls": [
+        "https://claude.com/blog/claude-for-small-business-launches-new-workflows-integrations-and-training-programs"
+      ]
     },
     {
       "id": "1549685673882161244",
@@ -408,7 +459,10 @@
       "url": "https://discord.com/channels/1415350002255007784/1432720743279497367/threads/1549685673882161244",
       "first_seen": "2026-09-16T07:37:36.421Z",
       "kind": "model",
-      "kind_confidence": 0.61
+      "kind_confidence": 0.61,
+      "source_urls": [
+        "https://www.microsoft.com/en-us/microsoft-cloud/blog/industry-government/government-operations-and-infrastructure/2026/09/15/introducing-microsoft-365-g7-intelligence-trust-for-the-mission-ahead/"
+      ]
     },
     {
       "id": "1549684851043733535",
@@ -431,7 +485,10 @@
       "url": "https://discord.com/channels/1415350002255007784/1418011435287707648/threads/1549684851043733535",
       "first_seen": "2026-09-16T07:34:20.241Z",
       "kind": "feature",
-      "kind_confidence": 1
+      "kind_confidence": 1,
+      "source_urls": [
+        "https://blog.google/innovation-and-ai/products/gemini-notebook/new-study-tools-september-2026/?utm_source=tw&utm_medium=social&utm_campaign=og"
+      ]
     },
     {
       "id": "1549567044834426880",
@@ -453,7 +510,10 @@
       "url": "https://discord.com/channels/1415350002255007784/1415353403269185546/threads/1549567044834426880",
       "first_seen": "2026-09-15T23:46:13.052Z",
       "kind": "feature",
-      "kind_confidence": 0.95
+      "kind_confidence": 0.95,
+      "source_urls": [
+        "https://claude.com/blog/salesforce-in-claude"
+      ]
     },
     {
       "id": "1549566923744739328",
@@ -474,7 +534,10 @@
       "url": "https://discord.com/channels/1415350002255007784/1441473829951111330/threads/1549566923744739328",
       "first_seen": "2026-09-15T23:45:44.182Z",
       "kind": "feature",
-      "kind_confidence": 0.75
+      "kind_confidence": 0.75,
+      "source_urls": [
+        "https://about.fb.com/news/2026/09/introducing-meta-one-subscription-service-more-features-ai/"
+      ]
     },
     {
       "id": "1549566212093255792",
@@ -496,7 +559,10 @@
       "url": "https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1549566212093255792",
       "first_seen": "2026-09-15T23:42:54.511Z",
       "kind": "model",
-      "kind_confidence": 1
+      "kind_confidence": 1,
+      "source_urls": [
+        "https://deepmind.google/models/model-cards/gemini-3-8-audio/"
+      ]
     },
     {
       "id": "1549434664274628618",
@@ -518,7 +584,10 @@
       "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1549434664274628618",
       "first_seen": "2026-09-15T15:00:11.067Z",
       "kind": "feature",
-      "kind_confidence": 0.77
+      "kind_confidence": 0.77,
+      "source_urls": [
+        "https://claude.com/blog/claude-for-financial-advisors"
+      ]
     },
     {
       "id": "1549434235259981874",
@@ -540,7 +609,10 @@
       "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1549434235259981874",
       "first_seen": "2026-09-15T14:58:28.782Z",
       "kind": "other",
-      "kind_confidence": 0.84
+      "kind_confidence": 0.84,
+      "source_urls": [
+        "https://blog.google/innovation-and-ai/technology/developers-tools/devfest2026/"
+      ]
     },
     {
       "id": "1549076738410287326",
@@ -562,7 +634,10 @@
       "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1549076738410287326",
       "first_seen": "2026-09-14T15:17:54.891Z",
       "kind": "adoption",
-      "kind_confidence": 0.4
+      "kind_confidence": 0.4,
+      "source_urls": [
+        "https://openai.com/index/fyxer/"
+      ]
     },
     {
       "id": "1548364483490095184",
@@ -584,7 +659,10 @@
       "url": "https://discord.com/channels/1415350002255007784/1423003108790767748/threads/1548364483490095184",
       "first_seen": "2026-09-12T16:07:40.085Z",
       "kind": "feature",
-      "kind_confidence": 0.86
+      "kind_confidence": 0.86,
+      "source_urls": [
+        "https://techcommunity.microsoft.com/blog/microsoft-copilot-blog/expanding-model-choice-in-copilot-with-grok/4555749?ocid=usoc_TWITTER_M365_spl100011235693323"
+      ]
     },
     {
       "id": "1548364385913798676",
@@ -606,7 +684,10 @@
       "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1548364385913798676",
       "first_seen": "2026-09-12T16:07:16.821Z",
       "kind": "policy",
-      "kind_confidence": 1
+      "kind_confidence": 1,
+      "source_urls": [
+        "https://darioamodei.com/post/we-must-pace-the-frontier"
+      ]
     },
     {
       "id": "1548283933865672704",
@@ -628,7 +709,10 @@
       "url": "https://discord.com/channels/1415350002255007784/1420683387395375115/threads/1548283933865672704",
       "first_seen": "2026-09-12T10:47:35.558Z",
       "kind": "model",
-      "kind_confidence": 1
+      "kind_confidence": 1,
+      "source_urls": [
+        "https://sakana.ai/fugu-max-release/"
+      ]
     },
     {
       "id": "1548154974913957958",
@@ -650,7 +734,11 @@
       "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1548154974913957958",
       "first_seen": "2026-09-12T02:15:09.348Z",
       "kind": "adoption",
-      "kind_confidence": 0.76
+      "kind_confidence": 0.76,
+      "source_urls": [
+        "https://openai.com/index/perplexity-improving-accuracy-with-astra/",
+        "https://openai.com/index/cognition-devin-testing-with-astra/"
+      ]
     },
     {
       "id": "1548086363558125570",
@@ -674,7 +762,10 @@
       "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1548086363558125570",
       "first_seen": "2026-09-11T21:42:31.126Z",
       "kind": "research",
-      "kind_confidence": 0.85
+      "kind_confidence": 0.85,
+      "source_urls": [
+        "https://openai.com/index/scaling-storage-one-billion-users-part-one/"
+      ]
     },
     {
       "id": "1547722662476775465",
@@ -696,7 +787,10 @@
       "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1547722662476775465",
       "first_seen": "2026-09-10T21:37:18.031Z",
       "kind": "tool",
-      "kind_confidence": 1
+      "kind_confidence": 1,
+      "source_urls": [
+        "https://openai.com/index/introducing-the-agents-api/"
+      ]
     },
     {
       "id": "1547722577063972884",
@@ -718,7 +812,10 @@
       "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1547722577063972884",
       "first_seen": "2026-09-10T21:36:57.667Z",
       "kind": "feature",
-      "kind_confidence": 0.88
+      "kind_confidence": 0.88,
+      "source_urls": [
+        "https://openai.com/index/introducing-chatgpt-financial-services/"
+      ]
     },
     {
       "id": "1547722471908835348",
@@ -740,7 +837,10 @@
       "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1547722471908835348",
       "first_seen": "2026-09-10T21:36:32.596Z",
       "kind": "research",
-      "kind_confidence": 1
+      "kind_confidence": 1,
+      "source_urls": [
+        "https://www.anthropic.com/research/intelligence-targeting-conventional-weapons-capabilities"
+      ]
     },
     {
       "id": "1547722327830167562",
@@ -762,7 +862,10 @@
       "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1547722327830167562",
       "first_seen": "2026-09-10T21:35:58.245Z",
       "kind": "research",
-      "kind_confidence": 0.79
+      "kind_confidence": 0.79,
+      "source_urls": [
+        "https://www.anthropic.com/threat-intelligence"
+      ]
     },
     {
       "id": "1547722245697183837",
@@ -784,7 +887,10 @@
       "url": "https://discord.com/channels/1415350002255007784/1415353131604377641/threads/1547722245697183837",
       "first_seen": "2026-09-10T21:35:38.663Z",
       "kind": "model",
-      "kind_confidence": 1
+      "kind_confidence": 1,
+      "source_urls": [
+        "https://openai.com/index/introducing-gpt-live-1-in-the-api/"
+      ]
     },
     {
       "id": "1547638875940196412",
@@ -807,7 +913,10 @@
       "url": "https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1547638875940196412",
       "first_seen": "2026-09-10T16:04:21.764Z",
       "kind": "feature",
-      "kind_confidence": 0.47
+      "kind_confidence": 0.47,
+      "source_urls": [
+        "https://blog.google/innovation-and-ai/products/gemini-app/gemini-app-now-on-windows/"
+      ]
     },
     {
       "id": "1547638758445162657",
@@ -829,7 +938,10 @@
       "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1547638758445162657",
       "first_seen": "2026-09-10T16:03:53.751Z",
       "kind": "adoption",
-      "kind_confidence": 0.74
+      "kind_confidence": 0.74,
+      "source_urls": [
+        "https://openai.com/index/using-codex-chatgpt-to-search-for-new-antimicrobials/"
+      ]
     },
     {
       "id": "1547638655219269723",
@@ -851,7 +963,10 @@
       "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1547638655219269723",
       "first_seen": "2026-09-10T16:03:29.140Z",
       "kind": "model",
-      "kind_confidence": 1
+      "kind_confidence": 1,
+      "source_urls": [
+        "https://cognition.com/blog/swe-2"
+      ]
     },
     {
       "id": "1547637728756109402",
@@ -873,7 +988,10 @@
       "url": "https://discord.com/channels/1415350002255007784/1460897850354438283/threads/1547637728756109402",
       "first_seen": "2026-09-10T15:59:48.254Z",
       "kind": "business",
-      "kind_confidence": 1
+      "kind_confidence": 1,
+      "source_urls": [
+        "https://mistral.ai/news/mistral-x-cloudera/"
+      ]
     },
     {
       "id": "1547637375465816164",
@@ -895,7 +1013,10 @@
       "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1547637375465816164",
       "first_seen": "2026-09-10T15:58:24.023Z",
       "kind": "feature",
-      "kind_confidence": 1
+      "kind_confidence": 1,
+      "source_urls": [
+        "https://blog.google/products/ads-commerce/data-strength-updates/"
+      ]
     },
     {
       "id": "1547637280725008404",

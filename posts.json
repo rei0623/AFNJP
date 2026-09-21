@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-21T00:14:31.592Z",
+  "generated_at": "2026-09-21T04:55:33.007Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
@@ -23,7 +23,12 @@
       "source_label": "qwen.ai",
       "cover": "assets/posts/1551220150265585704.webp",
       "url": "https://discord.com/channels/1415350002255007784/1419932032716243027/threads/1551220150265585704",
-      "first_seen": "2026-09-20T13:15:04.100Z"
+      "first_seen": "2026-09-20T13:15:04.100Z",
+      "kind": "model",
+      "kind_confidence": 1,
+      "source_urls": [
+        "https://qwen.ai/blog?id=qwen-image-2.1"
+      ]
     },
     {
       "id": "1551041990320197763",
@@ -44,7 +49,12 @@
       "source_label": "typesafe.ai",
       "cover": "assets/posts/1551041990320197763.webp",
       "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1551041990320197763",
-      "first_seen": "2026-09-20T01:27:07.459Z"
+      "first_seen": "2026-09-20T01:27:07.459Z",
+      "kind": "model",
+      "kind_confidence": 1,
+      "source_urls": [
+        "https://typesafe.ai/blog/introducing-system-one-models-and-jev"
+      ]
     },
     {
       "id": "1551037678794047620",
@@ -66,7 +76,12 @@
       "source_label": "docs.openclaw.ai",
       "cover": "assets/posts/1551037678794047620.webp",
       "url": "https://discord.com/channels/1415350002255007784/1469665728721588320/threads/1551037678794047620",
-      "first_seen": "2026-09-20T01:09:59.511Z"
+      "first_seen": "2026-09-20T01:09:59.511Z",
+      "kind": "tool",
+      "kind_confidence": 0.3,
+      "source_urls": [
+        "https://docs.openclaw.ai/releases/2026.9.5"
+      ]
     },
     {
       "id": "1551037579460345916",
@@ -87,7 +102,12 @@
       "source_label": "qwen.ai",
       "cover": "assets/posts/1551037579460345916.webp",
       "url": "https://discord.com/channels/1415350002255007784/1419932032716243027/threads/1551037579460345916",
-      "first_seen": "2026-09-20T01:09:35.828Z"
+      "first_seen": "2026-09-20T01:09:35.828Z",
+      "kind": "model",
+      "kind_confidence": 1,
+      "source_urls": [
+        "https://qwen.ai/blog?id=qwen3.8-livetranslate"
+      ]
     },
     {
       "id": "1551036679127830588",
@@ -107,7 +127,12 @@
       "source_label": "openai.com",
       "cover": "assets/posts/1551036679127830588.webp",
       "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1551036679127830588",
-      "first_seen": "2026-09-20T01:06:01.172Z"
+      "first_seen": "2026-09-20T01:06:01.172Z",
+      "kind": "policy",
+      "kind_confidence": 1,
+      "source_urls": [
+        "https://openai.com/index/australian-youth-safety-blueprint/"
+      ]
     },
     {
       "id": "1550658696827248740",
@@ -127,7 +152,12 @@
       "source_label": "openai.com",
       "cover": "assets/posts/1550658696827248740.webp",
       "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1550658696827248740",
-      "first_seen": "2026-09-19T00:04:03.169Z"
+      "first_seen": "2026-09-19T00:04:03.169Z",
+      "kind": "adoption",
+      "kind_confidence": 0.98,
+      "source_urls": [
+        "https://openai.com/index/hex-gpt-6-astra/"
+      ]
     },
     {
       "id": "1550647991164080238",
@@ -146,7 +176,12 @@
       "source_url": "https://developer.meta.com/ai/models/sam-3-1/?utm_source=social-x&utm_medium=M4D&utm_campaign=organic&utm_content=modelapisam3.1",
       "source_label": "developer.meta.com",
       "url": "https://discord.com/channels/1415350002255007784/1441473829951111330/threads/1550647991164080238",
-      "first_seen": "2026-09-18T23:21:30.740Z"
+      "first_seen": "2026-09-18T23:21:30.740Z",
+      "kind": "model",
+      "kind_confidence": 1,
+      "source_urls": [
+        "https://developer.meta.com/ai/models/sam-3-1/?utm_source=social-x&utm_medium=M4D&utm_campaign=organic&utm_content=modelapisam3.1"
+      ]
     },
     {
       "id": "1550647584685690970",
@@ -167,7 +202,12 @@
       "source_label": "x.ai",
       "cover": "assets/posts/1550647584685690970.webp",
       "url": "https://discord.com/channels/1415350002255007784/1417803120225816596/threads/1550647584685690970",
-      "first_seen": "2026-09-18T23:19:53.828Z"
+      "first_seen": "2026-09-18T23:19:53.828Z",
+      "kind": "model",
+      "kind_confidence": 0.99,
+      "source_urls": [
+        "https://x.ai/news/grok-voice-transcribe-2"
+      ]
     },
     {
       "id": "1550646186183098460",
@@ -187,7 +227,12 @@
       "source_label": "anthropic.com",
       "cover": "assets/posts/1550646186183098460.webp",
       "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1550646186183098460",
-      "first_seen": "2026-09-18T23:14:20.399Z"
+      "first_seen": "2026-09-18T23:14:20.399Z",
+      "kind": "business",
+      "kind_confidence": 0.91,
+      "source_urls": [
+        "https://www.anthropic.com/news/accenture-embedded-evaluation"
+      ]
     },
     {
       "id": "1549917108522065960",
@@ -207,7 +252,12 @@
       "source_label": "openai.com",
       "cover": "assets/posts/1549917108522065960.webp",
       "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1549917108522065960",
-      "first_seen": "2026-09-16T22:57:14.739Z"
+      "first_seen": "2026-09-16T22:57:14.739Z",
+      "kind": "policy",
+      "kind_confidence": 0.89,
+      "source_urls": [
+        "https://openai.com/index/model-misalignment-reporting-framework/"
+      ]
     },
     {
       "id": "1549917012552056932",
@@ -227,7 +277,12 @@
       "source_label": "developers.googleblog.com",
       "cover": "assets/posts/1549917012552056932.webp",
       "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1549917012552056932",
-      "first_seen": "2026-09-16T22:56:51.858Z"
+      "first_seen": "2026-09-16T22:56:51.858Z",
+      "kind": "tool",
+      "kind_confidence": 0.69,
+      "source_urls": [
+        "https://developers.googleblog.com/agent-anomaly-detection-now-in-private-preview-on-the-gemini-enterprise-agent-platform/"
+      ]
     },
     {
       "id": "1549916848911417494",
@@ -248,7 +303,12 @@
       "source_label": "openai.com",
       "cover": "assets/posts/1549916848911417494.webp",
       "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1549916848911417494",
-      "first_seen": "2026-09-16T22:56:12.843Z"
+      "first_seen": "2026-09-16T22:56:12.843Z",
+      "kind": "research",
+      "kind_confidence": 0.64,
+      "source_urls": [
+        "https://openai.com/index/how-to-connect-ai-usage-to-business-value/"
+      ]
     }
   ]
 }
