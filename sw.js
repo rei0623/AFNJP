@@ -16,7 +16,14 @@
  *   CSS と画像   … キャッシュ優先（画像はファイル名が記事IDなので中身が変わらない）
  */
 
-const VERSION = 'v1';
+/*
+ * CSS はキャッシュ優先なので、assets/article.css を直したら必ずここを上げる。
+ * 上げ忘れると、すでにサイトを開いたことがある人には古い CSS が配られ続ける
+ * （PR #33 で記事一覧に種類バッジを足したとき、これを忘れて字が折り返した）。
+ *
+ * v2: 記事一覧の種類バッジ（.arc .k）を追加
+ */
+const VERSION = 'v2';
 const SHELL = `afnjp-shell-${VERSION}`;
 const RUNTIME = `afnjp-runtime-${VERSION}`;
 
