@@ -13,17 +13,26 @@
  *     まとめて大量に流さない（次回以降の新着から動きだす）
  *   - Discord への送信に失敗しても、記録は更新しない（次回に再試行される）
  *
+ *   - 下書きは機械的に作るので、送る前に Jev に下読みさせる。
+ *     要約が途中で切れていないか、記事より強く読めないかの2点だけを見て、
+ *     引っかかったら注意書きを1行足す。投稿は止めない（承認するのは人）
+ *
  * 必要な環境変数:
  *   DISCORD_BOT_TOKEN   … Bot トークン（#x-下書き への「メッセージを送信」権限が必要）
  *   X_DRAFT_CHANNEL_ID  … 送信先チャンネルID（省略時は #x-下書き のID）
+ *   TYPESAFE_API_KEY    … 任意。無ければ下読みをせず、従来どおりの下書きを送る
  *
  * 使い方:
  *   DISCORD_BOT_TOKEN=xxxxx node scripts/post-x-drafts.mjs
+ *   node scripts/post-x-drafts.mjs --dry-run   … 下書きと下読み結果を表示するだけ
  */
 
 import { readFile, writeFile } from 'node:fs/promises';
 import { fileURLToPath } from 'node:url';
 import { dirname, resolve } from 'node:path';
+
+import * as jev from './lib/jev.mjs';
+import { trimToBoundary } from './lib/text.mjs';
 
 const HERE = dirname(fileURLToPath(import.meta.url));
 const ROOT = resolve(HERE, '..');
@@ -42,7 +51,14 @@ const URL_WEIGHT = 23;
 /** 1回の実行で流す下書きの上限。取りこぼし時に大量投下されるのを防ぐ */
 const MAX_PER_RUN = 5;
 
-if (!TOKEN) {
+/**
+ * --dry-run … Discord にも .x-drafted.json にも触らず、
+ * 最新の記事から下書きを組み立てて、下読みの結果と一緒に表示する。
+ * 文面や下読みの閾値をいじったときの確認用。
+ */
+const DRY = process.argv.includes('--dry-run');
+
+if (!TOKEN && !DRY) {
     console.error('✗ DISCORD_BOT_TOKEN が設定されていません。');
     process.exit(1);
 }
@@ -99,7 +115,7 @@ function buildDraft(post) {
             excerpt += ch;
         }
         if (excerpt && excerpt.length < src.length) {
-            excerpt = excerpt.replace(/[、。，．\s]+$/, '') + '…';
+            excerpt = trimToBoundary(excerpt) + '…';
         }
     }
 
@@ -111,6 +127,55 @@ function buildDraft(post) {
 
     const body = head + excerpt + tail;
     return { body, url, weight: totalWeight(body, true) };
+}
+
+/* ═══════════ 下書きの下読み（TYPESAFE_API_KEY が無ければスキップ） ═══════════
+ *
+ * 見るのは、この組み立て方に固有の壊れ方2つだけ。
+ *
+ *   1. 要約を文字単位で切っているので、途中で切れて意味が通らなくなることがある
+ *   2. タイトルと切られた要約の組み合わせが、記事より強く読めることがある
+ *
+ * 承認フローは変えない。✅ を付けるのは人で、ここは注意書きを1行足すだけ。
+ * 判断が取れなければ何も足さない（従来どおりの下書きが流れる）。
+ * 投稿を止める作りにしていないのは、Jev が落ちた日に下書きが
+ * 全部止まると運用が詰まるため。
+ */
+
+/** この確率を超えたら注意書きを出す。下読みなので、やや拾いすぎる側に置く */
+const WARN_AT = 0.6;
+
+async function review(post, draft) {
+    const answers = await jev.ask({
+        // 実際に X へ貼られる文面そのものを見せる（リンクは長さだけの問題なので外す）
+        draft: draft.body.trim(),
+        article: {
+            title: post.title,
+            lead: post.lead || post.excerpt || null,
+            headings: post.headings || [],
+        },
+    }, {
+        truncated_badly: jev.noul(
+            '`draft` の文が途中で切れていて、日本語として意味が通らない', {
+            true: '文の途中でぶつ切りになっていて、何を言っているか分からない箇所がある',
+            false: '「…」で省略されていても、そこまでで意味は通っている',
+        }),
+        overstates: jev.noul(
+            '`draft` が `article` の内容より強く読める、または書かれていないことを含んでいる', {
+            true: '記事にない断定・誇張・数字がある、または効果を実際より大きく見せている',
+            false: '記事に書かれている範囲に収まっている',
+        }),
+    });
+    if (!answers) return null;
+
+    const notes = [];
+    if ((answers.truncated_badly?.noul ?? 0) > WARN_AT) {
+        notes.push(`要約が途中で切れているかも（${(answers.truncated_badly.noul * 100).toFixed(0)}%）`);
+    }
+    if ((answers.overstates?.noul ?? 0) > WARN_AT) {
+        notes.push(`記事より強く読めるかも（${(answers.overstates.noul * 100).toFixed(0)}%）`);
+    }
+    return notes;
 }
 
 async function discord(path, init = {}) {
@@ -141,6 +206,22 @@ const data = await readFile(POSTS_JSON, 'utf8').then(JSON.parse).catch(() => nul
 if (!data || !Array.isArray(data.posts) || !data.posts.length) {
     console.error('✗ posts.json を読めませんでした。');
     process.exit(1);
+}
+
+if (DRY) {
+    const n = Number(process.argv[process.argv.indexOf('--dry-run') + 1]) || 5;
+    for (const post of data.posts.slice(0, n)) {
+        const draft = buildDraft(post);
+        const notes = jev.enabled ? await review(post, draft) : null;
+        console.log('─'.repeat(72));
+        console.log(`${draft.weight}/${X_LIMIT}  ・ ${post.channel}`
+            + (notes?.length ? `  ⚠ ${notes.join(' / ')}` : notes ? '  ✓ 問題なし' : ''));
+        console.log(draft.body + draft.url);
+    }
+    console.log('─'.repeat(72));
+    console.log(jev.usageLine());
+    console.log('（--dry-run なので Discord にも .x-drafted.json にも触っていません）');
+    process.exit(0);
 }
 
 const prev = await readFile(STATE, 'utf8').then(JSON.parse).catch(() => null);
@@ -188,8 +269,11 @@ for (const post of targets) {
     // 「テキストをコピー」はメッセージ全体（見出しやバッククォート込み）を拾う。
     // そのため下書き本体は装飾を一切付けない単独メッセージにして、
     // 長押ししたものがそのまま X に貼れるようにする。
+    const notes = jev.enabled ? await review(post, draft) : null;
+
     const header =
         `**X投稿用**  \`${draft.weight}/${X_LIMIT}\`  ・ ${post.channel}\n` +
+        (notes?.length ? `-# ⚠ ${notes.join(' / ')}\n` : '') +
         '-# 下のメッセージを長押し →「テキストをコピー」でそのまま貼れます';
     const body = draft.body + draft.url;
 
@@ -225,3 +309,4 @@ if (sent > 0) {
 }
 
 console.log(`✓ X下書き: ${sent} 件を #x-下書き に送りました`);
+if (jev.enabled) console.log(`  ${jev.usageLine()}`);

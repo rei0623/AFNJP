@@ -352,6 +352,18 @@ a {
     padding-top: 3px;
 }
 
+/* 発表の種類（モデル公開 / 機能追加 …）。scripts/tag-posts.mjs が付ける。
+   出典の企業名（.c）より弱く見せて、並びの邪魔にならないようにする */
+.arc .k {
+    font-size: 11px;
+    color: var(--ink-3);
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    padding: 1px 8px;
+    flex: 0 0 auto;
+    white-space: nowrap;
+}
+
 @media (max-width: 560px) {
     .arc li a {
         flex-wrap: wrap;
@@ -361,6 +373,11 @@ a {
     .arc .t {
         flex: 1 1 100%;
         order: 3;
+    }
+
+    /* 幅が無いので種類は出さない。日付と企業名を優先する */
+    .arc .k {
+        display: none;
     }
 }
 
