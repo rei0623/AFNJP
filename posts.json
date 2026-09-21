@@ -1,8 +1,32 @@
 {
-  "generated_at": "2026-09-21T10:40:00.387Z",
+  "generated_at": "2026-09-21T17:01:21.366Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1551621185677033613",
+      "title": "V7、企業データを「AIの記憶」に変換 GPT-6 Astraで難関クエリ89％精度",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-09-21T15:48:38.393Z",
+      "excerpt": "OpenAIは2026年9月21日、AIエージェント向けプラットフォームを展開するV7の導入事例を公開しました。V7は企業内の文書やデータを「Context Graph」と呼ぶ構造化された記憶に変換し、AIが毎回情報を探し直すことなく業務コンテキストを参照で…",
+      "lead": "OpenAIは2026年9月21日、AIエージェント向けプラットフォームを展開するV7の導入事例を公開しました。V7は企業内の文書やデータを「Context Graph」と呼ぶ構造化された記憶に変換し、AIが毎回情報を探し直すことなく業務コンテキストを参照できる仕組みを構築しています。最難関のグラフ検索テストではGPT-6 Astraが89％の精度を記録したとしています。",
+      "headings": [
+        "文書をRAGだけで探すのではなく「関係性」として保存",
+        "GPT-5.6とGPT-6を用途別に使い分け",
+        "コスト削減ではLunaが重要な役割",
+        "AIエージェント競争は「モデル性能」から「コンテキスト設計」へ",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/v7/",
+      "source_urls": [
+        "https://openai.com/index/v7/"
+      ],
+      "source_label": "openai.com",
+      "cover": "assets/posts/1551621185677033613.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1551621185677033613",
+      "first_seen": "2026-09-21T15:48:38.393Z"
+    },
     {
       "id": "1551220150265585704",
       "title": "Qwen-Image-2.1公開、7Bで画像生成・編集・透過処理を統合",
@@ -282,32 +306,6 @@
       "kind_confidence": 0.69,
       "source_urls": [
         "https://developers.googleblog.com/agent-anomaly-detection-now-in-private-preview-on-the-gemini-enterprise-agent-platform/"
-      ]
-    },
-    {
-      "id": "1549916848911417494",
-      "title": "OpenAI、AI投資の「利用量」から「事業価値」への測定手法を提示",
-      "channel": "open-ai",
-      "category": "Open AI",
-      "date": "2026-09-16T22:56:12.843Z",
-      "excerpt": "OpenAIは2026年9月16日、企業がChatGPT WorkやCodexの利用状況を、売上や生産性などの事業成果へ結び付けて評価する方法を公開しました。単純なユーザー数やトークン消費量ではなく、「AIが何の仕事に使われ、その結果がどう変わったか」を追跡…",
-      "lead": "OpenAIは2026年9月16日、企業がChatGPT WorkやCodexの利用状況を、売上や生産性などの事業成果へ結び付けて評価する方法を公開しました。単純なユーザー数やトークン消費量ではなく、「AIが何の仕事に使われ、その結果がどう変わったか」を追跡する考え方が中心です。",
-      "headings": [
-        "利用量だけではAIの価値を測れない",
-        "Codexの成果を開発指標へ接続",
-        "ROIはベースラインから計算する",
-        "Admin APIで経営データと統合",
-        "今後の展望"
-      ],
-      "source_url": "https://openai.com/index/how-to-connect-ai-usage-to-business-value/",
-      "source_label": "openai.com",
-      "cover": "assets/posts/1549916848911417494.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1549916848911417494",
-      "first_seen": "2026-09-16T22:56:12.843Z",
-      "kind": "research",
-      "kind_confidence": 0.64,
-      "source_urls": [
-        "https://openai.com/index/how-to-connect-ai-usage-to-business-value/"
       ]
     }
   ]

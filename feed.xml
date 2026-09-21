@@ -5,8 +5,16 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 20 Sep 2026 13:15:04 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 21 Sep 2026 15:48:38 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>V7、企業データを「AIの記憶」に変換 GPT-6 Astraで難関クエリ89％精度</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1551621185677033613</link>
+      <guid isPermaLink="false">afnjp-1551621185677033613</guid>
+      <pubDate>Mon, 21 Sep 2026 15:48:38 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIは2026年9月21日、AIエージェント向けプラットフォームを展開するV7の導入事例を公開しました。V7は企業内の文書やデータを「Context Graph」と呼ぶ構造化された記憶に変換し、AIが毎回情報を探し直すことなく業務コンテキストを参照で…</description>
+    </item>
     <item>
       <title>Qwen-Image-2.1公開、7Bで画像生成・編集・透過処理を統合</title>
       <link>https://discord.com/channels/1415350002255007784/1419932032716243027/threads/1551220150265585704</link>
@@ -94,14 +102,6 @@
       <pubDate>Wed, 16 Sep 2026 22:56:51 GMT</pubDate>
       <category>google</category>
       <description>Googleは2026年9月16日、Gemini Enterprise Agent Platform向けの「Agent Anomaly Detection」をPrivate Previewとして公開しました。AIエージェントのログやOpenTelemetry…</description>
-    </item>
-    <item>
-      <title>OpenAI、AI投資の「利用量」から「事業価値」への測定手法を提示</title>
-      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1549916848911417494</link>
-      <guid isPermaLink="false">afnjp-1549916848911417494</guid>
-      <pubDate>Wed, 16 Sep 2026 22:56:12 GMT</pubDate>
-      <category>open-ai</category>
-      <description>OpenAIは2026年9月16日、企業がChatGPT WorkやCodexの利用状況を、売上や生産性などの事業成果へ結び付けて評価する方法を公開しました。単純なユーザー数やトークン消費量ではなく、「AIが何の仕事に使われ、その結果がどう変わったか」を追跡…</description>
     </item>
   </channel>
 </rss>
