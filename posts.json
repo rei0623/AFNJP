@@ -1,8 +1,76 @@
 {
-  "generated_at": "2026-09-22T09:55:12.428Z",
+  "generated_at": "2026-09-22T14:50:29.286Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1551953272556880062",
+      "title": "Kimi Browser Extension登場、AIエージェントがChromeやEdgeを直接操作",
+      "channel": "kimi",
+      "category": "その他",
+      "date": "2026-09-22T13:48:14.075Z",
+      "excerpt": "Moonshot AIのKimiは、AIエージェントからWebブラウザを操作できる「Kimi Browser Extension」を提供しています。旧称「Kimi WebBridge」を刷新したもので、ページ閲覧からクリック、フォーム入力、情報抽出まで、人間…",
+      "lead": "Moonshot AIのKimiは、AIエージェントからWebブラウザを操作できる「Kimi Browser Extension」を提供しています。旧称「Kimi WebBridge」を刷新したもので、ページ閲覧からクリック、フォーム入力、情報抽出まで、人間が行っていたWeb作業をエージェントに任せられる設計です。",
+      "headings": [
+        "AIが既存ブラウザを操作",
+        "WebBridgeから機能を拡張",
+        "Google Sheetsや横断検索を自動化",
+        "今後の展望"
+      ],
+      "source_url": "https://www.kimi.ai/products/kimi-browser-extension",
+      "source_urls": [
+        "https://www.kimi.ai/products/kimi-browser-extension"
+      ],
+      "source_label": "kimi.ai",
+      "url": "https://discord.com/channels/1415350002255007784/1417459869341978704/threads/1551953272556880062",
+      "first_seen": "2026-09-22T13:48:14.075Z"
+    },
+    {
+      "id": "1551904621235019786",
+      "title": "Tencent「Hy Image3.5」プレビュー公開、画像生成を1枚0.024ドルで提供",
+      "channel": "hunyuan",
+      "category": "その他",
+      "date": "2026-09-22T10:34:54.696Z",
+      "excerpt": "Tencent Hunyuanは、画像生成モデル「Hy Image3.5」のプレビュー提供を開始しました。Hy Image3.0との人間評価では勝率が30％向上したとし、テキストからの画像生成と画像を参照した生成の両方に対応します。Tencent Cloud…",
+      "lead": "Tencent Hunyuanは、画像生成モデル「Hy Image3.5」のプレビュー提供を開始しました。Hy Image3.0との人間評価では勝率が30％向上したとし、テキストからの画像生成と画像を参照した生成の両方に対応します。Tencent Cloud APIでは1枚0.024ドルで利用できます。",
+      "headings": [
+        "Hy Image3.0から生成品質と一貫性を強化",
+        "「生成物だけ課金」がAPI利用のハードルを下げる",
+        "評価値を見る際には注意も必要",
+        "今後の展望"
+      ],
+      "source_url": "https://twitter.com/TencentHunyuan/status/2102226552310419473",
+      "source_urls": [
+        "https://twitter.com/TencentHunyuan/status/2102226552310419473",
+        "https://x.com/TencentHunyuan/status/2102226552310419473"
+      ],
+      "source_label": "twitter.com",
+      "cover": "assets/posts/1551904621235019786.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1460898443923820618/threads/1551904621235019786",
+      "first_seen": "2026-09-22T10:34:54.696Z"
+    },
+    {
+      "id": "1551901948884815943",
+      "title": "Xiaomiが「MiMo-V2.6」公開、75万軌跡の大規模RLでオープンモデルを強化",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-09-22T10:24:17.558Z",
+      "excerpt": "Xiaomiは2026年9月22日、ネイティブ・オムニモーダルAI「MiMo-V2.6」シリーズを公開しました。高性能版「MiMo-V2.6-Pro」と効率重視の「MiMo-V2.6-Flash」に加え、Proと同等品質で最大20倍の出力速度をうたう「MiM…",
+      "lead": "Xiaomiは2026年9月22日、ネイティブ・オムニモーダルAI「MiMo-V2.6」シリーズを公開しました。高性能版「MiMo-V2.6-Pro」と効率重視の「MiMo-V2.6-Flash」に加え、Proと同等品質で最大20倍の出力速度をうたう「MiMo-V2.6-Pro-UltraSpeed」も展開します。モデルだけでなく、強化学習（RL）のコードや学習環境までオープンソース化する点が大きな特徴です。",
+      "headings": [
+        "約75万軌跡を使いRLをスケール",
+        "コーディングから「Vibe World」へ",
+        "性能とコストの両立を狙う",
+        "今後の展望"
+      ],
+      "source_url": "https://mimo.xiaomi.com/mimo-v2-6",
+      "source_urls": [
+        "https://mimo.xiaomi.com/mimo-v2-6"
+      ],
+      "source_label": "mimo.xiaomi.com",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1551901948884815943",
+      "first_seen": "2026-09-22T10:24:17.558Z"
+    },
     {
       "id": "1551678510894940271",
       "title": "Google「Googlebook」予約開始、Geminiを中核に据えた新世代ノートPC",
@@ -232,84 +300,6 @@
       "kind_confidence": 1,
       "source_urls": [
         "https://typesafe.ai/blog/introducing-system-one-models-and-jev"
-      ]
-    },
-    {
-      "id": "1551037678794047620",
-      "title": "OpenClaw 2026.9.5公開、AIエージェント運用を「止めない」基盤へ進化",
-      "channel": "open-claw",
-      "category": "その他",
-      "date": "2026-09-20T01:09:59.511Z",
-      "excerpt": "OpenClawは「v2026.9.5」を公開しました。今回の更新では、稼働中のGatewayを維持したまま更新候補を検証するAtomic Updates、再起動不要のプラグイン更新、GPT Liveの会議・電話対応、会話共有、ブラウザ共同操作などが追加され…",
-      "lead": "OpenClawは「v2026.9.5」を公開しました。今回の更新では、稼働中のGatewayを維持したまま更新候補を検証するAtomic Updates、再起動不要のプラグイン更新、GPT Liveの会議・電話対応、会話共有、ブラウザ共同操作などが追加されています。4,179件のプルリクエストと64件の直接コミット、502の貢献アカウントを含む大規模リリースです。",
-      "headings": [
-        "Atomic Updatesで更新時の停止リスクを低減",
-        "プラグインをGateway再起動なしで追加",
-        "GPT Liveが会議と電話へ拡張",
-        "人間とエージェントが同じブラウザ画面を操作",
-        "会話の共有と長期保存も強化",
-        "今後の展望"
-      ],
-      "source_url": "https://docs.openclaw.ai/releases/2026.9.5",
-      "source_label": "docs.openclaw.ai",
-      "cover": "assets/posts/1551037678794047620.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1469665728721588320/threads/1551037678794047620",
-      "first_seen": "2026-09-20T01:09:59.511Z",
-      "kind": "tool",
-      "kind_confidence": 0.3,
-      "source_urls": [
-        "https://docs.openclaw.ai/releases/2026.9.5"
-      ]
-    },
-    {
-      "id": "1551037579460345916",
-      "title": "Qwen3.8-LiveTranslate登場、同時通訳を「話者・文脈」まで理解するAIへ",
-      "channel": "qwen",
-      "category": "Alibaba",
-      "date": "2026-09-20T01:09:35.828Z",
-      "excerpt": "AlibabaのQwen Teamは2026年9月18日、リアルタイム同時通訳モデル「Qwen3.8-LiveTranslate」を発表しました。新たなInterleaveアーキテクチャにより、翻訳品質を高めながら平均遅延指標LAALを従来の2.8秒から2.…",
-      "lead": "AlibabaのQwen Teamは2026年9月18日、リアルタイム同時通訳モデル「Qwen3.8-LiveTranslate」を発表しました。新たなInterleaveアーキテクチャにより、翻訳品質を高めながら平均遅延指標LAALを従来の2.8秒から2.3秒へ短縮。さらに、複数話者の識別、原文と翻訳の同期表示、長い会話履歴を使った曖昧性解消を統合しています。",
-      "headings": [
-        "音声とテキストを一つの時系列として処理",
-        "複数話者と長文脈への対応を強化",
-        "60言語を扱い、音声出力は29言語",
-        "APIでリアルタイム通訳アプリを構築可能",
-        "今後の展望"
-      ],
-      "source_url": "https://qwen.ai/blog?id=qwen3.8-livetranslate",
-      "source_label": "qwen.ai",
-      "cover": "assets/posts/1551037579460345916.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1419932032716243027/threads/1551037579460345916",
-      "first_seen": "2026-09-20T01:09:35.828Z",
-      "kind": "model",
-      "kind_confidence": 1,
-      "source_urls": [
-        "https://qwen.ai/blog?id=qwen3.8-livetranslate"
-      ]
-    },
-    {
-      "id": "1551036679127830588",
-      "title": "OpenAI、豪州向け「Youth Safety Blueprint」を公開 未成年AI利用を6本柱で設計",
-      "channel": "open-ai",
-      "category": "Open AI",
-      "date": "2026-09-20T01:06:01.172Z",
-      "excerpt": "OpenAIは2026年9月18日、オーストラリアの若者がAIを安全に利用するための政策提言「Australian Youth Safety Blueprint」を公開しました。単なるコンテンツ規制ではなく、年齢推定、未成年向けモデル挙動、危機対応、保護者機…",
-      "lead": "OpenAIは2026年9月18日、オーストラリアの若者がAIを安全に利用するための政策提言「Australian Youth Safety Blueprint」を公開しました。単なるコンテンツ規制ではなく、年齢推定、未成年向けモデル挙動、危機対応、保護者機能、監査までを一体で設計する点が特徴です。",
-      "headings": [
-        "6本柱で「安全を初期設定」に",
-        "技術的焦点は「出力内容」から「関係性設計」へ",
-        "規制は固定ルールよりリスクベースを提案",
-        "今後の展望"
-      ],
-      "source_url": "https://openai.com/index/australian-youth-safety-blueprint/",
-      "source_label": "openai.com",
-      "cover": "assets/posts/1551036679127830588.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1551036679127830588",
-      "first_seen": "2026-09-20T01:06:01.172Z",
-      "kind": "policy",
-      "kind_confidence": 1,
-      "source_urls": [
-        "https://openai.com/index/australian-youth-safety-blueprint/"
       ]
     }
   ]

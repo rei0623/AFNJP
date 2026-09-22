@@ -5,8 +5,32 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 21 Sep 2026 19:36:25 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 22 Sep 2026 13:48:14 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Kimi Browser Extension登場、AIエージェントがChromeやEdgeを直接操作</title>
+      <link>https://discord.com/channels/1415350002255007784/1417459869341978704/threads/1551953272556880062</link>
+      <guid isPermaLink="false">afnjp-1551953272556880062</guid>
+      <pubDate>Tue, 22 Sep 2026 13:48:14 GMT</pubDate>
+      <category>kimi</category>
+      <description>Moonshot AIのKimiは、AIエージェントからWebブラウザを操作できる「Kimi Browser Extension」を提供しています。旧称「Kimi WebBridge」を刷新したもので、ページ閲覧からクリック、フォーム入力、情報抽出まで、人間…</description>
+    </item>
+    <item>
+      <title>Tencent「Hy Image3.5」プレビュー公開、画像生成を1枚0.024ドルで提供</title>
+      <link>https://discord.com/channels/1415350002255007784/1460898443923820618/threads/1551904621235019786</link>
+      <guid isPermaLink="false">afnjp-1551904621235019786</guid>
+      <pubDate>Tue, 22 Sep 2026 10:34:54 GMT</pubDate>
+      <category>hunyuan</category>
+      <description>Tencent Hunyuanは、画像生成モデル「Hy Image3.5」のプレビュー提供を開始しました。Hy Image3.0との人間評価では勝率が30％向上したとし、テキストからの画像生成と画像を参照した生成の両方に対応します。Tencent Cloud…</description>
+    </item>
+    <item>
+      <title>Xiaomiが「MiMo-V2.6」公開、75万軌跡の大規模RLでオープンモデルを強化</title>
+      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1551901948884815943</link>
+      <guid isPermaLink="false">afnjp-1551901948884815943</guid>
+      <pubDate>Tue, 22 Sep 2026 10:24:17 GMT</pubDate>
+      <category>その他</category>
+      <description>Xiaomiは2026年9月22日、ネイティブ・オムニモーダルAI「MiMo-V2.6」シリーズを公開しました。高性能版「MiMo-V2.6-Pro」と効率重視の「MiMo-V2.6-Flash」に加え、Proと同等品質で最大20倍の出力速度をうたう「MiM…</description>
+    </item>
     <item>
       <title>Google「Googlebook」予約開始、Geminiを中核に据えた新世代ノートPC</title>
       <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1551678510894940271</link>
@@ -78,30 +102,6 @@
       <pubDate>Sun, 20 Sep 2026 01:27:07 GMT</pubDate>
       <category>その他</category>
       <description>TypeSafe AIは2026年9月15日、新しいモデル群「System One Models」と、その最初の公開モデル「Jev」を発表しました。文章生成を中心とする従来のLLMとは異なり、Jevはソフトウェアが直接利用できる「型付きの確率的判断」を高速に…</description>
-    </item>
-    <item>
-      <title>OpenClaw 2026.9.5公開、AIエージェント運用を「止めない」基盤へ進化</title>
-      <link>https://discord.com/channels/1415350002255007784/1469665728721588320/threads/1551037678794047620</link>
-      <guid isPermaLink="false">afnjp-1551037678794047620</guid>
-      <pubDate>Sun, 20 Sep 2026 01:09:59 GMT</pubDate>
-      <category>open-claw</category>
-      <description>OpenClawは「v2026.9.5」を公開しました。今回の更新では、稼働中のGatewayを維持したまま更新候補を検証するAtomic Updates、再起動不要のプラグイン更新、GPT Liveの会議・電話対応、会話共有、ブラウザ共同操作などが追加され…</description>
-    </item>
-    <item>
-      <title>Qwen3.8-LiveTranslate登場、同時通訳を「話者・文脈」まで理解するAIへ</title>
-      <link>https://discord.com/channels/1415350002255007784/1419932032716243027/threads/1551037579460345916</link>
-      <guid isPermaLink="false">afnjp-1551037579460345916</guid>
-      <pubDate>Sun, 20 Sep 2026 01:09:35 GMT</pubDate>
-      <category>qwen</category>
-      <description>AlibabaのQwen Teamは2026年9月18日、リアルタイム同時通訳モデル「Qwen3.8-LiveTranslate」を発表しました。新たなInterleaveアーキテクチャにより、翻訳品質を高めながら平均遅延指標LAALを従来の2.8秒から2.…</description>
-    </item>
-    <item>
-      <title>OpenAI、豪州向け「Youth Safety Blueprint」を公開 未成年AI利用を6本柱で設計</title>
-      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1551036679127830588</link>
-      <guid isPermaLink="false">afnjp-1551036679127830588</guid>
-      <pubDate>Sun, 20 Sep 2026 01:06:01 GMT</pubDate>
-      <category>open-ai</category>
-      <description>OpenAIは2026年9月18日、オーストラリアの若者がAIを安全に利用するための政策提言「Australian Youth Safety Blueprint」を公開しました。単なるコンテンツ規制ではなく、年齢推定、未成年向けモデル挙動、危機対応、保護者機…</description>
     </item>
   </channel>
 </rss>
