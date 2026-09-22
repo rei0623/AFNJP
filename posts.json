@@ -1,8 +1,126 @@
 {
-  "generated_at": "2026-09-22T18:51:53.355Z",
+  "generated_at": "2026-09-22T22:06:02.042Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1552053961014513696",
+      "title": "GPT-6、プロンプトキャッシュを強化 長時間AIエージェントのコストと遅延を削減",
+      "channel": "chatgpt",
+      "category": "Open AI",
+      "date": "2026-09-22T20:28:20.074Z",
+      "excerpt": "OpenAIは2026年9月22日、GPT-6向けの新しいプロンプトキャッシュ機構を発表しました。キャッシュヒット率の向上に加え、監視ダッシュボード、キャッシュミス診断、明示的なキャッシュ境界、プリウォームなどを導入し、長時間動作するAIエージェントの高速化…",
+      "lead": "OpenAIは2026年9月22日、GPT-6向けの新しいプロンプトキャッシュ機構を発表しました。キャッシュヒット率の向上に加え、監視ダッシュボード、キャッシュミス診断、明示的なキャッシュ境界、プリウォームなどを導入し、長時間動作するAIエージェントの高速化とコスト削減を狙います。",
+      "headings": [
+        "最大90％のキャッシュ入力割引",
+        "キャッシュミスを可視化・診断",
+        "明示的な境界とreasoning effort変更に対応",
+        "プリウォームで初回応答も高速化",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/better-prompt-caching-for-gpt-6/",
+      "source_urls": [
+        "https://openai.com/index/better-prompt-caching-for-gpt-6/"
+      ],
+      "source_label": "openai.com",
+      "cover": "assets/posts/1552053961014513696.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415353131604377641/threads/1552053961014513696",
+      "first_seen": "2026-09-22T20:28:20.074Z"
+    },
+    {
+      "id": "1552030210482774146",
+      "title": "Google ColabがGoogle AIプランに統合、GPUやバックグラウンド実行を強化",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-09-22T18:53:57.506Z",
+      "excerpt": "Googleは2026年9月22日、Google AIプランの加入者向けに、Google Colabのプレミアム特典を提供すると発表しました。高速アクセラレータや高性能マシンへの優先アクセスが含まれ、特にGoogle AI UltraではPremium GP…",
+      "lead": "Googleは2026年9月22日、Google AIプランの加入者向けに、Google Colabのプレミアム特典を提供すると発表しました。高速アクセラレータや高性能マシンへの優先アクセスが含まれ、特にGoogle AI UltraではPremium GPUやバックグラウンド実行が利用可能になります。",
+      "headings": [
+        "Google AIプランからColabの計算資源を利用可能に",
+        "長時間のAI学習でブラウザを開き続ける必要を軽減",
+        "AIサービスを単一のサブスクリプションへ集約",
+        "今後の展望"
+      ],
+      "source_url": "https://developers.googleblog.com/colab-is-now-part-of-your-google-ai-plan/",
+      "source_urls": [
+        "https://developers.googleblog.com/colab-is-now-part-of-your-google-ai-plan/"
+      ],
+      "source_label": "developers.googleblog.com",
+      "cover": "assets/posts/1552030210482774146.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1552030210482774146",
+      "first_seen": "2026-09-22T18:53:57.506Z"
+    },
+    {
+      "id": "1552030044946305114",
+      "title": "OpenAI「GPT-6 Sol／Luna」発表、性能向上と大幅な低価格化を両立",
+      "channel": "chatgpt",
+      "category": "Open AI",
+      "date": "2026-09-22T18:53:18.039Z",
+      "excerpt": "OpenAIは、GPT-6ファミリーの新モデル「GPT-6 Sol」と「GPT-6 Luna」を発表しました。最上位のGPT-6 Astraで導入した技術を、より高速かつ低コストなモデルへ展開し、業務自動化、コーディング、Computer Use、長時間稼働…",
+      "lead": "OpenAIは、GPT-6ファミリーの新モデル「GPT-6 Sol」と「GPT-6 Luna」を発表しました。最上位のGPT-6 Astraで導入した技術を、より高速かつ低コストなモデルへ展開し、業務自動化、コーディング、Computer Use、長時間稼働するAIエージェントの実用性を高めます。",
+      "headings": [
+        "API価格を大幅に引き下げ",
+        "業務エージェントではコスト効率を重視",
+        "キャッシュ改善が長時間エージェントに効く",
+        "精度とコミュニケーションも改善",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/introducing-gpt-6-sol-and-luna/",
+      "source_urls": [
+        "https://openai.com/index/introducing-gpt-6-sol-and-luna/"
+      ],
+      "source_label": "openai.com",
+      "cover": "assets/posts/1552030044946305114.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415353131604377641/threads/1552030044946305114",
+      "first_seen": "2026-09-22T18:53:18.039Z"
+    },
+    {
+      "id": "1552029939140919366",
+      "title": "OpenAI、AI安全性の「第三者評価」原則を提示 安全主張そのものを独立検証へ",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-09-22T18:52:52.813Z",
+      "excerpt": "OpenAIは2026年9月22日、フロンティアAIの安全性を独立した第三者が評価するための優先領域と原則を公開しました。単純なベンチマーク評価ではなく、訓練、評価、社内利用、外部展開まで含め、安全対策の根拠そのものを検証可能にする構想です。",
+      "lead": "OpenAIは2026年9月22日、フロンティアAIの安全性を独立した第三者が評価するための優先領域と原則を公開しました。単純なベンチマーク評価ではなく、訓練、評価、社内利用、外部展開まで含め、安全対策の根拠そのものを検証可能にする構想です。",
+      "headings": [
+        "4つの重点評価領域",
+        "「評価へのアクセス」が重要な理由",
+        "独立性と機密保持をどう両立するか",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/priorities-principles-third-party-assessments/",
+      "source_urls": [
+        "https://openai.com/index/priorities-principles-third-party-assessments/"
+      ],
+      "source_label": "openai.com",
+      "cover": "assets/posts/1552029939140919366.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1552029939140919366",
+      "first_seen": "2026-09-22T18:52:52.813Z"
+    },
+    {
+      "id": "1552029845037256824",
+      "title": "Anthropic「Claude Opus 5.5」発表、性能だけでなくコスト効率と安全性を大幅強化",
+      "channel": "claude",
+      "category": "Anthropic",
+      "date": "2026-09-22T18:52:30.377Z",
+      "excerpt": "Anthropicは2026年9月22日、新世代「Claude 5.5」ファミリーの最初のモデルとなる「Claude Opus 5.5」を発表しました。複雑なコーディングや知識労働、コンピューター操作を強化する一方、Opus 5比で標準的なワークロードの実行…",
+      "lead": "Anthropicは2026年9月22日、新世代「Claude 5.5」ファミリーの最初のモデルとなる「Claude Opus 5.5」を発表しました。複雑なコーディングや知識労働、コンピューター操作を強化する一方、Opus 5比で標準的なワークロードの実行コストを約40％削減するなど、エージェント運用を意識した効率改善が大きな特徴です。",
+      "headings": [
+        "エージェント型コーディングを大幅強化",
+        "「高性能モデル＝高コスト」を崩す価格設計",
+        "知識労働とコンピューター操作も強化",
+        "自律エージェントを意識した安全設計",
+        "今後の展望"
+      ],
+      "source_url": "https://www.anthropic.com/claude-opus-5-5",
+      "source_urls": [
+        "https://www.anthropic.com/claude-opus-5-5"
+      ],
+      "source_label": "anthropic.com",
+      "cover": "assets/posts/1552029845037256824.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415353403269185546/threads/1552029845037256824",
+      "first_seen": "2026-09-22T18:52:30.377Z"
+    },
     {
       "id": "1551953272556880062",
       "title": "Kimi Browser Extension登場、AIエージェントがChromeやEdgeを直接操作",
@@ -177,136 +295,6 @@
       "first_seen": "2026-09-21T19:29:19.615Z",
       "kind": "business",
       "kind_confidence": 0.63
-    },
-    {
-      "id": "1551676641363886132",
-      "title": "OpenAI、AI普及を「人材育成」と「国際標準」の両面から加速",
-      "channel": "open-ai",
-      "category": "Open AI",
-      "date": "2026-09-21T19:29:00.059Z",
-      "excerpt": "OpenAIは2026年9月21日、AI活用スキルを体系化する「OpenAI Academy」の拡充と、フロンティアAIを対象とした国際的な技術標準の構想を相次いで発表しました。2つの発表は対象こそ異なりますが、高性能AIの普及に必要な「利用者側の能力」と「…",
-      "lead": "OpenAIは2026年9月21日、AI活用スキルを体系化する「OpenAI Academy」の拡充と、フロンティアAIを対象とした国際的な技術標準の構想を相次いで発表しました。2つの発表は対象こそ異なりますが、高性能AIの普及に必要な「利用者側の能力」と「開発側の安全基盤」を同時に整備しようとする動きとして捉えられます。",
-      "headings": [
-        "OpenAI Academyを職種別の学習体系へ",
-        "高度なAI研究を見据え国際標準を提案",
-        "今後の展望"
-      ],
-      "source_url": "https://openai.com/index/expanding-openai-academy-with-new-learning-paths/",
-      "source_urls": [
-        "https://openai.com/index/expanding-openai-academy-with-new-learning-paths/",
-        "https://openai.com/index/building-standards-next-phase-ai/"
-      ],
-      "source_label": "openai.com",
-      "cover": "assets/posts/1551676641363886132.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1551676641363886132",
-      "first_seen": "2026-09-21T19:29:00.059Z",
-      "kind": "feature",
-      "kind_confidence": 0.35
-    },
-    {
-      "id": "1551676546987855903",
-      "title": "Grok 4.7登場、50万トークンとxhigh推論でエージェント開発を強化",
-      "channel": "grok",
-      "category": "Space X",
-      "date": "2026-09-21T19:28:37.558Z",
-      "excerpt": "xAIは、コーディング、エージェント処理、ナレッジワークを主用途とするフロンティアモデル「Grok 4.7」を公開しました。最大50万トークンのコンテキスト、画像入力、複数段階の推論強度、Web検索やコード実行などのツール利用を備え、長時間動作するAIエージ…",
-      "lead": "xAIは、コーディング、エージェント処理、ナレッジワークを主用途とするフロンティアモデル「Grok 4.7」を公開しました。最大50万トークンのコンテキスト、画像入力、複数段階の推論強度、Web検索やコード実行などのツール利用を備え、長時間動作するAIエージェントを意識した設計となっています。",
-      "headings": [
-        "Grok 4.7の主要仕様",
-        "長時間エージェントを支えるキャッシュ設計",
-        "暗号化されたReasoningを会話間で引き継ぐ",
-        "高速版とリージョナルAPI",
-        "今後の展望"
-      ],
-      "source_url": "https://docs.x.ai/developers/grok-4-7",
-      "source_urls": [
-        "https://docs.x.ai/developers/grok-4-7"
-      ],
-      "source_label": "docs.x.ai",
-      "cover": "assets/posts/1551676546987855903.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1417803120225816596/threads/1551676546987855903",
-      "first_seen": "2026-09-21T19:28:37.558Z",
-      "kind": "model",
-      "kind_confidence": 1
-    },
-    {
-      "id": "1551621185677033613",
-      "title": "V7、企業データを「AIの記憶」に変換 GPT-6 Astraで難関クエリ89％精度",
-      "channel": "open-ai",
-      "category": "Open AI",
-      "date": "2026-09-21T15:48:38.393Z",
-      "excerpt": "OpenAIは2026年9月21日、AIエージェント向けプラットフォームを展開するV7の導入事例を公開しました。V7は企業内の文書やデータを「Context Graph」と呼ぶ構造化された記憶に変換し、AIが毎回情報を探し直すことなく業務コンテキストを参照で…",
-      "lead": "OpenAIは2026年9月21日、AIエージェント向けプラットフォームを展開するV7の導入事例を公開しました。V7は企業内の文書やデータを「Context Graph」と呼ぶ構造化された記憶に変換し、AIが毎回情報を探し直すことなく業務コンテキストを参照できる仕組みを構築しています。最難関のグラフ検索テストではGPT-6 Astraが89％の精度を記録したとしています。",
-      "headings": [
-        "文書をRAGだけで探すのではなく「関係性」として保存",
-        "GPT-5.6とGPT-6を用途別に使い分け",
-        "コスト削減ではLunaが重要な役割",
-        "AIエージェント競争は「モデル性能」から「コンテキスト設計」へ",
-        "今後の展望"
-      ],
-      "source_url": "https://openai.com/index/v7/",
-      "source_urls": [
-        "https://openai.com/index/v7/"
-      ],
-      "source_label": "openai.com",
-      "cover": "assets/posts/1551621185677033613.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1551621185677033613",
-      "first_seen": "2026-09-21T15:48:38.393Z",
-      "kind": "adoption",
-      "kind_confidence": 0.98
-    },
-    {
-      "id": "1551220150265585704",
-      "title": "Qwen-Image-2.1公開、7Bで画像生成・編集・透過処理を統合",
-      "channel": "qwen",
-      "category": "Alibaba",
-      "date": "2026-09-20T13:15:04.100Z",
-      "excerpt": "AlibabaのQwenチームは2026年9月20日、画像生成モデル「Qwen-Image-2.1」をオープンソースで公開しました。最大の特徴は、画像生成、画像編集、透過画像の生成・編集を単一モデルに統合しながら、視覚生成部分を70億パラメータに抑えた点です…",
-      "lead": "AlibabaのQwenチームは2026年9月20日、画像生成モデル「Qwen-Image-2.1」をオープンソースで公開しました。最大の特徴は、画像生成、画像編集、透過画像の生成・編集を単一モデルに統合しながら、視覚生成部分を70億パラメータに抑えた点です。画質だけでなく、推論速度や計算コストを重視した実用志向の設計となっています。",
-      "headings": [
-        "7Bの軽量構成と推論効率を両立",
-        "透過画像をネイティブ対応、RGBA抽出も可能",
-        "最大10枚の参照画像を使った編集",
-        "人物や商品の一貫性も強化",
-        "タイポグラフィと人物表現も改善",
-        "今後の展望"
-      ],
-      "source_url": "https://qwen.ai/blog?id=qwen-image-2.1",
-      "source_label": "qwen.ai",
-      "cover": "assets/posts/1551220150265585704.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1419932032716243027/threads/1551220150265585704",
-      "first_seen": "2026-09-20T13:15:04.100Z",
-      "kind": "model",
-      "kind_confidence": 1,
-      "source_urls": [
-        "https://qwen.ai/blog?id=qwen-image-2.1"
-      ]
-    },
-    {
-      "id": "1551041990320197763",
-      "title": "TypeSafe AI「Jev」公開、LLMとは異なる高速・型安全なAIモデルを提案",
-      "channel": "その他",
-      "category": "その他",
-      "date": "2026-09-20T01:27:07.459Z",
-      "excerpt": "TypeSafe AIは2026年9月15日、新しいモデル群「System One Models」と、その最初の公開モデル「Jev」を発表しました。文章生成を中心とする従来のLLMとは異なり、Jevはソフトウェアが直接利用できる「型付きの確率的判断」を高速に…",
-      "lead": "TypeSafe AIは2026年9月15日、新しいモデル群「System One Models」と、その最初の公開モデル「Jev」を発表しました。文章生成を中心とする従来のLLMとは異なり、Jevはソフトウェアが直接利用できる「型付きの確率的判断」を高速に返すことへ特化しています。現在はアーリーアクセスとして提供されています。",
-      "headings": [
-        "「文章を生成しない」AIモデル",
-        "並列出力と独自学習「RLCD」",
-        "最大200倍級の高速化を主張",
-        "LLMの代替ではなく「AI版if文」",
-        "今後の展望"
-      ],
-      "source_url": "https://typesafe.ai/blog/introducing-system-one-models-and-jev",
-      "source_label": "typesafe.ai",
-      "cover": "assets/posts/1551041990320197763.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1551041990320197763",
-      "first_seen": "2026-09-20T01:27:07.459Z",
-      "kind": "model",
-      "kind_confidence": 1,
-      "source_urls": [
-        "https://typesafe.ai/blog/introducing-system-one-models-and-jev"
-      ]
     }
   ]
 }
