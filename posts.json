@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T14:50:29.286Z",
+  "generated_at": "2026-09-22T18:51:53.355Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
@@ -23,7 +23,9 @@
       ],
       "source_label": "kimi.ai",
       "url": "https://discord.com/channels/1415350002255007784/1417459869341978704/threads/1551953272556880062",
-      "first_seen": "2026-09-22T13:48:14.075Z"
+      "first_seen": "2026-09-22T13:48:14.075Z",
+      "kind": "feature",
+      "kind_confidence": 0.7
     },
     {
       "id": "1551904621235019786",
@@ -47,7 +49,9 @@
       "source_label": "twitter.com",
       "cover": "assets/posts/1551904621235019786.webp",
       "url": "https://discord.com/channels/1415350002255007784/1460898443923820618/threads/1551904621235019786",
-      "first_seen": "2026-09-22T10:34:54.696Z"
+      "first_seen": "2026-09-22T10:34:54.696Z",
+      "kind": "model",
+      "kind_confidence": 1
     },
     {
       "id": "1551901948884815943",
@@ -69,7 +73,9 @@
       ],
       "source_label": "mimo.xiaomi.com",
       "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1551901948884815943",
-      "first_seen": "2026-09-22T10:24:17.558Z"
+      "first_seen": "2026-09-22T10:24:17.558Z",
+      "kind": "model",
+      "kind_confidence": 1
     },
     {
       "id": "1551678510894940271",
