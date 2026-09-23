@@ -1,9 +1,150 @@
 {
-  "generated_at": "2026-09-23T11:30:39.096Z",
+  "generated_at": "2026-09-23T16:54:44.601Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 228,
+  "count": 234,
   "posts": [
+    {
+      "id": "1552351526909907005",
+      "title": "リーク：謎の「Space Bunny Alpha」がOpenRouterとOpenCodeに出現、MiniMax M3.1の可能性",
+      "channel": "リーク情報",
+      "category": "リーク情報",
+      "date": "2026-09-23T16:10:45.312Z",
+      "excerpt": "OpenRouterとOpenCode上で、正体を伏せた新たなステルスAIモデル「Space Bunny Alpha」のテストが確認されています。現時点で開発元は公式に明かされていませんが、中国語でモデル自身に身元を尋ねるとMiniMax系モデルだと回答する…",
+      "lead": "OpenRouterとOpenCode上で、正体を伏せた新たなステルスAIモデル「Space Bunny Alpha」のテストが確認されています。現時点で開発元は公式に明かされていませんが、中国語でモデル自身に身元を尋ねるとMiniMax系モデルだと回答するとの報告があり、未発表の「MiniMax M3.1」ではないかとの推測が浮上しています。",
+      "headings": [
+        "100万トークン対応の大型ステルスモデル",
+        "OpenCodeでも「alpha-space-bunny-test」を確認",
+        "MiniMax M3.1説はまだ未確認",
+        "今後の展望"
+      ],
+      "source_url": "https://twitter.com/AiBattle_/status/2102775779054502289",
+      "source_urls": [
+        "https://twitter.com/AiBattle_/status/2102775779054502289",
+        "https://x.com/AiBattle_/status/2102775779054502289"
+      ],
+      "source_label": "twitter.com",
+      "cover": "assets/posts/1552351526909907005.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415534435712897124/threads/1552351526909907005",
+      "first_seen": "2026-09-23T16:10:45.312Z"
+    },
+    {
+      "id": "1552350346607853578",
+      "title": "Geminiが外部アプリ連携を大幅拡充、AdobeやLinear、Pelotonなどをチャットから操作へ",
+      "channel": "gemini",
+      "category": "Google",
+      "date": "2026-09-23T16:06:03.906Z",
+      "excerpt": "Googleは2026年9月23日、Geminiアプリで利用できる「Connected Apps」の対象を拡大すると発表しました。生産性、クリエイティブ、ライフスタイルの各分野にまたがる外部サービスをGeminiへ接続し、複数のタブやアプリを行き来せず、会話…",
+      "lead": "Googleは2026年9月23日、Geminiアプリで利用できる「Connected Apps」の対象を拡大すると発表しました。生産性、クリエイティブ、ライフスタイルの各分野にまたがる外部サービスをGeminiへ接続し、複数のタブやアプリを行き来せず、会話を起点に作業を進められる環境を目指します。",
+      "headings": [
+        "生産性からWeb制作まで連携対象を拡大",
+        "Geminiが「回答するAI」から作業の入口へ",
+        "今後の展望"
+      ],
+      "source_url": "https://blog.google/innovation-and-ai/products/gemini-app/new-connected-apps-gemini/",
+      "source_urls": [
+        "https://blog.google/innovation-and-ai/products/gemini-app/new-connected-apps-gemini/"
+      ],
+      "source_label": "blog.google",
+      "cover": "assets/posts/1552350346607853578.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1552350346607853578",
+      "first_seen": "2026-09-23T16:06:03.906Z"
+    },
+    {
+      "id": "1552350218710683658",
+      "title": "Google、クラウドAIに「安全な長期記憶」導入へ",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-09-23T16:05:33.413Z",
+      "excerpt": "Google DeepMindは2026年9月23日、Private AI Computeにサーバー側の永続メモリを導入する技術構想を発表しました。端末内処理に近いプライバシー水準を維持しながら、AIがデバイスをまたいで過去の文脈を保持できる仕組みを目指しま…",
+      "lead": "Google DeepMindは2026年9月23日、Private AI Computeにサーバー側の永続メモリを導入する技術構想を発表しました。端末内処理に近いプライバシー水準を維持しながら、AIがデバイスをまたいで過去の文脈を保持できる仕組みを目指します。",
+      "headings": [
+        "「ステートレス」だったクラウドAIを変える",
+        "復号鍵を端末側に置く設計",
+        "大規模モデルとプライバシーの両立を狙う",
+        "検証可能性も重視",
+        "今後の展望"
+      ],
+      "source_url": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
+      "source_urls": [
+        "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/"
+      ],
+      "source_label": "deepmind.google",
+      "cover": "assets/posts/1552350218710683658.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1552350218710683658",
+      "first_seen": "2026-09-23T16:05:33.413Z"
+    },
+    {
+      "id": "1552350037491843132",
+      "title": "Google「Gemini 3.8 TTS」発表、声を“選ぶ”AIから“設計する”AIへ",
+      "channel": "gemini",
+      "category": "Google",
+      "date": "2026-09-23T16:04:50.207Z",
+      "excerpt": "Googleは2026年9月23日、音声生成モデル「Gemini 3.8 Flash TTS」と「Gemini 3.8 Flash-Lite TTS」を発表しました。従来のプリセット音声を選択する方式から一歩進み、自然言語による声質設計、行単位の演技指示、長…",
+      "lead": "Googleは2026年9月23日、音声生成モデル「Gemini 3.8 Flash TTS」と「Gemini 3.8 Flash-Lite TTS」を発表しました。従来のプリセット音声を選択する方式から一歩進み、自然言語による声質設計、行単位の演技指示、長時間生成、2人の会話生成までを統合した音声制作基盤を目指しています。",
+      "headings": [
+        "FlashとFlash-Liteの役割",
+        "30秒の音声から声を再現",
+        "セリフ単位で「演技」を指示",
+        "ベンチマークでも音声設計を強化",
+        "開発者向け提供も開始",
+        "今後の展望"
+      ],
+      "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/",
+      "source_urls": [
+        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/"
+      ],
+      "source_label": "blog.google",
+      "cover": "assets/posts/1552350037491843132.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1552350037491843132",
+      "first_seen": "2026-09-23T16:04:50.207Z"
+    },
+    {
+      "id": "1552349867584651304",
+      "title": "OpenAI Academyが2周年、AI教育を「利用」から「地域で教える仕組み」へ拡張",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-09-23T16:04:09.698Z",
+      "excerpt": "OpenAIは2026年9月23日、AI活用教育プログラム「OpenAI Academy」の開始から2周年を迎えたと発表しました。2024年9月の開始以来、250回以上のイベントを開催し、Academyのコンテンツには400万人以上が触れています。今後は、地…",
+      "lead": "OpenAIは2026年9月23日、AI活用教育プログラム「OpenAI Academy」の開始から2周年を迎えたと発表しました。2024年9月の開始以来、250回以上のイベントを開催し、Academyのコンテンツには400万人以上が触れています。今後は、地域の人材がAI活用を教えられる体制づくりへと取り組みを広げます。",
+      "headings": [
+        "250回超のイベント、400万人以上がコンテンツを利用",
+        "職種別の学習経路を整備",
+        "「Community Trainer Program」で教育を分散化",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/two-years-of-openai-academy/",
+      "source_urls": [
+        "https://openai.com/index/two-years-of-openai-academy/"
+      ],
+      "source_label": "openai.com",
+      "cover": "assets/posts/1552349867584651304.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1552349867584651304",
+      "first_seen": "2026-09-23T16:04:09.698Z"
+    },
+    {
+      "id": "1552308859257888828",
+      "title": "OpenAI、ウクライナの民間インフラ防衛にAIサイバー技術を提供",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-09-23T13:21:12.551Z",
+      "excerpt": "OpenAIは2026年9月23日、ウクライナ政府にサイバー防御プログラム「Daybreak」へのアクセスを提供すると発表しました。ウクライナのデジタル変革省と協力し、病院、エネルギー、通信など民間インフラを狙うサイバー攻撃への防御能力強化を支援します。",
+      "lead": "OpenAIは2026年9月23日、ウクライナ政府にサイバー防御プログラム「Daybreak」へのアクセスを提供すると発表しました。ウクライナのデジタル変革省と協力し、病院、エネルギー、通信など民間インフラを狙うサイバー攻撃への防御能力強化を支援します。",
+      "headings": [
+        "脆弱性発見から修正検証までAIで支援",
+        "約6000件のサイバー事案に直面",
+        "欧州で先行するサイバー防御へのAI導入",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense/",
+      "source_urls": [
+        "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense/"
+      ],
+      "source_label": "openai.com",
+      "cover": "assets/posts/1552308859257888828.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1552308859257888828",
+      "first_seen": "2026-09-23T13:21:12.551Z"
+    },
     {
       "id": "1552277655481483274",
       "title": "Google「AI Max」が日本語対応へ、検索広告のAI運用を可視化する新レポートも発表",

@@ -5,8 +5,56 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 23 Sep 2026 11:17:12 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 23 Sep 2026 16:10:45 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>リーク：謎の「Space Bunny Alpha」がOpenRouterとOpenCodeに出現、MiniMax M3.1の可能性</title>
+      <link>https://discord.com/channels/1415350002255007784/1415534435712897124/threads/1552351526909907005</link>
+      <guid isPermaLink="false">afnjp-1552351526909907005</guid>
+      <pubDate>Wed, 23 Sep 2026 16:10:45 GMT</pubDate>
+      <category>リーク情報</category>
+      <description>OpenRouterとOpenCode上で、正体を伏せた新たなステルスAIモデル「Space Bunny Alpha」のテストが確認されています。現時点で開発元は公式に明かされていませんが、中国語でモデル自身に身元を尋ねるとMiniMax系モデルだと回答する…</description>
+    </item>
+    <item>
+      <title>Geminiが外部アプリ連携を大幅拡充、AdobeやLinear、Pelotonなどをチャットから操作へ</title>
+      <link>https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1552350346607853578</link>
+      <guid isPermaLink="false">afnjp-1552350346607853578</guid>
+      <pubDate>Wed, 23 Sep 2026 16:06:03 GMT</pubDate>
+      <category>gemini</category>
+      <description>Googleは2026年9月23日、Geminiアプリで利用できる「Connected Apps」の対象を拡大すると発表しました。生産性、クリエイティブ、ライフスタイルの各分野にまたがる外部サービスをGeminiへ接続し、複数のタブやアプリを行き来せず、会話…</description>
+    </item>
+    <item>
+      <title>Google、クラウドAIに「安全な長期記憶」導入へ</title>
+      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1552350218710683658</link>
+      <guid isPermaLink="false">afnjp-1552350218710683658</guid>
+      <pubDate>Wed, 23 Sep 2026 16:05:33 GMT</pubDate>
+      <category>google</category>
+      <description>Google DeepMindは2026年9月23日、Private AI Computeにサーバー側の永続メモリを導入する技術構想を発表しました。端末内処理に近いプライバシー水準を維持しながら、AIがデバイスをまたいで過去の文脈を保持できる仕組みを目指しま…</description>
+    </item>
+    <item>
+      <title>Google「Gemini 3.8 TTS」発表、声を“選ぶ”AIから“設計する”AIへ</title>
+      <link>https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1552350037491843132</link>
+      <guid isPermaLink="false">afnjp-1552350037491843132</guid>
+      <pubDate>Wed, 23 Sep 2026 16:04:50 GMT</pubDate>
+      <category>gemini</category>
+      <description>Googleは2026年9月23日、音声生成モデル「Gemini 3.8 Flash TTS」と「Gemini 3.8 Flash-Lite TTS」を発表しました。従来のプリセット音声を選択する方式から一歩進み、自然言語による声質設計、行単位の演技指示、長…</description>
+    </item>
+    <item>
+      <title>OpenAI Academyが2周年、AI教育を「利用」から「地域で教える仕組み」へ拡張</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1552349867584651304</link>
+      <guid isPermaLink="false">afnjp-1552349867584651304</guid>
+      <pubDate>Wed, 23 Sep 2026 16:04:09 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIは2026年9月23日、AI活用教育プログラム「OpenAI Academy」の開始から2周年を迎えたと発表しました。2024年9月の開始以来、250回以上のイベントを開催し、Academyのコンテンツには400万人以上が触れています。今後は、地…</description>
+    </item>
+    <item>
+      <title>OpenAI、ウクライナの民間インフラ防衛にAIサイバー技術を提供</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1552308859257888828</link>
+      <guid isPermaLink="false">afnjp-1552308859257888828</guid>
+      <pubDate>Wed, 23 Sep 2026 13:21:12 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIは2026年9月23日、ウクライナ政府にサイバー防御プログラム「Daybreak」へのアクセスを提供すると発表しました。ウクライナのデジタル変革省と協力し、病院、エネルギー、通信など民間インフラを狙うサイバー攻撃への防御能力強化を支援します。</description>
+    </item>
     <item>
       <title>Google「AI Max」が日本語対応へ、検索広告のAI運用を可視化する新レポートも発表</title>
       <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1552277655481483274</link>
@@ -54,54 +102,6 @@
       <pubDate>Tue, 22 Sep 2026 20:28:20 GMT</pubDate>
       <category>chatgpt</category>
       <description>OpenAIは2026年9月22日、GPT-6向けの新しいプロンプトキャッシュ機構を発表しました。キャッシュヒット率の向上に加え、監視ダッシュボード、キャッシュミス診断、明示的なキャッシュ境界、プリウォームなどを導入し、長時間動作するAIエージェントの高速化…</description>
-    </item>
-    <item>
-      <title>Google ColabがGoogle AIプランに統合、GPUやバックグラウンド実行を強化</title>
-      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1552030210482774146</link>
-      <guid isPermaLink="false">afnjp-1552030210482774146</guid>
-      <pubDate>Tue, 22 Sep 2026 18:53:57 GMT</pubDate>
-      <category>google</category>
-      <description>Googleは2026年9月22日、Google AIプランの加入者向けに、Google Colabのプレミアム特典を提供すると発表しました。高速アクセラレータや高性能マシンへの優先アクセスが含まれ、特にGoogle AI UltraではPremium GP…</description>
-    </item>
-    <item>
-      <title>OpenAI「GPT-6 Sol／Luna」発表、性能向上と大幅な低価格化を両立</title>
-      <link>https://discord.com/channels/1415350002255007784/1415353131604377641/threads/1552030044946305114</link>
-      <guid isPermaLink="false">afnjp-1552030044946305114</guid>
-      <pubDate>Tue, 22 Sep 2026 18:53:18 GMT</pubDate>
-      <category>chatgpt</category>
-      <description>OpenAIは、GPT-6ファミリーの新モデル「GPT-6 Sol」と「GPT-6 Luna」を発表しました。最上位のGPT-6 Astraで導入した技術を、より高速かつ低コストなモデルへ展開し、業務自動化、コーディング、Computer Use、長時間稼働…</description>
-    </item>
-    <item>
-      <title>OpenAI、AI安全性の「第三者評価」原則を提示 安全主張そのものを独立検証へ</title>
-      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1552029939140919366</link>
-      <guid isPermaLink="false">afnjp-1552029939140919366</guid>
-      <pubDate>Tue, 22 Sep 2026 18:52:52 GMT</pubDate>
-      <category>open-ai</category>
-      <description>OpenAIは2026年9月22日、フロンティアAIの安全性を独立した第三者が評価するための優先領域と原則を公開しました。単純なベンチマーク評価ではなく、訓練、評価、社内利用、外部展開まで含め、安全対策の根拠そのものを検証可能にする構想です。</description>
-    </item>
-    <item>
-      <title>Anthropic「Claude Opus 5.5」発表、性能だけでなくコスト効率と安全性を大幅強化</title>
-      <link>https://discord.com/channels/1415350002255007784/1415353403269185546/threads/1552029845037256824</link>
-      <guid isPermaLink="false">afnjp-1552029845037256824</guid>
-      <pubDate>Tue, 22 Sep 2026 18:52:30 GMT</pubDate>
-      <category>claude</category>
-      <description>Anthropicは2026年9月22日、新世代「Claude 5.5」ファミリーの最初のモデルとなる「Claude Opus 5.5」を発表しました。複雑なコーディングや知識労働、コンピューター操作を強化する一方、Opus 5比で標準的なワークロードの実行…</description>
-    </item>
-    <item>
-      <title>Kimi Browser Extension登場、AIエージェントがChromeやEdgeを直接操作</title>
-      <link>https://discord.com/channels/1415350002255007784/1417459869341978704/threads/1551953272556880062</link>
-      <guid isPermaLink="false">afnjp-1551953272556880062</guid>
-      <pubDate>Tue, 22 Sep 2026 13:48:14 GMT</pubDate>
-      <category>kimi</category>
-      <description>Moonshot AIのKimiは、AIエージェントからWebブラウザを操作できる「Kimi Browser Extension」を提供しています。旧称「Kimi WebBridge」を刷新したもので、ページ閲覧からクリック、フォーム入力、情報抽出まで、人間…</description>
-    </item>
-    <item>
-      <title>Tencent「Hy Image3.5」プレビュー公開、画像生成を1枚0.024ドルで提供</title>
-      <link>https://discord.com/channels/1415350002255007784/1460898443923820618/threads/1551904621235019786</link>
-      <guid isPermaLink="false">afnjp-1551904621235019786</guid>
-      <pubDate>Tue, 22 Sep 2026 10:34:54 GMT</pubDate>
-      <category>hunyuan</category>
-      <description>Tencent Hunyuanは、画像生成モデル「Hy Image3.5」のプレビュー提供を開始しました。Hy Image3.0との人間評価では勝率が30％向上したとし、テキストからの画像生成と画像を参照した生成の両方に対応します。Tencent Cloud…</description>
     </item>
   </channel>
 </rss>
