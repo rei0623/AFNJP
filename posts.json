@@ -1,8 +1,31 @@
 {
-  "generated_at": "2026-09-23T00:30:29.311Z",
+  "generated_at": "2026-09-23T05:56:48.904Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1552141440216342578",
+      "title": "GPT-6 Astra、ParallelのAI調査を時間・コストともに半減",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-09-23T02:15:56.741Z",
+      "excerpt": "OpenAIは2026年9月22日、AIエージェント向けWeb調査基盤を開発するParallelが「GPT-6 Astra」を導入し、長時間のリサーチ処理を従来モデル比で約2倍高速化した事例を公開しました。コード実行関連のコストも約50％削減しながら、同等品…",
+      "lead": "OpenAIは2026年9月22日、AIエージェント向けWeb調査基盤を開発するParallelが「GPT-6 Astra」を導入し、長時間のリサーチ処理を従来モデル比で約2倍高速化した事例を公開しました。コード実行関連のコストも約50％削減しながら、同等品質の調査結果を維持したとしています。",
+      "headings": [
+        "6カ月分の市場調査を半分の時間で処理",
+        "効率化の鍵は「少ない検索で答えに近づく」能力",
+        "マルチエージェント構成にも追い風",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/parallel-cuts-time-and-cost-with-astra/",
+      "source_urls": [
+        "https://openai.com/index/parallel-cuts-time-and-cost-with-astra/"
+      ],
+      "source_label": "openai.com",
+      "cover": "assets/posts/1552141440216342578.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1552141440216342578",
+      "first_seen": "2026-09-23T02:15:56.741Z"
+    },
     {
       "id": "1552053961014513696",
       "title": "GPT-6、プロンプトキャッシュを強化 長時間AIエージェントのコストと遅延を削減",
@@ -280,31 +303,6 @@
       "first_seen": "2026-09-21T19:29:41.582Z",
       "kind": "business",
       "kind_confidence": 0.83
-    },
-    {
-      "id": "1551676723387432990",
-      "title": "OpenAI、数学AIの独立諮問グループ設立 新モデルが100超の未解決問題を解決と発表",
-      "channel": "open-ai",
-      "category": "Open AI",
-      "date": "2026-09-21T19:29:19.615Z",
-      "excerpt": "OpenAIは2026年9月21日、数学と人工知能の関係を検討する独立組織「Advisory Group on Mathematics and Artificial Intelligence」の設立を発表しました。同社によると、8月28日に訓練を開始した新た…",
-      "lead": "OpenAIは2026年9月21日、数学と人工知能の関係を検討する独立組織「Advisory Group on Mathematics and Artificial Intelligence」の設立を発表しました。同社によると、8月28日に訓練を開始した新たな社内モデルが、ナビエ–ストークス方程式に関するミレニアム懸賞問題を含め、数学の幅広い分野で100件を超える長年の未解決問題を解決したとしています。0",
-      "headings": [
-        "数学AIの進歩をどう公開するか",
-        "OpenAIから独立した組織設計",
-        "著名数学者が参加",
-        "今後の展望"
-      ],
-      "source_url": "https://openai.com/index/advisory-group-on-mathematics-and-ai/",
-      "source_urls": [
-        "https://openai.com/index/advisory-group-on-mathematics-and-ai/"
-      ],
-      "source_label": "openai.com",
-      "cover": "assets/posts/1551676723387432990.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1551676723387432990",
-      "first_seen": "2026-09-21T19:29:19.615Z",
-      "kind": "business",
-      "kind_confidence": 0.63
     }
   ]
 }
