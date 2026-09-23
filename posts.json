@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-22T22:06:02.042Z",
+  "generated_at": "2026-09-23T00:30:29.311Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
@@ -25,7 +25,9 @@
       "source_label": "openai.com",
       "cover": "assets/posts/1552053961014513696.webp",
       "url": "https://discord.com/channels/1415350002255007784/1415353131604377641/threads/1552053961014513696",
-      "first_seen": "2026-09-22T20:28:20.074Z"
+      "first_seen": "2026-09-22T20:28:20.074Z",
+      "kind": "feature",
+      "kind_confidence": 0.7
     },
     {
       "id": "1552030210482774146",
@@ -48,7 +50,9 @@
       "source_label": "developers.googleblog.com",
       "cover": "assets/posts/1552030210482774146.webp",
       "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1552030210482774146",
-      "first_seen": "2026-09-22T18:53:57.506Z"
+      "first_seen": "2026-09-22T18:53:57.506Z",
+      "kind": "feature",
+      "kind_confidence": 0.98
     },
     {
       "id": "1552030044946305114",
@@ -72,7 +76,9 @@
       "source_label": "openai.com",
       "cover": "assets/posts/1552030044946305114.webp",
       "url": "https://discord.com/channels/1415350002255007784/1415353131604377641/threads/1552030044946305114",
-      "first_seen": "2026-09-22T18:53:18.039Z"
+      "first_seen": "2026-09-22T18:53:18.039Z",
+      "kind": "model",
+      "kind_confidence": 1
     },
     {
       "id": "1552029939140919366",
@@ -95,7 +101,9 @@
       "source_label": "openai.com",
       "cover": "assets/posts/1552029939140919366.webp",
       "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1552029939140919366",
-      "first_seen": "2026-09-22T18:52:52.813Z"
+      "first_seen": "2026-09-22T18:52:52.813Z",
+      "kind": "policy",
+      "kind_confidence": 1
     },
     {
       "id": "1552029845037256824",
@@ -119,7 +127,9 @@
       "source_label": "anthropic.com",
       "cover": "assets/posts/1552029845037256824.webp",
       "url": "https://discord.com/channels/1415350002255007784/1415353403269185546/threads/1552029845037256824",
-      "first_seen": "2026-09-22T18:52:30.377Z"
+      "first_seen": "2026-09-22T18:52:30.377Z",
+      "kind": "model",
+      "kind_confidence": 1
     },
     {
       "id": "1551953272556880062",
