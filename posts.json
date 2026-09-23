@@ -1,8 +1,100 @@
 {
-  "generated_at": "2026-09-23T05:56:48.904Z",
+  "generated_at": "2026-09-23T11:30:39.098Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1552277655481483274",
+      "title": "Google「AI Max」が日本語対応へ、検索広告のAI運用を可視化する新レポートも発表",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-09-23T11:17:12.991Z",
+      "excerpt": "Googleは2026年9月23日、Google Adsの「AI Max」に関する新機能を発表しました。広告運用を自然言語で制御する「AI Brief」の対応言語を日本語を含む7言語へ拡大するとともに、AIが検索広告をどのように配信したのかを追跡できる新しい…",
+      "lead": "Googleは2026年9月23日、Google Adsの「AI Max」に関する新機能を発表しました。広告運用を自然言語で制御する「AI Brief」の対応言語を日本語を含む7言語へ拡大するとともに、AIが検索広告をどのように配信したのかを追跡できる新しいレポート機能を導入します。",
+      "headings": [
+        "AI Briefが日本語を含む7言語に拡大",
+        "AIが生成した広告配信経路を一画面で確認",
+        "企業のAI広告運用にも重要な変化",
+        "今後の展望"
+      ],
+      "source_url": "https://blog.google/products/ads-commerce/ai-max-language-reporting-features/",
+      "source_urls": [
+        "https://blog.google/products/ads-commerce/ai-max-language-reporting-features/"
+      ],
+      "source_label": "blog.google",
+      "cover": "assets/posts/1552277655481483274.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1552277655481483274",
+      "first_seen": "2026-09-23T11:17:12.991Z"
+    },
+    {
+      "id": "1552275964107554826",
+      "title": "OpenAIとGrab、東南アジア3万人に実践AIスキルを展開",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-09-23T11:10:29.736Z",
+      "excerpt": "OpenAIとGrabは2026年9月23日、東南アジアのGrabドライバー、配達員、加盟店向けAI教育プログラム「GO Forward with AI」を開始しました。今後2年間で3万人を対象に、ChatGPTを業務や事業運営へ実践的に活用するスキルの習得…",
+      "lead": "OpenAIとGrabは2026年9月23日、東南アジアのGrabドライバー、配達員、加盟店向けAI教育プログラム「GO Forward with AI」を開始しました。今後2年間で3万人を対象に、ChatGPTを業務や事業運営へ実践的に活用するスキルの習得を支援します。",
+      "headings": [
+        "シンガポールから6カ国へ展開",
+        "AIを「質問ツール」から業務実行へ",
+        "既存のDriver AI Assistantから一段拡大",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/grab-openai-ai-skills-southeast-asia/",
+      "source_urls": [
+        "https://openai.com/index/grab-openai-ai-skills-southeast-asia/"
+      ],
+      "source_label": "openai.com",
+      "cover": "assets/posts/1552275964107554826.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1552275964107554826",
+      "first_seen": "2026-09-23T11:10:29.736Z"
+    },
+    {
+      "id": "1552247100841000960",
+      "title": "Qwen-Audio-3.1-TTS公開、低遅延と高度な音声制御を両立",
+      "channel": "qwen",
+      "category": "Alibaba",
+      "date": "2026-09-23T09:15:48.197Z",
+      "excerpt": "Alibaba Token Foundryは、実運用を意識した音声合成システム「Qwen-Audio-3.1-TTS」を公開しました。低フレームレートの音声トークナイザーと多段階学習を組み合わせ、話者再現、感情表現、多言語、長文生成、ノイズ耐性までを一つのモ…",
+      "lead": "Alibaba Token Foundryは、実運用を意識した音声合成システム「Qwen-Audio-3.1-TTS」を公開しました。低フレームレートの音声トークナイザーと多段階学習を組み合わせ、話者再現、感情表現、多言語、長文生成、ノイズ耐性までを一つのモデルで強化しています。",
+      "headings": [
+        "12.5Hzトークナイザーで推論負荷を削減",
+        "自然言語で声を指示、86種類の細粒度タグにも対応",
+        "16言語、20の中国語方言、最大3分の一括生成",
+        "実環境を意識したノイズ耐性",
+        "今後の展望"
+      ],
+      "source_url": "https://fun-resource-shanghai.oss-cn-shanghai.aliyuncs.com/cuijiayan.cjy/tmp/exp/qwen_audio_3_tts_blog_review_260918/index.shtml?Expires=2105366399&OSSAccessKeyId=LTAI5tQrCBwj82sVMCWoSmzE&Signature=9ZaZIEahoN41Zb9MFJjf34G%2BSCM%3D",
+      "source_urls": [
+        "https://fun-resource-shanghai.oss-cn-shanghai.aliyuncs.com/cuijiayan.cjy/tmp/exp/qwen_audio_3_tts_blog_review_260918/index.shtml?Expires=2105366399&OSSAccessKeyId=LTAI5tQrCBwj82sVMCWoSmzE&Signature=9ZaZIEahoN41Zb9MFJjf34G%2BSCM%3D"
+      ],
+      "source_label": "fun-resource-shanghai.oss-cn-shanghai.aliyuncs.com",
+      "url": "https://discord.com/channels/1415350002255007784/1419932032716243027/threads/1552247100841000960",
+      "first_seen": "2026-09-23T09:15:48.197Z"
+    },
+    {
+      "id": "1552223955417432114",
+      "title": "Jev-Omni公開、文章・画像・音声・動画を確率で判定する12Bマルチモーダルモデル",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-09-23T07:43:49.898Z",
+      "excerpt": "Hugging Faceで「Jev-Omni」が公開されています。Jev-Omniは、文章を生成して回答する一般的なチャットAIとは異なり、質問と複数の選択肢を受け取り、それぞれが正しい確率を返すマルチモーダル意思決定分類器です。テキスト、画像、音声、動画の…",
+      "lead": "Hugging Faceで「Jev-Omni」が公開されています。Jev-Omniは、文章を生成して回答する一般的なチャットAIとは異なり、質問と複数の選択肢を受け取り、それぞれが正しい確率を返すマルチモーダル意思決定分類器です。テキスト、画像、音声、動画の4種類を扱い、Gemma 4 12B ITを基盤として3万問規模のファインチューニングが行われています。",
+      "headings": [
+        "「生成」ではなく選択肢を確率化",
+        "ベンチマークではDecisionBenchで87.57%",
+        "GPU推論を前提、動画は16フレーム",
+        "今後の展望"
+      ],
+      "source_url": "https://huggingface.co/akhilaaa3/Jev-Omni",
+      "source_urls": [
+        "https://huggingface.co/akhilaaa3/Jev-Omni"
+      ],
+      "source_label": "huggingface.co",
+      "cover": "assets/posts/1552223955417432114.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1552223955417432114",
+      "first_seen": "2026-09-23T07:43:49.898Z"
+    },
     {
       "id": "1552141440216342578",
       "title": "GPT-6 Astra、ParallelのAI調査を時間・コストともに半減",
@@ -203,106 +295,6 @@
       "first_seen": "2026-09-22T10:34:54.696Z",
       "kind": "model",
       "kind_confidence": 1
-    },
-    {
-      "id": "1551901948884815943",
-      "title": "Xiaomiが「MiMo-V2.6」公開、75万軌跡の大規模RLでオープンモデルを強化",
-      "channel": "その他",
-      "category": "その他",
-      "date": "2026-09-22T10:24:17.558Z",
-      "excerpt": "Xiaomiは2026年9月22日、ネイティブ・オムニモーダルAI「MiMo-V2.6」シリーズを公開しました。高性能版「MiMo-V2.6-Pro」と効率重視の「MiMo-V2.6-Flash」に加え、Proと同等品質で最大20倍の出力速度をうたう「MiM…",
-      "lead": "Xiaomiは2026年9月22日、ネイティブ・オムニモーダルAI「MiMo-V2.6」シリーズを公開しました。高性能版「MiMo-V2.6-Pro」と効率重視の「MiMo-V2.6-Flash」に加え、Proと同等品質で最大20倍の出力速度をうたう「MiMo-V2.6-Pro-UltraSpeed」も展開します。モデルだけでなく、強化学習（RL）のコードや学習環境までオープンソース化する点が大きな特徴です。",
-      "headings": [
-        "約75万軌跡を使いRLをスケール",
-        "コーディングから「Vibe World」へ",
-        "性能とコストの両立を狙う",
-        "今後の展望"
-      ],
-      "source_url": "https://mimo.xiaomi.com/mimo-v2-6",
-      "source_urls": [
-        "https://mimo.xiaomi.com/mimo-v2-6"
-      ],
-      "source_label": "mimo.xiaomi.com",
-      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1551901948884815943",
-      "first_seen": "2026-09-22T10:24:17.558Z",
-      "kind": "model",
-      "kind_confidence": 1
-    },
-    {
-      "id": "1551678510894940271",
-      "title": "Google「Googlebook」予約開始、Geminiを中核に据えた新世代ノートPC",
-      "channel": "google",
-      "category": "Google",
-      "date": "2026-09-21T19:36:25.790Z",
-      "excerpt": "Googleは、Gemini Intelligenceを中核に設計した新カテゴリーのノートPC「Googlebook」の予約受付を開始しました。価格は899ドルから。Intel Core UltraまたはSnapdragon X Eliteを搭載し、Andr…",
-      "lead": "Googleは、Gemini Intelligenceを中核に設計した新カテゴリーのノートPC「Googlebook」の予約受付を開始しました。価格は899ドルから。Intel Core UltraまたはSnapdragon X Eliteを搭載し、Androidアプリ、生成AI、スマートフォン連携をPC体験に統合します。",
-      "headings": [
-        "GeminiがOS操作に入り込む設計",
-        "Androidスマートフォンとの境界を縮小",
-        "5社から展開、899ドルから",
-        "AI PC市場への新しいアプローチ",
-        "今後の展望"
-      ],
-      "source_url": "https://googlebook.google/",
-      "source_urls": [
-        "https://googlebook.google/"
-      ],
-      "source_label": "googlebook.google",
-      "cover": "assets/posts/1551678510894940271.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1551678510894940271",
-      "first_seen": "2026-09-21T19:36:25.790Z",
-      "kind": "model",
-      "kind_confidence": 1
-    },
-    {
-      "id": "1551676919064567840",
-      "title": "GKE「Pod snapshots」登場、GPUメモリごと保存しAI起動時間を最大89％短縮",
-      "channel": "google",
-      "category": "Google",
-      "date": "2026-09-21T19:30:06.268Z",
-      "excerpt": "Google Cloudは2026年9月21日、Google Kubernetes Engine（GKE）向けの新機能「Pod snapshots」を発表しました。実行中PodのCPUメモリやGPUメモリを含む状態を保存し、必要になった時点で復元することで、…",
-      "lead": "Google Cloudは2026年9月21日、Google Kubernetes Engine（GKE）向けの新機能「Pod snapshots」を発表しました。実行中PodのCPUメモリやGPUメモリを含む状態を保存し、必要になった時点で復元することで、AI推論やエージェント用サンドボックスのコールドスタートを大幅に短縮します。",
-      "headings": [
-        "「再起動」ではなく「再開」する仕組み",
-        "AIエージェントのサンドボックスにも有効",
-        "Kubernetesの宣言的運用に統合",
-        "今後の展望"
-      ],
-      "source_url": "https://cloud.google.com/blog/products/containers-kubernetes/gke-pod-snapshots/?hl=en",
-      "source_urls": [
-        "https://cloud.google.com/blog/products/containers-kubernetes/gke-pod-snapshots/?hl=en"
-      ],
-      "source_label": "cloud.google.com",
-      "cover": "assets/posts/1551676919064567840.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1551676919064567840",
-      "first_seen": "2026-09-21T19:30:06.268Z",
-      "kind": "feature",
-      "kind_confidence": 1
-    },
-    {
-      "id": "1551676815523975199",
-      "title": "Google、教育者向けAI研修を拡大 Digital Promiseに400万ドル支援",
-      "channel": "google",
-      "category": "Google",
-      "date": "2026-09-21T19:29:41.582Z",
-      "excerpt": "Google.orgは2026年9月21日、教育分野の非営利団体Digital Promiseに400万ドルを拠出し、米国の教師や大学教員が実践的なAIスキルを無料で学べる取り組みを拡大すると発表しました。",
-      "lead": "Google.orgは2026年9月21日、教育分野の非営利団体Digital Promiseに400万ドルを拠出し、米国の教師や大学教員が実践的なAIスキルを無料で学べる取り組みを拡大すると発表しました。",
-      "headings": [
-        "600万人の教育者を対象にAI研修",
-        "学校単位から教育システム全体へ展開",
-        "AI導入の焦点は「ツール」から「運用能力」へ",
-        "今後の展望"
-      ],
-      "source_url": "https://blog.google/products-and-platforms/products/education/digital-promise/",
-      "source_urls": [
-        "https://blog.google/products-and-platforms/products/education/digital-promise/"
-      ],
-      "source_label": "blog.google",
-      "cover": "assets/posts/1551676815523975199.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1551676815523975199",
-      "first_seen": "2026-09-21T19:29:41.582Z",
-      "kind": "business",
-      "kind_confidence": 0.83
     }
   ]
 }

@@ -5,8 +5,40 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 23 Sep 2026 02:15:56 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 23 Sep 2026 11:17:12 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Google「AI Max」が日本語対応へ、検索広告のAI運用を可視化する新レポートも発表</title>
+      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1552277655481483274</link>
+      <guid isPermaLink="false">afnjp-1552277655481483274</guid>
+      <pubDate>Wed, 23 Sep 2026 11:17:12 GMT</pubDate>
+      <category>google</category>
+      <description>Googleは2026年9月23日、Google Adsの「AI Max」に関する新機能を発表しました。広告運用を自然言語で制御する「AI Brief」の対応言語を日本語を含む7言語へ拡大するとともに、AIが検索広告をどのように配信したのかを追跡できる新しい…</description>
+    </item>
+    <item>
+      <title>OpenAIとGrab、東南アジア3万人に実践AIスキルを展開</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1552275964107554826</link>
+      <guid isPermaLink="false">afnjp-1552275964107554826</guid>
+      <pubDate>Wed, 23 Sep 2026 11:10:29 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIとGrabは2026年9月23日、東南アジアのGrabドライバー、配達員、加盟店向けAI教育プログラム「GO Forward with AI」を開始しました。今後2年間で3万人を対象に、ChatGPTを業務や事業運営へ実践的に活用するスキルの習得…</description>
+    </item>
+    <item>
+      <title>Qwen-Audio-3.1-TTS公開、低遅延と高度な音声制御を両立</title>
+      <link>https://discord.com/channels/1415350002255007784/1419932032716243027/threads/1552247100841000960</link>
+      <guid isPermaLink="false">afnjp-1552247100841000960</guid>
+      <pubDate>Wed, 23 Sep 2026 09:15:48 GMT</pubDate>
+      <category>qwen</category>
+      <description>Alibaba Token Foundryは、実運用を意識した音声合成システム「Qwen-Audio-3.1-TTS」を公開しました。低フレームレートの音声トークナイザーと多段階学習を組み合わせ、話者再現、感情表現、多言語、長文生成、ノイズ耐性までを一つのモ…</description>
+    </item>
+    <item>
+      <title>Jev-Omni公開、文章・画像・音声・動画を確率で判定する12Bマルチモーダルモデル</title>
+      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1552223955417432114</link>
+      <guid isPermaLink="false">afnjp-1552223955417432114</guid>
+      <pubDate>Wed, 23 Sep 2026 07:43:49 GMT</pubDate>
+      <category>その他</category>
+      <description>Hugging Faceで「Jev-Omni」が公開されています。Jev-Omniは、文章を生成して回答する一般的なチャットAIとは異なり、質問と複数の選択肢を受け取り、それぞれが正しい確率を返すマルチモーダル意思決定分類器です。テキスト、画像、音声、動画の…</description>
+    </item>
     <item>
       <title>GPT-6 Astra、ParallelのAI調査を時間・コストともに半減</title>
       <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1552141440216342578</link>
@@ -70,38 +102,6 @@
       <pubDate>Tue, 22 Sep 2026 10:34:54 GMT</pubDate>
       <category>hunyuan</category>
       <description>Tencent Hunyuanは、画像生成モデル「Hy Image3.5」のプレビュー提供を開始しました。Hy Image3.0との人間評価では勝率が30％向上したとし、テキストからの画像生成と画像を参照した生成の両方に対応します。Tencent Cloud…</description>
-    </item>
-    <item>
-      <title>Xiaomiが「MiMo-V2.6」公開、75万軌跡の大規模RLでオープンモデルを強化</title>
-      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1551901948884815943</link>
-      <guid isPermaLink="false">afnjp-1551901948884815943</guid>
-      <pubDate>Tue, 22 Sep 2026 10:24:17 GMT</pubDate>
-      <category>その他</category>
-      <description>Xiaomiは2026年9月22日、ネイティブ・オムニモーダルAI「MiMo-V2.6」シリーズを公開しました。高性能版「MiMo-V2.6-Pro」と効率重視の「MiMo-V2.6-Flash」に加え、Proと同等品質で最大20倍の出力速度をうたう「MiM…</description>
-    </item>
-    <item>
-      <title>Google「Googlebook」予約開始、Geminiを中核に据えた新世代ノートPC</title>
-      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1551678510894940271</link>
-      <guid isPermaLink="false">afnjp-1551678510894940271</guid>
-      <pubDate>Mon, 21 Sep 2026 19:36:25 GMT</pubDate>
-      <category>google</category>
-      <description>Googleは、Gemini Intelligenceを中核に設計した新カテゴリーのノートPC「Googlebook」の予約受付を開始しました。価格は899ドルから。Intel Core UltraまたはSnapdragon X Eliteを搭載し、Andr…</description>
-    </item>
-    <item>
-      <title>GKE「Pod snapshots」登場、GPUメモリごと保存しAI起動時間を最大89％短縮</title>
-      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1551676919064567840</link>
-      <guid isPermaLink="false">afnjp-1551676919064567840</guid>
-      <pubDate>Mon, 21 Sep 2026 19:30:06 GMT</pubDate>
-      <category>google</category>
-      <description>Google Cloudは2026年9月21日、Google Kubernetes Engine（GKE）向けの新機能「Pod snapshots」を発表しました。実行中PodのCPUメモリやGPUメモリを含む状態を保存し、必要になった時点で復元することで、…</description>
-    </item>
-    <item>
-      <title>Google、教育者向けAI研修を拡大 Digital Promiseに400万ドル支援</title>
-      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1551676815523975199</link>
-      <guid isPermaLink="false">afnjp-1551676815523975199</guid>
-      <pubDate>Mon, 21 Sep 2026 19:29:41 GMT</pubDate>
-      <category>google</category>
-      <description>Google.orgは2026年9月21日、教育分野の非営利団体Digital Promiseに400万ドルを拠出し、米国の教師や大学教員が実践的なAIスキルを無料で学べる取り組みを拡大すると発表しました。</description>
     </item>
   </channel>
 </rss>
