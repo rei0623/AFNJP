@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-23T23:39:45.334Z",
+  "generated_at": "2026-09-24T04:45:23.511Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
@@ -25,7 +25,9 @@
       "source_label": "twitter.com",
       "cover": "assets/posts/1552351526909907005.webp",
       "url": "https://discord.com/channels/1415350002255007784/1415534435712897124/threads/1552351526909907005",
-      "first_seen": "2026-09-23T16:10:45.312Z"
+      "first_seen": "2026-09-23T16:10:45.312Z",
+      "kind": "model",
+      "kind_confidence": 0.96
     },
     {
       "id": "1552350346607853578",
@@ -47,7 +49,9 @@
       "source_label": "blog.google",
       "cover": "assets/posts/1552350346607853578.webp",
       "url": "https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1552350346607853578",
-      "first_seen": "2026-09-23T16:06:03.906Z"
+      "first_seen": "2026-09-23T16:06:03.906Z",
+      "kind": "feature",
+      "kind_confidence": 1
     },
     {
       "id": "1552350218710683658",
@@ -71,7 +75,9 @@
       "source_label": "deepmind.google",
       "cover": "assets/posts/1552350218710683658.webp",
       "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1552350218710683658",
-      "first_seen": "2026-09-23T16:05:33.413Z"
+      "first_seen": "2026-09-23T16:05:33.413Z",
+      "kind": "feature",
+      "kind_confidence": 0.71
     },
     {
       "id": "1552350037491843132",
@@ -96,7 +102,9 @@
       "source_label": "blog.google",
       "cover": "assets/posts/1552350037491843132.webp",
       "url": "https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1552350037491843132",
-      "first_seen": "2026-09-23T16:04:50.207Z"
+      "first_seen": "2026-09-23T16:04:50.207Z",
+      "kind": "model",
+      "kind_confidence": 0.99
     },
     {
       "id": "1552349867584651304",
@@ -119,7 +127,9 @@
       "source_label": "openai.com",
       "cover": "assets/posts/1552349867584651304.webp",
       "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1552349867584651304",
-      "first_seen": "2026-09-23T16:04:09.698Z"
+      "first_seen": "2026-09-23T16:04:09.698Z",
+      "kind": "feature",
+      "kind_confidence": 0.87
     },
     {
       "id": "1552308859257888828",
@@ -142,7 +152,9 @@
       "source_label": "openai.com",
       "cover": "assets/posts/1552308859257888828.webp",
       "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1552308859257888828",
-      "first_seen": "2026-09-23T13:21:12.551Z"
+      "first_seen": "2026-09-23T13:21:12.551Z",
+      "kind": "adoption",
+      "kind_confidence": 0.44
     },
     {
       "id": "1552277655481483274",
@@ -165,7 +177,9 @@
       "source_label": "blog.google",
       "cover": "assets/posts/1552277655481483274.webp",
       "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1552277655481483274",
-      "first_seen": "2026-09-23T11:17:12.991Z"
+      "first_seen": "2026-09-23T11:17:12.991Z",
+      "kind": "feature",
+      "kind_confidence": 1
     },
     {
       "id": "1552275964107554826",
@@ -188,7 +202,9 @@
       "source_label": "openai.com",
       "cover": "assets/posts/1552275964107554826.webp",
       "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1552275964107554826",
-      "first_seen": "2026-09-23T11:10:29.736Z"
+      "first_seen": "2026-09-23T11:10:29.736Z",
+      "kind": "business",
+      "kind_confidence": 0.69
     },
     {
       "id": "1552247100841000960",
@@ -211,7 +227,9 @@
       ],
       "source_label": "fun-resource-shanghai.oss-cn-shanghai.aliyuncs.com",
       "url": "https://discord.com/channels/1415350002255007784/1419932032716243027/threads/1552247100841000960",
-      "first_seen": "2026-09-23T09:15:48.197Z"
+      "first_seen": "2026-09-23T09:15:48.197Z",
+      "kind": "model",
+      "kind_confidence": 1
     },
     {
       "id": "1552223955417432114",
@@ -234,7 +252,9 @@
       "source_label": "huggingface.co",
       "cover": "assets/posts/1552223955417432114.webp",
       "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1552223955417432114",
-      "first_seen": "2026-09-23T07:43:49.898Z"
+      "first_seen": "2026-09-23T07:43:49.898Z",
+      "kind": "model",
+      "kind_confidence": 1
     },
     {
       "id": "1552141440216342578",
@@ -257,7 +277,9 @@
       "source_label": "openai.com",
       "cover": "assets/posts/1552141440216342578.webp",
       "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1552141440216342578",
-      "first_seen": "2026-09-23T02:15:56.741Z"
+      "first_seen": "2026-09-23T02:15:56.741Z",
+      "kind": "adoption",
+      "kind_confidence": 1
     },
     {
       "id": "1552053961014513696",
