@@ -1,9 +1,160 @@
 {
-  "generated_at": "2026-09-24T15:03:00.610Z",
+  "generated_at": "2026-09-24T19:07:21.502Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 234,
+  "count": 240,
   "posts": [
+    {
+      "id": "1552708934370861107",
+      "title": "ChatGPT Ads、東南アジア・台湾へ拡大 60カ国超の広告基盤へ",
+      "channel": "chatgpt",
+      "category": "Open AI",
+      "date": "2026-09-24T15:50:57.891Z",
+      "excerpt": "OpenAIは2026年9月23日、ChatGPT Adsをインドネシア、マレーシア、フィリピン、シンガポール、タイ、ベトナム、台湾の7市場へ順次展開すると発表しました。日本、韓国、インド、オーストラリア、ニュージーランドなどに続く拡大で、ChatGPT A…",
+      "lead": "OpenAIは2026年9月23日、ChatGPT Adsをインドネシア、マレーシア、フィリピン、シンガポール、タイ、ベトナム、台湾の7市場へ順次展開すると発表しました。日本、韓国、インド、オーストラリア、ニュージーランドなどに続く拡大で、ChatGPT Adsの提供地域は60カ国を超えます。",
+      "headings": [
+        "「検索広告」とは異なる会話型の広告接点",
+        "回答と広告を分離、会話データは広告主に非公開",
+        "年換算売上高10億ドル規模へ",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan/",
+      "source_urls": [
+        "https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan/"
+      ],
+      "source_label": "openai.com",
+      "cover": "assets/posts/1552708934370861107.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415353131604377641/threads/1552708934370861107",
+      "first_seen": "2026-09-24T15:50:57.891Z",
+      "kind": "feature",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1552708824937406564",
+      "title": "サム・アルトマン氏、国連安保理でAIの「人間による制御」と国際安全基準を提唱",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-09-24T15:50:31.800Z",
+      "excerpt": "OpenAIのCEOサム・アルトマン氏は2026年9月23日、国連安全保障理事会でAIについて演説し、高性能AIがもたらす科学・経済面の可能性を強調する一方、人間による制御を維持できないシステムの開発や、少数の企業・国家への権力集中を重大なリスクとして挙げま…",
+      "lead": "OpenAIのCEOサム・アルトマン氏は2026年9月23日、国連安全保障理事会でAIについて演説し、高性能AIがもたらす科学・経済面の可能性を強調する一方、人間による制御を維持できないシステムの開発や、少数の企業・国家への権力集中を重大なリスクとして挙げました。",
+      "headings": [
+        "高度化するAIで「制御」が最大の技術課題に",
+        "AIガバナンスを企業だけに委ねない",
+        "国際標準化には設計上の難しさも",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/sam-altman-un-security-council-remarks/",
+      "source_urls": [
+        "https://openai.com/index/sam-altman-un-security-council-remarks/"
+      ],
+      "source_label": "openai.com",
+      "cover": "assets/posts/1552708824937406564.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1552708824937406564",
+      "first_seen": "2026-09-24T15:50:31.800Z",
+      "kind": "policy",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1552708740996931704",
+      "title": "Airbnb、GPT-6 Astraを本格導入へ OpenAI最先端モデルの利用範囲を拡大",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-09-24T15:50:11.787Z",
+      "excerpt": "OpenAIは2026年9月23日、Airbnbとの提携拡大を発表しました。新たな契約により、Airbnbのエンジニアリングおよびプロダクト開発チームは、GPT-6 Astraを含むOpenAIの最先端モデルへ、これまで以上に広くアクセスできるようになります。",
+      "lead": "OpenAIは2026年9月23日、Airbnbとの提携拡大を発表しました。新たな契約により、Airbnbのエンジニアリングおよびプロダクト開発チームは、GPT-6 Astraを含むOpenAIの最先端モデルへ、これまで以上に広くアクセスできるようになります。",
+      "headings": [
+        "GPT-6 Astraを開発現場へ拡大",
+        "Astraはコーディング以外でも活用",
+        "AI活用は検索や不正対策にも",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/airbnb-gpt-6-astra/",
+      "source_urls": [
+        "https://openai.com/index/airbnb-gpt-6-astra/"
+      ],
+      "source_label": "openai.com",
+      "cover": "assets/posts/1552708740996931704.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1552708740996931704",
+      "first_seen": "2026-09-24T15:50:11.787Z",
+      "kind": "business",
+      "kind_confidence": 0.54
+    },
+    {
+      "id": "1552708663871799337",
+      "title": "OpenAI、メンタルヘルス対話AIを臨床家基準で測る「MentalHealthBench」を公開",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-09-24T15:49:53.399Z",
+      "excerpt": "OpenAIは2026年9月23日、メンタルヘルスに関する実際の利用状況を想定し、AIの応答品質を評価するオープンベンチマーク「MentalHealthBench」を発表しました。22か国、80人を超える有資格の心理職・精神科医と共同開発し、単に危険な回答を…",
+      "lead": "OpenAIは2026年9月23日、メンタルヘルスに関する実際の利用状況を想定し、AIの応答品質を評価するオープンベンチマーク「MentalHealthBench」を発表しました。22か国、80人を超える有資格の心理職・精神科医と共同開発し、単に危険な回答を避けるだけでなく、状況把握、利用者の主体性、安全性、実行可能な助言まで評価する点が特徴です。",
+      "headings": [
+        "「危険な回答をしない」だけでは測れない",
+        "80人超の専門家が採点基準を設計",
+        "フロンティアモデルを多面的に比較",
+        "利用者と臨床家では「良い回答」の基準も異なる",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/ja-JP/index/introducing-mentalhealthbench/",
+      "source_urls": [
+        "https://openai.com/ja-JP/index/introducing-mentalhealthbench/"
+      ],
+      "source_label": "openai.com",
+      "cover": "assets/posts/1552708663871799337.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1552708663871799337",
+      "first_seen": "2026-09-24T15:49:53.399Z",
+      "kind": "research",
+      "kind_confidence": 0.99
+    },
+    {
+      "id": "1552708575489687632",
+      "title": "Harvey、GPT-6 Astraで法務文書生成を高度化 「大量の文脈」をドラフトへ反映",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-09-24T15:49:32.327Z",
+      "excerpt": "OpenAIは2026年9月23日、法務AIを手がけるHarveyが「GPT-6 Astra」を活用し、より構造化され、案件の文脈を反映した法務文書を生成している事例を公開しました。ポイントは単純な文章生成能力ではなく、判例や社内文書、弁護士個人の作業ルール…",
+      "lead": "OpenAIは2026年9月23日、法務AIを手がけるHarveyが「GPT-6 Astra」を活用し、より構造化され、案件の文脈を反映した法務文書を生成している事例を公開しました。ポイントは単純な文章生成能力ではなく、判例や社内文書、弁護士個人の作業ルールまで含む多様な情報を、ドラフト作成時のコンテキストとして扱える点です。",
+      "headings": [
+        "法務文書を「案件全体の情報」から生成",
+        "弁護士ごとの好みもコンテキスト化",
+        "生成AIの価値が「回答」から「業務成果物」へ",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/harvey-from-context-to-confidence-with-astra/",
+      "source_urls": [
+        "https://openai.com/index/harvey-from-context-to-confidence-with-astra/"
+      ],
+      "source_label": "openai.com",
+      "cover": "assets/posts/1552708575489687632.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1552708575489687632",
+      "first_seen": "2026-09-24T15:49:32.327Z",
+      "kind": "adoption",
+      "kind_confidence": 0.97
+    },
+    {
+      "id": "1552708492136030339",
+      "title": "invideo、GPT-6 Astraで動画編集を高度化 カラー処理の成功率が約3倍に",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-09-24T15:49:12.454Z",
+      "excerpt": "動画編集AIを開発するinvideoが、OpenAIのGPT-6 Astraを活用し、複雑な編集計画やカラー処理、カスタムエフェクト生成を強化しています。OpenAIが2026年9月23日に公開した事例によると、invideoではカラーグレーディングとカラー…",
+      "lead": "動画編集AIを開発するinvideoが、OpenAIのGPT-6 Astraを活用し、複雑な編集計画やカラー処理、カスタムエフェクト生成を強化しています。OpenAIが2026年9月23日に公開した事例によると、invideoではカラーグレーディングとカラー補正の成功率が従来比で約3倍に向上し、少人数の編集者が1日で約50種類のカスタムエフェクトを作成したとしています。",
+      "headings": [
+        "GPT-6 Astraが動画編集の「判断」を担う",
+        "カラー処理で成功率が約3倍",
+        "エフェクト自体をAIがコード生成",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/invideo-builds-with-gpt-6-astra/",
+      "source_urls": [
+        "https://openai.com/index/invideo-builds-with-gpt-6-astra/"
+      ],
+      "source_label": "openai.com",
+      "cover": "assets/posts/1552708492136030339.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1552708492136030339",
+      "first_seen": "2026-09-24T15:49:12.454Z",
+      "kind": "adoption",
+      "kind_confidence": 0.91
+    },
     {
       "id": "1552351526909907005",
       "title": "リーク：謎の「Space Bunny Alpha」がOpenRouterとOpenCodeに出現、MiniMax M3.1の可能性",

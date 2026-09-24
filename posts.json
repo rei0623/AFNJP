@@ -1,8 +1,147 @@
 {
-  "generated_at": "2026-09-24T15:03:00.612Z",
+  "generated_at": "2026-09-24T19:07:21.504Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1552708934370861107",
+      "title": "ChatGPT Ads、東南アジア・台湾へ拡大 60カ国超の広告基盤へ",
+      "channel": "chatgpt",
+      "category": "Open AI",
+      "date": "2026-09-24T15:50:57.891Z",
+      "excerpt": "OpenAIは2026年9月23日、ChatGPT Adsをインドネシア、マレーシア、フィリピン、シンガポール、タイ、ベトナム、台湾の7市場へ順次展開すると発表しました。日本、韓国、インド、オーストラリア、ニュージーランドなどに続く拡大で、ChatGPT A…",
+      "lead": "OpenAIは2026年9月23日、ChatGPT Adsをインドネシア、マレーシア、フィリピン、シンガポール、タイ、ベトナム、台湾の7市場へ順次展開すると発表しました。日本、韓国、インド、オーストラリア、ニュージーランドなどに続く拡大で、ChatGPT Adsの提供地域は60カ国を超えます。",
+      "headings": [
+        "「検索広告」とは異なる会話型の広告接点",
+        "回答と広告を分離、会話データは広告主に非公開",
+        "年換算売上高10億ドル規模へ",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan/",
+      "source_urls": [
+        "https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan/"
+      ],
+      "source_label": "openai.com",
+      "cover": "assets/posts/1552708934370861107.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415353131604377641/threads/1552708934370861107",
+      "first_seen": "2026-09-24T15:50:57.891Z"
+    },
+    {
+      "id": "1552708824937406564",
+      "title": "サム・アルトマン氏、国連安保理でAIの「人間による制御」と国際安全基準を提唱",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-09-24T15:50:31.800Z",
+      "excerpt": "OpenAIのCEOサム・アルトマン氏は2026年9月23日、国連安全保障理事会でAIについて演説し、高性能AIがもたらす科学・経済面の可能性を強調する一方、人間による制御を維持できないシステムの開発や、少数の企業・国家への権力集中を重大なリスクとして挙げま…",
+      "lead": "OpenAIのCEOサム・アルトマン氏は2026年9月23日、国連安全保障理事会でAIについて演説し、高性能AIがもたらす科学・経済面の可能性を強調する一方、人間による制御を維持できないシステムの開発や、少数の企業・国家への権力集中を重大なリスクとして挙げました。",
+      "headings": [
+        "高度化するAIで「制御」が最大の技術課題に",
+        "AIガバナンスを企業だけに委ねない",
+        "国際標準化には設計上の難しさも",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/sam-altman-un-security-council-remarks/",
+      "source_urls": [
+        "https://openai.com/index/sam-altman-un-security-council-remarks/"
+      ],
+      "source_label": "openai.com",
+      "cover": "assets/posts/1552708824937406564.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1552708824937406564",
+      "first_seen": "2026-09-24T15:50:31.800Z"
+    },
+    {
+      "id": "1552708740996931704",
+      "title": "Airbnb、GPT-6 Astraを本格導入へ OpenAI最先端モデルの利用範囲を拡大",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-09-24T15:50:11.787Z",
+      "excerpt": "OpenAIは2026年9月23日、Airbnbとの提携拡大を発表しました。新たな契約により、Airbnbのエンジニアリングおよびプロダクト開発チームは、GPT-6 Astraを含むOpenAIの最先端モデルへ、これまで以上に広くアクセスできるようになります。",
+      "lead": "OpenAIは2026年9月23日、Airbnbとの提携拡大を発表しました。新たな契約により、Airbnbのエンジニアリングおよびプロダクト開発チームは、GPT-6 Astraを含むOpenAIの最先端モデルへ、これまで以上に広くアクセスできるようになります。",
+      "headings": [
+        "GPT-6 Astraを開発現場へ拡大",
+        "Astraはコーディング以外でも活用",
+        "AI活用は検索や不正対策にも",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/airbnb-gpt-6-astra/",
+      "source_urls": [
+        "https://openai.com/index/airbnb-gpt-6-astra/"
+      ],
+      "source_label": "openai.com",
+      "cover": "assets/posts/1552708740996931704.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1552708740996931704",
+      "first_seen": "2026-09-24T15:50:11.787Z"
+    },
+    {
+      "id": "1552708663871799337",
+      "title": "OpenAI、メンタルヘルス対話AIを臨床家基準で測る「MentalHealthBench」を公開",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-09-24T15:49:53.399Z",
+      "excerpt": "OpenAIは2026年9月23日、メンタルヘルスに関する実際の利用状況を想定し、AIの応答品質を評価するオープンベンチマーク「MentalHealthBench」を発表しました。22か国、80人を超える有資格の心理職・精神科医と共同開発し、単に危険な回答を…",
+      "lead": "OpenAIは2026年9月23日、メンタルヘルスに関する実際の利用状況を想定し、AIの応答品質を評価するオープンベンチマーク「MentalHealthBench」を発表しました。22か国、80人を超える有資格の心理職・精神科医と共同開発し、単に危険な回答を避けるだけでなく、状況把握、利用者の主体性、安全性、実行可能な助言まで評価する点が特徴です。",
+      "headings": [
+        "「危険な回答をしない」だけでは測れない",
+        "80人超の専門家が採点基準を設計",
+        "フロンティアモデルを多面的に比較",
+        "利用者と臨床家では「良い回答」の基準も異なる",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/ja-JP/index/introducing-mentalhealthbench/",
+      "source_urls": [
+        "https://openai.com/ja-JP/index/introducing-mentalhealthbench/"
+      ],
+      "source_label": "openai.com",
+      "cover": "assets/posts/1552708663871799337.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1552708663871799337",
+      "first_seen": "2026-09-24T15:49:53.399Z"
+    },
+    {
+      "id": "1552708575489687632",
+      "title": "Harvey、GPT-6 Astraで法務文書生成を高度化 「大量の文脈」をドラフトへ反映",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-09-24T15:49:32.327Z",
+      "excerpt": "OpenAIは2026年9月23日、法務AIを手がけるHarveyが「GPT-6 Astra」を活用し、より構造化され、案件の文脈を反映した法務文書を生成している事例を公開しました。ポイントは単純な文章生成能力ではなく、判例や社内文書、弁護士個人の作業ルール…",
+      "lead": "OpenAIは2026年9月23日、法務AIを手がけるHarveyが「GPT-6 Astra」を活用し、より構造化され、案件の文脈を反映した法務文書を生成している事例を公開しました。ポイントは単純な文章生成能力ではなく、判例や社内文書、弁護士個人の作業ルールまで含む多様な情報を、ドラフト作成時のコンテキストとして扱える点です。",
+      "headings": [
+        "法務文書を「案件全体の情報」から生成",
+        "弁護士ごとの好みもコンテキスト化",
+        "生成AIの価値が「回答」から「業務成果物」へ",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/harvey-from-context-to-confidence-with-astra/",
+      "source_urls": [
+        "https://openai.com/index/harvey-from-context-to-confidence-with-astra/"
+      ],
+      "source_label": "openai.com",
+      "cover": "assets/posts/1552708575489687632.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1552708575489687632",
+      "first_seen": "2026-09-24T15:49:32.327Z"
+    },
+    {
+      "id": "1552708492136030339",
+      "title": "invideo、GPT-6 Astraで動画編集を高度化 カラー処理の成功率が約3倍に",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-09-24T15:49:12.454Z",
+      "excerpt": "動画編集AIを開発するinvideoが、OpenAIのGPT-6 Astraを活用し、複雑な編集計画やカラー処理、カスタムエフェクト生成を強化しています。OpenAIが2026年9月23日に公開した事例によると、invideoではカラーグレーディングとカラー…",
+      "lead": "動画編集AIを開発するinvideoが、OpenAIのGPT-6 Astraを活用し、複雑な編集計画やカラー処理、カスタムエフェクト生成を強化しています。OpenAIが2026年9月23日に公開した事例によると、invideoではカラーグレーディングとカラー補正の成功率が従来比で約3倍に向上し、少人数の編集者が1日で約50種類のカスタムエフェクトを作成したとしています。",
+      "headings": [
+        "GPT-6 Astraが動画編集の「判断」を担う",
+        "カラー処理で成功率が約3倍",
+        "エフェクト自体をAIがコード生成",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/invideo-builds-with-gpt-6-astra/",
+      "source_urls": [
+        "https://openai.com/index/invideo-builds-with-gpt-6-astra/"
+      ],
+      "source_label": "openai.com",
+      "cover": "assets/posts/1552708492136030339.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1552708492136030339",
+      "first_seen": "2026-09-24T15:49:12.454Z"
+    },
     {
       "id": "1552351526909907005",
       "title": "リーク：謎の「Space Bunny Alpha」がOpenRouterとOpenCodeに出現、MiniMax M3.1の可能性",
@@ -155,157 +294,6 @@
       "first_seen": "2026-09-23T13:21:12.551Z",
       "kind": "adoption",
       "kind_confidence": 0.44
-    },
-    {
-      "id": "1552277655481483274",
-      "title": "Google「AI Max」が日本語対応へ、検索広告のAI運用を可視化する新レポートも発表",
-      "channel": "google",
-      "category": "Google",
-      "date": "2026-09-23T11:17:12.991Z",
-      "excerpt": "Googleは2026年9月23日、Google Adsの「AI Max」に関する新機能を発表しました。広告運用を自然言語で制御する「AI Brief」の対応言語を日本語を含む7言語へ拡大するとともに、AIが検索広告をどのように配信したのかを追跡できる新しい…",
-      "lead": "Googleは2026年9月23日、Google Adsの「AI Max」に関する新機能を発表しました。広告運用を自然言語で制御する「AI Brief」の対応言語を日本語を含む7言語へ拡大するとともに、AIが検索広告をどのように配信したのかを追跡できる新しいレポート機能を導入します。",
-      "headings": [
-        "AI Briefが日本語を含む7言語に拡大",
-        "AIが生成した広告配信経路を一画面で確認",
-        "企業のAI広告運用にも重要な変化",
-        "今後の展望"
-      ],
-      "source_url": "https://blog.google/products/ads-commerce/ai-max-language-reporting-features/",
-      "source_urls": [
-        "https://blog.google/products/ads-commerce/ai-max-language-reporting-features/"
-      ],
-      "source_label": "blog.google",
-      "cover": "assets/posts/1552277655481483274.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1552277655481483274",
-      "first_seen": "2026-09-23T11:17:12.991Z",
-      "kind": "feature",
-      "kind_confidence": 1
-    },
-    {
-      "id": "1552275964107554826",
-      "title": "OpenAIとGrab、東南アジア3万人に実践AIスキルを展開",
-      "channel": "open-ai",
-      "category": "Open AI",
-      "date": "2026-09-23T11:10:29.736Z",
-      "excerpt": "OpenAIとGrabは2026年9月23日、東南アジアのGrabドライバー、配達員、加盟店向けAI教育プログラム「GO Forward with AI」を開始しました。今後2年間で3万人を対象に、ChatGPTを業務や事業運営へ実践的に活用するスキルの習得…",
-      "lead": "OpenAIとGrabは2026年9月23日、東南アジアのGrabドライバー、配達員、加盟店向けAI教育プログラム「GO Forward with AI」を開始しました。今後2年間で3万人を対象に、ChatGPTを業務や事業運営へ実践的に活用するスキルの習得を支援します。",
-      "headings": [
-        "シンガポールから6カ国へ展開",
-        "AIを「質問ツール」から業務実行へ",
-        "既存のDriver AI Assistantから一段拡大",
-        "今後の展望"
-      ],
-      "source_url": "https://openai.com/index/grab-openai-ai-skills-southeast-asia/",
-      "source_urls": [
-        "https://openai.com/index/grab-openai-ai-skills-southeast-asia/"
-      ],
-      "source_label": "openai.com",
-      "cover": "assets/posts/1552275964107554826.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1552275964107554826",
-      "first_seen": "2026-09-23T11:10:29.736Z",
-      "kind": "business",
-      "kind_confidence": 0.69
-    },
-    {
-      "id": "1552247100841000960",
-      "title": "Qwen-Audio-3.1-TTS公開、低遅延と高度な音声制御を両立",
-      "channel": "qwen",
-      "category": "Alibaba",
-      "date": "2026-09-23T09:15:48.197Z",
-      "excerpt": "Alibaba Token Foundryは、実運用を意識した音声合成システム「Qwen-Audio-3.1-TTS」を公開しました。低フレームレートの音声トークナイザーと多段階学習を組み合わせ、話者再現、感情表現、多言語、長文生成、ノイズ耐性までを一つのモ…",
-      "lead": "Alibaba Token Foundryは、実運用を意識した音声合成システム「Qwen-Audio-3.1-TTS」を公開しました。低フレームレートの音声トークナイザーと多段階学習を組み合わせ、話者再現、感情表現、多言語、長文生成、ノイズ耐性までを一つのモデルで強化しています。",
-      "headings": [
-        "12.5Hzトークナイザーで推論負荷を削減",
-        "自然言語で声を指示、86種類の細粒度タグにも対応",
-        "16言語、20の中国語方言、最大3分の一括生成",
-        "実環境を意識したノイズ耐性",
-        "今後の展望"
-      ],
-      "source_url": "https://fun-resource-shanghai.oss-cn-shanghai.aliyuncs.com/cuijiayan.cjy/tmp/exp/qwen_audio_3_tts_blog_review_260918/index.shtml?Expires=2105366399&OSSAccessKeyId=LTAI5tQrCBwj82sVMCWoSmzE&Signature=9ZaZIEahoN41Zb9MFJjf34G%2BSCM%3D",
-      "source_urls": [
-        "https://fun-resource-shanghai.oss-cn-shanghai.aliyuncs.com/cuijiayan.cjy/tmp/exp/qwen_audio_3_tts_blog_review_260918/index.shtml?Expires=2105366399&OSSAccessKeyId=LTAI5tQrCBwj82sVMCWoSmzE&Signature=9ZaZIEahoN41Zb9MFJjf34G%2BSCM%3D"
-      ],
-      "source_label": "fun-resource-shanghai.oss-cn-shanghai.aliyuncs.com",
-      "url": "https://discord.com/channels/1415350002255007784/1419932032716243027/threads/1552247100841000960",
-      "first_seen": "2026-09-23T09:15:48.197Z",
-      "kind": "model",
-      "kind_confidence": 1
-    },
-    {
-      "id": "1552223955417432114",
-      "title": "Jev-Omni公開、文章・画像・音声・動画を確率で判定する12Bマルチモーダルモデル",
-      "channel": "その他",
-      "category": "その他",
-      "date": "2026-09-23T07:43:49.898Z",
-      "excerpt": "Hugging Faceで「Jev-Omni」が公開されています。Jev-Omniは、文章を生成して回答する一般的なチャットAIとは異なり、質問と複数の選択肢を受け取り、それぞれが正しい確率を返すマルチモーダル意思決定分類器です。テキスト、画像、音声、動画の…",
-      "lead": "Hugging Faceで「Jev-Omni」が公開されています。Jev-Omniは、文章を生成して回答する一般的なチャットAIとは異なり、質問と複数の選択肢を受け取り、それぞれが正しい確率を返すマルチモーダル意思決定分類器です。テキスト、画像、音声、動画の4種類を扱い、Gemma 4 12B ITを基盤として3万問規模のファインチューニングが行われています。",
-      "headings": [
-        "「生成」ではなく選択肢を確率化",
-        "ベンチマークではDecisionBenchで87.57%",
-        "GPU推論を前提、動画は16フレーム",
-        "今後の展望"
-      ],
-      "source_url": "https://huggingface.co/akhilaaa3/Jev-Omni",
-      "source_urls": [
-        "https://huggingface.co/akhilaaa3/Jev-Omni"
-      ],
-      "source_label": "huggingface.co",
-      "cover": "assets/posts/1552223955417432114.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1552223955417432114",
-      "first_seen": "2026-09-23T07:43:49.898Z",
-      "kind": "model",
-      "kind_confidence": 1
-    },
-    {
-      "id": "1552141440216342578",
-      "title": "GPT-6 Astra、ParallelのAI調査を時間・コストともに半減",
-      "channel": "open-ai",
-      "category": "Open AI",
-      "date": "2026-09-23T02:15:56.741Z",
-      "excerpt": "OpenAIは2026年9月22日、AIエージェント向けWeb調査基盤を開発するParallelが「GPT-6 Astra」を導入し、長時間のリサーチ処理を従来モデル比で約2倍高速化した事例を公開しました。コード実行関連のコストも約50％削減しながら、同等品…",
-      "lead": "OpenAIは2026年9月22日、AIエージェント向けWeb調査基盤を開発するParallelが「GPT-6 Astra」を導入し、長時間のリサーチ処理を従来モデル比で約2倍高速化した事例を公開しました。コード実行関連のコストも約50％削減しながら、同等品質の調査結果を維持したとしています。",
-      "headings": [
-        "6カ月分の市場調査を半分の時間で処理",
-        "効率化の鍵は「少ない検索で答えに近づく」能力",
-        "マルチエージェント構成にも追い風",
-        "今後の展望"
-      ],
-      "source_url": "https://openai.com/index/parallel-cuts-time-and-cost-with-astra/",
-      "source_urls": [
-        "https://openai.com/index/parallel-cuts-time-and-cost-with-astra/"
-      ],
-      "source_label": "openai.com",
-      "cover": "assets/posts/1552141440216342578.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1552141440216342578",
-      "first_seen": "2026-09-23T02:15:56.741Z",
-      "kind": "adoption",
-      "kind_confidence": 1
-    },
-    {
-      "id": "1552053961014513696",
-      "title": "GPT-6、プロンプトキャッシュを強化 長時間AIエージェントのコストと遅延を削減",
-      "channel": "chatgpt",
-      "category": "Open AI",
-      "date": "2026-09-22T20:28:20.074Z",
-      "excerpt": "OpenAIは2026年9月22日、GPT-6向けの新しいプロンプトキャッシュ機構を発表しました。キャッシュヒット率の向上に加え、監視ダッシュボード、キャッシュミス診断、明示的なキャッシュ境界、プリウォームなどを導入し、長時間動作するAIエージェントの高速化…",
-      "lead": "OpenAIは2026年9月22日、GPT-6向けの新しいプロンプトキャッシュ機構を発表しました。キャッシュヒット率の向上に加え、監視ダッシュボード、キャッシュミス診断、明示的なキャッシュ境界、プリウォームなどを導入し、長時間動作するAIエージェントの高速化とコスト削減を狙います。",
-      "headings": [
-        "最大90％のキャッシュ入力割引",
-        "キャッシュミスを可視化・診断",
-        "明示的な境界とreasoning effort変更に対応",
-        "プリウォームで初回応答も高速化",
-        "今後の展望"
-      ],
-      "source_url": "https://openai.com/index/better-prompt-caching-for-gpt-6/",
-      "source_urls": [
-        "https://openai.com/index/better-prompt-caching-for-gpt-6/"
-      ],
-      "source_label": "openai.com",
-      "cover": "assets/posts/1552053961014513696.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1415353131604377641/threads/1552053961014513696",
-      "first_seen": "2026-09-22T20:28:20.074Z",
-      "kind": "feature",
-      "kind_confidence": 0.7
     }
   ]
 }
