@@ -1,8 +1,102 @@
 {
-  "generated_at": "2026-09-24T19:07:21.504Z",
+  "generated_at": "2026-09-24T22:21:39.308Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1552806697758888127",
+      "title": "Anthropic「Project Swap」、AIエージェント同士の市場取引を実験",
+      "channel": "anthropic",
+      "category": "Anthropic",
+      "date": "2026-09-24T22:19:26.499Z",
+      "excerpt": "Anthropicは2026年9月24日、AIエージェントが人間の代理として交渉・取引する市場を検証した研究「Project Swap」を公開しました。201人のAnthropic従業員とClaudeベースのエージェントを使い、本を交換する小規模市場を構築し…",
+      "lead": "Anthropicは2026年9月24日、AIエージェントが人間の代理として交渉・取引する市場を検証した研究「Project Swap」を公開しました。201人のAnthropic従業員とClaudeベースのエージェントを使い、本を交換する小規模市場を構築した結果、交渉能力そのものより「本人の好みを正確に理解する能力」が市場効率を左右する重要な要素であることが示されています。",
+      "headings": [
+        "201人の代理としてClaudeが本を交渉",
+        "好みの推定精度は61％",
+        "強いモデルほど取引効率も高い",
+        "AIエージェント市場には新しいインフラが必要",
+        "今後の展望"
+      ],
+      "source_url": "https://www.anthropic.com/research/project-swap",
+      "source_urls": [
+        "https://www.anthropic.com/research/project-swap"
+      ],
+      "source_label": "anthropic.com",
+      "cover": "assets/posts/1552806697758888127.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1552806697758888127",
+      "first_seen": "2026-09-24T22:19:26.499Z"
+    },
+    {
+      "id": "1552805908235423784",
+      "title": "Google、10分級の長尺AI動画へ「一貫性」を保つマルチエージェント技術を公開",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-09-24T22:16:18.262Z",
+      "excerpt": "Google Researchは2026年9月24日、長尺AI動画で発生しやすいキャラクターや背景の変化、上流工程のミスが後工程へ連鎖する問題を抑える、統合型マルチエージェント研究を発表しました。単に高品質な短いクリップを生成するのではなく、物語全体を「世界…",
+      "lead": "Google Researchは2026年9月24日、長尺AI動画で発生しやすいキャラクターや背景の変化、上流工程のミスが後工程へ連鎖する問題を抑える、統合型マルチエージェント研究を発表しました。単に高品質な短いクリップを生成するのではなく、物語全体を「世界状態を維持する最適化問題」として扱う点が特徴です。0",
+      "headings": [
+        "GeminiとVeoを複数のAIエージェントが統括",
+        "長尺動画を支える3つの追加技術",
+        "ベンチマークでも長期的一貫性を評価",
+        "今後の展望"
+      ],
+      "source_url": "https://research.google/blog/coherent-long-form-video-generation/",
+      "source_urls": [
+        "https://research.google/blog/coherent-long-form-video-generation/"
+      ],
+      "source_label": "research.google",
+      "cover": "assets/posts/1552805908235423784.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1552805908235423784",
+      "first_seen": "2026-09-24T22:16:18.262Z"
+    },
+    {
+      "id": "1552805751519707226",
+      "title": "Meta Connect 2026、AIエージェント「Muse」と100g級VRグラスで次世代コンピューティングへ",
+      "channel": "meta",
+      "category": "Meta",
+      "date": "2026-09-24T22:15:40.898Z",
+      "excerpt": "MetaはConnect 2026で、パーソナルAIエージェント「Muse」のAIグラス対応、新型「Meta VR Glasses」、AIグラスの大幅なラインアップ拡充を発表しました。スマートフォンの画面を中心とした操作から、視覚・音声・周囲の状況をAIが理…",
+      "lead": "MetaはConnect 2026で、パーソナルAIエージェント「Muse」のAIグラス対応、新型「Meta VR Glasses」、AIグラスの大幅なラインアップ拡充を発表しました。スマートフォンの画面を中心とした操作から、視覚・音声・周囲の状況をAIが理解して処理するコンピューティングへの移行を鮮明にしています。",
+      "headings": [
+        "AIグラスからMuseを常時呼び出し",
+        "約100グラムのMeta VR Glasses",
+        "AIグラスを巨大な製品群へ",
+        "今後の展望"
+      ],
+      "source_url": "https://about.fb.com/news/2026/09/the-biggest-news-from-connect-2026/",
+      "source_urls": [
+        "https://about.fb.com/news/2026/09/the-biggest-news-from-connect-2026/"
+      ],
+      "source_label": "about.fb.com",
+      "cover": "assets/posts/1552805751519707226.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1441473829951111330/threads/1552805751519707226",
+      "first_seen": "2026-09-24T22:15:40.898Z"
+    },
+    {
+      "id": "1552805588445044746",
+      "title": "Google「Gemini 3.8 Live with Live Avatar」発表、AI対話にリアルタイム映像アバターを統合",
+      "channel": "gemini",
+      "category": "Google",
+      "date": "2026-09-24T22:15:02.018Z",
+      "excerpt": "Googleは2026年9月24日、「Gemini 3.8 Live with Live Avatar」を発表しました。音声によるリアルタイム対話と低遅延の動画生成をネイティブに組み合わせ、AIエージェントが表情や口の動きを伴う視覚的な存在としてユーザーと会…",
+      "lead": "Googleは2026年9月24日、「Gemini 3.8 Live with Live Avatar」を発表しました。音声によるリアルタイム対話と低遅延の動画生成をネイティブに組み合わせ、AIエージェントが表情や口の動きを伴う視覚的な存在としてユーザーと会話できる仕組みです。Gemini Enterpriseで提供が始まっています。",
+      "headings": [
+        "音声と映像を統合したリアルタイム対話",
+        "ツール実行中も会話を継続",
+        "97言語に対応、途中で言語変更も可能",
+        "企業独自のアバターも生成可能",
+        "今後の展望"
+      ],
+      "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-with-live-avatar/?utm_source=deepmind.google&utm_medium=referral&utm_campaign=gdm&utm_content=",
+      "source_urls": [
+        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-with-live-avatar/?utm_source=deepmind.google&utm_medium=referral&utm_campaign=gdm&utm_content="
+      ],
+      "source_label": "blog.google",
+      "cover": "assets/posts/1552805588445044746.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1552805588445044746",
+      "first_seen": "2026-09-24T22:15:02.018Z"
+    },
     {
       "id": "1552708934370861107",
       "title": "ChatGPT Ads、東南アジア・台湾へ拡大 60カ国超の広告基盤へ",
@@ -24,7 +118,9 @@
       "source_label": "openai.com",
       "cover": "assets/posts/1552708934370861107.webp",
       "url": "https://discord.com/channels/1415350002255007784/1415353131604377641/threads/1552708934370861107",
-      "first_seen": "2026-09-24T15:50:57.891Z"
+      "first_seen": "2026-09-24T15:50:57.891Z",
+      "kind": "feature",
+      "kind_confidence": 1
     },
     {
       "id": "1552708824937406564",
@@ -47,7 +143,9 @@
       "source_label": "openai.com",
       "cover": "assets/posts/1552708824937406564.webp",
       "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1552708824937406564",
-      "first_seen": "2026-09-24T15:50:31.800Z"
+      "first_seen": "2026-09-24T15:50:31.800Z",
+      "kind": "policy",
+      "kind_confidence": 1
     },
     {
       "id": "1552708740996931704",
@@ -70,7 +168,9 @@
       "source_label": "openai.com",
       "cover": "assets/posts/1552708740996931704.webp",
       "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1552708740996931704",
-      "first_seen": "2026-09-24T15:50:11.787Z"
+      "first_seen": "2026-09-24T15:50:11.787Z",
+      "kind": "business",
+      "kind_confidence": 0.54
     },
     {
       "id": "1552708663871799337",
@@ -94,7 +194,9 @@
       "source_label": "openai.com",
       "cover": "assets/posts/1552708663871799337.webp",
       "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1552708663871799337",
-      "first_seen": "2026-09-24T15:49:53.399Z"
+      "first_seen": "2026-09-24T15:49:53.399Z",
+      "kind": "research",
+      "kind_confidence": 0.99
     },
     {
       "id": "1552708575489687632",
@@ -117,7 +219,9 @@
       "source_label": "openai.com",
       "cover": "assets/posts/1552708575489687632.webp",
       "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1552708575489687632",
-      "first_seen": "2026-09-24T15:49:32.327Z"
+      "first_seen": "2026-09-24T15:49:32.327Z",
+      "kind": "adoption",
+      "kind_confidence": 0.97
     },
     {
       "id": "1552708492136030339",
@@ -140,7 +244,9 @@
       "source_label": "openai.com",
       "cover": "assets/posts/1552708492136030339.webp",
       "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1552708492136030339",
-      "first_seen": "2026-09-24T15:49:12.454Z"
+      "first_seen": "2026-09-24T15:49:12.454Z",
+      "kind": "adoption",
+      "kind_confidence": 0.91
     },
     {
       "id": "1552351526909907005",
@@ -191,109 +297,6 @@
       "first_seen": "2026-09-23T16:06:03.906Z",
       "kind": "feature",
       "kind_confidence": 1
-    },
-    {
-      "id": "1552350218710683658",
-      "title": "Google、クラウドAIに「安全な長期記憶」導入へ",
-      "channel": "google",
-      "category": "Google",
-      "date": "2026-09-23T16:05:33.413Z",
-      "excerpt": "Google DeepMindは2026年9月23日、Private AI Computeにサーバー側の永続メモリを導入する技術構想を発表しました。端末内処理に近いプライバシー水準を維持しながら、AIがデバイスをまたいで過去の文脈を保持できる仕組みを目指しま…",
-      "lead": "Google DeepMindは2026年9月23日、Private AI Computeにサーバー側の永続メモリを導入する技術構想を発表しました。端末内処理に近いプライバシー水準を維持しながら、AIがデバイスをまたいで過去の文脈を保持できる仕組みを目指します。",
-      "headings": [
-        "「ステートレス」だったクラウドAIを変える",
-        "復号鍵を端末側に置く設計",
-        "大規模モデルとプライバシーの両立を狙う",
-        "検証可能性も重視",
-        "今後の展望"
-      ],
-      "source_url": "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/",
-      "source_urls": [
-        "https://deepmind.google/blog/advancing-private-ai-compute-with-secure-server-side-memory/"
-      ],
-      "source_label": "deepmind.google",
-      "cover": "assets/posts/1552350218710683658.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1552350218710683658",
-      "first_seen": "2026-09-23T16:05:33.413Z",
-      "kind": "feature",
-      "kind_confidence": 0.71
-    },
-    {
-      "id": "1552350037491843132",
-      "title": "Google「Gemini 3.8 TTS」発表、声を“選ぶ”AIから“設計する”AIへ",
-      "channel": "gemini",
-      "category": "Google",
-      "date": "2026-09-23T16:04:50.207Z",
-      "excerpt": "Googleは2026年9月23日、音声生成モデル「Gemini 3.8 Flash TTS」と「Gemini 3.8 Flash-Lite TTS」を発表しました。従来のプリセット音声を選択する方式から一歩進み、自然言語による声質設計、行単位の演技指示、長…",
-      "lead": "Googleは2026年9月23日、音声生成モデル「Gemini 3.8 Flash TTS」と「Gemini 3.8 Flash-Lite TTS」を発表しました。従来のプリセット音声を選択する方式から一歩進み、自然言語による声質設計、行単位の演技指示、長時間生成、2人の会話生成までを統合した音声制作基盤を目指しています。",
-      "headings": [
-        "FlashとFlash-Liteの役割",
-        "30秒の音声から声を再現",
-        "セリフ単位で「演技」を指示",
-        "ベンチマークでも音声設計を強化",
-        "開発者向け提供も開始",
-        "今後の展望"
-      ],
-      "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/",
-      "source_urls": [
-        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-text-to-speech/"
-      ],
-      "source_label": "blog.google",
-      "cover": "assets/posts/1552350037491843132.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1552350037491843132",
-      "first_seen": "2026-09-23T16:04:50.207Z",
-      "kind": "model",
-      "kind_confidence": 0.99
-    },
-    {
-      "id": "1552349867584651304",
-      "title": "OpenAI Academyが2周年、AI教育を「利用」から「地域で教える仕組み」へ拡張",
-      "channel": "open-ai",
-      "category": "Open AI",
-      "date": "2026-09-23T16:04:09.698Z",
-      "excerpt": "OpenAIは2026年9月23日、AI活用教育プログラム「OpenAI Academy」の開始から2周年を迎えたと発表しました。2024年9月の開始以来、250回以上のイベントを開催し、Academyのコンテンツには400万人以上が触れています。今後は、地…",
-      "lead": "OpenAIは2026年9月23日、AI活用教育プログラム「OpenAI Academy」の開始から2周年を迎えたと発表しました。2024年9月の開始以来、250回以上のイベントを開催し、Academyのコンテンツには400万人以上が触れています。今後は、地域の人材がAI活用を教えられる体制づくりへと取り組みを広げます。",
-      "headings": [
-        "250回超のイベント、400万人以上がコンテンツを利用",
-        "職種別の学習経路を整備",
-        "「Community Trainer Program」で教育を分散化",
-        "今後の展望"
-      ],
-      "source_url": "https://openai.com/index/two-years-of-openai-academy/",
-      "source_urls": [
-        "https://openai.com/index/two-years-of-openai-academy/"
-      ],
-      "source_label": "openai.com",
-      "cover": "assets/posts/1552349867584651304.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1552349867584651304",
-      "first_seen": "2026-09-23T16:04:09.698Z",
-      "kind": "feature",
-      "kind_confidence": 0.87
-    },
-    {
-      "id": "1552308859257888828",
-      "title": "OpenAI、ウクライナの民間インフラ防衛にAIサイバー技術を提供",
-      "channel": "open-ai",
-      "category": "Open AI",
-      "date": "2026-09-23T13:21:12.551Z",
-      "excerpt": "OpenAIは2026年9月23日、ウクライナ政府にサイバー防御プログラム「Daybreak」へのアクセスを提供すると発表しました。ウクライナのデジタル変革省と協力し、病院、エネルギー、通信など民間インフラを狙うサイバー攻撃への防御能力強化を支援します。",
-      "lead": "OpenAIは2026年9月23日、ウクライナ政府にサイバー防御プログラム「Daybreak」へのアクセスを提供すると発表しました。ウクライナのデジタル変革省と協力し、病院、エネルギー、通信など民間インフラを狙うサイバー攻撃への防御能力強化を支援します。",
-      "headings": [
-        "脆弱性発見から修正検証までAIで支援",
-        "約6000件のサイバー事案に直面",
-        "欧州で先行するサイバー防御へのAI導入",
-        "今後の展望"
-      ],
-      "source_url": "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense/",
-      "source_urls": [
-        "https://openai.com/index/openai-extends-cyber-access-to-ukraine-for-civilian-defense/"
-      ],
-      "source_label": "openai.com",
-      "cover": "assets/posts/1552308859257888828.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1552308859257888828",
-      "first_seen": "2026-09-23T13:21:12.551Z",
-      "kind": "adoption",
-      "kind_confidence": 0.44
     }
   ]
 }

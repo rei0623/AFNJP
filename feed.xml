@@ -5,8 +5,40 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 24 Sep 2026 15:50:57 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 24 Sep 2026 22:19:26 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Anthropic「Project Swap」、AIエージェント同士の市場取引を実験</title>
+      <link>https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1552806697758888127</link>
+      <guid isPermaLink="false">afnjp-1552806697758888127</guid>
+      <pubDate>Thu, 24 Sep 2026 22:19:26 GMT</pubDate>
+      <category>anthropic</category>
+      <description>Anthropicは2026年9月24日、AIエージェントが人間の代理として交渉・取引する市場を検証した研究「Project Swap」を公開しました。201人のAnthropic従業員とClaudeベースのエージェントを使い、本を交換する小規模市場を構築し…</description>
+    </item>
+    <item>
+      <title>Google、10分級の長尺AI動画へ「一貫性」を保つマルチエージェント技術を公開</title>
+      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1552805908235423784</link>
+      <guid isPermaLink="false">afnjp-1552805908235423784</guid>
+      <pubDate>Thu, 24 Sep 2026 22:16:18 GMT</pubDate>
+      <category>google</category>
+      <description>Google Researchは2026年9月24日、長尺AI動画で発生しやすいキャラクターや背景の変化、上流工程のミスが後工程へ連鎖する問題を抑える、統合型マルチエージェント研究を発表しました。単に高品質な短いクリップを生成するのではなく、物語全体を「世界…</description>
+    </item>
+    <item>
+      <title>Meta Connect 2026、AIエージェント「Muse」と100g級VRグラスで次世代コンピューティングへ</title>
+      <link>https://discord.com/channels/1415350002255007784/1441473829951111330/threads/1552805751519707226</link>
+      <guid isPermaLink="false">afnjp-1552805751519707226</guid>
+      <pubDate>Thu, 24 Sep 2026 22:15:40 GMT</pubDate>
+      <category>meta</category>
+      <description>MetaはConnect 2026で、パーソナルAIエージェント「Muse」のAIグラス対応、新型「Meta VR Glasses」、AIグラスの大幅なラインアップ拡充を発表しました。スマートフォンの画面を中心とした操作から、視覚・音声・周囲の状況をAIが理…</description>
+    </item>
+    <item>
+      <title>Google「Gemini 3.8 Live with Live Avatar」発表、AI対話にリアルタイム映像アバターを統合</title>
+      <link>https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1552805588445044746</link>
+      <guid isPermaLink="false">afnjp-1552805588445044746</guid>
+      <pubDate>Thu, 24 Sep 2026 22:15:02 GMT</pubDate>
+      <category>gemini</category>
+      <description>Googleは2026年9月24日、「Gemini 3.8 Live with Live Avatar」を発表しました。音声によるリアルタイム対話と低遅延の動画生成をネイティブに組み合わせ、AIエージェントが表情や口の動きを伴う視覚的な存在としてユーザーと会…</description>
+    </item>
     <item>
       <title>ChatGPT Ads、東南アジア・台湾へ拡大 60カ国超の広告基盤へ</title>
       <link>https://discord.com/channels/1415350002255007784/1415353131604377641/threads/1552708934370861107</link>
@@ -70,38 +102,6 @@
       <pubDate>Wed, 23 Sep 2026 16:06:03 GMT</pubDate>
       <category>gemini</category>
       <description>Googleは2026年9月23日、Geminiアプリで利用できる「Connected Apps」の対象を拡大すると発表しました。生産性、クリエイティブ、ライフスタイルの各分野にまたがる外部サービスをGeminiへ接続し、複数のタブやアプリを行き来せず、会話…</description>
-    </item>
-    <item>
-      <title>Google、クラウドAIに「安全な長期記憶」導入へ</title>
-      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1552350218710683658</link>
-      <guid isPermaLink="false">afnjp-1552350218710683658</guid>
-      <pubDate>Wed, 23 Sep 2026 16:05:33 GMT</pubDate>
-      <category>google</category>
-      <description>Google DeepMindは2026年9月23日、Private AI Computeにサーバー側の永続メモリを導入する技術構想を発表しました。端末内処理に近いプライバシー水準を維持しながら、AIがデバイスをまたいで過去の文脈を保持できる仕組みを目指しま…</description>
-    </item>
-    <item>
-      <title>Google「Gemini 3.8 TTS」発表、声を“選ぶ”AIから“設計する”AIへ</title>
-      <link>https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1552350037491843132</link>
-      <guid isPermaLink="false">afnjp-1552350037491843132</guid>
-      <pubDate>Wed, 23 Sep 2026 16:04:50 GMT</pubDate>
-      <category>gemini</category>
-      <description>Googleは2026年9月23日、音声生成モデル「Gemini 3.8 Flash TTS」と「Gemini 3.8 Flash-Lite TTS」を発表しました。従来のプリセット音声を選択する方式から一歩進み、自然言語による声質設計、行単位の演技指示、長…</description>
-    </item>
-    <item>
-      <title>OpenAI Academyが2周年、AI教育を「利用」から「地域で教える仕組み」へ拡張</title>
-      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1552349867584651304</link>
-      <guid isPermaLink="false">afnjp-1552349867584651304</guid>
-      <pubDate>Wed, 23 Sep 2026 16:04:09 GMT</pubDate>
-      <category>open-ai</category>
-      <description>OpenAIは2026年9月23日、AI活用教育プログラム「OpenAI Academy」の開始から2周年を迎えたと発表しました。2024年9月の開始以来、250回以上のイベントを開催し、Academyのコンテンツには400万人以上が触れています。今後は、地…</description>
-    </item>
-    <item>
-      <title>OpenAI、ウクライナの民間インフラ防衛にAIサイバー技術を提供</title>
-      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1552308859257888828</link>
-      <guid isPermaLink="false">afnjp-1552308859257888828</guid>
-      <pubDate>Wed, 23 Sep 2026 13:21:12 GMT</pubDate>
-      <category>open-ai</category>
-      <description>OpenAIは2026年9月23日、ウクライナ政府にサイバー防御プログラム「Daybreak」へのアクセスを提供すると発表しました。ウクライナのデジタル変革省と協力し、病院、エネルギー、通信など民間インフラを狙うサイバー攻撃への防御能力強化を支援します。</description>
     </item>
   </channel>
 </rss>

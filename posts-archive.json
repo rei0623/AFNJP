@@ -1,9 +1,111 @@
 {
-  "generated_at": "2026-09-24T19:07:21.502Z",
+  "generated_at": "2026-09-24T22:21:39.305Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 240,
+  "count": 244,
   "posts": [
+    {
+      "id": "1552806697758888127",
+      "title": "Anthropic「Project Swap」、AIエージェント同士の市場取引を実験",
+      "channel": "anthropic",
+      "category": "Anthropic",
+      "date": "2026-09-24T22:19:26.499Z",
+      "excerpt": "Anthropicは2026年9月24日、AIエージェントが人間の代理として交渉・取引する市場を検証した研究「Project Swap」を公開しました。201人のAnthropic従業員とClaudeベースのエージェントを使い、本を交換する小規模市場を構築し…",
+      "lead": "Anthropicは2026年9月24日、AIエージェントが人間の代理として交渉・取引する市場を検証した研究「Project Swap」を公開しました。201人のAnthropic従業員とClaudeベースのエージェントを使い、本を交換する小規模市場を構築した結果、交渉能力そのものより「本人の好みを正確に理解する能力」が市場効率を左右する重要な要素であることが示されています。",
+      "headings": [
+        "201人の代理としてClaudeが本を交渉",
+        "好みの推定精度は61％",
+        "強いモデルほど取引効率も高い",
+        "AIエージェント市場には新しいインフラが必要",
+        "今後の展望"
+      ],
+      "source_url": "https://www.anthropic.com/research/project-swap",
+      "source_urls": [
+        "https://www.anthropic.com/research/project-swap"
+      ],
+      "source_label": "anthropic.com",
+      "cover": "assets/posts/1552806697758888127.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1552806697758888127",
+      "first_seen": "2026-09-24T22:19:26.499Z",
+      "kind": "research",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1552805908235423784",
+      "title": "Google、10分級の長尺AI動画へ「一貫性」を保つマルチエージェント技術を公開",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-09-24T22:16:18.262Z",
+      "excerpt": "Google Researchは2026年9月24日、長尺AI動画で発生しやすいキャラクターや背景の変化、上流工程のミスが後工程へ連鎖する問題を抑える、統合型マルチエージェント研究を発表しました。単に高品質な短いクリップを生成するのではなく、物語全体を「世界…",
+      "lead": "Google Researchは2026年9月24日、長尺AI動画で発生しやすいキャラクターや背景の変化、上流工程のミスが後工程へ連鎖する問題を抑える、統合型マルチエージェント研究を発表しました。単に高品質な短いクリップを生成するのではなく、物語全体を「世界状態を維持する最適化問題」として扱う点が特徴です。0",
+      "headings": [
+        "GeminiとVeoを複数のAIエージェントが統括",
+        "長尺動画を支える3つの追加技術",
+        "ベンチマークでも長期的一貫性を評価",
+        "今後の展望"
+      ],
+      "source_url": "https://research.google/blog/coherent-long-form-video-generation/",
+      "source_urls": [
+        "https://research.google/blog/coherent-long-form-video-generation/"
+      ],
+      "source_label": "research.google",
+      "cover": "assets/posts/1552805908235423784.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1552805908235423784",
+      "first_seen": "2026-09-24T22:16:18.262Z",
+      "kind": "research",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1552805751519707226",
+      "title": "Meta Connect 2026、AIエージェント「Muse」と100g級VRグラスで次世代コンピューティングへ",
+      "channel": "meta",
+      "category": "Meta",
+      "date": "2026-09-24T22:15:40.898Z",
+      "excerpt": "MetaはConnect 2026で、パーソナルAIエージェント「Muse」のAIグラス対応、新型「Meta VR Glasses」、AIグラスの大幅なラインアップ拡充を発表しました。スマートフォンの画面を中心とした操作から、視覚・音声・周囲の状況をAIが理…",
+      "lead": "MetaはConnect 2026で、パーソナルAIエージェント「Muse」のAIグラス対応、新型「Meta VR Glasses」、AIグラスの大幅なラインアップ拡充を発表しました。スマートフォンの画面を中心とした操作から、視覚・音声・周囲の状況をAIが理解して処理するコンピューティングへの移行を鮮明にしています。",
+      "headings": [
+        "AIグラスからMuseを常時呼び出し",
+        "約100グラムのMeta VR Glasses",
+        "AIグラスを巨大な製品群へ",
+        "今後の展望"
+      ],
+      "source_url": "https://about.fb.com/news/2026/09/the-biggest-news-from-connect-2026/",
+      "source_urls": [
+        "https://about.fb.com/news/2026/09/the-biggest-news-from-connect-2026/"
+      ],
+      "source_label": "about.fb.com",
+      "cover": "assets/posts/1552805751519707226.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1441473829951111330/threads/1552805751519707226",
+      "first_seen": "2026-09-24T22:15:40.898Z",
+      "kind": "model",
+      "kind_confidence": 0.68
+    },
+    {
+      "id": "1552805588445044746",
+      "title": "Google「Gemini 3.8 Live with Live Avatar」発表、AI対話にリアルタイム映像アバターを統合",
+      "channel": "gemini",
+      "category": "Google",
+      "date": "2026-09-24T22:15:02.018Z",
+      "excerpt": "Googleは2026年9月24日、「Gemini 3.8 Live with Live Avatar」を発表しました。音声によるリアルタイム対話と低遅延の動画生成をネイティブに組み合わせ、AIエージェントが表情や口の動きを伴う視覚的な存在としてユーザーと会…",
+      "lead": "Googleは2026年9月24日、「Gemini 3.8 Live with Live Avatar」を発表しました。音声によるリアルタイム対話と低遅延の動画生成をネイティブに組み合わせ、AIエージェントが表情や口の動きを伴う視覚的な存在としてユーザーと会話できる仕組みです。Gemini Enterpriseで提供が始まっています。",
+      "headings": [
+        "音声と映像を統合したリアルタイム対話",
+        "ツール実行中も会話を継続",
+        "97言語に対応、途中で言語変更も可能",
+        "企業独自のアバターも生成可能",
+        "今後の展望"
+      ],
+      "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-with-live-avatar/?utm_source=deepmind.google&utm_medium=referral&utm_campaign=gdm&utm_content=",
+      "source_urls": [
+        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-with-live-avatar/?utm_source=deepmind.google&utm_medium=referral&utm_campaign=gdm&utm_content="
+      ],
+      "source_label": "blog.google",
+      "cover": "assets/posts/1552805588445044746.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1552805588445044746",
+      "first_seen": "2026-09-24T22:15:02.018Z",
+      "kind": "feature",
+      "kind_confidence": 0.48
+    },
     {
       "id": "1552708934370861107",
       "title": "ChatGPT Ads、東南アジア・台湾へ拡大 60カ国超の広告基盤へ",
