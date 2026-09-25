@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-25T01:27:55.139Z",
+  "generated_at": "2026-09-25T07:44:34.523Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
@@ -25,7 +25,9 @@
       "source_label": "odyssey.systems",
       "cover": "assets/posts/1552809097575796797.webp",
       "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1552809097575796797",
-      "first_seen": "2026-09-24T22:28:58.660Z"
+      "first_seen": "2026-09-24T22:28:58.660Z",
+      "kind": "model",
+      "kind_confidence": 0.89
     },
     {
       "id": "1552808977639809084",
@@ -50,7 +52,9 @@
       "source_label": "platform.claude.com",
       "cover": "assets/posts/1552808977639809084.webp",
       "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1552808977639809084",
-      "first_seen": "2026-09-24T22:28:30.065Z"
+      "first_seen": "2026-09-24T22:28:30.065Z",
+      "kind": "policy",
+      "kind_confidence": 0.43
     },
     {
       "id": "1552806697758888127",
