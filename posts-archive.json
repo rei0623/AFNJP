@@ -1,9 +1,85 @@
 {
-  "generated_at": "2026-09-25T18:33:52.973Z",
+  "generated_at": "2026-09-25T22:17:37.551Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 246,
+  "count": 249,
   "posts": [
+    {
+      "id": "1553131784215076865",
+      "title": "Claudeが理論物理の「9ループ計算」を自律完遂、AI科学研究が新段階へ",
+      "channel": "anthropic",
+      "category": "Anthropic",
+      "date": "2026-09-25T19:51:13.150Z",
+      "excerpt": "Anthropicは、Claudeを利用した科学研究環境「Claude Science」により、理論粒子物理学の未解決だった計算課題「平面N=4超対称Yang-Mills理論における6粒子振幅の9ループ計算」を完遂したと報告しました。専門家が数年単位で取り組…",
+      "lead": "Anthropicは、Claudeを利用した科学研究環境「Claude Science」により、理論粒子物理学の未解決だった計算課題「平面N=4超対称Yang-Mills理論における6粒子振幅の9ループ計算」を完遂したと報告しました。専門家が数年単位で取り組んできた複雑な計算を、AIが既知の手法と計算資源を組み合わせ、ほぼ自律的に実行した点が注目されます。",
+      "headings": [
+        "Claudeが挑んだ「9ループ」とは",
+        "BootstrapとPythonで直接計算",
+        "重要なのは「新理論」より自律実行能力",
+        "AIエージェントが研究開発を変える可能性",
+        "今後の展望"
+      ],
+      "source_url": "https://www.anthropic.com/research/yes-claude-can-do-nine-loops",
+      "source_urls": [
+        "https://www.anthropic.com/research/yes-claude-can-do-nine-loops"
+      ],
+      "source_label": "anthropic.com",
+      "cover": "assets/posts/1553131784215076865.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1553131784215076865",
+      "first_seen": "2026-09-25T19:51:13.150Z",
+      "kind": "research",
+      "kind_confidence": 0.9
+    },
+    {
+      "id": "1553131618196258870",
+      "title": "DeepMind、AIの「秘密裏の策謀能力」を測る新評価手法",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-09-25T19:50:33.568Z",
+      "excerpt": "Google DeepMindは2026年7月15日、フロンティアAIが監視を回避しながら開発者の意図と異なる目的を追求できるかを調べる研究を公開しました。研究は「ステルス能力」と「状況認識」を、AIによる策謀が成立するための前提能力として評価しています。",
+      "lead": "Google DeepMindは2026年7月15日、フロンティアAIが監視を回避しながら開発者の意図と異なる目的を追求できるかを調べる研究を公開しました。研究は「ステルス能力」と「状況認識」を、AIによる策謀が成立するための前提能力として評価しています。",
+      "headings": [
+        "策謀そのものではなく「実行できる能力」を測定",
+        "現行モデルは複雑な長期戦略で苦戦",
+        "安全性評価にも限界",
+        "今後の展望"
+      ],
+      "source_url": "https://deepmind.google/research/publications/157938/",
+      "source_urls": [
+        "https://deepmind.google/research/publications/157938/"
+      ],
+      "source_label": "deepmind.google",
+      "cover": "assets/posts/1553131618196258870.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1553131618196258870",
+      "first_seen": "2026-09-25T19:50:33.568Z",
+      "kind": "research",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1553131443725664376",
+      "title": "Proaction、Codex活用で営業転換率を最大60％改善 AIが「売る・作る・運用する」を接続",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-09-25T19:49:51.971Z",
+      "excerpt": "車両管理ソフトウェアを提供するProactionが、OpenAIのCodexやGPT-Live-1、GPT-6 Astraを営業・開発・業務運用に組み込み、生産性向上につなげています。OpenAIが2026年9月25日に公開した事例では、カスタムデモの導入に…",
+      "lead": "車両管理ソフトウェアを提供するProactionが、OpenAIのCodexやGPT-Live-1、GPT-6 Astraを営業・開発・業務運用に組み込み、生産性向上につなげています。OpenAIが2026年9月25日に公開した事例では、カスタムデモの導入によって案件の次段階への移行率が50〜60％向上し、月40〜60時間のエンジニア工数削減につながったとされています。",
+      "headings": [
+        "Codexで顧客ごとのデモを30〜45分で生成",
+        "Codexを業務アプリの「操作レイヤー」に",
+        "GPT-Live-1とGPT-6 Astraで業務そのものを実行",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/proaction/",
+      "source_urls": [
+        "https://openai.com/index/proaction/"
+      ],
+      "source_label": "openai.com",
+      "cover": "assets/posts/1553131443725664376.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1553131443725664376",
+      "first_seen": "2026-09-25T19:49:51.971Z",
+      "kind": "adoption",
+      "kind_confidence": 1
+    },
     {
       "id": "1552809097575796797",
       "title": "最大20人・AIが同じ生成世界で戦う「Agora-2」、Odysseyが次世代ワールドモデル公開",
