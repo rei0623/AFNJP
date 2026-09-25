@@ -5,8 +5,24 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 24 Sep 2026 22:19:26 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 24 Sep 2026 22:28:58 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>最大20人・AIが同じ生成世界で戦う「Agora-2」、Odysseyが次世代ワールドモデル公開</title>
+      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1552809097575796797</link>
+      <guid isPermaLink="false">afnjp-1552809097575796797</guid>
+      <pubDate>Thu, 24 Sep 2026 22:28:58 GMT</pubDate>
+      <category>その他</category>
+      <description>Odysseyは2026年9月21日、複数の人間とAIエージェントが同一の生成世界を共有できる次世代ワールドモデル「Agora-2」を研究プレビューとして公開しました。最大20参加者を扱い、各参加者の行動が共通世界の状態を変化させ、その結果を別々の視点からリ…</description>
+    </item>
+    <item>
+      <title>Claude APIの「拒否」は無料？Anthropicが明示した課金とフォールバックの仕組み</title>
+      <link>https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1552808977639809084</link>
+      <guid isPermaLink="false">afnjp-1552808977639809084</guid>
+      <pubDate>Thu, 24 Sep 2026 22:28:30 GMT</pubDate>
+      <category>anthropic</category>
+      <description>AnthropicはClaude APIにおける安全性判定による「refusal（拒否）」と、その際の課金ルール、別モデルへ処理を引き継ぐフォールバックの仕組みを公開しています。特に重要なのは、出力開始前に拒否されたリクエストは課金されない一方、途中まで出力…</description>
+    </item>
     <item>
       <title>Anthropic「Project Swap」、AIエージェント同士の市場取引を実験</title>
       <link>https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1552806697758888127</link>
@@ -86,22 +102,6 @@
       <pubDate>Thu, 24 Sep 2026 15:49:12 GMT</pubDate>
       <category>open-ai</category>
       <description>動画編集AIを開発するinvideoが、OpenAIのGPT-6 Astraを活用し、複雑な編集計画やカラー処理、カスタムエフェクト生成を強化しています。OpenAIが2026年9月23日に公開した事例によると、invideoではカラーグレーディングとカラー…</description>
-    </item>
-    <item>
-      <title>リーク：謎の「Space Bunny Alpha」がOpenRouterとOpenCodeに出現、MiniMax M3.1の可能性</title>
-      <link>https://discord.com/channels/1415350002255007784/1415534435712897124/threads/1552351526909907005</link>
-      <guid isPermaLink="false">afnjp-1552351526909907005</guid>
-      <pubDate>Wed, 23 Sep 2026 16:10:45 GMT</pubDate>
-      <category>リーク情報</category>
-      <description>OpenRouterとOpenCode上で、正体を伏せた新たなステルスAIモデル「Space Bunny Alpha」のテストが確認されています。現時点で開発元は公式に明かされていませんが、中国語でモデル自身に身元を尋ねるとMiniMax系モデルだと回答する…</description>
-    </item>
-    <item>
-      <title>Geminiが外部アプリ連携を大幅拡充、AdobeやLinear、Pelotonなどをチャットから操作へ</title>
-      <link>https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1552350346607853578</link>
-      <guid isPermaLink="false">afnjp-1552350346607853578</guid>
-      <pubDate>Wed, 23 Sep 2026 16:06:03 GMT</pubDate>
-      <category>gemini</category>
-      <description>Googleは2026年9月23日、Geminiアプリで利用できる「Connected Apps」の対象を拡大すると発表しました。生産性、クリエイティブ、ライフスタイルの各分野にまたがる外部サービスをGeminiへ接続し、複数のタブやアプリを行き来せず、会話…</description>
     </item>
   </channel>
 </rss>

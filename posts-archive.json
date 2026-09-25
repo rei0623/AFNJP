@@ -1,9 +1,62 @@
 {
-  "generated_at": "2026-09-24T22:21:39.305Z",
+  "generated_at": "2026-09-25T01:27:55.137Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 244,
+  "count": 246,
   "posts": [
+    {
+      "id": "1552809097575796797",
+      "title": "最大20人・AIが同じ生成世界で戦う「Agora-2」、Odysseyが次世代ワールドモデル公開",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-09-24T22:28:58.660Z",
+      "excerpt": "Odysseyは2026年9月21日、複数の人間とAIエージェントが同一の生成世界を共有できる次世代ワールドモデル「Agora-2」を研究プレビューとして公開しました。最大20参加者を扱い、各参加者の行動が共通世界の状態を変化させ、その結果を別々の視点からリ…",
+      "lead": "Odysseyは2026年9月21日、複数の人間とAIエージェントが同一の生成世界を共有できる次世代ワールドモデル「Agora-2」を研究プレビューとして公開しました。最大20参加者を扱い、各参加者の行動が共通世界の状態を変化させ、その結果を別々の視点からリアルタイムに映像生成する仕組みです。",
+      "headings": [
+        "映像生成と「世界の状態」を分離",
+        "Transformerで複数キャラクターの相互作用を予測",
+        "約10億パラメータの生成モデルで各視点を描画",
+        "Diablo IIで学ぶマルチエージェント環境",
+        "今後の展望"
+      ],
+      "source_url": "https://odyssey.systems/introducing-agora-2",
+      "source_urls": [
+        "https://odyssey.systems/introducing-agora-2"
+      ],
+      "source_label": "odyssey.systems",
+      "cover": "assets/posts/1552809097575796797.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1552809097575796797",
+      "first_seen": "2026-09-24T22:28:58.660Z",
+      "kind": "model",
+      "kind_confidence": 0.89
+    },
+    {
+      "id": "1552808977639809084",
+      "title": "Claude APIの「拒否」は無料？Anthropicが明示した課金とフォールバックの仕組み",
+      "channel": "anthropic",
+      "category": "Anthropic",
+      "date": "2026-09-24T22:28:30.065Z",
+      "excerpt": "AnthropicはClaude APIにおける安全性判定による「refusal（拒否）」と、その際の課金ルール、別モデルへ処理を引き継ぐフォールバックの仕組みを公開しています。特に重要なのは、出力開始前に拒否されたリクエストは課金されない一方、途中まで出力…",
+      "lead": "AnthropicはClaude APIにおける安全性判定による「refusal（拒否）」と、その際の課金ルール、別モデルへ処理を引き継ぐフォールバックの仕組みを公開しています。特に重要なのは、出力開始前に拒否されたリクエストは課金されない一方、途中まで出力してから拒否された場合は通常料金が発生する点です。",
+      "headings": [
+        "出力前の拒否はトークンが記録されても課金されない",
+        "途中で拒否されると入力・出力とも課金対象",
+        "`usage.iterations`が実際の課金確認で重要",
+        "フォールバックで拒否をユーザーから隠蔽可能",
+        "今後の展望"
+      ],
+      "source_url": "https://platform.claude.com/docs/en/build-with-claude/refusals-and-fallback",
+      "source_urls": [
+        "https://platform.claude.com/docs/en/build-with-claude/refusals-and-fallback",
+        "https://platform.claude.com/docs/en/build-with-claude/refusals-and-fallback#how-refusals-are-billed"
+      ],
+      "source_label": "platform.claude.com",
+      "cover": "assets/posts/1552808977639809084.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1552808977639809084",
+      "first_seen": "2026-09-24T22:28:30.065Z",
+      "kind": "policy",
+      "kind_confidence": 0.43
+    },
     {
       "id": "1552806697758888127",
       "title": "Anthropic「Project Swap」、AIエージェント同士の市場取引を実験",
