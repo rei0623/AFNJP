@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-26T07:37:38.879Z",
+  "generated_at": "2026-09-26T13:02:41.970Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
@@ -25,7 +25,9 @@
       "source_label": "blogs.microsoft.com",
       "cover": "assets/posts/1553241433782226954.webp",
       "url": "https://discord.com/channels/1415350002255007784/1423003108790767748/threads/1553241433782226954",
-      "first_seen": "2026-09-26T03:06:55.644Z"
+      "first_seen": "2026-09-26T03:06:55.644Z",
+      "kind": "feature",
+      "kind_confidence": 0.87
     },
     {
       "id": "1553131784215076865",
