@@ -5,23 +5,54 @@
  * 記事ページは scripts/generate-seo.mjs が大量に生成するため、
  * CSS はページに埋め込まずこの1枚を共有してキャッシュを効かせる。
  * トークン名は index.html の :root と揃えてあるので、色を変えるときは両方を直すこと。
+ * 代表色は朱。見出しは明朝（Zen Old Mincho）。ダークモードは OS の設定に従う。
  */
 
 :root {
-    --paper: #fffefb;
-    --paper-2: #f7f6f1;
-    --ink: #111214;
-    --ink-2: #4a4d52;
-    --ink-3: #8b8e93;
-    --line: #e5e3dc;
-    --line-2: #c9c6bc;
+    --paper: #fbfaf7;
+    --paper-2: #f3f1ec;
+    --ink: #131417;
+    --ink-2: #4b4e56;
+    --ink-3: #80838b;
+    --line: #e3e0d9;
+    --line-2: #cfccc4;
     --shu: #d93a16;
-    --shu-soft: #fdefe9;
+    --shu-hover: #b52e10;
+    --shu-soft: #fbe9e2;
 
+    --f-min: "Zen Old Mincho", "Hiragino Mincho ProN", "Yu Mincho", serif;
     --f-jp: "Zen Kaku Gothic New", "Hiragino Kaku Gothic ProN", "Noto Sans JP", sans-serif;
-    --f-en: "Inter", var(--f-jp), sans-serif;
+    --f-en: var(--f-jp);
     --f-mono: "JetBrains Mono", ui-monospace, monospace;
     --max: 760px;
+    color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --paper: #0f1013;
+        --paper-2: #17181c;
+        --ink: #eeece6;
+        --ink-2: #b7b8bd;
+        --ink-3: #83858d;
+        --line: #2a2c32;
+        --line-2: #3a3d44;
+        --shu: #ff6a45;
+        --shu-hover: #ff8566;
+        --shu-soft: #3a1c14;
+        color-scheme: dark;
+    }
+}
+
+/* ロゴ。白黒の透過画像をマスクにして、文字色で塗る（ダークモードでは白くなる） */
+.emb {
+    display: block;
+    flex-shrink: 0;
+    width: 30px;
+    height: 30px;
+    background: currentColor;
+    -webkit-mask: url("emblem.png") center / contain no-repeat;
+    mask: url("emblem.png") center / contain no-repeat;
 }
 
 *,
@@ -79,13 +110,9 @@ a {
     height: 60px;
 }
 
-.hd img {
-    width: 30px;
-    height: 30px;
-    border-radius: 7px;
-}
 
 .hd b {
+    white-space: nowrap;
     font-family: var(--f-en);
     font-size: 15px;
     font-weight: 700;
@@ -94,6 +121,7 @@ a {
 
 .hd nav {
     margin-left: auto;
+    white-space: nowrap;
     display: flex;
     gap: 20px;
     font-size: 13px;
@@ -141,6 +169,7 @@ a {
 }
 
 .art h1 {
+    font-family: var(--f-min);
     font-size: clamp(24px, 4.4vw, 34px);
     line-height: 1.5;
     font-weight: 900;
@@ -271,7 +300,7 @@ a {
 }
 
 .cta .btn:hover {
-    background: #c02f0f;
+    background: var(--shu-hover);
 }
 
 .cta .sub {
@@ -287,6 +316,7 @@ a {
 }
 
 .arc h1 {
+    font-family: var(--f-min);
     font-size: clamp(24px, 4.4vw, 32px);
     font-weight: 900;
     letter-spacing: -.01em;
@@ -365,6 +395,15 @@ a {
 }
 
 @media (max-width: 560px) {
+    .hd b {
+        font-size: 13.5px;
+    }
+
+    .hd nav {
+        gap: 14px;
+        font-size: 12px;
+    }
+
     .arc li a {
         flex-wrap: wrap;
         gap: 4px 14px;

@@ -62,8 +62,8 @@ const SITE_DESC = '海外のAIニュースを、管理人が公式発表やリ�
     + '出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。';
 const DISCORD_INVITE = 'https://discord.gg/WUWE6Ev7yh';
 
-/** index.html に表示する記事の数（renderPosts の slice と合わせる） */
-const VISIBLE_POSTS = 9;
+/** index.html に表示する記事の数。先頭1本がトップの大枠、残りがカード（index.html の CARD_COUNT と合わせる） */
+const VISIBLE_POSTS = 7;
 /** feed.xml に載せる記事の数（posts.json の全件） */
 const FEED_POSTS = 12;
 
@@ -97,6 +97,16 @@ const hasUnsafeChars = text =>
 const stripUnsafeChars = s => String(s ?? '')
     .replace(LONE_SURROGATE_G, '')
     .replace(FORBIDDEN_G, '');
+
+/**
+ * 下書きに使った AI の引用マーカーを取り除く。
+ * 私用領域の文字で番号を挟んだ形（U+EA01 "0" U+EA02 など）で本文に残ることがあり、
+ * そのまま出すと「…しています。 0」のように読めない記号と数字が末尾に付く。
+ */
+const cleanText = s => String(s ?? '')
+    .replace(/\s*[-][^-]{0,40}?[-]/g, '')
+    .replace(/[-]/g, '')
+    .trim();
 
 /** HTML のテキスト・属性値の両方に使えるエスケープ。' も落とす（属性を壊さないため） */
 const escHtml = s => stripUnsafeChars(s).replace(/[&<>"']/g, m => ({
@@ -238,75 +248,132 @@ function replaceMarkerBlock(html, name, inner) {
 }
 
 /* ═══════════ 記事カードの HTML ═══════════ */
+/*
+ * ここで作るマークアップは index.html の renderLead / cardHtml（ブラウザ側）と同じ形にすること。
+ * 片方だけ直すと、1時間ごとの再生成とページを開いたときの描き直しで見た目が揺れる。
+ */
 
-/** index.html の renderPosts と同じ形の稜線SVG（カバー画像がない記事の代替） */
-const RIDGE_SVG =
-    '<svg viewBox="0 0 300 60" preserveAspectRatio="none" aria-hidden="true">'
-    + '<path d="M0 60 L36 34 L58 44 L92 18 L120 38 L150 12 L182 40 L214 26 L246 46 L272 30 L300 52 L300 60 Z" '
-    + 'fill="#efeee8"/><path d="M0 60 L36 34 L58 44 L92 18 L120 38 L150 12 L182 40 L214 26 L246 46 L272 30 L300 52" '
-    + 'fill="none" stroke="#d8d5cc" stroke-width="1"/></svg>';
+/** 小見出しのうち、どの記事にも付く締めの見出しは要点として並べない */
+const CLOSING_HEADINGS = new Set(['今後の展望', 'まとめ']);
 
-function cardHtml(post, i) {
-    // カードの行き先はサイト内の記事ページ。ID が検証を通らないものだけ
-    // 従来どおり Discord へ直接リンクする。
+/** 記事の行き先。ID が検証を通らないものだけ Discord へ直接リンクする */
+function postHref(post) {
     const id = safeId(post.id);
+    if (id) return { href: `posts/${id}.html`, external: false };
     const discord = safeLink(post.url);
-    const href = id ? `posts/${id}.html` : discord;
-    if (!href) return null; // 行き先が決まらない記事は載せない
-    const external = !id;
+    return discord ? { href: discord, external: true } : null;
+}
 
-    const cover = safeCover(post.cover);
-    const coverHtml = cover
-        // カード全体が1つのリンクで、直下の h3 に同じタイトルがあるため装飾扱い（alt=""）
-        ? `<div class="cover"><img src="${escHtml(cover)}" alt="" loading="lazy"></div>`
-        : `<div class="cover blank">${RIDGE_SVG}<span class="ch"># ${escHtml(post.channel)}</span></div>`;
-
+/** 「#チャンネル / 種類 / 日付」の行 */
+function metaHtml(post) {
+    const kind = post.kind && KIND_LABEL[post.kind] ? KIND_LABEL[post.kind] : null;
     // 静的版は「今日 / 昨日」のような相対表記を使わない。
     // 相対表記はクロールされた時点が分からないと意味を持たず、
     // 記事が変わっていないのに毎日差分が出て無駄なコミットを生むため。
     const shown = jstDate(post.date);
-    const when = shown
-        ? `<span><time datetime="${escHtml(post.date)}">${escHtml(shown)}</time></span>`
-        : '';
+    return `<p class="meta"><span class="tag">#${escHtml(post.channel)}</span>`
+        + (kind ? `<span class="kind">${escHtml(kind)}</span>` : '')
+        + (shown ? `<time datetime="${escHtml(post.date)}">${escHtml(shown)}</time>` : '')
+        + '</p>';
+}
 
-    const delay = Math.min(i * 45, 400);
+/** トップの大枠に置く、いちばん新しい記事 */
+function leadHtml(post) {
+    const to = postHref(post);
+    if (!to) return null;
+    const attrs = to.external ? ' target="_blank" rel="noopener noreferrer"' : '';
+    const cover = safeCover(post.cover);
+    const lead = cleanText(post.lead || post.excerpt || '');
+    const short = lead.length > 170 ? lead.slice(0, 168) + '…' : lead;
+    const heads = (post.headings || [])
+        .map(h => String(h ?? '').trim())
+        .filter(h => h && !CLOSING_HEADINGS.has(h))
+        .slice(0, 4);
+    const t = new Date(post.date);
+    const stamp = Number.isNaN(t.getTime()) ? '' : (() => {
+        const j = new Date(t.getTime() + 9 * 3600 * 1000);
+        return `${j.getUTCMonth() + 1}/${j.getUTCDate()} ${p2(j.getUTCHours())}:${p2(j.getUTCMinutes())} JST`;
+    })();
 
-    const attrs = external ? ' target="_blank" rel="noopener noreferrer"' : '';
-    const go = external ? 'Discordで読む ↗' : '記事を読む →';
-
-    return `<a class="card" style="animation-delay:${delay}ms"
-    href="${escHtml(href)}"${attrs}>
-    ${coverHtml}
-    <div class="body">
-        <p class="meta"><span class="tag">#${escHtml(post.channel)}</span>${when}</p>
-        <h3>${escHtml(post.title)}</h3>
-        ${post.excerpt ? `<p class="ex">${escHtml(post.excerpt)}</p>` : ''}
-        <p class="foot">
-            <span class="src">${post.source_label ? '出典 ' + escHtml(post.source_label) : ''}</span>
-            <span class="go">${go}</span>
-        </p>
+    return `<a class="lead-story" href="${escHtml(to.href)}"${attrs}>
+    <p class="ls-bar"><span><b>●</b> いちばん新しい記事</span><span>${escHtml(stamp)}</span></p>
+    ${cover ? `<div class="ls-img"><img src="${escHtml(cover)}" alt="" width="640" height="360"></div>` : ''}
+    <div class="ls-body">
+        ${metaHtml(post)}
+        <h2>${escHtml(post.title)}</h2>
+        ${short ? `<p class="lede">${escHtml(short)}</p>` : ''}
+        ${heads.length ? `<ol class="heads">${heads.map(h => `<li>${escHtml(h)}</li>`).join('')}</ol>` : ''}
+        <p class="src"><span class="d"><em>出典</em>${escHtml(post.source_label || '')}</span><span class="go">${to.external ? 'Discordで読む ↗' : '記事を読む →'}</span></p>
     </div>
+</a>`;
+}
+
+function cardHtml(post) {
+    const to = postHref(post);
+    if (!to) return null; // 行き先が決まらない記事は載せない
+    const attrs = to.external ? ' target="_blank" rel="noopener noreferrer"' : '';
+    const cover = safeCover(post.cover);
+    const coverHtml = cover
+        // カード全体が1つのリンクで、直下の h3 に同じタイトルがあるため装飾扱い（alt=""）
+        ? `<div class="cover"><img src="${escHtml(cover)}" alt="" loading="lazy" width="640" height="360"></div>`
+        : `<div class="cover type"><b>${escHtml(post.channel)}</b></div>`;
+    const ex = cleanText(post.excerpt || post.lead || '');
+
+    return `<a class="card" href="${escHtml(to.href)}"${attrs}>
+    ${coverHtml}
+    ${metaHtml(post)}
+    <h3>${escHtml(post.title)}</h3>
+    ${ex ? `<p class="lede">${escHtml(ex)}</p>` : ''}
+    <p class="from">${post.source_label ? `出典 <b>${escHtml(post.source_label)}</b>` : ''}</p>
 </a>`;
 }
 
 /* ═══════════ チャンネル一覧の HTML ═══════════ */
 
-function groupHtml(group, startIndex) {
+function groupHtml(group, articles) {
     const names = (group.channels || []).filter(n => String(n ?? '').trim());
     if (!names.length) return { html: null, used: 0 };
 
-    const chips = names.map((name, k) => {
-        const delay = Math.min((startIndex + k) * 8, 280);
-        return `    <span class="ch" style="animation-delay:${delay}ms"><span class="h">#</span>${escHtml(name)}</span>`;
-    }).join('\n');
+    const chips = names.map(name => `        <span class="ch">${escHtml(name)}</span>`).join('\n');
+    const count = articles
+        ? `記事 <em>${articles}</em> 本`
+        : `${names.length} ch`;
 
     const html = `<div class="group">
-    <h4>${escHtml(group.category)}<span class="n">${names.length}</span></h4>
-    <div class="chlist">
+    <p class="grp-h"><b>${escHtml(group.category === 'Open AI' ? 'OpenAI' : group.category)}</b><span>${count}</span></p>
+    <div class="chs">
 ${chips}
     </div>
 </div>`;
     return { html, used: names.length };
+}
+
+/* ═══════════ 記事の記録（グラフの元データ） ═══════════ */
+
+/**
+ * トップの「記事の記録」で描くグラフの元データ。
+ * posts-archive.json は 400KB を超えるので、ブラウザには集計結果だけを渡す。
+ */
+function statsOf(posts) {
+    const days = {};
+    const hours = new Array(24).fill(0);
+    const domains = {};
+    for (const p of posts) {
+        const t = new Date(p.date);
+        if (Number.isNaN(t.getTime())) continue;
+        const j = new Date(t.getTime() + 9 * 3600 * 1000);
+        const key = j.toISOString().slice(0, 10);
+        days[key] = (days[key] || 0) + 1;
+        hours[j.getUTCHours()]++;
+        const d = String(p.source_label || '').trim();
+        if (d) domains[d] = (domains[d] || 0) + 1;
+    }
+    return {
+        total: posts.length,
+        days,
+        hours,
+        domains: Object.entries(domains).sort((a, b) => b[1] - a[1]).slice(0, 6),
+    };
 }
 
 /* ═══════════ 個別記事ページ / アーカイブ一覧 ═══════════ */
@@ -324,7 +391,7 @@ function siteHeader(depth) {
     return `<header class="hd">
     <div class="wrap">
         <a href="${up}index.html" style="display:flex;align-items:center;gap:10px">
-            <img src="${up}AFNJP.jpg" alt="" width="30" height="30">
+            <span class="emb" aria-hidden="true"></span>
             <b>AI Frontier News JP</b>
         </a>
         <nav>
@@ -373,7 +440,7 @@ function articleHtml(post) {
     const ogImage = cover ? SITE + cover : `${SITE}AFNJP.jpg`;
     const desc = metaDesc(post);
     // lead は同期スクリプトが入れる長めの要約。まだ無い記事は短い excerpt で代用する。
-    const lead = post.lead || post.excerpt || '';
+    const lead = cleanText(post.lead || post.excerpt || '');
     const headings = (post.headings || [])
         .map(h => String(h ?? '').trim())
         .filter(Boolean)
@@ -415,12 +482,13 @@ function articleHtml(post) {
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>${escHtml(post.title)} | AI Frontier News JP</title>
 <meta name="description" content="${escHtml(desc)}">
-<meta name="theme-color" content="#ffffff">
+<meta name="theme-color" content="#fbfaf7" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0f1013" media="(prefers-color-scheme: dark)">
 <link rel="canonical" href="${escHtml(url)}">
-<link rel="icon" href="../AFNJP.jpg" type="image/jpeg">
+<link rel="icon" href="../assets/icons/favicon-48.png" type="image/png">
 <link rel="alternate" type="application/rss+xml" title="AI Frontier News JP の最新記事" href="../feed.xml">
 <link rel="manifest" href="../manifest.webmanifest">
-<link rel="apple-touch-icon" href="../assets/icons/icon-192.png">
+<link rel="apple-touch-icon" href="../assets/icons/apple-touch-icon.png">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="AFNJP">
 <meta property="og:type" content="article">
@@ -437,7 +505,7 @@ function articleHtml(post) {
 <meta name="twitter:image" content="${escHtml(ogImage)}">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=JetBrains+Mono:wght@400;500&family=Zen+Kaku+Gothic+New:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Zen+Kaku+Gothic+New:wght@400;500;700;900&family=Zen+Old+Mincho:wght@700;900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="../assets/article.css">
 <script type="application/ld+json">
 ${ld}
@@ -632,12 +700,13 @@ function archiveHtml(posts) {
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>記事一覧 | AI Frontier News JP</title>
 <meta name="description" content="${escHtml(desc)}">
-<meta name="theme-color" content="#ffffff">
+<meta name="theme-color" content="#fbfaf7" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0f1013" media="(prefers-color-scheme: dark)">
 <link rel="canonical" href="${url}">
-<link rel="icon" href="AFNJP.jpg" type="image/jpeg">
+<link rel="icon" href="assets/icons/favicon-48.png" type="image/png">
 <link rel="alternate" type="application/rss+xml" title="AI Frontier News JP の最新記事" href="feed.xml">
 <link rel="manifest" href="manifest.webmanifest">
-<link rel="apple-touch-icon" href="assets/icons/icon-192.png">
+<link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.png">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="AFNJP">
 <meta property="og:type" content="website">
@@ -651,7 +720,7 @@ function archiveHtml(posts) {
 <meta name="twitter:site" content="@AI_FrontierNews">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=JetBrains+Mono:wght@400;500&family=Zen+Kaku+Gothic+New:wght@400;500;700;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Zen+Kaku+Gothic+New:wght@400;500;700;900&family=Zen+Old+Mincho:wght@700;900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/article.css">
 ${filter.style}
 <script type="application/ld+json">
@@ -799,9 +868,18 @@ if (!groups.length) {
 }
 
 /* ── 記事カード ── */
+// 先頭の1本はトップの大枠へ、残りをカードにする。
+// 大枠に出せない記事（行き先が決まらないもの）は飛ばして次の記事を使う。
 const visible = allPosts.slice(0, VISIBLE_POSTS);
-const cards = visible.map(cardHtml).filter(Boolean);
-const skippedCards = visible.length - cards.length;
+let leadIndex = visible.findIndex(p => leadHtml(p));
+if (leadIndex < 0) {
+    console.error('✗ トップの大枠に載せられる記事がありません。index.html は変更しません。');
+    process.exit(1);
+}
+const lead = leadHtml(visible[leadIndex]);
+const rest = visible.filter((_, i) => i !== leadIndex);
+const cards = rest.map(cardHtml).filter(Boolean);
+const skippedCards = rest.length - cards.length;
 if (skippedCards) {
     console.warn(`  … リンクが検証を通らなかった記事 ${skippedCards} 件をカードから除きました`);
 }
@@ -811,14 +889,16 @@ if (!cards.length) {
 }
 
 /* ── チャンネル一覧 ── */
+const perCategory = {};
+for (const p of archived) {
+    if (p.category) perCategory[p.category] = (perCategory[p.category] || 0) + 1;
+}
 const groupBlocks = [];
-let chIndex = 0;
 let channelTotal = 0;
 for (const g of groups) {
-    const { html, used } = groupHtml(g, chIndex);
+    const { html, used } = groupHtml(g, perCategory[g.category] || 0);
     if (!html) continue;
     groupBlocks.push(html);
-    chIndex += used;
     channelTotal += used;
 }
 if (!groupBlocks.length) {
@@ -826,25 +906,34 @@ if (!groupBlocks.length) {
     process.exit(1);
 }
 
+/* ── 記事の記録 ── */
+// <script type="application/json"> に埋めるので、"<" は必ずエスケープする
+const statsJson = JSON.stringify(statsOf(archived)).replace(/</g, '\\u003C');
+const statsTag = `<script type="application/json" id="stats">${statsJson}</script>`;
+
 /* ── index.html を組み立てる ── */
-const PAD = ' '.repeat(20); // マーカー内側のインデント（#cards / #groups の中）
+const PAD = ' '.repeat(20); // マーカー内側のインデント
 
 /* 記事一覧への導線。累計本数を出すことで「積み上がっている」ことが一目で分かる */
-const archiveLink = `<a class="btn btn-o" href="archive.html"><span>これまでの記事 ${archived.length} 本をすべて見る</span></a>`;
+const archiveLink = `<a class="btn o" href="archive.html">これまでの記事 ${archived.length} 本をすべて見る</a>`;
 const ARCHIVE_PAD = ' '.repeat(20);
 
 let outHtml;
 try {
-    outHtml = replaceMarkerBlock(srcHtml, 'POSTS',
+    outHtml = replaceMarkerBlock(srcHtml, 'LEAD',
+        '\n' + indent(lead, PAD) + '\n' + PAD);
+    outHtml = replaceMarkerBlock(outHtml, 'POSTS',
         '\n' + indent(cards.join('\n'), PAD) + '\n' + PAD);
     outHtml = replaceMarkerBlock(outHtml, 'CHANNELS',
         '\n' + indent(groupBlocks.join('\n'), PAD) + '\n' + PAD);
     outHtml = replaceMarkerBlock(outHtml, 'ARCHIVE',
         '\n' + ARCHIVE_PAD + archiveLink + '\n' + ARCHIVE_PAD);
+    outHtml = replaceMarkerBlock(outHtml, 'STATS',
+        '\n' + PAD + statsTag + '\n' + PAD);
 } catch (err) {
     console.error('✗ index.html のマーカー処理に失敗しました。ファイルは変更しません。');
     console.error(`   - ${err.message}`);
-    console.error('   index.html のマーカー（POSTS / CHANNELS）が壊れていないか確認してください。');
+    console.error('   index.html のマーカー（LEAD / POSTS / CHANNELS / ARCHIVE / STATS）が壊れていないか確認してください。');
     process.exit(1);
 }
 
@@ -859,7 +948,7 @@ function innerOf(html, name) {
 const problems = [];
 if (countOf(outHtml, '</html>') !== 1) problems.push('</html> がちょうど1つではありません');
 
-for (const name of ['POSTS', 'CHANNELS', 'ARCHIVE']) {
+for (const name of ['LEAD', 'POSTS', 'CHANNELS', 'ARCHIVE', 'STATS']) {
     if (countOf(outHtml, `<!-- ${name}:START`) !== 1 || countOf(outHtml, `<!-- ${name}:END -->`) !== 1) {
         problems.push(`マーカー ${name} が失われました`);
     }
@@ -878,6 +967,20 @@ if (!problems.length) {
     }
     if (chipCount !== channelTotal) {
         problems.push(`チャンネル数が ${chipCount} 件で、期待の ${channelTotal} 件と一致しません`);
+    }
+    const leadInner = innerOf(outHtml, 'LEAD');
+    if (countOf(leadInner, '<a class="lead-story"') !== 1 || countOf(leadInner, '</a>') !== 1) {
+        problems.push('トップの大枠の記事がちょうど1件ではありません');
+    }
+    try {
+        const statsInner = innerOf(outHtml, 'STATS').trim();
+        if (!statsInner.startsWith('<script type="application/json" id="stats">') || !statsInner.endsWith('</script>')) {
+            throw new Error('shape');
+        }
+        const st = JSON.parse(statsInner.slice(statsInner.indexOf('>') + 1, -'</script>'.length));
+        if (st.total !== archived.length || st.hours.length !== 24) problems.push('記事の記録の集計が合いません');
+    } catch {
+        problems.push('記事の記録（STATS）が JSON として読めません');
     }
     // 閉じタグの数が開始タグと合っているか（マークアップ破壊の検知）
     if (countOf(postsInner, '</a>') !== cards.length) {
@@ -945,7 +1048,9 @@ if (countOf(feedXml, '<item>') !== countOf(feedXml, '</item>')) {
 // index.html 全体を対象にすると、マーカー外に想定外の文字が1つあるだけで
 // 以後ずっと更新が止まってしまうため。
 for (const [label, text] of [
+    ['index.html の最新記事', lead],
     ['index.html の記事カード', cards.join('')],
+    ['index.html の記事の記録', statsJson],
     ['index.html のチャンネル一覧', groupBlocks.join('')],
     ['feed.xml', feedXml],
     ['sitemap.xml', sitemapXml],

@@ -32,7 +32,7 @@ posts/*.html  archive.html  feed.xml  sitemap.xml
 .x-drafted.json  .x-posted.json  .push-sent.json
 ```
 
-`index.html` の中でも、**`POSTS` / `CHANNELS` / `ARCHIVE` のマーカー区間は自動生成**。
+`index.html` の中でも、**`LEAD` / `POSTS` / `CHANNELS` / `ARCHIVE` / `STATS` のマーカー区間は自動生成**。
 
 ```html
 <!-- POSTS:START 自動生成。この区間は手で編集しないこと -->
@@ -226,3 +226,9 @@ X API は2026年2月に無料枠を廃止し、**URL付き投稿が $0.200/件**
 - すべて通ってから一時ファイル経由で rename
 
 この設計は崩さないこと。壊れた index.html が本番に出ると、サイト全体が死ぬ。
+
+**トップのカードは2か所で組み立てている**
+`index.html` の記事（いちばん新しい記事の大枠・カード）は、`generate-seo.mjs` の
+`leadHtml` / `cardHtml` が毎時焼き込み、ページを開くとブラウザ側の同名の関数が
+`posts.json` から描き直す。**マークアップを変えるときは両方を直すこと。**
+違いは日付だけ（静的版は `2026.09.26`、ブラウザ側は「2日前」）。
