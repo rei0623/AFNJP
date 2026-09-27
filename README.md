@@ -69,7 +69,7 @@ GitHub Pages (main ブランチ) ── HTML に記事が入った状態で配�
 ## 開発ルール
 
 - `posts.json` / `posts-archive.json` / `channels.json` / `assets/posts/` / `archive.html` / `posts/` は **Bot が自動生成するため手動編集しない**(編集しても毎時の同期で上書きされ、競合の原因になります)
-- `index.html` の **`POSTS` / `CHANNELS` / `ARCHIVE` の3組のマーカー区間も毎時自動生成される**ため手動編集しない。マーカーの外側は自由に編集できます(生成スクリプトは区間の外を1文字も変更しません)
+- `index.html` の **`LEAD` / `POSTS` / `CHANNELS` / `ARCHIVE` / `STATS` の5組のマーカー区間も毎時自動生成される**ため手動編集しない。マーカーの外側は自由に編集できます(生成スクリプトは区間の外を1文字も変更しません)
 - 記事ページの見た目を変えるときは `assets/article.css` を編集する。色のトークン名は `index.html` の `:root` と揃えてあるので、色を変えるときは両方を直すこと
 - `.github/workflows/` は Discord Bot トークンを使用するため、**変更前にオーナー(@rei0623)へ連絡する**
 - 変更は **ブランチ → Pull Request** で行う(main は force push / ブランチ削除が禁止されています)
