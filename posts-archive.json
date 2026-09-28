@@ -1,9 +1,162 @@
 {
-  "generated_at": "2026-09-28T15:23:56.019Z",
+  "generated_at": "2026-09-28T21:57:55.848Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 250,
+  "count": 256,
   "posts": [
+    {
+      "id": "1554218940606189578",
+      "title": "Anthropic、Claude Sonnet 5.5を発表 高速化と低コスト化で実務AIを強化",
+      "channel": "claude",
+      "category": "Anthropic",
+      "date": "2026-09-28T19:51:11.432Z",
+      "excerpt": "Anthropicは2026年9月28日、Claude 5.5ファミリー第2弾となる「Claude Sonnet 5.5」を発表しました。Sonnet 5比で出力速度を30％以上高め、同じ料金体系を維持しながら、タスク当たりのコストを最大30％削減できるとし…",
+      "lead": "Anthropicは2026年9月28日、Claude 5.5ファミリー第2弾となる「Claude Sonnet 5.5」を発表しました。Sonnet 5比で出力速度を30％以上高め、同じ料金体系を維持しながら、タスク当たりのコストを最大30％削減できるとしています。",
+      "headings": [
+        "コーディング性能が大幅向上",
+        "Opusに迫る性能と価格差",
+        "強化された安全策",
+        "今後の展望"
+      ],
+      "source_url": "https://www.anthropic.com/claude-sonnet-5-5",
+      "source_urls": [
+        "https://www.anthropic.com/claude-sonnet-5-5"
+      ],
+      "source_label": "anthropic.com",
+      "cover": "assets/posts/1554218940606189578.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415353403269185546/threads/1554218940606189578",
+      "first_seen": "2026-09-28T19:51:11.432Z",
+      "kind": "model",
+      "kind_confidence": 0.99
+    },
+    {
+      "id": "1554162258240733366",
+      "title": "NVIDIA、AIエージェントをハードウェア層まで監視する「Open Agent Safety Platform」発表",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-09-28T16:05:57.303Z",
+      "excerpt": "NVIDIAは2026年9月28日、AIエージェントのテストから本番運用までを保護する「NVIDIA Open Agent Safety Platform」を発表しました。特徴は、モデルやアプリケーションだけに安全対策を任せず、CPU、DPU、実行環境まで含…",
+      "lead": "NVIDIAは2026年9月28日、AIエージェントのテストから本番運用までを保護する「NVIDIA Open Agent Safety Platform」を発表しました。特徴は、モデルやアプリケーションだけに安全対策を任せず、CPU、DPU、実行環境まで含むフルスタックでエージェントの行動を制御する点です。",
+      "headings": [
+        "OpenShellでエージェントの実行境界を固定",
+        "BlueField-4上の「Sentry」が独立監視",
+        "AIエージェント普及で「モデルの外側」の防御が重要に",
+        "今後の展望"
+      ],
+      "source_url": "https://nvidianews.nvidia.com/news/open-agent-safety-platform",
+      "source_urls": [
+        "https://nvidianews.nvidia.com/news/open-agent-safety-platform"
+      ],
+      "source_label": "nvidianews.nvidia.com",
+      "cover": "assets/posts/1554162258240733366.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1554162258240733366",
+      "first_seen": "2026-09-28T16:05:57.303Z",
+      "kind": "tool",
+      "kind_confidence": 0.99
+    },
+    {
+      "id": "1554161426862575656",
+      "title": "OpenCodeが「Go」提供、月10ドルでAIコーディングモデルを利用可能に",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-09-28T16:02:39.087Z",
+      "excerpt": "OpenCodeは、AIコーディングエージェント向けの低価格サブスクリプション「OpenCode Go」を提供しています。月額10ドルで複数の高性能モデルを利用でき、上位プラン「Go Plus」は月額40ドルです。単一モデルへの依存ではなく、エージェント用途…",
+      "lead": "OpenCodeは、AIコーディングエージェント向けの低価格サブスクリプション「OpenCode Go」を提供しています。月額10ドルで複数の高性能モデルを利用でき、上位プラン「Go Plus」は月額40ドルです。単一モデルへの依存ではなく、エージェント用途に適したモデル群への安定したアクセスを定額で提供する点が特徴です。",
+      "headings": [
+        "AIエージェント向けモデルを選別",
+        "月10ドルと40ドルの2プラン",
+        "モデルを使い分ける時代へ",
+        "今後の展望"
+      ],
+      "source_url": "https://opencode.ai/go",
+      "source_urls": [
+        "https://opencode.ai/go"
+      ],
+      "source_label": "opencode.ai",
+      "cover": "assets/posts/1554161426862575656.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1554161426862575656",
+      "first_seen": "2026-09-28T16:02:39.087Z",
+      "kind": "feature",
+      "kind_confidence": 0.46
+    },
+    {
+      "id": "1554161203465429053",
+      "title": "Manus 2.0発表、AIエージェントを「回答」から「実行環境」へ拡張",
+      "channel": "manus",
+      "category": "その他",
+      "date": "2026-09-28T16:01:45.825Z",
+      "excerpt": "Manusは「Manus 2.0」を発表しました。今回の更新は単なる機能追加ではなく、エージェント基盤「Cascade」、常時稼働環境「Cloud Computer」、イベント駆動型Automations、人間とAIが共同編集する「Manus Studio」…",
+      "lead": "Manusは「Manus 2.0」を発表しました。今回の更新は単なる機能追加ではなく、エージェント基盤「Cascade」、常時稼働環境「Cloud Computer」、イベント駆動型Automations、人間とAIが共同編集する「Manus Studio」、さらに新アプリ「Cue」まで含む大規模な再設計です。",
+      "headings": [
+        "Cascadeでエージェント実行を効率化",
+        "Cloud ComputerとAutomationsで常時稼働へ",
+        "Manus Studioは生成後の編集を重視",
+        "Game DevとComputer Useも強化",
+        "CueではAIエージェントに個別の身份を付与",
+        "今後の展望"
+      ],
+      "source_url": "https://manus.im/ja/blog/introducing-manus-2-0",
+      "source_urls": [
+        "https://manus.im/ja/blog/introducing-manus-2-0"
+      ],
+      "source_label": "manus.im",
+      "cover": "assets/posts/1554161203465429053.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416105983415156887/threads/1554161203465429053",
+      "first_seen": "2026-09-28T16:01:45.825Z",
+      "kind": "model",
+      "kind_confidence": 0.72
+    },
+    {
+      "id": "1554161047940767824",
+      "title": "Metaが「Enterprise Platform」始動、AI事業を企業向けフルスタック市場へ拡大",
+      "channel": "meta",
+      "category": "Meta",
+      "date": "2026-09-28T16:01:08.745Z",
+      "excerpt": "Metaは2026年9月28日、新たな事業の柱として「Meta Enterprise Platform」を立ち上げると発表しました。高度なAIモデル、AIエージェント、大規模インフラ、企業向けサービスで培った基盤を組み合わせ、企業がAIを業務や成長戦略へ導入…",
+      "lead": "Metaは2026年9月28日、新たな事業の柱として「Meta Enterprise Platform」を立ち上げると発表しました。高度なAIモデル、AIエージェント、大規模インフラ、企業向けサービスで培った基盤を組み合わせ、企業がAIを業務や成長戦略へ導入できるプラットフォームを構築します。",
+      "headings": [
+        "MetaのAI技術を企業向け製品へ",
+        "数億規模の企業接点をAI事業へ接続",
+        "MongoDB前CEOを責任者に起用",
+        "今後の展望"
+      ],
+      "source_url": "https://about.fb.com/news/2026/09/launching-meta-enterprise-platform/",
+      "source_urls": [
+        "https://about.fb.com/news/2026/09/launching-meta-enterprise-platform/"
+      ],
+      "source_label": "about.fb.com",
+      "cover": "assets/posts/1554161047940767824.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1441473829951111330/threads/1554161047940767824",
+      "first_seen": "2026-09-28T16:01:08.745Z",
+      "kind": "business",
+      "kind_confidence": 0.97
+    },
+    {
+      "id": "1554160922606567518",
+      "title": "ElevenLabs「Eleven v4」登場、感情表現と約150msのリアルタイム音声を両立",
+      "channel": "eleven-labs",
+      "category": "その他",
+      "date": "2026-09-28T16:00:38.863Z",
+      "excerpt": "ElevenLabsは、新世代の音声生成モデル「Eleven v4」と、リアルタイム用途向けの「Eleven v4 Turbo」を公開しました。v4では感情表現、複数話者、効果音、長文生成時の一貫性を強化し、Turboでは音声エージェントを想定した低遅延処理…",
+      "lead": "ElevenLabsは、新世代の音声生成モデル「Eleven v4」と、リアルタイム用途向けの「Eleven v4 Turbo」を公開しました。v4では感情表現、複数話者、効果音、長文生成時の一貫性を強化し、Turboでは音声エージェントを想定した低遅延処理を実現しています。",
+      "headings": [
+        "台本そのものが音声演出の指示書に",
+        "再生成しても声が変わりにくい",
+        "v4 Turboは音声AIエージェントを狙う",
+        "API統合もリアルタイム志向へ",
+        "今後の展望"
+      ],
+      "source_url": "https://elevenlabs.io/v4",
+      "source_urls": [
+        "https://elevenlabs.io/v4"
+      ],
+      "source_label": "elevenlabs.io",
+      "cover": "assets/posts/1554160922606567518.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1441006356399259719/threads/1554160922606567518",
+      "first_seen": "2026-09-28T16:00:38.863Z",
+      "kind": "model",
+      "kind_confidence": 1
+    },
     {
       "id": "1553241433782226954",
       "title": "MicrosoftがCopilotを再設計、「Home・Code・Autopilot」でAIを仕事の実行基盤へ",

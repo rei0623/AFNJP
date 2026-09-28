@@ -1,8 +1,149 @@
 {
-  "generated_at": "2026-09-28T15:23:56.021Z",
+  "generated_at": "2026-09-28T21:57:55.855Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1554218940606189578",
+      "title": "Anthropic、Claude Sonnet 5.5を発表 高速化と低コスト化で実務AIを強化",
+      "channel": "claude",
+      "category": "Anthropic",
+      "date": "2026-09-28T19:51:11.432Z",
+      "excerpt": "Anthropicは2026年9月28日、Claude 5.5ファミリー第2弾となる「Claude Sonnet 5.5」を発表しました。Sonnet 5比で出力速度を30％以上高め、同じ料金体系を維持しながら、タスク当たりのコストを最大30％削減できるとし…",
+      "lead": "Anthropicは2026年9月28日、Claude 5.5ファミリー第2弾となる「Claude Sonnet 5.5」を発表しました。Sonnet 5比で出力速度を30％以上高め、同じ料金体系を維持しながら、タスク当たりのコストを最大30％削減できるとしています。",
+      "headings": [
+        "コーディング性能が大幅向上",
+        "Opusに迫る性能と価格差",
+        "強化された安全策",
+        "今後の展望"
+      ],
+      "source_url": "https://www.anthropic.com/claude-sonnet-5-5",
+      "source_urls": [
+        "https://www.anthropic.com/claude-sonnet-5-5"
+      ],
+      "source_label": "anthropic.com",
+      "cover": "assets/posts/1554218940606189578.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415353403269185546/threads/1554218940606189578",
+      "first_seen": "2026-09-28T19:51:11.432Z"
+    },
+    {
+      "id": "1554162258240733366",
+      "title": "NVIDIA、AIエージェントをハードウェア層まで監視する「Open Agent Safety Platform」発表",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-09-28T16:05:57.303Z",
+      "excerpt": "NVIDIAは2026年9月28日、AIエージェントのテストから本番運用までを保護する「NVIDIA Open Agent Safety Platform」を発表しました。特徴は、モデルやアプリケーションだけに安全対策を任せず、CPU、DPU、実行環境まで含…",
+      "lead": "NVIDIAは2026年9月28日、AIエージェントのテストから本番運用までを保護する「NVIDIA Open Agent Safety Platform」を発表しました。特徴は、モデルやアプリケーションだけに安全対策を任せず、CPU、DPU、実行環境まで含むフルスタックでエージェントの行動を制御する点です。",
+      "headings": [
+        "OpenShellでエージェントの実行境界を固定",
+        "BlueField-4上の「Sentry」が独立監視",
+        "AIエージェント普及で「モデルの外側」の防御が重要に",
+        "今後の展望"
+      ],
+      "source_url": "https://nvidianews.nvidia.com/news/open-agent-safety-platform",
+      "source_urls": [
+        "https://nvidianews.nvidia.com/news/open-agent-safety-platform"
+      ],
+      "source_label": "nvidianews.nvidia.com",
+      "cover": "assets/posts/1554162258240733366.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1554162258240733366",
+      "first_seen": "2026-09-28T16:05:57.303Z"
+    },
+    {
+      "id": "1554161426862575656",
+      "title": "OpenCodeが「Go」提供、月10ドルでAIコーディングモデルを利用可能に",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-09-28T16:02:39.087Z",
+      "excerpt": "OpenCodeは、AIコーディングエージェント向けの低価格サブスクリプション「OpenCode Go」を提供しています。月額10ドルで複数の高性能モデルを利用でき、上位プラン「Go Plus」は月額40ドルです。単一モデルへの依存ではなく、エージェント用途…",
+      "lead": "OpenCodeは、AIコーディングエージェント向けの低価格サブスクリプション「OpenCode Go」を提供しています。月額10ドルで複数の高性能モデルを利用でき、上位プラン「Go Plus」は月額40ドルです。単一モデルへの依存ではなく、エージェント用途に適したモデル群への安定したアクセスを定額で提供する点が特徴です。",
+      "headings": [
+        "AIエージェント向けモデルを選別",
+        "月10ドルと40ドルの2プラン",
+        "モデルを使い分ける時代へ",
+        "今後の展望"
+      ],
+      "source_url": "https://opencode.ai/go",
+      "source_urls": [
+        "https://opencode.ai/go"
+      ],
+      "source_label": "opencode.ai",
+      "cover": "assets/posts/1554161426862575656.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1554161426862575656",
+      "first_seen": "2026-09-28T16:02:39.087Z"
+    },
+    {
+      "id": "1554161203465429053",
+      "title": "Manus 2.0発表、AIエージェントを「回答」から「実行環境」へ拡張",
+      "channel": "manus",
+      "category": "その他",
+      "date": "2026-09-28T16:01:45.825Z",
+      "excerpt": "Manusは「Manus 2.0」を発表しました。今回の更新は単なる機能追加ではなく、エージェント基盤「Cascade」、常時稼働環境「Cloud Computer」、イベント駆動型Automations、人間とAIが共同編集する「Manus Studio」…",
+      "lead": "Manusは「Manus 2.0」を発表しました。今回の更新は単なる機能追加ではなく、エージェント基盤「Cascade」、常時稼働環境「Cloud Computer」、イベント駆動型Automations、人間とAIが共同編集する「Manus Studio」、さらに新アプリ「Cue」まで含む大規模な再設計です。",
+      "headings": [
+        "Cascadeでエージェント実行を効率化",
+        "Cloud ComputerとAutomationsで常時稼働へ",
+        "Manus Studioは生成後の編集を重視",
+        "Game DevとComputer Useも強化",
+        "CueではAIエージェントに個別の身份を付与",
+        "今後の展望"
+      ],
+      "source_url": "https://manus.im/ja/blog/introducing-manus-2-0",
+      "source_urls": [
+        "https://manus.im/ja/blog/introducing-manus-2-0"
+      ],
+      "source_label": "manus.im",
+      "cover": "assets/posts/1554161203465429053.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416105983415156887/threads/1554161203465429053",
+      "first_seen": "2026-09-28T16:01:45.825Z"
+    },
+    {
+      "id": "1554161047940767824",
+      "title": "Metaが「Enterprise Platform」始動、AI事業を企業向けフルスタック市場へ拡大",
+      "channel": "meta",
+      "category": "Meta",
+      "date": "2026-09-28T16:01:08.745Z",
+      "excerpt": "Metaは2026年9月28日、新たな事業の柱として「Meta Enterprise Platform」を立ち上げると発表しました。高度なAIモデル、AIエージェント、大規模インフラ、企業向けサービスで培った基盤を組み合わせ、企業がAIを業務や成長戦略へ導入…",
+      "lead": "Metaは2026年9月28日、新たな事業の柱として「Meta Enterprise Platform」を立ち上げると発表しました。高度なAIモデル、AIエージェント、大規模インフラ、企業向けサービスで培った基盤を組み合わせ、企業がAIを業務や成長戦略へ導入できるプラットフォームを構築します。",
+      "headings": [
+        "MetaのAI技術を企業向け製品へ",
+        "数億規模の企業接点をAI事業へ接続",
+        "MongoDB前CEOを責任者に起用",
+        "今後の展望"
+      ],
+      "source_url": "https://about.fb.com/news/2026/09/launching-meta-enterprise-platform/",
+      "source_urls": [
+        "https://about.fb.com/news/2026/09/launching-meta-enterprise-platform/"
+      ],
+      "source_label": "about.fb.com",
+      "cover": "assets/posts/1554161047940767824.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1441473829951111330/threads/1554161047940767824",
+      "first_seen": "2026-09-28T16:01:08.745Z"
+    },
+    {
+      "id": "1554160922606567518",
+      "title": "ElevenLabs「Eleven v4」登場、感情表現と約150msのリアルタイム音声を両立",
+      "channel": "eleven-labs",
+      "category": "その他",
+      "date": "2026-09-28T16:00:38.863Z",
+      "excerpt": "ElevenLabsは、新世代の音声生成モデル「Eleven v4」と、リアルタイム用途向けの「Eleven v4 Turbo」を公開しました。v4では感情表現、複数話者、効果音、長文生成時の一貫性を強化し、Turboでは音声エージェントを想定した低遅延処理…",
+      "lead": "ElevenLabsは、新世代の音声生成モデル「Eleven v4」と、リアルタイム用途向けの「Eleven v4 Turbo」を公開しました。v4では感情表現、複数話者、効果音、長文生成時の一貫性を強化し、Turboでは音声エージェントを想定した低遅延処理を実現しています。",
+      "headings": [
+        "台本そのものが音声演出の指示書に",
+        "再生成しても声が変わりにくい",
+        "v4 Turboは音声AIエージェントを狙う",
+        "API統合もリアルタイム志向へ",
+        "今後の展望"
+      ],
+      "source_url": "https://elevenlabs.io/v4",
+      "source_urls": [
+        "https://elevenlabs.io/v4"
+      ],
+      "source_label": "elevenlabs.io",
+      "cover": "assets/posts/1554160922606567518.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1441006356399259719/threads/1554160922606567518",
+      "first_seen": "2026-09-28T16:00:38.863Z"
+    },
     {
       "id": "1553241433782226954",
       "title": "MicrosoftがCopilotを再設計、「Home・Code・Autopilot」でAIを仕事の実行基盤へ",
@@ -157,158 +298,6 @@
       "first_seen": "2026-09-24T22:28:30.065Z",
       "kind": "policy",
       "kind_confidence": 0.43
-    },
-    {
-      "id": "1552806697758888127",
-      "title": "Anthropic「Project Swap」、AIエージェント同士の市場取引を実験",
-      "channel": "anthropic",
-      "category": "Anthropic",
-      "date": "2026-09-24T22:19:26.499Z",
-      "excerpt": "Anthropicは2026年9月24日、AIエージェントが人間の代理として交渉・取引する市場を検証した研究「Project Swap」を公開しました。201人のAnthropic従業員とClaudeベースのエージェントを使い、本を交換する小規模市場を構築し…",
-      "lead": "Anthropicは2026年9月24日、AIエージェントが人間の代理として交渉・取引する市場を検証した研究「Project Swap」を公開しました。201人のAnthropic従業員とClaudeベースのエージェントを使い、本を交換する小規模市場を構築した結果、交渉能力そのものより「本人の好みを正確に理解する能力」が市場効率を左右する重要な要素であることが示されています。",
-      "headings": [
-        "201人の代理としてClaudeが本を交渉",
-        "好みの推定精度は61％",
-        "強いモデルほど取引効率も高い",
-        "AIエージェント市場には新しいインフラが必要",
-        "今後の展望"
-      ],
-      "source_url": "https://www.anthropic.com/research/project-swap",
-      "source_urls": [
-        "https://www.anthropic.com/research/project-swap"
-      ],
-      "source_label": "anthropic.com",
-      "cover": "assets/posts/1552806697758888127.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1552806697758888127",
-      "first_seen": "2026-09-24T22:19:26.499Z",
-      "kind": "research",
-      "kind_confidence": 1
-    },
-    {
-      "id": "1552805908235423784",
-      "title": "Google、10分級の長尺AI動画へ「一貫性」を保つマルチエージェント技術を公開",
-      "channel": "google",
-      "category": "Google",
-      "date": "2026-09-24T22:16:18.262Z",
-      "excerpt": "Google Researchは2026年9月24日、長尺AI動画で発生しやすいキャラクターや背景の変化、上流工程のミスが後工程へ連鎖する問題を抑える、統合型マルチエージェント研究を発表しました。単に高品質な短いクリップを生成するのではなく、物語全体を「世界…",
-      "lead": "Google Researchは2026年9月24日、長尺AI動画で発生しやすいキャラクターや背景の変化、上流工程のミスが後工程へ連鎖する問題を抑える、統合型マルチエージェント研究を発表しました。単に高品質な短いクリップを生成するのではなく、物語全体を「世界状態を維持する最適化問題」として扱う点が特徴です。0",
-      "headings": [
-        "GeminiとVeoを複数のAIエージェントが統括",
-        "長尺動画を支える3つの追加技術",
-        "ベンチマークでも長期的一貫性を評価",
-        "今後の展望"
-      ],
-      "source_url": "https://research.google/blog/coherent-long-form-video-generation/",
-      "source_urls": [
-        "https://research.google/blog/coherent-long-form-video-generation/"
-      ],
-      "source_label": "research.google",
-      "cover": "assets/posts/1552805908235423784.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1552805908235423784",
-      "first_seen": "2026-09-24T22:16:18.262Z",
-      "kind": "research",
-      "kind_confidence": 1
-    },
-    {
-      "id": "1552805751519707226",
-      "title": "Meta Connect 2026、AIエージェント「Muse」と100g級VRグラスで次世代コンピューティングへ",
-      "channel": "meta",
-      "category": "Meta",
-      "date": "2026-09-24T22:15:40.898Z",
-      "excerpt": "MetaはConnect 2026で、パーソナルAIエージェント「Muse」のAIグラス対応、新型「Meta VR Glasses」、AIグラスの大幅なラインアップ拡充を発表しました。スマートフォンの画面を中心とした操作から、視覚・音声・周囲の状況をAIが理…",
-      "lead": "MetaはConnect 2026で、パーソナルAIエージェント「Muse」のAIグラス対応、新型「Meta VR Glasses」、AIグラスの大幅なラインアップ拡充を発表しました。スマートフォンの画面を中心とした操作から、視覚・音声・周囲の状況をAIが理解して処理するコンピューティングへの移行を鮮明にしています。",
-      "headings": [
-        "AIグラスからMuseを常時呼び出し",
-        "約100グラムのMeta VR Glasses",
-        "AIグラスを巨大な製品群へ",
-        "今後の展望"
-      ],
-      "source_url": "https://about.fb.com/news/2026/09/the-biggest-news-from-connect-2026/",
-      "source_urls": [
-        "https://about.fb.com/news/2026/09/the-biggest-news-from-connect-2026/"
-      ],
-      "source_label": "about.fb.com",
-      "cover": "assets/posts/1552805751519707226.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1441473829951111330/threads/1552805751519707226",
-      "first_seen": "2026-09-24T22:15:40.898Z",
-      "kind": "model",
-      "kind_confidence": 0.68
-    },
-    {
-      "id": "1552805588445044746",
-      "title": "Google「Gemini 3.8 Live with Live Avatar」発表、AI対話にリアルタイム映像アバターを統合",
-      "channel": "gemini",
-      "category": "Google",
-      "date": "2026-09-24T22:15:02.018Z",
-      "excerpt": "Googleは2026年9月24日、「Gemini 3.8 Live with Live Avatar」を発表しました。音声によるリアルタイム対話と低遅延の動画生成をネイティブに組み合わせ、AIエージェントが表情や口の動きを伴う視覚的な存在としてユーザーと会…",
-      "lead": "Googleは2026年9月24日、「Gemini 3.8 Live with Live Avatar」を発表しました。音声によるリアルタイム対話と低遅延の動画生成をネイティブに組み合わせ、AIエージェントが表情や口の動きを伴う視覚的な存在としてユーザーと会話できる仕組みです。Gemini Enterpriseで提供が始まっています。",
-      "headings": [
-        "音声と映像を統合したリアルタイム対話",
-        "ツール実行中も会話を継続",
-        "97言語に対応、途中で言語変更も可能",
-        "企業独自のアバターも生成可能",
-        "今後の展望"
-      ],
-      "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-with-live-avatar/?utm_source=deepmind.google&utm_medium=referral&utm_campaign=gdm&utm_content=",
-      "source_urls": [
-        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-8-live-with-live-avatar/?utm_source=deepmind.google&utm_medium=referral&utm_campaign=gdm&utm_content="
-      ],
-      "source_label": "blog.google",
-      "cover": "assets/posts/1552805588445044746.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1552805588445044746",
-      "first_seen": "2026-09-24T22:15:02.018Z",
-      "kind": "feature",
-      "kind_confidence": 0.48
-    },
-    {
-      "id": "1552708934370861107",
-      "title": "ChatGPT Ads、東南アジア・台湾へ拡大 60カ国超の広告基盤へ",
-      "channel": "chatgpt",
-      "category": "Open AI",
-      "date": "2026-09-24T15:50:57.891Z",
-      "excerpt": "OpenAIは2026年9月23日、ChatGPT Adsをインドネシア、マレーシア、フィリピン、シンガポール、タイ、ベトナム、台湾の7市場へ順次展開すると発表しました。日本、韓国、インド、オーストラリア、ニュージーランドなどに続く拡大で、ChatGPT A…",
-      "lead": "OpenAIは2026年9月23日、ChatGPT Adsをインドネシア、マレーシア、フィリピン、シンガポール、タイ、ベトナム、台湾の7市場へ順次展開すると発表しました。日本、韓国、インド、オーストラリア、ニュージーランドなどに続く拡大で、ChatGPT Adsの提供地域は60カ国を超えます。",
-      "headings": [
-        "「検索広告」とは異なる会話型の広告接点",
-        "回答と広告を分離、会話データは広告主に非公開",
-        "年換算売上高10億ドル規模へ",
-        "今後の展望"
-      ],
-      "source_url": "https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan/",
-      "source_urls": [
-        "https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan/"
-      ],
-      "source_label": "openai.com",
-      "cover": "assets/posts/1552708934370861107.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1415353131604377641/threads/1552708934370861107",
-      "first_seen": "2026-09-24T15:50:57.891Z",
-      "kind": "feature",
-      "kind_confidence": 1
-    },
-    {
-      "id": "1552708824937406564",
-      "title": "サム・アルトマン氏、国連安保理でAIの「人間による制御」と国際安全基準を提唱",
-      "channel": "open-ai",
-      "category": "Open AI",
-      "date": "2026-09-24T15:50:31.800Z",
-      "excerpt": "OpenAIのCEOサム・アルトマン氏は2026年9月23日、国連安全保障理事会でAIについて演説し、高性能AIがもたらす科学・経済面の可能性を強調する一方、人間による制御を維持できないシステムの開発や、少数の企業・国家への権力集中を重大なリスクとして挙げま…",
-      "lead": "OpenAIのCEOサム・アルトマン氏は2026年9月23日、国連安全保障理事会でAIについて演説し、高性能AIがもたらす科学・経済面の可能性を強調する一方、人間による制御を維持できないシステムの開発や、少数の企業・国家への権力集中を重大なリスクとして挙げました。",
-      "headings": [
-        "高度化するAIで「制御」が最大の技術課題に",
-        "AIガバナンスを企業だけに委ねない",
-        "国際標準化には設計上の難しさも",
-        "今後の展望"
-      ],
-      "source_url": "https://openai.com/index/sam-altman-un-security-council-remarks/",
-      "source_urls": [
-        "https://openai.com/index/sam-altman-un-security-council-remarks/"
-      ],
-      "source_label": "openai.com",
-      "cover": "assets/posts/1552708824937406564.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1552708824937406564",
-      "first_seen": "2026-09-24T15:50:31.800Z",
-      "kind": "policy",
-      "kind_confidence": 1
     }
   ]
 }

@@ -5,8 +5,56 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 26 Sep 2026 03:06:55 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 28 Sep 2026 19:51:11 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Anthropic、Claude Sonnet 5.5を発表 高速化と低コスト化で実務AIを強化</title>
+      <link>https://discord.com/channels/1415350002255007784/1415353403269185546/threads/1554218940606189578</link>
+      <guid isPermaLink="false">afnjp-1554218940606189578</guid>
+      <pubDate>Mon, 28 Sep 2026 19:51:11 GMT</pubDate>
+      <category>claude</category>
+      <description>Anthropicは2026年9月28日、Claude 5.5ファミリー第2弾となる「Claude Sonnet 5.5」を発表しました。Sonnet 5比で出力速度を30％以上高め、同じ料金体系を維持しながら、タスク当たりのコストを最大30％削減できるとし…</description>
+    </item>
+    <item>
+      <title>NVIDIA、AIエージェントをハードウェア層まで監視する「Open Agent Safety Platform」発表</title>
+      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1554162258240733366</link>
+      <guid isPermaLink="false">afnjp-1554162258240733366</guid>
+      <pubDate>Mon, 28 Sep 2026 16:05:57 GMT</pubDate>
+      <category>その他</category>
+      <description>NVIDIAは2026年9月28日、AIエージェントのテストから本番運用までを保護する「NVIDIA Open Agent Safety Platform」を発表しました。特徴は、モデルやアプリケーションだけに安全対策を任せず、CPU、DPU、実行環境まで含…</description>
+    </item>
+    <item>
+      <title>OpenCodeが「Go」提供、月10ドルでAIコーディングモデルを利用可能に</title>
+      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1554161426862575656</link>
+      <guid isPermaLink="false">afnjp-1554161426862575656</guid>
+      <pubDate>Mon, 28 Sep 2026 16:02:39 GMT</pubDate>
+      <category>その他</category>
+      <description>OpenCodeは、AIコーディングエージェント向けの低価格サブスクリプション「OpenCode Go」を提供しています。月額10ドルで複数の高性能モデルを利用でき、上位プラン「Go Plus」は月額40ドルです。単一モデルへの依存ではなく、エージェント用途…</description>
+    </item>
+    <item>
+      <title>Manus 2.0発表、AIエージェントを「回答」から「実行環境」へ拡張</title>
+      <link>https://discord.com/channels/1415350002255007784/1416105983415156887/threads/1554161203465429053</link>
+      <guid isPermaLink="false">afnjp-1554161203465429053</guid>
+      <pubDate>Mon, 28 Sep 2026 16:01:45 GMT</pubDate>
+      <category>manus</category>
+      <description>Manusは「Manus 2.0」を発表しました。今回の更新は単なる機能追加ではなく、エージェント基盤「Cascade」、常時稼働環境「Cloud Computer」、イベント駆動型Automations、人間とAIが共同編集する「Manus Studio」…</description>
+    </item>
+    <item>
+      <title>Metaが「Enterprise Platform」始動、AI事業を企業向けフルスタック市場へ拡大</title>
+      <link>https://discord.com/channels/1415350002255007784/1441473829951111330/threads/1554161047940767824</link>
+      <guid isPermaLink="false">afnjp-1554161047940767824</guid>
+      <pubDate>Mon, 28 Sep 2026 16:01:08 GMT</pubDate>
+      <category>meta</category>
+      <description>Metaは2026年9月28日、新たな事業の柱として「Meta Enterprise Platform」を立ち上げると発表しました。高度なAIモデル、AIエージェント、大規模インフラ、企業向けサービスで培った基盤を組み合わせ、企業がAIを業務や成長戦略へ導入…</description>
+    </item>
+    <item>
+      <title>ElevenLabs「Eleven v4」登場、感情表現と約150msのリアルタイム音声を両立</title>
+      <link>https://discord.com/channels/1415350002255007784/1441006356399259719/threads/1554160922606567518</link>
+      <guid isPermaLink="false">afnjp-1554160922606567518</guid>
+      <pubDate>Mon, 28 Sep 2026 16:00:38 GMT</pubDate>
+      <category>eleven-labs</category>
+      <description>ElevenLabsは、新世代の音声生成モデル「Eleven v4」と、リアルタイム用途向けの「Eleven v4 Turbo」を公開しました。v4では感情表現、複数話者、効果音、長文生成時の一貫性を強化し、Turboでは音声エージェントを想定した低遅延処理…</description>
+    </item>
     <item>
       <title>MicrosoftがCopilotを再設計、「Home・Code・Autopilot」でAIを仕事の実行基盤へ</title>
       <link>https://discord.com/channels/1415350002255007784/1423003108790767748/threads/1553241433782226954</link>
@@ -54,54 +102,6 @@
       <pubDate>Thu, 24 Sep 2026 22:28:30 GMT</pubDate>
       <category>anthropic</category>
       <description>AnthropicはClaude APIにおける安全性判定による「refusal（拒否）」と、その際の課金ルール、別モデルへ処理を引き継ぐフォールバックの仕組みを公開しています。特に重要なのは、出力開始前に拒否されたリクエストは課金されない一方、途中まで出力…</description>
-    </item>
-    <item>
-      <title>Anthropic「Project Swap」、AIエージェント同士の市場取引を実験</title>
-      <link>https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1552806697758888127</link>
-      <guid isPermaLink="false">afnjp-1552806697758888127</guid>
-      <pubDate>Thu, 24 Sep 2026 22:19:26 GMT</pubDate>
-      <category>anthropic</category>
-      <description>Anthropicは2026年9月24日、AIエージェントが人間の代理として交渉・取引する市場を検証した研究「Project Swap」を公開しました。201人のAnthropic従業員とClaudeベースのエージェントを使い、本を交換する小規模市場を構築し…</description>
-    </item>
-    <item>
-      <title>Google、10分級の長尺AI動画へ「一貫性」を保つマルチエージェント技術を公開</title>
-      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1552805908235423784</link>
-      <guid isPermaLink="false">afnjp-1552805908235423784</guid>
-      <pubDate>Thu, 24 Sep 2026 22:16:18 GMT</pubDate>
-      <category>google</category>
-      <description>Google Researchは2026年9月24日、長尺AI動画で発生しやすいキャラクターや背景の変化、上流工程のミスが後工程へ連鎖する問題を抑える、統合型マルチエージェント研究を発表しました。単に高品質な短いクリップを生成するのではなく、物語全体を「世界…</description>
-    </item>
-    <item>
-      <title>Meta Connect 2026、AIエージェント「Muse」と100g級VRグラスで次世代コンピューティングへ</title>
-      <link>https://discord.com/channels/1415350002255007784/1441473829951111330/threads/1552805751519707226</link>
-      <guid isPermaLink="false">afnjp-1552805751519707226</guid>
-      <pubDate>Thu, 24 Sep 2026 22:15:40 GMT</pubDate>
-      <category>meta</category>
-      <description>MetaはConnect 2026で、パーソナルAIエージェント「Muse」のAIグラス対応、新型「Meta VR Glasses」、AIグラスの大幅なラインアップ拡充を発表しました。スマートフォンの画面を中心とした操作から、視覚・音声・周囲の状況をAIが理…</description>
-    </item>
-    <item>
-      <title>Google「Gemini 3.8 Live with Live Avatar」発表、AI対話にリアルタイム映像アバターを統合</title>
-      <link>https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1552805588445044746</link>
-      <guid isPermaLink="false">afnjp-1552805588445044746</guid>
-      <pubDate>Thu, 24 Sep 2026 22:15:02 GMT</pubDate>
-      <category>gemini</category>
-      <description>Googleは2026年9月24日、「Gemini 3.8 Live with Live Avatar」を発表しました。音声によるリアルタイム対話と低遅延の動画生成をネイティブに組み合わせ、AIエージェントが表情や口の動きを伴う視覚的な存在としてユーザーと会…</description>
-    </item>
-    <item>
-      <title>ChatGPT Ads、東南アジア・台湾へ拡大 60カ国超の広告基盤へ</title>
-      <link>https://discord.com/channels/1415350002255007784/1415353131604377641/threads/1552708934370861107</link>
-      <guid isPermaLink="false">afnjp-1552708934370861107</guid>
-      <pubDate>Thu, 24 Sep 2026 15:50:57 GMT</pubDate>
-      <category>chatgpt</category>
-      <description>OpenAIは2026年9月23日、ChatGPT Adsをインドネシア、マレーシア、フィリピン、シンガポール、タイ、ベトナム、台湾の7市場へ順次展開すると発表しました。日本、韓国、インド、オーストラリア、ニュージーランドなどに続く拡大で、ChatGPT A…</description>
-    </item>
-    <item>
-      <title>サム・アルトマン氏、国連安保理でAIの「人間による制御」と国際安全基準を提唱</title>
-      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1552708824937406564</link>
-      <guid isPermaLink="false">afnjp-1552708824937406564</guid>
-      <pubDate>Thu, 24 Sep 2026 15:50:31 GMT</pubDate>
-      <category>open-ai</category>
-      <description>OpenAIのCEOサム・アルトマン氏は2026年9月23日、国連安全保障理事会でAIについて演説し、高性能AIがもたらす科学・経済面の可能性を強調する一方、人間による制御を維持できないシステムの開発や、少数の企業・国家への権力集中を重大なリスクとして挙げま…</description>
     </item>
   </channel>
 </rss>
