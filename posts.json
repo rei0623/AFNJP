@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29T15:47:45.635Z",
+  "generated_at": "2026-09-29T20:44:30.540Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
@@ -23,7 +23,9 @@
       ],
       "source_label": "about.fb.com",
       "url": "https://discord.com/channels/1415350002255007784/1441473829951111330/threads/1554481727127289876",
-      "first_seen": "2026-09-29T13:15:24.621Z"
+      "first_seen": "2026-09-29T13:15:24.621Z",
+      "kind": "tool",
+      "kind_confidence": 0.39
     },
     {
       "id": "1554481597171105854",
@@ -46,7 +48,9 @@
       "source_label": "liquid.ai",
       "cover": "assets/posts/1554481597171105854.webp",
       "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1554481597171105854",
-      "first_seen": "2026-09-29T13:14:53.637Z"
+      "first_seen": "2026-09-29T13:14:53.637Z",
+      "kind": "model",
+      "kind_confidence": 0.98
     },
     {
       "id": "1554480012768317540",
@@ -69,7 +73,9 @@
       "source_label": "openai.com",
       "cover": "assets/posts/1554480012768317540.webp",
       "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1554480012768317540",
-      "first_seen": "2026-09-29T13:08:35.886Z"
+      "first_seen": "2026-09-29T13:08:35.886Z",
+      "kind": "policy",
+      "kind_confidence": 1
     },
     {
       "id": "1554218940606189578",
