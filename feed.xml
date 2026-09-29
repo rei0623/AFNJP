@@ -5,8 +5,32 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 28 Sep 2026 19:51:11 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 29 Sep 2026 13:15:24 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Meta「Muse for Small Business」発表、AIエージェントが中小企業の実務を代行</title>
+      <link>https://discord.com/channels/1415350002255007784/1441473829951111330/threads/1554481727127289876</link>
+      <guid isPermaLink="false">afnjp-1554481727127289876</guid>
+      <pubDate>Tue, 29 Sep 2026 13:15:24 GMT</pubDate>
+      <category>meta</category>
+      <description>Metaは、中小企業向けAIエージェント「Muse for Small Business」を発表しました。単なる質問応答型AIではなく、売上分析、広告改善、財務確認、メール対応など、事業運営に関わる複数の業務を既存ツールと連携しながら実行することを狙ったサー…</description>
+    </item>
+    <item>
+      <title>Liquid AI、VLM推論を最大3.13倍高速化する「LFM2.5-VL-DSpark」を公開</title>
+      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1554481597171105854</link>
+      <guid isPermaLink="false">afnjp-1554481597171105854</guid>
+      <pubDate>Tue, 29 Sep 2026 13:14:53 GMT</pubDate>
+      <category>その他</category>
+      <description>Liquid AIは2026年9月24日、視覚言語モデル「LFM2.5-VL-3B」向けの実験的ドラフトモデル「LFM2.5-VL-DSpark」を公開しました。スペキュレーティブ・デコーディングを利用し、出力品質を維持しながら、デコード性能をGPUで最大2…</description>
+    </item>
+    <item>
+      <title>OpenAI、最先端AI訓練に「Safety Case」導入へ RL実行前の安全性立証を体系化</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1554480012768317540</link>
+      <guid isPermaLink="false">afnjp-1554480012768317540</guid>
+      <pubDate>Tue, 29 Sep 2026 13:08:35 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIは2026年9月28日、フロンティアAIの強化学習を継続する前に、リスクを構造的かつ証拠ベースで説明する「Safety Case」を整備すべきだとの方針を公開しました。航空や原子力など安全性が重視される産業で使われる考え方をAI訓練へ応用し、モデ…</description>
+    </item>
     <item>
       <title>Anthropic、Claude Sonnet 5.5を発表 高速化と低コスト化で実務AIを強化</title>
       <link>https://discord.com/channels/1415350002255007784/1415353403269185546/threads/1554218940606189578</link>
@@ -78,30 +102,6 @@
       <pubDate>Fri, 25 Sep 2026 19:50:33 GMT</pubDate>
       <category>google</category>
       <description>Google DeepMindは2026年7月15日、フロンティアAIが監視を回避しながら開発者の意図と異なる目的を追求できるかを調べる研究を公開しました。研究は「ステルス能力」と「状況認識」を、AIによる策謀が成立するための前提能力として評価しています。</description>
-    </item>
-    <item>
-      <title>Proaction、Codex活用で営業転換率を最大60％改善 AIが「売る・作る・運用する」を接続</title>
-      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1553131443725664376</link>
-      <guid isPermaLink="false">afnjp-1553131443725664376</guid>
-      <pubDate>Fri, 25 Sep 2026 19:49:51 GMT</pubDate>
-      <category>open-ai</category>
-      <description>車両管理ソフトウェアを提供するProactionが、OpenAIのCodexやGPT-Live-1、GPT-6 Astraを営業・開発・業務運用に組み込み、生産性向上につなげています。OpenAIが2026年9月25日に公開した事例では、カスタムデモの導入に…</description>
-    </item>
-    <item>
-      <title>最大20人・AIが同じ生成世界で戦う「Agora-2」、Odysseyが次世代ワールドモデル公開</title>
-      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1552809097575796797</link>
-      <guid isPermaLink="false">afnjp-1552809097575796797</guid>
-      <pubDate>Thu, 24 Sep 2026 22:28:58 GMT</pubDate>
-      <category>その他</category>
-      <description>Odysseyは2026年9月21日、複数の人間とAIエージェントが同一の生成世界を共有できる次世代ワールドモデル「Agora-2」を研究プレビューとして公開しました。最大20参加者を扱い、各参加者の行動が共通世界の状態を変化させ、その結果を別々の視点からリ…</description>
-    </item>
-    <item>
-      <title>Claude APIの「拒否」は無料？Anthropicが明示した課金とフォールバックの仕組み</title>
-      <link>https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1552808977639809084</link>
-      <guid isPermaLink="false">afnjp-1552808977639809084</guid>
-      <pubDate>Thu, 24 Sep 2026 22:28:30 GMT</pubDate>
-      <category>anthropic</category>
-      <description>AnthropicはClaude APIにおける安全性判定による「refusal（拒否）」と、その際の課金ルール、別モデルへ処理を引き継ぐフォールバックの仕組みを公開しています。特に重要なのは、出力開始前に拒否されたリクエストは課金されない一方、途中まで出力…</description>
     </item>
   </channel>
 </rss>

@@ -1,9 +1,83 @@
 {
-  "generated_at": "2026-09-29T08:25:51.132Z",
+  "generated_at": "2026-09-29T15:47:45.633Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 256,
+  "count": 259,
   "posts": [
+    {
+      "id": "1554481727127289876",
+      "title": "Meta「Muse for Small Business」発表、AIエージェントが中小企業の実務を代行",
+      "channel": "meta",
+      "category": "Meta",
+      "date": "2026-09-29T13:15:24.621Z",
+      "excerpt": "Metaは、中小企業向けAIエージェント「Muse for Small Business」を発表しました。単なる質問応答型AIではなく、売上分析、広告改善、財務確認、メール対応など、事業運営に関わる複数の業務を既存ツールと連携しながら実行することを狙ったサー…",
+      "lead": "Metaは、中小企業向けAIエージェント「Muse for Small Business」を発表しました。単なる質問応答型AIではなく、売上分析、広告改善、財務確認、メール対応など、事業運営に関わる複数の業務を既存ツールと連携しながら実行することを狙ったサービスです。",
+      "headings": [
+        "「質問するAI」から「仕事を完了するAI」へ",
+        "経営データを横断してタスクを実行",
+        "実行にはユーザー承認を要求",
+        "今後の展望"
+      ],
+      "source_url": "https://about.fb.com/news/2026/09/introducing-muse-small-business/",
+      "source_urls": [
+        "https://about.fb.com/news/2026/09/introducing-muse-small-business/"
+      ],
+      "source_label": "about.fb.com",
+      "url": "https://discord.com/channels/1415350002255007784/1441473829951111330/threads/1554481727127289876",
+      "first_seen": "2026-09-29T13:15:24.621Z",
+      "kind": "tool",
+      "kind_confidence": 0.39
+    },
+    {
+      "id": "1554481597171105854",
+      "title": "Liquid AI、VLM推論を最大3.13倍高速化する「LFM2.5-VL-DSpark」を公開",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-09-29T13:14:53.637Z",
+      "excerpt": "Liquid AIは2026年9月24日、視覚言語モデル「LFM2.5-VL-3B」向けの実験的ドラフトモデル「LFM2.5-VL-DSpark」を公開しました。スペキュレーティブ・デコーディングを利用し、出力品質を維持しながら、デコード性能をGPUで最大2…",
+      "lead": "Liquid AIは2026年9月24日、視覚言語モデル「LFM2.5-VL-3B」向けの実験的ドラフトモデル「LFM2.5-VL-DSpark」を公開しました。スペキュレーティブ・デコーディングを利用し、出力品質を維持しながら、デコード性能をGPUで最大2.66倍、エッジ端末で最大3.13倍まで高速化したとしています。",
+      "headings": [
+        "約2.8億パラメータのモデルで次トークンを先読み",
+        "MacからH100まで高速化",
+        "VLM特有のボトルネックも残る",
+        "今後の展望"
+      ],
+      "source_url": "https://www.liquid.ai/blog/lfm2-5-vl-dspark",
+      "source_urls": [
+        "https://www.liquid.ai/blog/lfm2-5-vl-dspark"
+      ],
+      "source_label": "liquid.ai",
+      "cover": "assets/posts/1554481597171105854.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1554481597171105854",
+      "first_seen": "2026-09-29T13:14:53.637Z",
+      "kind": "model",
+      "kind_confidence": 0.98
+    },
+    {
+      "id": "1554480012768317540",
+      "title": "OpenAI、最先端AI訓練に「Safety Case」導入へ RL実行前の安全性立証を体系化",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-09-29T13:08:35.886Z",
+      "excerpt": "OpenAIは2026年9月28日、フロンティアAIの強化学習を継続する前に、リスクを構造的かつ証拠ベースで説明する「Safety Case」を整備すべきだとの方針を公開しました。航空や原子力など安全性が重視される産業で使われる考え方をAI訓練へ応用し、モデ…",
+      "lead": "OpenAIは2026年9月28日、フロンティアAIの強化学習を継続する前に、リスクを構造的かつ証拠ベースで説明する「Safety Case」を整備すべきだとの方針を公開しました。航空や原子力など安全性が重視される産業で使われる考え方をAI訓練へ応用し、モデルのアラインメントだけでなく、隔離、監視、組織運用、事故調査までを一体化しようとしています。",
+      "headings": [
+        "技術対策は「アラインメント・隔離・監視」の三層",
+        "サンドボックスだけではなく研究基盤全体を守る",
+        "安全性を技術問題から経営責任へ拡張",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training/",
+      "source_urls": [
+        "https://openai.com/index/towards-safety-cases-for-frontier-ai-training/"
+      ],
+      "source_label": "openai.com",
+      "cover": "assets/posts/1554480012768317540.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1554480012768317540",
+      "first_seen": "2026-09-29T13:08:35.886Z",
+      "kind": "policy",
+      "kind_confidence": 1
+    },
     {
       "id": "1554218940606189578",
       "title": "Anthropic、Claude Sonnet 5.5を発表 高速化と低コスト化で実務AIを強化",
