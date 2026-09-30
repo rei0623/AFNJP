@@ -1,9 +1,140 @@
 {
-  "generated_at": "2026-09-29T20:44:30.539Z",
+  "generated_at": "2026-09-30T00:24:53.711Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 259,
+  "count": 264,
   "posts": [
+    {
+      "id": "1554621775013355530",
+      "title": "OpenClaw Enterprise発表、AIエージェントを企業環境へ",
+      "channel": "open-claw",
+      "category": "その他",
+      "date": "2026-09-29T22:31:54.639Z",
+      "excerpt": "OpenClaw Foundationは2026年9月29日、企業向けAIエージェント基盤「OpenClaw Enterprise（OCE）」を発表しました。機密性の高い環境で長時間動作する「永続型エージェント」を、安全性や統制を維持しながら運用するためのオ…",
+      "lead": "OpenClaw Foundationは2026年9月29日、企業向けAIエージェント基盤「OpenClaw Enterprise（OCE）」を発表しました。機密性の高い環境で長時間動作する「永続型エージェント」を、安全性や統制を維持しながら運用するためのオープンソースかつベンダーニュートラルなプラットフォームです。",
+      "headings": [
+        "AIエージェントに企業向けコントロールプレーン",
+        "セキュリティを最優先に設計",
+        "OpenAI発、Red HatやNVIDIAも開発に協力",
+        "今後の展望"
+      ],
+      "source_url": "https://openclaw.ai/blog/openclaw-enterprise",
+      "source_urls": [
+        "https://openclaw.ai/blog/openclaw-enterprise"
+      ],
+      "source_label": "openclaw.ai",
+      "cover": "assets/posts/1554621775013355530.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1469665728721588320/threads/1554621775013355530",
+      "first_seen": "2026-09-29T22:31:54.639Z"
+    },
+    {
+      "id": "1554619963170365572",
+      "title": "Anthropic、AIへの期待と懸念を集める大規模調査を開始",
+      "channel": "anthropic",
+      "category": "Anthropic",
+      "date": "2026-09-29T22:24:42.662Z",
+      "excerpt": "Anthropicは2026年9月29日、AIに対する利用者の経験や期待、懸念を収集する新たな調査「What do you want from AI?」を開始しました。AIが社会へ与える影響を、開発企業だけでなく利用者の声から捉えることが狙いです。調査にはA…",
+      "lead": "Anthropicは2026年9月29日、AIに対する利用者の経験や期待、懸念を収集する新たな調査「What do you want from AI?」を開始しました。AIが社会へ与える影響を、開発企業だけでなく利用者の声から捉えることが狙いです。調査にはAIによる対話型インタビューシステム「Anthropic Interviewer」が使われます。",
+      "headings": [
+        "AIがAI利用者をインタビュー",
+        "今回はインタビューそのものを公開可能に",
+        "最大の課題は再識別リスク",
+        "調査結果を読む際の注意点",
+        "今後の展望"
+      ],
+      "source_url": "https://www.anthropic.com/research/your-thoughts-on-ai",
+      "source_urls": [
+        "https://www.anthropic.com/research/your-thoughts-on-ai"
+      ],
+      "source_label": "anthropic.com",
+      "cover": "assets/posts/1554619963170365572.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1554619963170365572",
+      "first_seen": "2026-09-29T22:24:42.662Z",
+      "kind": "other",
+      "kind_confidence": 0.32
+    },
+    {
+      "id": "1554619774758162472",
+      "title": "GLM-5.3、AIによる高度なサイバー攻撃能力が「誰でも使える」段階へ",
+      "channel": "anthropic",
+      "category": "Anthropic",
+      "date": "2026-09-29T22:23:57.741Z",
+      "excerpt": "Anthropicは2026年9月29日、Zhipu AI（Z.ai）の最新モデル「GLM-5.3」を分析し、高度なエクスプロイトを自律的に構築できる能力と、比較的容易に回避できる安全対策の組み合わせが、新たなサイバーリスクを生んでいるとの研究結果を公表しま…",
+      "lead": "Anthropicは2026年9月29日、Zhipu AI（Z.ai）の最新モデル「GLM-5.3」を分析し、高度なエクスプロイトを自律的に構築できる能力と、比較的容易に回避できる安全対策の組み合わせが、新たなサイバーリスクを生んでいるとの研究結果を公表しました。",
+      "headings": [
+        "実用的なエクスプロイト生成能力を確認",
+        "公開済み脆弱性の攻撃化も低コストに",
+        "最大の問題は安全対策の除去しやすさ",
+        "今後の展望"
+      ],
+      "source_url": "https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities",
+      "source_urls": [
+        "https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities"
+      ],
+      "source_label": "anthropic.com",
+      "cover": "assets/posts/1554619774758162472.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1554619774758162472",
+      "first_seen": "2026-09-29T22:23:57.741Z",
+      "kind": "research",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1554619534059638985",
+      "title": "OpenAI「Sign in with ChatGPT」利用規約公開、ChatGPT契約を外部アプリへ接続",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-09-29T22:23:00.354Z",
+      "excerpt": "OpenAIは2026年9月29日、「Sign in with ChatGPT（SIWC）」の利用規約を公開しました。SIWCは、ユーザーが自身のChatGPTアカウントを外部アプリへ接続し、対象となるChatGPTプランを使って、そのアプリ内のAI機能を利…",
+      "lead": "OpenAIは2026年9月29日、「Sign in with ChatGPT（SIWC）」の利用規約を公開しました。SIWCは、ユーザーが自身のChatGPTアカウントを外部アプリへ接続し、対象となるChatGPTプランを使って、そのアプリ内のAI機能を利用できる仕組みです。",
+      "headings": [
+        "ChatGPTプランを外部アプリから利用",
+        "利用主体はあくまで契約者本人",
+        "SIWC利用を理由に課金できない",
+        "セキュリティと個人情報保護も開発者責任",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/policies/sign-in-with-chatgpt-terms/",
+      "source_urls": [
+        "https://openai.com/policies/sign-in-with-chatgpt-terms/"
+      ],
+      "source_label": "openai.com",
+      "cover": "assets/posts/1554619534059638985.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1554619534059638985",
+      "first_seen": "2026-09-29T22:23:00.354Z",
+      "kind": "policy",
+      "kind_confidence": 0.76
+    },
+    {
+      "id": "1554619274436280352",
+      "title": "OpenAI DevDay 2026、AIを「対話相手」から常駐エージェントへ",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-09-29T22:21:58.455Z",
+      "excerpt": "OpenAIはDevDay 2026に合わせ、GPT-6.1 Sol、常駐型AIエージェント「Dots」、Private Intelligence、OpenAI Marketplaceなどを公開しました。個々の新機能以上に重要なのは、ChatGPTを会話型A…",
+      "lead": "OpenAIはDevDay 2026に合わせ、GPT-6.1 Sol、常駐型AIエージェント「Dots」、Private Intelligence、OpenAI Marketplaceなどを公開しました。個々の新機能以上に重要なのは、ChatGPTを会話型AIから「仕事を継続的に実行する基盤」へ拡張する方向性が鮮明になったことです。",
+      "headings": [
+        "GPT-6.1 Solはコスト効率を大幅強化",
+        "「Dots」は24時間動く個人エージェント",
+        "APIとChatGPTもエージェント前提へ",
+        "企業向けにはプライバシーと流通網を強化"
+      ],
+      "source_url": "https://openai.com/form/sign-in-with-chatgpt-interest/",
+      "source_urls": [
+        "https://openai.com/form/sign-in-with-chatgpt-interest/",
+        "https://openai.com/business/marketplace/",
+        "https://openai.com/devday/2026/",
+        "https://openai.com/form/private-intelligence-interest/",
+        "https://openai.com/index/devday-2026-recap/",
+        "https://openai.com/index/introducing-dots/",
+        "https://openai.com/index/introducing-gpt-6-1-sol/"
+      ],
+      "source_label": "openai.com",
+      "cover": "assets/posts/1554619274436280352.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1554619274436280352",
+      "first_seen": "2026-09-29T22:21:58.455Z",
+      "kind": "tool",
+      "kind_confidence": 0.83
+    },
     {
       "id": "1554481727127289876",
       "title": "Meta「Muse for Small Business」発表、AIエージェントが中小企業の実務を代行",

@@ -5,8 +5,48 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 29 Sep 2026 13:15:24 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 29 Sep 2026 22:31:54 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>OpenClaw Enterprise発表、AIエージェントを企業環境へ</title>
+      <link>https://discord.com/channels/1415350002255007784/1469665728721588320/threads/1554621775013355530</link>
+      <guid isPermaLink="false">afnjp-1554621775013355530</guid>
+      <pubDate>Tue, 29 Sep 2026 22:31:54 GMT</pubDate>
+      <category>open-claw</category>
+      <description>OpenClaw Foundationは2026年9月29日、企業向けAIエージェント基盤「OpenClaw Enterprise（OCE）」を発表しました。機密性の高い環境で長時間動作する「永続型エージェント」を、安全性や統制を維持しながら運用するためのオ…</description>
+    </item>
+    <item>
+      <title>Anthropic、AIへの期待と懸念を集める大規模調査を開始</title>
+      <link>https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1554619963170365572</link>
+      <guid isPermaLink="false">afnjp-1554619963170365572</guid>
+      <pubDate>Tue, 29 Sep 2026 22:24:42 GMT</pubDate>
+      <category>anthropic</category>
+      <description>Anthropicは2026年9月29日、AIに対する利用者の経験や期待、懸念を収集する新たな調査「What do you want from AI?」を開始しました。AIが社会へ与える影響を、開発企業だけでなく利用者の声から捉えることが狙いです。調査にはA…</description>
+    </item>
+    <item>
+      <title>GLM-5.3、AIによる高度なサイバー攻撃能力が「誰でも使える」段階へ</title>
+      <link>https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1554619774758162472</link>
+      <guid isPermaLink="false">afnjp-1554619774758162472</guid>
+      <pubDate>Tue, 29 Sep 2026 22:23:57 GMT</pubDate>
+      <category>anthropic</category>
+      <description>Anthropicは2026年9月29日、Zhipu AI（Z.ai）の最新モデル「GLM-5.3」を分析し、高度なエクスプロイトを自律的に構築できる能力と、比較的容易に回避できる安全対策の組み合わせが、新たなサイバーリスクを生んでいるとの研究結果を公表しま…</description>
+    </item>
+    <item>
+      <title>OpenAI「Sign in with ChatGPT」利用規約公開、ChatGPT契約を外部アプリへ接続</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1554619534059638985</link>
+      <guid isPermaLink="false">afnjp-1554619534059638985</guid>
+      <pubDate>Tue, 29 Sep 2026 22:23:00 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIは2026年9月29日、「Sign in with ChatGPT（SIWC）」の利用規約を公開しました。SIWCは、ユーザーが自身のChatGPTアカウントを外部アプリへ接続し、対象となるChatGPTプランを使って、そのアプリ内のAI機能を利…</description>
+    </item>
+    <item>
+      <title>OpenAI DevDay 2026、AIを「対話相手」から常駐エージェントへ</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1554619274436280352</link>
+      <guid isPermaLink="false">afnjp-1554619274436280352</guid>
+      <pubDate>Tue, 29 Sep 2026 22:21:58 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIはDevDay 2026に合わせ、GPT-6.1 Sol、常駐型AIエージェント「Dots」、Private Intelligence、OpenAI Marketplaceなどを公開しました。個々の新機能以上に重要なのは、ChatGPTを会話型A…</description>
+    </item>
     <item>
       <title>Meta「Muse for Small Business」発表、AIエージェントが中小企業の実務を代行</title>
       <link>https://discord.com/channels/1415350002255007784/1441473829951111330/threads/1554481727127289876</link>
@@ -62,46 +102,6 @@
       <pubDate>Mon, 28 Sep 2026 16:01:45 GMT</pubDate>
       <category>manus</category>
       <description>Manusは「Manus 2.0」を発表しました。今回の更新は単なる機能追加ではなく、エージェント基盤「Cascade」、常時稼働環境「Cloud Computer」、イベント駆動型Automations、人間とAIが共同編集する「Manus Studio」…</description>
-    </item>
-    <item>
-      <title>Metaが「Enterprise Platform」始動、AI事業を企業向けフルスタック市場へ拡大</title>
-      <link>https://discord.com/channels/1415350002255007784/1441473829951111330/threads/1554161047940767824</link>
-      <guid isPermaLink="false">afnjp-1554161047940767824</guid>
-      <pubDate>Mon, 28 Sep 2026 16:01:08 GMT</pubDate>
-      <category>meta</category>
-      <description>Metaは2026年9月28日、新たな事業の柱として「Meta Enterprise Platform」を立ち上げると発表しました。高度なAIモデル、AIエージェント、大規模インフラ、企業向けサービスで培った基盤を組み合わせ、企業がAIを業務や成長戦略へ導入…</description>
-    </item>
-    <item>
-      <title>ElevenLabs「Eleven v4」登場、感情表現と約150msのリアルタイム音声を両立</title>
-      <link>https://discord.com/channels/1415350002255007784/1441006356399259719/threads/1554160922606567518</link>
-      <guid isPermaLink="false">afnjp-1554160922606567518</guid>
-      <pubDate>Mon, 28 Sep 2026 16:00:38 GMT</pubDate>
-      <category>eleven-labs</category>
-      <description>ElevenLabsは、新世代の音声生成モデル「Eleven v4」と、リアルタイム用途向けの「Eleven v4 Turbo」を公開しました。v4では感情表現、複数話者、効果音、長文生成時の一貫性を強化し、Turboでは音声エージェントを想定した低遅延処理…</description>
-    </item>
-    <item>
-      <title>MicrosoftがCopilotを再設計、「Home・Code・Autopilot」でAIを仕事の実行基盤へ</title>
-      <link>https://discord.com/channels/1415350002255007784/1423003108790767748/threads/1553241433782226954</link>
-      <guid isPermaLink="false">afnjp-1553241433782226954</guid>
-      <pubDate>Sat, 26 Sep 2026 03:06:55 GMT</pubDate>
-      <category>copilot</category>
-      <description>Microsoftは2026年9月25日、Microsoft Copilotを再設計し、「Home」「Code」「Autopilot」を中核とする新たな構成を発表しました。単なる対話型AIから、仕事の委任、アプリ開発、継続的な自律実行までを一つの環境で扱う方…</description>
-    </item>
-    <item>
-      <title>Claudeが理論物理の「9ループ計算」を自律完遂、AI科学研究が新段階へ</title>
-      <link>https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1553131784215076865</link>
-      <guid isPermaLink="false">afnjp-1553131784215076865</guid>
-      <pubDate>Fri, 25 Sep 2026 19:51:13 GMT</pubDate>
-      <category>anthropic</category>
-      <description>Anthropicは、Claudeを利用した科学研究環境「Claude Science」により、理論粒子物理学の未解決だった計算課題「平面N=4超対称Yang-Mills理論における6粒子振幅の9ループ計算」を完遂したと報告しました。専門家が数年単位で取り組…</description>
-    </item>
-    <item>
-      <title>DeepMind、AIの「秘密裏の策謀能力」を測る新評価手法</title>
-      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1553131618196258870</link>
-      <guid isPermaLink="false">afnjp-1553131618196258870</guid>
-      <pubDate>Fri, 25 Sep 2026 19:50:33 GMT</pubDate>
-      <category>google</category>
-      <description>Google DeepMindは2026年7月15日、フロンティアAIが監視を回避しながら開発者の意図と異なる目的を追求できるかを調べる研究を公開しました。研究は「ステルス能力」と「状況認識」を、AIによる策謀が成立するための前提能力として評価しています。</description>
     </item>
   </channel>
 </rss>
