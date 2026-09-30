@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T00:24:53.714Z",
+  "generated_at": "2026-09-30T06:40:21.659Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
@@ -48,7 +48,9 @@
       "source_label": "anthropic.com",
       "cover": "assets/posts/1554619963170365572.webp",
       "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1554619963170365572",
-      "first_seen": "2026-09-29T22:24:42.662Z"
+      "first_seen": "2026-09-29T22:24:42.662Z",
+      "kind": "other",
+      "kind_confidence": 0.32
     },
     {
       "id": "1554619774758162472",
@@ -71,7 +73,9 @@
       "source_label": "anthropic.com",
       "cover": "assets/posts/1554619774758162472.webp",
       "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1554619774758162472",
-      "first_seen": "2026-09-29T22:23:57.741Z"
+      "first_seen": "2026-09-29T22:23:57.741Z",
+      "kind": "research",
+      "kind_confidence": 1
     },
     {
       "id": "1554619534059638985",
@@ -95,7 +99,9 @@
       "source_label": "openai.com",
       "cover": "assets/posts/1554619534059638985.webp",
       "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1554619534059638985",
-      "first_seen": "2026-09-29T22:23:00.354Z"
+      "first_seen": "2026-09-29T22:23:00.354Z",
+      "kind": "policy",
+      "kind_confidence": 0.76
     },
     {
       "id": "1554619274436280352",
@@ -124,7 +130,9 @@
       "source_label": "openai.com",
       "cover": "assets/posts/1554619274436280352.webp",
       "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1554619274436280352",
-      "first_seen": "2026-09-29T22:21:58.455Z"
+      "first_seen": "2026-09-29T22:21:58.455Z",
+      "kind": "tool",
+      "kind_confidence": 0.83
     },
     {
       "id": "1554481727127289876",

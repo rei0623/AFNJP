@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T00:24:53.711Z",
+  "generated_at": "2026-09-30T06:40:21.656Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "count": 264,
@@ -25,7 +25,9 @@
       "source_label": "openclaw.ai",
       "cover": "assets/posts/1554621775013355530.webp",
       "url": "https://discord.com/channels/1415350002255007784/1469665728721588320/threads/1554621775013355530",
-      "first_seen": "2026-09-29T22:31:54.639Z"
+      "first_seen": "2026-09-29T22:31:54.639Z",
+      "kind": "tool",
+      "kind_confidence": 1
     },
     {
       "id": "1554619963170365572",
