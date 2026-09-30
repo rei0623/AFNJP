@@ -1,8 +1,193 @@
 {
-  "generated_at": "2026-09-30T19:16:32.808Z",
+  "generated_at": "2026-09-30T23:01:50.618Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1554943961087606935",
+      "title": "OpenAI、中小企業のAI活用を支援 全米SBDCと連携し現場導入を加速",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-09-30T19:52:09.785Z",
+      "excerpt": "OpenAIは2026年9月30日、米国の中小企業支援ネットワークAmerica’s SBDCとの提携を発表しました。地域の経営アドバイザーをAI活用支援の担い手として育成し、ChatGPTなどを実際の業務へ組み込むための研修やワークショップを展開します。単…",
+      "lead": "OpenAIは2026年9月30日、米国の中小企業支援ネットワークAmerica’s SBDCとの提携を発表しました。地域の経営アドバイザーをAI活用支援の担い手として育成し、ChatGPTなどを実際の業務へ組み込むための研修やワークショップを展開します。単なるツール提供ではなく、現場での導入方法まで支援する点が特徴です。 0",
+      "headings": [
+        "約150人のアドバイザーを育成",
+        "小規模企業で「エージェント型AI」の利用が拡大",
+        "専門人材不足をAIで補完",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/helping-small-businesses-put-ai-to-work/",
+      "source_urls": [
+        "https://openai.com/index/helping-small-businesses-put-ai-to-work/"
+      ],
+      "source_label": "openai.com",
+      "cover": "assets/posts/1554943961087606935.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1554943961087606935",
+      "first_seen": "2026-09-30T19:52:09.785Z"
+    },
+    {
+      "id": "1554943874927956048",
+      "title": "OpenAI、推論抽出を狙う大規模な「敵対的蒸留」キャンペーンを遮断",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-09-30T19:51:49.243Z",
+      "excerpt": "OpenAIは2026年9月30日、モデル内部の保護された推論情報を組織的に抽出し、別のAIモデルの学習や能力再現に利用することを狙った「敵対的蒸留」のキャンペーンを特定し、遮断したと発表しました。OpenAIは活動の中核となるクラスターについて、Kimiを…",
+      "lead": "OpenAIは2026年9月30日、モデル内部の保護された推論情報を組織的に抽出し、別のAIモデルの学習や能力再現に利用することを狙った「敵対的蒸留」のキャンペーンを特定し、遮断したと発表しました。OpenAIは活動の中核となるクラスターについて、Kimiを開発するMoonshot AIに関連する人物によるものと評価しています。ただし、観測されたすべての活動が単一の主体によるものかは不明としています。",
+      "headings": [
+        "「保護された推論」を狙った攻撃",
+        "1万5000超のユーザー群に関連パターン",
+        "アカウント停止だけでは防げない",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign/",
+      "source_urls": [
+        "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign/"
+      ],
+      "source_label": "openai.com",
+      "cover": "assets/posts/1554943874927956048.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1554943874927956048",
+      "first_seen": "2026-09-30T19:51:49.243Z"
+    },
+    {
+      "id": "1554943771374915594",
+      "title": "Google DeepMind、AI生成タンパク質に「電子透かし」――SynthID Bioを発表",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-09-30T19:51:24.554Z",
+      "excerpt": "Google DeepMindは2026年9月30日、合成生物学向けのウォーターマーク技術「SynthID Bio」を発表しました。AIが設計したタンパク質の配列や立体構造へ検出可能なシグナルを埋め込み、生成元の確認を可能にする技術です。重要なのは、デジタル…",
+      "lead": "Google DeepMindは2026年9月30日、合成生物学向けのウォーターマーク技術「SynthID Bio」を発表しました。AIが設計したタンパク質の配列や立体構造へ検出可能なシグナルを埋め込み、生成元の確認を可能にする技術です。重要なのは、デジタルデータだけでなく、実際に合成されたタンパク質でも識別できることです。",
+      "headings": [
+        "生物学的な機能を保ったまま透かしを埋め込む",
+        "AlphaFold 3のモデル内部にも組み込み",
+        "DNA合成スクリーニングの補助へ",
+        "今後の展望"
+      ],
+      "source_url": "https://deepmind.google/blog/introducing-synthid-bio/",
+      "source_urls": [
+        "https://deepmind.google/blog/introducing-synthid-bio/"
+      ],
+      "source_label": "deepmind.google",
+      "cover": "assets/posts/1554943771374915594.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1554943771374915594",
+      "first_seen": "2026-09-30T19:51:24.554Z"
+    },
+    {
+      "id": "1554943645499654204",
+      "title": "Gemini「Skills」世界展開、Gemsを置き換え反復タスクを自動化へ",
+      "channel": "gemini",
+      "category": "Google",
+      "date": "2026-09-30T19:50:54.543Z",
+      "excerpt": "Googleは2026年9月30日、Geminiで繰り返し使う指示を「Skills」として保存・再利用できる機能を、Geminiチャットへ世界規模で展開すると発表しました。Skillsは従来の「Gems」を段階的に置き換え、単なるカスタムAI設定から、複数の…",
+      "lead": "Googleは2026年9月30日、Geminiで繰り返し使う指示を「Skills」として保存・再利用できる機能を、Geminiチャットへ世界規模で展開すると発表しました。Skillsは従来の「Gems」を段階的に置き換え、単なるカスタムAI設定から、複数の指示や参照ファイルを組み合わせる再利用可能なタスク実行単位へと発展します。",
+      "headings": [
+        "「/」から呼び出せる再利用可能な指示",
+        "複数Skillsの組み合わせと参照ファイルに対応",
+        "Gemsは段階的に終了",
+        "今後の展望"
+      ],
+      "source_url": "https://blog.google/products-and-platforms/products/gemini/automate-tasks-with-skills/",
+      "source_urls": [
+        "https://blog.google/products-and-platforms/products/gemini/automate-tasks-with-skills/"
+      ],
+      "source_label": "blog.google",
+      "cover": "assets/posts/1554943645499654204.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1554943645499654204",
+      "first_seen": "2026-09-30T19:50:54.543Z"
+    },
+    {
+      "id": "1554943444802215987",
+      "title": "ロボットは米国の「物理作業の74%」を実行可能、Anthropicが雇用への影響を分析",
+      "channel": "anthropic",
+      "category": "Anthropic",
+      "date": "2026-09-30T19:50:06.693Z",
+      "excerpt": "Anthropicは2026年9月30日、現在のロボット技術がどの仕事をどこまで実行できるのかを分析した研究を公開しました。米国の物理的な仕事の74%は、何らかの条件下ですでにロボットが実行可能と推計される一方、コスト面で人間より競争力を持つ仕事は全体のわず…",
+      "lead": "Anthropicは2026年9月30日、現在のロボット技術がどの仕事をどこまで実行できるのかを分析した研究を公開しました。米国の物理的な仕事の74%は、何らかの条件下ですでにロボットが実行可能と推計される一方、コスト面で人間より競争力を持つ仕事は全体のわずか0.3%にとどまります。「できること」と「実際に自動化されること」の間には依然として大きな隔たりがあります。",
+      "headings": [
+        "約1万9000の作業をロボット能力で評価",
+        "自動運転や物流は高い露出度",
+        "LLMとロボットを合わせると81%の仕事が露出",
+        "最大の壁は「能力」よりも経済性",
+        "今後の展望"
+      ],
+      "source_url": "https://www.anthropic.com/research/what-work-can-robots-do",
+      "source_urls": [
+        "https://www.anthropic.com/research/what-work-can-robots-do"
+      ],
+      "source_label": "anthropic.com",
+      "cover": "assets/posts/1554943444802215987.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1554943444802215987",
+      "first_seen": "2026-09-30T19:50:06.693Z"
+    },
+    {
+      "id": "1554942744085004329",
+      "title": "Manusが「Flex」投入、AIエージェントにBYOK型の推論モデル接続を導入",
+      "channel": "manus",
+      "category": "その他",
+      "date": "2026-09-30T19:47:19.629Z",
+      "excerpt": "Manusは、ユーザー自身のAPIキーを使って外部の推論プロバイダーを接続できる新モジュール「Manus Flex」を発表しました。これまでManus側が一括管理してきたモデル選択やAgent基盤の一部を開放し、「Manusの実行環境」と「外部モデルの推論」…",
+      "lead": "Manusは、ユーザー自身のAPIキーを使って外部の推論プロバイダーを接続できる新モジュール「Manus Flex」を発表しました。これまでManus側が一括管理してきたモデル選択やAgent基盤の一部を開放し、「Manusの実行環境」と「外部モデルの推論」を組み合わせられる構成へ拡張します。0",
+      "headings": [
+        "Manus Flexは何を変えるのか",
+        "OpenRouter、Fireworks、Modalが初期パートナー",
+        "企業利用ではコスト管理とモデル選択が焦点に",
+        "今後の展望"
+      ],
+      "source_url": "https://manus.im/ja/blog/introducing-manus-flex",
+      "source_urls": [
+        "https://manus.im/ja/blog/introducing-manus-flex"
+      ],
+      "source_label": "manus.im",
+      "cover": "assets/posts/1554942744085004329.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416105983415156887/threads/1554942744085004329",
+      "first_seen": "2026-09-30T19:47:19.629Z"
+    },
+    {
+      "id": "1554942656453283840",
+      "title": "Perplexity Computer、「Automations」で継続業務を自動化",
+      "channel": "perplexity",
+      "category": "その他",
+      "date": "2026-09-30T19:46:58.736Z",
+      "excerpt": "Perplexityは2026年9月29日、AIエージェント基盤「Computer」に新機能「Automations」を追加しました。決められた時刻だけでなく、SlackやGmail、GitHubなどで発生するイベントを起点に処理を開始し、さらに過去の実行履…",
+      "lead": "Perplexityは2026年9月29日、AIエージェント基盤「Computer」に新機能「Automations」を追加しました。決められた時刻だけでなく、SlackやGmail、GitHubなどで発生するイベントを起点に処理を開始し、さらに過去の実行履歴を引き継いで継続的な業務を遂行できる点が特徴です。",
+      "headings": [
+        "単発タスクから「継続して働くエージェント」へ",
+        "スケジュールとイベントの2方式で起動",
+        "開発業務ではPR作成まで自動化",
+        "今後の展望"
+      ],
+      "source_url": "https://www.perplexity.ai/hub/blog/computer-adds-automations-for-ongoing-work",
+      "source_urls": [
+        "https://www.perplexity.ai/hub/blog/computer-adds-automations-for-ongoing-work"
+      ],
+      "source_label": "perplexity.ai",
+      "cover": "assets/posts/1554942656453283840.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417545518539739166/threads/1554942656453283840",
+      "first_seen": "2026-09-30T19:46:58.736Z"
+    },
+    {
+      "id": "1554942531626606612",
+      "title": "Inceptionが「Mercury Voice」公開、320msで応答する音声AI向け拡散LLM",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-09-30T19:46:28.975Z",
+      "excerpt": "Inceptionは2026年9月29日、リアルタイム音声エージェント向けモデル「Mercury Voice」を企業向けに一般提供すると発表しました。最大の特徴は、推論やツール呼び出しを行いながら、会話を阻害しにくい低遅延を狙った「diffusion LLM…",
+      "lead": "Inceptionは2026年9月29日、リアルタイム音声エージェント向けモデル「Mercury Voice」を企業向けに一般提供すると発表しました。最大の特徴は、推論やツール呼び出しを行いながら、会話を阻害しにくい低遅延を狙った「diffusion LLM（dLLM）」アーキテクチャです。",
+      "headings": [
+        "320msの低遅延と推論能力を両立",
+        "拡散型LLMでリアルタイム推論",
+        "音声AIのコスト構造にも影響",
+        "今後の展望"
+      ],
+      "source_url": "https://www.inceptionlabs.ai/blog/introducing-mercury-voice",
+      "source_urls": [
+        "https://www.inceptionlabs.ai/blog/introducing-mercury-voice"
+      ],
+      "source_label": "inceptionlabs.ai",
+      "cover": "assets/posts/1554942531626606612.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1554942531626606612",
+      "first_seen": "2026-09-30T19:46:28.975Z"
+    },
     {
       "id": "1554862276690055198",
       "title": "Cohere「Embed 5」登場、RAGと企業検索をマルチモーダル・128K対応へ",
@@ -25,7 +210,9 @@
       "source_label": "cohere.com",
       "cover": "assets/posts/1554862276690055198.webp",
       "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1554862276690055198",
-      "first_seen": "2026-09-30T14:27:34.707Z"
+      "first_seen": "2026-09-30T14:27:34.707Z",
+      "kind": "model",
+      "kind_confidence": 1
     },
     {
       "id": "1554862086780227704",
@@ -48,7 +235,9 @@
       "source_label": "testingcatalog.com",
       "cover": "assets/posts/1554862086780227704.webp",
       "url": "https://discord.com/channels/1415350002255007784/1415534435712897124/threads/1554862086780227704",
-      "first_seen": "2026-09-30T14:26:49.429Z"
+      "first_seen": "2026-09-30T14:26:49.429Z",
+      "kind": "feature",
+      "kind_confidence": 0.92
     },
     {
       "id": "1554621775013355530",
@@ -100,212 +289,6 @@
       "first_seen": "2026-09-29T22:24:42.662Z",
       "kind": "other",
       "kind_confidence": 0.32
-    },
-    {
-      "id": "1554619774758162472",
-      "title": "GLM-5.3、AIによる高度なサイバー攻撃能力が「誰でも使える」段階へ",
-      "channel": "anthropic",
-      "category": "Anthropic",
-      "date": "2026-09-29T22:23:57.741Z",
-      "excerpt": "Anthropicは2026年9月29日、Zhipu AI（Z.ai）の最新モデル「GLM-5.3」を分析し、高度なエクスプロイトを自律的に構築できる能力と、比較的容易に回避できる安全対策の組み合わせが、新たなサイバーリスクを生んでいるとの研究結果を公表しま…",
-      "lead": "Anthropicは2026年9月29日、Zhipu AI（Z.ai）の最新モデル「GLM-5.3」を分析し、高度なエクスプロイトを自律的に構築できる能力と、比較的容易に回避できる安全対策の組み合わせが、新たなサイバーリスクを生んでいるとの研究結果を公表しました。",
-      "headings": [
-        "実用的なエクスプロイト生成能力を確認",
-        "公開済み脆弱性の攻撃化も低コストに",
-        "最大の問題は安全対策の除去しやすさ",
-        "今後の展望"
-      ],
-      "source_url": "https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities",
-      "source_urls": [
-        "https://www.anthropic.com/research/glm-5-3-and-the-spread-of-advanced-cyber-capabilities"
-      ],
-      "source_label": "anthropic.com",
-      "cover": "assets/posts/1554619774758162472.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1554619774758162472",
-      "first_seen": "2026-09-29T22:23:57.741Z",
-      "kind": "research",
-      "kind_confidence": 1
-    },
-    {
-      "id": "1554619534059638985",
-      "title": "OpenAI「Sign in with ChatGPT」利用規約公開、ChatGPT契約を外部アプリへ接続",
-      "channel": "open-ai",
-      "category": "Open AI",
-      "date": "2026-09-29T22:23:00.354Z",
-      "excerpt": "OpenAIは2026年9月29日、「Sign in with ChatGPT（SIWC）」の利用規約を公開しました。SIWCは、ユーザーが自身のChatGPTアカウントを外部アプリへ接続し、対象となるChatGPTプランを使って、そのアプリ内のAI機能を利…",
-      "lead": "OpenAIは2026年9月29日、「Sign in with ChatGPT（SIWC）」の利用規約を公開しました。SIWCは、ユーザーが自身のChatGPTアカウントを外部アプリへ接続し、対象となるChatGPTプランを使って、そのアプリ内のAI機能を利用できる仕組みです。",
-      "headings": [
-        "ChatGPTプランを外部アプリから利用",
-        "利用主体はあくまで契約者本人",
-        "SIWC利用を理由に課金できない",
-        "セキュリティと個人情報保護も開発者責任",
-        "今後の展望"
-      ],
-      "source_url": "https://openai.com/policies/sign-in-with-chatgpt-terms/",
-      "source_urls": [
-        "https://openai.com/policies/sign-in-with-chatgpt-terms/"
-      ],
-      "source_label": "openai.com",
-      "cover": "assets/posts/1554619534059638985.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1554619534059638985",
-      "first_seen": "2026-09-29T22:23:00.354Z",
-      "kind": "policy",
-      "kind_confidence": 0.76
-    },
-    {
-      "id": "1554619274436280352",
-      "title": "OpenAI DevDay 2026、AIを「対話相手」から常駐エージェントへ",
-      "channel": "open-ai",
-      "category": "Open AI",
-      "date": "2026-09-29T22:21:58.455Z",
-      "excerpt": "OpenAIはDevDay 2026に合わせ、GPT-6.1 Sol、常駐型AIエージェント「Dots」、Private Intelligence、OpenAI Marketplaceなどを公開しました。個々の新機能以上に重要なのは、ChatGPTを会話型A…",
-      "lead": "OpenAIはDevDay 2026に合わせ、GPT-6.1 Sol、常駐型AIエージェント「Dots」、Private Intelligence、OpenAI Marketplaceなどを公開しました。個々の新機能以上に重要なのは、ChatGPTを会話型AIから「仕事を継続的に実行する基盤」へ拡張する方向性が鮮明になったことです。",
-      "headings": [
-        "GPT-6.1 Solはコスト効率を大幅強化",
-        "「Dots」は24時間動く個人エージェント",
-        "APIとChatGPTもエージェント前提へ",
-        "企業向けにはプライバシーと流通網を強化"
-      ],
-      "source_url": "https://openai.com/form/sign-in-with-chatgpt-interest/",
-      "source_urls": [
-        "https://openai.com/form/sign-in-with-chatgpt-interest/",
-        "https://openai.com/business/marketplace/",
-        "https://openai.com/devday/2026/",
-        "https://openai.com/form/private-intelligence-interest/",
-        "https://openai.com/index/devday-2026-recap/",
-        "https://openai.com/index/introducing-dots/",
-        "https://openai.com/index/introducing-gpt-6-1-sol/"
-      ],
-      "source_label": "openai.com",
-      "cover": "assets/posts/1554619274436280352.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1554619274436280352",
-      "first_seen": "2026-09-29T22:21:58.455Z",
-      "kind": "tool",
-      "kind_confidence": 0.83
-    },
-    {
-      "id": "1554481727127289876",
-      "title": "Meta「Muse for Small Business」発表、AIエージェントが中小企業の実務を代行",
-      "channel": "meta",
-      "category": "Meta",
-      "date": "2026-09-29T13:15:24.621Z",
-      "excerpt": "Metaは、中小企業向けAIエージェント「Muse for Small Business」を発表しました。単なる質問応答型AIではなく、売上分析、広告改善、財務確認、メール対応など、事業運営に関わる複数の業務を既存ツールと連携しながら実行することを狙ったサー…",
-      "lead": "Metaは、中小企業向けAIエージェント「Muse for Small Business」を発表しました。単なる質問応答型AIではなく、売上分析、広告改善、財務確認、メール対応など、事業運営に関わる複数の業務を既存ツールと連携しながら実行することを狙ったサービスです。",
-      "headings": [
-        "「質問するAI」から「仕事を完了するAI」へ",
-        "経営データを横断してタスクを実行",
-        "実行にはユーザー承認を要求",
-        "今後の展望"
-      ],
-      "source_url": "https://about.fb.com/news/2026/09/introducing-muse-small-business/",
-      "source_urls": [
-        "https://about.fb.com/news/2026/09/introducing-muse-small-business/"
-      ],
-      "source_label": "about.fb.com",
-      "url": "https://discord.com/channels/1415350002255007784/1441473829951111330/threads/1554481727127289876",
-      "first_seen": "2026-09-29T13:15:24.621Z",
-      "kind": "tool",
-      "kind_confidence": 0.39
-    },
-    {
-      "id": "1554481597171105854",
-      "title": "Liquid AI、VLM推論を最大3.13倍高速化する「LFM2.5-VL-DSpark」を公開",
-      "channel": "その他",
-      "category": "その他",
-      "date": "2026-09-29T13:14:53.637Z",
-      "excerpt": "Liquid AIは2026年9月24日、視覚言語モデル「LFM2.5-VL-3B」向けの実験的ドラフトモデル「LFM2.5-VL-DSpark」を公開しました。スペキュレーティブ・デコーディングを利用し、出力品質を維持しながら、デコード性能をGPUで最大2…",
-      "lead": "Liquid AIは2026年9月24日、視覚言語モデル「LFM2.5-VL-3B」向けの実験的ドラフトモデル「LFM2.5-VL-DSpark」を公開しました。スペキュレーティブ・デコーディングを利用し、出力品質を維持しながら、デコード性能をGPUで最大2.66倍、エッジ端末で最大3.13倍まで高速化したとしています。",
-      "headings": [
-        "約2.8億パラメータのモデルで次トークンを先読み",
-        "MacからH100まで高速化",
-        "VLM特有のボトルネックも残る",
-        "今後の展望"
-      ],
-      "source_url": "https://www.liquid.ai/blog/lfm2-5-vl-dspark",
-      "source_urls": [
-        "https://www.liquid.ai/blog/lfm2-5-vl-dspark"
-      ],
-      "source_label": "liquid.ai",
-      "cover": "assets/posts/1554481597171105854.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1554481597171105854",
-      "first_seen": "2026-09-29T13:14:53.637Z",
-      "kind": "model",
-      "kind_confidence": 0.98
-    },
-    {
-      "id": "1554480012768317540",
-      "title": "OpenAI、最先端AI訓練に「Safety Case」導入へ RL実行前の安全性立証を体系化",
-      "channel": "open-ai",
-      "category": "Open AI",
-      "date": "2026-09-29T13:08:35.886Z",
-      "excerpt": "OpenAIは2026年9月28日、フロンティアAIの強化学習を継続する前に、リスクを構造的かつ証拠ベースで説明する「Safety Case」を整備すべきだとの方針を公開しました。航空や原子力など安全性が重視される産業で使われる考え方をAI訓練へ応用し、モデ…",
-      "lead": "OpenAIは2026年9月28日、フロンティアAIの強化学習を継続する前に、リスクを構造的かつ証拠ベースで説明する「Safety Case」を整備すべきだとの方針を公開しました。航空や原子力など安全性が重視される産業で使われる考え方をAI訓練へ応用し、モデルのアラインメントだけでなく、隔離、監視、組織運用、事故調査までを一体化しようとしています。",
-      "headings": [
-        "技術対策は「アラインメント・隔離・監視」の三層",
-        "サンドボックスだけではなく研究基盤全体を守る",
-        "安全性を技術問題から経営責任へ拡張",
-        "今後の展望"
-      ],
-      "source_url": "https://openai.com/index/towards-safety-cases-for-frontier-ai-training/",
-      "source_urls": [
-        "https://openai.com/index/towards-safety-cases-for-frontier-ai-training/"
-      ],
-      "source_label": "openai.com",
-      "cover": "assets/posts/1554480012768317540.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1554480012768317540",
-      "first_seen": "2026-09-29T13:08:35.886Z",
-      "kind": "policy",
-      "kind_confidence": 1
-    },
-    {
-      "id": "1554218940606189578",
-      "title": "Anthropic、Claude Sonnet 5.5を発表 高速化と低コスト化で実務AIを強化",
-      "channel": "claude",
-      "category": "Anthropic",
-      "date": "2026-09-28T19:51:11.432Z",
-      "excerpt": "Anthropicは2026年9月28日、Claude 5.5ファミリー第2弾となる「Claude Sonnet 5.5」を発表しました。Sonnet 5比で出力速度を30％以上高め、同じ料金体系を維持しながら、タスク当たりのコストを最大30％削減できるとし…",
-      "lead": "Anthropicは2026年9月28日、Claude 5.5ファミリー第2弾となる「Claude Sonnet 5.5」を発表しました。Sonnet 5比で出力速度を30％以上高め、同じ料金体系を維持しながら、タスク当たりのコストを最大30％削減できるとしています。",
-      "headings": [
-        "コーディング性能が大幅向上",
-        "Opusに迫る性能と価格差",
-        "強化された安全策",
-        "今後の展望"
-      ],
-      "source_url": "https://www.anthropic.com/claude-sonnet-5-5",
-      "source_urls": [
-        "https://www.anthropic.com/claude-sonnet-5-5"
-      ],
-      "source_label": "anthropic.com",
-      "cover": "assets/posts/1554218940606189578.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1415353403269185546/threads/1554218940606189578",
-      "first_seen": "2026-09-28T19:51:11.432Z",
-      "kind": "model",
-      "kind_confidence": 0.99
-    },
-    {
-      "id": "1554162258240733366",
-      "title": "NVIDIA、AIエージェントをハードウェア層まで監視する「Open Agent Safety Platform」発表",
-      "channel": "その他",
-      "category": "その他",
-      "date": "2026-09-28T16:05:57.303Z",
-      "excerpt": "NVIDIAは2026年9月28日、AIエージェントのテストから本番運用までを保護する「NVIDIA Open Agent Safety Platform」を発表しました。特徴は、モデルやアプリケーションだけに安全対策を任せず、CPU、DPU、実行環境まで含…",
-      "lead": "NVIDIAは2026年9月28日、AIエージェントのテストから本番運用までを保護する「NVIDIA Open Agent Safety Platform」を発表しました。特徴は、モデルやアプリケーションだけに安全対策を任せず、CPU、DPU、実行環境まで含むフルスタックでエージェントの行動を制御する点です。",
-      "headings": [
-        "OpenShellでエージェントの実行境界を固定",
-        "BlueField-4上の「Sentry」が独立監視",
-        "AIエージェント普及で「モデルの外側」の防御が重要に",
-        "今後の展望"
-      ],
-      "source_url": "https://nvidianews.nvidia.com/news/open-agent-safety-platform",
-      "source_urls": [
-        "https://nvidianews.nvidia.com/news/open-agent-safety-platform"
-      ],
-      "source_label": "nvidianews.nvidia.com",
-      "cover": "assets/posts/1554162258240733366.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1554162258240733366",
-      "first_seen": "2026-09-28T16:05:57.303Z",
-      "kind": "tool",
-      "kind_confidence": 0.99
     }
   ]
 }

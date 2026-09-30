@@ -1,9 +1,210 @@
 {
-  "generated_at": "2026-09-30T19:16:32.805Z",
+  "generated_at": "2026-09-30T23:01:50.616Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 266,
+  "count": 274,
   "posts": [
+    {
+      "id": "1554943961087606935",
+      "title": "OpenAI、中小企業のAI活用を支援 全米SBDCと連携し現場導入を加速",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-09-30T19:52:09.785Z",
+      "excerpt": "OpenAIは2026年9月30日、米国の中小企業支援ネットワークAmerica’s SBDCとの提携を発表しました。地域の経営アドバイザーをAI活用支援の担い手として育成し、ChatGPTなどを実際の業務へ組み込むための研修やワークショップを展開します。単…",
+      "lead": "OpenAIは2026年9月30日、米国の中小企業支援ネットワークAmerica’s SBDCとの提携を発表しました。地域の経営アドバイザーをAI活用支援の担い手として育成し、ChatGPTなどを実際の業務へ組み込むための研修やワークショップを展開します。単なるツール提供ではなく、現場での導入方法まで支援する点が特徴です。 0",
+      "headings": [
+        "約150人のアドバイザーを育成",
+        "小規模企業で「エージェント型AI」の利用が拡大",
+        "専門人材不足をAIで補完",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/helping-small-businesses-put-ai-to-work/",
+      "source_urls": [
+        "https://openai.com/index/helping-small-businesses-put-ai-to-work/"
+      ],
+      "source_label": "openai.com",
+      "cover": "assets/posts/1554943961087606935.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1554943961087606935",
+      "first_seen": "2026-09-30T19:52:09.785Z",
+      "kind": "business",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1554943874927956048",
+      "title": "OpenAI、推論抽出を狙う大規模な「敵対的蒸留」キャンペーンを遮断",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-09-30T19:51:49.243Z",
+      "excerpt": "OpenAIは2026年9月30日、モデル内部の保護された推論情報を組織的に抽出し、別のAIモデルの学習や能力再現に利用することを狙った「敵対的蒸留」のキャンペーンを特定し、遮断したと発表しました。OpenAIは活動の中核となるクラスターについて、Kimiを…",
+      "lead": "OpenAIは2026年9月30日、モデル内部の保護された推論情報を組織的に抽出し、別のAIモデルの学習や能力再現に利用することを狙った「敵対的蒸留」のキャンペーンを特定し、遮断したと発表しました。OpenAIは活動の中核となるクラスターについて、Kimiを開発するMoonshot AIに関連する人物によるものと評価しています。ただし、観測されたすべての活動が単一の主体によるものかは不明としています。",
+      "headings": [
+        "「保護された推論」を狙った攻撃",
+        "1万5000超のユーザー群に関連パターン",
+        "アカウント停止だけでは防げない",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign/",
+      "source_urls": [
+        "https://openai.com/index/disrupting-a-coordinated-model-distillation-campaign/"
+      ],
+      "source_label": "openai.com",
+      "cover": "assets/posts/1554943874927956048.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1554943874927956048",
+      "first_seen": "2026-09-30T19:51:49.243Z",
+      "kind": "policy",
+      "kind_confidence": 0.72
+    },
+    {
+      "id": "1554943771374915594",
+      "title": "Google DeepMind、AI生成タンパク質に「電子透かし」――SynthID Bioを発表",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-09-30T19:51:24.554Z",
+      "excerpt": "Google DeepMindは2026年9月30日、合成生物学向けのウォーターマーク技術「SynthID Bio」を発表しました。AIが設計したタンパク質の配列や立体構造へ検出可能なシグナルを埋め込み、生成元の確認を可能にする技術です。重要なのは、デジタル…",
+      "lead": "Google DeepMindは2026年9月30日、合成生物学向けのウォーターマーク技術「SynthID Bio」を発表しました。AIが設計したタンパク質の配列や立体構造へ検出可能なシグナルを埋め込み、生成元の確認を可能にする技術です。重要なのは、デジタルデータだけでなく、実際に合成されたタンパク質でも識別できることです。",
+      "headings": [
+        "生物学的な機能を保ったまま透かしを埋め込む",
+        "AlphaFold 3のモデル内部にも組み込み",
+        "DNA合成スクリーニングの補助へ",
+        "今後の展望"
+      ],
+      "source_url": "https://deepmind.google/blog/introducing-synthid-bio/",
+      "source_urls": [
+        "https://deepmind.google/blog/introducing-synthid-bio/"
+      ],
+      "source_label": "deepmind.google",
+      "cover": "assets/posts/1554943771374915594.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1554943771374915594",
+      "first_seen": "2026-09-30T19:51:24.554Z",
+      "kind": "tool",
+      "kind_confidence": 0.49
+    },
+    {
+      "id": "1554943645499654204",
+      "title": "Gemini「Skills」世界展開、Gemsを置き換え反復タスクを自動化へ",
+      "channel": "gemini",
+      "category": "Google",
+      "date": "2026-09-30T19:50:54.543Z",
+      "excerpt": "Googleは2026年9月30日、Geminiで繰り返し使う指示を「Skills」として保存・再利用できる機能を、Geminiチャットへ世界規模で展開すると発表しました。Skillsは従来の「Gems」を段階的に置き換え、単なるカスタムAI設定から、複数の…",
+      "lead": "Googleは2026年9月30日、Geminiで繰り返し使う指示を「Skills」として保存・再利用できる機能を、Geminiチャットへ世界規模で展開すると発表しました。Skillsは従来の「Gems」を段階的に置き換え、単なるカスタムAI設定から、複数の指示や参照ファイルを組み合わせる再利用可能なタスク実行単位へと発展します。",
+      "headings": [
+        "「/」から呼び出せる再利用可能な指示",
+        "複数Skillsの組み合わせと参照ファイルに対応",
+        "Gemsは段階的に終了",
+        "今後の展望"
+      ],
+      "source_url": "https://blog.google/products-and-platforms/products/gemini/automate-tasks-with-skills/",
+      "source_urls": [
+        "https://blog.google/products-and-platforms/products/gemini/automate-tasks-with-skills/"
+      ],
+      "source_label": "blog.google",
+      "cover": "assets/posts/1554943645499654204.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1554943645499654204",
+      "first_seen": "2026-09-30T19:50:54.543Z",
+      "kind": "feature",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1554943444802215987",
+      "title": "ロボットは米国の「物理作業の74%」を実行可能、Anthropicが雇用への影響を分析",
+      "channel": "anthropic",
+      "category": "Anthropic",
+      "date": "2026-09-30T19:50:06.693Z",
+      "excerpt": "Anthropicは2026年9月30日、現在のロボット技術がどの仕事をどこまで実行できるのかを分析した研究を公開しました。米国の物理的な仕事の74%は、何らかの条件下ですでにロボットが実行可能と推計される一方、コスト面で人間より競争力を持つ仕事は全体のわず…",
+      "lead": "Anthropicは2026年9月30日、現在のロボット技術がどの仕事をどこまで実行できるのかを分析した研究を公開しました。米国の物理的な仕事の74%は、何らかの条件下ですでにロボットが実行可能と推計される一方、コスト面で人間より競争力を持つ仕事は全体のわずか0.3%にとどまります。「できること」と「実際に自動化されること」の間には依然として大きな隔たりがあります。",
+      "headings": [
+        "約1万9000の作業をロボット能力で評価",
+        "自動運転や物流は高い露出度",
+        "LLMとロボットを合わせると81%の仕事が露出",
+        "最大の壁は「能力」よりも経済性",
+        "今後の展望"
+      ],
+      "source_url": "https://www.anthropic.com/research/what-work-can-robots-do",
+      "source_urls": [
+        "https://www.anthropic.com/research/what-work-can-robots-do"
+      ],
+      "source_label": "anthropic.com",
+      "cover": "assets/posts/1554943444802215987.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1554943444802215987",
+      "first_seen": "2026-09-30T19:50:06.693Z",
+      "kind": "research",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1554942744085004329",
+      "title": "Manusが「Flex」投入、AIエージェントにBYOK型の推論モデル接続を導入",
+      "channel": "manus",
+      "category": "その他",
+      "date": "2026-09-30T19:47:19.629Z",
+      "excerpt": "Manusは、ユーザー自身のAPIキーを使って外部の推論プロバイダーを接続できる新モジュール「Manus Flex」を発表しました。これまでManus側が一括管理してきたモデル選択やAgent基盤の一部を開放し、「Manusの実行環境」と「外部モデルの推論」…",
+      "lead": "Manusは、ユーザー自身のAPIキーを使って外部の推論プロバイダーを接続できる新モジュール「Manus Flex」を発表しました。これまでManus側が一括管理してきたモデル選択やAgent基盤の一部を開放し、「Manusの実行環境」と「外部モデルの推論」を組み合わせられる構成へ拡張します。0",
+      "headings": [
+        "Manus Flexは何を変えるのか",
+        "OpenRouter、Fireworks、Modalが初期パートナー",
+        "企業利用ではコスト管理とモデル選択が焦点に",
+        "今後の展望"
+      ],
+      "source_url": "https://manus.im/ja/blog/introducing-manus-flex",
+      "source_urls": [
+        "https://manus.im/ja/blog/introducing-manus-flex"
+      ],
+      "source_label": "manus.im",
+      "cover": "assets/posts/1554942744085004329.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416105983415156887/threads/1554942744085004329",
+      "first_seen": "2026-09-30T19:47:19.629Z",
+      "kind": "feature",
+      "kind_confidence": 0.85
+    },
+    {
+      "id": "1554942656453283840",
+      "title": "Perplexity Computer、「Automations」で継続業務を自動化",
+      "channel": "perplexity",
+      "category": "その他",
+      "date": "2026-09-30T19:46:58.736Z",
+      "excerpt": "Perplexityは2026年9月29日、AIエージェント基盤「Computer」に新機能「Automations」を追加しました。決められた時刻だけでなく、SlackやGmail、GitHubなどで発生するイベントを起点に処理を開始し、さらに過去の実行履…",
+      "lead": "Perplexityは2026年9月29日、AIエージェント基盤「Computer」に新機能「Automations」を追加しました。決められた時刻だけでなく、SlackやGmail、GitHubなどで発生するイベントを起点に処理を開始し、さらに過去の実行履歴を引き継いで継続的な業務を遂行できる点が特徴です。",
+      "headings": [
+        "単発タスクから「継続して働くエージェント」へ",
+        "スケジュールとイベントの2方式で起動",
+        "開発業務ではPR作成まで自動化",
+        "今後の展望"
+      ],
+      "source_url": "https://www.perplexity.ai/hub/blog/computer-adds-automations-for-ongoing-work",
+      "source_urls": [
+        "https://www.perplexity.ai/hub/blog/computer-adds-automations-for-ongoing-work"
+      ],
+      "source_label": "perplexity.ai",
+      "cover": "assets/posts/1554942656453283840.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417545518539739166/threads/1554942656453283840",
+      "first_seen": "2026-09-30T19:46:58.736Z",
+      "kind": "feature",
+      "kind_confidence": 0.98
+    },
+    {
+      "id": "1554942531626606612",
+      "title": "Inceptionが「Mercury Voice」公開、320msで応答する音声AI向け拡散LLM",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-09-30T19:46:28.975Z",
+      "excerpt": "Inceptionは2026年9月29日、リアルタイム音声エージェント向けモデル「Mercury Voice」を企業向けに一般提供すると発表しました。最大の特徴は、推論やツール呼び出しを行いながら、会話を阻害しにくい低遅延を狙った「diffusion LLM…",
+      "lead": "Inceptionは2026年9月29日、リアルタイム音声エージェント向けモデル「Mercury Voice」を企業向けに一般提供すると発表しました。最大の特徴は、推論やツール呼び出しを行いながら、会話を阻害しにくい低遅延を狙った「diffusion LLM（dLLM）」アーキテクチャです。",
+      "headings": [
+        "320msの低遅延と推論能力を両立",
+        "拡散型LLMでリアルタイム推論",
+        "音声AIのコスト構造にも影響",
+        "今後の展望"
+      ],
+      "source_url": "https://www.inceptionlabs.ai/blog/introducing-mercury-voice",
+      "source_urls": [
+        "https://www.inceptionlabs.ai/blog/introducing-mercury-voice"
+      ],
+      "source_label": "inceptionlabs.ai",
+      "cover": "assets/posts/1554942531626606612.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1554942531626606612",
+      "first_seen": "2026-09-30T19:46:28.975Z",
+      "kind": "model",
+      "kind_confidence": 1
+    },
     {
       "id": "1554862276690055198",
       "title": "Cohere「Embed 5」登場、RAGと企業検索をマルチモーダル・128K対応へ",
