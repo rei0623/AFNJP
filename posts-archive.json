@@ -1,9 +1,60 @@
 {
-  "generated_at": "2026-09-30T13:39:27.976Z",
+  "generated_at": "2026-09-30T19:16:32.805Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 264,
+  "count": 266,
   "posts": [
+    {
+      "id": "1554862276690055198",
+      "title": "Cohere「Embed 5」登場、RAGと企業検索をマルチモーダル・128K対応へ",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-09-30T14:27:34.707Z",
+      "excerpt": "Cohereは2026年9月30日、検索やRAG、AIエージェント向けの新世代埋め込みモデル「Embed 5」を公開しました。最高品質を重視する「Embed 5 Pro」と、低遅延・低コスト向けの「Embed 5 Fast」を用意し、テキストだけでなく画像や…",
+      "lead": "Cohereは2026年9月30日、検索やRAG、AIエージェント向けの新世代埋め込みモデル「Embed 5」を公開しました。最高品質を重視する「Embed 5 Pro」と、低遅延・低コスト向けの「Embed 5 Fast」を用意し、テキストだけでなく画像や複合ドキュメントも同一の意味空間で検索できる点が特徴です。",
+      "headings": [
+        "ProとFastを同じベクトル空間で運用",
+        "128Kコンテキスト、画像、100以上の言語に対応",
+        "ベクトルDBの容量削減も重視",
+        "検索性能では企業文書を強く意識",
+        "今後の展望"
+      ],
+      "source_url": "https://cohere.com/embed",
+      "source_urls": [
+        "https://cohere.com/embed"
+      ],
+      "source_label": "cohere.com",
+      "cover": "assets/posts/1554862276690055198.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1554862276690055198",
+      "first_seen": "2026-09-30T14:27:34.707Z",
+      "kind": "model",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1554862086780227704",
+      "title": "Google「Gems」終了か、10月20日に「Skills」へ移行の可能性",
+      "channel": "リーク情報",
+      "category": "リーク情報",
+      "date": "2026-09-30T14:26:49.429Z",
+      "excerpt": "GoogleがGeminiのカスタムAI機能「Gems」を2026年10月20日に終了し、「Skills」へ移行する準備を進めている可能性が浮上しました。現時点では正式発表ではなく、Gemini Webアプリ内の機能フラグで隠された通知文から判明した情報です。",
+      "lead": "GoogleがGeminiのカスタムAI機能「Gems」を2026年10月20日に終了し、「Skills」へ移行する準備を進めている可能性が浮上しました。現時点では正式発表ではなく、Gemini Webアプリ内の機能フラグで隠された通知文から判明した情報です。",
+      "headings": [
+        "GemsからSkillsへ移行する可能性",
+        "最大の問題は利用条件の差",
+        "大量のGemsを持つユーザーには移行負担",
+        "今後の展望"
+      ],
+      "source_url": "https://www.testingcatalog.com/google-may-retire-gems-in-october-forcing-migration-to-skills/",
+      "source_urls": [
+        "https://www.testingcatalog.com/google-may-retire-gems-in-october-forcing-migration-to-skills/"
+      ],
+      "source_label": "testingcatalog.com",
+      "cover": "assets/posts/1554862086780227704.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415534435712897124/threads/1554862086780227704",
+      "first_seen": "2026-09-30T14:26:49.429Z",
+      "kind": "feature",
+      "kind_confidence": 0.92
+    },
     {
       "id": "1554621775013355530",
       "title": "OpenClaw Enterprise発表、AIエージェントを企業環境へ",

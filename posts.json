@@ -1,8 +1,55 @@
 {
-  "generated_at": "2026-09-30T13:39:27.979Z",
+  "generated_at": "2026-09-30T19:16:32.808Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1554862276690055198",
+      "title": "Cohere「Embed 5」登場、RAGと企業検索をマルチモーダル・128K対応へ",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-09-30T14:27:34.707Z",
+      "excerpt": "Cohereは2026年9月30日、検索やRAG、AIエージェント向けの新世代埋め込みモデル「Embed 5」を公開しました。最高品質を重視する「Embed 5 Pro」と、低遅延・低コスト向けの「Embed 5 Fast」を用意し、テキストだけでなく画像や…",
+      "lead": "Cohereは2026年9月30日、検索やRAG、AIエージェント向けの新世代埋め込みモデル「Embed 5」を公開しました。最高品質を重視する「Embed 5 Pro」と、低遅延・低コスト向けの「Embed 5 Fast」を用意し、テキストだけでなく画像や複合ドキュメントも同一の意味空間で検索できる点が特徴です。",
+      "headings": [
+        "ProとFastを同じベクトル空間で運用",
+        "128Kコンテキスト、画像、100以上の言語に対応",
+        "ベクトルDBの容量削減も重視",
+        "検索性能では企業文書を強く意識",
+        "今後の展望"
+      ],
+      "source_url": "https://cohere.com/embed",
+      "source_urls": [
+        "https://cohere.com/embed"
+      ],
+      "source_label": "cohere.com",
+      "cover": "assets/posts/1554862276690055198.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1554862276690055198",
+      "first_seen": "2026-09-30T14:27:34.707Z"
+    },
+    {
+      "id": "1554862086780227704",
+      "title": "Google「Gems」終了か、10月20日に「Skills」へ移行の可能性",
+      "channel": "リーク情報",
+      "category": "リーク情報",
+      "date": "2026-09-30T14:26:49.429Z",
+      "excerpt": "GoogleがGeminiのカスタムAI機能「Gems」を2026年10月20日に終了し、「Skills」へ移行する準備を進めている可能性が浮上しました。現時点では正式発表ではなく、Gemini Webアプリ内の機能フラグで隠された通知文から判明した情報です。",
+      "lead": "GoogleがGeminiのカスタムAI機能「Gems」を2026年10月20日に終了し、「Skills」へ移行する準備を進めている可能性が浮上しました。現時点では正式発表ではなく、Gemini Webアプリ内の機能フラグで隠された通知文から判明した情報です。",
+      "headings": [
+        "GemsからSkillsへ移行する可能性",
+        "最大の問題は利用条件の差",
+        "大量のGemsを持つユーザーには移行負担",
+        "今後の展望"
+      ],
+      "source_url": "https://www.testingcatalog.com/google-may-retire-gems-in-october-forcing-migration-to-skills/",
+      "source_urls": [
+        "https://www.testingcatalog.com/google-may-retire-gems-in-october-forcing-migration-to-skills/"
+      ],
+      "source_label": "testingcatalog.com",
+      "cover": "assets/posts/1554862086780227704.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415534435712897124/threads/1554862086780227704",
+      "first_seen": "2026-09-30T14:26:49.429Z"
+    },
     {
       "id": "1554621775013355530",
       "title": "OpenClaw Enterprise発表、AIエージェントを企業環境へ",
@@ -259,58 +306,6 @@
       "first_seen": "2026-09-28T16:05:57.303Z",
       "kind": "tool",
       "kind_confidence": 0.99
-    },
-    {
-      "id": "1554161426862575656",
-      "title": "OpenCodeが「Go」提供、月10ドルでAIコーディングモデルを利用可能に",
-      "channel": "その他",
-      "category": "その他",
-      "date": "2026-09-28T16:02:39.087Z",
-      "excerpt": "OpenCodeは、AIコーディングエージェント向けの低価格サブスクリプション「OpenCode Go」を提供しています。月額10ドルで複数の高性能モデルを利用でき、上位プラン「Go Plus」は月額40ドルです。単一モデルへの依存ではなく、エージェント用途…",
-      "lead": "OpenCodeは、AIコーディングエージェント向けの低価格サブスクリプション「OpenCode Go」を提供しています。月額10ドルで複数の高性能モデルを利用でき、上位プラン「Go Plus」は月額40ドルです。単一モデルへの依存ではなく、エージェント用途に適したモデル群への安定したアクセスを定額で提供する点が特徴です。",
-      "headings": [
-        "AIエージェント向けモデルを選別",
-        "月10ドルと40ドルの2プラン",
-        "モデルを使い分ける時代へ",
-        "今後の展望"
-      ],
-      "source_url": "https://opencode.ai/go",
-      "source_urls": [
-        "https://opencode.ai/go"
-      ],
-      "source_label": "opencode.ai",
-      "cover": "assets/posts/1554161426862575656.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1554161426862575656",
-      "first_seen": "2026-09-28T16:02:39.087Z",
-      "kind": "feature",
-      "kind_confidence": 0.46
-    },
-    {
-      "id": "1554161203465429053",
-      "title": "Manus 2.0発表、AIエージェントを「回答」から「実行環境」へ拡張",
-      "channel": "manus",
-      "category": "その他",
-      "date": "2026-09-28T16:01:45.825Z",
-      "excerpt": "Manusは「Manus 2.0」を発表しました。今回の更新は単なる機能追加ではなく、エージェント基盤「Cascade」、常時稼働環境「Cloud Computer」、イベント駆動型Automations、人間とAIが共同編集する「Manus Studio」…",
-      "lead": "Manusは「Manus 2.0」を発表しました。今回の更新は単なる機能追加ではなく、エージェント基盤「Cascade」、常時稼働環境「Cloud Computer」、イベント駆動型Automations、人間とAIが共同編集する「Manus Studio」、さらに新アプリ「Cue」まで含む大規模な再設計です。",
-      "headings": [
-        "Cascadeでエージェント実行を効率化",
-        "Cloud ComputerとAutomationsで常時稼働へ",
-        "Manus Studioは生成後の編集を重視",
-        "Game DevとComputer Useも強化",
-        "CueではAIエージェントに個別の身份を付与",
-        "今後の展望"
-      ],
-      "source_url": "https://manus.im/ja/blog/introducing-manus-2-0",
-      "source_urls": [
-        "https://manus.im/ja/blog/introducing-manus-2-0"
-      ],
-      "source_label": "manus.im",
-      "cover": "assets/posts/1554161203465429053.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1416105983415156887/threads/1554161203465429053",
-      "first_seen": "2026-09-28T16:01:45.825Z",
-      "kind": "model",
-      "kind_confidence": 0.72
     }
   ]
 }
