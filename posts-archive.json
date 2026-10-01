@@ -1,9 +1,35 @@
 {
-  "generated_at": "2026-10-01T08:52:21.469Z",
+  "generated_at": "2026-10-01T16:24:51.782Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 274,
+  "count": 275,
   "posts": [
+    {
+      "id": "1555173265323073577",
+      "title": "Gemini 4 Argon発表、100万トークン出力と長時間エージェント処理を強化",
+      "channel": "gemini",
+      "category": "Google",
+      "date": "2026-10-01T11:03:20.175Z",
+      "excerpt": "Googleは2026年9月30日、新たなフロンティアAIモデル「Gemini 4 Argon」を発表しました。複雑なソフトウェア開発、金融・法務などの知識労働、サイバーセキュリティを主戦場とし、特に長時間にわたる多段階タスクを継続して処理する能力を重視した…",
+      "lead": "Googleは2026年9月30日、新たなフロンティアAIモデル「Gemini 4 Argon」を発表しました。複雑なソフトウェア開発、金融・法務などの知識労働、サイバーセキュリティを主戦場とし、特に長時間にわたる多段階タスクを継続して処理する能力を重視したモデルです。まず信頼されたサイバー防御担当者へ段階的に提供し、安全性検証を進めながら対象を広げます。",
+      "headings": [
+        "最大100万トークンの出力に拡張",
+        "ソフトウェア開発から企業業務まで高性能を訴求",
+        "サイバー防御能力を大幅強化",
+        "API価格と提供計画",
+        "今後の展望"
+      ],
+      "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/",
+      "source_urls": [
+        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-argon/"
+      ],
+      "source_label": "blog.google",
+      "cover": "assets/posts/1555173265323073577.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1555173265323073577",
+      "first_seen": "2026-10-01T11:03:20.175Z",
+      "kind": "model",
+      "kind_confidence": 1
+    },
     {
       "id": "1554943961087606935",
       "title": "OpenAI、中小企業のAI活用を支援 全米SBDCと連携し現場導入を加速",
