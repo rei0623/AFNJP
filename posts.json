@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-01T16:24:51.785Z",
+  "generated_at": "2026-10-01T21:48:17.877Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
@@ -25,7 +25,9 @@
       "source_label": "blog.google",
       "cover": "assets/posts/1555173265323073577.webp",
       "url": "https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1555173265323073577",
-      "first_seen": "2026-10-01T11:03:20.175Z"
+      "first_seen": "2026-10-01T11:03:20.175Z",
+      "kind": "model",
+      "kind_confidence": 1
     },
     {
       "id": "1554943961087606935",
