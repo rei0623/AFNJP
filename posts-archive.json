@@ -1,9 +1,212 @@
 {
-  "generated_at": "2026-10-02T08:28:30.175Z",
+  "generated_at": "2026-10-02T15:46:04.476Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 277,
+  "count": 285,
   "posts": [
+    {
+      "id": "1555545973701218334",
+      "title": "Google「Stitch CLI」登場、AIエージェントとUI設計をターミナルで直結",
+      "channel": "stitch",
+      "category": "Google",
+      "date": "2026-10-02T11:44:20.777Z",
+      "excerpt": "GoogleのStitchチームが、コマンドラインからStitchを操作できる「@google/stitch CLI」を発表しました。既存のStitch MCPやStitch SDKに加え、開発者がターミナルを起点にUI生成やデザインシステム操作、ローカル開…",
+      "lead": "GoogleのStitchチームが、コマンドラインからStitchを操作できる「@google/stitch CLI」を発表しました。既存のStitch MCPやStitch SDKに加え、開発者がターミナルを起点にUI生成やデザインシステム操作、ローカル開発環境との連携を進められる新たなインターフェースとなります。さらに、継続的な改善を自律化する実験的な「stitch loop」も公開されています。",
+      "headings": [
+        "StitchがCLIまで揃えた意味",
+        "ローカル画面をStitchへ戻す双方向フロー",
+        "「stitch loop」で継続改善をエージェント化",
+        "今後の展望"
+      ],
+      "source_url": "https://twitter.com/stitchbygoogle/status/2105695155164741984",
+      "source_urls": [
+        "https://twitter.com/stitchbygoogle/status/2105695155164741984",
+        "https://x.com/stitchbygoogle/status/2105695155164741984"
+      ],
+      "source_label": "twitter.com",
+      "cover": "assets/posts/1555545973701218334.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1418009722732154932/threads/1555545973701218334",
+      "first_seen": "2026-10-02T11:44:20.777Z",
+      "kind": "tool",
+      "kind_confidence": 0.99
+    },
+    {
+      "id": "1555545553868427334",
+      "title": "Microsoft初のストリーミング音声認識「MAI-Transcribe-2-Streaming」、精度で首位",
+      "channel": "microsoft",
+      "category": "Microsoft",
+      "date": "2026-10-02T11:42:40.681Z",
+      "excerpt": "Microsoft AIは2026年10月1日、リアルタイム音声認識モデル「MAI-Transcribe-2-Streaming」を発表しました。発話終了を待たずに文字列を返す設計が特徴で、Artificial Analysisのストリーミング音声認識評価で…",
+      "lead": "Microsoft AIは2026年10月1日、リアルタイム音声認識モデル「MAI-Transcribe-2-Streaming」を発表しました。発話終了を待たずに文字列を返す設計が特徴で、Artificial Analysisのストリーミング音声認識評価では、最終文字起こしと途中文字起こしの精度で1位を獲得しています。",
+      "headings": [
+        "100ms超で最初の文字列を生成",
+        "Artificial Analysisで精度1位",
+        "音声生成まで低遅延化",
+        "今後の展望"
+      ],
+      "source_url": "https://microsoft.ai/news/our-first-streaming-transcription-model/",
+      "source_urls": [
+        "https://microsoft.ai/news/our-first-streaming-transcription-model/"
+      ],
+      "source_label": "microsoft.ai",
+      "cover": "assets/posts/1555545553868427334.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1432720743279497367/threads/1555545553868427334",
+      "first_seen": "2026-10-02T11:42:40.681Z",
+      "kind": "model",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1555545418698330142",
+      "title": "Claude Codeに「Mods」登場、TypeScriptでAIコーディング環境そのものを改造可能に",
+      "channel": "claude-code",
+      "category": "Anthropic",
+      "date": "2026-10-02T11:42:08.454Z",
+      "excerpt": "Anthropicは2026年10月1日、Claude Codeの動作やUIをTypeScriptでカスタマイズできる新機能「Mods」を発表しました。プロンプトの書き換え、ツール実行の制御、権限判定、UI追加、組み込み機能の置き換えまで可能になり、Clau…",
+      "lead": "Anthropicは2026年10月1日、Claude Codeの動作やUIをTypeScriptでカスタマイズできる新機能「Mods」を発表しました。プロンプトの書き換え、ツール実行の制御、権限判定、UI追加、組み込み機能の置き換えまで可能になり、Claude Codeを利用するだけでなく、開発者自身が拡張できる仕組みへと進化しています。",
+      "headings": [
+        "イベントを横取りしてClaude Codeの挙動を変更",
+        "「Hooks」より深い拡張ポイントへ",
+        "Claude自身にModを書かせることも可能",
+        "強力な一方、セキュリティには注意",
+        "今後の展望"
+      ],
+      "source_url": "https://claude.com/blog/claude-code-mods",
+      "source_urls": [
+        "https://claude.com/blog/claude-code-mods"
+      ],
+      "source_label": "claude.com",
+      "cover": "assets/posts/1555545418698330142.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415549165181599795/threads/1555545418698330142",
+      "first_seen": "2026-10-02T11:42:08.454Z",
+      "kind": "feature",
+      "kind_confidence": 0.6
+    },
+    {
+      "id": "1555545313367031808",
+      "title": "OpenDots公開、常時稼働する「AI同僚」を自前構築するオープンソース基盤",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-10-02T11:41:43.341Z",
+      "excerpt": "CopilotKitは、テキスト、音声通話、Slackをまたいで継続的に作業するAIエージェント環境「OpenDots」を公開しました。単なるチャットボットではなく、各AIエージェントに専用コンピューター、権限、作業領域を与え、人間の承認を挟みながら実務を進…",
+      "lead": "CopilotKitは、テキスト、音声通話、Slackをまたいで継続的に作業するAIエージェント環境「OpenDots」を公開しました。単なるチャットボットではなく、各AIエージェントに専用コンピューター、権限、作業領域を与え、人間の承認を挟みながら実務を進める構成が特徴です。MITライセンスで公開され、セルフホストにも対応します。",
+      "headings": [
+        "「Dot」ごとに役割とコンピューターを分離",
+        "AG-UIを中心にUIとエージェントを接続",
+        "人間の承認をワークフローに組み込む",
+        "Slack、音声、バックグラウンド作業にも対応",
+        "今後の展望"
+      ],
+      "source_url": "https://github.com/CopilotKit/OpenDots",
+      "source_urls": [
+        "https://github.com/CopilotKit/OpenDots"
+      ],
+      "source_label": "github.com",
+      "cover": "assets/posts/1555545313367031808.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1555545313367031808",
+      "first_seen": "2026-10-02T11:41:43.341Z",
+      "kind": "tool",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1555545217178804254",
+      "title": "政府、AI社会実装を阻む規制・制度の情報募集へ",
+      "channel": "日本国内",
+      "category": "日本国内",
+      "date": "2026-10-02T11:41:20.408Z",
+      "excerpt": "内閣府、デジタル庁、経済産業省は、AIの開発・提供・利用を妨げている規制や制度について、具体的な情報を募集します。募集期間は2026年10月19日から10月30日17時までで、LLMからAIロボット、完全無人運転、AIドローンまで幅広いAI技術が対象です。",
+      "lead": "内閣府、デジタル庁、経済産業省は、AIの開発・提供・利用を妨げている規制や制度について、具体的な情報を募集します。募集期間は2026年10月19日から10月30日17時までで、LLMからAIロボット、完全無人運転、AIドローンまで幅広いAI技術が対象です。",
+      "headings": [
+        "AI前提の制度設計へ",
+        "LLMからフィジカルAIまで対象",
+        "今後の展望"
+      ],
+      "source_url": "https://www8.cao.go.jp/kisei-kaikaku/kisei/forms/261002_forms.html",
+      "source_urls": [
+        "https://www8.cao.go.jp/kisei-kaikaku/kisei/forms/261002_forms.html"
+      ],
+      "source_label": "www8.cao.go.jp",
+      "cover": "assets/posts/1555545217178804254.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417536105930166282/threads/1555545217178804254",
+      "first_seen": "2026-10-02T11:41:20.408Z",
+      "kind": "policy",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1555545129169723462",
+      "title": "Suno「Speech」ベータ公開、声と音楽を一体生成する新オーディオモデル",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-10-02T11:40:59.425Z",
+      "excerpt": "Sunoは2026年10月1日、音声と音楽を一つのまとまったトラックとして生成する新機能「Speech」のベータ版を公開しました。これまで音楽生成を中心としてきたSunoが、朗読や物語、瞑想、ボイスメッセージといった「話す音声」へ生成領域を広げる動きです。",
+      "lead": "Sunoは2026年10月1日、音声と音楽を一つのまとまったトラックとして生成する新機能「Speech」のベータ版を公開しました。これまで音楽生成を中心としてきたSunoが、朗読や物語、瞑想、ボイスメッセージといった「話す音声」へ生成領域を広げる動きです。",
+      "headings": [
+        "音声とBGMをまとめて生成",
+        "ポッドキャスト以外にも広がる用途",
+        "ベータ版ならではの課題も",
+        "今後の展望"
+      ],
+      "source_url": "https://suno.com/blog/introducing-speech-beta",
+      "source_urls": [
+        "https://suno.com/blog/introducing-speech-beta"
+      ],
+      "source_label": "suno.com",
+      "cover": "assets/posts/1555545129169723462.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1555545129169723462",
+      "first_seen": "2026-10-02T11:40:59.425Z",
+      "kind": "model",
+      "kind_confidence": 0.54
+    },
+    {
+      "id": "1555545042947407953",
+      "title": "Tavus「Griffin」発表、映像・音声・会話制御を統合したリアルタイム対話AI",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-10-02T11:40:38.868Z",
+      "excerpt": "Tavusは2026年10月1日、対面コミュニケーションを理解・生成する「Human Interaction Model（HIM）」として「Griffin」を発表しました。従来の音声認識、LLM、音声合成、映像生成を順番につなぐ方式とは異なり、映像と音声を継…",
+      "lead": "Tavusは2026年10月1日、対面コミュニケーションを理解・生成する「Human Interaction Model（HIM）」として「Griffin」を発表しました。従来の音声認識、LLM、音声合成、映像生成を順番につなぐ方式とは異なり、映像と音声を継続的に観察しながら、発話、表情、視線、ジェスチャーまでリアルタイムに制御することを狙ったモデルです。",
+      "headings": [
+        "「ターン制」から連続対話へ",
+        "音声と720p映像をストリーミング生成",
+        "NVIDIAベンチマークでも高評価",
+        "今後の展望"
+      ],
+      "source_url": "https://www.tavus.io/griffin",
+      "source_urls": [
+        "https://www.tavus.io/griffin"
+      ],
+      "source_label": "tavus.io",
+      "cover": "assets/posts/1555545042947407953.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1555545042947407953",
+      "first_seen": "2026-10-02T11:40:38.868Z",
+      "kind": "model",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1555544914761224233",
+      "title": "Perplexity「Decisions API」、確率ベースでサポートチケットを自動振り分け",
+      "channel": "perplexity",
+      "category": "その他",
+      "date": "2026-10-02T11:40:08.306Z",
+      "excerpt": "Perplexityは、Decisions APIを使って問い合わせを確率的に分類し、本当に対応が必要な案件だけを高コストなAgent APIへ送るサポートチケット振り分け例を公開しています。文章生成AIに直接「緊急か」を尋ねる方式ではなく、ソフトウェアがそ…",
+      "lead": "Perplexityは、Decisions APIを使って問い合わせを確率的に分類し、本当に対応が必要な案件だけを高コストなAgent APIへ送るサポートチケット振り分け例を公開しています。文章生成AIに直接「緊急か」を尋ねる方式ではなく、ソフトウェアがそのまま利用できる確率値を返す点が特徴です。",
+      "headings": [
+        "文章生成ではなく「意思決定」に特化",
+        "平均値だけでなく「重大事故の確率」を見る",
+        "12件中3件だけAgent APIへ",
+        "閾値設計が運用品質を左右する",
+        "今後の展望"
+      ],
+      "source_url": "https://docs.perplexity.ai/docs/cookbook/examples/decisions-api-ticket-triage/README",
+      "source_urls": [
+        "https://docs.perplexity.ai/docs/cookbook/examples/decisions-api-ticket-triage/README"
+      ],
+      "source_label": "docs.perplexity.ai",
+      "cover": "assets/posts/1555544914761224233.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417545518539739166/threads/1555544914761224233",
+      "first_seen": "2026-10-02T11:40:08.306Z",
+      "kind": "adoption",
+      "kind_confidence": 0.42
+    },
     {
       "id": "1555432881533358231",
       "title": "Claudeに「科学者」を演じさせないAI向き問題を狙うBootLoopsが示す新しい研究手法",
