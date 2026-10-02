@@ -1,9 +1,61 @@
 {
-  "generated_at": "2026-10-02T01:40:06.110Z",
+  "generated_at": "2026-10-02T08:28:30.175Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 275,
+  "count": 277,
   "posts": [
+    {
+      "id": "1555432881533358231",
+      "title": "Claudeに「科学者」を演じさせないAI向き問題を狙うBootLoopsが示す新しい研究手法",
+      "channel": "anthropic",
+      "category": "Anthropic",
+      "date": "2026-10-02T04:14:57.503Z",
+      "excerpt": "Anthropicは2026年10月1日、ハーバード大学の物理学者Matthew Schwartz氏による寄稿「Claude-shaped science」を公開しました。中心となる主張は、現在のLLMを人間の科学者の代替として扱うのではなく、AIが得意な形…",
+      "lead": "Anthropicは2026年10月1日、ハーバード大学の物理学者Matthew Schwartz氏による寄稿「Claude-shaped science」を公開しました。中心となる主張は、現在のLLMを人間の科学者の代替として扱うのではなく、AIが得意な形に問題を変換することで、科学研究を大幅に加速できるというものです。",
+      "headings": [
+        "「Claude-shaped」な問題とは何か",
+        "数週間で未計算の積分15件を処理",
+        "生態学、遺伝学、経済学にも拡張",
+        "AIだけでは「重要な科学」にならない",
+        "今後の展望"
+      ],
+      "source_url": "https://www.anthropic.com/research/claude-shaped-science",
+      "source_urls": [
+        "https://www.anthropic.com/research/claude-shaped-science"
+      ],
+      "source_label": "anthropic.com",
+      "cover": "assets/posts/1555432881533358231.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1555432881533358231",
+      "first_seen": "2026-10-02T04:14:57.503Z",
+      "kind": "research",
+      "kind_confidence": 0.99
+    },
+    {
+      "id": "1555432668706111508",
+      "title": "Google、Gemini Liveに「Guided Vision」導入 カメラ映像を会話型AIがリアルタイム解説",
+      "channel": "gemini",
+      "category": "Google",
+      "date": "2026-10-02T04:14:06.761Z",
+      "excerpt": "Googleは2026年10月1日、Gemini Liveの新機能「Guided Vision」を対応Android端末向けに提供開始しました。カメラ映像をAIがリアルタイムに解釈し、周囲の状況を音声で説明する機能で、特に視覚障害者やロービジョンの利用者を想…",
+      "lead": "Googleは2026年10月1日、Gemini Liveの新機能「Guided Vision」を対応Android端末向けに提供開始しました。カメラ映像をAIがリアルタイムに解釈し、周囲の状況を音声で説明する機能で、特に視覚障害者やロービジョンの利用者を想定して設計されています。",
+      "headings": [
+        "AIがカメラの「向け方」まで音声で案内",
+        "Airaと数万時間規模のデータで開発",
+        "小さな文字から落とし物まで認識",
+        "安全な移動を担う機能ではない",
+        "今後の展望"
+      ],
+      "source_url": "https://blog.google/innovation-and-ai/products/gemini-app/guided-vision-gemini-live/",
+      "source_urls": [
+        "https://blog.google/innovation-and-ai/products/gemini-app/guided-vision-gemini-live/"
+      ],
+      "source_label": "blog.google",
+      "cover": "assets/posts/1555432668706111508.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1555432668706111508",
+      "first_seen": "2026-10-02T04:14:06.761Z",
+      "kind": "feature",
+      "kind_confidence": 1
+    },
     {
       "id": "1555173265323073577",
       "title": "Gemini 4 Argon発表、100万トークン出力と長時間エージェント処理を強化",
