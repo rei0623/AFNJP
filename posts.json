@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T15:46:04.559Z",
+  "generated_at": "2026-10-02T20:41:58.262Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
@@ -25,7 +25,9 @@
       "source_label": "twitter.com",
       "cover": "assets/posts/1555545973701218334.webp",
       "url": "https://discord.com/channels/1415350002255007784/1418009722732154932/threads/1555545973701218334",
-      "first_seen": "2026-10-02T11:44:20.777Z"
+      "first_seen": "2026-10-02T11:44:20.777Z",
+      "kind": "tool",
+      "kind_confidence": 0.99
     },
     {
       "id": "1555545553868427334",
@@ -48,7 +50,9 @@
       "source_label": "microsoft.ai",
       "cover": "assets/posts/1555545553868427334.webp",
       "url": "https://discord.com/channels/1415350002255007784/1432720743279497367/threads/1555545553868427334",
-      "first_seen": "2026-10-02T11:42:40.681Z"
+      "first_seen": "2026-10-02T11:42:40.681Z",
+      "kind": "model",
+      "kind_confidence": 1
     },
     {
       "id": "1555545418698330142",
@@ -72,7 +76,9 @@
       "source_label": "claude.com",
       "cover": "assets/posts/1555545418698330142.webp",
       "url": "https://discord.com/channels/1415350002255007784/1415549165181599795/threads/1555545418698330142",
-      "first_seen": "2026-10-02T11:42:08.454Z"
+      "first_seen": "2026-10-02T11:42:08.454Z",
+      "kind": "feature",
+      "kind_confidence": 0.6
     },
     {
       "id": "1555545313367031808",
@@ -96,7 +102,9 @@
       "source_label": "github.com",
       "cover": "assets/posts/1555545313367031808.webp",
       "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1555545313367031808",
-      "first_seen": "2026-10-02T11:41:43.341Z"
+      "first_seen": "2026-10-02T11:41:43.341Z",
+      "kind": "tool",
+      "kind_confidence": 1
     },
     {
       "id": "1555545217178804254",
@@ -118,7 +126,9 @@
       "source_label": "www8.cao.go.jp",
       "cover": "assets/posts/1555545217178804254.webp",
       "url": "https://discord.com/channels/1415350002255007784/1417536105930166282/threads/1555545217178804254",
-      "first_seen": "2026-10-02T11:41:20.408Z"
+      "first_seen": "2026-10-02T11:41:20.408Z",
+      "kind": "policy",
+      "kind_confidence": 1
     },
     {
       "id": "1555545129169723462",
@@ -141,7 +151,9 @@
       "source_label": "suno.com",
       "cover": "assets/posts/1555545129169723462.webp",
       "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1555545129169723462",
-      "first_seen": "2026-10-02T11:40:59.425Z"
+      "first_seen": "2026-10-02T11:40:59.425Z",
+      "kind": "model",
+      "kind_confidence": 0.54
     },
     {
       "id": "1555545042947407953",
@@ -164,7 +176,9 @@
       "source_label": "tavus.io",
       "cover": "assets/posts/1555545042947407953.webp",
       "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1555545042947407953",
-      "first_seen": "2026-10-02T11:40:38.868Z"
+      "first_seen": "2026-10-02T11:40:38.868Z",
+      "kind": "model",
+      "kind_confidence": 1
     },
     {
       "id": "1555544914761224233",
@@ -188,7 +202,9 @@
       "source_label": "docs.perplexity.ai",
       "cover": "assets/posts/1555544914761224233.webp",
       "url": "https://discord.com/channels/1415350002255007784/1417545518539739166/threads/1555544914761224233",
-      "first_seen": "2026-10-02T11:40:08.306Z"
+      "first_seen": "2026-10-02T11:40:08.306Z",
+      "kind": "adoption",
+      "kind_confidence": 0.42
     },
     {
       "id": "1555432881533358231",
