@@ -1,8 +1,31 @@
 {
-  "generated_at": "2026-10-03T00:27:34.502Z",
+  "generated_at": "2026-10-03T06:29:19.912Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1555745876889047061",
+      "title": "Android CLIが実機を直接操作、AIエージェントのAndroid開発が「コード生成」から「実機検証」へ",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-10-03T00:58:41.411Z",
+      "excerpt": "GoogleはAndroid CLIを拡張し、AIエージェントからAndroid Device Streamingを通じてクラウド上の実機へアクセスできるようにしました。さらに、Android固有の開発知識をAIへ与える「Android skills」も20…",
+      "lead": "GoogleはAndroid CLIを拡張し、AIエージェントからAndroid Device Streamingを通じてクラウド上の実機へアクセスできるようにしました。さらに、Android固有の開発知識をAIへ与える「Android skills」も20種類以上へ拡大しています。AIによるAndroid開発は、コードを書く段階から実機上でビルド、検証、デバッグする段階へ進みつつあります。",
+      "headings": [
+        "CLIからリモート実機を操作",
+        "Android skillsでLLMの知識不足を補完",
+        "Wear OSでは専用知識の効果も",
+        "今後の展望"
+      ],
+      "source_url": "https://android-developers.googleblog.com/2026/10/android-cli-device-streaming-and-skills.html?m=1",
+      "source_urls": [
+        "https://android-developers.googleblog.com/2026/10/android-cli-device-streaming-and-skills.html?m=1"
+      ],
+      "source_label": "android-developers.googleblog.com",
+      "cover": "assets/posts/1555745876889047061.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1555745876889047061",
+      "first_seen": "2026-10-03T00:58:41.411Z"
+    },
     {
       "id": "1555693158095003658",
       "title": "Microsoftが警告、AI時代のサイバー防御は「モデル単体」では守れない",
@@ -25,7 +48,9 @@
       "source_label": "microsoft.com",
       "cover": "assets/posts/1555693158095003658.webp",
       "url": "https://discord.com/channels/1415350002255007784/1432720743279497367/threads/1555693158095003658",
-      "first_seen": "2026-10-02T21:29:12.271Z"
+      "first_seen": "2026-10-02T21:29:12.271Z",
+      "kind": "research",
+      "kind_confidence": 0.46
     },
     {
       "id": "1555693023105519756",
@@ -48,7 +73,9 @@
       "source_label": "openai.com",
       "cover": "assets/posts/1555693023105519756.webp",
       "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1555693023105519756",
-      "first_seen": "2026-10-02T21:28:40.087Z"
+      "first_seen": "2026-10-02T21:28:40.087Z",
+      "kind": "adoption",
+      "kind_confidence": 1
     },
     {
       "id": "1555692915098128455",
@@ -71,7 +98,9 @@
       "source_label": "anthropic.com",
       "cover": "assets/posts/1555692915098128455.webp",
       "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1555692915098128455",
-      "first_seen": "2026-10-02T21:28:14.336Z"
+      "first_seen": "2026-10-02T21:28:14.336Z",
+      "kind": "business",
+      "kind_confidence": 0.77
     },
     {
       "id": "1555692818134204416",
@@ -94,7 +123,9 @@
       "source_label": "gadgets.muse.ai",
       "cover": "assets/posts/1555692818134204416.webp",
       "url": "https://discord.com/channels/1415350002255007784/1441473829951111330/threads/1555692818134204416",
-      "first_seen": "2026-10-02T21:27:51.218Z"
+      "first_seen": "2026-10-02T21:27:51.218Z",
+      "kind": "tool",
+      "kind_confidence": 0.99
     },
     {
       "id": "1555692654598164571",
@@ -118,7 +149,9 @@
       "source_label": "openai.com",
       "cover": "assets/posts/1555692654598164571.webp",
       "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1555692654598164571",
-      "first_seen": "2026-10-02T21:27:12.228Z"
+      "first_seen": "2026-10-02T21:27:12.228Z",
+      "kind": "tool",
+      "kind_confidence": 0.88
     },
     {
       "id": "1555545973701218334",
@@ -271,31 +304,6 @@
       "first_seen": "2026-10-02T11:40:59.425Z",
       "kind": "model",
       "kind_confidence": 0.54
-    },
-    {
-      "id": "1555545042947407953",
-      "title": "Tavus「Griffin」発表、映像・音声・会話制御を統合したリアルタイム対話AI",
-      "channel": "その他",
-      "category": "その他",
-      "date": "2026-10-02T11:40:38.868Z",
-      "excerpt": "Tavusは2026年10月1日、対面コミュニケーションを理解・生成する「Human Interaction Model（HIM）」として「Griffin」を発表しました。従来の音声認識、LLM、音声合成、映像生成を順番につなぐ方式とは異なり、映像と音声を継…",
-      "lead": "Tavusは2026年10月1日、対面コミュニケーションを理解・生成する「Human Interaction Model（HIM）」として「Griffin」を発表しました。従来の音声認識、LLM、音声合成、映像生成を順番につなぐ方式とは異なり、映像と音声を継続的に観察しながら、発話、表情、視線、ジェスチャーまでリアルタイムに制御することを狙ったモデルです。",
-      "headings": [
-        "「ターン制」から連続対話へ",
-        "音声と720p映像をストリーミング生成",
-        "NVIDIAベンチマークでも高評価",
-        "今後の展望"
-      ],
-      "source_url": "https://www.tavus.io/griffin",
-      "source_urls": [
-        "https://www.tavus.io/griffin"
-      ],
-      "source_label": "tavus.io",
-      "cover": "assets/posts/1555545042947407953.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1555545042947407953",
-      "first_seen": "2026-10-02T11:40:38.868Z",
-      "kind": "model",
-      "kind_confidence": 1
     }
   ]
 }

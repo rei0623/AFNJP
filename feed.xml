@@ -5,8 +5,16 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 02 Oct 2026 21:29:12 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 03 Oct 2026 00:58:41 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Android CLIが実機を直接操作、AIエージェントのAndroid開発が「コード生成」から「実機検証」へ</title>
+      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1555745876889047061</link>
+      <guid isPermaLink="false">afnjp-1555745876889047061</guid>
+      <pubDate>Sat, 03 Oct 2026 00:58:41 GMT</pubDate>
+      <category>google</category>
+      <description>GoogleはAndroid CLIを拡張し、AIエージェントからAndroid Device Streamingを通じてクラウド上の実機へアクセスできるようにしました。さらに、Android固有の開発知識をAIへ与える「Android skills」も20…</description>
+    </item>
     <item>
       <title>Microsoftが警告、AI時代のサイバー防御は「モデル単体」では守れない</title>
       <link>https://discord.com/channels/1415350002255007784/1432720743279497367/threads/1555693158095003658</link>
@@ -94,14 +102,6 @@
       <pubDate>Fri, 02 Oct 2026 11:40:59 GMT</pubDate>
       <category>その他</category>
       <description>Sunoは2026年10月1日、音声と音楽を一つのまとまったトラックとして生成する新機能「Speech」のベータ版を公開しました。これまで音楽生成を中心としてきたSunoが、朗読や物語、瞑想、ボイスメッセージといった「話す音声」へ生成領域を広げる動きです。</description>
-    </item>
-    <item>
-      <title>Tavus「Griffin」発表、映像・音声・会話制御を統合したリアルタイム対話AI</title>
-      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1555545042947407953</link>
-      <guid isPermaLink="false">afnjp-1555545042947407953</guid>
-      <pubDate>Fri, 02 Oct 2026 11:40:38 GMT</pubDate>
-      <category>その他</category>
-      <description>Tavusは2026年10月1日、対面コミュニケーションを理解・生成する「Human Interaction Model（HIM）」として「Griffin」を発表しました。従来の音声認識、LLM、音声合成、映像生成を順番につなぐ方式とは異なり、映像と音声を継…</description>
     </item>
   </channel>
 </rss>

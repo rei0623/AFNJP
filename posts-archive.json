@@ -1,9 +1,34 @@
 {
-  "generated_at": "2026-10-03T00:27:34.499Z",
+  "generated_at": "2026-10-03T06:29:19.910Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 290,
+  "count": 291,
   "posts": [
+    {
+      "id": "1555745876889047061",
+      "title": "Android CLIが実機を直接操作、AIエージェントのAndroid開発が「コード生成」から「実機検証」へ",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-10-03T00:58:41.411Z",
+      "excerpt": "GoogleはAndroid CLIを拡張し、AIエージェントからAndroid Device Streamingを通じてクラウド上の実機へアクセスできるようにしました。さらに、Android固有の開発知識をAIへ与える「Android skills」も20…",
+      "lead": "GoogleはAndroid CLIを拡張し、AIエージェントからAndroid Device Streamingを通じてクラウド上の実機へアクセスできるようにしました。さらに、Android固有の開発知識をAIへ与える「Android skills」も20種類以上へ拡大しています。AIによるAndroid開発は、コードを書く段階から実機上でビルド、検証、デバッグする段階へ進みつつあります。",
+      "headings": [
+        "CLIからリモート実機を操作",
+        "Android skillsでLLMの知識不足を補完",
+        "Wear OSでは専用知識の効果も",
+        "今後の展望"
+      ],
+      "source_url": "https://android-developers.googleblog.com/2026/10/android-cli-device-streaming-and-skills.html?m=1",
+      "source_urls": [
+        "https://android-developers.googleblog.com/2026/10/android-cli-device-streaming-and-skills.html?m=1"
+      ],
+      "source_label": "android-developers.googleblog.com",
+      "cover": "assets/posts/1555745876889047061.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1555745876889047061",
+      "first_seen": "2026-10-03T00:58:41.411Z",
+      "kind": "tool",
+      "kind_confidence": 0.9
+    },
     {
       "id": "1555693158095003658",
       "title": "Microsoftが警告、AI時代のサイバー防御は「モデル単体」では守れない",
