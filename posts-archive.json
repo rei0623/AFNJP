@@ -1,9 +1,136 @@
 {
-  "generated_at": "2026-10-02T20:41:58.260Z",
+  "generated_at": "2026-10-03T00:27:34.499Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 285,
+  "count": 290,
   "posts": [
+    {
+      "id": "1555693158095003658",
+      "title": "Microsoftが警告、AI時代のサイバー防御は「モデル単体」では守れない",
+      "channel": "microsoft",
+      "category": "Microsoft",
+      "date": "2026-10-02T21:29:12.271Z",
+      "excerpt": "Microsoftは「2026 Microsoft Digital Defense Report」の知見を公開し、サイバー攻撃と防御の双方でAI活用が拡大する一方、企業システムの相互接続性そのものが新たなセキュリティ課題になっていると指摘しました。特にAIエ…",
+      "lead": "Microsoftは「2026 Microsoft Digital Defense Report」の知見を公開し、サイバー攻撃と防御の双方でAI活用が拡大する一方、企業システムの相互接続性そのものが新たなセキュリティ課題になっていると指摘しました。特にAIエージェントの普及により、従来のID管理や最小権限、監視といった基本原則をAIシステム全体へ拡張する必要性が高まっています。",
+      "headings": [
+        "AIは攻撃手法を置き換えるのではなく加速する",
+        "AIエージェントでは「何に接続できるか」が攻撃面になる",
+        "AIによる脆弱性探索は防御と攻撃の双方を強化",
+        "防御の鍵は分断されたシグナルの統合",
+        "今後の展望"
+      ],
+      "source_url": "https://www.microsoft.com/en-us/security/blog/2026/10/01/insights-from-the-2026-microsoft-digital-defense-report/",
+      "source_urls": [
+        "https://www.microsoft.com/en-us/security/blog/2026/10/01/insights-from-the-2026-microsoft-digital-defense-report/"
+      ],
+      "source_label": "microsoft.com",
+      "cover": "assets/posts/1555693158095003658.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1432720743279497367/threads/1555693158095003658",
+      "first_seen": "2026-10-02T21:29:12.271Z",
+      "kind": "research",
+      "kind_confidence": 0.46
+    },
+    {
+      "id": "1555693023105519756",
+      "title": "Chatham Financial、GPT-5.6とCodexで金融業務を再設計 取引検証を30分から4分未満へ",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-10-02T21:28:40.087Z",
+      "excerpt": "OpenAIは2026年10月2日、資本市場分野のアドバイザリー企業Chatham FinancialによるAI活用事例を公開しました。同社はGPT-5.6とCodexを業務プロセスやソフトウェア開発へ組み込み、取引検証に要する時間を約30分から4分未満まで…",
+      "lead": "OpenAIは2026年10月2日、資本市場分野のアドバイザリー企業Chatham FinancialによるAI活用事例を公開しました。同社はGPT-5.6とCodexを業務プロセスやソフトウェア開発へ組み込み、取引検証に要する時間を約30分から4分未満まで短縮しています。特徴的なのは、単純な作業高速化ではなく「人間が判断すべき部分」を残したままワークフロー全体を再設計している点です。",
+      "headings": [
+        "Codexで取引検証プロセスを再構築",
+        "社員自身がAIアプリを開発",
+        "Onyxではタスク別にモデルを使い分け",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/ja-JP/index/chatham-financial/",
+      "source_urls": [
+        "https://openai.com/ja-JP/index/chatham-financial/"
+      ],
+      "source_label": "openai.com",
+      "cover": "assets/posts/1555693023105519756.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1555693023105519756",
+      "first_seen": "2026-10-02T21:28:40.087Z",
+      "kind": "adoption",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1555692915098128455",
+      "title": "Anthropic、1億ドル投じ「Claude Frontier Academy」始動 企業AI導入を担う1万人の技術者を育成へ",
+      "channel": "anthropic",
+      "category": "Anthropic",
+      "date": "2026-10-02T21:28:14.336Z",
+      "excerpt": "Anthropicは2026年10月2日、企業内でClaudeを本番導入できる高度なAI人材を育成する「Claude Frontier Academy」を発表しました。1億ドルを投じ、2027年末までに1万人のFrontier Deployed Engine…",
+      "lead": "Anthropicは2026年10月2日、企業内でClaudeを本番導入できる高度なAI人材を育成する「Claude Frontier Academy」を発表しました。1億ドルを投じ、2027年末までに1万人のFrontier Deployed Engineer（FDE）を育成する計画です。単なるAI研修ではなく、セキュリティ審査や業務設計、本番展開までを扱う実践型プログラムとして設計されています。",
+      "headings": [
+        "AI導入のボトルネックを「人材」と位置付け",
+        "模擬企業導入から12週間の実案件まで",
+        "認定資格より「本番環境で動かす能力」を重視",
+        "今後の展望"
+      ],
+      "source_url": "https://www.anthropic.com/news/claude-frontier-academy",
+      "source_urls": [
+        "https://www.anthropic.com/news/claude-frontier-academy"
+      ],
+      "source_label": "anthropic.com",
+      "cover": "assets/posts/1555692915098128455.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1555692915098128455",
+      "first_seen": "2026-10-02T21:28:14.336Z",
+      "kind": "business",
+      "kind_confidence": 0.77
+    },
+    {
+      "id": "1555692818134204416",
+      "title": "MuseがAIを物理世界へ拡張、ESP32・Raspberry Pi対応「Muse Gadgets」公開",
+      "channel": "meta",
+      "category": "Meta",
+      "date": "2026-10-02T21:27:51.218Z",
+      "excerpt": "Museは、AIとディスプレイ、ボタン、センサー、スピーカー、家電などを接続するオープンソースハードウェア構想「Muse Gadgets」を公開しています。市販のESP32ボードやRaspberry Piを利用し、開発者自身がAI向けデバイスを組み立てられる…",
+      "lead": "Museは、AIとディスプレイ、ボタン、センサー、スピーカー、家電などを接続するオープンソースハードウェア構想「Muse Gadgets」を公開しています。市販のESP32ボードやRaspberry Piを利用し、開発者自身がAI向けデバイスを組み立てられる点が特徴です。",
+      "headings": [
+        "ESP32とLinux向けSDKをオープンソース化",
+        "家電連携用「Muse Home Link」も用意",
+        "AI専用端末を自作できるエコシステムへ",
+        "今後の展望"
+      ],
+      "source_url": "https://gadgets.muse.ai/",
+      "source_urls": [
+        "https://gadgets.muse.ai/"
+      ],
+      "source_label": "gadgets.muse.ai",
+      "cover": "assets/posts/1555692818134204416.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1441473829951111330/threads/1555692818134204416",
+      "first_seen": "2026-10-02T21:27:51.218Z",
+      "kind": "tool",
+      "kind_confidence": 0.99
+    },
+    {
+      "id": "1555692654598164571",
+      "title": "OpenAIがGPT-6実践ガイド公開、本番運用は「性能」だけでなくコストと自律性の設計へ",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-10-02T21:27:12.228Z",
+      "excerpt": "OpenAIは2026年10月2日、GPT-6ファミリーを実際の開発・本番環境で活用するためのモデルガイドを公開しました。焦点は単なる高性能モデルの利用ではなく、モデル選択、推論量、キャッシュ、長時間タスク、自律操作の境界まで含めた「AIエージェントの運用設…",
+      "lead": "OpenAIは2026年10月2日、GPT-6ファミリーを実際の開発・本番環境で活用するためのモデルガイドを公開しました。焦点は単なる高性能モデルの利用ではなく、モデル選択、推論量、キャッシュ、長時間タスク、自律操作の境界まで含めた「AIエージェントの運用設計」です。",
+      "headings": [
+        "GPT-6は用途別にモデルを使い分ける",
+        "キャッシュとコンパクションが本番コストを左右",
+        "長時間動くAIエージェントを前提にした設計へ",
+        "プロンプト設計も「細かく指示する」発想から変化",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/ja-JP/index/practical-guide-building-gpt-6/",
+      "source_urls": [
+        "https://openai.com/ja-JP/index/practical-guide-building-gpt-6/"
+      ],
+      "source_label": "openai.com",
+      "cover": "assets/posts/1555692654598164571.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1555692654598164571",
+      "first_seen": "2026-10-02T21:27:12.228Z",
+      "kind": "tool",
+      "kind_confidence": 0.88
+    },
     {
       "id": "1555545973701218334",
       "title": "Google「Stitch CLI」登場、AIエージェントとUI設計をターミナルで直結",
