@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03T06:29:19.912Z",
+  "generated_at": "2026-10-03T12:30:27.745Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
@@ -24,7 +24,9 @@
       "source_label": "android-developers.googleblog.com",
       "cover": "assets/posts/1555745876889047061.webp",
       "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1555745876889047061",
-      "first_seen": "2026-10-03T00:58:41.411Z"
+      "first_seen": "2026-10-03T00:58:41.411Z",
+      "kind": "tool",
+      "kind_confidence": 0.9
     },
     {
       "id": "1555693158095003658",
