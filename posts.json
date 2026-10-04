@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04T09:43:23.666Z",
+  "generated_at": "2026-10-04T15:20:18.251Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
@@ -25,7 +25,9 @@
       "source_label": "huggingface.co",
       "cover": "assets/posts/1556173975124582411.webp",
       "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1556173975124582411",
-      "first_seen": "2026-10-04T05:19:47.984Z"
+      "first_seen": "2026-10-04T05:19:47.984Z",
+      "kind": "model",
+      "kind_confidence": 1
     },
     {
       "id": "1555745876889047061",
