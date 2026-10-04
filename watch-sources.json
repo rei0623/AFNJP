@@ -1,6 +1,6 @@
 {
   "_note": "公式ブログの新着を監視する対象。scripts/web-watch.mjs が読む。すべて実際に取得できることを確認済み（node scripts/web-watch.mjs --dry-run で再確認できる）。type は rss（フィードがある）か sitemap（無いので sitemap の差分で拾う）。include は sitemap のときにブログ記事のパスだけへ絞る正規表現。",
-  "_大手は製品ごとにブログが分かれている": "Microsoft は Copilot / 365 / Research / DevBlogs / Windows、Google は blog.google / DeepMind / Developers / Research / Cloud、Anthropic は anthropic.com と claude.com が別。1社1フィードでは取りこぼす。",
+  "_大手は製品ごとにブログが分かれている": "Microsoft は 365・Copilot（2026年10月に「AI at Work Blog」へ統合） / Research / DevBlogs / Azure、Google は blog.google / DeepMind / Developers / Research / Cloud、Anthropic は anthropic.com と claude.com が別。1社1フィードでは取りこぼす。",
   "_mixed": "mixed: true は AI 以外の記事も出すブログ（Microsoft・Meta・Cloudflare など）。web-watch.mjs はこれらに限り、Jev が AI と関係が薄いと見た新着を投稿しない。AI 専業の会社（OpenAI・Anthropic など）は付けない。何を出しても AI の話なので、判定の取り違えで落とす危険だけが残るため。",
   "_未対応": {
     "xAI": "x.ai は Cloudflare のbot対策で 403 を返す。回避はしない方針のため対象外",
@@ -80,18 +80,11 @@
       "mixed": true
     },
     {
-      "id": "microsoft-copilot",
-      "label": "Microsoft Copilot",
-      "category": "Microsoft",
-      "type": "rss",
-      "url": "https://www.microsoft.com/en-us/microsoft-copilot/blog/feed/"
-    },
-    {
       "id": "microsoft-365",
-      "label": "Microsoft 365",
+      "label": "Microsoft 365 / Copilot",
       "category": "Microsoft",
       "type": "rss",
-      "url": "https://www.microsoft.com/en-us/microsoft-365/blog/feed/",
+      "url": "https://www.microsoft.com/en-us/copilot/blog/feed/",
       "mixed": true
     },
     {

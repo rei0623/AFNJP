@@ -160,7 +160,7 @@ node scripts/web-watch.mjs --volume    # 各ソースが1日何件出してい�
 
 監視先を足したら、必ず `--dry-run` を通してから入れてください。サイト側の作りが変わると黙って0件になります。
 
-**大手は製品ごとにブログが分かれています。** Microsoft は Copilot / 365 / Research / DevBlogs / Azure、
+**大手は製品ごとにブログが分かれています。** Microsoft は 365・Copilot（「AI at Work Blog」に統合済み） / Research / DevBlogs / Azure、
 Google は blog.google / DeepMind / Developers / Research / Cloud、Anthropic は anthropic.com と claude.com が別です。
 1社1フィードのつもりでいると取りこぼします。
 
