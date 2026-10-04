@@ -1,9 +1,35 @@
 {
-  "generated_at": "2026-10-04T02:35:13.263Z",
+  "generated_at": "2026-10-04T09:43:23.657Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 291,
+  "count": 292,
   "posts": [
+    {
+      "id": "1556173975124582411",
+      "title": "Aleph Alpha「Kolibri 1」公開、78B級MoEで長文推論とエージェント処理を効率化",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-10-04T05:19:47.984Z",
+      "excerpt": "独Aleph Alphaは2026年10月3日、推論モデル「Kolibri 1」を公開しました。総パラメータ数は約780億ながら、Mixture-of-Experts（MoE）構成によって1トークン当たり約34.6億パラメータのみを利用します。ドイツ語と英語…",
+      "lead": "独Aleph Alphaは2026年10月3日、推論モデル「Kolibri 1」を公開しました。総パラメータ数は約780億ながら、Mixture-of-Experts（MoE）構成によって1トークン当たり約34.6億パラメータのみを利用します。ドイツ語と英語に重点を置き、長文処理、推論、コーディング、RAG、ツール呼び出しを企業向けに統合したモデルです。",
+      "headings": [
+        "78Bを保持しながら実際の計算量は3.46B級",
+        "最大104万トークン、実用上は26万トークン以下を推奨",
+        "推論・コード・エージェント処理を重視",
+        "Apache 2.0で公開、企業内運用も視野",
+        "今後の展望"
+      ],
+      "source_url": "https://huggingface.co/Aleph-Alpha/Kolibri-1",
+      "source_urls": [
+        "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+      ],
+      "source_label": "huggingface.co",
+      "cover": "assets/posts/1556173975124582411.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1556173975124582411",
+      "first_seen": "2026-10-04T05:19:47.984Z",
+      "kind": "model",
+      "kind_confidence": 1
+    },
     {
       "id": "1555745876889047061",
       "title": "Android CLIが実機を直接操作、AIエージェントのAndroid開発が「コード生成」から「実機検証」へ",

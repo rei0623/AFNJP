@@ -5,8 +5,16 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 03 Oct 2026 00:58:41 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 04 Oct 2026 05:19:47 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Aleph Alpha「Kolibri 1」公開、78B級MoEで長文推論とエージェント処理を効率化</title>
+      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1556173975124582411</link>
+      <guid isPermaLink="false">afnjp-1556173975124582411</guid>
+      <pubDate>Sun, 04 Oct 2026 05:19:47 GMT</pubDate>
+      <category>その他</category>
+      <description>独Aleph Alphaは2026年10月3日、推論モデル「Kolibri 1」を公開しました。総パラメータ数は約780億ながら、Mixture-of-Experts（MoE）構成によって1トークン当たり約34.6億パラメータのみを利用します。ドイツ語と英語…</description>
+    </item>
     <item>
       <title>Android CLIが実機を直接操作、AIエージェントのAndroid開発が「コード生成」から「実機検証」へ</title>
       <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1555745876889047061</link>
@@ -94,14 +102,6 @@
       <pubDate>Fri, 02 Oct 2026 11:41:20 GMT</pubDate>
       <category>日本国内</category>
       <description>内閣府、デジタル庁、経済産業省は、AIの開発・提供・利用を妨げている規制や制度について、具体的な情報を募集します。募集期間は2026年10月19日から10月30日17時までで、LLMからAIロボット、完全無人運転、AIドローンまで幅広いAI技術が対象です。</description>
-    </item>
-    <item>
-      <title>Suno「Speech」ベータ公開、声と音楽を一体生成する新オーディオモデル</title>
-      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1555545129169723462</link>
-      <guid isPermaLink="false">afnjp-1555545129169723462</guid>
-      <pubDate>Fri, 02 Oct 2026 11:40:59 GMT</pubDate>
-      <category>その他</category>
-      <description>Sunoは2026年10月1日、音声と音楽を一つのまとまったトラックとして生成する新機能「Speech」のベータ版を公開しました。これまで音楽生成を中心としてきたSunoが、朗読や物語、瞑想、ボイスメッセージといった「話す音声」へ生成領域を広げる動きです。</description>
     </item>
   </channel>
 </rss>
