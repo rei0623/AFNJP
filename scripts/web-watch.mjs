@@ -27,8 +27,10 @@
  *   確信が持てないものは 🟡 として記事リンクを添えるだけにとどめ、🔴 から勝手に外さない。
  *   外すと「まだ書いていない発表」がこの一覧から消えてしまうので、迷ったら人に見せる側へ倒す。
  *
- *   ついでに重要度・AI関連か・噂か・国内関連かも同じ呼び出しで取り、
- *   🔥 / 🔇 / 🗣 の目印を付ける。投稿自体は止めない（取りこぼさないため）。
+ *   ついでに重要度・AI関連か・噂か・国内関連か・発表の種類も同じ呼び出しで取る。
+ *   種類は［モデル公開］［機能追加］…のラベルとして見出しの頭に付け、🔥 / 🗣 の目印も添える。
+ *   AI と関係の薄いもの（採用情報・規約更新・AI以外の製品）は投稿せず、既読にだけする。
+ *   種類の定義はサイトの記事と共通（scripts/lib/kinds.mjs）。
  *
  * 必要な環境変数:
  *   DISCORD_BOT_TOKEN … Bot トークン（投稿先チャンネルへの「メッセージを送信」権限が必要）
@@ -47,6 +49,7 @@ import { fileURLToPath } from 'node:url';
 import { dirname, resolve } from 'node:path';
 
 import * as jev from './lib/jev.mjs';
+import { KINDS, KIND_LABEL } from './lib/kinds.mjs';
 
 const HERE = dirname(fileURLToPath(import.meta.url));
 const ROOT = resolve(HERE, '..');
@@ -119,8 +122,17 @@ const VOLUME = process.argv.includes('--volume');
  */
 const JUDGE = process.argv.includes('--judge');
 
+/**
+ * --classify … 種類の判定と「AIの話か」の判定を、投稿せずに測る。
+ *   1. アーカイブの記事（答えの種類が tag-posts.mjs で付いている）の出典見出しで、
+ *      同じ種類を選べるか、AI の話として扱えるか（除外されないか）を見る
+ *   2. 各ソースの最新の新着を判定して一覧する。除外される見出しを目で確かめるためのもの
+ * Discord にも状態にも触らない。
+ */
+const CLASSIFY = process.argv.includes('--classify');
+
 /** 取得して数えるだけのモードは、トークンも状態も要らない */
-const OFFLINE = DRY || VOLUME || JUDGE;
+const OFFLINE = DRY || VOLUME || JUDGE || CLASSIFY;
 
 if (!OFFLINE && !TOKEN) {
     console.log('… DISCORD_BOT_TOKEN が未設定のため、監視をスキップします。');
@@ -173,6 +185,23 @@ const tagOf = (xml, name) => {
 
 /* ═══════════ アダプタ: RSS / Atom ═══════════ */
 
+/** 要約の上限。Jev に渡す state を伸ばしすぎないため（日本語なら3〜4文ぶん） */
+const SUMMARY_MAX = 320;
+
+/**
+ * フィードやページの説明文を、判定に渡せる短い平文にする。
+ * 見出しだけだと「Android skills」のように AI の話か読み取れないものがあるため、添えて渡す。
+ */
+function summaryOf(raw) {
+    if (!raw) return null;
+    const text = unescapeXml(String(raw).replace(/<!\[CDATA\[|\]\]>/g, ''))
+        .replace(/<[^>]+>/g, ' ')
+        .replace(/\s+/g, ' ')
+        .trim();
+    if (!text) return null;
+    return text.length > SUMMARY_MAX ? text.slice(0, SUMMARY_MAX - 1) + '…' : text;
+}
+
 function parseFeed(xml) {
     const out = [];
     // <item>（RSS 2.0）と <entry>（Atom）の両方を拾う
@@ -189,7 +218,8 @@ function parseFeed(xml) {
         }
 
         const date = tagOf(block, 'pubDate') || tagOf(block, 'published') || tagOf(block, 'updated');
-        if (title && link) out.push({ title, url: link, date, dateKind: 'published' });
+        const summary = summaryOf(tagOf(block, 'description') || tagOf(block, 'summary') || tagOf(block, 'content'));
+        if (title && link) out.push({ title, url: link, date, dateKind: 'published', summary });
     }
     return out;
 }
@@ -261,16 +291,30 @@ async function readSitemap(source) {
 }
 
 /** sitemap 由来の記事はタイトルが無いので、ページを1回だけ取って読む */
-async function titleOf(url) {
+/** <meta property="og:xxx"> / <meta name="xxx"> の content を、属性の順序に関係なく読む */
+function metaOf(html, key) {
+    const m = html.match(new RegExp(`<meta[^>]+(?:property|name)=["']${key}["'][^>]*content=["']([^"']+)["']`, 'i'))
+        || html.match(new RegExp(`<meta[^>]+content=["']([^"']+)["'][^>]*(?:property|name)=["']${key}["']`, 'i'));
+    return m ? unescapeXml(m[1]) : null;
+}
+
+/** ページを1回だけ取って、見出しと説明文を読む。sitemap 由来の新着に使う */
+async function pageInfo(url) {
     try {
         const html = await get(url);
-        const og = html.match(/<meta[^>]+property=["']og:title["'][^>]*content=["']([^"']+)["']/i)
-            || html.match(/<meta[^>]+content=["']([^"']+)["'][^>]*property=["']og:title["']/i);
-        if (og) return unescapeXml(og[1]);
-        const t = tagOf(html, 'title');
-        if (t) return t.split(/\s+[|｜–—-]\s+/)[0].trim() || t;
+        let title = metaOf(html, 'og:title');
+        if (!title) {
+            const t = tagOf(html, 'title');
+            if (t) title = t.split(/\s+[|｜–—-]\s+/)[0].trim() || t;
+        }
+        const summary = summaryOf(metaOf(html, 'og:description') || metaOf(html, 'description'));
+        return { title: title || null, summary };
     } catch { /* 取れなければ URL だけで出す */ }
-    return null;
+    return { title: null, summary: null };
+}
+
+async function titleOf(url) {
+    return (await pageInfo(url)).title;
 }
 
 /* ═══════════ 記事化ずみかの判定 ═══════════ */
@@ -383,6 +427,27 @@ const SAME_ANNOUNCEMENT_SURE = 0.80;
 const IMPORTANT_MIN = 1.9;
 const MINOR_MAX = 0.7;
 
+/*
+ * 「AI に関する発表か」がこの確率を下回ったものは投稿しない（既読にだけする）。
+ * 以前は 🔇 を付けて流していた線と同じ値。対象は mixed のソースだけ（isOffTopic を参照）。
+ *
+ * 2026-10-04 の --classify（見出し＋要約）の実測:
+ *   見送りになったのは IKEA×XBOX 2% / SQL Server 3% / Meta の人事 4% / Azure の設備 5% /
+ *   Cloudflare Stream 5% / Rebalancer 14% / Google Cloud の月次まとめ 18% など、いずれも AI 以外の話。
+ *   AI の話は 55% 以上に出た（GitHub Universe の講演紹介 55%、NVIDIA BlueField 81%）。
+ *   アーカイブ20件では2件が線を下回ったが、どちらも監視対象外のブログか、
+ *   同じ発表が別のソースから 96% で届くものだった。
+ * 監視先を増やしたら、同じコマンドで測り直すこと。
+ */
+const AI_MIN = 0.4;
+
+/**
+ * 種類のラベルを付ける確信度の下限。下回ったらラベル自体を付けない。
+ * 同じ実測で、記事側の種類（本文まで読んで付けたもの）との一致は 12〜13 / 20。
+ * 外れたものは「開発者向け」と「機能追加」のような隣り合う種類どうしだった。
+ */
+const KIND_MIN = 0.35;
+
 /**
  * 新着1件について、必要な判断をまとめて取る。
  * 取れなければ null（＝従来どおりの表示に落ちる）。
@@ -399,7 +464,7 @@ async function judge(item, source) {
     const questions = {
         importance: jev.score(
             'この発表が、AIを日常的に追っている日本語読者にとってどれくらい重要か。'
-            + '`news.title` の内容で判断する',
+            + '`news.title` と `news.summary`（あれば）の内容で判断する',
             [
                 '些末。製品の細かな更新や告知で、知らなくても何も困らない',
                 '業界の人なら知っておいてもよい程度',
@@ -408,7 +473,7 @@ async function judge(item, source) {
                 '極めて重要。業界の前提が変わるレベルの発表',
             ],
         ),
-        is_ai_news: jev.noul('AI に関する発表・記事である', {
+        is_ai_news: jev.noul('AI に関する発表・記事である。`news.title` と `news.summary`（あれば）で判断する', {
             true: 'AIのモデル・製品・研究・企業動向・規制に関する内容',
             false: '採用情報、イベント告知、法務・規約の更新、AIと無関係な製品の話',
         }),
@@ -418,6 +483,11 @@ async function judge(item, source) {
         }),
         japan_relevant: jev.noul(
             '日本の読者に固有の関連性がある（国内企業・日本語対応・国内の規制など）'),
+        kind: jev.choice(
+            'この発表は、どの種類にあたるか。`news.title` と `news.summary`（あれば）の内容で判断する。'
+            + '複数に当てはまるように見えるときは、発表の主題として最も中心にあるものを選ぶ',
+            KINDS,
+        ),
     };
 
     // 候補が1件も無いなら、この問いは立てない（state を無駄に伸ばさない）
@@ -436,6 +506,7 @@ async function judge(item, source) {
     const answers = await jev.ask({
         news: {
             title: item.title || item.url,
+            summary: item.summary || null,
             url: item.url,
             publisher: source.label,
             date: item.date || null,
@@ -458,6 +529,8 @@ async function judge(item, source) {
         isAiNews: answers.is_ai_news?.noul ?? 1,
         isRumor: answers.is_rumor?.noul ?? 0,
         japanRelevant: answers.japan_relevant?.noul ?? 0,
+        kind: answers.kind?.choice ?? null,
+        kindConfidence: answers.kind?.confidence ?? 0,
         match,
         matchP,
     };
@@ -557,10 +630,6 @@ function ago(ms) {
 function verdictOf(j) {
     if (!j) return { badge: null, note: null };
 
-    // AIの話ですらないもの。sitemap 由来のソースで採用情報や規約更新を拾ったとき
-    if (j.isAiNews < 0.4) {
-        return { badge: '🔇', note: `AI以外の内容に見える（AI関連 ${(j.isAiNews * 100).toFixed(0)}%）` };
-    }
     if (j.isRumor > 0.6) {
         return { badge: '🗣', note: `噂・観測の可能性（${(j.isRumor * 100).toFixed(0)}%）` };
     }
@@ -575,6 +644,27 @@ function verdictOf(j) {
         badge: null,
         note: j.japanRelevant > 0.7 ? '国内向けの切り口あり' : null,
     };
+}
+
+/**
+ * AI と関係の薄い新着か。取りこぼさない側に倒すため、次のものは除外しない。
+ *   - AI 専業の会社のソース（watch-sources.json で mixed が付いていないもの）。
+ *     何を出しても AI の話なので、判定を取り違えたときに落とす危険だけが残る
+ *   - 判定が取れなかったもの
+ *   - AI関連が低く出ても、重要度が 🔥 の線を超えているもの
+ */
+const isOffTopic = (j, source) => Boolean(source?.mixed) && Boolean(j) && j.isAiNews < AI_MIN
+    && !(j.importance !== null && j.importance >= IMPORTANT_MIN);
+
+/**
+ * 見出しの頭に付ける種類のラベル。
+ * 記事化ずみ（URL一致）のものは Jev に聞いていないので、記事側に付いている種類を使う。
+ */
+function kindOf(item, j) {
+    const post = coveredBy.get(normalize(item.url));
+    const k = post?.kind
+        ?? (j?.kind && j.kindConfidence >= KIND_MIN ? j.kind : null);
+    return k && k !== 'other' ? KIND_LABEL[k] : null;
 }
 
 function embedOf(item, source, isCovered = covered.has(normalize(item.url)), j = null) {
@@ -597,6 +687,7 @@ function embedOf(item, source, isCovered = covered.has(normalize(item.url)), j =
     }
 
     const { badge, note } = verdictOf(j);
+    const kind = kindOf(item, j);
 
     /*
      * 記事化ずみの表示は3段階。
@@ -620,7 +711,7 @@ function embedOf(item, source, isCovered = covered.has(normalize(item.url)), j =
 
     return {
         author: { name: source.label },
-        title: `${badge ? badge + ' ' : ''}${item.title || item.url}`.slice(0, 250),
+        title: `${badge ? badge + ' ' : ''}${kind ? `［${kind}］` : ''}${item.title || item.url}`.slice(0, 250),
         url: item.url,
         description,
         color: COLOR[source.category] ?? COLOR['その他'],
@@ -677,6 +768,64 @@ if (JUDGE) {
     console.log(jev.usageLine());
     console.log('\n「見つけられず」は 🔴 未記事化のまま出るだけなので、従来と同じ挙動です。'
         + '\n「別の記事を選んだ」が多いなら SAME_ANNOUNCEMENT_MIN を上げてください。');
+    process.exit(0);
+}
+
+if (CLASSIFY) {
+    if (!jev.enabled) {
+        console.log('… TYPESAFE_API_KEY が未設定です。判定を測るにはこの鍵が要ります。');
+        process.exit(0);
+    }
+    const n = Number(process.argv[process.argv.indexOf('--classify') + 1]) || 20;
+
+    /* 1. 答えのある材料で測る */
+    const samples = archivePosts.filter(p => p.source_url && p.kind).slice(0, n);
+    console.log(`■ アーカイブの ${samples.length} 件（答えの種類つき）で測ります\n`);
+    let same = 0, dropped = 0, labeled = 0;
+    const ai = [];
+    for (const post of samples) {
+        const { title, summary } = await pageInfo(post.source_url);
+        const j = await judge({ title, summary, url: post.source_url, date: post.date }, { label: post.source_label || '不明' });
+        if (!j) { console.log(`− 判定なし ${title}`); continue; }
+        const got = j.kindConfidence >= KIND_MIN ? j.kind : null;
+        if (got) labeled++;
+        if (got === post.kind) same++;
+        // アーカイブ側はソースが分からないので、mixed の扱いで（＝いちばん厳しい条件で）測る
+        if (isOffTopic(j, { mixed: true })) dropped++;
+        ai.push(j.isAiNews);
+        console.log(`${got === post.kind ? '✓' : '✗'} [${KIND_LABEL[got] ?? 'ラベルなし'} / 正解 ${KIND_LABEL[post.kind]}]`
+            + `  AI関連 ${(j.isAiNews * 100).toFixed(0)}%${isOffTopic(j, { mixed: true }) ? ' ← mixed のソースなら除外される' : ''}`
+            + `  ${(title || post.source_url).slice(0, 60)}`);
+    }
+    ai.sort((a, b) => a - b);
+    console.log(`\n種類の一致 ${same} / ${samples.length}（ラベルを付けたもの ${labeled}）`);
+    console.log(`記事にした発表を除外してしまった件数 ${dropped} / ${samples.length}`
+        + `（AI関連の最小 ${((ai[0] ?? 0) * 100).toFixed(0)}%）`);
+
+    /* 2. いま流れてくる新着で、除外される見出しを目で確かめる */
+    const per = 2;
+    console.log(`\n■ 各ソースの最新 ${per} 件を判定します（投稿はしません）\n`);
+    for (const source of sources) {
+        let items = [];
+        try {
+            items = source.type === 'rss'
+                ? parseFeed(await get(source.url, 'application/rss+xml,application/xml,text/xml'))
+                : await readSitemap(source);
+        } catch { continue; }
+        for (const item of items.slice(0, per)) {
+            if (!item.title || !item.summary) {
+                const info = await pageInfo(item.url);
+                item.title ||= info.title;
+                item.summary ||= info.summary;
+            }
+            const j = await judge(item, source);
+            if (!j) continue;
+            const kind = kindOf(item, j);
+            console.log(`${isOffTopic(j, source) ? '🚫 見送り' : '   投稿  '} AI ${(j.isAiNews * 100).toFixed(0).padStart(3)}%`
+                + `  重要度 ${j.importance?.toFixed(1) ?? '−'}  [${kind ?? '−'}]  ${source.label}: ${(item.title || item.url).slice(0, 60)}`);
+        }
+    }
+    console.log(`\n${jev.usageLine()}`);
     process.exit(0);
 }
 
@@ -909,7 +1058,10 @@ if (found.length > targets.length) {
 
 // sitemap 由来はタイトルが無いので、投稿するぶんだけ取りに行く
 for (const t of targets) {
-    if (!t.item.title) t.item.title = await titleOf(t.item.url);
+    if (t.item.title && t.item.summary) continue;
+    const info = await pageInfo(t.item.url);
+    t.item.title ||= info.title;
+    t.item.summary ||= info.summary;
 }
 
 /*
@@ -927,11 +1079,23 @@ if (jev.enabled && needJudge.length) {
     console.log(`  … ${jev.usageLine()}`);
 }
 
+/*
+ * AI と関係の薄いものは投稿しない。ただし既読にはする。
+ * 既読にしないと、5分ごとに同じ新着を判定し直して課金が積み上がる。
+ * 「投稿できたものだけ既読にする」原則の例外で、ここは意図して見送ったものだけが対象。
+ */
+const skipped = targets.filter(t => isOffTopic(judged.get(t.item.url), t.source));
+for (const t of skipped) {
+    const list = Array.isArray(state[t.source.id]) ? state[t.source.id] : [];
+    state[t.source.id] = [t.item.url, ...list].slice(0, KEEP_PER_SOURCE);
+}
+const toPost = targets.filter(t => !skipped.includes(t));
+
 let posted = 0;
 try {
     // 1件につき1メッセージ。まとめて出すと、あとで1件だけ ✅ に直すときに
     // 同じメッセージの他の埋め込みまで作り直すことになるため。
-    for (const t of targets) {
+    for (const t of toPost) {
         const isCovered = covered.has(normalize(t.item.url));
         const embed = embedOf(t.item, t.source, isCovered, judged.get(t.item.url) || null);
         const msg = await postToDiscord([embed]);
@@ -958,12 +1122,17 @@ try {
 await saveState(state);
 
 console.log(`✓ 一次情報ウォッチ: ${posted} 件を投稿`
-    + `（新着 ${found.length} / 監視 ${sources.length} ソース`
+    + `（新着 ${found.length} / AI以外で見送り ${skipped.length} / 監視 ${sources.length} ソース`
     + (errors.length ? ` / 失敗 ${errors.length}` : '') + '）');
-for (const t of targets.slice(0, posted)) {
+for (const t of toPost.slice(0, posted)) {
     const j = judged.get(t.item.url);
     const tag = j?.match && j.matchP >= SAME_ANNOUNCEMENT_MIN ? ' 🟡' : '';
-    console.log(`   ${t.source.label}: ${t.item.title || t.item.url}${tag}`);
+    const kind = kindOf(t.item, j);
+    console.log(`   ${t.source.label}: ${kind ? `［${kind}］` : ''}${t.item.title || t.item.url}${tag}`);
+}
+for (const t of skipped) {
+    const j = judged.get(t.item.url);
+    console.log(`   見送り（AI関連 ${(j.isAiNews * 100).toFixed(0)}%）${t.source.label}: ${t.item.title || t.item.url}`);
 }
 console.log(`  ${jev.usageLine()}`);
 

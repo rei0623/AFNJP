@@ -29,6 +29,7 @@ import { fileURLToPath } from 'node:url';
 import { dirname, resolve } from 'node:path';
 
 import * as jev from './lib/jev.mjs';
+import { KINDS, KIND_LABEL } from './lib/kinds.mjs';
 
 const HERE = dirname(fileURLToPath(import.meta.url));
 const ROOT = resolve(HERE, '..');
@@ -37,37 +38,7 @@ const ARCHIVE = resolve(ROOT, 'posts-archive.json');
 const DRY = process.argv.includes('--dry-run');
 const RETAG = process.argv.includes('--retag');
 
-/**
- * 発表の種類。
- *
- * 「どれにも当てはまらない」の逃げ道を必ず置く。置かないとモデルは
- * 無理にどれかを選び、その1件だけ的外れなタグが付く。
- *
- * 増やすときは --retag で付け直すこと。途中から選択肢を足すと、
- * 古い記事は新しい選択肢を一度も検討されていない状態になる。
- */
-const KINDS = {
-    model: '新しいモデル・新バージョンの公開や提供開始',
-    feature: '既存の製品・サービスへの機能追加や改良、値下げ、提供範囲の拡大',
-    research: '研究成果・論文・技術的な手法の公開。評価やベンチマークの結果',
-    tool: '開発者向けのツール・API・SDK・エージェント基盤に関する発表',
-    business: '資金調達、買収、提携、組織変更、経営や事業方針に関する動向',
-    policy: '規制・法令・訴訟・安全性の方針・利用規約に関する話',
-    adoption: '導入事例・ユースケース・特定企業での活用の紹介',
-    other: '上記のどれにも当てはまらない',
-};
-
-/** 表示用の日本語名。archive.html の絞り込みに使う */
-export const KIND_LABEL = {
-    model: 'モデル公開',
-    feature: '機能追加',
-    research: '研究・評価',
-    tool: '開発者向け',
-    business: '企業動向',
-    policy: '規制・方針',
-    adoption: '導入事例',
-    other: 'その他',
-};
+export { KIND_LABEL };
 
 /**
  * 判断が割れたものは other にせず、そのまま記録して confidence を残す。

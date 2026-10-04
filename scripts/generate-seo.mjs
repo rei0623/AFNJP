@@ -43,6 +43,8 @@ import { readFile, writeFile, rename, mkdir, readdir, unlink } from 'node:fs/pro
 import { fileURLToPath } from 'node:url';
 import { dirname, resolve } from 'node:path';
 
+import { KIND_LABEL } from './lib/kinds.mjs';
+
 const HERE = dirname(fileURLToPath(import.meta.url));
 const ROOT = resolve(HERE, '..');
 
@@ -563,20 +565,7 @@ if ('serviceWorker' in navigator) navigator.serviceWorker.register('../sw.js').c
 `;
 }
 
-/**
- * 発表の種類。scripts/tag-posts.mjs が posts-archive.json の kind に入れる。
- * ここと tag-posts.mjs の KIND_LABEL は対応させること。
- */
-const KIND_LABEL = {
-    model: 'モデル公開',
-    feature: '機能追加',
-    research: '研究・評価',
-    tool: '開発者向け',
-    business: '企業動向',
-    policy: '規制・方針',
-    adoption: '導入事例',
-    other: 'その他',
-};
+// 発表の種類の表示名は scripts/lib/kinds.mjs にある（tag-posts / web-watch と共有）
 
 /**
  * 種類で絞り込むバー。

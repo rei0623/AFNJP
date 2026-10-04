@@ -19,9 +19,9 @@ on:
   workflow_dispatch:
     inputs:
       mode:
-        description: '通常は normal。ping=疎通確認、preview=各社の最新1件をサンプル投稿'
+        description: '通常は normal。ping=疎通確認、preview=各社の最新1件をサンプル投稿、classify=種類とAI関連の判定を測る（投稿しない）'
         type: choice
-        options: [normal, ping, preview]
+        options: [normal, ping, preview, classify]
         default: normal
 
 permissions:
@@ -60,5 +60,7 @@ jobs:
           case "${{ inputs.mode }}" in
             ping)    node scripts/web-watch.mjs --ping ;;
             preview) node scripts/web-watch.mjs --preview ;;
+            # 20件＋各ソース2件で約90回呼ぶので、この実行だけ上限を広げる（約 $0.006）
+            classify) JEV_MAX_CALLS=120 node scripts/web-watch.mjs --classify 20 ;;
             *)       node scripts/web-watch.mjs ;;
           esac
