@@ -429,12 +429,23 @@ const MINOR_MAX = 0.7;
 
 /*
  * 「AI に関する発表か」がこの確率を下回ったものは投稿しない（既読にだけする）。
- * 以前は 🔇 を付けて流していた線と同じ値。--classify で、
- * AFNJP が実際に記事にした発表がこの線で落ちないことを確かめること。
+ * 以前は 🔇 を付けて流していた線と同じ値。対象は mixed のソースだけ（isOffTopic を参照）。
+ *
+ * 2026-10-04 の --classify（見出し＋要約）の実測:
+ *   見送りになったのは IKEA×XBOX 2% / SQL Server 3% / Meta の人事 4% / Azure の設備 5% /
+ *   Cloudflare Stream 5% / Rebalancer 14% / Google Cloud の月次まとめ 18% など、いずれも AI 以外の話。
+ *   AI の話は 55% 以上に出た（GitHub Universe の講演紹介 55%、NVIDIA BlueField 81%）。
+ *   アーカイブ20件では2件が線を下回ったが、どちらも監視対象外のブログか、
+ *   同じ発表が別のソースから 96% で届くものだった。
+ * 監視先を増やしたら、同じコマンドで測り直すこと。
  */
 const AI_MIN = 0.4;
 
-/** 種類のラベルを付ける確信度の下限。下回ったらラベル自体を付けない */
+/**
+ * 種類のラベルを付ける確信度の下限。下回ったらラベル自体を付けない。
+ * 同じ実測で、記事側の種類（本文まで読んで付けたもの）との一致は 12〜13 / 20。
+ * 外れたものは「開発者向け」と「機能追加」のような隣り合う種類どうしだった。
+ */
 const KIND_MIN = 0.35;
 
 /**
@@ -637,10 +648,12 @@ function verdictOf(j) {
 
 /**
  * AI と関係の薄い新着か。取りこぼさない側に倒すため、次のものは除外しない。
+ *   - AI 専業の会社のソース（watch-sources.json で mixed が付いていないもの）。
+ *     何を出しても AI の話なので、判定を取り違えたときに落とす危険だけが残る
  *   - 判定が取れなかったもの
  *   - AI関連が低く出ても、重要度が 🔥 の線を超えているもの
  */
-const isOffTopic = j => Boolean(j) && j.isAiNews < AI_MIN
+const isOffTopic = (j, source) => Boolean(source?.mixed) && Boolean(j) && j.isAiNews < AI_MIN
     && !(j.importance !== null && j.importance >= IMPORTANT_MIN);
 
 /**
@@ -777,10 +790,11 @@ if (CLASSIFY) {
         const got = j.kindConfidence >= KIND_MIN ? j.kind : null;
         if (got) labeled++;
         if (got === post.kind) same++;
-        if (isOffTopic(j)) dropped++;
+        // アーカイブ側はソースが分からないので、mixed の扱いで（＝いちばん厳しい条件で）測る
+        if (isOffTopic(j, { mixed: true })) dropped++;
         ai.push(j.isAiNews);
         console.log(`${got === post.kind ? '✓' : '✗'} [${KIND_LABEL[got] ?? 'ラベルなし'} / 正解 ${KIND_LABEL[post.kind]}]`
-            + `  AI関連 ${(j.isAiNews * 100).toFixed(0)}%${isOffTopic(j) ? ' ← 除外されてしまう' : ''}`
+            + `  AI関連 ${(j.isAiNews * 100).toFixed(0)}%${isOffTopic(j, { mixed: true }) ? ' ← mixed のソースなら除外される' : ''}`
             + `  ${(title || post.source_url).slice(0, 60)}`);
     }
     ai.sort((a, b) => a - b);
@@ -807,7 +821,7 @@ if (CLASSIFY) {
             const j = await judge(item, source);
             if (!j) continue;
             const kind = kindOf(item, j);
-            console.log(`${isOffTopic(j) ? '🚫 見送り' : '   投稿  '} AI ${(j.isAiNews * 100).toFixed(0).padStart(3)}%`
+            console.log(`${isOffTopic(j, source) ? '🚫 見送り' : '   投稿  '} AI ${(j.isAiNews * 100).toFixed(0).padStart(3)}%`
                 + `  重要度 ${j.importance?.toFixed(1) ?? '−'}  [${kind ?? '−'}]  ${source.label}: ${(item.title || item.url).slice(0, 60)}`);
         }
     }
@@ -1070,7 +1084,7 @@ if (jev.enabled && needJudge.length) {
  * 既読にしないと、5分ごとに同じ新着を判定し直して課金が積み上がる。
  * 「投稿できたものだけ既読にする」原則の例外で、ここは意図して見送ったものだけが対象。
  */
-const skipped = targets.filter(t => isOffTopic(judged.get(t.item.url)));
+const skipped = targets.filter(t => isOffTopic(judged.get(t.item.url), t.source));
 for (const t of skipped) {
     const list = Array.isArray(state[t.source.id]) ? state[t.source.id] : [];
     state[t.source.id] = [t.item.url, ...list].slice(0, KEEP_PER_SOURCE);

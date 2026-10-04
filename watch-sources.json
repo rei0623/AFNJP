@@ -1,6 +1,7 @@
 {
   "_note": "公式ブログの新着を監視する対象。scripts/web-watch.mjs が読む。すべて実際に取得できることを確認済み（node scripts/web-watch.mjs --dry-run で再確認できる）。type は rss（フィードがある）か sitemap（無いので sitemap の差分で拾う）。include は sitemap のときにブログ記事のパスだけへ絞る正規表現。",
   "_大手は製品ごとにブログが分かれている": "Microsoft は Copilot / 365 / Research / DevBlogs / Windows、Google は blog.google / DeepMind / Developers / Research / Cloud、Anthropic は anthropic.com と claude.com が別。1社1フィードでは取りこぼす。",
+  "_mixed": "mixed: true は AI 以外の記事も出すブログ（Microsoft・Meta・Cloudflare など）。web-watch.mjs はこれらに限り、Jev が AI と関係が薄いと見た新着を投稿しない。AI 専業の会社（OpenAI・Anthropic など）は付けない。何を出しても AI の話なので、判定の取り違えで落とす危険だけが残るため。",
   "_未対応": {
     "xAI": "x.ai は Cloudflare のbot対策で 403 を返す。回避はしない方針のため対象外",
     "Meta AI (ai.meta.com)": "sitemap も RSS も無い。about.fb.com/news と engineering.fb.com で代替",
@@ -36,7 +37,8 @@
       "label": "Google",
       "category": "Google",
       "type": "rss",
-      "url": "https://blog.google/rss/"
+      "url": "https://blog.google/rss/",
+      "mixed": true
     },
     {
       "id": "deepmind",
@@ -50,28 +52,32 @@
       "label": "Google Developers",
       "category": "Google",
       "type": "rss",
-      "url": "https://developers.googleblog.com/feeds/posts/default"
+      "url": "https://developers.googleblog.com/feeds/posts/default",
+      "mixed": true
     },
     {
       "id": "google-research",
       "label": "Google Research",
       "category": "Google",
       "type": "rss",
-      "url": "https://research.google/blog/rss/"
+      "url": "https://research.google/blog/rss/",
+      "mixed": true
     },
     {
       "id": "google-cloud",
       "label": "Google Cloud",
       "category": "Google",
       "type": "rss",
-      "url": "https://cloudblog.withgoogle.com/rss/"
+      "url": "https://cloudblog.withgoogle.com/rss/",
+      "mixed": true
     },
     {
       "id": "microsoft",
       "label": "Microsoft",
       "category": "Microsoft",
       "type": "rss",
-      "url": "https://news.microsoft.com/source/feed/"
+      "url": "https://news.microsoft.com/source/feed/",
+      "mixed": true
     },
     {
       "id": "microsoft-copilot",
@@ -85,42 +91,48 @@
       "label": "Microsoft 365",
       "category": "Microsoft",
       "type": "rss",
-      "url": "https://www.microsoft.com/en-us/microsoft-365/blog/feed/"
+      "url": "https://www.microsoft.com/en-us/microsoft-365/blog/feed/",
+      "mixed": true
     },
     {
       "id": "microsoft-research",
       "label": "Microsoft Research",
       "category": "Microsoft",
       "type": "rss",
-      "url": "https://www.microsoft.com/en-us/research/feed/"
+      "url": "https://www.microsoft.com/en-us/research/feed/",
+      "mixed": true
     },
     {
       "id": "microsoft-devblogs",
       "label": "Microsoft DevBlogs",
       "category": "Microsoft",
       "type": "rss",
-      "url": "https://devblogs.microsoft.com/feed/"
+      "url": "https://devblogs.microsoft.com/feed/",
+      "mixed": true
     },
     {
       "id": "azure",
       "label": "Microsoft Azure",
       "category": "Microsoft",
       "type": "rss",
-      "url": "https://azure.microsoft.com/en-us/blog/feed/"
+      "url": "https://azure.microsoft.com/en-us/blog/feed/",
+      "mixed": true
     },
     {
       "id": "meta",
       "label": "Meta",
       "category": "Meta",
       "type": "rss",
-      "url": "https://about.fb.com/news/feed/"
+      "url": "https://about.fb.com/news/feed/",
+      "mixed": true
     },
     {
       "id": "meta-engineering",
       "label": "Meta Engineering",
       "category": "Meta",
       "type": "rss",
-      "url": "https://engineering.fb.com/feed/"
+      "url": "https://engineering.fb.com/feed/",
+      "mixed": true
     },
     {
       "id": "qwen",
@@ -172,7 +184,8 @@
       "label": "NVIDIA Developer",
       "category": "その他",
       "type": "rss",
-      "url": "https://developer.nvidia.com/blog/feed/"
+      "url": "https://developer.nvidia.com/blog/feed/",
+      "mixed": true
     },
     {
       "id": "aws-ml",
@@ -193,14 +206,16 @@
       "label": "GitHub",
       "category": "その他",
       "type": "rss",
-      "url": "https://github.blog/feed/"
+      "url": "https://github.blog/feed/",
+      "mixed": true
     },
     {
       "id": "cloudflare",
       "label": "Cloudflare",
       "category": "その他",
       "type": "rss",
-      "url": "https://blog.cloudflare.com/rss/"
+      "url": "https://blog.cloudflare.com/rss/",
+      "mixed": true
     },
     {
       "id": "together",
