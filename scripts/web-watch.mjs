@@ -185,6 +185,23 @@ const tagOf = (xml, name) => {
 
 /* ═══════════ アダプタ: RSS / Atom ═══════════ */
 
+/** 要約の上限。Jev に渡す state を伸ばしすぎないため（日本語なら3〜4文ぶん） */
+const SUMMARY_MAX = 320;
+
+/**
+ * フィードやページの説明文を、判定に渡せる短い平文にする。
+ * 見出しだけだと「Android skills」のように AI の話か読み取れないものがあるため、添えて渡す。
+ */
+function summaryOf(raw) {
+    if (!raw) return null;
+    const text = unescapeXml(String(raw).replace(/<!\[CDATA\[|\]\]>/g, ''))
+        .replace(/<[^>]+>/g, ' ')
+        .replace(/\s+/g, ' ')
+        .trim();
+    if (!text) return null;
+    return text.length > SUMMARY_MAX ? text.slice(0, SUMMARY_MAX - 1) + '…' : text;
+}
+
 function parseFeed(xml) {
     const out = [];
     // <item>（RSS 2.0）と <entry>（Atom）の両方を拾う
@@ -201,7 +218,8 @@ function parseFeed(xml) {
         }
 
         const date = tagOf(block, 'pubDate') || tagOf(block, 'published') || tagOf(block, 'updated');
-        if (title && link) out.push({ title, url: link, date, dateKind: 'published' });
+        const summary = summaryOf(tagOf(block, 'description') || tagOf(block, 'summary') || tagOf(block, 'content'));
+        if (title && link) out.push({ title, url: link, date, dateKind: 'published', summary });
     }
     return out;
 }
@@ -273,16 +291,30 @@ async function readSitemap(source) {
 }
 
 /** sitemap 由来の記事はタイトルが無いので、ページを1回だけ取って読む */
-async function titleOf(url) {
+/** <meta property="og:xxx"> / <meta name="xxx"> の content を、属性の順序に関係なく読む */
+function metaOf(html, key) {
+    const m = html.match(new RegExp(`<meta[^>]+(?:property|name)=["']${key}["'][^>]*content=["']([^"']+)["']`, 'i'))
+        || html.match(new RegExp(`<meta[^>]+content=["']([^"']+)["'][^>]*(?:property|name)=["']${key}["']`, 'i'));
+    return m ? unescapeXml(m[1]) : null;
+}
+
+/** ページを1回だけ取って、見出しと説明文を読む。sitemap 由来の新着に使う */
+async function pageInfo(url) {
     try {
         const html = await get(url);
-        const og = html.match(/<meta[^>]+property=["']og:title["'][^>]*content=["']([^"']+)["']/i)
-            || html.match(/<meta[^>]+content=["']([^"']+)["'][^>]*property=["']og:title["']/i);
-        if (og) return unescapeXml(og[1]);
-        const t = tagOf(html, 'title');
-        if (t) return t.split(/\s+[|｜–—-]\s+/)[0].trim() || t;
+        let title = metaOf(html, 'og:title');
+        if (!title) {
+            const t = tagOf(html, 'title');
+            if (t) title = t.split(/\s+[|｜–—-]\s+/)[0].trim() || t;
+        }
+        const summary = summaryOf(metaOf(html, 'og:description') || metaOf(html, 'description'));
+        return { title: title || null, summary };
     } catch { /* 取れなければ URL だけで出す */ }
-    return null;
+    return { title: null, summary: null };
+}
+
+async function titleOf(url) {
+    return (await pageInfo(url)).title;
 }
 
 /* ═══════════ 記事化ずみかの判定 ═══════════ */
@@ -421,7 +453,7 @@ async function judge(item, source) {
     const questions = {
         importance: jev.score(
             'この発表が、AIを日常的に追っている日本語読者にとってどれくらい重要か。'
-            + '`news.title` の内容で判断する',
+            + '`news.title` と `news.summary`（あれば）の内容で判断する',
             [
                 '些末。製品の細かな更新や告知で、知らなくても何も困らない',
                 '業界の人なら知っておいてもよい程度',
@@ -430,7 +462,7 @@ async function judge(item, source) {
                 '極めて重要。業界の前提が変わるレベルの発表',
             ],
         ),
-        is_ai_news: jev.noul('AI に関する発表・記事である', {
+        is_ai_news: jev.noul('AI に関する発表・記事である。`news.title` と `news.summary`（あれば）で判断する', {
             true: 'AIのモデル・製品・研究・企業動向・規制に関する内容',
             false: '採用情報、イベント告知、法務・規約の更新、AIと無関係な製品の話',
         }),
@@ -441,7 +473,7 @@ async function judge(item, source) {
         japan_relevant: jev.noul(
             '日本の読者に固有の関連性がある（国内企業・日本語対応・国内の規制など）'),
         kind: jev.choice(
-            'この発表は、どの種類にあたるか。`news.title` の内容で判断する。'
+            'この発表は、どの種類にあたるか。`news.title` と `news.summary`（あれば）の内容で判断する。'
             + '複数に当てはまるように見えるときは、発表の主題として最も中心にあるものを選ぶ',
             KINDS,
         ),
@@ -463,6 +495,7 @@ async function judge(item, source) {
     const answers = await jev.ask({
         news: {
             title: item.title || item.url,
+            summary: item.summary || null,
             url: item.url,
             publisher: source.label,
             date: item.date || null,
@@ -602,8 +635,13 @@ function verdictOf(j) {
     };
 }
 
-/** AI と関係の薄い新着か。判定が取れなかったものは除外しない（取りこぼさない側に倒す） */
-const isOffTopic = j => Boolean(j) && j.isAiNews < AI_MIN;
+/**
+ * AI と関係の薄い新着か。取りこぼさない側に倒すため、次のものは除外しない。
+ *   - 判定が取れなかったもの
+ *   - AI関連が低く出ても、重要度が 🔥 の線を超えているもの
+ */
+const isOffTopic = j => Boolean(j) && j.isAiNews < AI_MIN
+    && !(j.importance !== null && j.importance >= IMPORTANT_MIN);
 
 /**
  * 見出しの頭に付ける種類のラベル。
@@ -733,8 +771,8 @@ if (CLASSIFY) {
     let same = 0, dropped = 0, labeled = 0;
     const ai = [];
     for (const post of samples) {
-        const title = await titleOf(post.source_url);
-        const j = await judge({ title, url: post.source_url, date: post.date }, { label: post.source_label || '不明' });
+        const { title, summary } = await pageInfo(post.source_url);
+        const j = await judge({ title, summary, url: post.source_url, date: post.date }, { label: post.source_label || '不明' });
         if (!j) { console.log(`− 判定なし ${title}`); continue; }
         const got = j.kindConfidence >= KIND_MIN ? j.kind : null;
         if (got) labeled++;
@@ -761,7 +799,11 @@ if (CLASSIFY) {
                 : await readSitemap(source);
         } catch { continue; }
         for (const item of items.slice(0, per)) {
-            if (!item.title) item.title = await titleOf(item.url);
+            if (!item.title || !item.summary) {
+                const info = await pageInfo(item.url);
+                item.title ||= info.title;
+                item.summary ||= info.summary;
+            }
             const j = await judge(item, source);
             if (!j) continue;
             const kind = kindOf(item, j);
@@ -1002,7 +1044,10 @@ if (found.length > targets.length) {
 
 // sitemap 由来はタイトルが無いので、投稿するぶんだけ取りに行く
 for (const t of targets) {
-    if (!t.item.title) t.item.title = await titleOf(t.item.url);
+    if (t.item.title && t.item.summary) continue;
+    const info = await pageInfo(t.item.url);
+    t.item.title ||= info.title;
+    t.item.summary ||= info.summary;
 }
 
 /*
