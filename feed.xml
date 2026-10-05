@@ -5,8 +5,48 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 04 Oct 2026 05:19:47 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 05 Oct 2026 15:55:01 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>OpenAI、EU向けChatGPTに「見えない文字透かし」導入へ textGrainでAI生成文を識別</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1556696220863561860</link>
+      <guid isPermaLink="false">afnjp-1556696220863561860</guid>
+      <pubDate>Mon, 05 Oct 2026 15:55:01 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIは2026年10月5日、EU AI Actへの対応として、AI生成テキストを機械的に識別するための文字透かし技術「textGrain」を公開しました。今後数週間でEUのChatGPTとCodexの対象出力に透かしを導入するほか、API利用者には世…</description>
+    </item>
+    <item>
+      <title>ContextQA「Ship」登場、テストから原因分析まで担う自律型QAエンジニア</title>
+      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1556695905489653880</link>
+      <guid isPermaLink="false">afnjp-1556695905489653880</guid>
+      <pubDate>Mon, 05 Oct 2026 15:53:45 GMT</pubDate>
+      <category>その他</category>
+      <description>ContextQAは、ソフトウェア品質保証を自律的に進める「Ship」を公開しています。Shipは単なるテスト自動化ツールではなく、コード変更の影響分析、回帰テスト、バグ再現、原因調査、修正担当への引き渡しまでを一連のワークフローとして実行する「Autono…</description>
+    </item>
+    <item>
+      <title>Figure「Hark」今週公開へ、記憶と自律実行を統合するAIアシスタント</title>
+      <link>https://discord.com/channels/1415350002255007784/1415534435712897124/threads/1556672925908607036</link>
+      <guid isPermaLink="false">afnjp-1556672925908607036</guid>
+      <pubDate>Mon, 05 Oct 2026 14:22:27 GMT</pubDate>
+      <category>リーク情報</category>
+      <description>Figureが開発するAIアシスタント「Hark」が、2026年10月中にも公開される見通しです。開発中の情報からは、単なる対話型チャットボットではなく、ユーザーの記憶、メールやカレンダー、Web操作、定期タスクを統合し、必要な情報や作業を先回りして処理する…</description>
+    </item>
+    <item>
+      <title>Google、英・アイルランド65万人の教育者に無料AI研修を拡大</title>
+      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1556672630453567508</link>
+      <guid isPermaLink="false">afnjp-1556672630453567508</guid>
+      <pubDate>Mon, 05 Oct 2026 14:21:16 GMT</pubDate>
+      <category>google</category>
+      <description>Googleは、教育者向けAI研修「Google AI Educator Series」を英国とアイルランドの全65万人の教育者に拡大します。授業設計や事務作業、個別最適化などでAIを責任ある形で活用するためのデジタルリテラシーを、実践中心のカリキュラムで提…</description>
+    </item>
+    <item>
+      <title>ChatGPT広告が次段階へ、画像生成中のビジュアル広告と効果測定を強化</title>
+      <link>https://discord.com/channels/1415350002255007784/1415353131604377641/threads/1556627458558664714</link>
+      <guid isPermaLink="false">afnjp-1556627458558664714</guid>
+      <pubDate>Mon, 05 Oct 2026 11:21:46 GMT</pubDate>
+      <category>chatgpt</category>
+      <description>OpenAIは2026年10月5日、ChatGPT向け広告の新たなビジュアル形式と、広告効果測定・ブランドセーフティー機能の拡充を発表しました。画像生成というAI特有の利用体験に広告を組み込みながら、回答の独立性や会話のプライバシーを維持する設計が特徴です。</description>
+    </item>
     <item>
       <title>Aleph Alpha「Kolibri 1」公開、78B級MoEで長文推論とエージェント処理を効率化</title>
       <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1556173975124582411</link>
@@ -62,46 +102,6 @@
       <pubDate>Fri, 02 Oct 2026 21:27:12 GMT</pubDate>
       <category>open-ai</category>
       <description>OpenAIは2026年10月2日、GPT-6ファミリーを実際の開発・本番環境で活用するためのモデルガイドを公開しました。焦点は単なる高性能モデルの利用ではなく、モデル選択、推論量、キャッシュ、長時間タスク、自律操作の境界まで含めた「AIエージェントの運用設…</description>
-    </item>
-    <item>
-      <title>Google「Stitch CLI」登場、AIエージェントとUI設計をターミナルで直結</title>
-      <link>https://discord.com/channels/1415350002255007784/1418009722732154932/threads/1555545973701218334</link>
-      <guid isPermaLink="false">afnjp-1555545973701218334</guid>
-      <pubDate>Fri, 02 Oct 2026 11:44:20 GMT</pubDate>
-      <category>stitch</category>
-      <description>GoogleのStitchチームが、コマンドラインからStitchを操作できる「@google/stitch CLI」を発表しました。既存のStitch MCPやStitch SDKに加え、開発者がターミナルを起点にUI生成やデザインシステム操作、ローカル開…</description>
-    </item>
-    <item>
-      <title>Microsoft初のストリーミング音声認識「MAI-Transcribe-2-Streaming」、精度で首位</title>
-      <link>https://discord.com/channels/1415350002255007784/1432720743279497367/threads/1555545553868427334</link>
-      <guid isPermaLink="false">afnjp-1555545553868427334</guid>
-      <pubDate>Fri, 02 Oct 2026 11:42:40 GMT</pubDate>
-      <category>microsoft</category>
-      <description>Microsoft AIは2026年10月1日、リアルタイム音声認識モデル「MAI-Transcribe-2-Streaming」を発表しました。発話終了を待たずに文字列を返す設計が特徴で、Artificial Analysisのストリーミング音声認識評価で…</description>
-    </item>
-    <item>
-      <title>Claude Codeに「Mods」登場、TypeScriptでAIコーディング環境そのものを改造可能に</title>
-      <link>https://discord.com/channels/1415350002255007784/1415549165181599795/threads/1555545418698330142</link>
-      <guid isPermaLink="false">afnjp-1555545418698330142</guid>
-      <pubDate>Fri, 02 Oct 2026 11:42:08 GMT</pubDate>
-      <category>claude-code</category>
-      <description>Anthropicは2026年10月1日、Claude Codeの動作やUIをTypeScriptでカスタマイズできる新機能「Mods」を発表しました。プロンプトの書き換え、ツール実行の制御、権限判定、UI追加、組み込み機能の置き換えまで可能になり、Clau…</description>
-    </item>
-    <item>
-      <title>OpenDots公開、常時稼働する「AI同僚」を自前構築するオープンソース基盤</title>
-      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1555545313367031808</link>
-      <guid isPermaLink="false">afnjp-1555545313367031808</guid>
-      <pubDate>Fri, 02 Oct 2026 11:41:43 GMT</pubDate>
-      <category>その他</category>
-      <description>CopilotKitは、テキスト、音声通話、Slackをまたいで継続的に作業するAIエージェント環境「OpenDots」を公開しました。単なるチャットボットではなく、各AIエージェントに専用コンピューター、権限、作業領域を与え、人間の承認を挟みながら実務を進…</description>
-    </item>
-    <item>
-      <title>政府、AI社会実装を阻む規制・制度の情報募集へ</title>
-      <link>https://discord.com/channels/1415350002255007784/1417536105930166282/threads/1555545217178804254</link>
-      <guid isPermaLink="false">afnjp-1555545217178804254</guid>
-      <pubDate>Fri, 02 Oct 2026 11:41:20 GMT</pubDate>
-      <category>日本国内</category>
-      <description>内閣府、デジタル庁、経済産業省は、AIの開発・提供・利用を妨げている規制や制度について、具体的な情報を募集します。募集期間は2026年10月19日から10月30日17時までで、LLMからAIロボット、完全無人運転、AIドローンまで幅広いAI技術が対象です。</description>
     </item>
   </channel>
 </rss>

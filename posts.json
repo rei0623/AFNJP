@@ -1,8 +1,123 @@
 {
-  "generated_at": "2026-10-05T08:59:03.694Z",
+  "generated_at": "2026-10-05T18:23:56.069Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1556696220863561860",
+      "title": "OpenAI、EU向けChatGPTに「見えない文字透かし」導入へ textGrainでAI生成文を識別",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-10-05T15:55:01.071Z",
+      "excerpt": "OpenAIは2026年10月5日、EU AI Actへの対応として、AI生成テキストを機械的に識別するための文字透かし技術「textGrain」を公開しました。今後数週間でEUのChatGPTとCodexの対象出力に透かしを導入するほか、API利用者には世…",
+      "lead": "OpenAIは2026年10月5日、EU AI Actへの対応として、AI生成テキストを機械的に識別するための文字透かし技術「textGrain」を公開しました。今後数週間でEUのChatGPTとCodexの対象出力に透かしを導入するほか、API利用者には世界各地でオプトイン方式による提供を開始します。",
+      "headings": [
+        "単語選択に統計的な信号を埋め込む「textGrain」",
+        "AI生成判定は「作者判定」ではない",
+        "モデル性能への影響は限定的",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/eu-text-provenance/",
+      "source_urls": [
+        "https://openai.com/index/eu-text-provenance/"
+      ],
+      "source_label": "openai.com",
+      "cover": "assets/posts/1556696220863561860.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1556696220863561860",
+      "first_seen": "2026-10-05T15:55:01.071Z"
+    },
+    {
+      "id": "1556695905489653880",
+      "title": "ContextQA「Ship」登場、テストから原因分析まで担う自律型QAエンジニア",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-10-05T15:53:45.880Z",
+      "excerpt": "ContextQAは、ソフトウェア品質保証を自律的に進める「Ship」を公開しています。Shipは単なるテスト自動化ツールではなく、コード変更の影響分析、回帰テスト、バグ再現、原因調査、修正担当への引き渡しまでを一連のワークフローとして実行する「Autono…",
+      "lead": "ContextQAは、ソフトウェア品質保証を自律的に進める「Ship」を公開しています。Shipは単なるテスト自動化ツールではなく、コード変更の影響分析、回帰テスト、バグ再現、原因調査、修正担当への引き渡しまでを一連のワークフローとして実行する「Autonomous Quality Engineer」を掲げています。",
+      "headings": [
+        "PRから本番障害まで自動追跡",
+        "QAとAIコーディングエージェントを接続",
+        "コードベースそのものをQAの文脈として利用",
+        "数値を見る際には注意も必要",
+        "今後の展望"
+      ],
+      "source_url": "https://ship.contextqa.com/",
+      "source_urls": [
+        "https://ship.contextqa.com/"
+      ],
+      "source_label": "ship.contextqa.com",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1556695905489653880",
+      "first_seen": "2026-10-05T15:53:45.880Z"
+    },
+    {
+      "id": "1556672925908607036",
+      "title": "Figure「Hark」今週公開へ、記憶と自律実行を統合するAIアシスタント",
+      "channel": "リーク情報",
+      "category": "リーク情報",
+      "date": "2026-10-05T14:22:27.121Z",
+      "excerpt": "Figureが開発するAIアシスタント「Hark」が、2026年10月中にも公開される見通しです。開発中の情報からは、単なる対話型チャットボットではなく、ユーザーの記憶、メールやカレンダー、Web操作、定期タスクを統合し、必要な情報や作業を先回りして処理する…",
+      "lead": "Figureが開発するAIアシスタント「Hark」が、2026年10月中にも公開される見通しです。開発中の情報からは、単なる対話型チャットボットではなく、ユーザーの記憶、メールやカレンダー、Web操作、定期タスクを統合し、必要な情報や作業を先回りして処理する「パーソナルAI」を目指していることが分かります。",
+      "headings": [
+        "Harkは「会話するAI」から「常駐するAI」へ",
+        "ブラウザ操作を担う「Handoff」が基盤",
+        "複数AIモデルを使い分ける構成",
+        "今後の展望"
+      ],
+      "source_url": "https://www.testingcatalog.com/figure-plans-to-release-hark-ai-assistant-this-week/",
+      "source_urls": [
+        "https://www.testingcatalog.com/figure-plans-to-release-hark-ai-assistant-this-week/"
+      ],
+      "source_label": "testingcatalog.com",
+      "cover": "assets/posts/1556672925908607036.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415534435712897124/threads/1556672925908607036",
+      "first_seen": "2026-10-05T14:22:27.121Z"
+    },
+    {
+      "id": "1556672630453567508",
+      "title": "Google、英・アイルランド65万人の教育者に無料AI研修を拡大",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-10-05T14:21:16.679Z",
+      "excerpt": "Googleは、教育者向けAI研修「Google AI Educator Series」を英国とアイルランドの全65万人の教育者に拡大します。授業設計や事務作業、個別最適化などでAIを責任ある形で活用するためのデジタルリテラシーを、実践中心のカリキュラムで提…",
+      "lead": "Googleは、教育者向けAI研修「Google AI Educator Series」を英国とアイルランドの全65万人の教育者に拡大します。授業設計や事務作業、個別最適化などでAIを責任ある形で活用するためのデジタルリテラシーを、実践中心のカリキュラムで提供します。",
+      "headings": [
+        "教員が「AIを使いこなす側」になるための研修",
+        "米国600万人から世界へ拡大",
+        "AI導入はツールだけでなくガバナンスも対象",
+        "今後の展望"
+      ],
+      "source_url": "https://blog.google/products-and-platforms/products/education/making-ai-training-available-to-uk-and-ireland-educators/",
+      "source_urls": [
+        "https://blog.google/products-and-platforms/products/education/making-ai-training-available-to-uk-and-ireland-educators/"
+      ],
+      "source_label": "blog.google",
+      "cover": "assets/posts/1556672630453567508.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1556672630453567508",
+      "first_seen": "2026-10-05T14:21:16.679Z"
+    },
+    {
+      "id": "1556627458558664714",
+      "title": "ChatGPT広告が次段階へ、画像生成中のビジュアル広告と効果測定を強化",
+      "channel": "chatgpt",
+      "category": "Open AI",
+      "date": "2026-10-05T11:21:46.860Z",
+      "excerpt": "OpenAIは2026年10月5日、ChatGPT向け広告の新たなビジュアル形式と、広告効果測定・ブランドセーフティー機能の拡充を発表しました。画像生成というAI特有の利用体験に広告を組み込みながら、回答の独立性や会話のプライバシーを維持する設計が特徴です。",
+      "lead": "OpenAIは2026年10月5日、ChatGPT向け広告の新たなビジュアル形式と、広告効果測定・ブランドセーフティー機能の拡充を発表しました。画像生成というAI特有の利用体験に広告を組み込みながら、回答の独立性や会話のプライバシーを維持する設計が特徴です。",
+      "headings": [
+        "画像生成中に新しい広告フォーマットをテスト",
+        "コンバージョン計測を広告基盤へ統合",
+        "「会話」を広告掲載環境として評価",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement/",
+      "source_urls": [
+        "https://openai.com/index/new-chatgpt-ads-format-and-measurement/"
+      ],
+      "source_label": "openai.com",
+      "cover": "assets/posts/1556627458558664714.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415353131604377641/threads/1556627458558664714",
+      "first_seen": "2026-10-05T11:21:46.860Z"
+    },
     {
       "id": "1556173975124582411",
       "title": "Aleph Alpha「Kolibri 1」公開、78B級MoEで長文推論とエージェント処理を効率化",
@@ -180,133 +295,6 @@
       "first_seen": "2026-10-02T21:27:12.228Z",
       "kind": "tool",
       "kind_confidence": 0.88
-    },
-    {
-      "id": "1555545973701218334",
-      "title": "Google「Stitch CLI」登場、AIエージェントとUI設計をターミナルで直結",
-      "channel": "stitch",
-      "category": "Google",
-      "date": "2026-10-02T11:44:20.777Z",
-      "excerpt": "GoogleのStitchチームが、コマンドラインからStitchを操作できる「@google/stitch CLI」を発表しました。既存のStitch MCPやStitch SDKに加え、開発者がターミナルを起点にUI生成やデザインシステム操作、ローカル開…",
-      "lead": "GoogleのStitchチームが、コマンドラインからStitchを操作できる「@google/stitch CLI」を発表しました。既存のStitch MCPやStitch SDKに加え、開発者がターミナルを起点にUI生成やデザインシステム操作、ローカル開発環境との連携を進められる新たなインターフェースとなります。さらに、継続的な改善を自律化する実験的な「stitch loop」も公開されています。",
-      "headings": [
-        "StitchがCLIまで揃えた意味",
-        "ローカル画面をStitchへ戻す双方向フロー",
-        "「stitch loop」で継続改善をエージェント化",
-        "今後の展望"
-      ],
-      "source_url": "https://twitter.com/stitchbygoogle/status/2105695155164741984",
-      "source_urls": [
-        "https://twitter.com/stitchbygoogle/status/2105695155164741984",
-        "https://x.com/stitchbygoogle/status/2105695155164741984"
-      ],
-      "source_label": "twitter.com",
-      "cover": "assets/posts/1555545973701218334.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1418009722732154932/threads/1555545973701218334",
-      "first_seen": "2026-10-02T11:44:20.777Z",
-      "kind": "tool",
-      "kind_confidence": 0.99
-    },
-    {
-      "id": "1555545553868427334",
-      "title": "Microsoft初のストリーミング音声認識「MAI-Transcribe-2-Streaming」、精度で首位",
-      "channel": "microsoft",
-      "category": "Microsoft",
-      "date": "2026-10-02T11:42:40.681Z",
-      "excerpt": "Microsoft AIは2026年10月1日、リアルタイム音声認識モデル「MAI-Transcribe-2-Streaming」を発表しました。発話終了を待たずに文字列を返す設計が特徴で、Artificial Analysisのストリーミング音声認識評価で…",
-      "lead": "Microsoft AIは2026年10月1日、リアルタイム音声認識モデル「MAI-Transcribe-2-Streaming」を発表しました。発話終了を待たずに文字列を返す設計が特徴で、Artificial Analysisのストリーミング音声認識評価では、最終文字起こしと途中文字起こしの精度で1位を獲得しています。",
-      "headings": [
-        "100ms超で最初の文字列を生成",
-        "Artificial Analysisで精度1位",
-        "音声生成まで低遅延化",
-        "今後の展望"
-      ],
-      "source_url": "https://microsoft.ai/news/our-first-streaming-transcription-model/",
-      "source_urls": [
-        "https://microsoft.ai/news/our-first-streaming-transcription-model/"
-      ],
-      "source_label": "microsoft.ai",
-      "cover": "assets/posts/1555545553868427334.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1432720743279497367/threads/1555545553868427334",
-      "first_seen": "2026-10-02T11:42:40.681Z",
-      "kind": "model",
-      "kind_confidence": 1
-    },
-    {
-      "id": "1555545418698330142",
-      "title": "Claude Codeに「Mods」登場、TypeScriptでAIコーディング環境そのものを改造可能に",
-      "channel": "claude-code",
-      "category": "Anthropic",
-      "date": "2026-10-02T11:42:08.454Z",
-      "excerpt": "Anthropicは2026年10月1日、Claude Codeの動作やUIをTypeScriptでカスタマイズできる新機能「Mods」を発表しました。プロンプトの書き換え、ツール実行の制御、権限判定、UI追加、組み込み機能の置き換えまで可能になり、Clau…",
-      "lead": "Anthropicは2026年10月1日、Claude Codeの動作やUIをTypeScriptでカスタマイズできる新機能「Mods」を発表しました。プロンプトの書き換え、ツール実行の制御、権限判定、UI追加、組み込み機能の置き換えまで可能になり、Claude Codeを利用するだけでなく、開発者自身が拡張できる仕組みへと進化しています。",
-      "headings": [
-        "イベントを横取りしてClaude Codeの挙動を変更",
-        "「Hooks」より深い拡張ポイントへ",
-        "Claude自身にModを書かせることも可能",
-        "強力な一方、セキュリティには注意",
-        "今後の展望"
-      ],
-      "source_url": "https://claude.com/blog/claude-code-mods",
-      "source_urls": [
-        "https://claude.com/blog/claude-code-mods"
-      ],
-      "source_label": "claude.com",
-      "cover": "assets/posts/1555545418698330142.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1415549165181599795/threads/1555545418698330142",
-      "first_seen": "2026-10-02T11:42:08.454Z",
-      "kind": "feature",
-      "kind_confidence": 0.6
-    },
-    {
-      "id": "1555545313367031808",
-      "title": "OpenDots公開、常時稼働する「AI同僚」を自前構築するオープンソース基盤",
-      "channel": "その他",
-      "category": "その他",
-      "date": "2026-10-02T11:41:43.341Z",
-      "excerpt": "CopilotKitは、テキスト、音声通話、Slackをまたいで継続的に作業するAIエージェント環境「OpenDots」を公開しました。単なるチャットボットではなく、各AIエージェントに専用コンピューター、権限、作業領域を与え、人間の承認を挟みながら実務を進…",
-      "lead": "CopilotKitは、テキスト、音声通話、Slackをまたいで継続的に作業するAIエージェント環境「OpenDots」を公開しました。単なるチャットボットではなく、各AIエージェントに専用コンピューター、権限、作業領域を与え、人間の承認を挟みながら実務を進める構成が特徴です。MITライセンスで公開され、セルフホストにも対応します。",
-      "headings": [
-        "「Dot」ごとに役割とコンピューターを分離",
-        "AG-UIを中心にUIとエージェントを接続",
-        "人間の承認をワークフローに組み込む",
-        "Slack、音声、バックグラウンド作業にも対応",
-        "今後の展望"
-      ],
-      "source_url": "https://github.com/CopilotKit/OpenDots",
-      "source_urls": [
-        "https://github.com/CopilotKit/OpenDots"
-      ],
-      "source_label": "github.com",
-      "cover": "assets/posts/1555545313367031808.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1555545313367031808",
-      "first_seen": "2026-10-02T11:41:43.341Z",
-      "kind": "tool",
-      "kind_confidence": 1
-    },
-    {
-      "id": "1555545217178804254",
-      "title": "政府、AI社会実装を阻む規制・制度の情報募集へ",
-      "channel": "日本国内",
-      "category": "日本国内",
-      "date": "2026-10-02T11:41:20.408Z",
-      "excerpt": "内閣府、デジタル庁、経済産業省は、AIの開発・提供・利用を妨げている規制や制度について、具体的な情報を募集します。募集期間は2026年10月19日から10月30日17時までで、LLMからAIロボット、完全無人運転、AIドローンまで幅広いAI技術が対象です。",
-      "lead": "内閣府、デジタル庁、経済産業省は、AIの開発・提供・利用を妨げている規制や制度について、具体的な情報を募集します。募集期間は2026年10月19日から10月30日17時までで、LLMからAIロボット、完全無人運転、AIドローンまで幅広いAI技術が対象です。",
-      "headings": [
-        "AI前提の制度設計へ",
-        "LLMからフィジカルAIまで対象",
-        "今後の展望"
-      ],
-      "source_url": "https://www8.cao.go.jp/kisei-kaikaku/kisei/forms/261002_forms.html",
-      "source_urls": [
-        "https://www8.cao.go.jp/kisei-kaikaku/kisei/forms/261002_forms.html"
-      ],
-      "source_label": "www8.cao.go.jp",
-      "cover": "assets/posts/1555545217178804254.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1417536105930166282/threads/1555545217178804254",
-      "first_seen": "2026-10-02T11:41:20.408Z",
-      "kind": "policy",
-      "kind_confidence": 1
     }
   ]
 }
