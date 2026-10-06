@@ -20,6 +20,12 @@ GitHub Pages（main ブランチ直下から配信）
         各社の公式ブログの新着を Discord #一次情報ウォッチ へ流す
 ```
 
+**時刻どおりに起こしているのは Cloudflare Worker の cron。** GitHub の schedule は混雑すると
+数時間おきにしか動かない（実測で 3〜7時間おき）。`push-worker` の `scheduled()` が
+5分ごと・毎時17分に `workflow_dispatch` を叩いている。ワークフロー側の schedule は
+Worker が止まったときの予備として残してある。cron の式は `wrangler.toml` の `crons` と
+`worker.js` の `DISPATCH` のキーで**同じ文字列**にしておくこと。
+
 ## 絶対に守ること
 
 ### 1. 自動生成物を手で編集しない
@@ -50,7 +56,7 @@ posts/*.html  archive.html  feed.xml  sitemap.xml
 | 置き場所 | 中身 |
 |---|---|
 | GitHub Secrets | `DISCORD_BOT_TOKEN` / `PUSH_SEND_TOKEN` / `TYPESAFE_API_KEY` |
-| Cloudflare Worker Secrets | `VAPID_PUBLIC_KEY` / `VAPID_PRIVATE_KEY` / `VAPID_SUBJECT` / `SEND_TOKEN` |
+| Cloudflare Worker Secrets | `VAPID_PUBLIC_KEY` / `VAPID_PRIVATE_KEY` / `VAPID_SUBJECT` / `SEND_TOKEN` / `GH_DISPATCH_TOKEN` |
 
 `push-config.json` に入れてよいのは **Worker の URL だけ**。鍵は入れない
 (公開鍵すら書かない。Worker の `/key` から取る)。
