@@ -1,9 +1,337 @@
 {
-  "generated_at": "2026-10-06T07:31:53.332Z",
+  "generated_at": "2026-10-06T15:07:51.736Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 297,
+  "count": 310,
   "posts": [
+    {
+      "id": "1557043960067915816",
+      "title": "CohereとPwCが提携、機密データを守る「エンタープライズAI」の本番導入を加速",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-10-06T14:56:48.558Z",
+      "excerpt": "CohereとPwCは2026年10月5日、企業向けAIの導入を支援するグローバルアライアンスを発表しました。まずカナダで展開を開始し、AIの実証実験から本番運用への移行を支援します。焦点となるのは、機密データや既存システムへの接続、ガバナンスまで含めた「安…",
+      "lead": "CohereとPwCは2026年10月5日、企業向けAIの導入を支援するグローバルアライアンスを発表しました。まずカナダで展開を開始し、AIの実証実験から本番運用への移行を支援します。焦点となるのは、機密データや既存システムへの接続、ガバナンスまで含めた「安全に運用できるAI基盤」です。",
+      "headings": [
+        "CohereのAI基盤とPwCの企業変革支援を統合",
+        "検索から意思決定、業務自動化までを対象に",
+        "プライベートクラウドやオンプレミスにも対応",
+        "今後の展望"
+      ],
+      "source_url": "https://cohere.com/blog/cohere-and-pwc-partner-to-accelerate-secure-enterprise-ai-adoption",
+      "source_urls": [
+        "https://cohere.com/blog/cohere-and-pwc-partner-to-accelerate-secure-enterprise-ai-adoption"
+      ],
+      "source_label": "cohere.com",
+      "cover": "assets/posts/1557043960067915816.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1557043960067915816",
+      "first_seen": "2026-10-06T14:56:48.558Z",
+      "kind": "business",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1557043816618401945",
+      "title": "Mistral Large 4発表、1兆パラメータの欧州発オープンウェイトAI",
+      "channel": "mistral-ai",
+      "category": "その他",
+      "date": "2026-10-06T14:56:14.357Z",
+      "excerpt": "Mistral AIは2026年10月6日、次世代基盤モデル「Mistral Large 4（ML4）」のパブリックプレビューを開始しました。総パラメータ数は1兆、推論時に利用するアクティブパラメータは490億で、画像を扱えるネイティブ・マルチモーダルモデル…",
+      "lead": "Mistral AIは2026年10月6日、次世代基盤モデル「Mistral Large 4（ML4）」のパブリックプレビューを開始しました。総パラメータ数は1兆、推論時に利用するアクティブパラメータは490億で、画像を扱えるネイティブ・マルチモーダルモデルです。APIは既に利用可能で、モデルウェイトは10月末までに公開する計画です。0",
+      "headings": [
+        "1兆パラメータを効率化するMoE設計",
+        "コーディング、エージェント、サイバーを強化",
+        "大規模RLが性能向上の中核",
+        "企業にとっての意味",
+        "今後の展望"
+      ],
+      "source_url": "https://mistral.ai/news/mistral-large-4/",
+      "source_urls": [
+        "https://mistral.ai/news/mistral-large-4/"
+      ],
+      "source_label": "mistral.ai",
+      "cover": "assets/posts/1557043816618401945.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1460897850354438283/threads/1557043816618401945",
+      "first_seen": "2026-10-06T14:56:14.357Z",
+      "kind": "model",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1557036907463180318",
+      "title": "Anthropic、Claude Startupsの追加特典規約を施行 技術支援と外部サービス特典の責任範囲を明確化",
+      "channel": "anthropic",
+      "category": "Anthropic",
+      "date": "2026-10-06T14:28:47.086Z",
+      "excerpt": "Anthropicは2026年10月6日、「Claude Startups Program」で提供する追加特典に関する新たな規約「Claude Startups Additional Benefits Addendum」を発効しました。外部企業による割引・ク…",
+      "lead": "Anthropicは2026年10月6日、「Claude Startups Program」で提供する追加特典に関する新たな規約「Claude Startups Additional Benefits Addendum」を発効しました。外部企業による割引・クレジット、Applied AIチームによる技術支援、プロモーションクレジットなどを対象とし、利用条件や知的財産、責任範囲を明確化しています。",
+      "headings": [
+        "Startup Stackは第三者企業による特典",
+        "Applied AIチームによる技術支援も対象",
+        "スタートアップ側には規約管理が重要に",
+        "今後の展望"
+      ],
+      "source_url": "https://www.anthropic.com/legal/startup-program-addendum",
+      "source_urls": [
+        "https://www.anthropic.com/legal/startup-program-addendum"
+      ],
+      "source_label": "anthropic.com",
+      "cover": "assets/posts/1557036907463180318.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1557036907463180318",
+      "first_seen": "2026-10-06T14:28:47.086Z",
+      "kind": "policy",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1556986624468852827",
+      "title": "Tencent Cloud「Octop」公開、ローカル完結型のマルチエージェントAI基盤",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-10-06T11:08:58.686Z",
+      "excerpt": "Tencent CloudのGitHubで、オープンソースのセルフホスト型AIアシスタント「Octop」が公開されています。単なるチャットUIではなく、複数ユーザー、複数AIエージェント、RAG、ブラウザ操作、リモートデスクトップ、外部コーディングエージェン…",
+      "lead": "Tencent CloudのGitHubで、オープンソースのセルフホスト型AIアシスタント「Octop」が公開されています。単なるチャットUIではなく、複数ユーザー、複数AIエージェント、RAG、ブラウザ操作、リモートデスクトップ、外部コーディングエージェント連携までを1つの環境に統合する点が特徴です。",
+      "headings": [
+        "複数の専門AIを束ねる「AgentTeams」",
+        "Web、チャット、CLIを単一プロセスで統合",
+        "AIエージェントを「操作主体」へ拡張",
+        "セルフホストを重視した設計",
+        "今後の展望"
+      ],
+      "source_url": "https://github.com/TencentCloud/Octop",
+      "source_urls": [
+        "https://github.com/TencentCloud/Octop"
+      ],
+      "source_label": "github.com",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1556986624468852827",
+      "first_seen": "2026-10-06T11:08:58.686Z",
+      "kind": "tool",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1556986494235709591",
+      "title": "Cognitionが「Agent Memory Repo」公開、AIエージェントの記憶をGitで永続化",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-10-06T11:08:27.636Z",
+      "excerpt": "Cognitionは、AIエージェントがセッションをまたいで知識を保持・共有するための仕組み「Agent Memory Repo」を公開しました。会話履歴を単純に保存するのではなく、MarkdownやSQL、スクリプトなどをGitリポジトリとして管理し、エー…",
+      "lead": "Cognitionは、AIエージェントがセッションをまたいで知識を保持・共有するための仕組み「Agent Memory Repo」を公開しました。会話履歴を単純に保存するのではなく、MarkdownやSQL、スクリプトなどをGitリポジトリとして管理し、エージェント自身が検索・更新・整理する「知識ベース型メモリ」を実現します。",
+      "headings": [
+        "GitリポジトリをAIの長期記憶にする",
+        "「Dreaming」が記憶を自動整理",
+        "マルチエージェントの共有知識にも対応",
+        "今後の展望"
+      ],
+      "source_url": "https://cognition.com/agent-memory-repo",
+      "source_urls": [
+        "https://cognition.com/agent-memory-repo"
+      ],
+      "source_label": "cognition.com",
+      "cover": "assets/posts/1556986494235709591.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1556986494235709591",
+      "first_seen": "2026-10-06T11:08:27.636Z",
+      "kind": "tool",
+      "kind_confidence": 0.96
+    },
+    {
+      "id": "1556986330293207071",
+      "title": "Meltype v1.0.1公開、Mac・Windowsの不具合修正とプライバシー改善を実施",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-10-06T11:07:48.549Z",
+      "excerpt": "日本語入力を支援するMeltypeのv1.0.1が10月6日に公開されました。初回公開後に寄せられた報告を反映した修正版で、Mac版のクラッシュ、Windows版の文字消失や重複入力、英単語判定、ログのプライバシー問題など、実利用に直結する修正が幅広く含まれ…",
+      "lead": "日本語入力を支援するMeltypeのv1.0.1が10月6日に公開されました。初回公開後に寄せられた報告を反映した修正版で、Mac版のクラッシュ、Windows版の文字消失や重複入力、英単語判定、ログのプライバシー問題など、実利用に直結する修正が幅広く含まれています。Windows版は自動更新に対応しています。",
+      "headings": [
+        "Mac版はクラッシュと導入時の問題を重点修正",
+        "Windows版はアプリ間の入力互換性を改善",
+        "英単語判定と新設定を追加",
+        "ログのプライバシー問題も修正",
+        "今後の展望"
+      ],
+      "source_url": "https://github.com/yksr-melt/Meltype/releases/tag/v1.0.1",
+      "source_urls": [
+        "https://github.com/yksr-melt/Meltype/releases/tag/v1.0.1"
+      ],
+      "source_label": "github.com",
+      "cover": "assets/posts/1556986330293207071.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1556986330293207071",
+      "first_seen": "2026-10-06T11:07:48.549Z",
+      "kind": "model",
+      "kind_confidence": 0.82
+    },
+    {
+      "id": "1556986240291831848",
+      "title": "Google DriveとDocsがMarkdownをネイティブ対応、AI時代の共同編集基盤へ",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-10-06T11:07:27.091Z",
+      "excerpt": "Googleは、Google DriveとGoogleドキュメントでMarkdownファイルをネイティブに扱える新機能を発表しました。.md／.markdownファイルをGoogleドキュメント形式へ変換することなく、そのまま表示・編集・コメント・共同編集で…",
+      "lead": "Googleは、Google DriveとGoogleドキュメントでMarkdownファイルをネイティブに扱える新機能を発表しました。.md／.markdownファイルをGoogleドキュメント形式へ変換することなく、そのまま表示・編集・コメント・共同編集できるようになります。",
+      "headings": [
+        "Markdownを変換せず直接編集",
+        "Driveではレンダリング済みプレビューに対応",
+        "AIエージェントとの連携を意識した設計",
+        "提供対象と展開時期",
+        "今後の展望"
+      ],
+      "source_url": "https://workspaceupdates.googleblog.com/2026/10/preview-edit-and-collaborate-on-Markdown-files-natively-across-Drive-and-Docs.html?m=1",
+      "source_urls": [
+        "https://workspaceupdates.googleblog.com/2026/10/preview-edit-and-collaborate-on-Markdown-files-natively-across-Drive-and-Docs.html?m=1"
+      ],
+      "source_label": "workspaceupdates.googleblog.com",
+      "cover": "assets/posts/1556986240291831848.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1556986240291831848",
+      "first_seen": "2026-10-06T11:07:27.091Z",
+      "kind": "feature",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1556986103116992533",
+      "title": "OpenAI、Codexに「Auto-review」導入 AIがAIの危険操作を審査",
+      "channel": "codex",
+      "category": "Open AI",
+      "date": "2026-10-06T11:06:54.386Z",
+      "excerpt": "OpenAIは、コーディングエージェント「Codex」がサンドボックス外の操作を実行しようとした際、人間の代わりに別のAIエージェントが許可・拒否を判断する「Auto-review」の仕組みを公開しました。人間による同期的な承認を大幅に減らしつつ、データ流出…",
+      "lead": "OpenAIは、コーディングエージェント「Codex」がサンドボックス外の操作を実行しようとした際、人間の代わりに別のAIエージェントが許可・拒否を判断する「Auto-review」の仕組みを公開しました。人間による同期的な承認を大幅に減らしつつ、データ流出や危険なコード実行などを防ぐことが狙いです。",
+      "headings": [
+        "人間の承認を別のAIが代替",
+        "承認待ちは約200分の1に",
+        "「AIによる監視」は万能ではない",
+        "今後の展望"
+      ],
+      "source_url": "https://alignment.openai.com/auto-review/",
+      "source_urls": [
+        "https://alignment.openai.com/auto-review/"
+      ],
+      "source_label": "alignment.openai.com",
+      "url": "https://discord.com/channels/1415350002255007784/1415355102939578490/threads/1556986103116992533",
+      "first_seen": "2026-10-06T11:06:54.386Z",
+      "kind": "feature",
+      "kind_confidence": 0.93
+    },
+    {
+      "id": "1556984213436239944",
+      "title": "Google Cloud Modernize発表、AIエージェントで企業IT刷新を一気通貫",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-10-06T10:59:23.851Z",
+      "excerpt": "Google Cloudは2026年10月5日、企業のクラウド移行とアプリケーション刷新を統合する「Google Cloud Modernize」を発表しました。インフラ評価、基盤移行、Java・.NET・メインフレームの近代化までをAIエージェントで支援し…",
+      "lead": "Google Cloudは2026年10月5日、企業のクラウド移行とアプリケーション刷新を統合する「Google Cloud Modernize」を発表しました。インフラ評価、基盤移行、Java・.NET・メインフレームの近代化までをAIエージェントで支援し、従来は長期化しやすかった変革計画を短縮する狙いです。",
+      "headings": [
+        "評価から移行までをAIでつなぐ",
+        "AI時代を前提にインフラも強化",
+        "レガシーアプリの解析と安全な切り替え",
+        "今後の展望"
+      ],
+      "source_url": "https://cloud.google.com/blog/products/infrastructure-modernization/google-cloud-modernize-accelerate-transformation-with-ai/?hl=en",
+      "source_urls": [
+        "https://cloud.google.com/blog/products/infrastructure-modernization/google-cloud-modernize-accelerate-transformation-with-ai/?hl=en"
+      ],
+      "source_label": "cloud.google.com",
+      "cover": "assets/posts/1556984213436239944.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1556984213436239944",
+      "first_seen": "2026-10-06T10:59:23.851Z",
+      "kind": "tool",
+      "kind_confidence": 0.63
+    },
+    {
+      "id": "1556984049011134506",
+      "title": "Amazon Quick、開発から本番へのAI資源移行を自動化",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-10-06T10:58:44.649Z",
+      "excerpt": "AWSは2026年10月5日、Amazon Quickで作成したAIエージェントやナレッジベースなどを、開発用AWSアカウントから本番環境へ安全に昇格させる「Quick Resource Migrator」の実装例を公開しました。Model Context …",
+      "lead": "AWSは2026年10月5日、Amazon Quickで作成したAIエージェントやナレッジベースなどを、開発用AWSアカウントから本番環境へ安全に昇格させる「Quick Resource Migrator」の実装例を公開しました。Model Context Protocol（MCP）とAmazon Bedrock AgentCoreを組み合わせ、これまで手作業だったクロスアカウント移行を、再実行可能かつ監査可能なプロセスへ変える仕組みです。",
+      "headings": [
+        "AIエージェントにも「DevからProd」の仕組み",
+        "MCPとAgentCoreでクロスアカウント移行",
+        "プレビュー、監査、ロールバックまで統合",
+        "今後の展望"
+      ],
+      "source_url": "https://aws.amazon.com/jp/blogs/machine-learning/making-amazon-quick-enterprise-ready-automated-auditable-cross-account-resource-promotion/",
+      "source_urls": [
+        "https://aws.amazon.com/jp/blogs/machine-learning/making-amazon-quick-enterprise-ready-automated-auditable-cross-account-resource-promotion/"
+      ],
+      "source_label": "aws.amazon.com",
+      "cover": "assets/posts/1556984049011134506.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1556984049011134506",
+      "first_seen": "2026-10-06T10:58:44.649Z",
+      "kind": "tool",
+      "kind_confidence": 0.66
+    },
+    {
+      "id": "1556983950352850955",
+      "title": "Falcon-Emirati-7B登場、UAE方言と文化理解に特化した7B言語モデル",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-10-06T10:58:21.127Z",
+      "excerpt": "UAEのTechnology Innovation Instituteは、アラブ首長国連邦で使われるエミラティ方言に特化した大規模言語モデル「Falcon-Emirati-7B」を公開しました。標準アラビア語を理解するだけでなく、方言特有の語彙、表現、詩、慣…",
+      "lead": "UAEのTechnology Innovation Instituteは、アラブ首長国連邦で使われるエミラティ方言に特化した大規模言語モデル「Falcon-Emirati-7B」を公開しました。標準アラビア語を理解するだけでなく、方言特有の語彙、表現、詩、慣習などの文化的文脈まで扱うことを狙ったモデルです。",
+      "headings": [
+        "MambaとTransformerを組み合わせた7Bモデル",
+        "方言学習では「文化」もデータ化",
+        "方言ベンチマークで84.83%",
+        "専門LLMが示す「規模以外」の競争軸",
+        "今後の展望"
+      ],
+      "source_url": "https://huggingface.co/blog/tiiuae/falcon-emirati",
+      "source_urls": [
+        "https://huggingface.co/blog/tiiuae/falcon-emirati"
+      ],
+      "source_label": "huggingface.co",
+      "cover": "assets/posts/1556983950352850955.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1556983950352850955",
+      "first_seen": "2026-10-06T10:58:21.127Z",
+      "kind": "model",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1556983812741791754",
+      "title": "AWS、コーディングエージェントをSageMaker推論最適化の専門家にする新スキル",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-10-06T10:57:48.318Z",
+      "excerpt": "AWSは2026年10月5日、Amazon SageMaker AIの生成AI推論を最適化するエージェントスキル「aws-ai-ml」を発表しました。Kiro、Claude Code、CodexなどのMCP対応コーディングエージェントから、自然言語でベンチマ…",
+      "lead": "AWSは2026年10月5日、Amazon SageMaker AIの生成AI推論を最適化するエージェントスキル「aws-ai-ml」を発表しました。Kiro、Claude Code、CodexなどのMCP対応コーディングエージェントから、自然言語でベンチマークやインスタンス選定、性能比較を実行するためのコードを生成できます。",
+      "headings": [
+        "推論最適化を自然言語から実行",
+        "実測データから構成を選択",
+        "AIエージェントがインフラ設計へ進出",
+        "今後の展望"
+      ],
+      "source_url": "https://aws.amazon.com/jp/blogs/machine-learning/new-agent-skill-amazon-sagemaker-optimized-generative-ai-inference-for-your-coding-agent/",
+      "source_urls": [
+        "https://aws.amazon.com/jp/blogs/machine-learning/new-agent-skill-amazon-sagemaker-optimized-generative-ai-inference-for-your-coding-agent/"
+      ],
+      "source_label": "aws.amazon.com",
+      "cover": "assets/posts/1556983812741791754.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1556983812741791754",
+      "first_seen": "2026-10-06T10:57:48.318Z",
+      "kind": "tool",
+      "kind_confidence": 0.68
+    },
+    {
+      "id": "1556983689982771310",
+      "title": "Claude CodeがAWS GovCloudへ、規制産業のAI開発を加速",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-10-06T10:57:19.050Z",
+      "excerpt": "AWSは2026年10月5日、AWS GovCloud（US）上のAmazon BedrockでClaude Opus 5.5とClaude Sonnet 5.5を利用し、Claude CodeによるAI支援開発を規制・コンプライアンス要件の厳しい環境へ導入…",
+      "lead": "AWSは2026年10月5日、AWS GovCloud（US）上のAmazon BedrockでClaude Opus 5.5とClaude Sonnet 5.5を利用し、Claude CodeによるAI支援開発を規制・コンプライアンス要件の厳しい環境へ導入する方法を公開しました。政府、防衛、航空宇宙など、生成AIの利用に強い統制が求められる組織にとって重要な選択肢となります。",
+      "headings": [
+        "Claude Codeを規制環境で利用可能に",
+        "Bedrockには2種類の接続方式",
+        "企業導入では認証・コスト管理も重要",
+        "今後の展望"
+      ],
+      "source_url": "https://aws.amazon.com/jp/blogs/machine-learning/supercharge-regulated-workloads-with-claude-code-and-amazon-bedrock/",
+      "source_urls": [
+        "https://aws.amazon.com/jp/blogs/machine-learning/supercharge-regulated-workloads-with-claude-code-and-amazon-bedrock/"
+      ],
+      "source_label": "aws.amazon.com",
+      "cover": "assets/posts/1556983689982771310.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1556983689982771310",
+      "first_seen": "2026-10-06T10:57:19.050Z",
+      "kind": "feature",
+      "kind_confidence": 0.91
+    },
     {
       "id": "1556696220863561860",
       "title": "OpenAI、EU向けChatGPTに「見えない文字透かし」導入へ textGrainでAI生成文を識別",

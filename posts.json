@@ -1,310 +1,286 @@
 {
-  "generated_at": "2026-10-06T07:31:53.334Z",
+  "generated_at": "2026-10-06T15:07:51.739Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
     {
-      "id": "1556696220863561860",
-      "title": "OpenAI、EU向けChatGPTに「見えない文字透かし」導入へ textGrainでAI生成文を識別",
-      "channel": "open-ai",
-      "category": "Open AI",
-      "date": "2026-10-05T15:55:01.071Z",
-      "excerpt": "OpenAIは2026年10月5日、EU AI Actへの対応として、AI生成テキストを機械的に識別するための文字透かし技術「textGrain」を公開しました。今後数週間でEUのChatGPTとCodexの対象出力に透かしを導入するほか、API利用者には世…",
-      "lead": "OpenAIは2026年10月5日、EU AI Actへの対応として、AI生成テキストを機械的に識別するための文字透かし技術「textGrain」を公開しました。今後数週間でEUのChatGPTとCodexの対象出力に透かしを導入するほか、API利用者には世界各地でオプトイン方式による提供を開始します。",
-      "headings": [
-        "単語選択に統計的な信号を埋め込む「textGrain」",
-        "AI生成判定は「作者判定」ではない",
-        "モデル性能への影響は限定的",
-        "今後の展望"
-      ],
-      "source_url": "https://openai.com/index/eu-text-provenance/",
-      "source_urls": [
-        "https://openai.com/index/eu-text-provenance/"
-      ],
-      "source_label": "openai.com",
-      "cover": "assets/posts/1556696220863561860.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1556696220863561860",
-      "first_seen": "2026-10-05T15:55:01.071Z",
-      "kind": "feature",
-      "kind_confidence": 0.71
-    },
-    {
-      "id": "1556695905489653880",
-      "title": "ContextQA「Ship」登場、テストから原因分析まで担う自律型QAエンジニア",
+      "id": "1557043960067915816",
+      "title": "CohereとPwCが提携、機密データを守る「エンタープライズAI」の本番導入を加速",
       "channel": "その他",
       "category": "その他",
-      "date": "2026-10-05T15:53:45.880Z",
-      "excerpt": "ContextQAは、ソフトウェア品質保証を自律的に進める「Ship」を公開しています。Shipは単なるテスト自動化ツールではなく、コード変更の影響分析、回帰テスト、バグ再現、原因調査、修正担当への引き渡しまでを一連のワークフローとして実行する「Autono…",
-      "lead": "ContextQAは、ソフトウェア品質保証を自律的に進める「Ship」を公開しています。Shipは単なるテスト自動化ツールではなく、コード変更の影響分析、回帰テスト、バグ再現、原因調査、修正担当への引き渡しまでを一連のワークフローとして実行する「Autonomous Quality Engineer」を掲げています。",
+      "date": "2026-10-06T14:56:48.558Z",
+      "excerpt": "CohereとPwCは2026年10月5日、企業向けAIの導入を支援するグローバルアライアンスを発表しました。まずカナダで展開を開始し、AIの実証実験から本番運用への移行を支援します。焦点となるのは、機密データや既存システムへの接続、ガバナンスまで含めた「安…",
+      "lead": "CohereとPwCは2026年10月5日、企業向けAIの導入を支援するグローバルアライアンスを発表しました。まずカナダで展開を開始し、AIの実証実験から本番運用への移行を支援します。焦点となるのは、機密データや既存システムへの接続、ガバナンスまで含めた「安全に運用できるAI基盤」です。",
       "headings": [
-        "PRから本番障害まで自動追跡",
-        "QAとAIコーディングエージェントを接続",
-        "コードベースそのものをQAの文脈として利用",
-        "数値を見る際には注意も必要",
+        "CohereのAI基盤とPwCの企業変革支援を統合",
+        "検索から意思決定、業務自動化までを対象に",
+        "プライベートクラウドやオンプレミスにも対応",
         "今後の展望"
       ],
-      "source_url": "https://ship.contextqa.com/",
+      "source_url": "https://cohere.com/blog/cohere-and-pwc-partner-to-accelerate-secure-enterprise-ai-adoption",
       "source_urls": [
-        "https://ship.contextqa.com/"
+        "https://cohere.com/blog/cohere-and-pwc-partner-to-accelerate-secure-enterprise-ai-adoption"
       ],
-      "source_label": "ship.contextqa.com",
-      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1556695905489653880",
-      "first_seen": "2026-10-05T15:53:45.880Z",
-      "kind": "tool",
-      "kind_confidence": 0.95
+      "source_label": "cohere.com",
+      "cover": "assets/posts/1557043960067915816.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1557043960067915816",
+      "first_seen": "2026-10-06T14:56:48.558Z"
     },
     {
-      "id": "1556672925908607036",
-      "title": "Figure「Hark」今週公開へ、記憶と自律実行を統合するAIアシスタント",
-      "channel": "リーク情報",
-      "category": "リーク情報",
-      "date": "2026-10-05T14:22:27.121Z",
-      "excerpt": "Figureが開発するAIアシスタント「Hark」が、2026年10月中にも公開される見通しです。開発中の情報からは、単なる対話型チャットボットではなく、ユーザーの記憶、メールやカレンダー、Web操作、定期タスクを統合し、必要な情報や作業を先回りして処理する…",
-      "lead": "Figureが開発するAIアシスタント「Hark」が、2026年10月中にも公開される見通しです。開発中の情報からは、単なる対話型チャットボットではなく、ユーザーの記憶、メールやカレンダー、Web操作、定期タスクを統合し、必要な情報や作業を先回りして処理する「パーソナルAI」を目指していることが分かります。",
-      "headings": [
-        "Harkは「会話するAI」から「常駐するAI」へ",
-        "ブラウザ操作を担う「Handoff」が基盤",
-        "複数AIモデルを使い分ける構成",
-        "今後の展望"
-      ],
-      "source_url": "https://www.testingcatalog.com/figure-plans-to-release-hark-ai-assistant-this-week/",
-      "source_urls": [
-        "https://www.testingcatalog.com/figure-plans-to-release-hark-ai-assistant-this-week/"
-      ],
-      "source_label": "testingcatalog.com",
-      "cover": "assets/posts/1556672925908607036.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1415534435712897124/threads/1556672925908607036",
-      "first_seen": "2026-10-05T14:22:27.121Z",
-      "kind": "model",
-      "kind_confidence": 0.87
-    },
-    {
-      "id": "1556672630453567508",
-      "title": "Google、英・アイルランド65万人の教育者に無料AI研修を拡大",
-      "channel": "google",
-      "category": "Google",
-      "date": "2026-10-05T14:21:16.679Z",
-      "excerpt": "Googleは、教育者向けAI研修「Google AI Educator Series」を英国とアイルランドの全65万人の教育者に拡大します。授業設計や事務作業、個別最適化などでAIを責任ある形で活用するためのデジタルリテラシーを、実践中心のカリキュラムで提…",
-      "lead": "Googleは、教育者向けAI研修「Google AI Educator Series」を英国とアイルランドの全65万人の教育者に拡大します。授業設計や事務作業、個別最適化などでAIを責任ある形で活用するためのデジタルリテラシーを、実践中心のカリキュラムで提供します。",
-      "headings": [
-        "教員が「AIを使いこなす側」になるための研修",
-        "米国600万人から世界へ拡大",
-        "AI導入はツールだけでなくガバナンスも対象",
-        "今後の展望"
-      ],
-      "source_url": "https://blog.google/products-and-platforms/products/education/making-ai-training-available-to-uk-and-ireland-educators/",
-      "source_urls": [
-        "https://blog.google/products-and-platforms/products/education/making-ai-training-available-to-uk-and-ireland-educators/"
-      ],
-      "source_label": "blog.google",
-      "cover": "assets/posts/1556672630453567508.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1556672630453567508",
-      "first_seen": "2026-10-05T14:21:16.679Z",
-      "kind": "feature",
-      "kind_confidence": 0.99
-    },
-    {
-      "id": "1556627458558664714",
-      "title": "ChatGPT広告が次段階へ、画像生成中のビジュアル広告と効果測定を強化",
-      "channel": "chatgpt",
-      "category": "Open AI",
-      "date": "2026-10-05T11:21:46.860Z",
-      "excerpt": "OpenAIは2026年10月5日、ChatGPT向け広告の新たなビジュアル形式と、広告効果測定・ブランドセーフティー機能の拡充を発表しました。画像生成というAI特有の利用体験に広告を組み込みながら、回答の独立性や会話のプライバシーを維持する設計が特徴です。",
-      "lead": "OpenAIは2026年10月5日、ChatGPT向け広告の新たなビジュアル形式と、広告効果測定・ブランドセーフティー機能の拡充を発表しました。画像生成というAI特有の利用体験に広告を組み込みながら、回答の独立性や会話のプライバシーを維持する設計が特徴です。",
-      "headings": [
-        "画像生成中に新しい広告フォーマットをテスト",
-        "コンバージョン計測を広告基盤へ統合",
-        "「会話」を広告掲載環境として評価",
-        "今後の展望"
-      ],
-      "source_url": "https://openai.com/index/new-chatgpt-ads-format-and-measurement/",
-      "source_urls": [
-        "https://openai.com/index/new-chatgpt-ads-format-and-measurement/"
-      ],
-      "source_label": "openai.com",
-      "cover": "assets/posts/1556627458558664714.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1415353131604377641/threads/1556627458558664714",
-      "first_seen": "2026-10-05T11:21:46.860Z",
-      "kind": "feature",
-      "kind_confidence": 0.99
-    },
-    {
-      "id": "1556173975124582411",
-      "title": "Aleph Alpha「Kolibri 1」公開、78B級MoEで長文推論とエージェント処理を効率化",
-      "channel": "その他",
+      "id": "1557043816618401945",
+      "title": "Mistral Large 4発表、1兆パラメータの欧州発オープンウェイトAI",
+      "channel": "mistral-ai",
       "category": "その他",
-      "date": "2026-10-04T05:19:47.984Z",
-      "excerpt": "独Aleph Alphaは2026年10月3日、推論モデル「Kolibri 1」を公開しました。総パラメータ数は約780億ながら、Mixture-of-Experts（MoE）構成によって1トークン当たり約34.6億パラメータのみを利用します。ドイツ語と英語…",
-      "lead": "独Aleph Alphaは2026年10月3日、推論モデル「Kolibri 1」を公開しました。総パラメータ数は約780億ながら、Mixture-of-Experts（MoE）構成によって1トークン当たり約34.6億パラメータのみを利用します。ドイツ語と英語に重点を置き、長文処理、推論、コーディング、RAG、ツール呼び出しを企業向けに統合したモデルです。",
+      "date": "2026-10-06T14:56:14.357Z",
+      "excerpt": "Mistral AIは2026年10月6日、次世代基盤モデル「Mistral Large 4（ML4）」のパブリックプレビューを開始しました。総パラメータ数は1兆、推論時に利用するアクティブパラメータは490億で、画像を扱えるネイティブ・マルチモーダルモデル…",
+      "lead": "Mistral AIは2026年10月6日、次世代基盤モデル「Mistral Large 4（ML4）」のパブリックプレビューを開始しました。総パラメータ数は1兆、推論時に利用するアクティブパラメータは490億で、画像を扱えるネイティブ・マルチモーダルモデルです。APIは既に利用可能で、モデルウェイトは10月末までに公開する計画です。0",
       "headings": [
-        "78Bを保持しながら実際の計算量は3.46B級",
-        "最大104万トークン、実用上は26万トークン以下を推奨",
-        "推論・コード・エージェント処理を重視",
-        "Apache 2.0で公開、企業内運用も視野",
+        "1兆パラメータを効率化するMoE設計",
+        "コーディング、エージェント、サイバーを強化",
+        "大規模RLが性能向上の中核",
+        "企業にとっての意味",
         "今後の展望"
       ],
-      "source_url": "https://huggingface.co/Aleph-Alpha/Kolibri-1",
+      "source_url": "https://mistral.ai/news/mistral-large-4/",
       "source_urls": [
-        "https://huggingface.co/Aleph-Alpha/Kolibri-1"
+        "https://mistral.ai/news/mistral-large-4/"
       ],
-      "source_label": "huggingface.co",
-      "cover": "assets/posts/1556173975124582411.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1556173975124582411",
-      "first_seen": "2026-10-04T05:19:47.984Z",
-      "kind": "model",
-      "kind_confidence": 1
+      "source_label": "mistral.ai",
+      "cover": "assets/posts/1557043816618401945.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1460897850354438283/threads/1557043816618401945",
+      "first_seen": "2026-10-06T14:56:14.357Z"
     },
     {
-      "id": "1555745876889047061",
-      "title": "Android CLIが実機を直接操作、AIエージェントのAndroid開発が「コード生成」から「実機検証」へ",
-      "channel": "google",
-      "category": "Google",
-      "date": "2026-10-03T00:58:41.411Z",
-      "excerpt": "GoogleはAndroid CLIを拡張し、AIエージェントからAndroid Device Streamingを通じてクラウド上の実機へアクセスできるようにしました。さらに、Android固有の開発知識をAIへ与える「Android skills」も20…",
-      "lead": "GoogleはAndroid CLIを拡張し、AIエージェントからAndroid Device Streamingを通じてクラウド上の実機へアクセスできるようにしました。さらに、Android固有の開発知識をAIへ与える「Android skills」も20種類以上へ拡大しています。AIによるAndroid開発は、コードを書く段階から実機上でビルド、検証、デバッグする段階へ進みつつあります。",
-      "headings": [
-        "CLIからリモート実機を操作",
-        "Android skillsでLLMの知識不足を補完",
-        "Wear OSでは専用知識の効果も",
-        "今後の展望"
-      ],
-      "source_url": "https://android-developers.googleblog.com/2026/10/android-cli-device-streaming-and-skills.html?m=1",
-      "source_urls": [
-        "https://android-developers.googleblog.com/2026/10/android-cli-device-streaming-and-skills.html?m=1"
-      ],
-      "source_label": "android-developers.googleblog.com",
-      "cover": "assets/posts/1555745876889047061.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1555745876889047061",
-      "first_seen": "2026-10-03T00:58:41.411Z",
-      "kind": "tool",
-      "kind_confidence": 0.9
-    },
-    {
-      "id": "1555693158095003658",
-      "title": "Microsoftが警告、AI時代のサイバー防御は「モデル単体」では守れない",
-      "channel": "microsoft",
-      "category": "Microsoft",
-      "date": "2026-10-02T21:29:12.271Z",
-      "excerpt": "Microsoftは「2026 Microsoft Digital Defense Report」の知見を公開し、サイバー攻撃と防御の双方でAI活用が拡大する一方、企業システムの相互接続性そのものが新たなセキュリティ課題になっていると指摘しました。特にAIエ…",
-      "lead": "Microsoftは「2026 Microsoft Digital Defense Report」の知見を公開し、サイバー攻撃と防御の双方でAI活用が拡大する一方、企業システムの相互接続性そのものが新たなセキュリティ課題になっていると指摘しました。特にAIエージェントの普及により、従来のID管理や最小権限、監視といった基本原則をAIシステム全体へ拡張する必要性が高まっています。",
-      "headings": [
-        "AIは攻撃手法を置き換えるのではなく加速する",
-        "AIエージェントでは「何に接続できるか」が攻撃面になる",
-        "AIによる脆弱性探索は防御と攻撃の双方を強化",
-        "防御の鍵は分断されたシグナルの統合",
-        "今後の展望"
-      ],
-      "source_url": "https://www.microsoft.com/en-us/security/blog/2026/10/01/insights-from-the-2026-microsoft-digital-defense-report/",
-      "source_urls": [
-        "https://www.microsoft.com/en-us/security/blog/2026/10/01/insights-from-the-2026-microsoft-digital-defense-report/"
-      ],
-      "source_label": "microsoft.com",
-      "cover": "assets/posts/1555693158095003658.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1432720743279497367/threads/1555693158095003658",
-      "first_seen": "2026-10-02T21:29:12.271Z",
-      "kind": "research",
-      "kind_confidence": 0.46
-    },
-    {
-      "id": "1555693023105519756",
-      "title": "Chatham Financial、GPT-5.6とCodexで金融業務を再設計 取引検証を30分から4分未満へ",
-      "channel": "open-ai",
-      "category": "Open AI",
-      "date": "2026-10-02T21:28:40.087Z",
-      "excerpt": "OpenAIは2026年10月2日、資本市場分野のアドバイザリー企業Chatham FinancialによるAI活用事例を公開しました。同社はGPT-5.6とCodexを業務プロセスやソフトウェア開発へ組み込み、取引検証に要する時間を約30分から4分未満まで…",
-      "lead": "OpenAIは2026年10月2日、資本市場分野のアドバイザリー企業Chatham FinancialによるAI活用事例を公開しました。同社はGPT-5.6とCodexを業務プロセスやソフトウェア開発へ組み込み、取引検証に要する時間を約30分から4分未満まで短縮しています。特徴的なのは、単純な作業高速化ではなく「人間が判断すべき部分」を残したままワークフロー全体を再設計している点です。",
-      "headings": [
-        "Codexで取引検証プロセスを再構築",
-        "社員自身がAIアプリを開発",
-        "Onyxではタスク別にモデルを使い分け",
-        "今後の展望"
-      ],
-      "source_url": "https://openai.com/ja-JP/index/chatham-financial/",
-      "source_urls": [
-        "https://openai.com/ja-JP/index/chatham-financial/"
-      ],
-      "source_label": "openai.com",
-      "cover": "assets/posts/1555693023105519756.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1555693023105519756",
-      "first_seen": "2026-10-02T21:28:40.087Z",
-      "kind": "adoption",
-      "kind_confidence": 1
-    },
-    {
-      "id": "1555692915098128455",
-      "title": "Anthropic、1億ドル投じ「Claude Frontier Academy」始動 企業AI導入を担う1万人の技術者を育成へ",
+      "id": "1557036907463180318",
+      "title": "Anthropic、Claude Startupsの追加特典規約を施行 技術支援と外部サービス特典の責任範囲を明確化",
       "channel": "anthropic",
       "category": "Anthropic",
-      "date": "2026-10-02T21:28:14.336Z",
-      "excerpt": "Anthropicは2026年10月2日、企業内でClaudeを本番導入できる高度なAI人材を育成する「Claude Frontier Academy」を発表しました。1億ドルを投じ、2027年末までに1万人のFrontier Deployed Engine…",
-      "lead": "Anthropicは2026年10月2日、企業内でClaudeを本番導入できる高度なAI人材を育成する「Claude Frontier Academy」を発表しました。1億ドルを投じ、2027年末までに1万人のFrontier Deployed Engineer（FDE）を育成する計画です。単なるAI研修ではなく、セキュリティ審査や業務設計、本番展開までを扱う実践型プログラムとして設計されています。",
+      "date": "2026-10-06T14:28:47.086Z",
+      "excerpt": "Anthropicは2026年10月6日、「Claude Startups Program」で提供する追加特典に関する新たな規約「Claude Startups Additional Benefits Addendum」を発効しました。外部企業による割引・ク…",
+      "lead": "Anthropicは2026年10月6日、「Claude Startups Program」で提供する追加特典に関する新たな規約「Claude Startups Additional Benefits Addendum」を発効しました。外部企業による割引・クレジット、Applied AIチームによる技術支援、プロモーションクレジットなどを対象とし、利用条件や知的財産、責任範囲を明確化しています。",
       "headings": [
-        "AI導入のボトルネックを「人材」と位置付け",
-        "模擬企業導入から12週間の実案件まで",
-        "認定資格より「本番環境で動かす能力」を重視",
+        "Startup Stackは第三者企業による特典",
+        "Applied AIチームによる技術支援も対象",
+        "スタートアップ側には規約管理が重要に",
         "今後の展望"
       ],
-      "source_url": "https://www.anthropic.com/news/claude-frontier-academy",
+      "source_url": "https://www.anthropic.com/legal/startup-program-addendum",
       "source_urls": [
-        "https://www.anthropic.com/news/claude-frontier-academy"
+        "https://www.anthropic.com/legal/startup-program-addendum"
       ],
       "source_label": "anthropic.com",
-      "cover": "assets/posts/1555692915098128455.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1555692915098128455",
-      "first_seen": "2026-10-02T21:28:14.336Z",
-      "kind": "business",
-      "kind_confidence": 0.77
+      "cover": "assets/posts/1557036907463180318.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1557036907463180318",
+      "first_seen": "2026-10-06T14:28:47.086Z"
     },
     {
-      "id": "1555692818134204416",
-      "title": "MuseがAIを物理世界へ拡張、ESP32・Raspberry Pi対応「Muse Gadgets」公開",
-      "channel": "meta",
-      "category": "Meta",
-      "date": "2026-10-02T21:27:51.218Z",
-      "excerpt": "Museは、AIとディスプレイ、ボタン、センサー、スピーカー、家電などを接続するオープンソースハードウェア構想「Muse Gadgets」を公開しています。市販のESP32ボードやRaspberry Piを利用し、開発者自身がAI向けデバイスを組み立てられる…",
-      "lead": "Museは、AIとディスプレイ、ボタン、センサー、スピーカー、家電などを接続するオープンソースハードウェア構想「Muse Gadgets」を公開しています。市販のESP32ボードやRaspberry Piを利用し、開発者自身がAI向けデバイスを組み立てられる点が特徴です。",
+      "id": "1556986624468852827",
+      "title": "Tencent Cloud「Octop」公開、ローカル完結型のマルチエージェントAI基盤",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-10-06T11:08:58.686Z",
+      "excerpt": "Tencent CloudのGitHubで、オープンソースのセルフホスト型AIアシスタント「Octop」が公開されています。単なるチャットUIではなく、複数ユーザー、複数AIエージェント、RAG、ブラウザ操作、リモートデスクトップ、外部コーディングエージェン…",
+      "lead": "Tencent CloudのGitHubで、オープンソースのセルフホスト型AIアシスタント「Octop」が公開されています。単なるチャットUIではなく、複数ユーザー、複数AIエージェント、RAG、ブラウザ操作、リモートデスクトップ、外部コーディングエージェント連携までを1つの環境に統合する点が特徴です。",
       "headings": [
-        "ESP32とLinux向けSDKをオープンソース化",
-        "家電連携用「Muse Home Link」も用意",
-        "AI専用端末を自作できるエコシステムへ",
+        "複数の専門AIを束ねる「AgentTeams」",
+        "Web、チャット、CLIを単一プロセスで統合",
+        "AIエージェントを「操作主体」へ拡張",
+        "セルフホストを重視した設計",
         "今後の展望"
       ],
-      "source_url": "https://gadgets.muse.ai/",
+      "source_url": "https://github.com/TencentCloud/Octop",
       "source_urls": [
-        "https://gadgets.muse.ai/"
+        "https://github.com/TencentCloud/Octop"
       ],
-      "source_label": "gadgets.muse.ai",
-      "cover": "assets/posts/1555692818134204416.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1441473829951111330/threads/1555692818134204416",
-      "first_seen": "2026-10-02T21:27:51.218Z",
-      "kind": "tool",
-      "kind_confidence": 0.99
+      "source_label": "github.com",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1556986624468852827",
+      "first_seen": "2026-10-06T11:08:58.686Z"
     },
     {
-      "id": "1555692654598164571",
-      "title": "OpenAIがGPT-6実践ガイド公開、本番運用は「性能」だけでなくコストと自律性の設計へ",
-      "channel": "open-ai",
+      "id": "1556986494235709591",
+      "title": "Cognitionが「Agent Memory Repo」公開、AIエージェントの記憶をGitで永続化",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-10-06T11:08:27.636Z",
+      "excerpt": "Cognitionは、AIエージェントがセッションをまたいで知識を保持・共有するための仕組み「Agent Memory Repo」を公開しました。会話履歴を単純に保存するのではなく、MarkdownやSQL、スクリプトなどをGitリポジトリとして管理し、エー…",
+      "lead": "Cognitionは、AIエージェントがセッションをまたいで知識を保持・共有するための仕組み「Agent Memory Repo」を公開しました。会話履歴を単純に保存するのではなく、MarkdownやSQL、スクリプトなどをGitリポジトリとして管理し、エージェント自身が検索・更新・整理する「知識ベース型メモリ」を実現します。",
+      "headings": [
+        "GitリポジトリをAIの長期記憶にする",
+        "「Dreaming」が記憶を自動整理",
+        "マルチエージェントの共有知識にも対応",
+        "今後の展望"
+      ],
+      "source_url": "https://cognition.com/agent-memory-repo",
+      "source_urls": [
+        "https://cognition.com/agent-memory-repo"
+      ],
+      "source_label": "cognition.com",
+      "cover": "assets/posts/1556986494235709591.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1556986494235709591",
+      "first_seen": "2026-10-06T11:08:27.636Z"
+    },
+    {
+      "id": "1556986330293207071",
+      "title": "Meltype v1.0.1公開、Mac・Windowsの不具合修正とプライバシー改善を実施",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-10-06T11:07:48.549Z",
+      "excerpt": "日本語入力を支援するMeltypeのv1.0.1が10月6日に公開されました。初回公開後に寄せられた報告を反映した修正版で、Mac版のクラッシュ、Windows版の文字消失や重複入力、英単語判定、ログのプライバシー問題など、実利用に直結する修正が幅広く含まれ…",
+      "lead": "日本語入力を支援するMeltypeのv1.0.1が10月6日に公開されました。初回公開後に寄せられた報告を反映した修正版で、Mac版のクラッシュ、Windows版の文字消失や重複入力、英単語判定、ログのプライバシー問題など、実利用に直結する修正が幅広く含まれています。Windows版は自動更新に対応しています。",
+      "headings": [
+        "Mac版はクラッシュと導入時の問題を重点修正",
+        "Windows版はアプリ間の入力互換性を改善",
+        "英単語判定と新設定を追加",
+        "ログのプライバシー問題も修正",
+        "今後の展望"
+      ],
+      "source_url": "https://github.com/yksr-melt/Meltype/releases/tag/v1.0.1",
+      "source_urls": [
+        "https://github.com/yksr-melt/Meltype/releases/tag/v1.0.1"
+      ],
+      "source_label": "github.com",
+      "cover": "assets/posts/1556986330293207071.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1556986330293207071",
+      "first_seen": "2026-10-06T11:07:48.549Z"
+    },
+    {
+      "id": "1556986240291831848",
+      "title": "Google DriveとDocsがMarkdownをネイティブ対応、AI時代の共同編集基盤へ",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-10-06T11:07:27.091Z",
+      "excerpt": "Googleは、Google DriveとGoogleドキュメントでMarkdownファイルをネイティブに扱える新機能を発表しました。.md／.markdownファイルをGoogleドキュメント形式へ変換することなく、そのまま表示・編集・コメント・共同編集で…",
+      "lead": "Googleは、Google DriveとGoogleドキュメントでMarkdownファイルをネイティブに扱える新機能を発表しました。.md／.markdownファイルをGoogleドキュメント形式へ変換することなく、そのまま表示・編集・コメント・共同編集できるようになります。",
+      "headings": [
+        "Markdownを変換せず直接編集",
+        "Driveではレンダリング済みプレビューに対応",
+        "AIエージェントとの連携を意識した設計",
+        "提供対象と展開時期",
+        "今後の展望"
+      ],
+      "source_url": "https://workspaceupdates.googleblog.com/2026/10/preview-edit-and-collaborate-on-Markdown-files-natively-across-Drive-and-Docs.html?m=1",
+      "source_urls": [
+        "https://workspaceupdates.googleblog.com/2026/10/preview-edit-and-collaborate-on-Markdown-files-natively-across-Drive-and-Docs.html?m=1"
+      ],
+      "source_label": "workspaceupdates.googleblog.com",
+      "cover": "assets/posts/1556986240291831848.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1556986240291831848",
+      "first_seen": "2026-10-06T11:07:27.091Z"
+    },
+    {
+      "id": "1556986103116992533",
+      "title": "OpenAI、Codexに「Auto-review」導入 AIがAIの危険操作を審査",
+      "channel": "codex",
       "category": "Open AI",
-      "date": "2026-10-02T21:27:12.228Z",
-      "excerpt": "OpenAIは2026年10月2日、GPT-6ファミリーを実際の開発・本番環境で活用するためのモデルガイドを公開しました。焦点は単なる高性能モデルの利用ではなく、モデル選択、推論量、キャッシュ、長時間タスク、自律操作の境界まで含めた「AIエージェントの運用設…",
-      "lead": "OpenAIは2026年10月2日、GPT-6ファミリーを実際の開発・本番環境で活用するためのモデルガイドを公開しました。焦点は単なる高性能モデルの利用ではなく、モデル選択、推論量、キャッシュ、長時間タスク、自律操作の境界まで含めた「AIエージェントの運用設計」です。",
+      "date": "2026-10-06T11:06:54.386Z",
+      "excerpt": "OpenAIは、コーディングエージェント「Codex」がサンドボックス外の操作を実行しようとした際、人間の代わりに別のAIエージェントが許可・拒否を判断する「Auto-review」の仕組みを公開しました。人間による同期的な承認を大幅に減らしつつ、データ流出…",
+      "lead": "OpenAIは、コーディングエージェント「Codex」がサンドボックス外の操作を実行しようとした際、人間の代わりに別のAIエージェントが許可・拒否を判断する「Auto-review」の仕組みを公開しました。人間による同期的な承認を大幅に減らしつつ、データ流出や危険なコード実行などを防ぐことが狙いです。",
       "headings": [
-        "GPT-6は用途別にモデルを使い分ける",
-        "キャッシュとコンパクションが本番コストを左右",
-        "長時間動くAIエージェントを前提にした設計へ",
-        "プロンプト設計も「細かく指示する」発想から変化",
+        "人間の承認を別のAIが代替",
+        "承認待ちは約200分の1に",
+        "「AIによる監視」は万能ではない",
         "今後の展望"
       ],
-      "source_url": "https://openai.com/ja-JP/index/practical-guide-building-gpt-6/",
+      "source_url": "https://alignment.openai.com/auto-review/",
       "source_urls": [
-        "https://openai.com/ja-JP/index/practical-guide-building-gpt-6/"
+        "https://alignment.openai.com/auto-review/"
       ],
-      "source_label": "openai.com",
-      "cover": "assets/posts/1555692654598164571.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1555692654598164571",
-      "first_seen": "2026-10-02T21:27:12.228Z",
-      "kind": "tool",
-      "kind_confidence": 0.88
+      "source_label": "alignment.openai.com",
+      "url": "https://discord.com/channels/1415350002255007784/1415355102939578490/threads/1556986103116992533",
+      "first_seen": "2026-10-06T11:06:54.386Z"
+    },
+    {
+      "id": "1556984213436239944",
+      "title": "Google Cloud Modernize発表、AIエージェントで企業IT刷新を一気通貫",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-10-06T10:59:23.851Z",
+      "excerpt": "Google Cloudは2026年10月5日、企業のクラウド移行とアプリケーション刷新を統合する「Google Cloud Modernize」を発表しました。インフラ評価、基盤移行、Java・.NET・メインフレームの近代化までをAIエージェントで支援し…",
+      "lead": "Google Cloudは2026年10月5日、企業のクラウド移行とアプリケーション刷新を統合する「Google Cloud Modernize」を発表しました。インフラ評価、基盤移行、Java・.NET・メインフレームの近代化までをAIエージェントで支援し、従来は長期化しやすかった変革計画を短縮する狙いです。",
+      "headings": [
+        "評価から移行までをAIでつなぐ",
+        "AI時代を前提にインフラも強化",
+        "レガシーアプリの解析と安全な切り替え",
+        "今後の展望"
+      ],
+      "source_url": "https://cloud.google.com/blog/products/infrastructure-modernization/google-cloud-modernize-accelerate-transformation-with-ai/?hl=en",
+      "source_urls": [
+        "https://cloud.google.com/blog/products/infrastructure-modernization/google-cloud-modernize-accelerate-transformation-with-ai/?hl=en"
+      ],
+      "source_label": "cloud.google.com",
+      "cover": "assets/posts/1556984213436239944.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1556984213436239944",
+      "first_seen": "2026-10-06T10:59:23.851Z"
+    },
+    {
+      "id": "1556984049011134506",
+      "title": "Amazon Quick、開発から本番へのAI資源移行を自動化",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-10-06T10:58:44.649Z",
+      "excerpt": "AWSは2026年10月5日、Amazon Quickで作成したAIエージェントやナレッジベースなどを、開発用AWSアカウントから本番環境へ安全に昇格させる「Quick Resource Migrator」の実装例を公開しました。Model Context …",
+      "lead": "AWSは2026年10月5日、Amazon Quickで作成したAIエージェントやナレッジベースなどを、開発用AWSアカウントから本番環境へ安全に昇格させる「Quick Resource Migrator」の実装例を公開しました。Model Context Protocol（MCP）とAmazon Bedrock AgentCoreを組み合わせ、これまで手作業だったクロスアカウント移行を、再実行可能かつ監査可能なプロセスへ変える仕組みです。",
+      "headings": [
+        "AIエージェントにも「DevからProd」の仕組み",
+        "MCPとAgentCoreでクロスアカウント移行",
+        "プレビュー、監査、ロールバックまで統合",
+        "今後の展望"
+      ],
+      "source_url": "https://aws.amazon.com/jp/blogs/machine-learning/making-amazon-quick-enterprise-ready-automated-auditable-cross-account-resource-promotion/",
+      "source_urls": [
+        "https://aws.amazon.com/jp/blogs/machine-learning/making-amazon-quick-enterprise-ready-automated-auditable-cross-account-resource-promotion/"
+      ],
+      "source_label": "aws.amazon.com",
+      "cover": "assets/posts/1556984049011134506.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1556984049011134506",
+      "first_seen": "2026-10-06T10:58:44.649Z"
+    },
+    {
+      "id": "1556983950352850955",
+      "title": "Falcon-Emirati-7B登場、UAE方言と文化理解に特化した7B言語モデル",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-10-06T10:58:21.127Z",
+      "excerpt": "UAEのTechnology Innovation Instituteは、アラブ首長国連邦で使われるエミラティ方言に特化した大規模言語モデル「Falcon-Emirati-7B」を公開しました。標準アラビア語を理解するだけでなく、方言特有の語彙、表現、詩、慣…",
+      "lead": "UAEのTechnology Innovation Instituteは、アラブ首長国連邦で使われるエミラティ方言に特化した大規模言語モデル「Falcon-Emirati-7B」を公開しました。標準アラビア語を理解するだけでなく、方言特有の語彙、表現、詩、慣習などの文化的文脈まで扱うことを狙ったモデルです。",
+      "headings": [
+        "MambaとTransformerを組み合わせた7Bモデル",
+        "方言学習では「文化」もデータ化",
+        "方言ベンチマークで84.83%",
+        "専門LLMが示す「規模以外」の競争軸",
+        "今後の展望"
+      ],
+      "source_url": "https://huggingface.co/blog/tiiuae/falcon-emirati",
+      "source_urls": [
+        "https://huggingface.co/blog/tiiuae/falcon-emirati"
+      ],
+      "source_label": "huggingface.co",
+      "cover": "assets/posts/1556983950352850955.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1556983950352850955",
+      "first_seen": "2026-10-06T10:58:21.127Z"
+    },
+    {
+      "id": "1556983812741791754",
+      "title": "AWS、コーディングエージェントをSageMaker推論最適化の専門家にする新スキル",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-10-06T10:57:48.318Z",
+      "excerpt": "AWSは2026年10月5日、Amazon SageMaker AIの生成AI推論を最適化するエージェントスキル「aws-ai-ml」を発表しました。Kiro、Claude Code、CodexなどのMCP対応コーディングエージェントから、自然言語でベンチマ…",
+      "lead": "AWSは2026年10月5日、Amazon SageMaker AIの生成AI推論を最適化するエージェントスキル「aws-ai-ml」を発表しました。Kiro、Claude Code、CodexなどのMCP対応コーディングエージェントから、自然言語でベンチマークやインスタンス選定、性能比較を実行するためのコードを生成できます。",
+      "headings": [
+        "推論最適化を自然言語から実行",
+        "実測データから構成を選択",
+        "AIエージェントがインフラ設計へ進出",
+        "今後の展望"
+      ],
+      "source_url": "https://aws.amazon.com/jp/blogs/machine-learning/new-agent-skill-amazon-sagemaker-optimized-generative-ai-inference-for-your-coding-agent/",
+      "source_urls": [
+        "https://aws.amazon.com/jp/blogs/machine-learning/new-agent-skill-amazon-sagemaker-optimized-generative-ai-inference-for-your-coding-agent/"
+      ],
+      "source_label": "aws.amazon.com",
+      "cover": "assets/posts/1556983812741791754.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1556983812741791754",
+      "first_seen": "2026-10-06T10:57:48.318Z"
     }
   ]
 }
