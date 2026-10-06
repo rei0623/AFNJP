@@ -1,9 +1,162 @@
 {
-  "generated_at": "2026-10-06T20:16:17.804Z",
+  "generated_at": "2026-10-06T23:49:55.908Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 314,
+  "count": 320,
   "posts": [
+    {
+      "id": "1557138210919030915",
+      "title": "Claude Codeがクラウド実行へ、AI開発を「1タスク1VM」で並列化",
+      "channel": "claude-code",
+      "category": "Anthropic",
+      "date": "2026-10-06T21:11:19.712Z",
+      "excerpt": "AnthropicのClaude Codeにおける「クラウドセッション」の実践的な仕組みが公開されました。最大の特徴は、AIエージェントの作業を開発者のPCから切り離し、タスクごとに独立した仮想マシンとGitブランチを割り当てる点です。複数の修正やテストを同…",
+      "lead": "AnthropicのClaude Codeにおける「クラウドセッション」の実践的な仕組みが公開されました。最大の特徴は、AIエージェントの作業を開発者のPCから切り離し、タスクごとに独立した仮想マシンとGitブランチを割り当てる点です。複数の修正やテストを同時並行で処理でき、AIコーディングを対話型ツールから非同期の開発基盤へ発展させる設計といえます。",
+      "headings": [
+        "1タスクごとに独立したVMを起動",
+        "GitHub認証情報をVMへ渡さない設計",
+        "AI自身に「修正の証明」まで実行させる",
+        "CIやレビュー対応も自動化へ",
+        "ローカル環境が不要になるわけではない",
+        "今後の展望"
+      ],
+      "source_url": "https://claude.dev/blog/claude-code-in-the-cloud/",
+      "source_urls": [
+        "https://claude.dev/blog/claude-code-in-the-cloud/"
+      ],
+      "source_label": "claude.dev",
+      "cover": "assets/posts/1557138210919030915.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415549165181599795/threads/1557138210919030915",
+      "first_seen": "2026-10-06T21:11:19.712Z",
+      "kind": "tool",
+      "kind_confidence": 0.44
+    },
+    {
+      "id": "1557138037865979975",
+      "title": "ClaudeがGoogle Docs・Sheets・Slidesに直接統合、編集作業をAIが実行",
+      "channel": "claude",
+      "category": "Anthropic",
+      "date": "2026-10-06T21:10:38.453Z",
+      "excerpt": "Anthropicは2026年10月6日、Google Docs、Sheets、Slides上でClaudeを利用できる「Claude for Google Workspace」をパブリックベータとして公開しました。全ての有料Claudeプランが対象で、Go…",
+      "lead": "Anthropicは2026年10月6日、Google Docs、Sheets、Slides上でClaudeを利用できる「Claude for Google Workspace」をパブリックベータとして公開しました。全ての有料Claudeプランが対象で、Google Workspace内からClaudeを呼び出す方法に加え、Claude側からGoogleファイルを直接作成・編集するコネクタも提供します。",
+      "headings": [
+        "Google Workspaceの画面内でClaudeが動作",
+        "編集権限を人間側で制御",
+        "ClaudeからGoogleファイルを直接操作",
+        "今後の展望"
+      ],
+      "source_url": "https://claude.com/ja/resources/articles/claude-now-works-in-google-docs-sheets-and-slides",
+      "source_urls": [
+        "https://claude.com/ja/resources/articles/claude-now-works-in-google-docs-sheets-and-slides"
+      ],
+      "source_label": "claude.com",
+      "cover": "assets/posts/1557138037865979975.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415353403269185546/threads/1557138037865979975",
+      "first_seen": "2026-10-06T21:10:38.453Z",
+      "kind": "feature",
+      "kind_confidence": 0.99
+    },
+    {
+      "id": "1557137858098233374",
+      "title": "OpenAI「Decisions API」公開、判定処理をResponses APIより約10倍高速化",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-10-06T21:09:55.593Z",
+      "excerpt": "OpenAIは、テキストや画像を入力し、アプリケーションがそのまま利用できる「判定」を高速に返す「Decisions API」を公開ベータとして提供しています。Responses APIと比べて約10倍高速とされ、分類、ルーティング、優先順位付けなど、生成文…",
+      "lead": "OpenAIは、テキストや画像を入力し、アプリケーションがそのまま利用できる「判定」を高速に返す「Decisions API」を公開ベータとして提供しています。Responses APIと比べて約10倍高速とされ、分類、ルーティング、優先順位付けなど、生成文章を必要としないAI処理に特化したAPIです。",
+      "headings": [
+        "「生成」ではなく「判断」に特化",
+        "画像判定にも対応",
+        "Responses APIとの使い分けが重要",
+        "低コストな大量判定を意識",
+        "今後の展望"
+      ],
+      "source_url": "https://developers.openai.com/api/docs/guides/decisions",
+      "source_urls": [
+        "https://developers.openai.com/api/docs/guides/decisions"
+      ],
+      "source_label": "developers.openai.com",
+      "cover": "assets/posts/1557137858098233374.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1557137858098233374",
+      "first_seen": "2026-10-06T21:09:55.593Z",
+      "kind": "tool",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1557136342318719026",
+      "title": "Anthropic、サイバー向けClaudeの制限を段階的に緩和 Cyber Verification Programを拡張",
+      "channel": "anthropic",
+      "category": "Anthropic",
+      "date": "2026-10-06T21:03:54.203Z",
+      "excerpt": "Anthropicは2026年10月6日、サイバーセキュリティ専門家向けの「Cyber Verification Program（CVP）」を拡張しました。利用者の目的と審査レベルに応じて3段階のアクセス層を設け、Claude Opus 5.5、Claude…",
+      "lead": "Anthropicは2026年10月6日、サイバーセキュリティ専門家向けの「Cyber Verification Program（CVP）」を拡張しました。利用者の目的と審査レベルに応じて3段階のアクセス層を設け、Claude Opus 5.5、Claude Sonnet 5.5、Claude Mythos 5.1などの高度なモデルを、通常版より少ないサイバー関連ブロックで利用できるようにします。",
+      "headings": [
+        "3段階で「防御」と「攻撃的テスト」を分離",
+        "ベンチマークでアクセス制御を検証",
+        "AIによる脆弱性発見は実運用段階へ",
+        "今後の展望"
+      ],
+      "source_url": "https://www.anthropic.com/news/cyber-verification-program",
+      "source_urls": [
+        "https://www.anthropic.com/news/cyber-verification-program"
+      ],
+      "source_label": "anthropic.com",
+      "cover": "assets/posts/1557136342318719026.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1557136342318719026",
+      "first_seen": "2026-10-06T21:03:54.203Z",
+      "kind": "feature",
+      "kind_confidence": 0.83
+    },
+    {
+      "id": "1557136229227827311",
+      "title": "OpenAI、Ironcladと「業務を完遂するAIエージェント」を強化",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-10-06T21:03:27.240Z",
+      "excerpt": "OpenAIは2026年10月6日、契約管理プラットフォームを手掛けるIroncladとの研究協力を発表しました。専門業務向けソフトウェアをAIが操作し、複数工程にまたがる業務ルールを維持しながら処理を完遂できる能力の向上が狙いです。GPT-6 Astraで…",
+      "lead": "OpenAIは2026年10月6日、契約管理プラットフォームを手掛けるIroncladとの研究協力を発表しました。専門業務向けソフトウェアをAIが操作し、複数工程にまたがる業務ルールを維持しながら処理を完遂できる能力の向上が狙いです。GPT-6 Astraでは、契約関連タスクの評価結果がGPT-5.6 Solを大きく上回りました。",
+      "headings": [
+        "契約業務をAIエージェントの訓練環境に",
+        "GPT-6 Astra、精度と処理時間を同時に改善",
+        "強化学習で「最後までルールを守る」能力を訓練",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/advancing-computer-use-with-ironclad/",
+      "source_urls": [
+        "https://openai.com/index/advancing-computer-use-with-ironclad/"
+      ],
+      "source_label": "openai.com",
+      "cover": "assets/posts/1557136229227827311.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1557136229227827311",
+      "first_seen": "2026-10-06T21:03:27.240Z",
+      "kind": "research",
+      "kind_confidence": 0.39
+    },
+    {
+      "id": "1557136126207336560",
+      "title": "OpenAI、AIエージェントの「Computer Use」強化へ企業との研究協力を募集",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-10-06T21:03:02.678Z",
+      "excerpt": "OpenAIは、AIエージェントによるコンピューター操作能力を改善するため、少数のソフトウェア企業を対象とした研究協力プログラム「Computer-use research collaboration」の募集を開始しています。狙いは、現在のエージェントがまだ…",
+      "lead": "OpenAIは、AIエージェントによるコンピューター操作能力を改善するため、少数のソフトウェア企業を対象とした研究協力プログラム「Computer-use research collaboration」の募集を開始しています。狙いは、現在のエージェントがまだ安定して完遂できない実務タスクを企業から提供してもらい、研究・エンジニアリングチームが失敗原因を分析し、モデル改善につなげることです。",
+      "headings": [
+        "実際に失敗する業務を研究対象に",
+        "コンテナ化されたソフトウェア環境も重視",
+        "企業向けAIは「回答」から「業務実行」へ",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/form/computer-use-research-collaboration/",
+      "source_urls": [
+        "https://openai.com/form/computer-use-research-collaboration/"
+      ],
+      "source_label": "openai.com",
+      "cover": "assets/posts/1557136126207336560.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1557136126207336560",
+      "first_seen": "2026-10-06T21:03:02.678Z",
+      "kind": "business",
+      "kind_confidence": 0.64
+    },
     {
       "id": "1557066539704909824",
       "title": "Google Earth AI、地球規模の地理空間AIを公衆衛生へ展開",

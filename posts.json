@@ -1,8 +1,149 @@
 {
-  "generated_at": "2026-10-06T20:16:17.806Z",
+  "generated_at": "2026-10-06T23:49:55.911Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1557138210919030915",
+      "title": "Claude Codeがクラウド実行へ、AI開発を「1タスク1VM」で並列化",
+      "channel": "claude-code",
+      "category": "Anthropic",
+      "date": "2026-10-06T21:11:19.712Z",
+      "excerpt": "AnthropicのClaude Codeにおける「クラウドセッション」の実践的な仕組みが公開されました。最大の特徴は、AIエージェントの作業を開発者のPCから切り離し、タスクごとに独立した仮想マシンとGitブランチを割り当てる点です。複数の修正やテストを同…",
+      "lead": "AnthropicのClaude Codeにおける「クラウドセッション」の実践的な仕組みが公開されました。最大の特徴は、AIエージェントの作業を開発者のPCから切り離し、タスクごとに独立した仮想マシンとGitブランチを割り当てる点です。複数の修正やテストを同時並行で処理でき、AIコーディングを対話型ツールから非同期の開発基盤へ発展させる設計といえます。",
+      "headings": [
+        "1タスクごとに独立したVMを起動",
+        "GitHub認証情報をVMへ渡さない設計",
+        "AI自身に「修正の証明」まで実行させる",
+        "CIやレビュー対応も自動化へ",
+        "ローカル環境が不要になるわけではない",
+        "今後の展望"
+      ],
+      "source_url": "https://claude.dev/blog/claude-code-in-the-cloud/",
+      "source_urls": [
+        "https://claude.dev/blog/claude-code-in-the-cloud/"
+      ],
+      "source_label": "claude.dev",
+      "cover": "assets/posts/1557138210919030915.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415549165181599795/threads/1557138210919030915",
+      "first_seen": "2026-10-06T21:11:19.712Z"
+    },
+    {
+      "id": "1557138037865979975",
+      "title": "ClaudeがGoogle Docs・Sheets・Slidesに直接統合、編集作業をAIが実行",
+      "channel": "claude",
+      "category": "Anthropic",
+      "date": "2026-10-06T21:10:38.453Z",
+      "excerpt": "Anthropicは2026年10月6日、Google Docs、Sheets、Slides上でClaudeを利用できる「Claude for Google Workspace」をパブリックベータとして公開しました。全ての有料Claudeプランが対象で、Go…",
+      "lead": "Anthropicは2026年10月6日、Google Docs、Sheets、Slides上でClaudeを利用できる「Claude for Google Workspace」をパブリックベータとして公開しました。全ての有料Claudeプランが対象で、Google Workspace内からClaudeを呼び出す方法に加え、Claude側からGoogleファイルを直接作成・編集するコネクタも提供します。",
+      "headings": [
+        "Google Workspaceの画面内でClaudeが動作",
+        "編集権限を人間側で制御",
+        "ClaudeからGoogleファイルを直接操作",
+        "今後の展望"
+      ],
+      "source_url": "https://claude.com/ja/resources/articles/claude-now-works-in-google-docs-sheets-and-slides",
+      "source_urls": [
+        "https://claude.com/ja/resources/articles/claude-now-works-in-google-docs-sheets-and-slides"
+      ],
+      "source_label": "claude.com",
+      "cover": "assets/posts/1557138037865979975.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415353403269185546/threads/1557138037865979975",
+      "first_seen": "2026-10-06T21:10:38.453Z"
+    },
+    {
+      "id": "1557137858098233374",
+      "title": "OpenAI「Decisions API」公開、判定処理をResponses APIより約10倍高速化",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-10-06T21:09:55.593Z",
+      "excerpt": "OpenAIは、テキストや画像を入力し、アプリケーションがそのまま利用できる「判定」を高速に返す「Decisions API」を公開ベータとして提供しています。Responses APIと比べて約10倍高速とされ、分類、ルーティング、優先順位付けなど、生成文…",
+      "lead": "OpenAIは、テキストや画像を入力し、アプリケーションがそのまま利用できる「判定」を高速に返す「Decisions API」を公開ベータとして提供しています。Responses APIと比べて約10倍高速とされ、分類、ルーティング、優先順位付けなど、生成文章を必要としないAI処理に特化したAPIです。",
+      "headings": [
+        "「生成」ではなく「判断」に特化",
+        "画像判定にも対応",
+        "Responses APIとの使い分けが重要",
+        "低コストな大量判定を意識",
+        "今後の展望"
+      ],
+      "source_url": "https://developers.openai.com/api/docs/guides/decisions",
+      "source_urls": [
+        "https://developers.openai.com/api/docs/guides/decisions"
+      ],
+      "source_label": "developers.openai.com",
+      "cover": "assets/posts/1557137858098233374.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1557137858098233374",
+      "first_seen": "2026-10-06T21:09:55.593Z"
+    },
+    {
+      "id": "1557136342318719026",
+      "title": "Anthropic、サイバー向けClaudeの制限を段階的に緩和 Cyber Verification Programを拡張",
+      "channel": "anthropic",
+      "category": "Anthropic",
+      "date": "2026-10-06T21:03:54.203Z",
+      "excerpt": "Anthropicは2026年10月6日、サイバーセキュリティ専門家向けの「Cyber Verification Program（CVP）」を拡張しました。利用者の目的と審査レベルに応じて3段階のアクセス層を設け、Claude Opus 5.5、Claude…",
+      "lead": "Anthropicは2026年10月6日、サイバーセキュリティ専門家向けの「Cyber Verification Program（CVP）」を拡張しました。利用者の目的と審査レベルに応じて3段階のアクセス層を設け、Claude Opus 5.5、Claude Sonnet 5.5、Claude Mythos 5.1などの高度なモデルを、通常版より少ないサイバー関連ブロックで利用できるようにします。",
+      "headings": [
+        "3段階で「防御」と「攻撃的テスト」を分離",
+        "ベンチマークでアクセス制御を検証",
+        "AIによる脆弱性発見は実運用段階へ",
+        "今後の展望"
+      ],
+      "source_url": "https://www.anthropic.com/news/cyber-verification-program",
+      "source_urls": [
+        "https://www.anthropic.com/news/cyber-verification-program"
+      ],
+      "source_label": "anthropic.com",
+      "cover": "assets/posts/1557136342318719026.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1557136342318719026",
+      "first_seen": "2026-10-06T21:03:54.203Z"
+    },
+    {
+      "id": "1557136229227827311",
+      "title": "OpenAI、Ironcladと「業務を完遂するAIエージェント」を強化",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-10-06T21:03:27.240Z",
+      "excerpt": "OpenAIは2026年10月6日、契約管理プラットフォームを手掛けるIroncladとの研究協力を発表しました。専門業務向けソフトウェアをAIが操作し、複数工程にまたがる業務ルールを維持しながら処理を完遂できる能力の向上が狙いです。GPT-6 Astraで…",
+      "lead": "OpenAIは2026年10月6日、契約管理プラットフォームを手掛けるIroncladとの研究協力を発表しました。専門業務向けソフトウェアをAIが操作し、複数工程にまたがる業務ルールを維持しながら処理を完遂できる能力の向上が狙いです。GPT-6 Astraでは、契約関連タスクの評価結果がGPT-5.6 Solを大きく上回りました。",
+      "headings": [
+        "契約業務をAIエージェントの訓練環境に",
+        "GPT-6 Astra、精度と処理時間を同時に改善",
+        "強化学習で「最後までルールを守る」能力を訓練",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/advancing-computer-use-with-ironclad/",
+      "source_urls": [
+        "https://openai.com/index/advancing-computer-use-with-ironclad/"
+      ],
+      "source_label": "openai.com",
+      "cover": "assets/posts/1557136229227827311.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1557136229227827311",
+      "first_seen": "2026-10-06T21:03:27.240Z"
+    },
+    {
+      "id": "1557136126207336560",
+      "title": "OpenAI、AIエージェントの「Computer Use」強化へ企業との研究協力を募集",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-10-06T21:03:02.678Z",
+      "excerpt": "OpenAIは、AIエージェントによるコンピューター操作能力を改善するため、少数のソフトウェア企業を対象とした研究協力プログラム「Computer-use research collaboration」の募集を開始しています。狙いは、現在のエージェントがまだ…",
+      "lead": "OpenAIは、AIエージェントによるコンピューター操作能力を改善するため、少数のソフトウェア企業を対象とした研究協力プログラム「Computer-use research collaboration」の募集を開始しています。狙いは、現在のエージェントがまだ安定して完遂できない実務タスクを企業から提供してもらい、研究・エンジニアリングチームが失敗原因を分析し、モデル改善につなげることです。",
+      "headings": [
+        "実際に失敗する業務を研究対象に",
+        "コンテナ化されたソフトウェア環境も重視",
+        "企業向けAIは「回答」から「業務実行」へ",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/form/computer-use-research-collaboration/",
+      "source_urls": [
+        "https://openai.com/form/computer-use-research-collaboration/"
+      ],
+      "source_label": "openai.com",
+      "cover": "assets/posts/1557136126207336560.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1557136126207336560",
+      "first_seen": "2026-10-06T21:03:02.678Z"
+    },
     {
       "id": "1557066539704909824",
       "title": "Google Earth AI、地球規模の地理空間AIを公衆衛生へ展開",
@@ -24,7 +165,9 @@
       "source_label": "research.google",
       "cover": "assets/posts/1557066539704909824.webp",
       "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1557066539704909824",
-      "first_seen": "2026-10-06T16:26:31.963Z"
+      "first_seen": "2026-10-06T16:26:31.963Z",
+      "kind": "research",
+      "kind_confidence": 1
     },
     {
       "id": "1557066406502076497",
@@ -48,7 +191,9 @@
       "source_label": "developers.googleblog.com",
       "cover": "assets/posts/1557066406502076497.webp",
       "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1557066406502076497",
-      "first_seen": "2026-10-06T16:26:00.205Z"
+      "first_seen": "2026-10-06T16:26:00.205Z",
+      "kind": "model",
+      "kind_confidence": 1
     },
     {
       "id": "1557066272855031909",
@@ -71,7 +216,9 @@
       "source_label": "openai.com",
       "cover": "assets/posts/1557066272855031909.webp",
       "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1557066272855031909",
-      "first_seen": "2026-10-06T16:25:28.341Z"
+      "first_seen": "2026-10-06T16:25:28.341Z",
+      "kind": "business",
+      "kind_confidence": 0.96
     },
     {
       "id": "1557066169654190243",
@@ -94,7 +241,9 @@
       "source_label": "deepmind.google",
       "cover": "assets/posts/1557066169654190243.webp",
       "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1557066169654190243",
-      "first_seen": "2026-10-06T16:25:03.736Z"
+      "first_seen": "2026-10-06T16:25:03.736Z",
+      "kind": "model",
+      "kind_confidence": 1
     },
     {
       "id": "1557043960067915816",
@@ -146,157 +295,6 @@
       "first_seen": "2026-10-06T14:56:14.357Z",
       "kind": "model",
       "kind_confidence": 1
-    },
-    {
-      "id": "1557036907463180318",
-      "title": "Anthropic、Claude Startupsの追加特典規約を施行 技術支援と外部サービス特典の責任範囲を明確化",
-      "channel": "anthropic",
-      "category": "Anthropic",
-      "date": "2026-10-06T14:28:47.086Z",
-      "excerpt": "Anthropicは2026年10月6日、「Claude Startups Program」で提供する追加特典に関する新たな規約「Claude Startups Additional Benefits Addendum」を発効しました。外部企業による割引・ク…",
-      "lead": "Anthropicは2026年10月6日、「Claude Startups Program」で提供する追加特典に関する新たな規約「Claude Startups Additional Benefits Addendum」を発効しました。外部企業による割引・クレジット、Applied AIチームによる技術支援、プロモーションクレジットなどを対象とし、利用条件や知的財産、責任範囲を明確化しています。",
-      "headings": [
-        "Startup Stackは第三者企業による特典",
-        "Applied AIチームによる技術支援も対象",
-        "スタートアップ側には規約管理が重要に",
-        "今後の展望"
-      ],
-      "source_url": "https://www.anthropic.com/legal/startup-program-addendum",
-      "source_urls": [
-        "https://www.anthropic.com/legal/startup-program-addendum"
-      ],
-      "source_label": "anthropic.com",
-      "cover": "assets/posts/1557036907463180318.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1557036907463180318",
-      "first_seen": "2026-10-06T14:28:47.086Z",
-      "kind": "policy",
-      "kind_confidence": 1
-    },
-    {
-      "id": "1556986624468852827",
-      "title": "Tencent Cloud「Octop」公開、ローカル完結型のマルチエージェントAI基盤",
-      "channel": "その他",
-      "category": "その他",
-      "date": "2026-10-06T11:08:58.686Z",
-      "excerpt": "Tencent CloudのGitHubで、オープンソースのセルフホスト型AIアシスタント「Octop」が公開されています。単なるチャットUIではなく、複数ユーザー、複数AIエージェント、RAG、ブラウザ操作、リモートデスクトップ、外部コーディングエージェン…",
-      "lead": "Tencent CloudのGitHubで、オープンソースのセルフホスト型AIアシスタント「Octop」が公開されています。単なるチャットUIではなく、複数ユーザー、複数AIエージェント、RAG、ブラウザ操作、リモートデスクトップ、外部コーディングエージェント連携までを1つの環境に統合する点が特徴です。",
-      "headings": [
-        "複数の専門AIを束ねる「AgentTeams」",
-        "Web、チャット、CLIを単一プロセスで統合",
-        "AIエージェントを「操作主体」へ拡張",
-        "セルフホストを重視した設計",
-        "今後の展望"
-      ],
-      "source_url": "https://github.com/TencentCloud/Octop",
-      "source_urls": [
-        "https://github.com/TencentCloud/Octop"
-      ],
-      "source_label": "github.com",
-      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1556986624468852827",
-      "first_seen": "2026-10-06T11:08:58.686Z",
-      "kind": "tool",
-      "kind_confidence": 1
-    },
-    {
-      "id": "1556986494235709591",
-      "title": "Cognitionが「Agent Memory Repo」公開、AIエージェントの記憶をGitで永続化",
-      "channel": "その他",
-      "category": "その他",
-      "date": "2026-10-06T11:08:27.636Z",
-      "excerpt": "Cognitionは、AIエージェントがセッションをまたいで知識を保持・共有するための仕組み「Agent Memory Repo」を公開しました。会話履歴を単純に保存するのではなく、MarkdownやSQL、スクリプトなどをGitリポジトリとして管理し、エー…",
-      "lead": "Cognitionは、AIエージェントがセッションをまたいで知識を保持・共有するための仕組み「Agent Memory Repo」を公開しました。会話履歴を単純に保存するのではなく、MarkdownやSQL、スクリプトなどをGitリポジトリとして管理し、エージェント自身が検索・更新・整理する「知識ベース型メモリ」を実現します。",
-      "headings": [
-        "GitリポジトリをAIの長期記憶にする",
-        "「Dreaming」が記憶を自動整理",
-        "マルチエージェントの共有知識にも対応",
-        "今後の展望"
-      ],
-      "source_url": "https://cognition.com/agent-memory-repo",
-      "source_urls": [
-        "https://cognition.com/agent-memory-repo"
-      ],
-      "source_label": "cognition.com",
-      "cover": "assets/posts/1556986494235709591.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1556986494235709591",
-      "first_seen": "2026-10-06T11:08:27.636Z",
-      "kind": "tool",
-      "kind_confidence": 0.96
-    },
-    {
-      "id": "1556986330293207071",
-      "title": "Meltype v1.0.1公開、Mac・Windowsの不具合修正とプライバシー改善を実施",
-      "channel": "その他",
-      "category": "その他",
-      "date": "2026-10-06T11:07:48.549Z",
-      "excerpt": "日本語入力を支援するMeltypeのv1.0.1が10月6日に公開されました。初回公開後に寄せられた報告を反映した修正版で、Mac版のクラッシュ、Windows版の文字消失や重複入力、英単語判定、ログのプライバシー問題など、実利用に直結する修正が幅広く含まれ…",
-      "lead": "日本語入力を支援するMeltypeのv1.0.1が10月6日に公開されました。初回公開後に寄せられた報告を反映した修正版で、Mac版のクラッシュ、Windows版の文字消失や重複入力、英単語判定、ログのプライバシー問題など、実利用に直結する修正が幅広く含まれています。Windows版は自動更新に対応しています。",
-      "headings": [
-        "Mac版はクラッシュと導入時の問題を重点修正",
-        "Windows版はアプリ間の入力互換性を改善",
-        "英単語判定と新設定を追加",
-        "ログのプライバシー問題も修正",
-        "今後の展望"
-      ],
-      "source_url": "https://github.com/yksr-melt/Meltype/releases/tag/v1.0.1",
-      "source_urls": [
-        "https://github.com/yksr-melt/Meltype/releases/tag/v1.0.1"
-      ],
-      "source_label": "github.com",
-      "cover": "assets/posts/1556986330293207071.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1556986330293207071",
-      "first_seen": "2026-10-06T11:07:48.549Z",
-      "kind": "model",
-      "kind_confidence": 0.82
-    },
-    {
-      "id": "1556986240291831848",
-      "title": "Google DriveとDocsがMarkdownをネイティブ対応、AI時代の共同編集基盤へ",
-      "channel": "google",
-      "category": "Google",
-      "date": "2026-10-06T11:07:27.091Z",
-      "excerpt": "Googleは、Google DriveとGoogleドキュメントでMarkdownファイルをネイティブに扱える新機能を発表しました。.md／.markdownファイルをGoogleドキュメント形式へ変換することなく、そのまま表示・編集・コメント・共同編集で…",
-      "lead": "Googleは、Google DriveとGoogleドキュメントでMarkdownファイルをネイティブに扱える新機能を発表しました。.md／.markdownファイルをGoogleドキュメント形式へ変換することなく、そのまま表示・編集・コメント・共同編集できるようになります。",
-      "headings": [
-        "Markdownを変換せず直接編集",
-        "Driveではレンダリング済みプレビューに対応",
-        "AIエージェントとの連携を意識した設計",
-        "提供対象と展開時期",
-        "今後の展望"
-      ],
-      "source_url": "https://workspaceupdates.googleblog.com/2026/10/preview-edit-and-collaborate-on-Markdown-files-natively-across-Drive-and-Docs.html?m=1",
-      "source_urls": [
-        "https://workspaceupdates.googleblog.com/2026/10/preview-edit-and-collaborate-on-Markdown-files-natively-across-Drive-and-Docs.html?m=1"
-      ],
-      "source_label": "workspaceupdates.googleblog.com",
-      "cover": "assets/posts/1556986240291831848.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1556986240291831848",
-      "first_seen": "2026-10-06T11:07:27.091Z",
-      "kind": "feature",
-      "kind_confidence": 1
-    },
-    {
-      "id": "1556986103116992533",
-      "title": "OpenAI、Codexに「Auto-review」導入 AIがAIの危険操作を審査",
-      "channel": "codex",
-      "category": "Open AI",
-      "date": "2026-10-06T11:06:54.386Z",
-      "excerpt": "OpenAIは、コーディングエージェント「Codex」がサンドボックス外の操作を実行しようとした際、人間の代わりに別のAIエージェントが許可・拒否を判断する「Auto-review」の仕組みを公開しました。人間による同期的な承認を大幅に減らしつつ、データ流出…",
-      "lead": "OpenAIは、コーディングエージェント「Codex」がサンドボックス外の操作を実行しようとした際、人間の代わりに別のAIエージェントが許可・拒否を判断する「Auto-review」の仕組みを公開しました。人間による同期的な承認を大幅に減らしつつ、データ流出や危険なコード実行などを防ぐことが狙いです。",
-      "headings": [
-        "人間の承認を別のAIが代替",
-        "承認待ちは約200分の1に",
-        "「AIによる監視」は万能ではない",
-        "今後の展望"
-      ],
-      "source_url": "https://alignment.openai.com/auto-review/",
-      "source_urls": [
-        "https://alignment.openai.com/auto-review/"
-      ],
-      "source_label": "alignment.openai.com",
-      "url": "https://discord.com/channels/1415350002255007784/1415355102939578490/threads/1556986103116992533",
-      "first_seen": "2026-10-06T11:06:54.386Z",
-      "kind": "feature",
-      "kind_confidence": 0.93
     }
   ]
 }

@@ -5,8 +5,56 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 06 Oct 2026 16:26:31 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 06 Oct 2026 21:11:19 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Claude Codeがクラウド実行へ、AI開発を「1タスク1VM」で並列化</title>
+      <link>https://discord.com/channels/1415350002255007784/1415549165181599795/threads/1557138210919030915</link>
+      <guid isPermaLink="false">afnjp-1557138210919030915</guid>
+      <pubDate>Tue, 06 Oct 2026 21:11:19 GMT</pubDate>
+      <category>claude-code</category>
+      <description>AnthropicのClaude Codeにおける「クラウドセッション」の実践的な仕組みが公開されました。最大の特徴は、AIエージェントの作業を開発者のPCから切り離し、タスクごとに独立した仮想マシンとGitブランチを割り当てる点です。複数の修正やテストを同…</description>
+    </item>
+    <item>
+      <title>ClaudeがGoogle Docs・Sheets・Slidesに直接統合、編集作業をAIが実行</title>
+      <link>https://discord.com/channels/1415350002255007784/1415353403269185546/threads/1557138037865979975</link>
+      <guid isPermaLink="false">afnjp-1557138037865979975</guid>
+      <pubDate>Tue, 06 Oct 2026 21:10:38 GMT</pubDate>
+      <category>claude</category>
+      <description>Anthropicは2026年10月6日、Google Docs、Sheets、Slides上でClaudeを利用できる「Claude for Google Workspace」をパブリックベータとして公開しました。全ての有料Claudeプランが対象で、Go…</description>
+    </item>
+    <item>
+      <title>OpenAI「Decisions API」公開、判定処理をResponses APIより約10倍高速化</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1557137858098233374</link>
+      <guid isPermaLink="false">afnjp-1557137858098233374</guid>
+      <pubDate>Tue, 06 Oct 2026 21:09:55 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIは、テキストや画像を入力し、アプリケーションがそのまま利用できる「判定」を高速に返す「Decisions API」を公開ベータとして提供しています。Responses APIと比べて約10倍高速とされ、分類、ルーティング、優先順位付けなど、生成文…</description>
+    </item>
+    <item>
+      <title>Anthropic、サイバー向けClaudeの制限を段階的に緩和 Cyber Verification Programを拡張</title>
+      <link>https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1557136342318719026</link>
+      <guid isPermaLink="false">afnjp-1557136342318719026</guid>
+      <pubDate>Tue, 06 Oct 2026 21:03:54 GMT</pubDate>
+      <category>anthropic</category>
+      <description>Anthropicは2026年10月6日、サイバーセキュリティ専門家向けの「Cyber Verification Program（CVP）」を拡張しました。利用者の目的と審査レベルに応じて3段階のアクセス層を設け、Claude Opus 5.5、Claude…</description>
+    </item>
+    <item>
+      <title>OpenAI、Ironcladと「業務を完遂するAIエージェント」を強化</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1557136229227827311</link>
+      <guid isPermaLink="false">afnjp-1557136229227827311</guid>
+      <pubDate>Tue, 06 Oct 2026 21:03:27 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIは2026年10月6日、契約管理プラットフォームを手掛けるIroncladとの研究協力を発表しました。専門業務向けソフトウェアをAIが操作し、複数工程にまたがる業務ルールを維持しながら処理を完遂できる能力の向上が狙いです。GPT-6 Astraで…</description>
+    </item>
+    <item>
+      <title>OpenAI、AIエージェントの「Computer Use」強化へ企業との研究協力を募集</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1557136126207336560</link>
+      <guid isPermaLink="false">afnjp-1557136126207336560</guid>
+      <pubDate>Tue, 06 Oct 2026 21:03:02 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIは、AIエージェントによるコンピューター操作能力を改善するため、少数のソフトウェア企業を対象とした研究協力プログラム「Computer-use research collaboration」の募集を開始しています。狙いは、現在のエージェントがまだ…</description>
+    </item>
     <item>
       <title>Google Earth AI、地球規模の地理空間AIを公衆衛生へ展開</title>
       <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1557066539704909824</link>
@@ -54,54 +102,6 @@
       <pubDate>Tue, 06 Oct 2026 14:56:14 GMT</pubDate>
       <category>mistral-ai</category>
       <description>Mistral AIは2026年10月6日、次世代基盤モデル「Mistral Large 4（ML4）」のパブリックプレビューを開始しました。総パラメータ数は1兆、推論時に利用するアクティブパラメータは490億で、画像を扱えるネイティブ・マルチモーダルモデル…</description>
-    </item>
-    <item>
-      <title>Anthropic、Claude Startupsの追加特典規約を施行 技術支援と外部サービス特典の責任範囲を明確化</title>
-      <link>https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1557036907463180318</link>
-      <guid isPermaLink="false">afnjp-1557036907463180318</guid>
-      <pubDate>Tue, 06 Oct 2026 14:28:47 GMT</pubDate>
-      <category>anthropic</category>
-      <description>Anthropicは2026年10月6日、「Claude Startups Program」で提供する追加特典に関する新たな規約「Claude Startups Additional Benefits Addendum」を発効しました。外部企業による割引・ク…</description>
-    </item>
-    <item>
-      <title>Tencent Cloud「Octop」公開、ローカル完結型のマルチエージェントAI基盤</title>
-      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1556986624468852827</link>
-      <guid isPermaLink="false">afnjp-1556986624468852827</guid>
-      <pubDate>Tue, 06 Oct 2026 11:08:58 GMT</pubDate>
-      <category>その他</category>
-      <description>Tencent CloudのGitHubで、オープンソースのセルフホスト型AIアシスタント「Octop」が公開されています。単なるチャットUIではなく、複数ユーザー、複数AIエージェント、RAG、ブラウザ操作、リモートデスクトップ、外部コーディングエージェン…</description>
-    </item>
-    <item>
-      <title>Cognitionが「Agent Memory Repo」公開、AIエージェントの記憶をGitで永続化</title>
-      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1556986494235709591</link>
-      <guid isPermaLink="false">afnjp-1556986494235709591</guid>
-      <pubDate>Tue, 06 Oct 2026 11:08:27 GMT</pubDate>
-      <category>その他</category>
-      <description>Cognitionは、AIエージェントがセッションをまたいで知識を保持・共有するための仕組み「Agent Memory Repo」を公開しました。会話履歴を単純に保存するのではなく、MarkdownやSQL、スクリプトなどをGitリポジトリとして管理し、エー…</description>
-    </item>
-    <item>
-      <title>Meltype v1.0.1公開、Mac・Windowsの不具合修正とプライバシー改善を実施</title>
-      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1556986330293207071</link>
-      <guid isPermaLink="false">afnjp-1556986330293207071</guid>
-      <pubDate>Tue, 06 Oct 2026 11:07:48 GMT</pubDate>
-      <category>その他</category>
-      <description>日本語入力を支援するMeltypeのv1.0.1が10月6日に公開されました。初回公開後に寄せられた報告を反映した修正版で、Mac版のクラッシュ、Windows版の文字消失や重複入力、英単語判定、ログのプライバシー問題など、実利用に直結する修正が幅広く含まれ…</description>
-    </item>
-    <item>
-      <title>Google DriveとDocsがMarkdownをネイティブ対応、AI時代の共同編集基盤へ</title>
-      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1556986240291831848</link>
-      <guid isPermaLink="false">afnjp-1556986240291831848</guid>
-      <pubDate>Tue, 06 Oct 2026 11:07:27 GMT</pubDate>
-      <category>google</category>
-      <description>Googleは、Google DriveとGoogleドキュメントでMarkdownファイルをネイティブに扱える新機能を発表しました。.md／.markdownファイルをGoogleドキュメント形式へ変換することなく、そのまま表示・編集・コメント・共同編集で…</description>
-    </item>
-    <item>
-      <title>OpenAI、Codexに「Auto-review」導入 AIがAIの危険操作を審査</title>
-      <link>https://discord.com/channels/1415350002255007784/1415355102939578490/threads/1556986103116992533</link>
-      <guid isPermaLink="false">afnjp-1556986103116992533</guid>
-      <pubDate>Tue, 06 Oct 2026 11:06:54 GMT</pubDate>
-      <category>codex</category>
-      <description>OpenAIは、コーディングエージェント「Codex」がサンドボックス外の操作を実行しようとした際、人間の代わりに別のAIエージェントが許可・拒否を判断する「Auto-review」の仕組みを公開しました。人間による同期的な承認を大幅に減らしつつ、データ流出…</description>
     </item>
   </channel>
 </rss>
