@@ -12,6 +12,13 @@
  *   POST /notify       … 新着があったとき GitHub Actions から叩く。50件ずつ送る
  *   GET  /count        … 購読者数（運用の目安。個人情報は返さない）
  *
+ * 定期実行（cron。wrangler.toml の [triggers]）:
+ *   GitHub Actions の schedule は混雑すると数時間おきにしか動かない。
+ *   そこでこの Worker が時刻どおりに workflow_dispatch を叩いて起こす。
+ *     5分ごと   … web-watch.yml（公式ブログの新着）
+ *     毎時17分  … update-channels.yml（Discord の同期とサイト生成）
+ *   ワークフロー側の schedule は、この Worker が止まったときの予備として残してある。
+ *
  * 通知はペイロードを持たない。
  *   本文を載せると購読者ごとに ECDH + AES-GCM の暗号化が要り、
  *   無料枠の CPU 10ms/リクエストに収まらない。「新着があった」という
@@ -22,6 +29,10 @@
  *   VAPID_PRIVATE_KEY … base64url の秘密鍵。絶対に公開しないこと
  *   VAPID_SUBJECT     … mailto:you@example.com もしくはサイトURL
  *   SEND_TOKEN        … /notify を叩けるのを自分だけにするための合言葉
+ *   GH_DISPATCH_TOKEN … ワークフローを起こすための GitHub トークン（任意）。
+ *                       fine-grained で、対象は rei0623/AFNJP だけ、
+ *                       権限は Actions: Read and write だけにすること。
+ *                       無ければ定期実行は何もしない（従来どおり GitHub の schedule 頼み）
  *
  * 必要なバインディング:
  *   SUBS … Workers KV の名前空間
@@ -35,6 +46,13 @@ const ALLOWED_ORIGINS = new Set([
 
 /** 1回の /notify で送る件数。Workers 無料枠のサブリクエスト上限が 50/リクエストのため */
 const BATCH = 45;
+
+/** 定期実行で起こすワークフロー。キーは wrangler.toml の crons と完全に一致させること */
+const GH_REPO = 'rei0623/AFNJP';
+const DISPATCH = {
+    '*/5 * * * *': { workflow: 'web-watch.yml', inputs: { mode: 'normal' } },
+    '17 * * * *': { workflow: 'update-channels.yml' },
+};
 
 /* ═══════════ base64url ═══════════ */
 
@@ -137,6 +155,34 @@ const json = (body, status, headers) => new Response(JSON.stringify(body), {
     headers: { 'Content-Type': 'application/json; charset=utf-8', ...headers },
 });
 
+/* ═══════════ ワークフローを起こす ═══════════ */
+
+/**
+ * GitHub の workflow_dispatch を叩く。成功なら 204 が返る。
+ * 二重に起こしても、各ワークフローの concurrency が重ならないようにしている。
+ */
+async function dispatchWorkflow(env, { workflow, inputs }) {
+    const res = await fetch(
+        `https://api.github.com/repos/${GH_REPO}/actions/workflows/${workflow}/dispatches`,
+        {
+            method: 'POST',
+            headers: {
+                Authorization: `Bearer ${env.GH_DISPATCH_TOKEN}`,
+                Accept: 'application/vnd.github+json',
+                'X-GitHub-Api-Version': '2022-11-28',
+                // GitHub API は User-Agent が無いと 403 を返す
+                'User-Agent': 'afnjp-push-worker',
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({ ref: 'main', ...(inputs ? { inputs } : {}) }),
+        },
+    );
+    if (res.status !== 204) {
+        // 401 ならトークンの期限切れか取り消し。Cloudflare のログ（observability）に残る
+        throw new Error(`${workflow}: HTTP ${res.status} ${(await res.text()).slice(0, 200)}`);
+    }
+}
+
 /* ═══════════ 本体 ═══════════ */
 
 export default {
@@ -204,6 +250,8 @@ export default {
             }
             result.subject = Boolean(env.VAPID_SUBJECT);
             result.sendToken = Boolean(env.SEND_TOKEN);
+            // 定期実行は任意なので ok には含めない。入っているかだけ返す
+            result.dispatchToken = Boolean(env.GH_DISPATCH_TOKEN);
             result.ok = result.publicKeyFormat && result.keyPairMatches
                 && result.subject && result.sendToken;
             return json(result, result.ok ? 200 : 500, head);
@@ -353,5 +401,16 @@ export default {
         }
 
         return json({ error: 'not found' }, 404, head);
+    },
+
+    async scheduled(controller, env) {
+        const target = DISPATCH[controller.cron];
+        if (!target) {
+            console.error(`知らない cron です: ${controller.cron}（DISPATCH と wrangler.toml がずれている）`);
+            return;
+        }
+        if (!env.GH_DISPATCH_TOKEN) return; // 未設定なら何もしない
+        // 例外はそのまま投げる。Cloudflare のダッシュボードで失敗として見えるようにするため
+        await dispatchWorkflow(env, target);
     },
 };

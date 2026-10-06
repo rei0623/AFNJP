@@ -9,6 +9,7 @@
 #   npx wrangler secret put VAPID_PRIVATE_KEY
 #   npx wrangler secret put VAPID_SUBJECT
 #   npx wrangler secret put SEND_TOKEN
+#   npx wrangler secret put GH_DISPATCH_TOKEN  ← 任意。定期実行を使うときだけ（src/worker.js の冒頭を参照）
 #   npx wrangler deploy
 #
 # シークレットは wrangler が対話的に受け取るので、このファイルには絶対に書かないこと。
@@ -30,3 +31,9 @@ id = "8e9607d100ba49b397b87d716b03138a"
 
 [observability]
 enabled = true
+
+# GitHub Actions の schedule は混雑すると数時間おきにしか動かないので、
+# ここから時刻どおりに workflow_dispatch を叩いて起こす（src/worker.js の scheduled）。
+# 式を変えるときは src/worker.js の DISPATCH のキーも同じ文字列に直すこと。
+[triggers]
+crons = ["*/5 * * * *", "17 * * * *"]

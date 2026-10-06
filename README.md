@@ -177,7 +177,7 @@ Google は blog.google / DeepMind / Developers / Research / Cloud、Anthropic �
 - **初回の実行は投稿しません。** その時点の記事をすべて既読として登録するだけです。これをしないと過去記事が数千件流れます
 - 1回の実行で投稿するのは最大12件(暴発の歯止め)
 - Bot には投稿先チャンネルでの **「メッセージを送信」権限**が必要です。プライベートチャンネルの場合、サーバー全体の閲覧権限だけでは入れないので、チャンネル個別に Bot を追加してください
-- GitHub Actions のスケジュールは混雑時に5〜15分遅れることがあります。体感が遅ければ、Worker の cron で更新有無だけを見て Actions を起こす二段構えに変えられます
+- GitHub Actions のスケジュールは混雑すると数時間おきにしか動きません。そのため Worker の cron から時刻どおりに `workflow_dispatch` で起こしています(`push-worker` の `GH_DISPATCH_TOKEN`。下の「Worker をデプロイする」を参照)
 
 ## X への投稿(半自動 ─ 現在は無効)
 
@@ -293,6 +293,8 @@ Android と PC の Chrome / Edge / Firefox は通常のタブでも届きます�
    npx wrangler secret put VAPID_PRIVATE_KEY
    npx wrangler secret put VAPID_SUBJECT    # mailto:あなたのメール
    npx wrangler secret put SEND_TOKEN       # 自分で決めた長いランダム文字列
+   npx wrangler secret put GH_DISPATCH_TOKEN  # 任意。ワークフローを時刻どおりに起こす GitHub トークン
+                                              # fine-grained で rei0623/AFNJP だけ・Actions: Read and write だけ
    npx wrangler deploy
    ```
 
