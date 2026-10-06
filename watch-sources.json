@@ -25,12 +25,13 @@
       "include": "^/(news|research|engineering)/[^/]+$"
     },
     {
-      "id": "claude",
+      "id": "claude-articles",
+      "_id_note": "2026年10月にブログが /blog/ から /resources/articles/ へ移った（旧URLは308で転送）。URLがすべて変わったため、ID を変えて初回登録をやり直させている（同じIDのままだと過去記事が新着として流れる）",
       "label": "Claude (claude.com)",
       "category": "Anthropic",
       "type": "sitemap",
       "url": "https://claude.com/sitemap.xml",
-      "include": "^/blog/[^/]+$"
+      "include": "^/resources/articles/[^/]+$"
     },
     {
       "id": "google-blog",
