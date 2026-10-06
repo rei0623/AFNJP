@@ -1,9 +1,110 @@
 {
-  "generated_at": "2026-10-06T15:07:51.736Z",
+  "generated_at": "2026-10-06T20:16:17.804Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 310,
+  "count": 314,
   "posts": [
+    {
+      "id": "1557066539704909824",
+      "title": "Google Earth AI、地球規模の地理空間AIを公衆衛生へ展開",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-10-06T16:26:31.963Z",
+      "excerpt": "Google Researchは2026年10月6日、Google Earth AIの「Population Dynamics Foundation Model（PDFM）」を公衆衛生に応用した研究成果を公開しました。検索傾向、人の移動、都市環境、気象・大気…",
+      "lead": "Google Researchは2026年10月6日、Google Earth AIの「Population Dynamics Foundation Model（PDFM）」を公衆衛生に応用した研究成果を公開しました。検索傾向、人の移動、都市環境、気象・大気質などを統合した地理空間埋め込みを既存の疫学モデルへ追加し、ワクチン接種率、心血管疾患、デング熱、産後うつ、コレラという異なる課題で有効性を検証しています。",
+      "headings": [
+        "「場所」をベクトル化する基盤モデル",
+        "5つの公衆衛生課題で検証",
+        "公衆衛生AIの設計を変える可能性",
+        "今後の展望"
+      ],
+      "source_url": "https://research.google/blog/earth-ais-planetary-geospatial-foundation-models-for-global-public-health/",
+      "source_urls": [
+        "https://research.google/blog/earth-ais-planetary-geospatial-foundation-models-for-global-public-health/"
+      ],
+      "source_label": "research.google",
+      "cover": "assets/posts/1557066539704909824.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1557066539704909824",
+      "first_seen": "2026-10-06T16:26:31.963Z",
+      "kind": "research",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1557066406502076497",
+      "title": "Google「EmbeddingGemma 2」公開、740Mで画像・音声・動画まで端末内検索",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-10-06T16:26:00.205Z",
+      "excerpt": "Googleは2026年10月6日、テキスト、コード、画像、動画、音声を単一のベクトル空間へ統合するオープンウェイト埋め込みモデル「EmbeddingGemma 2」を発表しました。最大740Mパラメータという比較的小型の設計で、クラウドにデータを送らず、ス…",
+      "lead": "Googleは2026年10月6日、テキスト、コード、画像、動画、音声を単一のベクトル空間へ統合するオープンウェイト埋め込みモデル「EmbeddingGemma 2」を発表しました。最大740Mパラメータという比較的小型の設計で、クラウドにデータを送らず、スマートフォンやPC上でマルチモーダル検索やRAGを実行することを狙います。",
+      "headings": [
+        "5種類の情報を768次元の共通空間へ",
+        "ベクトルDBの容量も最大6分の1へ",
+        "オンデバイス検索を実用レベルへ",
+        "今後の展望"
+      ],
+      "source_url": "https://developers.googleblog.com/google-ai-edge-with-embeddinggemma-2/",
+      "source_urls": [
+        "https://developers.googleblog.com/google-ai-edge-with-embeddinggemma-2/",
+        "https://developers.googleblog.com/embeddinggemma-2-the-developer-guide/"
+      ],
+      "source_label": "developers.googleblog.com",
+      "cover": "assets/posts/1557066406502076497.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1557066406502076497",
+      "first_seen": "2026-10-06T16:26:00.205Z",
+      "kind": "model",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1557066272855031909",
+      "title": "OpenAIとAtlassianが提携拡大、GPT-6を企業ワークフローへ統合",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-10-06T16:25:28.341Z",
+      "excerpt": "OpenAIとAtlassianは2026年10月6日、提携拡大を発表しました。GPT-6ファミリーを含むOpenAIの最新モデルをAtlassian製品群へ組み込み、企業内の知識を検索・要約するだけでなく、実際の業務アクションにつなげるAIエージェント基盤…",
+      "lead": "OpenAIとAtlassianは2026年10月6日、提携拡大を発表しました。GPT-6ファミリーを含むOpenAIの最新モデルをAtlassian製品群へ組み込み、企業内の知識を検索・要約するだけでなく、実際の業務アクションにつなげるAIエージェント基盤の構築を進めます。",
+      "headings": [
+        "GPT-6とTeamwork Graphを接続",
+        "Codexを3,000人超の開発者が利用",
+        "「回答するAI」から「仕事を進めるAI」へ",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/atlassian-partnership/",
+      "source_urls": [
+        "https://openai.com/index/atlassian-partnership/"
+      ],
+      "source_label": "openai.com",
+      "cover": "assets/posts/1557066272855031909.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1557066272855031909",
+      "first_seen": "2026-10-06T16:25:28.341Z",
+      "kind": "business",
+      "kind_confidence": 0.96
+    },
+    {
+      "id": "1557066169654190243",
+      "title": "Google DeepMind「Nano Banana 2.1」公開、画像生成・編集を強化",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-10-06T16:25:03.736Z",
+      "excerpt": "Google DeepMindは2026年10月6日、画像生成・編集モデル「Nano Banana 2.1」のモデルカードを公開しました。Gemini 3シリーズに属し、Gemini 3.6 Flashを基盤とするネイティブマルチモーダルモデルです。テキスト…",
+      "lead": "Google DeepMindは2026年10月6日、画像生成・編集モデル「Nano Banana 2.1」のモデルカードを公開しました。Gemini 3シリーズに属し、Gemini 3.6 Flashを基盤とするネイティブマルチモーダルモデルです。テキストと画像を理解し、画像とテキストを出力できます。",
+      "headings": [
+        "100万トークンの長文脈と画像生成を統合",
+        "Thinking利用で画像品質が大幅向上",
+        "依然として残る弱点",
+        "今後の展望"
+      ],
+      "source_url": "https://deepmind.google/models/model-cards/nano-banana-2-1/",
+      "source_urls": [
+        "https://deepmind.google/models/model-cards/nano-banana-2-1/"
+      ],
+      "source_label": "deepmind.google",
+      "cover": "assets/posts/1557066169654190243.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1557066169654190243",
+      "first_seen": "2026-10-06T16:25:03.736Z",
+      "kind": "model",
+      "kind_confidence": 1
+    },
     {
       "id": "1557043960067915816",
       "title": "CohereとPwCが提携、機密データを守る「エンタープライズAI」の本番導入を加速",

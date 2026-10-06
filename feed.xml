@@ -5,8 +5,40 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 06 Oct 2026 14:56:48 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 06 Oct 2026 16:26:31 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Google Earth AI、地球規模の地理空間AIを公衆衛生へ展開</title>
+      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1557066539704909824</link>
+      <guid isPermaLink="false">afnjp-1557066539704909824</guid>
+      <pubDate>Tue, 06 Oct 2026 16:26:31 GMT</pubDate>
+      <category>google</category>
+      <description>Google Researchは2026年10月6日、Google Earth AIの「Population Dynamics Foundation Model（PDFM）」を公衆衛生に応用した研究成果を公開しました。検索傾向、人の移動、都市環境、気象・大気…</description>
+    </item>
+    <item>
+      <title>Google「EmbeddingGemma 2」公開、740Mで画像・音声・動画まで端末内検索</title>
+      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1557066406502076497</link>
+      <guid isPermaLink="false">afnjp-1557066406502076497</guid>
+      <pubDate>Tue, 06 Oct 2026 16:26:00 GMT</pubDate>
+      <category>google</category>
+      <description>Googleは2026年10月6日、テキスト、コード、画像、動画、音声を単一のベクトル空間へ統合するオープンウェイト埋め込みモデル「EmbeddingGemma 2」を発表しました。最大740Mパラメータという比較的小型の設計で、クラウドにデータを送らず、ス…</description>
+    </item>
+    <item>
+      <title>OpenAIとAtlassianが提携拡大、GPT-6を企業ワークフローへ統合</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1557066272855031909</link>
+      <guid isPermaLink="false">afnjp-1557066272855031909</guid>
+      <pubDate>Tue, 06 Oct 2026 16:25:28 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIとAtlassianは2026年10月6日、提携拡大を発表しました。GPT-6ファミリーを含むOpenAIの最新モデルをAtlassian製品群へ組み込み、企業内の知識を検索・要約するだけでなく、実際の業務アクションにつなげるAIエージェント基盤…</description>
+    </item>
+    <item>
+      <title>Google DeepMind「Nano Banana 2.1」公開、画像生成・編集を強化</title>
+      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1557066169654190243</link>
+      <guid isPermaLink="false">afnjp-1557066169654190243</guid>
+      <pubDate>Tue, 06 Oct 2026 16:25:03 GMT</pubDate>
+      <category>google</category>
+      <description>Google DeepMindは2026年10月6日、画像生成・編集モデル「Nano Banana 2.1」のモデルカードを公開しました。Gemini 3シリーズに属し、Gemini 3.6 Flashを基盤とするネイティブマルチモーダルモデルです。テキスト…</description>
+    </item>
     <item>
       <title>CohereとPwCが提携、機密データを守る「エンタープライズAI」の本番導入を加速</title>
       <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1557043960067915816</link>
@@ -70,38 +102,6 @@
       <pubDate>Tue, 06 Oct 2026 11:06:54 GMT</pubDate>
       <category>codex</category>
       <description>OpenAIは、コーディングエージェント「Codex」がサンドボックス外の操作を実行しようとした際、人間の代わりに別のAIエージェントが許可・拒否を判断する「Auto-review」の仕組みを公開しました。人間による同期的な承認を大幅に減らしつつ、データ流出…</description>
-    </item>
-    <item>
-      <title>Google Cloud Modernize発表、AIエージェントで企業IT刷新を一気通貫</title>
-      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1556984213436239944</link>
-      <guid isPermaLink="false">afnjp-1556984213436239944</guid>
-      <pubDate>Tue, 06 Oct 2026 10:59:23 GMT</pubDate>
-      <category>google</category>
-      <description>Google Cloudは2026年10月5日、企業のクラウド移行とアプリケーション刷新を統合する「Google Cloud Modernize」を発表しました。インフラ評価、基盤移行、Java・.NET・メインフレームの近代化までをAIエージェントで支援し…</description>
-    </item>
-    <item>
-      <title>Amazon Quick、開発から本番へのAI資源移行を自動化</title>
-      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1556984049011134506</link>
-      <guid isPermaLink="false">afnjp-1556984049011134506</guid>
-      <pubDate>Tue, 06 Oct 2026 10:58:44 GMT</pubDate>
-      <category>その他</category>
-      <description>AWSは2026年10月5日、Amazon Quickで作成したAIエージェントやナレッジベースなどを、開発用AWSアカウントから本番環境へ安全に昇格させる「Quick Resource Migrator」の実装例を公開しました。Model Context …</description>
-    </item>
-    <item>
-      <title>Falcon-Emirati-7B登場、UAE方言と文化理解に特化した7B言語モデル</title>
-      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1556983950352850955</link>
-      <guid isPermaLink="false">afnjp-1556983950352850955</guid>
-      <pubDate>Tue, 06 Oct 2026 10:58:21 GMT</pubDate>
-      <category>その他</category>
-      <description>UAEのTechnology Innovation Instituteは、アラブ首長国連邦で使われるエミラティ方言に特化した大規模言語モデル「Falcon-Emirati-7B」を公開しました。標準アラビア語を理解するだけでなく、方言特有の語彙、表現、詩、慣…</description>
-    </item>
-    <item>
-      <title>AWS、コーディングエージェントをSageMaker推論最適化の専門家にする新スキル</title>
-      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1556983812741791754</link>
-      <guid isPermaLink="false">afnjp-1556983812741791754</guid>
-      <pubDate>Tue, 06 Oct 2026 10:57:48 GMT</pubDate>
-      <category>その他</category>
-      <description>AWSは2026年10月5日、Amazon SageMaker AIの生成AI推論を最適化するエージェントスキル「aws-ai-ml」を発表しました。Kiro、Claude Code、CodexなどのMCP対応コーディングエージェントから、自然言語でベンチマ…</description>
     </item>
   </channel>
 </rss>

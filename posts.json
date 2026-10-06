@@ -1,8 +1,101 @@
 {
-  "generated_at": "2026-10-06T15:07:51.739Z",
+  "generated_at": "2026-10-06T20:16:17.806Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1557066539704909824",
+      "title": "Google Earth AI、地球規模の地理空間AIを公衆衛生へ展開",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-10-06T16:26:31.963Z",
+      "excerpt": "Google Researchは2026年10月6日、Google Earth AIの「Population Dynamics Foundation Model（PDFM）」を公衆衛生に応用した研究成果を公開しました。検索傾向、人の移動、都市環境、気象・大気…",
+      "lead": "Google Researchは2026年10月6日、Google Earth AIの「Population Dynamics Foundation Model（PDFM）」を公衆衛生に応用した研究成果を公開しました。検索傾向、人の移動、都市環境、気象・大気質などを統合した地理空間埋め込みを既存の疫学モデルへ追加し、ワクチン接種率、心血管疾患、デング熱、産後うつ、コレラという異なる課題で有効性を検証しています。",
+      "headings": [
+        "「場所」をベクトル化する基盤モデル",
+        "5つの公衆衛生課題で検証",
+        "公衆衛生AIの設計を変える可能性",
+        "今後の展望"
+      ],
+      "source_url": "https://research.google/blog/earth-ais-planetary-geospatial-foundation-models-for-global-public-health/",
+      "source_urls": [
+        "https://research.google/blog/earth-ais-planetary-geospatial-foundation-models-for-global-public-health/"
+      ],
+      "source_label": "research.google",
+      "cover": "assets/posts/1557066539704909824.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1557066539704909824",
+      "first_seen": "2026-10-06T16:26:31.963Z"
+    },
+    {
+      "id": "1557066406502076497",
+      "title": "Google「EmbeddingGemma 2」公開、740Mで画像・音声・動画まで端末内検索",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-10-06T16:26:00.205Z",
+      "excerpt": "Googleは2026年10月6日、テキスト、コード、画像、動画、音声を単一のベクトル空間へ統合するオープンウェイト埋め込みモデル「EmbeddingGemma 2」を発表しました。最大740Mパラメータという比較的小型の設計で、クラウドにデータを送らず、ス…",
+      "lead": "Googleは2026年10月6日、テキスト、コード、画像、動画、音声を単一のベクトル空間へ統合するオープンウェイト埋め込みモデル「EmbeddingGemma 2」を発表しました。最大740Mパラメータという比較的小型の設計で、クラウドにデータを送らず、スマートフォンやPC上でマルチモーダル検索やRAGを実行することを狙います。",
+      "headings": [
+        "5種類の情報を768次元の共通空間へ",
+        "ベクトルDBの容量も最大6分の1へ",
+        "オンデバイス検索を実用レベルへ",
+        "今後の展望"
+      ],
+      "source_url": "https://developers.googleblog.com/google-ai-edge-with-embeddinggemma-2/",
+      "source_urls": [
+        "https://developers.googleblog.com/google-ai-edge-with-embeddinggemma-2/",
+        "https://developers.googleblog.com/embeddinggemma-2-the-developer-guide/"
+      ],
+      "source_label": "developers.googleblog.com",
+      "cover": "assets/posts/1557066406502076497.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1557066406502076497",
+      "first_seen": "2026-10-06T16:26:00.205Z"
+    },
+    {
+      "id": "1557066272855031909",
+      "title": "OpenAIとAtlassianが提携拡大、GPT-6を企業ワークフローへ統合",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-10-06T16:25:28.341Z",
+      "excerpt": "OpenAIとAtlassianは2026年10月6日、提携拡大を発表しました。GPT-6ファミリーを含むOpenAIの最新モデルをAtlassian製品群へ組み込み、企業内の知識を検索・要約するだけでなく、実際の業務アクションにつなげるAIエージェント基盤…",
+      "lead": "OpenAIとAtlassianは2026年10月6日、提携拡大を発表しました。GPT-6ファミリーを含むOpenAIの最新モデルをAtlassian製品群へ組み込み、企業内の知識を検索・要約するだけでなく、実際の業務アクションにつなげるAIエージェント基盤の構築を進めます。",
+      "headings": [
+        "GPT-6とTeamwork Graphを接続",
+        "Codexを3,000人超の開発者が利用",
+        "「回答するAI」から「仕事を進めるAI」へ",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/atlassian-partnership/",
+      "source_urls": [
+        "https://openai.com/index/atlassian-partnership/"
+      ],
+      "source_label": "openai.com",
+      "cover": "assets/posts/1557066272855031909.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1557066272855031909",
+      "first_seen": "2026-10-06T16:25:28.341Z"
+    },
+    {
+      "id": "1557066169654190243",
+      "title": "Google DeepMind「Nano Banana 2.1」公開、画像生成・編集を強化",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-10-06T16:25:03.736Z",
+      "excerpt": "Google DeepMindは2026年10月6日、画像生成・編集モデル「Nano Banana 2.1」のモデルカードを公開しました。Gemini 3シリーズに属し、Gemini 3.6 Flashを基盤とするネイティブマルチモーダルモデルです。テキスト…",
+      "lead": "Google DeepMindは2026年10月6日、画像生成・編集モデル「Nano Banana 2.1」のモデルカードを公開しました。Gemini 3シリーズに属し、Gemini 3.6 Flashを基盤とするネイティブマルチモーダルモデルです。テキストと画像を理解し、画像とテキストを出力できます。",
+      "headings": [
+        "100万トークンの長文脈と画像生成を統合",
+        "Thinking利用で画像品質が大幅向上",
+        "依然として残る弱点",
+        "今後の展望"
+      ],
+      "source_url": "https://deepmind.google/models/model-cards/nano-banana-2-1/",
+      "source_urls": [
+        "https://deepmind.google/models/model-cards/nano-banana-2-1/"
+      ],
+      "source_label": "deepmind.google",
+      "cover": "assets/posts/1557066169654190243.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1557066169654190243",
+      "first_seen": "2026-10-06T16:25:03.736Z"
+    },
     {
       "id": "1557043960067915816",
       "title": "CohereとPwCが提携、機密データを守る「エンタープライズAI」の本番導入を加速",
@@ -24,7 +117,9 @@
       "source_label": "cohere.com",
       "cover": "assets/posts/1557043960067915816.webp",
       "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1557043960067915816",
-      "first_seen": "2026-10-06T14:56:48.558Z"
+      "first_seen": "2026-10-06T14:56:48.558Z",
+      "kind": "business",
+      "kind_confidence": 1
     },
     {
       "id": "1557043816618401945",
@@ -48,7 +143,9 @@
       "source_label": "mistral.ai",
       "cover": "assets/posts/1557043816618401945.webp",
       "url": "https://discord.com/channels/1415350002255007784/1460897850354438283/threads/1557043816618401945",
-      "first_seen": "2026-10-06T14:56:14.357Z"
+      "first_seen": "2026-10-06T14:56:14.357Z",
+      "kind": "model",
+      "kind_confidence": 1
     },
     {
       "id": "1557036907463180318",
@@ -71,7 +168,9 @@
       "source_label": "anthropic.com",
       "cover": "assets/posts/1557036907463180318.webp",
       "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1557036907463180318",
-      "first_seen": "2026-10-06T14:28:47.086Z"
+      "first_seen": "2026-10-06T14:28:47.086Z",
+      "kind": "policy",
+      "kind_confidence": 1
     },
     {
       "id": "1556986624468852827",
@@ -94,7 +193,9 @@
       ],
       "source_label": "github.com",
       "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1556986624468852827",
-      "first_seen": "2026-10-06T11:08:58.686Z"
+      "first_seen": "2026-10-06T11:08:58.686Z",
+      "kind": "tool",
+      "kind_confidence": 1
     },
     {
       "id": "1556986494235709591",
@@ -117,7 +218,9 @@
       "source_label": "cognition.com",
       "cover": "assets/posts/1556986494235709591.webp",
       "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1556986494235709591",
-      "first_seen": "2026-10-06T11:08:27.636Z"
+      "first_seen": "2026-10-06T11:08:27.636Z",
+      "kind": "tool",
+      "kind_confidence": 0.96
     },
     {
       "id": "1556986330293207071",
@@ -141,7 +244,9 @@
       "source_label": "github.com",
       "cover": "assets/posts/1556986330293207071.webp",
       "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1556986330293207071",
-      "first_seen": "2026-10-06T11:07:48.549Z"
+      "first_seen": "2026-10-06T11:07:48.549Z",
+      "kind": "model",
+      "kind_confidence": 0.82
     },
     {
       "id": "1556986240291831848",
@@ -165,7 +270,9 @@
       "source_label": "workspaceupdates.googleblog.com",
       "cover": "assets/posts/1556986240291831848.webp",
       "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1556986240291831848",
-      "first_seen": "2026-10-06T11:07:27.091Z"
+      "first_seen": "2026-10-06T11:07:27.091Z",
+      "kind": "feature",
+      "kind_confidence": 1
     },
     {
       "id": "1556986103116992533",
@@ -187,100 +294,9 @@
       ],
       "source_label": "alignment.openai.com",
       "url": "https://discord.com/channels/1415350002255007784/1415355102939578490/threads/1556986103116992533",
-      "first_seen": "2026-10-06T11:06:54.386Z"
-    },
-    {
-      "id": "1556984213436239944",
-      "title": "Google Cloud Modernize発表、AIエージェントで企業IT刷新を一気通貫",
-      "channel": "google",
-      "category": "Google",
-      "date": "2026-10-06T10:59:23.851Z",
-      "excerpt": "Google Cloudは2026年10月5日、企業のクラウド移行とアプリケーション刷新を統合する「Google Cloud Modernize」を発表しました。インフラ評価、基盤移行、Java・.NET・メインフレームの近代化までをAIエージェントで支援し…",
-      "lead": "Google Cloudは2026年10月5日、企業のクラウド移行とアプリケーション刷新を統合する「Google Cloud Modernize」を発表しました。インフラ評価、基盤移行、Java・.NET・メインフレームの近代化までをAIエージェントで支援し、従来は長期化しやすかった変革計画を短縮する狙いです。",
-      "headings": [
-        "評価から移行までをAIでつなぐ",
-        "AI時代を前提にインフラも強化",
-        "レガシーアプリの解析と安全な切り替え",
-        "今後の展望"
-      ],
-      "source_url": "https://cloud.google.com/blog/products/infrastructure-modernization/google-cloud-modernize-accelerate-transformation-with-ai/?hl=en",
-      "source_urls": [
-        "https://cloud.google.com/blog/products/infrastructure-modernization/google-cloud-modernize-accelerate-transformation-with-ai/?hl=en"
-      ],
-      "source_label": "cloud.google.com",
-      "cover": "assets/posts/1556984213436239944.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1556984213436239944",
-      "first_seen": "2026-10-06T10:59:23.851Z"
-    },
-    {
-      "id": "1556984049011134506",
-      "title": "Amazon Quick、開発から本番へのAI資源移行を自動化",
-      "channel": "その他",
-      "category": "その他",
-      "date": "2026-10-06T10:58:44.649Z",
-      "excerpt": "AWSは2026年10月5日、Amazon Quickで作成したAIエージェントやナレッジベースなどを、開発用AWSアカウントから本番環境へ安全に昇格させる「Quick Resource Migrator」の実装例を公開しました。Model Context …",
-      "lead": "AWSは2026年10月5日、Amazon Quickで作成したAIエージェントやナレッジベースなどを、開発用AWSアカウントから本番環境へ安全に昇格させる「Quick Resource Migrator」の実装例を公開しました。Model Context Protocol（MCP）とAmazon Bedrock AgentCoreを組み合わせ、これまで手作業だったクロスアカウント移行を、再実行可能かつ監査可能なプロセスへ変える仕組みです。",
-      "headings": [
-        "AIエージェントにも「DevからProd」の仕組み",
-        "MCPとAgentCoreでクロスアカウント移行",
-        "プレビュー、監査、ロールバックまで統合",
-        "今後の展望"
-      ],
-      "source_url": "https://aws.amazon.com/jp/blogs/machine-learning/making-amazon-quick-enterprise-ready-automated-auditable-cross-account-resource-promotion/",
-      "source_urls": [
-        "https://aws.amazon.com/jp/blogs/machine-learning/making-amazon-quick-enterprise-ready-automated-auditable-cross-account-resource-promotion/"
-      ],
-      "source_label": "aws.amazon.com",
-      "cover": "assets/posts/1556984049011134506.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1556984049011134506",
-      "first_seen": "2026-10-06T10:58:44.649Z"
-    },
-    {
-      "id": "1556983950352850955",
-      "title": "Falcon-Emirati-7B登場、UAE方言と文化理解に特化した7B言語モデル",
-      "channel": "その他",
-      "category": "その他",
-      "date": "2026-10-06T10:58:21.127Z",
-      "excerpt": "UAEのTechnology Innovation Instituteは、アラブ首長国連邦で使われるエミラティ方言に特化した大規模言語モデル「Falcon-Emirati-7B」を公開しました。標準アラビア語を理解するだけでなく、方言特有の語彙、表現、詩、慣…",
-      "lead": "UAEのTechnology Innovation Instituteは、アラブ首長国連邦で使われるエミラティ方言に特化した大規模言語モデル「Falcon-Emirati-7B」を公開しました。標準アラビア語を理解するだけでなく、方言特有の語彙、表現、詩、慣習などの文化的文脈まで扱うことを狙ったモデルです。",
-      "headings": [
-        "MambaとTransformerを組み合わせた7Bモデル",
-        "方言学習では「文化」もデータ化",
-        "方言ベンチマークで84.83%",
-        "専門LLMが示す「規模以外」の競争軸",
-        "今後の展望"
-      ],
-      "source_url": "https://huggingface.co/blog/tiiuae/falcon-emirati",
-      "source_urls": [
-        "https://huggingface.co/blog/tiiuae/falcon-emirati"
-      ],
-      "source_label": "huggingface.co",
-      "cover": "assets/posts/1556983950352850955.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1556983950352850955",
-      "first_seen": "2026-10-06T10:58:21.127Z"
-    },
-    {
-      "id": "1556983812741791754",
-      "title": "AWS、コーディングエージェントをSageMaker推論最適化の専門家にする新スキル",
-      "channel": "その他",
-      "category": "その他",
-      "date": "2026-10-06T10:57:48.318Z",
-      "excerpt": "AWSは2026年10月5日、Amazon SageMaker AIの生成AI推論を最適化するエージェントスキル「aws-ai-ml」を発表しました。Kiro、Claude Code、CodexなどのMCP対応コーディングエージェントから、自然言語でベンチマ…",
-      "lead": "AWSは2026年10月5日、Amazon SageMaker AIの生成AI推論を最適化するエージェントスキル「aws-ai-ml」を発表しました。Kiro、Claude Code、CodexなどのMCP対応コーディングエージェントから、自然言語でベンチマークやインスタンス選定、性能比較を実行するためのコードを生成できます。",
-      "headings": [
-        "推論最適化を自然言語から実行",
-        "実測データから構成を選択",
-        "AIエージェントがインフラ設計へ進出",
-        "今後の展望"
-      ],
-      "source_url": "https://aws.amazon.com/jp/blogs/machine-learning/new-agent-skill-amazon-sagemaker-optimized-generative-ai-inference-for-your-coding-agent/",
-      "source_urls": [
-        "https://aws.amazon.com/jp/blogs/machine-learning/new-agent-skill-amazon-sagemaker-optimized-generative-ai-inference-for-your-coding-agent/"
-      ],
-      "source_label": "aws.amazon.com",
-      "cover": "assets/posts/1556983812741791754.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1556983812741791754",
-      "first_seen": "2026-10-06T10:57:48.318Z"
+      "first_seen": "2026-10-06T11:06:54.386Z",
+      "kind": "feature",
+      "kind_confidence": 0.93
     }
   ]
 }
