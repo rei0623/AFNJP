@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07T05:54:29.202Z",
+  "generated_at": "2026-10-07T13:17:02.418Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
@@ -24,7 +24,9 @@
       "source_label": "aquavoice.com",
       "cover": "assets/posts/1557260373386854510.webp",
       "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1557260373386854510",
-      "first_seen": "2026-10-07T05:16:45.514Z"
+      "first_seen": "2026-10-07T05:16:45.514Z",
+      "kind": "feature",
+      "kind_confidence": 0.97
     },
     {
       "id": "1557258928717570118",
@@ -48,7 +50,9 @@
       "source_label": "liquid.ai",
       "cover": "assets/posts/1557258928717570118.webp",
       "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1557258928717570118",
-      "first_seen": "2026-10-07T05:11:01.078Z"
+      "first_seen": "2026-10-07T05:11:01.078Z",
+      "kind": "model",
+      "kind_confidence": 1
     },
     {
       "id": "1557180609426628678",
@@ -71,7 +75,9 @@
       "source_label": "blog.google",
       "cover": "assets/posts/1557180609426628678.webp",
       "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1557180609426628678",
-      "first_seen": "2026-10-06T23:59:48.304Z"
+      "first_seen": "2026-10-06T23:59:48.304Z",
+      "kind": "feature",
+      "kind_confidence": 1
     },
     {
       "id": "1557180090675236954",
@@ -94,7 +100,9 @@
       "source_label": "github.com",
       "cover": "assets/posts/1557180090675236954.webp",
       "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1557180090675236954",
-      "first_seen": "2026-10-06T23:57:44.624Z"
+      "first_seen": "2026-10-06T23:57:44.624Z",
+      "kind": "research",
+      "kind_confidence": 1
     },
     {
       "id": "1557138210919030915",
