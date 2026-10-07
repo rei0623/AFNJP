@@ -1,8 +1,101 @@
 {
-  "generated_at": "2026-10-06T23:49:55.911Z",
+  "generated_at": "2026-10-07T05:54:29.202Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1557260373386854510",
+      "title": "Aqua VoiceがAndroid対応、AI音声入力を「キーボード交換なし」で実現",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-10-07T05:16:45.514Z",
+      "excerpt": "AI音声入力サービス「Aqua Voice」がAndroid向けに提供されています。特徴は、専用キーボードへ切り替えるのではなく、既存のキーボード横に表示されるフローティングボタンから音声入力できる点です。ChatGPTやGmail、WhatsApp、Sla…",
+      "lead": "AI音声入力サービス「Aqua Voice」がAndroid向けに提供されています。特徴は、専用キーボードへ切り替えるのではなく、既存のキーボード横に表示されるフローティングボタンから音声入力できる点です。ChatGPTやGmail、WhatsApp、Slack、Notionなど、普段使っているアプリのテキスト欄へ直接文章を入力できます。",
+      "headings": [
+        "AIが「文字起こし」から「文章化」まで処理",
+        "Androidではアクセシビリティ機能を活用",
+        "独自ベンチマークでは97.3％を主張",
+        "今後の展望"
+      ],
+      "source_url": "https://aquavoice.com/android",
+      "source_urls": [
+        "https://aquavoice.com/android"
+      ],
+      "source_label": "aquavoice.com",
+      "cover": "assets/posts/1557260373386854510.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1557260373386854510",
+      "first_seen": "2026-10-07T05:16:45.514Z"
+    },
+    {
+      "id": "1557258928717570118",
+      "title": "Liquid AIが「d1」発表、生成せず確率で答える高速・低コストの意思決定AI",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-10-07T05:11:01.078Z",
+      "excerpt": "Liquid AIは2026年10月5日、テキストと画像を入力として扱える新しい「Decision Model（意思決定モデル）」d1を発表しました。文章を生成する一般的なLLMとは異なり、与えられた状況を1回のフォワードパスで評価し、選択肢ごとの確率を直接…",
+      "lead": "Liquid AIは2026年10月5日、テキストと画像を入力として扱える新しい「Decision Model（意思決定モデル）」d1を発表しました。文章を生成する一般的なLLMとは異なり、与えられた状況を1回のフォワードパスで評価し、選択肢ごとの確率を直接返す設計が特徴です。同社は、構造化された判断が必要な処理では、大規模な生成モデルより高速かつ低コストに運用できるとしています。",
+      "headings": [
+        "トークンを生成せず「判断」だけを返す",
+        "GPT-6.1 Solなどと実アプリで比較",
+        "画像入力で製造検査やゲームにも対応",
+        "API料金は入力トークンのみ",
+        "今後の展望"
+      ],
+      "source_url": "https://www.liquid.ai/blog/d1-decision-model",
+      "source_urls": [
+        "https://www.liquid.ai/blog/d1-decision-model"
+      ],
+      "source_label": "liquid.ai",
+      "cover": "assets/posts/1557258928717570118.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1557258928717570118",
+      "first_seen": "2026-10-07T05:11:01.078Z"
+    },
+    {
+      "id": "1557180609426628678",
+      "title": "Google Flow Music、自然言語で作った音楽ツールをDAWプラグインとして書き出し可能に",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-10-06T23:59:48.304Z",
+      "excerpt": "Googleは2026年10月6日、Google Labsの音楽制作サービス「Google Flow Music」で、自然言語から作成したカスタム音源やエフェクトをVST3/AUプラグインとして書き出せる機能を発表しました。プログラミング経験がなくても、自分…",
+      "lead": "Googleは2026年10月6日、Google Labsの音楽制作サービス「Google Flow Music」で、自然言語から作成したカスタム音源やエフェクトをVST3/AUプラグインとして書き出せる機能を発表しました。プログラミング経験がなくても、自分専用の音楽制作ツールを作り、普段利用するDAWへ直接組み込めるようになります。",
+      "headings": [
+        "自然言語から「自分専用プラグイン」を作成",
+        "「Vibe Coding」が音楽制作ツールにも拡大",
+        "プロの制作環境との接続が大きな意味を持つ",
+        "今後の展望"
+      ],
+      "source_url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/create-music-production-plugins-google-flow/",
+      "source_urls": [
+        "https://blog.google/innovation-and-ai/models-and-research/google-labs/create-music-production-plugins-google-flow/"
+      ],
+      "source_label": "blog.google",
+      "cover": "assets/posts/1557180609426628678.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1557180609426628678",
+      "first_seen": "2026-10-06T23:59:48.304Z"
+    },
+    {
+      "id": "1557180090675236954",
+      "title": "OpenAI、未公開AIモデルによる722本の数学研究原稿を公開",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-10-06T23:57:44.624Z",
+      "excerpt": "OpenAIはGitHub上で、内部の未公開モデルが生成した数学研究の原稿と証明関連資料をまとめた「openai/math」リポジトリを公開しました。既存の数学評価が飽和したことを受け、未解決の研究問題まで評価対象を拡大した成果で、現在722本の原稿が372…",
+      "lead": "OpenAIはGitHub上で、内部の未公開モデルが生成した数学研究の原稿と証明関連資料をまとめた「openai/math」リポジトリを公開しました。既存の数学評価が飽和したことを受け、未解決の研究問題まで評価対象を拡大した成果で、現在722本の原稿が372の研究ファミリーに整理されています。",
+      "headings": [
+        "約4000問の研究問題をAIに投入",
+        "Leanによる形式検証も重要な柱",
+        "AI研究の評価方法が変わる可能性",
+        "今後の展望"
+      ],
+      "source_url": "https://github.com/openai/math",
+      "source_urls": [
+        "https://github.com/openai/math"
+      ],
+      "source_label": "github.com",
+      "cover": "assets/posts/1557180090675236954.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1557180090675236954",
+      "first_seen": "2026-10-06T23:57:44.624Z"
+    },
     {
       "id": "1557138210919030915",
       "title": "Claude Codeがクラウド実行へ、AI開発を「1タスク1VM」で並列化",
@@ -26,7 +119,9 @@
       "source_label": "claude.dev",
       "cover": "assets/posts/1557138210919030915.webp",
       "url": "https://discord.com/channels/1415350002255007784/1415549165181599795/threads/1557138210919030915",
-      "first_seen": "2026-10-06T21:11:19.712Z"
+      "first_seen": "2026-10-06T21:11:19.712Z",
+      "kind": "tool",
+      "kind_confidence": 0.44
     },
     {
       "id": "1557138037865979975",
@@ -49,7 +144,9 @@
       "source_label": "claude.com",
       "cover": "assets/posts/1557138037865979975.webp",
       "url": "https://discord.com/channels/1415350002255007784/1415353403269185546/threads/1557138037865979975",
-      "first_seen": "2026-10-06T21:10:38.453Z"
+      "first_seen": "2026-10-06T21:10:38.453Z",
+      "kind": "feature",
+      "kind_confidence": 0.99
     },
     {
       "id": "1557137858098233374",
@@ -73,7 +170,9 @@
       "source_label": "developers.openai.com",
       "cover": "assets/posts/1557137858098233374.webp",
       "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1557137858098233374",
-      "first_seen": "2026-10-06T21:09:55.593Z"
+      "first_seen": "2026-10-06T21:09:55.593Z",
+      "kind": "tool",
+      "kind_confidence": 1
     },
     {
       "id": "1557136342318719026",
@@ -96,7 +195,9 @@
       "source_label": "anthropic.com",
       "cover": "assets/posts/1557136342318719026.webp",
       "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1557136342318719026",
-      "first_seen": "2026-10-06T21:03:54.203Z"
+      "first_seen": "2026-10-06T21:03:54.203Z",
+      "kind": "feature",
+      "kind_confidence": 0.83
     },
     {
       "id": "1557136229227827311",
@@ -119,7 +220,9 @@
       "source_label": "openai.com",
       "cover": "assets/posts/1557136229227827311.webp",
       "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1557136229227827311",
-      "first_seen": "2026-10-06T21:03:27.240Z"
+      "first_seen": "2026-10-06T21:03:27.240Z",
+      "kind": "research",
+      "kind_confidence": 0.39
     },
     {
       "id": "1557136126207336560",
@@ -142,7 +245,9 @@
       "source_label": "openai.com",
       "cover": "assets/posts/1557136126207336560.webp",
       "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1557136126207336560",
-      "first_seen": "2026-10-06T21:03:02.678Z"
+      "first_seen": "2026-10-06T21:03:02.678Z",
+      "kind": "business",
+      "kind_confidence": 0.64
     },
     {
       "id": "1557066539704909824",
@@ -192,107 +297,6 @@
       "cover": "assets/posts/1557066406502076497.webp",
       "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1557066406502076497",
       "first_seen": "2026-10-06T16:26:00.205Z",
-      "kind": "model",
-      "kind_confidence": 1
-    },
-    {
-      "id": "1557066272855031909",
-      "title": "OpenAIとAtlassianが提携拡大、GPT-6を企業ワークフローへ統合",
-      "channel": "open-ai",
-      "category": "Open AI",
-      "date": "2026-10-06T16:25:28.341Z",
-      "excerpt": "OpenAIとAtlassianは2026年10月6日、提携拡大を発表しました。GPT-6ファミリーを含むOpenAIの最新モデルをAtlassian製品群へ組み込み、企業内の知識を検索・要約するだけでなく、実際の業務アクションにつなげるAIエージェント基盤…",
-      "lead": "OpenAIとAtlassianは2026年10月6日、提携拡大を発表しました。GPT-6ファミリーを含むOpenAIの最新モデルをAtlassian製品群へ組み込み、企業内の知識を検索・要約するだけでなく、実際の業務アクションにつなげるAIエージェント基盤の構築を進めます。",
-      "headings": [
-        "GPT-6とTeamwork Graphを接続",
-        "Codexを3,000人超の開発者が利用",
-        "「回答するAI」から「仕事を進めるAI」へ",
-        "今後の展望"
-      ],
-      "source_url": "https://openai.com/index/atlassian-partnership/",
-      "source_urls": [
-        "https://openai.com/index/atlassian-partnership/"
-      ],
-      "source_label": "openai.com",
-      "cover": "assets/posts/1557066272855031909.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1557066272855031909",
-      "first_seen": "2026-10-06T16:25:28.341Z",
-      "kind": "business",
-      "kind_confidence": 0.96
-    },
-    {
-      "id": "1557066169654190243",
-      "title": "Google DeepMind「Nano Banana 2.1」公開、画像生成・編集を強化",
-      "channel": "google",
-      "category": "Google",
-      "date": "2026-10-06T16:25:03.736Z",
-      "excerpt": "Google DeepMindは2026年10月6日、画像生成・編集モデル「Nano Banana 2.1」のモデルカードを公開しました。Gemini 3シリーズに属し、Gemini 3.6 Flashを基盤とするネイティブマルチモーダルモデルです。テキスト…",
-      "lead": "Google DeepMindは2026年10月6日、画像生成・編集モデル「Nano Banana 2.1」のモデルカードを公開しました。Gemini 3シリーズに属し、Gemini 3.6 Flashを基盤とするネイティブマルチモーダルモデルです。テキストと画像を理解し、画像とテキストを出力できます。",
-      "headings": [
-        "100万トークンの長文脈と画像生成を統合",
-        "Thinking利用で画像品質が大幅向上",
-        "依然として残る弱点",
-        "今後の展望"
-      ],
-      "source_url": "https://deepmind.google/models/model-cards/nano-banana-2-1/",
-      "source_urls": [
-        "https://deepmind.google/models/model-cards/nano-banana-2-1/"
-      ],
-      "source_label": "deepmind.google",
-      "cover": "assets/posts/1557066169654190243.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1557066169654190243",
-      "first_seen": "2026-10-06T16:25:03.736Z",
-      "kind": "model",
-      "kind_confidence": 1
-    },
-    {
-      "id": "1557043960067915816",
-      "title": "CohereとPwCが提携、機密データを守る「エンタープライズAI」の本番導入を加速",
-      "channel": "その他",
-      "category": "その他",
-      "date": "2026-10-06T14:56:48.558Z",
-      "excerpt": "CohereとPwCは2026年10月5日、企業向けAIの導入を支援するグローバルアライアンスを発表しました。まずカナダで展開を開始し、AIの実証実験から本番運用への移行を支援します。焦点となるのは、機密データや既存システムへの接続、ガバナンスまで含めた「安…",
-      "lead": "CohereとPwCは2026年10月5日、企業向けAIの導入を支援するグローバルアライアンスを発表しました。まずカナダで展開を開始し、AIの実証実験から本番運用への移行を支援します。焦点となるのは、機密データや既存システムへの接続、ガバナンスまで含めた「安全に運用できるAI基盤」です。",
-      "headings": [
-        "CohereのAI基盤とPwCの企業変革支援を統合",
-        "検索から意思決定、業務自動化までを対象に",
-        "プライベートクラウドやオンプレミスにも対応",
-        "今後の展望"
-      ],
-      "source_url": "https://cohere.com/blog/cohere-and-pwc-partner-to-accelerate-secure-enterprise-ai-adoption",
-      "source_urls": [
-        "https://cohere.com/blog/cohere-and-pwc-partner-to-accelerate-secure-enterprise-ai-adoption"
-      ],
-      "source_label": "cohere.com",
-      "cover": "assets/posts/1557043960067915816.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1557043960067915816",
-      "first_seen": "2026-10-06T14:56:48.558Z",
-      "kind": "business",
-      "kind_confidence": 1
-    },
-    {
-      "id": "1557043816618401945",
-      "title": "Mistral Large 4発表、1兆パラメータの欧州発オープンウェイトAI",
-      "channel": "mistral-ai",
-      "category": "その他",
-      "date": "2026-10-06T14:56:14.357Z",
-      "excerpt": "Mistral AIは2026年10月6日、次世代基盤モデル「Mistral Large 4（ML4）」のパブリックプレビューを開始しました。総パラメータ数は1兆、推論時に利用するアクティブパラメータは490億で、画像を扱えるネイティブ・マルチモーダルモデル…",
-      "lead": "Mistral AIは2026年10月6日、次世代基盤モデル「Mistral Large 4（ML4）」のパブリックプレビューを開始しました。総パラメータ数は1兆、推論時に利用するアクティブパラメータは490億で、画像を扱えるネイティブ・マルチモーダルモデルです。APIは既に利用可能で、モデルウェイトは10月末までに公開する計画です。0",
-      "headings": [
-        "1兆パラメータを効率化するMoE設計",
-        "コーディング、エージェント、サイバーを強化",
-        "大規模RLが性能向上の中核",
-        "企業にとっての意味",
-        "今後の展望"
-      ],
-      "source_url": "https://mistral.ai/news/mistral-large-4/",
-      "source_urls": [
-        "https://mistral.ai/news/mistral-large-4/"
-      ],
-      "source_label": "mistral.ai",
-      "cover": "assets/posts/1557043816618401945.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1460897850354438283/threads/1557043816618401945",
-      "first_seen": "2026-10-06T14:56:14.357Z",
       "kind": "model",
       "kind_confidence": 1
     }

@@ -1,9 +1,110 @@
 {
-  "generated_at": "2026-10-06T23:49:55.908Z",
+  "generated_at": "2026-10-07T05:54:29.199Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 320,
+  "count": 324,
   "posts": [
+    {
+      "id": "1557260373386854510",
+      "title": "Aqua VoiceがAndroid対応、AI音声入力を「キーボード交換なし」で実現",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-10-07T05:16:45.514Z",
+      "excerpt": "AI音声入力サービス「Aqua Voice」がAndroid向けに提供されています。特徴は、専用キーボードへ切り替えるのではなく、既存のキーボード横に表示されるフローティングボタンから音声入力できる点です。ChatGPTやGmail、WhatsApp、Sla…",
+      "lead": "AI音声入力サービス「Aqua Voice」がAndroid向けに提供されています。特徴は、専用キーボードへ切り替えるのではなく、既存のキーボード横に表示されるフローティングボタンから音声入力できる点です。ChatGPTやGmail、WhatsApp、Slack、Notionなど、普段使っているアプリのテキスト欄へ直接文章を入力できます。",
+      "headings": [
+        "AIが「文字起こし」から「文章化」まで処理",
+        "Androidではアクセシビリティ機能を活用",
+        "独自ベンチマークでは97.3％を主張",
+        "今後の展望"
+      ],
+      "source_url": "https://aquavoice.com/android",
+      "source_urls": [
+        "https://aquavoice.com/android"
+      ],
+      "source_label": "aquavoice.com",
+      "cover": "assets/posts/1557260373386854510.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1557260373386854510",
+      "first_seen": "2026-10-07T05:16:45.514Z",
+      "kind": "feature",
+      "kind_confidence": 0.97
+    },
+    {
+      "id": "1557258928717570118",
+      "title": "Liquid AIが「d1」発表、生成せず確率で答える高速・低コストの意思決定AI",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-10-07T05:11:01.078Z",
+      "excerpt": "Liquid AIは2026年10月5日、テキストと画像を入力として扱える新しい「Decision Model（意思決定モデル）」d1を発表しました。文章を生成する一般的なLLMとは異なり、与えられた状況を1回のフォワードパスで評価し、選択肢ごとの確率を直接…",
+      "lead": "Liquid AIは2026年10月5日、テキストと画像を入力として扱える新しい「Decision Model（意思決定モデル）」d1を発表しました。文章を生成する一般的なLLMとは異なり、与えられた状況を1回のフォワードパスで評価し、選択肢ごとの確率を直接返す設計が特徴です。同社は、構造化された判断が必要な処理では、大規模な生成モデルより高速かつ低コストに運用できるとしています。",
+      "headings": [
+        "トークンを生成せず「判断」だけを返す",
+        "GPT-6.1 Solなどと実アプリで比較",
+        "画像入力で製造検査やゲームにも対応",
+        "API料金は入力トークンのみ",
+        "今後の展望"
+      ],
+      "source_url": "https://www.liquid.ai/blog/d1-decision-model",
+      "source_urls": [
+        "https://www.liquid.ai/blog/d1-decision-model"
+      ],
+      "source_label": "liquid.ai",
+      "cover": "assets/posts/1557258928717570118.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1557258928717570118",
+      "first_seen": "2026-10-07T05:11:01.078Z",
+      "kind": "model",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1557180609426628678",
+      "title": "Google Flow Music、自然言語で作った音楽ツールをDAWプラグインとして書き出し可能に",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-10-06T23:59:48.304Z",
+      "excerpt": "Googleは2026年10月6日、Google Labsの音楽制作サービス「Google Flow Music」で、自然言語から作成したカスタム音源やエフェクトをVST3/AUプラグインとして書き出せる機能を発表しました。プログラミング経験がなくても、自分…",
+      "lead": "Googleは2026年10月6日、Google Labsの音楽制作サービス「Google Flow Music」で、自然言語から作成したカスタム音源やエフェクトをVST3/AUプラグインとして書き出せる機能を発表しました。プログラミング経験がなくても、自分専用の音楽制作ツールを作り、普段利用するDAWへ直接組み込めるようになります。",
+      "headings": [
+        "自然言語から「自分専用プラグイン」を作成",
+        "「Vibe Coding」が音楽制作ツールにも拡大",
+        "プロの制作環境との接続が大きな意味を持つ",
+        "今後の展望"
+      ],
+      "source_url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/create-music-production-plugins-google-flow/",
+      "source_urls": [
+        "https://blog.google/innovation-and-ai/models-and-research/google-labs/create-music-production-plugins-google-flow/"
+      ],
+      "source_label": "blog.google",
+      "cover": "assets/posts/1557180609426628678.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1557180609426628678",
+      "first_seen": "2026-10-06T23:59:48.304Z",
+      "kind": "feature",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1557180090675236954",
+      "title": "OpenAI、未公開AIモデルによる722本の数学研究原稿を公開",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-10-06T23:57:44.624Z",
+      "excerpt": "OpenAIはGitHub上で、内部の未公開モデルが生成した数学研究の原稿と証明関連資料をまとめた「openai/math」リポジトリを公開しました。既存の数学評価が飽和したことを受け、未解決の研究問題まで評価対象を拡大した成果で、現在722本の原稿が372…",
+      "lead": "OpenAIはGitHub上で、内部の未公開モデルが生成した数学研究の原稿と証明関連資料をまとめた「openai/math」リポジトリを公開しました。既存の数学評価が飽和したことを受け、未解決の研究問題まで評価対象を拡大した成果で、現在722本の原稿が372の研究ファミリーに整理されています。",
+      "headings": [
+        "約4000問の研究問題をAIに投入",
+        "Leanによる形式検証も重要な柱",
+        "AI研究の評価方法が変わる可能性",
+        "今後の展望"
+      ],
+      "source_url": "https://github.com/openai/math",
+      "source_urls": [
+        "https://github.com/openai/math"
+      ],
+      "source_label": "github.com",
+      "cover": "assets/posts/1557180090675236954.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1557180090675236954",
+      "first_seen": "2026-10-06T23:57:44.624Z",
+      "kind": "research",
+      "kind_confidence": 1
+    },
     {
       "id": "1557138210919030915",
       "title": "Claude Codeがクラウド実行へ、AI開発を「1タスク1VM」で並列化",

@@ -5,8 +5,40 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 06 Oct 2026 21:11:19 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 07 Oct 2026 05:16:45 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Aqua VoiceがAndroid対応、AI音声入力を「キーボード交換なし」で実現</title>
+      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1557260373386854510</link>
+      <guid isPermaLink="false">afnjp-1557260373386854510</guid>
+      <pubDate>Wed, 07 Oct 2026 05:16:45 GMT</pubDate>
+      <category>その他</category>
+      <description>AI音声入力サービス「Aqua Voice」がAndroid向けに提供されています。特徴は、専用キーボードへ切り替えるのではなく、既存のキーボード横に表示されるフローティングボタンから音声入力できる点です。ChatGPTやGmail、WhatsApp、Sla…</description>
+    </item>
+    <item>
+      <title>Liquid AIが「d1」発表、生成せず確率で答える高速・低コストの意思決定AI</title>
+      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1557258928717570118</link>
+      <guid isPermaLink="false">afnjp-1557258928717570118</guid>
+      <pubDate>Wed, 07 Oct 2026 05:11:01 GMT</pubDate>
+      <category>その他</category>
+      <description>Liquid AIは2026年10月5日、テキストと画像を入力として扱える新しい「Decision Model（意思決定モデル）」d1を発表しました。文章を生成する一般的なLLMとは異なり、与えられた状況を1回のフォワードパスで評価し、選択肢ごとの確率を直接…</description>
+    </item>
+    <item>
+      <title>Google Flow Music、自然言語で作った音楽ツールをDAWプラグインとして書き出し可能に</title>
+      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1557180609426628678</link>
+      <guid isPermaLink="false">afnjp-1557180609426628678</guid>
+      <pubDate>Tue, 06 Oct 2026 23:59:48 GMT</pubDate>
+      <category>google</category>
+      <description>Googleは2026年10月6日、Google Labsの音楽制作サービス「Google Flow Music」で、自然言語から作成したカスタム音源やエフェクトをVST3/AUプラグインとして書き出せる機能を発表しました。プログラミング経験がなくても、自分…</description>
+    </item>
+    <item>
+      <title>OpenAI、未公開AIモデルによる722本の数学研究原稿を公開</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1557180090675236954</link>
+      <guid isPermaLink="false">afnjp-1557180090675236954</guid>
+      <pubDate>Tue, 06 Oct 2026 23:57:44 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIはGitHub上で、内部の未公開モデルが生成した数学研究の原稿と証明関連資料をまとめた「openai/math」リポジトリを公開しました。既存の数学評価が飽和したことを受け、未解決の研究問題まで評価対象を拡大した成果で、現在722本の原稿が372…</description>
+    </item>
     <item>
       <title>Claude Codeがクラウド実行へ、AI開発を「1タスク1VM」で並列化</title>
       <link>https://discord.com/channels/1415350002255007784/1415549165181599795/threads/1557138210919030915</link>
@@ -70,38 +102,6 @@
       <pubDate>Tue, 06 Oct 2026 16:26:00 GMT</pubDate>
       <category>google</category>
       <description>Googleは2026年10月6日、テキスト、コード、画像、動画、音声を単一のベクトル空間へ統合するオープンウェイト埋め込みモデル「EmbeddingGemma 2」を発表しました。最大740Mパラメータという比較的小型の設計で、クラウドにデータを送らず、ス…</description>
-    </item>
-    <item>
-      <title>OpenAIとAtlassianが提携拡大、GPT-6を企業ワークフローへ統合</title>
-      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1557066272855031909</link>
-      <guid isPermaLink="false">afnjp-1557066272855031909</guid>
-      <pubDate>Tue, 06 Oct 2026 16:25:28 GMT</pubDate>
-      <category>open-ai</category>
-      <description>OpenAIとAtlassianは2026年10月6日、提携拡大を発表しました。GPT-6ファミリーを含むOpenAIの最新モデルをAtlassian製品群へ組み込み、企業内の知識を検索・要約するだけでなく、実際の業務アクションにつなげるAIエージェント基盤…</description>
-    </item>
-    <item>
-      <title>Google DeepMind「Nano Banana 2.1」公開、画像生成・編集を強化</title>
-      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1557066169654190243</link>
-      <guid isPermaLink="false">afnjp-1557066169654190243</guid>
-      <pubDate>Tue, 06 Oct 2026 16:25:03 GMT</pubDate>
-      <category>google</category>
-      <description>Google DeepMindは2026年10月6日、画像生成・編集モデル「Nano Banana 2.1」のモデルカードを公開しました。Gemini 3シリーズに属し、Gemini 3.6 Flashを基盤とするネイティブマルチモーダルモデルです。テキスト…</description>
-    </item>
-    <item>
-      <title>CohereとPwCが提携、機密データを守る「エンタープライズAI」の本番導入を加速</title>
-      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1557043960067915816</link>
-      <guid isPermaLink="false">afnjp-1557043960067915816</guid>
-      <pubDate>Tue, 06 Oct 2026 14:56:48 GMT</pubDate>
-      <category>その他</category>
-      <description>CohereとPwCは2026年10月5日、企業向けAIの導入を支援するグローバルアライアンスを発表しました。まずカナダで展開を開始し、AIの実証実験から本番運用への移行を支援します。焦点となるのは、機密データや既存システムへの接続、ガバナンスまで含めた「安…</description>
-    </item>
-    <item>
-      <title>Mistral Large 4発表、1兆パラメータの欧州発オープンウェイトAI</title>
-      <link>https://discord.com/channels/1415350002255007784/1460897850354438283/threads/1557043816618401945</link>
-      <guid isPermaLink="false">afnjp-1557043816618401945</guid>
-      <pubDate>Tue, 06 Oct 2026 14:56:14 GMT</pubDate>
-      <category>mistral-ai</category>
-      <description>Mistral AIは2026年10月6日、次世代基盤モデル「Mistral Large 4（ML4）」のパブリックプレビューを開始しました。総パラメータ数は1兆、推論時に利用するアクティブパラメータは490億で、画像を扱えるネイティブ・マルチモーダルモデル…</description>
     </item>
   </channel>
 </rss>
