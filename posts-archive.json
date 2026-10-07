@@ -1,9 +1,85 @@
 {
-  "generated_at": "2026-10-07T13:17:02.416Z",
+  "generated_at": "2026-10-07T19:21:48.065Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 324,
+  "count": 327,
   "posts": [
+    {
+      "id": "1557425514560364765",
+      "title": "Perplexityが「pplx-embed-v2-late」公開、単一ベクトルを超えるマルチモーダル検索へ",
+      "channel": "perplexity",
+      "category": "その他",
+      "date": "2026-10-07T16:12:58.238Z",
+      "excerpt": "Perplexity Researchは2026年10月7日、テキストと画像を横断して検索できる新しい埋め込みモデル群「pplx-embed-v2-late」を発表しました。最大の特徴は、文書全体を1本のベクトルへ圧縮する従来型Dense Embedding…",
+      "lead": "Perplexity Researchは2026年10月7日、テキストと画像を横断して検索できる新しい埋め込みモデル群「pplx-embed-v2-late」を発表しました。最大の特徴は、文書全体を1本のベクトルへ圧縮する従来型Dense Embeddingではなく、トークン単位の複数ベクトルを保持する「Late Interaction」を採用した点です。0.6Bと9Bの2モデルは同一の埋め込み空間を共有し、大規模モデルで作成したインデックスを小型モデルで検索できる設計になっています。",
+      "headings": [
+        "単一ベクトルの情報圧縮を回避",
+        "PDFや表、画像をOCRなしで直接検索",
+        "0.6Bと9Bが同じ埋め込み空間を共有",
+        "ベンチマークでは小型モデルも高性能",
+        "今後の展望"
+      ],
+      "source_url": "https://www.perplexity.ai/hub/blog/multimodal-embeddings-beyond-a-single-vector",
+      "source_urls": [
+        "https://www.perplexity.ai/hub/blog/multimodal-embeddings-beyond-a-single-vector"
+      ],
+      "source_label": "perplexity.ai",
+      "cover": "assets/posts/1557425514560364765.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417545518539739166/threads/1557425514560364765",
+      "first_seen": "2026-10-07T16:12:58.238Z",
+      "kind": "model",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1557397648984772731",
+      "title": "Google、SynthID Detectorを世界公開 AI生成コンテンツを誰でも検証可能に",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-10-07T14:22:14.567Z",
+      "excerpt": "Google DeepMindは2026年10月7日、AI生成コンテンツを識別する「SynthID Detector」を一般ユーザー向けに拡大し、英語版を世界で提供開始しました。画像、動画、音声に埋め込まれた不可視のウォーターマークを検出し、Googleだけ…",
+      "lead": "Google DeepMindは2026年10月7日、AI生成コンテンツを識別する「SynthID Detector」を一般ユーザー向けに拡大し、英語版を世界で提供開始しました。画像、動画、音声に埋め込まれた不可視のウォーターマークを検出し、GoogleだけでなくOpenAIやNVIDIAなどの対応企業が生成したコンテンツも確認できます。",
+      "headings": [
+        "SynthID Detectorとは",
+        "OpenAIやNVIDIAにも対応",
+        "「AI検出器」と「電子透かし検出」は異なる",
+        "今後の展望"
+      ],
+      "source_url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/synth-id-ai-content/",
+      "source_urls": [
+        "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/synth-id-ai-content/"
+      ],
+      "source_label": "blog.google",
+      "cover": "assets/posts/1557397648984772731.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1557397648984772731",
+      "first_seen": "2026-10-07T14:22:14.567Z",
+      "kind": "feature",
+      "kind_confidence": 0.94
+    },
+    {
+      "id": "1557396250234716290",
+      "title": "Google「Playground」発表、文章だけでゲームを生成する実験的AIプラットフォーム",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-10-07T14:16:41.079Z",
+      "excerpt": "Googleは2026年10月7日、プログラミング不要でオリジナルゲームを作成・プレイ・共有できる実験的プラットフォーム「Playground」を発表しました。ゲームの内容を自然言語で指示するだけで、キャラクターやルール、物理挙動、ゲーム世界まで構築できる点…",
+      "lead": "Googleは2026年10月7日、プログラミング不要でオリジナルゲームを作成・プレイ・共有できる実験的プラットフォーム「Playground」を発表しました。ゲームの内容を自然言語で指示するだけで、キャラクターやルール、物理挙動、ゲーム世界まで構築できる点が最大の特徴です。",
+      "headings": [
+        "会話形式でゲーム開発",
+        "ブラウザ上で公開・対戦まで対応",
+        "Unity Sparkとの統合も予定",
+        "今後の展望"
+      ],
+      "source_url": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/",
+      "source_urls": [
+        "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/"
+      ],
+      "source_label": "blog.google",
+      "cover": "assets/posts/1557396250234716290.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1557396250234716290",
+      "first_seen": "2026-10-07T14:16:41.079Z",
+      "kind": "tool",
+      "kind_confidence": 0.85
+    },
     {
       "id": "1557260373386854510",
       "title": "Aqua VoiceがAndroid対応、AI音声入力を「キーボード交換なし」で実現",

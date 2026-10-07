@@ -5,8 +5,32 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 07 Oct 2026 05:16:45 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 07 Oct 2026 16:12:58 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Perplexityが「pplx-embed-v2-late」公開、単一ベクトルを超えるマルチモーダル検索へ</title>
+      <link>https://discord.com/channels/1415350002255007784/1417545518539739166/threads/1557425514560364765</link>
+      <guid isPermaLink="false">afnjp-1557425514560364765</guid>
+      <pubDate>Wed, 07 Oct 2026 16:12:58 GMT</pubDate>
+      <category>perplexity</category>
+      <description>Perplexity Researchは2026年10月7日、テキストと画像を横断して検索できる新しい埋め込みモデル群「pplx-embed-v2-late」を発表しました。最大の特徴は、文書全体を1本のベクトルへ圧縮する従来型Dense Embedding…</description>
+    </item>
+    <item>
+      <title>Google、SynthID Detectorを世界公開 AI生成コンテンツを誰でも検証可能に</title>
+      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1557397648984772731</link>
+      <guid isPermaLink="false">afnjp-1557397648984772731</guid>
+      <pubDate>Wed, 07 Oct 2026 14:22:14 GMT</pubDate>
+      <category>google</category>
+      <description>Google DeepMindは2026年10月7日、AI生成コンテンツを識別する「SynthID Detector」を一般ユーザー向けに拡大し、英語版を世界で提供開始しました。画像、動画、音声に埋め込まれた不可視のウォーターマークを検出し、Googleだけ…</description>
+    </item>
+    <item>
+      <title>Google「Playground」発表、文章だけでゲームを生成する実験的AIプラットフォーム</title>
+      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1557396250234716290</link>
+      <guid isPermaLink="false">afnjp-1557396250234716290</guid>
+      <pubDate>Wed, 07 Oct 2026 14:16:41 GMT</pubDate>
+      <category>google</category>
+      <description>Googleは2026年10月7日、プログラミング不要でオリジナルゲームを作成・プレイ・共有できる実験的プラットフォーム「Playground」を発表しました。ゲームの内容を自然言語で指示するだけで、キャラクターやルール、物理挙動、ゲーム世界まで構築できる点…</description>
+    </item>
     <item>
       <title>Aqua VoiceがAndroid対応、AI音声入力を「キーボード交換なし」で実現</title>
       <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1557260373386854510</link>
@@ -78,30 +102,6 @@
       <pubDate>Tue, 06 Oct 2026 21:03:27 GMT</pubDate>
       <category>open-ai</category>
       <description>OpenAIは2026年10月6日、契約管理プラットフォームを手掛けるIroncladとの研究協力を発表しました。専門業務向けソフトウェアをAIが操作し、複数工程にまたがる業務ルールを維持しながら処理を完遂できる能力の向上が狙いです。GPT-6 Astraで…</description>
-    </item>
-    <item>
-      <title>OpenAI、AIエージェントの「Computer Use」強化へ企業との研究協力を募集</title>
-      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1557136126207336560</link>
-      <guid isPermaLink="false">afnjp-1557136126207336560</guid>
-      <pubDate>Tue, 06 Oct 2026 21:03:02 GMT</pubDate>
-      <category>open-ai</category>
-      <description>OpenAIは、AIエージェントによるコンピューター操作能力を改善するため、少数のソフトウェア企業を対象とした研究協力プログラム「Computer-use research collaboration」の募集を開始しています。狙いは、現在のエージェントがまだ…</description>
-    </item>
-    <item>
-      <title>Google Earth AI、地球規模の地理空間AIを公衆衛生へ展開</title>
-      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1557066539704909824</link>
-      <guid isPermaLink="false">afnjp-1557066539704909824</guid>
-      <pubDate>Tue, 06 Oct 2026 16:26:31 GMT</pubDate>
-      <category>google</category>
-      <description>Google Researchは2026年10月6日、Google Earth AIの「Population Dynamics Foundation Model（PDFM）」を公衆衛生に応用した研究成果を公開しました。検索傾向、人の移動、都市環境、気象・大気…</description>
-    </item>
-    <item>
-      <title>Google「EmbeddingGemma 2」公開、740Mで画像・音声・動画まで端末内検索</title>
-      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1557066406502076497</link>
-      <guid isPermaLink="false">afnjp-1557066406502076497</guid>
-      <pubDate>Tue, 06 Oct 2026 16:26:00 GMT</pubDate>
-      <category>google</category>
-      <description>Googleは2026年10月6日、テキスト、コード、画像、動画、音声を単一のベクトル空間へ統合するオープンウェイト埋め込みモデル「EmbeddingGemma 2」を発表しました。最大740Mパラメータという比較的小型の設計で、クラウドにデータを送らず、ス…</description>
     </item>
   </channel>
 </rss>
