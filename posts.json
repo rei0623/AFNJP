@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08T00:10:48.863Z",
+  "generated_at": "2026-10-08T05:58:23.422Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
@@ -24,7 +24,9 @@
       "source_label": "support.claude.com",
       "cover": "assets/posts/1557538598117572678.webp",
       "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1557538598117572678",
-      "first_seen": "2026-10-07T23:42:19.459Z"
+      "first_seen": "2026-10-07T23:42:19.459Z",
+      "kind": "feature",
+      "kind_confidence": 0.93
     },
     {
       "id": "1557502936509321296",
@@ -47,7 +49,9 @@
       "source_label": "anthropic.com",
       "cover": "assets/posts/1557502936509321296.webp",
       "url": "https://discord.com/channels/1415350002255007784/1415353403269185546/threads/1557502936509321296",
-      "first_seen": "2026-10-07T21:20:37.069Z"
+      "first_seen": "2026-10-07T21:20:37.069Z",
+      "kind": "model",
+      "kind_confidence": 1
     },
     {
       "id": "1557502840971198566",
@@ -70,7 +74,9 @@
       "source_label": "openai.com",
       "cover": "assets/posts/1557502840971198566.webp",
       "url": "https://discord.com/channels/1415350002255007784/1415353131604377641/threads/1557502840971198566",
-      "first_seen": "2026-10-07T21:20:14.291Z"
+      "first_seen": "2026-10-07T21:20:14.291Z",
+      "kind": "model",
+      "kind_confidence": 0.84
     },
     {
       "id": "1557502610695659530",
@@ -95,7 +101,9 @@
       "source_label": "blogs.windows.com",
       "cover": "assets/posts/1557502610695659530.webp",
       "url": "https://discord.com/channels/1415350002255007784/1432720743279497367/threads/1557502610695659530",
-      "first_seen": "2026-10-07T21:19:19.389Z"
+      "first_seen": "2026-10-07T21:19:19.389Z",
+      "kind": "feature",
+      "kind_confidence": 0.83
     },
     {
       "id": "1557425514560364765",
