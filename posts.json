@@ -1,8 +1,102 @@
 {
-  "generated_at": "2026-10-07T19:21:48.067Z",
+  "generated_at": "2026-10-08T00:10:48.863Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1557538598117572678",
+      "title": "Anthropic、Max・Teamプランに毎月最大500ドルのClaude APIクレジットを提供",
+      "channel": "anthropic",
+      "category": "Anthropic",
+      "date": "2026-10-07T23:42:19.459Z",
+      "excerpt": "Anthropicは、ClaudeのMaxおよびTeamプラン利用者向けに、Claude Platformで使える月次APIクレジットの提供を開始しました。Claude APIを利用した独自アプリやAIエージェント開発に充当でき、個人向けMaxでは最大月20…",
+      "lead": "Anthropicは、ClaudeのMaxおよびTeamプラン利用者向けに、Claude Platformで使える月次APIクレジットの提供を開始しました。Claude APIを利用した独自アプリやAIエージェント開発に充当でき、個人向けMaxでは最大月200ドル、Teamでは組織全体で最大月500ドルが付与されます。",
+      "headings": [
+        "プラン別のAPIクレジット",
+        "Claude APIやAgent SDKで利用可能",
+        "クレジットは毎月失効、1組織だけに紐付け",
+        "今後の展望"
+      ],
+      "source_url": "https://support.claude.com/en/articles/17154008-monthly-api-credits-for-max-and-team-plans",
+      "source_urls": [
+        "https://support.claude.com/en/articles/17154008-monthly-api-credits-for-max-and-team-plans"
+      ],
+      "source_label": "support.claude.com",
+      "cover": "assets/posts/1557538598117572678.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1557538598117572678",
+      "first_seen": "2026-10-07T23:42:19.459Z"
+    },
+    {
+      "id": "1557502936509321296",
+      "title": "Anthropic「Claude Haiku 5.5」発表、低価格モデルが性能と速度を大幅強化",
+      "channel": "claude",
+      "category": "Anthropic",
+      "date": "2026-10-07T21:20:37.069Z",
+      "excerpt": "Anthropicは2026年10月7日、小型AIモデル「Claude Haiku 5.5」を発表しました。高頻度・コスト重視の処理を主用途としながら、知識労働、PC操作、推論、エージェント型コーディングなどでHaiku 4.5を大幅に上回る性能を示していま…",
+      "lead": "Anthropicは2026年10月7日、小型AIモデル「Claude Haiku 5.5」を発表しました。高頻度・コスト重視の処理を主用途としながら、知識労働、PC操作、推論、エージェント型コーディングなどでHaiku 4.5を大幅に上回る性能を示しています。特に100,000トークン以下の利用では入力・出力価格がHaiku 4.5の10分の1となり、大量処理型AIシステムの設計を変える可能性があります。",
+      "headings": [
+        "小型モデルでも実用タスクを広くカバー",
+        "「小さなサブエージェント」が現実的に",
+        "100万トークン当たり入力0.10ドル",
+        "今後の展望"
+      ],
+      "source_url": "https://www.anthropic.com/claude-haiku-5-5",
+      "source_urls": [
+        "https://www.anthropic.com/claude-haiku-5-5"
+      ],
+      "source_label": "anthropic.com",
+      "cover": "assets/posts/1557502936509321296.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415353403269185546/threads/1557502936509321296",
+      "first_seen": "2026-10-07T21:20:37.069Z"
+    },
+    {
+      "id": "1557502840971198566",
+      "title": "GPT-6が一般展開、ChatGPTは「会話」から動的UIを生成する時代へ",
+      "channel": "chatgpt",
+      "category": "Open AI",
+      "date": "2026-10-07T21:20:14.291Z",
+      "excerpt": "OpenAIは2026年10月7日、GPT-6と新機能「Intelligent UI」を発表しました。最大の変化は、ChatGPTが文章を返すだけでなく、質問に応じてグラフ、ボタン、フォーム、図解、計算ツールなどの操作可能なインターフェースを、その場で構成で…",
+      "lead": "OpenAIは2026年10月7日、GPT-6と新機能「Intelligent UI」を発表しました。最大の変化は、ChatGPTが文章を返すだけでなく、質問に応じてグラフ、ボタン、フォーム、図解、計算ツールなどの操作可能なインターフェースを、その場で構成できるようになった点です。0",
+      "headings": [
+        "Intelligent UIは何を変えるのか",
+        "回答しながら考えるGPT-6",
+        "安全性と提供範囲",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/gpt-6-for-everyone/",
+      "source_urls": [
+        "https://openai.com/index/gpt-6-for-everyone/"
+      ],
+      "source_label": "openai.com",
+      "cover": "assets/posts/1557502840971198566.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415353131604377641/threads/1557502840971198566",
+      "first_seen": "2026-10-07T21:20:14.291Z"
+    },
+    {
+      "id": "1557502610695659530",
+      "title": "Windowsが「ハイブリッドAI基盤」へ、MicrosoftがローカルAIとエージェント実行を本格統合",
+      "channel": "microsoft",
+      "category": "Microsoft",
+      "date": "2026-10-07T21:19:19.389Z",
+      "excerpt": "Microsoftは2026年10月7日、Windowsを「Hybrid Intelligence」の基盤へ進化させる方針を発表しました。AI処理をクラウドだけに依存せず、PC上のローカルモデルとクラウドAIをタスクに応じて使い分け、さらにAIエージェントを…",
+      "lead": "Microsoftは2026年10月7日、Windowsを「Hybrid Intelligence」の基盤へ進化させる方針を発表しました。AI処理をクラウドだけに依存せず、PC上のローカルモデルとクラウドAIをタスクに応じて使い分け、さらにAIエージェントを安全に実行できるOSへ再設計する構想です。",
+      "headings": [
+        "エージェント時代のWindowsを支えるMXC",
+        "1000億級モデルをPC上で動かす",
+        "GitHub Copilotもローカルとクラウドを自動選択",
+        "CopilotがPC内部を理解して操作",
+        "PCそのものがAIインフラになる",
+        "今後の展望"
+      ],
+      "source_url": "https://blogs.windows.com/windowsexperience/2026/10/07/building-windows-for-hybrid-intelligence/",
+      "source_urls": [
+        "https://blogs.windows.com/windowsexperience/2026/10/07/building-windows-for-hybrid-intelligence/"
+      ],
+      "source_label": "blogs.windows.com",
+      "cover": "assets/posts/1557502610695659530.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1432720743279497367/threads/1557502610695659530",
+      "first_seen": "2026-10-07T21:19:19.389Z"
+    },
     {
       "id": "1557425514560364765",
       "title": "Perplexityが「pplx-embed-v2-late」公開、単一ベクトルを超えるマルチモーダル検索へ",
@@ -25,7 +119,9 @@
       "source_label": "perplexity.ai",
       "cover": "assets/posts/1557425514560364765.webp",
       "url": "https://discord.com/channels/1415350002255007784/1417545518539739166/threads/1557425514560364765",
-      "first_seen": "2026-10-07T16:12:58.238Z"
+      "first_seen": "2026-10-07T16:12:58.238Z",
+      "kind": "model",
+      "kind_confidence": 1
     },
     {
       "id": "1557397648984772731",
@@ -48,7 +144,9 @@
       "source_label": "blog.google",
       "cover": "assets/posts/1557397648984772731.webp",
       "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1557397648984772731",
-      "first_seen": "2026-10-07T14:22:14.567Z"
+      "first_seen": "2026-10-07T14:22:14.567Z",
+      "kind": "feature",
+      "kind_confidence": 0.94
     },
     {
       "id": "1557396250234716290",
@@ -71,7 +169,9 @@
       "source_label": "blog.google",
       "cover": "assets/posts/1557396250234716290.webp",
       "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1557396250234716290",
-      "first_seen": "2026-10-07T14:16:41.079Z"
+      "first_seen": "2026-10-07T14:16:41.079Z",
+      "kind": "tool",
+      "kind_confidence": 0.85
     },
     {
       "id": "1557260373386854510",
@@ -200,107 +300,6 @@
       "first_seen": "2026-10-06T21:11:19.712Z",
       "kind": "tool",
       "kind_confidence": 0.44
-    },
-    {
-      "id": "1557138037865979975",
-      "title": "ClaudeがGoogle Docs・Sheets・Slidesに直接統合、編集作業をAIが実行",
-      "channel": "claude",
-      "category": "Anthropic",
-      "date": "2026-10-06T21:10:38.453Z",
-      "excerpt": "Anthropicは2026年10月6日、Google Docs、Sheets、Slides上でClaudeを利用できる「Claude for Google Workspace」をパブリックベータとして公開しました。全ての有料Claudeプランが対象で、Go…",
-      "lead": "Anthropicは2026年10月6日、Google Docs、Sheets、Slides上でClaudeを利用できる「Claude for Google Workspace」をパブリックベータとして公開しました。全ての有料Claudeプランが対象で、Google Workspace内からClaudeを呼び出す方法に加え、Claude側からGoogleファイルを直接作成・編集するコネクタも提供します。",
-      "headings": [
-        "Google Workspaceの画面内でClaudeが動作",
-        "編集権限を人間側で制御",
-        "ClaudeからGoogleファイルを直接操作",
-        "今後の展望"
-      ],
-      "source_url": "https://claude.com/ja/resources/articles/claude-now-works-in-google-docs-sheets-and-slides",
-      "source_urls": [
-        "https://claude.com/ja/resources/articles/claude-now-works-in-google-docs-sheets-and-slides"
-      ],
-      "source_label": "claude.com",
-      "cover": "assets/posts/1557138037865979975.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1415353403269185546/threads/1557138037865979975",
-      "first_seen": "2026-10-06T21:10:38.453Z",
-      "kind": "feature",
-      "kind_confidence": 0.99
-    },
-    {
-      "id": "1557137858098233374",
-      "title": "OpenAI「Decisions API」公開、判定処理をResponses APIより約10倍高速化",
-      "channel": "open-ai",
-      "category": "Open AI",
-      "date": "2026-10-06T21:09:55.593Z",
-      "excerpt": "OpenAIは、テキストや画像を入力し、アプリケーションがそのまま利用できる「判定」を高速に返す「Decisions API」を公開ベータとして提供しています。Responses APIと比べて約10倍高速とされ、分類、ルーティング、優先順位付けなど、生成文…",
-      "lead": "OpenAIは、テキストや画像を入力し、アプリケーションがそのまま利用できる「判定」を高速に返す「Decisions API」を公開ベータとして提供しています。Responses APIと比べて約10倍高速とされ、分類、ルーティング、優先順位付けなど、生成文章を必要としないAI処理に特化したAPIです。",
-      "headings": [
-        "「生成」ではなく「判断」に特化",
-        "画像判定にも対応",
-        "Responses APIとの使い分けが重要",
-        "低コストな大量判定を意識",
-        "今後の展望"
-      ],
-      "source_url": "https://developers.openai.com/api/docs/guides/decisions",
-      "source_urls": [
-        "https://developers.openai.com/api/docs/guides/decisions"
-      ],
-      "source_label": "developers.openai.com",
-      "cover": "assets/posts/1557137858098233374.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1557137858098233374",
-      "first_seen": "2026-10-06T21:09:55.593Z",
-      "kind": "tool",
-      "kind_confidence": 1
-    },
-    {
-      "id": "1557136342318719026",
-      "title": "Anthropic、サイバー向けClaudeの制限を段階的に緩和 Cyber Verification Programを拡張",
-      "channel": "anthropic",
-      "category": "Anthropic",
-      "date": "2026-10-06T21:03:54.203Z",
-      "excerpt": "Anthropicは2026年10月6日、サイバーセキュリティ専門家向けの「Cyber Verification Program（CVP）」を拡張しました。利用者の目的と審査レベルに応じて3段階のアクセス層を設け、Claude Opus 5.5、Claude…",
-      "lead": "Anthropicは2026年10月6日、サイバーセキュリティ専門家向けの「Cyber Verification Program（CVP）」を拡張しました。利用者の目的と審査レベルに応じて3段階のアクセス層を設け、Claude Opus 5.5、Claude Sonnet 5.5、Claude Mythos 5.1などの高度なモデルを、通常版より少ないサイバー関連ブロックで利用できるようにします。",
-      "headings": [
-        "3段階で「防御」と「攻撃的テスト」を分離",
-        "ベンチマークでアクセス制御を検証",
-        "AIによる脆弱性発見は実運用段階へ",
-        "今後の展望"
-      ],
-      "source_url": "https://www.anthropic.com/news/cyber-verification-program",
-      "source_urls": [
-        "https://www.anthropic.com/news/cyber-verification-program"
-      ],
-      "source_label": "anthropic.com",
-      "cover": "assets/posts/1557136342318719026.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1557136342318719026",
-      "first_seen": "2026-10-06T21:03:54.203Z",
-      "kind": "feature",
-      "kind_confidence": 0.83
-    },
-    {
-      "id": "1557136229227827311",
-      "title": "OpenAI、Ironcladと「業務を完遂するAIエージェント」を強化",
-      "channel": "open-ai",
-      "category": "Open AI",
-      "date": "2026-10-06T21:03:27.240Z",
-      "excerpt": "OpenAIは2026年10月6日、契約管理プラットフォームを手掛けるIroncladとの研究協力を発表しました。専門業務向けソフトウェアをAIが操作し、複数工程にまたがる業務ルールを維持しながら処理を完遂できる能力の向上が狙いです。GPT-6 Astraで…",
-      "lead": "OpenAIは2026年10月6日、契約管理プラットフォームを手掛けるIroncladとの研究協力を発表しました。専門業務向けソフトウェアをAIが操作し、複数工程にまたがる業務ルールを維持しながら処理を完遂できる能力の向上が狙いです。GPT-6 Astraでは、契約関連タスクの評価結果がGPT-5.6 Solを大きく上回りました。",
-      "headings": [
-        "契約業務をAIエージェントの訓練環境に",
-        "GPT-6 Astra、精度と処理時間を同時に改善",
-        "強化学習で「最後までルールを守る」能力を訓練",
-        "今後の展望"
-      ],
-      "source_url": "https://openai.com/index/advancing-computer-use-with-ironclad/",
-      "source_urls": [
-        "https://openai.com/index/advancing-computer-use-with-ironclad/"
-      ],
-      "source_label": "openai.com",
-      "cover": "assets/posts/1557136229227827311.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1557136229227827311",
-      "first_seen": "2026-10-06T21:03:27.240Z",
-      "kind": "research",
-      "kind_confidence": 0.39
     }
   ]
 }

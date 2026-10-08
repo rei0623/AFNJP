@@ -5,8 +5,40 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 07 Oct 2026 16:12:58 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 07 Oct 2026 23:42:19 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Anthropic、Max・Teamプランに毎月最大500ドルのClaude APIクレジットを提供</title>
+      <link>https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1557538598117572678</link>
+      <guid isPermaLink="false">afnjp-1557538598117572678</guid>
+      <pubDate>Wed, 07 Oct 2026 23:42:19 GMT</pubDate>
+      <category>anthropic</category>
+      <description>Anthropicは、ClaudeのMaxおよびTeamプラン利用者向けに、Claude Platformで使える月次APIクレジットの提供を開始しました。Claude APIを利用した独自アプリやAIエージェント開発に充当でき、個人向けMaxでは最大月20…</description>
+    </item>
+    <item>
+      <title>Anthropic「Claude Haiku 5.5」発表、低価格モデルが性能と速度を大幅強化</title>
+      <link>https://discord.com/channels/1415350002255007784/1415353403269185546/threads/1557502936509321296</link>
+      <guid isPermaLink="false">afnjp-1557502936509321296</guid>
+      <pubDate>Wed, 07 Oct 2026 21:20:37 GMT</pubDate>
+      <category>claude</category>
+      <description>Anthropicは2026年10月7日、小型AIモデル「Claude Haiku 5.5」を発表しました。高頻度・コスト重視の処理を主用途としながら、知識労働、PC操作、推論、エージェント型コーディングなどでHaiku 4.5を大幅に上回る性能を示していま…</description>
+    </item>
+    <item>
+      <title>GPT-6が一般展開、ChatGPTは「会話」から動的UIを生成する時代へ</title>
+      <link>https://discord.com/channels/1415350002255007784/1415353131604377641/threads/1557502840971198566</link>
+      <guid isPermaLink="false">afnjp-1557502840971198566</guid>
+      <pubDate>Wed, 07 Oct 2026 21:20:14 GMT</pubDate>
+      <category>chatgpt</category>
+      <description>OpenAIは2026年10月7日、GPT-6と新機能「Intelligent UI」を発表しました。最大の変化は、ChatGPTが文章を返すだけでなく、質問に応じてグラフ、ボタン、フォーム、図解、計算ツールなどの操作可能なインターフェースを、その場で構成で…</description>
+    </item>
+    <item>
+      <title>Windowsが「ハイブリッドAI基盤」へ、MicrosoftがローカルAIとエージェント実行を本格統合</title>
+      <link>https://discord.com/channels/1415350002255007784/1432720743279497367/threads/1557502610695659530</link>
+      <guid isPermaLink="false">afnjp-1557502610695659530</guid>
+      <pubDate>Wed, 07 Oct 2026 21:19:19 GMT</pubDate>
+      <category>microsoft</category>
+      <description>Microsoftは2026年10月7日、Windowsを「Hybrid Intelligence」の基盤へ進化させる方針を発表しました。AI処理をクラウドだけに依存せず、PC上のローカルモデルとクラウドAIをタスクに応じて使い分け、さらにAIエージェントを…</description>
+    </item>
     <item>
       <title>Perplexityが「pplx-embed-v2-late」公開、単一ベクトルを超えるマルチモーダル検索へ</title>
       <link>https://discord.com/channels/1415350002255007784/1417545518539739166/threads/1557425514560364765</link>
@@ -70,38 +102,6 @@
       <pubDate>Tue, 06 Oct 2026 21:11:19 GMT</pubDate>
       <category>claude-code</category>
       <description>AnthropicのClaude Codeにおける「クラウドセッション」の実践的な仕組みが公開されました。最大の特徴は、AIエージェントの作業を開発者のPCから切り離し、タスクごとに独立した仮想マシンとGitブランチを割り当てる点です。複数の修正やテストを同…</description>
-    </item>
-    <item>
-      <title>ClaudeがGoogle Docs・Sheets・Slidesに直接統合、編集作業をAIが実行</title>
-      <link>https://discord.com/channels/1415350002255007784/1415353403269185546/threads/1557138037865979975</link>
-      <guid isPermaLink="false">afnjp-1557138037865979975</guid>
-      <pubDate>Tue, 06 Oct 2026 21:10:38 GMT</pubDate>
-      <category>claude</category>
-      <description>Anthropicは2026年10月6日、Google Docs、Sheets、Slides上でClaudeを利用できる「Claude for Google Workspace」をパブリックベータとして公開しました。全ての有料Claudeプランが対象で、Go…</description>
-    </item>
-    <item>
-      <title>OpenAI「Decisions API」公開、判定処理をResponses APIより約10倍高速化</title>
-      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1557137858098233374</link>
-      <guid isPermaLink="false">afnjp-1557137858098233374</guid>
-      <pubDate>Tue, 06 Oct 2026 21:09:55 GMT</pubDate>
-      <category>open-ai</category>
-      <description>OpenAIは、テキストや画像を入力し、アプリケーションがそのまま利用できる「判定」を高速に返す「Decisions API」を公開ベータとして提供しています。Responses APIと比べて約10倍高速とされ、分類、ルーティング、優先順位付けなど、生成文…</description>
-    </item>
-    <item>
-      <title>Anthropic、サイバー向けClaudeの制限を段階的に緩和 Cyber Verification Programを拡張</title>
-      <link>https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1557136342318719026</link>
-      <guid isPermaLink="false">afnjp-1557136342318719026</guid>
-      <pubDate>Tue, 06 Oct 2026 21:03:54 GMT</pubDate>
-      <category>anthropic</category>
-      <description>Anthropicは2026年10月6日、サイバーセキュリティ専門家向けの「Cyber Verification Program（CVP）」を拡張しました。利用者の目的と審査レベルに応じて3段階のアクセス層を設け、Claude Opus 5.5、Claude…</description>
-    </item>
-    <item>
-      <title>OpenAI、Ironcladと「業務を完遂するAIエージェント」を強化</title>
-      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1557136229227827311</link>
-      <guid isPermaLink="false">afnjp-1557136229227827311</guid>
-      <pubDate>Tue, 06 Oct 2026 21:03:27 GMT</pubDate>
-      <category>open-ai</category>
-      <description>OpenAIは2026年10月6日、契約管理プラットフォームを手掛けるIroncladとの研究協力を発表しました。専門業務向けソフトウェアをAIが操作し、複数工程にまたがる業務ルールを維持しながら処理を完遂できる能力の向上が狙いです。GPT-6 Astraで…</description>
     </item>
   </channel>
 </rss>
