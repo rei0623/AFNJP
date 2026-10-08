@@ -1,9 +1,110 @@
 {
-  "generated_at": "2026-10-08T13:23:42.326Z",
+  "generated_at": "2026-10-08T19:56:00.569Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 331,
+  "count": 335,
   "posts": [
+    {
+      "id": "1557775510627688478",
+      "title": "Anthropic、米科学研究に1億5000万ドルを投入！NASAなど15超の政府機関へClaudeを展開",
+      "channel": "anthropic",
+      "category": "Anthropic",
+      "date": "2026-10-08T15:23:43.803Z",
+      "excerpt": "Anthropicは2026年10月8日、米国政府が推進する科学研究プロジェクト「Genesis Mission」に対し、今後3年間で総額1億5000万ドル（約1.5億ドル）を投じると発表しました。",
+      "lead": "Anthropicは2026年10月8日、米国政府が推進する科学研究プロジェクト「Genesis Mission」に対し、今後3年間で総額1億5000万ドル（約1.5億ドル）を投じると発表しました。",
+      "headings": [
+        "Genesis Missionとは何か",
+        "Claudeを数百の研究プロジェクトへ提供",
+        "科学研究のワークフローをAIで変革",
+        "企業・研究機関への影響と課題",
+        "今後の展望"
+      ],
+      "source_url": "https://www.anthropic.com/news/genesis-mission-commitment",
+      "source_urls": [
+        "https://www.anthropic.com/news/genesis-mission-commitment"
+      ],
+      "source_label": "anthropic.com",
+      "cover": "assets/posts/1557775510627688478.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1557775510627688478",
+      "first_seen": "2026-10-08T15:23:43.803Z"
+    },
+    {
+      "id": "1557775368163688498",
+      "title": "Google、新「Gemini agent」発表！AIが業務を自律実行する時代へ",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-10-08T15:23:09.837Z",
+      "excerpt": "Google Cloudは2026年10月8日、「Gemini at Work 2026」で、企業向けの統合AIエージェント「Gemini agent」を発表しました。質問への回答だけでなく、資料作成、データ分析、プログラミング、複数システムを横断する業務ま…",
+      "lead": "Google Cloudは2026年10月8日、「Gemini at Work 2026」で、企業向けの統合AIエージェント「Gemini agent」を発表しました。質問への回答だけでなく、資料作成、データ分析、プログラミング、複数システムを横断する業務まで自律的に実行します。企業AIを単なる支援ツールから、仕事を任せられるデジタルチームメンバーへ進化させる構想です。",
+      "headings": [
+        "AIは「指示への応答」から「成果物の完成」へ",
+        "4種類のメモリで業務知識を蓄積",
+        "Google Workspaceとデータ基盤を統合",
+        "セキュリティとコスト管理も強化",
+        "日本企業でも導入が拡大",
+        "今後の展望"
+      ],
+      "source_url": "https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026?hl=en",
+      "source_urls": [
+        "https://cloud.google.com/blog/products/ai-machine-learning/welcome-to-gemini-at-work-2026?hl=en"
+      ],
+      "source_label": "cloud.google.com",
+      "cover": "assets/posts/1557775368163688498.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1557775368163688498",
+      "first_seen": "2026-10-08T15:23:09.837Z",
+      "kind": "tool",
+      "kind_confidence": 0.52
+    },
+    {
+      "id": "1557767232887726121",
+      "title": "OpenAI、ロシアとイランのAI偽装工作を摘発——偽記者と研究機関を悪用した情報操作の実態",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-10-08T14:50:50.236Z",
+      "excerpt": "OpenAIは2026年10月8日、生成AIを悪用したロシアとイラン発の大規模な秘密情報工作について調査結果を公開しました。",
+      "lead": "OpenAIは2026年10月8日、生成AIを悪用したロシアとイラン発の大規模な秘密情報工作について調査結果を公開しました。",
+      "headings": [
+        "ロシアの「Dark Clark」——研究機関を隠れみのにした情報工作",
+        "イランの「Bogus Bylines」——7人の偽記者で記事を掲載",
+        "AIが変えたのは偽情報の制作・流通コスト",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/disrupting-ai-enabled-false-front-operations/",
+      "source_urls": [
+        "https://openai.com/index/disrupting-ai-enabled-false-front-operations/"
+      ],
+      "source_label": "openai.com",
+      "cover": "assets/posts/1557767232887726121.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1557767232887726121",
+      "first_seen": "2026-10-08T14:50:50.236Z",
+      "kind": "research",
+      "kind_confidence": 0.39
+    },
+    {
+      "id": "1557767033993560165",
+      "title": "xAIが開発者向け文書を拡充！Grok 4.7、動画生成AI、X連携Botの3機能を詳解",
+      "channel": "grok",
+      "category": "Space X",
+      "date": "2026-10-08T14:50:02.816Z",
+      "excerpt": "xAIは2026年10月7日付で、公式ドキュメントに「Grok 4.7」「Grok Imagine Video API」「Grok BotのX連携」に関する情報を掲載しました。高性能なAIモデル、映像生成、SNSを起点としたタスク自動化という3領域で、開発者…",
+      "lead": "xAIは2026年10月7日付で、公式ドキュメントに「Grok 4.7」「Grok Imagine Video API」「Grok BotのX連携」に関する情報を掲載しました。高性能なAIモデル、映像生成、SNSを起点としたタスク自動化という3領域で、開発者向け機能の全体像が明確になっています。",
+      "headings": [
+        "1. Grok 4.7：50万トークン対応の高性能AI",
+        "2. Grok Imagine：最大1080pのAI動画生成",
+        "3. Grok Bot：Xへの投稿からAIエージェントを実行",
+        "今後の展望"
+      ],
+      "source_url": "https://docs.x.ai/developers/model-capabilities/video/overview",
+      "source_urls": [
+        "https://docs.x.ai/developers/model-capabilities/video/overview",
+        "https://docs.x.ai/grok-bot/tag-on-x",
+        "https://docs.x.ai/developers/models/grok-4.7"
+      ],
+      "source_label": "docs.x.ai",
+      "cover": "assets/posts/1557767033993560165.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417803120225816596/threads/1557767033993560165",
+      "first_seen": "2026-10-08T14:50:02.816Z"
+    },
     {
       "id": "1557538598117572678",
       "title": "Anthropic、Max・Teamプランに毎月最大500ドルのClaude APIクレジットを提供",

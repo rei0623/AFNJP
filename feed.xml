@@ -5,8 +5,40 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 07 Oct 2026 23:42:19 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2026 15:23:43 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Anthropic、米科学研究に1億5000万ドルを投入！NASAなど15超の政府機関へClaudeを展開</title>
+      <link>https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1557775510627688478</link>
+      <guid isPermaLink="false">afnjp-1557775510627688478</guid>
+      <pubDate>Thu, 08 Oct 2026 15:23:43 GMT</pubDate>
+      <category>anthropic</category>
+      <description>Anthropicは2026年10月8日、米国政府が推進する科学研究プロジェクト「Genesis Mission」に対し、今後3年間で総額1億5000万ドル（約1.5億ドル）を投じると発表しました。</description>
+    </item>
+    <item>
+      <title>Google、新「Gemini agent」発表！AIが業務を自律実行する時代へ</title>
+      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1557775368163688498</link>
+      <guid isPermaLink="false">afnjp-1557775368163688498</guid>
+      <pubDate>Thu, 08 Oct 2026 15:23:09 GMT</pubDate>
+      <category>google</category>
+      <description>Google Cloudは2026年10月8日、「Gemini at Work 2026」で、企業向けの統合AIエージェント「Gemini agent」を発表しました。質問への回答だけでなく、資料作成、データ分析、プログラミング、複数システムを横断する業務ま…</description>
+    </item>
+    <item>
+      <title>OpenAI、ロシアとイランのAI偽装工作を摘発——偽記者と研究機関を悪用した情報操作の実態</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1557767232887726121</link>
+      <guid isPermaLink="false">afnjp-1557767232887726121</guid>
+      <pubDate>Thu, 08 Oct 2026 14:50:50 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIは2026年10月8日、生成AIを悪用したロシアとイラン発の大規模な秘密情報工作について調査結果を公開しました。</description>
+    </item>
+    <item>
+      <title>xAIが開発者向け文書を拡充！Grok 4.7、動画生成AI、X連携Botの3機能を詳解</title>
+      <link>https://discord.com/channels/1415350002255007784/1417803120225816596/threads/1557767033993560165</link>
+      <guid isPermaLink="false">afnjp-1557767033993560165</guid>
+      <pubDate>Thu, 08 Oct 2026 14:50:02 GMT</pubDate>
+      <category>grok</category>
+      <description>xAIは2026年10月7日付で、公式ドキュメントに「Grok 4.7」「Grok Imagine Video API」「Grok BotのX連携」に関する情報を掲載しました。高性能なAIモデル、映像生成、SNSを起点としたタスク自動化という3領域で、開発者…</description>
+    </item>
     <item>
       <title>Anthropic、Max・Teamプランに毎月最大500ドルのClaude APIクレジットを提供</title>
       <link>https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1557538598117572678</link>
@@ -70,38 +102,6 @@
       <pubDate>Wed, 07 Oct 2026 05:16:45 GMT</pubDate>
       <category>その他</category>
       <description>AI音声入力サービス「Aqua Voice」がAndroid向けに提供されています。特徴は、専用キーボードへ切り替えるのではなく、既存のキーボード横に表示されるフローティングボタンから音声入力できる点です。ChatGPTやGmail、WhatsApp、Sla…</description>
-    </item>
-    <item>
-      <title>Liquid AIが「d1」発表、生成せず確率で答える高速・低コストの意思決定AI</title>
-      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1557258928717570118</link>
-      <guid isPermaLink="false">afnjp-1557258928717570118</guid>
-      <pubDate>Wed, 07 Oct 2026 05:11:01 GMT</pubDate>
-      <category>その他</category>
-      <description>Liquid AIは2026年10月5日、テキストと画像を入力として扱える新しい「Decision Model（意思決定モデル）」d1を発表しました。文章を生成する一般的なLLMとは異なり、与えられた状況を1回のフォワードパスで評価し、選択肢ごとの確率を直接…</description>
-    </item>
-    <item>
-      <title>Google Flow Music、自然言語で作った音楽ツールをDAWプラグインとして書き出し可能に</title>
-      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1557180609426628678</link>
-      <guid isPermaLink="false">afnjp-1557180609426628678</guid>
-      <pubDate>Tue, 06 Oct 2026 23:59:48 GMT</pubDate>
-      <category>google</category>
-      <description>Googleは2026年10月6日、Google Labsの音楽制作サービス「Google Flow Music」で、自然言語から作成したカスタム音源やエフェクトをVST3/AUプラグインとして書き出せる機能を発表しました。プログラミング経験がなくても、自分…</description>
-    </item>
-    <item>
-      <title>OpenAI、未公開AIモデルによる722本の数学研究原稿を公開</title>
-      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1557180090675236954</link>
-      <guid isPermaLink="false">afnjp-1557180090675236954</guid>
-      <pubDate>Tue, 06 Oct 2026 23:57:44 GMT</pubDate>
-      <category>open-ai</category>
-      <description>OpenAIはGitHub上で、内部の未公開モデルが生成した数学研究の原稿と証明関連資料をまとめた「openai/math」リポジトリを公開しました。既存の数学評価が飽和したことを受け、未解決の研究問題まで評価対象を拡大した成果で、現在722本の原稿が372…</description>
-    </item>
-    <item>
-      <title>Claude Codeがクラウド実行へ、AI開発を「1タスク1VM」で並列化</title>
-      <link>https://discord.com/channels/1415350002255007784/1415549165181599795/threads/1557138210919030915</link>
-      <guid isPermaLink="false">afnjp-1557138210919030915</guid>
-      <pubDate>Tue, 06 Oct 2026 21:11:19 GMT</pubDate>
-      <category>claude-code</category>
-      <description>AnthropicのClaude Codeにおける「クラウドセッション」の実践的な仕組みが公開されました。最大の特徴は、AIエージェントの作業を開発者のPCから切り離し、タスクごとに独立した仮想マシンとGitブランチを割り当てる点です。複数の修正やテストを同…</description>
     </item>
   </channel>
 </rss>
