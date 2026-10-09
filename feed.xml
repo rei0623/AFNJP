@@ -5,8 +5,16 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 08 Oct 2026 21:00:58 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 09 Oct 2026 11:03:06 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>ElevenLabs、ブランドの世界観をAI生成に反映する「Brand Kit」を発表</title>
+      <link>https://discord.com/channels/1415350002255007784/1441006356399259719/threads/1558072312673083443</link>
+      <guid isPermaLink="false">afnjp-1558072312673083443</guid>
+      <pubDate>Fri, 09 Oct 2026 11:03:06 GMT</pubDate>
+      <category>eleven-labs</category>
+      <description>ElevenLabsは2026年10月9日、AIクリエイティブ制作プラットフォーム「ElevenCreative」において、新機能「Brand Kit」を発表しました。</description>
+    </item>
     <item>
       <title>Odyssey-3登場！物理法則を学習する世界モデルがAIの現実世界への進出を加速</title>
       <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1557860382024929320</link>
@@ -94,14 +102,6 @@
       <pubDate>Thu, 08 Oct 2026 14:50:02 GMT</pubDate>
       <category>grok</category>
       <description>xAIは2026年10月7日付で、公式ドキュメントに「Grok 4.7」「Grok Imagine Video API」「Grok BotのX連携」に関する情報を掲載しました。高性能なAIモデル、映像生成、SNSを起点としたタスク自動化という3領域で、開発者…</description>
-    </item>
-    <item>
-      <title>Anthropic、Max・Teamプランに毎月最大500ドルのClaude APIクレジットを提供</title>
-      <link>https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1557538598117572678</link>
-      <guid isPermaLink="false">afnjp-1557538598117572678</guid>
-      <pubDate>Wed, 07 Oct 2026 23:42:19 GMT</pubDate>
-      <category>anthropic</category>
-      <description>Anthropicは、ClaudeのMaxおよびTeamプラン利用者向けに、Claude Platformで使える月次APIクレジットの提供を開始しました。Claude APIを利用した独自アプリやAIエージェント開発に充当でき、個人向けMaxでは最大月20…</description>
     </item>
   </channel>
 </rss>

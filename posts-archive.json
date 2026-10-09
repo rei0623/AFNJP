@@ -1,9 +1,32 @@
 {
-  "generated_at": "2026-10-09T07:21:34.949Z",
+  "generated_at": "2026-10-09T15:16:04.327Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 342,
+  "count": 343,
   "posts": [
+    {
+      "id": "1558072312673083443",
+      "title": "ElevenLabs、ブランドの世界観をAI生成に反映する「Brand Kit」を発表",
+      "channel": "eleven-labs",
+      "category": "その他",
+      "date": "2026-10-09T11:03:06.925Z",
+      "excerpt": "ElevenLabsは2026年10月9日、AIクリエイティブ制作プラットフォーム「ElevenCreative」において、新機能「Brand Kit」を発表しました。",
+      "lead": "ElevenLabsは2026年10月9日、AIクリエイティブ制作プラットフォーム「ElevenCreative」において、新機能「Brand Kit」を発表しました。",
+      "headings": [
+        "ブランド情報をプロンプトから分離",
+        "「@」によるブランド情報の呼び出し",
+        "チーム制作と複数ブランドの管理に対応",
+        "今後の展望"
+      ],
+      "source_url": "https://elevenlabs.io/blog/introducing-brand-kit",
+      "source_urls": [
+        "https://elevenlabs.io/blog/introducing-brand-kit"
+      ],
+      "source_label": "elevenlabs.io",
+      "cover": "assets/posts/1558072312673083443.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1441006356399259719/threads/1558072312673083443",
+      "first_seen": "2026-10-09T11:03:06.925Z"
+    },
     {
       "id": "1557860382024929320",
       "title": "Odyssey-3登場！物理法則を学習する世界モデルがAIの現実世界への進出を加速",

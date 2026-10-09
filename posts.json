@@ -1,8 +1,31 @@
 {
-  "generated_at": "2026-10-09T07:21:34.952Z",
+  "generated_at": "2026-10-09T15:16:04.330Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1558072312673083443",
+      "title": "ElevenLabs、ブランドの世界観をAI生成に反映する「Brand Kit」を発表",
+      "channel": "eleven-labs",
+      "category": "その他",
+      "date": "2026-10-09T11:03:06.925Z",
+      "excerpt": "ElevenLabsは2026年10月9日、AIクリエイティブ制作プラットフォーム「ElevenCreative」において、新機能「Brand Kit」を発表しました。",
+      "lead": "ElevenLabsは2026年10月9日、AIクリエイティブ制作プラットフォーム「ElevenCreative」において、新機能「Brand Kit」を発表しました。",
+      "headings": [
+        "ブランド情報をプロンプトから分離",
+        "「@」によるブランド情報の呼び出し",
+        "チーム制作と複数ブランドの管理に対応",
+        "今後の展望"
+      ],
+      "source_url": "https://elevenlabs.io/blog/introducing-brand-kit",
+      "source_urls": [
+        "https://elevenlabs.io/blog/introducing-brand-kit"
+      ],
+      "source_label": "elevenlabs.io",
+      "cover": "assets/posts/1558072312673083443.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1441006356399259719/threads/1558072312673083443",
+      "first_seen": "2026-10-09T11:03:06.925Z"
+    },
     {
       "id": "1557860382024929320",
       "title": "Odyssey-3登場！物理法則を学習する世界モデルがAIの現実世界への進出を加速",
@@ -276,31 +299,6 @@
       "cover": "assets/posts/1557767033993560165.webp",
       "url": "https://discord.com/channels/1415350002255007784/1417803120225816596/threads/1557767033993560165",
       "first_seen": "2026-10-08T14:50:02.816Z"
-    },
-    {
-      "id": "1557538598117572678",
-      "title": "Anthropic、Max・Teamプランに毎月最大500ドルのClaude APIクレジットを提供",
-      "channel": "anthropic",
-      "category": "Anthropic",
-      "date": "2026-10-07T23:42:19.459Z",
-      "excerpt": "Anthropicは、ClaudeのMaxおよびTeamプラン利用者向けに、Claude Platformで使える月次APIクレジットの提供を開始しました。Claude APIを利用した独自アプリやAIエージェント開発に充当でき、個人向けMaxでは最大月20…",
-      "lead": "Anthropicは、ClaudeのMaxおよびTeamプラン利用者向けに、Claude Platformで使える月次APIクレジットの提供を開始しました。Claude APIを利用した独自アプリやAIエージェント開発に充当でき、個人向けMaxでは最大月200ドル、Teamでは組織全体で最大月500ドルが付与されます。",
-      "headings": [
-        "プラン別のAPIクレジット",
-        "Claude APIやAgent SDKで利用可能",
-        "クレジットは毎月失効、1組織だけに紐付け",
-        "今後の展望"
-      ],
-      "source_url": "https://support.claude.com/en/articles/17154008-monthly-api-credits-for-max-and-team-plans",
-      "source_urls": [
-        "https://support.claude.com/en/articles/17154008-monthly-api-credits-for-max-and-team-plans"
-      ],
-      "source_label": "support.claude.com",
-      "cover": "assets/posts/1557538598117572678.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1557538598117572678",
-      "first_seen": "2026-10-07T23:42:19.459Z",
-      "kind": "feature",
-      "kind_confidence": 0.93
     }
   ]
 }
