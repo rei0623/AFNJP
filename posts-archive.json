@@ -1,9 +1,182 @@
 {
-  "generated_at": "2026-10-08T19:56:00.569Z",
+  "generated_at": "2026-10-09T00:20:49.181Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 335,
+  "count": 342,
   "posts": [
+    {
+      "id": "1557860382024929320",
+      "title": "Odyssey-3登場！物理法則を学習する世界モデルがAIの現実世界への進出を加速",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-10-08T21:00:58.721Z",
+      "excerpt": "米Odysseyは2026年10月8日、新たな基盤世界モデル「Odyssey-3」を発表しました。物体の動きや相互作用、因果関係を学習し、操作に応じて変化する仮想環境をリアルタイム生成します。",
+      "lead": "米Odysseyは2026年10月8日、新たな基盤世界モデル「Odyssey-3」を発表しました。物体の動きや相互作用、因果関係を学習し、操作に応じて変化する仮想環境をリアルタイム生成します。",
+      "headings": [
+        "世界を予測する自己回帰型拡散Transformer",
+        "物理ベンチマークで最高評価",
+        "ロボット、自動運転、ヒューマノイドに応用",
+        "今後の展望"
+      ],
+      "source_url": "https://odyssey.systems/meet-odyssey-3",
+      "source_urls": [
+        "https://odyssey.systems/meet-odyssey-3"
+      ],
+      "source_label": "odyssey.systems",
+      "cover": "assets/posts/1557860382024929320.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1557860382024929320",
+      "first_seen": "2026-10-08T21:00:58.721Z"
+    },
+    {
+      "id": "1557860265272414288",
+      "title": "OpenAI、API最速の「Ultrafast mode」を提供GPT-6 AstraとGPT-6.1 Solに対応",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-10-08T21:00:30.885Z",
+      "excerpt": "OpenAIは、APIの応答遅延を最小化する高速サービス階層「Ultrafast mode」の技術仕様を公開しました。",
+      "lead": "OpenAIは、APIの応答遅延を最小化する高速サービス階層「Ultrafast mode」の技術仕様を公開しました。",
+      "headings": [
+        "Ultrafast modeとは何か",
+        "API設定はわずか2つのパラメータ",
+        "WebSocketが高速化の重要な鍵",
+        "最大4,000万TPMの処理枠",
+        "データ所在地と導入時の注意点",
+        "今後の展望"
+      ],
+      "source_url": "https://developers.openai.com/api/docs/guides/ultrafast-mode",
+      "source_urls": [
+        "https://developers.openai.com/api/docs/guides/ultrafast-mode"
+      ],
+      "source_label": "developers.openai.com",
+      "cover": "assets/posts/1557860265272414288.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1557860265272414288",
+      "first_seen": "2026-10-08T21:00:30.885Z"
+    },
+    {
+      "id": "1557860048804515870",
+      "title": "Claudeが進化！データ分析ダッシュボードとアニメーションをAIで自動生成",
+      "channel": "claude",
+      "category": "Anthropic",
+      "date": "2026-10-08T20:59:39.275Z",
+      "excerpt": "Anthropicは2026年10月8日、AIアシスタント「Claude」に新機能「Claude Dashboards」と「Claude Motion」を追加したと発表しました。自然言語によるデータ分析やアニメーション制作が可能になり、ビジネス資料の作成から…",
+      "lead": "Anthropicは2026年10月8日、AIアシスタント「Claude」に新機能「Claude Dashboards」と「Claude Motion」を追加したと発表しました。自然言語によるデータ分析やアニメーション制作が可能になり、ビジネス資料の作成から情報共有までをAIで効率化します。",
+      "headings": [
+        "Claude Dashboards：自然言語でデータを可視化",
+        "技術的な特徴",
+        "Claude Motion：コードでアニメーションを生成",
+        "Docs・Slides・Designも正式版へ",
+        "今後の展望"
+      ],
+      "source_url": "https://claude.com/ja/resources/articles/dashboards-and-motion",
+      "source_urls": [
+        "https://claude.com/ja/resources/articles/dashboards-and-motion"
+      ],
+      "source_label": "claude.com",
+      "cover": "assets/posts/1557860048804515870.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415353403269185546/threads/1557860048804515870",
+      "first_seen": "2026-10-08T20:59:39.275Z"
+    },
+    {
+      "id": "1557858731918757929",
+      "title": "AnthropicのClaude Science、AIで「史上初の全天紫外線マップ」を完成未観測領域の約3分の1を予測",
+      "channel": "anthropic",
+      "category": "Anthropic",
+      "date": "2026-10-08T20:54:25.305Z",
+      "excerpt": "Anthropicは2026年10月8日、AIシステム「Claude Science」を活用し、宇宙全体を見渡す初の全天紫外線（UV）マップを作成したと発表しました。",
+      "lead": "Anthropicは2026年10月8日、AIシステム「Claude Science」を活用し、宇宙全体を見渡す初の全天紫外線（UV）マップを作成したと発表しました。",
+      "headings": [
+        "なぜ紫外線の全天マップは存在しなかったのか",
+        "Claude Scienceが実現した技術的アプローチ",
+        "1. 異なる宇宙望遠鏡のデータ統合",
+        "2. AIによる未観測領域の補完",
+        "3. 約10％の誤差で予測を検証",
+        "AIの自律処理だけでは解決できなかった問題",
+        "科学研究とAIエージェントへの影響",
+        "今後の展望"
+      ],
+      "source_url": "https://www.anthropic.com/research/the-missing-map-of-the-sky",
+      "source_urls": [
+        "https://www.anthropic.com/research/the-missing-map-of-the-sky"
+      ],
+      "source_label": "anthropic.com",
+      "cover": "assets/posts/1557858731918757929.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1557858731918757929",
+      "first_seen": "2026-10-08T20:54:25.305Z"
+    },
+    {
+      "id": "1557858634371702804",
+      "title": "Anthropic、Claude Mythos搭載の無料脆弱性スキャナー「OSS Scanner」を公開",
+      "channel": "anthropic",
+      "category": "Anthropic",
+      "date": "2026-10-08T20:54:02.048Z",
+      "excerpt": "Anthropicは2026年10月8日、オープンソースソフトウェア（OSS）向けの無料脆弱性検出サービス「OSS Scanner」を発表しました。",
+      "lead": "Anthropicは2026年10月8日、オープンソースソフトウェア（OSS）向けの無料脆弱性検出サービス「OSS Scanner」を発表しました。",
+      "headings": [
+        "AIによる脆弱性検出能力が急速に進化",
+        "Claude Mythosによる自動セキュリティ監査",
+        "初期検証では88％が開示基準を満たす",
+        "OSSエコシステムへの影響と課題",
+        "今後の展望"
+      ],
+      "source_url": "https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source",
+      "source_urls": [
+        "https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source"
+      ],
+      "source_label": "anthropic.com",
+      "cover": "assets/posts/1557858634371702804.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1557858634371702804",
+      "first_seen": "2026-10-08T20:54:02.048Z"
+    },
+    {
+      "id": "1557858509104750602",
+      "title": "Anthropicが「Cyber Mission」始動、Claudeで重要インフラとオープンソースの防御を強化",
+      "channel": "anthropic",
+      "category": "Anthropic",
+      "date": "2026-10-08T20:53:32.182Z",
+      "excerpt": "Anthropicは2026年10月8日、AIを活用して社会基盤のサイバーセキュリティを強化する長期構想「Anthropic Cyber Mission」を発表しました。電力・水道・交通などの重要インフラと、世界中のソフトウェアを支えるオープンソースの保護を…",
+      "lead": "Anthropicは2026年10月8日、AIを活用して社会基盤のサイバーセキュリティを強化する長期構想「Anthropic Cyber Mission」を発表しました。電力・水道・交通などの重要インフラと、世界中のソフトウェアを支えるオープンソースの保護を重点領域とし、最先端AIモデル「Claude」、専門エンジニア、脅威研究、資金を投入します。",
+      "headings": [
+        "重要インフラを守る新プログラム",
+        "無料の「OSS Scanner」で脆弱性を継続検出",
+        "AI時代の課題は「発見」から「修正」へ",
+        "企業とエンジニアへの影響",
+        "今後の展望"
+      ],
+      "source_url": "https://www.anthropic.com/news/anthropic-cyber-mission",
+      "source_urls": [
+        "https://www.anthropic.com/news/anthropic-cyber-mission"
+      ],
+      "source_label": "anthropic.com",
+      "cover": "assets/posts/1557858509104750602.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1557858509104750602",
+      "first_seen": "2026-10-08T20:53:32.182Z"
+    },
+    {
+      "id": "1557858359313567744",
+      "title": "Anthropic、Claudeの利用規約を大幅更新：AIの自律行動、監視、選挙介入への規制を明確化",
+      "channel": "anthropic",
+      "category": "Anthropic",
+      "date": "2026-10-08T20:52:56.469Z",
+      "excerpt": "Anthropicは2026年10月8日、生成AI「Claude」の利用ポリシーを改定すると発表しました。新ポリシーは11月12日に発効します。AIによる偽情報拡散、武器開発、監視活動への制限を明確化するとともに、自律的に物理機器を操作するAIへの安全要件を…",
+      "lead": "Anthropicは2026年10月8日、生成AI「Claude」の利用ポリシーを改定すると発表しました。新ポリシーは11月12日に発効します。AIによる偽情報拡散、武器開発、監視活動への制限を明確化するとともに、自律的に物理機器を操作するAIへの安全要件を追加しました。",
+      "headings": [
+        "偽情報キャンペーンへの包括的規制",
+        "選挙関連の制限を見直し",
+        "武器開発と監視システムへの規制を具体化",
+        "自律型AIと物理機器に新たな安全要件",
+        "医療・金融などの高リスク利用を明確化",
+        "AIモデルへの継続的な虐待行為も禁止",
+        "今後の展望"
+      ],
+      "source_url": "https://www.anthropic.com/news/2026-usage-policy-update",
+      "source_urls": [
+        "https://www.anthropic.com/news/2026-usage-policy-update"
+      ],
+      "source_label": "anthropic.com",
+      "cover": "assets/posts/1557858359313567744.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1557858359313567744",
+      "first_seen": "2026-10-08T20:52:56.469Z"
+    },
     {
       "id": "1557775510627688478",
       "title": "Anthropic、米科学研究に1億5000万ドルを投入！NASAなど15超の政府機関へClaudeを展開",

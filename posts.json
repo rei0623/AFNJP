@@ -1,8 +1,181 @@
 {
-  "generated_at": "2026-10-08T19:56:00.572Z",
+  "generated_at": "2026-10-09T00:20:49.183Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1557860382024929320",
+      "title": "Odyssey-3登場！物理法則を学習する世界モデルがAIの現実世界への進出を加速",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-10-08T21:00:58.721Z",
+      "excerpt": "米Odysseyは2026年10月8日、新たな基盤世界モデル「Odyssey-3」を発表しました。物体の動きや相互作用、因果関係を学習し、操作に応じて変化する仮想環境をリアルタイム生成します。",
+      "lead": "米Odysseyは2026年10月8日、新たな基盤世界モデル「Odyssey-3」を発表しました。物体の動きや相互作用、因果関係を学習し、操作に応じて変化する仮想環境をリアルタイム生成します。",
+      "headings": [
+        "世界を予測する自己回帰型拡散Transformer",
+        "物理ベンチマークで最高評価",
+        "ロボット、自動運転、ヒューマノイドに応用",
+        "今後の展望"
+      ],
+      "source_url": "https://odyssey.systems/meet-odyssey-3",
+      "source_urls": [
+        "https://odyssey.systems/meet-odyssey-3"
+      ],
+      "source_label": "odyssey.systems",
+      "cover": "assets/posts/1557860382024929320.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1557860382024929320",
+      "first_seen": "2026-10-08T21:00:58.721Z"
+    },
+    {
+      "id": "1557860265272414288",
+      "title": "OpenAI、API最速の「Ultrafast mode」を提供GPT-6 AstraとGPT-6.1 Solに対応",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-10-08T21:00:30.885Z",
+      "excerpt": "OpenAIは、APIの応答遅延を最小化する高速サービス階層「Ultrafast mode」の技術仕様を公開しました。",
+      "lead": "OpenAIは、APIの応答遅延を最小化する高速サービス階層「Ultrafast mode」の技術仕様を公開しました。",
+      "headings": [
+        "Ultrafast modeとは何か",
+        "API設定はわずか2つのパラメータ",
+        "WebSocketが高速化の重要な鍵",
+        "最大4,000万TPMの処理枠",
+        "データ所在地と導入時の注意点",
+        "今後の展望"
+      ],
+      "source_url": "https://developers.openai.com/api/docs/guides/ultrafast-mode",
+      "source_urls": [
+        "https://developers.openai.com/api/docs/guides/ultrafast-mode"
+      ],
+      "source_label": "developers.openai.com",
+      "cover": "assets/posts/1557860265272414288.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1557860265272414288",
+      "first_seen": "2026-10-08T21:00:30.885Z"
+    },
+    {
+      "id": "1557860048804515870",
+      "title": "Claudeが進化！データ分析ダッシュボードとアニメーションをAIで自動生成",
+      "channel": "claude",
+      "category": "Anthropic",
+      "date": "2026-10-08T20:59:39.275Z",
+      "excerpt": "Anthropicは2026年10月8日、AIアシスタント「Claude」に新機能「Claude Dashboards」と「Claude Motion」を追加したと発表しました。自然言語によるデータ分析やアニメーション制作が可能になり、ビジネス資料の作成から…",
+      "lead": "Anthropicは2026年10月8日、AIアシスタント「Claude」に新機能「Claude Dashboards」と「Claude Motion」を追加したと発表しました。自然言語によるデータ分析やアニメーション制作が可能になり、ビジネス資料の作成から情報共有までをAIで効率化します。",
+      "headings": [
+        "Claude Dashboards：自然言語でデータを可視化",
+        "技術的な特徴",
+        "Claude Motion：コードでアニメーションを生成",
+        "Docs・Slides・Designも正式版へ",
+        "今後の展望"
+      ],
+      "source_url": "https://claude.com/ja/resources/articles/dashboards-and-motion",
+      "source_urls": [
+        "https://claude.com/ja/resources/articles/dashboards-and-motion"
+      ],
+      "source_label": "claude.com",
+      "cover": "assets/posts/1557860048804515870.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415353403269185546/threads/1557860048804515870",
+      "first_seen": "2026-10-08T20:59:39.275Z"
+    },
+    {
+      "id": "1557858731918757929",
+      "title": "AnthropicのClaude Science、AIで「史上初の全天紫外線マップ」を完成未観測領域の約3分の1を予測",
+      "channel": "anthropic",
+      "category": "Anthropic",
+      "date": "2026-10-08T20:54:25.305Z",
+      "excerpt": "Anthropicは2026年10月8日、AIシステム「Claude Science」を活用し、宇宙全体を見渡す初の全天紫外線（UV）マップを作成したと発表しました。",
+      "lead": "Anthropicは2026年10月8日、AIシステム「Claude Science」を活用し、宇宙全体を見渡す初の全天紫外線（UV）マップを作成したと発表しました。",
+      "headings": [
+        "なぜ紫外線の全天マップは存在しなかったのか",
+        "Claude Scienceが実現した技術的アプローチ",
+        "1. 異なる宇宙望遠鏡のデータ統合",
+        "2. AIによる未観測領域の補完",
+        "3. 約10％の誤差で予測を検証",
+        "AIの自律処理だけでは解決できなかった問題",
+        "科学研究とAIエージェントへの影響",
+        "今後の展望"
+      ],
+      "source_url": "https://www.anthropic.com/research/the-missing-map-of-the-sky",
+      "source_urls": [
+        "https://www.anthropic.com/research/the-missing-map-of-the-sky"
+      ],
+      "source_label": "anthropic.com",
+      "cover": "assets/posts/1557858731918757929.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1557858731918757929",
+      "first_seen": "2026-10-08T20:54:25.305Z"
+    },
+    {
+      "id": "1557858634371702804",
+      "title": "Anthropic、Claude Mythos搭載の無料脆弱性スキャナー「OSS Scanner」を公開",
+      "channel": "anthropic",
+      "category": "Anthropic",
+      "date": "2026-10-08T20:54:02.048Z",
+      "excerpt": "Anthropicは2026年10月8日、オープンソースソフトウェア（OSS）向けの無料脆弱性検出サービス「OSS Scanner」を発表しました。",
+      "lead": "Anthropicは2026年10月8日、オープンソースソフトウェア（OSS）向けの無料脆弱性検出サービス「OSS Scanner」を発表しました。",
+      "headings": [
+        "AIによる脆弱性検出能力が急速に進化",
+        "Claude Mythosによる自動セキュリティ監査",
+        "初期検証では88％が開示基準を満たす",
+        "OSSエコシステムへの影響と課題",
+        "今後の展望"
+      ],
+      "source_url": "https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source",
+      "source_urls": [
+        "https://www.anthropic.com/research/launching-opt-in-vuln-finding-service-for-open-source"
+      ],
+      "source_label": "anthropic.com",
+      "cover": "assets/posts/1557858634371702804.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1557858634371702804",
+      "first_seen": "2026-10-08T20:54:02.048Z"
+    },
+    {
+      "id": "1557858509104750602",
+      "title": "Anthropicが「Cyber Mission」始動、Claudeで重要インフラとオープンソースの防御を強化",
+      "channel": "anthropic",
+      "category": "Anthropic",
+      "date": "2026-10-08T20:53:32.182Z",
+      "excerpt": "Anthropicは2026年10月8日、AIを活用して社会基盤のサイバーセキュリティを強化する長期構想「Anthropic Cyber Mission」を発表しました。電力・水道・交通などの重要インフラと、世界中のソフトウェアを支えるオープンソースの保護を…",
+      "lead": "Anthropicは2026年10月8日、AIを活用して社会基盤のサイバーセキュリティを強化する長期構想「Anthropic Cyber Mission」を発表しました。電力・水道・交通などの重要インフラと、世界中のソフトウェアを支えるオープンソースの保護を重点領域とし、最先端AIモデル「Claude」、専門エンジニア、脅威研究、資金を投入します。",
+      "headings": [
+        "重要インフラを守る新プログラム",
+        "無料の「OSS Scanner」で脆弱性を継続検出",
+        "AI時代の課題は「発見」から「修正」へ",
+        "企業とエンジニアへの影響",
+        "今後の展望"
+      ],
+      "source_url": "https://www.anthropic.com/news/anthropic-cyber-mission",
+      "source_urls": [
+        "https://www.anthropic.com/news/anthropic-cyber-mission"
+      ],
+      "source_label": "anthropic.com",
+      "cover": "assets/posts/1557858509104750602.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1557858509104750602",
+      "first_seen": "2026-10-08T20:53:32.182Z"
+    },
+    {
+      "id": "1557858359313567744",
+      "title": "Anthropic、Claudeの利用規約を大幅更新：AIの自律行動、監視、選挙介入への規制を明確化",
+      "channel": "anthropic",
+      "category": "Anthropic",
+      "date": "2026-10-08T20:52:56.469Z",
+      "excerpt": "Anthropicは2026年10月8日、生成AI「Claude」の利用ポリシーを改定すると発表しました。新ポリシーは11月12日に発効します。AIによる偽情報拡散、武器開発、監視活動への制限を明確化するとともに、自律的に物理機器を操作するAIへの安全要件を…",
+      "lead": "Anthropicは2026年10月8日、生成AI「Claude」の利用ポリシーを改定すると発表しました。新ポリシーは11月12日に発効します。AIによる偽情報拡散、武器開発、監視活動への制限を明確化するとともに、自律的に物理機器を操作するAIへの安全要件を追加しました。",
+      "headings": [
+        "偽情報キャンペーンへの包括的規制",
+        "選挙関連の制限を見直し",
+        "武器開発と監視システムへの規制を具体化",
+        "自律型AIと物理機器に新たな安全要件",
+        "医療・金融などの高リスク利用を明確化",
+        "AIモデルへの継続的な虐待行為も禁止",
+        "今後の展望"
+      ],
+      "source_url": "https://www.anthropic.com/news/2026-usage-policy-update",
+      "source_urls": [
+        "https://www.anthropic.com/news/2026-usage-policy-update"
+      ],
+      "source_label": "anthropic.com",
+      "cover": "assets/posts/1557858359313567744.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1557858359313567744",
+      "first_seen": "2026-10-08T20:52:56.469Z"
+    },
     {
       "id": "1557775510627688478",
       "title": "Anthropic、米科学研究に1億5000万ドルを投入！NASAなど15超の政府機関へClaudeを展開",
@@ -50,7 +223,9 @@
       "source_label": "cloud.google.com",
       "cover": "assets/posts/1557775368163688498.webp",
       "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1557775368163688498",
-      "first_seen": "2026-10-08T15:23:09.837Z"
+      "first_seen": "2026-10-08T15:23:09.837Z",
+      "kind": "tool",
+      "kind_confidence": 0.52
     },
     {
       "id": "1557767232887726121",
@@ -73,7 +248,9 @@
       "source_label": "openai.com",
       "cover": "assets/posts/1557767232887726121.webp",
       "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1557767232887726121",
-      "first_seen": "2026-10-08T14:50:50.236Z"
+      "first_seen": "2026-10-08T14:50:50.236Z",
+      "kind": "research",
+      "kind_confidence": 0.39
     },
     {
       "id": "1557767033993560165",
@@ -124,184 +301,6 @@
       "first_seen": "2026-10-07T23:42:19.459Z",
       "kind": "feature",
       "kind_confidence": 0.93
-    },
-    {
-      "id": "1557502936509321296",
-      "title": "Anthropic「Claude Haiku 5.5」発表、低価格モデルが性能と速度を大幅強化",
-      "channel": "claude",
-      "category": "Anthropic",
-      "date": "2026-10-07T21:20:37.069Z",
-      "excerpt": "Anthropicは2026年10月7日、小型AIモデル「Claude Haiku 5.5」を発表しました。高頻度・コスト重視の処理を主用途としながら、知識労働、PC操作、推論、エージェント型コーディングなどでHaiku 4.5を大幅に上回る性能を示していま…",
-      "lead": "Anthropicは2026年10月7日、小型AIモデル「Claude Haiku 5.5」を発表しました。高頻度・コスト重視の処理を主用途としながら、知識労働、PC操作、推論、エージェント型コーディングなどでHaiku 4.5を大幅に上回る性能を示しています。特に100,000トークン以下の利用では入力・出力価格がHaiku 4.5の10分の1となり、大量処理型AIシステムの設計を変える可能性があります。",
-      "headings": [
-        "小型モデルでも実用タスクを広くカバー",
-        "「小さなサブエージェント」が現実的に",
-        "100万トークン当たり入力0.10ドル",
-        "今後の展望"
-      ],
-      "source_url": "https://www.anthropic.com/claude-haiku-5-5",
-      "source_urls": [
-        "https://www.anthropic.com/claude-haiku-5-5"
-      ],
-      "source_label": "anthropic.com",
-      "cover": "assets/posts/1557502936509321296.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1415353403269185546/threads/1557502936509321296",
-      "first_seen": "2026-10-07T21:20:37.069Z",
-      "kind": "model",
-      "kind_confidence": 1
-    },
-    {
-      "id": "1557502840971198566",
-      "title": "GPT-6が一般展開、ChatGPTは「会話」から動的UIを生成する時代へ",
-      "channel": "chatgpt",
-      "category": "Open AI",
-      "date": "2026-10-07T21:20:14.291Z",
-      "excerpt": "OpenAIは2026年10月7日、GPT-6と新機能「Intelligent UI」を発表しました。最大の変化は、ChatGPTが文章を返すだけでなく、質問に応じてグラフ、ボタン、フォーム、図解、計算ツールなどの操作可能なインターフェースを、その場で構成で…",
-      "lead": "OpenAIは2026年10月7日、GPT-6と新機能「Intelligent UI」を発表しました。最大の変化は、ChatGPTが文章を返すだけでなく、質問に応じてグラフ、ボタン、フォーム、図解、計算ツールなどの操作可能なインターフェースを、その場で構成できるようになった点です。0",
-      "headings": [
-        "Intelligent UIは何を変えるのか",
-        "回答しながら考えるGPT-6",
-        "安全性と提供範囲",
-        "今後の展望"
-      ],
-      "source_url": "https://openai.com/index/gpt-6-for-everyone/",
-      "source_urls": [
-        "https://openai.com/index/gpt-6-for-everyone/"
-      ],
-      "source_label": "openai.com",
-      "cover": "assets/posts/1557502840971198566.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1415353131604377641/threads/1557502840971198566",
-      "first_seen": "2026-10-07T21:20:14.291Z",
-      "kind": "model",
-      "kind_confidence": 0.84
-    },
-    {
-      "id": "1557502610695659530",
-      "title": "Windowsが「ハイブリッドAI基盤」へ、MicrosoftがローカルAIとエージェント実行を本格統合",
-      "channel": "microsoft",
-      "category": "Microsoft",
-      "date": "2026-10-07T21:19:19.389Z",
-      "excerpt": "Microsoftは2026年10月7日、Windowsを「Hybrid Intelligence」の基盤へ進化させる方針を発表しました。AI処理をクラウドだけに依存せず、PC上のローカルモデルとクラウドAIをタスクに応じて使い分け、さらにAIエージェントを…",
-      "lead": "Microsoftは2026年10月7日、Windowsを「Hybrid Intelligence」の基盤へ進化させる方針を発表しました。AI処理をクラウドだけに依存せず、PC上のローカルモデルとクラウドAIをタスクに応じて使い分け、さらにAIエージェントを安全に実行できるOSへ再設計する構想です。",
-      "headings": [
-        "エージェント時代のWindowsを支えるMXC",
-        "1000億級モデルをPC上で動かす",
-        "GitHub Copilotもローカルとクラウドを自動選択",
-        "CopilotがPC内部を理解して操作",
-        "PCそのものがAIインフラになる",
-        "今後の展望"
-      ],
-      "source_url": "https://blogs.windows.com/windowsexperience/2026/10/07/building-windows-for-hybrid-intelligence/",
-      "source_urls": [
-        "https://blogs.windows.com/windowsexperience/2026/10/07/building-windows-for-hybrid-intelligence/"
-      ],
-      "source_label": "blogs.windows.com",
-      "cover": "assets/posts/1557502610695659530.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1432720743279497367/threads/1557502610695659530",
-      "first_seen": "2026-10-07T21:19:19.389Z",
-      "kind": "feature",
-      "kind_confidence": 0.83
-    },
-    {
-      "id": "1557425514560364765",
-      "title": "Perplexityが「pplx-embed-v2-late」公開、単一ベクトルを超えるマルチモーダル検索へ",
-      "channel": "perplexity",
-      "category": "その他",
-      "date": "2026-10-07T16:12:58.238Z",
-      "excerpt": "Perplexity Researchは2026年10月7日、テキストと画像を横断して検索できる新しい埋め込みモデル群「pplx-embed-v2-late」を発表しました。最大の特徴は、文書全体を1本のベクトルへ圧縮する従来型Dense Embedding…",
-      "lead": "Perplexity Researchは2026年10月7日、テキストと画像を横断して検索できる新しい埋め込みモデル群「pplx-embed-v2-late」を発表しました。最大の特徴は、文書全体を1本のベクトルへ圧縮する従来型Dense Embeddingではなく、トークン単位の複数ベクトルを保持する「Late Interaction」を採用した点です。0.6Bと9Bの2モデルは同一の埋め込み空間を共有し、大規模モデルで作成したインデックスを小型モデルで検索できる設計になっています。",
-      "headings": [
-        "単一ベクトルの情報圧縮を回避",
-        "PDFや表、画像をOCRなしで直接検索",
-        "0.6Bと9Bが同じ埋め込み空間を共有",
-        "ベンチマークでは小型モデルも高性能",
-        "今後の展望"
-      ],
-      "source_url": "https://www.perplexity.ai/hub/blog/multimodal-embeddings-beyond-a-single-vector",
-      "source_urls": [
-        "https://www.perplexity.ai/hub/blog/multimodal-embeddings-beyond-a-single-vector"
-      ],
-      "source_label": "perplexity.ai",
-      "cover": "assets/posts/1557425514560364765.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1417545518539739166/threads/1557425514560364765",
-      "first_seen": "2026-10-07T16:12:58.238Z",
-      "kind": "model",
-      "kind_confidence": 1
-    },
-    {
-      "id": "1557397648984772731",
-      "title": "Google、SynthID Detectorを世界公開 AI生成コンテンツを誰でも検証可能に",
-      "channel": "google",
-      "category": "Google",
-      "date": "2026-10-07T14:22:14.567Z",
-      "excerpt": "Google DeepMindは2026年10月7日、AI生成コンテンツを識別する「SynthID Detector」を一般ユーザー向けに拡大し、英語版を世界で提供開始しました。画像、動画、音声に埋め込まれた不可視のウォーターマークを検出し、Googleだけ…",
-      "lead": "Google DeepMindは2026年10月7日、AI生成コンテンツを識別する「SynthID Detector」を一般ユーザー向けに拡大し、英語版を世界で提供開始しました。画像、動画、音声に埋め込まれた不可視のウォーターマークを検出し、GoogleだけでなくOpenAIやNVIDIAなどの対応企業が生成したコンテンツも確認できます。",
-      "headings": [
-        "SynthID Detectorとは",
-        "OpenAIやNVIDIAにも対応",
-        "「AI検出器」と「電子透かし検出」は異なる",
-        "今後の展望"
-      ],
-      "source_url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/synth-id-ai-content/",
-      "source_urls": [
-        "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/synth-id-ai-content/"
-      ],
-      "source_label": "blog.google",
-      "cover": "assets/posts/1557397648984772731.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1557397648984772731",
-      "first_seen": "2026-10-07T14:22:14.567Z",
-      "kind": "feature",
-      "kind_confidence": 0.94
-    },
-    {
-      "id": "1557396250234716290",
-      "title": "Google「Playground」発表、文章だけでゲームを生成する実験的AIプラットフォーム",
-      "channel": "google",
-      "category": "Google",
-      "date": "2026-10-07T14:16:41.079Z",
-      "excerpt": "Googleは2026年10月7日、プログラミング不要でオリジナルゲームを作成・プレイ・共有できる実験的プラットフォーム「Playground」を発表しました。ゲームの内容を自然言語で指示するだけで、キャラクターやルール、物理挙動、ゲーム世界まで構築できる点…",
-      "lead": "Googleは2026年10月7日、プログラミング不要でオリジナルゲームを作成・プレイ・共有できる実験的プラットフォーム「Playground」を発表しました。ゲームの内容を自然言語で指示するだけで、キャラクターやルール、物理挙動、ゲーム世界まで構築できる点が最大の特徴です。",
-      "headings": [
-        "会話形式でゲーム開発",
-        "ブラウザ上で公開・対戦まで対応",
-        "Unity Sparkとの統合も予定",
-        "今後の展望"
-      ],
-      "source_url": "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/",
-      "source_urls": [
-        "https://blog.google/innovation-and-ai/technology/ai/playground-experimental-gaming-platform/"
-      ],
-      "source_label": "blog.google",
-      "cover": "assets/posts/1557396250234716290.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1557396250234716290",
-      "first_seen": "2026-10-07T14:16:41.079Z",
-      "kind": "tool",
-      "kind_confidence": 0.85
-    },
-    {
-      "id": "1557260373386854510",
-      "title": "Aqua VoiceがAndroid対応、AI音声入力を「キーボード交換なし」で実現",
-      "channel": "その他",
-      "category": "その他",
-      "date": "2026-10-07T05:16:45.514Z",
-      "excerpt": "AI音声入力サービス「Aqua Voice」がAndroid向けに提供されています。特徴は、専用キーボードへ切り替えるのではなく、既存のキーボード横に表示されるフローティングボタンから音声入力できる点です。ChatGPTやGmail、WhatsApp、Sla…",
-      "lead": "AI音声入力サービス「Aqua Voice」がAndroid向けに提供されています。特徴は、専用キーボードへ切り替えるのではなく、既存のキーボード横に表示されるフローティングボタンから音声入力できる点です。ChatGPTやGmail、WhatsApp、Slack、Notionなど、普段使っているアプリのテキスト欄へ直接文章を入力できます。",
-      "headings": [
-        "AIが「文字起こし」から「文章化」まで処理",
-        "Androidではアクセシビリティ機能を活用",
-        "独自ベンチマークでは97.3％を主張",
-        "今後の展望"
-      ],
-      "source_url": "https://aquavoice.com/android",
-      "source_urls": [
-        "https://aquavoice.com/android"
-      ],
-      "source_label": "aquavoice.com",
-      "cover": "assets/posts/1557260373386854510.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1557260373386854510",
-      "first_seen": "2026-10-07T05:16:45.514Z",
-      "kind": "feature",
-      "kind_confidence": 0.97
     }
   ]
 }

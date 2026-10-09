@@ -5,8 +5,64 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 08 Oct 2026 15:23:43 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2026 21:00:58 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Odyssey-3登場！物理法則を学習する世界モデルがAIの現実世界への進出を加速</title>
+      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1557860382024929320</link>
+      <guid isPermaLink="false">afnjp-1557860382024929320</guid>
+      <pubDate>Thu, 08 Oct 2026 21:00:58 GMT</pubDate>
+      <category>その他</category>
+      <description>米Odysseyは2026年10月8日、新たな基盤世界モデル「Odyssey-3」を発表しました。物体の動きや相互作用、因果関係を学習し、操作に応じて変化する仮想環境をリアルタイム生成します。</description>
+    </item>
+    <item>
+      <title>OpenAI、API最速の「Ultrafast mode」を提供GPT-6 AstraとGPT-6.1 Solに対応</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1557860265272414288</link>
+      <guid isPermaLink="false">afnjp-1557860265272414288</guid>
+      <pubDate>Thu, 08 Oct 2026 21:00:30 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIは、APIの応答遅延を最小化する高速サービス階層「Ultrafast mode」の技術仕様を公開しました。</description>
+    </item>
+    <item>
+      <title>Claudeが進化！データ分析ダッシュボードとアニメーションをAIで自動生成</title>
+      <link>https://discord.com/channels/1415350002255007784/1415353403269185546/threads/1557860048804515870</link>
+      <guid isPermaLink="false">afnjp-1557860048804515870</guid>
+      <pubDate>Thu, 08 Oct 2026 20:59:39 GMT</pubDate>
+      <category>claude</category>
+      <description>Anthropicは2026年10月8日、AIアシスタント「Claude」に新機能「Claude Dashboards」と「Claude Motion」を追加したと発表しました。自然言語によるデータ分析やアニメーション制作が可能になり、ビジネス資料の作成から…</description>
+    </item>
+    <item>
+      <title>AnthropicのClaude Science、AIで「史上初の全天紫外線マップ」を完成未観測領域の約3分の1を予測</title>
+      <link>https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1557858731918757929</link>
+      <guid isPermaLink="false">afnjp-1557858731918757929</guid>
+      <pubDate>Thu, 08 Oct 2026 20:54:25 GMT</pubDate>
+      <category>anthropic</category>
+      <description>Anthropicは2026年10月8日、AIシステム「Claude Science」を活用し、宇宙全体を見渡す初の全天紫外線（UV）マップを作成したと発表しました。</description>
+    </item>
+    <item>
+      <title>Anthropic、Claude Mythos搭載の無料脆弱性スキャナー「OSS Scanner」を公開</title>
+      <link>https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1557858634371702804</link>
+      <guid isPermaLink="false">afnjp-1557858634371702804</guid>
+      <pubDate>Thu, 08 Oct 2026 20:54:02 GMT</pubDate>
+      <category>anthropic</category>
+      <description>Anthropicは2026年10月8日、オープンソースソフトウェア（OSS）向けの無料脆弱性検出サービス「OSS Scanner」を発表しました。</description>
+    </item>
+    <item>
+      <title>Anthropicが「Cyber Mission」始動、Claudeで重要インフラとオープンソースの防御を強化</title>
+      <link>https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1557858509104750602</link>
+      <guid isPermaLink="false">afnjp-1557858509104750602</guid>
+      <pubDate>Thu, 08 Oct 2026 20:53:32 GMT</pubDate>
+      <category>anthropic</category>
+      <description>Anthropicは2026年10月8日、AIを活用して社会基盤のサイバーセキュリティを強化する長期構想「Anthropic Cyber Mission」を発表しました。電力・水道・交通などの重要インフラと、世界中のソフトウェアを支えるオープンソースの保護を…</description>
+    </item>
+    <item>
+      <title>Anthropic、Claudeの利用規約を大幅更新：AIの自律行動、監視、選挙介入への規制を明確化</title>
+      <link>https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1557858359313567744</link>
+      <guid isPermaLink="false">afnjp-1557858359313567744</guid>
+      <pubDate>Thu, 08 Oct 2026 20:52:56 GMT</pubDate>
+      <category>anthropic</category>
+      <description>Anthropicは2026年10月8日、生成AI「Claude」の利用ポリシーを改定すると発表しました。新ポリシーは11月12日に発効します。AIによる偽情報拡散、武器開発、監視活動への制限を明確化するとともに、自律的に物理機器を操作するAIへの安全要件を…</description>
+    </item>
     <item>
       <title>Anthropic、米科学研究に1億5000万ドルを投入！NASAなど15超の政府機関へClaudeを展開</title>
       <link>https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1557775510627688478</link>
@@ -46,62 +102,6 @@
       <pubDate>Wed, 07 Oct 2026 23:42:19 GMT</pubDate>
       <category>anthropic</category>
       <description>Anthropicは、ClaudeのMaxおよびTeamプラン利用者向けに、Claude Platformで使える月次APIクレジットの提供を開始しました。Claude APIを利用した独自アプリやAIエージェント開発に充当でき、個人向けMaxでは最大月20…</description>
-    </item>
-    <item>
-      <title>Anthropic「Claude Haiku 5.5」発表、低価格モデルが性能と速度を大幅強化</title>
-      <link>https://discord.com/channels/1415350002255007784/1415353403269185546/threads/1557502936509321296</link>
-      <guid isPermaLink="false">afnjp-1557502936509321296</guid>
-      <pubDate>Wed, 07 Oct 2026 21:20:37 GMT</pubDate>
-      <category>claude</category>
-      <description>Anthropicは2026年10月7日、小型AIモデル「Claude Haiku 5.5」を発表しました。高頻度・コスト重視の処理を主用途としながら、知識労働、PC操作、推論、エージェント型コーディングなどでHaiku 4.5を大幅に上回る性能を示していま…</description>
-    </item>
-    <item>
-      <title>GPT-6が一般展開、ChatGPTは「会話」から動的UIを生成する時代へ</title>
-      <link>https://discord.com/channels/1415350002255007784/1415353131604377641/threads/1557502840971198566</link>
-      <guid isPermaLink="false">afnjp-1557502840971198566</guid>
-      <pubDate>Wed, 07 Oct 2026 21:20:14 GMT</pubDate>
-      <category>chatgpt</category>
-      <description>OpenAIは2026年10月7日、GPT-6と新機能「Intelligent UI」を発表しました。最大の変化は、ChatGPTが文章を返すだけでなく、質問に応じてグラフ、ボタン、フォーム、図解、計算ツールなどの操作可能なインターフェースを、その場で構成で…</description>
-    </item>
-    <item>
-      <title>Windowsが「ハイブリッドAI基盤」へ、MicrosoftがローカルAIとエージェント実行を本格統合</title>
-      <link>https://discord.com/channels/1415350002255007784/1432720743279497367/threads/1557502610695659530</link>
-      <guid isPermaLink="false">afnjp-1557502610695659530</guid>
-      <pubDate>Wed, 07 Oct 2026 21:19:19 GMT</pubDate>
-      <category>microsoft</category>
-      <description>Microsoftは2026年10月7日、Windowsを「Hybrid Intelligence」の基盤へ進化させる方針を発表しました。AI処理をクラウドだけに依存せず、PC上のローカルモデルとクラウドAIをタスクに応じて使い分け、さらにAIエージェントを…</description>
-    </item>
-    <item>
-      <title>Perplexityが「pplx-embed-v2-late」公開、単一ベクトルを超えるマルチモーダル検索へ</title>
-      <link>https://discord.com/channels/1415350002255007784/1417545518539739166/threads/1557425514560364765</link>
-      <guid isPermaLink="false">afnjp-1557425514560364765</guid>
-      <pubDate>Wed, 07 Oct 2026 16:12:58 GMT</pubDate>
-      <category>perplexity</category>
-      <description>Perplexity Researchは2026年10月7日、テキストと画像を横断して検索できる新しい埋め込みモデル群「pplx-embed-v2-late」を発表しました。最大の特徴は、文書全体を1本のベクトルへ圧縮する従来型Dense Embedding…</description>
-    </item>
-    <item>
-      <title>Google、SynthID Detectorを世界公開 AI生成コンテンツを誰でも検証可能に</title>
-      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1557397648984772731</link>
-      <guid isPermaLink="false">afnjp-1557397648984772731</guid>
-      <pubDate>Wed, 07 Oct 2026 14:22:14 GMT</pubDate>
-      <category>google</category>
-      <description>Google DeepMindは2026年10月7日、AI生成コンテンツを識別する「SynthID Detector」を一般ユーザー向けに拡大し、英語版を世界で提供開始しました。画像、動画、音声に埋め込まれた不可視のウォーターマークを検出し、Googleだけ…</description>
-    </item>
-    <item>
-      <title>Google「Playground」発表、文章だけでゲームを生成する実験的AIプラットフォーム</title>
-      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1557396250234716290</link>
-      <guid isPermaLink="false">afnjp-1557396250234716290</guid>
-      <pubDate>Wed, 07 Oct 2026 14:16:41 GMT</pubDate>
-      <category>google</category>
-      <description>Googleは2026年10月7日、プログラミング不要でオリジナルゲームを作成・プレイ・共有できる実験的プラットフォーム「Playground」を発表しました。ゲームの内容を自然言語で指示するだけで、キャラクターやルール、物理挙動、ゲーム世界まで構築できる点…</description>
-    </item>
-    <item>
-      <title>Aqua VoiceがAndroid対応、AI音声入力を「キーボード交換なし」で実現</title>
-      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1557260373386854510</link>
-      <guid isPermaLink="false">afnjp-1557260373386854510</guid>
-      <pubDate>Wed, 07 Oct 2026 05:16:45 GMT</pubDate>
-      <category>その他</category>
-      <description>AI音声入力サービス「Aqua Voice」がAndroid向けに提供されています。特徴は、専用キーボードへ切り替えるのではなく、既存のキーボード横に表示されるフローティングボタンから音声入力できる点です。ChatGPTやGmail、WhatsApp、Sla…</description>
     </item>
   </channel>
 </rss>
