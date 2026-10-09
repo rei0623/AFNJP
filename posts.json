@@ -1,8 +1,32 @@
 {
-  "generated_at": "2026-10-09T15:16:04.330Z",
+  "generated_at": "2026-10-09T20:07:14.873Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1558143164127125595",
+      "title": "Google「Flow Music」Android版が登場！AI音楽制作スタジオをスマホで持ち運べる時代へ",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-10-09T15:44:39.228Z",
+      "excerpt": "Googleは2026年10月9日、AI音楽制作プラットフォーム「Google Flow Music」のAndroidアプリを公開したと発表しました。これにより、ユーザーは外出先でも制作セッションを再開し、コミュニティが公開した楽曲を発見できるようになります。",
+      "lead": "Googleは2026年10月9日、AI音楽制作プラットフォーム「Google Flow Music」のAndroidアプリを公開したと発表しました。これにより、ユーザーは外出先でも制作セッションを再開し、コミュニティが公開した楽曲を発見できるようになります。",
+      "headings": [
+        "AI音楽制作がAndroidに対応",
+        "Geminiによる対話型音楽制作",
+        "iOS先行からAndroidへ、モバイル展開が拡大",
+        "今後の展望"
+      ],
+      "source_url": "https://twitter.com/googleflowmusic/status/2108316525476393306",
+      "source_urls": [
+        "https://twitter.com/googleflowmusic/status/2108316525476393306",
+        "https://x.com/googleflowmusic/status/2108316525476393306"
+      ],
+      "source_label": "twitter.com",
+      "cover": "assets/posts/1558143164127125595.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1558143164127125595",
+      "first_seen": "2026-10-09T15:44:39.228Z"
+    },
     {
       "id": "1558072312673083443",
       "title": "ElevenLabs、ブランドの世界観をAI生成に反映する「Brand Kit」を発表",
@@ -274,31 +298,6 @@
       "first_seen": "2026-10-08T14:50:50.236Z",
       "kind": "research",
       "kind_confidence": 0.39
-    },
-    {
-      "id": "1557767033993560165",
-      "title": "xAIが開発者向け文書を拡充！Grok 4.7、動画生成AI、X連携Botの3機能を詳解",
-      "channel": "grok",
-      "category": "Space X",
-      "date": "2026-10-08T14:50:02.816Z",
-      "excerpt": "xAIは2026年10月7日付で、公式ドキュメントに「Grok 4.7」「Grok Imagine Video API」「Grok BotのX連携」に関する情報を掲載しました。高性能なAIモデル、映像生成、SNSを起点としたタスク自動化という3領域で、開発者…",
-      "lead": "xAIは2026年10月7日付で、公式ドキュメントに「Grok 4.7」「Grok Imagine Video API」「Grok BotのX連携」に関する情報を掲載しました。高性能なAIモデル、映像生成、SNSを起点としたタスク自動化という3領域で、開発者向け機能の全体像が明確になっています。",
-      "headings": [
-        "1. Grok 4.7：50万トークン対応の高性能AI",
-        "2. Grok Imagine：最大1080pのAI動画生成",
-        "3. Grok Bot：Xへの投稿からAIエージェントを実行",
-        "今後の展望"
-      ],
-      "source_url": "https://docs.x.ai/developers/model-capabilities/video/overview",
-      "source_urls": [
-        "https://docs.x.ai/developers/model-capabilities/video/overview",
-        "https://docs.x.ai/grok-bot/tag-on-x",
-        "https://docs.x.ai/developers/models/grok-4.7"
-      ],
-      "source_label": "docs.x.ai",
-      "cover": "assets/posts/1557767033993560165.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1417803120225816596/threads/1557767033993560165",
-      "first_seen": "2026-10-08T14:50:02.816Z"
     }
   ]
 }

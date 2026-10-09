@@ -1,9 +1,33 @@
 {
-  "generated_at": "2026-10-09T15:16:04.327Z",
+  "generated_at": "2026-10-09T20:07:14.869Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 343,
+  "count": 344,
   "posts": [
+    {
+      "id": "1558143164127125595",
+      "title": "Google「Flow Music」Android版が登場！AI音楽制作スタジオをスマホで持ち運べる時代へ",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-10-09T15:44:39.228Z",
+      "excerpt": "Googleは2026年10月9日、AI音楽制作プラットフォーム「Google Flow Music」のAndroidアプリを公開したと発表しました。これにより、ユーザーは外出先でも制作セッションを再開し、コミュニティが公開した楽曲を発見できるようになります。",
+      "lead": "Googleは2026年10月9日、AI音楽制作プラットフォーム「Google Flow Music」のAndroidアプリを公開したと発表しました。これにより、ユーザーは外出先でも制作セッションを再開し、コミュニティが公開した楽曲を発見できるようになります。",
+      "headings": [
+        "AI音楽制作がAndroidに対応",
+        "Geminiによる対話型音楽制作",
+        "iOS先行からAndroidへ、モバイル展開が拡大",
+        "今後の展望"
+      ],
+      "source_url": "https://twitter.com/googleflowmusic/status/2108316525476393306",
+      "source_urls": [
+        "https://twitter.com/googleflowmusic/status/2108316525476393306",
+        "https://x.com/googleflowmusic/status/2108316525476393306"
+      ],
+      "source_label": "twitter.com",
+      "cover": "assets/posts/1558143164127125595.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1558143164127125595",
+      "first_seen": "2026-10-09T15:44:39.228Z"
+    },
     {
       "id": "1558072312673083443",
       "title": "ElevenLabs、ブランドの世界観をAI生成に反映する「Brand Kit」を発表",

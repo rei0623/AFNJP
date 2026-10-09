@@ -5,8 +5,16 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 09 Oct 2026 11:03:06 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 09 Oct 2026 15:44:39 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Google「Flow Music」Android版が登場！AI音楽制作スタジオをスマホで持ち運べる時代へ</title>
+      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1558143164127125595</link>
+      <guid isPermaLink="false">afnjp-1558143164127125595</guid>
+      <pubDate>Fri, 09 Oct 2026 15:44:39 GMT</pubDate>
+      <category>google</category>
+      <description>Googleは2026年10月9日、AI音楽制作プラットフォーム「Google Flow Music」のAndroidアプリを公開したと発表しました。これにより、ユーザーは外出先でも制作セッションを再開し、コミュニティが公開した楽曲を発見できるようになります。</description>
+    </item>
     <item>
       <title>ElevenLabs、ブランドの世界観をAI生成に反映する「Brand Kit」を発表</title>
       <link>https://discord.com/channels/1415350002255007784/1441006356399259719/threads/1558072312673083443</link>
@@ -94,14 +102,6 @@
       <pubDate>Thu, 08 Oct 2026 14:50:50 GMT</pubDate>
       <category>open-ai</category>
       <description>OpenAIは2026年10月8日、生成AIを悪用したロシアとイラン発の大規模な秘密情報工作について調査結果を公開しました。</description>
-    </item>
-    <item>
-      <title>xAIが開発者向け文書を拡充！Grok 4.7、動画生成AI、X連携Botの3機能を詳解</title>
-      <link>https://discord.com/channels/1415350002255007784/1417803120225816596/threads/1557767033993560165</link>
-      <guid isPermaLink="false">afnjp-1557767033993560165</guid>
-      <pubDate>Thu, 08 Oct 2026 14:50:02 GMT</pubDate>
-      <category>grok</category>
-      <description>xAIは2026年10月7日付で、公式ドキュメントに「Grok 4.7」「Grok Imagine Video API」「Grok BotのX連携」に関する情報を掲載しました。高性能なAIモデル、映像生成、SNSを起点としたタスク自動化という3領域で、開発者…</description>
     </item>
   </channel>
 </rss>
