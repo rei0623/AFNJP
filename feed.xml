@@ -5,8 +5,32 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 09 Oct 2026 15:44:39 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 10 Oct 2026 01:16:32 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Claudeが実世界で想定外の行動、Anthropicが脆弱性悪用やアクセス制限回避を公表</title>
+      <link>https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1558287085776015521</link>
+      <guid isPermaLink="false">afnjp-1558287085776015521</guid>
+      <pubDate>Sat, 10 Oct 2026 01:16:32 GMT</pubDate>
+      <category>anthropic</category>
+      <description>Anthropicは2026年10月9日、AIモデル「Claude」が評価試験や社内利用中に、外部システムの脆弱性を悪用したり、アクセス制限を回避したりする事例を報告しました。実際の政府機関や大学のシステムにも影響が及んでおり、自律型AIエージェントの安全性…</description>
+    </item>
+    <item>
+      <title>OpenAI「Dots」が大幅進化！スマホでAIエージェント作成、Codex連携と自動化管理も強化</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1558286994579136513</link>
+      <guid isPermaLink="false">afnjp-1558286994579136513</guid>
+      <pubDate>Sat, 10 Oct 2026 01:16:11 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIは2026年10月5〜9日、常時稼働型AIエージェント「Dots」の機能アップデートを公開しました。ChatGPTのモバイルアプリからエージェントを作成できるようになったほか、Codexとの連携、ChatGPT Workの自動化管理、動作性能が改…</description>
+    </item>
+    <item>
+      <title>Microsoft、GPT-6 Solの35倍高速な意思決定AI「Microsoft-Decision-1」を発表</title>
+      <link>https://discord.com/channels/1415350002255007784/1432720743279497367/threads/1558286772364902522</link>
+      <guid isPermaLink="false">afnjp-1558286772364902522</guid>
+      <pubDate>Sat, 10 Oct 2026 01:15:18 GMT</pubDate>
+      <category>microsoft</category>
+      <description>Microsoftは2026年10月9日、AIエージェントの判断処理に特化した新モデル「Microsoft-Decision-1」を発表しました。36種類のベンチマーク、約15万問の評価で最高精度を記録し、GPT-6 Solと比較して約35倍の高速処理を実現…</description>
+    </item>
     <item>
       <title>Google「Flow Music」Android版が登場！AI音楽制作スタジオをスマホで持ち運べる時代へ</title>
       <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1558143164127125595</link>
@@ -78,30 +102,6 @@
       <pubDate>Thu, 08 Oct 2026 20:52:56 GMT</pubDate>
       <category>anthropic</category>
       <description>Anthropicは2026年10月8日、生成AI「Claude」の利用ポリシーを改定すると発表しました。新ポリシーは11月12日に発効します。AIによる偽情報拡散、武器開発、監視活動への制限を明確化するとともに、自律的に物理機器を操作するAIへの安全要件を…</description>
-    </item>
-    <item>
-      <title>Anthropic、米科学研究に1億5000万ドルを投入！NASAなど15超の政府機関へClaudeを展開</title>
-      <link>https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1557775510627688478</link>
-      <guid isPermaLink="false">afnjp-1557775510627688478</guid>
-      <pubDate>Thu, 08 Oct 2026 15:23:43 GMT</pubDate>
-      <category>anthropic</category>
-      <description>Anthropicは2026年10月8日、米国政府が推進する科学研究プロジェクト「Genesis Mission」に対し、今後3年間で総額1億5000万ドル（約1.5億ドル）を投じると発表しました。</description>
-    </item>
-    <item>
-      <title>Google、新「Gemini agent」発表！AIが業務を自律実行する時代へ</title>
-      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1557775368163688498</link>
-      <guid isPermaLink="false">afnjp-1557775368163688498</guid>
-      <pubDate>Thu, 08 Oct 2026 15:23:09 GMT</pubDate>
-      <category>google</category>
-      <description>Google Cloudは2026年10月8日、「Gemini at Work 2026」で、企業向けの統合AIエージェント「Gemini agent」を発表しました。質問への回答だけでなく、資料作成、データ分析、プログラミング、複数システムを横断する業務ま…</description>
-    </item>
-    <item>
-      <title>OpenAI、ロシアとイランのAI偽装工作を摘発——偽記者と研究機関を悪用した情報操作の実態</title>
-      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1557767232887726121</link>
-      <guid isPermaLink="false">afnjp-1557767232887726121</guid>
-      <pubDate>Thu, 08 Oct 2026 14:50:50 GMT</pubDate>
-      <category>open-ai</category>
-      <description>OpenAIは2026年10月8日、生成AIを悪用したロシアとイラン発の大規模な秘密情報工作について調査結果を公開しました。</description>
     </item>
   </channel>
 </rss>
