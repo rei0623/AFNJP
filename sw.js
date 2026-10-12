@@ -23,7 +23,7 @@
  *
  * v2: 記事一覧の種類バッジ（.arc .k）を追加
  */
-const VERSION = 'v3';
+const VERSION = 'v4';
 const SHELL = `afnjp-shell-${VERSION}`;
 const RUNTIME = `afnjp-runtime-${VERSION}`;
 
