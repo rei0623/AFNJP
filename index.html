@@ -122,7 +122,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Zen+Kaku+Gothic+New:wght@400;500;700&family=Zen+Old+Mincho:wght@700;900&display=swap"
+        href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Zen+Kaku+Gothic+New:wght@400;500;700&family=Zen+Old+Mincho:wght@700;900&family=DotGothic16&display=swap"
         rel="stylesheet">
 
     <style>
@@ -239,26 +239,6 @@
         .nav a.cur { border-bottom-color: var(--shu); }
 
         /* ── 新着の帯 ── */
-        .wire { background: var(--ai); color: var(--on-ai); font-size: 12.5px; overflow: hidden; }
-        .wire-in { display: flex; align-items: center; height: 36px; }
-        .wire-lbl {
-            flex-shrink: 0; display: flex; align-items: center; gap: 8px;
-            font-family: var(--f-mono); font-size: 10.5px; letter-spacing: .18em;
-            padding-right: 16px; margin-right: 16px;
-            border-right: 1px solid color-mix(in srgb, var(--on-ai) 25%, transparent);
-        }
-        .wire-lbl i { width: 7px; height: 7px; border-radius: 50%; background: var(--shu); animation: ping 2s infinite; }
-        @keyframes ping {
-            0% { box-shadow: 0 0 0 0 color-mix(in srgb, var(--shu) 70%, transparent); }
-            80%, 100% { box-shadow: 0 0 0 7px transparent; }
-        }
-        .wire-track { overflow: hidden; flex: 1; mask-image: linear-gradient(90deg, transparent, #000 4%, #000 94%, transparent); }
-        .wire-run { display: flex; gap: 44px; width: max-content; animation: run 90s linear infinite; }
-        .wire:hover .wire-run, .wire:focus-within .wire-run { animation-play-state: paused; }
-        @keyframes run { to { transform: translateX(-50%); } }
-        .wire-run a { text-decoration: none; white-space: nowrap; display: flex; gap: 10px; opacity: .92; }
-        .wire-run a:hover { opacity: 1; text-decoration: underline; }
-        .wire-run .t { font-family: var(--f-mono); color: color-mix(in srgb, var(--on-ai) 60%, transparent); font-size: 11px; }
 
         /* ── ヒーロー ── */
         .hero {
@@ -266,11 +246,12 @@
             gap: clamp(32px, 5vw, 72px); align-items: start;
             padding-block: clamp(36px, 6vw, 72px) clamp(40px, 5vw, 64px);
         }
-        .mark { position: relative; width: 92px; height: 92px; margin-bottom: 24px; color: var(--ink); }
-        .mark .emb { position: absolute; inset: 12px; }
-        .mark svg { position: absolute; inset: 0; width: 100%; height: 100%; overflow: visible; }
-        .mark .orb { transform-origin: 46px 46px; animation: orb 14s linear infinite; }
-        @keyframes orb { to { transform: rotate(360deg); } }
+        /* ロゴ。JS が動く環境では、散らばった点が集まってロゴになり、アンテナから朱の電波が出る。
+           JS が無い・動きを減らす設定のときは、下の .emb がそのまま見える */
+        .mark { position: relative; width: 120px; height: 120px; margin-bottom: 22px; color: var(--ink); }
+        .mark .emb { position: absolute; inset: 6px; transition: opacity .3s; }
+        .mark canvas { position: absolute; inset: -12px; width: calc(100% + 24px); height: calc(100% + 24px); }
+        .mark.live .emb { opacity: 0; }
         .eyebrow {
             display: inline-flex; align-items: center; gap: 10px;
             font-family: var(--f-mono); font-size: 11px; letter-spacing: .12em; color: var(--ink-2);
@@ -355,6 +336,77 @@
         .sec h2 { font-family: var(--f-min); font-weight: 900; font-size: clamp(28px, 3.4vw, 42px); line-height: 1.3; }
         .sec .intro { margin-top: 14px; color: var(--ink-2); max-width: 40em; }
         .note-r { font-family: var(--f-mono); font-size: 11px; color: var(--ink-3); text-align: right; line-height: 1.6; }
+
+        /* ── 受信機 ──
+           ロゴのアンテナにちなんだ、新着の見出しを流す小さな機械。
+           本体は両方のテーマで同じ暗い色（画面の中の「物」なので）。光る色は朱だけ */
+        .news-head { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 520px); gap: 24px clamp(24px, 4vw, 56px); align-items: end; margin-bottom: 32px; }
+        .rx {
+            --lit: #ff6a45; --dim: #3a2019;
+            position: relative; border-radius: 16px; padding: 16px 16px 14px; color: #d9d6cf; font-family: var(--f-mono);
+            background: linear-gradient(180deg, #202126, #17181b 40%);
+            box-shadow: inset 0 1px 0 rgba(255,255,255,.08), inset 0 -2px 0 rgba(0,0,0,.5), 0 28px 48px -28px rgba(0,0,0,.55), 0 2px 0 #0a0a0b;
+        }
+        .rx::before { content: ""; position: absolute; inset: 0; border-radius: 16px; pointer-events: none;
+            background: repeating-linear-gradient(90deg, rgba(255,255,255,.018) 0 1px, transparent 1px 3px); }
+        .rx-top { display: flex; align-items: center; gap: 10px; font-size: 10px; letter-spacing: .16em; color: #8d8a84; }
+        .rx-top .emb { width: 20px; height: 20px; color: #d9d6cf; }
+        .rx-top b { color: #d9d6cf; font-weight: 500; }
+        .rx-top .st { margin-left: auto; }
+        .led { width: 8px; height: 8px; border-radius: 50%; background: var(--dim); box-shadow: 0 0 0 2px #0e0f10; }
+        .led.on { background: var(--lit); box-shadow: 0 0 0 2px #0e0f10, 0 0 10px var(--lit); }
+        .lcd { display: block; text-decoration: none; margin-top: 10px; background: #0b0c0d; border-radius: 8px; padding: 10px 12px; position: relative; overflow: hidden;
+            box-shadow: inset 0 2px 6px rgba(0,0,0,.8), inset 0 0 0 1px #000; }
+        .lcd::after { content: ""; position: absolute; inset: 0; pointer-events: none; background: repeating-linear-gradient(0deg, rgba(0,0,0,.22) 0 1px, transparent 1px 3px); }
+        .lcd-row { display: flex; justify-content: space-between; gap: 10px; font-size: 10.5px; letter-spacing: .06em; color: #a8432b; }
+        .lcd-row b { color: var(--lit); font-weight: 500; text-shadow: 0 0 6px rgba(255,106,69,.55); }
+        .ticker { display: block; margin-top: 6px; height: 2em; overflow: hidden; position: relative; font-family: "DotGothic16", var(--f-mono); font-size: clamp(16px, 1.8vw, 20px); line-height: 2em;
+            color: var(--lit); text-shadow: 0 0 8px rgba(255,106,69,.6); }
+        .ticker span { position: absolute; left: 0; top: 0; white-space: nowrap; will-change: transform; }
+        .lcd:hover .ticker { text-decoration: underline; text-underline-offset: 4px; }
+        .rx-panel { display: grid; grid-template-columns: auto minmax(0, 1fr) auto; gap: 14px; align-items: end; margin-top: 12px; }
+        .keys { display: flex; gap: 8px; }
+        .key { width: 42px; height: 36px; border-radius: 7px; border: 0; cursor: pointer; color: #cfccc5; font: 500 12px var(--f-mono);
+            background: linear-gradient(180deg, #34363c, #26282d);
+            box-shadow: inset 0 1px 0 rgba(255,255,255,.12), 0 3px 0 #0b0b0c, 0 4px 6px rgba(0,0,0,.4); transition: transform .06s, box-shadow .06s; }
+        .key:active, .key.down { transform: translateY(3px); box-shadow: inset 0 1px 0 rgba(255,255,255,.06), 0 1px 2px rgba(0,0,0,.4); }
+        .key[aria-pressed="true"] { color: var(--lit); text-shadow: 0 0 6px rgba(255,106,69,.6); }
+        .vu { display: flex; gap: 5px; align-items: flex-end; justify-content: center; }
+        .vu .col { display: flex; flex-direction: column; align-items: center; gap: 4px; }
+        .vu .bars { display: flex; flex-direction: column-reverse; gap: 2px; }
+        .vu .bars i { display: block; width: 11px; height: 3px; border-radius: 1px; background: #2a2b2f; }
+        .vu .bars i.on { background: var(--lit); box-shadow: 0 0 4px rgba(255,106,69,.5); }
+        .vu .col span { font-size: 8.5px; color: #76736d; }
+        .count { font-size: 10px; color: #8d8a84; text-align: right; line-height: 1.5; }
+        .count b { display: block; font-size: 19px; color: #d9d6cf; font-weight: 500; font-variant-numeric: tabular-nums; }
+        .rx-note { margin-top: 8px; text-align: right; }
+
+        /* ── よくある質問（Discord の会話の形） ── */
+        .faq-wrap { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.3fr); gap: 24px clamp(24px, 4vw, 56px); align-items: start; }
+        .chat { background: var(--card); border: 1px solid var(--line); border-radius: 14px; overflow: hidden; }
+        .chat-head { display: flex; align-items: center; gap: 8px; padding: 12px 16px; border-bottom: 1px solid var(--line); font-size: 13px; font-weight: 700; }
+        .chat-head span { font-family: var(--f-mono); font-weight: 400; color: var(--ink-3); }
+        .chat-head small { margin-left: auto; font-weight: 400; font-size: 11.5px; color: var(--ink-3); }
+        .log { padding: 18px 16px 10px; display: flex; flex-direction: column; gap: 14px; }
+        .msg { display: grid; grid-template-columns: 34px minmax(0, 1fr); gap: 10px; }
+        .msg.new { animation: pop .28s ease-out both; }
+        @keyframes pop { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+        .av { width: 34px; height: 34px; border-radius: 50%; display: grid; place-items: center; font-size: 13px; font-weight: 700; }
+        .av.q { background: var(--paper-2); color: var(--ink-2); }
+        .av.a { border: 1px solid var(--line-2); color: var(--ink); }
+        .av.a .emb { width: 24px; height: 24px; }
+        .who { font-size: 12.5px; font-weight: 700; display: flex; gap: 8px; align-items: baseline; }
+        .who em { font-style: normal; font-size: 10px; font-family: var(--f-mono); letter-spacing: .08em; color: var(--shu-ink); background: var(--shu-soft); padding: 0 6px; border-radius: 3px; }
+        .bubble { margin-top: 2px; font-size: 14px; line-height: 1.75; }
+        .msg.a .bubble { color: var(--ink-2); }
+        .typing { display: inline-flex; gap: 4px; padding: 8px 0; }
+        .typing i { width: 6px; height: 6px; border-radius: 50%; background: var(--ink-3); animation: dot 1s infinite; }
+        .typing i:nth-child(2) { animation-delay: .15s; } .typing i:nth-child(3) { animation-delay: .3s; }
+        @keyframes dot { 0%, 60%, 100% { opacity: .25; transform: none; } 30% { opacity: 1; transform: translateY(-3px); } }
+        .ask { border-top: 1px solid var(--line); padding: 12px 14px 14px; display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+        .ask p { width: 100%; font-size: 11.5px; color: var(--ink-3); }
+        .ask .btn { margin-left: auto; }
+        .ask .chip:hover { border-color: var(--shu); color: var(--shu-ink); }
 
         /* ── 最近の記事 ── */
         .chips { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 26px; }
@@ -471,13 +523,6 @@
         .subs-note { margin-top: 16px; font-size: 12.5px; color: var(--ink-2); min-height: 1.8em; }
 
         /* ── よくある質問 ── */
-        .faq { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 48px; border-top: 1.5px solid var(--ink); }
-        .faq details { border-bottom: 1px solid var(--line); }
-        .faq summary { cursor: pointer; list-style: none; display: flex; justify-content: space-between; gap: 16px; padding: 18px 0; font-weight: 700; font-size: 15px; }
-        .faq summary::after { content: "+"; font-family: var(--f-mono); color: var(--shu); font-size: 18px; line-height: 1; }
-        .faq details[open] summary::after { content: "−"; }
-        .faq summary::-webkit-details-marker { display: none; }
-        .faq details p { padding-bottom: 20px; color: var(--ink-2); font-size: 14px; }
 
         /* ── 締めの帯 ── */
         .final { background: var(--ai); color: var(--on-ai); position: relative; overflow: hidden; }
@@ -522,7 +567,7 @@
         @media (max-width: 1000px) {
             .nav { display: none; }
             .top .btn { margin-left: auto; }
-            .hero, .proc { grid-template-columns: minmax(0, 1fr); }
+            .hero, .proc, .news-head, .faq-wrap { grid-template-columns: minmax(0, 1fr); }
             .hanko { right: -8px; }
             .anat .hanko { right: -12px; }
             .cards { grid-template-columns: repeat(2, minmax(0, 1fr)); }
@@ -537,12 +582,11 @@
         @media (max-width: 640px) {
             body { font-size: 14.5px; }
             .brand small { display: none; }
-            .mark { width: 76px; height: 76px; }
-            .mark .emb { inset: 10px; }
+            .mark { width: 96px; height: 96px; }
             .figs { grid-template-columns: repeat(2, minmax(0, 1fr)); }
             .fig:nth-child(3) { border-left: 0; padding-left: 0; }
             .fig:nth-child(n + 3) { margin-top: 14px; }
-            .cards, .follow, .faq, .dgrid { grid-template-columns: minmax(0, 1fr); }
+            .cards, .follow, .dgrid { grid-template-columns: minmax(0, 1fr); }
             .hanko { width: 96px; height: 96px; right: -6px; top: 120px; }
             .anat .hanko { display: none; }
             .an { grid-template-columns: minmax(0, 1fr); }
@@ -551,10 +595,11 @@
             .final .wrap { grid-template-columns: minmax(0, 1fr); }
             .final .acts { align-items: flex-start; }
             .hb { grid-template-columns: 110px minmax(0, 1fr) 30px; }
+            .rx-panel { grid-template-columns: 1fr auto; }
+            .vu { grid-column: 1 / -1; grid-row: 1; justify-content: flex-start; }
         }
         @media (prefers-reduced-motion: reduce) {
             *, *::before, *::after { animation: none !important; transition: none !important; }
-            .wire-track { overflow-x: auto; }
         }
     </style>
 </head>
@@ -578,24 +623,12 @@
         </div>
     </header>
 
-    <!-- 新着の見出しが流れる帯。posts.json を読めたときだけ表示する -->
-    <div class="wire" id="wire" hidden>
-        <div class="wrap wire-in">
-            <span class="wire-lbl" aria-hidden="true"><i></i>NEW</span>
-            <div class="wire-track"><div class="wire-run" id="wireRun" aria-label="新着記事の見出し"></div></div>
-        </div>
-    </div>
-
     <main id="top">
         <div class="wrap">
             <section class="hero">
                 <div>
-                    <div class="mark" aria-hidden="true">
+                    <div class="mark" id="mark" aria-hidden="true">
                         <span class="emb"></span>
-                        <svg viewBox="0 0 92 92" fill="none">
-                            <circle cx="46" cy="46" r="45" stroke="var(--line-2)" stroke-dasharray="2 5" />
-                            <g class="orb"><circle cx="46" cy="1" r="3.2" fill="var(--shu)" /></g>
-                        </svg>
                     </div>
                     <span class="eyebrow"><span class="dot"></span><span id="liveTag">DISCORD COMMUNITY · 参加無料</span></span>
 
@@ -648,13 +681,33 @@
         <!-- ════ 最近の記事 ════ -->
         <section class="sec" id="news">
             <div class="wrap">
-                <div class="sec-head">
+                <div class="news-head">
                     <div>
                         <p class="kicker">Latest</p>
                         <h2>最近の記事</h2>
                         <p class="intro">Discord の記事チャンネルに投稿された記事です。ここでは要点と小見出し、出典を読めます。全文は Discord で読めます。</p>
                     </div>
-                    <p class="note-r" id="feedNote"></p>
+                    <!-- 受信機。posts.json を読めたら見出しが流れ始める。右のメーターは直近7日の記事数 -->
+                    <div>
+                        <div class="rx" id="radio">
+                            <div class="rx-top"><span class="emb" aria-hidden="true"></span><b>AFNJP</b>RECEIVER<span class="st" id="rxState">受信待ち</span><span class="led" id="led"></span></div>
+                            <a class="lcd" id="lcd" href="archive.html" aria-live="polite">
+                                <span class="lcd-row"><span id="lcdCh">CH —</span><b id="lcdTime">--/-- --:--</b></span>
+                                <span class="ticker"><span id="tickText">最新の記事を受信しています…</span></span>
+                                <span class="lcd-row"><span id="lcdSrc">SRC —</span><span id="lcdKind"></span></span>
+                            </a>
+                            <div class="rx-panel">
+                                <div class="keys">
+                                    <button class="key" id="rxPrev" type="button" aria-label="ひとつ前の記事">◀◀</button>
+                                    <button class="key" id="rxPlay" type="button" aria-pressed="true" aria-label="見出しを自動で切り替える">▶</button>
+                                    <button class="key" id="rxNext" type="button" aria-label="次の記事">▶▶</button>
+                                </div>
+                                <div class="vu" id="vu" role="img" aria-label="直近7日の記事数"></div>
+                                <div class="count">記事<b id="rxCount">--/--</b></div>
+                            </div>
+                        </div>
+                        <p class="note-r rx-note" id="feedNote"></p>
+                    </div>
                 </div>
 
                 <div class="chips" id="chips" role="group" aria-label="会社で絞り込む"></div>
@@ -989,27 +1042,34 @@
             </div>
         </section>
 
-        <!-- ════ よくある質問（head の FAQPage と文面を揃えること） ════ -->
+        <!-- ════ よくある質問（head の FAQPage と文面を揃えること。最初から並べる4問がそれ） ════ -->
         <section class="sec" id="faq">
             <div class="wrap">
-                <div class="sec-head"><div><p class="kicker">FAQ</p><h2>よくある質問</h2></div></div>
-                <div class="faq">
-                    <details open>
-                        <summary>どのようなAIニュースを読めますか？</summary>
-                        <p>OpenAI・Anthropic・Google・Microsoft など主要AI企業の公式発表やモデルリリースを中心に、海外のAIニュースを日本語で読めます。記事には確認した一次情報への出典リンクが付きます。</p>
-                    </details>
-                    <details>
-                        <summary>記事はどのように作られていますか？</summary>
-                        <p>管理人が公式発表やリリースノートなどの一次情報を直接確認し、出典リンク付きの日本語記事として投稿しています。執筆にはAIを補助として使っていますが、取り上げるニュースの選定と、公開する文章の確認・編集は人が行っています。</p>
-                    </details>
-                    <details>
-                        <summary>参加は無料ですか？</summary>
-                        <p>無料です。登録費用も審査もなく、Discordアカウントがあれば30秒で参加できます。読むだけの参加も歓迎です。</p>
-                    </details>
-                    <details>
-                        <summary>興味のある話題だけ追えますか？</summary>
-                        <p>企業別・モデル別にチャンネルが分かれているので、興味のある部屋だけ通知をONにして読めます。</p>
-                    </details>
+                <div class="faq-wrap">
+                    <div>
+                        <p class="kicker">FAQ</p>
+                        <h2>よくある質問</h2>
+                        <p class="intro">参加を考えている人から、よく聞かれることをまとめました。下の質問を押すと、運営が答えます。</p>
+                    </div>
+                    <div class="chat">
+                        <div class="chat-head"><span>#</span>はじめに<small>AI Frontier News JP</small></div>
+                        <div class="log" id="log">
+                            <div class="msg q"><div class="av q" aria-hidden="true">あ</div><div><p class="who">参加を考えている人</p><p class="bubble">どのようなAIニュースを読めますか？</p></div></div>
+                            <div class="msg a"><div class="av a" aria-hidden="true"><span class="emb"></span></div><div><p class="who">AFNJP 運営<em>運営</em></p><p class="bubble">OpenAI・Anthropic・Google・Microsoft など主要AI企業の公式発表やモデルリリースを中心に、海外のAIニュースを日本語で読めます。記事には確認した一次情報への出典リンクが付きます。</p></div></div>
+                            <div class="msg q"><div class="av q" aria-hidden="true">あ</div><div><p class="who">参加を考えている人</p><p class="bubble">記事はどのように作られていますか？</p></div></div>
+                            <div class="msg a"><div class="av a" aria-hidden="true"><span class="emb"></span></div><div><p class="who">AFNJP 運営<em>運営</em></p><p class="bubble">管理人が公式発表やリリースノートなどの一次情報を直接確認し、出典リンク付きの日本語記事として投稿しています。執筆にはAIを補助として使っていますが、取り上げるニュースの選定と、公開する文章の確認・編集は人が行っています。</p></div></div>
+                            <div class="msg q"><div class="av q" aria-hidden="true">あ</div><div><p class="who">参加を考えている人</p><p class="bubble">参加は無料ですか？</p></div></div>
+                            <div class="msg a"><div class="av a" aria-hidden="true"><span class="emb"></span></div><div><p class="who">AFNJP 運営<em>運営</em></p><p class="bubble">無料です。登録費用も審査もなく、Discordアカウントがあれば30秒で参加できます。読むだけの参加も歓迎です。</p></div></div>
+                            <div class="msg q"><div class="av q" aria-hidden="true">あ</div><div><p class="who">参加を考えている人</p><p class="bubble">興味のある話題だけ追えますか？</p></div></div>
+                            <div class="msg a"><div class="av a" aria-hidden="true"><span class="emb"></span></div><div><p class="who">AFNJP 運営<em>運営</em></p><p class="bubble">企業別・モデル別にチャンネルが分かれているので、興味のある部屋だけ通知をONにして読めます。</p></div></div>
+                        </div>
+                        <div class="ask" id="ask">
+                            <p>ほかにも聞いてみる</p>
+                            <button class="chip" type="button" data-q="0">読むだけでもいいですか？</button>
+                            <button class="chip" type="button" data-q="1">通知が多すぎませんか？</button>
+                            <a class="btn shu sm" href="https://discord.gg/WUWE6Ev7yh" target="_blank" rel="noopener noreferrer">参加する</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -1181,13 +1241,7 @@
                 $('#leadStory').innerHTML = leadHtml(POSTS[0]);
                 renderFeed();
 
-                const items = POSTS.slice(0, 10).map(p => {
-                    const t = to(p);
-                    return `<a href="${esc(t.href)}"${t.attrs}><span class="t">${esc(ago(p.date))} · #${esc(p.channel)}</span>${esc(p.title)}</a>`;
-                }).join('');
-                // 2周ぶん並べて translateX(-50%) で継ぎ目なく流す。2周目は読み上げない
-                $('#wireRun').innerHTML = items + `<span aria-hidden="true" style="display:contents">${items.replace(/<a /g, '<a tabindex="-1" ')}</span>`;
-                $('#wire').hidden = false;
+                receiver.load(POSTS.slice(0, 12));
 
                 if (data.generated_at) {
                     $('#feedNote').innerHTML = `自動更新<br>${esc(new Date(data.generated_at).toLocaleString('ja-JP',
@@ -1262,6 +1316,162 @@
                 ).join('');
             }
             renderStats();
+
+            /* ══════ 受信機 ══════ */
+            const receiver = (() => {
+                let list = [], i = 0, auto = !RM, x = 0, last = 0, wait = 0, running = false;
+                const tt = $('#tickText'), box = tt.parentElement;
+                function show(n) {
+                    if (!list.length) return;
+                    i = (n + list.length) % list.length;
+                    const p = list[i], t = to(p), j = jst(p.date);
+                    $('#lcdCh').textContent = `CH #${p.channel}`;
+                    $('#lcdTime').textContent = j ? `${j.getUTCMonth() + 1}/${j.getUTCDate()} ${p2(j.getUTCHours())}:${p2(j.getUTCMinutes())}` : '';
+                    $('#lcdSrc').textContent = `SRC ${p.source_label || '—'}`;
+                    $('#lcdKind').textContent = KIND[p.kind] ? `KIND ${KIND[p.kind]}` : '';
+                    $('#rxCount').textContent = `${p2(i + 1)}/${p2(list.length)}`;
+                    const lcd = $('#lcd');
+                    lcd.href = t.href;
+                    if (t.attrs) { lcd.target = '_blank'; lcd.rel = 'noopener noreferrer'; } else { lcd.removeAttribute('target'); lcd.removeAttribute('rel'); }
+                    tt.textContent = p.title;
+                    x = 0; wait = 0; last = performance.now(); tt.style.transform = 'translateX(0)';
+                    const led = $('#led'); led.classList.remove('on'); setTimeout(() => led.classList.add('on'), 120);
+                }
+                // 長い見出しは左へ流し、流れきったら少し止めて次の記事へ
+                function step(now) {
+                    const over = tt.scrollWidth - box.clientWidth, dt = (now - last) / 1000; last = now;
+                    if (over > 0 && x < over) { x = Math.min(over, x + 55 * dt); tt.style.transform = `translateX(${-x}px)`; }
+                    else if (auto) { wait ||= now; if (now - wait > (over > 0 ? 1600 : 3500)) show(i + 1); }
+                    requestAnimationFrame(step);
+                }
+                function setAuto(v) {
+                    auto = v;
+                    $('#rxPlay').setAttribute('aria-pressed', String(v));
+                    $('#rxPlay').textContent = v ? '▶' : '❚❚';
+                    $('#rxState').textContent = v ? '受信中' : '一時停止';
+                    wait = 0;
+                }
+                const press = el => { el.classList.add('down'); setTimeout(() => el.classList.remove('down'), 110); };
+                $('#rxPrev').addEventListener('click', e => { press(e.currentTarget); show(i - 1); });
+                $('#rxNext').addEventListener('click', e => { press(e.currentTarget); show(i + 1); });
+                $('#rxPlay').addEventListener('click', () => setAuto(!auto));
+                return {
+                    load(posts) {
+                        list = posts;
+                        if (!list.length) return;
+                        setAuto(auto);
+                        show(0);
+                        // 動きを減らす設定では流さず、見出しを折り返して全部見せる
+                        if (RM) { tt.style.whiteSpace = 'normal'; box.style.height = 'auto'; tt.style.position = 'static'; return; }
+                        if (!running) { running = true; requestAnimationFrame(step); }
+                    },
+                };
+            })();
+
+            /* 直近7日の記事数のメーター（記事の記録と同じ集計を使う） */
+            (() => {
+                let st;
+                try { st = JSON.parse($('#stats')?.textContent || 'null'); } catch { }
+                if (!st?.days) return;
+                const lastKey = Object.keys(st.days).sort().at(-1);
+                const week = [];
+                for (let d = 6; d >= 0; d--) {
+                    const k = new Date(Date.parse(lastKey + 'T00:00:00Z') - d * 86400000).toISOString().slice(0, 10);
+                    week.push([k, st.days[k] || 0]);
+                }
+                const mx = Math.max(1, ...week.map(w => w[1])), SEG = 8;
+                $('#vu').setAttribute('aria-label', '直近7日の記事数 ' + week.map(([k, n]) => `${md(k)} ${n}本`).join('、'));
+                $('#vu').innerHTML = week.map(([k, n]) => {
+                    const on = Math.round(n / mx * SEG);
+                    return `<div class="col" title="${md(k)} ${n}本"><div class="bars">${Array.from({ length: SEG }, (_, j) => `<i class="${j < on ? 'on' : ''}"></i>`).join('')}</div><span>${'日月火水木金土'[new Date(k + 'T00:00:00Z').getUTCDay()]}</span></div>`;
+                }).join('');
+            })();
+
+            /* ══════ ロゴ（点が集まって形になり、アンテナから電波が出る） ══════ */
+            (() => {
+                if (RM) return; // 動きを減らす設定では、静止したロゴのまま
+                const mark = $('#mark'), cv = document.createElement('canvas'), cx = cv.getContext('2d');
+                const img = new Image();
+                let pts = [], S = 0, pad = 0, t0 = 0;
+                function build() {
+                    const r = cv.getBoundingClientRect(), d = Math.min(devicePixelRatio || 1, 2);
+                    S = r.width; pad = S * 12 / 144; cv.width = S * d; cv.height = S * d; cx.setTransform(d, 0, 0, d, 0, 0);
+                    const N = 72, off = document.createElement('canvas'); off.width = off.height = N;
+                    const o = off.getContext('2d'); o.drawImage(img, 0, 0, N, N);
+                    const a = o.getImageData(0, 0, N, N).data, inner = S - pad * 2, s = inner / N;
+                    pts = [];
+                    for (let y = 0; y < N; y++) for (let x = 0; x < N; x++) {
+                        if ((x + y) % 2 || a[(y * N + x) * 4 + 3] < 110) continue;
+                        const ang = Math.random() * Math.PI * 2, rad = S * (.3 + Math.random() * .4);
+                        pts.push({ tx: pad + x * s, ty: pad + y * s, sx: S / 2 + Math.cos(ang) * rad, sy: S / 2 + Math.sin(ang) * rad, d: Math.random() * .35, r: s * .62 });
+                    }
+                }
+                const ease = k => 1 - Math.pow(1 - k, 3);
+                function frame(now) {
+                    const t = (now - t0) / 1000;
+                    cx.clearRect(0, 0, S, S);
+                    cx.fillStyle = getComputedStyle(mark).color;
+                    for (const p of pts) {
+                        const e = ease(Math.max(0, Math.min(1, (t - p.d) / 1.5)));
+                        cx.globalAlpha = .25 + .75 * e;
+                        cx.beginPath(); cx.arc(p.sx + (p.tx - p.sx) * e, p.sy + (p.ty - p.sy) * e, p.r, 0, 7); cx.fill();
+                    }
+                    cx.globalAlpha = 1;
+                    // アンテナ（ロゴの右上）から出る電波
+                    const ax = pad + (S - pad * 2) * .755, ay = pad + (S - pad * 2) * .235, w = t - 1.9;
+                    if (w > 0) {
+                        for (let k = 0; k < 3; k++) {
+                            const ph = (w * .8 + k / 3) % 1;
+                            cx.strokeStyle = `rgba(217,58,22,${(1 - ph) * .85})`; cx.lineWidth = 1.6;
+                            cx.beginPath(); cx.arc(ax, ay, S * (.03 + .2 * ph), -Math.PI * .48, -Math.PI * .02); cx.stroke();
+                        }
+                    }
+                    // 電波は4周ほどで止め、ロゴだけを残す
+                    if (t < 7) requestAnimationFrame(frame);
+                    else { cx.clearRect(0, 0, S, S); mark.classList.remove('live'); }
+                }
+                img.onload = () => {
+                    mark.appendChild(cv);
+                    build();
+                    mark.classList.add('live');
+                    t0 = performance.now();
+                    requestAnimationFrame(frame);
+                };
+                img.src = 'assets/emblem.png';
+            })();
+
+            /* ══════ よくある質問：押すと運営が答える ══════ */
+            (() => {
+                const EXTRA = [
+                    ['読むだけでもいいですか？', '大丈夫です。多くのメンバーは記事を読むだけで参加しています。話したくなったら #一般 や #ユースケース へどうぞ。'],
+                    ['通知が多すぎませんか？', '記事は1日におよそ5〜10本です。全部の通知が多ければ、21時ごろに出る #ニュースをおさらい！ のまとめだけを見る使い方もできます。'],
+                ];
+                const log = $('#log');
+                let busy = false;
+                const add = (kind, html) => {
+                    const el = document.createElement('div');
+                    el.className = `msg ${kind} new`;
+                    el.innerHTML = kind === 'q'
+                        ? `<div class="av q" aria-hidden="true">あ</div><div><p class="who">参加を考えている人</p><p class="bubble">${html}</p></div>`
+                        : `<div class="av a" aria-hidden="true"><span class="emb"></span></div><div><p class="who">AFNJP 運営<em>運営</em></p><p class="bubble">${html}</p></div>`;
+                    log.appendChild(el);
+                    return el;
+                };
+                $('#ask').addEventListener('click', e => {
+                    const b = e.target.closest('.chip');
+                    if (!b || busy) return;
+                    const [q, a] = EXTRA[+b.dataset.q];
+                    b.remove();
+                    add('q', esc(q));
+                    busy = true;
+                    const el = add('a', '<span class="typing" aria-label="入力中"><i></i><i></i><i></i></span>');
+                    setTimeout(() => {
+                        el.querySelector('.bubble').textContent = a;
+                        busy = false;
+                        el.scrollIntoView({ block: 'nearest', behavior: RM ? 'auto' : 'smooth' });
+                    }, RM ? 0 : 900);
+                });
+            })();
 
             /* ══════ Discordの実測値 ══════ */
             const CACHE = 'afnjp-live-v7';

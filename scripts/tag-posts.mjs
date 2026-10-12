@@ -34,6 +34,7 @@ import { KINDS, KIND_LABEL } from './lib/kinds.mjs';
 const HERE = dirname(fileURLToPath(import.meta.url));
 const ROOT = resolve(HERE, '..');
 const ARCHIVE = resolve(ROOT, 'posts-archive.json');
+const POSTS = resolve(ROOT, 'posts.json');
 
 const DRY = process.argv.includes('--dry-run');
 const RETAG = process.argv.includes('--retag');
@@ -123,4 +124,35 @@ async function main() {
     console.log(jev.usageLine());
 }
 
+/**
+ * 記事に付いた種類を posts.json にも写す。
+ *
+ * トップページ（カード・受信機）は posts.json を読むが、kind が入るのは posts-archive.json だけ。
+ * sync-discord.mjs が posts.json を毎時作り直すので、ここで毎回写し直す。
+ * Jev は使わないので、鍵が無い・壊れているときも動く。
+ */
+async function copyKindsToPosts() {
+    const [arc, cur] = await Promise.all([
+        readFile(ARCHIVE, 'utf8').then(JSON.parse).catch(() => null),
+        readFile(POSTS, 'utf8').then(JSON.parse).catch(() => null),
+    ]);
+    if (!arc?.posts || !Array.isArray(cur?.posts)) return;
+    const byId = new Map(arc.posts.filter(p => p.kind).map(p => [p.id, p]));
+    let changed = 0;
+    for (const p of cur.posts) {
+        const a = byId.get(p.id);
+        if (!a || p.kind === a.kind) continue;
+        p.kind = a.kind;
+        if (a.kind_confidence !== undefined) p.kind_confidence = a.kind_confidence;
+        changed++;
+    }
+    if (!changed) return;
+    const out = JSON.stringify(cur, null, 2) + '\n';
+    JSON.parse(out);
+    await writeFile(`${POSTS}.tmp`, out, 'utf8');
+    await rename(`${POSTS}.tmp`, POSTS);
+    console.log(`✓ posts.json に種類を写しました（${changed} 件）`);
+}
+
 await main();
+await copyKindsToPosts();
