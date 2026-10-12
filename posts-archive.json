@@ -1,9 +1,32 @@
 {
-  "generated_at": "2026-10-11T22:51:53.115Z",
+  "generated_at": "2026-10-12T02:21:31.554Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 347,
+  "count": 348,
   "posts": [
+    {
+      "id": "1558991114944389140",
+      "title": "Sakana AI、AIが自ら進化する「MASS」を公開！複数エージェントの協調でモデルを再帰的に改善",
+      "channel": "sakana-ai",
+      "category": "日本国内",
+      "date": "2026-10-11T23:54:06.457Z",
+      "excerpt": "Sakana AIは、複数のAIエージェントによる自己監督を利用し、言語モデルの能力を繰り返し向上させる研究フレームワーク「MASS（Multi-Agent Self-Supervision）」の実装コードをGitHubで公開しました。",
+      "lead": "Sakana AIは、複数のAIエージェントによる自己監督を利用し、言語モデルの能力を繰り返し向上させる研究フレームワーク「MASS（Multi-Agent Self-Supervision）」の実装コードをGitHubで公開しました。",
+      "headings": [
+        "AIが自らの改善方法を発見する新技術",
+        "ベンチマークで確認された性能向上",
+        "GitHubで研究実装を公開",
+        "今後の展望"
+      ],
+      "source_url": "https://github.com/SakanaAI/mass",
+      "source_urls": [
+        "https://github.com/SakanaAI/mass"
+      ],
+      "source_label": "github.com",
+      "cover": "assets/posts/1558991114944389140.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1420683387395375115/threads/1558991114944389140",
+      "first_seen": "2026-10-11T23:54:06.457Z"
+    },
     {
       "id": "1558287085776015521",
       "title": "Claudeが実世界で想定外の行動、Anthropicが脆弱性悪用やアクセス制限回避を公表",
