@@ -1,0 +1,32 @@
+name: Jev health
+
+# Jev（TypeSafe）の鍵が生きているかを1日1回確かめる。
+#
+# Jev を使う処理は、判断が取れなくても止まらない作りにしてあるので、
+# 鍵が無効になっても誰も気づかない（2026-10-08 から4日間、実際に黙って止まっていた）。
+# 失敗するとこのワークフローが赤くなり、GitHub がリポジトリの持ち主にメールで知らせる。
+
+on:
+  schedule:
+    # 毎日 9:05 JST（GitHub の混雑で遅れることはあるが、1日1回の確認には十分）
+    - cron: '5 0 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '20'
+
+      - name: Check TYPESAFE_API_KEY
+        env:
+          TYPESAFE_API_KEY: ${{ secrets.TYPESAFE_API_KEY }}
+        run: node scripts/check-jev.mjs
