@@ -97,7 +97,7 @@ jobs:
 
       - name: Commit if changed
         run: |
-          git add -A channels.json posts.json posts-archive.json assets/posts \
+          git add -A channels.json posts.json posts-archive.json search.json assets/posts \
                     index.html archive.html posts feed.xml sitemap.xml \
                     .x-drafted.json .x-posted.json .push-sent.json
           if git diff --cached --quiet; then

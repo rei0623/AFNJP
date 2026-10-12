@@ -176,6 +176,7 @@
         }
 
         *, *::before, *::after { box-sizing: border-box; }
+        [hidden] { display: none !important; }
         html { -webkit-text-size-adjust: 100%; scroll-padding-top: 76px; }
         body {
             margin: 0;
@@ -446,6 +447,30 @@
         .row .ttl { font-weight: 500; font-size: 14.5px; line-height: 1.6; }
         .row .s { font-family: var(--f-mono); font-size: 11px; color: var(--ink-3); text-align: right; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
         .nohit { color: var(--ink-3); padding: 24px 0; }
+
+        /* 検索と保存 */
+        .tools { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-bottom: 16px; }
+        .find { flex: 1 1 320px; display: flex; align-items: center; gap: 10px; border: 1.5px solid var(--line-2); border-radius: 999px; padding: 0 16px; background: var(--card); }
+        .find:focus-within { border-color: var(--ink); }
+        .find svg { width: 17px; height: 17px; flex-shrink: 0; fill: none; stroke: var(--ink-3); stroke-width: 2; }
+        .find input { flex: 1; min-width: 0; border: 0; outline: 0; background: transparent; color: var(--ink); font: 15px/1.4 var(--f-jp); padding: 11px 0; }
+        .find input::placeholder { color: var(--ink-3); }
+        .saved-btn { display: inline-flex; align-items: center; gap: 7px; }
+        .saved-btn svg { width: 14px; height: 14px; fill: none; stroke: currentColor; stroke-width: 2; }
+        .saved-btn[aria-pressed="true"] svg { fill: currentColor; }
+        .find-note { font-size: 12.5px; color: var(--ink-3); margin: -4px 0 14px; }
+        .cw { position: relative; display: flex; }
+        .cw > .card { flex: 1; min-width: 0; }
+        .rw { position: relative; }
+        .rw > .row { padding-right: 44px; }
+        .star { position: absolute; width: 34px; height: 34px; border-radius: 50%; border: 0; cursor: pointer; display: grid; place-items: center;
+            background: color-mix(in srgb, var(--card) 92%, transparent); box-shadow: 0 1px 4px rgba(0,0,0,.18); }
+        .cw > .star { top: 10px; right: 10px; }
+        .rw > .star { top: 50%; right: 4px; transform: translateY(-50%); box-shadow: none; background: transparent; }
+        .star svg { width: 17px; height: 17px; fill: none; stroke: var(--ink-2); stroke-width: 1.8; }
+        .star[aria-pressed="true"] svg { fill: var(--shu); stroke: var(--shu); }
+        .star:hover svg { stroke: var(--shu); }
+        .results { border-top: 1.5px solid var(--ink); }
         .more { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 32px; }
 
         /* ── 記事のつくり ── */
@@ -498,6 +523,21 @@
         .hb .n { font-family: var(--f-mono); text-align: right; font-variant-numeric: tabular-nums; }
 
         /* ── チャンネル ── */
+        /* 会社名の濃淡。最近記事が出た会社ほど濃い。押すと、その会社の部屋が浮かび上がる */
+        .ch-wrap { display: grid; grid-template-columns: minmax(0, .9fr) minmax(0, 1.6fr); gap: 28px clamp(24px, 4vw, 56px); align-items: start; }
+        .names { list-style: none; margin: 0; padding: 0; position: sticky; top: 84px; }
+        .co { display: flex; align-items: flex-start; gap: 8px; border: 0; background: none; padding: 0; cursor: pointer; text-align: left;
+            font-family: var(--f-min); font-weight: 900; font-size: clamp(30px, 4.6vw, 64px); line-height: 1.12; letter-spacing: -.02em;
+            color: color-mix(in srgb, var(--ink) var(--k, 25%), var(--paper)); transition: color .25s; }
+        .co sup { font-family: var(--f-mono); font-weight: 500; font-size: 11px; letter-spacing: 0; margin-top: .75em; color: var(--ink-3); }
+        .co:hover { color: var(--ink); }
+        .co[aria-pressed="true"] { color: var(--ink); }
+        .co[aria-pressed="true"] sup { color: var(--shu-ink); }
+        .names-note { margin-top: 14px; font-size: 12px; color: var(--ink-3); }
+        .names-note b { color: var(--ink-2); font-weight: 500; }
+        .group { transition: opacity .25s; }
+        .groups.focus .group { opacity: .28; }
+        .groups.focus .group.hl { opacity: 1; box-shadow: 0 0 0 1px var(--line), inset 3px 0 0 var(--shu); }
         .groups {
             display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); gap: 1px;
             background: var(--card); border: 1px solid var(--line); border-radius: 4px; overflow: hidden;
@@ -567,7 +607,9 @@
         @media (max-width: 1000px) {
             .nav { display: none; }
             .top .btn { margin-left: auto; }
-            .hero, .proc, .news-head, .faq-wrap { grid-template-columns: minmax(0, 1fr); }
+            .hero, .proc, .news-head, .faq-wrap, .ch-wrap { grid-template-columns: minmax(0, 1fr); }
+            .names { position: static; display: flex; flex-wrap: wrap; gap: 2px 18px; }
+            .co { font-size: clamp(26px, 7vw, 40px); }
             .hanko { right: -8px; }
             .anat .hanko { right: -12px; }
             .cards { grid-template-columns: repeat(2, minmax(0, 1fr)); }
@@ -710,6 +752,20 @@
                     </div>
                 </div>
 
+                <!-- 検索はこれまでの全記事（search.json）が対象。保存は閲覧している人のブラウザにだけ残る -->
+                <div class="tools">
+                    <label class="find">
+                        <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7" /><path d="m20 20-3.6-3.6" /></svg>
+                        <input type="search" id="q" placeholder="これまでの記事を検索（例: Claude、Gemini、料金）" aria-label="これまでの記事を検索" autocomplete="off">
+                    </label>
+                    <button class="chip saved-btn" id="savedBtn" type="button" aria-pressed="false">
+                        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.5l2.6 5.3 5.9.9-4.2 4.1 1 5.8L12 16.9 6.7 19.6l1-5.8L3.5 9.7l5.9-.9z" /></svg>
+                        あとで読む<span id="savedN">0</span>
+                    </button>
+                </div>
+                <p class="find-note" id="findNote" aria-live="polite" hidden></p>
+                <div class="results" id="results" hidden></div>
+
                 <div class="chips" id="chips" role="group" aria-label="会社で絞り込む"></div>
 
                 <!-- 記事カードは scripts/generate-seo.mjs が posts.json から自動生成する。
@@ -821,7 +877,7 @@
                 </div>
                 <!-- グラフの元データ。scripts/generate-seo.mjs が posts-archive.json を集計して書き込む -->
                 <!-- STATS:START 自動生成。この区間は手で編集しないこと -->
-                    <script type="application/json" id="stats">{"total":348,"days":{"2026-10-12":1,"2026-10-10":4,"2026-10-09":10,"2026-10-08":7,"2026-10-07":16,"2026-10-06":15,"2026-10-05":3,"2026-10-04":1,"2026-10-03":6,"2026-10-02":10,"2026-10-01":9,"2026-09-30":7,"2026-09-29":9,"2026-09-26":4,"2026-09-25":12,"2026-09-24":5,"2026-09-23":11,"2026-09-22":10,"2026-09-20":5,"2026-09-19":4,"2026-09-17":4,"2026-09-16":10,"2026-09-15":2,"2026-09-13":2,"2026-09-12":3,"2026-09-11":13,"2026-09-10":8,"2026-09-09":8,"2026-09-08":3,"2026-09-07":3,"2026-09-05":2,"2026-09-04":8,"2026-09-03":5,"2026-09-02":20,"2026-09-01":3,"2026-08-31":1,"2026-08-29":4,"2026-08-28":9,"2026-08-27":10,"2026-08-26":14,"2026-08-25":2,"2026-08-24":2,"2026-08-22":5,"2026-08-21":6,"2026-08-20":12,"2026-08-19":12,"2026-08-18":6,"2026-08-17":5,"2026-08-15":3,"2026-08-14":10,"2026-08-13":4},"hours":[35,32,14,7,32,12,24,18,42,21,10,2,8,4,3,0,5,1,7,11,21,5,11,23],"domains":[["openai.com",98],["blog.google",41],["anthropic.com",36],["twitter.com",23],["github.com",12],["claude.com",10]]}</script>
+                    <script type="application/json" id="stats">{"total":348,"days":{"2026-10-12":1,"2026-10-10":4,"2026-10-09":10,"2026-10-08":7,"2026-10-07":16,"2026-10-06":15,"2026-10-05":3,"2026-10-04":1,"2026-10-03":6,"2026-10-02":10,"2026-10-01":9,"2026-09-30":7,"2026-09-29":9,"2026-09-26":4,"2026-09-25":12,"2026-09-24":5,"2026-09-23":11,"2026-09-22":10,"2026-09-20":5,"2026-09-19":4,"2026-09-17":4,"2026-09-16":10,"2026-09-15":2,"2026-09-13":2,"2026-09-12":3,"2026-09-11":13,"2026-09-10":8,"2026-09-09":8,"2026-09-08":3,"2026-09-07":3,"2026-09-05":2,"2026-09-04":8,"2026-09-03":5,"2026-09-02":20,"2026-09-01":3,"2026-08-31":1,"2026-08-29":4,"2026-08-28":9,"2026-08-27":10,"2026-08-26":14,"2026-08-25":2,"2026-08-24":2,"2026-08-22":5,"2026-08-21":6,"2026-08-20":12,"2026-08-19":12,"2026-08-18":6,"2026-08-17":5,"2026-08-15":3,"2026-08-14":10,"2026-08-13":4},"hours":[35,32,14,7,32,12,24,18,42,21,10,2,8,4,3,0,5,1,7,11,21,5,11,23],"domains":[["openai.com",98],["blog.google",41],["anthropic.com",36],["twitter.com",23],["github.com",12],["claude.com",10]],"cats":{"日本国内":{"n":4,"last":"2026-10-11T23:54:06.457Z"},"Anthropic":{"n":54,"last":"2026-10-10T01:16:32.823Z"},"Open AI":{"n":113,"last":"2026-10-10T01:16:11.080Z"},"Microsoft":{"n":9,"last":"2026-10-10T01:15:18.100Z"},"Google":{"n":72,"last":"2026-10-09T15:44:39.228Z"},"その他":{"n":66,"last":"2026-10-09T11:03:06.925Z"},"Space X":{"n":7,"last":"2026-10-08T14:50:02.816Z"},"リーク情報":{"n":9,"last":"2026-10-05T14:22:27.121Z"},"Meta":{"n":8,"last":"2026-10-02T21:27:51.218Z"},"Alibaba":{"n":6,"last":"2026-09-23T09:15:48.197Z"}}}</script>
                     <!-- STATS:END -->
                 <div class="dgrid">
                     <div class="panel wide">
@@ -854,11 +910,17 @@
                     </div>
                     <p class="note-r" id="chSync"></p>
                 </div>
+                <div class="ch-wrap">
+                    <!-- 会社名の濃淡。記事の記録（STATS）の会社ごとの最新日時から JS で描く -->
+                    <div id="namesCol" hidden>
+                        <ul class="names" id="names" aria-label="会社ごとのチャンネルを強調する"></ul>
+                        <p class="names-note" id="namesNote"></p>
+                    </div>
                 <!-- チャンネル一覧も scripts/generate-seo.mjs が channels.json から自動生成する。 -->
                 <div class="groups" id="groups">
                     <!-- CHANNELS:START 自動生成。この区間は手で編集しないこと -->
                     <div class="group">
-                        <p class="grp-h"><b>Welcome &amp; Info</b><span>3 ch</span></p>
+                        <p class="grp-h" data-cat="Welcome &amp; Info"><b>Welcome &amp; Info</b><span>3 ch</span></p>
                         <div class="chs">
                             <span class="ch">はじめに</span>
                             <span class="ch">免責事項</span>
@@ -866,7 +928,7 @@
                         </div>
                     </div>
                     <div class="group">
-                        <p class="grp-h"><b>コミュニティ</b><span>3 ch</span></p>
+                        <p class="grp-h" data-cat="コミュニティ"><b>コミュニティ</b><span>3 ch</span></p>
                         <div class="chs">
                             <span class="ch">ご意見 ご要望</span>
                             <span class="ch">一般</span>
@@ -874,7 +936,7 @@
                         </div>
                     </div>
                     <div class="group">
-                        <p class="grp-h"><b>デイリーレポート</b><span>3 ch</span></p>
+                        <p class="grp-h" data-cat="デイリーレポート"><b>デイリーレポート</b><span>3 ch</span></p>
                         <div class="chs">
                             <span class="ch">一次情報ウォッチ</span>
                             <span class="ch">ニュースをおさらい！</span>
@@ -882,14 +944,14 @@
                         </div>
                     </div>
                     <div class="group">
-                        <p class="grp-h"><b>ライブ配信 イベント情報</b><span>2 ch</span></p>
+                        <p class="grp-h" data-cat="ライブ配信 イベント情報"><b>ライブ配信 イベント情報</b><span>2 ch</span></p>
                         <div class="chs">
                             <span class="ch">ライブ配信 イベント情報</span>
                             <span class="ch">告知 宣伝</span>
                         </div>
                     </div>
                     <div class="group">
-                        <p class="grp-h"><b>Google</b><span>記事 <em>72</em> 本</span></p>
+                        <p class="grp-h" data-cat="Google"><b>Google</b><span>記事 <em>72</em> 本</span></p>
                         <div class="chs">
                             <span class="ch">google</span>
                             <span class="ch">gemini</span>
@@ -904,7 +966,7 @@
                         </div>
                     </div>
                     <div class="group">
-                        <p class="grp-h"><b>OpenAI</b><span>記事 <em>113</em> 本</span></p>
+                        <p class="grp-h" data-cat="Open AI"><b>OpenAI</b><span>記事 <em>113</em> 本</span></p>
                         <div class="chs">
                             <span class="ch">open-ai</span>
                             <span class="ch">chatgpt</span>
@@ -913,7 +975,7 @@
                         </div>
                     </div>
                     <div class="group">
-                        <p class="grp-h"><b>Anthropic</b><span>記事 <em>54</em> 本</span></p>
+                        <p class="grp-h" data-cat="Anthropic"><b>Anthropic</b><span>記事 <em>54</em> 本</span></p>
                         <div class="chs">
                             <span class="ch">anthropic</span>
                             <span class="ch">claude</span>
@@ -921,7 +983,7 @@
                         </div>
                     </div>
                     <div class="group">
-                        <p class="grp-h"><b>Space X</b><span>記事 <em>7</em> 本</span></p>
+                        <p class="grp-h" data-cat="Space X"><b>Space X</b><span>記事 <em>7</em> 本</span></p>
                         <div class="chs">
                             <span class="ch">space-x</span>
                             <span class="ch">grok</span>
@@ -929,21 +991,21 @@
                         </div>
                     </div>
                     <div class="group">
-                        <p class="grp-h"><b>Microsoft</b><span>記事 <em>9</em> 本</span></p>
+                        <p class="grp-h" data-cat="Microsoft"><b>Microsoft</b><span>記事 <em>9</em> 本</span></p>
                         <div class="chs">
                             <span class="ch">microsoft</span>
                             <span class="ch">copilot</span>
                         </div>
                     </div>
                     <div class="group">
-                        <p class="grp-h"><b>Meta</b><span>記事 <em>8</em> 本</span></p>
+                        <p class="grp-h" data-cat="Meta"><b>Meta</b><span>記事 <em>8</em> 本</span></p>
                         <div class="chs">
                             <span class="ch">meta</span>
                             <span class="ch">muse-spark</span>
                         </div>
                     </div>
                     <div class="group">
-                        <p class="grp-h"><b>Alibaba</b><span>記事 <em>6</em> 本</span></p>
+                        <p class="grp-h" data-cat="Alibaba"><b>Alibaba</b><span>記事 <em>6</em> 本</span></p>
                         <div class="chs">
                             <span class="ch">alibaba</span>
                             <span class="ch">qwen</span>
@@ -951,7 +1013,7 @@
                         </div>
                     </div>
                     <div class="group">
-                        <p class="grp-h"><b>その他</b><span>記事 <em>66</em> 本</span></p>
+                        <p class="grp-h" data-cat="その他"><b>その他</b><span>記事 <em>66</em> 本</span></p>
                         <div class="chs">
                             <span class="ch">kimi</span>
                             <span class="ch">glm</span>
@@ -974,25 +1036,26 @@
                         </div>
                     </div>
                     <div class="group">
-                        <p class="grp-h"><b>モデルの比較</b><span>1 ch</span></p>
+                        <p class="grp-h" data-cat="モデルの比較"><b>モデルの比較</b><span>1 ch</span></p>
                         <div class="chs">
                             <span class="ch">arena-ai</span>
                         </div>
                     </div>
                     <div class="group">
-                        <p class="grp-h"><b>リーク情報</b><span>記事 <em>9</em> 本</span></p>
+                        <p class="grp-h" data-cat="リーク情報"><b>リーク情報</b><span>記事 <em>9</em> 本</span></p>
                         <div class="chs">
                             <span class="ch">リーク情報</span>
                         </div>
                     </div>
                     <div class="group">
-                        <p class="grp-h"><b>日本国内</b><span>記事 <em>4</em> 本</span></p>
+                        <p class="grp-h" data-cat="日本国内"><b>日本国内</b><span>記事 <em>4</em> 本</span></p>
                         <div class="chs">
                             <span class="ch">日本国内</span>
                             <span class="ch">sakana-ai</span>
                         </div>
                     </div>
                     <!-- CHANNELS:END -->
+                </div>
                 </div>
             </div>
         </section>
@@ -1196,18 +1259,103 @@
                 const t = to(p); if (!t) return '';
                 const cover = safeCover(p.cover);
                 const ex = clean(p.excerpt || p.lead);
-                return `<a class="card" href="${esc(t.href)}"${t.attrs}>
+                return `<div class="cw"><a class="card" href="${esc(t.href)}"${t.attrs}>
                     ${cover ? `<div class="cover"><img src="${esc(cover)}" alt="" loading="lazy" width="640" height="360"></div>` : `<div class="cover type"><b>${esc(p.channel)}</b></div>`}
                     ${meta(p)}<h3>${esc(p.title)}</h3>
                     ${ex ? `<p class="lede">${esc(ex)}</p>` : ''}
-                    <p class="from">${p.source_label ? `出典 <b>${esc(p.source_label)}</b>` : ''}</p></a>`;
+                    <p class="from">${p.source_label ? `出典 <b>${esc(p.source_label)}</b>` : ''}</p></a>${starHtml(p)}</div>`;
             }
             function rowHtml(p) {
                 const t = to(p); if (!t) return '';
                 const j = jst(p.date);
                 const w = j ? `${j.getUTCMonth() + 1}/${j.getUTCDate()} ${p2(j.getUTCHours())}:${p2(j.getUTCMinutes())}` : '';
-                return `<a class="row" href="${esc(t.href)}"${t.attrs}><span class="w">${esc(w)}</span><span class="c">#${esc(p.channel)}</span><span class="ttl">${esc(p.title)}</span><span class="s">${esc(p.source_label || '')}</span></a>`;
+                return `<div class="rw"><a class="row" href="${esc(t.href)}"${t.attrs}><span class="w">${esc(w)}</span><span class="c">#${esc(p.channel)}</span><span class="ttl">${esc(p.title)}</span><span class="s">${esc(p.source_label || '')}</span></a>${starHtml(p)}</div>`;
             }
+
+            /* ══════ あとで読む（保存） ══════
+               閲覧している人のブラウザ（localStorage）にだけ残す。ログインは要らないが、別の端末には引き継がれない。
+               posts.json から消えた古い記事も一覧に出せるよう、見出しなど表示に要る項目ごと保存する */
+            const SAVE_KEY = 'afnjp-saved';
+            let SAVED = [];
+            try { SAVED = JSON.parse(localStorage.getItem(SAVE_KEY) || '[]').filter(x => x && x.id); } catch { }
+            const isSaved = id => SAVED.some(x => x.id === id);
+            const STAR = '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.5l2.6 5.3 5.9.9-4.2 4.1 1 5.8L12 16.9 6.7 19.6l1-5.8L3.5 9.7l5.9-.9z"/></svg>';
+            function starHtml(p) {
+                if (!p.id) return '';
+                const on = isSaved(String(p.id));
+                return `<button class="star" type="button" data-id="${esc(p.id)}" aria-pressed="${on}" aria-label="${on ? 'あとで読むから外す' : 'あとで読むに保存'}">${STAR}</button>`;
+            }
+            const findPost = id => POSTS.find(p => String(p.id) === id) || (SEARCH || []).find(p => p.id === id);
+            function toggleSave(id) {
+                if (isSaved(id)) SAVED = SAVED.filter(x => x.id !== id);
+                else {
+                    const p = findPost(id);
+                    if (!p) return;
+                    SAVED.unshift({ id, title: p.title ?? p.t, channel: p.channel ?? p.ch, date: p.date ?? p.d, source_label: p.source_label ?? p.src, kind: p.kind ?? p.k });
+                }
+                try { localStorage.setItem(SAVE_KEY, JSON.stringify(SAVED.slice(0, 300))); } catch { }
+                $$('.star').filter(b => b.dataset.id === id).forEach(b => {
+                    const on = isSaved(id);
+                    b.setAttribute('aria-pressed', String(on));
+                    b.setAttribute('aria-label', on ? 'あとで読むから外す' : 'あとで読むに保存');
+                });
+                $('#savedN').textContent = SAVED.length;
+                if (mode === 'saved') showResults();
+            }
+            document.addEventListener('click', e => {
+                const b = e.target.closest('.star');
+                if (b) { e.preventDefault(); toggleSave(b.dataset.id); }
+            });
+            $('#savedN').textContent = SAVED.length;
+
+            /* ══════ 検索 ══════
+               対象はこれまでの全記事（search.json）。最初に入力したときだけ読み込む */
+            let SEARCH = null, searchLoading = null, mode = 'feed';
+            const loadSearch = () => searchLoading ||= fetch('search.json?t=' + Math.floor(Date.now() / 3600000))
+                .then(r => r.ok ? r.json() : Promise.reject())
+                .then(d => { SEARCH = (d.posts || []).map(p => ({ ...p, title: p.t, channel: p.ch, date: p.d, source_label: p.src, kind: p.k })); })
+                .catch(() => { SEARCH = []; });
+            function setMode(m) {
+                mode = m;
+                const feed = m === 'feed';
+                $('#results').hidden = feed; $('#findNote').hidden = feed;
+                $('#chips').hidden = !feed; $('#cards').hidden = !feed; $('#rows').hidden = !feed;
+                $('#savedBtn').setAttribute('aria-pressed', String(m === 'saved'));
+            }
+            async function showResults() {
+                if (mode === 'saved') {
+                    $('#findNote').textContent = SAVED.length
+                        ? `あとで読むに保存した記事 ${SAVED.length} 本（このブラウザにだけ残ります）`
+                        : '保存した記事はまだありません。記事の右上の星で保存できます。';
+                    $('#results').innerHTML = SAVED.map(rowHtml).join('');
+                    return;
+                }
+                const words = $('#q').value.trim().toLowerCase().split(/\s+/).filter(Boolean);
+                $('#findNote').textContent = '検索しています…';
+                await loadSearch();
+                if (mode !== 'search') return;
+                const hits = SEARCH.filter(p => {
+                    const hay = `${p.t} #${p.ch} ${p.cat} ${p.src} ${KIND[p.k] || ''}`.toLowerCase();
+                    return words.every(w => hay.includes(w));
+                });
+                $('#findNote').textContent = hits.length
+                    ? `「${words.join(' ')}」に当てはまる記事 ${hits.length} 本${hits.length > 60 ? '（新しい60本を表示）' : ''}`
+                    : `「${words.join(' ')}」に当てはまる記事は見つかりませんでした。別の言葉で探してみてください。`;
+                $('#results').innerHTML = hits.slice(0, 60).map(rowHtml).join('');
+            }
+            let qt;
+            $('#q').addEventListener('focus', () => { loadSearch(); }, { once: true });
+            $('#q').addEventListener('input', () => {
+                clearTimeout(qt);
+                qt = setTimeout(() => {
+                    if ($('#q').value.trim()) { setMode('search'); showResults(); }
+                    else setMode('feed');
+                }, 150);
+            });
+            $('#savedBtn').addEventListener('click', () => {
+                if (mode === 'saved') { setMode($('#q').value.trim() ? 'search' : 'feed'); if (mode === 'search') showResults(); return; }
+                setMode('saved'); showResults();
+            });
 
             let POSTS = [], current = 'すべて';
             try { current = localStorage.getItem('afnjp-cat') || current; } catch { }
@@ -1316,6 +1464,45 @@
                 ).join('');
             }
             renderStats();
+
+            /* ══════ 会社名の濃淡 ══════ */
+            (() => {
+                let st;
+                try { st = JSON.parse($('#stats')?.textContent || 'null'); } catch { }
+                const cats = st?.cats;
+                if (!cats) return;
+                // 並びは固定（会社の大きさ順ではなく、読者がよく探す順）
+                const NAMES = [['Open AI', 'OpenAI'], ['Google', 'Google'], ['Anthropic', 'Anthropic'], ['Microsoft', 'Microsoft'],
+                    ['Meta', 'Meta'], ['Alibaba', 'Alibaba'], ['Space X', 'Space X'], ['その他', 'その他']].filter(([k]) => cats[k]);
+                const newest = Math.max(...Object.values(cats).map(c => Date.parse(c.last) || 0));
+                // 最新の記事からの日数で濃さを決める（今日=100%、3日以内=60%、1週間以内=38%、それより前=20%）
+                const tone = last => {
+                    const d = (newest - Date.parse(last)) / 86400000;
+                    return d < 1 ? 100 : d < 3 ? 60 : d < 7 ? 38 : 20;
+                };
+                let on = null;
+                const groups = $('#groups');
+                function paint() {
+                    $('#names').innerHTML = NAMES.map(([k, label]) =>
+                        `<li><button class="co" type="button" data-cat="${esc(k)}" aria-pressed="${on === k}" style="--k:${tone(cats[k].last)}%">${esc(label)}<sup>${cats[k].n}</sup></button></li>`
+                    ).join('');
+                    groups.classList.toggle('focus', !!on);
+                    $$('.group', groups).forEach(g => g.classList.toggle('hl', !!on && g.querySelector('.grp-h')?.dataset.cat === on));
+                }
+                const latest = NAMES.reduce((a, b) => (Date.parse(cats[b[0]].last) > Date.parse(cats[a[0]].last) ? b : a));
+                $('#namesNote').innerHTML = `最近記事が出た会社ほど濃く表示しています。いま一番新しいのは <b>${esc(latest[1])}</b>。名前を押すと、その会社の部屋が浮かび上がります。数字はこれまでの記事の本数です。`;
+                $('#names').addEventListener('click', e => {
+                    const b = e.target.closest('.co');
+                    if (!b) return;
+                    on = on === b.dataset.cat ? null : b.dataset.cat;
+                    paint();
+                    if (on && matchMedia('(max-width: 1000px)').matches) {
+                        $$('.group', groups).find(g => g.classList.contains('hl'))?.scrollIntoView({ block: 'center', behavior: RM ? 'auto' : 'smooth' });
+                    }
+                });
+                paint();
+                $('#namesCol').hidden = false;
+            })();
 
             /* ══════ 受信機 ══════ */
             const receiver = (() => {
