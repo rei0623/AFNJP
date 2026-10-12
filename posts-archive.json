@@ -1,9 +1,34 @@
 {
-  "generated_at": "2026-10-12T10:42:43.918Z",
+  "generated_at": "2026-10-12T20:16:23.118Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 348,
+  "count": 349,
   "posts": [
+    {
+      "id": "1559217352237654237",
+      "title": "Microsoft、独自AI半導体「Maia 300」発表！2027年からギガワット級のAIインフラ展開へ",
+      "channel": "microsoft",
+      "category": "Microsoft",
+      "date": "2026-10-12T14:53:05.631Z",
+      "excerpt": "Microsoftは2026年10月12日、独自開発のAIアクセラレーター「Azure Maia」シリーズを大規模展開する計画を発表しました。2027年から複数ギガワット規模への拡張を開始し、Microsoft製品・サービスのAI推論を支える中核システムとし…",
+      "lead": "Microsoftは2026年10月12日、独自開発のAIアクセラレーター「Azure Maia」シリーズを大規模展開する計画を発表しました。2027年から複数ギガワット規模への拡張を開始し、Microsoft製品・サービスのAI推論を支える中核システムとして採用する方針です。",
+      "headings": [
+        "Maia 300、GPU中心のAIインフラに挑む",
+        "技術的な核心はデータ移動の最適化",
+        "Maia 200はすでに実運用へ",
+        "今後の展望"
+      ],
+      "source_url": "https://blogs.microsoft.com/blog/2026/10/12/microsoft-to-expand-azure-maia-system-to-multi-gigawatt-deployments/",
+      "source_urls": [
+        "https://blogs.microsoft.com/blog/2026/10/12/microsoft-to-expand-azure-maia-system-to-multi-gigawatt-deployments/"
+      ],
+      "source_label": "blogs.microsoft.com",
+      "cover": "assets/posts/1559217352237654237.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1432720743279497367/threads/1559217352237654237",
+      "first_seen": "2026-10-12T14:53:05.631Z",
+      "kind": "model",
+      "kind_confidence": 0.58
+    },
     {
       "id": "1558991114944389140",
       "title": "Sakana AI、AIが自ら進化する「MASS」を公開！複数エージェントの協調でモデルを再帰的に改善",

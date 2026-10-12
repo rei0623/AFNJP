@@ -1,8 +1,33 @@
 {
-  "generated_at": "2026-10-12T10:42:43.925Z",
+  "generated_at": "2026-10-12T20:16:23.127Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1559217352237654237",
+      "title": "Microsoft、独自AI半導体「Maia 300」発表！2027年からギガワット級のAIインフラ展開へ",
+      "channel": "microsoft",
+      "category": "Microsoft",
+      "date": "2026-10-12T14:53:05.631Z",
+      "excerpt": "Microsoftは2026年10月12日、独自開発のAIアクセラレーター「Azure Maia」シリーズを大規模展開する計画を発表しました。2027年から複数ギガワット規模への拡張を開始し、Microsoft製品・サービスのAI推論を支える中核システムとし…",
+      "lead": "Microsoftは2026年10月12日、独自開発のAIアクセラレーター「Azure Maia」シリーズを大規模展開する計画を発表しました。2027年から複数ギガワット規模への拡張を開始し、Microsoft製品・サービスのAI推論を支える中核システムとして採用する方針です。",
+      "headings": [
+        "Maia 300、GPU中心のAIインフラに挑む",
+        "技術的な核心はデータ移動の最適化",
+        "Maia 200はすでに実運用へ",
+        "今後の展望"
+      ],
+      "source_url": "https://blogs.microsoft.com/blog/2026/10/12/microsoft-to-expand-azure-maia-system-to-multi-gigawatt-deployments/",
+      "source_urls": [
+        "https://blogs.microsoft.com/blog/2026/10/12/microsoft-to-expand-azure-maia-system-to-multi-gigawatt-deployments/"
+      ],
+      "source_label": "blogs.microsoft.com",
+      "cover": "assets/posts/1559217352237654237.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1432720743279497367/threads/1559217352237654237",
+      "first_seen": "2026-10-12T14:53:05.631Z",
+      "kind": "model",
+      "kind_confidence": 0.58
+    },
     {
       "id": "1558991114944389140",
       "title": "Sakana AI、AIが自ら進化する「MASS」を公開！複数エージェントの協調でモデルを再帰的に改善",
@@ -287,32 +312,6 @@
       "first_seen": "2026-10-08T20:54:02.048Z",
       "kind": "tool",
       "kind_confidence": 1
-    },
-    {
-      "id": "1557858509104750602",
-      "title": "Anthropicが「Cyber Mission」始動、Claudeで重要インフラとオープンソースの防御を強化",
-      "channel": "anthropic",
-      "category": "Anthropic",
-      "date": "2026-10-08T20:53:32.182Z",
-      "excerpt": "Anthropicは2026年10月8日、AIを活用して社会基盤のサイバーセキュリティを強化する長期構想「Anthropic Cyber Mission」を発表しました。電力・水道・交通などの重要インフラと、世界中のソフトウェアを支えるオープンソースの保護を…",
-      "lead": "Anthropicは2026年10月8日、AIを活用して社会基盤のサイバーセキュリティを強化する長期構想「Anthropic Cyber Mission」を発表しました。電力・水道・交通などの重要インフラと、世界中のソフトウェアを支えるオープンソースの保護を重点領域とし、最先端AIモデル「Claude」、専門エンジニア、脅威研究、資金を投入します。",
-      "headings": [
-        "重要インフラを守る新プログラム",
-        "無料の「OSS Scanner」で脆弱性を継続検出",
-        "AI時代の課題は「発見」から「修正」へ",
-        "企業とエンジニアへの影響",
-        "今後の展望"
-      ],
-      "source_url": "https://www.anthropic.com/news/anthropic-cyber-mission",
-      "source_urls": [
-        "https://www.anthropic.com/news/anthropic-cyber-mission"
-      ],
-      "source_label": "anthropic.com",
-      "cover": "assets/posts/1557858509104750602.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1557858509104750602",
-      "first_seen": "2026-10-08T20:53:32.182Z",
-      "kind": "business",
-      "kind_confidence": 0.86
     }
   ]
 }
