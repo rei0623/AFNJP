@@ -54,6 +54,8 @@ const ARCHIVE_JSON = resolve(ROOT, 'posts-archive.json');
 const CHANNELS_JSON = resolve(ROOT, 'channels.json');
 const FEED = resolve(ROOT, 'feed.xml');
 const SITEMAP = resolve(ROOT, 'sitemap.xml');
+/** トップの検索と「保存済み」が読む、全記事の見出しだけの一覧（本文は入れない） */
+const SEARCH = resolve(ROOT, 'search.json');
 const ARCHIVE_HTML = resolve(ROOT, 'archive.html');
 const POSTS_DIR = resolve(ROOT, 'posts');
 
@@ -342,7 +344,7 @@ function groupHtml(group, articles) {
         : `${names.length} ch`;
 
     const html = `<div class="group">
-    <p class="grp-h"><b>${escHtml(group.category === 'Open AI' ? 'OpenAI' : group.category)}</b><span>${count}</span></p>
+    <p class="grp-h" data-cat="${escHtml(group.category)}"><b>${escHtml(group.category === 'Open AI' ? 'OpenAI' : group.category)}</b><span>${count}</span></p>
     <div class="chs">
 ${chips}
     </div>
@@ -360,6 +362,7 @@ function statsOf(posts) {
     const days = {};
     const hours = new Array(24).fill(0);
     const domains = {};
+    const cats = {};
     for (const p of posts) {
         const t = new Date(p.date);
         if (Number.isNaN(t.getTime())) continue;
@@ -369,12 +372,19 @@ function statsOf(posts) {
         hours[j.getUTCHours()]++;
         const d = String(p.source_label || '').trim();
         if (d) domains[d] = (domains[d] || 0) + 1;
+        // 会社ごとの本数と、いちばん新しい記事の日時（トップの「会社名の濃淡」に使う）
+        if (p.category) {
+            const c = (cats[p.category] ||= { n: 0, last: null });
+            c.n++;
+            if (!c.last || t > new Date(c.last)) c.last = t.toISOString();
+        }
     }
     return {
         total: posts.length,
         days,
         hours,
         domains: Object.entries(domains).sort((a, b) => b[1] - a[1]).slice(0, 6),
+        cats,
     };
 }
 
@@ -1054,6 +1064,28 @@ for (const [label, xml] of [['feed.xml', feedXml], ['sitemap.xml', sitemapXml]])
 if (!feedXml.trimEnd().endsWith('</rss>')) problems.push('feed.xml が </rss> で終わっていません');
 if (!sitemapXml.trimEnd().endsWith('</urlset>')) problems.push('sitemap.xml が </urlset> で終わっていません');
 
+/* ── search.json ──
+   posts-archive.json（400KB超）をそのままブラウザに渡さないための、検索に要る項目だけの一覧。
+   記事ページがあるもの（ID が検証を通るもの）だけを入れる。 */
+const searchPosts = archived.map(p => ({
+    id: safeId(p.id),
+    t: stripUnsafeChars(p.title || ''),
+    ch: stripUnsafeChars(p.channel || ''),
+    cat: stripUnsafeChars(p.category || ''),
+    d: p.date,
+    k: p.kind || null,
+    src: stripUnsafeChars(p.source_label || ''),
+})).filter(p => p.id && p.t);
+const searchJson = JSON.stringify({ generated_at: latestIso, posts: searchPosts }) + '\n';
+try {
+    const back = JSON.parse(searchJson);
+    if (back.posts.length !== archived.length) {
+        problems.push(`search.json の記事数が ${back.posts.length} 件で、期待の ${archived.length} 件と一致しません`);
+    }
+} catch {
+    problems.push('search.json が JSON として読めません');
+}
+
 if (problems.length) {
     console.error('✗ 生成結果の検証に失敗しました。ファイルは変更しません。');
     for (const p of problems) console.error(`   - ${p}`);
@@ -1073,6 +1105,7 @@ for (const [path, content, label] of [
     [FEED, feedXml, 'feed.xml'],
     [SITEMAP, sitemapXml, 'sitemap.xml'],
     [ARCHIVE_HTML, archivePage, 'archive.html'],
+    [SEARCH, searchJson, 'search.json'],
 ]) {
     const current = await readFile(path, 'utf8').catch(() => null);
     if (current === content) continue;

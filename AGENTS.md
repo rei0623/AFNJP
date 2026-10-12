@@ -34,7 +34,7 @@ Worker が止まったときの予備として残してある。cron の式は `
 
 ```text
 posts.json  posts-archive.json  channels.json  assets/posts/
-posts/*.html  archive.html  feed.xml  sitemap.xml
+posts/*.html  archive.html  feed.xml  sitemap.xml  search.json
 .x-drafted.json  .x-posted.json  .push-sent.json
 ```
 
