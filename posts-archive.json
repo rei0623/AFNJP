@@ -1,9 +1,61 @@
 {
-  "generated_at": "2026-10-13T09:22:18.817Z",
+  "generated_at": "2026-10-13T17:34:48.682Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 357,
+  "count": 359,
   "posts": [
+    {
+      "id": "1559511034648207360",
+      "title": "xAI、Grok・Cursor・Xを統合した新料金体系を公開！月額8ドルから200ドルまで7段階で展開",
+      "channel": "space-x",
+      "category": "Space X",
+      "date": "2026-10-13T10:20:04.974Z",
+      "excerpt": "xAIの公式料金ページで、生成AI「Grok」、AI開発環境「Cursor」、SNS「X」の機能を横断的に利用できるサブスクリプション体系が公開されています。個人向けには無料から月額200ドルまでのプランを用意し、AIエージェント、画像・動画生成、コーディン…",
+      "lead": "xAIの公式料金ページで、生成AI「Grok」、AI開発環境「Cursor」、SNS「X」の機能を横断的に利用できるサブスクリプション体系が公開されています。個人向けには無料から月額200ドルまでのプランを用意し、AIエージェント、画像・動画生成、コーディング支援、SNS機能を共通の契約体系にまとめています。",
+      "headings": [
+        "7つの料金プランと利用枠",
+        "最大の特徴はAI利用枠の共通化",
+        "開発者向け機能も統合",
+        "企業向けにはセキュリティと管理機能を提供",
+        "今後の展望"
+      ],
+      "source_url": "https://x.ai/pricing",
+      "source_urls": [
+        "https://x.ai/pricing"
+      ],
+      "source_label": "x.ai",
+      "cover": "assets/posts/1559511034648207360.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1468059501528744140/threads/1559511034648207360",
+      "first_seen": "2026-10-13T10:20:04.974Z",
+      "kind": "feature",
+      "kind_confidence": 0.89
+    },
+    {
+      "id": "1559510904771575838",
+      "title": "ソフトバンク系SB Intuitions、国産AI「Sarashina」6モデルを無料公開！APIとチャット機能を提供開始",
+      "channel": "日本国内",
+      "category": "日本国内",
+      "date": "2026-10-13T10:19:34.009Z",
+      "excerpt": "ソフトバンク子会社のSB Intuitionsは2026年10月13日、国産生成AI「Sarashina」を利用できる「Sarashinaサービス」の無償ベータ版を公開しました。文章生成、検索、翻訳、安全性判定などに対応する6種類のAIモデルをAPI経由で利…",
+      "lead": "ソフトバンク子会社のSB Intuitionsは2026年10月13日、国産生成AI「Sarashina」を利用できる「Sarashinaサービス」の無償ベータ版を公開しました。文章生成、検索、翻訳、安全性判定などに対応する6種類のAIモデルをAPI経由で利用できるほか、ブラウザー上でAIとの対話や翻訳を体験できます。",
+      "headings": [
+        "6種類のAIモデルをAPIで一般公開",
+        "RAGや企業向けAI開発への応用",
+        "Googleアカウントだけで無料利用可能",
+        "国産AIの実用化に向けた重要な一歩",
+        "今後の展望"
+      ],
+      "source_url": "https://www.sbintuitions.co.jp/news/press/20261013_01/",
+      "source_urls": [
+        "https://www.sbintuitions.co.jp/news/press/20261013_01/"
+      ],
+      "source_label": "sbintuitions.co.jp",
+      "cover": "assets/posts/1559510904771575838.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417536105930166282/threads/1559510904771575838",
+      "first_seen": "2026-10-13T10:19:34.009Z",
+      "kind": "model",
+      "kind_confidence": 0.68
+    },
     {
       "id": "1559368559480676453",
       "title": "Google「Nano Banana 3 Pro」開発のリーク情報、Gemini 4 Proベースで年内登場の可能性",
