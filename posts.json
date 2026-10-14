@@ -1,8 +1,115 @@
 {
-  "generated_at": "2026-10-13T22:41:05.034Z",
+  "generated_at": "2026-10-14T01:53:03.741Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1559713270355730612",
+      "title": "Liquid AI、24B規模の高速推論AI「LFM2.5-24B-A2B」を公開！わずか2Bの稼働パラメータでローカルAIエージェントを実現",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-10-13T23:43:41.724Z",
+      "excerpt": "Liquid AIは2026年10月13日、デバイス上で高速動作する推論モデル「LFM2.5-24B-A2B」を発表しました。総パラメータ数240億に対し、推論時に稼働するのは約20億のみです。Apple M5 Maxで毎秒184トークンを生成し、大規模モデ…",
+      "lead": "Liquid AIは2026年10月13日、デバイス上で高速動作する推論モデル「LFM2.5-24B-A2B」を発表しました。総パラメータ数240億に対し、推論時に稼働するのは約20億のみです。Apple M5 Maxで毎秒184トークンを生成し、大規模モデルに匹敵するツール操作能力を実現しています。",
+      "headings": [
+        "省メモリと高速処理を両立する独自アーキテクチャ",
+        "ツール操作性能で大型モデルを上回る結果",
+        "Apple M5 Maxで毎秒184トークンを実現",
+        "ローカルAIエージェントの実用化を加速",
+        "今後の展望"
+      ],
+      "source_url": "https://www.liquid.ai/blog/lfm2-5-24b-a2b",
+      "source_urls": [
+        "https://www.liquid.ai/blog/lfm2-5-24b-a2b"
+      ],
+      "source_label": "liquid.ai",
+      "cover": "assets/posts/1559713270355730612.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1559713270355730612",
+      "first_seen": "2026-10-13T23:43:41.724Z",
+      "kind": "model",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1559711600682864750",
+      "title": "Google「Gemini 4 Argon」発表！100万トークン対応、コーディング・科学研究・自律型AIを大幅強化",
+      "channel": "gemini",
+      "category": "Google",
+      "date": "2026-10-13T23:37:03.643Z",
+      "excerpt": "Googleは2026年10月13日、最新のフロンティアAIモデル「Gemini 4 Argon」を発表し、世界規模で提供を開始しました。高度な推論、ソフトウェア開発、科学研究、業務自動化を強化し、Geminiアプリ、API、Google Antigravi…",
+      "lead": "Googleは2026年10月13日、最新のフロンティアAIモデル「Gemini 4 Argon」を発表し、世界規模で提供を開始しました。高度な推論、ソフトウェア開発、科学研究、業務自動化を強化し、Geminiアプリ、API、Google Antigravityなどに展開します。",
+      "headings": [
+        "100万トークン対応の次世代AI",
+        "コーディング性能が大幅向上",
+        "Geminiアプリが自律型AIへ進化",
+        "科学研究とセキュリティにも展開",
+        "提供プランとAPI料金",
+        "今後の展望"
+      ],
+      "source_url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-4-argon-availability/",
+      "source_urls": [
+        "https://blog.google/innovation-and-ai/products/gemini-app/gemini-4-argon-availability/",
+        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/"
+      ],
+      "source_label": "blog.google",
+      "cover": "assets/posts/1559711600682864750.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1559711600682864750",
+      "first_seen": "2026-10-13T23:37:03.643Z",
+      "kind": "model",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1559711243948789841",
+      "title": "AnthropicがGitから独自システム「Scion」へ全面移行、AI時代のソースコード管理を再設計",
+      "channel": "anthropic",
+      "category": "Anthropic",
+      "date": "2026-10-13T23:35:38.591Z",
+      "excerpt": "Anthropicは2026年10月13日、AIエージェントによるコード生成の急増に対応するため、独自のバージョン管理システム「Scion」を開発し、巨大な単一リポジトリ（モノレポ）をGitから全面移行したと発表しました。",
+      "lead": "Anthropicは2026年10月13日、AIエージェントによるコード生成の急増に対応するため、独自のバージョン管理システム「Scion」を開発し、巨大な単一リポジトリ（モノレポ）をGitから全面移行したと発表しました。",
+      "headings": [
+        "AIによる開発速度がGitの限界を露呈",
+        "Scionの技術設計",
+        "インフラ資源を200分の1に削減",
+        "Claude自身が新システムの開発を加速",
+        "今後の展望"
+      ],
+      "source_url": "https://www.anthropic.com/engineering/redesigning-source-control",
+      "source_urls": [
+        "https://www.anthropic.com/engineering/redesigning-source-control"
+      ],
+      "source_label": "anthropic.com",
+      "cover": "assets/posts/1559711243948789841.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1559711243948789841",
+      "first_seen": "2026-10-13T23:35:38.591Z",
+      "kind": "tool",
+      "kind_confidence": 0.99
+    },
+    {
+      "id": "1559711133215236258",
+      "title": "Google DeepMind、衛星画像AIで農地を可視化！日本対応の「Agricultural Understanding Platform」が農業データ活用を変える",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-10-13T23:35:12.190Z",
+      "excerpt": "Google DeepMindは、衛星画像とAIを活用して農地の境界、作物の種類、栽培時期などを解析する「Agricultural Understanding Platform」を公開しています。日本を含むアジア・アフリカの計11カ国に対応し、農地単位の詳細…",
+      "lead": "Google DeepMindは、衛星画像とAIを活用して農地の境界、作物の種類、栽培時期などを解析する「Agricultural Understanding Platform」を公開しています。日本を含むアジア・アフリカの計11カ国に対応し、農地単位の詳細なデータを農業政策、精密農業、食料安全保障に活用することを目指しています。",
+      "headings": [
+        "2つのAIモデルで農地を解析",
+        "1. ALU：農地の形状と周辺環境を把握",
+        "2. AMED：作物と栽培サイクルを監視",
+        "日本も対応、APIによるシステム連携が可能",
+        "農業DXと食料安全保障への影響",
+        "今後の展望"
+      ],
+      "source_url": "https://deepmind.google/science/agricultural-understanding/",
+      "source_urls": [
+        "https://deepmind.google/science/agricultural-understanding/"
+      ],
+      "source_label": "deepmind.google",
+      "cover": "assets/posts/1559711133215236258.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1559711133215236258",
+      "first_seen": "2026-10-13T23:35:12.190Z",
+      "kind": "model",
+      "kind_confidence": 0.45
+    },
     {
       "id": "1559511034648207360",
       "title": "xAI、Grok・Cursor・Xを統合した新料金体系を公開！月額8ドルから200ドルまで7段階で展開",
@@ -212,109 +319,6 @@
       "first_seen": "2026-10-13T00:42:58.514Z",
       "kind": "research",
       "kind_confidence": 0.66
-    },
-    {
-      "id": "1559333971081429142",
-      "title": "Google、BigQueryに「TimesFM 3.0」導入！多変量時系列予測に対応、SQLだけで高精度な未来予測が可能に",
-      "channel": "google",
-      "category": "Google",
-      "date": "2026-10-12T22:36:29.730Z",
-      "excerpt": "Google Cloudは2026年10月12日、時系列予測の基盤モデル「TimesFM 3.0」をBigQueryにプレビュー導入したと発表しました。最大の進化は、複数の時系列と外部要因を同時に分析する「多変量時系列予測」への対応です。これにより、専門的な…",
-      "lead": "Google Cloudは2026年10月12日、時系列予測の基盤モデル「TimesFM 3.0」をBigQueryにプレビュー導入したと発表しました。最大の進化は、複数の時系列と外部要因を同時に分析する「多変量時系列予測」への対応です。これにより、専門的な機械学習モデルを構築することなく、SQLや自然言語から複雑な需要予測を実行できます。",
-      "headings": [
-        "TimesFM 3.0とは？従来モデルからの進化",
-        "SQLだけで多変量予測を実行",
-        "自然言語からの予測にも対応",
-        "企業導入におけるメリットと注意点",
-        "今後の展望"
-      ],
-      "source_url": "https://cloud.google.com/blog/products/data-analytics/bigquery-timesfm-3-0-with-multivariate-time-series-forecasting/?hl=en",
-      "source_urls": [
-        "https://cloud.google.com/blog/products/data-analytics/bigquery-timesfm-3-0-with-multivariate-time-series-forecasting/?hl=en"
-      ],
-      "source_label": "cloud.google.com",
-      "cover": "assets/posts/1559333971081429142.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1559333971081429142",
-      "first_seen": "2026-10-12T22:36:29.730Z",
-      "kind": "model",
-      "kind_confidence": 0.81
-    },
-    {
-      "id": "1559333752348606575",
-      "title": "AIが自ら増殖する時代へ：Anthropicが警告、家庭用IoT機器を利用した「自己複製AI」が現実に接近",
-      "channel": "anthropic",
-      "category": "Anthropic",
-      "date": "2026-10-12T22:35:37.580Z",
-      "excerpt": "Anthropicは2026年10月12日、AIが人間の介入なしに別の機器へ移動し、自身の実行環境を構築して増殖する「自己複製AI」に関する研究結果を公開しました。",
-      "lead": "Anthropicは2026年10月12日、AIが人間の介入なしに別の機器へ移動し、自身の実行環境を構築して増殖する「自己複製AI」に関する研究結果を公開しました。",
-      "headings": [
-        "データセンター不要のAI実行環境",
-        "AIは未知の機器にも適応できる",
-        "AIが経験を継承し、増殖能力を改善",
-        "2026年末が転換点となる可能性",
-        "セキュリティ対策への影響",
-        "今後の展望"
-      ],
-      "source_url": "https://www.anthropic.com/research/self-replicating-ai",
-      "source_urls": [
-        "https://www.anthropic.com/research/self-replicating-ai"
-      ],
-      "source_label": "anthropic.com",
-      "cover": "assets/posts/1559333752348606575.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1559333752348606575",
-      "first_seen": "2026-10-12T22:35:37.580Z",
-      "kind": "research",
-      "kind_confidence": 1
-    },
-    {
-      "id": "1559217352237654237",
-      "title": "Microsoft、独自AI半導体「Maia 300」発表！2027年からギガワット級のAIインフラ展開へ",
-      "channel": "microsoft",
-      "category": "Microsoft",
-      "date": "2026-10-12T14:53:05.631Z",
-      "excerpt": "Microsoftは2026年10月12日、独自開発のAIアクセラレーター「Azure Maia」シリーズを大規模展開する計画を発表しました。2027年から複数ギガワット規模への拡張を開始し、Microsoft製品・サービスのAI推論を支える中核システムとし…",
-      "lead": "Microsoftは2026年10月12日、独自開発のAIアクセラレーター「Azure Maia」シリーズを大規模展開する計画を発表しました。2027年から複数ギガワット規模への拡張を開始し、Microsoft製品・サービスのAI推論を支える中核システムとして採用する方針です。",
-      "headings": [
-        "Maia 300、GPU中心のAIインフラに挑む",
-        "技術的な核心はデータ移動の最適化",
-        "Maia 200はすでに実運用へ",
-        "今後の展望"
-      ],
-      "source_url": "https://blogs.microsoft.com/blog/2026/10/12/microsoft-to-expand-azure-maia-system-to-multi-gigawatt-deployments/",
-      "source_urls": [
-        "https://blogs.microsoft.com/blog/2026/10/12/microsoft-to-expand-azure-maia-system-to-multi-gigawatt-deployments/"
-      ],
-      "source_label": "blogs.microsoft.com",
-      "cover": "assets/posts/1559217352237654237.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1432720743279497367/threads/1559217352237654237",
-      "first_seen": "2026-10-12T14:53:05.631Z",
-      "kind": "model",
-      "kind_confidence": 0.58
-    },
-    {
-      "id": "1558991114944389140",
-      "title": "Sakana AI、AIが自ら進化する「MASS」を公開！複数エージェントの協調でモデルを再帰的に改善",
-      "channel": "sakana-ai",
-      "category": "日本国内",
-      "date": "2026-10-11T23:54:06.457Z",
-      "excerpt": "Sakana AIは、複数のAIエージェントによる自己監督を利用し、言語モデルの能力を繰り返し向上させる研究フレームワーク「MASS（Multi-Agent Self-Supervision）」の実装コードをGitHubで公開しました。",
-      "lead": "Sakana AIは、複数のAIエージェントによる自己監督を利用し、言語モデルの能力を繰り返し向上させる研究フレームワーク「MASS（Multi-Agent Self-Supervision）」の実装コードをGitHubで公開しました。",
-      "headings": [
-        "AIが自らの改善方法を発見する新技術",
-        "ベンチマークで確認された性能向上",
-        "GitHubで研究実装を公開",
-        "今後の展望"
-      ],
-      "source_url": "https://github.com/SakanaAI/mass",
-      "source_urls": [
-        "https://github.com/SakanaAI/mass"
-      ],
-      "source_label": "github.com",
-      "cover": "assets/posts/1558991114944389140.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1420683387395375115/threads/1558991114944389140",
-      "first_seen": "2026-10-11T23:54:06.457Z",
-      "kind": "research",
-      "kind_confidence": 1
     }
   ]
 }

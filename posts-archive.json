@@ -1,9 +1,116 @@
 {
-  "generated_at": "2026-10-13T22:41:05.031Z",
+  "generated_at": "2026-10-14T01:53:03.738Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 359,
+  "count": 363,
   "posts": [
+    {
+      "id": "1559713270355730612",
+      "title": "Liquid AI、24B規模の高速推論AI「LFM2.5-24B-A2B」を公開！わずか2Bの稼働パラメータでローカルAIエージェントを実現",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-10-13T23:43:41.724Z",
+      "excerpt": "Liquid AIは2026年10月13日、デバイス上で高速動作する推論モデル「LFM2.5-24B-A2B」を発表しました。総パラメータ数240億に対し、推論時に稼働するのは約20億のみです。Apple M5 Maxで毎秒184トークンを生成し、大規模モデ…",
+      "lead": "Liquid AIは2026年10月13日、デバイス上で高速動作する推論モデル「LFM2.5-24B-A2B」を発表しました。総パラメータ数240億に対し、推論時に稼働するのは約20億のみです。Apple M5 Maxで毎秒184トークンを生成し、大規模モデルに匹敵するツール操作能力を実現しています。",
+      "headings": [
+        "省メモリと高速処理を両立する独自アーキテクチャ",
+        "ツール操作性能で大型モデルを上回る結果",
+        "Apple M5 Maxで毎秒184トークンを実現",
+        "ローカルAIエージェントの実用化を加速",
+        "今後の展望"
+      ],
+      "source_url": "https://www.liquid.ai/blog/lfm2-5-24b-a2b",
+      "source_urls": [
+        "https://www.liquid.ai/blog/lfm2-5-24b-a2b"
+      ],
+      "source_label": "liquid.ai",
+      "cover": "assets/posts/1559713270355730612.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1559713270355730612",
+      "first_seen": "2026-10-13T23:43:41.724Z",
+      "kind": "model",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1559711600682864750",
+      "title": "Google「Gemini 4 Argon」発表！100万トークン対応、コーディング・科学研究・自律型AIを大幅強化",
+      "channel": "gemini",
+      "category": "Google",
+      "date": "2026-10-13T23:37:03.643Z",
+      "excerpt": "Googleは2026年10月13日、最新のフロンティアAIモデル「Gemini 4 Argon」を発表し、世界規模で提供を開始しました。高度な推論、ソフトウェア開発、科学研究、業務自動化を強化し、Geminiアプリ、API、Google Antigravi…",
+      "lead": "Googleは2026年10月13日、最新のフロンティアAIモデル「Gemini 4 Argon」を発表し、世界規模で提供を開始しました。高度な推論、ソフトウェア開発、科学研究、業務自動化を強化し、Geminiアプリ、API、Google Antigravityなどに展開します。",
+      "headings": [
+        "100万トークン対応の次世代AI",
+        "コーディング性能が大幅向上",
+        "Geminiアプリが自律型AIへ進化",
+        "科学研究とセキュリティにも展開",
+        "提供プランとAPI料金",
+        "今後の展望"
+      ],
+      "source_url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-4-argon-availability/",
+      "source_urls": [
+        "https://blog.google/innovation-and-ai/products/gemini-app/gemini-4-argon-availability/",
+        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/"
+      ],
+      "source_label": "blog.google",
+      "cover": "assets/posts/1559711600682864750.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1559711600682864750",
+      "first_seen": "2026-10-13T23:37:03.643Z",
+      "kind": "model",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1559711243948789841",
+      "title": "AnthropicがGitから独自システム「Scion」へ全面移行、AI時代のソースコード管理を再設計",
+      "channel": "anthropic",
+      "category": "Anthropic",
+      "date": "2026-10-13T23:35:38.591Z",
+      "excerpt": "Anthropicは2026年10月13日、AIエージェントによるコード生成の急増に対応するため、独自のバージョン管理システム「Scion」を開発し、巨大な単一リポジトリ（モノレポ）をGitから全面移行したと発表しました。",
+      "lead": "Anthropicは2026年10月13日、AIエージェントによるコード生成の急増に対応するため、独自のバージョン管理システム「Scion」を開発し、巨大な単一リポジトリ（モノレポ）をGitから全面移行したと発表しました。",
+      "headings": [
+        "AIによる開発速度がGitの限界を露呈",
+        "Scionの技術設計",
+        "インフラ資源を200分の1に削減",
+        "Claude自身が新システムの開発を加速",
+        "今後の展望"
+      ],
+      "source_url": "https://www.anthropic.com/engineering/redesigning-source-control",
+      "source_urls": [
+        "https://www.anthropic.com/engineering/redesigning-source-control"
+      ],
+      "source_label": "anthropic.com",
+      "cover": "assets/posts/1559711243948789841.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1559711243948789841",
+      "first_seen": "2026-10-13T23:35:38.591Z",
+      "kind": "tool",
+      "kind_confidence": 0.99
+    },
+    {
+      "id": "1559711133215236258",
+      "title": "Google DeepMind、衛星画像AIで農地を可視化！日本対応の「Agricultural Understanding Platform」が農業データ活用を変える",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-10-13T23:35:12.190Z",
+      "excerpt": "Google DeepMindは、衛星画像とAIを活用して農地の境界、作物の種類、栽培時期などを解析する「Agricultural Understanding Platform」を公開しています。日本を含むアジア・アフリカの計11カ国に対応し、農地単位の詳細…",
+      "lead": "Google DeepMindは、衛星画像とAIを活用して農地の境界、作物の種類、栽培時期などを解析する「Agricultural Understanding Platform」を公開しています。日本を含むアジア・アフリカの計11カ国に対応し、農地単位の詳細なデータを農業政策、精密農業、食料安全保障に活用することを目指しています。",
+      "headings": [
+        "2つのAIモデルで農地を解析",
+        "1. ALU：農地の形状と周辺環境を把握",
+        "2. AMED：作物と栽培サイクルを監視",
+        "日本も対応、APIによるシステム連携が可能",
+        "農業DXと食料安全保障への影響",
+        "今後の展望"
+      ],
+      "source_url": "https://deepmind.google/science/agricultural-understanding/",
+      "source_urls": [
+        "https://deepmind.google/science/agricultural-understanding/"
+      ],
+      "source_label": "deepmind.google",
+      "cover": "assets/posts/1559711133215236258.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1559711133215236258",
+      "first_seen": "2026-10-13T23:35:12.190Z",
+      "kind": "model",
+      "kind_confidence": 0.45
+    },
     {
       "id": "1559511034648207360",
       "title": "xAI、Grok・Cursor・Xを統合した新料金体系を公開！月額8ドルから200ドルまで7段階で展開",
