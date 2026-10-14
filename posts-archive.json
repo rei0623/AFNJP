@@ -1,9 +1,114 @@
 {
-  "generated_at": "2026-10-14T13:40:32.095Z",
+  "generated_at": "2026-10-14T18:35:14.428Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 363,
+  "count": 367,
   "posts": [
+    {
+      "id": "1559938984887590952",
+      "title": "Google PlayがAIで大進化！誰でもアプリ開発、Gemini連携、ゲーム推薦機能を発表",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-10-14T14:40:36.262Z",
+      "excerpt": "Googleは2026年10月13日、Google Playの大規模アップデートを発表しました。最大の目玉は、AIを使って誰でもAndroidアプリを作成し、開発者登録なしで自分の端末から実行できる新機能です。",
+      "lead": "Googleは2026年10月13日、Google Playの大規模アップデートを発表しました。最大の目玉は、AIを使って誰でもAndroidアプリを作成し、開発者登録なしで自分の端末から実行できる新機能です。",
+      "headings": [
+        "AIでアプリを自作、開発者アカウント不要に",
+        "GeminiとGoogle Playが連携",
+        "「Gamer DNA」でゲーム推薦を個人最適化",
+        "ゲーム内交流とPC対応も強化",
+        "対応デバイスと安全性を拡大"
+      ],
+      "source_url": "https://blog.google/products-and-platforms/platforms/google-play/google-play-updates-october-2026/?linkId=64108675",
+      "source_urls": [
+        "https://blog.google/products-and-platforms/platforms/google-play/google-play-updates-october-2026/?linkId=64108675"
+      ],
+      "source_label": "blog.google",
+      "cover": "assets/posts/1559938984887590952.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1559938984887590952",
+      "first_seen": "2026-10-14T14:40:36.262Z",
+      "kind": "feature",
+      "kind_confidence": 0.99
+    },
+    {
+      "id": "1559936775147880539",
+      "title": "EUでAIエージェント活用が急拡大、OpenAI調査で企業間・国家間の格差が浮き彫りに",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-10-14T14:31:49.419Z",
+      "excerpt": "OpenAIは2026年10月14日、欧州連合（EU）におけるAIエージェントの企業利用に関する最新調査を発表しました。EU企業では、AIに質問する従来型の利用から、複数の工程を自律的に処理する「エージェント型AI」への移行が進んでいます。一方、国や企業によ…",
+      "lead": "OpenAIは2026年10月14日、欧州連合（EU）におけるAIエージェントの企業利用に関する最新調査を発表しました。EU企業では、AIに質問する従来型の利用から、複数の工程を自律的に処理する「エージェント型AI」への移行が進んでいます。一方、国や企業によって活用度に大きな差があり、生産性向上に向けた課題も明らかになりました。",
+      "headings": [
+        "AI利用の半分以上がエージェント型に",
+        "中小企業の利用者数は8倍以上に",
+        "国別の活用格差は最大63ポイント",
+        "EU先進企業も世界のトップ企業には及ばず",
+        "企業のAI戦略に求められる変化",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic/",
+      "source_urls": [
+        "https://openai.com/index/the-eus-next-chapter-in-ai-is-agentic/"
+      ],
+      "source_label": "openai.com",
+      "cover": "assets/posts/1559936775147880539.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1559936775147880539",
+      "first_seen": "2026-10-14T14:31:49.419Z",
+      "kind": "research",
+      "kind_confidence": 0.46
+    },
+    {
+      "id": "1559936683649278043",
+      "title": "Anthropicがシンガポールに新拠点開設、政府とAI安全性で戦略的提携",
+      "channel": "anthropic",
+      "category": "Anthropic",
+      "date": "2026-10-14T14:31:27.604Z",
+      "excerpt": "米Anthropicは2026年10月14日、シンガポールに新オフィスを開設し、同国のデジタル開発情報省と覚書（MOU）を締結したと発表しました。アジア太平洋地域で5番目となる拠点を通じ、AIモデル「Claude」の企業・行政導入を加速するとともに、AI安全…",
+      "lead": "米Anthropicは2026年10月14日、シンガポールに新オフィスを開設し、同国のデジタル開発情報省と覚書（MOU）を締結したと発表しました。アジア太平洋地域で5番目となる拠点を通じ、AIモデル「Claude」の企業・行政導入を加速するとともに、AI安全性、セキュリティ、評価技術に関する政府との協力を強化します。",
+      "headings": [
+        "政府と連携し、AIの安全性と評価基盤を強化",
+        "シンガポールはClaude利用率で世界2位",
+        "Amazon Bedrockの域内推論が企業導入を後押し",
+        "開発者エコシステムにも投資",
+        "今後の展望"
+      ],
+      "source_url": "https://www.anthropic.com/news/singapore-office-opening",
+      "source_urls": [
+        "https://www.anthropic.com/news/singapore-office-opening"
+      ],
+      "source_label": "anthropic.com",
+      "cover": "assets/posts/1559936683649278043.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1559936683649278043",
+      "first_seen": "2026-10-14T14:31:27.604Z",
+      "kind": "business",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1559936582067294320",
+      "title": "Google DeepMind、シンガポール政府と詐欺検知AIを開発！Gemmaを端末内で動作させ、プライバシーを保護",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-10-14T14:31:03.385Z",
+      "excerpt": "2026年10月14日、Google DeepMindはシンガポール政府技術庁（GovTech Singapore）と共同で、スマートフォン上で詐欺を検知するAIモデルを開発したと発表しました。",
+      "lead": "2026年10月14日、Google DeepMindはシンガポール政府技術庁（GovTech Singapore）と共同で、スマートフォン上で詐欺を検知するAIモデルを開発したと発表しました。",
+      "headings": [
+        "深刻化する詐欺被害とAIによる対策",
+        "技術の核心：2段階AIパイプライン",
+        "プライバシーを重視した設計",
+        "実用化に向けた課題",
+        "今後の展望"
+      ],
+      "source_url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
+      "source_urls": [
+        "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/"
+      ],
+      "source_label": "deepmind.google",
+      "cover": "assets/posts/1559936582067294320.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1559936582067294320",
+      "first_seen": "2026-10-14T14:31:03.385Z",
+      "kind": "model",
+      "kind_confidence": 0.58
+    },
     {
       "id": "1559713270355730612",
       "title": "Liquid AI、24B規模の高速推論AI「LFM2.5-24B-A2B」を公開！わずか2Bの稼働パラメータでローカルAIエージェントを実現",

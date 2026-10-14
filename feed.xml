@@ -5,8 +5,40 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 13 Oct 2026 23:43:41 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 14:40:36 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Google PlayがAIで大進化！誰でもアプリ開発、Gemini連携、ゲーム推薦機能を発表</title>
+      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1559938984887590952</link>
+      <guid isPermaLink="false">afnjp-1559938984887590952</guid>
+      <pubDate>Wed, 14 Oct 2026 14:40:36 GMT</pubDate>
+      <category>google</category>
+      <description>Googleは2026年10月13日、Google Playの大規模アップデートを発表しました。最大の目玉は、AIを使って誰でもAndroidアプリを作成し、開発者登録なしで自分の端末から実行できる新機能です。</description>
+    </item>
+    <item>
+      <title>EUでAIエージェント活用が急拡大、OpenAI調査で企業間・国家間の格差が浮き彫りに</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1559936775147880539</link>
+      <guid isPermaLink="false">afnjp-1559936775147880539</guid>
+      <pubDate>Wed, 14 Oct 2026 14:31:49 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIは2026年10月14日、欧州連合（EU）におけるAIエージェントの企業利用に関する最新調査を発表しました。EU企業では、AIに質問する従来型の利用から、複数の工程を自律的に処理する「エージェント型AI」への移行が進んでいます。一方、国や企業によ…</description>
+    </item>
+    <item>
+      <title>Anthropicがシンガポールに新拠点開設、政府とAI安全性で戦略的提携</title>
+      <link>https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1559936683649278043</link>
+      <guid isPermaLink="false">afnjp-1559936683649278043</guid>
+      <pubDate>Wed, 14 Oct 2026 14:31:27 GMT</pubDate>
+      <category>anthropic</category>
+      <description>米Anthropicは2026年10月14日、シンガポールに新オフィスを開設し、同国のデジタル開発情報省と覚書（MOU）を締結したと発表しました。アジア太平洋地域で5番目となる拠点を通じ、AIモデル「Claude」の企業・行政導入を加速するとともに、AI安全…</description>
+    </item>
+    <item>
+      <title>Google DeepMind、シンガポール政府と詐欺検知AIを開発！Gemmaを端末内で動作させ、プライバシーを保護</title>
+      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1559936582067294320</link>
+      <guid isPermaLink="false">afnjp-1559936582067294320</guid>
+      <pubDate>Wed, 14 Oct 2026 14:31:03 GMT</pubDate>
+      <category>google</category>
+      <description>2026年10月14日、Google DeepMindはシンガポール政府技術庁（GovTech Singapore）と共同で、スマートフォン上で詐欺を検知するAIモデルを開発したと発表しました。</description>
+    </item>
     <item>
       <title>Liquid AI、24B規模の高速推論AI「LFM2.5-24B-A2B」を公開！わずか2Bの稼働パラメータでローカルAIエージェントを実現</title>
       <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1559713270355730612</link>
@@ -70,38 +102,6 @@
       <pubDate>Tue, 13 Oct 2026 00:52:07 GMT</pubDate>
       <category>glm</category>
       <description>2026年10月12日、Z.aiは法律業務に特化したAIモデル「GLM-Legal」を発表しました。軽量モデル「GLM-5.3-Flash」を基盤に、法律知識の学習とエージェント強化学習を組み合わせ、契約審査、証拠分析、法令遵守などの複雑な専門業務を支援しま…</description>
-    </item>
-    <item>
-      <title>Meta、余剰AI推論能力を広告推薦に活用する新技術を公開</title>
-      <link>https://discord.com/channels/1415350002255007784/1441473829951111330/threads/1559366205293199380</link>
-      <guid isPermaLink="false">afnjp-1559366205293199380</guid>
-      <pubDate>Tue, 13 Oct 2026 00:44:34 GMT</pubDate>
-      <category>meta</category>
-      <description>Metaは2026年10月12日、AI推論基盤で発生する未使用の計算能力を活用し、広告推薦の品質を高めるシステムを公開しました。追加の計算資源を調達せず、既存インフラの余剰能力を広告ランキングの高度化に転換する技術です。</description>
-    </item>
-    <item>
-      <title>Meta、最新AI「Muse Wonder」発表！記憶と自律実行を備えた次世代AIエージェント</title>
-      <link>https://discord.com/channels/1415350002255007784/1441473829951111330/threads/1559366109688373330</link>
-      <guid isPermaLink="false">afnjp-1559366109688373330</guid>
-      <pubDate>Tue, 13 Oct 2026 00:44:12 GMT</pubDate>
-      <category>meta</category>
-      <description>Metaは2026年10月12日、新たなフロンティアAIモデル「Muse Wonder」と「Muse Wonder Full」を発表しました。法律、金融、医療などの専門領域からソフトウェア開発まで対応し、長期記憶と継続的な問題解決能力を統合したAIエージェン…</description>
-    </item>
-    <item>
-      <title>Meta、AIネットワークを全面刷新！102.4Tbps液冷スイッチとオープン技術を発表</title>
-      <link>https://discord.com/channels/1415350002255007784/1441473829951111330/threads/1559366006936313877</link>
-      <guid isPermaLink="false">afnjp-1559366006936313877</guid>
-      <pubDate>Tue, 13 Oct 2026 00:43:47 GMT</pubDate>
-      <category>meta</category>
-      <description>Metaは2026年10月12日、Open Compute Project（OCP）Global Summit 2026に向け、次世代AIデータセンターを支えるネットワーク技術を発表しました。</description>
-    </item>
-    <item>
-      <title>Anthropic、AIモデルの蒸留攻撃を最大99％削減する新防御技術を発表</title>
-      <link>https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1559365800748650596</link>
-      <guid isPermaLink="false">afnjp-1559365800748650596</guid>
-      <pubDate>Tue, 13 Oct 2026 00:42:58 GMT</pubDate>
-      <category>anthropic</category>
-      <description>Anthropicは2026年10月12日、AIモデル「Claude」の能力を不正に複製する「蒸留攻撃」への新たな防御技術を発表しました。初期の観測では、攻撃者が取得できる推論データ量を約90〜99％削減したと報告しています。</description>
     </item>
   </channel>
 </rss>
