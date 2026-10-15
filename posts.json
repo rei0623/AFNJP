@@ -1,8 +1,34 @@
 {
-  "generated_at": "2026-10-14T22:16:37.291Z",
+  "generated_at": "2026-10-15T00:32:47.970Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1560087183623454797",
+      "title": "Builder.io、AIエージェントとUIを統合する「Agent-Native」を発表！アプリ開発の新たな基盤へ",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-10-15T00:29:29.594Z",
+      "excerpt": "Builder.ioは2026年10月14日、AIエージェントとユーザーインターフェース（UI）を一体化するオープンソースのTypeScriptフレームワーク「Agent-Native」のベータ版を発表しました。",
+      "lead": "Builder.ioは2026年10月14日、AIエージェントとユーザーインターフェース（UI）を一体化するオープンソースのTypeScriptフレームワーク「Agent-Native」のベータ版を発表しました。",
+      "headings": [
+        "AIエージェントとUIが同じ機能を共有",
+        "6つのインターフェースに機能を公開",
+        "開発環境とAIモデルの柔軟性",
+        "チームでのAI活用を支える機能",
+        "今後の展望"
+      ],
+      "source_url": "https://www.builder.io/blog/introducing-agent-native",
+      "source_urls": [
+        "https://www.builder.io/blog/introducing-agent-native"
+      ],
+      "source_label": "builder.io",
+      "cover": "assets/posts/1560087183623454797.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1560087183623454797",
+      "first_seen": "2026-10-15T00:29:29.594Z",
+      "kind": "tool",
+      "kind_confidence": 1
+    },
     {
       "id": "1559938984887590952",
       "title": "Google PlayがAIで大進化！誰でもアプリ開発、Gemini連携、ゲーム推薦機能を発表",
@@ -287,34 +313,6 @@
       "first_seen": "2026-10-13T00:53:56.247Z",
       "kind": "model",
       "kind_confidence": 0.95
-    },
-    {
-      "id": "1559368103551434832",
-      "title": "Z.ai、法律業務特化AI「GLM-Legal」発表！実務ベンチマークで基盤モデルを大幅に上回る",
-      "channel": "glm",
-      "category": "その他",
-      "date": "2026-10-13T00:52:07.545Z",
-      "excerpt": "2026年10月12日、Z.aiは法律業務に特化したAIモデル「GLM-Legal」を発表しました。軽量モデル「GLM-5.3-Flash」を基盤に、法律知識の学習とエージェント強化学習を組み合わせ、契約審査、証拠分析、法令遵守などの複雑な専門業務を支援しま…",
-      "lead": "2026年10月12日、Z.aiは法律業務に特化したAIモデル「GLM-Legal」を発表しました。軽量モデル「GLM-5.3-Flash」を基盤に、法律知識の学習とエージェント強化学習を組み合わせ、契約審査、証拠分析、法令遵守などの複雑な専門業務を支援します。",
-      "headings": [
-        "法律AIの進化：回答生成から実務遂行へ",
-        "ベンチマークで確認された性能",
-        "技術的核心：専門学習とエージェントの共同最適化",
-        "1. Mid-trainingによる法律知識の強化",
-        "2. 強化学習とHarnessの共同進化",
-        "実務で想定される3つの活用領域",
-        "企業導入における課題",
-        "今後の展望"
-      ],
-      "source_url": "https://z.ai/blog/glm-legal",
-      "source_urls": [
-        "https://z.ai/blog/glm-legal"
-      ],
-      "source_label": "z.ai",
-      "url": "https://discord.com/channels/1415350002255007784/1418395473290461285/threads/1559368103551434832",
-      "first_seen": "2026-10-13T00:52:07.545Z",
-      "kind": "model",
-      "kind_confidence": 1
     }
   ]
 }
