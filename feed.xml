@@ -5,8 +5,72 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 15 Oct 2026 01:36:52 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 15 Oct 2026 16:15:49 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Krea 3登場！画像の変更部分だけを再生成、約8秒・0.06ドルの高速AI編集モデル</title>
+      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1560325334463938690</link>
+      <guid isPermaLink="false">afnjp-1560325334463938690</guid>
+      <pubDate>Thu, 15 Oct 2026 16:15:49 GMT</pubDate>
+      <category>その他</category>
+      <description>画像生成AIプラットフォームのKreaは、新たな画像編集モデル「Krea 3」を公開しました。最大の特徴は、画像全体を再生成するのではなく、変更が必要な領域に計算資源を集中させる設計です。</description>
+    </item>
+    <item>
+      <title>OpenUI、生成AIの回答を「操作できるUI」に変革！独自言語で高速化と低コスト化を実現</title>
+      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1560325239794044938</link>
+      <guid isPermaLink="false">afnjp-1560325239794044938</guid>
+      <pubDate>Thu, 15 Oct 2026 16:15:26 GMT</pubDate>
+      <category>その他</category>
+      <description>生成AIアプリケーションのユーザー体験を大きく変えるオープンソース技術「OpenUI」が注目されています。</description>
+    </item>
+    <item>
+      <title>Google「Universal Cart」米国で提供開始！AIが複数店舗の買い物を統合、価格追跡から決済まで支援</title>
+      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1560324409108070571</link>
+      <guid isPermaLink="false">afnjp-1560324409108070571</guid>
+      <pubDate>Thu, 15 Oct 2026 16:12:08 GMT</pubDate>
+      <category>google</category>
+      <description>Googleは2026年10月15日、AIを活用した新しいショッピング機能「Universal Cart（ユニバーサルカート）」の米国展開を開始しました。</description>
+    </item>
+    <item>
+      <title>スイス発の完全オープンAI「Apertus 1.5」公開！画像・音声理解、推論モード、26万トークン対応を実現</title>
+      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1560324248021762109</link>
+      <guid isPermaLink="false">afnjp-1560324248021762109</guid>
+      <pubDate>Thu, 15 Oct 2026 16:11:30 GMT</pubDate>
+      <category>その他</category>
+      <description>スイスのAI開発プロジェクト「Swiss AI」は2026年10月15日、大規模言語モデル「Apertus 1.5」の技術詳細を発表しました。8B（80億）と70B（700億）パラメータの2モデルを展開し、画像・音声理解、推論モード、長文処理、ツール連携を強…</description>
+    </item>
+    <item>
+      <title>Mistral、時系列AI「Timestral」発表！わずか2億パラメータで主要ベンチマーク首位を達成</title>
+      <link>https://discord.com/channels/1415350002255007784/1460897850354438283/threads/1560324146993299597</link>
+      <guid isPermaLink="false">afnjp-1560324146993299597</guid>
+      <pubDate>Thu, 15 Oct 2026 16:11:06 GMT</pubDate>
+      <category>mistral-ai</category>
+      <description>Mistral AIは2026年10月15日、時系列予測に特化した基盤モデル群「Timestral」を発表しました。最大2億900万パラメータという比較的小規模な構成ながら、主要な3つの公開ベンチマークで首位を獲得したとしています。GPUを必要としない高速推…</description>
+    </item>
+    <item>
+      <title>NVIDIA「Nemotron 3.5 Super VL」発表、マルチモーダル推論と高速処理でAIエージェントを進化</title>
+      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1560323958560268378</link>
+      <guid isPermaLink="false">afnjp-1560323958560268378</guid>
+      <pubDate>Thu, 15 Oct 2026 16:10:21 GMT</pubDate>
+      <category>その他</category>
+      <description>NVIDIAは2026年10月15日、画像・文書・動画の理解と高度な推論、ツール操作を統合したオープンウェイトAIモデル「Nemotron 3.5 Super VL」を発表しました。最大の特徴は、1200億パラメータの大規模モデルでありながら、効率的な推論処…</description>
+    </item>
+    <item>
+      <title>ByteDance「OmniHuman 2.0」公開、写真1枚から映画級のAI動画を生成する新技術</title>
+      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1560287326050058330</link>
+      <guid isPermaLink="false">afnjp-1560287326050058330</guid>
+      <pubDate>Thu, 15 Oct 2026 13:44:47 GMT</pubDate>
+      <category>その他</category>
+      <description>ByteDance傘下のBytePlusは、静止画像と音声からリアルな人物・キャラクター動画を生成するAIモデル「OmniHuman 2.0」を提供しています。</description>
+    </item>
+    <item>
+      <title>StepFun「Step 5 Preview」公開、6000億パラメータと100万トークン対応の次世代AI</title>
+      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1560287229929193492</link>
+      <guid isPermaLink="false">afnjp-1560287229929193492</guid>
+      <pubDate>Thu, 15 Oct 2026 13:44:24 GMT</pubDate>
+      <category>その他</category>
+      <description>中国のAI企業StepFunは、ソフトウェア開発や専門業務の自動化に特化した大規模AIモデル「Step 5 Preview」をHugging Faceで公開しました。総パラメータ数6000億、推論時の活性パラメータ数270億というMixture-of-Exp…</description>
+    </item>
     <item>
       <title>TypeSafe AI「Jev 1.14.0」発表！画像認識・物体位置検出・長文処理を実験的に解放</title>
       <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1560104140175048816</link>
@@ -38,70 +102,6 @@
       <pubDate>Thu, 15 Oct 2026 00:46:30 GMT</pubDate>
       <category>anthropic</category>
       <description>Anthropicは2026年10月14日、米国中間選挙に向けたAI「Claude」の選挙保護対策を発表しました。政治的公平性の評価改善、公式選挙情報の提供、偽ニュース生成や組織的な世論操作への対策を強化します。</description>
-    </item>
-    <item>
-      <title>Microsoft、Copilotが自動構築・更新する「SharePointナレッジベース」を発表</title>
-      <link>https://discord.com/channels/1415350002255007784/1423003108790767748/threads/1560090184060764161</link>
-      <guid isPermaLink="false">afnjp-1560090184060764161</guid>
-      <pubDate>Thu, 15 Oct 2026 00:41:24 GMT</pubDate>
-      <category>copilot</category>
-      <description>Microsoftは2026年10月14日、CopilotとAIエージェントが共同で構築・管理する新しい「SharePointナレッジベース」を発表しました。メール、会議、文書などに分散した業務知識をAIが統合し、人間とエージェントが共有できる知識基盤を実現…</description>
-    </item>
-    <item>
-      <title>Sakana AI、AIの「記憶」を可視化する新機能「My Fish」を発表！会話履歴を超えたパーソナライズへ</title>
-      <link>https://discord.com/channels/1415350002255007784/1420683387395375115/threads/1560090028867321867</link>
-      <guid isPermaLink="false">afnjp-1560090028867321867</guid>
-      <pubDate>Thu, 15 Oct 2026 00:40:47 GMT</pubDate>
-      <category>sakana-ai</category>
-      <description>Sakana AIは2026年10月15日、AIチャットサービス「Sakana Chat」に新機能「My Fish（マイ・フィッシュ）」を追加しました。AIがユーザーについて何を記憶し、いつ利用し、どの情報を組み合わせて回答しているのかを視覚的に確認できる機…</description>
-    </item>
-    <item>
-      <title>Grok Voice 3.0発表！音声AI性能で世界首位、応答速度1秒未満と低コストを実現</title>
-      <link>https://discord.com/channels/1415350002255007784/1417803120225816596/threads/1560089635743342654</link>
-      <guid isPermaLink="false">afnjp-1560089635743342654</guid>
-      <pubDate>Thu, 15 Oct 2026 00:39:14 GMT</pubDate>
-      <category>grok</category>
-      <description>2026年10月14日、xAIは新世代の音声対話AI「Grok Voice 3.0」を発表しました。独立評価機関Artificial Analysisの音声AIランキングで総合首位を獲得し、1秒未満の低遅延と高いタスク遂行能力を実現しています。</description>
-    </item>
-    <item>
-      <title>Decision Modelsが「判断特化型AI」を展開、LLMの推論コスト削減に新たな選択肢</title>
-      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1560089532853002372</link>
-      <guid isPermaLink="false">afnjp-1560089532853002372</guid>
-      <pubDate>Thu, 15 Oct 2026 00:38:49 GMT</pubDate>
-      <category>その他</category>
-      <description>AI推論サービス「Decision Models」が、分類・評価・選択などの小規模な判断処理に特化したAPIを提供しています。オープンウェイトモデルと独自の高速推論エンジン「REAX」を組み合わせ、汎用LLMを利用する場合の計算負荷や運用コストの削減を目指し…</description>
-    </item>
-    <item>
-      <title>Ling-3.1-flash登場、5600億パラメータと100万トークンを両立する大規模AIモデル</title>
-      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1560089430608318605</link>
-      <guid isPermaLink="false">afnjp-1560089430608318605</guid>
-      <pubDate>Thu, 15 Oct 2026 00:38:25 GMT</pubDate>
-      <category>その他</category>
-      <description>inclusionAIが、大規模言語モデル「Ling-3.1-flash」をHugging Faceで公開しました。総パラメータ数5600億、推論時の活性化パラメータ数250億、最大100万トークンのコンテキスト長を備え、ソフトウェア開発、AIエージェント、…</description>
-    </item>
-    <item>
-      <title>Builder.io、AIエージェントとUIを統合する「Agent-Native」を発表！アプリ開発の新たな基盤へ</title>
-      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1560087183623454797</link>
-      <guid isPermaLink="false">afnjp-1560087183623454797</guid>
-      <pubDate>Thu, 15 Oct 2026 00:29:29 GMT</pubDate>
-      <category>その他</category>
-      <description>Builder.ioは2026年10月14日、AIエージェントとユーザーインターフェース（UI）を一体化するオープンソースのTypeScriptフレームワーク「Agent-Native」のベータ版を発表しました。</description>
-    </item>
-    <item>
-      <title>Google PlayがAIで大進化！誰でもアプリ開発、Gemini連携、ゲーム推薦機能を発表</title>
-      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1559938984887590952</link>
-      <guid isPermaLink="false">afnjp-1559938984887590952</guid>
-      <pubDate>Wed, 14 Oct 2026 14:40:36 GMT</pubDate>
-      <category>google</category>
-      <description>Googleは2026年10月13日、Google Playの大規模アップデートを発表しました。最大の目玉は、AIを使って誰でもAndroidアプリを作成し、開発者登録なしで自分の端末から実行できる新機能です。</description>
-    </item>
-    <item>
-      <title>EUでAIエージェント活用が急拡大、OpenAI調査で企業間・国家間の格差が浮き彫りに</title>
-      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1559936775147880539</link>
-      <guid isPermaLink="false">afnjp-1559936775147880539</guid>
-      <pubDate>Wed, 14 Oct 2026 14:31:49 GMT</pubDate>
-      <category>open-ai</category>
-      <description>OpenAIは2026年10月14日、欧州連合（EU）におけるAIエージェントの企業利用に関する最新調査を発表しました。EU企業では、AIに質問する従来型の利用から、複数の工程を自律的に処理する「エージェント型AI」への移行が進んでいます。一方、国や企業によ…</description>
     </item>
   </channel>
 </rss>

@@ -1,9 +1,217 @@
 {
-  "generated_at": "2026-10-15T11:23:11.123Z",
+  "generated_at": "2026-10-15T16:56:43.073Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 377,
+  "count": 385,
   "posts": [
+    {
+      "id": "1560325334463938690",
+      "title": "Krea 3登場！画像の変更部分だけを再生成、約8秒・0.06ドルの高速AI編集モデル",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-10-15T16:15:49.179Z",
+      "excerpt": "画像生成AIプラットフォームのKreaは、新たな画像編集モデル「Krea 3」を公開しました。最大の特徴は、画像全体を再生成するのではなく、変更が必要な領域に計算資源を集中させる設計です。",
+      "lead": "画像生成AIプラットフォームのKreaは、新たな画像編集モデル「Krea 3」を公開しました。最大の特徴は、画像全体を再生成するのではなく、変更が必要な領域に計算資源を集中させる設計です。",
+      "headings": [
+        "画像全体を作り直さない、新しい編集アプローチ",
+        "Nano Banana Proなどとの速度・価格比較",
+        "広告制作・EC・映像制作への展開",
+        "導入時に確認すべき技術的課題",
+        "今後の展望"
+      ],
+      "source_url": "https://www.krea.ai/krea-3",
+      "source_urls": [
+        "https://www.krea.ai/krea-3"
+      ],
+      "source_label": "krea.ai",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1560325334463938690",
+      "first_seen": "2026-10-15T16:15:49.179Z",
+      "kind": "model",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1560325239794044938",
+      "title": "OpenUI、生成AIの回答を「操作できるUI」に変革！独自言語で高速化と低コスト化を実現",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-10-15T16:15:26.608Z",
+      "excerpt": "生成AIアプリケーションのユーザー体験を大きく変えるオープンソース技術「OpenUI」が注目されています。",
+      "lead": "生成AIアプリケーションのユーザー体験を大きく変えるオープンソース技術「OpenUI」が注目されています。",
+      "headings": [
+        "OpenUIとは？ AIが画面を動的に構築する新技術",
+        "独自言語「OpenUI Lang」が技術的な中核",
+        "ベンチマークではトークン消費と信頼性を改善",
+        "OpenUI Gatewayで生成エラーを自動修復",
+        "今後の展望"
+      ],
+      "source_url": "https://www.openui.com/",
+      "source_urls": [
+        "https://www.openui.com/"
+      ],
+      "source_label": "openui.com",
+      "cover": "assets/posts/1560325239794044938.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1560325239794044938",
+      "first_seen": "2026-10-15T16:15:26.608Z",
+      "kind": "tool",
+      "kind_confidence": 0.94
+    },
+    {
+      "id": "1560324409108070571",
+      "title": "Google「Universal Cart」米国で提供開始！AIが複数店舗の買い物を統合、価格追跡から決済まで支援",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-10-15T16:12:08.557Z",
+      "excerpt": "Googleは2026年10月15日、AIを活用した新しいショッピング機能「Universal Cart（ユニバーサルカート）」の米国展開を開始しました。",
+      "lead": "Googleは2026年10月15日、AIを活用した新しいショッピング機能「Universal Cart（ユニバーサルカート）」の米国展開を開始しました。",
+      "headings": [
+        "複数店舗の商品を1つのカートに集約",
+        "600億件以上の商品データをAIが活用",
+        "Universal Commerce Protocolで決済を簡素化",
+        "AIエージェント時代のEC基盤へ",
+        "今後の展望"
+      ],
+      "source_url": "https://blog.google/products-and-platforms/products/shopping/universal-cart-launch/",
+      "source_urls": [
+        "https://blog.google/products-and-platforms/products/shopping/universal-cart-launch/"
+      ],
+      "source_label": "blog.google",
+      "cover": "assets/posts/1560324409108070571.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1560324409108070571",
+      "first_seen": "2026-10-15T16:12:08.557Z",
+      "kind": "feature",
+      "kind_confidence": 0.87
+    },
+    {
+      "id": "1560324248021762109",
+      "title": "スイス発の完全オープンAI「Apertus 1.5」公開！画像・音声理解、推論モード、26万トークン対応を実現",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-10-15T16:11:30.151Z",
+      "excerpt": "スイスのAI開発プロジェクト「Swiss AI」は2026年10月15日、大規模言語モデル「Apertus 1.5」の技術詳細を発表しました。8B（80億）と70B（700億）パラメータの2モデルを展開し、画像・音声理解、推論モード、長文処理、ツール連携を強…",
+      "lead": "スイスのAI開発プロジェクト「Swiss AI」は2026年10月15日、大規模言語モデル「Apertus 1.5」の技術詳細を発表しました。8B（80億）と70B（700億）パラメータの2モデルを展開し、画像・音声理解、推論モード、長文処理、ツール連携を強化しています。モデルの重みは7月24日にApache 2.0ライセンスで公開済みで、学習データや開発工程まで透明化した点が特徴です。",
+      "headings": [
+        "画像・音声を統一処理する新アーキテクチャ",
+        "コンテキスト長が4倍、26万トークンへ",
+        "追加学習と5段階のポストトレーニング",
+        "ベンチマークで確認された性能向上",
+        "学習過程まで公開する透明性戦略",
+        "今後の展望"
+      ],
+      "source_url": "https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes",
+      "source_urls": [
+        "https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes"
+      ],
+      "source_label": "huggingface.co",
+      "cover": "assets/posts/1560324248021762109.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1560324248021762109",
+      "first_seen": "2026-10-15T16:11:30.151Z",
+      "kind": "model",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1560324146993299597",
+      "title": "Mistral、時系列AI「Timestral」発表！わずか2億パラメータで主要ベンチマーク首位を達成",
+      "channel": "mistral-ai",
+      "category": "その他",
+      "date": "2026-10-15T16:11:06.064Z",
+      "excerpt": "Mistral AIは2026年10月15日、時系列予測に特化した基盤モデル群「Timestral」を発表しました。最大2億900万パラメータという比較的小規模な構成ながら、主要な3つの公開ベンチマークで首位を獲得したとしています。GPUを必要としない高速推…",
+      "lead": "Mistral AIは2026年10月15日、時系列予測に特化した基盤モデル群「Timestral」を発表しました。最大2億900万パラメータという比較的小規模な構成ながら、主要な3つの公開ベンチマークで首位を獲得したとしています。GPUを必要としない高速推論、複数変数の同時予測、不確実性を考慮した確率的予測が特徴です。",
+      "headings": [
+        "時系列予測に特化した4種類のモデル",
+        "主要ベンチマークで首位を獲得",
+        "GPU不要、CPUだけで高速推論",
+        "技術的な革新：合成データと新しいAttention設計",
+        "企業導入とMistral Forge"
+      ],
+      "source_url": "https://mistral.ai/news/timestral/",
+      "source_urls": [
+        "https://mistral.ai/news/timestral/"
+      ],
+      "source_label": "mistral.ai",
+      "cover": "assets/posts/1560324146993299597.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1460897850354438283/threads/1560324146993299597",
+      "first_seen": "2026-10-15T16:11:06.064Z",
+      "kind": "model",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1560323958560268378",
+      "title": "NVIDIA「Nemotron 3.5 Super VL」発表、マルチモーダル推論と高速処理でAIエージェントを進化",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-10-15T16:10:21.138Z",
+      "excerpt": "NVIDIAは2026年10月15日、画像・文書・動画の理解と高度な推論、ツール操作を統合したオープンウェイトAIモデル「Nemotron 3.5 Super VL」を発表しました。最大の特徴は、1200億パラメータの大規模モデルでありながら、効率的な推論処…",
+      "lead": "NVIDIAは2026年10月15日、画像・文書・動画の理解と高度な推論、ツール操作を統合したオープンウェイトAIモデル「Nemotron 3.5 Super VL」を発表しました。最大の特徴は、1200億パラメータの大規模モデルでありながら、効率的な推論処理を実現し、企業向けAIエージェントの性能と運用コストの両立を目指している点です。",
+      "headings": [
+        "1200億パラメータを効率的に活用",
+        "マルチモーダル推論を単一モデルに統合",
+        "エージェント評価で上位モデルを超える性能",
+        "高速化を支える4つの技術",
+        "企業向けカスタマイズで成果"
+      ],
+      "source_url": "https://developer.nvidia.com/blog/nvidia-nemotron-3-5-super-vl-powers-specialized-agents-with-multimodal-reasoning/",
+      "source_urls": [
+        "https://developer.nvidia.com/blog/nvidia-nemotron-3-5-super-vl-powers-specialized-agents-with-multimodal-reasoning/"
+      ],
+      "source_label": "developer.nvidia.com",
+      "cover": "assets/posts/1560323958560268378.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1560323958560268378",
+      "first_seen": "2026-10-15T16:10:21.138Z",
+      "kind": "model",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1560287326050058330",
+      "title": "ByteDance「OmniHuman 2.0」公開、写真1枚から映画級のAI動画を生成する新技術",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-10-15T13:44:47.267Z",
+      "excerpt": "ByteDance傘下のBytePlusは、静止画像と音声からリアルな人物・キャラクター動画を生成するAIモデル「OmniHuman 2.0」を提供しています。",
+      "lead": "ByteDance傘下のBytePlusは、静止画像と音声からリアルな人物・キャラクター動画を生成するAIモデル「OmniHuman 2.0」を提供しています。",
+      "headings": [
+        "画像1枚と音声から高度な動画を生成",
+        "技術的特徴：リップシンクから意味理解へ",
+        "API提供と料金体系",
+        "映像制作と企業利用への影響",
+        "今後の展望"
+      ],
+      "source_url": "https://www.byteplus.com/en/product/OmniHuman",
+      "source_urls": [
+        "https://www.byteplus.com/en/product/OmniHuman"
+      ],
+      "source_label": "byteplus.com",
+      "cover": "assets/posts/1560287326050058330.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1560287326050058330",
+      "first_seen": "2026-10-15T13:44:47.267Z",
+      "kind": "model",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1560287229929193492",
+      "title": "StepFun「Step 5 Preview」公開、6000億パラメータと100万トークン対応の次世代AI",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-10-15T13:44:24.350Z",
+      "excerpt": "中国のAI企業StepFunは、ソフトウェア開発や専門業務の自動化に特化した大規模AIモデル「Step 5 Preview」をHugging Faceで公開しました。総パラメータ数6000億、推論時の活性パラメータ数270億というMixture-of-Exp…",
+      "lead": "中国のAI企業StepFunは、ソフトウェア開発や専門業務の自動化に特化した大規模AIモデル「Step 5 Preview」をHugging Faceで公開しました。総パラメータ数6000億、推論時の活性パラメータ数270億というMixture-of-Experts（MoE）構造を採用し、最大100万トークンのコンテキストに対応します。",
+      "headings": [
+        "6000億パラメータを効率的に活用するMoE構造",
+        "ソフトウェア開発から金融分析まで対応",
+        "vLLM・SGLangによる独自環境への導入",
+        "性能評価と商用利用の注意点",
+        "今後の展望"
+      ],
+      "source_url": "https://huggingface.co/stepfun-ai/Step-5-Preview",
+      "source_urls": [
+        "https://huggingface.co/stepfun-ai/Step-5-Preview"
+      ],
+      "source_label": "huggingface.co",
+      "cover": "assets/posts/1560287229929193492.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1560287229929193492",
+      "first_seen": "2026-10-15T13:44:24.350Z",
+      "kind": "model",
+      "kind_confidence": 1
+    },
     {
       "id": "1560104140175048816",
       "title": "TypeSafe AI「Jev 1.14.0」発表！画像認識・物体位置検出・長文処理を実験的に解放",
