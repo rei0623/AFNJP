@@ -5,8 +5,80 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 15 Oct 2026 00:29:29 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 15 Oct 2026 01:36:52 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>TypeSafe AI「Jev 1.14.0」発表！画像認識・物体位置検出・長文処理を実験的に解放</title>
+      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1560104140175048816</link>
+      <guid isPermaLink="false">afnjp-1560104140175048816</guid>
+      <pubDate>Thu, 15 Oct 2026 01:36:52 GMT</pubDate>
+      <category>その他</category>
+      <description>TypeSafe AIは、AIモデル「Jev 1.14.0」を発表しました。多言語対応を中心とする性能改善に加え、画像入力、物体の位置検出、長いコンテキストの処理を実験的に提供します。最大の特徴は、本番環境向けの信頼性と、先進機能を試す開発者の自由度を明確に…</description>
+    </item>
+    <item>
+      <title>Anthropic、Claudeに「AIエージェントの動作追跡機能」を導入！OpenTelemetry対応で監視・改善を高度化</title>
+      <link>https://discord.com/channels/1415350002255007784/1415353403269185546/threads/1560091804915732500</link>
+      <guid isPermaLink="false">afnjp-1560091804915732500</guid>
+      <pubDate>Thu, 15 Oct 2026 00:47:51 GMT</pubDate>
+      <category>claude</category>
+      <description>Anthropicは2026年10月14日、Claude PlatformでAIエージェントの動作を追跡できるOpenTelemetry（OTel）対応機能を発表しました。</description>
+    </item>
+    <item>
+      <title>AIが異常気象を3km解像度で再現、Ai2が「HiRO-ACEv2」公開——計算コストを約300分の1に削減</title>
+      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1560091636950892614</link>
+      <guid isPermaLink="false">afnjp-1560091636950892614</guid>
+      <pubDate>Thu, 15 Oct 2026 00:47:11 GMT</pubDate>
+      <category>その他</category>
+      <description>米国のAllen Institute for AI（Ai2）は2026年10月14日、全球の気候を3km解像度でシミュレーションするAIシステム「HiRO-ACEv2」を発表しました。</description>
+    </item>
+    <item>
+      <title>Anthropic、米中間選挙に向けClaudeの安全対策を強化――政治的公平性99％、AI悪用の検知も高度化</title>
+      <link>https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1560091467471392778</link>
+      <guid isPermaLink="false">afnjp-1560091467471392778</guid>
+      <pubDate>Thu, 15 Oct 2026 00:46:30 GMT</pubDate>
+      <category>anthropic</category>
+      <description>Anthropicは2026年10月14日、米国中間選挙に向けたAI「Claude」の選挙保護対策を発表しました。政治的公平性の評価改善、公式選挙情報の提供、偽ニュース生成や組織的な世論操作への対策を強化します。</description>
+    </item>
+    <item>
+      <title>Microsoft、Copilotが自動構築・更新する「SharePointナレッジベース」を発表</title>
+      <link>https://discord.com/channels/1415350002255007784/1423003108790767748/threads/1560090184060764161</link>
+      <guid isPermaLink="false">afnjp-1560090184060764161</guid>
+      <pubDate>Thu, 15 Oct 2026 00:41:24 GMT</pubDate>
+      <category>copilot</category>
+      <description>Microsoftは2026年10月14日、CopilotとAIエージェントが共同で構築・管理する新しい「SharePointナレッジベース」を発表しました。メール、会議、文書などに分散した業務知識をAIが統合し、人間とエージェントが共有できる知識基盤を実現…</description>
+    </item>
+    <item>
+      <title>Sakana AI、AIの「記憶」を可視化する新機能「My Fish」を発表！会話履歴を超えたパーソナライズへ</title>
+      <link>https://discord.com/channels/1415350002255007784/1420683387395375115/threads/1560090028867321867</link>
+      <guid isPermaLink="false">afnjp-1560090028867321867</guid>
+      <pubDate>Thu, 15 Oct 2026 00:40:47 GMT</pubDate>
+      <category>sakana-ai</category>
+      <description>Sakana AIは2026年10月15日、AIチャットサービス「Sakana Chat」に新機能「My Fish（マイ・フィッシュ）」を追加しました。AIがユーザーについて何を記憶し、いつ利用し、どの情報を組み合わせて回答しているのかを視覚的に確認できる機…</description>
+    </item>
+    <item>
+      <title>Grok Voice 3.0発表！音声AI性能で世界首位、応答速度1秒未満と低コストを実現</title>
+      <link>https://discord.com/channels/1415350002255007784/1417803120225816596/threads/1560089635743342654</link>
+      <guid isPermaLink="false">afnjp-1560089635743342654</guid>
+      <pubDate>Thu, 15 Oct 2026 00:39:14 GMT</pubDate>
+      <category>grok</category>
+      <description>2026年10月14日、xAIは新世代の音声対話AI「Grok Voice 3.0」を発表しました。独立評価機関Artificial Analysisの音声AIランキングで総合首位を獲得し、1秒未満の低遅延と高いタスク遂行能力を実現しています。</description>
+    </item>
+    <item>
+      <title>Decision Modelsが「判断特化型AI」を展開、LLMの推論コスト削減に新たな選択肢</title>
+      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1560089532853002372</link>
+      <guid isPermaLink="false">afnjp-1560089532853002372</guid>
+      <pubDate>Thu, 15 Oct 2026 00:38:49 GMT</pubDate>
+      <category>その他</category>
+      <description>AI推論サービス「Decision Models」が、分類・評価・選択などの小規模な判断処理に特化したAPIを提供しています。オープンウェイトモデルと独自の高速推論エンジン「REAX」を組み合わせ、汎用LLMを利用する場合の計算負荷や運用コストの削減を目指し…</description>
+    </item>
+    <item>
+      <title>Ling-3.1-flash登場、5600億パラメータと100万トークンを両立する大規模AIモデル</title>
+      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1560089430608318605</link>
+      <guid isPermaLink="false">afnjp-1560089430608318605</guid>
+      <pubDate>Thu, 15 Oct 2026 00:38:25 GMT</pubDate>
+      <category>その他</category>
+      <description>inclusionAIが、大規模言語モデル「Ling-3.1-flash」をHugging Faceで公開しました。総パラメータ数5600億、推論時の活性化パラメータ数250億、最大100万トークンのコンテキスト長を備え、ソフトウェア開発、AIエージェント、…</description>
+    </item>
     <item>
       <title>Builder.io、AIエージェントとUIを統合する「Agent-Native」を発表！アプリ開発の新たな基盤へ</title>
       <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1560087183623454797</link>
@@ -30,78 +102,6 @@
       <pubDate>Wed, 14 Oct 2026 14:31:49 GMT</pubDate>
       <category>open-ai</category>
       <description>OpenAIは2026年10月14日、欧州連合（EU）におけるAIエージェントの企業利用に関する最新調査を発表しました。EU企業では、AIに質問する従来型の利用から、複数の工程を自律的に処理する「エージェント型AI」への移行が進んでいます。一方、国や企業によ…</description>
-    </item>
-    <item>
-      <title>Anthropicがシンガポールに新拠点開設、政府とAI安全性で戦略的提携</title>
-      <link>https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1559936683649278043</link>
-      <guid isPermaLink="false">afnjp-1559936683649278043</guid>
-      <pubDate>Wed, 14 Oct 2026 14:31:27 GMT</pubDate>
-      <category>anthropic</category>
-      <description>米Anthropicは2026年10月14日、シンガポールに新オフィスを開設し、同国のデジタル開発情報省と覚書（MOU）を締結したと発表しました。アジア太平洋地域で5番目となる拠点を通じ、AIモデル「Claude」の企業・行政導入を加速するとともに、AI安全…</description>
-    </item>
-    <item>
-      <title>Google DeepMind、シンガポール政府と詐欺検知AIを開発！Gemmaを端末内で動作させ、プライバシーを保護</title>
-      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1559936582067294320</link>
-      <guid isPermaLink="false">afnjp-1559936582067294320</guid>
-      <pubDate>Wed, 14 Oct 2026 14:31:03 GMT</pubDate>
-      <category>google</category>
-      <description>2026年10月14日、Google DeepMindはシンガポール政府技術庁（GovTech Singapore）と共同で、スマートフォン上で詐欺を検知するAIモデルを開発したと発表しました。</description>
-    </item>
-    <item>
-      <title>Liquid AI、24B規模の高速推論AI「LFM2.5-24B-A2B」を公開！わずか2Bの稼働パラメータでローカルAIエージェントを実現</title>
-      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1559713270355730612</link>
-      <guid isPermaLink="false">afnjp-1559713270355730612</guid>
-      <pubDate>Tue, 13 Oct 2026 23:43:41 GMT</pubDate>
-      <category>その他</category>
-      <description>Liquid AIは2026年10月13日、デバイス上で高速動作する推論モデル「LFM2.5-24B-A2B」を発表しました。総パラメータ数240億に対し、推論時に稼働するのは約20億のみです。Apple M5 Maxで毎秒184トークンを生成し、大規模モデ…</description>
-    </item>
-    <item>
-      <title>Google「Gemini 4 Argon」発表！100万トークン対応、コーディング・科学研究・自律型AIを大幅強化</title>
-      <link>https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1559711600682864750</link>
-      <guid isPermaLink="false">afnjp-1559711600682864750</guid>
-      <pubDate>Tue, 13 Oct 2026 23:37:03 GMT</pubDate>
-      <category>gemini</category>
-      <description>Googleは2026年10月13日、最新のフロンティアAIモデル「Gemini 4 Argon」を発表し、世界規模で提供を開始しました。高度な推論、ソフトウェア開発、科学研究、業務自動化を強化し、Geminiアプリ、API、Google Antigravi…</description>
-    </item>
-    <item>
-      <title>AnthropicがGitから独自システム「Scion」へ全面移行、AI時代のソースコード管理を再設計</title>
-      <link>https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1559711243948789841</link>
-      <guid isPermaLink="false">afnjp-1559711243948789841</guid>
-      <pubDate>Tue, 13 Oct 2026 23:35:38 GMT</pubDate>
-      <category>anthropic</category>
-      <description>Anthropicは2026年10月13日、AIエージェントによるコード生成の急増に対応するため、独自のバージョン管理システム「Scion」を開発し、巨大な単一リポジトリ（モノレポ）をGitから全面移行したと発表しました。</description>
-    </item>
-    <item>
-      <title>Google DeepMind、衛星画像AIで農地を可視化！日本対応の「Agricultural Understanding Platform」が農業データ活用を変える</title>
-      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1559711133215236258</link>
-      <guid isPermaLink="false">afnjp-1559711133215236258</guid>
-      <pubDate>Tue, 13 Oct 2026 23:35:12 GMT</pubDate>
-      <category>google</category>
-      <description>Google DeepMindは、衛星画像とAIを活用して農地の境界、作物の種類、栽培時期などを解析する「Agricultural Understanding Platform」を公開しています。日本を含むアジア・アフリカの計11カ国に対応し、農地単位の詳細…</description>
-    </item>
-    <item>
-      <title>xAI、Grok・Cursor・Xを統合した新料金体系を公開！月額8ドルから200ドルまで7段階で展開</title>
-      <link>https://discord.com/channels/1415350002255007784/1468059501528744140/threads/1559511034648207360</link>
-      <guid isPermaLink="false">afnjp-1559511034648207360</guid>
-      <pubDate>Tue, 13 Oct 2026 10:20:04 GMT</pubDate>
-      <category>space-x</category>
-      <description>xAIの公式料金ページで、生成AI「Grok」、AI開発環境「Cursor」、SNS「X」の機能を横断的に利用できるサブスクリプション体系が公開されています。個人向けには無料から月額200ドルまでのプランを用意し、AIエージェント、画像・動画生成、コーディン…</description>
-    </item>
-    <item>
-      <title>ソフトバンク系SB Intuitions、国産AI「Sarashina」6モデルを無料公開！APIとチャット機能を提供開始</title>
-      <link>https://discord.com/channels/1415350002255007784/1417536105930166282/threads/1559510904771575838</link>
-      <guid isPermaLink="false">afnjp-1559510904771575838</guid>
-      <pubDate>Tue, 13 Oct 2026 10:19:34 GMT</pubDate>
-      <category>日本国内</category>
-      <description>ソフトバンク子会社のSB Intuitionsは2026年10月13日、国産生成AI「Sarashina」を利用できる「Sarashinaサービス」の無償ベータ版を公開しました。文章生成、検索、翻訳、安全性判定などに対応する6種類のAIモデルをAPI経由で利…</description>
-    </item>
-    <item>
-      <title>Google「Nano Banana 3 Pro」開発のリーク情報、Gemini 4 Proベースで年内登場の可能性</title>
-      <link>https://discord.com/channels/1415350002255007784/1415534435712897124/threads/1559368559480676453</link>
-      <guid isPermaLink="false">afnjp-1559368559480676453</guid>
-      <pubDate>Tue, 13 Oct 2026 00:53:56 GMT</pubDate>
-      <category>リーク情報</category>
-      <description>Googleが次世代AI画像生成モデル「Nano Banana 3 Pro」の開発を進めているとの未確認情報が浮上しました。</description>
     </item>
   </channel>
 </rss>

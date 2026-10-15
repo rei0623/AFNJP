@@ -1,8 +1,244 @@
 {
-  "generated_at": "2026-10-15T00:32:47.970Z",
+  "generated_at": "2026-10-15T05:52:47.216Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1560104140175048816",
+      "title": "TypeSafe AI「Jev 1.14.0」発表！画像認識・物体位置検出・長文処理を実験的に解放",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-10-15T01:36:52.351Z",
+      "excerpt": "TypeSafe AIは、AIモデル「Jev 1.14.0」を発表しました。多言語対応を中心とする性能改善に加え、画像入力、物体の位置検出、長いコンテキストの処理を実験的に提供します。最大の特徴は、本番環境向けの信頼性と、先進機能を試す開発者の自由度を明確に…",
+      "lead": "TypeSafe AIは、AIモデル「Jev 1.14.0」を発表しました。多言語対応を中心とする性能改善に加え、画像入力、物体の位置検出、長いコンテキストの処理を実験的に提供します。最大の特徴は、本番環境向けの信頼性と、先進機能を試す開発者の自由度を明確に分離した設計思想です。",
+      "headings": [
+        "Jev 1.14.0の主な進化",
+        "画像対応で広がるAIの活用範囲",
+        "新しい「box」型で物体の位置を検出",
+        "長文コンテキストの制限も緩和",
+        "「Danger Zone」が示す開発戦略",
+        "今後の展望"
+      ],
+      "source_url": "https://typesafe.ai/blog/jev-1-14",
+      "source_urls": [
+        "https://typesafe.ai/blog/jev-1-14"
+      ],
+      "source_label": "typesafe.ai",
+      "cover": "assets/posts/1560104140175048816.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1560104140175048816",
+      "first_seen": "2026-10-15T01:36:52.351Z",
+      "kind": "model",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1560091804915732500",
+      "title": "Anthropic、Claudeに「AIエージェントの動作追跡機能」を導入！OpenTelemetry対応で監視・改善を高度化",
+      "channel": "claude",
+      "category": "Anthropic",
+      "date": "2026-10-15T00:47:51.396Z",
+      "excerpt": "Anthropicは2026年10月14日、Claude PlatformでAIエージェントの動作を追跡できるOpenTelemetry（OTel）対応機能を発表しました。",
+      "lead": "Anthropicは2026年10月14日、Claude PlatformでAIエージェントの動作を追跡できるOpenTelemetry（OTel）対応機能を発表しました。",
+      "headings": [
+        "AIエージェントの「ブラックボックス化」を解消",
+        "OpenTelemetryによる技術的な仕組み",
+        "既存の監視・評価基盤と連携",
+        "企業導入で重要になるコストと安全性",
+        "今後の展望"
+      ],
+      "source_url": "https://claude.com/ja/resources/articles/agent-observability-on-the-claude-platform",
+      "source_urls": [
+        "https://claude.com/ja/resources/articles/agent-observability-on-the-claude-platform"
+      ],
+      "source_label": "claude.com",
+      "cover": "assets/posts/1560091804915732500.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415353403269185546/threads/1560091804915732500",
+      "first_seen": "2026-10-15T00:47:51.396Z",
+      "kind": "feature",
+      "kind_confidence": 0.85
+    },
+    {
+      "id": "1560091636950892614",
+      "title": "AIが異常気象を3km解像度で再現、Ai2が「HiRO-ACEv2」公開——計算コストを約300分の1に削減",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-10-15T00:47:11.350Z",
+      "excerpt": "米国のAllen Institute for AI（Ai2）は2026年10月14日、全球の気候を3km解像度でシミュレーションするAIシステム「HiRO-ACEv2」を発表しました。",
+      "lead": "米国のAllen Institute for AI（Ai2）は2026年10月14日、全球の気候を3km解像度でシミュレーションするAIシステム「HiRO-ACEv2」を発表しました。",
+      "headings": [
+        "100kmから3kmへ、2段階のAI構成",
+        "100万分の1の極端現象も高精度に再現",
+        "10年間の気候シミュレーションにも対応",
+        "現段階の制約と技術的課題",
+        "今後の展望"
+      ],
+      "source_url": "https://huggingface.co/blog/allenai/hiro-acev2",
+      "source_urls": [
+        "https://huggingface.co/blog/allenai/hiro-acev2"
+      ],
+      "source_label": "huggingface.co",
+      "cover": "assets/posts/1560091636950892614.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1560091636950892614",
+      "first_seen": "2026-10-15T00:47:11.350Z",
+      "kind": "model",
+      "kind_confidence": 0.99
+    },
+    {
+      "id": "1560091467471392778",
+      "title": "Anthropic、米中間選挙に向けClaudeの安全対策を強化――政治的公平性99％、AI悪用の検知も高度化",
+      "channel": "anthropic",
+      "category": "Anthropic",
+      "date": "2026-10-15T00:46:30.943Z",
+      "excerpt": "Anthropicは2026年10月14日、米国中間選挙に向けたAI「Claude」の選挙保護対策を発表しました。政治的公平性の評価改善、公式選挙情報の提供、偽ニュース生成や組織的な世論操作への対策を強化します。",
+      "lead": "Anthropicは2026年10月14日、米国中間選挙に向けたAI「Claude」の選挙保護対策を発表しました。政治的公平性の評価改善、公式選挙情報の提供、偽ニュース生成や組織的な世論操作への対策を強化します。",
+      "headings": [
+        "Claudeの政治利用を25万件の会話から分析",
+        "政治的公平性99％を達成",
+        "投票情報をClaude内で直接提供",
+        "AIによる組織的な選挙干渉を検知",
+        "今後の展望"
+      ],
+      "source_url": "https://www.anthropic.com/news/2026-us-midterms",
+      "source_urls": [
+        "https://www.anthropic.com/news/2026-us-midterms"
+      ],
+      "source_label": "anthropic.com",
+      "cover": "assets/posts/1560091467471392778.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1560091467471392778",
+      "first_seen": "2026-10-15T00:46:30.943Z",
+      "kind": "feature",
+      "kind_confidence": 0.65
+    },
+    {
+      "id": "1560090184060764161",
+      "title": "Microsoft、Copilotが自動構築・更新する「SharePointナレッジベース」を発表",
+      "channel": "copilot",
+      "category": "Microsoft",
+      "date": "2026-10-15T00:41:24.954Z",
+      "excerpt": "Microsoftは2026年10月14日、CopilotとAIエージェントが共同で構築・管理する新しい「SharePointナレッジベース」を発表しました。メール、会議、文書などに分散した業務知識をAIが統合し、人間とエージェントが共有できる知識基盤を実現…",
+      "lead": "Microsoftは2026年10月14日、CopilotとAIエージェントが共同で構築・管理する新しい「SharePointナレッジベース」を発表しました。メール、会議、文書などに分散した業務知識をAIが統合し、人間とエージェントが共有できる知識基盤を実現します。Frontier Preview向けに提供を開始しています。",
+      "headings": [
+        "AIが企業の暗黙知を構造化",
+        "技術の中核はWork IQとMarkdown",
+        "SharePointとTeamsを横断して活用",
+        "今後の展望"
+      ],
+      "source_url": "https://techcommunity.microsoft.com/blog/spblog/introducing-a-team-knowledge-base-curated-by-copilot-and-agents/4564203",
+      "source_urls": [
+        "https://techcommunity.microsoft.com/blog/spblog/introducing-a-team-knowledge-base-curated-by-copilot-and-agents/4564203"
+      ],
+      "source_label": "techcommunity.microsoft.com",
+      "cover": "assets/posts/1560090184060764161.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1423003108790767748/threads/1560090184060764161",
+      "first_seen": "2026-10-15T00:41:24.954Z",
+      "kind": "feature",
+      "kind_confidence": 0.92
+    },
+    {
+      "id": "1560090028867321867",
+      "title": "Sakana AI、AIの「記憶」を可視化する新機能「My Fish」を発表！会話履歴を超えたパーソナライズへ",
+      "channel": "sakana-ai",
+      "category": "日本国内",
+      "date": "2026-10-15T00:40:47.953Z",
+      "excerpt": "Sakana AIは2026年10月15日、AIチャットサービス「Sakana Chat」に新機能「My Fish（マイ・フィッシュ）」を追加しました。AIがユーザーについて何を記憶し、いつ利用し、どの情報を組み合わせて回答しているのかを視覚的に確認できる機…",
+      "lead": "Sakana AIは2026年10月15日、AIチャットサービス「Sakana Chat」に新機能「My Fish（マイ・フィッシュ）」を追加しました。AIがユーザーについて何を記憶し、いつ利用し、どの情報を組み合わせて回答しているのかを視覚的に確認できる機能です。",
+      "headings": [
+        "AIのメモリーを「見える化」",
+        "4つの仕組みでAIの記憶を可視化",
+        "1. メモリー活動のヒートマップ",
+        "2. メモリー一覧",
+        "3. メモリーの関係性をグラフ化",
+        "4. メモリーの操作履歴",
+        "技術的な意義と企業利用への影響",
+        "今後の展望"
+      ],
+      "source_url": "https://sakana.ai/my-fish/",
+      "source_urls": [
+        "https://sakana.ai/my-fish/"
+      ],
+      "source_label": "sakana.ai",
+      "cover": "assets/posts/1560090028867321867.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1420683387395375115/threads/1560090028867321867",
+      "first_seen": "2026-10-15T00:40:47.953Z",
+      "kind": "feature",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1560089635743342654",
+      "title": "Grok Voice 3.0発表！音声AI性能で世界首位、応答速度1秒未満と低コストを実現",
+      "channel": "grok",
+      "category": "Space X",
+      "date": "2026-10-15T00:39:14.225Z",
+      "excerpt": "2026年10月14日、xAIは新世代の音声対話AI「Grok Voice 3.0」を発表しました。独立評価機関Artificial Analysisの音声AIランキングで総合首位を獲得し、1秒未満の低遅延と高いタスク遂行能力を実現しています。",
+      "lead": "2026年10月14日、xAIは新世代の音声対話AI「Grok Voice 3.0」を発表しました。独立評価機関Artificial Analysisの音声AIランキングで総合首位を獲得し、1秒未満の低遅延と高いタスク遂行能力を実現しています。",
+      "headings": [
+        "音声AIベンチマークで総合首位を獲得",
+        "会話の自然さとタスク遂行能力が向上",
+        "TeslaとSpaceXで実運用、顧客対応を自動化",
+        "API価格は1分0.08ドル、既存利用者は自動移行",
+        "今後の展望"
+      ],
+      "source_url": "https://x.ai/news/grok-voice-3",
+      "source_urls": [
+        "https://x.ai/news/grok-voice-3"
+      ],
+      "source_label": "x.ai",
+      "cover": "assets/posts/1560089635743342654.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417803120225816596/threads/1560089635743342654",
+      "first_seen": "2026-10-15T00:39:14.225Z",
+      "kind": "model",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1560089532853002372",
+      "title": "Decision Modelsが「判断特化型AI」を展開、LLMの推論コスト削減に新たな選択肢",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-10-15T00:38:49.694Z",
+      "excerpt": "AI推論サービス「Decision Models」が、分類・評価・選択などの小規模な判断処理に特化したAPIを提供しています。オープンウェイトモデルと独自の高速推論エンジン「REAX」を組み合わせ、汎用LLMを利用する場合の計算負荷や運用コストの削減を目指し…",
+      "lead": "AI推論サービス「Decision Models」が、分類・評価・選択などの小規模な判断処理に特化したAPIを提供しています。オープンウェイトモデルと独自の高速推論エンジン「REAX」を組み合わせ、汎用LLMを利用する場合の計算負荷や運用コストの削減を目指しています。",
+      "headings": [
+        "文章生成ではなく「判断」に特化",
+        "主力モデルがベンチマーク首位",
+        "REAXエンジンによる高速推論",
+        "料金とデータ保護",
+        "今後の展望"
+      ],
+      "source_url": "https://decisionmodels.io/",
+      "source_urls": [
+        "https://decisionmodels.io/"
+      ],
+      "source_label": "decisionmodels.io",
+      "cover": "assets/posts/1560089532853002372.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1560089532853002372",
+      "first_seen": "2026-10-15T00:38:49.694Z",
+      "kind": "tool",
+      "kind_confidence": 0.9
+    },
+    {
+      "id": "1560089430608318605",
+      "title": "Ling-3.1-flash登場、5600億パラメータと100万トークンを両立する大規模AIモデル",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-10-15T00:38:25.317Z",
+      "excerpt": "inclusionAIが、大規模言語モデル「Ling-3.1-flash」をHugging Faceで公開しました。総パラメータ数5600億、推論時の活性化パラメータ数250億、最大100万トークンのコンテキスト長を備え、ソフトウェア開発、AIエージェント、…",
+      "lead": "inclusionAIが、大規模言語モデル「Ling-3.1-flash」をHugging Faceで公開しました。総パラメータ数5600億、推論時の活性化パラメータ数250億、最大100万トークンのコンテキスト長を備え、ソフトウェア開発、AIエージェント、業務自動化などの実用タスクに重点を置いています。",
+      "headings": [
+        "5600億パラメータを効率的に活用するHybrid-linear MoE",
+        "AIエージェントとソフトウェア開発性能を強化",
+        "数百回のツール呼び出しに対応するLingCode",
+        "SGLangとvLLMによる実運用に対応"
+      ],
+      "source_url": "https://huggingface.co/inclusionAI/Ling-3.1-flash",
+      "source_urls": [
+        "https://huggingface.co/inclusionAI/Ling-3.1-flash"
+      ],
+      "source_label": "huggingface.co",
+      "cover": "assets/posts/1560089430608318605.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1560089430608318605",
+      "first_seen": "2026-10-15T00:38:25.317Z",
+      "kind": "model",
+      "kind_confidence": 1
+    },
     {
       "id": "1560087183623454797",
       "title": "Builder.io、AIエージェントとUIを統合する「Agent-Native」を発表！アプリ開発の新たな基盤へ",
@@ -81,238 +317,6 @@
       "first_seen": "2026-10-14T14:31:49.419Z",
       "kind": "research",
       "kind_confidence": 0.46
-    },
-    {
-      "id": "1559936683649278043",
-      "title": "Anthropicがシンガポールに新拠点開設、政府とAI安全性で戦略的提携",
-      "channel": "anthropic",
-      "category": "Anthropic",
-      "date": "2026-10-14T14:31:27.604Z",
-      "excerpt": "米Anthropicは2026年10月14日、シンガポールに新オフィスを開設し、同国のデジタル開発情報省と覚書（MOU）を締結したと発表しました。アジア太平洋地域で5番目となる拠点を通じ、AIモデル「Claude」の企業・行政導入を加速するとともに、AI安全…",
-      "lead": "米Anthropicは2026年10月14日、シンガポールに新オフィスを開設し、同国のデジタル開発情報省と覚書（MOU）を締結したと発表しました。アジア太平洋地域で5番目となる拠点を通じ、AIモデル「Claude」の企業・行政導入を加速するとともに、AI安全性、セキュリティ、評価技術に関する政府との協力を強化します。",
-      "headings": [
-        "政府と連携し、AIの安全性と評価基盤を強化",
-        "シンガポールはClaude利用率で世界2位",
-        "Amazon Bedrockの域内推論が企業導入を後押し",
-        "開発者エコシステムにも投資",
-        "今後の展望"
-      ],
-      "source_url": "https://www.anthropic.com/news/singapore-office-opening",
-      "source_urls": [
-        "https://www.anthropic.com/news/singapore-office-opening"
-      ],
-      "source_label": "anthropic.com",
-      "cover": "assets/posts/1559936683649278043.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1559936683649278043",
-      "first_seen": "2026-10-14T14:31:27.604Z",
-      "kind": "business",
-      "kind_confidence": 1
-    },
-    {
-      "id": "1559936582067294320",
-      "title": "Google DeepMind、シンガポール政府と詐欺検知AIを開発！Gemmaを端末内で動作させ、プライバシーを保護",
-      "channel": "google",
-      "category": "Google",
-      "date": "2026-10-14T14:31:03.385Z",
-      "excerpt": "2026年10月14日、Google DeepMindはシンガポール政府技術庁（GovTech Singapore）と共同で、スマートフォン上で詐欺を検知するAIモデルを開発したと発表しました。",
-      "lead": "2026年10月14日、Google DeepMindはシンガポール政府技術庁（GovTech Singapore）と共同で、スマートフォン上で詐欺を検知するAIモデルを開発したと発表しました。",
-      "headings": [
-        "深刻化する詐欺被害とAIによる対策",
-        "技術の核心：2段階AIパイプライン",
-        "プライバシーを重視した設計",
-        "実用化に向けた課題",
-        "今後の展望"
-      ],
-      "source_url": "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/",
-      "source_urls": [
-        "https://deepmind.google/blog/on-device-ai-scam-detection-mddi/"
-      ],
-      "source_label": "deepmind.google",
-      "cover": "assets/posts/1559936582067294320.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1559936582067294320",
-      "first_seen": "2026-10-14T14:31:03.385Z",
-      "kind": "model",
-      "kind_confidence": 0.58
-    },
-    {
-      "id": "1559713270355730612",
-      "title": "Liquid AI、24B規模の高速推論AI「LFM2.5-24B-A2B」を公開！わずか2Bの稼働パラメータでローカルAIエージェントを実現",
-      "channel": "その他",
-      "category": "その他",
-      "date": "2026-10-13T23:43:41.724Z",
-      "excerpt": "Liquid AIは2026年10月13日、デバイス上で高速動作する推論モデル「LFM2.5-24B-A2B」を発表しました。総パラメータ数240億に対し、推論時に稼働するのは約20億のみです。Apple M5 Maxで毎秒184トークンを生成し、大規模モデ…",
-      "lead": "Liquid AIは2026年10月13日、デバイス上で高速動作する推論モデル「LFM2.5-24B-A2B」を発表しました。総パラメータ数240億に対し、推論時に稼働するのは約20億のみです。Apple M5 Maxで毎秒184トークンを生成し、大規模モデルに匹敵するツール操作能力を実現しています。",
-      "headings": [
-        "省メモリと高速処理を両立する独自アーキテクチャ",
-        "ツール操作性能で大型モデルを上回る結果",
-        "Apple M5 Maxで毎秒184トークンを実現",
-        "ローカルAIエージェントの実用化を加速",
-        "今後の展望"
-      ],
-      "source_url": "https://www.liquid.ai/blog/lfm2-5-24b-a2b",
-      "source_urls": [
-        "https://www.liquid.ai/blog/lfm2-5-24b-a2b"
-      ],
-      "source_label": "liquid.ai",
-      "cover": "assets/posts/1559713270355730612.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1559713270355730612",
-      "first_seen": "2026-10-13T23:43:41.724Z",
-      "kind": "model",
-      "kind_confidence": 1
-    },
-    {
-      "id": "1559711600682864750",
-      "title": "Google「Gemini 4 Argon」発表！100万トークン対応、コーディング・科学研究・自律型AIを大幅強化",
-      "channel": "gemini",
-      "category": "Google",
-      "date": "2026-10-13T23:37:03.643Z",
-      "excerpt": "Googleは2026年10月13日、最新のフロンティアAIモデル「Gemini 4 Argon」を発表し、世界規模で提供を開始しました。高度な推論、ソフトウェア開発、科学研究、業務自動化を強化し、Geminiアプリ、API、Google Antigravi…",
-      "lead": "Googleは2026年10月13日、最新のフロンティアAIモデル「Gemini 4 Argon」を発表し、世界規模で提供を開始しました。高度な推論、ソフトウェア開発、科学研究、業務自動化を強化し、Geminiアプリ、API、Google Antigravityなどに展開します。",
-      "headings": [
-        "100万トークン対応の次世代AI",
-        "コーディング性能が大幅向上",
-        "Geminiアプリが自律型AIへ進化",
-        "科学研究とセキュリティにも展開",
-        "提供プランとAPI料金",
-        "今後の展望"
-      ],
-      "source_url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-4-argon-availability/",
-      "source_urls": [
-        "https://blog.google/innovation-and-ai/products/gemini-app/gemini-4-argon-availability/",
-        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-argon/"
-      ],
-      "source_label": "blog.google",
-      "cover": "assets/posts/1559711600682864750.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1559711600682864750",
-      "first_seen": "2026-10-13T23:37:03.643Z",
-      "kind": "model",
-      "kind_confidence": 1
-    },
-    {
-      "id": "1559711243948789841",
-      "title": "AnthropicがGitから独自システム「Scion」へ全面移行、AI時代のソースコード管理を再設計",
-      "channel": "anthropic",
-      "category": "Anthropic",
-      "date": "2026-10-13T23:35:38.591Z",
-      "excerpt": "Anthropicは2026年10月13日、AIエージェントによるコード生成の急増に対応するため、独自のバージョン管理システム「Scion」を開発し、巨大な単一リポジトリ（モノレポ）をGitから全面移行したと発表しました。",
-      "lead": "Anthropicは2026年10月13日、AIエージェントによるコード生成の急増に対応するため、独自のバージョン管理システム「Scion」を開発し、巨大な単一リポジトリ（モノレポ）をGitから全面移行したと発表しました。",
-      "headings": [
-        "AIによる開発速度がGitの限界を露呈",
-        "Scionの技術設計",
-        "インフラ資源を200分の1に削減",
-        "Claude自身が新システムの開発を加速",
-        "今後の展望"
-      ],
-      "source_url": "https://www.anthropic.com/engineering/redesigning-source-control",
-      "source_urls": [
-        "https://www.anthropic.com/engineering/redesigning-source-control"
-      ],
-      "source_label": "anthropic.com",
-      "cover": "assets/posts/1559711243948789841.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1559711243948789841",
-      "first_seen": "2026-10-13T23:35:38.591Z",
-      "kind": "tool",
-      "kind_confidence": 0.99
-    },
-    {
-      "id": "1559711133215236258",
-      "title": "Google DeepMind、衛星画像AIで農地を可視化！日本対応の「Agricultural Understanding Platform」が農業データ活用を変える",
-      "channel": "google",
-      "category": "Google",
-      "date": "2026-10-13T23:35:12.190Z",
-      "excerpt": "Google DeepMindは、衛星画像とAIを活用して農地の境界、作物の種類、栽培時期などを解析する「Agricultural Understanding Platform」を公開しています。日本を含むアジア・アフリカの計11カ国に対応し、農地単位の詳細…",
-      "lead": "Google DeepMindは、衛星画像とAIを活用して農地の境界、作物の種類、栽培時期などを解析する「Agricultural Understanding Platform」を公開しています。日本を含むアジア・アフリカの計11カ国に対応し、農地単位の詳細なデータを農業政策、精密農業、食料安全保障に活用することを目指しています。",
-      "headings": [
-        "2つのAIモデルで農地を解析",
-        "1. ALU：農地の形状と周辺環境を把握",
-        "2. AMED：作物と栽培サイクルを監視",
-        "日本も対応、APIによるシステム連携が可能",
-        "農業DXと食料安全保障への影響",
-        "今後の展望"
-      ],
-      "source_url": "https://deepmind.google/science/agricultural-understanding/",
-      "source_urls": [
-        "https://deepmind.google/science/agricultural-understanding/"
-      ],
-      "source_label": "deepmind.google",
-      "cover": "assets/posts/1559711133215236258.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1559711133215236258",
-      "first_seen": "2026-10-13T23:35:12.190Z",
-      "kind": "model",
-      "kind_confidence": 0.45
-    },
-    {
-      "id": "1559511034648207360",
-      "title": "xAI、Grok・Cursor・Xを統合した新料金体系を公開！月額8ドルから200ドルまで7段階で展開",
-      "channel": "space-x",
-      "category": "Space X",
-      "date": "2026-10-13T10:20:04.974Z",
-      "excerpt": "xAIの公式料金ページで、生成AI「Grok」、AI開発環境「Cursor」、SNS「X」の機能を横断的に利用できるサブスクリプション体系が公開されています。個人向けには無料から月額200ドルまでのプランを用意し、AIエージェント、画像・動画生成、コーディン…",
-      "lead": "xAIの公式料金ページで、生成AI「Grok」、AI開発環境「Cursor」、SNS「X」の機能を横断的に利用できるサブスクリプション体系が公開されています。個人向けには無料から月額200ドルまでのプランを用意し、AIエージェント、画像・動画生成、コーディング支援、SNS機能を共通の契約体系にまとめています。",
-      "headings": [
-        "7つの料金プランと利用枠",
-        "最大の特徴はAI利用枠の共通化",
-        "開発者向け機能も統合",
-        "企業向けにはセキュリティと管理機能を提供",
-        "今後の展望"
-      ],
-      "source_url": "https://x.ai/pricing",
-      "source_urls": [
-        "https://x.ai/pricing"
-      ],
-      "source_label": "x.ai",
-      "cover": "assets/posts/1559511034648207360.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1468059501528744140/threads/1559511034648207360",
-      "first_seen": "2026-10-13T10:20:04.974Z",
-      "kind": "feature",
-      "kind_confidence": 0.89
-    },
-    {
-      "id": "1559510904771575838",
-      "title": "ソフトバンク系SB Intuitions、国産AI「Sarashina」6モデルを無料公開！APIとチャット機能を提供開始",
-      "channel": "日本国内",
-      "category": "日本国内",
-      "date": "2026-10-13T10:19:34.009Z",
-      "excerpt": "ソフトバンク子会社のSB Intuitionsは2026年10月13日、国産生成AI「Sarashina」を利用できる「Sarashinaサービス」の無償ベータ版を公開しました。文章生成、検索、翻訳、安全性判定などに対応する6種類のAIモデルをAPI経由で利…",
-      "lead": "ソフトバンク子会社のSB Intuitionsは2026年10月13日、国産生成AI「Sarashina」を利用できる「Sarashinaサービス」の無償ベータ版を公開しました。文章生成、検索、翻訳、安全性判定などに対応する6種類のAIモデルをAPI経由で利用できるほか、ブラウザー上でAIとの対話や翻訳を体験できます。",
-      "headings": [
-        "6種類のAIモデルをAPIで一般公開",
-        "RAGや企業向けAI開発への応用",
-        "Googleアカウントだけで無料利用可能",
-        "国産AIの実用化に向けた重要な一歩",
-        "今後の展望"
-      ],
-      "source_url": "https://www.sbintuitions.co.jp/news/press/20261013_01/",
-      "source_urls": [
-        "https://www.sbintuitions.co.jp/news/press/20261013_01/"
-      ],
-      "source_label": "sbintuitions.co.jp",
-      "cover": "assets/posts/1559510904771575838.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1417536105930166282/threads/1559510904771575838",
-      "first_seen": "2026-10-13T10:19:34.009Z",
-      "kind": "model",
-      "kind_confidence": 0.68
-    },
-    {
-      "id": "1559368559480676453",
-      "title": "Google「Nano Banana 3 Pro」開発のリーク情報、Gemini 4 Proベースで年内登場の可能性",
-      "channel": "リーク情報",
-      "category": "リーク情報",
-      "date": "2026-10-13T00:53:56.247Z",
-      "excerpt": "Googleが次世代AI画像生成モデル「Nano Banana 3 Pro」の開発を進めているとの未確認情報が浮上しました。",
-      "lead": "Googleが次世代AI画像生成モデル「Nano Banana 3 Pro」の開発を進めているとの未確認情報が浮上しました。",
-      "headings": [
-        "次世代モデルのリーク情報",
-        "Gemini 4 Proベースへの進化が意味するもの",
-        "学習データセットに関する注目情報",
-        "開発者・企業ユーザーへの影響",
-        "今後の展望"
-      ],
-      "cover": "assets/posts/1559368559480676453.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1415534435712897124/threads/1559368559480676453",
-      "first_seen": "2026-10-13T00:53:56.247Z",
-      "kind": "model",
-      "kind_confidence": 0.95
     }
   ]
 }
