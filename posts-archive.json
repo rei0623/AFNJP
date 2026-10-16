@@ -1,9 +1,61 @@
 {
-  "generated_at": "2026-10-16T14:48:54.214Z",
+  "generated_at": "2026-10-16T18:47:12.984Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 393,
+  "count": 395,
   "posts": [
+    {
+      "id": "1560720179309060226",
+      "title": "Google「Gemini Notebook」に学習支援の新機能3つを追加、60秒動画・対話型教材・クイズを強化",
+      "channel": "gemini-notebook",
+      "category": "Google",
+      "date": "2026-10-16T18:24:47.526Z",
+      "excerpt": "Googleは2026年10月16日、AI学習支援サービス「Gemini Notebook」に導入した3つの新機能を紹介しました。60秒の解説動画、対話型学習ガイド、多様な形式のクイズを通じて、試験対策や教材の復習を効率化します。",
+      "lead": "Googleは2026年10月16日、AI学習支援サービス「Gemini Notebook」に導入した3つの新機能を紹介しました。60秒の解説動画、対話型学習ガイド、多様な形式のクイズを通じて、試験対策や教材の復習を効率化します。",
+      "headings": [
+        "1. 60秒のショート動画で難しい概念を理解",
+        "2. Interactive Learning Overviewsで教材を統合",
+        "3. クイズ形式を拡充し、理解度の確認を強化",
+        "教育AIとしての技術的意義",
+        "今後の展望"
+      ],
+      "source_url": "https://blog.google/innovation-and-ai/products/gemini-notebook/three-tips-study-gemini-notebook/",
+      "source_urls": [
+        "https://blog.google/innovation-and-ai/products/gemini-notebook/three-tips-study-gemini-notebook/"
+      ],
+      "source_label": "blog.google",
+      "cover": "assets/posts/1560720179309060226.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1418011435287707648/threads/1560720179309060226",
+      "first_seen": "2026-10-16T18:24:47.526Z",
+      "kind": "feature",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1560705274053005393",
+      "title": "5010億パラメータのオープンAI「Beam」登場！100万トークン対応、企業向けAI開発の新たな選択肢に",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-10-16T17:25:33.836Z",
+      "excerpt": "2026年10月16日、Hugging Faceは米国のAI研究企業Reflectionが開発した大規模言語モデル「Beam」を公開しました。",
+      "lead": "2026年10月16日、Hugging Faceは米国のAI研究企業Reflectionが開発した大規模言語モデル「Beam」を公開しました。",
+      "headings": [
+        "5010億パラメータを効率的に動かすMoE技術",
+        "100万トークンを支える独自アーキテクチャ",
+        "コーディング・推論性能と評価結果",
+        "GPU要件と開発環境",
+        "企業が独自AIを保有する時代へ"
+      ],
+      "source_url": "https://huggingface.co/blog/reflection-beam",
+      "source_urls": [
+        "https://huggingface.co/blog/reflection-beam"
+      ],
+      "source_label": "huggingface.co",
+      "cover": "assets/posts/1560705274053005393.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1560705274053005393",
+      "first_seen": "2026-10-16T17:25:33.836Z",
+      "kind": "model",
+      "kind_confidence": 1
+    },
     {
       "id": "1560589975475462174",
       "title": "Anthropic「Claude Code Review」正式提供開始！レビュー速度が約3倍に向上、AIによるバグ検出を強化",

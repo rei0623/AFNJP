@@ -5,8 +5,24 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 16 Oct 2026 09:47:24 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 18:24:47 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Google「Gemini Notebook」に学習支援の新機能3つを追加、60秒動画・対話型教材・クイズを強化</title>
+      <link>https://discord.com/channels/1415350002255007784/1418011435287707648/threads/1560720179309060226</link>
+      <guid isPermaLink="false">afnjp-1560720179309060226</guid>
+      <pubDate>Fri, 16 Oct 2026 18:24:47 GMT</pubDate>
+      <category>gemini-notebook</category>
+      <description>Googleは2026年10月16日、AI学習支援サービス「Gemini Notebook」に導入した3つの新機能を紹介しました。60秒の解説動画、対話型学習ガイド、多様な形式のクイズを通じて、試験対策や教材の復習を効率化します。</description>
+    </item>
+    <item>
+      <title>5010億パラメータのオープンAI「Beam」登場！100万トークン対応、企業向けAI開発の新たな選択肢に</title>
+      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1560705274053005393</link>
+      <guid isPermaLink="false">afnjp-1560705274053005393</guid>
+      <pubDate>Fri, 16 Oct 2026 17:25:33 GMT</pubDate>
+      <category>その他</category>
+      <description>2026年10月16日、Hugging Faceは米国のAI研究企業Reflectionが開発した大規模言語モデル「Beam」を公開しました。</description>
+    </item>
     <item>
       <title>Anthropic「Claude Code Review」正式提供開始！レビュー速度が約3倍に向上、AIによるバグ検出を強化</title>
       <link>https://discord.com/channels/1415350002255007784/1415549165181599795/threads/1560589975475462174</link>
@@ -86,22 +102,6 @@
       <pubDate>Thu, 15 Oct 2026 16:15:26 GMT</pubDate>
       <category>その他</category>
       <description>生成AIアプリケーションのユーザー体験を大きく変えるオープンソース技術「OpenUI」が注目されています。</description>
-    </item>
-    <item>
-      <title>Google「Universal Cart」米国で提供開始！AIが複数店舗の買い物を統合、価格追跡から決済まで支援</title>
-      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1560324409108070571</link>
-      <guid isPermaLink="false">afnjp-1560324409108070571</guid>
-      <pubDate>Thu, 15 Oct 2026 16:12:08 GMT</pubDate>
-      <category>google</category>
-      <description>Googleは2026年10月15日、AIを活用した新しいショッピング機能「Universal Cart（ユニバーサルカート）」の米国展開を開始しました。</description>
-    </item>
-    <item>
-      <title>スイス発の完全オープンAI「Apertus 1.5」公開！画像・音声理解、推論モード、26万トークン対応を実現</title>
-      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1560324248021762109</link>
-      <guid isPermaLink="false">afnjp-1560324248021762109</guid>
-      <pubDate>Thu, 15 Oct 2026 16:11:30 GMT</pubDate>
-      <category>その他</category>
-      <description>スイスのAI開発プロジェクト「Swiss AI」は2026年10月15日、大規模言語モデル「Apertus 1.5」の技術詳細を発表しました。8B（80億）と70B（700億）パラメータの2モデルを展開し、画像・音声理解、推論モード、長文処理、ツール連携を強…</description>
     </item>
   </channel>
 </rss>

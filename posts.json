@@ -1,8 +1,60 @@
 {
-  "generated_at": "2026-10-16T14:48:54.217Z",
+  "generated_at": "2026-10-16T18:47:13.078Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1560720179309060226",
+      "title": "Google「Gemini Notebook」に学習支援の新機能3つを追加、60秒動画・対話型教材・クイズを強化",
+      "channel": "gemini-notebook",
+      "category": "Google",
+      "date": "2026-10-16T18:24:47.526Z",
+      "excerpt": "Googleは2026年10月16日、AI学習支援サービス「Gemini Notebook」に導入した3つの新機能を紹介しました。60秒の解説動画、対話型学習ガイド、多様な形式のクイズを通じて、試験対策や教材の復習を効率化します。",
+      "lead": "Googleは2026年10月16日、AI学習支援サービス「Gemini Notebook」に導入した3つの新機能を紹介しました。60秒の解説動画、対話型学習ガイド、多様な形式のクイズを通じて、試験対策や教材の復習を効率化します。",
+      "headings": [
+        "1. 60秒のショート動画で難しい概念を理解",
+        "2. Interactive Learning Overviewsで教材を統合",
+        "3. クイズ形式を拡充し、理解度の確認を強化",
+        "教育AIとしての技術的意義",
+        "今後の展望"
+      ],
+      "source_url": "https://blog.google/innovation-and-ai/products/gemini-notebook/three-tips-study-gemini-notebook/",
+      "source_urls": [
+        "https://blog.google/innovation-and-ai/products/gemini-notebook/three-tips-study-gemini-notebook/"
+      ],
+      "source_label": "blog.google",
+      "cover": "assets/posts/1560720179309060226.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1418011435287707648/threads/1560720179309060226",
+      "first_seen": "2026-10-16T18:24:47.526Z",
+      "kind": "feature",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1560705274053005393",
+      "title": "5010億パラメータのオープンAI「Beam」登場！100万トークン対応、企業向けAI開発の新たな選択肢に",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-10-16T17:25:33.836Z",
+      "excerpt": "2026年10月16日、Hugging Faceは米国のAI研究企業Reflectionが開発した大規模言語モデル「Beam」を公開しました。",
+      "lead": "2026年10月16日、Hugging Faceは米国のAI研究企業Reflectionが開発した大規模言語モデル「Beam」を公開しました。",
+      "headings": [
+        "5010億パラメータを効率的に動かすMoE技術",
+        "100万トークンを支える独自アーキテクチャ",
+        "コーディング・推論性能と評価結果",
+        "GPU要件と開発環境",
+        "企業が独自AIを保有する時代へ"
+      ],
+      "source_url": "https://huggingface.co/blog/reflection-beam",
+      "source_urls": [
+        "https://huggingface.co/blog/reflection-beam"
+      ],
+      "source_label": "huggingface.co",
+      "cover": "assets/posts/1560705274053005393.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1560705274053005393",
+      "first_seen": "2026-10-16T17:25:33.836Z",
+      "kind": "model",
+      "kind_confidence": 1
+    },
     {
       "id": "1560589975475462174",
       "title": "Anthropic「Claude Code Review」正式提供開始！レビュー速度が約3倍に向上、AIによるバグ検出を強化",
@@ -262,59 +314,6 @@
       "first_seen": "2026-10-15T16:15:26.608Z",
       "kind": "tool",
       "kind_confidence": 0.94
-    },
-    {
-      "id": "1560324409108070571",
-      "title": "Google「Universal Cart」米国で提供開始！AIが複数店舗の買い物を統合、価格追跡から決済まで支援",
-      "channel": "google",
-      "category": "Google",
-      "date": "2026-10-15T16:12:08.557Z",
-      "excerpt": "Googleは2026年10月15日、AIを活用した新しいショッピング機能「Universal Cart（ユニバーサルカート）」の米国展開を開始しました。",
-      "lead": "Googleは2026年10月15日、AIを活用した新しいショッピング機能「Universal Cart（ユニバーサルカート）」の米国展開を開始しました。",
-      "headings": [
-        "複数店舗の商品を1つのカートに集約",
-        "600億件以上の商品データをAIが活用",
-        "Universal Commerce Protocolで決済を簡素化",
-        "AIエージェント時代のEC基盤へ",
-        "今後の展望"
-      ],
-      "source_url": "https://blog.google/products-and-platforms/products/shopping/universal-cart-launch/",
-      "source_urls": [
-        "https://blog.google/products-and-platforms/products/shopping/universal-cart-launch/"
-      ],
-      "source_label": "blog.google",
-      "cover": "assets/posts/1560324409108070571.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1560324409108070571",
-      "first_seen": "2026-10-15T16:12:08.557Z",
-      "kind": "feature",
-      "kind_confidence": 0.87
-    },
-    {
-      "id": "1560324248021762109",
-      "title": "スイス発の完全オープンAI「Apertus 1.5」公開！画像・音声理解、推論モード、26万トークン対応を実現",
-      "channel": "その他",
-      "category": "その他",
-      "date": "2026-10-15T16:11:30.151Z",
-      "excerpt": "スイスのAI開発プロジェクト「Swiss AI」は2026年10月15日、大規模言語モデル「Apertus 1.5」の技術詳細を発表しました。8B（80億）と70B（700億）パラメータの2モデルを展開し、画像・音声理解、推論モード、長文処理、ツール連携を強…",
-      "lead": "スイスのAI開発プロジェクト「Swiss AI」は2026年10月15日、大規模言語モデル「Apertus 1.5」の技術詳細を発表しました。8B（80億）と70B（700億）パラメータの2モデルを展開し、画像・音声理解、推論モード、長文処理、ツール連携を強化しています。モデルの重みは7月24日にApache 2.0ライセンスで公開済みで、学習データや開発工程まで透明化した点が特徴です。",
-      "headings": [
-        "画像・音声を統一処理する新アーキテクチャ",
-        "コンテキスト長が4倍、26万トークンへ",
-        "追加学習と5段階のポストトレーニング",
-        "ベンチマークで確認された性能向上",
-        "学習過程まで公開する透明性戦略",
-        "今後の展望"
-      ],
-      "source_url": "https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes",
-      "source_urls": [
-        "https://huggingface.co/blog/swiss-ai/apertus-v15-release-notes"
-      ],
-      "source_label": "huggingface.co",
-      "cover": "assets/posts/1560324248021762109.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1560324248021762109",
-      "first_seen": "2026-10-15T16:11:30.151Z",
-      "kind": "model",
-      "kind_confidence": 1
     }
   ]
 }
