@@ -5,8 +5,48 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 15 Oct 2026 16:15:49 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 15 Oct 2026 23:51:30 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Anthropic、外部AI監査を本格化！独立評価機関に「社員並みのアクセス権」を付与</title>
+      <link>https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1560440012594741389</link>
+      <guid isPermaLink="false">afnjp-1560440012594741389</guid>
+      <pubDate>Thu, 15 Oct 2026 23:51:30 GMT</pubDate>
+      <category>anthropic</category>
+      <description>Anthropicは2026年10月15日、最先端AIモデルの安全性とリスク評価を強化するため、独立した第三者評価機関に社内システムへの深いアクセスを認める新たな取り組みを発表しました。</description>
+    </item>
+    <item>
+      <title>ElevenLabs、動画に音楽と効果音を自動生成する「Instant Soundtracks」を発表！映像解析からタイムライン同期までAIが実行</title>
+      <link>https://discord.com/channels/1415350002255007784/1441006356399259719/threads/1560439348216856678</link>
+      <guid isPermaLink="false">afnjp-1560439348216856678</guid>
+      <pubDate>Thu, 15 Oct 2026 23:48:52 GMT</pubDate>
+      <category>eleven-labs</category>
+      <description>ElevenLabsは2026年10月15日、動画に合わせたオリジナル音楽と効果音を自動生成する新機能「Instant Soundtracks」を発表しました。</description>
+    </item>
+    <item>
+      <title>OpenAI、生命科学特化AI「GPT-Rosalind」を米大学研究室に最大1年間無償提供</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1560439242075672586</link>
+      <guid isPermaLink="false">afnjp-1560439242075672586</guid>
+      <pubDate>Thu, 15 Oct 2026 23:48:26 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIは2026年10月15日、生命科学研究向けAIモデル「GPT-Rosalind」を大学の研究室に提供する新制度「Rosalind Academic Plan」を発表しました。対象研究室は最大30人分のライセンスを最長12カ月間、無料で利用できます…</description>
+    </item>
+    <item>
+      <title>IBM「Granite Switch 4.1」発表、会話・意思決定・音声認識を単一AIモデルに統合</title>
+      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1560439136371089480</link>
+      <guid isPermaLink="false">afnjp-1560439136371089480</guid>
+      <pubDate>Thu, 15 Oct 2026 23:48:01 GMT</pubDate>
+      <category>その他</category>
+      <description>IBMは2026年10月15日、会話生成、意思決定、音声認識を単一のエンドポイントで処理できるAIモデル「Granite Switch 4.1」を発表しました。</description>
+    </item>
+    <item>
+      <title>Google「Gemini 4 Argon」をAI Proユーザーに開放！Antigravityで利用可能に、専用の週間クォータも導入</title>
+      <link>https://discord.com/channels/1415350002255007784/1440381933371527311/threads/1560438556944764939</link>
+      <guid isPermaLink="false">afnjp-1560438556944764939</guid>
+      <pubDate>Thu, 15 Oct 2026 23:45:43 GMT</pubDate>
+      <category>antigravity</category>
+      <description>Googleは2026年10月16日、AI開発プラットフォーム「Google Antigravity」において、最新の高性能AIモデル「Gemini 4 Argon」を有料のGoogle AI Pro契約者向けに提供開始すると発表しました。</description>
+    </item>
     <item>
       <title>Krea 3登場！画像の変更部分だけを再生成、約8秒・0.06ドルの高速AI編集モデル</title>
       <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1560325334463938690</link>
@@ -62,46 +102,6 @@
       <pubDate>Thu, 15 Oct 2026 13:44:47 GMT</pubDate>
       <category>その他</category>
       <description>ByteDance傘下のBytePlusは、静止画像と音声からリアルな人物・キャラクター動画を生成するAIモデル「OmniHuman 2.0」を提供しています。</description>
-    </item>
-    <item>
-      <title>StepFun「Step 5 Preview」公開、6000億パラメータと100万トークン対応の次世代AI</title>
-      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1560287229929193492</link>
-      <guid isPermaLink="false">afnjp-1560287229929193492</guid>
-      <pubDate>Thu, 15 Oct 2026 13:44:24 GMT</pubDate>
-      <category>その他</category>
-      <description>中国のAI企業StepFunは、ソフトウェア開発や専門業務の自動化に特化した大規模AIモデル「Step 5 Preview」をHugging Faceで公開しました。総パラメータ数6000億、推論時の活性パラメータ数270億というMixture-of-Exp…</description>
-    </item>
-    <item>
-      <title>TypeSafe AI「Jev 1.14.0」発表！画像認識・物体位置検出・長文処理を実験的に解放</title>
-      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1560104140175048816</link>
-      <guid isPermaLink="false">afnjp-1560104140175048816</guid>
-      <pubDate>Thu, 15 Oct 2026 01:36:52 GMT</pubDate>
-      <category>その他</category>
-      <description>TypeSafe AIは、AIモデル「Jev 1.14.0」を発表しました。多言語対応を中心とする性能改善に加え、画像入力、物体の位置検出、長いコンテキストの処理を実験的に提供します。最大の特徴は、本番環境向けの信頼性と、先進機能を試す開発者の自由度を明確に…</description>
-    </item>
-    <item>
-      <title>Anthropic、Claudeに「AIエージェントの動作追跡機能」を導入！OpenTelemetry対応で監視・改善を高度化</title>
-      <link>https://discord.com/channels/1415350002255007784/1415353403269185546/threads/1560091804915732500</link>
-      <guid isPermaLink="false">afnjp-1560091804915732500</guid>
-      <pubDate>Thu, 15 Oct 2026 00:47:51 GMT</pubDate>
-      <category>claude</category>
-      <description>Anthropicは2026年10月14日、Claude PlatformでAIエージェントの動作を追跡できるOpenTelemetry（OTel）対応機能を発表しました。</description>
-    </item>
-    <item>
-      <title>AIが異常気象を3km解像度で再現、Ai2が「HiRO-ACEv2」公開——計算コストを約300分の1に削減</title>
-      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1560091636950892614</link>
-      <guid isPermaLink="false">afnjp-1560091636950892614</guid>
-      <pubDate>Thu, 15 Oct 2026 00:47:11 GMT</pubDate>
-      <category>その他</category>
-      <description>米国のAllen Institute for AI（Ai2）は2026年10月14日、全球の気候を3km解像度でシミュレーションするAIシステム「HiRO-ACEv2」を発表しました。</description>
-    </item>
-    <item>
-      <title>Anthropic、米中間選挙に向けClaudeの安全対策を強化――政治的公平性99％、AI悪用の検知も高度化</title>
-      <link>https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1560091467471392778</link>
-      <guid isPermaLink="false">afnjp-1560091467471392778</guid>
-      <pubDate>Thu, 15 Oct 2026 00:46:30 GMT</pubDate>
-      <category>anthropic</category>
-      <description>Anthropicは2026年10月14日、米国中間選挙に向けたAI「Claude」の選挙保護対策を発表しました。政治的公平性の評価改善、公式選挙情報の提供、偽ニュース生成や組織的な世論操作への対策を強化します。</description>
     </item>
   </channel>
 </rss>

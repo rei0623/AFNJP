@@ -1,9 +1,138 @@
 {
-  "generated_at": "2026-10-15T23:40:38.796Z",
+  "generated_at": "2026-10-16T04:26:45.020Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 385,
+  "count": 390,
   "posts": [
+    {
+      "id": "1560440012594741389",
+      "title": "Anthropic、外部AI監査を本格化！独立評価機関に「社員並みのアクセス権」を付与",
+      "channel": "anthropic",
+      "category": "Anthropic",
+      "date": "2026-10-15T23:51:30.576Z",
+      "excerpt": "Anthropicは2026年10月15日、最先端AIモデルの安全性とリスク評価を強化するため、独立した第三者評価機関に社内システムへの深いアクセスを認める新たな取り組みを発表しました。",
+      "lead": "Anthropicは2026年10月15日、最先端AIモデルの安全性とリスク評価を強化するため、独立した第三者評価機関に社内システムへの深いアクセスを認める新たな取り組みを発表しました。",
+      "headings": [
+        "社内情報を第三者に開示する新たな監査モデル",
+        "AI監査を3段階に制度化",
+        "SecureBioやAccentureとも連携",
+        "技術的な重要性と残された課題",
+        "今後の展望"
+      ],
+      "source_url": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
+      "source_urls": [
+        "https://www.anthropic.com/news/an-update-on-independent-evaluators"
+      ],
+      "source_label": "anthropic.com",
+      "cover": "assets/posts/1560440012594741389.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1560440012594741389",
+      "first_seen": "2026-10-15T23:51:30.576Z",
+      "kind": "policy",
+      "kind_confidence": 0.85
+    },
+    {
+      "id": "1560439348216856678",
+      "title": "ElevenLabs、動画に音楽と効果音を自動生成する「Instant Soundtracks」を発表！映像解析からタイムライン同期までAIが実行",
+      "channel": "eleven-labs",
+      "category": "その他",
+      "date": "2026-10-15T23:48:52.176Z",
+      "excerpt": "ElevenLabsは2026年10月15日、動画に合わせたオリジナル音楽と効果音を自動生成する新機能「Instant Soundtracks」を発表しました。",
+      "lead": "ElevenLabsは2026年10月15日、動画に合わせたオリジナル音楽と効果音を自動生成する新機能「Instant Soundtracks」を発表しました。",
+      "headings": [
+        "映像を理解して音楽と効果音を自動生成",
+        "音声を参照する生成技術が進化",
+        "API対応で動画制作パイプラインに統合可能",
+        "動画編集の作業工程を削減",
+        "今後の展望"
+      ],
+      "source_url": "https://elevenlabs.io/blog/introducing-instant-soundtracks",
+      "source_urls": [
+        "https://elevenlabs.io/blog/introducing-instant-soundtracks"
+      ],
+      "source_label": "elevenlabs.io",
+      "cover": "assets/posts/1560439348216856678.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1441006356399259719/threads/1560439348216856678",
+      "first_seen": "2026-10-15T23:48:52.176Z",
+      "kind": "feature",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1560439242075672586",
+      "title": "OpenAI、生命科学特化AI「GPT-Rosalind」を米大学研究室に最大1年間無償提供",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-10-15T23:48:26.870Z",
+      "excerpt": "OpenAIは2026年10月15日、生命科学研究向けAIモデル「GPT-Rosalind」を大学の研究室に提供する新制度「Rosalind Academic Plan」を発表しました。対象研究室は最大30人分のライセンスを最長12カ月間、無料で利用できます…",
+      "lead": "OpenAIは2026年10月15日、生命科学研究向けAIモデル「GPT-Rosalind」を大学の研究室に提供する新制度「Rosalind Academic Plan」を発表しました。対象研究室は最大30人分のライセンスを最長12カ月間、無料で利用できます。創薬、ゲノム解析、タンパク質設計などの研究をAIで支援し、科学的発見の加速を目指します。",
+      "headings": [
+        "無料提供の内容と利用条件",
+        "GPT-Rosalindの技術的特徴",
+        "大学研究室での活用事例",
+        "高度な研究利用と安全管理を両立",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/introducing-the-rosalind-academic-plan/",
+      "source_urls": [
+        "https://openai.com/index/introducing-the-rosalind-academic-plan/"
+      ],
+      "source_label": "openai.com",
+      "cover": "assets/posts/1560439242075672586.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1560439242075672586",
+      "first_seen": "2026-10-15T23:48:26.870Z",
+      "kind": "model",
+      "kind_confidence": 0.52
+    },
+    {
+      "id": "1560439136371089480",
+      "title": "IBM「Granite Switch 4.1」発表、会話・意思決定・音声認識を単一AIモデルに統合",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-10-15T23:48:01.668Z",
+      "excerpt": "IBMは2026年10月15日、会話生成、意思決定、音声認識を単一のエンドポイントで処理できるAIモデル「Granite Switch 4.1」を発表しました。",
+      "lead": "IBMは2026年10月15日、会話生成、意思決定、音声認識を単一のエンドポイントで処理できるAIモデル「Granite Switch 4.1」を発表しました。",
+      "headings": [
+        "3つの専門機能を1つのモデルに統合",
+        "技術の核心は「Activated LoRA」とKVキャッシュ共有",
+        "5段階のRAG処理で高速性を実証",
+        "企業AIへの影響と導入上の課題",
+        "今後の展望"
+      ],
+      "source_url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1",
+      "source_urls": [
+        "https://huggingface.co/blog/ibm-granite/granite-switch-4-1"
+      ],
+      "source_label": "huggingface.co",
+      "cover": "assets/posts/1560439136371089480.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1560439136371089480",
+      "first_seen": "2026-10-15T23:48:01.668Z",
+      "kind": "model",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1560438556944764939",
+      "title": "Google「Gemini 4 Argon」をAI Proユーザーに開放！Antigravityで利用可能に、専用の週間クォータも導入",
+      "channel": "antigravity",
+      "category": "Google",
+      "date": "2026-10-15T23:45:43.522Z",
+      "excerpt": "Googleは2026年10月16日、AI開発プラットフォーム「Google Antigravity」において、最新の高性能AIモデル「Gemini 4 Argon」を有料のGoogle AI Pro契約者向けに提供開始すると発表しました。",
+      "lead": "Googleは2026年10月16日、AI開発プラットフォーム「Google Antigravity」において、最新の高性能AIモデル「Gemini 4 Argon」を有料のGoogle AI Pro契約者向けに提供開始すると発表しました。",
+      "headings": [
+        "Gemini 4 ArgonがGoogle AI Proに対応",
+        "注目はArgon専用の週間クォータ",
+        "エンジニアにとって何が変わるのか",
+        "今後の展望"
+      ],
+      "source_url": "https://twitter.com/antigravity/status/2110866531932316011",
+      "source_urls": [
+        "https://twitter.com/antigravity/status/2110866531932316011",
+        "https://x.com/antigravity/status/2110866531932316011"
+      ],
+      "source_label": "twitter.com",
+      "url": "https://discord.com/channels/1415350002255007784/1440381933371527311/threads/1560438556944764939",
+      "first_seen": "2026-10-15T23:45:43.522Z",
+      "kind": "model",
+      "kind_confidence": 0.6
+    },
     {
       "id": "1560325334463938690",
       "title": "Krea 3登場！画像の変更部分だけを再生成、約8秒・0.06ドルの高速AI編集モデル",
