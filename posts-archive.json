@@ -1,9 +1,89 @@
 {
-  "generated_at": "2026-10-16T09:45:22.275Z",
+  "generated_at": "2026-10-16T14:48:54.214Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 390,
+  "count": 393,
   "posts": [
+    {
+      "id": "1560589975475462174",
+      "title": "Anthropic「Claude Code Review」正式提供開始！レビュー速度が約3倍に向上、AIによるバグ検出を強化",
+      "channel": "claude-code",
+      "category": "Anthropic",
+      "date": "2026-10-16T09:47:24.513Z",
+      "excerpt": "Anthropicは2026年10月15日、AIによるコードレビュー機能「Code Review」の研究プレビューを終了し、正式提供を開始しました。ClaudeのTeamおよびEnterpriseプランで利用可能となり、レビュー時間の大幅短縮、重大なバグの検…",
+      "lead": "Anthropicは2026年10月15日、AIによるコードレビュー機能「Code Review」の研究プレビューを終了し、正式提供を開始しました。ClaudeのTeamおよびEnterpriseプランで利用可能となり、レビュー時間の大幅短縮、重大なバグの検出精度向上、リポジトリ単位のレビュー設定に対応します。",
+      "headings": [
+        "レビュー速度が約3倍に向上",
+        "重大なバグの検出能力を強化",
+        "リポジトリごとに3段階のレビュー設定",
+        "GitHubと連携してレビューを自動実行",
+        "Enterprise向けに利用クレジットを提供",
+        "今後の展望"
+      ],
+      "source_url": "https://claude.com/ja/resources/articles/code-review-is-now-generally-available",
+      "source_urls": [
+        "https://claude.com/ja/resources/articles/code-review-is-now-generally-available"
+      ],
+      "source_label": "claude.com",
+      "cover": "assets/posts/1560589975475462174.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415549165181599795/threads/1560589975475462174",
+      "first_seen": "2026-10-16T09:47:24.513Z",
+      "kind": "feature",
+      "kind_confidence": 0.93
+    },
+    {
+      "id": "1560589830654660698",
+      "title": "画像生成AI「FLUX.3 Image Klein」登場！約2秒の高速生成と領域指定編集を実現",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-10-16T09:46:49.985Z",
+      "excerpt": "Hugging Faceは2026年10月15日、Black Forest Labsの新たな画像生成AI「FLUX.3 Image Klein」を、画像生成ライブラリ「Diffusers」でサポートしたと発表しました。",
+      "lead": "Hugging Faceは2026年10月15日、Black Forest Labsの新たな画像生成AI「FLUX.3 Image Klein」を、画像生成ライブラリ「Diffusers」でサポートしたと発表しました。",
+      "headings": [
+        "3つの画像生成・編集機能",
+        "高速生成と2種類のモデル",
+        "FLUX.2から進化したAIアーキテクチャ",
+        "開発者向けの拡張性も強化",
+        "今後の展望"
+      ],
+      "source_url": "https://huggingface.co/blog/flux-3",
+      "source_urls": [
+        "https://huggingface.co/blog/flux-3"
+      ],
+      "source_label": "huggingface.co",
+      "cover": "assets/posts/1560589830654660698.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1560589830654660698",
+      "first_seen": "2026-10-16T09:46:49.985Z",
+      "kind": "model",
+      "kind_confidence": 0.99
+    },
+    {
+      "id": "1560589600886362122",
+      "title": "Meta、8160億パラメータの「Muse Spark Open」公開！画像・音声・動画対応の超大規模AIモデル",
+      "channel": "muse-spark",
+      "category": "Meta",
+      "date": "2026-10-16T09:45:55.204Z",
+      "excerpt": "Metaの新たなオープンウェイトAIモデル「Muse Spark Open」が登場しました。Hugging Faceは2026年10月15日、モデルのアーキテクチャ、推論環境、ファインチューニング手法を公開しました。",
+      "lead": "Metaの新たなオープンウェイトAIモデル「Muse Spark Open」が登場しました。Hugging Faceは2026年10月15日、モデルのアーキテクチャ、推論環境、ファインチューニング手法を公開しました。",
+      "headings": [
+        "8160億パラメータを効率的に活用するMoE構造",
+        "画像・音声・動画を統合したマルチモーダルAI",
+        "100万トークン対応の実用上の課題",
+        "ローカル実行と開発環境への統合",
+        "AIエージェント開発への影響",
+        "今後の展望"
+      ],
+      "source_url": "https://huggingface.co/blog/meta-muse-spark-open",
+      "source_urls": [
+        "https://huggingface.co/blog/meta-muse-spark-open"
+      ],
+      "source_label": "huggingface.co",
+      "cover": "assets/posts/1560589600886362122.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1491820892789936220/threads/1560589600886362122",
+      "first_seen": "2026-10-16T09:45:55.204Z",
+      "kind": "model",
+      "kind_confidence": 1
+    },
     {
       "id": "1560440012594741389",
       "title": "Anthropic、外部AI監査を本格化！独立評価機関に「社員並みのアクセス権」を付与",

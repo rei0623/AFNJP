@@ -5,8 +5,32 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 15 Oct 2026 23:51:30 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 09:47:24 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Anthropic「Claude Code Review」正式提供開始！レビュー速度が約3倍に向上、AIによるバグ検出を強化</title>
+      <link>https://discord.com/channels/1415350002255007784/1415549165181599795/threads/1560589975475462174</link>
+      <guid isPermaLink="false">afnjp-1560589975475462174</guid>
+      <pubDate>Fri, 16 Oct 2026 09:47:24 GMT</pubDate>
+      <category>claude-code</category>
+      <description>Anthropicは2026年10月15日、AIによるコードレビュー機能「Code Review」の研究プレビューを終了し、正式提供を開始しました。ClaudeのTeamおよびEnterpriseプランで利用可能となり、レビュー時間の大幅短縮、重大なバグの検…</description>
+    </item>
+    <item>
+      <title>画像生成AI「FLUX.3 Image Klein」登場！約2秒の高速生成と領域指定編集を実現</title>
+      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1560589830654660698</link>
+      <guid isPermaLink="false">afnjp-1560589830654660698</guid>
+      <pubDate>Fri, 16 Oct 2026 09:46:49 GMT</pubDate>
+      <category>その他</category>
+      <description>Hugging Faceは2026年10月15日、Black Forest Labsの新たな画像生成AI「FLUX.3 Image Klein」を、画像生成ライブラリ「Diffusers」でサポートしたと発表しました。</description>
+    </item>
+    <item>
+      <title>Meta、8160億パラメータの「Muse Spark Open」公開！画像・音声・動画対応の超大規模AIモデル</title>
+      <link>https://discord.com/channels/1415350002255007784/1491820892789936220/threads/1560589600886362122</link>
+      <guid isPermaLink="false">afnjp-1560589600886362122</guid>
+      <pubDate>Fri, 16 Oct 2026 09:45:55 GMT</pubDate>
+      <category>muse-spark</category>
+      <description>Metaの新たなオープンウェイトAIモデル「Muse Spark Open」が登場しました。Hugging Faceは2026年10月15日、モデルのアーキテクチャ、推論環境、ファインチューニング手法を公開しました。</description>
+    </item>
     <item>
       <title>Anthropic、外部AI監査を本格化！独立評価機関に「社員並みのアクセス権」を付与</title>
       <link>https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1560440012594741389</link>
@@ -78,30 +102,6 @@
       <pubDate>Thu, 15 Oct 2026 16:11:30 GMT</pubDate>
       <category>その他</category>
       <description>スイスのAI開発プロジェクト「Swiss AI」は2026年10月15日、大規模言語モデル「Apertus 1.5」の技術詳細を発表しました。8B（80億）と70B（700億）パラメータの2モデルを展開し、画像・音声理解、推論モード、長文処理、ツール連携を強…</description>
-    </item>
-    <item>
-      <title>Mistral、時系列AI「Timestral」発表！わずか2億パラメータで主要ベンチマーク首位を達成</title>
-      <link>https://discord.com/channels/1415350002255007784/1460897850354438283/threads/1560324146993299597</link>
-      <guid isPermaLink="false">afnjp-1560324146993299597</guid>
-      <pubDate>Thu, 15 Oct 2026 16:11:06 GMT</pubDate>
-      <category>mistral-ai</category>
-      <description>Mistral AIは2026年10月15日、時系列予測に特化した基盤モデル群「Timestral」を発表しました。最大2億900万パラメータという比較的小規模な構成ながら、主要な3つの公開ベンチマークで首位を獲得したとしています。GPUを必要としない高速推…</description>
-    </item>
-    <item>
-      <title>NVIDIA「Nemotron 3.5 Super VL」発表、マルチモーダル推論と高速処理でAIエージェントを進化</title>
-      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1560323958560268378</link>
-      <guid isPermaLink="false">afnjp-1560323958560268378</guid>
-      <pubDate>Thu, 15 Oct 2026 16:10:21 GMT</pubDate>
-      <category>その他</category>
-      <description>NVIDIAは2026年10月15日、画像・文書・動画の理解と高度な推論、ツール操作を統合したオープンウェイトAIモデル「Nemotron 3.5 Super VL」を発表しました。最大の特徴は、1200億パラメータの大規模モデルでありながら、効率的な推論処…</description>
-    </item>
-    <item>
-      <title>ByteDance「OmniHuman 2.0」公開、写真1枚から映画級のAI動画を生成する新技術</title>
-      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1560287326050058330</link>
-      <guid isPermaLink="false">afnjp-1560287326050058330</guid>
-      <pubDate>Thu, 15 Oct 2026 13:44:47 GMT</pubDate>
-      <category>その他</category>
-      <description>ByteDance傘下のBytePlusは、静止画像と音声からリアルな人物・キャラクター動画を生成するAIモデル「OmniHuman 2.0」を提供しています。</description>
     </item>
   </channel>
 </rss>
