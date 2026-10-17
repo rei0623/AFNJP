@@ -1,8 +1,86 @@
 {
-  "generated_at": "2026-10-16T22:04:04.484Z",
+  "generated_at": "2026-10-17T00:26:20.349Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1560803782026334258",
+      "title": "視覚で「考える」AI、ElorianがGlimpseを発表！GPT-6 Astraに匹敵する性能を低コストで実現",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-10-16T23:56:59.967Z",
+      "excerpt": "AI企業Elorianは2026年10月16日、画像や動画から物理世界を理解し、視覚情報を使って推論する新モデル「Glimpse」を発表しました。GPT-6 AstraやClaude Opus 5.5などの最先端モデルに匹敵する性能を、一部の視覚ベンチマーク…",
+      "lead": "AI企業Elorianは2026年10月16日、画像や動画から物理世界を理解し、視覚情報を使って推論する新モデル「Glimpse」を発表しました。GPT-6 AstraやClaude Opus 5.5などの最先端モデルに匹敵する性能を、一部の視覚ベンチマークで実現したと主張しています。APIとチャットインターフェースを通じて利用できます。",
+      "headings": [
+        "視覚情報を直接使う新しい推論モデル",
+        "GPT-6 Astraとの性能比較",
+        "API料金は最先端モデルより大幅に安価",
+        "ロボティクスや動画解析への応用",
+        "今後の展望"
+      ],
+      "source_url": "https://elorian.ai/blog/introducing-glimpse",
+      "source_urls": [
+        "https://elorian.ai/blog/introducing-glimpse"
+      ],
+      "source_label": "elorian.ai",
+      "cover": "assets/posts/1560803782026334258.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1560803782026334258",
+      "first_seen": "2026-10-16T23:56:59.967Z",
+      "kind": "model",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1560803643220037724",
+      "title": "Liquid AI、次世代判断AI「d1-ultra」発表！生成せず確率で回答、競合モデルを上回る性能を実現",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-10-16T23:56:26.873Z",
+      "excerpt": "Liquid AIは2026年10月15日、テキストと画像を理解し、質問に対する判断を確率で返す新型AIモデル「d1-ultra」を発表しました。",
+      "lead": "Liquid AIは2026年10月15日、テキストと画像を理解し、質問に対する判断を確率で返す新型AIモデル「d1-ultra」を発表しました。",
+      "headings": [
+        "生成AIとは異なる「判断特化型AI」",
+        "ベンチマークで競合を上回る性能",
+        "重要なのは「判断の正確さ」と「確率の信頼性」",
+        "API提供開始、画像も低コストで処理",
+        "今後の展望"
+      ],
+      "source_url": "https://www.liquid.ai/blog/d1-ultra",
+      "source_urls": [
+        "https://www.liquid.ai/blog/d1-ultra"
+      ],
+      "source_label": "liquid.ai",
+      "cover": "assets/posts/1560803643220037724.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1560803643220037724",
+      "first_seen": "2026-10-16T23:56:26.873Z",
+      "kind": "model",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1560803461631705138",
+      "title": "Replit、自社クラウドでAIアプリを開発・運用できる「Bring Your Own Cloud」を発表",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-10-16T23:55:43.579Z",
+      "excerpt": "2026年10月16日、AIアプリ開発プラットフォームを提供するReplitは、企業が自社クラウド環境でReplitを利用できる新機能「Bring Your Own Cloud（BYOC）」を発表しました。",
+      "lead": "2026年10月16日、AIアプリ開発プラットフォームを提供するReplitは、企業が自社クラウド環境でReplitを利用できる新機能「Bring Your Own Cloud（BYOC）」を発表しました。",
+      "headings": [
+        "企業のクラウド環境でReplitを動作",
+        "AIエージェント基盤も企業クラウドに配置",
+        "mTLSと顧客管理暗号鍵によるセキュリティ強化",
+        "Image Exportsで既存の運用基盤にも統合",
+        "今後の展望"
+      ],
+      "source_url": "https://replit.com/blog/bring-your-own-cloud",
+      "source_urls": [
+        "https://replit.com/blog/bring-your-own-cloud"
+      ],
+      "source_label": "replit.com",
+      "cover": "assets/posts/1560803461631705138.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1560803461631705138",
+      "first_seen": "2026-10-16T23:55:43.579Z",
+      "kind": "feature",
+      "kind_confidence": 1
+    },
     {
       "id": "1560720179309060226",
       "title": "Google「Gemini Notebook」に学習支援の新機能3つを追加、60秒動画・対話型教材・クイズを強化",
@@ -238,82 +316,6 @@
       "first_seen": "2026-10-15T23:48:01.668Z",
       "kind": "model",
       "kind_confidence": 1
-    },
-    {
-      "id": "1560438556944764939",
-      "title": "Google「Gemini 4 Argon」をAI Proユーザーに開放！Antigravityで利用可能に、専用の週間クォータも導入",
-      "channel": "antigravity",
-      "category": "Google",
-      "date": "2026-10-15T23:45:43.522Z",
-      "excerpt": "Googleは2026年10月16日、AI開発プラットフォーム「Google Antigravity」において、最新の高性能AIモデル「Gemini 4 Argon」を有料のGoogle AI Pro契約者向けに提供開始すると発表しました。",
-      "lead": "Googleは2026年10月16日、AI開発プラットフォーム「Google Antigravity」において、最新の高性能AIモデル「Gemini 4 Argon」を有料のGoogle AI Pro契約者向けに提供開始すると発表しました。",
-      "headings": [
-        "Gemini 4 ArgonがGoogle AI Proに対応",
-        "注目はArgon専用の週間クォータ",
-        "エンジニアにとって何が変わるのか",
-        "今後の展望"
-      ],
-      "source_url": "https://twitter.com/antigravity/status/2110866531932316011",
-      "source_urls": [
-        "https://twitter.com/antigravity/status/2110866531932316011",
-        "https://x.com/antigravity/status/2110866531932316011"
-      ],
-      "source_label": "twitter.com",
-      "url": "https://discord.com/channels/1415350002255007784/1440381933371527311/threads/1560438556944764939",
-      "first_seen": "2026-10-15T23:45:43.522Z",
-      "kind": "model",
-      "kind_confidence": 0.6
-    },
-    {
-      "id": "1560325334463938690",
-      "title": "Krea 3登場！画像の変更部分だけを再生成、約8秒・0.06ドルの高速AI編集モデル",
-      "channel": "その他",
-      "category": "その他",
-      "date": "2026-10-15T16:15:49.179Z",
-      "excerpt": "画像生成AIプラットフォームのKreaは、新たな画像編集モデル「Krea 3」を公開しました。最大の特徴は、画像全体を再生成するのではなく、変更が必要な領域に計算資源を集中させる設計です。",
-      "lead": "画像生成AIプラットフォームのKreaは、新たな画像編集モデル「Krea 3」を公開しました。最大の特徴は、画像全体を再生成するのではなく、変更が必要な領域に計算資源を集中させる設計です。",
-      "headings": [
-        "画像全体を作り直さない、新しい編集アプローチ",
-        "Nano Banana Proなどとの速度・価格比較",
-        "広告制作・EC・映像制作への展開",
-        "導入時に確認すべき技術的課題",
-        "今後の展望"
-      ],
-      "source_url": "https://www.krea.ai/krea-3",
-      "source_urls": [
-        "https://www.krea.ai/krea-3"
-      ],
-      "source_label": "krea.ai",
-      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1560325334463938690",
-      "first_seen": "2026-10-15T16:15:49.179Z",
-      "kind": "model",
-      "kind_confidence": 1
-    },
-    {
-      "id": "1560325239794044938",
-      "title": "OpenUI、生成AIの回答を「操作できるUI」に変革！独自言語で高速化と低コスト化を実現",
-      "channel": "その他",
-      "category": "その他",
-      "date": "2026-10-15T16:15:26.608Z",
-      "excerpt": "生成AIアプリケーションのユーザー体験を大きく変えるオープンソース技術「OpenUI」が注目されています。",
-      "lead": "生成AIアプリケーションのユーザー体験を大きく変えるオープンソース技術「OpenUI」が注目されています。",
-      "headings": [
-        "OpenUIとは？ AIが画面を動的に構築する新技術",
-        "独自言語「OpenUI Lang」が技術的な中核",
-        "ベンチマークではトークン消費と信頼性を改善",
-        "OpenUI Gatewayで生成エラーを自動修復",
-        "今後の展望"
-      ],
-      "source_url": "https://www.openui.com/",
-      "source_urls": [
-        "https://www.openui.com/"
-      ],
-      "source_label": "openui.com",
-      "cover": "assets/posts/1560325239794044938.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1560325239794044938",
-      "first_seen": "2026-10-15T16:15:26.608Z",
-      "kind": "tool",
-      "kind_confidence": 0.94
     }
   ]
 }

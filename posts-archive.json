@@ -1,9 +1,87 @@
 {
-  "generated_at": "2026-10-16T22:04:04.480Z",
+  "generated_at": "2026-10-17T00:26:20.248Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 395,
+  "count": 398,
   "posts": [
+    {
+      "id": "1560803782026334258",
+      "title": "視覚で「考える」AI、ElorianがGlimpseを発表！GPT-6 Astraに匹敵する性能を低コストで実現",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-10-16T23:56:59.967Z",
+      "excerpt": "AI企業Elorianは2026年10月16日、画像や動画から物理世界を理解し、視覚情報を使って推論する新モデル「Glimpse」を発表しました。GPT-6 AstraやClaude Opus 5.5などの最先端モデルに匹敵する性能を、一部の視覚ベンチマーク…",
+      "lead": "AI企業Elorianは2026年10月16日、画像や動画から物理世界を理解し、視覚情報を使って推論する新モデル「Glimpse」を発表しました。GPT-6 AstraやClaude Opus 5.5などの最先端モデルに匹敵する性能を、一部の視覚ベンチマークで実現したと主張しています。APIとチャットインターフェースを通じて利用できます。",
+      "headings": [
+        "視覚情報を直接使う新しい推論モデル",
+        "GPT-6 Astraとの性能比較",
+        "API料金は最先端モデルより大幅に安価",
+        "ロボティクスや動画解析への応用",
+        "今後の展望"
+      ],
+      "source_url": "https://elorian.ai/blog/introducing-glimpse",
+      "source_urls": [
+        "https://elorian.ai/blog/introducing-glimpse"
+      ],
+      "source_label": "elorian.ai",
+      "cover": "assets/posts/1560803782026334258.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1560803782026334258",
+      "first_seen": "2026-10-16T23:56:59.967Z",
+      "kind": "model",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1560803643220037724",
+      "title": "Liquid AI、次世代判断AI「d1-ultra」発表！生成せず確率で回答、競合モデルを上回る性能を実現",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-10-16T23:56:26.873Z",
+      "excerpt": "Liquid AIは2026年10月15日、テキストと画像を理解し、質問に対する判断を確率で返す新型AIモデル「d1-ultra」を発表しました。",
+      "lead": "Liquid AIは2026年10月15日、テキストと画像を理解し、質問に対する判断を確率で返す新型AIモデル「d1-ultra」を発表しました。",
+      "headings": [
+        "生成AIとは異なる「判断特化型AI」",
+        "ベンチマークで競合を上回る性能",
+        "重要なのは「判断の正確さ」と「確率の信頼性」",
+        "API提供開始、画像も低コストで処理",
+        "今後の展望"
+      ],
+      "source_url": "https://www.liquid.ai/blog/d1-ultra",
+      "source_urls": [
+        "https://www.liquid.ai/blog/d1-ultra"
+      ],
+      "source_label": "liquid.ai",
+      "cover": "assets/posts/1560803643220037724.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1560803643220037724",
+      "first_seen": "2026-10-16T23:56:26.873Z",
+      "kind": "model",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1560803461631705138",
+      "title": "Replit、自社クラウドでAIアプリを開発・運用できる「Bring Your Own Cloud」を発表",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-10-16T23:55:43.579Z",
+      "excerpt": "2026年10月16日、AIアプリ開発プラットフォームを提供するReplitは、企業が自社クラウド環境でReplitを利用できる新機能「Bring Your Own Cloud（BYOC）」を発表しました。",
+      "lead": "2026年10月16日、AIアプリ開発プラットフォームを提供するReplitは、企業が自社クラウド環境でReplitを利用できる新機能「Bring Your Own Cloud（BYOC）」を発表しました。",
+      "headings": [
+        "企業のクラウド環境でReplitを動作",
+        "AIエージェント基盤も企業クラウドに配置",
+        "mTLSと顧客管理暗号鍵によるセキュリティ強化",
+        "Image Exportsで既存の運用基盤にも統合",
+        "今後の展望"
+      ],
+      "source_url": "https://replit.com/blog/bring-your-own-cloud",
+      "source_urls": [
+        "https://replit.com/blog/bring-your-own-cloud"
+      ],
+      "source_label": "replit.com",
+      "cover": "assets/posts/1560803461631705138.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1560803461631705138",
+      "first_seen": "2026-10-16T23:55:43.579Z",
+      "kind": "feature",
+      "kind_confidence": 1
+    },
     {
       "id": "1560720179309060226",
       "title": "Google「Gemini Notebook」に学習支援の新機能3つを追加、60秒動画・対話型教材・クイズを強化",
