@@ -1,9 +1,35 @@
 {
-  "generated_at": "2026-10-17T17:07:42.223Z",
+  "generated_at": "2026-10-17T19:21:41.085Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 398,
+  "count": 399,
   "posts": [
+    {
+      "id": "1561064232328372315",
+      "title": "DeepSeek-V4.1-Flash-1017公開、推論・コーディング・AIエージェント性能が大幅向上",
+      "channel": "deep-seek",
+      "category": "その他",
+      "date": "2026-10-17T17:11:56.158Z",
+      "excerpt": "中国のAI企業DeepSeekは、最新AIモデル「DeepSeek-V4.1-Flash-1017」をHugging Faceで公開しました。既存のDeepSeek-V4.1-Flashを改良したモデルで、推論、プログラミング、AIエージェント、画像理解の各…",
+      "lead": "中国のAI企業DeepSeekは、最新AIモデル「DeepSeek-V4.1-Flash-1017」をHugging Faceで公開しました。既存のDeepSeek-V4.1-Flashを改良したモデルで、推論、プログラミング、AIエージェント、画像理解の各分野で性能が向上しています。さらに、タスク実行時間と出力トークン数を削減し、処理速度とコスト効率の両立を目指しています。",
+      "headings": [
+        "ベンチマークで確認された性能向上",
+        "7630億パラメータと100万トークンの長文処理",
+        "開発者向けに新しいプロンプト処理基盤を提供",
+        "オープンウェイトAI導入への影響",
+        "今後の展望"
+      ],
+      "source_url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "source_urls": [
+        "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017"
+      ],
+      "source_label": "huggingface.co",
+      "cover": "assets/posts/1561064232328372315.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1419690651490193470/threads/1561064232328372315",
+      "first_seen": "2026-10-17T17:11:56.158Z",
+      "kind": "model",
+      "kind_confidence": 1
+    },
     {
       "id": "1560803782026334258",
       "title": "視覚で「考える」AI、ElorianがGlimpseを発表！GPT-6 Astraに匹敵する性能を低コストで実現",

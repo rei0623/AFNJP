@@ -1,8 +1,34 @@
 {
-  "generated_at": "2026-10-17T17:07:42.225Z",
+  "generated_at": "2026-10-17T19:21:41.088Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1561064232328372315",
+      "title": "DeepSeek-V4.1-Flash-1017公開、推論・コーディング・AIエージェント性能が大幅向上",
+      "channel": "deep-seek",
+      "category": "その他",
+      "date": "2026-10-17T17:11:56.158Z",
+      "excerpt": "中国のAI企業DeepSeekは、最新AIモデル「DeepSeek-V4.1-Flash-1017」をHugging Faceで公開しました。既存のDeepSeek-V4.1-Flashを改良したモデルで、推論、プログラミング、AIエージェント、画像理解の各…",
+      "lead": "中国のAI企業DeepSeekは、最新AIモデル「DeepSeek-V4.1-Flash-1017」をHugging Faceで公開しました。既存のDeepSeek-V4.1-Flashを改良したモデルで、推論、プログラミング、AIエージェント、画像理解の各分野で性能が向上しています。さらに、タスク実行時間と出力トークン数を削減し、処理速度とコスト効率の両立を目指しています。",
+      "headings": [
+        "ベンチマークで確認された性能向上",
+        "7630億パラメータと100万トークンの長文処理",
+        "開発者向けに新しいプロンプト処理基盤を提供",
+        "オープンウェイトAI導入への影響",
+        "今後の展望"
+      ],
+      "source_url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
+      "source_urls": [
+        "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017"
+      ],
+      "source_label": "huggingface.co",
+      "cover": "assets/posts/1561064232328372315.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1419690651490193470/threads/1561064232328372315",
+      "first_seen": "2026-10-17T17:11:56.158Z",
+      "kind": "model",
+      "kind_confidence": 1
+    },
     {
       "id": "1560803782026334258",
       "title": "視覚で「考える」AI、ElorianがGlimpseを発表！GPT-6 Astraに匹敵する性能を低コストで実現",
@@ -290,32 +316,6 @@
       "first_seen": "2026-10-15T23:48:26.870Z",
       "kind": "model",
       "kind_confidence": 0.52
-    },
-    {
-      "id": "1560439136371089480",
-      "title": "IBM「Granite Switch 4.1」発表、会話・意思決定・音声認識を単一AIモデルに統合",
-      "channel": "その他",
-      "category": "その他",
-      "date": "2026-10-15T23:48:01.668Z",
-      "excerpt": "IBMは2026年10月15日、会話生成、意思決定、音声認識を単一のエンドポイントで処理できるAIモデル「Granite Switch 4.1」を発表しました。",
-      "lead": "IBMは2026年10月15日、会話生成、意思決定、音声認識を単一のエンドポイントで処理できるAIモデル「Granite Switch 4.1」を発表しました。",
-      "headings": [
-        "3つの専門機能を1つのモデルに統合",
-        "技術の核心は「Activated LoRA」とKVキャッシュ共有",
-        "5段階のRAG処理で高速性を実証",
-        "企業AIへの影響と導入上の課題",
-        "今後の展望"
-      ],
-      "source_url": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1",
-      "source_urls": [
-        "https://huggingface.co/blog/ibm-granite/granite-switch-4-1"
-      ],
-      "source_label": "huggingface.co",
-      "cover": "assets/posts/1560439136371089480.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1560439136371089480",
-      "first_seen": "2026-10-15T23:48:01.668Z",
-      "kind": "model",
-      "kind_confidence": 1
     }
   ]
 }
