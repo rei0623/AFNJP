@@ -1,8 +1,86 @@
 {
-  "generated_at": "2026-10-18T23:08:37.549Z",
+  "generated_at": "2026-10-19T01:12:56.827Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1561526676054085632",
+      "title": "Anthropicが「Claude Money」を開発中、銀行口座とAIを連携する個人向け金融サービスへ進出",
+      "channel": "リーク情報",
+      "category": "リーク情報",
+      "date": "2026-10-18T23:49:31.334Z",
+      "excerpt": "Anthropicが、AIアシスタント「Claude」に銀行口座を接続し、個人の資産や支出を分析できる新機能「Claude Money」を準備していることが明らかになりました。2026年9月14日、AI関連メディアTestingCatalogが報じました。",
+      "lead": "Anthropicが、AIアシスタント「Claude」に銀行口座を接続し、個人の資産や支出を分析できる新機能「Claude Money」を準備していることが明らかになりました。2026年9月14日、AI関連メディアTestingCatalogが報じました。",
+      "headings": [
+        "銀行口座とClaudeを直接接続",
+        "技術的な焦点は金融データとの継続的な連携",
+        "ChatGPT Financesとの競争が本格化",
+        "個人情報保護と規制対応が課題",
+        "今後の展望"
+      ],
+      "source_url": "https://www.testingcatalog.com/anthropic-prepares-claude-money-for-personal-finance/",
+      "source_urls": [
+        "https://www.testingcatalog.com/anthropic-prepares-claude-money-for-personal-finance/"
+      ],
+      "source_label": "testingcatalog.com",
+      "cover": "assets/posts/1561526676054085632.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415534435712897124/threads/1561526676054085632",
+      "first_seen": "2026-10-18T23:49:31.334Z",
+      "kind": "feature",
+      "kind_confidence": 0.98
+    },
+    {
+      "id": "1561526589479452735",
+      "title": "OpenAIが「GPT-Image-3」をテスト中か？謎の画像生成AI「Aurora」3モデルが出現",
+      "channel": "リーク情報",
+      "category": "リーク情報",
+      "date": "2026-10-18T23:49:10.693Z",
+      "excerpt": "OpenAIが次世代画像生成AI「GPT-Image-3」の開発を進めている可能性が浮上しました。2026年10月18日、同社のAPIに未発表の「Aurora」シリーズ3モデルが一時的に出現し、その後、AIモデル比較プラットフォーム「Arena」で画像生成テ…",
+      "lead": "OpenAIが次世代画像生成AI「GPT-Image-3」の開発を進めている可能性が浮上しました。2026年10月18日、同社のAPIに未発表の「Aurora」シリーズ3モデルが一時的に出現し、その後、AIモデル比較プラットフォーム「Arena」で画像生成テストが確認されたとTestingCatalogが報じました。",
+      "headings": [
+        "3つの未発表モデルがAPIに出現",
+        "技術的注目点：速度と画質の最適化",
+        "GPT-Image-2.5からの進化となるか",
+        "開発者や企業への影響",
+        "今後の展望"
+      ],
+      "source_url": "https://www.testingcatalog.com/openai-possibly-testing-gpt-image-3/",
+      "source_urls": [
+        "https://www.testingcatalog.com/openai-possibly-testing-gpt-image-3/"
+      ],
+      "source_label": "testingcatalog.com",
+      "cover": "assets/posts/1561526589479452735.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415534435712897124/threads/1561526589479452735",
+      "first_seen": "2026-10-18T23:49:10.693Z",
+      "kind": "model",
+      "kind_confidence": 0.97
+    },
+    {
+      "id": "1561526492373057621",
+      "title": "Anthropic、企業価値に連動する公益基金を設立へ—株式5%を拠出、AI成長の利益を社会に還元",
+      "channel": "anthropic",
+      "category": "Anthropic",
+      "date": "2026-10-18T23:48:47.541Z",
+      "excerpt": "AI開発企業Anthropicは2026年10月18日、新組織「Anthropic Public Benefit Fund」の設立を発表しました。株主の承認を条件に、自社株式の5%を基金に拠出し、企業価値の上昇に応じて拠出比率を追加できる仕組みを導入します。…",
+      "lead": "AI開発企業Anthropicは2026年10月18日、新組織「Anthropic Public Benefit Fund」の設立を発表しました。株主の承認を条件に、自社株式の5%を基金に拠出し、企業価値の上昇に応じて拠出比率を追加できる仕組みを導入します。AIが生み出す経済的価値を社会へ還元する、新たな企業統治モデルとして注目されます。",
+      "headings": [
+        "企業成長に連動する株式拠出モデル",
+        "非営利財団ではなくLLCを選んだ理由",
+        "AIによる雇用変化への対応も視野に",
+        "公益目的の株式比率は約20%に",
+        "今後の展望"
+      ],
+      "source_url": "https://www.anthropic.com/news/public-benefit-fund",
+      "source_urls": [
+        "https://www.anthropic.com/news/public-benefit-fund"
+      ],
+      "source_label": "anthropic.com",
+      "cover": "assets/posts/1561526492373057621.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1561526492373057621",
+      "first_seen": "2026-10-18T23:48:47.541Z",
+      "kind": "business",
+      "kind_confidence": 1
+    },
     {
       "id": "1561064232328372315",
       "title": "DeepSeek-V4.1-Flash-1017公開、推論・コーディング・AIエージェント性能が大幅向上",
@@ -238,84 +316,6 @@
       "first_seen": "2026-10-16T09:45:55.204Z",
       "kind": "model",
       "kind_confidence": 1
-    },
-    {
-      "id": "1560440012594741389",
-      "title": "Anthropic、外部AI監査を本格化！独立評価機関に「社員並みのアクセス権」を付与",
-      "channel": "anthropic",
-      "category": "Anthropic",
-      "date": "2026-10-15T23:51:30.576Z",
-      "excerpt": "Anthropicは2026年10月15日、最先端AIモデルの安全性とリスク評価を強化するため、独立した第三者評価機関に社内システムへの深いアクセスを認める新たな取り組みを発表しました。",
-      "lead": "Anthropicは2026年10月15日、最先端AIモデルの安全性とリスク評価を強化するため、独立した第三者評価機関に社内システムへの深いアクセスを認める新たな取り組みを発表しました。",
-      "headings": [
-        "社内情報を第三者に開示する新たな監査モデル",
-        "AI監査を3段階に制度化",
-        "SecureBioやAccentureとも連携",
-        "技術的な重要性と残された課題",
-        "今後の展望"
-      ],
-      "source_url": "https://www.anthropic.com/news/an-update-on-independent-evaluators",
-      "source_urls": [
-        "https://www.anthropic.com/news/an-update-on-independent-evaluators"
-      ],
-      "source_label": "anthropic.com",
-      "cover": "assets/posts/1560440012594741389.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1560440012594741389",
-      "first_seen": "2026-10-15T23:51:30.576Z",
-      "kind": "policy",
-      "kind_confidence": 0.85
-    },
-    {
-      "id": "1560439348216856678",
-      "title": "ElevenLabs、動画に音楽と効果音を自動生成する「Instant Soundtracks」を発表！映像解析からタイムライン同期までAIが実行",
-      "channel": "eleven-labs",
-      "category": "その他",
-      "date": "2026-10-15T23:48:52.176Z",
-      "excerpt": "ElevenLabsは2026年10月15日、動画に合わせたオリジナル音楽と効果音を自動生成する新機能「Instant Soundtracks」を発表しました。",
-      "lead": "ElevenLabsは2026年10月15日、動画に合わせたオリジナル音楽と効果音を自動生成する新機能「Instant Soundtracks」を発表しました。",
-      "headings": [
-        "映像を理解して音楽と効果音を自動生成",
-        "音声を参照する生成技術が進化",
-        "API対応で動画制作パイプラインに統合可能",
-        "動画編集の作業工程を削減",
-        "今後の展望"
-      ],
-      "source_url": "https://elevenlabs.io/blog/introducing-instant-soundtracks",
-      "source_urls": [
-        "https://elevenlabs.io/blog/introducing-instant-soundtracks"
-      ],
-      "source_label": "elevenlabs.io",
-      "cover": "assets/posts/1560439348216856678.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1441006356399259719/threads/1560439348216856678",
-      "first_seen": "2026-10-15T23:48:52.176Z",
-      "kind": "feature",
-      "kind_confidence": 1
-    },
-    {
-      "id": "1560439242075672586",
-      "title": "OpenAI、生命科学特化AI「GPT-Rosalind」を米大学研究室に最大1年間無償提供",
-      "channel": "open-ai",
-      "category": "Open AI",
-      "date": "2026-10-15T23:48:26.870Z",
-      "excerpt": "OpenAIは2026年10月15日、生命科学研究向けAIモデル「GPT-Rosalind」を大学の研究室に提供する新制度「Rosalind Academic Plan」を発表しました。対象研究室は最大30人分のライセンスを最長12カ月間、無料で利用できます…",
-      "lead": "OpenAIは2026年10月15日、生命科学研究向けAIモデル「GPT-Rosalind」を大学の研究室に提供する新制度「Rosalind Academic Plan」を発表しました。対象研究室は最大30人分のライセンスを最長12カ月間、無料で利用できます。創薬、ゲノム解析、タンパク質設計などの研究をAIで支援し、科学的発見の加速を目指します。",
-      "headings": [
-        "無料提供の内容と利用条件",
-        "GPT-Rosalindの技術的特徴",
-        "大学研究室での活用事例",
-        "高度な研究利用と安全管理を両立",
-        "今後の展望"
-      ],
-      "source_url": "https://openai.com/index/introducing-the-rosalind-academic-plan/",
-      "source_urls": [
-        "https://openai.com/index/introducing-the-rosalind-academic-plan/"
-      ],
-      "source_label": "openai.com",
-      "cover": "assets/posts/1560439242075672586.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1560439242075672586",
-      "first_seen": "2026-10-15T23:48:26.870Z",
-      "kind": "model",
-      "kind_confidence": 0.52
     }
   ]
 }

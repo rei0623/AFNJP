@@ -5,8 +5,32 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 17 Oct 2026 17:11:56 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 18 Oct 2026 23:49:31 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Anthropicが「Claude Money」を開発中、銀行口座とAIを連携する個人向け金融サービスへ進出</title>
+      <link>https://discord.com/channels/1415350002255007784/1415534435712897124/threads/1561526676054085632</link>
+      <guid isPermaLink="false">afnjp-1561526676054085632</guid>
+      <pubDate>Sun, 18 Oct 2026 23:49:31 GMT</pubDate>
+      <category>リーク情報</category>
+      <description>Anthropicが、AIアシスタント「Claude」に銀行口座を接続し、個人の資産や支出を分析できる新機能「Claude Money」を準備していることが明らかになりました。2026年9月14日、AI関連メディアTestingCatalogが報じました。</description>
+    </item>
+    <item>
+      <title>OpenAIが「GPT-Image-3」をテスト中か？謎の画像生成AI「Aurora」3モデルが出現</title>
+      <link>https://discord.com/channels/1415350002255007784/1415534435712897124/threads/1561526589479452735</link>
+      <guid isPermaLink="false">afnjp-1561526589479452735</guid>
+      <pubDate>Sun, 18 Oct 2026 23:49:10 GMT</pubDate>
+      <category>リーク情報</category>
+      <description>OpenAIが次世代画像生成AI「GPT-Image-3」の開発を進めている可能性が浮上しました。2026年10月18日、同社のAPIに未発表の「Aurora」シリーズ3モデルが一時的に出現し、その後、AIモデル比較プラットフォーム「Arena」で画像生成テ…</description>
+    </item>
+    <item>
+      <title>Anthropic、企業価値に連動する公益基金を設立へ—株式5%を拠出、AI成長の利益を社会に還元</title>
+      <link>https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1561526492373057621</link>
+      <guid isPermaLink="false">afnjp-1561526492373057621</guid>
+      <pubDate>Sun, 18 Oct 2026 23:48:47 GMT</pubDate>
+      <category>anthropic</category>
+      <description>AI開発企業Anthropicは2026年10月18日、新組織「Anthropic Public Benefit Fund」の設立を発表しました。株主の承認を条件に、自社株式の5%を基金に拠出し、企業価値の上昇に応じて拠出比率を追加できる仕組みを導入します。…</description>
+    </item>
     <item>
       <title>DeepSeek-V4.1-Flash-1017公開、推論・コーディング・AIエージェント性能が大幅向上</title>
       <link>https://discord.com/channels/1415350002255007784/1419690651490193470/threads/1561064232328372315</link>
@@ -78,30 +102,6 @@
       <pubDate>Fri, 16 Oct 2026 09:45:55 GMT</pubDate>
       <category>muse-spark</category>
       <description>Metaの新たなオープンウェイトAIモデル「Muse Spark Open」が登場しました。Hugging Faceは2026年10月15日、モデルのアーキテクチャ、推論環境、ファインチューニング手法を公開しました。</description>
-    </item>
-    <item>
-      <title>Anthropic、外部AI監査を本格化！独立評価機関に「社員並みのアクセス権」を付与</title>
-      <link>https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1560440012594741389</link>
-      <guid isPermaLink="false">afnjp-1560440012594741389</guid>
-      <pubDate>Thu, 15 Oct 2026 23:51:30 GMT</pubDate>
-      <category>anthropic</category>
-      <description>Anthropicは2026年10月15日、最先端AIモデルの安全性とリスク評価を強化するため、独立した第三者評価機関に社内システムへの深いアクセスを認める新たな取り組みを発表しました。</description>
-    </item>
-    <item>
-      <title>ElevenLabs、動画に音楽と効果音を自動生成する「Instant Soundtracks」を発表！映像解析からタイムライン同期までAIが実行</title>
-      <link>https://discord.com/channels/1415350002255007784/1441006356399259719/threads/1560439348216856678</link>
-      <guid isPermaLink="false">afnjp-1560439348216856678</guid>
-      <pubDate>Thu, 15 Oct 2026 23:48:52 GMT</pubDate>
-      <category>eleven-labs</category>
-      <description>ElevenLabsは2026年10月15日、動画に合わせたオリジナル音楽と効果音を自動生成する新機能「Instant Soundtracks」を発表しました。</description>
-    </item>
-    <item>
-      <title>OpenAI、生命科学特化AI「GPT-Rosalind」を米大学研究室に最大1年間無償提供</title>
-      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1560439242075672586</link>
-      <guid isPermaLink="false">afnjp-1560439242075672586</guid>
-      <pubDate>Thu, 15 Oct 2026 23:48:26 GMT</pubDate>
-      <category>open-ai</category>
-      <description>OpenAIは2026年10月15日、生命科学研究向けAIモデル「GPT-Rosalind」を大学の研究室に提供する新制度「Rosalind Academic Plan」を発表しました。対象研究室は最大30人分のライセンスを最長12カ月間、無料で利用できます…</description>
     </item>
   </channel>
 </rss>
