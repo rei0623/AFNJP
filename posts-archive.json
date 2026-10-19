@@ -1,9 +1,114 @@
 {
-  "generated_at": "2026-10-19T19:18:31.887Z",
+  "generated_at": "2026-10-19T23:36:31.302Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 404,
+  "count": 408,
   "posts": [
+    {
+      "id": "1561885422781464636",
+      "title": "Metaが広告推薦AIを刷新！「GenRecs Tokenization」で生成AI時代の広告最適化へ",
+      "channel": "meta",
+      "category": "Meta",
+      "date": "2026-10-19T23:35:03.219Z",
+      "excerpt": "Metaは2026年10月19日、広告推薦システムの新技術「GenRecs Tokenization」を発表しました。広告や商品を個別IDではなく、意味を表す共通トークンで表現することで、LLM（大規模言語モデル）の知識を広告推薦に活用します。",
+      "lead": "Metaは2026年10月19日、広告推薦システムの新技術「GenRecs Tokenization」を発表しました。広告や商品を個別IDではなく、意味を表す共通トークンで表現することで、LLM（大規模言語モデル）の知識を広告推薦に活用します。",
+      "headings": [
+        "従来の広告推薦から生成AI型推薦へ",
+        "中核技術「GenRecs Tokenization」の仕組み",
+        "推薦精度を左右する3つの評価指標",
+        "コンバージョン0.35%向上の意味",
+        "LLMネイティブな推薦基盤への進化",
+        "今後の展望"
+      ],
+      "source_url": "https://engineering.fb.com/2026/10/19/ml-applications/genrecs-tokenization-transforming-ads-recommendation-at-meta-with-stable-model-vocabulary/",
+      "source_urls": [
+        "https://engineering.fb.com/2026/10/19/ml-applications/genrecs-tokenization-transforming-ads-recommendation-at-meta-with-stable-model-vocabulary/"
+      ],
+      "source_label": "engineering.fb.com",
+      "cover": "assets/posts/1561885422781464636.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1441473829951111330/threads/1561885422781464636",
+      "first_seen": "2026-10-19T23:35:03.219Z",
+      "kind": "model",
+      "kind_confidence": 0.39
+    },
+    {
+      "id": "1561885297539813416",
+      "title": "Google「Gemini Notebook」が進化！AI生成スライド・動画を事前レビューできる新機能を発表",
+      "channel": "gemini-notebook",
+      "category": "Google",
+      "date": "2026-10-19T23:34:33.359Z",
+      "excerpt": "Googleは2026年10月19日、AI搭載の「Gemini Notebook」において、プレゼンテーション資料と解説動画の制作過程をユーザーが細かく制御できる新機能を発表しました。",
+      "lead": "Googleは2026年10月19日、AI搭載の「Gemini Notebook」において、プレゼンテーション資料と解説動画の制作過程をユーザーが細かく制御できる新機能を発表しました。",
+      "headings": [
+        "AI生成を「一発作成」から「共同編集」へ",
+        "新機能「Review toggle」で生成前に構成を修正",
+        "従来の高速生成モードも利用可能",
+        "企業・教育・開発現場への影響",
+        "今後の展望"
+      ],
+      "source_url": "https://blog.google/innovation-and-ai/products/gemini-notebook/co-create-slides-videos/",
+      "source_urls": [
+        "https://blog.google/innovation-and-ai/products/gemini-notebook/co-create-slides-videos/"
+      ],
+      "source_label": "blog.google",
+      "cover": "assets/posts/1561885297539813416.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1418011435287707648/threads/1561885297539813416",
+      "first_seen": "2026-10-19T23:34:33.359Z",
+      "kind": "feature",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1561885086276915261",
+      "title": "Cloudflare、新型AI「Clairic」発表！LLMより高速・低コストなデータ抽出特化モデル",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-10-19T23:33:42.990Z",
+      "excerpt": "Cloudflareは2026年10月19日、新しい「System One」型AIモデル「Clairic」を発表しました。従来の大規模言語モデル（LLM）とは異なり、文章や画像からのデータ抽出、計算、推定、予測に特化しています。",
+      "lead": "Cloudflareは2026年10月19日、新しい「System One」型AIモデル「Clairic」を発表しました。従来の大規模言語モデル（LLM）とは異なり、文章や画像からのデータ抽出、計算、推定、予測に特化しています。",
+      "headings": [
+        "System Oneとは？生成しないAIの新しい設計",
+        "抽出・計算・推定・予測を1モデルで実現",
+        "実測性能：3.2倍高速、コスト49%削減",
+        "企業システムとAIエージェントへの影響",
+        "今後の展望"
+      ],
+      "source_url": "https://blog.cloudflare.com/clairic-extraction-model/",
+      "source_urls": [
+        "https://blog.cloudflare.com/clairic-extraction-model/"
+      ],
+      "source_label": "blog.cloudflare.com",
+      "cover": "assets/posts/1561885086276915261.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1561885086276915261",
+      "first_seen": "2026-10-19T23:33:42.990Z",
+      "kind": "model",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1561884980915732551",
+      "title": "OpenAI、COBOLなど低リソース言語のAI開発能力を大幅強化！GPT-6 Astraはテスト成功率87.4%を達成",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-10-19T23:33:17.870Z",
+      "excerpt": "OpenAIは2026年10月19日、COBOL、Fortran、Visual Basicなど、AIの学習に利用できるコードや文書が少ない「低リソースプログラミング言語」におけるコーディング能力の研究成果を発表しました。",
+      "lead": "OpenAIは2026年10月19日、COBOL、Fortran、Visual Basicなど、AIの学習に利用できるコードや文書が少ない「低リソースプログラミング言語」におけるコーディング能力の研究成果を発表しました。",
+      "headings": [
+        "低リソース言語が抱える深刻な課題",
+        "GPT-6 Astra、20言語で圧倒的な性能向上",
+        "GPT-6 LunaはAPIコストを約78%削減",
+        "COBOLから最新言語への移行精度は最大97.9%",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/low-resource-programming-languages/",
+      "source_urls": [
+        "https://openai.com/index/low-resource-programming-languages/"
+      ],
+      "source_label": "openai.com",
+      "cover": "assets/posts/1561884980915732551.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1561884980915732551",
+      "first_seen": "2026-10-19T23:33:17.870Z",
+      "kind": "research",
+      "kind_confidence": 0.93
+    },
     {
       "id": "1561766706320515252",
       "title": "MiniMax、AIモデル体系を刷新100万トークン対応M3.1、動画生成H3、音声AIを統合展開",

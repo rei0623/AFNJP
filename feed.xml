@@ -5,8 +5,40 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 19 Oct 2026 15:43:19 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 19 Oct 2026 23:35:03 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Metaが広告推薦AIを刷新！「GenRecs Tokenization」で生成AI時代の広告最適化へ</title>
+      <link>https://discord.com/channels/1415350002255007784/1441473829951111330/threads/1561885422781464636</link>
+      <guid isPermaLink="false">afnjp-1561885422781464636</guid>
+      <pubDate>Mon, 19 Oct 2026 23:35:03 GMT</pubDate>
+      <category>meta</category>
+      <description>Metaは2026年10月19日、広告推薦システムの新技術「GenRecs Tokenization」を発表しました。広告や商品を個別IDではなく、意味を表す共通トークンで表現することで、LLM（大規模言語モデル）の知識を広告推薦に活用します。</description>
+    </item>
+    <item>
+      <title>Google「Gemini Notebook」が進化！AI生成スライド・動画を事前レビューできる新機能を発表</title>
+      <link>https://discord.com/channels/1415350002255007784/1418011435287707648/threads/1561885297539813416</link>
+      <guid isPermaLink="false">afnjp-1561885297539813416</guid>
+      <pubDate>Mon, 19 Oct 2026 23:34:33 GMT</pubDate>
+      <category>gemini-notebook</category>
+      <description>Googleは2026年10月19日、AI搭載の「Gemini Notebook」において、プレゼンテーション資料と解説動画の制作過程をユーザーが細かく制御できる新機能を発表しました。</description>
+    </item>
+    <item>
+      <title>Cloudflare、新型AI「Clairic」発表！LLMより高速・低コストなデータ抽出特化モデル</title>
+      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1561885086276915261</link>
+      <guid isPermaLink="false">afnjp-1561885086276915261</guid>
+      <pubDate>Mon, 19 Oct 2026 23:33:42 GMT</pubDate>
+      <category>その他</category>
+      <description>Cloudflareは2026年10月19日、新しい「System One」型AIモデル「Clairic」を発表しました。従来の大規模言語モデル（LLM）とは異なり、文章や画像からのデータ抽出、計算、推定、予測に特化しています。</description>
+    </item>
+    <item>
+      <title>OpenAI、COBOLなど低リソース言語のAI開発能力を大幅強化！GPT-6 Astraはテスト成功率87.4%を達成</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1561884980915732551</link>
+      <guid isPermaLink="false">afnjp-1561884980915732551</guid>
+      <pubDate>Mon, 19 Oct 2026 23:33:17 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIは2026年10月19日、COBOL、Fortran、Visual Basicなど、AIの学習に利用できるコードや文書が少ない「低リソースプログラミング言語」におけるコーディング能力の研究成果を発表しました。</description>
+    </item>
     <item>
       <title>MiniMax、AIモデル体系を刷新100万トークン対応M3.1、動画生成H3、音声AIを統合展開</title>
       <link>https://discord.com/channels/1415350002255007784/1471542643900158023/threads/1561766706320515252</link>
@@ -70,38 +102,6 @@
       <pubDate>Fri, 16 Oct 2026 23:56:26 GMT</pubDate>
       <category>その他</category>
       <description>Liquid AIは2026年10月15日、テキストと画像を理解し、質問に対する判断を確率で返す新型AIモデル「d1-ultra」を発表しました。</description>
-    </item>
-    <item>
-      <title>Replit、自社クラウドでAIアプリを開発・運用できる「Bring Your Own Cloud」を発表</title>
-      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1560803461631705138</link>
-      <guid isPermaLink="false">afnjp-1560803461631705138</guid>
-      <pubDate>Fri, 16 Oct 2026 23:55:43 GMT</pubDate>
-      <category>その他</category>
-      <description>2026年10月16日、AIアプリ開発プラットフォームを提供するReplitは、企業が自社クラウド環境でReplitを利用できる新機能「Bring Your Own Cloud（BYOC）」を発表しました。</description>
-    </item>
-    <item>
-      <title>Google「Gemini Notebook」に学習支援の新機能3つを追加、60秒動画・対話型教材・クイズを強化</title>
-      <link>https://discord.com/channels/1415350002255007784/1418011435287707648/threads/1560720179309060226</link>
-      <guid isPermaLink="false">afnjp-1560720179309060226</guid>
-      <pubDate>Fri, 16 Oct 2026 18:24:47 GMT</pubDate>
-      <category>gemini-notebook</category>
-      <description>Googleは2026年10月16日、AI学習支援サービス「Gemini Notebook」に導入した3つの新機能を紹介しました。60秒の解説動画、対話型学習ガイド、多様な形式のクイズを通じて、試験対策や教材の復習を効率化します。</description>
-    </item>
-    <item>
-      <title>5010億パラメータのオープンAI「Beam」登場！100万トークン対応、企業向けAI開発の新たな選択肢に</title>
-      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1560705274053005393</link>
-      <guid isPermaLink="false">afnjp-1560705274053005393</guid>
-      <pubDate>Fri, 16 Oct 2026 17:25:33 GMT</pubDate>
-      <category>その他</category>
-      <description>2026年10月16日、Hugging Faceは米国のAI研究企業Reflectionが開発した大規模言語モデル「Beam」を公開しました。</description>
-    </item>
-    <item>
-      <title>Anthropic「Claude Code Review」正式提供開始！レビュー速度が約3倍に向上、AIによるバグ検出を強化</title>
-      <link>https://discord.com/channels/1415350002255007784/1415549165181599795/threads/1560589975475462174</link>
-      <guid isPermaLink="false">afnjp-1560589975475462174</guid>
-      <pubDate>Fri, 16 Oct 2026 09:47:24 GMT</pubDate>
-      <category>claude-code</category>
-      <description>Anthropicは2026年10月15日、AIによるコードレビュー機能「Code Review」の研究プレビューを終了し、正式提供を開始しました。ClaudeのTeamおよびEnterpriseプランで利用可能となり、レビュー時間の大幅短縮、重大なバグの検…</description>
     </item>
   </channel>
 </rss>

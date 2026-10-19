@@ -1,8 +1,113 @@
 {
-  "generated_at": "2026-10-19T19:18:31.892Z",
+  "generated_at": "2026-10-19T23:36:31.420Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1561885422781464636",
+      "title": "Metaが広告推薦AIを刷新！「GenRecs Tokenization」で生成AI時代の広告最適化へ",
+      "channel": "meta",
+      "category": "Meta",
+      "date": "2026-10-19T23:35:03.219Z",
+      "excerpt": "Metaは2026年10月19日、広告推薦システムの新技術「GenRecs Tokenization」を発表しました。広告や商品を個別IDではなく、意味を表す共通トークンで表現することで、LLM（大規模言語モデル）の知識を広告推薦に活用します。",
+      "lead": "Metaは2026年10月19日、広告推薦システムの新技術「GenRecs Tokenization」を発表しました。広告や商品を個別IDではなく、意味を表す共通トークンで表現することで、LLM（大規模言語モデル）の知識を広告推薦に活用します。",
+      "headings": [
+        "従来の広告推薦から生成AI型推薦へ",
+        "中核技術「GenRecs Tokenization」の仕組み",
+        "推薦精度を左右する3つの評価指標",
+        "コンバージョン0.35%向上の意味",
+        "LLMネイティブな推薦基盤への進化",
+        "今後の展望"
+      ],
+      "source_url": "https://engineering.fb.com/2026/10/19/ml-applications/genrecs-tokenization-transforming-ads-recommendation-at-meta-with-stable-model-vocabulary/",
+      "source_urls": [
+        "https://engineering.fb.com/2026/10/19/ml-applications/genrecs-tokenization-transforming-ads-recommendation-at-meta-with-stable-model-vocabulary/"
+      ],
+      "source_label": "engineering.fb.com",
+      "cover": "assets/posts/1561885422781464636.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1441473829951111330/threads/1561885422781464636",
+      "first_seen": "2026-10-19T23:35:03.219Z",
+      "kind": "model",
+      "kind_confidence": 0.39
+    },
+    {
+      "id": "1561885297539813416",
+      "title": "Google「Gemini Notebook」が進化！AI生成スライド・動画を事前レビューできる新機能を発表",
+      "channel": "gemini-notebook",
+      "category": "Google",
+      "date": "2026-10-19T23:34:33.359Z",
+      "excerpt": "Googleは2026年10月19日、AI搭載の「Gemini Notebook」において、プレゼンテーション資料と解説動画の制作過程をユーザーが細かく制御できる新機能を発表しました。",
+      "lead": "Googleは2026年10月19日、AI搭載の「Gemini Notebook」において、プレゼンテーション資料と解説動画の制作過程をユーザーが細かく制御できる新機能を発表しました。",
+      "headings": [
+        "AI生成を「一発作成」から「共同編集」へ",
+        "新機能「Review toggle」で生成前に構成を修正",
+        "従来の高速生成モードも利用可能",
+        "企業・教育・開発現場への影響",
+        "今後の展望"
+      ],
+      "source_url": "https://blog.google/innovation-and-ai/products/gemini-notebook/co-create-slides-videos/",
+      "source_urls": [
+        "https://blog.google/innovation-and-ai/products/gemini-notebook/co-create-slides-videos/"
+      ],
+      "source_label": "blog.google",
+      "cover": "assets/posts/1561885297539813416.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1418011435287707648/threads/1561885297539813416",
+      "first_seen": "2026-10-19T23:34:33.359Z",
+      "kind": "feature",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1561885086276915261",
+      "title": "Cloudflare、新型AI「Clairic」発表！LLMより高速・低コストなデータ抽出特化モデル",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-10-19T23:33:42.990Z",
+      "excerpt": "Cloudflareは2026年10月19日、新しい「System One」型AIモデル「Clairic」を発表しました。従来の大規模言語モデル（LLM）とは異なり、文章や画像からのデータ抽出、計算、推定、予測に特化しています。",
+      "lead": "Cloudflareは2026年10月19日、新しい「System One」型AIモデル「Clairic」を発表しました。従来の大規模言語モデル（LLM）とは異なり、文章や画像からのデータ抽出、計算、推定、予測に特化しています。",
+      "headings": [
+        "System Oneとは？生成しないAIの新しい設計",
+        "抽出・計算・推定・予測を1モデルで実現",
+        "実測性能：3.2倍高速、コスト49%削減",
+        "企業システムとAIエージェントへの影響",
+        "今後の展望"
+      ],
+      "source_url": "https://blog.cloudflare.com/clairic-extraction-model/",
+      "source_urls": [
+        "https://blog.cloudflare.com/clairic-extraction-model/"
+      ],
+      "source_label": "blog.cloudflare.com",
+      "cover": "assets/posts/1561885086276915261.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1561885086276915261",
+      "first_seen": "2026-10-19T23:33:42.990Z",
+      "kind": "model",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1561884980915732551",
+      "title": "OpenAI、COBOLなど低リソース言語のAI開発能力を大幅強化！GPT-6 Astraはテスト成功率87.4%を達成",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-10-19T23:33:17.870Z",
+      "excerpt": "OpenAIは2026年10月19日、COBOL、Fortran、Visual Basicなど、AIの学習に利用できるコードや文書が少ない「低リソースプログラミング言語」におけるコーディング能力の研究成果を発表しました。",
+      "lead": "OpenAIは2026年10月19日、COBOL、Fortran、Visual Basicなど、AIの学習に利用できるコードや文書が少ない「低リソースプログラミング言語」におけるコーディング能力の研究成果を発表しました。",
+      "headings": [
+        "低リソース言語が抱える深刻な課題",
+        "GPT-6 Astra、20言語で圧倒的な性能向上",
+        "GPT-6 LunaはAPIコストを約78%削減",
+        "COBOLから最新言語への移行精度は最大97.9%",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/low-resource-programming-languages/",
+      "source_urls": [
+        "https://openai.com/index/low-resource-programming-languages/"
+      ],
+      "source_label": "openai.com",
+      "cover": "assets/posts/1561884980915732551.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1561884980915732551",
+      "first_seen": "2026-10-19T23:33:17.870Z",
+      "kind": "research",
+      "kind_confidence": 0.93
+    },
     {
       "id": "1561766706320515252",
       "title": "MiniMax、AIモデル体系を刷新100万トークン対応M3.1、動画生成H3、音声AIを統合展開",
@@ -213,111 +318,6 @@
       "first_seen": "2026-10-16T23:56:26.873Z",
       "kind": "model",
       "kind_confidence": 1
-    },
-    {
-      "id": "1560803461631705138",
-      "title": "Replit、自社クラウドでAIアプリを開発・運用できる「Bring Your Own Cloud」を発表",
-      "channel": "その他",
-      "category": "その他",
-      "date": "2026-10-16T23:55:43.579Z",
-      "excerpt": "2026年10月16日、AIアプリ開発プラットフォームを提供するReplitは、企業が自社クラウド環境でReplitを利用できる新機能「Bring Your Own Cloud（BYOC）」を発表しました。",
-      "lead": "2026年10月16日、AIアプリ開発プラットフォームを提供するReplitは、企業が自社クラウド環境でReplitを利用できる新機能「Bring Your Own Cloud（BYOC）」を発表しました。",
-      "headings": [
-        "企業のクラウド環境でReplitを動作",
-        "AIエージェント基盤も企業クラウドに配置",
-        "mTLSと顧客管理暗号鍵によるセキュリティ強化",
-        "Image Exportsで既存の運用基盤にも統合",
-        "今後の展望"
-      ],
-      "source_url": "https://replit.com/blog/bring-your-own-cloud",
-      "source_urls": [
-        "https://replit.com/blog/bring-your-own-cloud"
-      ],
-      "source_label": "replit.com",
-      "cover": "assets/posts/1560803461631705138.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1560803461631705138",
-      "first_seen": "2026-10-16T23:55:43.579Z",
-      "kind": "feature",
-      "kind_confidence": 1
-    },
-    {
-      "id": "1560720179309060226",
-      "title": "Google「Gemini Notebook」に学習支援の新機能3つを追加、60秒動画・対話型教材・クイズを強化",
-      "channel": "gemini-notebook",
-      "category": "Google",
-      "date": "2026-10-16T18:24:47.526Z",
-      "excerpt": "Googleは2026年10月16日、AI学習支援サービス「Gemini Notebook」に導入した3つの新機能を紹介しました。60秒の解説動画、対話型学習ガイド、多様な形式のクイズを通じて、試験対策や教材の復習を効率化します。",
-      "lead": "Googleは2026年10月16日、AI学習支援サービス「Gemini Notebook」に導入した3つの新機能を紹介しました。60秒の解説動画、対話型学習ガイド、多様な形式のクイズを通じて、試験対策や教材の復習を効率化します。",
-      "headings": [
-        "1. 60秒のショート動画で難しい概念を理解",
-        "2. Interactive Learning Overviewsで教材を統合",
-        "3. クイズ形式を拡充し、理解度の確認を強化",
-        "教育AIとしての技術的意義",
-        "今後の展望"
-      ],
-      "source_url": "https://blog.google/innovation-and-ai/products/gemini-notebook/three-tips-study-gemini-notebook/",
-      "source_urls": [
-        "https://blog.google/innovation-and-ai/products/gemini-notebook/three-tips-study-gemini-notebook/"
-      ],
-      "source_label": "blog.google",
-      "cover": "assets/posts/1560720179309060226.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1418011435287707648/threads/1560720179309060226",
-      "first_seen": "2026-10-16T18:24:47.526Z",
-      "kind": "feature",
-      "kind_confidence": 1
-    },
-    {
-      "id": "1560705274053005393",
-      "title": "5010億パラメータのオープンAI「Beam」登場！100万トークン対応、企業向けAI開発の新たな選択肢に",
-      "channel": "その他",
-      "category": "その他",
-      "date": "2026-10-16T17:25:33.836Z",
-      "excerpt": "2026年10月16日、Hugging Faceは米国のAI研究企業Reflectionが開発した大規模言語モデル「Beam」を公開しました。",
-      "lead": "2026年10月16日、Hugging Faceは米国のAI研究企業Reflectionが開発した大規模言語モデル「Beam」を公開しました。",
-      "headings": [
-        "5010億パラメータを効率的に動かすMoE技術",
-        "100万トークンを支える独自アーキテクチャ",
-        "コーディング・推論性能と評価結果",
-        "GPU要件と開発環境",
-        "企業が独自AIを保有する時代へ"
-      ],
-      "source_url": "https://huggingface.co/blog/reflection-beam",
-      "source_urls": [
-        "https://huggingface.co/blog/reflection-beam"
-      ],
-      "source_label": "huggingface.co",
-      "cover": "assets/posts/1560705274053005393.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1560705274053005393",
-      "first_seen": "2026-10-16T17:25:33.836Z",
-      "kind": "model",
-      "kind_confidence": 1
-    },
-    {
-      "id": "1560589975475462174",
-      "title": "Anthropic「Claude Code Review」正式提供開始！レビュー速度が約3倍に向上、AIによるバグ検出を強化",
-      "channel": "claude-code",
-      "category": "Anthropic",
-      "date": "2026-10-16T09:47:24.513Z",
-      "excerpt": "Anthropicは2026年10月15日、AIによるコードレビュー機能「Code Review」の研究プレビューを終了し、正式提供を開始しました。ClaudeのTeamおよびEnterpriseプランで利用可能となり、レビュー時間の大幅短縮、重大なバグの検…",
-      "lead": "Anthropicは2026年10月15日、AIによるコードレビュー機能「Code Review」の研究プレビューを終了し、正式提供を開始しました。ClaudeのTeamおよびEnterpriseプランで利用可能となり、レビュー時間の大幅短縮、重大なバグの検出精度向上、リポジトリ単位のレビュー設定に対応します。",
-      "headings": [
-        "レビュー速度が約3倍に向上",
-        "重大なバグの検出能力を強化",
-        "リポジトリごとに3段階のレビュー設定",
-        "GitHubと連携してレビューを自動実行",
-        "Enterprise向けに利用クレジットを提供",
-        "今後の展望"
-      ],
-      "source_url": "https://claude.com/ja/resources/articles/code-review-is-now-generally-available",
-      "source_urls": [
-        "https://claude.com/ja/resources/articles/code-review-is-now-generally-available"
-      ],
-      "source_label": "claude.com",
-      "cover": "assets/posts/1560589975475462174.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1415549165181599795/threads/1560589975475462174",
-      "first_seen": "2026-10-16T09:47:24.513Z",
-      "kind": "feature",
-      "kind_confidence": 0.93
     }
   ]
 }
