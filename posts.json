@@ -1,8 +1,63 @@
 {
-  "generated_at": "2026-10-19T13:05:57.448Z",
+  "generated_at": "2026-10-19T19:18:31.892Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1561766706320515252",
+      "title": "MiniMax、AIモデル体系を刷新100万トークン対応M3.1、動画生成H3、音声AIを統合展開",
+      "channel": "minimax",
+      "category": "その他",
+      "date": "2026-10-19T15:43:19.009Z",
+      "excerpt": "中国発のAI企業MiniMaxは、公式APIドキュメントで最新のAIモデル体系を公開しています。注目は、100万トークンのコンテキスト長と推論深度の調整に対応する「MiniMax-M3.1-Flash」、最大2K動画を生成する「MiniMax H3」、40言…",
+      "lead": "中国発のAI企業MiniMaxは、公式APIドキュメントで最新のAIモデル体系を公開しています。注目は、100万トークンのコンテキスト長と推論深度の調整に対応する「MiniMax-M3.1-Flash」、最大2K動画を生成する「MiniMax H3」、40言語対応の音声合成モデル「Speech 2.8」です。テキスト、画像、動画、音声を横断する開発基盤としての進化が鮮明になっています。",
+      "headings": [
+        "100万トークン対応のM3シリーズ",
+        "動画生成「MiniMax H3」は最大2Kに対応",
+        "音声AIは40言語と7種類の感情表現に対応",
+        "音楽生成APIの提供方針にも変更",
+        "今後の展望"
+      ],
+      "source_url": "https://platform.minimax.io/docs/guides/models-intro",
+      "source_urls": [
+        "https://platform.minimax.io/docs/guides/models-intro"
+      ],
+      "source_label": "platform.minimax.io",
+      "cover": "assets/posts/1561766706320515252.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1471542643900158023/threads/1561766706320515252",
+      "first_seen": "2026-10-19T15:43:19.009Z",
+      "kind": "model",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1561766553874071643",
+      "title": "Microsoftが警告「AIエージェントは新たな内部脅威」――Project Perceptionで自律型AIを常時監視",
+      "channel": "microsoft",
+      "category": "Microsoft",
+      "date": "2026-10-19T15:42:42.663Z",
+      "excerpt": "Microsoftは2026年10月19日、企業内で稼働するAIエージェントを新たなセキュリティリスク「Agentic Insider（エージェント型内部者）」として捉え、継続的な監視と制御が必要だと警告しました。同社は「Project Perception…",
+      "lead": "Microsoftは2026年10月19日、企業内で稼働するAIエージェントを新たなセキュリティリスク「Agentic Insider（エージェント型内部者）」として捉え、継続的な監視と制御が必要だと警告しました。同社は「Project Perception」を活用し、AIの自律性を維持しながら、その行動をリアルタイムで管理する新たなセキュリティモデルを提示しています。",
+      "headings": [
+        "AIエージェントは信頼できる内部者ではない",
+        "Project Perceptionが実現する多層防御",
+        "1. センサーと制御機構",
+        "2. 動的リスク評価",
+        "3. Guardian Agentsによる継続監督",
+        "次の課題はAIの「意図」の可視化",
+        "企業と開発者への影響",
+        "今後の展望"
+      ],
+      "source_url": "https://blogs.microsoft.com/blog/2026/10/19/securing-the-agentic-insider/",
+      "source_urls": [
+        "https://blogs.microsoft.com/blog/2026/10/19/securing-the-agentic-insider/"
+      ],
+      "source_label": "blogs.microsoft.com",
+      "cover": "assets/posts/1561766553874071643.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1432720743279497367/threads/1561766553874071643",
+      "first_seen": "2026-10-19T15:42:42.663Z",
+      "kind": "model",
+      "kind_confidence": 0.37
+    },
     {
       "id": "1561526676054085632",
       "title": "Anthropicが「Claude Money」を開発中、銀行口座とAIを連携する個人向け金融サービスへ進出",
@@ -263,59 +318,6 @@
       "first_seen": "2026-10-16T09:47:24.513Z",
       "kind": "feature",
       "kind_confidence": 0.93
-    },
-    {
-      "id": "1560589830654660698",
-      "title": "画像生成AI「FLUX.3 Image Klein」登場！約2秒の高速生成と領域指定編集を実現",
-      "channel": "その他",
-      "category": "その他",
-      "date": "2026-10-16T09:46:49.985Z",
-      "excerpt": "Hugging Faceは2026年10月15日、Black Forest Labsの新たな画像生成AI「FLUX.3 Image Klein」を、画像生成ライブラリ「Diffusers」でサポートしたと発表しました。",
-      "lead": "Hugging Faceは2026年10月15日、Black Forest Labsの新たな画像生成AI「FLUX.3 Image Klein」を、画像生成ライブラリ「Diffusers」でサポートしたと発表しました。",
-      "headings": [
-        "3つの画像生成・編集機能",
-        "高速生成と2種類のモデル",
-        "FLUX.2から進化したAIアーキテクチャ",
-        "開発者向けの拡張性も強化",
-        "今後の展望"
-      ],
-      "source_url": "https://huggingface.co/blog/flux-3",
-      "source_urls": [
-        "https://huggingface.co/blog/flux-3"
-      ],
-      "source_label": "huggingface.co",
-      "cover": "assets/posts/1560589830654660698.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1560589830654660698",
-      "first_seen": "2026-10-16T09:46:49.985Z",
-      "kind": "model",
-      "kind_confidence": 0.99
-    },
-    {
-      "id": "1560589600886362122",
-      "title": "Meta、8160億パラメータの「Muse Spark Open」公開！画像・音声・動画対応の超大規模AIモデル",
-      "channel": "muse-spark",
-      "category": "Meta",
-      "date": "2026-10-16T09:45:55.204Z",
-      "excerpt": "Metaの新たなオープンウェイトAIモデル「Muse Spark Open」が登場しました。Hugging Faceは2026年10月15日、モデルのアーキテクチャ、推論環境、ファインチューニング手法を公開しました。",
-      "lead": "Metaの新たなオープンウェイトAIモデル「Muse Spark Open」が登場しました。Hugging Faceは2026年10月15日、モデルのアーキテクチャ、推論環境、ファインチューニング手法を公開しました。",
-      "headings": [
-        "8160億パラメータを効率的に活用するMoE構造",
-        "画像・音声・動画を統合したマルチモーダルAI",
-        "100万トークン対応の実用上の課題",
-        "ローカル実行と開発環境への統合",
-        "AIエージェント開発への影響",
-        "今後の展望"
-      ],
-      "source_url": "https://huggingface.co/blog/meta-muse-spark-open",
-      "source_urls": [
-        "https://huggingface.co/blog/meta-muse-spark-open"
-      ],
-      "source_label": "huggingface.co",
-      "cover": "assets/posts/1560589600886362122.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1491820892789936220/threads/1560589600886362122",
-      "first_seen": "2026-10-16T09:45:55.204Z",
-      "kind": "model",
-      "kind_confidence": 1
     }
   ]
 }
