@@ -1,9 +1,136 @@
 {
-  "generated_at": "2026-10-20T15:02:09.302Z",
+  "generated_at": "2026-10-20T19:12:27.258Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 416,
+  "count": 421,
   "posts": [
+    {
+      "id": "1562136923252850748",
+      "title": "ElevenLabsが音声対話モデル「Eleven Realtime」を発表、OpenAI Realtime API互換でMiniとMaxの2系統を投入",
+      "channel": "eleven-labs",
+      "category": "その他",
+      "date": "2026-10-20T16:14:25.604Z",
+      "excerpt": "音声AI大手のElevenLabsは2026年10月20日、新しいSpeech to Speechモデル群「Eleven Realtime」を発表しました。低コストで自然な会話を重視した「v1 Mini」と、推論力やツール利用を重視した「v1 Max」の2モ…",
+      "lead": "音声AI大手のElevenLabsは2026年10月20日、新しいSpeech to Speechモデル群「Eleven Realtime」を発表しました。低コストで自然な会話を重視した「v1 Mini」と、推論力やツール利用を重視した「v1 Max」の2モデルで構成され、同社のエージェント基盤ElevenAgentsと、OpenAIのRealtime APIと互換性を持つ独自APIから即日利用できます。",
+      "headings": [
+        "音声エージェントを単一モデルで完結",
+        "独立評価による性能",
+        "既存のOpenAI連携コードから移行可能",
+        "今後の展望"
+      ],
+      "source_url": "https://elevenlabs.io/realtime",
+      "source_urls": [
+        "https://elevenlabs.io/realtime"
+      ],
+      "source_label": "elevenlabs.io",
+      "cover": "assets/posts/1562136923252850748.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1441006356399259719/threads/1562136923252850748",
+      "first_seen": "2026-10-20T16:14:25.604Z",
+      "kind": "model",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1562135505213071532",
+      "title": "政府職員18万人がAIエージェントを日常業務で利用へ デジタル庁が「源内工房」と安全基準「源内基準」を公表",
+      "channel": "日本国内",
+      "category": "日本国内",
+      "date": "2026-10-20T16:08:47.517Z",
+      "excerpt": "デジタル庁は2026年10月20日、ガバメントAI「源内」上で約18万人の政府職員を対象とするAIエージェント利用環境の提供開始を発表しました。あわせて、利用者・管理者・開発者が守るべきルールを定めた「源内基準」を公表しています。AIコーディングエージェント…",
+      "lead": "デジタル庁は2026年10月20日、ガバメントAI「源内」上で約18万人の政府職員を対象とするAIエージェント利用環境の提供開始を発表しました。あわせて、利用者・管理者・開発者が守るべきルールを定めた「源内基準」を公表しています。AIコーディングエージェント級の環境を一般職員まで政府共通基盤として展開する取り組みは、同庁の調査では世界初とされています。",
+      "headings": [
+        "2種類のエージェント環境",
+        "源内基準の中身",
+        "影響と課題",
+        "今後の展望"
+      ],
+      "source_url": "https://www.digital.go.jp/policies/genai/agent-safety-standard",
+      "source_urls": [
+        "https://www.digital.go.jp/policies/genai/agent-safety-standard"
+      ],
+      "source_label": "digital.go.jp",
+      "cover": "assets/posts/1562135505213071532.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417536105930166282/threads/1562135505213071532",
+      "first_seen": "2026-10-20T16:08:47.517Z",
+      "kind": "feature",
+      "kind_confidence": 0.25
+    },
+    {
+      "id": "1562123536833708102",
+      "title": "OpenAI「GPT-6.1 Terra」がMicrosoftのPRに出現 Solを上回る低価格モデルか",
+      "channel": "リーク情報",
+      "category": "リーク情報",
+      "date": "2026-10-20T15:21:14.033Z",
+      "excerpt": "OpenAIの「Terra」系列に新モデルが登場する可能性が出てきました。Microsoftのプルリクエスト（PR）で「GPT-6.1 Terra」という名称が確認されました。同じ時期に米The Informationも、OpenAIが新しいTerraモデル…",
+      "lead": "OpenAIの「Terra」系列に新モデルが登場する可能性が出てきました。Microsoftのプルリクエスト（PR）で「GPT-6.1 Terra」という名称が確認されました。同じ時期に米The Informationも、OpenAIが新しいTerraモデルを準備中だと報じています。いずれも公式発表ではありませんが、リリースが近いことを示す材料として注目されています。",
+      "headings": [
+        "Microsoftの評価設定に新名称",
+        "報道では「Solより高性能かつ低価格」",
+        "開発者・企業への影響",
+        "今後の展望"
+      ],
+      "source_url": "https://www.testingcatalog.com/openai-prepares-gpt-6-1-terra-microsoft-code/",
+      "source_urls": [
+        "https://www.testingcatalog.com/openai-prepares-gpt-6-1-terra-microsoft-code/"
+      ],
+      "source_label": "testingcatalog.com",
+      "cover": "assets/posts/1562123536833708102.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415534435712897124/threads/1562123536833708102",
+      "first_seen": "2026-10-20T15:21:14.033Z",
+      "kind": "model",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1562123248710459392",
+      "title": "Meta、AIエージェント「Muse」にMetaすら覗けない「Confidential VM」を準備中",
+      "channel": "リーク情報",
+      "category": "リーク情報",
+      "date": "2026-10-20T15:20:05.339Z",
+      "excerpt": "Metaが個人向けAIエージェント「Muse」に、より高いプライバシーを実現する「Muse Confidential VM」の導入を進めています。同機能はすでにWebインターフェース上に部分的に実装されており、設定画面の専用セクションから有効化する仕組みにな…",
+      "lead": "Metaが個人向けAIエージェント「Muse」に、より高いプライバシーを実現する「Muse Confidential VM」の導入を進めています。同機能はすでにWebインターフェース上に部分的に実装されており、設定画面の専用セクションから有効化する仕組みになる見込みです。会話やデータはユーザーだけが持つ鍵で暗号化され、Meta自身もアクセスできない設計とされています。",
+      "headings": [
+        "Confidential VMの仕組み",
+        "既存の「Secure VM」との違い",
+        "初期段階の制約",
+        "EUでのWeb提供の兆し",
+        "競争環境",
+        "今後の展望"
+      ],
+      "source_url": "https://www.testingcatalog.com/meta-prepares-muse-confidential-vm-for-private-ai-work/",
+      "source_urls": [
+        "https://www.testingcatalog.com/meta-prepares-muse-confidential-vm-for-private-ai-work/"
+      ],
+      "source_label": "testingcatalog.com",
+      "cover": "assets/posts/1562123248710459392.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415534435712897124/threads/1562123248710459392",
+      "first_seen": "2026-10-20T15:20:05.339Z",
+      "kind": "feature",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1562122935353868388",
+      "title": "Claudeがサソリ毒に対する結合タンパク質を設計、211設計中17件が実験で成功",
+      "channel": "anthropic",
+      "category": "Anthropic",
+      "date": "2026-10-20T15:18:50.629Z",
+      "excerpt": "Anthropicは2026年10月20日、社内研究用Claudeモデルがサソリの神経毒に結合する「ミニバインダー」を設計し、実験室での検証で17件が基準を満たしたと発表しました。投資リサーチ企業Citrini Researchとの協業で、専門家以外のチーム…",
+      "lead": "Anthropicは2026年10月20日、社内研究用Claudeモデルがサソリの神経毒に結合する「ミニバインダー」を設計し、実験室での検証で17件が基準を満たしたと発表しました。投資リサーチ企業Citrini Researchとの協業で、専門家以外のチームがAI創薬で実際の医療課題に取り組めるかを検証した試みです。",
+      "headings": [
+        "技術的詳細",
+        "検証結果と限界",
+        "影響",
+        "今後の展望"
+      ],
+      "source_url": "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design",
+      "source_urls": [
+        "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design"
+      ],
+      "source_label": "anthropic.com",
+      "cover": "assets/posts/1562122935353868388.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1562122935353868388",
+      "first_seen": "2026-10-20T15:18:50.629Z",
+      "kind": "research",
+      "kind_confidence": 1
+    },
     {
       "id": "1562098689189609643",
       "title": "Microsoft、デジタル主権を大幅強化！AI・クラウドの運用管理と技術的独立性を拡張",

@@ -1,8 +1,135 @@
 {
-  "generated_at": "2026-10-20T15:02:09.307Z",
+  "generated_at": "2026-10-20T19:12:27.262Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1562136923252850748",
+      "title": "ElevenLabsが音声対話モデル「Eleven Realtime」を発表、OpenAI Realtime API互換でMiniとMaxの2系統を投入",
+      "channel": "eleven-labs",
+      "category": "その他",
+      "date": "2026-10-20T16:14:25.604Z",
+      "excerpt": "音声AI大手のElevenLabsは2026年10月20日、新しいSpeech to Speechモデル群「Eleven Realtime」を発表しました。低コストで自然な会話を重視した「v1 Mini」と、推論力やツール利用を重視した「v1 Max」の2モ…",
+      "lead": "音声AI大手のElevenLabsは2026年10月20日、新しいSpeech to Speechモデル群「Eleven Realtime」を発表しました。低コストで自然な会話を重視した「v1 Mini」と、推論力やツール利用を重視した「v1 Max」の2モデルで構成され、同社のエージェント基盤ElevenAgentsと、OpenAIのRealtime APIと互換性を持つ独自APIから即日利用できます。",
+      "headings": [
+        "音声エージェントを単一モデルで完結",
+        "独立評価による性能",
+        "既存のOpenAI連携コードから移行可能",
+        "今後の展望"
+      ],
+      "source_url": "https://elevenlabs.io/realtime",
+      "source_urls": [
+        "https://elevenlabs.io/realtime"
+      ],
+      "source_label": "elevenlabs.io",
+      "cover": "assets/posts/1562136923252850748.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1441006356399259719/threads/1562136923252850748",
+      "first_seen": "2026-10-20T16:14:25.604Z",
+      "kind": "model",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1562135505213071532",
+      "title": "政府職員18万人がAIエージェントを日常業務で利用へ デジタル庁が「源内工房」と安全基準「源内基準」を公表",
+      "channel": "日本国内",
+      "category": "日本国内",
+      "date": "2026-10-20T16:08:47.517Z",
+      "excerpt": "デジタル庁は2026年10月20日、ガバメントAI「源内」上で約18万人の政府職員を対象とするAIエージェント利用環境の提供開始を発表しました。あわせて、利用者・管理者・開発者が守るべきルールを定めた「源内基準」を公表しています。AIコーディングエージェント…",
+      "lead": "デジタル庁は2026年10月20日、ガバメントAI「源内」上で約18万人の政府職員を対象とするAIエージェント利用環境の提供開始を発表しました。あわせて、利用者・管理者・開発者が守るべきルールを定めた「源内基準」を公表しています。AIコーディングエージェント級の環境を一般職員まで政府共通基盤として展開する取り組みは、同庁の調査では世界初とされています。",
+      "headings": [
+        "2種類のエージェント環境",
+        "源内基準の中身",
+        "影響と課題",
+        "今後の展望"
+      ],
+      "source_url": "https://www.digital.go.jp/policies/genai/agent-safety-standard",
+      "source_urls": [
+        "https://www.digital.go.jp/policies/genai/agent-safety-standard"
+      ],
+      "source_label": "digital.go.jp",
+      "cover": "assets/posts/1562135505213071532.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417536105930166282/threads/1562135505213071532",
+      "first_seen": "2026-10-20T16:08:47.517Z",
+      "kind": "feature",
+      "kind_confidence": 0.25
+    },
+    {
+      "id": "1562123536833708102",
+      "title": "OpenAI「GPT-6.1 Terra」がMicrosoftのPRに出現 Solを上回る低価格モデルか",
+      "channel": "リーク情報",
+      "category": "リーク情報",
+      "date": "2026-10-20T15:21:14.033Z",
+      "excerpt": "OpenAIの「Terra」系列に新モデルが登場する可能性が出てきました。Microsoftのプルリクエスト（PR）で「GPT-6.1 Terra」という名称が確認されました。同じ時期に米The Informationも、OpenAIが新しいTerraモデル…",
+      "lead": "OpenAIの「Terra」系列に新モデルが登場する可能性が出てきました。Microsoftのプルリクエスト（PR）で「GPT-6.1 Terra」という名称が確認されました。同じ時期に米The Informationも、OpenAIが新しいTerraモデルを準備中だと報じています。いずれも公式発表ではありませんが、リリースが近いことを示す材料として注目されています。",
+      "headings": [
+        "Microsoftの評価設定に新名称",
+        "報道では「Solより高性能かつ低価格」",
+        "開発者・企業への影響",
+        "今後の展望"
+      ],
+      "source_url": "https://www.testingcatalog.com/openai-prepares-gpt-6-1-terra-microsoft-code/",
+      "source_urls": [
+        "https://www.testingcatalog.com/openai-prepares-gpt-6-1-terra-microsoft-code/"
+      ],
+      "source_label": "testingcatalog.com",
+      "cover": "assets/posts/1562123536833708102.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415534435712897124/threads/1562123536833708102",
+      "first_seen": "2026-10-20T15:21:14.033Z",
+      "kind": "model",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1562123248710459392",
+      "title": "Meta、AIエージェント「Muse」にMetaすら覗けない「Confidential VM」を準備中",
+      "channel": "リーク情報",
+      "category": "リーク情報",
+      "date": "2026-10-20T15:20:05.339Z",
+      "excerpt": "Metaが個人向けAIエージェント「Muse」に、より高いプライバシーを実現する「Muse Confidential VM」の導入を進めています。同機能はすでにWebインターフェース上に部分的に実装されており、設定画面の専用セクションから有効化する仕組みにな…",
+      "lead": "Metaが個人向けAIエージェント「Muse」に、より高いプライバシーを実現する「Muse Confidential VM」の導入を進めています。同機能はすでにWebインターフェース上に部分的に実装されており、設定画面の専用セクションから有効化する仕組みになる見込みです。会話やデータはユーザーだけが持つ鍵で暗号化され、Meta自身もアクセスできない設計とされています。",
+      "headings": [
+        "Confidential VMの仕組み",
+        "既存の「Secure VM」との違い",
+        "初期段階の制約",
+        "EUでのWeb提供の兆し",
+        "競争環境",
+        "今後の展望"
+      ],
+      "source_url": "https://www.testingcatalog.com/meta-prepares-muse-confidential-vm-for-private-ai-work/",
+      "source_urls": [
+        "https://www.testingcatalog.com/meta-prepares-muse-confidential-vm-for-private-ai-work/"
+      ],
+      "source_label": "testingcatalog.com",
+      "cover": "assets/posts/1562123248710459392.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415534435712897124/threads/1562123248710459392",
+      "first_seen": "2026-10-20T15:20:05.339Z",
+      "kind": "feature",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1562122935353868388",
+      "title": "Claudeがサソリ毒に対する結合タンパク質を設計、211設計中17件が実験で成功",
+      "channel": "anthropic",
+      "category": "Anthropic",
+      "date": "2026-10-20T15:18:50.629Z",
+      "excerpt": "Anthropicは2026年10月20日、社内研究用Claudeモデルがサソリの神経毒に結合する「ミニバインダー」を設計し、実験室での検証で17件が基準を満たしたと発表しました。投資リサーチ企業Citrini Researchとの協業で、専門家以外のチーム…",
+      "lead": "Anthropicは2026年10月20日、社内研究用Claudeモデルがサソリの神経毒に結合する「ミニバインダー」を設計し、実験室での検証で17件が基準を満たしたと発表しました。投資リサーチ企業Citrini Researchとの協業で、専門家以外のチームがAI創薬で実際の医療課題に取り組めるかを検証した試みです。",
+      "headings": [
+        "技術的詳細",
+        "検証結果と限界",
+        "影響",
+        "今後の展望"
+      ],
+      "source_url": "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design",
+      "source_urls": [
+        "https://www.anthropic.com/research/claude-scorpion-toxin-binder-design"
+      ],
+      "source_label": "anthropic.com",
+      "cover": "assets/posts/1562122935353868388.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1562122935353868388",
+      "first_seen": "2026-10-20T15:18:50.629Z",
+      "kind": "research",
+      "kind_confidence": 1
+    },
     {
       "id": "1562098689189609643",
       "title": "Microsoft、デジタル主権を大幅強化！AI・クラウドの運用管理と技術的独立性を拡張",
@@ -186,137 +313,6 @@
       "first_seen": "2026-10-20T12:12:11.490Z",
       "kind": "feature",
       "kind_confidence": 0.9
-    },
-    {
-      "id": "1561886447915765790",
-      "title": "Anthropic、OSS向けAI脆弱性スキャナーを無償公開！高度なセキュリティ監査を自動化",
-      "channel": "anthropic",
-      "category": "Anthropic",
-      "date": "2026-10-19T23:39:07.630Z",
-      "excerpt": "Anthropicは2026年10月8日、オープンソースソフトウェア（OSS）の脆弱性をAIで検出する無料サービス「OSS Scanner」を公開しました。高性能AIモデルを活用した定期的なコード監査により、重要なOSSプロジェクトのセキュリティ強化を支援し…",
-      "lead": "Anthropicは2026年10月8日、オープンソースソフトウェア（OSS）の脆弱性をAIで検出する無料サービス「OSS Scanner」を公開しました。高性能AIモデルを活用した定期的なコード監査により、重要なOSSプロジェクトのセキュリティ強化を支援します。",
-      "headings": [
-        "AIによる高度な脆弱性解析",
-        "Docker環境を利用した隔離型セキュリティ監査",
-        "参加対象は重要なOSSプロジェクト",
-        "迅速な報告と誤検知リスクの両立",
-        "今後の展望"
-      ],
-      "source_url": "https://red.anthropic.com/oss-scanner/",
-      "source_urls": [
-        "https://red.anthropic.com/oss-scanner/"
-      ],
-      "source_label": "red.anthropic.com",
-      "cover": "assets/posts/1561886447915765790.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1561886447915765790",
-      "first_seen": "2026-10-19T23:39:07.630Z",
-      "kind": "tool",
-      "kind_confidence": 1
-    },
-    {
-      "id": "1561885422781464636",
-      "title": "Metaが広告推薦AIを刷新！「GenRecs Tokenization」で生成AI時代の広告最適化へ",
-      "channel": "meta",
-      "category": "Meta",
-      "date": "2026-10-19T23:35:03.219Z",
-      "excerpt": "Metaは2026年10月19日、広告推薦システムの新技術「GenRecs Tokenization」を発表しました。広告や商品を個別IDではなく、意味を表す共通トークンで表現することで、LLM（大規模言語モデル）の知識を広告推薦に活用します。",
-      "lead": "Metaは2026年10月19日、広告推薦システムの新技術「GenRecs Tokenization」を発表しました。広告や商品を個別IDではなく、意味を表す共通トークンで表現することで、LLM（大規模言語モデル）の知識を広告推薦に活用します。",
-      "headings": [
-        "従来の広告推薦から生成AI型推薦へ",
-        "中核技術「GenRecs Tokenization」の仕組み",
-        "推薦精度を左右する3つの評価指標",
-        "コンバージョン0.35%向上の意味",
-        "LLMネイティブな推薦基盤への進化",
-        "今後の展望"
-      ],
-      "source_url": "https://engineering.fb.com/2026/10/19/ml-applications/genrecs-tokenization-transforming-ads-recommendation-at-meta-with-stable-model-vocabulary/",
-      "source_urls": [
-        "https://engineering.fb.com/2026/10/19/ml-applications/genrecs-tokenization-transforming-ads-recommendation-at-meta-with-stable-model-vocabulary/"
-      ],
-      "source_label": "engineering.fb.com",
-      "cover": "assets/posts/1561885422781464636.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1441473829951111330/threads/1561885422781464636",
-      "first_seen": "2026-10-19T23:35:03.219Z",
-      "kind": "model",
-      "kind_confidence": 0.39
-    },
-    {
-      "id": "1561885297539813416",
-      "title": "Google「Gemini Notebook」が進化！AI生成スライド・動画を事前レビューできる新機能を発表",
-      "channel": "gemini-notebook",
-      "category": "Google",
-      "date": "2026-10-19T23:34:33.359Z",
-      "excerpt": "Googleは2026年10月19日、AI搭載の「Gemini Notebook」において、プレゼンテーション資料と解説動画の制作過程をユーザーが細かく制御できる新機能を発表しました。",
-      "lead": "Googleは2026年10月19日、AI搭載の「Gemini Notebook」において、プレゼンテーション資料と解説動画の制作過程をユーザーが細かく制御できる新機能を発表しました。",
-      "headings": [
-        "AI生成を「一発作成」から「共同編集」へ",
-        "新機能「Review toggle」で生成前に構成を修正",
-        "従来の高速生成モードも利用可能",
-        "企業・教育・開発現場への影響",
-        "今後の展望"
-      ],
-      "source_url": "https://blog.google/innovation-and-ai/products/gemini-notebook/co-create-slides-videos/",
-      "source_urls": [
-        "https://blog.google/innovation-and-ai/products/gemini-notebook/co-create-slides-videos/"
-      ],
-      "source_label": "blog.google",
-      "cover": "assets/posts/1561885297539813416.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1418011435287707648/threads/1561885297539813416",
-      "first_seen": "2026-10-19T23:34:33.359Z",
-      "kind": "feature",
-      "kind_confidence": 1
-    },
-    {
-      "id": "1561885086276915261",
-      "title": "Cloudflare、新型AI「Clairic」発表！LLMより高速・低コストなデータ抽出特化モデル",
-      "channel": "その他",
-      "category": "その他",
-      "date": "2026-10-19T23:33:42.990Z",
-      "excerpt": "Cloudflareは2026年10月19日、新しい「System One」型AIモデル「Clairic」を発表しました。従来の大規模言語モデル（LLM）とは異なり、文章や画像からのデータ抽出、計算、推定、予測に特化しています。",
-      "lead": "Cloudflareは2026年10月19日、新しい「System One」型AIモデル「Clairic」を発表しました。従来の大規模言語モデル（LLM）とは異なり、文章や画像からのデータ抽出、計算、推定、予測に特化しています。",
-      "headings": [
-        "System Oneとは？生成しないAIの新しい設計",
-        "抽出・計算・推定・予測を1モデルで実現",
-        "実測性能：3.2倍高速、コスト49%削減",
-        "企業システムとAIエージェントへの影響",
-        "今後の展望"
-      ],
-      "source_url": "https://blog.cloudflare.com/clairic-extraction-model/",
-      "source_urls": [
-        "https://blog.cloudflare.com/clairic-extraction-model/"
-      ],
-      "source_label": "blog.cloudflare.com",
-      "cover": "assets/posts/1561885086276915261.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1561885086276915261",
-      "first_seen": "2026-10-19T23:33:42.990Z",
-      "kind": "model",
-      "kind_confidence": 1
-    },
-    {
-      "id": "1561884980915732551",
-      "title": "OpenAI、COBOLなど低リソース言語のAI開発能力を大幅強化！GPT-6 Astraはテスト成功率87.4%を達成",
-      "channel": "open-ai",
-      "category": "Open AI",
-      "date": "2026-10-19T23:33:17.870Z",
-      "excerpt": "OpenAIは2026年10月19日、COBOL、Fortran、Visual Basicなど、AIの学習に利用できるコードや文書が少ない「低リソースプログラミング言語」におけるコーディング能力の研究成果を発表しました。",
-      "lead": "OpenAIは2026年10月19日、COBOL、Fortran、Visual Basicなど、AIの学習に利用できるコードや文書が少ない「低リソースプログラミング言語」におけるコーディング能力の研究成果を発表しました。",
-      "headings": [
-        "低リソース言語が抱える深刻な課題",
-        "GPT-6 Astra、20言語で圧倒的な性能向上",
-        "GPT-6 LunaはAPIコストを約78%削減",
-        "COBOLから最新言語への移行精度は最大97.9%",
-        "今後の展望"
-      ],
-      "source_url": "https://openai.com/index/low-resource-programming-languages/",
-      "source_urls": [
-        "https://openai.com/index/low-resource-programming-languages/"
-      ],
-      "source_label": "openai.com",
-      "cover": "assets/posts/1561884980915732551.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1561884980915732551",
-      "first_seen": "2026-10-19T23:33:17.870Z",
-      "kind": "research",
-      "kind_confidence": 0.93
     }
   ]
 }
