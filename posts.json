@@ -1,8 +1,192 @@
 {
-  "generated_at": "2026-10-20T10:00:15.817Z",
+  "generated_at": "2026-10-20T15:02:09.307Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1562098689189609643",
+      "title": "Microsoft、デジタル主権を大幅強化！AI・クラウドの運用管理と技術的独立性を拡張",
+      "channel": "microsoft",
+      "category": "Microsoft",
+      "date": "2026-10-20T13:42:29.893Z",
+      "excerpt": "Microsoftは2026年10月20日、デジタル主権を強化する「Microsoft Sovereign Cloud」の新機能を発表しました。クラウド上のデータ管理から暗号鍵の独立管理、ネットワーク切断時の業務継続、オンプレミスでのAI推論まで、企業や政府…",
+      "lead": "Microsoftは2026年10月20日、デジタル主権を強化する「Microsoft Sovereign Cloud」の新機能を発表しました。クラウド上のデータ管理から暗号鍵の独立管理、ネットワーク切断時の業務継続、オンプレミスでのAI推論まで、企業や政府機関が重要システムを自ら制御できる環境を拡充します。",
+      "headings": [
+        "デジタル主権は「データの所在地」から「運用の支配権」へ",
+        "Azureに統合管理機能と外部暗号鍵管理を導入",
+        "ネットワーク切断環境でもAIと開発基盤を運用",
+        "企業のAI導入とIT戦略への影響"
+      ],
+      "source_url": "https://blogs.microsoft.com/blog/2026/10/20/advancing-digital-sovereignty-with-greater-control-and-choice/",
+      "source_urls": [
+        "https://blogs.microsoft.com/blog/2026/10/20/advancing-digital-sovereignty-with-greater-control-and-choice/"
+      ],
+      "source_label": "blogs.microsoft.com",
+      "cover": "assets/posts/1562098689189609643.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1432720743279497367/threads/1562098689189609643",
+      "first_seen": "2026-10-20T13:42:29.893Z",
+      "kind": "feature",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1562098394363601037",
+      "title": "FLUX 3 Max登場、10秒動画を約12秒で生成する高速AIモデル",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-10-20T13:41:19.601Z",
+      "excerpt": "AI推論プラットフォーム「fal」は、Black Forest Labsとの協業による動画生成AI「FLUX 3 Max」を公開しました。高画質と低遅延の両立を目指したモデルで、テキスト指示だけから映像と音声を生成できます。事前評価では動画品質で最高水準の評…",
+      "lead": "AI推論プラットフォーム「fal」は、Black Forest Labsとの協業による動画生成AI「FLUX 3 Max」を公開しました。高画質と低遅延の両立を目指したモデルで、テキスト指示だけから映像と音声を生成できます。事前評価では動画品質で最高水準の評価を獲得しており、映像制作の高速化が期待されます。",
+      "headings": [
+        "FLUX 3 Maxの技術的特徴",
+        "動画品質と生成速度を両立",
+        "API連携で映像制作を自動化",
+        "期間限定で75％割引",
+        "今後の展望"
+      ],
+      "source_url": "https://fal.ai/models/blackforestlabs/flux-3-max/text-to-video",
+      "source_urls": [
+        "https://fal.ai/models/blackforestlabs/flux-3-max/text-to-video"
+      ],
+      "source_label": "fal.ai",
+      "cover": "assets/posts/1562098394363601037.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1562098394363601037",
+      "first_seen": "2026-10-20T13:41:19.601Z",
+      "kind": "model",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1562098261676785744",
+      "title": "DeepSeek、自社AI推論基盤「DeepInfer」をオープンソース公開！大規模AI運用の高速化技術を解放",
+      "channel": "deep-seek",
+      "category": "その他",
+      "date": "2026-10-20T13:40:47.966Z",
+      "excerpt": "DeepSeekは、大規模AIサービスの運用を支える高性能推論フレームワーク「DeepInfer」をGitHubで公開しました。Apache License 2.0で提供され、NVIDIA製GPUとHuawei製NPUに対応します。",
+      "lead": "DeepSeekは、大規模AIサービスの運用を支える高性能推論フレームワーク「DeepInfer」をGitHubで公開しました。Apache License 2.0で提供され、NVIDIA製GPUとHuawei製NPUに対応します。",
+      "headings": [
+        "DeepInferとは何か？",
+        "高速推論を実現する主要技術",
+        "1. 専用カーネルによる計算最適化",
+        "2. DSparkによる投機的デコード",
+        "3. MoE分散処理と非同期実行",
+        "4. 再現性と構造化出力にも対応",
+        "対応ハードウェアと性能評価",
+        "実運用への導入には制約も"
+      ],
+      "source_url": "https://github.com/deepseek-ai/DeepInfer",
+      "source_urls": [
+        "https://github.com/deepseek-ai/DeepInfer"
+      ],
+      "source_label": "github.com",
+      "cover": "assets/posts/1562098261676785744.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1419690651490193470/threads/1562098261676785744",
+      "first_seen": "2026-10-20T13:40:47.966Z",
+      "kind": "tool",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1562076495243907162",
+      "title": "Google、TorchTPUをオープンソース化！PyTorchがTPUでネイティブ動作、AI開発基盤に大きな転換",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-10-20T12:14:18.444Z",
+      "excerpt": "Google Cloudは2026年10月21日付の公式ブログで、Google製AIアクセラレータ「TPU」上でPyTorchをネイティブ実行できる「TorchTPU」のオープンソース化を発表しました。Metaとの共同開発により、従来のPyTorchコードを…",
+      "lead": "Google Cloudは2026年10月21日付の公式ブログで、Google製AIアクセラレータ「TPU」上でPyTorchをネイティブ実行できる「TorchTPU」のオープンソース化を発表しました。Metaとの共同開発により、従来のPyTorchコードを最小限の変更でTPUに移行できる環境を提供します。",
+      "headings": [
+        "PyTorchとTPUの統合が加速",
+        "vLLM・SGLang・llm-dによる推論基盤の強化",
+        "最大8,192基のTPUで大規模学習を検証",
+        "LiteRTとAIエージェントにも対応",
+        "今後の展望"
+      ],
+      "source_url": "https://cloud.google.com/blog/topics/ai-infrastructure/torchtpu-is-now-open-source-run-native-pytorch-on-tpus/?hl=en",
+      "source_urls": [
+        "https://cloud.google.com/blog/topics/ai-infrastructure/torchtpu-is-now-open-source-run-native-pytorch-on-tpus/?hl=en"
+      ],
+      "source_label": "cloud.google.com",
+      "cover": "assets/posts/1562076495243907162.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1562076495243907162",
+      "first_seen": "2026-10-20T12:14:18.444Z",
+      "kind": "tool",
+      "kind_confidence": 0.99
+    },
+    {
+      "id": "1562076331351613500",
+      "title": "Google、行政業務特化型「Gemini for government services」発表！AIエージェントが政府の業務改革を加速",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-10-20T12:13:39.369Z",
+      "excerpt": "Google Cloudは2026年10月21日付の公式ブログで、政府機関向けAIソリューション「Gemini for government services」を発表しました。行政の法規制や既存システムに対応するAIエージェントを提供し、公文書管理、政策調査…",
+      "lead": "Google Cloudは2026年10月21日付の公式ブログで、政府機関向けAIソリューション「Gemini for government services」を発表しました。行政の法規制や既存システムに対応するAIエージェントを提供し、公文書管理、政策調査、調達審査、補助金監査などの業務効率化を目指します。現在はプレビュー段階です。",
+      "headings": [
+        "政府業務に特化した5つの技術基盤",
+        "行政業務を変える7つのユースケース",
+        "MicrosoftやOracleとも連携する開放型アーキテクチャ",
+        "セキュリティとAI運用コストへの対応",
+        "今後の展望"
+      ],
+      "source_url": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-for-government-services/?hl=en",
+      "source_urls": [
+        "https://cloud.google.com/blog/products/ai-machine-learning/gemini-for-government-services/?hl=en"
+      ],
+      "source_label": "cloud.google.com",
+      "cover": "assets/posts/1562076331351613500.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1562076331351613500",
+      "first_seen": "2026-10-20T12:13:39.369Z",
+      "kind": "model",
+      "kind_confidence": 0.42
+    },
+    {
+      "id": "1562076194655178762",
+      "title": "PyTorch 2.15でMacのAI性能が大幅進化！LLM推論が最大6.5倍高速化、動画生成のメモリ使用量も激減",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-10-20T12:13:06.778Z",
+      "excerpt": "Hugging FaceのPyTorchチームは2026年10月20日、PyTorch 2.15におけるApple Silicon向けMPSバックエンドの改良を発表しました。FP8演算への対応、LLM推論の高速化、動画生成時のメモリ消費削減など、MacでのA…",
+      "lead": "Hugging FaceのPyTorchチームは2026年10月20日、PyTorch 2.15におけるApple Silicon向けMPSバックエンドの改良を発表しました。FP8演算への対応、LLM推論の高速化、動画生成時のメモリ消費削減など、MacでのAI実行環境を大きく改善する内容です。",
+      "headings": [
+        "LLM推論が最大6.5倍高速化",
+        "FP8対応でAIモデルのメモリ効率が向上",
+        "動画生成時のGPUメモリ消費が約97％減少",
+        "GPU演算と開発者向け機能も強化",
+        "今後の展望"
+      ],
+      "source_url": "https://huggingface.co/blog/mps-pytorch-2-15",
+      "source_urls": [
+        "https://huggingface.co/blog/mps-pytorch-2-15"
+      ],
+      "source_label": "huggingface.co",
+      "cover": "assets/posts/1562076194655178762.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1562076194655178762",
+      "first_seen": "2026-10-20T12:13:06.778Z",
+      "kind": "feature",
+      "kind_confidence": 0.35
+    },
+    {
+      "id": "1562075962760499341",
+      "title": "Google Cloud、完全隔離環境で動くGemini搭載企業向けRAG検索を発表",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-10-20T12:12:11.490Z",
+      "excerpt": "Google Cloudは、インターネット接続を必要としない「Google Distributed Cloud（GDC）air-gapped」上で、Geminiを活用した企業向け検索機能を発表しました。プレビュー提供されるこの機能は、機密文書や画像、音声、動…",
+      "lead": "Google Cloudは、インターネット接続を必要としない「Google Distributed Cloud（GDC）air-gapped」上で、Geminiを活用した企業向け検索機能を発表しました。プレビュー提供されるこの機能は、機密文書や画像、音声、動画を外部クラウドへ送信することなく分析できる、フルマネージド型の検索拡張生成（RAG）基盤です。",
+      "headings": [
+        "完全オフラインで動作するマルチモーダルRAG",
+        "技術アーキテクチャの核心",
+        "Python実行による構造化データ分析",
+        "データ主権とセキュリティ",
+        "今後の展望"
+      ],
+      "source_url": "https://cloud.google.com/blog/topics/hybrid-cloud/managed-rag-search-inside-the-sovereign-perimeter-gemini-on-gdc-enterprise-search/?hl=en",
+      "source_urls": [
+        "https://cloud.google.com/blog/topics/hybrid-cloud/managed-rag-search-inside-the-sovereign-perimeter-gemini-on-gdc-enterprise-search/?hl=en"
+      ],
+      "source_label": "cloud.google.com",
+      "cover": "assets/posts/1562075962760499341.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1562075962760499341",
+      "first_seen": "2026-10-20T12:12:11.490Z",
+      "kind": "feature",
+      "kind_confidence": 0.9
+    },
     {
       "id": "1561886447915765790",
       "title": "Anthropic、OSS向けAI脆弱性スキャナーを無償公開！高度なセキュリティ監査を自動化",
@@ -133,191 +317,6 @@
       "first_seen": "2026-10-19T23:33:17.870Z",
       "kind": "research",
       "kind_confidence": 0.93
-    },
-    {
-      "id": "1561766706320515252",
-      "title": "MiniMax、AIモデル体系を刷新100万トークン対応M3.1、動画生成H3、音声AIを統合展開",
-      "channel": "minimax",
-      "category": "その他",
-      "date": "2026-10-19T15:43:19.009Z",
-      "excerpt": "中国発のAI企業MiniMaxは、公式APIドキュメントで最新のAIモデル体系を公開しています。注目は、100万トークンのコンテキスト長と推論深度の調整に対応する「MiniMax-M3.1-Flash」、最大2K動画を生成する「MiniMax H3」、40言…",
-      "lead": "中国発のAI企業MiniMaxは、公式APIドキュメントで最新のAIモデル体系を公開しています。注目は、100万トークンのコンテキスト長と推論深度の調整に対応する「MiniMax-M3.1-Flash」、最大2K動画を生成する「MiniMax H3」、40言語対応の音声合成モデル「Speech 2.8」です。テキスト、画像、動画、音声を横断する開発基盤としての進化が鮮明になっています。",
-      "headings": [
-        "100万トークン対応のM3シリーズ",
-        "動画生成「MiniMax H3」は最大2Kに対応",
-        "音声AIは40言語と7種類の感情表現に対応",
-        "音楽生成APIの提供方針にも変更",
-        "今後の展望"
-      ],
-      "source_url": "https://platform.minimax.io/docs/guides/models-intro",
-      "source_urls": [
-        "https://platform.minimax.io/docs/guides/models-intro"
-      ],
-      "source_label": "platform.minimax.io",
-      "cover": "assets/posts/1561766706320515252.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1471542643900158023/threads/1561766706320515252",
-      "first_seen": "2026-10-19T15:43:19.009Z",
-      "kind": "model",
-      "kind_confidence": 1
-    },
-    {
-      "id": "1561766553874071643",
-      "title": "Microsoftが警告「AIエージェントは新たな内部脅威」――Project Perceptionで自律型AIを常時監視",
-      "channel": "microsoft",
-      "category": "Microsoft",
-      "date": "2026-10-19T15:42:42.663Z",
-      "excerpt": "Microsoftは2026年10月19日、企業内で稼働するAIエージェントを新たなセキュリティリスク「Agentic Insider（エージェント型内部者）」として捉え、継続的な監視と制御が必要だと警告しました。同社は「Project Perception…",
-      "lead": "Microsoftは2026年10月19日、企業内で稼働するAIエージェントを新たなセキュリティリスク「Agentic Insider（エージェント型内部者）」として捉え、継続的な監視と制御が必要だと警告しました。同社は「Project Perception」を活用し、AIの自律性を維持しながら、その行動をリアルタイムで管理する新たなセキュリティモデルを提示しています。",
-      "headings": [
-        "AIエージェントは信頼できる内部者ではない",
-        "Project Perceptionが実現する多層防御",
-        "1. センサーと制御機構",
-        "2. 動的リスク評価",
-        "3. Guardian Agentsによる継続監督",
-        "次の課題はAIの「意図」の可視化",
-        "企業と開発者への影響",
-        "今後の展望"
-      ],
-      "source_url": "https://blogs.microsoft.com/blog/2026/10/19/securing-the-agentic-insider/",
-      "source_urls": [
-        "https://blogs.microsoft.com/blog/2026/10/19/securing-the-agentic-insider/"
-      ],
-      "source_label": "blogs.microsoft.com",
-      "cover": "assets/posts/1561766553874071643.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1432720743279497367/threads/1561766553874071643",
-      "first_seen": "2026-10-19T15:42:42.663Z",
-      "kind": "model",
-      "kind_confidence": 0.37
-    },
-    {
-      "id": "1561526676054085632",
-      "title": "Anthropicが「Claude Money」を開発中、銀行口座とAIを連携する個人向け金融サービスへ進出",
-      "channel": "リーク情報",
-      "category": "リーク情報",
-      "date": "2026-10-18T23:49:31.334Z",
-      "excerpt": "Anthropicが、AIアシスタント「Claude」に銀行口座を接続し、個人の資産や支出を分析できる新機能「Claude Money」を準備していることが明らかになりました。2026年9月14日、AI関連メディアTestingCatalogが報じました。",
-      "lead": "Anthropicが、AIアシスタント「Claude」に銀行口座を接続し、個人の資産や支出を分析できる新機能「Claude Money」を準備していることが明らかになりました。2026年9月14日、AI関連メディアTestingCatalogが報じました。",
-      "headings": [
-        "銀行口座とClaudeを直接接続",
-        "技術的な焦点は金融データとの継続的な連携",
-        "ChatGPT Financesとの競争が本格化",
-        "個人情報保護と規制対応が課題",
-        "今後の展望"
-      ],
-      "source_url": "https://www.testingcatalog.com/anthropic-prepares-claude-money-for-personal-finance/",
-      "source_urls": [
-        "https://www.testingcatalog.com/anthropic-prepares-claude-money-for-personal-finance/"
-      ],
-      "source_label": "testingcatalog.com",
-      "cover": "assets/posts/1561526676054085632.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1415534435712897124/threads/1561526676054085632",
-      "first_seen": "2026-10-18T23:49:31.334Z",
-      "kind": "feature",
-      "kind_confidence": 0.98
-    },
-    {
-      "id": "1561526589479452735",
-      "title": "OpenAIが「GPT-Image-3」をテスト中か？謎の画像生成AI「Aurora」3モデルが出現",
-      "channel": "リーク情報",
-      "category": "リーク情報",
-      "date": "2026-10-18T23:49:10.693Z",
-      "excerpt": "OpenAIが次世代画像生成AI「GPT-Image-3」の開発を進めている可能性が浮上しました。2026年10月18日、同社のAPIに未発表の「Aurora」シリーズ3モデルが一時的に出現し、その後、AIモデル比較プラットフォーム「Arena」で画像生成テ…",
-      "lead": "OpenAIが次世代画像生成AI「GPT-Image-3」の開発を進めている可能性が浮上しました。2026年10月18日、同社のAPIに未発表の「Aurora」シリーズ3モデルが一時的に出現し、その後、AIモデル比較プラットフォーム「Arena」で画像生成テストが確認されたとTestingCatalogが報じました。",
-      "headings": [
-        "3つの未発表モデルがAPIに出現",
-        "技術的注目点：速度と画質の最適化",
-        "GPT-Image-2.5からの進化となるか",
-        "開発者や企業への影響",
-        "今後の展望"
-      ],
-      "source_url": "https://www.testingcatalog.com/openai-possibly-testing-gpt-image-3/",
-      "source_urls": [
-        "https://www.testingcatalog.com/openai-possibly-testing-gpt-image-3/"
-      ],
-      "source_label": "testingcatalog.com",
-      "cover": "assets/posts/1561526589479452735.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1415534435712897124/threads/1561526589479452735",
-      "first_seen": "2026-10-18T23:49:10.693Z",
-      "kind": "model",
-      "kind_confidence": 0.97
-    },
-    {
-      "id": "1561526492373057621",
-      "title": "Anthropic、企業価値に連動する公益基金を設立へ—株式5%を拠出、AI成長の利益を社会に還元",
-      "channel": "anthropic",
-      "category": "Anthropic",
-      "date": "2026-10-18T23:48:47.541Z",
-      "excerpt": "AI開発企業Anthropicは2026年10月18日、新組織「Anthropic Public Benefit Fund」の設立を発表しました。株主の承認を条件に、自社株式の5%を基金に拠出し、企業価値の上昇に応じて拠出比率を追加できる仕組みを導入します。…",
-      "lead": "AI開発企業Anthropicは2026年10月18日、新組織「Anthropic Public Benefit Fund」の設立を発表しました。株主の承認を条件に、自社株式の5%を基金に拠出し、企業価値の上昇に応じて拠出比率を追加できる仕組みを導入します。AIが生み出す経済的価値を社会へ還元する、新たな企業統治モデルとして注目されます。",
-      "headings": [
-        "企業成長に連動する株式拠出モデル",
-        "非営利財団ではなくLLCを選んだ理由",
-        "AIによる雇用変化への対応も視野に",
-        "公益目的の株式比率は約20%に",
-        "今後の展望"
-      ],
-      "source_url": "https://www.anthropic.com/news/public-benefit-fund",
-      "source_urls": [
-        "https://www.anthropic.com/news/public-benefit-fund"
-      ],
-      "source_label": "anthropic.com",
-      "cover": "assets/posts/1561526492373057621.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1561526492373057621",
-      "first_seen": "2026-10-18T23:48:47.541Z",
-      "kind": "business",
-      "kind_confidence": 1
-    },
-    {
-      "id": "1561064232328372315",
-      "title": "DeepSeek-V4.1-Flash-1017公開、推論・コーディング・AIエージェント性能が大幅向上",
-      "channel": "deep-seek",
-      "category": "その他",
-      "date": "2026-10-17T17:11:56.158Z",
-      "excerpt": "中国のAI企業DeepSeekは、最新AIモデル「DeepSeek-V4.1-Flash-1017」をHugging Faceで公開しました。既存のDeepSeek-V4.1-Flashを改良したモデルで、推論、プログラミング、AIエージェント、画像理解の各…",
-      "lead": "中国のAI企業DeepSeekは、最新AIモデル「DeepSeek-V4.1-Flash-1017」をHugging Faceで公開しました。既存のDeepSeek-V4.1-Flashを改良したモデルで、推論、プログラミング、AIエージェント、画像理解の各分野で性能が向上しています。さらに、タスク実行時間と出力トークン数を削減し、処理速度とコスト効率の両立を目指しています。",
-      "headings": [
-        "ベンチマークで確認された性能向上",
-        "7630億パラメータと100万トークンの長文処理",
-        "開発者向けに新しいプロンプト処理基盤を提供",
-        "オープンウェイトAI導入への影響",
-        "今後の展望"
-      ],
-      "source_url": "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017",
-      "source_urls": [
-        "https://huggingface.co/deepseek-ai/DeepSeek-V4.1-Flash-1017"
-      ],
-      "source_label": "huggingface.co",
-      "cover": "assets/posts/1561064232328372315.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1419690651490193470/threads/1561064232328372315",
-      "first_seen": "2026-10-17T17:11:56.158Z",
-      "kind": "model",
-      "kind_confidence": 1
-    },
-    {
-      "id": "1560803782026334258",
-      "title": "視覚で「考える」AI、ElorianがGlimpseを発表！GPT-6 Astraに匹敵する性能を低コストで実現",
-      "channel": "その他",
-      "category": "その他",
-      "date": "2026-10-16T23:56:59.967Z",
-      "excerpt": "AI企業Elorianは2026年10月16日、画像や動画から物理世界を理解し、視覚情報を使って推論する新モデル「Glimpse」を発表しました。GPT-6 AstraやClaude Opus 5.5などの最先端モデルに匹敵する性能を、一部の視覚ベンチマーク…",
-      "lead": "AI企業Elorianは2026年10月16日、画像や動画から物理世界を理解し、視覚情報を使って推論する新モデル「Glimpse」を発表しました。GPT-6 AstraやClaude Opus 5.5などの最先端モデルに匹敵する性能を、一部の視覚ベンチマークで実現したと主張しています。APIとチャットインターフェースを通じて利用できます。",
-      "headings": [
-        "視覚情報を直接使う新しい推論モデル",
-        "GPT-6 Astraとの性能比較",
-        "API料金は最先端モデルより大幅に安価",
-        "ロボティクスや動画解析への応用",
-        "今後の展望"
-      ],
-      "source_url": "https://elorian.ai/blog/introducing-glimpse",
-      "source_urls": [
-        "https://elorian.ai/blog/introducing-glimpse"
-      ],
-      "source_label": "elorian.ai",
-      "cover": "assets/posts/1560803782026334258.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1560803782026334258",
-      "first_seen": "2026-10-16T23:56:59.967Z",
-      "kind": "model",
-      "kind_confidence": 1
     }
   ]
 }

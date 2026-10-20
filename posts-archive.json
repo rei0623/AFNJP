@@ -1,9 +1,193 @@
 {
-  "generated_at": "2026-10-20T10:00:15.810Z",
+  "generated_at": "2026-10-20T15:02:09.302Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 409,
+  "count": 416,
   "posts": [
+    {
+      "id": "1562098689189609643",
+      "title": "Microsoft、デジタル主権を大幅強化！AI・クラウドの運用管理と技術的独立性を拡張",
+      "channel": "microsoft",
+      "category": "Microsoft",
+      "date": "2026-10-20T13:42:29.893Z",
+      "excerpt": "Microsoftは2026年10月20日、デジタル主権を強化する「Microsoft Sovereign Cloud」の新機能を発表しました。クラウド上のデータ管理から暗号鍵の独立管理、ネットワーク切断時の業務継続、オンプレミスでのAI推論まで、企業や政府…",
+      "lead": "Microsoftは2026年10月20日、デジタル主権を強化する「Microsoft Sovereign Cloud」の新機能を発表しました。クラウド上のデータ管理から暗号鍵の独立管理、ネットワーク切断時の業務継続、オンプレミスでのAI推論まで、企業や政府機関が重要システムを自ら制御できる環境を拡充します。",
+      "headings": [
+        "デジタル主権は「データの所在地」から「運用の支配権」へ",
+        "Azureに統合管理機能と外部暗号鍵管理を導入",
+        "ネットワーク切断環境でもAIと開発基盤を運用",
+        "企業のAI導入とIT戦略への影響"
+      ],
+      "source_url": "https://blogs.microsoft.com/blog/2026/10/20/advancing-digital-sovereignty-with-greater-control-and-choice/",
+      "source_urls": [
+        "https://blogs.microsoft.com/blog/2026/10/20/advancing-digital-sovereignty-with-greater-control-and-choice/"
+      ],
+      "source_label": "blogs.microsoft.com",
+      "cover": "assets/posts/1562098689189609643.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1432720743279497367/threads/1562098689189609643",
+      "first_seen": "2026-10-20T13:42:29.893Z",
+      "kind": "feature",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1562098394363601037",
+      "title": "FLUX 3 Max登場、10秒動画を約12秒で生成する高速AIモデル",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-10-20T13:41:19.601Z",
+      "excerpt": "AI推論プラットフォーム「fal」は、Black Forest Labsとの協業による動画生成AI「FLUX 3 Max」を公開しました。高画質と低遅延の両立を目指したモデルで、テキスト指示だけから映像と音声を生成できます。事前評価では動画品質で最高水準の評…",
+      "lead": "AI推論プラットフォーム「fal」は、Black Forest Labsとの協業による動画生成AI「FLUX 3 Max」を公開しました。高画質と低遅延の両立を目指したモデルで、テキスト指示だけから映像と音声を生成できます。事前評価では動画品質で最高水準の評価を獲得しており、映像制作の高速化が期待されます。",
+      "headings": [
+        "FLUX 3 Maxの技術的特徴",
+        "動画品質と生成速度を両立",
+        "API連携で映像制作を自動化",
+        "期間限定で75％割引",
+        "今後の展望"
+      ],
+      "source_url": "https://fal.ai/models/blackforestlabs/flux-3-max/text-to-video",
+      "source_urls": [
+        "https://fal.ai/models/blackforestlabs/flux-3-max/text-to-video"
+      ],
+      "source_label": "fal.ai",
+      "cover": "assets/posts/1562098394363601037.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1562098394363601037",
+      "first_seen": "2026-10-20T13:41:19.601Z",
+      "kind": "model",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1562098261676785744",
+      "title": "DeepSeek、自社AI推論基盤「DeepInfer」をオープンソース公開！大規模AI運用の高速化技術を解放",
+      "channel": "deep-seek",
+      "category": "その他",
+      "date": "2026-10-20T13:40:47.966Z",
+      "excerpt": "DeepSeekは、大規模AIサービスの運用を支える高性能推論フレームワーク「DeepInfer」をGitHubで公開しました。Apache License 2.0で提供され、NVIDIA製GPUとHuawei製NPUに対応します。",
+      "lead": "DeepSeekは、大規模AIサービスの運用を支える高性能推論フレームワーク「DeepInfer」をGitHubで公開しました。Apache License 2.0で提供され、NVIDIA製GPUとHuawei製NPUに対応します。",
+      "headings": [
+        "DeepInferとは何か？",
+        "高速推論を実現する主要技術",
+        "1. 専用カーネルによる計算最適化",
+        "2. DSparkによる投機的デコード",
+        "3. MoE分散処理と非同期実行",
+        "4. 再現性と構造化出力にも対応",
+        "対応ハードウェアと性能評価",
+        "実運用への導入には制約も"
+      ],
+      "source_url": "https://github.com/deepseek-ai/DeepInfer",
+      "source_urls": [
+        "https://github.com/deepseek-ai/DeepInfer"
+      ],
+      "source_label": "github.com",
+      "cover": "assets/posts/1562098261676785744.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1419690651490193470/threads/1562098261676785744",
+      "first_seen": "2026-10-20T13:40:47.966Z",
+      "kind": "tool",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1562076495243907162",
+      "title": "Google、TorchTPUをオープンソース化！PyTorchがTPUでネイティブ動作、AI開発基盤に大きな転換",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-10-20T12:14:18.444Z",
+      "excerpt": "Google Cloudは2026年10月21日付の公式ブログで、Google製AIアクセラレータ「TPU」上でPyTorchをネイティブ実行できる「TorchTPU」のオープンソース化を発表しました。Metaとの共同開発により、従来のPyTorchコードを…",
+      "lead": "Google Cloudは2026年10月21日付の公式ブログで、Google製AIアクセラレータ「TPU」上でPyTorchをネイティブ実行できる「TorchTPU」のオープンソース化を発表しました。Metaとの共同開発により、従来のPyTorchコードを最小限の変更でTPUに移行できる環境を提供します。",
+      "headings": [
+        "PyTorchとTPUの統合が加速",
+        "vLLM・SGLang・llm-dによる推論基盤の強化",
+        "最大8,192基のTPUで大規模学習を検証",
+        "LiteRTとAIエージェントにも対応",
+        "今後の展望"
+      ],
+      "source_url": "https://cloud.google.com/blog/topics/ai-infrastructure/torchtpu-is-now-open-source-run-native-pytorch-on-tpus/?hl=en",
+      "source_urls": [
+        "https://cloud.google.com/blog/topics/ai-infrastructure/torchtpu-is-now-open-source-run-native-pytorch-on-tpus/?hl=en"
+      ],
+      "source_label": "cloud.google.com",
+      "cover": "assets/posts/1562076495243907162.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1562076495243907162",
+      "first_seen": "2026-10-20T12:14:18.444Z",
+      "kind": "tool",
+      "kind_confidence": 0.99
+    },
+    {
+      "id": "1562076331351613500",
+      "title": "Google、行政業務特化型「Gemini for government services」発表！AIエージェントが政府の業務改革を加速",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-10-20T12:13:39.369Z",
+      "excerpt": "Google Cloudは2026年10月21日付の公式ブログで、政府機関向けAIソリューション「Gemini for government services」を発表しました。行政の法規制や既存システムに対応するAIエージェントを提供し、公文書管理、政策調査…",
+      "lead": "Google Cloudは2026年10月21日付の公式ブログで、政府機関向けAIソリューション「Gemini for government services」を発表しました。行政の法規制や既存システムに対応するAIエージェントを提供し、公文書管理、政策調査、調達審査、補助金監査などの業務効率化を目指します。現在はプレビュー段階です。",
+      "headings": [
+        "政府業務に特化した5つの技術基盤",
+        "行政業務を変える7つのユースケース",
+        "MicrosoftやOracleとも連携する開放型アーキテクチャ",
+        "セキュリティとAI運用コストへの対応",
+        "今後の展望"
+      ],
+      "source_url": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-for-government-services/?hl=en",
+      "source_urls": [
+        "https://cloud.google.com/blog/products/ai-machine-learning/gemini-for-government-services/?hl=en"
+      ],
+      "source_label": "cloud.google.com",
+      "cover": "assets/posts/1562076331351613500.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1562076331351613500",
+      "first_seen": "2026-10-20T12:13:39.369Z",
+      "kind": "model",
+      "kind_confidence": 0.42
+    },
+    {
+      "id": "1562076194655178762",
+      "title": "PyTorch 2.15でMacのAI性能が大幅進化！LLM推論が最大6.5倍高速化、動画生成のメモリ使用量も激減",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-10-20T12:13:06.778Z",
+      "excerpt": "Hugging FaceのPyTorchチームは2026年10月20日、PyTorch 2.15におけるApple Silicon向けMPSバックエンドの改良を発表しました。FP8演算への対応、LLM推論の高速化、動画生成時のメモリ消費削減など、MacでのA…",
+      "lead": "Hugging FaceのPyTorchチームは2026年10月20日、PyTorch 2.15におけるApple Silicon向けMPSバックエンドの改良を発表しました。FP8演算への対応、LLM推論の高速化、動画生成時のメモリ消費削減など、MacでのAI実行環境を大きく改善する内容です。",
+      "headings": [
+        "LLM推論が最大6.5倍高速化",
+        "FP8対応でAIモデルのメモリ効率が向上",
+        "動画生成時のGPUメモリ消費が約97％減少",
+        "GPU演算と開発者向け機能も強化",
+        "今後の展望"
+      ],
+      "source_url": "https://huggingface.co/blog/mps-pytorch-2-15",
+      "source_urls": [
+        "https://huggingface.co/blog/mps-pytorch-2-15"
+      ],
+      "source_label": "huggingface.co",
+      "cover": "assets/posts/1562076194655178762.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1562076194655178762",
+      "first_seen": "2026-10-20T12:13:06.778Z",
+      "kind": "feature",
+      "kind_confidence": 0.35
+    },
+    {
+      "id": "1562075962760499341",
+      "title": "Google Cloud、完全隔離環境で動くGemini搭載企業向けRAG検索を発表",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-10-20T12:12:11.490Z",
+      "excerpt": "Google Cloudは、インターネット接続を必要としない「Google Distributed Cloud（GDC）air-gapped」上で、Geminiを活用した企業向け検索機能を発表しました。プレビュー提供されるこの機能は、機密文書や画像、音声、動…",
+      "lead": "Google Cloudは、インターネット接続を必要としない「Google Distributed Cloud（GDC）air-gapped」上で、Geminiを活用した企業向け検索機能を発表しました。プレビュー提供されるこの機能は、機密文書や画像、音声、動画を外部クラウドへ送信することなく分析できる、フルマネージド型の検索拡張生成（RAG）基盤です。",
+      "headings": [
+        "完全オフラインで動作するマルチモーダルRAG",
+        "技術アーキテクチャの核心",
+        "Python実行による構造化データ分析",
+        "データ主権とセキュリティ",
+        "今後の展望"
+      ],
+      "source_url": "https://cloud.google.com/blog/topics/hybrid-cloud/managed-rag-search-inside-the-sovereign-perimeter-gemini-on-gdc-enterprise-search/?hl=en",
+      "source_urls": [
+        "https://cloud.google.com/blog/topics/hybrid-cloud/managed-rag-search-inside-the-sovereign-perimeter-gemini-on-gdc-enterprise-search/?hl=en"
+      ],
+      "source_label": "cloud.google.com",
+      "cover": "assets/posts/1562075962760499341.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1562075962760499341",
+      "first_seen": "2026-10-20T12:12:11.490Z",
+      "kind": "feature",
+      "kind_confidence": 0.9
+    },
     {
       "id": "1561886447915765790",
       "title": "Anthropic、OSS向けAI脆弱性スキャナーを無償公開！高度なセキュリティ監査を自動化",
