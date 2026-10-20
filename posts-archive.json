@@ -1,9 +1,35 @@
 {
-  "generated_at": "2026-10-19T23:36:31.302Z",
+  "generated_at": "2026-10-20T04:44:21.727Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 408,
+  "count": 409,
   "posts": [
+    {
+      "id": "1561886447915765790",
+      "title": "Anthropic、OSS向けAI脆弱性スキャナーを無償公開！高度なセキュリティ監査を自動化",
+      "channel": "anthropic",
+      "category": "Anthropic",
+      "date": "2026-10-19T23:39:07.630Z",
+      "excerpt": "Anthropicは2026年10月8日、オープンソースソフトウェア（OSS）の脆弱性をAIで検出する無料サービス「OSS Scanner」を公開しました。高性能AIモデルを活用した定期的なコード監査により、重要なOSSプロジェクトのセキュリティ強化を支援し…",
+      "lead": "Anthropicは2026年10月8日、オープンソースソフトウェア（OSS）の脆弱性をAIで検出する無料サービス「OSS Scanner」を公開しました。高性能AIモデルを活用した定期的なコード監査により、重要なOSSプロジェクトのセキュリティ強化を支援します。",
+      "headings": [
+        "AIによる高度な脆弱性解析",
+        "Docker環境を利用した隔離型セキュリティ監査",
+        "参加対象は重要なOSSプロジェクト",
+        "迅速な報告と誤検知リスクの両立",
+        "今後の展望"
+      ],
+      "source_url": "https://red.anthropic.com/oss-scanner/",
+      "source_urls": [
+        "https://red.anthropic.com/oss-scanner/"
+      ],
+      "source_label": "red.anthropic.com",
+      "cover": "assets/posts/1561886447915765790.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1561886447915765790",
+      "first_seen": "2026-10-19T23:39:07.630Z",
+      "kind": "tool",
+      "kind_confidence": 1
+    },
     {
       "id": "1561885422781464636",
       "title": "Metaが広告推薦AIを刷新！「GenRecs Tokenization」で生成AI時代の広告最適化へ",
