@@ -1,9 +1,192 @@
 {
-  "generated_at": "2026-10-20T22:16:12.723Z",
+  "generated_at": "2026-10-21T00:38:03.014Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 421,
+  "count": 428,
   "posts": [
+    {
+      "id": "1562252409491689533",
+      "title": "NYの新興Tuesday Labs、家庭用ロボット「Voxel Series-1」の予約受付を開始 出荷は2028年",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-10-20T23:53:19.669Z",
+      "excerpt": "ニューヨークを拠点とするロボティクスラボ兼デザインスタジオのTuesday Labsが、家庭用ロボット「Voxel Series-1」の限定予約受付を開始しました。予約金は全額返金可能な200ドルで、出荷開始は2028年を予定しています。片付けや物探しといっ…",
+      "lead": "ニューヨークを拠点とするロボティクスラボ兼デザインスタジオのTuesday Labsが、家庭用ロボット「Voxel Series-1」の限定予約受付を開始しました。予約金は全額返金可能な200ドルで、出荷開始は2028年を予定しています。片付けや物探しといった家庭内の雑務を担う汎用型ロボットとして、キャラクター性を前面に打ち出している点が特徴です。",
+      "headings": [
+        "予約の仕組み：番号付きの「Founding Series」",
+        "技術的特徴：家庭の「固定された形状」に対応するアーム",
+        "想定される機能",
+        "キャラクター性を重視した設計思想",
+        "課題と注意点",
+        "今後の展望"
+      ],
+      "source_url": "https://tuesdaylabs.com/reserve",
+      "source_urls": [
+        "https://tuesdaylabs.com/reserve"
+      ],
+      "source_label": "tuesdaylabs.com",
+      "cover": "assets/posts/1562252409491689533.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1562252409491689533",
+      "first_seen": "2026-10-20T23:53:19.669Z",
+      "kind": "model",
+      "kind_confidence": 0.94
+    },
+    {
+      "id": "1562252174262542386",
+      "title": "EAGLE-4公開、1つのドラフトでバッチ・GPUに適応する投機的デコーディング",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-10-20T23:52:23.586Z",
+      "excerpt": "LLM推論高速化技術「EAGLE」シリーズの最新世代「EAGLE-4」の公式推論コードがGitHubで公開されました。1つのドラフトモデルがバッチサイズやハードウェア、ワークロードに合わせて投機的デコーディングの戦略を自動で調整し、ターゲットモデルの出力分布…",
+      "lead": "LLM推論高速化技術「EAGLE」シリーズの最新世代「EAGLE-4」の公式推論コードがGitHubで公開されました。1つのドラフトモデルがバッチサイズやハードウェア、ワークロードに合わせて投機的デコーディングの戦略を自動で調整し、ターゲットモデルの出力分布を保ったまま推論を高速化します。SGLang、vLLM、TokenSpeedに対応し、NVIDIA B300とAMD MI355Xでの計測結果も示されています。",
+      "headings": [
+        "技術的な仕組み",
+        "計測結果",
+        "導入上の制約",
+        "ライセンスに要注意",
+        "今後の展望"
+      ],
+      "source_url": "https://github.com/eagle-hq/EAGLE-4",
+      "source_urls": [
+        "https://github.com/eagle-hq/EAGLE-4"
+      ],
+      "source_label": "github.com",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1562252174262542386",
+      "first_seen": "2026-10-20T23:52:23.586Z",
+      "kind": "model",
+      "kind_confidence": 0.43
+    },
+    {
+      "id": "1562252007769899029",
+      "title": "Mistral、音声エージェント基盤「Voxtral 3」を発表 50言語超の文字起こしと感情表現TTSを1つのパイプラインに統合",
+      "channel": "mistral-ai",
+      "category": "その他",
+      "date": "2026-10-20T23:51:43.891Z",
+      "excerpt": "仏Mistral AIは、音声認識（STT）・音声合成（TTS）モデル群と音声エージェントSDKをまとめた「Voxtral 3」を発表しました。「聞く・考える・話す・実行する」をリアルタイムのストリーミング処理で1本化し、1ターン1秒未満の応答をうたいます。…",
+      "lead": "仏Mistral AIは、音声認識（STT）・音声合成（TTS）モデル群と音声エージェントSDKをまとめた「Voxtral 3」を発表しました。「聞く・考える・話す・実行する」をリアルタイムのストリーミング処理で1本化し、1ターン1秒未満の応答をうたいます。EUホスト型APIのほか自社環境への展開にも対応し、データ主権を重視する企業を主な対象としています。",
+      "headings": [
+        "文字起こし：50言語対応、話者分離と文脈バイアス",
+        "音声合成：文脈から感情を読み取る",
+        "エージェントSDK：LiveKitベースの並列パイプライン",
+        "価格と注意点",
+        "今後の展望"
+      ],
+      "source_url": "https://mistral.ai/news/voxtral-3/",
+      "source_urls": [
+        "https://mistral.ai/news/voxtral-3/"
+      ],
+      "source_label": "mistral.ai",
+      "cover": "assets/posts/1562252007769899029.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1460897850354438283/threads/1562252007769899029",
+      "first_seen": "2026-10-20T23:51:43.891Z",
+      "kind": "tool",
+      "kind_confidence": 0.83
+    },
+    {
+      "id": "1562250794420670464",
+      "title": "NVIDIA「Cosmos3-H-Dreams」公開、実臨床の胆嚢摘出手術をリアルタイム生成する世界モデル型シミュレーター",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-10-20T23:46:54.606Z",
+      "excerpt": "NVIDIAは2026年10月20日、臨床手術の映像とロボット運動データから学習した生成型手術シミュレーター「Cosmos3-H-Dreams」を発表しました。CMR SurgicalのVersiusプラットフォームで記録された胆嚢摘出術のデータを用い、術具…",
+      "lead": "NVIDIAは2026年10月20日、臨床手術の映像とロボット運動データから学習した生成型手術シミュレーター「Cosmos3-H-Dreams」を発表しました。CMR SurgicalのVersiusプラットフォームで記録された胆嚢摘出術のデータを用い、術具操作に応じて体内映像をリアルタイムに生成します。同社は、臨床の胆嚢摘出記録で学習し、ライブの運動学制御に対応したリアルタイム生成型手術シミュレーターとしては初の事例だとしています。単一のNVIDIA RTX PRO 6000 GPUで対話的に動作します。",
+      "headings": [
+        "卓上タスクから体内の臨床シーンへ",
+        "技術的なポイント",
+        "未学習の動作への汎化と応用",
+        "影響と注意点",
+        "今後の展望"
+      ],
+      "source_url": "https://huggingface.co/blog/nvidia/cosmos3-h-dreams",
+      "source_urls": [
+        "https://huggingface.co/blog/nvidia/cosmos3-h-dreams"
+      ],
+      "source_label": "huggingface.co",
+      "cover": "assets/posts/1562250794420670464.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1562250794420670464",
+      "first_seen": "2026-10-20T23:46:54.606Z",
+      "kind": "model",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1562250685339148311",
+      "title": "GeminiのPersonal Intelligenceが車載へ Android Autoでメールや写真を横断した個人最適化アシストが開始",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-10-20T23:46:28.599Z",
+      "excerpt": "Googleは2026年10月20日、車載向けGeminiに「Personal Intelligence」の提供を開始すると発表しました。Android Autoでは同日から順次展開され、Google built-in搭載車には今後数カ月以内に提供される予定…",
+      "lead": "Googleは2026年10月20日、車載向けGeminiに「Personal Intelligence」の提供を開始すると発表しました。Android Autoでは同日から順次展開され、Google built-in搭載車には今後数カ月以内に提供される予定です。運転中でも、メールやカレンダー、写真、保存した場所などの個人データをもとに、音声だけで利用者ごとの回答が得られるようになります。",
+      "headings": [
+        "Personal Intelligenceの仕組み",
+        "運転中の具体的な活用例",
+        "プライバシーと提供条件",
+        "業界への影響と課題",
+        "今後の展望"
+      ],
+      "source_url": "https://blog.google/products-and-platforms/platforms/android/android-auto-cars-with-google-built-in-gemini-personal-intelligence/",
+      "source_urls": [
+        "https://blog.google/products-and-platforms/platforms/android/android-auto-cars-with-google-built-in-gemini-personal-intelligence/"
+      ],
+      "source_label": "blog.google",
+      "cover": "assets/posts/1562250685339148311.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1562250685339148311",
+      "first_seen": "2026-10-20T23:46:28.599Z",
+      "kind": "feature",
+      "kind_confidence": 0.94
+    },
+    {
+      "id": "1562250508075540491",
+      "title": "Googleが「Gemini」に小規模事業者向けハブを新設、ブランド画像生成や財務分析を一元化",
+      "channel": "gemini",
+      "category": "Google",
+      "date": "2026-10-20T23:45:46.336Z",
+      "excerpt": "Googleは2026年10月20日（米国時間）、Geminiアプリに小規模事業者向けの新機能群を発表しました。専用のビジネス向けランディングページを中心に、外部アプリ連携、ブランドに沿った画像生成、財務データの可視化などを一つの場所で扱えるようにするもので…",
+      "lead": "Googleは2026年10月20日（米国時間）、Geminiアプリに小規模事業者向けの新機能群を発表しました。専用のビジネス向けランディングページを中心に、外部アプリ連携、ブランドに沿った画像生成、財務データの可視化などを一つの場所で扱えるようにするものです。数日以内に全世界のGeminiアプリ全ユーザーへ順次展開されます。",
+      "headings": [
+        "ビジネス向けハブと外部アプリ連携",
+        "ブランドスタイルを記憶する画像生成",
+        "乱雑なデータから財務インサイトを生成",
+        "世界各地の活用事例",
+        "導入時の注意点",
+        "今後の展望"
+      ],
+      "source_url": "https://blog.google/innovation-and-ai/products/gemini-app/new-tools-small-business-owners/",
+      "source_urls": [
+        "https://blog.google/innovation-and-ai/products/gemini-app/new-tools-small-business-owners/"
+      ],
+      "source_label": "blog.google",
+      "cover": "assets/posts/1562250508075540491.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1562250508075540491",
+      "first_seen": "2026-10-20T23:45:46.336Z",
+      "kind": "feature",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1562249927114104842",
+      "title": "OpenAIがOrchestra Bioを買収、創薬支援AI「Rosalind」と統合し医薬品開発の全工程をエージェントで支援へ",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-10-20T23:43:27.824Z",
+      "excerpt": "OpenAIは2026年10月20日、バイオ医薬品企業の創薬・開発業務の調整を支援するプラットフォーム「Orchestra Bio」を買収したと発表しました。同社のチームと技術は、OpenAIのライフサイエンス向けAIモデル・ツール群「Rosalind」と統…",
+      "lead": "OpenAIは2026年10月20日、バイオ医薬品企業の創薬・開発業務の調整を支援するプラットフォーム「Orchestra Bio」を買収したと発表しました。同社のチームと技術は、OpenAIのライフサイエンス向けAIモデル・ツール群「Rosalind」と統合されます。科学的な発見を、患者に届く治療法へとつなげる業務全体をAIで支えることが狙いです。",
+      "headings": [
+        "医薬品開発の「調整業務」という課題",
+        "Orchestra Bioの仕組み",
+        "Rosalindとの統合",
+        "業界への影響と注意点",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/openai-to-acquire-orchestra-bio/",
+      "source_urls": [
+        "https://openai.com/index/openai-to-acquire-orchestra-bio/"
+      ],
+      "source_label": "openai.com",
+      "cover": "assets/posts/1562249927114104842.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1562249927114104842",
+      "first_seen": "2026-10-20T23:43:27.824Z",
+      "kind": "business",
+      "kind_confidence": 1
+    },
     {
       "id": "1562136923252850748",
       "title": "ElevenLabsが音声対話モデル「Eleven Realtime」を発表、OpenAI Realtime API互換でMiniとMaxの2系統を投入",

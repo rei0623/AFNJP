@@ -5,8 +5,64 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 20 Oct 2026 16:14:25 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 20 Oct 2026 23:53:19 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>NYの新興Tuesday Labs、家庭用ロボット「Voxel Series-1」の予約受付を開始 出荷は2028年</title>
+      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1562252409491689533</link>
+      <guid isPermaLink="false">afnjp-1562252409491689533</guid>
+      <pubDate>Tue, 20 Oct 2026 23:53:19 GMT</pubDate>
+      <category>その他</category>
+      <description>ニューヨークを拠点とするロボティクスラボ兼デザインスタジオのTuesday Labsが、家庭用ロボット「Voxel Series-1」の限定予約受付を開始しました。予約金は全額返金可能な200ドルで、出荷開始は2028年を予定しています。片付けや物探しといっ…</description>
+    </item>
+    <item>
+      <title>EAGLE-4公開、1つのドラフトでバッチ・GPUに適応する投機的デコーディング</title>
+      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1562252174262542386</link>
+      <guid isPermaLink="false">afnjp-1562252174262542386</guid>
+      <pubDate>Tue, 20 Oct 2026 23:52:23 GMT</pubDate>
+      <category>その他</category>
+      <description>LLM推論高速化技術「EAGLE」シリーズの最新世代「EAGLE-4」の公式推論コードがGitHubで公開されました。1つのドラフトモデルがバッチサイズやハードウェア、ワークロードに合わせて投機的デコーディングの戦略を自動で調整し、ターゲットモデルの出力分布…</description>
+    </item>
+    <item>
+      <title>Mistral、音声エージェント基盤「Voxtral 3」を発表 50言語超の文字起こしと感情表現TTSを1つのパイプラインに統合</title>
+      <link>https://discord.com/channels/1415350002255007784/1460897850354438283/threads/1562252007769899029</link>
+      <guid isPermaLink="false">afnjp-1562252007769899029</guid>
+      <pubDate>Tue, 20 Oct 2026 23:51:43 GMT</pubDate>
+      <category>mistral-ai</category>
+      <description>仏Mistral AIは、音声認識（STT）・音声合成（TTS）モデル群と音声エージェントSDKをまとめた「Voxtral 3」を発表しました。「聞く・考える・話す・実行する」をリアルタイムのストリーミング処理で1本化し、1ターン1秒未満の応答をうたいます。…</description>
+    </item>
+    <item>
+      <title>NVIDIA「Cosmos3-H-Dreams」公開、実臨床の胆嚢摘出手術をリアルタイム生成する世界モデル型シミュレーター</title>
+      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1562250794420670464</link>
+      <guid isPermaLink="false">afnjp-1562250794420670464</guid>
+      <pubDate>Tue, 20 Oct 2026 23:46:54 GMT</pubDate>
+      <category>その他</category>
+      <description>NVIDIAは2026年10月20日、臨床手術の映像とロボット運動データから学習した生成型手術シミュレーター「Cosmos3-H-Dreams」を発表しました。CMR SurgicalのVersiusプラットフォームで記録された胆嚢摘出術のデータを用い、術具…</description>
+    </item>
+    <item>
+      <title>GeminiのPersonal Intelligenceが車載へ Android Autoでメールや写真を横断した個人最適化アシストが開始</title>
+      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1562250685339148311</link>
+      <guid isPermaLink="false">afnjp-1562250685339148311</guid>
+      <pubDate>Tue, 20 Oct 2026 23:46:28 GMT</pubDate>
+      <category>google</category>
+      <description>Googleは2026年10月20日、車載向けGeminiに「Personal Intelligence」の提供を開始すると発表しました。Android Autoでは同日から順次展開され、Google built-in搭載車には今後数カ月以内に提供される予定…</description>
+    </item>
+    <item>
+      <title>Googleが「Gemini」に小規模事業者向けハブを新設、ブランド画像生成や財務分析を一元化</title>
+      <link>https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1562250508075540491</link>
+      <guid isPermaLink="false">afnjp-1562250508075540491</guid>
+      <pubDate>Tue, 20 Oct 2026 23:45:46 GMT</pubDate>
+      <category>gemini</category>
+      <description>Googleは2026年10月20日（米国時間）、Geminiアプリに小規模事業者向けの新機能群を発表しました。専用のビジネス向けランディングページを中心に、外部アプリ連携、ブランドに沿った画像生成、財務データの可視化などを一つの場所で扱えるようにするもので…</description>
+    </item>
+    <item>
+      <title>OpenAIがOrchestra Bioを買収、創薬支援AI「Rosalind」と統合し医薬品開発の全工程をエージェントで支援へ</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1562249927114104842</link>
+      <guid isPermaLink="false">afnjp-1562249927114104842</guid>
+      <pubDate>Tue, 20 Oct 2026 23:43:27 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIは2026年10月20日、バイオ医薬品企業の創薬・開発業務の調整を支援するプラットフォーム「Orchestra Bio」を買収したと発表しました。同社のチームと技術は、OpenAIのライフサイエンス向けAIモデル・ツール群「Rosalind」と統…</description>
+    </item>
     <item>
       <title>ElevenLabsが音声対話モデル「Eleven Realtime」を発表、OpenAI Realtime API互換でMiniとMaxの2系統を投入</title>
       <link>https://discord.com/channels/1415350002255007784/1441006356399259719/threads/1562136923252850748</link>
@@ -46,62 +102,6 @@
       <pubDate>Tue, 20 Oct 2026 15:18:50 GMT</pubDate>
       <category>anthropic</category>
       <description>Anthropicは2026年10月20日、社内研究用Claudeモデルがサソリの神経毒に結合する「ミニバインダー」を設計し、実験室での検証で17件が基準を満たしたと発表しました。投資リサーチ企業Citrini Researchとの協業で、専門家以外のチーム…</description>
-    </item>
-    <item>
-      <title>Microsoft、デジタル主権を大幅強化！AI・クラウドの運用管理と技術的独立性を拡張</title>
-      <link>https://discord.com/channels/1415350002255007784/1432720743279497367/threads/1562098689189609643</link>
-      <guid isPermaLink="false">afnjp-1562098689189609643</guid>
-      <pubDate>Tue, 20 Oct 2026 13:42:29 GMT</pubDate>
-      <category>microsoft</category>
-      <description>Microsoftは2026年10月20日、デジタル主権を強化する「Microsoft Sovereign Cloud」の新機能を発表しました。クラウド上のデータ管理から暗号鍵の独立管理、ネットワーク切断時の業務継続、オンプレミスでのAI推論まで、企業や政府…</description>
-    </item>
-    <item>
-      <title>FLUX 3 Max登場、10秒動画を約12秒で生成する高速AIモデル</title>
-      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1562098394363601037</link>
-      <guid isPermaLink="false">afnjp-1562098394363601037</guid>
-      <pubDate>Tue, 20 Oct 2026 13:41:19 GMT</pubDate>
-      <category>その他</category>
-      <description>AI推論プラットフォーム「fal」は、Black Forest Labsとの協業による動画生成AI「FLUX 3 Max」を公開しました。高画質と低遅延の両立を目指したモデルで、テキスト指示だけから映像と音声を生成できます。事前評価では動画品質で最高水準の評…</description>
-    </item>
-    <item>
-      <title>DeepSeek、自社AI推論基盤「DeepInfer」をオープンソース公開！大規模AI運用の高速化技術を解放</title>
-      <link>https://discord.com/channels/1415350002255007784/1419690651490193470/threads/1562098261676785744</link>
-      <guid isPermaLink="false">afnjp-1562098261676785744</guid>
-      <pubDate>Tue, 20 Oct 2026 13:40:47 GMT</pubDate>
-      <category>deep-seek</category>
-      <description>DeepSeekは、大規模AIサービスの運用を支える高性能推論フレームワーク「DeepInfer」をGitHubで公開しました。Apache License 2.0で提供され、NVIDIA製GPUとHuawei製NPUに対応します。</description>
-    </item>
-    <item>
-      <title>Google、TorchTPUをオープンソース化！PyTorchがTPUでネイティブ動作、AI開発基盤に大きな転換</title>
-      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1562076495243907162</link>
-      <guid isPermaLink="false">afnjp-1562076495243907162</guid>
-      <pubDate>Tue, 20 Oct 2026 12:14:18 GMT</pubDate>
-      <category>google</category>
-      <description>Google Cloudは2026年10月21日付の公式ブログで、Google製AIアクセラレータ「TPU」上でPyTorchをネイティブ実行できる「TorchTPU」のオープンソース化を発表しました。Metaとの共同開発により、従来のPyTorchコードを…</description>
-    </item>
-    <item>
-      <title>Google、行政業務特化型「Gemini for government services」発表！AIエージェントが政府の業務改革を加速</title>
-      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1562076331351613500</link>
-      <guid isPermaLink="false">afnjp-1562076331351613500</guid>
-      <pubDate>Tue, 20 Oct 2026 12:13:39 GMT</pubDate>
-      <category>google</category>
-      <description>Google Cloudは2026年10月21日付の公式ブログで、政府機関向けAIソリューション「Gemini for government services」を発表しました。行政の法規制や既存システムに対応するAIエージェントを提供し、公文書管理、政策調査…</description>
-    </item>
-    <item>
-      <title>PyTorch 2.15でMacのAI性能が大幅進化！LLM推論が最大6.5倍高速化、動画生成のメモリ使用量も激減</title>
-      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1562076194655178762</link>
-      <guid isPermaLink="false">afnjp-1562076194655178762</guid>
-      <pubDate>Tue, 20 Oct 2026 12:13:06 GMT</pubDate>
-      <category>その他</category>
-      <description>Hugging FaceのPyTorchチームは2026年10月20日、PyTorch 2.15におけるApple Silicon向けMPSバックエンドの改良を発表しました。FP8演算への対応、LLM推論の高速化、動画生成時のメモリ消費削減など、MacでのA…</description>
-    </item>
-    <item>
-      <title>Google Cloud、完全隔離環境で動くGemini搭載企業向けRAG検索を発表</title>
-      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1562075962760499341</link>
-      <guid isPermaLink="false">afnjp-1562075962760499341</guid>
-      <pubDate>Tue, 20 Oct 2026 12:12:11 GMT</pubDate>
-      <category>google</category>
-      <description>Google Cloudは、インターネット接続を必要としない「Google Distributed Cloud（GDC）air-gapped」上で、Geminiを活用した企業向け検索機能を発表しました。プレビュー提供されるこの機能は、機密文書や画像、音声、動…</description>
     </item>
   </channel>
 </rss>
