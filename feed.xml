@@ -5,8 +5,56 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 20 Oct 2026 23:53:19 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2026 13:16:10 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>MistralとNVIDIAが産業エンジニアリング向けAIで協業、物理AIとエージェントの公開ベンチマーク策定へ</title>
+      <link>https://discord.com/channels/1415350002255007784/1460897850354438283/threads/1562454452370145282</link>
+      <guid isPermaLink="false">afnjp-1562454452370145282</guid>
+      <pubDate>Wed, 21 Oct 2026 13:16:10 GMT</pubDate>
+      <category>mistral-ai</category>
+      <description>フランスのMistralは2026年10月21日、NVIDIAと協力し、NVIDIAのアクセラレーテッドコンピューティングを基盤とした「AIネイティブなエンジニアリングワークフロー」の開発に取り組むと発表しました。シミュレーションの高速化に加え、物理AIや工…</description>
+    </item>
+    <item>
+      <title>Perplexity、Macで「Computer」をローカル実行可能に 完全ローカルとハイブリッドの2方式で機密データを保護</title>
+      <link>https://discord.com/channels/1415350002255007784/1417545518539739166/threads/1562454026753282078</link>
+      <guid isPermaLink="false">afnjp-1562454026753282078</guid>
+      <pubDate>Wed, 21 Oct 2026 13:14:28 GMT</pubDate>
+      <category>perplexity</category>
+      <description>Perplexityは、Macアプリでエージェント機能「Computer」のタスクをMac上で実行できる新機能を公開しました。AIの処理をすべてMac内で完結させる「完全ローカル」と、クラウドのモデルとMac上のモデルが役割を分担する「ハイブリッド」の2方式…</description>
+    </item>
+    <item>
+      <title>OpenAI、数千のAIエージェントを並列実行し数百万個の脳細胞データから新たな研究の手がかりを32分で抽出</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1562452756604788816</link>
+      <guid isPermaLink="false">afnjp-1562452756604788816</guid>
+      <pubDate>Wed, 21 Oct 2026 13:09:26 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIは2026年10月21日、PerturbAIおよびScripps Researchと共同で、生命科学向けモデル「GPT-Rosalind」を搭載した数千のAIエージェントを並列に動かし、数百万個のマウス脳細胞から得られた既存の実験データを分析した…</description>
+    </item>
+    <item>
+      <title>Google Cloud、NVIDIA Blackwell搭載「Confidential G4」を一般提供開始 性能低下3.5%未満で“使用中データ”を保護</title>
+      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1562452591420375111</link>
+      <guid isPermaLink="false">afnjp-1562452591420375111</guid>
+      <pubDate>Wed, 21 Oct 2026 13:08:46 GMT</pubDate>
+      <category>google</category>
+      <description>Google Cloudは2026年10月21日、NVIDIA RTX PRO 6000 Blackwell Server Edition GPUを搭載したG4インスタンス上でのConfidential Computing（コンフィデンシャル・コンピューティ…</description>
+    </item>
+    <item>
+      <title>ChatGPT広告が新たに26カ国へ拡大、提供国は89カ国に 広告主は10万社超</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1562451571168772187</link>
+      <guid isPermaLink="false">afnjp-1562451571168772187</guid>
+      <pubDate>Wed, 21 Oct 2026 13:04:43 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIは2026年10月21日、ChatGPT内の広告「ChatGPT Ads」の提供地域を新たに26カ国へ広げると発表しました。これにより提供国は世界89カ国となります。広告開始から約8カ月で、キャンペーンを実施した広告主は10万社を超えたとしていま…</description>
+    </item>
+    <item>
+      <title>OpenAIのフロンティアモデルとCodexがGoogle Cloudへ、Model Garden経由で提供へ</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1562451444643401879</link>
+      <guid isPermaLink="false">afnjp-1562451444643401879</guid>
+      <pubDate>Wed, 21 Oct 2026 13:04:13 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIは2026年10月21日、Google Cloudとの提携を発表しました。OpenAIのフロンティアモデルとCodexのエージェント型ワークフローを、Google CloudのModel Gardenで利用できるようにするものです。一般提供は今後…</description>
+    </item>
     <item>
       <title>NYの新興Tuesday Labs、家庭用ロボット「Voxel Series-1」の予約受付を開始 出荷は2028年</title>
       <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1562252409491689533</link>
@@ -54,54 +102,6 @@
       <pubDate>Tue, 20 Oct 2026 23:45:46 GMT</pubDate>
       <category>gemini</category>
       <description>Googleは2026年10月20日（米国時間）、Geminiアプリに小規模事業者向けの新機能群を発表しました。専用のビジネス向けランディングページを中心に、外部アプリ連携、ブランドに沿った画像生成、財務データの可視化などを一つの場所で扱えるようにするもので…</description>
-    </item>
-    <item>
-      <title>OpenAIがOrchestra Bioを買収、創薬支援AI「Rosalind」と統合し医薬品開発の全工程をエージェントで支援へ</title>
-      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1562249927114104842</link>
-      <guid isPermaLink="false">afnjp-1562249927114104842</guid>
-      <pubDate>Tue, 20 Oct 2026 23:43:27 GMT</pubDate>
-      <category>open-ai</category>
-      <description>OpenAIは2026年10月20日、バイオ医薬品企業の創薬・開発業務の調整を支援するプラットフォーム「Orchestra Bio」を買収したと発表しました。同社のチームと技術は、OpenAIのライフサイエンス向けAIモデル・ツール群「Rosalind」と統…</description>
-    </item>
-    <item>
-      <title>ElevenLabsが音声対話モデル「Eleven Realtime」を発表、OpenAI Realtime API互換でMiniとMaxの2系統を投入</title>
-      <link>https://discord.com/channels/1415350002255007784/1441006356399259719/threads/1562136923252850748</link>
-      <guid isPermaLink="false">afnjp-1562136923252850748</guid>
-      <pubDate>Tue, 20 Oct 2026 16:14:25 GMT</pubDate>
-      <category>eleven-labs</category>
-      <description>音声AI大手のElevenLabsは2026年10月20日、新しいSpeech to Speechモデル群「Eleven Realtime」を発表しました。低コストで自然な会話を重視した「v1 Mini」と、推論力やツール利用を重視した「v1 Max」の2モ…</description>
-    </item>
-    <item>
-      <title>政府職員18万人がAIエージェントを日常業務で利用へ デジタル庁が「源内工房」と安全基準「源内基準」を公表</title>
-      <link>https://discord.com/channels/1415350002255007784/1417536105930166282/threads/1562135505213071532</link>
-      <guid isPermaLink="false">afnjp-1562135505213071532</guid>
-      <pubDate>Tue, 20 Oct 2026 16:08:47 GMT</pubDate>
-      <category>日本国内</category>
-      <description>デジタル庁は2026年10月20日、ガバメントAI「源内」上で約18万人の政府職員を対象とするAIエージェント利用環境の提供開始を発表しました。あわせて、利用者・管理者・開発者が守るべきルールを定めた「源内基準」を公表しています。AIコーディングエージェント…</description>
-    </item>
-    <item>
-      <title>OpenAI「GPT-6.1 Terra」がMicrosoftのPRに出現 Solを上回る低価格モデルか</title>
-      <link>https://discord.com/channels/1415350002255007784/1415534435712897124/threads/1562123536833708102</link>
-      <guid isPermaLink="false">afnjp-1562123536833708102</guid>
-      <pubDate>Tue, 20 Oct 2026 15:21:14 GMT</pubDate>
-      <category>リーク情報</category>
-      <description>OpenAIの「Terra」系列に新モデルが登場する可能性が出てきました。Microsoftのプルリクエスト（PR）で「GPT-6.1 Terra」という名称が確認されました。同じ時期に米The Informationも、OpenAIが新しいTerraモデル…</description>
-    </item>
-    <item>
-      <title>Meta、AIエージェント「Muse」にMetaすら覗けない「Confidential VM」を準備中</title>
-      <link>https://discord.com/channels/1415350002255007784/1415534435712897124/threads/1562123248710459392</link>
-      <guid isPermaLink="false">afnjp-1562123248710459392</guid>
-      <pubDate>Tue, 20 Oct 2026 15:20:05 GMT</pubDate>
-      <category>リーク情報</category>
-      <description>Metaが個人向けAIエージェント「Muse」に、より高いプライバシーを実現する「Muse Confidential VM」の導入を進めています。同機能はすでにWebインターフェース上に部分的に実装されており、設定画面の専用セクションから有効化する仕組みにな…</description>
-    </item>
-    <item>
-      <title>Claudeがサソリ毒に対する結合タンパク質を設計、211設計中17件が実験で成功</title>
-      <link>https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1562122935353868388</link>
-      <guid isPermaLink="false">afnjp-1562122935353868388</guid>
-      <pubDate>Tue, 20 Oct 2026 15:18:50 GMT</pubDate>
-      <category>anthropic</category>
-      <description>Anthropicは2026年10月20日、社内研究用Claudeモデルがサソリの神経毒に結合する「ミニバインダー」を設計し、実験室での検証で17件が基準を満たしたと発表しました。投資リサーチ企業Citrini Researchとの協業で、専門家以外のチーム…</description>
     </item>
   </channel>
 </rss>
