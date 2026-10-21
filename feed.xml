@@ -5,8 +5,64 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 21 Oct 2026 13:16:10 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2026 22:49:14 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Microsoftが「Contact Center Intelligence」を公開プレビュー、既存コンタクトセンターにAIエージェントを後付け</title>
+      <link>https://discord.com/channels/1415350002255007784/1432720743279497367/threads/1562598668702326875</link>
+      <guid isPermaLink="false">afnjp-1562598668702326875</guid>
+      <pubDate>Wed, 21 Oct 2026 22:49:14 GMT</pubDate>
+      <category>microsoft</category>
+      <description>Microsoftは2026年10月21日、既存のコンタクトセンター基盤を置き換えずにAIエージェントや品質管理、分析機能を追加できる新サービス「Microsoft Contact Center Intelligence（CCI）」を発表しました。Dynam…</description>
+    </item>
+    <item>
+      <title>Recursive、ノートPCで動くコーディング特化MoEモデル「Flint」を公開 開発の大半を自動研究システムが担当</title>
+      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1562598244897525850</link>
+      <guid isPermaLink="false">afnjp-1562598244897525850</guid>
+      <pubDate>Wed, 21 Oct 2026 22:47:33 GMT</pubDate>
+      <category>その他</category>
+      <description>AIスタートアップのRecursiveは、ローカル環境でのエージェント型コーディングに特化したMixture-of-Experts（MoE）モデル「Recursive Flint」を発表しました。総パラメータ数は400億で、1トークンあたりに使うのは25億だ…</description>
+    </item>
+    <item>
+      <title>Anthropic、能動型エージェントアプリ「Claude Duet」を発表 米国Pro・Maxユーザー向けにリサーチプレビュー開始</title>
+      <link>https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1562598087246094447</link>
+      <guid isPermaLink="false">afnjp-1562598087246094447</guid>
+      <pubDate>Wed, 21 Oct 2026 22:46:55 GMT</pubDate>
+      <category>anthropic</category>
+      <description>Anthropicは2026年10月21日、Claudeが能動的なエージェントとして動作する新アプリ「Claude Duet」のリサーチプレビューを発表しました。ユーザーの指示を待つのではなく、注意すべき事項を自ら知らせ、ユーザーが離席中も作業を継続し、代理…</description>
+    </item>
+    <item>
+      <title>Microsoft Researchが31年来の難問「KLS予想」を解決 人間主導のAI協働が鍵に</title>
+      <link>https://discord.com/channels/1415350002255007784/1432720743279497367/threads/1562592662601736304</link>
+      <guid isPermaLink="false">afnjp-1562592662601736304</guid>
+      <pubDate>Wed, 21 Oct 2026 22:25:22 GMT</pubDate>
+      <category>microsoft</category>
+      <description>Microsoft Researchの研究者らが、1995年に提起された高次元幾何学の中心的未解決問題「Kannan–Lovász–Simonovits（KLS）予想」を証明しました。成果は複数の独立した証明とLean 4による形式検証でも裏付けられており、…</description>
+    </item>
+    <item>
+      <title>IBM「Granite Speech 5.0」公開、日本語対応と高速化で企業の音声処理を強化</title>
+      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1562592551318323251</link>
+      <guid isPermaLink="false">afnjp-1562592551318323251</guid>
+      <pubDate>Wed, 21 Oct 2026 22:24:55 GMT</pubDate>
+      <category>その他</category>
+      <description>IBMは2026年10月21日、Hugging Face上で音声モデル群「Granite Speech」の更新を発表しました。新モデル「granite-speech-5.0-2b」に加え、既存の「granite-speech-5.0-470m-turboct…</description>
+    </item>
+    <item>
+      <title>BigQuery「ObjectRef」が一般提供開始、画像・音声・文書をSQLだけでGeminiと横断分析</title>
+      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1562592466115502240</link>
+      <guid isPermaLink="false">afnjp-1562592466115502240</guid>
+      <pubDate>Wed, 21 Oct 2026 22:24:35 GMT</pubDate>
+      <category>google</category>
+      <description>Google Cloudは2026年10月21日、BigQueryで非構造化データを扱う「ObjectRef」とマルチモーダル分析機能の一般提供（GA）を発表しました。Cloud Storage上のファイルを通常の列と同じ表に保持し、SQLからGeminiに…</description>
+    </item>
+    <item>
+      <title>ElevenLabs、90言語超に対応するライブ音声翻訳「Eleven Realtime Translation」をアルファ公開</title>
+      <link>https://discord.com/channels/1415350002255007784/1441006356399259719/threads/1562592238750400562</link>
+      <guid isPermaLink="false">afnjp-1562592238750400562</guid>
+      <pubDate>Wed, 21 Oct 2026 22:23:41 GMT</pubDate>
+      <category>eleven-labs</category>
+      <description>音声AI企業のElevenLabsは2026年10月21日、会話の最中に話者の声を相手の言語へ翻訳して届けるライブ音声翻訳モデル「Eleven Realtime Translation」を発表しました。開発者向けプラットフォーム「ElevenAPI」のエンタ…</description>
+    </item>
     <item>
       <title>MistralとNVIDIAが産業エンジニアリング向けAIで協業、物理AIとエージェントの公開ベンチマーク策定へ</title>
       <link>https://discord.com/channels/1415350002255007784/1460897850354438283/threads/1562454452370145282</link>
@@ -46,62 +102,6 @@
       <pubDate>Wed, 21 Oct 2026 13:04:43 GMT</pubDate>
       <category>open-ai</category>
       <description>OpenAIは2026年10月21日、ChatGPT内の広告「ChatGPT Ads」の提供地域を新たに26カ国へ広げると発表しました。これにより提供国は世界89カ国となります。広告開始から約8カ月で、キャンペーンを実施した広告主は10万社を超えたとしていま…</description>
-    </item>
-    <item>
-      <title>OpenAIのフロンティアモデルとCodexがGoogle Cloudへ、Model Garden経由で提供へ</title>
-      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1562451444643401879</link>
-      <guid isPermaLink="false">afnjp-1562451444643401879</guid>
-      <pubDate>Wed, 21 Oct 2026 13:04:13 GMT</pubDate>
-      <category>open-ai</category>
-      <description>OpenAIは2026年10月21日、Google Cloudとの提携を発表しました。OpenAIのフロンティアモデルとCodexのエージェント型ワークフローを、Google CloudのModel Gardenで利用できるようにするものです。一般提供は今後…</description>
-    </item>
-    <item>
-      <title>NYの新興Tuesday Labs、家庭用ロボット「Voxel Series-1」の予約受付を開始 出荷は2028年</title>
-      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1562252409491689533</link>
-      <guid isPermaLink="false">afnjp-1562252409491689533</guid>
-      <pubDate>Tue, 20 Oct 2026 23:53:19 GMT</pubDate>
-      <category>その他</category>
-      <description>ニューヨークを拠点とするロボティクスラボ兼デザインスタジオのTuesday Labsが、家庭用ロボット「Voxel Series-1」の限定予約受付を開始しました。予約金は全額返金可能な200ドルで、出荷開始は2028年を予定しています。片付けや物探しといっ…</description>
-    </item>
-    <item>
-      <title>EAGLE-4公開、1つのドラフトでバッチ・GPUに適応する投機的デコーディング</title>
-      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1562252174262542386</link>
-      <guid isPermaLink="false">afnjp-1562252174262542386</guid>
-      <pubDate>Tue, 20 Oct 2026 23:52:23 GMT</pubDate>
-      <category>その他</category>
-      <description>LLM推論高速化技術「EAGLE」シリーズの最新世代「EAGLE-4」の公式推論コードがGitHubで公開されました。1つのドラフトモデルがバッチサイズやハードウェア、ワークロードに合わせて投機的デコーディングの戦略を自動で調整し、ターゲットモデルの出力分布…</description>
-    </item>
-    <item>
-      <title>Mistral、音声エージェント基盤「Voxtral 3」を発表 50言語超の文字起こしと感情表現TTSを1つのパイプラインに統合</title>
-      <link>https://discord.com/channels/1415350002255007784/1460897850354438283/threads/1562252007769899029</link>
-      <guid isPermaLink="false">afnjp-1562252007769899029</guid>
-      <pubDate>Tue, 20 Oct 2026 23:51:43 GMT</pubDate>
-      <category>mistral-ai</category>
-      <description>仏Mistral AIは、音声認識（STT）・音声合成（TTS）モデル群と音声エージェントSDKをまとめた「Voxtral 3」を発表しました。「聞く・考える・話す・実行する」をリアルタイムのストリーミング処理で1本化し、1ターン1秒未満の応答をうたいます。…</description>
-    </item>
-    <item>
-      <title>NVIDIA「Cosmos3-H-Dreams」公開、実臨床の胆嚢摘出手術をリアルタイム生成する世界モデル型シミュレーター</title>
-      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1562250794420670464</link>
-      <guid isPermaLink="false">afnjp-1562250794420670464</guid>
-      <pubDate>Tue, 20 Oct 2026 23:46:54 GMT</pubDate>
-      <category>その他</category>
-      <description>NVIDIAは2026年10月20日、臨床手術の映像とロボット運動データから学習した生成型手術シミュレーター「Cosmos3-H-Dreams」を発表しました。CMR SurgicalのVersiusプラットフォームで記録された胆嚢摘出術のデータを用い、術具…</description>
-    </item>
-    <item>
-      <title>GeminiのPersonal Intelligenceが車載へ Android Autoでメールや写真を横断した個人最適化アシストが開始</title>
-      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1562250685339148311</link>
-      <guid isPermaLink="false">afnjp-1562250685339148311</guid>
-      <pubDate>Tue, 20 Oct 2026 23:46:28 GMT</pubDate>
-      <category>google</category>
-      <description>Googleは2026年10月20日、車載向けGeminiに「Personal Intelligence」の提供を開始すると発表しました。Android Autoでは同日から順次展開され、Google built-in搭載車には今後数カ月以内に提供される予定…</description>
-    </item>
-    <item>
-      <title>Googleが「Gemini」に小規模事業者向けハブを新設、ブランド画像生成や財務分析を一元化</title>
-      <link>https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1562250508075540491</link>
-      <guid isPermaLink="false">afnjp-1562250508075540491</guid>
-      <pubDate>Tue, 20 Oct 2026 23:45:46 GMT</pubDate>
-      <category>gemini</category>
-      <description>Googleは2026年10月20日（米国時間）、Geminiアプリに小規模事業者向けの新機能群を発表しました。専用のビジネス向けランディングページを中心に、外部アプリ連携、ブランドに沿った画像生成、財務データの可視化などを一つの場所で扱えるようにするもので…</description>
     </item>
   </channel>
 </rss>

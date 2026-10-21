@@ -1,9 +1,190 @@
 {
-  "generated_at": "2026-10-21T20:36:40.640Z",
+  "generated_at": "2026-10-21T23:59:35.344Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 434,
+  "count": 441,
   "posts": [
+    {
+      "id": "1562598668702326875",
+      "title": "Microsoftが「Contact Center Intelligence」を公開プレビュー、既存コンタクトセンターにAIエージェントを後付け",
+      "channel": "microsoft",
+      "category": "Microsoft",
+      "date": "2026-10-21T22:49:14.298Z",
+      "excerpt": "Microsoftは2026年10月21日、既存のコンタクトセンター基盤を置き換えずにAIエージェントや品質管理、分析機能を追加できる新サービス「Microsoft Contact Center Intelligence（CCI）」を発表しました。Dynam…",
+      "lead": "Microsoftは2026年10月21日、既存のコンタクトセンター基盤を置き換えずにAIエージェントや品質管理、分析機能を追加できる新サービス「Microsoft Contact Center Intelligence（CCI）」を発表しました。Dynamics 365 Contact Centerに組み込まれていたエージェント機能を、オープンコネクター経由で他社製コンタクトセンターにも提供する点が最大の特徴です。現在、オーストリアを除くグローバルで公開プレビューとして利用できます。",
+      "headings": [
+        "3つのエージェントで構成",
+        "技術的なポイント",
+        "ガバナンスと料金体系",
+        "導入事例と業界の反応"
+      ],
+      "source_url": "https://www.microsoft.com/en-us/dynamics-365/blog/business-leader/2026/10/21/microsoft-contact-center-intelligence-transforming-customer-experience-at-agentic-speed/",
+      "source_urls": [
+        "https://www.microsoft.com/en-us/dynamics-365/blog/business-leader/2026/10/21/microsoft-contact-center-intelligence-transforming-customer-experience-at-agentic-speed/"
+      ],
+      "source_label": "microsoft.com",
+      "cover": "assets/posts/1562598668702326875.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1432720743279497367/threads/1562598668702326875",
+      "first_seen": "2026-10-21T22:49:14.298Z",
+      "kind": "feature",
+      "kind_confidence": 0.71
+    },
+    {
+      "id": "1562598244897525850",
+      "title": "Recursive、ノートPCで動くコーディング特化MoEモデル「Flint」を公開 開発の大半を自動研究システムが担当",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-10-21T22:47:33.255Z",
+      "excerpt": "AIスタートアップのRecursiveは、ローカル環境でのエージェント型コーディングに特化したMixture-of-Experts（MoE）モデル「Recursive Flint」を発表しました。総パラメータ数は400億で、1トークンあたりに使うのは25億だ…",
+      "lead": "AIスタートアップのRecursiveは、ローカル環境でのエージェント型コーディングに特化したMixture-of-Experts（MoE）モデル「Recursive Flint」を発表しました。総パラメータ数は400億で、1トークンあたりに使うのは25億だけです。同社の自動AI研究システム「Eureka Machine」を使い、少人数のチームがゼロから4カ月未満で開発したとしています。重みはApache 2.0ライセンスでHugging Faceにて公開されています。",
+      "headings": [
+        "性能：同クラスのMoEで首位、密モデルより5倍以上高速",
+        "技術：Eureka Machineが各工程を最適化",
+        "影響と注意点",
+        "今後の展望"
+      ],
+      "source_url": "https://recursive.com/updates/introducing-recursive-flint",
+      "source_urls": [
+        "https://recursive.com/updates/introducing-recursive-flint"
+      ],
+      "source_label": "recursive.com",
+      "cover": "assets/posts/1562598244897525850.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1562598244897525850",
+      "first_seen": "2026-10-21T22:47:33.255Z",
+      "kind": "model",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1562598087246094447",
+      "title": "Anthropic、能動型エージェントアプリ「Claude Duet」を発表 米国Pro・Maxユーザー向けにリサーチプレビュー開始",
+      "channel": "anthropic",
+      "category": "Anthropic",
+      "date": "2026-10-21T22:46:55.668Z",
+      "excerpt": "Anthropicは2026年10月21日、Claudeが能動的なエージェントとして動作する新アプリ「Claude Duet」のリサーチプレビューを発表しました。ユーザーの指示を待つのではなく、注意すべき事項を自ら知らせ、ユーザーが離席中も作業を継続し、代理…",
+      "lead": "Anthropicは2026年10月21日、Claudeが能動的なエージェントとして動作する新アプリ「Claude Duet」のリサーチプレビューを発表しました。ユーザーの指示を待つのではなく、注意すべき事項を自ら知らせ、ユーザーが離席中も作業を継続し、代理で行動する前には必ず確認を取る設計です。まずは米国のPro・Maxプラン加入者を対象に、ウェイトリスト方式で提供が始まります。",
+      "headings": [
+        "「自分から動く」エージェントの仕組み",
+        "6,000超のコネクタと決済連携",
+        "多層的な安全設計",
+        "制約と導入上の注意点",
+        "今後の展望"
+      ],
+      "source_url": "https://claude.com/ja/resources/articles/claude-duet",
+      "source_urls": [
+        "https://claude.com/ja/resources/articles/claude-duet"
+      ],
+      "source_label": "claude.com",
+      "cover": "assets/posts/1562598087246094447.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1562598087246094447",
+      "first_seen": "2026-10-21T22:46:55.668Z",
+      "kind": "feature",
+      "kind_confidence": 0.79
+    },
+    {
+      "id": "1562592662601736304",
+      "title": "Microsoft Researchが31年来の難問「KLS予想」を解決 人間主導のAI協働が鍵に",
+      "channel": "microsoft",
+      "category": "Microsoft",
+      "date": "2026-10-21T22:25:22.332Z",
+      "excerpt": "Microsoft Researchの研究者らが、1995年に提起された高次元幾何学の中心的未解決問題「Kannan–Lovász–Simonovits（KLS）予想」を証明しました。成果は複数の独立した証明とLean 4による形式検証でも裏付けられており、…",
+      "lead": "Microsoft Researchの研究者らが、1995年に提起された高次元幾何学の中心的未解決問題「Kannan–Lovász–Simonovits（KLS）予想」を証明しました。成果は複数の独立した証明とLean 4による形式検証でも裏付けられており、人間が方向付けたAIエージェント探索が発見を後押しした点でも注目を集めています。",
+      "headings": [
+        "KLS予想とは何か",
+        "証明の技術的な流れ",
+        "独立した検証",
+        "AIは「解いた」のではなく「探索を支えた」",
+        "今後の展望"
+      ],
+      "source_url": "https://www.microsoft.com/en-us/research/blog/solving-a-31-year-old-grand-challenge-in-mathematics-the-kls-conjecture/",
+      "source_urls": [
+        "https://www.microsoft.com/en-us/research/blog/solving-a-31-year-old-grand-challenge-in-mathematics-the-kls-conjecture/"
+      ],
+      "source_label": "microsoft.com",
+      "cover": "assets/posts/1562592662601736304.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1432720743279497367/threads/1562592662601736304",
+      "first_seen": "2026-10-21T22:25:22.332Z",
+      "kind": "research",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1562592551318323251",
+      "title": "IBM「Granite Speech 5.0」公開、日本語対応と高速化で企業の音声処理を強化",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-10-21T22:24:55.800Z",
+      "excerpt": "IBMは2026年10月21日、Hugging Face上で音声モデル群「Granite Speech」の更新を発表しました。新モデル「granite-speech-5.0-2b」に加え、既存の「granite-speech-5.0-470m-turboct…",
+      "lead": "IBMは2026年10月21日、Hugging Face上で音声モデル群「Granite Speech」の更新を発表しました。新モデル「granite-speech-5.0-2b」に加え、既存の「granite-speech-5.0-470m-turboctc」と「granite-speech-4.1-2b-plus」の改良版を公開しています。高精度な文字起こし・翻訳、エッジでの高速処理、複数話者の識別という企業の主要な音声業務を3モデルで分担する構成で、いずれもApache 2.0ライセンスで提供されます。",
+      "headings": [
+        "主力の新モデル「Granite Speech 5.0 2B」",
+        "Turbo CTCは多言語化し約1.6倍高速に",
+        "4.1 2B Plusは会議・通話向けに改良",
+        "企業への影響と注意点",
+        "今後の展望"
+      ],
+      "source_url": "https://huggingface.co/blog/ibm-granite/granite-speech-5",
+      "source_urls": [
+        "https://huggingface.co/blog/ibm-granite/granite-speech-5"
+      ],
+      "source_label": "huggingface.co",
+      "cover": "assets/posts/1562592551318323251.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1562592551318323251",
+      "first_seen": "2026-10-21T22:24:55.800Z",
+      "kind": "model",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1562592466115502240",
+      "title": "BigQuery「ObjectRef」が一般提供開始、画像・音声・文書をSQLだけでGeminiと横断分析",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-10-21T22:24:35.486Z",
+      "excerpt": "Google Cloudは2026年10月21日、BigQueryで非構造化データを扱う「ObjectRef」とマルチモーダル分析機能の一般提供（GA）を発表しました。Cloud Storage上のファイルを通常の列と同じ表に保持し、SQLからGeminiに…",
+      "lead": "Google Cloudは2026年10月21日、BigQueryで非構造化データを扱う「ObjectRef」とマルチモーダル分析機能の一般提供（GA）を発表しました。Cloud Storage上のファイルを通常の列と同じ表に保持し、SQLからGeminiに直接渡せるようになります。",
+      "headings": [
+        "ObjectRefの仕組み",
+        "GAでの追加機能",
+        "SQLで完結する具体例",
+        "「抽出結果と原本を同じ行に」という発想",
+        "注意点",
+        "今後の展望"
+      ],
+      "source_url": "https://cloud.google.com/blog/products/data-analytics/analyze-unstructured-data-in-bigquery-with-objectref/?hl=en",
+      "source_urls": [
+        "https://cloud.google.com/blog/products/data-analytics/analyze-unstructured-data-in-bigquery-with-objectref/?hl=en"
+      ],
+      "source_label": "cloud.google.com",
+      "cover": "assets/posts/1562592466115502240.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1562592466115502240",
+      "first_seen": "2026-10-21T22:24:35.486Z",
+      "kind": "feature",
+      "kind_confidence": 0.97
+    },
+    {
+      "id": "1562592238750400562",
+      "title": "ElevenLabs、90言語超に対応するライブ音声翻訳「Eleven Realtime Translation」をアルファ公開",
+      "channel": "eleven-labs",
+      "category": "その他",
+      "date": "2026-10-21T22:23:41.278Z",
+      "excerpt": "音声AI企業のElevenLabsは2026年10月21日、会話の最中に話者の声を相手の言語へ翻訳して届けるライブ音声翻訳モデル「Eleven Realtime Translation」を発表しました。開発者向けプラットフォーム「ElevenAPI」のエンタ…",
+      "lead": "音声AI企業のElevenLabsは2026年10月21日、会話の最中に話者の声を相手の言語へ翻訳して届けるライブ音声翻訳モデル「Eleven Realtime Translation」を発表しました。開発者向けプラットフォーム「ElevenAPI」のエンタープライズ顧客を対象に、アルファ版として提供を開始しています。",
+      "headings": [
+        "「各自が自分の言語で話し、自分の言語で聞く」仕組み",
+        "基盤は低遅延モデル「Eleven v4 Turbo」",
+        "品質と遅延のトレードオフを調整可能",
+        "影響と導入上の注意点",
+        "今後の展望"
+      ],
+      "source_url": "https://elevenlabs.io/blog/realtime-translation",
+      "source_urls": [
+        "https://elevenlabs.io/blog/realtime-translation"
+      ],
+      "source_label": "elevenlabs.io",
+      "cover": "assets/posts/1562592238750400562.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1441006356399259719/threads/1562592238750400562",
+      "first_seen": "2026-10-21T22:23:41.278Z",
+      "kind": "model",
+      "kind_confidence": 0.97
+    },
     {
       "id": "1562454452370145282",
       "title": "MistralとNVIDIAが産業エンジニアリング向けAIで協業、物理AIとエージェントの公開ベンチマーク策定へ",
