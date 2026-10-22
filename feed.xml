@@ -5,8 +5,16 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 22 Oct 2026 09:36:56 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2026 14:43:34 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>OpenAI、FDEチームの実像を公開 「自らを不要にする」ことを掲げる現場実装部隊</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1562838836923465778</link>
+      <guid isPermaLink="false">afnjp-1562838836923465778</guid>
+      <pubDate>Thu, 22 Oct 2026 14:43:34 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIは2026年10月22日、Forward Deployed Engineering（FDE）責任者のColin Jarvis氏による記事を公開しました。FDEとは顧客の現場に入り込んでAIを実装するエンジニア職で、同社は2025年初頭にチームを立…</description>
+    </item>
     <item>
       <title>ElevenLabs、日本語版アンバサダープログラムの募集を開始 「コミュニティ」と「コンテンツ」の2トラックで発信者を支援</title>
       <link>https://discord.com/channels/1415350002255007784/1441006356399259719/threads/1562761670655221833</link>
@@ -94,14 +102,6 @@
       <pubDate>Wed, 21 Oct 2026 13:09:26 GMT</pubDate>
       <category>open-ai</category>
       <description>OpenAIは2026年10月21日、PerturbAIおよびScripps Researchと共同で、生命科学向けモデル「GPT-Rosalind」を搭載した数千のAIエージェントを並列に動かし、数百万個のマウス脳細胞から得られた既存の実験データを分析した…</description>
-    </item>
-    <item>
-      <title>Google Cloud、NVIDIA Blackwell搭載「Confidential G4」を一般提供開始 性能低下3.5%未満で“使用中データ”を保護</title>
-      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1562452591420375111</link>
-      <guid isPermaLink="false">afnjp-1562452591420375111</guid>
-      <pubDate>Wed, 21 Oct 2026 13:08:46 GMT</pubDate>
-      <category>google</category>
-      <description>Google Cloudは2026年10月21日、NVIDIA RTX PRO 6000 Blackwell Server Edition GPUを搭載したG4インスタンス上でのConfidential Computing（コンフィデンシャル・コンピューティ…</description>
     </item>
   </channel>
 </rss>

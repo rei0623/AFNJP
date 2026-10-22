@@ -1,8 +1,34 @@
 {
-  "generated_at": "2026-10-22T10:08:12.455Z",
+  "generated_at": "2026-10-22T15:14:27.733Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1562838836923465778",
+      "title": "OpenAI、FDEチームの実像を公開 「自らを不要にする」ことを掲げる現場実装部隊",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-10-22T14:43:34.864Z",
+      "excerpt": "OpenAIは2026年10月22日、Forward Deployed Engineering（FDE）責任者のColin Jarvis氏による記事を公開しました。FDEとは顧客の現場に入り込んでAIを実装するエンジニア職で、同社は2025年初頭にチームを立…",
+      "lead": "OpenAIは2026年10月22日、Forward Deployed Engineering（FDE）責任者のColin Jarvis氏による記事を公開しました。FDEとは顧客の現場に入り込んでAIを実装するエンジニア職で、同社は2025年初頭にチームを立ち上げています。記事では、モデルの能力と実業務で使える水準との差を「デプロイメント・ギャップ」と呼び、それを埋める具体的な手法と成果が示されました。",
+      "headings": [
+        "「成果から始め、後で拡張する」",
+        "Codex中心の共通基盤で9割のコードを削減",
+        "モデルの限界はResearchと共に越える",
+        "影響と課題",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/forward-deployed-engineering-means/",
+      "source_urls": [
+        "https://openai.com/index/forward-deployed-engineering-means/"
+      ],
+      "source_label": "openai.com",
+      "cover": "assets/posts/1562838836923465778.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1562838836923465778",
+      "first_seen": "2026-10-22T14:43:34.864Z",
+      "kind": "business",
+      "kind_confidence": 0.33
+    },
     {
       "id": "1562761670655221833",
       "title": "ElevenLabs、日本語版アンバサダープログラムの募集を開始 「コミュニティ」と「コンテンツ」の2トラックで発信者を支援",
@@ -288,32 +314,6 @@
       "first_seen": "2026-10-21T13:09:26.143Z",
       "kind": "research",
       "kind_confidence": 0.99
-    },
-    {
-      "id": "1562452591420375111",
-      "title": "Google Cloud、NVIDIA Blackwell搭載「Confidential G4」を一般提供開始 性能低下3.5%未満で“使用中データ”を保護",
-      "channel": "google",
-      "category": "Google",
-      "date": "2026-10-21T13:08:46.760Z",
-      "excerpt": "Google Cloudは2026年10月21日、NVIDIA RTX PRO 6000 Blackwell Server Edition GPUを搭載したG4インスタンス上でのConfidential Computing（コンフィデンシャル・コンピューティ…",
-      "lead": "Google Cloudは2026年10月21日、NVIDIA RTX PRO 6000 Blackwell Server Edition GPUを搭載したG4インスタンス上でのConfidential Computing（コンフィデンシャル・コンピューティング）の一般提供（GA）を発表しました。AIエージェントや推論ワークロードで扱うモデルの重み、プロンプト、生成結果を、計算処理中もハードウェアレベルで保護できる点が特徴です。",
-      "headings": [
-        "何が提供されるのか",
-        "技術的なポイント",
-        "性能への影響",
-        "業界への影響と課題",
-        "今後の展望"
-      ],
-      "source_url": "https://cloud.google.com/blog/topics/ai-infrastructure/confidential-g4-gpus-are-ga/?hl=en",
-      "source_urls": [
-        "https://cloud.google.com/blog/topics/ai-infrastructure/confidential-g4-gpus-are-ga/?hl=en"
-      ],
-      "source_label": "cloud.google.com",
-      "cover": "assets/posts/1562452591420375111.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1562452591420375111",
-      "first_seen": "2026-10-21T13:08:46.760Z",
-      "kind": "feature",
-      "kind_confidence": 0.95
     }
   ]
 }

@@ -1,9 +1,35 @@
 {
-  "generated_at": "2026-10-22T10:08:12.449Z",
+  "generated_at": "2026-10-22T15:14:27.657Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 442,
+  "count": 443,
   "posts": [
+    {
+      "id": "1562838836923465778",
+      "title": "OpenAI、FDEチームの実像を公開 「自らを不要にする」ことを掲げる現場実装部隊",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-10-22T14:43:34.864Z",
+      "excerpt": "OpenAIは2026年10月22日、Forward Deployed Engineering（FDE）責任者のColin Jarvis氏による記事を公開しました。FDEとは顧客の現場に入り込んでAIを実装するエンジニア職で、同社は2025年初頭にチームを立…",
+      "lead": "OpenAIは2026年10月22日、Forward Deployed Engineering（FDE）責任者のColin Jarvis氏による記事を公開しました。FDEとは顧客の現場に入り込んでAIを実装するエンジニア職で、同社は2025年初頭にチームを立ち上げています。記事では、モデルの能力と実業務で使える水準との差を「デプロイメント・ギャップ」と呼び、それを埋める具体的な手法と成果が示されました。",
+      "headings": [
+        "「成果から始め、後で拡張する」",
+        "Codex中心の共通基盤で9割のコードを削減",
+        "モデルの限界はResearchと共に越える",
+        "影響と課題",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/forward-deployed-engineering-means/",
+      "source_urls": [
+        "https://openai.com/index/forward-deployed-engineering-means/"
+      ],
+      "source_label": "openai.com",
+      "cover": "assets/posts/1562838836923465778.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1562838836923465778",
+      "first_seen": "2026-10-22T14:43:34.864Z",
+      "kind": "business",
+      "kind_confidence": 0.33
+    },
     {
       "id": "1562761670655221833",
       "title": "ElevenLabs、日本語版アンバサダープログラムの募集を開始 「コミュニティ」と「コンテンツ」の2トラックで発信者を支援",
