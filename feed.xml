@@ -5,8 +5,16 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 21 Oct 2026 22:49:14 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2026 09:36:56 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>ElevenLabs、日本語版アンバサダープログラムの募集を開始 「コミュニティ」と「コンテンツ」の2トラックで発信者を支援</title>
+      <link>https://discord.com/channels/1415350002255007784/1441006356399259719/threads/1562761670655221833</link>
+      <guid isPermaLink="false">afnjp-1562761670655221833</guid>
+      <pubDate>Thu, 22 Oct 2026 09:36:56 GMT</pubDate>
+      <category>eleven-labs</category>
+      <description>音声AI大手のElevenLabsが、アンバサダープログラムの日本語版募集ページを公開しました。地域でイベントを開く「コミュニティビルダー」と、使い方を発信する「コンテンツクリエイター」の2トラックで、ユーザー主導でElevenLabsの活用事例を広めてもら…</description>
+    </item>
     <item>
       <title>Microsoftが「Contact Center Intelligence」を公開プレビュー、既存コンタクトセンターにAIエージェントを後付け</title>
       <link>https://discord.com/channels/1415350002255007784/1432720743279497367/threads/1562598668702326875</link>
@@ -94,14 +102,6 @@
       <pubDate>Wed, 21 Oct 2026 13:08:46 GMT</pubDate>
       <category>google</category>
       <description>Google Cloudは2026年10月21日、NVIDIA RTX PRO 6000 Blackwell Server Edition GPUを搭載したG4インスタンス上でのConfidential Computing（コンフィデンシャル・コンピューティ…</description>
-    </item>
-    <item>
-      <title>ChatGPT広告が新たに26カ国へ拡大、提供国は89カ国に 広告主は10万社超</title>
-      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1562451571168772187</link>
-      <guid isPermaLink="false">afnjp-1562451571168772187</guid>
-      <pubDate>Wed, 21 Oct 2026 13:04:43 GMT</pubDate>
-      <category>open-ai</category>
-      <description>OpenAIは2026年10月21日、ChatGPT内の広告「ChatGPT Ads」の提供地域を新たに26カ国へ広げると発表しました。これにより提供国は世界89カ国となります。広告開始から約8カ月で、キャンペーンを実施した広告主は10万社を超えたとしていま…</description>
     </item>
   </channel>
 </rss>

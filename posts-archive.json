@@ -1,9 +1,36 @@
 {
-  "generated_at": "2026-10-22T04:38:25.749Z",
+  "generated_at": "2026-10-22T10:08:12.449Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 441,
+  "count": 442,
   "posts": [
+    {
+      "id": "1562761670655221833",
+      "title": "ElevenLabs、日本語版アンバサダープログラムの募集を開始 「コミュニティ」と「コンテンツ」の2トラックで発信者を支援",
+      "channel": "eleven-labs",
+      "category": "その他",
+      "date": "2026-10-22T09:36:56.992Z",
+      "excerpt": "音声AI大手のElevenLabsが、アンバサダープログラムの日本語版募集ページを公開しました。地域でイベントを開く「コミュニティビルダー」と、使い方を発信する「コンテンツクリエイター」の2トラックで、ユーザー主導でElevenLabsの活用事例を広めてもら…",
+      "lead": "音声AI大手のElevenLabsが、アンバサダープログラムの日本語版募集ページを公開しました。地域でイベントを開く「コミュニティビルダー」と、使い方を発信する「コンテンツクリエイター」の2トラックで、ユーザー主導でElevenLabsの活用事例を広めてもらうことを狙っています。開発者やクリエイターがAI音声技術の知見を共有し、それを支援する仕組みとして注目されます。",
+      "headings": [
+        "プログラムの概要：2つのトラック",
+        "アンバサダーが得られるもの",
+        "応募から活動開始までの流れ",
+        "背景と意義",
+        "参加検討時の注意点",
+        "今後の展望"
+      ],
+      "source_url": "https://elevenlabs.io/ja/ambassador?utm_source=x&utm_medium=social&utm_campaign=jp_ambassador_interest_20261022",
+      "source_urls": [
+        "https://elevenlabs.io/ja/ambassador?utm_source=x&utm_medium=social&utm_campaign=jp_ambassador_interest_20261022"
+      ],
+      "source_label": "elevenlabs.io",
+      "cover": "assets/posts/1562761670655221833.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1441006356399259719/threads/1562761670655221833",
+      "first_seen": "2026-10-22T09:36:56.992Z",
+      "kind": "business",
+      "kind_confidence": 0.36
+    },
     {
       "id": "1562598668702326875",
       "title": "Microsoftが「Contact Center Intelligence」を公開プレビュー、既存コンタクトセンターにAIエージェントを後付け",
