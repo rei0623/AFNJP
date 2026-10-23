@@ -1,9 +1,320 @@
 {
-  "generated_at": "2026-10-22T22:18:35.102Z",
+  "generated_at": "2026-10-23T01:28:05.495Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 443,
+  "count": 455,
   "posts": [
+    {
+      "id": "1562979003571109919",
+      "title": "HUDが「DataVendor」を展開、企業の非公開コードやRL環境をAI企業に販売できるデータ市場",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-10-23T00:00:33.197Z",
+      "excerpt": "AI評価基盤を手がけるHUDが、企業や個人が保有する非公開のデータ、コード、技術的知見を、学習用・評価用データを求めるAI企業とマッチングするマーケットプレイス「DataVendor」を提供しています。公開データだけでは賄いきれなくなりつつあるAIの学習・評…",
+      "lead": "AI評価基盤を手がけるHUDが、企業や個人が保有する非公開のデータ、コード、技術的知見を、学習用・評価用データを求めるAI企業とマッチングするマーケットプレイス「DataVendor」を提供しています。公開データだけでは賄いきれなくなりつつあるAIの学習・評価用データの新たな供給源として注目されます。",
+      "headings": [
+        "「非公開データ」を売買する市場",
+        "出品から収益化までの流れ",
+        "提示される価格水準",
+        "業界への影響と課題",
+        "今後の展望"
+      ],
+      "source_url": "https://datavendor.ai/",
+      "source_urls": [
+        "https://datavendor.ai/"
+      ],
+      "source_label": "datavendor.ai",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1562979003571109919",
+      "first_seen": "2026-10-23T00:00:33.197Z",
+      "kind": "feature",
+      "kind_confidence": 0.22
+    },
+    {
+      "id": "1562978908633305199",
+      "title": "Google Cloud、AIエージェント専用基盤「Agent Compute Engine」を発表 ガバナンスも全方位に拡張",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-10-23T00:00:10.562Z",
+      "excerpt": "Google Cloudは2026年10月22日、AGNTCon + MCPConで、AIエージェント向けに設計した新しいコンピュートサービス「Agent Compute Engine」を発表しました。すでにGeminiの業務エージェントを支えている基盤で、…",
+      "lead": "Google Cloudは2026年10月22日、AGNTCon + MCPConで、AIエージェント向けに設計した新しいコンピュートサービス「Agent Compute Engine」を発表しました。すでにGeminiの業務エージェントを支えている基盤で、今後数か月以内にプレビュー提供が始まる予定です。あわせて、Gemini for businessのエージェントガバナンス機能を、他クラウドやオンプレミス、端末上のエージェントにまで広げる方針も示しました。",
+      "headings": [
+        "エージェントごとに専用microVMを割り当て",
+        "Kubernetes向けにはオープンソースの「Agent Substrate」",
+        "ガバナンスを「どこで動くエージェントにも」",
+        "今後の展望"
+      ],
+      "source_url": "https://cloud.google.com/blog/topics/ai-infrastructure/introducing-agent-compute-engine-and-expanded-agent-governance?utm_source=twitter&utm_medium=unpaidsoc&utm_campaign=fy26q4-googlecloud-blog-ai-in_feed-no-brand-global&utm_content=-&utm_term=-&linkId=64202548&hl=en",
+      "source_urls": [
+        "https://cloud.google.com/blog/topics/ai-infrastructure/introducing-agent-compute-engine-and-expanded-agent-governance?utm_source=twitter&utm_medium=unpaidsoc&utm_campaign=fy26q4-googlecloud-blog-ai-in_feed-no-brand-global&utm_content=-&utm_term=-&linkId=64202548&hl=en"
+      ],
+      "source_label": "cloud.google.com",
+      "cover": "assets/posts/1562978908633305199.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1562978908633305199",
+      "first_seen": "2026-10-23T00:00:10.562Z",
+      "kind": "tool",
+      "kind_confidence": 0.93
+    },
+    {
+      "id": "1562978755423772752",
+      "title": "Ideogram、プロンプトや画像から編集可能なSVGを生成する「Ideogram Vector」を公開",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-10-22T23:59:34.034Z",
+      "excerpt": "画像生成AIのIdeogramが、ベクター形式のアートワークを生成する新モデル「Ideogram Vector」を提供しています。テキストのプロンプト、または既存の画像からSVGを生成でき、ロゴ、印刷物、イラストなどの制作にそのまま使える点が特徴です。Web…",
+      "lead": "画像生成AIのIdeogramが、ベクター形式のアートワークを生成する新モデル「Ideogram Vector」を提供しています。テキストのプロンプト、または既存の画像からSVGを生成でき、ロゴ、印刷物、イラストなどの制作にそのまま使える点が特徴です。Web版に加えてAPIも用意されており、開発者や制作現場のワークフローへの組み込みも想定されています。",
+      "headings": [
+        "2つの生成モード",
+        "「編集できるSVG」であることの意味",
+        "想定される用途",
+        "API提供と料金",
+        "今後の展望"
+      ],
+      "source_url": "https://ideogram.ai/models/vector/",
+      "source_urls": [
+        "https://ideogram.ai/models/vector/"
+      ],
+      "source_label": "ideogram.ai",
+      "cover": "assets/posts/1562978755423772752.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1562978755423772752",
+      "first_seen": "2026-10-22T23:59:34.034Z",
+      "kind": "model",
+      "kind_confidence": 0.98
+    },
+    {
+      "id": "1562978674251268146",
+      "title": "Ai2が衛星埋め込みモデル「OlmoEarth v1.3」を公開 地球全域の埋め込みデータとブラウザ分析ツールも無償提供",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-10-22T23:59:14.681Z",
+      "excerpt": "米Allen Institute for AI（Ai2）は2026年10月22日、衛星データ向けの埋め込みモデル「OlmoEarth v1.3」を公開しました。あわせて、地球全域を対象とした年次の事前計算済み埋め込みデータと、ブラウザ上で地図の探索・分類がで…",
+      "lead": "米Allen Institute for AI（Ai2）は2026年10月22日、衛星データ向けの埋め込みモデル「OlmoEarth v1.3」を公開しました。あわせて、地球全域を対象とした年次の事前計算済み埋め込みデータと、ブラウザ上で地図の探索・分類ができる「OlmoEarth Embeddings Explorer」も提供します。GPUや高度な専門知識がなくても、土地被覆の分類や経年変化の追跡に着手できる点が最大の特徴です。",
+      "headings": [
+        "10m解像度で地表を128次元ベクトルに圧縮",
+        "競合モデルを上回る評価結果",
+        "「一度計算すれば何度でも使える」",
+        "ペルーの違法金採掘を可視化",
+        "今後の展望"
+      ],
+      "source_url": "https://allenai.org/blog/olmoearth-v1-3",
+      "source_urls": [
+        "https://allenai.org/blog/olmoearth-v1-3"
+      ],
+      "source_label": "allenai.org",
+      "cover": "assets/posts/1562978674251268146.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1562978674251268146",
+      "first_seen": "2026-10-22T23:59:14.681Z",
+      "kind": "model",
+      "kind_confidence": 0.98
+    },
+    {
+      "id": "1562978581041127424",
+      "title": "Nectar Social、SNS運用を部門別AIエージェントで統合する「AIネイティブOS」を展開 MCP経由でClaude・ChatGPTからも分析可能に",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-10-22T23:58:52.458Z",
+      "excerpt": "米Nectar Socialは、ソーシャルリスニング、カスタマーケア、クリエイター施策、投稿運用を一つにまとめたAIプラットフォーム「Nectar」を「SNSのためのAIネイティブOS」として打ち出しています。同社サイトでは、週1,000万件超の会話処理、5…",
+      "lead": "米Nectar Socialは、ソーシャルリスニング、カスタマーケア、クリエイター施策、投稿運用を一つにまとめたAIプラットフォーム「Nectar」を「SNSのためのAIネイティブOS」として打ち出しています。同社サイトでは、週1,000万件超の会話処理、5,000万人超の消費者とのエンゲージメント、SNS経由で1億ドル規模の売上を紐付けた実績を掲げています。",
+      "headings": [
+        "部門ごとに動くエージェント「Ren」",
+        "「360コンテキスト」と売上の可視化",
+        "MCP対応で外部AIからデータを照会",
+        "導入事例と資金調達",
+        "今後の展望"
+      ],
+      "source_url": "https://www.nectarsocial.com/",
+      "source_urls": [
+        "https://www.nectarsocial.com/"
+      ],
+      "source_label": "nectarsocial.com",
+      "cover": "assets/posts/1562978581041127424.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1562978581041127424",
+      "first_seen": "2026-10-22T23:58:52.458Z",
+      "kind": "feature",
+      "kind_confidence": 0.57
+    },
+    {
+      "id": "1562978444344688670",
+      "title": "1Password、個人向けAIエージェントにパスワードを見せずにログインさせる「1Password for Agents」を発表",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-10-22T23:58:19.867Z",
+      "excerpt": "1Passwordは、個人が利用するAIエージェントに対し、パスワードそのものを渡さずにWebサービスへのログインを代行させる新機能「1Password for Agents」を発表しました。MetaのMuse、AnthropicのClaude、OpenAI…",
+      "lead": "1Passwordは、個人が利用するAIエージェントに対し、パスワードそのものを渡さずにWebサービスへのログインを代行させる新機能「1Password for Agents」を発表しました。MetaのMuse、AnthropicのClaude、OpenAIのChatGPT Workなどとの連携をうたい、エージェントが「アクセス権」だけを得て「認証情報」には触れない仕組みを個人向けプランに標準搭載します。",
+      "headings": [
+        "仕組み：エージェントは「ログイン成功」だけを知る",
+        "ボールト全体は開放されない",
+        "想定ユースケースと対応状況",
+        "影響と注意点",
+        "今後の展望"
+      ],
+      "source_url": "https://1password.com/personal-ai-agent-integrations",
+      "source_urls": [
+        "https://1password.com/personal-ai-agent-integrations"
+      ],
+      "source_label": "1password.com",
+      "cover": "assets/posts/1562978444344688670.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1562978444344688670",
+      "first_seen": "2026-10-22T23:58:19.867Z",
+      "kind": "feature",
+      "kind_confidence": 0.98
+    },
+    {
+      "id": "1562978351067701338",
+      "title": "Envato発「MonoDesk」登場 フリーランス・クリエイター向けにAI「Co-Worker」搭載の統合ワークスペースをベータ無料提供",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-10-22T23:57:57.628Z",
+      "excerpt": "デザイン素材マーケットプレイスで知られるEnvatoが手がける「MonoDesk」は、フリーランスのクリエイターや小規模スタジオ向けのオールインワン業務ワークスペースです。案件獲得から提案書作成、プロジェクト管理、クライアント対応、請求までを1つの環境にまと…",
+      "lead": "デザイン素材マーケットプレイスで知られるEnvatoが手がける「MonoDesk」は、フリーランスのクリエイターや小規模スタジオ向けのオールインワン業務ワークスペースです。案件獲得から提案書作成、プロジェクト管理、クライアント対応、請求までを1つの環境にまとめ、事務作業をAIの「Co-Worker」が支援します。現在はベータ期間中で、クレジットカード登録なしで無料で利用できます。",
+      "headings": [
+        "「受注・遂行・顧客対応・請求」を一気通貫で",
+        "AI「Co-Worker」とMCP対応",
+        "クライアントポータルでスコープクリープ対策",
+        "対象ユーザーと既存ツールとの違い",
+        "今後の展望"
+      ],
+      "source_url": "https://www.monodesk.com/?utm_source=X&utm_campaign=DAI",
+      "source_urls": [
+        "https://www.monodesk.com/?utm_source=X&utm_campaign=DAI"
+      ],
+      "source_label": "monodesk.com",
+      "cover": "assets/posts/1562978351067701338.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1562978351067701338",
+      "first_seen": "2026-10-22T23:57:57.628Z",
+      "kind": "model",
+      "kind_confidence": 0.39
+    },
+    {
+      "id": "1562976759245185114",
+      "title": "Google Cloud、Claudeの「Anthropic管理型」提供を正式開始 導入形態を2択に拡充",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-10-22T23:51:38.108Z",
+      "excerpt": "Google Cloudは2026年10月23日、AnthropicのClaudeモデルをAnthropic自身が運用する新しい提供形態「Claude Models on Google Cloud（Anthropic managed）」の一般提供（GA）を発…",
+      "lead": "Google Cloudは2026年10月23日、AnthropicのClaudeモデルをAnthropic自身が運用する新しい提供形態「Claude Models on Google Cloud（Anthropic managed）」の一般提供（GA）を発表しました。従来のGoogle管理型と並ぶ選択肢となり、企業は要件に応じてどちらの形態でClaudeを使うかを選べるようになります。発表はGoogle CloudのGemini担当プロダクトマネジメントVP、Michael Gerstenhaber氏によるものです。",
+      "headings": [
+        "2つの提供形態の共通点",
+        "新設のAnthropic管理型",
+        "従来のGoogle管理型",
+        "利用可能なモデル",
+        "影響と導入時の注意点",
+        "今後の展望"
+      ],
+      "source_url": "https://cloud.google.com/blog/products/ai-machine-learning/expanding-claude-availability-on-google-cloud/?hl=en",
+      "source_urls": [
+        "https://cloud.google.com/blog/products/ai-machine-learning/expanding-claude-availability-on-google-cloud/?hl=en"
+      ],
+      "source_label": "cloud.google.com",
+      "cover": "assets/posts/1562976759245185114.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1562976759245185114",
+      "first_seen": "2026-10-22T23:51:38.108Z",
+      "kind": "feature",
+      "kind_confidence": 0.78
+    },
+    {
+      "id": "1562976341891219516",
+      "title": "OpenAI「Decisions API」が一般提供開始、GPT-6 Lunaで最大10倍高速な判断処理を実現",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-10-22T23:49:58.603Z",
+      "excerpt": "OpenAIは2026年10月22日、アプリやエージェントの「小さな判断」に特化した「Decisions API」の一般提供を開始しました。GPT-6 Lunaをベースに、答えの範囲が限定された問いへ処理を絞り込むことで、Responses API経由のGP…",
+      "lead": "OpenAIは2026年10月22日、アプリやエージェントの「小さな判断」に特化した「Decisions API」の一般提供を開始しました。GPT-6 Lunaをベースに、答えの範囲が限定された問いへ処理を絞り込むことで、Responses API経由のGPT-6 Lunaと比べて最大10倍の高速化をうたいます。料金は入力100万トークンあたり0.10ドルで、出力トークンには課金されません。",
+      "headings": [
+        "「分類・ルーティング・次の一手」を高速化",
+        "ベータからの主な強化点",
+        "導入企業が示す効果",
+        "導入上の注意点",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/decisions-api/",
+      "source_urls": [
+        "https://openai.com/index/decisions-api/"
+      ],
+      "source_label": "openai.com",
+      "cover": "assets/posts/1562976341891219516.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1562976341891219516",
+      "first_seen": "2026-10-22T23:49:58.603Z",
+      "kind": "tool",
+      "kind_confidence": 0.92
+    },
+    {
+      "id": "1562976249905676288",
+      "title": "Anthropic、AIエージェント標準「Agent Skills」をAgentic AI Foundationへ寄贈 ― MCPに続きベンダー中立の管理体制へ",
+      "channel": "anthropic",
+      "category": "Anthropic",
+      "date": "2026-10-22T23:49:36.672Z",
+      "excerpt": "Anthropicは2026年10月22日、AIエージェントに専門知識や業務手順を与えるオープン標準「Agent Skills」を、Linux Foundation傘下のAgentic AI Foundation（AAIF）に寄贈したと発表しました。2025…",
+      "lead": "Anthropicは2026年10月22日、AIエージェントに専門知識や業務手順を与えるオープン標準「Agent Skills」を、Linux Foundation傘下のAgentic AI Foundation（AAIF）に寄贈したと発表しました。2025年12月の標準公開以降、ChatGPT、Cursor、GitHub Copilot、VS Codeを含む70以上のエージェントプラットフォームが採用しており、今後は特定企業から独立した中立的な場で仕様策定が進められます。",
+      "headings": [
+        "Agent Skillsの仕組み",
+        "誕生の経緯と普及状況",
+        "寄贈の内容とガバナンス",
+        "開発者・企業への影響",
+        "今後の展望"
+      ],
+      "source_url": "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation",
+      "source_urls": [
+        "https://www.anthropic.com/news/donating-agent-skills-to-the-agentic-ai-foundation"
+      ],
+      "source_label": "anthropic.com",
+      "cover": "assets/posts/1562976249905676288.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1562976249905676288",
+      "first_seen": "2026-10-22T23:49:36.672Z",
+      "kind": "business",
+      "kind_confidence": 0.55
+    },
+    {
+      "id": "1562975992828526612",
+      "title": "Claudeが123のOSSライブラリでバイナリレベルの形式検証に成功、長年見逃されたバグも発見",
+      "channel": "anthropic",
+      "category": "Anthropic",
+      "date": "2026-10-22T23:48:35.380Z",
+      "excerpt": "Anthropicは2026年10月22日、Claudeを用いて123のオープンソースライブラリのコンパイル済みコード（RISC-V）に対し、セキュリティ特性を形式的に証明したと発表しました。Frontier Red TeamとTheorem社の共同研究で、…",
+      "lead": "Anthropicは2026年10月22日、Claudeを用いて123のオープンソースライブラリのコンパイル済みコード（RISC-V）に対し、セキュリティ特性を形式的に証明したと発表しました。Frontier Red TeamとTheorem社の共同研究で、同社はAIによる本番ソフトウェアへのアセンブリレベルの形式検証として、初の大規模事例だとしています。",
+      "headings": [
+        "ファズテストを「証明」に変える",
+        "ファザーでは見つからないバグを発見",
+        "コストと再利用性",
+        "制約と注意点",
+        "今後の展望"
+      ],
+      "source_url": "https://www.anthropic.com/research/formal-verification",
+      "source_urls": [
+        "https://www.anthropic.com/research/formal-verification"
+      ],
+      "source_label": "anthropic.com",
+      "cover": "assets/posts/1562975992828526612.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1562975992828526612",
+      "first_seen": "2026-10-22T23:48:35.380Z",
+      "kind": "research",
+      "kind_confidence": 0.99
+    },
+    {
+      "id": "1562975888080113744",
+      "title": "Uber、エージェント型AI「ChatGPT Work」を全社展開 3万人超の従業員が利用へ",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-10-22T23:48:10.406Z",
+      "excerpt": "Uberは2026年10月22日、OpenAIのエージェント型AI「ChatGPT Work」を全社規模で導入すると発表しました。ChatGPT Enterprise上で動作するこの仕組みは、世界各地の3万人を超える従業員に提供されます。1,000人規模のパ…",
+      "lead": "Uberは2026年10月22日、OpenAIのエージェント型AI「ChatGPT Work」を全社規模で導入すると発表しました。ChatGPT Enterprise上で動作するこの仕組みは、世界各地の3万人を超える従業員に提供されます。1,000人規模のパイロットから一気に拡大する形で、Uberにとって知識労働向けエージェント基盤の初の全社展開となります。",
+      "headings": [
+        "ChatGPT Workとは何か",
+        "モデル構成と開発者向けの位置付け",
+        "定着を支える社内施策",
+        "企業導入における意義と課題",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/uber-chatgpt-work-rollout/",
+      "source_urls": [
+        "https://openai.com/index/uber-chatgpt-work-rollout/"
+      ],
+      "source_label": "openai.com",
+      "cover": "assets/posts/1562975888080113744.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1562975888080113744",
+      "first_seen": "2026-10-22T23:48:10.406Z",
+      "kind": "adoption",
+      "kind_confidence": 0.92
+    },
     {
       "id": "1562838836923465778",
       "title": "OpenAI、FDEチームの実像を公開 「自らを不要にする」ことを掲げる現場実装部隊",

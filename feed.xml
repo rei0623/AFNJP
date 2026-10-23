@@ -5,103 +5,103 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 22 Oct 2026 14:43:34 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2026 00:00:33 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
-      <title>OpenAI、FDEチームの実像を公開 「自らを不要にする」ことを掲げる現場実装部隊</title>
-      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1562838836923465778</link>
-      <guid isPermaLink="false">afnjp-1562838836923465778</guid>
-      <pubDate>Thu, 22 Oct 2026 14:43:34 GMT</pubDate>
-      <category>open-ai</category>
-      <description>OpenAIは2026年10月22日、Forward Deployed Engineering（FDE）責任者のColin Jarvis氏による記事を公開しました。FDEとは顧客の現場に入り込んでAIを実装するエンジニア職で、同社は2025年初頭にチームを立…</description>
-    </item>
-    <item>
-      <title>ElevenLabs、日本語版アンバサダープログラムの募集を開始 「コミュニティ」と「コンテンツ」の2トラックで発信者を支援</title>
-      <link>https://discord.com/channels/1415350002255007784/1441006356399259719/threads/1562761670655221833</link>
-      <guid isPermaLink="false">afnjp-1562761670655221833</guid>
-      <pubDate>Thu, 22 Oct 2026 09:36:56 GMT</pubDate>
-      <category>eleven-labs</category>
-      <description>音声AI大手のElevenLabsが、アンバサダープログラムの日本語版募集ページを公開しました。地域でイベントを開く「コミュニティビルダー」と、使い方を発信する「コンテンツクリエイター」の2トラックで、ユーザー主導でElevenLabsの活用事例を広めてもら…</description>
-    </item>
-    <item>
-      <title>Microsoftが「Contact Center Intelligence」を公開プレビュー、既存コンタクトセンターにAIエージェントを後付け</title>
-      <link>https://discord.com/channels/1415350002255007784/1432720743279497367/threads/1562598668702326875</link>
-      <guid isPermaLink="false">afnjp-1562598668702326875</guid>
-      <pubDate>Wed, 21 Oct 2026 22:49:14 GMT</pubDate>
-      <category>microsoft</category>
-      <description>Microsoftは2026年10月21日、既存のコンタクトセンター基盤を置き換えずにAIエージェントや品質管理、分析機能を追加できる新サービス「Microsoft Contact Center Intelligence（CCI）」を発表しました。Dynam…</description>
-    </item>
-    <item>
-      <title>Recursive、ノートPCで動くコーディング特化MoEモデル「Flint」を公開 開発の大半を自動研究システムが担当</title>
-      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1562598244897525850</link>
-      <guid isPermaLink="false">afnjp-1562598244897525850</guid>
-      <pubDate>Wed, 21 Oct 2026 22:47:33 GMT</pubDate>
+      <title>HUDが「DataVendor」を展開、企業の非公開コードやRL環境をAI企業に販売できるデータ市場</title>
+      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1562979003571109919</link>
+      <guid isPermaLink="false">afnjp-1562979003571109919</guid>
+      <pubDate>Fri, 23 Oct 2026 00:00:33 GMT</pubDate>
       <category>その他</category>
-      <description>AIスタートアップのRecursiveは、ローカル環境でのエージェント型コーディングに特化したMixture-of-Experts（MoE）モデル「Recursive Flint」を発表しました。総パラメータ数は400億で、1トークンあたりに使うのは25億だ…</description>
+      <description>AI評価基盤を手がけるHUDが、企業や個人が保有する非公開のデータ、コード、技術的知見を、学習用・評価用データを求めるAI企業とマッチングするマーケットプレイス「DataVendor」を提供しています。公開データだけでは賄いきれなくなりつつあるAIの学習・評…</description>
     </item>
     <item>
-      <title>Anthropic、能動型エージェントアプリ「Claude Duet」を発表 米国Pro・Maxユーザー向けにリサーチプレビュー開始</title>
-      <link>https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1562598087246094447</link>
-      <guid isPermaLink="false">afnjp-1562598087246094447</guid>
-      <pubDate>Wed, 21 Oct 2026 22:46:55 GMT</pubDate>
-      <category>anthropic</category>
-      <description>Anthropicは2026年10月21日、Claudeが能動的なエージェントとして動作する新アプリ「Claude Duet」のリサーチプレビューを発表しました。ユーザーの指示を待つのではなく、注意すべき事項を自ら知らせ、ユーザーが離席中も作業を継続し、代理…</description>
-    </item>
-    <item>
-      <title>Microsoft Researchが31年来の難問「KLS予想」を解決 人間主導のAI協働が鍵に</title>
-      <link>https://discord.com/channels/1415350002255007784/1432720743279497367/threads/1562592662601736304</link>
-      <guid isPermaLink="false">afnjp-1562592662601736304</guid>
-      <pubDate>Wed, 21 Oct 2026 22:25:22 GMT</pubDate>
-      <category>microsoft</category>
-      <description>Microsoft Researchの研究者らが、1995年に提起された高次元幾何学の中心的未解決問題「Kannan–Lovász–Simonovits（KLS）予想」を証明しました。成果は複数の独立した証明とLean 4による形式検証でも裏付けられており、…</description>
-    </item>
-    <item>
-      <title>IBM「Granite Speech 5.0」公開、日本語対応と高速化で企業の音声処理を強化</title>
-      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1562592551318323251</link>
-      <guid isPermaLink="false">afnjp-1562592551318323251</guid>
-      <pubDate>Wed, 21 Oct 2026 22:24:55 GMT</pubDate>
-      <category>その他</category>
-      <description>IBMは2026年10月21日、Hugging Face上で音声モデル群「Granite Speech」の更新を発表しました。新モデル「granite-speech-5.0-2b」に加え、既存の「granite-speech-5.0-470m-turboct…</description>
-    </item>
-    <item>
-      <title>BigQuery「ObjectRef」が一般提供開始、画像・音声・文書をSQLだけでGeminiと横断分析</title>
-      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1562592466115502240</link>
-      <guid isPermaLink="false">afnjp-1562592466115502240</guid>
-      <pubDate>Wed, 21 Oct 2026 22:24:35 GMT</pubDate>
+      <title>Google Cloud、AIエージェント専用基盤「Agent Compute Engine」を発表 ガバナンスも全方位に拡張</title>
+      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1562978908633305199</link>
+      <guid isPermaLink="false">afnjp-1562978908633305199</guid>
+      <pubDate>Fri, 23 Oct 2026 00:00:10 GMT</pubDate>
       <category>google</category>
-      <description>Google Cloudは2026年10月21日、BigQueryで非構造化データを扱う「ObjectRef」とマルチモーダル分析機能の一般提供（GA）を発表しました。Cloud Storage上のファイルを通常の列と同じ表に保持し、SQLからGeminiに…</description>
+      <description>Google Cloudは2026年10月22日、AGNTCon + MCPConで、AIエージェント向けに設計した新しいコンピュートサービス「Agent Compute Engine」を発表しました。すでにGeminiの業務エージェントを支えている基盤で、…</description>
     </item>
     <item>
-      <title>ElevenLabs、90言語超に対応するライブ音声翻訳「Eleven Realtime Translation」をアルファ公開</title>
-      <link>https://discord.com/channels/1415350002255007784/1441006356399259719/threads/1562592238750400562</link>
-      <guid isPermaLink="false">afnjp-1562592238750400562</guid>
-      <pubDate>Wed, 21 Oct 2026 22:23:41 GMT</pubDate>
-      <category>eleven-labs</category>
-      <description>音声AI企業のElevenLabsは2026年10月21日、会話の最中に話者の声を相手の言語へ翻訳して届けるライブ音声翻訳モデル「Eleven Realtime Translation」を発表しました。開発者向けプラットフォーム「ElevenAPI」のエンタ…</description>
+      <title>Ideogram、プロンプトや画像から編集可能なSVGを生成する「Ideogram Vector」を公開</title>
+      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1562978755423772752</link>
+      <guid isPermaLink="false">afnjp-1562978755423772752</guid>
+      <pubDate>Thu, 22 Oct 2026 23:59:34 GMT</pubDate>
+      <category>その他</category>
+      <description>画像生成AIのIdeogramが、ベクター形式のアートワークを生成する新モデル「Ideogram Vector」を提供しています。テキストのプロンプト、または既存の画像からSVGを生成でき、ロゴ、印刷物、イラストなどの制作にそのまま使える点が特徴です。Web…</description>
     </item>
     <item>
-      <title>MistralとNVIDIAが産業エンジニアリング向けAIで協業、物理AIとエージェントの公開ベンチマーク策定へ</title>
-      <link>https://discord.com/channels/1415350002255007784/1460897850354438283/threads/1562454452370145282</link>
-      <guid isPermaLink="false">afnjp-1562454452370145282</guid>
-      <pubDate>Wed, 21 Oct 2026 13:16:10 GMT</pubDate>
-      <category>mistral-ai</category>
-      <description>フランスのMistralは2026年10月21日、NVIDIAと協力し、NVIDIAのアクセラレーテッドコンピューティングを基盤とした「AIネイティブなエンジニアリングワークフロー」の開発に取り組むと発表しました。シミュレーションの高速化に加え、物理AIや工…</description>
+      <title>Ai2が衛星埋め込みモデル「OlmoEarth v1.3」を公開 地球全域の埋め込みデータとブラウザ分析ツールも無償提供</title>
+      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1562978674251268146</link>
+      <guid isPermaLink="false">afnjp-1562978674251268146</guid>
+      <pubDate>Thu, 22 Oct 2026 23:59:14 GMT</pubDate>
+      <category>その他</category>
+      <description>米Allen Institute for AI（Ai2）は2026年10月22日、衛星データ向けの埋め込みモデル「OlmoEarth v1.3」を公開しました。あわせて、地球全域を対象とした年次の事前計算済み埋め込みデータと、ブラウザ上で地図の探索・分類がで…</description>
     </item>
     <item>
-      <title>Perplexity、Macで「Computer」をローカル実行可能に 完全ローカルとハイブリッドの2方式で機密データを保護</title>
-      <link>https://discord.com/channels/1415350002255007784/1417545518539739166/threads/1562454026753282078</link>
-      <guid isPermaLink="false">afnjp-1562454026753282078</guid>
-      <pubDate>Wed, 21 Oct 2026 13:14:28 GMT</pubDate>
-      <category>perplexity</category>
-      <description>Perplexityは、Macアプリでエージェント機能「Computer」のタスクをMac上で実行できる新機能を公開しました。AIの処理をすべてMac内で完結させる「完全ローカル」と、クラウドのモデルとMac上のモデルが役割を分担する「ハイブリッド」の2方式…</description>
+      <title>Nectar Social、SNS運用を部門別AIエージェントで統合する「AIネイティブOS」を展開 MCP経由でClaude・ChatGPTからも分析可能に</title>
+      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1562978581041127424</link>
+      <guid isPermaLink="false">afnjp-1562978581041127424</guid>
+      <pubDate>Thu, 22 Oct 2026 23:58:52 GMT</pubDate>
+      <category>その他</category>
+      <description>米Nectar Socialは、ソーシャルリスニング、カスタマーケア、クリエイター施策、投稿運用を一つにまとめたAIプラットフォーム「Nectar」を「SNSのためのAIネイティブOS」として打ち出しています。同社サイトでは、週1,000万件超の会話処理、5…</description>
     </item>
     <item>
-      <title>OpenAI、数千のAIエージェントを並列実行し数百万個の脳細胞データから新たな研究の手がかりを32分で抽出</title>
-      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1562452756604788816</link>
-      <guid isPermaLink="false">afnjp-1562452756604788816</guid>
-      <pubDate>Wed, 21 Oct 2026 13:09:26 GMT</pubDate>
+      <title>1Password、個人向けAIエージェントにパスワードを見せずにログインさせる「1Password for Agents」を発表</title>
+      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1562978444344688670</link>
+      <guid isPermaLink="false">afnjp-1562978444344688670</guid>
+      <pubDate>Thu, 22 Oct 2026 23:58:19 GMT</pubDate>
+      <category>その他</category>
+      <description>1Passwordは、個人が利用するAIエージェントに対し、パスワードそのものを渡さずにWebサービスへのログインを代行させる新機能「1Password for Agents」を発表しました。MetaのMuse、AnthropicのClaude、OpenAI…</description>
+    </item>
+    <item>
+      <title>Envato発「MonoDesk」登場 フリーランス・クリエイター向けにAI「Co-Worker」搭載の統合ワークスペースをベータ無料提供</title>
+      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1562978351067701338</link>
+      <guid isPermaLink="false">afnjp-1562978351067701338</guid>
+      <pubDate>Thu, 22 Oct 2026 23:57:57 GMT</pubDate>
+      <category>その他</category>
+      <description>デザイン素材マーケットプレイスで知られるEnvatoが手がける「MonoDesk」は、フリーランスのクリエイターや小規模スタジオ向けのオールインワン業務ワークスペースです。案件獲得から提案書作成、プロジェクト管理、クライアント対応、請求までを1つの環境にまと…</description>
+    </item>
+    <item>
+      <title>Google Cloud、Claudeの「Anthropic管理型」提供を正式開始 導入形態を2択に拡充</title>
+      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1562976759245185114</link>
+      <guid isPermaLink="false">afnjp-1562976759245185114</guid>
+      <pubDate>Thu, 22 Oct 2026 23:51:38 GMT</pubDate>
+      <category>google</category>
+      <description>Google Cloudは2026年10月23日、AnthropicのClaudeモデルをAnthropic自身が運用する新しい提供形態「Claude Models on Google Cloud（Anthropic managed）」の一般提供（GA）を発…</description>
+    </item>
+    <item>
+      <title>OpenAI「Decisions API」が一般提供開始、GPT-6 Lunaで最大10倍高速な判断処理を実現</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1562976341891219516</link>
+      <guid isPermaLink="false">afnjp-1562976341891219516</guid>
+      <pubDate>Thu, 22 Oct 2026 23:49:58 GMT</pubDate>
       <category>open-ai</category>
-      <description>OpenAIは2026年10月21日、PerturbAIおよびScripps Researchと共同で、生命科学向けモデル「GPT-Rosalind」を搭載した数千のAIエージェントを並列に動かし、数百万個のマウス脳細胞から得られた既存の実験データを分析した…</description>
+      <description>OpenAIは2026年10月22日、アプリやエージェントの「小さな判断」に特化した「Decisions API」の一般提供を開始しました。GPT-6 Lunaをベースに、答えの範囲が限定された問いへ処理を絞り込むことで、Responses API経由のGP…</description>
+    </item>
+    <item>
+      <title>Anthropic、AIエージェント標準「Agent Skills」をAgentic AI Foundationへ寄贈 ― MCPに続きベンダー中立の管理体制へ</title>
+      <link>https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1562976249905676288</link>
+      <guid isPermaLink="false">afnjp-1562976249905676288</guid>
+      <pubDate>Thu, 22 Oct 2026 23:49:36 GMT</pubDate>
+      <category>anthropic</category>
+      <description>Anthropicは2026年10月22日、AIエージェントに専門知識や業務手順を与えるオープン標準「Agent Skills」を、Linux Foundation傘下のAgentic AI Foundation（AAIF）に寄贈したと発表しました。2025…</description>
+    </item>
+    <item>
+      <title>Claudeが123のOSSライブラリでバイナリレベルの形式検証に成功、長年見逃されたバグも発見</title>
+      <link>https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1562975992828526612</link>
+      <guid isPermaLink="false">afnjp-1562975992828526612</guid>
+      <pubDate>Thu, 22 Oct 2026 23:48:35 GMT</pubDate>
+      <category>anthropic</category>
+      <description>Anthropicは2026年10月22日、Claudeを用いて123のオープンソースライブラリのコンパイル済みコード（RISC-V）に対し、セキュリティ特性を形式的に証明したと発表しました。Frontier Red TeamとTheorem社の共同研究で、…</description>
+    </item>
+    <item>
+      <title>Uber、エージェント型AI「ChatGPT Work」を全社展開 3万人超の従業員が利用へ</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1562975888080113744</link>
+      <guid isPermaLink="false">afnjp-1562975888080113744</guid>
+      <pubDate>Thu, 22 Oct 2026 23:48:10 GMT</pubDate>
+      <category>open-ai</category>
+      <description>Uberは2026年10月22日、OpenAIのエージェント型AI「ChatGPT Work」を全社規模で導入すると発表しました。ChatGPT Enterprise上で動作するこの仕組みは、世界各地の3万人を超える従業員に提供されます。1,000人規模のパ…</description>
     </item>
   </channel>
 </rss>
