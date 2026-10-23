@@ -1,8 +1,63 @@
 {
-  "generated_at": "2026-10-23T07:27:01.320Z",
+  "generated_at": "2026-10-23T13:22:18.323Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1563135789464952882",
+      "title": "MiniMax、1Mトークン対応のマルチモーダルMoE「MiniMax-M3.1-Flash」を公開 エージェント・コーディング・サイバーセキュリティを強化",
+      "channel": "minimax",
+      "category": "その他",
+      "date": "2026-10-23T10:23:33.867Z",
+      "excerpt": "MiniMaxは、コーディング、エージェントワークフロー、コンピューター操作、サイバーセキュリティ向けのネイティブマルチモーダルMoEモデル「MiniMax-M3.1-Flash」をHugging Faceで公開しました。テキスト・画像・動画を入力でき、最大…",
+      "lead": "MiniMaxは、コーディング、エージェントワークフロー、コンピューター操作、サイバーセキュリティ向けのネイティブマルチモーダルMoEモデル「MiniMax-M3.1-Flash」をHugging Faceで公開しました。テキスト・画像・動画を入力でき、最大100万トークンのコンテキストに対応します。前世代のMiniMax-M3をベースに、性能と推論効率の両面を改善したモデルです。",
+      "headings": [
+        "モデルの概要",
+        "M3からの3つの技術的変更",
+        "ベンチマーク結果",
+        "導入と利用上の注意",
+        "今後の展望"
+      ],
+      "source_url": "https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash",
+      "source_urls": [
+        "https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash"
+      ],
+      "source_label": "huggingface.co",
+      "cover": "assets/posts/1563135789464952882.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1471542643900158023/threads/1563135789464952882",
+      "first_seen": "2026-10-23T10:23:33.867Z",
+      "kind": "model",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1563135619398631425",
+      "title": "Sakana AI、意思決定支援・実行のためのAIエージェント基盤「Sakana Aquarium」を公開",
+      "channel": "sakana-ai",
+      "category": "日本国内",
+      "date": "2026-10-23T10:22:53.320Z",
+      "excerpt": "東京を拠点とするSakana AIが、企業のオペレーションに関わるデータや知見をひとつに繋ぎ、組織を理解するAIエージェントによって意思決定の支援と実行を担うプラットフォーム「Sakana Aquarium」の紹介ページを公開しました。「組織をAIネイティブ…",
+      "lead": "東京を拠点とするSakana AIが、企業のオペレーションに関わるデータや知見をひとつに繋ぎ、組織を理解するAIエージェントによって意思決定の支援と実行を担うプラットフォーム「Sakana Aquarium」の紹介ページを公開しました。「組織をAIネイティブに変えていく」を掲げ、オントロジー、エージェント管理、ガバナンス、データ連携の4要素で構成される点が特徴です。",
+      "headings": [
+        "4つの構成要素",
+        "中核となる「オントロジー」",
+        "3つの技術的アプローチ",
+        "Connect in place",
+        "Stay Updated",
+        "Workflow as YAML",
+        "影響と導入上の注意点",
+        "今後の展望"
+      ],
+      "source_url": "https://sakana.ai/aquarium/",
+      "source_urls": [
+        "https://sakana.ai/aquarium/"
+      ],
+      "source_label": "sakana.ai",
+      "cover": "assets/posts/1563135619398631425.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1420683387395375115/threads/1563135619398631425",
+      "first_seen": "2026-10-23T10:22:53.320Z",
+      "kind": "tool",
+      "kind_confidence": 0.99
+    },
     {
       "id": "1562979003571109919",
       "title": "HUDが「DataVendor」を展開、企業の非公開コードやRL環境をAI企業に販売できるデータ市場",
@@ -261,58 +316,6 @@
       "first_seen": "2026-10-22T23:49:36.672Z",
       "kind": "business",
       "kind_confidence": 0.55
-    },
-    {
-      "id": "1562975992828526612",
-      "title": "Claudeが123のOSSライブラリでバイナリレベルの形式検証に成功、長年見逃されたバグも発見",
-      "channel": "anthropic",
-      "category": "Anthropic",
-      "date": "2026-10-22T23:48:35.380Z",
-      "excerpt": "Anthropicは2026年10月22日、Claudeを用いて123のオープンソースライブラリのコンパイル済みコード（RISC-V）に対し、セキュリティ特性を形式的に証明したと発表しました。Frontier Red TeamとTheorem社の共同研究で、…",
-      "lead": "Anthropicは2026年10月22日、Claudeを用いて123のオープンソースライブラリのコンパイル済みコード（RISC-V）に対し、セキュリティ特性を形式的に証明したと発表しました。Frontier Red TeamとTheorem社の共同研究で、同社はAIによる本番ソフトウェアへのアセンブリレベルの形式検証として、初の大規模事例だとしています。",
-      "headings": [
-        "ファズテストを「証明」に変える",
-        "ファザーでは見つからないバグを発見",
-        "コストと再利用性",
-        "制約と注意点",
-        "今後の展望"
-      ],
-      "source_url": "https://www.anthropic.com/research/formal-verification",
-      "source_urls": [
-        "https://www.anthropic.com/research/formal-verification"
-      ],
-      "source_label": "anthropic.com",
-      "cover": "assets/posts/1562975992828526612.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1562975992828526612",
-      "first_seen": "2026-10-22T23:48:35.380Z",
-      "kind": "research",
-      "kind_confidence": 0.99
-    },
-    {
-      "id": "1562975888080113744",
-      "title": "Uber、エージェント型AI「ChatGPT Work」を全社展開 3万人超の従業員が利用へ",
-      "channel": "open-ai",
-      "category": "Open AI",
-      "date": "2026-10-22T23:48:10.406Z",
-      "excerpt": "Uberは2026年10月22日、OpenAIのエージェント型AI「ChatGPT Work」を全社規模で導入すると発表しました。ChatGPT Enterprise上で動作するこの仕組みは、世界各地の3万人を超える従業員に提供されます。1,000人規模のパ…",
-      "lead": "Uberは2026年10月22日、OpenAIのエージェント型AI「ChatGPT Work」を全社規模で導入すると発表しました。ChatGPT Enterprise上で動作するこの仕組みは、世界各地の3万人を超える従業員に提供されます。1,000人規模のパイロットから一気に拡大する形で、Uberにとって知識労働向けエージェント基盤の初の全社展開となります。",
-      "headings": [
-        "ChatGPT Workとは何か",
-        "モデル構成と開発者向けの位置付け",
-        "定着を支える社内施策",
-        "企業導入における意義と課題",
-        "今後の展望"
-      ],
-      "source_url": "https://openai.com/index/uber-chatgpt-work-rollout/",
-      "source_urls": [
-        "https://openai.com/index/uber-chatgpt-work-rollout/"
-      ],
-      "source_label": "openai.com",
-      "cover": "assets/posts/1562975888080113744.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1562975888080113744",
-      "first_seen": "2026-10-22T23:48:10.406Z",
-      "kind": "adoption",
-      "kind_confidence": 0.92
     }
   ]
 }

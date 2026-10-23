@@ -1,9 +1,64 @@
 {
-  "generated_at": "2026-10-23T07:27:01.316Z",
+  "generated_at": "2026-10-23T13:22:18.318Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 455,
+  "count": 457,
   "posts": [
+    {
+      "id": "1563135789464952882",
+      "title": "MiniMax、1Mトークン対応のマルチモーダルMoE「MiniMax-M3.1-Flash」を公開 エージェント・コーディング・サイバーセキュリティを強化",
+      "channel": "minimax",
+      "category": "その他",
+      "date": "2026-10-23T10:23:33.867Z",
+      "excerpt": "MiniMaxは、コーディング、エージェントワークフロー、コンピューター操作、サイバーセキュリティ向けのネイティブマルチモーダルMoEモデル「MiniMax-M3.1-Flash」をHugging Faceで公開しました。テキスト・画像・動画を入力でき、最大…",
+      "lead": "MiniMaxは、コーディング、エージェントワークフロー、コンピューター操作、サイバーセキュリティ向けのネイティブマルチモーダルMoEモデル「MiniMax-M3.1-Flash」をHugging Faceで公開しました。テキスト・画像・動画を入力でき、最大100万トークンのコンテキストに対応します。前世代のMiniMax-M3をベースに、性能と推論効率の両面を改善したモデルです。",
+      "headings": [
+        "モデルの概要",
+        "M3からの3つの技術的変更",
+        "ベンチマーク結果",
+        "導入と利用上の注意",
+        "今後の展望"
+      ],
+      "source_url": "https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash",
+      "source_urls": [
+        "https://huggingface.co/MiniMaxAI/MiniMax-M3.1-Flash"
+      ],
+      "source_label": "huggingface.co",
+      "cover": "assets/posts/1563135789464952882.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1471542643900158023/threads/1563135789464952882",
+      "first_seen": "2026-10-23T10:23:33.867Z",
+      "kind": "model",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1563135619398631425",
+      "title": "Sakana AI、意思決定支援・実行のためのAIエージェント基盤「Sakana Aquarium」を公開",
+      "channel": "sakana-ai",
+      "category": "日本国内",
+      "date": "2026-10-23T10:22:53.320Z",
+      "excerpt": "東京を拠点とするSakana AIが、企業のオペレーションに関わるデータや知見をひとつに繋ぎ、組織を理解するAIエージェントによって意思決定の支援と実行を担うプラットフォーム「Sakana Aquarium」の紹介ページを公開しました。「組織をAIネイティブ…",
+      "lead": "東京を拠点とするSakana AIが、企業のオペレーションに関わるデータや知見をひとつに繋ぎ、組織を理解するAIエージェントによって意思決定の支援と実行を担うプラットフォーム「Sakana Aquarium」の紹介ページを公開しました。「組織をAIネイティブに変えていく」を掲げ、オントロジー、エージェント管理、ガバナンス、データ連携の4要素で構成される点が特徴です。",
+      "headings": [
+        "4つの構成要素",
+        "中核となる「オントロジー」",
+        "3つの技術的アプローチ",
+        "Connect in place",
+        "Stay Updated",
+        "Workflow as YAML",
+        "影響と導入上の注意点",
+        "今後の展望"
+      ],
+      "source_url": "https://sakana.ai/aquarium/",
+      "source_urls": [
+        "https://sakana.ai/aquarium/"
+      ],
+      "source_label": "sakana.ai",
+      "cover": "assets/posts/1563135619398631425.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1420683387395375115/threads/1563135619398631425",
+      "first_seen": "2026-10-23T10:22:53.320Z",
+      "kind": "tool",
+      "kind_confidence": 0.99
+    },
     {
       "id": "1562979003571109919",
       "title": "HUDが「DataVendor」を展開、企業の非公開コードやRL環境をAI企業に販売できるデータ市場",
