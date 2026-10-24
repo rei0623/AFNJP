@@ -1,8 +1,33 @@
 {
-  "generated_at": "2026-10-24T14:29:27.614Z",
+  "generated_at": "2026-10-24T18:06:11.578Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1563586760263344318",
+      "title": "Perplexity、判定モデルをMacでローカル実行できる「Decider for Mac」を公開",
+      "channel": "perplexity",
+      "category": "その他",
+      "date": "2026-10-24T16:15:33.684Z",
+      "excerpt": "Perplexityは、同社の判定モデル「pplx-decider-flash-v1.2」をMac上で動かすメニューバーアプリ「Decider for Mac」を公開しました。Decisions APIをローカルの「127.0.0.1:8080」で提供し、A…",
+      "lead": "Perplexityは、同社の判定モデル「pplx-decider-flash-v1.2」をMac上で動かすメニューバーアプリ「Decider for Mac」を公開しました。Decisions APIをローカルの「127.0.0.1:8080」で提供し、APIキーも利用料も不要です。外部に送れない機密データを、手元のMacだけで分類・判定できるのが最大の特徴です。",
+      "headings": [
+        "4Bモデルが確率付きで「判定」を返す",
+        "ローカル版からホスト版へ、コード変更は最小限",
+        "公式が示す実用例",
+        "動作要件と制約",
+        "今後の展望"
+      ],
+      "source_url": "https://docs.perplexity.ai/docs/decisions/decider-for-mac",
+      "source_urls": [
+        "https://docs.perplexity.ai/docs/decisions/decider-for-mac"
+      ],
+      "source_label": "docs.perplexity.ai",
+      "url": "https://discord.com/channels/1415350002255007784/1417545518539739166/threads/1563586760263344318",
+      "first_seen": "2026-10-24T16:15:33.684Z",
+      "kind": "tool",
+      "kind_confidence": 0.9
+    },
     {
       "id": "1563341467102085232",
       "title": "Tencent Hunyuan、対話で世界を操る動画ワールドモデル「Hy-Nomas」をオープンソース公開 RTX 4090単体でも動作",
@@ -292,31 +317,6 @@
       "first_seen": "2026-10-23T10:22:53.320Z",
       "kind": "tool",
       "kind_confidence": 0.99
-    },
-    {
-      "id": "1562979003571109919",
-      "title": "HUDが「DataVendor」を展開、企業の非公開コードやRL環境をAI企業に販売できるデータ市場",
-      "channel": "その他",
-      "category": "その他",
-      "date": "2026-10-23T00:00:33.197Z",
-      "excerpt": "AI評価基盤を手がけるHUDが、企業や個人が保有する非公開のデータ、コード、技術的知見を、学習用・評価用データを求めるAI企業とマッチングするマーケットプレイス「DataVendor」を提供しています。公開データだけでは賄いきれなくなりつつあるAIの学習・評…",
-      "lead": "AI評価基盤を手がけるHUDが、企業や個人が保有する非公開のデータ、コード、技術的知見を、学習用・評価用データを求めるAI企業とマッチングするマーケットプレイス「DataVendor」を提供しています。公開データだけでは賄いきれなくなりつつあるAIの学習・評価用データの新たな供給源として注目されます。",
-      "headings": [
-        "「非公開データ」を売買する市場",
-        "出品から収益化までの流れ",
-        "提示される価格水準",
-        "業界への影響と課題",
-        "今後の展望"
-      ],
-      "source_url": "https://datavendor.ai/",
-      "source_urls": [
-        "https://datavendor.ai/"
-      ],
-      "source_label": "datavendor.ai",
-      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1562979003571109919",
-      "first_seen": "2026-10-23T00:00:33.197Z",
-      "kind": "feature",
-      "kind_confidence": 0.22
     }
   ]
 }

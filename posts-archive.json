@@ -1,9 +1,34 @@
 {
-  "generated_at": "2026-10-24T14:29:27.609Z",
+  "generated_at": "2026-10-24T18:06:11.573Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 466,
+  "count": 467,
   "posts": [
+    {
+      "id": "1563586760263344318",
+      "title": "Perplexity、判定モデルをMacでローカル実行できる「Decider for Mac」を公開",
+      "channel": "perplexity",
+      "category": "その他",
+      "date": "2026-10-24T16:15:33.684Z",
+      "excerpt": "Perplexityは、同社の判定モデル「pplx-decider-flash-v1.2」をMac上で動かすメニューバーアプリ「Decider for Mac」を公開しました。Decisions APIをローカルの「127.0.0.1:8080」で提供し、A…",
+      "lead": "Perplexityは、同社の判定モデル「pplx-decider-flash-v1.2」をMac上で動かすメニューバーアプリ「Decider for Mac」を公開しました。Decisions APIをローカルの「127.0.0.1:8080」で提供し、APIキーも利用料も不要です。外部に送れない機密データを、手元のMacだけで分類・判定できるのが最大の特徴です。",
+      "headings": [
+        "4Bモデルが確率付きで「判定」を返す",
+        "ローカル版からホスト版へ、コード変更は最小限",
+        "公式が示す実用例",
+        "動作要件と制約",
+        "今後の展望"
+      ],
+      "source_url": "https://docs.perplexity.ai/docs/decisions/decider-for-mac",
+      "source_urls": [
+        "https://docs.perplexity.ai/docs/decisions/decider-for-mac"
+      ],
+      "source_label": "docs.perplexity.ai",
+      "url": "https://discord.com/channels/1415350002255007784/1417545518539739166/threads/1563586760263344318",
+      "first_seen": "2026-10-24T16:15:33.684Z",
+      "kind": "tool",
+      "kind_confidence": 0.9
+    },
     {
       "id": "1563341467102085232",
       "title": "Tencent Hunyuan、対話で世界を操る動画ワールドモデル「Hy-Nomas」をオープンソース公開 RTX 4090単体でも動作",
