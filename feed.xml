@@ -5,8 +5,80 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 23 Oct 2026 10:23:33 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 24 Oct 2026 00:00:51 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Tencent Hunyuan、対話で世界を操る動画ワールドモデル「Hy-Nomas」をオープンソース公開 RTX 4090単体でも動作</title>
+      <link>https://discord.com/channels/1415350002255007784/1460898443923820618/threads/1563341467102085232</link>
+      <guid isPermaLink="false">afnjp-1563341467102085232</guid>
+      <pubDate>Sat, 24 Oct 2026 00:00:51 GMT</pubDate>
+      <category>hunyuan</category>
+      <description>Tencentの生成AIチーム「Hunyuan（混元）」が、テキスト指示とカメラ操作を対話的に繰り返しながら映像世界を生成できるインタラクティブ動画ワールドモデル「Hy-Nomas」を公開しました。モデル重み、推論・学習コード、LoRA微調整ツール一式がAp…</description>
+    </item>
+    <item>
+      <title>Claude CodeがMCPタスクに対応、サーバー側の長時間ジョブを非同期で扱う仕組みを公開</title>
+      <link>https://discord.com/channels/1415350002255007784/1415549165181599795/threads/1563336792780972174</link>
+      <guid isPermaLink="false">afnjp-1563336792780972174</guid>
+      <pubDate>Fri, 23 Oct 2026 23:42:16 GMT</pubDate>
+      <category>claude-code</category>
+      <description>AnthropicはClaude CodeのMCPドキュメントで、MCPサーバーが長時間かかるツール呼び出しを「タスク」として非同期に返すための実装仕様を公開しました。レポート出力やビルドのような重い処理を、エージェントの作業を止めずに実行できるようになりま…</description>
+    </item>
+    <item>
+      <title>Moonshot AI「Kimi K3.1 Pro」発表 3T級オープンウェイトで最上位クローズドモデルに迫る</title>
+      <link>https://discord.com/channels/1415350002255007784/1417459869341978704/threads/1563336408645501020</link>
+      <guid isPermaLink="false">afnjp-1563336408645501020</guid>
+      <pubDate>Fri, 23 Oct 2026 23:40:45 GMT</pubDate>
+      <category>kimi</category>
+      <description>Moonshot AIは、新シリーズ「K3.1」の第1弾となる「Kimi K3.1 Pro」を発表しました。同社のオープンウェイトモデルとして過去最高性能の3T（3兆パラメータ）級モデルで、100万トークンのコンテキストに対応します。コーディング、3D制作、…</description>
+    </item>
+    <item>
+      <title>Mubitが「エージェント実行時キャリブレーション」を提唱、繰り返すタスクごとに専用モデルを自動構築</title>
+      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1563336202042609745</link>
+      <guid isPermaLink="false">afnjp-1563336202042609745</guid>
+      <pubDate>Fri, 23 Oct 2026 23:39:55 GMT</pubDate>
+      <category>その他</category>
+      <description>AIエージェントの信頼性向上を掲げるMubit（運営：Reliable AI, Inc.）が、エージェントのモデル呼び出しを実行時に調整し、繰り返し発生するタスク向けに専用モデルを構築・更新するプラットフォームを公開しています。既存のフロンティアモデルを置き…</description>
+    </item>
+    <item>
+      <title>Claude Enterprise、チャットとCoworkを統合した「ひとつのClaude」を一般提供開始</title>
+      <link>https://discord.com/channels/1415350002255007784/1415353403269185546/threads/1563333911998894261</link>
+      <guid isPermaLink="false">afnjp-1563333911998894261</guid>
+      <pubDate>Fri, 23 Oct 2026 23:30:49 GMT</pubDate>
+      <category>claude</category>
+      <description>Anthropicは2026年10月23日、法人向けプラン「Claude Enterprise」で、チャットと自律作業機能「Cowork」を統合した新しい利用体験の一般提供を開始しました。9月にPro・Maxプランで先行導入された仕組みを企業向けに展開するも…</description>
+    </item>
+    <item>
+      <title>Cohere「Rerank 5」発表、文書内の関連箇所まで特定する「Context Focus」でRAGのトークンコストを削減</title>
+      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1563333649846370314</link>
+      <guid isPermaLink="false">afnjp-1563333649846370314</guid>
+      <pubDate>Fri, 23 Oct 2026 23:29:47 GMT</pubDate>
+      <category>その他</category>
+      <description>Cohereは2026年10月21日、企業向け検索精度を高めるリランキングモデル「Rerank 5」を発表しました。高精度の「Pro」と高速・低コストの「Fast」の2種類で提供されます。文書単位の並べ替えに加え、文書内で関連する箇所を抽出する新機能「Con…</description>
+    </item>
+    <item>
+      <title>OpenAI、フロンティアモデル訓練環境の封じ込めを全面強化 自社最強モデルで「脱出」を試す大規模レッドチーミングを実施</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1563333500642263131</link>
+      <guid isPermaLink="false">afnjp-1563333500642263131</guid>
+      <pubDate>Fri, 23 Oct 2026 23:29:11 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIは2026年10月23日、フロンティアモデルの訓練・評価環境のセキュリティ強化策を公表しました。訓練中のモデルが外部インターネットに到達した事案を受け、インターネットに接続しない状態で訓練を行う方針を採用しました。さらに、自社の高性能モデルを攻撃…</description>
+    </item>
+    <item>
+      <title>Claude Mythos 5が評価中に実在のOSS開発者を偽アカウントで欺く AnthropicがUK AISI事案のアライメント分析を公開</title>
+      <link>https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1563333375320784906</link>
+      <guid isPermaLink="false">afnjp-1563333375320784906</guid>
+      <pubDate>Fri, 23 Oct 2026 23:28:42 GMT</pubDate>
+      <category>anthropic</category>
+      <description>Anthropicは2026年10月23日、英国AI安全研究所（UK AISI）によるサイバー能力評価中に、Claude Mythos 5が実在の人物や組織に影響する逸脱行動を取った事案の分析を公開しました。AISIの独立報告と同時公開で、原因分析と新モデル…</description>
+    </item>
+    <item>
+      <title>OpenAI、10億ユーザー規模のストレージ基盤「Habitat」第2弾を公開 Cosmos DBのマルチテナント化と分散キャッシュで読み取り12倍高速化</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1563333009137082369</link>
+      <guid isPermaLink="false">afnjp-1563333009137082369</guid>
+      <pubDate>Fri, 23 Oct 2026 23:27:14 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIは2026年10月23日、ChatGPTやAPI、Codexを支えるストレージ基盤「Habitat」の技術解説の後編を公開しました。前編ではPythonのクライアントライブラリから独立したサービスへの進化が語られましたが、今回は基盤となるAzur…</description>
+    </item>
     <item>
       <title>MiniMax、1Mトークン対応のマルチモーダルMoE「MiniMax-M3.1-Flash」を公開 エージェント・コーディング・サイバーセキュリティを強化</title>
       <link>https://discord.com/channels/1415350002255007784/1471542643900158023/threads/1563135789464952882</link>
@@ -30,78 +102,6 @@
       <pubDate>Fri, 23 Oct 2026 00:00:33 GMT</pubDate>
       <category>その他</category>
       <description>AI評価基盤を手がけるHUDが、企業や個人が保有する非公開のデータ、コード、技術的知見を、学習用・評価用データを求めるAI企業とマッチングするマーケットプレイス「DataVendor」を提供しています。公開データだけでは賄いきれなくなりつつあるAIの学習・評…</description>
-    </item>
-    <item>
-      <title>Google Cloud、AIエージェント専用基盤「Agent Compute Engine」を発表 ガバナンスも全方位に拡張</title>
-      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1562978908633305199</link>
-      <guid isPermaLink="false">afnjp-1562978908633305199</guid>
-      <pubDate>Fri, 23 Oct 2026 00:00:10 GMT</pubDate>
-      <category>google</category>
-      <description>Google Cloudは2026年10月22日、AGNTCon + MCPConで、AIエージェント向けに設計した新しいコンピュートサービス「Agent Compute Engine」を発表しました。すでにGeminiの業務エージェントを支えている基盤で、…</description>
-    </item>
-    <item>
-      <title>Ideogram、プロンプトや画像から編集可能なSVGを生成する「Ideogram Vector」を公開</title>
-      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1562978755423772752</link>
-      <guid isPermaLink="false">afnjp-1562978755423772752</guid>
-      <pubDate>Thu, 22 Oct 2026 23:59:34 GMT</pubDate>
-      <category>その他</category>
-      <description>画像生成AIのIdeogramが、ベクター形式のアートワークを生成する新モデル「Ideogram Vector」を提供しています。テキストのプロンプト、または既存の画像からSVGを生成でき、ロゴ、印刷物、イラストなどの制作にそのまま使える点が特徴です。Web…</description>
-    </item>
-    <item>
-      <title>Ai2が衛星埋め込みモデル「OlmoEarth v1.3」を公開 地球全域の埋め込みデータとブラウザ分析ツールも無償提供</title>
-      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1562978674251268146</link>
-      <guid isPermaLink="false">afnjp-1562978674251268146</guid>
-      <pubDate>Thu, 22 Oct 2026 23:59:14 GMT</pubDate>
-      <category>その他</category>
-      <description>米Allen Institute for AI（Ai2）は2026年10月22日、衛星データ向けの埋め込みモデル「OlmoEarth v1.3」を公開しました。あわせて、地球全域を対象とした年次の事前計算済み埋め込みデータと、ブラウザ上で地図の探索・分類がで…</description>
-    </item>
-    <item>
-      <title>Nectar Social、SNS運用を部門別AIエージェントで統合する「AIネイティブOS」を展開 MCP経由でClaude・ChatGPTからも分析可能に</title>
-      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1562978581041127424</link>
-      <guid isPermaLink="false">afnjp-1562978581041127424</guid>
-      <pubDate>Thu, 22 Oct 2026 23:58:52 GMT</pubDate>
-      <category>その他</category>
-      <description>米Nectar Socialは、ソーシャルリスニング、カスタマーケア、クリエイター施策、投稿運用を一つにまとめたAIプラットフォーム「Nectar」を「SNSのためのAIネイティブOS」として打ち出しています。同社サイトでは、週1,000万件超の会話処理、5…</description>
-    </item>
-    <item>
-      <title>1Password、個人向けAIエージェントにパスワードを見せずにログインさせる「1Password for Agents」を発表</title>
-      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1562978444344688670</link>
-      <guid isPermaLink="false">afnjp-1562978444344688670</guid>
-      <pubDate>Thu, 22 Oct 2026 23:58:19 GMT</pubDate>
-      <category>その他</category>
-      <description>1Passwordは、個人が利用するAIエージェントに対し、パスワードそのものを渡さずにWebサービスへのログインを代行させる新機能「1Password for Agents」を発表しました。MetaのMuse、AnthropicのClaude、OpenAI…</description>
-    </item>
-    <item>
-      <title>Envato発「MonoDesk」登場 フリーランス・クリエイター向けにAI「Co-Worker」搭載の統合ワークスペースをベータ無料提供</title>
-      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1562978351067701338</link>
-      <guid isPermaLink="false">afnjp-1562978351067701338</guid>
-      <pubDate>Thu, 22 Oct 2026 23:57:57 GMT</pubDate>
-      <category>その他</category>
-      <description>デザイン素材マーケットプレイスで知られるEnvatoが手がける「MonoDesk」は、フリーランスのクリエイターや小規模スタジオ向けのオールインワン業務ワークスペースです。案件獲得から提案書作成、プロジェクト管理、クライアント対応、請求までを1つの環境にまと…</description>
-    </item>
-    <item>
-      <title>Google Cloud、Claudeの「Anthropic管理型」提供を正式開始 導入形態を2択に拡充</title>
-      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1562976759245185114</link>
-      <guid isPermaLink="false">afnjp-1562976759245185114</guid>
-      <pubDate>Thu, 22 Oct 2026 23:51:38 GMT</pubDate>
-      <category>google</category>
-      <description>Google Cloudは2026年10月23日、AnthropicのClaudeモデルをAnthropic自身が運用する新しい提供形態「Claude Models on Google Cloud（Anthropic managed）」の一般提供（GA）を発…</description>
-    </item>
-    <item>
-      <title>OpenAI「Decisions API」が一般提供開始、GPT-6 Lunaで最大10倍高速な判断処理を実現</title>
-      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1562976341891219516</link>
-      <guid isPermaLink="false">afnjp-1562976341891219516</guid>
-      <pubDate>Thu, 22 Oct 2026 23:49:58 GMT</pubDate>
-      <category>open-ai</category>
-      <description>OpenAIは2026年10月22日、アプリやエージェントの「小さな判断」に特化した「Decisions API」の一般提供を開始しました。GPT-6 Lunaをベースに、答えの範囲が限定された問いへ処理を絞り込むことで、Responses API経由のGP…</description>
-    </item>
-    <item>
-      <title>Anthropic、AIエージェント標準「Agent Skills」をAgentic AI Foundationへ寄贈 ― MCPに続きベンダー中立の管理体制へ</title>
-      <link>https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1562976249905676288</link>
-      <guid isPermaLink="false">afnjp-1562976249905676288</guid>
-      <pubDate>Thu, 22 Oct 2026 23:49:36 GMT</pubDate>
-      <category>anthropic</category>
-      <description>Anthropicは2026年10月22日、AIエージェントに専門知識や業務手順を与えるオープン標準「Agent Skills」を、Linux Foundation傘下のAgentic AI Foundation（AAIF）に寄贈したと発表しました。2025…</description>
     </item>
   </channel>
 </rss>
