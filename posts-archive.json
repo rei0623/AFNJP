@@ -1,9 +1,86 @@
 {
-  "generated_at": "2026-10-25T11:20:32.223Z",
+  "generated_at": "2026-10-25T16:11:45.698Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 467,
+  "count": 470,
   "posts": [
+    {
+      "id": "1563946843111424182",
+      "title": "Meta、AIエージェント「Muse」にアバター共有機能を開発中 SNS拡散で新たな成長経路を探る",
+      "channel": "リーク情報",
+      "category": "リーク情報",
+      "date": "2026-10-25T16:06:24.125Z",
+      "excerpt": "Metaが、パーソナルAIエージェント「Muse」のWeb版で、ユーザーが作成したアバターを共有できる新機能を開発していることが明らかになりました。共有用のポップアップでは、アニメーション付きアバターのプレビュー、各種SNSへの共有、自動生成リンクのコピーが…",
+      "lead": "Metaが、パーソナルAIエージェント「Muse」のWeb版で、ユーザーが作成したアバターを共有できる新機能を開発していることが明らかになりました。共有用のポップアップでは、アニメーション付きアバターのプレビュー、各種SNSへの共有、自動生成リンクのコピーが可能になる見込みです。現時点では一般公開されておらず、提供時期も確定していません。",
+      "headings": [
+        "未公開の「Share」オプションの仕組み",
+        "アバターを「エージェントの顔」に据えるMetaの戦略",
+        "影響と課題",
+        "今後の展望"
+      ],
+      "source_url": "https://www.testingcatalog.com/meta-is-working-on-avatar-sharing-for-muse-assistant/",
+      "source_urls": [
+        "https://www.testingcatalog.com/meta-is-working-on-avatar-sharing-for-muse-assistant/"
+      ],
+      "source_label": "testingcatalog.com",
+      "cover": "assets/posts/1563946843111424182.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415534435712897124/threads/1563946843111424182",
+      "first_seen": "2026-10-25T16:06:24.125Z",
+      "kind": "feature",
+      "kind_confidence": 0.99
+    },
+    {
+      "id": "1563946600160825414",
+      "title": "Nanbeige4.3-33B公開、30B級オープンモデルでエージェント性能トップを主張",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-10-25T16:05:26.201Z",
+      "excerpt": "中国のNanbeige LLM Labは、33Bパラメータのオープンモデル「Nanbeige4.3-33B」をHugging Faceで公開しました。ライセンスはApache-2.0で、複雑なコーディングや業務遂行（コワーク）タスクといったエージェント用途に…",
+      "lead": "中国のNanbeige LLM Labは、33Bパラメータのオープンモデル「Nanbeige4.3-33B」をHugging Faceで公開しました。ライセンスはApache-2.0で、複雑なコーディングや業務遂行（コワーク）タスクといったエージェント用途に重点を置いたモデルです。同社は、約30B規模のオープンモデルの中で最先端のエージェント性能を実現したとしています。",
+      "headings": [
+        "「教師モデル」としての位置づけ",
+        "技術仕様と使い方",
+        "ベンチマーク結果",
+        "影響と注意点",
+        "今後の展望"
+      ],
+      "source_url": "https://huggingface.co/Nanbeige/Nanbeige4.3-33B",
+      "source_urls": [
+        "https://huggingface.co/Nanbeige/Nanbeige4.3-33B"
+      ],
+      "source_label": "huggingface.co",
+      "cover": "assets/posts/1563946600160825414.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1563946600160825414",
+      "first_seen": "2026-10-25T16:05:26.201Z",
+      "kind": "model",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1563915931401322596",
+      "title": "Google AI Studio、エージェント管理を一元化する「Managed Agents」ハブを準備中",
+      "channel": "リーク情報",
+      "category": "リーク情報",
+      "date": "2026-10-25T14:03:34.199Z",
+      "excerpt": "GoogleがAI Studio内に、自律型エージェントの設定から実行履歴の確認までを一か所で扱える「Managed Agents」セクションを準備していることが明らかになりました。10月22日に発表された新インフラ「Agent Compute Engine…",
+      "lead": "GoogleがAI Studio内に、自律型エージェントの設定から実行履歴の確認までを一か所で扱える「Managed Agents」セクションを準備していることが明らかになりました。10月22日に発表された新インフラ「Agent Compute Engine」と合わせ、Googleがエージェント基盤の本格整備を進めている様子がうかがえます。なお、提供開始日は公式には確認されていません。",
+      "headings": [
+        "新ハブの構成：5つの管理領域",
+        "背景：Agent Compute Engineとの関係",
+        "コスト管理という課題",
+        "競合を取り巻く動向",
+        "今後の展望"
+      ],
+      "source_url": "https://www.testingcatalog.com/google-ai-studio-prepares-new-managed-agents-hub/",
+      "source_urls": [
+        "https://www.testingcatalog.com/google-ai-studio-prepares-new-managed-agents-hub/"
+      ],
+      "source_label": "testingcatalog.com",
+      "cover": "assets/posts/1563915931401322596.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415534435712897124/threads/1563915931401322596",
+      "first_seen": "2026-10-25T14:03:34.199Z",
+      "kind": "tool",
+      "kind_confidence": 0.5
+    },
     {
       "id": "1563586760263344318",
       "title": "Perplexity、判定モデルをMacでローカル実行できる「Decider for Mac」を公開",

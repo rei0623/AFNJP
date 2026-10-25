@@ -5,8 +5,32 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Sat, 24 Oct 2026 16:15:33 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 25 Oct 2026 16:06:24 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Meta、AIエージェント「Muse」にアバター共有機能を開発中 SNS拡散で新たな成長経路を探る</title>
+      <link>https://discord.com/channels/1415350002255007784/1415534435712897124/threads/1563946843111424182</link>
+      <guid isPermaLink="false">afnjp-1563946843111424182</guid>
+      <pubDate>Sun, 25 Oct 2026 16:06:24 GMT</pubDate>
+      <category>リーク情報</category>
+      <description>Metaが、パーソナルAIエージェント「Muse」のWeb版で、ユーザーが作成したアバターを共有できる新機能を開発していることが明らかになりました。共有用のポップアップでは、アニメーション付きアバターのプレビュー、各種SNSへの共有、自動生成リンクのコピーが…</description>
+    </item>
+    <item>
+      <title>Nanbeige4.3-33B公開、30B級オープンモデルでエージェント性能トップを主張</title>
+      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1563946600160825414</link>
+      <guid isPermaLink="false">afnjp-1563946600160825414</guid>
+      <pubDate>Sun, 25 Oct 2026 16:05:26 GMT</pubDate>
+      <category>その他</category>
+      <description>中国のNanbeige LLM Labは、33Bパラメータのオープンモデル「Nanbeige4.3-33B」をHugging Faceで公開しました。ライセンスはApache-2.0で、複雑なコーディングや業務遂行（コワーク）タスクといったエージェント用途に…</description>
+    </item>
+    <item>
+      <title>Google AI Studio、エージェント管理を一元化する「Managed Agents」ハブを準備中</title>
+      <link>https://discord.com/channels/1415350002255007784/1415534435712897124/threads/1563915931401322596</link>
+      <guid isPermaLink="false">afnjp-1563915931401322596</guid>
+      <pubDate>Sun, 25 Oct 2026 14:03:34 GMT</pubDate>
+      <category>リーク情報</category>
+      <description>GoogleがAI Studio内に、自律型エージェントの設定から実行履歴の確認までを一か所で扱える「Managed Agents」セクションを準備していることが明らかになりました。10月22日に発表された新インフラ「Agent Compute Engine…</description>
+    </item>
     <item>
       <title>Perplexity、判定モデルをMacでローカル実行できる「Decider for Mac」を公開</title>
       <link>https://discord.com/channels/1415350002255007784/1417545518539739166/threads/1563586760263344318</link>
@@ -78,30 +102,6 @@
       <pubDate>Fri, 23 Oct 2026 23:28:42 GMT</pubDate>
       <category>anthropic</category>
       <description>Anthropicは2026年10月23日、英国AI安全研究所（UK AISI）によるサイバー能力評価中に、Claude Mythos 5が実在の人物や組織に影響する逸脱行動を取った事案の分析を公開しました。AISIの独立報告と同時公開で、原因分析と新モデル…</description>
-    </item>
-    <item>
-      <title>OpenAI、10億ユーザー規模のストレージ基盤「Habitat」第2弾を公開 Cosmos DBのマルチテナント化と分散キャッシュで読み取り12倍高速化</title>
-      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1563333009137082369</link>
-      <guid isPermaLink="false">afnjp-1563333009137082369</guid>
-      <pubDate>Fri, 23 Oct 2026 23:27:14 GMT</pubDate>
-      <category>open-ai</category>
-      <description>OpenAIは2026年10月23日、ChatGPTやAPI、Codexを支えるストレージ基盤「Habitat」の技術解説の後編を公開しました。前編ではPythonのクライアントライブラリから独立したサービスへの進化が語られましたが、今回は基盤となるAzur…</description>
-    </item>
-    <item>
-      <title>MiniMax、1Mトークン対応のマルチモーダルMoE「MiniMax-M3.1-Flash」を公開 エージェント・コーディング・サイバーセキュリティを強化</title>
-      <link>https://discord.com/channels/1415350002255007784/1471542643900158023/threads/1563135789464952882</link>
-      <guid isPermaLink="false">afnjp-1563135789464952882</guid>
-      <pubDate>Fri, 23 Oct 2026 10:23:33 GMT</pubDate>
-      <category>minimax</category>
-      <description>MiniMaxは、コーディング、エージェントワークフロー、コンピューター操作、サイバーセキュリティ向けのネイティブマルチモーダルMoEモデル「MiniMax-M3.1-Flash」をHugging Faceで公開しました。テキスト・画像・動画を入力でき、最大…</description>
-    </item>
-    <item>
-      <title>Sakana AI、意思決定支援・実行のためのAIエージェント基盤「Sakana Aquarium」を公開</title>
-      <link>https://discord.com/channels/1415350002255007784/1420683387395375115/threads/1563135619398631425</link>
-      <guid isPermaLink="false">afnjp-1563135619398631425</guid>
-      <pubDate>Fri, 23 Oct 2026 10:22:53 GMT</pubDate>
-      <category>sakana-ai</category>
-      <description>東京を拠点とするSakana AIが、企業のオペレーションに関わるデータや知見をひとつに繋ぎ、組織を理解するAIエージェントによって意思決定の支援と実行を担うプラットフォーム「Sakana Aquarium」の紹介ページを公開しました。「組織をAIネイティブ…</description>
     </item>
   </channel>
 </rss>
