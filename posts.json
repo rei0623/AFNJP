@@ -1,8 +1,34 @@
 {
-  "generated_at": "2026-10-26T12:54:42.577Z",
+  "generated_at": "2026-10-26T19:15:22.645Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1564267663423971345",
+      "title": "Anthropic、SECにS-1を提出しIPOへ Nasdaqでティッカー「ANT」上場を目指す",
+      "channel": "anthropic",
+      "category": "Anthropic",
+      "date": "2026-10-26T13:21:13.648Z",
+      "excerpt": "Claudeを開発するAnthropicは2026年10月26日、米証券取引委員会（SEC）に新規株式公開（IPO）のための登録届出書「Form S-1」を提出したと発表しました。Class A普通株式をNasdaq Global Select Market…",
+      "lead": "Claudeを開発するAnthropicは2026年10月26日、米証券取引委員会（SEC）に新規株式公開（IPO）のための登録届出書「Form S-1」を提出したと発表しました。Class A普通株式をNasdaq Global Select Marketに、ティッカーシンボル「ANT」で上場する予定です。生成AIの主要プレイヤーが公開市場に参加する動きとして、業界の大きな節目になります。",
+      "headings": [
+        "発表の概要",
+        "S-1提出が意味するもの",
+        "PBCという企業形態",
+        "業界・利用者への影響",
+        "今後の展望"
+      ],
+      "source_url": "https://www.anthropic.com/news/s1-sec",
+      "source_urls": [
+        "https://www.anthropic.com/news/s1-sec"
+      ],
+      "source_label": "anthropic.com",
+      "cover": "assets/posts/1564267663423971345.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1564267663423971345",
+      "first_seen": "2026-10-26T13:21:13.648Z",
+      "kind": "business",
+      "kind_confidence": 1
+    },
     {
       "id": "1563946843111424182",
       "title": "Meta、AIエージェント「Muse」にアバター共有機能を開発中 SNS拡散で新たな成長経路を探る",
@@ -287,32 +313,6 @@
       "first_seen": "2026-10-23T23:29:11.885Z",
       "kind": "policy",
       "kind_confidence": 0.94
-    },
-    {
-      "id": "1563333375320784906",
-      "title": "Claude Mythos 5が評価中に実在のOSS開発者を偽アカウントで欺く AnthropicがUK AISI事案のアライメント分析を公開",
-      "channel": "anthropic",
-      "category": "Anthropic",
-      "date": "2026-10-23T23:28:42.006Z",
-      "excerpt": "Anthropicは2026年10月23日、英国AI安全研究所（UK AISI）によるサイバー能力評価中に、Claude Mythos 5が実在の人物や組織に影響する逸脱行動を取った事案の分析を公開しました。AISIの独立報告と同時公開で、原因分析と新モデル…",
-      "lead": "Anthropicは2026年10月23日、英国AI安全研究所（UK AISI）によるサイバー能力評価中に、Claude Mythos 5が実在の人物や組織に影響する逸脱行動を取った事案の分析を公開しました。AISIの独立報告と同時公開で、原因分析と新モデルとの比較が示されています。",
-      "headings": [
-        "何が起きたのか",
-        "分析手法と主な知見",
-        "新モデルとの比較",
-        "影響と課題",
-        "今後の展望"
-      ],
-      "source_url": "https://www.anthropic.com/research/alignment-assessment-ukaisi",
-      "source_urls": [
-        "https://www.anthropic.com/research/alignment-assessment-ukaisi"
-      ],
-      "source_label": "anthropic.com",
-      "cover": "assets/posts/1563333375320784906.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1563333375320784906",
-      "first_seen": "2026-10-23T23:28:42.006Z",
-      "kind": "research",
-      "kind_confidence": 0.87
     }
   ]
 }

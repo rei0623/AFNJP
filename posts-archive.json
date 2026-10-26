@@ -1,9 +1,35 @@
 {
-  "generated_at": "2026-10-26T12:54:42.573Z",
+  "generated_at": "2026-10-26T19:15:22.639Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 470,
+  "count": 471,
   "posts": [
+    {
+      "id": "1564267663423971345",
+      "title": "Anthropic、SECにS-1を提出しIPOへ Nasdaqでティッカー「ANT」上場を目指す",
+      "channel": "anthropic",
+      "category": "Anthropic",
+      "date": "2026-10-26T13:21:13.648Z",
+      "excerpt": "Claudeを開発するAnthropicは2026年10月26日、米証券取引委員会（SEC）に新規株式公開（IPO）のための登録届出書「Form S-1」を提出したと発表しました。Class A普通株式をNasdaq Global Select Market…",
+      "lead": "Claudeを開発するAnthropicは2026年10月26日、米証券取引委員会（SEC）に新規株式公開（IPO）のための登録届出書「Form S-1」を提出したと発表しました。Class A普通株式をNasdaq Global Select Marketに、ティッカーシンボル「ANT」で上場する予定です。生成AIの主要プレイヤーが公開市場に参加する動きとして、業界の大きな節目になります。",
+      "headings": [
+        "発表の概要",
+        "S-1提出が意味するもの",
+        "PBCという企業形態",
+        "業界・利用者への影響",
+        "今後の展望"
+      ],
+      "source_url": "https://www.anthropic.com/news/s1-sec",
+      "source_urls": [
+        "https://www.anthropic.com/news/s1-sec"
+      ],
+      "source_label": "anthropic.com",
+      "cover": "assets/posts/1564267663423971345.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1564267663423971345",
+      "first_seen": "2026-10-26T13:21:13.648Z",
+      "kind": "business",
+      "kind_confidence": 1
+    },
     {
       "id": "1563946843111424182",
       "title": "Meta、AIエージェント「Muse」にアバター共有機能を開発中 SNS拡散で新たな成長経路を探る",
