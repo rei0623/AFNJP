@@ -1,8 +1,33 @@
 {
-  "generated_at": "2026-10-27T02:02:28.604Z",
+  "generated_at": "2026-10-27T07:47:13.787Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1564502773339267122",
+      "title": "Anthropic、非営利団体向け「Claude for Nonprofits」プラグインを公開 資金調達から採用まで小規模チームの業務を支援",
+      "channel": "anthropic",
+      "category": "Anthropic",
+      "date": "2026-10-27T04:55:28.220Z",
+      "excerpt": "Anthropicは2026年10月26日、検証済みの非営利団体向けに、スキルとコネクタをまとめた「Claude for Nonprofits」プラグインを公開しました。約30団体と共同開発したもので、TeamおよびEnterpriseプランを利用する非営利…",
+      "lead": "Anthropicは2026年10月26日、検証済みの非営利団体向けに、スキルとコネクタをまとめた「Claude for Nonprofits」プラグインを公開しました。約30団体と共同開発したもので、TeamおよびEnterpriseプランを利用する非営利団体には追加費用なしで自動インストールされます。あわせて、若手人材を米国の非営利団体に派遣する「Claude Corps」を、Taprootとの提携で拡張する計画も明らかにしました。",
+      "headings": [
+        "プラグインの3つの柱",
+        "背景：コスト以外の障壁への対応",
+        "導入事例と注意点",
+        "今後の展望"
+      ],
+      "source_url": "https://claude.com/ja/resources/articles/expanding-claude-for-nonprofits",
+      "source_urls": [
+        "https://claude.com/ja/resources/articles/expanding-claude-for-nonprofits"
+      ],
+      "source_label": "claude.com",
+      "cover": "assets/posts/1564502773339267122.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1564502773339267122",
+      "first_seen": "2026-10-27T04:55:28.220Z",
+      "kind": "feature",
+      "kind_confidence": 0.74
+    },
     {
       "id": "1564421860660351159",
       "title": "ChatGPTの業務利用は「165の仕事」へ拡散 OpenAIが約100カ国の業務活動データを公開",
@@ -286,32 +311,6 @@
       "first_seen": "2026-10-23T23:39:55.949Z",
       "kind": "tool",
       "kind_confidence": 0.74
-    },
-    {
-      "id": "1563333911998894261",
-      "title": "Claude Enterprise、チャットとCoworkを統合した「ひとつのClaude」を一般提供開始",
-      "channel": "claude",
-      "category": "Anthropic",
-      "date": "2026-10-23T23:30:49.960Z",
-      "excerpt": "Anthropicは2026年10月23日、法人向けプラン「Claude Enterprise」で、チャットと自律作業機能「Cowork」を統合した新しい利用体験の一般提供を開始しました。9月にPro・Maxプランで先行導入された仕組みを企業向けに展開するも…",
-      "lead": "Anthropicは2026年10月23日、法人向けプラン「Claude Enterprise」で、チャットと自律作業機能「Cowork」を統合した新しい利用体験の一般提供を開始しました。9月にPro・Maxプランで先行導入された仕組みを企業向けに展開するもので、Web・デスクトップ・モバイルのすべてで、簡単な質問から大規模なプロジェクトの委任までを同じ会話の中で扱えるようになります。",
-      "headings": [
-        "「使い分け」が不要になる統合設計",
-        "セキュリティ：隔離VMと中央管理",
-        "コスト管理：新「Efficient mode」など4つの管理機能",
-        "導入時の注意点",
-        "今後の展望"
-      ],
-      "source_url": "https://claude.com/ja/resources/articles/unified-claude-enterprise",
-      "source_urls": [
-        "https://claude.com/ja/resources/articles/unified-claude-enterprise"
-      ],
-      "source_label": "claude.com",
-      "cover": "assets/posts/1563333911998894261.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1415353403269185546/threads/1563333911998894261",
-      "first_seen": "2026-10-23T23:30:49.960Z",
-      "kind": "feature",
-      "kind_confidence": 0.99
     }
   ]
 }

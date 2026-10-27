@@ -5,8 +5,16 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 26 Oct 2026 23:33:57 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 04:55:28 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Anthropic、非営利団体向け「Claude for Nonprofits」プラグインを公開 資金調達から採用まで小規模チームの業務を支援</title>
+      <link>https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1564502773339267122</link>
+      <guid isPermaLink="false">afnjp-1564502773339267122</guid>
+      <pubDate>Tue, 27 Oct 2026 04:55:28 GMT</pubDate>
+      <category>anthropic</category>
+      <description>Anthropicは2026年10月26日、検証済みの非営利団体向けに、スキルとコネクタをまとめた「Claude for Nonprofits」プラグインを公開しました。約30団体と共同開発したもので、TeamおよびEnterpriseプランを利用する非営利…</description>
+    </item>
     <item>
       <title>ChatGPTの業務利用は「165の仕事」へ拡散 OpenAIが約100カ国の業務活動データを公開</title>
       <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1564421860660351159</link>
@@ -94,14 +102,6 @@
       <pubDate>Fri, 23 Oct 2026 23:39:55 GMT</pubDate>
       <category>その他</category>
       <description>AIエージェントの信頼性向上を掲げるMubit（運営：Reliable AI, Inc.）が、エージェントのモデル呼び出しを実行時に調整し、繰り返し発生するタスク向けに専用モデルを構築・更新するプラットフォームを公開しています。既存のフロンティアモデルを置き…</description>
-    </item>
-    <item>
-      <title>Claude Enterprise、チャットとCoworkを統合した「ひとつのClaude」を一般提供開始</title>
-      <link>https://discord.com/channels/1415350002255007784/1415353403269185546/threads/1563333911998894261</link>
-      <guid isPermaLink="false">afnjp-1563333911998894261</guid>
-      <pubDate>Fri, 23 Oct 2026 23:30:49 GMT</pubDate>
-      <category>claude</category>
-      <description>Anthropicは2026年10月23日、法人向けプラン「Claude Enterprise」で、チャットと自律作業機能「Cowork」を統合した新しい利用体験の一般提供を開始しました。9月にPro・Maxプランで先行導入された仕組みを企業向けに展開するも…</description>
     </item>
   </channel>
 </rss>
