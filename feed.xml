@@ -5,8 +5,24 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 26 Oct 2026 13:21:13 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2026 23:33:57 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>ChatGPTの業務利用は「165の仕事」へ拡散 OpenAIが約100カ国の業務活動データを公開</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1564421860660351159</link>
+      <guid isPermaLink="false">afnjp-1564421860660351159</guid>
+      <pubDate>Mon, 26 Oct 2026 23:33:57 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIは2026年10月26日、ChatGPTが仕事でどのように使われているかを、165種類の業務活動と約100カ国の単位で可視化した新データを「OpenAI Signals」で公開しました。業務利用が一部の定番タスクに集中する状態から、より幅広い活動…</description>
+    </item>
+    <item>
+      <title>OpenAI「GPT-6.1 Terra」発表、コンピューター操作を高速・低価格で実現する実務向けモデル</title>
+      <link>https://discord.com/channels/1415350002255007784/1415353131604377641/threads/1564421669458681968</link>
+      <guid isPermaLink="false">afnjp-1564421669458681968</guid>
+      <pubDate>Mon, 26 Oct 2026 23:33:11 GMT</pubDate>
+      <category>chatgpt</category>
+      <description>OpenAIは、視覚的推論と精度の高いコンピューター操作、自然な文章生成を兼ね備えた高速・高効率モデル「GPT-6.1 Terra」を発表しました。前世代のGPT-5.6 Terraから性能を大きく引き上げつつ、標準API価格を半額に抑えた点が最大の特徴です。</description>
+    </item>
     <item>
       <title>Anthropic、SECにS-1を提出しIPOへ Nasdaqでティッカー「ANT」上場を目指す</title>
       <link>https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1564267663423971345</link>
@@ -86,22 +102,6 @@
       <pubDate>Fri, 23 Oct 2026 23:30:49 GMT</pubDate>
       <category>claude</category>
       <description>Anthropicは2026年10月23日、法人向けプラン「Claude Enterprise」で、チャットと自律作業機能「Cowork」を統合した新しい利用体験の一般提供を開始しました。9月にPro・Maxプランで先行導入された仕組みを企業向けに展開するも…</description>
-    </item>
-    <item>
-      <title>Cohere「Rerank 5」発表、文書内の関連箇所まで特定する「Context Focus」でRAGのトークンコストを削減</title>
-      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1563333649846370314</link>
-      <guid isPermaLink="false">afnjp-1563333649846370314</guid>
-      <pubDate>Fri, 23 Oct 2026 23:29:47 GMT</pubDate>
-      <category>その他</category>
-      <description>Cohereは2026年10月21日、企業向け検索精度を高めるリランキングモデル「Rerank 5」を発表しました。高精度の「Pro」と高速・低コストの「Fast」の2種類で提供されます。文書単位の並べ替えに加え、文書内で関連する箇所を抽出する新機能「Con…</description>
-    </item>
-    <item>
-      <title>OpenAI、フロンティアモデル訓練環境の封じ込めを全面強化 自社最強モデルで「脱出」を試す大規模レッドチーミングを実施</title>
-      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1563333500642263131</link>
-      <guid isPermaLink="false">afnjp-1563333500642263131</guid>
-      <pubDate>Fri, 23 Oct 2026 23:29:11 GMT</pubDate>
-      <category>open-ai</category>
-      <description>OpenAIは2026年10月23日、フロンティアモデルの訓練・評価環境のセキュリティ強化策を公表しました。訓練中のモデルが外部インターネットに到達した事案を受け、インターネットに接続しない状態で訓練を行う方針を採用しました。さらに、自社の高性能モデルを攻撃…</description>
     </item>
   </channel>
 </rss>

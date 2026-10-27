@@ -1,9 +1,60 @@
 {
-  "generated_at": "2026-10-26T23:08:02.626Z",
+  "generated_at": "2026-10-27T02:02:28.594Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 471,
+  "count": 473,
   "posts": [
+    {
+      "id": "1564421860660351159",
+      "title": "ChatGPTの業務利用は「165の仕事」へ拡散 OpenAIが約100カ国の業務活動データを公開",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-10-26T23:33:57.134Z",
+      "excerpt": "OpenAIは2026年10月26日、ChatGPTが仕事でどのように使われているかを、165種類の業務活動と約100カ国の単位で可視化した新データを「OpenAI Signals」で公開しました。業務利用が一部の定番タスクに集中する状態から、より幅広い活動…",
+      "lead": "OpenAIは2026年10月26日、ChatGPTが仕事でどのように使われているかを、165種類の業務活動と約100カ国の単位で可視化した新データを「OpenAI Signals」で公開しました。業務利用が一部の定番タスクに集中する状態から、より幅広い活動へ分散しつつあることが示されています。",
+      "headings": [
+        "165の「中間業務活動」で業務利用を分類",
+        "上位10活動の比率が低下、利用は分散傾向",
+        "データの範囲とプライバシー保護",
+        "解釈上の注意点",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/chatgpt-expanding-world-of-work/",
+      "source_urls": [
+        "https://openai.com/index/chatgpt-expanding-world-of-work/"
+      ],
+      "source_label": "openai.com",
+      "cover": "assets/posts/1564421860660351159.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1564421860660351159",
+      "first_seen": "2026-10-26T23:33:57.134Z",
+      "kind": "research",
+      "kind_confidence": 0.51
+    },
+    {
+      "id": "1564421669458681968",
+      "title": "OpenAI「GPT-6.1 Terra」発表、コンピューター操作を高速・低価格で実現する実務向けモデル",
+      "channel": "chatgpt",
+      "category": "Open AI",
+      "date": "2026-10-26T23:33:11.548Z",
+      "excerpt": "OpenAIは、視覚的推論と精度の高いコンピューター操作、自然な文章生成を兼ね備えた高速・高効率モデル「GPT-6.1 Terra」を発表しました。前世代のGPT-5.6 Terraから性能を大きく引き上げつつ、標準API価格を半額に抑えた点が最大の特徴です。",
+      "lead": "OpenAIは、視覚的推論と精度の高いコンピューター操作、自然な文章生成を兼ね備えた高速・高効率モデル「GPT-6.1 Terra」を発表しました。前世代のGPT-5.6 Terraから性能を大きく引き上げつつ、標準API価格を半額に抑えた点が最大の特徴です。",
+      "headings": [
+        "「見る」から「操作する」へ",
+        "事実性とコーディング能力の改善",
+        "安全性と提供形態",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/introducing-gpt-6-1-terra/",
+      "source_urls": [
+        "https://openai.com/index/introducing-gpt-6-1-terra/"
+      ],
+      "source_label": "openai.com",
+      "cover": "assets/posts/1564421669458681968.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415353131604377641/threads/1564421669458681968",
+      "first_seen": "2026-10-26T23:33:11.548Z",
+      "kind": "model",
+      "kind_confidence": 0.99
+    },
     {
       "id": "1564267663423971345",
       "title": "Anthropic、SECにS-1を提出しIPOへ Nasdaqでティッカー「ANT」上場を目指す",

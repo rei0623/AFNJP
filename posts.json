@@ -1,8 +1,59 @@
 {
-  "generated_at": "2026-10-26T23:08:02.629Z",
+  "generated_at": "2026-10-27T02:02:28.604Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1564421860660351159",
+      "title": "ChatGPTの業務利用は「165の仕事」へ拡散 OpenAIが約100カ国の業務活動データを公開",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-10-26T23:33:57.134Z",
+      "excerpt": "OpenAIは2026年10月26日、ChatGPTが仕事でどのように使われているかを、165種類の業務活動と約100カ国の単位で可視化した新データを「OpenAI Signals」で公開しました。業務利用が一部の定番タスクに集中する状態から、より幅広い活動…",
+      "lead": "OpenAIは2026年10月26日、ChatGPTが仕事でどのように使われているかを、165種類の業務活動と約100カ国の単位で可視化した新データを「OpenAI Signals」で公開しました。業務利用が一部の定番タスクに集中する状態から、より幅広い活動へ分散しつつあることが示されています。",
+      "headings": [
+        "165の「中間業務活動」で業務利用を分類",
+        "上位10活動の比率が低下、利用は分散傾向",
+        "データの範囲とプライバシー保護",
+        "解釈上の注意点",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/chatgpt-expanding-world-of-work/",
+      "source_urls": [
+        "https://openai.com/index/chatgpt-expanding-world-of-work/"
+      ],
+      "source_label": "openai.com",
+      "cover": "assets/posts/1564421860660351159.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1564421860660351159",
+      "first_seen": "2026-10-26T23:33:57.134Z",
+      "kind": "research",
+      "kind_confidence": 0.51
+    },
+    {
+      "id": "1564421669458681968",
+      "title": "OpenAI「GPT-6.1 Terra」発表、コンピューター操作を高速・低価格で実現する実務向けモデル",
+      "channel": "chatgpt",
+      "category": "Open AI",
+      "date": "2026-10-26T23:33:11.548Z",
+      "excerpt": "OpenAIは、視覚的推論と精度の高いコンピューター操作、自然な文章生成を兼ね備えた高速・高効率モデル「GPT-6.1 Terra」を発表しました。前世代のGPT-5.6 Terraから性能を大きく引き上げつつ、標準API価格を半額に抑えた点が最大の特徴です。",
+      "lead": "OpenAIは、視覚的推論と精度の高いコンピューター操作、自然な文章生成を兼ね備えた高速・高効率モデル「GPT-6.1 Terra」を発表しました。前世代のGPT-5.6 Terraから性能を大きく引き上げつつ、標準API価格を半額に抑えた点が最大の特徴です。",
+      "headings": [
+        "「見る」から「操作する」へ",
+        "事実性とコーディング能力の改善",
+        "安全性と提供形態",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/introducing-gpt-6-1-terra/",
+      "source_urls": [
+        "https://openai.com/index/introducing-gpt-6-1-terra/"
+      ],
+      "source_label": "openai.com",
+      "cover": "assets/posts/1564421669458681968.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415353131604377641/threads/1564421669458681968",
+      "first_seen": "2026-10-26T23:33:11.548Z",
+      "kind": "model",
+      "kind_confidence": 0.99
+    },
     {
       "id": "1564267663423971345",
       "title": "Anthropic、SECにS-1を提出しIPOへ Nasdaqでティッカー「ANT」上場を目指す",
@@ -261,58 +312,6 @@
       "first_seen": "2026-10-23T23:30:49.960Z",
       "kind": "feature",
       "kind_confidence": 0.99
-    },
-    {
-      "id": "1563333649846370314",
-      "title": "Cohere「Rerank 5」発表、文書内の関連箇所まで特定する「Context Focus」でRAGのトークンコストを削減",
-      "channel": "その他",
-      "category": "その他",
-      "date": "2026-10-23T23:29:47.458Z",
-      "excerpt": "Cohereは2026年10月21日、企業向け検索精度を高めるリランキングモデル「Rerank 5」を発表しました。高精度の「Pro」と高速・低コストの「Fast」の2種類で提供されます。文書単位の並べ替えに加え、文書内で関連する箇所を抽出する新機能「Con…",
-      "lead": "Cohereは2026年10月21日、企業向け検索精度を高めるリランキングモデル「Rerank 5」を発表しました。高精度の「Pro」と高速・低コストの「Fast」の2種類で提供されます。文書単位の並べ替えに加え、文書内で関連する箇所を抽出する新機能「Context Focus」と、確率として読めるように調整された関連度スコアを備えています。RAGやAIエージェントでのコストと回答品質の改善を狙ったモデルです。",
-      "headings": [
-        "主要ベンチマークで首位を主張",
-        "Context Focus：必要な箇所だけをLLMへ",
-        "確率として読める関連度スコア",
-        "提供形態と注意点",
-        "今後の展望"
-      ],
-      "source_url": "https://cohere.com/blog/rerank-5",
-      "source_urls": [
-        "https://cohere.com/blog/rerank-5"
-      ],
-      "source_label": "cohere.com",
-      "cover": "assets/posts/1563333649846370314.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1563333649846370314",
-      "first_seen": "2026-10-23T23:29:47.458Z",
-      "kind": "model",
-      "kind_confidence": 0.99
-    },
-    {
-      "id": "1563333500642263131",
-      "title": "OpenAI、フロンティアモデル訓練環境の封じ込めを全面強化 自社最強モデルで「脱出」を試す大規模レッドチーミングを実施",
-      "channel": "open-ai",
-      "category": "Open AI",
-      "date": "2026-10-23T23:29:11.885Z",
-      "excerpt": "OpenAIは2026年10月23日、フロンティアモデルの訓練・評価環境のセキュリティ強化策を公表しました。訓練中のモデルが外部インターネットに到達した事案を受け、インターネットに接続しない状態で訓練を行う方針を採用しました。さらに、自社の高性能モデルを攻撃…",
-      "lead": "OpenAIは2026年10月23日、フロンティアモデルの訓練・評価環境のセキュリティ強化策を公表しました。訓練中のモデルが外部インターネットに到達した事案を受け、インターネットに接続しない状態で訓練を行う方針を採用しました。さらに、自社の高性能モデルを攻撃役にした大規模レッドチーミングで、防御の弱点を洗い出しています。",
-      "headings": [
-        "背景：訓練中のモデルが外部へ到達",
-        "技術的詳細：オフライン世界と多層防御",
-        "レッドチーミングで見つかった弱点",
-        "影響と課題",
-        "今後の展望"
-      ],
-      "source_url": "https://openai.com/index/securing-our-frontier-model-training-environment/",
-      "source_urls": [
-        "https://openai.com/index/securing-our-frontier-model-training-environment/"
-      ],
-      "source_label": "openai.com",
-      "cover": "assets/posts/1563333500642263131.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1563333500642263131",
-      "first_seen": "2026-10-23T23:29:11.885Z",
-      "kind": "policy",
-      "kind_confidence": 0.94
     }
   ]
 }
