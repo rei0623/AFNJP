@@ -1,9 +1,140 @@
 {
-  "generated_at": "2026-10-27T20:03:13.614Z",
+  "generated_at": "2026-10-27T23:44:49.106Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 480,
+  "count": 485,
   "posts": [
+    {
+      "id": "1564785124468461598",
+      "title": "Liquid AI「LFM3」発表、1.7Bで9B級に迫るエージェント性能と全モダリティ対応",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-10-27T23:37:25.975Z",
+      "excerpt": "米Liquid AIは2026年10月27日、次世代基盤モデル群「LFM3」を発表しました。テキスト、視覚、音声、オムニ、意思決定の6モデルを単一の共通バックボーンから派生させた点が特徴で、いずれも2Bパラメータ級のオープンウェイトとしてHugging Fa…",
+      "lead": "米Liquid AIは2026年10月27日、次世代基盤モデル群「LFM3」を発表しました。テキスト、視覚、音声、オムニ、意思決定の6モデルを単一の共通バックボーンから派生させた点が特徴で、いずれも2Bパラメータ級のオープンウェイトとしてHugging FaceやLiquid AI APIで即日公開されています。",
+      "headings": [
+        "トライハイブリッド構造で表現力を強化",
+        "テキストモデルはエージェント用途に特化",
+        "視覚・音声・オムニ・意思決定モデル",
+        "ファインチューニング前提の設計",
+        "今後の展望"
+      ],
+      "source_url": "https://www.liquid.ai/blog/lfm3",
+      "source_urls": [
+        "https://www.liquid.ai/blog/lfm3"
+      ],
+      "source_label": "liquid.ai",
+      "cover": "assets/posts/1564785124468461598.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1564785124468461598",
+      "first_seen": "2026-10-27T23:37:25.975Z",
+      "kind": "model",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1564784621831331961",
+      "title": "Anthropic、米GSAとの提携を拡大 Claude全製品を政府機関向けに40%割引、州・地方政府にも適用",
+      "channel": "anthropic",
+      "category": "Anthropic",
+      "date": "2026-10-27T23:35:26.137Z",
+      "excerpt": "Anthropicは2026年10月27日、米連邦政府の調達を担う一般調達局（GSA）との提携拡大を発表しました。新たな合意により、政府機関はClaude Enterprise、Claude for Government、Claude APIを40%割引で利…",
+      "lead": "Anthropicは2026年10月27日、米連邦政府の調達を担う一般調達局（GSA）との提携拡大を発表しました。新たな合意により、政府機関はClaude Enterprise、Claude for Government、Claude APIを40%割引で利用できるようになります。割引は連邦政府だけでなく、州・地方・部族・準州政府にも適用されます。政府全体での節約額は約10億ドルと見込まれています。",
+      "headings": [
+        "合意の主な内容",
+        "急拡大する政府での利用",
+        "セキュリティ要件への対応",
+        "今後の展望"
+      ],
+      "source_url": "https://www.anthropic.com/news/expanding-partnership-gsa",
+      "source_urls": [
+        "https://www.anthropic.com/news/expanding-partnership-gsa"
+      ],
+      "source_label": "anthropic.com",
+      "cover": "assets/posts/1564784621831331961.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1564784621831331961",
+      "first_seen": "2026-10-27T23:35:26.137Z",
+      "kind": "business",
+      "kind_confidence": 0.51
+    },
+    {
+      "id": "1564747956165279908",
+      "title": "「あなたを知っているコンピューター操作AI」Sentient OSがmacOS向けに登場 夜間にオンデバイスで個人文脈を学習",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-10-27T21:09:44.361Z",
+      "excerpt": "Y Combinatorの支援を受けるSentient OS, Inc.が、Mac向けパーソナルAIアシスタント「Sentient OS」を公開しています。ローカルのメールやメッセージ、メモなどをオンデバイスモデルで夜間に解析して個人の文脈を構築し、その理解…",
+      "lead": "Y Combinatorの支援を受けるSentient OS, Inc.が、Mac向けパーソナルAIアシスタント「Sentient OS」を公開しています。ローカルのメールやメッセージ、メモなどをオンデバイスモデルで夜間に解析して個人の文脈を構築し、その理解を基に「専用カーソルによるPC操作」「本人らしい返信の下書き」「先回りの提案」を行う点が特徴です。アプリとインフラはオープンソースで、個人利用は無料とされています。",
+      "headings": [
+        "3つの機能：Sidekick、Double Tap、Proactive intelligence",
+        "技術的なポイント：ローカルで作る「Markdownの知識ベース」",
+        "動作環境と提供形態",
+        "影響と注意点",
+        "今後の展望"
+      ],
+      "source_url": "https://sentient-os.ai/",
+      "source_urls": [
+        "https://sentient-os.ai/"
+      ],
+      "source_label": "sentient-os.ai",
+      "cover": "assets/posts/1564747956165279908.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1564747956165279908",
+      "first_seen": "2026-10-27T21:09:44.361Z",
+      "kind": "model",
+      "kind_confidence": 0.59
+    },
+    {
+      "id": "1564747776695476244",
+      "title": "Microsoft、脆弱性検出モデル「MAI Cyber 1.1 Flash」を発表 MDASHでのスキャンコストを18％削減",
+      "channel": "microsoft",
+      "category": "Microsoft",
+      "date": "2026-10-27T21:09:01.572Z",
+      "excerpt": "Microsoft AIは2026年10月27日、サイバーセキュリティ特化モデルの新版「MAI Cyber 1.1 Flash」を発表しました。前世代のMAI Cyber 1 Flashと同等の性能を維持しながら、社内の脆弱性スキャン評価で1スキャンあたりの…",
+      "lead": "Microsoft AIは2026年10月27日、サイバーセキュリティ特化モデルの新版「MAI Cyber 1.1 Flash」を発表しました。前世代のMAI Cyber 1 Flashと同等の性能を維持しながら、社内の脆弱性スキャン評価で1スキャンあたりのコストを18％削減したとしています。",
+      "headings": [
+        "MDASHに組み込まれた専用モデル",
+        "コスト効率の向上が主眼",
+        "顧客の利用状況",
+        "提供形態と安全対策",
+        "評価の注意点",
+        "今後の展望"
+      ],
+      "source_url": "https://microsoft.ai/news/mai-cyber-1-1-flash/",
+      "source_urls": [
+        "https://microsoft.ai/news/mai-cyber-1-1-flash/"
+      ],
+      "source_label": "microsoft.ai",
+      "cover": "assets/posts/1564747776695476244.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1432720743279497367/threads/1564747776695476244",
+      "first_seen": "2026-10-27T21:09:01.572Z",
+      "kind": "model",
+      "kind_confidence": 0.99
+    },
+    {
+      "id": "1564747640309153844",
+      "title": "医療AIのConcurrenceが研究プログラム始動 患者ごとに「デジタルツイン」を構築する「超知能ケア」構想を発表",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-10-27T21:08:29.055Z",
+      "excerpt": "医療向けAI基盤を手がける米Concurrenceは2026年10月21日、研究プログラムの立ち上げを発表しました。掲げるテーマは「Superintelligent Care（超知能ケア）」です。一人ひとりの患者から学び、その知見を次の患者のケアに生かし続け…",
+      "lead": "医療向けAI基盤を手がける米Concurrenceは2026年10月21日、研究プログラムの立ち上げを発表しました。掲げるテーマは「Superintelligent Care（超知能ケア）」です。一人ひとりの患者から学び、その知見を次の患者のケアに生かし続けるシステムの実現を目指すとしています。",
+      "headings": [
+        "なぜ「学習する医療」は実現しにくいのか",
+        "研究の4本柱",
+        "技術の中核「Health World Model」",
+        "バイアスへの対処と段階的な権限付与",
+        "現状と課題",
+        "今後の展望"
+      ],
+      "source_url": "https://www.concurrence.com/research/superintelligent-care?utm_source=x&utm_medium=organic_social&utm_campaign=launch_video",
+      "source_urls": [
+        "https://www.concurrence.com/research/superintelligent-care?utm_source=x&utm_medium=organic_social&utm_campaign=launch_video"
+      ],
+      "source_label": "concurrence.com",
+      "cover": "assets/posts/1564747640309153844.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1564747640309153844",
+      "first_seen": "2026-10-27T21:08:29.055Z",
+      "kind": "research",
+      "kind_confidence": 0.81
+    },
     {
       "id": "1564672929923342407",
       "title": "Replit、非エンジニアが社内コードベースに直接貢献できる「Cloud Agents」を提供開始",

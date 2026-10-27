@@ -5,8 +5,48 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 27 Oct 2026 16:11:36 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 23:37:25 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Liquid AI「LFM3」発表、1.7Bで9B級に迫るエージェント性能と全モダリティ対応</title>
+      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1564785124468461598</link>
+      <guid isPermaLink="false">afnjp-1564785124468461598</guid>
+      <pubDate>Tue, 27 Oct 2026 23:37:25 GMT</pubDate>
+      <category>その他</category>
+      <description>米Liquid AIは2026年10月27日、次世代基盤モデル群「LFM3」を発表しました。テキスト、視覚、音声、オムニ、意思決定の6モデルを単一の共通バックボーンから派生させた点が特徴で、いずれも2Bパラメータ級のオープンウェイトとしてHugging Fa…</description>
+    </item>
+    <item>
+      <title>Anthropic、米GSAとの提携を拡大 Claude全製品を政府機関向けに40%割引、州・地方政府にも適用</title>
+      <link>https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1564784621831331961</link>
+      <guid isPermaLink="false">afnjp-1564784621831331961</guid>
+      <pubDate>Tue, 27 Oct 2026 23:35:26 GMT</pubDate>
+      <category>anthropic</category>
+      <description>Anthropicは2026年10月27日、米連邦政府の調達を担う一般調達局（GSA）との提携拡大を発表しました。新たな合意により、政府機関はClaude Enterprise、Claude for Government、Claude APIを40%割引で利…</description>
+    </item>
+    <item>
+      <title>「あなたを知っているコンピューター操作AI」Sentient OSがmacOS向けに登場 夜間にオンデバイスで個人文脈を学習</title>
+      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1564747956165279908</link>
+      <guid isPermaLink="false">afnjp-1564747956165279908</guid>
+      <pubDate>Tue, 27 Oct 2026 21:09:44 GMT</pubDate>
+      <category>その他</category>
+      <description>Y Combinatorの支援を受けるSentient OS, Inc.が、Mac向けパーソナルAIアシスタント「Sentient OS」を公開しています。ローカルのメールやメッセージ、メモなどをオンデバイスモデルで夜間に解析して個人の文脈を構築し、その理解…</description>
+    </item>
+    <item>
+      <title>Microsoft、脆弱性検出モデル「MAI Cyber 1.1 Flash」を発表 MDASHでのスキャンコストを18％削減</title>
+      <link>https://discord.com/channels/1415350002255007784/1432720743279497367/threads/1564747776695476244</link>
+      <guid isPermaLink="false">afnjp-1564747776695476244</guid>
+      <pubDate>Tue, 27 Oct 2026 21:09:01 GMT</pubDate>
+      <category>microsoft</category>
+      <description>Microsoft AIは2026年10月27日、サイバーセキュリティ特化モデルの新版「MAI Cyber 1.1 Flash」を発表しました。前世代のMAI Cyber 1 Flashと同等の性能を維持しながら、社内の脆弱性スキャン評価で1スキャンあたりの…</description>
+    </item>
+    <item>
+      <title>医療AIのConcurrenceが研究プログラム始動 患者ごとに「デジタルツイン」を構築する「超知能ケア」構想を発表</title>
+      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1564747640309153844</link>
+      <guid isPermaLink="false">afnjp-1564747640309153844</guid>
+      <pubDate>Tue, 27 Oct 2026 21:08:29 GMT</pubDate>
+      <category>その他</category>
+      <description>医療向けAI基盤を手がける米Concurrenceは2026年10月21日、研究プログラムの立ち上げを発表しました。掲げるテーマは「Superintelligent Care（超知能ケア）」です。一人ひとりの患者から学び、その知見を次の患者のケアに生かし続け…</description>
+    </item>
     <item>
       <title>Replit、非エンジニアが社内コードベースに直接貢献できる「Cloud Agents」を提供開始</title>
       <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1564672929923342407</link>
@@ -62,46 +102,6 @@
       <pubDate>Tue, 27 Oct 2026 04:55:28 GMT</pubDate>
       <category>anthropic</category>
       <description>Anthropicは2026年10月26日、検証済みの非営利団体向けに、スキルとコネクタをまとめた「Claude for Nonprofits」プラグインを公開しました。約30団体と共同開発したもので、TeamおよびEnterpriseプランを利用する非営利…</description>
-    </item>
-    <item>
-      <title>ChatGPTの業務利用は「165の仕事」へ拡散 OpenAIが約100カ国の業務活動データを公開</title>
-      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1564421860660351159</link>
-      <guid isPermaLink="false">afnjp-1564421860660351159</guid>
-      <pubDate>Mon, 26 Oct 2026 23:33:57 GMT</pubDate>
-      <category>open-ai</category>
-      <description>OpenAIは2026年10月26日、ChatGPTが仕事でどのように使われているかを、165種類の業務活動と約100カ国の単位で可視化した新データを「OpenAI Signals」で公開しました。業務利用が一部の定番タスクに集中する状態から、より幅広い活動…</description>
-    </item>
-    <item>
-      <title>OpenAI「GPT-6.1 Terra」発表、コンピューター操作を高速・低価格で実現する実務向けモデル</title>
-      <link>https://discord.com/channels/1415350002255007784/1415353131604377641/threads/1564421669458681968</link>
-      <guid isPermaLink="false">afnjp-1564421669458681968</guid>
-      <pubDate>Mon, 26 Oct 2026 23:33:11 GMT</pubDate>
-      <category>chatgpt</category>
-      <description>OpenAIは、視覚的推論と精度の高いコンピューター操作、自然な文章生成を兼ね備えた高速・高効率モデル「GPT-6.1 Terra」を発表しました。前世代のGPT-5.6 Terraから性能を大きく引き上げつつ、標準API価格を半額に抑えた点が最大の特徴です。</description>
-    </item>
-    <item>
-      <title>Anthropic、SECにS-1を提出しIPOへ Nasdaqでティッカー「ANT」上場を目指す</title>
-      <link>https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1564267663423971345</link>
-      <guid isPermaLink="false">afnjp-1564267663423971345</guid>
-      <pubDate>Mon, 26 Oct 2026 13:21:13 GMT</pubDate>
-      <category>anthropic</category>
-      <description>Claudeを開発するAnthropicは2026年10月26日、米証券取引委員会（SEC）に新規株式公開（IPO）のための登録届出書「Form S-1」を提出したと発表しました。Class A普通株式をNasdaq Global Select Market…</description>
-    </item>
-    <item>
-      <title>Meta、AIエージェント「Muse」にアバター共有機能を開発中 SNS拡散で新たな成長経路を探る</title>
-      <link>https://discord.com/channels/1415350002255007784/1415534435712897124/threads/1563946843111424182</link>
-      <guid isPermaLink="false">afnjp-1563946843111424182</guid>
-      <pubDate>Sun, 25 Oct 2026 16:06:24 GMT</pubDate>
-      <category>リーク情報</category>
-      <description>Metaが、パーソナルAIエージェント「Muse」のWeb版で、ユーザーが作成したアバターを共有できる新機能を開発していることが明らかになりました。共有用のポップアップでは、アニメーション付きアバターのプレビュー、各種SNSへの共有、自動生成リンクのコピーが…</description>
-    </item>
-    <item>
-      <title>Nanbeige4.3-33B公開、30B級オープンモデルでエージェント性能トップを主張</title>
-      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1563946600160825414</link>
-      <guid isPermaLink="false">afnjp-1563946600160825414</guid>
-      <pubDate>Sun, 25 Oct 2026 16:05:26 GMT</pubDate>
-      <category>その他</category>
-      <description>中国のNanbeige LLM Labは、33Bパラメータのオープンモデル「Nanbeige4.3-33B」をHugging Faceで公開しました。ライセンスはApache-2.0で、複雑なコーディングや業務遂行（コワーク）タスクといったエージェント用途に…</description>
     </item>
   </channel>
 </rss>
