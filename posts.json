@@ -1,8 +1,167 @@
 {
-  "generated_at": "2026-10-27T14:26:34.123Z",
+  "generated_at": "2026-10-27T20:03:13.619Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1564672929923342407",
+      "title": "Replit、非エンジニアが社内コードベースに直接貢献できる「Cloud Agents」を提供開始",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-10-27T16:11:36.711Z",
+      "excerpt": "Replitは2026年10月27日、デザイナーやPM、サポート担当者など、エンジニア以外の社員が自社プロダクトのコードベースに変更を提案できる「Replit Cloud Agents」の既存リポジトリ対応を発表しました。自然言語で変更内容を伝えるだけで、エ…",
+      "lead": "Replitは2026年10月27日、デザイナーやPM、サポート担当者など、エンジニア以外の社員が自社プロダクトのコードベースに変更を提案できる「Replit Cloud Agents」の既存リポジトリ対応を発表しました。自然言語で変更内容を伝えるだけで、エージェントが実装・動作検証まで行い、検証済みのプルリクエストとして提出します。ProおよびEnterpriseプランの全顧客が利用できます。",
+      "headings": [
+        "自然言語の依頼から検証済みPRまで",
+        "隔離環境での自動テストと動画による証跡",
+        "レビュー内容を学習する「自己改善型ワークスペースメモリ」",
+        "環境構築は一度だけ、Slackからも依頼可能",
+        "影響と課題",
+        "今後の展望"
+      ],
+      "source_url": "https://replit.com/blog/anyone-can-bring-ideas-to-company-codebase",
+      "source_urls": [
+        "https://replit.com/blog/anyone-can-bring-ideas-to-company-codebase"
+      ],
+      "source_label": "replit.com",
+      "cover": "assets/posts/1564672929923342407.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1564672929923342407",
+      "first_seen": "2026-10-27T16:11:36.711Z",
+      "kind": "feature",
+      "kind_confidence": 0.67
+    },
+    {
+      "id": "1564672176567619687",
+      "title": "Google DeepMind「Genie 4」発表 ネイティブ音声と人物シミュレーションを備えた次世代ワールドモデル",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-10-27T16:08:37.097Z",
+      "excerpt": "Google DeepMindは2026年10月27日、リアルタイムで操作できる世界シミュレーションモデル「Genie 4」を発表しました。映像に加え、環境音や音楽、キャラクターとの対話音声を同時に生成するネイティブなマルチモーダル対応が最大の特徴です。現在…",
+      "lead": "Google DeepMindは2026年10月27日、リアルタイムで操作できる世界シミュレーションモデル「Genie 4」を発表しました。映像に加え、環境音や音楽、キャラクターとの対話音声を同時に生成するネイティブなマルチモーダル対応が最大の特徴です。現在は信頼できるテスター向けのリサーチプレビューとして提供が始まっています。",
+      "headings": [
+        "Geminiと組み合わせた「生成しながら考える」仕組み",
+        "4つの強化ポイント",
+        "想定用途と安全対策",
+        "残る課題",
+        "今後の展望"
+      ],
+      "source_url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+      "source_urls": [
+        "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/"
+      ],
+      "source_label": "deepmind.google",
+      "cover": "assets/posts/1564672176567619687.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1564672176567619687",
+      "first_seen": "2026-10-27T16:08:37.097Z",
+      "kind": "model",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1564672022951231699",
+      "title": "Google Cloud、ロボットの「高次の頭脳」Gemini Robotics ER 2をパブリックプレビュー提供開始",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-10-27T16:08:00.472Z",
+      "excerpt": "Google Cloudは2026年10月27日、Google DeepMindのロボティクス向け推論モデル「Gemini Robotics Embodied Reasoning 2（ER 2）」を、Gemini platformのModel Gardenで…",
+      "lead": "Google Cloudは2026年10月27日、Google DeepMindのロボティクス向け推論モデル「Gemini Robotics Embodied Reasoning 2（ER 2）」を、Gemini platformのModel Gardenでパブリックプレビューとして提供開始したと発表しました。DeepMindの最新の身体性推論（Embodied Reasoning）モデルを、Google Cloudのエンタープライズ向けセキュリティや運用基盤と組み合わせて使えるようになります。",
+      "headings": [
+        "ER 2とは何か",
+        "技術的なポイント",
+        "Google Cloudとの統合",
+        "先行ユーザーの声",
+        "影響と注意点",
+        "今後の展望"
+      ],
+      "source_url": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-robotics-embodied-reasoning-2-is-now-available-on-google-cloud/?hl=en",
+      "source_urls": [
+        "https://cloud.google.com/blog/products/ai-machine-learning/gemini-robotics-embodied-reasoning-2-is-now-available-on-google-cloud/?hl=en"
+      ],
+      "source_label": "cloud.google.com",
+      "cover": "assets/posts/1564672022951231699.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1564672022951231699",
+      "first_seen": "2026-10-27T16:08:00.472Z",
+      "kind": "model",
+      "kind_confidence": 0.99
+    },
+    {
+      "id": "1564655063111172276",
+      "title": "Google、エージェント向け「Gemini API CLI」をプレビュー公開 画像・動画・音声生成からマネージドエージェントまでシェル1本で",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-10-27T15:00:36.931Z",
+      "excerpt": "Googleは、Gemini APIをコマンドラインから直接扱える新ツール「Gemini API CLI（gemini-api）」を実験的プレビューとして公開しました。Claude CodeやCodex、Antigravityなどシェルを使えるAIエージェン…",
+      "lead": "Googleは、Gemini APIをコマンドラインから直接扱える新ツール「Gemini API CLI（gemini-api）」を実験的プレビューとして公開しました。Claude CodeやCodex、Antigravityなどシェルを使えるAIエージェントに組み込むことを主な用途とし、テキスト生成、画像・動画・音楽・音声の生成、ファイル解析、文字起こし、マネージドエージェントの起動までを1つのバイナリで扱えます。",
+      "headings": [
+        "ステートレスな単一バイナリ",
+        "主なコマンドと既定モデル",
+        "エージェントが自分で使い方を調べられる",
+        "導入時の注意点",
+        "今後の展望"
+      ],
+      "source_url": "https://aistudio.google.com/learn/introducing-the-gemini-api-cli?e=0",
+      "source_urls": [
+        "https://aistudio.google.com/learn/introducing-the-gemini-api-cli?e=0"
+      ],
+      "source_label": "aistudio.google.com",
+      "cover": "assets/posts/1564655063111172276.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1564655063111172276",
+      "first_seen": "2026-10-27T15:00:36.931Z",
+      "kind": "tool",
+      "kind_confidence": 0.99
+    },
+    {
+      "id": "1564654772148117685",
+      "title": "Baidu「Unlimited OCR 2」公開、数百ページの文書を1回のリクエストで解析する“無制限ホライズン”OCRへ",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-10-27T14:59:27.560Z",
+      "excerpt": "Baiduは2026年10月27日、オープンソースのOCRモデル「Unlimited OCR 2」をGitHubで公開しました。新しいアテンション機構「SR-SWA」を採用し、文書が長くなってもデコード時の遅延とメモリ使用量がほぼ一定に保たれる点が最大の特徴…",
+      "lead": "Baiduは2026年10月27日、オープンソースのOCRモデル「Unlimited OCR 2」をGitHubで公開しました。新しいアテンション機構「SR-SWA」を採用し、文書が長くなってもデコード時の遅延とメモリ使用量がほぼ一定に保たれる点が最大の特徴です。書籍1冊を1回のリクエストで解析するデモも示されており、同社はこれを「OCR 3.0時代」の幕開けと位置付けています。ライセンスはMITです。",
+      "headings": [
+        "SR-SWAで長さの壁を取り除く",
+        "複数ページを一括処理し、ページをまたぐ文脈を活用",
+        "背景：DeepSeek-OCRの系譜を一段先へ",
+        "導入時の注意点",
+        "今後の展望"
+      ],
+      "source_url": "https://github.com/baidu/Unlimited-OCR",
+      "source_urls": [
+        "https://github.com/baidu/Unlimited-OCR"
+      ],
+      "source_label": "github.com",
+      "cover": "assets/posts/1564654772148117685.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1564654772148117685",
+      "first_seen": "2026-10-27T14:59:27.560Z",
+      "kind": "model",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1564654659581517945",
+      "title": "NVIDIAとMeta、AIエージェント「Muse」で協業拡大 NVIDIAは30億ドルを出資へ",
+      "channel": "muse-spark",
+      "category": "Meta",
+      "date": "2026-10-27T14:59:00.722Z",
+      "excerpt": "NVIDIAとMetaは2026年10月26日、Metaのモデル群「Muse」およびMuseファミリーに関する協業を拡大すると発表しました。推論と学習の性能向上が主な狙いで、MetaはVera RubinやVera CPUなど次世代インフラの導入を広げます。…",
+      "lead": "NVIDIAとMetaは2026年10月26日、Metaのモデル群「Muse」およびMuseファミリーに関する協業を拡大すると発表しました。推論と学習の性能向上が主な狙いで、MetaはVera RubinやVera CPUなど次世代インフラの導入を広げます。あわせてNVIDIAがMetaの株式発行に30億ドルを投資することも明らかになりました。",
+      "headings": [
+        "協業の中身：ワークフロー全体の最適化",
+        "エージェントの安全性・監視技術も検討対象に",
+        "インフラ拡張：Vera Rubin、Spectrum-X、BlueField-4",
+        "両トップのメッセージ",
+        "影響と注意点",
+        "今後の展望"
+      ],
+      "source_url": "https://nvidianews.nvidia.com/news/nvidia-and-meta-to-expand-collaboration-on-muse-and-muse-family-of-models-amid-robust-growth",
+      "source_urls": [
+        "https://nvidianews.nvidia.com/news/nvidia-and-meta-to-expand-collaboration-on-muse-and-muse-family-of-models-amid-robust-growth"
+      ],
+      "source_label": "nvidianews.nvidia.com",
+      "cover": "assets/posts/1564654659581517945.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1491820892789936220/threads/1564654659581517945",
+      "first_seen": "2026-10-27T14:59:00.722Z",
+      "kind": "business",
+      "kind_confidence": 1
+    },
     {
       "id": "1564502773339267122",
       "title": "Anthropic、非営利団体向け「Claude for Nonprofits」プラグインを公開 資金調達から採用まで小規模チームの業務を支援",
@@ -155,162 +314,6 @@
       "first_seen": "2026-10-25T16:05:26.201Z",
       "kind": "model",
       "kind_confidence": 1
-    },
-    {
-      "id": "1563915931401322596",
-      "title": "Google AI Studio、エージェント管理を一元化する「Managed Agents」ハブを準備中",
-      "channel": "リーク情報",
-      "category": "リーク情報",
-      "date": "2026-10-25T14:03:34.199Z",
-      "excerpt": "GoogleがAI Studio内に、自律型エージェントの設定から実行履歴の確認までを一か所で扱える「Managed Agents」セクションを準備していることが明らかになりました。10月22日に発表された新インフラ「Agent Compute Engine…",
-      "lead": "GoogleがAI Studio内に、自律型エージェントの設定から実行履歴の確認までを一か所で扱える「Managed Agents」セクションを準備していることが明らかになりました。10月22日に発表された新インフラ「Agent Compute Engine」と合わせ、Googleがエージェント基盤の本格整備を進めている様子がうかがえます。なお、提供開始日は公式には確認されていません。",
-      "headings": [
-        "新ハブの構成：5つの管理領域",
-        "背景：Agent Compute Engineとの関係",
-        "コスト管理という課題",
-        "競合を取り巻く動向",
-        "今後の展望"
-      ],
-      "source_url": "https://www.testingcatalog.com/google-ai-studio-prepares-new-managed-agents-hub/",
-      "source_urls": [
-        "https://www.testingcatalog.com/google-ai-studio-prepares-new-managed-agents-hub/"
-      ],
-      "source_label": "testingcatalog.com",
-      "cover": "assets/posts/1563915931401322596.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1415534435712897124/threads/1563915931401322596",
-      "first_seen": "2026-10-25T14:03:34.199Z",
-      "kind": "tool",
-      "kind_confidence": 0.5
-    },
-    {
-      "id": "1563586760263344318",
-      "title": "Perplexity、判定モデルをMacでローカル実行できる「Decider for Mac」を公開",
-      "channel": "perplexity",
-      "category": "その他",
-      "date": "2026-10-24T16:15:33.684Z",
-      "excerpt": "Perplexityは、同社の判定モデル「pplx-decider-flash-v1.2」をMac上で動かすメニューバーアプリ「Decider for Mac」を公開しました。Decisions APIをローカルの「127.0.0.1:8080」で提供し、A…",
-      "lead": "Perplexityは、同社の判定モデル「pplx-decider-flash-v1.2」をMac上で動かすメニューバーアプリ「Decider for Mac」を公開しました。Decisions APIをローカルの「127.0.0.1:8080」で提供し、APIキーも利用料も不要です。外部に送れない機密データを、手元のMacだけで分類・判定できるのが最大の特徴です。",
-      "headings": [
-        "4Bモデルが確率付きで「判定」を返す",
-        "ローカル版からホスト版へ、コード変更は最小限",
-        "公式が示す実用例",
-        "動作要件と制約",
-        "今後の展望"
-      ],
-      "source_url": "https://docs.perplexity.ai/docs/decisions/decider-for-mac",
-      "source_urls": [
-        "https://docs.perplexity.ai/docs/decisions/decider-for-mac"
-      ],
-      "source_label": "docs.perplexity.ai",
-      "url": "https://discord.com/channels/1415350002255007784/1417545518539739166/threads/1563586760263344318",
-      "first_seen": "2026-10-24T16:15:33.684Z",
-      "kind": "tool",
-      "kind_confidence": 0.9
-    },
-    {
-      "id": "1563341467102085232",
-      "title": "Tencent Hunyuan、対話で世界を操る動画ワールドモデル「Hy-Nomas」をオープンソース公開 RTX 4090単体でも動作",
-      "channel": "hunyuan",
-      "category": "その他",
-      "date": "2026-10-24T00:00:51.237Z",
-      "excerpt": "Tencentの生成AIチーム「Hunyuan（混元）」が、テキスト指示とカメラ操作を対話的に繰り返しながら映像世界を生成できるインタラクティブ動画ワールドモデル「Hy-Nomas」を公開しました。モデル重み、推論・学習コード、LoRA微調整ツール一式がAp…",
-      "lead": "Tencentの生成AIチーム「Hunyuan（混元）」が、テキスト指示とカメラ操作を対話的に繰り返しながら映像世界を生成できるインタラクティブ動画ワールドモデル「Hy-Nomas」を公開しました。モデル重み、推論・学習コード、LoRA微調整ツール一式がApache 2.0ライセンスで提供され、INT8量子化版はRTX 4090一枚での推論にも対応します。",
-      "headings": [
-        "「動画を作る」のではなく「世界を進める」モデル",
-        "技術スタックの構成",
-        "RTX 4090で動かすための工夫",
-        "評価はこれから",
-        "今後の展望"
-      ],
-      "source_url": "https://hy-nomas.hy.tencent.com/",
-      "source_urls": [
-        "https://hy-nomas.hy.tencent.com/"
-      ],
-      "source_label": "hy-nomas.hy.tencent.com",
-      "cover": "assets/posts/1563341467102085232.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1460898443923820618/threads/1563341467102085232",
-      "first_seen": "2026-10-24T00:00:51.237Z",
-      "kind": "model",
-      "kind_confidence": 0.99
-    },
-    {
-      "id": "1563336792780972174",
-      "title": "Claude CodeがMCPタスクに対応、サーバー側の長時間ジョブを非同期で扱う仕組みを公開",
-      "channel": "claude-code",
-      "category": "Anthropic",
-      "date": "2026-10-23T23:42:16.792Z",
-      "excerpt": "AnthropicはClaude CodeのMCPドキュメントで、MCPサーバーが長時間かかるツール呼び出しを「タスク」として非同期に返すための実装仕様を公開しました。レポート出力やビルドのような重い処理を、エージェントの作業を止めずに実行できるようになりま…",
-      "lead": "AnthropicはClaude CodeのMCPドキュメントで、MCPサーバーが長時間かかるツール呼び出しを「タスク」として非同期に返すための実装仕様を公開しました。レポート出力やビルドのような重い処理を、エージェントの作業を止めずに実行できるようになります。CLIではv2.1.304以降でパブリックベータとして提供されています。",
-      "headings": [
-        "MCPタスクとは何か",
-        "サーバー実装の要点",
-        "進捗・結果・入力要求の扱い",
-        "影響と注意点",
-        "今後の展望"
-      ],
-      "source_url": "https://code.claude.com/docs/en/mcp",
-      "source_urls": [
-        "https://code.claude.com/docs/en/mcp",
-        "https://code.claude.com/docs/en/mcp#mcp-tasks-for-server-authors"
-      ],
-      "source_label": "code.claude.com",
-      "cover": "assets/posts/1563336792780972174.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1415549165181599795/threads/1563336792780972174",
-      "first_seen": "2026-10-23T23:42:16.792Z",
-      "kind": "tool",
-      "kind_confidence": 0.78
-    },
-    {
-      "id": "1563336408645501020",
-      "title": "Moonshot AI「Kimi K3.1 Pro」発表 3T級オープンウェイトで最上位クローズドモデルに迫る",
-      "channel": "kimi",
-      "category": "その他",
-      "date": "2026-10-23T23:40:45.207Z",
-      "excerpt": "Moonshot AIは、新シリーズ「K3.1」の第1弾となる「Kimi K3.1 Pro」を発表しました。同社のオープンウェイトモデルとして過去最高性能の3T（3兆パラメータ）級モデルで、100万トークンのコンテキストに対応します。コーディング、3D制作、…",
-      "lead": "Moonshot AIは、新シリーズ「K3.1」の第1弾となる「Kimi K3.1 Pro」を発表しました。同社のオープンウェイトモデルとして過去最高性能の3T（3兆パラメータ）級モデルで、100万トークンのコンテキストに対応します。コーディング、3D制作、金融リサーチなどのエージェント能力が大きく向上しており、モデルの重みは11月4日までに全面公開される予定です。",
-      "headings": [
-        "大規模な強化学習で全領域を底上げ",
-        "3D制作と金融分野に注力",
-        "サイバー能力を意図的に抑制",
-        "提供形態",
-        "今後の展望"
-      ],
-      "source_url": "https://www.kimi.ai/blog/kimi-k3-1-pro",
-      "source_urls": [
-        "https://www.kimi.ai/blog/kimi-k3-1-pro"
-      ],
-      "source_label": "kimi.ai",
-      "cover": "assets/posts/1563336408645501020.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1417459869341978704/threads/1563336408645501020",
-      "first_seen": "2026-10-23T23:40:45.207Z",
-      "kind": "model",
-      "kind_confidence": 1
-    },
-    {
-      "id": "1563336202042609745",
-      "title": "Mubitが「エージェント実行時キャリブレーション」を提唱、繰り返すタスクごとに専用モデルを自動構築",
-      "channel": "その他",
-      "category": "その他",
-      "date": "2026-10-23T23:39:55.949Z",
-      "excerpt": "AIエージェントの信頼性向上を掲げるMubit（運営：Reliable AI, Inc.）が、エージェントのモデル呼び出しを実行時に調整し、繰り返し発生するタスク向けに専用モデルを構築・更新するプラットフォームを公開しています。既存のフロンティアモデルを置き…",
-      "lead": "AIエージェントの信頼性向上を掲げるMubit（運営：Reliable AI, Inc.）が、エージェントのモデル呼び出しを実行時に調整し、繰り返し発生するタスク向けに専用モデルを構築・更新するプラットフォームを公開しています。既存のフロンティアモデルを置き換えず、構築したモデルはユーザーが所有できる点を特徴としています。現在はウェイトリスト登録を受け付けており、2026年10月26日から30日にかけて、1日1機能を発表する「ローンチウィーク」も予告されています。",
-      "headings": [
-        "「Agentic runtime calibration」の仕組み",
-        "検証特化モデル「Banyan Sapling」",
-        "エンタープライズ対応と出資体制",
-        "開発者・企業への影響",
-        "今後の展望"
-      ],
-      "source_url": "https://mubit.ai/",
-      "source_urls": [
-        "https://mubit.ai/"
-      ],
-      "source_label": "mubit.ai",
-      "cover": "assets/posts/1563336202042609745.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1563336202042609745",
-      "first_seen": "2026-10-23T23:39:55.949Z",
-      "kind": "tool",
-      "kind_confidence": 0.74
     }
   ]
 }

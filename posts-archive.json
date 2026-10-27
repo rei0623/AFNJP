@@ -1,9 +1,168 @@
 {
-  "generated_at": "2026-10-27T14:26:34.120Z",
+  "generated_at": "2026-10-27T20:03:13.614Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 474,
+  "count": 480,
   "posts": [
+    {
+      "id": "1564672929923342407",
+      "title": "Replit、非エンジニアが社内コードベースに直接貢献できる「Cloud Agents」を提供開始",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-10-27T16:11:36.711Z",
+      "excerpt": "Replitは2026年10月27日、デザイナーやPM、サポート担当者など、エンジニア以外の社員が自社プロダクトのコードベースに変更を提案できる「Replit Cloud Agents」の既存リポジトリ対応を発表しました。自然言語で変更内容を伝えるだけで、エ…",
+      "lead": "Replitは2026年10月27日、デザイナーやPM、サポート担当者など、エンジニア以外の社員が自社プロダクトのコードベースに変更を提案できる「Replit Cloud Agents」の既存リポジトリ対応を発表しました。自然言語で変更内容を伝えるだけで、エージェントが実装・動作検証まで行い、検証済みのプルリクエストとして提出します。ProおよびEnterpriseプランの全顧客が利用できます。",
+      "headings": [
+        "自然言語の依頼から検証済みPRまで",
+        "隔離環境での自動テストと動画による証跡",
+        "レビュー内容を学習する「自己改善型ワークスペースメモリ」",
+        "環境構築は一度だけ、Slackからも依頼可能",
+        "影響と課題",
+        "今後の展望"
+      ],
+      "source_url": "https://replit.com/blog/anyone-can-bring-ideas-to-company-codebase",
+      "source_urls": [
+        "https://replit.com/blog/anyone-can-bring-ideas-to-company-codebase"
+      ],
+      "source_label": "replit.com",
+      "cover": "assets/posts/1564672929923342407.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1564672929923342407",
+      "first_seen": "2026-10-27T16:11:36.711Z",
+      "kind": "feature",
+      "kind_confidence": 0.67
+    },
+    {
+      "id": "1564672176567619687",
+      "title": "Google DeepMind「Genie 4」発表 ネイティブ音声と人物シミュレーションを備えた次世代ワールドモデル",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-10-27T16:08:37.097Z",
+      "excerpt": "Google DeepMindは2026年10月27日、リアルタイムで操作できる世界シミュレーションモデル「Genie 4」を発表しました。映像に加え、環境音や音楽、キャラクターとの対話音声を同時に生成するネイティブなマルチモーダル対応が最大の特徴です。現在…",
+      "lead": "Google DeepMindは2026年10月27日、リアルタイムで操作できる世界シミュレーションモデル「Genie 4」を発表しました。映像に加え、環境音や音楽、キャラクターとの対話音声を同時に生成するネイティブなマルチモーダル対応が最大の特徴です。現在は信頼できるテスター向けのリサーチプレビューとして提供が始まっています。",
+      "headings": [
+        "Geminiと組み合わせた「生成しながら考える」仕組み",
+        "4つの強化ポイント",
+        "想定用途と安全対策",
+        "残る課題",
+        "今後の展望"
+      ],
+      "source_url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
+      "source_urls": [
+        "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/"
+      ],
+      "source_label": "deepmind.google",
+      "cover": "assets/posts/1564672176567619687.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1564672176567619687",
+      "first_seen": "2026-10-27T16:08:37.097Z",
+      "kind": "model",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1564672022951231699",
+      "title": "Google Cloud、ロボットの「高次の頭脳」Gemini Robotics ER 2をパブリックプレビュー提供開始",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-10-27T16:08:00.472Z",
+      "excerpt": "Google Cloudは2026年10月27日、Google DeepMindのロボティクス向け推論モデル「Gemini Robotics Embodied Reasoning 2（ER 2）」を、Gemini platformのModel Gardenで…",
+      "lead": "Google Cloudは2026年10月27日、Google DeepMindのロボティクス向け推論モデル「Gemini Robotics Embodied Reasoning 2（ER 2）」を、Gemini platformのModel Gardenでパブリックプレビューとして提供開始したと発表しました。DeepMindの最新の身体性推論（Embodied Reasoning）モデルを、Google Cloudのエンタープライズ向けセキュリティや運用基盤と組み合わせて使えるようになります。",
+      "headings": [
+        "ER 2とは何か",
+        "技術的なポイント",
+        "Google Cloudとの統合",
+        "先行ユーザーの声",
+        "影響と注意点",
+        "今後の展望"
+      ],
+      "source_url": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-robotics-embodied-reasoning-2-is-now-available-on-google-cloud/?hl=en",
+      "source_urls": [
+        "https://cloud.google.com/blog/products/ai-machine-learning/gemini-robotics-embodied-reasoning-2-is-now-available-on-google-cloud/?hl=en"
+      ],
+      "source_label": "cloud.google.com",
+      "cover": "assets/posts/1564672022951231699.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1564672022951231699",
+      "first_seen": "2026-10-27T16:08:00.472Z",
+      "kind": "model",
+      "kind_confidence": 0.99
+    },
+    {
+      "id": "1564655063111172276",
+      "title": "Google、エージェント向け「Gemini API CLI」をプレビュー公開 画像・動画・音声生成からマネージドエージェントまでシェル1本で",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-10-27T15:00:36.931Z",
+      "excerpt": "Googleは、Gemini APIをコマンドラインから直接扱える新ツール「Gemini API CLI（gemini-api）」を実験的プレビューとして公開しました。Claude CodeやCodex、Antigravityなどシェルを使えるAIエージェン…",
+      "lead": "Googleは、Gemini APIをコマンドラインから直接扱える新ツール「Gemini API CLI（gemini-api）」を実験的プレビューとして公開しました。Claude CodeやCodex、Antigravityなどシェルを使えるAIエージェントに組み込むことを主な用途とし、テキスト生成、画像・動画・音楽・音声の生成、ファイル解析、文字起こし、マネージドエージェントの起動までを1つのバイナリで扱えます。",
+      "headings": [
+        "ステートレスな単一バイナリ",
+        "主なコマンドと既定モデル",
+        "エージェントが自分で使い方を調べられる",
+        "導入時の注意点",
+        "今後の展望"
+      ],
+      "source_url": "https://aistudio.google.com/learn/introducing-the-gemini-api-cli?e=0",
+      "source_urls": [
+        "https://aistudio.google.com/learn/introducing-the-gemini-api-cli?e=0"
+      ],
+      "source_label": "aistudio.google.com",
+      "cover": "assets/posts/1564655063111172276.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1564655063111172276",
+      "first_seen": "2026-10-27T15:00:36.931Z",
+      "kind": "tool",
+      "kind_confidence": 0.99
+    },
+    {
+      "id": "1564654772148117685",
+      "title": "Baidu「Unlimited OCR 2」公開、数百ページの文書を1回のリクエストで解析する“無制限ホライズン”OCRへ",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-10-27T14:59:27.560Z",
+      "excerpt": "Baiduは2026年10月27日、オープンソースのOCRモデル「Unlimited OCR 2」をGitHubで公開しました。新しいアテンション機構「SR-SWA」を採用し、文書が長くなってもデコード時の遅延とメモリ使用量がほぼ一定に保たれる点が最大の特徴…",
+      "lead": "Baiduは2026年10月27日、オープンソースのOCRモデル「Unlimited OCR 2」をGitHubで公開しました。新しいアテンション機構「SR-SWA」を採用し、文書が長くなってもデコード時の遅延とメモリ使用量がほぼ一定に保たれる点が最大の特徴です。書籍1冊を1回のリクエストで解析するデモも示されており、同社はこれを「OCR 3.0時代」の幕開けと位置付けています。ライセンスはMITです。",
+      "headings": [
+        "SR-SWAで長さの壁を取り除く",
+        "複数ページを一括処理し、ページをまたぐ文脈を活用",
+        "背景：DeepSeek-OCRの系譜を一段先へ",
+        "導入時の注意点",
+        "今後の展望"
+      ],
+      "source_url": "https://github.com/baidu/Unlimited-OCR",
+      "source_urls": [
+        "https://github.com/baidu/Unlimited-OCR"
+      ],
+      "source_label": "github.com",
+      "cover": "assets/posts/1564654772148117685.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1564654772148117685",
+      "first_seen": "2026-10-27T14:59:27.560Z",
+      "kind": "model",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1564654659581517945",
+      "title": "NVIDIAとMeta、AIエージェント「Muse」で協業拡大 NVIDIAは30億ドルを出資へ",
+      "channel": "muse-spark",
+      "category": "Meta",
+      "date": "2026-10-27T14:59:00.722Z",
+      "excerpt": "NVIDIAとMetaは2026年10月26日、Metaのモデル群「Muse」およびMuseファミリーに関する協業を拡大すると発表しました。推論と学習の性能向上が主な狙いで、MetaはVera RubinやVera CPUなど次世代インフラの導入を広げます。…",
+      "lead": "NVIDIAとMetaは2026年10月26日、Metaのモデル群「Muse」およびMuseファミリーに関する協業を拡大すると発表しました。推論と学習の性能向上が主な狙いで、MetaはVera RubinやVera CPUなど次世代インフラの導入を広げます。あわせてNVIDIAがMetaの株式発行に30億ドルを投資することも明らかになりました。",
+      "headings": [
+        "協業の中身：ワークフロー全体の最適化",
+        "エージェントの安全性・監視技術も検討対象に",
+        "インフラ拡張：Vera Rubin、Spectrum-X、BlueField-4",
+        "両トップのメッセージ",
+        "影響と注意点",
+        "今後の展望"
+      ],
+      "source_url": "https://nvidianews.nvidia.com/news/nvidia-and-meta-to-expand-collaboration-on-muse-and-muse-family-of-models-amid-robust-growth",
+      "source_urls": [
+        "https://nvidianews.nvidia.com/news/nvidia-and-meta-to-expand-collaboration-on-muse-and-muse-family-of-models-amid-robust-growth"
+      ],
+      "source_label": "nvidianews.nvidia.com",
+      "cover": "assets/posts/1564654659581517945.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1491820892789936220/threads/1564654659581517945",
+      "first_seen": "2026-10-27T14:59:00.722Z",
+      "kind": "business",
+      "kind_confidence": 1
+    },
     {
       "id": "1564502773339267122",
       "title": "Anthropic、非営利団体向け「Claude for Nonprofits」プラグインを公開 資金調達から採用まで小規模チームの業務を支援",

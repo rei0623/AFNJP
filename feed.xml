@@ -5,8 +5,56 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 27 Oct 2026 04:55:28 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 16:11:36 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Replit、非エンジニアが社内コードベースに直接貢献できる「Cloud Agents」を提供開始</title>
+      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1564672929923342407</link>
+      <guid isPermaLink="false">afnjp-1564672929923342407</guid>
+      <pubDate>Tue, 27 Oct 2026 16:11:36 GMT</pubDate>
+      <category>その他</category>
+      <description>Replitは2026年10月27日、デザイナーやPM、サポート担当者など、エンジニア以外の社員が自社プロダクトのコードベースに変更を提案できる「Replit Cloud Agents」の既存リポジトリ対応を発表しました。自然言語で変更内容を伝えるだけで、エ…</description>
+    </item>
+    <item>
+      <title>Google DeepMind「Genie 4」発表 ネイティブ音声と人物シミュレーションを備えた次世代ワールドモデル</title>
+      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1564672176567619687</link>
+      <guid isPermaLink="false">afnjp-1564672176567619687</guid>
+      <pubDate>Tue, 27 Oct 2026 16:08:37 GMT</pubDate>
+      <category>google</category>
+      <description>Google DeepMindは2026年10月27日、リアルタイムで操作できる世界シミュレーションモデル「Genie 4」を発表しました。映像に加え、環境音や音楽、キャラクターとの対話音声を同時に生成するネイティブなマルチモーダル対応が最大の特徴です。現在…</description>
+    </item>
+    <item>
+      <title>Google Cloud、ロボットの「高次の頭脳」Gemini Robotics ER 2をパブリックプレビュー提供開始</title>
+      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1564672022951231699</link>
+      <guid isPermaLink="false">afnjp-1564672022951231699</guid>
+      <pubDate>Tue, 27 Oct 2026 16:08:00 GMT</pubDate>
+      <category>google</category>
+      <description>Google Cloudは2026年10月27日、Google DeepMindのロボティクス向け推論モデル「Gemini Robotics Embodied Reasoning 2（ER 2）」を、Gemini platformのModel Gardenで…</description>
+    </item>
+    <item>
+      <title>Google、エージェント向け「Gemini API CLI」をプレビュー公開 画像・動画・音声生成からマネージドエージェントまでシェル1本で</title>
+      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1564655063111172276</link>
+      <guid isPermaLink="false">afnjp-1564655063111172276</guid>
+      <pubDate>Tue, 27 Oct 2026 15:00:36 GMT</pubDate>
+      <category>google</category>
+      <description>Googleは、Gemini APIをコマンドラインから直接扱える新ツール「Gemini API CLI（gemini-api）」を実験的プレビューとして公開しました。Claude CodeやCodex、Antigravityなどシェルを使えるAIエージェン…</description>
+    </item>
+    <item>
+      <title>Baidu「Unlimited OCR 2」公開、数百ページの文書を1回のリクエストで解析する“無制限ホライズン”OCRへ</title>
+      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1564654772148117685</link>
+      <guid isPermaLink="false">afnjp-1564654772148117685</guid>
+      <pubDate>Tue, 27 Oct 2026 14:59:27 GMT</pubDate>
+      <category>その他</category>
+      <description>Baiduは2026年10月27日、オープンソースのOCRモデル「Unlimited OCR 2」をGitHubで公開しました。新しいアテンション機構「SR-SWA」を採用し、文書が長くなってもデコード時の遅延とメモリ使用量がほぼ一定に保たれる点が最大の特徴…</description>
+    </item>
+    <item>
+      <title>NVIDIAとMeta、AIエージェント「Muse」で協業拡大 NVIDIAは30億ドルを出資へ</title>
+      <link>https://discord.com/channels/1415350002255007784/1491820892789936220/threads/1564654659581517945</link>
+      <guid isPermaLink="false">afnjp-1564654659581517945</guid>
+      <pubDate>Tue, 27 Oct 2026 14:59:00 GMT</pubDate>
+      <category>muse-spark</category>
+      <description>NVIDIAとMetaは2026年10月26日、Metaのモデル群「Muse」およびMuseファミリーに関する協業を拡大すると発表しました。推論と学習の性能向上が主な狙いで、MetaはVera RubinやVera CPUなど次世代インフラの導入を広げます。…</description>
+    </item>
     <item>
       <title>Anthropic、非営利団体向け「Claude for Nonprofits」プラグインを公開 資金調達から採用まで小規模チームの業務を支援</title>
       <link>https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1564502773339267122</link>
@@ -54,54 +102,6 @@
       <pubDate>Sun, 25 Oct 2026 16:05:26 GMT</pubDate>
       <category>その他</category>
       <description>中国のNanbeige LLM Labは、33Bパラメータのオープンモデル「Nanbeige4.3-33B」をHugging Faceで公開しました。ライセンスはApache-2.0で、複雑なコーディングや業務遂行（コワーク）タスクといったエージェント用途に…</description>
-    </item>
-    <item>
-      <title>Google AI Studio、エージェント管理を一元化する「Managed Agents」ハブを準備中</title>
-      <link>https://discord.com/channels/1415350002255007784/1415534435712897124/threads/1563915931401322596</link>
-      <guid isPermaLink="false">afnjp-1563915931401322596</guid>
-      <pubDate>Sun, 25 Oct 2026 14:03:34 GMT</pubDate>
-      <category>リーク情報</category>
-      <description>GoogleがAI Studio内に、自律型エージェントの設定から実行履歴の確認までを一か所で扱える「Managed Agents」セクションを準備していることが明らかになりました。10月22日に発表された新インフラ「Agent Compute Engine…</description>
-    </item>
-    <item>
-      <title>Perplexity、判定モデルをMacでローカル実行できる「Decider for Mac」を公開</title>
-      <link>https://discord.com/channels/1415350002255007784/1417545518539739166/threads/1563586760263344318</link>
-      <guid isPermaLink="false">afnjp-1563586760263344318</guid>
-      <pubDate>Sat, 24 Oct 2026 16:15:33 GMT</pubDate>
-      <category>perplexity</category>
-      <description>Perplexityは、同社の判定モデル「pplx-decider-flash-v1.2」をMac上で動かすメニューバーアプリ「Decider for Mac」を公開しました。Decisions APIをローカルの「127.0.0.1:8080」で提供し、A…</description>
-    </item>
-    <item>
-      <title>Tencent Hunyuan、対話で世界を操る動画ワールドモデル「Hy-Nomas」をオープンソース公開 RTX 4090単体でも動作</title>
-      <link>https://discord.com/channels/1415350002255007784/1460898443923820618/threads/1563341467102085232</link>
-      <guid isPermaLink="false">afnjp-1563341467102085232</guid>
-      <pubDate>Sat, 24 Oct 2026 00:00:51 GMT</pubDate>
-      <category>hunyuan</category>
-      <description>Tencentの生成AIチーム「Hunyuan（混元）」が、テキスト指示とカメラ操作を対話的に繰り返しながら映像世界を生成できるインタラクティブ動画ワールドモデル「Hy-Nomas」を公開しました。モデル重み、推論・学習コード、LoRA微調整ツール一式がAp…</description>
-    </item>
-    <item>
-      <title>Claude CodeがMCPタスクに対応、サーバー側の長時間ジョブを非同期で扱う仕組みを公開</title>
-      <link>https://discord.com/channels/1415350002255007784/1415549165181599795/threads/1563336792780972174</link>
-      <guid isPermaLink="false">afnjp-1563336792780972174</guid>
-      <pubDate>Fri, 23 Oct 2026 23:42:16 GMT</pubDate>
-      <category>claude-code</category>
-      <description>AnthropicはClaude CodeのMCPドキュメントで、MCPサーバーが長時間かかるツール呼び出しを「タスク」として非同期に返すための実装仕様を公開しました。レポート出力やビルドのような重い処理を、エージェントの作業を止めずに実行できるようになりま…</description>
-    </item>
-    <item>
-      <title>Moonshot AI「Kimi K3.1 Pro」発表 3T級オープンウェイトで最上位クローズドモデルに迫る</title>
-      <link>https://discord.com/channels/1415350002255007784/1417459869341978704/threads/1563336408645501020</link>
-      <guid isPermaLink="false">afnjp-1563336408645501020</guid>
-      <pubDate>Fri, 23 Oct 2026 23:40:45 GMT</pubDate>
-      <category>kimi</category>
-      <description>Moonshot AIは、新シリーズ「K3.1」の第1弾となる「Kimi K3.1 Pro」を発表しました。同社のオープンウェイトモデルとして過去最高性能の3T（3兆パラメータ）級モデルで、100万トークンのコンテキストに対応します。コーディング、3D制作、…</description>
-    </item>
-    <item>
-      <title>Mubitが「エージェント実行時キャリブレーション」を提唱、繰り返すタスクごとに専用モデルを自動構築</title>
-      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1563336202042609745</link>
-      <guid isPermaLink="false">afnjp-1563336202042609745</guid>
-      <pubDate>Fri, 23 Oct 2026 23:39:55 GMT</pubDate>
-      <category>その他</category>
-      <description>AIエージェントの信頼性向上を掲げるMubit（運営：Reliable AI, Inc.）が、エージェントのモデル呼び出しを実行時に調整し、繰り返し発生するタスク向けに専用モデルを構築・更新するプラットフォームを公開しています。既存のフロンティアモデルを置き…</description>
     </item>
   </channel>
 </rss>
