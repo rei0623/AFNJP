@@ -5,8 +5,40 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 28 Oct 2026 16:39:44 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 28 Oct 2026 20:03:24 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Android XR初の有線XRグラス「XREAL AURA」発売、Gemini統合と70度視野角で“持ち運べるワークスペース”を実現</title>
+      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1565093652643057775</link>
+      <guid isPermaLink="false">afnjp-1565093652643057775</guid>
+      <pubDate>Wed, 28 Oct 2026 20:03:24 GMT</pubDate>
+      <category>google</category>
+      <description>GoogleとXREALは2026年10月28日、Android XRを搭載した初の有線XRグラス「XREAL AURA」を正式発表しました。透過型レンズで現実世界を見ながら空間コンテンツを表示でき、Geminiが画面と周囲の状況を理解して作業を支援します。…</description>
+    </item>
+    <item>
+      <title>Google、GeminiとSearch向け「Connected Apps Platform」をプレビュー公開 MCPで一度の開発で両方に展開</title>
+      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1565092647436165201</link>
+      <guid isPermaLink="false">afnjp-1565092647436165201</guid>
+      <pubDate>Wed, 28 Oct 2026 19:59:25 GMT</pubDate>
+      <category>google</category>
+      <description>Googleは2026年10月28日、検索（Search）とGeminiアプリに外部アプリの機能を統合する「Connected Apps」の開発・管理基盤として、「Connected Apps Platform」のプレビュー提供を開始したと発表しました。開発…</description>
+    </item>
+    <item>
+      <title>Google「Gemini 4 Carbon」発表、サイバー防御と長時間タスクで最先端性能</title>
+      <link>https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1565092434826887188</link>
+      <guid isPermaLink="false">afnjp-1565092434826887188</guid>
+      <pubDate>Wed, 28 Oct 2026 19:58:34 GMT</pubDate>
+      <category>gemini</category>
+      <description>Google DeepMindは2026年10月28日、次世代フロンティアモデル「Gemini 4 Carbon」を発表しました。同社最強のモデルと位置付けられ、脆弱性の発見・検証・修正というサイバー防御の一連の工程と、数日単位で続く長時間のエージェント型タ…</description>
+    </item>
+    <item>
+      <title>Meta、広告検索エンジン「Andromeda」を刷新 MoEと単一GPUパイプラインで毎秒10億件超の広告評価を実現</title>
+      <link>https://discord.com/channels/1415350002255007784/1441473829951111330/threads/1565092235756834987</link>
+      <guid isPermaLink="false">afnjp-1565092235756834987</guid>
+      <pubDate>Wed, 28 Oct 2026 19:57:47 GMT</pubDate>
+      <category>meta</category>
+      <description>Metaは2026年10月28日、パーソナライズ広告の検索エンジン「Meta Andromeda」の次世代版を公開しました。モデル・システム・GPUハードウェアを一体で設計する「コデザイン」により、ランキング段階に迫る精度を検索段階の規模で実現し、本番環境で…</description>
+    </item>
     <item>
       <title>NVIDIA、40言語対応の音声認識LLM「Nemotron 3.5 Transcribe」を公開 話者分離と1時間の長尺音声にも対応</title>
       <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1565042395454771370</link>
@@ -70,38 +102,6 @@
       <pubDate>Tue, 27 Oct 2026 21:08:29 GMT</pubDate>
       <category>その他</category>
       <description>医療向けAI基盤を手がける米Concurrenceは2026年10月21日、研究プログラムの立ち上げを発表しました。掲げるテーマは「Superintelligent Care（超知能ケア）」です。一人ひとりの患者から学び、その知見を次の患者のケアに生かし続け…</description>
-    </item>
-    <item>
-      <title>Replit、非エンジニアが社内コードベースに直接貢献できる「Cloud Agents」を提供開始</title>
-      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1564672929923342407</link>
-      <guid isPermaLink="false">afnjp-1564672929923342407</guid>
-      <pubDate>Tue, 27 Oct 2026 16:11:36 GMT</pubDate>
-      <category>その他</category>
-      <description>Replitは2026年10月27日、デザイナーやPM、サポート担当者など、エンジニア以外の社員が自社プロダクトのコードベースに変更を提案できる「Replit Cloud Agents」の既存リポジトリ対応を発表しました。自然言語で変更内容を伝えるだけで、エ…</description>
-    </item>
-    <item>
-      <title>Google DeepMind「Genie 4」発表 ネイティブ音声と人物シミュレーションを備えた次世代ワールドモデル</title>
-      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1564672176567619687</link>
-      <guid isPermaLink="false">afnjp-1564672176567619687</guid>
-      <pubDate>Tue, 27 Oct 2026 16:08:37 GMT</pubDate>
-      <category>google</category>
-      <description>Google DeepMindは2026年10月27日、リアルタイムで操作できる世界シミュレーションモデル「Genie 4」を発表しました。映像に加え、環境音や音楽、キャラクターとの対話音声を同時に生成するネイティブなマルチモーダル対応が最大の特徴です。現在…</description>
-    </item>
-    <item>
-      <title>Google Cloud、ロボットの「高次の頭脳」Gemini Robotics ER 2をパブリックプレビュー提供開始</title>
-      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1564672022951231699</link>
-      <guid isPermaLink="false">afnjp-1564672022951231699</guid>
-      <pubDate>Tue, 27 Oct 2026 16:08:00 GMT</pubDate>
-      <category>google</category>
-      <description>Google Cloudは2026年10月27日、Google DeepMindのロボティクス向け推論モデル「Gemini Robotics Embodied Reasoning 2（ER 2）」を、Gemini platformのModel Gardenで…</description>
-    </item>
-    <item>
-      <title>Google、エージェント向け「Gemini API CLI」をプレビュー公開 画像・動画・音声生成からマネージドエージェントまでシェル1本で</title>
-      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1564655063111172276</link>
-      <guid isPermaLink="false">afnjp-1564655063111172276</guid>
-      <pubDate>Tue, 27 Oct 2026 15:00:36 GMT</pubDate>
-      <category>google</category>
-      <description>Googleは、Gemini APIをコマンドラインから直接扱える新ツール「Gemini API CLI（gemini-api）」を実験的プレビューとして公開しました。Claude CodeやCodex、Antigravityなどシェルを使えるAIエージェン…</description>
     </item>
   </channel>
 </rss>

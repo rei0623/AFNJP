@@ -1,8 +1,114 @@
 {
-  "generated_at": "2026-10-28T18:49:58.886Z",
+  "generated_at": "2026-10-28T23:11:40.169Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1565093652643057775",
+      "title": "Android XR初の有線XRグラス「XREAL AURA」発売、Gemini統合と70度視野角で“持ち運べるワークスペース”を実現",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-10-28T20:03:24.824Z",
+      "excerpt": "GoogleとXREALは2026年10月28日、Android XRを搭載した初の有線XRグラス「XREAL AURA」を正式発表しました。透過型レンズで現実世界を見ながら空間コンテンツを表示でき、Geminiが画面と周囲の状況を理解して作業を支援します。…",
+      "lead": "GoogleとXREALは2026年10月28日、Android XRを搭載した初の有線XRグラス「XREAL AURA」を正式発表しました。透過型レンズで現実世界を見ながら空間コンテンツを表示でき、Geminiが画面と周囲の状況を理解して作業を支援します。米国・カナダ・韓国で即日受注を開始し、日本では11月2日から注文を受け付けます。",
+      "headings": [
+        "技術的詳細：処理を「パック」に分離した設計",
+        "Geminiによる“視界全体”のAI支援",
+        "業務利用を意識した「Wired Mirroring」",
+        "エンタメ・写真体験の拡張",
+        "影響と課題",
+        "今後の展望"
+      ],
+      "source_url": "https://blog.google/products-and-platforms/platforms/android/xreal-aura/",
+      "source_urls": [
+        "https://blog.google/products-and-platforms/platforms/android/xreal-aura/"
+      ],
+      "source_label": "blog.google",
+      "cover": "assets/posts/1565093652643057775.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1565093652643057775",
+      "first_seen": "2026-10-28T20:03:24.824Z",
+      "kind": "model",
+      "kind_confidence": 0.98
+    },
+    {
+      "id": "1565092647436165201",
+      "title": "Google、GeminiとSearch向け「Connected Apps Platform」をプレビュー公開 MCPで一度の開発で両方に展開",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-10-28T19:59:25.164Z",
+      "excerpt": "Googleは2026年10月28日、検索（Search）とGeminiアプリに外部アプリの機能を統合する「Connected Apps」の開発・管理基盤として、「Connected Apps Platform」のプレビュー提供を開始したと発表しました。開発…",
+      "lead": "Googleは2026年10月28日、検索（Search）とGeminiアプリに外部アプリの機能を統合する「Connected Apps」の開発・管理基盤として、「Connected Apps Platform」のプレビュー提供を開始したと発表しました。開発者は一度の実装で両サービスにアプリを展開でき、公開後の運用状況も一元的に把握できます。あわせて、Adobe、Calm、Pelotonなど新たなパートナーアプリの提供も明らかにしました。",
+      "headings": [
+        "Connected Appsとは",
+        "技術的な仕組み：MCPとAppFunctionsで接続",
+        "50超のアプリが稼働、パートナーも拡大",
+        "開発者と業界への影響",
+        "今後の展望"
+      ],
+      "source_url": "https://blog.google/innovation-and-ai/technology/developers-tools/connected-apps-one-place/",
+      "source_urls": [
+        "https://blog.google/innovation-and-ai/technology/developers-tools/connected-apps-one-place/"
+      ],
+      "source_label": "blog.google",
+      "cover": "assets/posts/1565092647436165201.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1565092647436165201",
+      "first_seen": "2026-10-28T19:59:25.164Z",
+      "kind": "tool",
+      "kind_confidence": 0.97
+    },
+    {
+      "id": "1565092434826887188",
+      "title": "Google「Gemini 4 Carbon」発表、サイバー防御と長時間タスクで最先端性能",
+      "channel": "gemini",
+      "category": "Google",
+      "date": "2026-10-28T19:58:34.474Z",
+      "excerpt": "Google DeepMindは2026年10月28日、次世代フロンティアモデル「Gemini 4 Carbon」を発表しました。同社最強のモデルと位置付けられ、脆弱性の発見・検証・修正というサイバー防御の一連の工程と、数日単位で続く長時間のエージェント型タ…",
+      "lead": "Google DeepMindは2026年10月28日、次世代フロンティアモデル「Gemini 4 Carbon」を発表しました。同社最強のモデルと位置付けられ、脆弱性の発見・検証・修正というサイバー防御の一連の工程と、数日単位で続く長時間のエージェント型タスクで最先端の性能を示したとしています。一般提供の前に、まずサイバー防御担当者への限定提供から始めます。",
+      "headings": [
+        "技術的なポイント",
+        "安全性とアライメントの強化",
+        "提供方針と価格",
+        "影響と注意点",
+        "今後の展望"
+      ],
+      "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
+      "source_urls": [
+        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/"
+      ],
+      "source_label": "blog.google",
+      "cover": "assets/posts/1565092434826887188.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1565092434826887188",
+      "first_seen": "2026-10-28T19:58:34.474Z",
+      "kind": "model",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1565092235756834987",
+      "title": "Meta、広告検索エンジン「Andromeda」を刷新 MoEと単一GPUパイプラインで毎秒10億件超の広告評価を実現",
+      "channel": "meta",
+      "category": "Meta",
+      "date": "2026-10-28T19:57:47.012Z",
+      "excerpt": "Metaは2026年10月28日、パーソナライズ広告の検索エンジン「Meta Andromeda」の次世代版を公開しました。モデル・システム・GPUハードウェアを一体で設計する「コデザイン」により、ランキング段階に迫る精度を検索段階の規模で実現し、本番環境で…",
+      "lead": "Metaは2026年10月28日、パーソナライズ広告の検索エンジン「Meta Andromeda」の次世代版を公開しました。モデル・システム・GPUハードウェアを一体で設計する「コデザイン」により、ランキング段階に迫る精度を検索段階の規模で実現し、本番環境で毎秒10億件を超える広告を評価しています。2024年版と比べて約100倍のスループットです。",
+      "headings": [
+        "背景：生成AIで膨張する広告候補",
+        "技術的詳細：検索向けMixture-of-Experts",
+        "技術的詳細：融合カーネルとGPUへの集約",
+        "NVIDIAとの共同最適化",
+        "影響と課題",
+        "今後の展望"
+      ],
+      "source_url": "https://engineering.fb.com/2026/10/28/ml-applications/meta-andromeda-next-gen-ads-retrieval-gpu-co-design/",
+      "source_urls": [
+        "https://engineering.fb.com/2026/10/28/ml-applications/meta-andromeda-next-gen-ads-retrieval-gpu-co-design/"
+      ],
+      "source_label": "engineering.fb.com",
+      "cover": "assets/posts/1565092235756834987.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1441473829951111330/threads/1565092235756834987",
+      "first_seen": "2026-10-28T19:57:47.012Z",
+      "kind": "model",
+      "kind_confidence": 0.6
+    },
     {
       "id": "1565042395454771370",
       "title": "NVIDIA、40言語対応の音声認識LLM「Nemotron 3.5 Transcribe」を公開 話者分離と1時間の長尺音声にも対応",
@@ -212,112 +318,6 @@
       "first_seen": "2026-10-27T21:08:29.055Z",
       "kind": "research",
       "kind_confidence": 0.81
-    },
-    {
-      "id": "1564672929923342407",
-      "title": "Replit、非エンジニアが社内コードベースに直接貢献できる「Cloud Agents」を提供開始",
-      "channel": "その他",
-      "category": "その他",
-      "date": "2026-10-27T16:11:36.711Z",
-      "excerpt": "Replitは2026年10月27日、デザイナーやPM、サポート担当者など、エンジニア以外の社員が自社プロダクトのコードベースに変更を提案できる「Replit Cloud Agents」の既存リポジトリ対応を発表しました。自然言語で変更内容を伝えるだけで、エ…",
-      "lead": "Replitは2026年10月27日、デザイナーやPM、サポート担当者など、エンジニア以外の社員が自社プロダクトのコードベースに変更を提案できる「Replit Cloud Agents」の既存リポジトリ対応を発表しました。自然言語で変更内容を伝えるだけで、エージェントが実装・動作検証まで行い、検証済みのプルリクエストとして提出します。ProおよびEnterpriseプランの全顧客が利用できます。",
-      "headings": [
-        "自然言語の依頼から検証済みPRまで",
-        "隔離環境での自動テストと動画による証跡",
-        "レビュー内容を学習する「自己改善型ワークスペースメモリ」",
-        "環境構築は一度だけ、Slackからも依頼可能",
-        "影響と課題",
-        "今後の展望"
-      ],
-      "source_url": "https://replit.com/blog/anyone-can-bring-ideas-to-company-codebase",
-      "source_urls": [
-        "https://replit.com/blog/anyone-can-bring-ideas-to-company-codebase"
-      ],
-      "source_label": "replit.com",
-      "cover": "assets/posts/1564672929923342407.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1564672929923342407",
-      "first_seen": "2026-10-27T16:11:36.711Z",
-      "kind": "feature",
-      "kind_confidence": 0.67
-    },
-    {
-      "id": "1564672176567619687",
-      "title": "Google DeepMind「Genie 4」発表 ネイティブ音声と人物シミュレーションを備えた次世代ワールドモデル",
-      "channel": "google",
-      "category": "Google",
-      "date": "2026-10-27T16:08:37.097Z",
-      "excerpt": "Google DeepMindは2026年10月27日、リアルタイムで操作できる世界シミュレーションモデル「Genie 4」を発表しました。映像に加え、環境音や音楽、キャラクターとの対話音声を同時に生成するネイティブなマルチモーダル対応が最大の特徴です。現在…",
-      "lead": "Google DeepMindは2026年10月27日、リアルタイムで操作できる世界シミュレーションモデル「Genie 4」を発表しました。映像に加え、環境音や音楽、キャラクターとの対話音声を同時に生成するネイティブなマルチモーダル対応が最大の特徴です。現在は信頼できるテスター向けのリサーチプレビューとして提供が始まっています。",
-      "headings": [
-        "Geminiと組み合わせた「生成しながら考える」仕組み",
-        "4つの強化ポイント",
-        "想定用途と安全対策",
-        "残る課題",
-        "今後の展望"
-      ],
-      "source_url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/",
-      "source_urls": [
-        "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation/"
-      ],
-      "source_label": "deepmind.google",
-      "cover": "assets/posts/1564672176567619687.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1564672176567619687",
-      "first_seen": "2026-10-27T16:08:37.097Z",
-      "kind": "model",
-      "kind_confidence": 1
-    },
-    {
-      "id": "1564672022951231699",
-      "title": "Google Cloud、ロボットの「高次の頭脳」Gemini Robotics ER 2をパブリックプレビュー提供開始",
-      "channel": "google",
-      "category": "Google",
-      "date": "2026-10-27T16:08:00.472Z",
-      "excerpt": "Google Cloudは2026年10月27日、Google DeepMindのロボティクス向け推論モデル「Gemini Robotics Embodied Reasoning 2（ER 2）」を、Gemini platformのModel Gardenで…",
-      "lead": "Google Cloudは2026年10月27日、Google DeepMindのロボティクス向け推論モデル「Gemini Robotics Embodied Reasoning 2（ER 2）」を、Gemini platformのModel Gardenでパブリックプレビューとして提供開始したと発表しました。DeepMindの最新の身体性推論（Embodied Reasoning）モデルを、Google Cloudのエンタープライズ向けセキュリティや運用基盤と組み合わせて使えるようになります。",
-      "headings": [
-        "ER 2とは何か",
-        "技術的なポイント",
-        "Google Cloudとの統合",
-        "先行ユーザーの声",
-        "影響と注意点",
-        "今後の展望"
-      ],
-      "source_url": "https://cloud.google.com/blog/products/ai-machine-learning/gemini-robotics-embodied-reasoning-2-is-now-available-on-google-cloud/?hl=en",
-      "source_urls": [
-        "https://cloud.google.com/blog/products/ai-machine-learning/gemini-robotics-embodied-reasoning-2-is-now-available-on-google-cloud/?hl=en"
-      ],
-      "source_label": "cloud.google.com",
-      "cover": "assets/posts/1564672022951231699.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1564672022951231699",
-      "first_seen": "2026-10-27T16:08:00.472Z",
-      "kind": "model",
-      "kind_confidence": 0.99
-    },
-    {
-      "id": "1564655063111172276",
-      "title": "Google、エージェント向け「Gemini API CLI」をプレビュー公開 画像・動画・音声生成からマネージドエージェントまでシェル1本で",
-      "channel": "google",
-      "category": "Google",
-      "date": "2026-10-27T15:00:36.931Z",
-      "excerpt": "Googleは、Gemini APIをコマンドラインから直接扱える新ツール「Gemini API CLI（gemini-api）」を実験的プレビューとして公開しました。Claude CodeやCodex、Antigravityなどシェルを使えるAIエージェン…",
-      "lead": "Googleは、Gemini APIをコマンドラインから直接扱える新ツール「Gemini API CLI（gemini-api）」を実験的プレビューとして公開しました。Claude CodeやCodex、Antigravityなどシェルを使えるAIエージェントに組み込むことを主な用途とし、テキスト生成、画像・動画・音楽・音声の生成、ファイル解析、文字起こし、マネージドエージェントの起動までを1つのバイナリで扱えます。",
-      "headings": [
-        "ステートレスな単一バイナリ",
-        "主なコマンドと既定モデル",
-        "エージェントが自分で使い方を調べられる",
-        "導入時の注意点",
-        "今後の展望"
-      ],
-      "source_url": "https://aistudio.google.com/learn/introducing-the-gemini-api-cli?e=0",
-      "source_urls": [
-        "https://aistudio.google.com/learn/introducing-the-gemini-api-cli?e=0"
-      ],
-      "source_label": "aistudio.google.com",
-      "cover": "assets/posts/1564655063111172276.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1564655063111172276",
-      "first_seen": "2026-10-27T15:00:36.931Z",
-      "kind": "tool",
-      "kind_confidence": 0.99
     }
   ]
 }
