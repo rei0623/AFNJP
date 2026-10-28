@@ -1,8 +1,87 @@
 {
-  "generated_at": "2026-10-28T12:46:49.267Z",
+  "generated_at": "2026-10-28T18:49:58.886Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1565042395454771370",
+      "title": "NVIDIA、40言語対応の音声認識LLM「Nemotron 3.5 Transcribe」を公開 話者分離と1時間の長尺音声にも対応",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-10-28T16:39:44.158Z",
+      "excerpt": "NVIDIAは2026年10月28日、オープンウェイトの音声認識モデル「NVIDIA-Nemotron-3.5-Transcribe-30B-A4B」をHugging Faceなどで公開しました。40言語の文字起こしに加え、音声翻訳、話者付き文字起こし、単語…",
+      "lead": "NVIDIAは2026年10月28日、オープンウェイトの音声認識モデル「NVIDIA-Nemotron-3.5-Transcribe-30B-A4B」をHugging Faceなどで公開しました。40言語の文字起こしに加え、音声翻訳、話者付き文字起こし、単語単位のタイムスタンプ、音声への質問応答までを1つのモデルで扱えます。英語の主要リーダーボードでは、オープンウェイトモデルとして最良の結果を示しています。",
+      "headings": [
+        "技術的詳細：MoE型LLMに音声エンコーダーを統合",
+        "ベンチマーク：英語・多言語・会議音声で上位",
+        "導入面の特徴と注意点",
+        "今後の展望"
+      ],
+      "source_url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
+      "source_urls": [
+        "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B"
+      ],
+      "source_label": "huggingface.co",
+      "cover": "assets/posts/1565042395454771370.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1565042395454771370",
+      "first_seen": "2026-10-28T16:39:44.158Z",
+      "kind": "model",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1565042267465457754",
+      "title": "SpAItial「Echo-3」ギャラリー公開 iPhoneで撮った実空間を実寸の3Dワールドに再構築",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-10-28T16:39:13.643Z",
+      "excerpt": "物理的に裏付けられた「ワールドモデル」を開発する英SpAItialが、最新モデル「Echo-3」で再構築した3D空間を集めたギャラリーを公開しています。iPhoneで数分撮影するだけで、住宅や教室、博物館、工房などの実空間を、あらゆる角度から見回せる3D環境…",
+      "lead": "物理的に裏付けられた「ワールドモデル」を開発する英SpAItialが、最新モデル「Echo-3」で再構築した3D空間を集めたギャラリーを公開しています。iPhoneで数分撮影するだけで、住宅や教室、博物館、工房などの実空間を、あらゆる角度から見回せる3D環境として再現できる点が特徴です。Echo-3は2026年10月27日に、専用キャプチャアプリとあわせて発表されました。",
+      "headings": [
+        "ギャラリーに並ぶ「実在の空間」",
+        "Echo-3の技術的ポイント",
+        "前モデルEcho-2からの進化",
+        "影響と課題",
+        "今後の展望"
+      ],
+      "source_url": "https://spaitial.ai/gallery",
+      "source_urls": [
+        "https://spaitial.ai/gallery"
+      ],
+      "source_label": "spaitial.ai",
+      "cover": "assets/posts/1565042267465457754.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1565042267465457754",
+      "first_seen": "2026-10-28T16:39:13.643Z",
+      "kind": "model",
+      "kind_confidence": 0.93
+    },
+    {
+      "id": "1565042162792661002",
+      "title": "Anthropic、「Claude for Legal」に法務向けArtifactsギャラリーを追加 契約レビューから規制動向まで即戦力ツールを提供",
+      "channel": "anthropic",
+      "category": "Anthropic",
+      "date": "2026-10-28T16:38:48.687Z",
+      "excerpt": "Anthropicは2026年10月28日、法務専門家向けに、すぐに使えるArtifacts（アーティファクト）を「Claude for Legal」に追加したと発表しました。契約書の一括レビューや規制変更の追跡、社内からの法務相談の受付など、具体的な業務に…",
+      "lead": "Anthropicは2026年10月28日、法務専門家向けに、すぐに使えるArtifacts（アーティファクト）を「Claude for Legal」に追加したと発表しました。契約書の一括レビューや規制変更の追跡、社内からの法務相談の受付など、具体的な業務に対応したインタラクティブなツールを、自社のデータやコネクタに合わせて調整し、組織内外で共有できます。5月のClaude for Legal提供開始以来、法務チームから多く寄せられていた「導入の簡素化」と「同僚との協働のしやすさ」という要望に応える内容です。",
+      "headings": [
+        "Artifactsとは何か",
+        "ギャラリーの主なツール",
+        "コネクタ連携と共有ガバナンス",
+        "リーガルテック・法律事務所との連携",
+        "司法アクセス支援とコミュニティ施策",
+        "導入上の留意点",
+        "今後の展望"
+      ],
+      "source_url": "https://claude.com/ja/resources/articles/introducing-artifacts-for-legal-work",
+      "source_urls": [
+        "https://claude.com/ja/resources/articles/introducing-artifacts-for-legal-work"
+      ],
+      "source_label": "claude.com",
+      "cover": "assets/posts/1565042162792661002.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1565042162792661002",
+      "first_seen": "2026-10-28T16:38:48.687Z",
+      "kind": "feature",
+      "kind_confidence": 1
+    },
     {
       "id": "1564785124468461598",
       "title": "Liquid AI「LFM3」発表、1.7Bで9B級に迫るエージェント性能と全モダリティ対応",
@@ -239,84 +318,6 @@
       "first_seen": "2026-10-27T15:00:36.931Z",
       "kind": "tool",
       "kind_confidence": 0.99
-    },
-    {
-      "id": "1564654772148117685",
-      "title": "Baidu「Unlimited OCR 2」公開、数百ページの文書を1回のリクエストで解析する“無制限ホライズン”OCRへ",
-      "channel": "その他",
-      "category": "その他",
-      "date": "2026-10-27T14:59:27.560Z",
-      "excerpt": "Baiduは2026年10月27日、オープンソースのOCRモデル「Unlimited OCR 2」をGitHubで公開しました。新しいアテンション機構「SR-SWA」を採用し、文書が長くなってもデコード時の遅延とメモリ使用量がほぼ一定に保たれる点が最大の特徴…",
-      "lead": "Baiduは2026年10月27日、オープンソースのOCRモデル「Unlimited OCR 2」をGitHubで公開しました。新しいアテンション機構「SR-SWA」を採用し、文書が長くなってもデコード時の遅延とメモリ使用量がほぼ一定に保たれる点が最大の特徴です。書籍1冊を1回のリクエストで解析するデモも示されており、同社はこれを「OCR 3.0時代」の幕開けと位置付けています。ライセンスはMITです。",
-      "headings": [
-        "SR-SWAで長さの壁を取り除く",
-        "複数ページを一括処理し、ページをまたぐ文脈を活用",
-        "背景：DeepSeek-OCRの系譜を一段先へ",
-        "導入時の注意点",
-        "今後の展望"
-      ],
-      "source_url": "https://github.com/baidu/Unlimited-OCR",
-      "source_urls": [
-        "https://github.com/baidu/Unlimited-OCR"
-      ],
-      "source_label": "github.com",
-      "cover": "assets/posts/1564654772148117685.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1564654772148117685",
-      "first_seen": "2026-10-27T14:59:27.560Z",
-      "kind": "model",
-      "kind_confidence": 1
-    },
-    {
-      "id": "1564654659581517945",
-      "title": "NVIDIAとMeta、AIエージェント「Muse」で協業拡大 NVIDIAは30億ドルを出資へ",
-      "channel": "muse-spark",
-      "category": "Meta",
-      "date": "2026-10-27T14:59:00.722Z",
-      "excerpt": "NVIDIAとMetaは2026年10月26日、Metaのモデル群「Muse」およびMuseファミリーに関する協業を拡大すると発表しました。推論と学習の性能向上が主な狙いで、MetaはVera RubinやVera CPUなど次世代インフラの導入を広げます。…",
-      "lead": "NVIDIAとMetaは2026年10月26日、Metaのモデル群「Muse」およびMuseファミリーに関する協業を拡大すると発表しました。推論と学習の性能向上が主な狙いで、MetaはVera RubinやVera CPUなど次世代インフラの導入を広げます。あわせてNVIDIAがMetaの株式発行に30億ドルを投資することも明らかになりました。",
-      "headings": [
-        "協業の中身：ワークフロー全体の最適化",
-        "エージェントの安全性・監視技術も検討対象に",
-        "インフラ拡張：Vera Rubin、Spectrum-X、BlueField-4",
-        "両トップのメッセージ",
-        "影響と注意点",
-        "今後の展望"
-      ],
-      "source_url": "https://nvidianews.nvidia.com/news/nvidia-and-meta-to-expand-collaboration-on-muse-and-muse-family-of-models-amid-robust-growth",
-      "source_urls": [
-        "https://nvidianews.nvidia.com/news/nvidia-and-meta-to-expand-collaboration-on-muse-and-muse-family-of-models-amid-robust-growth"
-      ],
-      "source_label": "nvidianews.nvidia.com",
-      "cover": "assets/posts/1564654659581517945.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1491820892789936220/threads/1564654659581517945",
-      "first_seen": "2026-10-27T14:59:00.722Z",
-      "kind": "business",
-      "kind_confidence": 1
-    },
-    {
-      "id": "1564502773339267122",
-      "title": "Anthropic、非営利団体向け「Claude for Nonprofits」プラグインを公開 資金調達から採用まで小規模チームの業務を支援",
-      "channel": "anthropic",
-      "category": "Anthropic",
-      "date": "2026-10-27T04:55:28.220Z",
-      "excerpt": "Anthropicは2026年10月26日、検証済みの非営利団体向けに、スキルとコネクタをまとめた「Claude for Nonprofits」プラグインを公開しました。約30団体と共同開発したもので、TeamおよびEnterpriseプランを利用する非営利…",
-      "lead": "Anthropicは2026年10月26日、検証済みの非営利団体向けに、スキルとコネクタをまとめた「Claude for Nonprofits」プラグインを公開しました。約30団体と共同開発したもので、TeamおよびEnterpriseプランを利用する非営利団体には追加費用なしで自動インストールされます。あわせて、若手人材を米国の非営利団体に派遣する「Claude Corps」を、Taprootとの提携で拡張する計画も明らかにしました。",
-      "headings": [
-        "プラグインの3つの柱",
-        "背景：コスト以外の障壁への対応",
-        "導入事例と注意点",
-        "今後の展望"
-      ],
-      "source_url": "https://claude.com/ja/resources/articles/expanding-claude-for-nonprofits",
-      "source_urls": [
-        "https://claude.com/ja/resources/articles/expanding-claude-for-nonprofits"
-      ],
-      "source_label": "claude.com",
-      "cover": "assets/posts/1564502773339267122.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1564502773339267122",
-      "first_seen": "2026-10-27T04:55:28.220Z",
-      "kind": "feature",
-      "kind_confidence": 0.74
     }
   ]
 }
