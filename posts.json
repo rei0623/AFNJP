@@ -1,8 +1,137 @@
 {
-  "generated_at": "2026-10-29T09:53:00.438Z",
+  "generated_at": "2026-10-29T16:54:14.573Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1565398369810251958",
+      "title": "Microsoft、財務部門向けCopilotを大幅拡張 25超の財務スキルと金融データ連携プラグインを投入",
+      "channel": "copilot",
+      "category": "Microsoft",
+      "date": "2026-10-29T16:14:15.058Z",
+      "excerpt": "Microsoftは2026年10月29日、Microsoft Copilotに会計・資本市場・企業財務向けの25以上の新スキルとパートナー製プラグインを追加すると発表しました。Excel単体の支援にとどまらず、Copilotアプリ上で複数ファイルやシステム…",
+      "lead": "Microsoftは2026年10月29日、Microsoft Copilotに会計・資本市場・企業財務向けの25以上の新スキルとパートナー製プラグインを追加すると発表しました。Excel単体の支援にとどまらず、Copilotアプリ上で複数ファイルやシステムをまたぐ財務業務を委任できる点が特徴です。",
+      "headings": [
+        "「Excel起点」から「Copilot起点」へ",
+        "会計・資本市場・企業財務の3領域",
+        "データ連携とエコシステム",
+        "監査可能性と統制",
+        "提供状況",
+        "今後の展望"
+      ],
+      "source_url": "https://www.microsoft.com/en-us/copilot/blog/2026/10/29/microsoft-copilot-for-finance-purpose-built-for-the-way-finance-teams-work/",
+      "source_urls": [
+        "https://www.microsoft.com/en-us/copilot/blog/2026/10/29/microsoft-copilot-for-finance-purpose-built-for-the-way-finance-teams-work/"
+      ],
+      "source_label": "microsoft.com",
+      "cover": "assets/posts/1565398369810251958.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1423003108790767748/threads/1565398369810251958",
+      "first_seen": "2026-10-29T16:14:15.058Z",
+      "kind": "feature",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1565376920571478140",
+      "title": "Articul8が「Bivia」発表 ― 文章を生成せず“判断”だけを返すマルチモーダル意思決定モデル",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-10-29T14:49:01.161Z",
+      "excerpt": "AI企業のArticul8は、テキストや画像、文書、センサー信号などを読み取り、型付きで確信度付きの「判断」を1つだけ返す小型マルチモーダルモデル「Bivia」を発表しました。生成トークンはゼロで、AIエージェントの中で繰り返される小さな判断をLLMから切り…",
+      "lead": "AI企業のArticul8は、テキストや画像、文書、センサー信号などを読み取り、型付きで確信度付きの「判断」を1つだけ返す小型マルチモーダルモデル「Bivia」を発表しました。生成トークンはゼロで、AIエージェントの中で繰り返される小さな判断をLLMから切り離す「判断レイヤー」として位置付けられています。",
+      "headings": [
+        "LLMに「はい/いいえ」を考えさせる無駄を省く",
+        "9種類の判断タイプと「棄権」機能",
+        "開発者向けの導入経路が豊富",
+        "実運用を想定したデモ",
+        "導入時の注意点",
+        "今後の展望"
+      ],
+      "source_url": "https://articul8.ai/bivia",
+      "source_urls": [
+        "https://articul8.ai/bivia"
+      ],
+      "source_label": "articul8.ai",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1565376920571478140",
+      "first_seen": "2026-10-29T14:49:01.161Z",
+      "kind": "model",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1565376827344691320",
+      "title": "Mistral AI、1兆パラメータの「Mistral Large 4」をオープンウェイト公開 1Mコンテキストとマルチモーダル対応",
+      "channel": "mistral-ai",
+      "category": "その他",
+      "date": "2026-10-29T14:48:38.934Z",
+      "excerpt": "仏Mistral AIは、同社史上最大かつ最高性能のモデル「Mistral Large 4」（愛称：Le Chonk）をHugging Faceで公開しました。総パラメータ約1兆のMixture-of-Experts（MoE）構成で、指示追従・推論・コーディ…",
+      "lead": "仏Mistral AIは、同社史上最大かつ最高性能のモデル「Mistral Large 4」（愛称：Le Chonk）をHugging Faceで公開しました。総パラメータ約1兆のMixture-of-Experts（MoE）構成で、指示追従・推論・コーディング・エージェント処理を単一の重みに統合しています。商用利用も可能な独自のオープンウェイトライセンスで提供されます。",
+      "headings": [
+        "アーキテクチャの特徴",
+        "性能と効率",
+        "導入面の現実",
+        "今後の展望"
+      ],
+      "source_url": "https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B",
+      "source_urls": [
+        "https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B"
+      ],
+      "source_label": "huggingface.co",
+      "cover": "assets/posts/1565376827344691320.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1460897850354438283/threads/1565376827344691320",
+      "first_seen": "2026-10-29T14:48:38.934Z",
+      "kind": "model",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1565331686164799519",
+      "title": "Sakana AI、企業向け「Sakana API Platform」を発表 OpenAI互換APIと管理機能でアーリーアクセス開始",
+      "channel": "sakana-ai",
+      "category": "日本国内",
+      "date": "2026-10-29T11:49:16.438Z",
+      "excerpt": "Sakana AIは2026年10月28日、エンタープライズ向けの新サービス「Sakana API Platform」を発表し、アーリーアクセスプログラムの受付を開始しました。同社のLLMをAPI経由で利用できるだけでなく、組織・ワークスペース単位での利用料…",
+      "lead": "Sakana AIは2026年10月28日、エンタープライズ向けの新サービス「Sakana API Platform」を発表し、アーリーアクセスプログラムの受付を開始しました。同社のLLMをAPI経由で利用できるだけでなく、組織・ワークスペース単位での利用料やメンバーの一元管理、監査ログ、予算上限設定など、企業運用に必要な管理機能をあわせて提供します。OpenAI互換APIを採用しているため、既存アプリケーションは接続先を切り替えるだけで導入できる点も特徴です。",
+      "headings": [
+        "管理機能なしのAPIから「企業運用基盤」へ",
+        "提供モデル：オーケストレーション型「Fugu」と日本語特化「Namazu」",
+        "開発者と企業への影響",
+        "今後の展望"
+      ],
+      "source_url": "https://sakana.ai/api-platform-earlyaccess/",
+      "source_urls": [
+        "https://sakana.ai/api-platform-earlyaccess/"
+      ],
+      "source_label": "sakana.ai",
+      "cover": "assets/posts/1565331686164799519.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1420683387395375115/threads/1565331686164799519",
+      "first_seen": "2026-10-29T11:49:16.438Z",
+      "kind": "tool",
+      "kind_confidence": 0.91
+    },
+    {
+      "id": "1565309888282890280",
+      "title": "SB Intuitions、思考型の国産LLM「Sarashina3.2 mini thinking」を発表 エージェント能力と安全性で比較モデル中トップ評価",
+      "channel": "日本国内",
+      "category": "日本国内",
+      "date": "2026-10-29T10:22:39.418Z",
+      "excerpt": "SB Intuitionsは2026年10月29日、フルスクラッチで開発した国産LLM「Sarashina3.2 mini thinking」を公開し、同社の「Sarashinaサービス」で利用可能なモデルに追加すると発表しました。前世代の指示モデルから、回…",
+      "lead": "SB Intuitionsは2026年10月29日、フルスクラッチで開発した国産LLM「Sarashina3.2 mini thinking」を公開し、同社の「Sarashinaサービス」で利用可能なモデルに追加すると発表しました。前世代の指示モデルから、回答前に推論を行う「思考モデル」へと進化し、エージェント系ベンチマークや安全性評価で比較対象の中で最高スコアを記録しています。",
+      "headings": [
+        "指示モデルから思考モデルへ",
+        "学習手法の強化",
+        "想定ユースケース",
+        "ベンチマーク結果",
+        "今後の展望"
+      ],
+      "source_url": "https://www.sbintuitions.co.jp/blog/entry/2026/10/29/133000",
+      "source_urls": [
+        "https://www.sbintuitions.co.jp/blog/entry/2026/10/29/133000"
+      ],
+      "source_label": "sbintuitions.co.jp",
+      "cover": "assets/posts/1565309888282890280.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417536105930166282/threads/1565309888282890280",
+      "first_seen": "2026-10-29T10:22:39.418Z",
+      "kind": "model",
+      "kind_confidence": 1
+    },
     {
       "id": "1565247382403420270",
       "title": "Chromeの「強化版自動入力」がGmail連携に対応、Geminiが注文番号や航空券予約をフォームへ自動提案",
@@ -182,138 +311,6 @@
       "cover": "assets/posts/1565092434826887188.webp",
       "url": "https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1565092434826887188",
       "first_seen": "2026-10-28T19:58:34.474Z",
-      "kind": "model",
-      "kind_confidence": 1
-    },
-    {
-      "id": "1565092235756834987",
-      "title": "Meta、広告検索エンジン「Andromeda」を刷新 MoEと単一GPUパイプラインで毎秒10億件超の広告評価を実現",
-      "channel": "meta",
-      "category": "Meta",
-      "date": "2026-10-28T19:57:47.012Z",
-      "excerpt": "Metaは2026年10月28日、パーソナライズ広告の検索エンジン「Meta Andromeda」の次世代版を公開しました。モデル・システム・GPUハードウェアを一体で設計する「コデザイン」により、ランキング段階に迫る精度を検索段階の規模で実現し、本番環境で…",
-      "lead": "Metaは2026年10月28日、パーソナライズ広告の検索エンジン「Meta Andromeda」の次世代版を公開しました。モデル・システム・GPUハードウェアを一体で設計する「コデザイン」により、ランキング段階に迫る精度を検索段階の規模で実現し、本番環境で毎秒10億件を超える広告を評価しています。2024年版と比べて約100倍のスループットです。",
-      "headings": [
-        "背景：生成AIで膨張する広告候補",
-        "技術的詳細：検索向けMixture-of-Experts",
-        "技術的詳細：融合カーネルとGPUへの集約",
-        "NVIDIAとの共同最適化",
-        "影響と課題",
-        "今後の展望"
-      ],
-      "source_url": "https://engineering.fb.com/2026/10/28/ml-applications/meta-andromeda-next-gen-ads-retrieval-gpu-co-design/",
-      "source_urls": [
-        "https://engineering.fb.com/2026/10/28/ml-applications/meta-andromeda-next-gen-ads-retrieval-gpu-co-design/"
-      ],
-      "source_label": "engineering.fb.com",
-      "cover": "assets/posts/1565092235756834987.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1441473829951111330/threads/1565092235756834987",
-      "first_seen": "2026-10-28T19:57:47.012Z",
-      "kind": "model",
-      "kind_confidence": 0.6
-    },
-    {
-      "id": "1565042395454771370",
-      "title": "NVIDIA、40言語対応の音声認識LLM「Nemotron 3.5 Transcribe」を公開 話者分離と1時間の長尺音声にも対応",
-      "channel": "その他",
-      "category": "その他",
-      "date": "2026-10-28T16:39:44.158Z",
-      "excerpt": "NVIDIAは2026年10月28日、オープンウェイトの音声認識モデル「NVIDIA-Nemotron-3.5-Transcribe-30B-A4B」をHugging Faceなどで公開しました。40言語の文字起こしに加え、音声翻訳、話者付き文字起こし、単語…",
-      "lead": "NVIDIAは2026年10月28日、オープンウェイトの音声認識モデル「NVIDIA-Nemotron-3.5-Transcribe-30B-A4B」をHugging Faceなどで公開しました。40言語の文字起こしに加え、音声翻訳、話者付き文字起こし、単語単位のタイムスタンプ、音声への質問応答までを1つのモデルで扱えます。英語の主要リーダーボードでは、オープンウェイトモデルとして最良の結果を示しています。",
-      "headings": [
-        "技術的詳細：MoE型LLMに音声エンコーダーを統合",
-        "ベンチマーク：英語・多言語・会議音声で上位",
-        "導入面の特徴と注意点",
-        "今後の展望"
-      ],
-      "source_url": "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B",
-      "source_urls": [
-        "https://huggingface.co/nvidia/NVIDIA-Nemotron-3.5-Transcribe-30B-A4B"
-      ],
-      "source_label": "huggingface.co",
-      "cover": "assets/posts/1565042395454771370.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1565042395454771370",
-      "first_seen": "2026-10-28T16:39:44.158Z",
-      "kind": "model",
-      "kind_confidence": 1
-    },
-    {
-      "id": "1565042267465457754",
-      "title": "SpAItial「Echo-3」ギャラリー公開 iPhoneで撮った実空間を実寸の3Dワールドに再構築",
-      "channel": "その他",
-      "category": "その他",
-      "date": "2026-10-28T16:39:13.643Z",
-      "excerpt": "物理的に裏付けられた「ワールドモデル」を開発する英SpAItialが、最新モデル「Echo-3」で再構築した3D空間を集めたギャラリーを公開しています。iPhoneで数分撮影するだけで、住宅や教室、博物館、工房などの実空間を、あらゆる角度から見回せる3D環境…",
-      "lead": "物理的に裏付けられた「ワールドモデル」を開発する英SpAItialが、最新モデル「Echo-3」で再構築した3D空間を集めたギャラリーを公開しています。iPhoneで数分撮影するだけで、住宅や教室、博物館、工房などの実空間を、あらゆる角度から見回せる3D環境として再現できる点が特徴です。Echo-3は2026年10月27日に、専用キャプチャアプリとあわせて発表されました。",
-      "headings": [
-        "ギャラリーに並ぶ「実在の空間」",
-        "Echo-3の技術的ポイント",
-        "前モデルEcho-2からの進化",
-        "影響と課題",
-        "今後の展望"
-      ],
-      "source_url": "https://spaitial.ai/gallery",
-      "source_urls": [
-        "https://spaitial.ai/gallery"
-      ],
-      "source_label": "spaitial.ai",
-      "cover": "assets/posts/1565042267465457754.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1565042267465457754",
-      "first_seen": "2026-10-28T16:39:13.643Z",
-      "kind": "model",
-      "kind_confidence": 0.93
-    },
-    {
-      "id": "1565042162792661002",
-      "title": "Anthropic、「Claude for Legal」に法務向けArtifactsギャラリーを追加 契約レビューから規制動向まで即戦力ツールを提供",
-      "channel": "anthropic",
-      "category": "Anthropic",
-      "date": "2026-10-28T16:38:48.687Z",
-      "excerpt": "Anthropicは2026年10月28日、法務専門家向けに、すぐに使えるArtifacts（アーティファクト）を「Claude for Legal」に追加したと発表しました。契約書の一括レビューや規制変更の追跡、社内からの法務相談の受付など、具体的な業務に…",
-      "lead": "Anthropicは2026年10月28日、法務専門家向けに、すぐに使えるArtifacts（アーティファクト）を「Claude for Legal」に追加したと発表しました。契約書の一括レビューや規制変更の追跡、社内からの法務相談の受付など、具体的な業務に対応したインタラクティブなツールを、自社のデータやコネクタに合わせて調整し、組織内外で共有できます。5月のClaude for Legal提供開始以来、法務チームから多く寄せられていた「導入の簡素化」と「同僚との協働のしやすさ」という要望に応える内容です。",
-      "headings": [
-        "Artifactsとは何か",
-        "ギャラリーの主なツール",
-        "コネクタ連携と共有ガバナンス",
-        "リーガルテック・法律事務所との連携",
-        "司法アクセス支援とコミュニティ施策",
-        "導入上の留意点",
-        "今後の展望"
-      ],
-      "source_url": "https://claude.com/ja/resources/articles/introducing-artifacts-for-legal-work",
-      "source_urls": [
-        "https://claude.com/ja/resources/articles/introducing-artifacts-for-legal-work"
-      ],
-      "source_label": "claude.com",
-      "cover": "assets/posts/1565042162792661002.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1565042162792661002",
-      "first_seen": "2026-10-28T16:38:48.687Z",
-      "kind": "feature",
-      "kind_confidence": 1
-    },
-    {
-      "id": "1564785124468461598",
-      "title": "Liquid AI「LFM3」発表、1.7Bで9B級に迫るエージェント性能と全モダリティ対応",
-      "channel": "その他",
-      "category": "その他",
-      "date": "2026-10-27T23:37:25.975Z",
-      "excerpt": "米Liquid AIは2026年10月27日、次世代基盤モデル群「LFM3」を発表しました。テキスト、視覚、音声、オムニ、意思決定の6モデルを単一の共通バックボーンから派生させた点が特徴で、いずれも2Bパラメータ級のオープンウェイトとしてHugging Fa…",
-      "lead": "米Liquid AIは2026年10月27日、次世代基盤モデル群「LFM3」を発表しました。テキスト、視覚、音声、オムニ、意思決定の6モデルを単一の共通バックボーンから派生させた点が特徴で、いずれも2Bパラメータ級のオープンウェイトとしてHugging FaceやLiquid AI APIで即日公開されています。",
-      "headings": [
-        "トライハイブリッド構造で表現力を強化",
-        "テキストモデルはエージェント用途に特化",
-        "視覚・音声・オムニ・意思決定モデル",
-        "ファインチューニング前提の設計",
-        "今後の展望"
-      ],
-      "source_url": "https://www.liquid.ai/blog/lfm3",
-      "source_urls": [
-        "https://www.liquid.ai/blog/lfm3"
-      ],
-      "source_label": "liquid.ai",
-      "cover": "assets/posts/1564785124468461598.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1564785124468461598",
-      "first_seen": "2026-10-27T23:37:25.975Z",
       "kind": "model",
       "kind_confidence": 1
     }

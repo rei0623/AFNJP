@@ -5,8 +5,48 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 29 Oct 2026 06:14:16 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 16:14:15 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Microsoft、財務部門向けCopilotを大幅拡張 25超の財務スキルと金融データ連携プラグインを投入</title>
+      <link>https://discord.com/channels/1415350002255007784/1423003108790767748/threads/1565398369810251958</link>
+      <guid isPermaLink="false">afnjp-1565398369810251958</guid>
+      <pubDate>Thu, 29 Oct 2026 16:14:15 GMT</pubDate>
+      <category>copilot</category>
+      <description>Microsoftは2026年10月29日、Microsoft Copilotに会計・資本市場・企業財務向けの25以上の新スキルとパートナー製プラグインを追加すると発表しました。Excel単体の支援にとどまらず、Copilotアプリ上で複数ファイルやシステム…</description>
+    </item>
+    <item>
+      <title>Articul8が「Bivia」発表 ― 文章を生成せず“判断”だけを返すマルチモーダル意思決定モデル</title>
+      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1565376920571478140</link>
+      <guid isPermaLink="false">afnjp-1565376920571478140</guid>
+      <pubDate>Thu, 29 Oct 2026 14:49:01 GMT</pubDate>
+      <category>その他</category>
+      <description>AI企業のArticul8は、テキストや画像、文書、センサー信号などを読み取り、型付きで確信度付きの「判断」を1つだけ返す小型マルチモーダルモデル「Bivia」を発表しました。生成トークンはゼロで、AIエージェントの中で繰り返される小さな判断をLLMから切り…</description>
+    </item>
+    <item>
+      <title>Mistral AI、1兆パラメータの「Mistral Large 4」をオープンウェイト公開 1Mコンテキストとマルチモーダル対応</title>
+      <link>https://discord.com/channels/1415350002255007784/1460897850354438283/threads/1565376827344691320</link>
+      <guid isPermaLink="false">afnjp-1565376827344691320</guid>
+      <pubDate>Thu, 29 Oct 2026 14:48:38 GMT</pubDate>
+      <category>mistral-ai</category>
+      <description>仏Mistral AIは、同社史上最大かつ最高性能のモデル「Mistral Large 4」（愛称：Le Chonk）をHugging Faceで公開しました。総パラメータ約1兆のMixture-of-Experts（MoE）構成で、指示追従・推論・コーディ…</description>
+    </item>
+    <item>
+      <title>Sakana AI、企業向け「Sakana API Platform」を発表 OpenAI互換APIと管理機能でアーリーアクセス開始</title>
+      <link>https://discord.com/channels/1415350002255007784/1420683387395375115/threads/1565331686164799519</link>
+      <guid isPermaLink="false">afnjp-1565331686164799519</guid>
+      <pubDate>Thu, 29 Oct 2026 11:49:16 GMT</pubDate>
+      <category>sakana-ai</category>
+      <description>Sakana AIは2026年10月28日、エンタープライズ向けの新サービス「Sakana API Platform」を発表し、アーリーアクセスプログラムの受付を開始しました。同社のLLMをAPI経由で利用できるだけでなく、組織・ワークスペース単位での利用料…</description>
+    </item>
+    <item>
+      <title>SB Intuitions、思考型の国産LLM「Sarashina3.2 mini thinking」を発表 エージェント能力と安全性で比較モデル中トップ評価</title>
+      <link>https://discord.com/channels/1415350002255007784/1417536105930166282/threads/1565309888282890280</link>
+      <guid isPermaLink="false">afnjp-1565309888282890280</guid>
+      <pubDate>Thu, 29 Oct 2026 10:22:39 GMT</pubDate>
+      <category>日本国内</category>
+      <description>SB Intuitionsは2026年10月29日、フルスクラッチで開発した国産LLM「Sarashina3.2 mini thinking」を公開し、同社の「Sarashinaサービス」で利用可能なモデルに追加すると発表しました。前世代の指示モデルから、回…</description>
+    </item>
     <item>
       <title>Chromeの「強化版自動入力」がGmail連携に対応、Geminiが注文番号や航空券予約をフォームへ自動提案</title>
       <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1565247382403420270</link>
@@ -62,46 +102,6 @@
       <pubDate>Wed, 28 Oct 2026 19:58:34 GMT</pubDate>
       <category>gemini</category>
       <description>Google DeepMindは2026年10月28日、次世代フロンティアモデル「Gemini 4 Carbon」を発表しました。同社最強のモデルと位置付けられ、脆弱性の発見・検証・修正というサイバー防御の一連の工程と、数日単位で続く長時間のエージェント型タ…</description>
-    </item>
-    <item>
-      <title>Meta、広告検索エンジン「Andromeda」を刷新 MoEと単一GPUパイプラインで毎秒10億件超の広告評価を実現</title>
-      <link>https://discord.com/channels/1415350002255007784/1441473829951111330/threads/1565092235756834987</link>
-      <guid isPermaLink="false">afnjp-1565092235756834987</guid>
-      <pubDate>Wed, 28 Oct 2026 19:57:47 GMT</pubDate>
-      <category>meta</category>
-      <description>Metaは2026年10月28日、パーソナライズ広告の検索エンジン「Meta Andromeda」の次世代版を公開しました。モデル・システム・GPUハードウェアを一体で設計する「コデザイン」により、ランキング段階に迫る精度を検索段階の規模で実現し、本番環境で…</description>
-    </item>
-    <item>
-      <title>NVIDIA、40言語対応の音声認識LLM「Nemotron 3.5 Transcribe」を公開 話者分離と1時間の長尺音声にも対応</title>
-      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1565042395454771370</link>
-      <guid isPermaLink="false">afnjp-1565042395454771370</guid>
-      <pubDate>Wed, 28 Oct 2026 16:39:44 GMT</pubDate>
-      <category>その他</category>
-      <description>NVIDIAは2026年10月28日、オープンウェイトの音声認識モデル「NVIDIA-Nemotron-3.5-Transcribe-30B-A4B」をHugging Faceなどで公開しました。40言語の文字起こしに加え、音声翻訳、話者付き文字起こし、単語…</description>
-    </item>
-    <item>
-      <title>SpAItial「Echo-3」ギャラリー公開 iPhoneで撮った実空間を実寸の3Dワールドに再構築</title>
-      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1565042267465457754</link>
-      <guid isPermaLink="false">afnjp-1565042267465457754</guid>
-      <pubDate>Wed, 28 Oct 2026 16:39:13 GMT</pubDate>
-      <category>その他</category>
-      <description>物理的に裏付けられた「ワールドモデル」を開発する英SpAItialが、最新モデル「Echo-3」で再構築した3D空間を集めたギャラリーを公開しています。iPhoneで数分撮影するだけで、住宅や教室、博物館、工房などの実空間を、あらゆる角度から見回せる3D環境…</description>
-    </item>
-    <item>
-      <title>Anthropic、「Claude for Legal」に法務向けArtifactsギャラリーを追加 契約レビューから規制動向まで即戦力ツールを提供</title>
-      <link>https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1565042162792661002</link>
-      <guid isPermaLink="false">afnjp-1565042162792661002</guid>
-      <pubDate>Wed, 28 Oct 2026 16:38:48 GMT</pubDate>
-      <category>anthropic</category>
-      <description>Anthropicは2026年10月28日、法務専門家向けに、すぐに使えるArtifacts（アーティファクト）を「Claude for Legal」に追加したと発表しました。契約書の一括レビューや規制変更の追跡、社内からの法務相談の受付など、具体的な業務に…</description>
-    </item>
-    <item>
-      <title>Liquid AI「LFM3」発表、1.7Bで9B級に迫るエージェント性能と全モダリティ対応</title>
-      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1564785124468461598</link>
-      <guid isPermaLink="false">afnjp-1564785124468461598</guid>
-      <pubDate>Tue, 27 Oct 2026 23:37:25 GMT</pubDate>
-      <category>その他</category>
-      <description>米Liquid AIは2026年10月27日、次世代基盤モデル群「LFM3」を発表しました。テキスト、視覚、音声、オムニ、意思決定の6モデルを単一の共通バックボーンから派生させた点が特徴で、いずれも2Bパラメータ級のオープンウェイトとしてHugging Fa…</description>
     </item>
   </channel>
 </rss>

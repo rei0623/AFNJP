@@ -1,9 +1,138 @@
 {
-  "generated_at": "2026-10-29T09:53:00.434Z",
+  "generated_at": "2026-10-29T16:54:14.569Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 496,
+  "count": 501,
   "posts": [
+    {
+      "id": "1565398369810251958",
+      "title": "Microsoft、財務部門向けCopilotを大幅拡張 25超の財務スキルと金融データ連携プラグインを投入",
+      "channel": "copilot",
+      "category": "Microsoft",
+      "date": "2026-10-29T16:14:15.058Z",
+      "excerpt": "Microsoftは2026年10月29日、Microsoft Copilotに会計・資本市場・企業財務向けの25以上の新スキルとパートナー製プラグインを追加すると発表しました。Excel単体の支援にとどまらず、Copilotアプリ上で複数ファイルやシステム…",
+      "lead": "Microsoftは2026年10月29日、Microsoft Copilotに会計・資本市場・企業財務向けの25以上の新スキルとパートナー製プラグインを追加すると発表しました。Excel単体の支援にとどまらず、Copilotアプリ上で複数ファイルやシステムをまたぐ財務業務を委任できる点が特徴です。",
+      "headings": [
+        "「Excel起点」から「Copilot起点」へ",
+        "会計・資本市場・企業財務の3領域",
+        "データ連携とエコシステム",
+        "監査可能性と統制",
+        "提供状況",
+        "今後の展望"
+      ],
+      "source_url": "https://www.microsoft.com/en-us/copilot/blog/2026/10/29/microsoft-copilot-for-finance-purpose-built-for-the-way-finance-teams-work/",
+      "source_urls": [
+        "https://www.microsoft.com/en-us/copilot/blog/2026/10/29/microsoft-copilot-for-finance-purpose-built-for-the-way-finance-teams-work/"
+      ],
+      "source_label": "microsoft.com",
+      "cover": "assets/posts/1565398369810251958.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1423003108790767748/threads/1565398369810251958",
+      "first_seen": "2026-10-29T16:14:15.058Z",
+      "kind": "feature",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1565376920571478140",
+      "title": "Articul8が「Bivia」発表 ― 文章を生成せず“判断”だけを返すマルチモーダル意思決定モデル",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-10-29T14:49:01.161Z",
+      "excerpt": "AI企業のArticul8は、テキストや画像、文書、センサー信号などを読み取り、型付きで確信度付きの「判断」を1つだけ返す小型マルチモーダルモデル「Bivia」を発表しました。生成トークンはゼロで、AIエージェントの中で繰り返される小さな判断をLLMから切り…",
+      "lead": "AI企業のArticul8は、テキストや画像、文書、センサー信号などを読み取り、型付きで確信度付きの「判断」を1つだけ返す小型マルチモーダルモデル「Bivia」を発表しました。生成トークンはゼロで、AIエージェントの中で繰り返される小さな判断をLLMから切り離す「判断レイヤー」として位置付けられています。",
+      "headings": [
+        "LLMに「はい/いいえ」を考えさせる無駄を省く",
+        "9種類の判断タイプと「棄権」機能",
+        "開発者向けの導入経路が豊富",
+        "実運用を想定したデモ",
+        "導入時の注意点",
+        "今後の展望"
+      ],
+      "source_url": "https://articul8.ai/bivia",
+      "source_urls": [
+        "https://articul8.ai/bivia"
+      ],
+      "source_label": "articul8.ai",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1565376920571478140",
+      "first_seen": "2026-10-29T14:49:01.161Z",
+      "kind": "model",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1565376827344691320",
+      "title": "Mistral AI、1兆パラメータの「Mistral Large 4」をオープンウェイト公開 1Mコンテキストとマルチモーダル対応",
+      "channel": "mistral-ai",
+      "category": "その他",
+      "date": "2026-10-29T14:48:38.934Z",
+      "excerpt": "仏Mistral AIは、同社史上最大かつ最高性能のモデル「Mistral Large 4」（愛称：Le Chonk）をHugging Faceで公開しました。総パラメータ約1兆のMixture-of-Experts（MoE）構成で、指示追従・推論・コーディ…",
+      "lead": "仏Mistral AIは、同社史上最大かつ最高性能のモデル「Mistral Large 4」（愛称：Le Chonk）をHugging Faceで公開しました。総パラメータ約1兆のMixture-of-Experts（MoE）構成で、指示追従・推論・コーディング・エージェント処理を単一の重みに統合しています。商用利用も可能な独自のオープンウェイトライセンスで提供されます。",
+      "headings": [
+        "アーキテクチャの特徴",
+        "性能と効率",
+        "導入面の現実",
+        "今後の展望"
+      ],
+      "source_url": "https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B",
+      "source_urls": [
+        "https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B"
+      ],
+      "source_label": "huggingface.co",
+      "cover": "assets/posts/1565376827344691320.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1460897850354438283/threads/1565376827344691320",
+      "first_seen": "2026-10-29T14:48:38.934Z",
+      "kind": "model",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1565331686164799519",
+      "title": "Sakana AI、企業向け「Sakana API Platform」を発表 OpenAI互換APIと管理機能でアーリーアクセス開始",
+      "channel": "sakana-ai",
+      "category": "日本国内",
+      "date": "2026-10-29T11:49:16.438Z",
+      "excerpt": "Sakana AIは2026年10月28日、エンタープライズ向けの新サービス「Sakana API Platform」を発表し、アーリーアクセスプログラムの受付を開始しました。同社のLLMをAPI経由で利用できるだけでなく、組織・ワークスペース単位での利用料…",
+      "lead": "Sakana AIは2026年10月28日、エンタープライズ向けの新サービス「Sakana API Platform」を発表し、アーリーアクセスプログラムの受付を開始しました。同社のLLMをAPI経由で利用できるだけでなく、組織・ワークスペース単位での利用料やメンバーの一元管理、監査ログ、予算上限設定など、企業運用に必要な管理機能をあわせて提供します。OpenAI互換APIを採用しているため、既存アプリケーションは接続先を切り替えるだけで導入できる点も特徴です。",
+      "headings": [
+        "管理機能なしのAPIから「企業運用基盤」へ",
+        "提供モデル：オーケストレーション型「Fugu」と日本語特化「Namazu」",
+        "開発者と企業への影響",
+        "今後の展望"
+      ],
+      "source_url": "https://sakana.ai/api-platform-earlyaccess/",
+      "source_urls": [
+        "https://sakana.ai/api-platform-earlyaccess/"
+      ],
+      "source_label": "sakana.ai",
+      "cover": "assets/posts/1565331686164799519.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1420683387395375115/threads/1565331686164799519",
+      "first_seen": "2026-10-29T11:49:16.438Z",
+      "kind": "tool",
+      "kind_confidence": 0.91
+    },
+    {
+      "id": "1565309888282890280",
+      "title": "SB Intuitions、思考型の国産LLM「Sarashina3.2 mini thinking」を発表 エージェント能力と安全性で比較モデル中トップ評価",
+      "channel": "日本国内",
+      "category": "日本国内",
+      "date": "2026-10-29T10:22:39.418Z",
+      "excerpt": "SB Intuitionsは2026年10月29日、フルスクラッチで開発した国産LLM「Sarashina3.2 mini thinking」を公開し、同社の「Sarashinaサービス」で利用可能なモデルに追加すると発表しました。前世代の指示モデルから、回…",
+      "lead": "SB Intuitionsは2026年10月29日、フルスクラッチで開発した国産LLM「Sarashina3.2 mini thinking」を公開し、同社の「Sarashinaサービス」で利用可能なモデルに追加すると発表しました。前世代の指示モデルから、回答前に推論を行う「思考モデル」へと進化し、エージェント系ベンチマークや安全性評価で比較対象の中で最高スコアを記録しています。",
+      "headings": [
+        "指示モデルから思考モデルへ",
+        "学習手法の強化",
+        "想定ユースケース",
+        "ベンチマーク結果",
+        "今後の展望"
+      ],
+      "source_url": "https://www.sbintuitions.co.jp/blog/entry/2026/10/29/133000",
+      "source_urls": [
+        "https://www.sbintuitions.co.jp/blog/entry/2026/10/29/133000"
+      ],
+      "source_label": "sbintuitions.co.jp",
+      "cover": "assets/posts/1565309888282890280.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417536105930166282/threads/1565309888282890280",
+      "first_seen": "2026-10-29T10:22:39.418Z",
+      "kind": "model",
+      "kind_confidence": 1
+    },
     {
       "id": "1565247382403420270",
       "title": "Chromeの「強化版自動入力」がGmail連携に対応、Geminiが注文番号や航空券予約をフォームへ自動提案",
