@@ -1,9 +1,60 @@
 {
-  "generated_at": "2026-10-28T23:11:40.164Z",
+  "generated_at": "2026-10-29T02:24:27.840Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 492,
+  "count": 494,
   "posts": [
+    {
+      "id": "1565150223263862954",
+      "title": "ChatGPT Pro／Businessに毎月最大500ドルのAPIクレジット、サブスクとAPI課金が初めて連動",
+      "channel": "chatgpt",
+      "category": "Open AI",
+      "date": "2026-10-28T23:48:12.311Z",
+      "excerpt": "OpenAIは2026年10月28日、対象となるChatGPT ProおよびBusinessの有料契約者に対し、毎月最大500ドル分のAPIクレジットを無償で付与する特典を開始しました。これまで完全に別建てだった「ChatGPTの定額サブスク」と「従量課金の…",
+      "lead": "OpenAIは2026年10月28日、対象となるChatGPT ProおよびBusinessの有料契約者に対し、毎月最大500ドル分のAPIクレジットを無償で付与する特典を開始しました。これまで完全に別建てだった「ChatGPTの定額サブスク」と「従量課金のAPI」が、初めて直接結び付く形になります。",
+      "headings": [
+        "プラン別の付与額",
+        "技術的な仕組みと利用範囲",
+        "対象条件と主な制約",
+        "影響と評価",
+        "今後の展望"
+      ],
+      "source_url": "https://help.openai.com/ja-jp/articles/20001626-api-credits-benefit-for-eligible-chatgpt-subscriptions",
+      "source_urls": [
+        "https://help.openai.com/ja-jp/articles/20001626-api-credits-benefit-for-eligible-chatgpt-subscriptions"
+      ],
+      "source_label": "help.openai.com",
+      "url": "https://discord.com/channels/1415350002255007784/1415353131604377641/threads/1565150223263862954",
+      "first_seen": "2026-10-28T23:48:12.311Z",
+      "kind": "feature",
+      "kind_confidence": 0.93
+    },
+    {
+      "id": "1565149395417174077",
+      "title": "ElevenLabs、文字単位で音声とテキストを同期する強制アラインメントモデル「Cue」を発表",
+      "channel": "eleven-labs",
+      "category": "その他",
+      "date": "2026-10-28T23:44:54.937Z",
+      "excerpt": "ElevenLabsは2026年10月28日、音声ファイル内のすべての文字を正確なタイムライン上に配置する強制アラインメントモデル「Cue」を発表しました。同社の音声認識モデル群「Scribe」の基盤として既に稼働しており、29言語のベンチマークで同社が検証…",
+      "lead": "ElevenLabsは2026年10月28日、音声ファイル内のすべての文字を正確なタイムライン上に配置する強制アラインメントモデル「Cue」を発表しました。同社の音声認識モデル群「Scribe」の基盤として既に稼働しており、29言語のベンチマークで同社が検証したすべての既存アライナーを上回る精度を示したとしています。1時間の音声を約0.5秒で処理できる高速性も特徴です。",
+      "headings": [
+        "強制アラインメントとは",
+        "既存アライナーの課題とCueの改善点",
+        "評価手法の限界",
+        "歌唱音声への対応",
+        "今後の展望"
+      ],
+      "source_url": "https://elevenlabs.io/blog/cue-aligner",
+      "source_urls": [
+        "https://elevenlabs.io/blog/cue-aligner"
+      ],
+      "source_label": "elevenlabs.io",
+      "cover": "assets/posts/1565149395417174077.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1441006356399259719/threads/1565149395417174077",
+      "first_seen": "2026-10-28T23:44:54.937Z",
+      "kind": "model",
+      "kind_confidence": 0.99
+    },
     {
       "id": "1565093652643057775",
       "title": "Android XR初の有線XRグラス「XREAL AURA」発売、Gemini統合と70度視野角で“持ち運べるワークスペース”を実現",

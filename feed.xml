@@ -5,8 +5,24 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 28 Oct 2026 20:03:24 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 28 Oct 2026 23:48:12 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>ChatGPT Pro／Businessに毎月最大500ドルのAPIクレジット、サブスクとAPI課金が初めて連動</title>
+      <link>https://discord.com/channels/1415350002255007784/1415353131604377641/threads/1565150223263862954</link>
+      <guid isPermaLink="false">afnjp-1565150223263862954</guid>
+      <pubDate>Wed, 28 Oct 2026 23:48:12 GMT</pubDate>
+      <category>chatgpt</category>
+      <description>OpenAIは2026年10月28日、対象となるChatGPT ProおよびBusinessの有料契約者に対し、毎月最大500ドル分のAPIクレジットを無償で付与する特典を開始しました。これまで完全に別建てだった「ChatGPTの定額サブスク」と「従量課金の…</description>
+    </item>
+    <item>
+      <title>ElevenLabs、文字単位で音声とテキストを同期する強制アラインメントモデル「Cue」を発表</title>
+      <link>https://discord.com/channels/1415350002255007784/1441006356399259719/threads/1565149395417174077</link>
+      <guid isPermaLink="false">afnjp-1565149395417174077</guid>
+      <pubDate>Wed, 28 Oct 2026 23:44:54 GMT</pubDate>
+      <category>eleven-labs</category>
+      <description>ElevenLabsは2026年10月28日、音声ファイル内のすべての文字を正確なタイムライン上に配置する強制アラインメントモデル「Cue」を発表しました。同社の音声認識モデル群「Scribe」の基盤として既に稼働しており、29言語のベンチマークで同社が検証…</description>
+    </item>
     <item>
       <title>Android XR初の有線XRグラス「XREAL AURA」発売、Gemini統合と70度視野角で“持ち運べるワークスペース”を実現</title>
       <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1565093652643057775</link>
@@ -86,22 +102,6 @@
       <pubDate>Tue, 27 Oct 2026 21:09:44 GMT</pubDate>
       <category>その他</category>
       <description>Y Combinatorの支援を受けるSentient OS, Inc.が、Mac向けパーソナルAIアシスタント「Sentient OS」を公開しています。ローカルのメールやメッセージ、メモなどをオンデバイスモデルで夜間に解析して個人の文脈を構築し、その理解…</description>
-    </item>
-    <item>
-      <title>Microsoft、脆弱性検出モデル「MAI Cyber 1.1 Flash」を発表 MDASHでのスキャンコストを18％削減</title>
-      <link>https://discord.com/channels/1415350002255007784/1432720743279497367/threads/1564747776695476244</link>
-      <guid isPermaLink="false">afnjp-1564747776695476244</guid>
-      <pubDate>Tue, 27 Oct 2026 21:09:01 GMT</pubDate>
-      <category>microsoft</category>
-      <description>Microsoft AIは2026年10月27日、サイバーセキュリティ特化モデルの新版「MAI Cyber 1.1 Flash」を発表しました。前世代のMAI Cyber 1 Flashと同等の性能を維持しながら、社内の脆弱性スキャン評価で1スキャンあたりの…</description>
-    </item>
-    <item>
-      <title>医療AIのConcurrenceが研究プログラム始動 患者ごとに「デジタルツイン」を構築する「超知能ケア」構想を発表</title>
-      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1564747640309153844</link>
-      <guid isPermaLink="false">afnjp-1564747640309153844</guid>
-      <pubDate>Tue, 27 Oct 2026 21:08:29 GMT</pubDate>
-      <category>その他</category>
-      <description>医療向けAI基盤を手がける米Concurrenceは2026年10月21日、研究プログラムの立ち上げを発表しました。掲げるテーマは「Superintelligent Care（超知能ケア）」です。一人ひとりの患者から学び、その知見を次の患者のケアに生かし続け…</description>
     </item>
   </channel>
 </rss>

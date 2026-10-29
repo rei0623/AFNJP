@@ -1,8 +1,59 @@
 {
-  "generated_at": "2026-10-28T23:11:40.169Z",
+  "generated_at": "2026-10-29T02:24:27.844Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1565150223263862954",
+      "title": "ChatGPT Pro／Businessに毎月最大500ドルのAPIクレジット、サブスクとAPI課金が初めて連動",
+      "channel": "chatgpt",
+      "category": "Open AI",
+      "date": "2026-10-28T23:48:12.311Z",
+      "excerpt": "OpenAIは2026年10月28日、対象となるChatGPT ProおよびBusinessの有料契約者に対し、毎月最大500ドル分のAPIクレジットを無償で付与する特典を開始しました。これまで完全に別建てだった「ChatGPTの定額サブスク」と「従量課金の…",
+      "lead": "OpenAIは2026年10月28日、対象となるChatGPT ProおよびBusinessの有料契約者に対し、毎月最大500ドル分のAPIクレジットを無償で付与する特典を開始しました。これまで完全に別建てだった「ChatGPTの定額サブスク」と「従量課金のAPI」が、初めて直接結び付く形になります。",
+      "headings": [
+        "プラン別の付与額",
+        "技術的な仕組みと利用範囲",
+        "対象条件と主な制約",
+        "影響と評価",
+        "今後の展望"
+      ],
+      "source_url": "https://help.openai.com/ja-jp/articles/20001626-api-credits-benefit-for-eligible-chatgpt-subscriptions",
+      "source_urls": [
+        "https://help.openai.com/ja-jp/articles/20001626-api-credits-benefit-for-eligible-chatgpt-subscriptions"
+      ],
+      "source_label": "help.openai.com",
+      "url": "https://discord.com/channels/1415350002255007784/1415353131604377641/threads/1565150223263862954",
+      "first_seen": "2026-10-28T23:48:12.311Z",
+      "kind": "feature",
+      "kind_confidence": 0.93
+    },
+    {
+      "id": "1565149395417174077",
+      "title": "ElevenLabs、文字単位で音声とテキストを同期する強制アラインメントモデル「Cue」を発表",
+      "channel": "eleven-labs",
+      "category": "その他",
+      "date": "2026-10-28T23:44:54.937Z",
+      "excerpt": "ElevenLabsは2026年10月28日、音声ファイル内のすべての文字を正確なタイムライン上に配置する強制アラインメントモデル「Cue」を発表しました。同社の音声認識モデル群「Scribe」の基盤として既に稼働しており、29言語のベンチマークで同社が検証…",
+      "lead": "ElevenLabsは2026年10月28日、音声ファイル内のすべての文字を正確なタイムライン上に配置する強制アラインメントモデル「Cue」を発表しました。同社の音声認識モデル群「Scribe」の基盤として既に稼働しており、29言語のベンチマークで同社が検証したすべての既存アライナーを上回る精度を示したとしています。1時間の音声を約0.5秒で処理できる高速性も特徴です。",
+      "headings": [
+        "強制アラインメントとは",
+        "既存アライナーの課題とCueの改善点",
+        "評価手法の限界",
+        "歌唱音声への対応",
+        "今後の展望"
+      ],
+      "source_url": "https://elevenlabs.io/blog/cue-aligner",
+      "source_urls": [
+        "https://elevenlabs.io/blog/cue-aligner"
+      ],
+      "source_label": "elevenlabs.io",
+      "cover": "assets/posts/1565149395417174077.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1441006356399259719/threads/1565149395417174077",
+      "first_seen": "2026-10-28T23:44:54.937Z",
+      "kind": "model",
+      "kind_confidence": 0.99
+    },
     {
       "id": "1565093652643057775",
       "title": "Android XR初の有線XRグラス「XREAL AURA」発売、Gemini統合と70度視野角で“持ち運べるワークスペース”を実現",
@@ -264,60 +315,6 @@
       "first_seen": "2026-10-27T21:09:44.361Z",
       "kind": "model",
       "kind_confidence": 0.59
-    },
-    {
-      "id": "1564747776695476244",
-      "title": "Microsoft、脆弱性検出モデル「MAI Cyber 1.1 Flash」を発表 MDASHでのスキャンコストを18％削減",
-      "channel": "microsoft",
-      "category": "Microsoft",
-      "date": "2026-10-27T21:09:01.572Z",
-      "excerpt": "Microsoft AIは2026年10月27日、サイバーセキュリティ特化モデルの新版「MAI Cyber 1.1 Flash」を発表しました。前世代のMAI Cyber 1 Flashと同等の性能を維持しながら、社内の脆弱性スキャン評価で1スキャンあたりの…",
-      "lead": "Microsoft AIは2026年10月27日、サイバーセキュリティ特化モデルの新版「MAI Cyber 1.1 Flash」を発表しました。前世代のMAI Cyber 1 Flashと同等の性能を維持しながら、社内の脆弱性スキャン評価で1スキャンあたりのコストを18％削減したとしています。",
-      "headings": [
-        "MDASHに組み込まれた専用モデル",
-        "コスト効率の向上が主眼",
-        "顧客の利用状況",
-        "提供形態と安全対策",
-        "評価の注意点",
-        "今後の展望"
-      ],
-      "source_url": "https://microsoft.ai/news/mai-cyber-1-1-flash/",
-      "source_urls": [
-        "https://microsoft.ai/news/mai-cyber-1-1-flash/"
-      ],
-      "source_label": "microsoft.ai",
-      "cover": "assets/posts/1564747776695476244.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1432720743279497367/threads/1564747776695476244",
-      "first_seen": "2026-10-27T21:09:01.572Z",
-      "kind": "model",
-      "kind_confidence": 0.99
-    },
-    {
-      "id": "1564747640309153844",
-      "title": "医療AIのConcurrenceが研究プログラム始動 患者ごとに「デジタルツイン」を構築する「超知能ケア」構想を発表",
-      "channel": "その他",
-      "category": "その他",
-      "date": "2026-10-27T21:08:29.055Z",
-      "excerpt": "医療向けAI基盤を手がける米Concurrenceは2026年10月21日、研究プログラムの立ち上げを発表しました。掲げるテーマは「Superintelligent Care（超知能ケア）」です。一人ひとりの患者から学び、その知見を次の患者のケアに生かし続け…",
-      "lead": "医療向けAI基盤を手がける米Concurrenceは2026年10月21日、研究プログラムの立ち上げを発表しました。掲げるテーマは「Superintelligent Care（超知能ケア）」です。一人ひとりの患者から学び、その知見を次の患者のケアに生かし続けるシステムの実現を目指すとしています。",
-      "headings": [
-        "なぜ「学習する医療」は実現しにくいのか",
-        "研究の4本柱",
-        "技術の中核「Health World Model」",
-        "バイアスへの対処と段階的な権限付与",
-        "現状と課題",
-        "今後の展望"
-      ],
-      "source_url": "https://www.concurrence.com/research/superintelligent-care?utm_source=x&utm_medium=organic_social&utm_campaign=launch_video",
-      "source_urls": [
-        "https://www.concurrence.com/research/superintelligent-care?utm_source=x&utm_medium=organic_social&utm_campaign=launch_video"
-      ],
-      "source_label": "concurrence.com",
-      "cover": "assets/posts/1564747640309153844.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1564747640309153844",
-      "first_seen": "2026-10-27T21:08:29.055Z",
-      "kind": "research",
-      "kind_confidence": 0.81
     }
   ]
 }
