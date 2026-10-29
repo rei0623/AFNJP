@@ -1,9 +1,61 @@
 {
-  "generated_at": "2026-10-29T02:24:27.840Z",
+  "generated_at": "2026-10-29T09:53:00.434Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 494,
+  "count": 496,
   "posts": [
+    {
+      "id": "1565247382403420270",
+      "title": "Chromeの「強化版自動入力」がGmail連携に対応、Geminiが注文番号や航空券予約をフォームへ自動提案",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-10-29T06:14:16.855Z",
+      "excerpt": "Googleは2026年10月28日、Chromeの「強化版自動入力（enhanced autofill）」がGmailの情報を基にフォーム入力を提案できるようになったと発表しました。「Personal Intelligence」を備えたGeminiが、受信…",
+      "lead": "Googleは2026年10月28日、Chromeの「強化版自動入力（enhanced autofill）」がGmailの情報を基にフォーム入力を提案できるようになったと発表しました。「Personal Intelligence」を備えたGeminiが、受信メールから注文番号、配送追跡情報、航空券の予約内容などを取り出し、入力が必要な場面で候補として示します。まず米国のデスクトップ、Android、iOSで展開が始まっています。",
+      "headings": [
+        "何ができるようになったのか",
+        "技術的なポイント：Personal Intelligenceの活用",
+        "プライバシーと利用条件",
+        "影響と注意点",
+        "今後の展望"
+      ],
+      "source_url": "https://blog.google/products-and-platforms/products/chrome/enhanced-autofill-gmail/",
+      "source_urls": [
+        "https://blog.google/products-and-platforms/products/chrome/enhanced-autofill-gmail/"
+      ],
+      "source_label": "blog.google",
+      "cover": "assets/posts/1565247382403420270.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1565247382403420270",
+      "first_seen": "2026-10-29T06:14:16.855Z",
+      "kind": "feature",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1565247256825692210",
+      "title": "Google、検索「AI Mode」の広告を10カ国へ拡大 米国では追加質問にも広告を出す「マルチターン広告」を開始",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-10-29T06:13:46.915Z",
+      "excerpt": "Googleは2026年10月28日（米国時間）、検索の対話型機能「AI Mode」に表示する広告を、カナダやインドを含む新たな10カ国へ拡大すると発表しました。あわせて米国では、AI Modeでの追加質問（フォローアップ）にも広告を表示できる「マルチターン…",
+      "lead": "Googleは2026年10月28日（米国時間）、検索の対話型機能「AI Mode」に表示する広告を、カナダやインドを含む新たな10カ国へ拡大すると発表しました。あわせて米国では、AI Modeでの追加質問（フォローアップ）にも広告を表示できる「マルチターン広告」を開始します。生成AI検索の収益化を本格的に国際展開する動きとして注目されます。",
+      "headings": [
+        "発表の概要",
+        "技術的なポイント：会話型クエリと広告マッチング",
+        "広告効果に関するGoogleの主張",
+        "影響と課題",
+        "今後の展望"
+      ],
+      "source_url": "https://blog.google/products/ads-commerce/ads-in-ai-mode-global/",
+      "source_urls": [
+        "https://blog.google/products/ads-commerce/ads-in-ai-mode-global/"
+      ],
+      "source_label": "blog.google",
+      "cover": "assets/posts/1565247256825692210.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1565247256825692210",
+      "first_seen": "2026-10-29T06:13:46.915Z",
+      "kind": "feature",
+      "kind_confidence": 1
+    },
     {
       "id": "1565150223263862954",
       "title": "ChatGPT Pro／Businessに毎月最大500ドルのAPIクレジット、サブスクとAPI課金が初めて連動",

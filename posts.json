@@ -1,8 +1,60 @@
 {
-  "generated_at": "2026-10-29T02:24:27.844Z",
+  "generated_at": "2026-10-29T09:53:00.438Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1565247382403420270",
+      "title": "Chromeの「強化版自動入力」がGmail連携に対応、Geminiが注文番号や航空券予約をフォームへ自動提案",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-10-29T06:14:16.855Z",
+      "excerpt": "Googleは2026年10月28日、Chromeの「強化版自動入力（enhanced autofill）」がGmailの情報を基にフォーム入力を提案できるようになったと発表しました。「Personal Intelligence」を備えたGeminiが、受信…",
+      "lead": "Googleは2026年10月28日、Chromeの「強化版自動入力（enhanced autofill）」がGmailの情報を基にフォーム入力を提案できるようになったと発表しました。「Personal Intelligence」を備えたGeminiが、受信メールから注文番号、配送追跡情報、航空券の予約内容などを取り出し、入力が必要な場面で候補として示します。まず米国のデスクトップ、Android、iOSで展開が始まっています。",
+      "headings": [
+        "何ができるようになったのか",
+        "技術的なポイント：Personal Intelligenceの活用",
+        "プライバシーと利用条件",
+        "影響と注意点",
+        "今後の展望"
+      ],
+      "source_url": "https://blog.google/products-and-platforms/products/chrome/enhanced-autofill-gmail/",
+      "source_urls": [
+        "https://blog.google/products-and-platforms/products/chrome/enhanced-autofill-gmail/"
+      ],
+      "source_label": "blog.google",
+      "cover": "assets/posts/1565247382403420270.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1565247382403420270",
+      "first_seen": "2026-10-29T06:14:16.855Z",
+      "kind": "feature",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1565247256825692210",
+      "title": "Google、検索「AI Mode」の広告を10カ国へ拡大 米国では追加質問にも広告を出す「マルチターン広告」を開始",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-10-29T06:13:46.915Z",
+      "excerpt": "Googleは2026年10月28日（米国時間）、検索の対話型機能「AI Mode」に表示する広告を、カナダやインドを含む新たな10カ国へ拡大すると発表しました。あわせて米国では、AI Modeでの追加質問（フォローアップ）にも広告を表示できる「マルチターン…",
+      "lead": "Googleは2026年10月28日（米国時間）、検索の対話型機能「AI Mode」に表示する広告を、カナダやインドを含む新たな10カ国へ拡大すると発表しました。あわせて米国では、AI Modeでの追加質問（フォローアップ）にも広告を表示できる「マルチターン広告」を開始します。生成AI検索の収益化を本格的に国際展開する動きとして注目されます。",
+      "headings": [
+        "発表の概要",
+        "技術的なポイント：会話型クエリと広告マッチング",
+        "広告効果に関するGoogleの主張",
+        "影響と課題",
+        "今後の展望"
+      ],
+      "source_url": "https://blog.google/products/ads-commerce/ads-in-ai-mode-global/",
+      "source_urls": [
+        "https://blog.google/products/ads-commerce/ads-in-ai-mode-global/"
+      ],
+      "source_label": "blog.google",
+      "cover": "assets/posts/1565247256825692210.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1565247256825692210",
+      "first_seen": "2026-10-29T06:13:46.915Z",
+      "kind": "feature",
+      "kind_confidence": 1
+    },
     {
       "id": "1565150223263862954",
       "title": "ChatGPT Pro／Businessに毎月最大500ドルのAPIクレジット、サブスクとAPI課金が初めて連動",
@@ -264,57 +316,6 @@
       "first_seen": "2026-10-27T23:37:25.975Z",
       "kind": "model",
       "kind_confidence": 1
-    },
-    {
-      "id": "1564784621831331961",
-      "title": "Anthropic、米GSAとの提携を拡大 Claude全製品を政府機関向けに40%割引、州・地方政府にも適用",
-      "channel": "anthropic",
-      "category": "Anthropic",
-      "date": "2026-10-27T23:35:26.137Z",
-      "excerpt": "Anthropicは2026年10月27日、米連邦政府の調達を担う一般調達局（GSA）との提携拡大を発表しました。新たな合意により、政府機関はClaude Enterprise、Claude for Government、Claude APIを40%割引で利…",
-      "lead": "Anthropicは2026年10月27日、米連邦政府の調達を担う一般調達局（GSA）との提携拡大を発表しました。新たな合意により、政府機関はClaude Enterprise、Claude for Government、Claude APIを40%割引で利用できるようになります。割引は連邦政府だけでなく、州・地方・部族・準州政府にも適用されます。政府全体での節約額は約10億ドルと見込まれています。",
-      "headings": [
-        "合意の主な内容",
-        "急拡大する政府での利用",
-        "セキュリティ要件への対応",
-        "今後の展望"
-      ],
-      "source_url": "https://www.anthropic.com/news/expanding-partnership-gsa",
-      "source_urls": [
-        "https://www.anthropic.com/news/expanding-partnership-gsa"
-      ],
-      "source_label": "anthropic.com",
-      "cover": "assets/posts/1564784621831331961.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1564784621831331961",
-      "first_seen": "2026-10-27T23:35:26.137Z",
-      "kind": "business",
-      "kind_confidence": 0.51
-    },
-    {
-      "id": "1564747956165279908",
-      "title": "「あなたを知っているコンピューター操作AI」Sentient OSがmacOS向けに登場 夜間にオンデバイスで個人文脈を学習",
-      "channel": "その他",
-      "category": "その他",
-      "date": "2026-10-27T21:09:44.361Z",
-      "excerpt": "Y Combinatorの支援を受けるSentient OS, Inc.が、Mac向けパーソナルAIアシスタント「Sentient OS」を公開しています。ローカルのメールやメッセージ、メモなどをオンデバイスモデルで夜間に解析して個人の文脈を構築し、その理解…",
-      "lead": "Y Combinatorの支援を受けるSentient OS, Inc.が、Mac向けパーソナルAIアシスタント「Sentient OS」を公開しています。ローカルのメールやメッセージ、メモなどをオンデバイスモデルで夜間に解析して個人の文脈を構築し、その理解を基に「専用カーソルによるPC操作」「本人らしい返信の下書き」「先回りの提案」を行う点が特徴です。アプリとインフラはオープンソースで、個人利用は無料とされています。",
-      "headings": [
-        "3つの機能：Sidekick、Double Tap、Proactive intelligence",
-        "技術的なポイント：ローカルで作る「Markdownの知識ベース」",
-        "動作環境と提供形態",
-        "影響と注意点",
-        "今後の展望"
-      ],
-      "source_url": "https://sentient-os.ai/",
-      "source_urls": [
-        "https://sentient-os.ai/"
-      ],
-      "source_label": "sentient-os.ai",
-      "cover": "assets/posts/1564747956165279908.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1564747956165279908",
-      "first_seen": "2026-10-27T21:09:44.361Z",
-      "kind": "model",
-      "kind_confidence": 0.59
     }
   ]
 }

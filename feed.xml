@@ -5,8 +5,24 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 28 Oct 2026 23:48:12 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 06:14:16 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Chromeの「強化版自動入力」がGmail連携に対応、Geminiが注文番号や航空券予約をフォームへ自動提案</title>
+      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1565247382403420270</link>
+      <guid isPermaLink="false">afnjp-1565247382403420270</guid>
+      <pubDate>Thu, 29 Oct 2026 06:14:16 GMT</pubDate>
+      <category>google</category>
+      <description>Googleは2026年10月28日、Chromeの「強化版自動入力（enhanced autofill）」がGmailの情報を基にフォーム入力を提案できるようになったと発表しました。「Personal Intelligence」を備えたGeminiが、受信…</description>
+    </item>
+    <item>
+      <title>Google、検索「AI Mode」の広告を10カ国へ拡大 米国では追加質問にも広告を出す「マルチターン広告」を開始</title>
+      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1565247256825692210</link>
+      <guid isPermaLink="false">afnjp-1565247256825692210</guid>
+      <pubDate>Thu, 29 Oct 2026 06:13:46 GMT</pubDate>
+      <category>google</category>
+      <description>Googleは2026年10月28日（米国時間）、検索の対話型機能「AI Mode」に表示する広告を、カナダやインドを含む新たな10カ国へ拡大すると発表しました。あわせて米国では、AI Modeでの追加質問（フォローアップ）にも広告を表示できる「マルチターン…</description>
+    </item>
     <item>
       <title>ChatGPT Pro／Businessに毎月最大500ドルのAPIクレジット、サブスクとAPI課金が初めて連動</title>
       <link>https://discord.com/channels/1415350002255007784/1415353131604377641/threads/1565150223263862954</link>
@@ -86,22 +102,6 @@
       <pubDate>Tue, 27 Oct 2026 23:37:25 GMT</pubDate>
       <category>その他</category>
       <description>米Liquid AIは2026年10月27日、次世代基盤モデル群「LFM3」を発表しました。テキスト、視覚、音声、オムニ、意思決定の6モデルを単一の共通バックボーンから派生させた点が特徴で、いずれも2Bパラメータ級のオープンウェイトとしてHugging Fa…</description>
-    </item>
-    <item>
-      <title>Anthropic、米GSAとの提携を拡大 Claude全製品を政府機関向けに40%割引、州・地方政府にも適用</title>
-      <link>https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1564784621831331961</link>
-      <guid isPermaLink="false">afnjp-1564784621831331961</guid>
-      <pubDate>Tue, 27 Oct 2026 23:35:26 GMT</pubDate>
-      <category>anthropic</category>
-      <description>Anthropicは2026年10月27日、米連邦政府の調達を担う一般調達局（GSA）との提携拡大を発表しました。新たな合意により、政府機関はClaude Enterprise、Claude for Government、Claude APIを40%割引で利…</description>
-    </item>
-    <item>
-      <title>「あなたを知っているコンピューター操作AI」Sentient OSがmacOS向けに登場 夜間にオンデバイスで個人文脈を学習</title>
-      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1564747956165279908</link>
-      <guid isPermaLink="false">afnjp-1564747956165279908</guid>
-      <pubDate>Tue, 27 Oct 2026 21:09:44 GMT</pubDate>
-      <category>その他</category>
-      <description>Y Combinatorの支援を受けるSentient OS, Inc.が、Mac向けパーソナルAIアシスタント「Sentient OS」を公開しています。ローカルのメールやメッセージ、メモなどをオンデバイスモデルで夜間に解析して個人の文脈を構築し、その理解…</description>
     </item>
   </channel>
 </rss>
