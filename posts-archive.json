@@ -1,9 +1,60 @@
 {
-  "generated_at": "2026-10-30T08:35:04.033Z",
+  "generated_at": "2026-10-30T15:53:52.474Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 505,
+  "count": 507,
   "posts": [
+    {
+      "id": "1565732588016894093",
+      "title": "Cursorの拡張機能マーケットプレイスに偽の「Claude Code」拡張、SSHバックドア設置を狙う",
+      "channel": "cursor",
+      "category": "その他",
+      "date": "2026-10-30T14:22:18.888Z",
+      "excerpt": "Cursorは2026年10月29日、同社のVS Code拡張機能マーケットプレイスで、AnthropicのClaude Code拡張機能を装った悪意あるバージョン「Anthropic.claude-code 2.1.313」が配布されていたと公表しました。…",
+      "lead": "Cursorは2026年10月29日、同社のVS Code拡張機能マーケットプレイスで、AnthropicのClaude Code拡張機能を装った悪意あるバージョン「Anthropic.claude-code 2.1.313」が配布されていたと公表しました。このバージョンはAnthropicが開発したものではなく、影響を受けた可能性があるユーザーは最大5,000名とされています。Cursorは該当ユーザーへ個別に連絡するとしています。",
+      "headings": [
+        "何が起きたのか",
+        "被害の範囲と限界",
+        "Cursorの対応とユーザーが取るべき措置",
+        "背景と影響",
+        "今後の展望"
+      ],
+      "source_url": "https://cursor.com/ja/blog/claude-code-extension-security-notice",
+      "source_urls": [
+        "https://cursor.com/ja/blog/claude-code-extension-security-notice"
+      ],
+      "source_label": "cursor.com",
+      "cover": "assets/posts/1565732588016894093.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416106151585644636/threads/1565732588016894093",
+      "first_seen": "2026-10-30T14:22:18.888Z",
+      "kind": "other",
+      "kind_confidence": 0.42
+    },
+    {
+      "id": "1565732448376201316",
+      "title": "Google、非同期コーディングエージェント「Jules」を終了へ 機能は「Antigravity」に統合",
+      "channel": "jules",
+      "category": "Google",
+      "date": "2026-10-30T14:21:45.595Z",
+      "excerpt": "Googleは、自律型AIコーディングエージェント「Jules」の提供を終了すると発表しました。公式Xアカウント（@julesagent）は、Julesで得た知見をエージェントファーストの開発プラットフォーム「Google Antigravity」に取り込み…",
+      "lead": "Googleは、自律型AIコーディングエージェント「Jules」の提供を終了すると発表しました。公式Xアカウント（@julesagent）は、Julesで得た知見をエージェントファーストの開発プラットフォーム「Google Antigravity」に取り込み、「リモートでの自律的なバックグラウンドタスク実行」と「エージェント中心の開発環境」を一体化すると説明しています。Julesは2026年11月11日に読み取り専用となり、12月31日に完全終了する予定です。",
+      "headings": [
+        "Julesとは何だったのか",
+        "なぜAntigravityに統合するのか",
+        "利用者への影響と注意点",
+        "今後の展望"
+      ],
+      "source_url": "https://twitter.com/julesagent/status/2115883717705261283?a=FVJ3uwjTn6B7CzXQ4mU&s=19",
+      "source_urls": [
+        "https://twitter.com/julesagent/status/2115883717705261283?a=FVJ3uwjTn6B7CzXQ4mU&s=19",
+        "https://x.com/julesagent/status/2115883717705261283?a=FVJ3uwjTn6B7CzXQ4mU&s=19"
+      ],
+      "source_label": "twitter.com",
+      "url": "https://discord.com/channels/1415350002255007784/1420253556539129937/threads/1565732448376201316",
+      "first_seen": "2026-10-30T14:21:45.595Z",
+      "kind": "tool",
+      "kind_confidence": 0.85
+    },
     {
       "id": "1565516591142273034",
       "title": "Gemini Notebookが数百冊の教科書を無料で利用可能に OpenStaxやS Chandと連携し学習支援を強化",
