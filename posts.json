@@ -1,8 +1,60 @@
 {
-  "generated_at": "2026-10-30T15:53:52.479Z",
+  "generated_at": "2026-10-30T20:44:54.723Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1565762575319310346",
+      "title": "OpenAI、「コミュニティ安全レポート」公開を表明 暴力関連の応答制限と10代向け武器情報の規制を強化",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-10-30T16:21:28.418Z",
+      "excerpt": "OpenAIは2026年10月30日、ChatGPTにおける暴力防止の取り組みとして、半年ごとの透明性レポート「Community Safety Report」の発行と、10代ユーザー向けの武器関連情報の制限強化を発表しました。同社は2026年第3四半期だけ…",
+      "lead": "OpenAIは2026年10月30日、ChatGPTにおける暴力防止の取り組みとして、半年ごとの透明性レポート「Community Safety Report」の発行と、10代ユーザー向けの武器関連情報の制限強化を発表しました。同社は2026年第3四半期だけで200件を超える法執行機関への通報を行ったことも明らかにしています。新たな安全対策は今後数週間で順次展開される予定です。",
+      "headings": [
+        "半年ごとに安全対策の実効性を公開",
+        "全ユーザー対象の応答制限を強化",
+        "会話履歴から予兆を捉える仕組み",
+        "10代向けの武器・セキュリティ情報を制限",
+        "影響と課題",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens/",
+      "source_urls": [
+        "https://openai.com/index/community-safety-report-and-new-protections-for-teens/"
+      ],
+      "source_label": "openai.com",
+      "cover": "assets/posts/1565762575319310346.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1565762575319310346",
+      "first_seen": "2026-10-30T16:21:28.418Z",
+      "kind": "policy",
+      "kind_confidence": 0.97
+    },
+    {
+      "id": "1565762310339956918",
+      "title": "Google、金融・法務向けの無料Gemini動画講座を公開 エージェント活用を業界別に学べる学習バンドル",
+      "channel": "gemini",
+      "category": "Google",
+      "date": "2026-10-30T16:20:25.242Z",
+      "excerpt": "Google Cloudは2026年10月30日、学習プラットフォーム「Google Skills」で、金融サービスと法務の専門職向けに設計したGeminiの動画講座を公開しました。業界ごとの具体的な業務シナリオを起点に、エージェント型AIを日常業務へ取り入…",
+      "lead": "Google Cloudは2026年10月30日、学習プラットフォーム「Google Skills」で、金融サービスと法務の専門職向けに設計したGeminiの動画講座を公開しました。業界ごとの具体的な業務シナリオを起点に、エージェント型AIを日常業務へ取り入れる方法を短時間の動画で学べる構成で、すべて無料で視聴できます。",
+      "headings": [
+        "業界特化型の「学習バンドル」という設計",
+        "金融サービス向け：4講座",
+        "法務向け：5講座",
+        "上級者向けの「GEAR」プログラム",
+        "導入上の論点",
+        "今後の展望"
+      ],
+      "source_url": "https://cloud.google.com/blog/topics/training-certifications/new-gemini-courses-for-financial-services-and-legal-teams/?hl=en",
+      "source_urls": [
+        "https://cloud.google.com/blog/topics/training-certifications/new-gemini-courses-for-financial-services-and-legal-teams/?hl=en"
+      ],
+      "source_label": "cloud.google.com",
+      "cover": "assets/posts/1565762310339956918.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1565762310339956918",
+      "first_seen": "2026-10-30T16:20:25.242Z"
+    },
     {
       "id": "1565732588016894093",
       "title": "Cursorの拡張機能マーケットプレイスに偽の「Claude Code」拡張、SSHバックドア設置を狙う",
@@ -260,58 +312,6 @@
       "first_seen": "2026-10-29T11:49:16.438Z",
       "kind": "tool",
       "kind_confidence": 0.91
-    },
-    {
-      "id": "1565309888282890280",
-      "title": "SB Intuitions、思考型の国産LLM「Sarashina3.2 mini thinking」を発表 エージェント能力と安全性で比較モデル中トップ評価",
-      "channel": "日本国内",
-      "category": "日本国内",
-      "date": "2026-10-29T10:22:39.418Z",
-      "excerpt": "SB Intuitionsは2026年10月29日、フルスクラッチで開発した国産LLM「Sarashina3.2 mini thinking」を公開し、同社の「Sarashinaサービス」で利用可能なモデルに追加すると発表しました。前世代の指示モデルから、回…",
-      "lead": "SB Intuitionsは2026年10月29日、フルスクラッチで開発した国産LLM「Sarashina3.2 mini thinking」を公開し、同社の「Sarashinaサービス」で利用可能なモデルに追加すると発表しました。前世代の指示モデルから、回答前に推論を行う「思考モデル」へと進化し、エージェント系ベンチマークや安全性評価で比較対象の中で最高スコアを記録しています。",
-      "headings": [
-        "指示モデルから思考モデルへ",
-        "学習手法の強化",
-        "想定ユースケース",
-        "ベンチマーク結果",
-        "今後の展望"
-      ],
-      "source_url": "https://www.sbintuitions.co.jp/blog/entry/2026/10/29/133000",
-      "source_urls": [
-        "https://www.sbintuitions.co.jp/blog/entry/2026/10/29/133000"
-      ],
-      "source_label": "sbintuitions.co.jp",
-      "cover": "assets/posts/1565309888282890280.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1417536105930166282/threads/1565309888282890280",
-      "first_seen": "2026-10-29T10:22:39.418Z",
-      "kind": "model",
-      "kind_confidence": 1
-    },
-    {
-      "id": "1565247382403420270",
-      "title": "Chromeの「強化版自動入力」がGmail連携に対応、Geminiが注文番号や航空券予約をフォームへ自動提案",
-      "channel": "google",
-      "category": "Google",
-      "date": "2026-10-29T06:14:16.855Z",
-      "excerpt": "Googleは2026年10月28日、Chromeの「強化版自動入力（enhanced autofill）」がGmailの情報を基にフォーム入力を提案できるようになったと発表しました。「Personal Intelligence」を備えたGeminiが、受信…",
-      "lead": "Googleは2026年10月28日、Chromeの「強化版自動入力（enhanced autofill）」がGmailの情報を基にフォーム入力を提案できるようになったと発表しました。「Personal Intelligence」を備えたGeminiが、受信メールから注文番号、配送追跡情報、航空券の予約内容などを取り出し、入力が必要な場面で候補として示します。まず米国のデスクトップ、Android、iOSで展開が始まっています。",
-      "headings": [
-        "何ができるようになったのか",
-        "技術的なポイント：Personal Intelligenceの活用",
-        "プライバシーと利用条件",
-        "影響と注意点",
-        "今後の展望"
-      ],
-      "source_url": "https://blog.google/products-and-platforms/products/chrome/enhanced-autofill-gmail/",
-      "source_urls": [
-        "https://blog.google/products-and-platforms/products/chrome/enhanced-autofill-gmail/"
-      ],
-      "source_label": "blog.google",
-      "cover": "assets/posts/1565247382403420270.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1565247382403420270",
-      "first_seen": "2026-10-29T06:14:16.855Z",
-      "kind": "feature",
-      "kind_confidence": 1
     }
   ]
 }
