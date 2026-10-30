@@ -5,8 +5,40 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 29 Oct 2026 16:14:15 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2026 00:04:01 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Gemini Notebookが数百冊の教科書を無料で利用可能に OpenStaxやS Chandと連携し学習支援を強化</title>
+      <link>https://discord.com/channels/1415350002255007784/1418011435287707648/threads/1565516591142273034</link>
+      <guid isPermaLink="false">afnjp-1565516591142273034</guid>
+      <pubDate>Fri, 30 Oct 2026 00:04:01 GMT</pubDate>
+      <category>gemini-notebook</category>
+      <description>Googleは2026年10月29日、AI学習ツール「Gemini Notebook」で、米国とインドの提供元による数百冊の教科書を無料で追加できるようにしたと発表しました。追加した教科書に基づいて回答が生成され、学習用の教材も自動で作成できます。</description>
+    </item>
+    <item>
+      <title>ElevenLabs、効果音生成モデル「SFX v3」を公開 複数音の同時指示と音質を大幅改善</title>
+      <link>https://discord.com/channels/1415350002255007784/1441006356399259719/threads/1565516443296997406</link>
+      <guid isPermaLink="false">afnjp-1565516443296997406</guid>
+      <pubDate>Fri, 30 Oct 2026 00:03:25 GMT</pubDate>
+      <category>eleven-labs</category>
+      <description>音声AI企業のElevenLabsは2026年10月29日、テキストから効果音を生成する最新モデル「SFX v3」を発表しました。1つのプロンプトに複数の音を記述した場合の再現性、音楽やボーカルを含む音の生成品質、そして音そのものの自然さが、前世代のSFX …</description>
+    </item>
+    <item>
+      <title>OpenAI「Private Intelligence」発表、企業データを&quot;見ない&quot;AI基盤へ</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1565516351055859712</link>
+      <guid isPermaLink="false">afnjp-1565516351055859712</guid>
+      <pubDate>Fri, 30 Oct 2026 00:03:03 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIは、企業が機密データを守りながら最先端AIを利用できるようにする包括的な取り組み「Private Intelligence」を打ち出しました。2026年9月29日のDevDay 2026で発表されたもので、データを保存せずに安全性審査を行う「ZD…</description>
+    </item>
+    <item>
+      <title>Gemini、チャット内でPDF・ドキュメント・スライドを「生成から編集まで」完結 フルスクリーンエディターを全ユーザーに提供</title>
+      <link>https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1565516246860963971</link>
+      <guid isPermaLink="false">afnjp-1565516246860963971</guid>
+      <pubDate>Fri, 30 Oct 2026 00:02:39 GMT</pubDate>
+      <category>gemini</category>
+      <description>Googleは2026年10月29日、Geminiアプリでドキュメント、PDF、プレゼンテーション、スプレッドシート、コードなどのファイルを、チャット画面の中で直接生成・プレビュー・編集できる新機能を発表しました。生成したファイルをフルスクリーンに展開して手…</description>
+    </item>
     <item>
       <title>Microsoft、財務部門向けCopilotを大幅拡張 25超の財務スキルと金融データ連携プラグインを投入</title>
       <link>https://discord.com/channels/1415350002255007784/1423003108790767748/threads/1565398369810251958</link>
@@ -70,38 +102,6 @@
       <pubDate>Wed, 28 Oct 2026 23:48:12 GMT</pubDate>
       <category>chatgpt</category>
       <description>OpenAIは2026年10月28日、対象となるChatGPT ProおよびBusinessの有料契約者に対し、毎月最大500ドル分のAPIクレジットを無償で付与する特典を開始しました。これまで完全に別建てだった「ChatGPTの定額サブスク」と「従量課金の…</description>
-    </item>
-    <item>
-      <title>ElevenLabs、文字単位で音声とテキストを同期する強制アラインメントモデル「Cue」を発表</title>
-      <link>https://discord.com/channels/1415350002255007784/1441006356399259719/threads/1565149395417174077</link>
-      <guid isPermaLink="false">afnjp-1565149395417174077</guid>
-      <pubDate>Wed, 28 Oct 2026 23:44:54 GMT</pubDate>
-      <category>eleven-labs</category>
-      <description>ElevenLabsは2026年10月28日、音声ファイル内のすべての文字を正確なタイムライン上に配置する強制アラインメントモデル「Cue」を発表しました。同社の音声認識モデル群「Scribe」の基盤として既に稼働しており、29言語のベンチマークで同社が検証…</description>
-    </item>
-    <item>
-      <title>Android XR初の有線XRグラス「XREAL AURA」発売、Gemini統合と70度視野角で“持ち運べるワークスペース”を実現</title>
-      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1565093652643057775</link>
-      <guid isPermaLink="false">afnjp-1565093652643057775</guid>
-      <pubDate>Wed, 28 Oct 2026 20:03:24 GMT</pubDate>
-      <category>google</category>
-      <description>GoogleとXREALは2026年10月28日、Android XRを搭載した初の有線XRグラス「XREAL AURA」を正式発表しました。透過型レンズで現実世界を見ながら空間コンテンツを表示でき、Geminiが画面と周囲の状況を理解して作業を支援します。…</description>
-    </item>
-    <item>
-      <title>Google、GeminiとSearch向け「Connected Apps Platform」をプレビュー公開 MCPで一度の開発で両方に展開</title>
-      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1565092647436165201</link>
-      <guid isPermaLink="false">afnjp-1565092647436165201</guid>
-      <pubDate>Wed, 28 Oct 2026 19:59:25 GMT</pubDate>
-      <category>google</category>
-      <description>Googleは2026年10月28日、検索（Search）とGeminiアプリに外部アプリの機能を統合する「Connected Apps」の開発・管理基盤として、「Connected Apps Platform」のプレビュー提供を開始したと発表しました。開発…</description>
-    </item>
-    <item>
-      <title>Google「Gemini 4 Carbon」発表、サイバー防御と長時間タスクで最先端性能</title>
-      <link>https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1565092434826887188</link>
-      <guid isPermaLink="false">afnjp-1565092434826887188</guid>
-      <pubDate>Wed, 28 Oct 2026 19:58:34 GMT</pubDate>
-      <category>gemini</category>
-      <description>Google DeepMindは2026年10月28日、次世代フロンティアモデル「Gemini 4 Carbon」を発表しました。同社最強のモデルと位置付けられ、脆弱性の発見・検証・修正というサイバー防御の一連の工程と、数日単位で続く長時間のエージェント型タ…</description>
     </item>
   </channel>
 </rss>

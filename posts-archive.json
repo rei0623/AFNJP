@@ -1,9 +1,113 @@
 {
-  "generated_at": "2026-10-29T21:47:08.399Z",
+  "generated_at": "2026-10-30T01:55:55.482Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 501,
+  "count": 505,
   "posts": [
+    {
+      "id": "1565516591142273034",
+      "title": "Gemini Notebookが数百冊の教科書を無料で利用可能に OpenStaxやS Chandと連携し学習支援を強化",
+      "channel": "gemini-notebook",
+      "category": "Google",
+      "date": "2026-10-30T00:04:01.220Z",
+      "excerpt": "Googleは2026年10月29日、AI学習ツール「Gemini Notebook」で、米国とインドの提供元による数百冊の教科書を無料で追加できるようにしたと発表しました。追加した教科書に基づいて回答が生成され、学習用の教材も自動で作成できます。",
+      "lead": "Googleは2026年10月29日、AI学習ツール「Gemini Notebook」で、米国とインドの提供元による数百冊の教科書を無料で追加できるようにしたと発表しました。追加した教科書に基づいて回答が生成され、学習用の教材も自動で作成できます。",
+      "headings": [
+        "発表の概要",
+        "技術的なポイント：教科書に根拠づけられた回答",
+        "背景：Expert Intelligence構想の拡張",
+        "影響と注意点",
+        "今後の展望"
+      ],
+      "source_url": "https://blog.google/innovation-and-ai/products/gemini-notebook/new-access-textbooks/",
+      "source_urls": [
+        "https://blog.google/innovation-and-ai/products/gemini-notebook/new-access-textbooks/"
+      ],
+      "source_label": "blog.google",
+      "cover": "assets/posts/1565516591142273034.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1418011435287707648/threads/1565516591142273034",
+      "first_seen": "2026-10-30T00:04:01.220Z",
+      "kind": "feature",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1565516443296997406",
+      "title": "ElevenLabs、効果音生成モデル「SFX v3」を公開 複数音の同時指示と音質を大幅改善",
+      "channel": "eleven-labs",
+      "category": "その他",
+      "date": "2026-10-30T00:03:25.971Z",
+      "excerpt": "音声AI企業のElevenLabsは2026年10月29日、テキストから効果音を生成する最新モデル「SFX v3」を発表しました。1つのプロンプトに複数の音を記述した場合の再現性、音楽やボーカルを含む音の生成品質、そして音そのものの自然さが、前世代のSFX …",
+      "lead": "音声AI企業のElevenLabsは2026年10月29日、テキストから効果音を生成する最新モデル「SFX v3」を発表しました。1つのプロンプトに複数の音を記述した場合の再現性、音楽やボーカルを含む音の生成品質、そして音そのものの自然さが、前世代のSFX v2から改善されたとしています。クリエイター向けの「ElevenCreative」と開発者向けの「ElevenAPI」の双方で、すでに利用可能です。",
+      "headings": [
+        "「シーン全体の音」を1回の指示で",
+        "音楽・ボーカルを含む効果音にも対応強化",
+        "アーティファクトを抑えた自然な音質",
+        "提供形態と利用シーン",
+        "今後の展望"
+      ],
+      "source_url": "https://elevenlabs.io/blog/sound-effects-v3",
+      "source_urls": [
+        "https://elevenlabs.io/blog/sound-effects-v3"
+      ],
+      "source_label": "elevenlabs.io",
+      "cover": "assets/posts/1565516443296997406.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1441006356399259719/threads/1565516443296997406",
+      "first_seen": "2026-10-30T00:03:25.971Z",
+      "kind": "model",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1565516351055859712",
+      "title": "OpenAI「Private Intelligence」発表、企業データを\"見ない\"AI基盤へ",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-10-30T00:03:03.979Z",
+      "excerpt": "OpenAIは、企業が機密データを守りながら最先端AIを利用できるようにする包括的な取り組み「Private Intelligence」を打ち出しました。2026年9月29日のDevDay 2026で発表されたもので、データを保存せずに安全性審査を行う「ZD…",
+      "lead": "OpenAIは、企業が機密データを守りながら最先端AIを利用できるようにする包括的な取り組み「Private Intelligence」を打ち出しました。2026年9月29日のDevDay 2026で発表されたもので、データを保存せずに安全性審査を行う「ZDR with Private Safety Processing」と、機密コンピューティングを用いた「Private Inference」の2本柱で構成されます。「学習には使わない」という約束を、技術的な仕組みで裏付けようとする点が最大の特徴です。",
+      "headings": [
+        "2つの構成要素",
+        "PSPの技術的な仕組み",
+        "背景：高まる「AI企業にデータを見られる」懸念",
+        "導入上の注意点",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/business/private-intelligence/",
+      "source_urls": [
+        "https://openai.com/business/private-intelligence/"
+      ],
+      "source_label": "openai.com",
+      "cover": "assets/posts/1565516351055859712.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1565516351055859712",
+      "first_seen": "2026-10-30T00:03:03.979Z",
+      "kind": "feature",
+      "kind_confidence": 0.31
+    },
+    {
+      "id": "1565516246860963971",
+      "title": "Gemini、チャット内でPDF・ドキュメント・スライドを「生成から編集まで」完結 フルスクリーンエディターを全ユーザーに提供",
+      "channel": "gemini",
+      "category": "Google",
+      "date": "2026-10-30T00:02:39.137Z",
+      "excerpt": "Googleは2026年10月29日、Geminiアプリでドキュメント、PDF、プレゼンテーション、スプレッドシート、コードなどのファイルを、チャット画面の中で直接生成・プレビュー・編集できる新機能を発表しました。生成したファイルをフルスクリーンに展開して手…",
+      "lead": "Googleは2026年10月29日、Geminiアプリでドキュメント、PDF、プレゼンテーション、スプレッドシート、コードなどのファイルを、チャット画面の中で直接生成・プレビュー・編集できる新機能を発表しました。生成したファイルをフルスクリーンに展開して手動で書き換えたり、特定箇所をハイライトしてGeminiに修正や質問を依頼したりできます。Geminiアプリが提供されているすべての言語で、全ユーザーが利用可能です。",
+      "headings": [
+        "何ができるようになったのか",
+        "対応フォーマットとプラットフォーム",
+        "従来との違いと意義",
+        "利用上の注意点",
+        "今後の展望"
+      ],
+      "source_url": "https://blog.google/innovation-and-ai/products/gemini-app/edit-files-directly/",
+      "source_urls": [
+        "https://blog.google/innovation-and-ai/products/gemini-app/edit-files-directly/"
+      ],
+      "source_label": "blog.google",
+      "cover": "assets/posts/1565516246860963971.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1565516246860963971",
+      "first_seen": "2026-10-30T00:02:39.137Z",
+      "kind": "feature",
+      "kind_confidence": 1
+    },
     {
       "id": "1565398369810251958",
       "title": "Microsoft、財務部門向けCopilotを大幅拡張 25超の財務スキルと金融データ連携プラグインを投入",

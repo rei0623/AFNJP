@@ -1,8 +1,112 @@
 {
-  "generated_at": "2026-10-29T21:47:08.403Z",
+  "generated_at": "2026-10-30T01:55:55.486Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1565516591142273034",
+      "title": "Gemini Notebookが数百冊の教科書を無料で利用可能に OpenStaxやS Chandと連携し学習支援を強化",
+      "channel": "gemini-notebook",
+      "category": "Google",
+      "date": "2026-10-30T00:04:01.220Z",
+      "excerpt": "Googleは2026年10月29日、AI学習ツール「Gemini Notebook」で、米国とインドの提供元による数百冊の教科書を無料で追加できるようにしたと発表しました。追加した教科書に基づいて回答が生成され、学習用の教材も自動で作成できます。",
+      "lead": "Googleは2026年10月29日、AI学習ツール「Gemini Notebook」で、米国とインドの提供元による数百冊の教科書を無料で追加できるようにしたと発表しました。追加した教科書に基づいて回答が生成され、学習用の教材も自動で作成できます。",
+      "headings": [
+        "発表の概要",
+        "技術的なポイント：教科書に根拠づけられた回答",
+        "背景：Expert Intelligence構想の拡張",
+        "影響と注意点",
+        "今後の展望"
+      ],
+      "source_url": "https://blog.google/innovation-and-ai/products/gemini-notebook/new-access-textbooks/",
+      "source_urls": [
+        "https://blog.google/innovation-and-ai/products/gemini-notebook/new-access-textbooks/"
+      ],
+      "source_label": "blog.google",
+      "cover": "assets/posts/1565516591142273034.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1418011435287707648/threads/1565516591142273034",
+      "first_seen": "2026-10-30T00:04:01.220Z",
+      "kind": "feature",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1565516443296997406",
+      "title": "ElevenLabs、効果音生成モデル「SFX v3」を公開 複数音の同時指示と音質を大幅改善",
+      "channel": "eleven-labs",
+      "category": "その他",
+      "date": "2026-10-30T00:03:25.971Z",
+      "excerpt": "音声AI企業のElevenLabsは2026年10月29日、テキストから効果音を生成する最新モデル「SFX v3」を発表しました。1つのプロンプトに複数の音を記述した場合の再現性、音楽やボーカルを含む音の生成品質、そして音そのものの自然さが、前世代のSFX …",
+      "lead": "音声AI企業のElevenLabsは2026年10月29日、テキストから効果音を生成する最新モデル「SFX v3」を発表しました。1つのプロンプトに複数の音を記述した場合の再現性、音楽やボーカルを含む音の生成品質、そして音そのものの自然さが、前世代のSFX v2から改善されたとしています。クリエイター向けの「ElevenCreative」と開発者向けの「ElevenAPI」の双方で、すでに利用可能です。",
+      "headings": [
+        "「シーン全体の音」を1回の指示で",
+        "音楽・ボーカルを含む効果音にも対応強化",
+        "アーティファクトを抑えた自然な音質",
+        "提供形態と利用シーン",
+        "今後の展望"
+      ],
+      "source_url": "https://elevenlabs.io/blog/sound-effects-v3",
+      "source_urls": [
+        "https://elevenlabs.io/blog/sound-effects-v3"
+      ],
+      "source_label": "elevenlabs.io",
+      "cover": "assets/posts/1565516443296997406.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1441006356399259719/threads/1565516443296997406",
+      "first_seen": "2026-10-30T00:03:25.971Z",
+      "kind": "model",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1565516351055859712",
+      "title": "OpenAI「Private Intelligence」発表、企業データを\"見ない\"AI基盤へ",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-10-30T00:03:03.979Z",
+      "excerpt": "OpenAIは、企業が機密データを守りながら最先端AIを利用できるようにする包括的な取り組み「Private Intelligence」を打ち出しました。2026年9月29日のDevDay 2026で発表されたもので、データを保存せずに安全性審査を行う「ZD…",
+      "lead": "OpenAIは、企業が機密データを守りながら最先端AIを利用できるようにする包括的な取り組み「Private Intelligence」を打ち出しました。2026年9月29日のDevDay 2026で発表されたもので、データを保存せずに安全性審査を行う「ZDR with Private Safety Processing」と、機密コンピューティングを用いた「Private Inference」の2本柱で構成されます。「学習には使わない」という約束を、技術的な仕組みで裏付けようとする点が最大の特徴です。",
+      "headings": [
+        "2つの構成要素",
+        "PSPの技術的な仕組み",
+        "背景：高まる「AI企業にデータを見られる」懸念",
+        "導入上の注意点",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/business/private-intelligence/",
+      "source_urls": [
+        "https://openai.com/business/private-intelligence/"
+      ],
+      "source_label": "openai.com",
+      "cover": "assets/posts/1565516351055859712.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1565516351055859712",
+      "first_seen": "2026-10-30T00:03:03.979Z",
+      "kind": "feature",
+      "kind_confidence": 0.31
+    },
+    {
+      "id": "1565516246860963971",
+      "title": "Gemini、チャット内でPDF・ドキュメント・スライドを「生成から編集まで」完結 フルスクリーンエディターを全ユーザーに提供",
+      "channel": "gemini",
+      "category": "Google",
+      "date": "2026-10-30T00:02:39.137Z",
+      "excerpt": "Googleは2026年10月29日、Geminiアプリでドキュメント、PDF、プレゼンテーション、スプレッドシート、コードなどのファイルを、チャット画面の中で直接生成・プレビュー・編集できる新機能を発表しました。生成したファイルをフルスクリーンに展開して手…",
+      "lead": "Googleは2026年10月29日、Geminiアプリでドキュメント、PDF、プレゼンテーション、スプレッドシート、コードなどのファイルを、チャット画面の中で直接生成・プレビュー・編集できる新機能を発表しました。生成したファイルをフルスクリーンに展開して手動で書き換えたり、特定箇所をハイライトしてGeminiに修正や質問を依頼したりできます。Geminiアプリが提供されているすべての言語で、全ユーザーが利用可能です。",
+      "headings": [
+        "何ができるようになったのか",
+        "対応フォーマットとプラットフォーム",
+        "従来との違いと意義",
+        "利用上の注意点",
+        "今後の展望"
+      ],
+      "source_url": "https://blog.google/innovation-and-ai/products/gemini-app/edit-files-directly/",
+      "source_urls": [
+        "https://blog.google/innovation-and-ai/products/gemini-app/edit-files-directly/"
+      ],
+      "source_label": "blog.google",
+      "cover": "assets/posts/1565516246860963971.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1565516246860963971",
+      "first_seen": "2026-10-30T00:02:39.137Z",
+      "kind": "feature",
+      "kind_confidence": 1
+    },
     {
       "id": "1565398369810251958",
       "title": "Microsoft、財務部門向けCopilotを大幅拡張 25超の財務スキルと金融データ連携プラグインを投入",
@@ -208,111 +312,6 @@
       "first_seen": "2026-10-28T23:48:12.311Z",
       "kind": "feature",
       "kind_confidence": 0.93
-    },
-    {
-      "id": "1565149395417174077",
-      "title": "ElevenLabs、文字単位で音声とテキストを同期する強制アラインメントモデル「Cue」を発表",
-      "channel": "eleven-labs",
-      "category": "その他",
-      "date": "2026-10-28T23:44:54.937Z",
-      "excerpt": "ElevenLabsは2026年10月28日、音声ファイル内のすべての文字を正確なタイムライン上に配置する強制アラインメントモデル「Cue」を発表しました。同社の音声認識モデル群「Scribe」の基盤として既に稼働しており、29言語のベンチマークで同社が検証…",
-      "lead": "ElevenLabsは2026年10月28日、音声ファイル内のすべての文字を正確なタイムライン上に配置する強制アラインメントモデル「Cue」を発表しました。同社の音声認識モデル群「Scribe」の基盤として既に稼働しており、29言語のベンチマークで同社が検証したすべての既存アライナーを上回る精度を示したとしています。1時間の音声を約0.5秒で処理できる高速性も特徴です。",
-      "headings": [
-        "強制アラインメントとは",
-        "既存アライナーの課題とCueの改善点",
-        "評価手法の限界",
-        "歌唱音声への対応",
-        "今後の展望"
-      ],
-      "source_url": "https://elevenlabs.io/blog/cue-aligner",
-      "source_urls": [
-        "https://elevenlabs.io/blog/cue-aligner"
-      ],
-      "source_label": "elevenlabs.io",
-      "cover": "assets/posts/1565149395417174077.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1441006356399259719/threads/1565149395417174077",
-      "first_seen": "2026-10-28T23:44:54.937Z",
-      "kind": "model",
-      "kind_confidence": 0.99
-    },
-    {
-      "id": "1565093652643057775",
-      "title": "Android XR初の有線XRグラス「XREAL AURA」発売、Gemini統合と70度視野角で“持ち運べるワークスペース”を実現",
-      "channel": "google",
-      "category": "Google",
-      "date": "2026-10-28T20:03:24.824Z",
-      "excerpt": "GoogleとXREALは2026年10月28日、Android XRを搭載した初の有線XRグラス「XREAL AURA」を正式発表しました。透過型レンズで現実世界を見ながら空間コンテンツを表示でき、Geminiが画面と周囲の状況を理解して作業を支援します。…",
-      "lead": "GoogleとXREALは2026年10月28日、Android XRを搭載した初の有線XRグラス「XREAL AURA」を正式発表しました。透過型レンズで現実世界を見ながら空間コンテンツを表示でき、Geminiが画面と周囲の状況を理解して作業を支援します。米国・カナダ・韓国で即日受注を開始し、日本では11月2日から注文を受け付けます。",
-      "headings": [
-        "技術的詳細：処理を「パック」に分離した設計",
-        "Geminiによる“視界全体”のAI支援",
-        "業務利用を意識した「Wired Mirroring」",
-        "エンタメ・写真体験の拡張",
-        "影響と課題",
-        "今後の展望"
-      ],
-      "source_url": "https://blog.google/products-and-platforms/platforms/android/xreal-aura/",
-      "source_urls": [
-        "https://blog.google/products-and-platforms/platforms/android/xreal-aura/"
-      ],
-      "source_label": "blog.google",
-      "cover": "assets/posts/1565093652643057775.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1565093652643057775",
-      "first_seen": "2026-10-28T20:03:24.824Z",
-      "kind": "model",
-      "kind_confidence": 0.98
-    },
-    {
-      "id": "1565092647436165201",
-      "title": "Google、GeminiとSearch向け「Connected Apps Platform」をプレビュー公開 MCPで一度の開発で両方に展開",
-      "channel": "google",
-      "category": "Google",
-      "date": "2026-10-28T19:59:25.164Z",
-      "excerpt": "Googleは2026年10月28日、検索（Search）とGeminiアプリに外部アプリの機能を統合する「Connected Apps」の開発・管理基盤として、「Connected Apps Platform」のプレビュー提供を開始したと発表しました。開発…",
-      "lead": "Googleは2026年10月28日、検索（Search）とGeminiアプリに外部アプリの機能を統合する「Connected Apps」の開発・管理基盤として、「Connected Apps Platform」のプレビュー提供を開始したと発表しました。開発者は一度の実装で両サービスにアプリを展開でき、公開後の運用状況も一元的に把握できます。あわせて、Adobe、Calm、Pelotonなど新たなパートナーアプリの提供も明らかにしました。",
-      "headings": [
-        "Connected Appsとは",
-        "技術的な仕組み：MCPとAppFunctionsで接続",
-        "50超のアプリが稼働、パートナーも拡大",
-        "開発者と業界への影響",
-        "今後の展望"
-      ],
-      "source_url": "https://blog.google/innovation-and-ai/technology/developers-tools/connected-apps-one-place/",
-      "source_urls": [
-        "https://blog.google/innovation-and-ai/technology/developers-tools/connected-apps-one-place/"
-      ],
-      "source_label": "blog.google",
-      "cover": "assets/posts/1565092647436165201.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1565092647436165201",
-      "first_seen": "2026-10-28T19:59:25.164Z",
-      "kind": "tool",
-      "kind_confidence": 0.97
-    },
-    {
-      "id": "1565092434826887188",
-      "title": "Google「Gemini 4 Carbon」発表、サイバー防御と長時間タスクで最先端性能",
-      "channel": "gemini",
-      "category": "Google",
-      "date": "2026-10-28T19:58:34.474Z",
-      "excerpt": "Google DeepMindは2026年10月28日、次世代フロンティアモデル「Gemini 4 Carbon」を発表しました。同社最強のモデルと位置付けられ、脆弱性の発見・検証・修正というサイバー防御の一連の工程と、数日単位で続く長時間のエージェント型タ…",
-      "lead": "Google DeepMindは2026年10月28日、次世代フロンティアモデル「Gemini 4 Carbon」を発表しました。同社最強のモデルと位置付けられ、脆弱性の発見・検証・修正というサイバー防御の一連の工程と、数日単位で続く長時間のエージェント型タスクで最先端の性能を示したとしています。一般提供の前に、まずサイバー防御担当者への限定提供から始めます。",
-      "headings": [
-        "技術的なポイント",
-        "安全性とアライメントの強化",
-        "提供方針と価格",
-        "影響と注意点",
-        "今後の展望"
-      ],
-      "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/",
-      "source_urls": [
-        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-carbon/"
-      ],
-      "source_label": "blog.google",
-      "cover": "assets/posts/1565092434826887188.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1565092434826887188",
-      "first_seen": "2026-10-28T19:58:34.474Z",
-      "kind": "model",
-      "kind_confidence": 1
     }
   ]
 }
