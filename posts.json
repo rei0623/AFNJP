@@ -1,8 +1,34 @@
 {
-  "generated_at": "2026-10-31T06:57:38.426Z",
+  "generated_at": "2026-10-31T13:37:06.614Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1566001118251585607",
+      "title": "トヨタとWaymo、自動運転bZ4Xを2027年に日本で運用開始へ 高岡工場で一貫生産",
+      "channel": "日本国内",
+      "category": "日本国内",
+      "date": "2026-10-31T08:09:21.485Z",
+      "excerpt": "トヨタ自動車とWaymoは2026年10月30日、自動運転分野における協業の次段階を発表しました。トヨタのEV「bZ4X」をベースとした自動運転車両の車隊を、2027年に日本で試験・検証運用として立ち上げ、その後は英国をはじめWaymoのサービス展開地域へ広…",
+      "lead": "トヨタ自動車とWaymoは2026年10月30日、自動運転分野における協業の次段階を発表しました。トヨタのEV「bZ4X」をベースとした自動運転車両の車隊を、2027年に日本で試験・検証運用として立ち上げ、その後は英国をはじめWaymoのサービス展開地域へ広げる計画です。国内で量産された車両を用いる、日本初の完全自動運転ライドヘイリング（配車）サービスの拡大に向けた大きな節目と位置付けられています。",
+      "headings": [
+        "発表のポイント",
+        "技術的詳細：量産と自動運転の「一体製造」",
+        "背景と文脈",
+        "影響と課題",
+        "今後の展望"
+      ],
+      "source_url": "https://waymo.com/blog/2026/10/toyota-bz4x-partnership/",
+      "source_urls": [
+        "https://waymo.com/blog/2026/10/toyota-bz4x-partnership/"
+      ],
+      "source_label": "waymo.com",
+      "cover": "assets/posts/1566001118251585607.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417536105930166282/threads/1566001118251585607",
+      "first_seen": "2026-10-31T08:09:21.485Z",
+      "kind": "business",
+      "kind_confidence": 0.81
+    },
     {
       "id": "1565934746540965928",
       "title": "OpenAI、AI学習の可否をrobots.txtの共通シグナルで一括表明可能に IETF標準化と歩調",
@@ -287,31 +313,6 @@
       "source_label": "articul8.ai",
       "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1565376920571478140",
       "first_seen": "2026-10-29T14:49:01.161Z",
-      "kind": "model",
-      "kind_confidence": 1
-    },
-    {
-      "id": "1565376827344691320",
-      "title": "Mistral AI、1兆パラメータの「Mistral Large 4」をオープンウェイト公開 1Mコンテキストとマルチモーダル対応",
-      "channel": "mistral-ai",
-      "category": "その他",
-      "date": "2026-10-29T14:48:38.934Z",
-      "excerpt": "仏Mistral AIは、同社史上最大かつ最高性能のモデル「Mistral Large 4」（愛称：Le Chonk）をHugging Faceで公開しました。総パラメータ約1兆のMixture-of-Experts（MoE）構成で、指示追従・推論・コーディ…",
-      "lead": "仏Mistral AIは、同社史上最大かつ最高性能のモデル「Mistral Large 4」（愛称：Le Chonk）をHugging Faceで公開しました。総パラメータ約1兆のMixture-of-Experts（MoE）構成で、指示追従・推論・コーディング・エージェント処理を単一の重みに統合しています。商用利用も可能な独自のオープンウェイトライセンスで提供されます。",
-      "headings": [
-        "アーキテクチャの特徴",
-        "性能と効率",
-        "導入面の現実",
-        "今後の展望"
-      ],
-      "source_url": "https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B",
-      "source_urls": [
-        "https://huggingface.co/mistralai/Mistral-Large-4-1T-A52B"
-      ],
-      "source_label": "huggingface.co",
-      "cover": "assets/posts/1565376827344691320.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1460897850354438283/threads/1565376827344691320",
-      "first_seen": "2026-10-29T14:48:38.934Z",
       "kind": "model",
       "kind_confidence": 1
     }
