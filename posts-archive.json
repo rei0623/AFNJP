@@ -1,9 +1,34 @@
 {
-  "generated_at": "2026-10-31T00:44:39.580Z",
+  "generated_at": "2026-10-31T06:57:38.421Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 509,
+  "count": 510,
   "posts": [
+    {
+      "id": "1565934746540965928",
+      "title": "OpenAI、AI学習の可否をrobots.txtの共通シグナルで一括表明可能に IETF標準化と歩調",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-10-31T03:45:37.236Z",
+      "excerpt": "OpenAIは2026年10月30日、Webサイト運営者が「基盤となる生成AIモデルの学習」に自サイトのコンテンツを使ってよいかを表明できる、robots.txt上の共通シグナルを尊重すると発表しました。これまで事業者ごとに個別のクローラーを指定する必要があ…",
+      "lead": "OpenAIは2026年10月30日、Webサイト運営者が「基盤となる生成AIモデルの学習」に自サイトのコンテンツを使ってよいかを表明できる、robots.txt上の共通シグナルを尊重すると発表しました。これまで事業者ごとに個別のクローラーを指定する必要があった設定を、参加する複数のAI事業者へ一度で伝えられるようになります。",
+      "headings": [
+        "何が変わるのか",
+        "標準化の動きと各社の対応",
+        "既存の制御との関係と注意点",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/ja-JP/index/helping-websites-express-ai-training-preferences/",
+      "source_urls": [
+        "https://openai.com/ja-JP/index/helping-websites-express-ai-training-preferences/"
+      ],
+      "source_label": "openai.com",
+      "cover": "assets/posts/1565934746540965928.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1565934746540965928",
+      "first_seen": "2026-10-31T03:45:37.236Z",
+      "kind": "policy",
+      "kind_confidence": 0.66
+    },
     {
       "id": "1565762575319310346",
       "title": "OpenAI、「コミュニティ安全レポート」公開を表明 暴力関連の応答制限と10代向け武器情報の規制を強化",

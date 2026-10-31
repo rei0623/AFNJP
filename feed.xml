@@ -5,8 +5,16 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 30 Oct 2026 16:21:28 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 31 Oct 2026 03:45:37 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>OpenAI、AI学習の可否をrobots.txtの共通シグナルで一括表明可能に IETF標準化と歩調</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1565934746540965928</link>
+      <guid isPermaLink="false">afnjp-1565934746540965928</guid>
+      <pubDate>Sat, 31 Oct 2026 03:45:37 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIは2026年10月30日、Webサイト運営者が「基盤となる生成AIモデルの学習」に自サイトのコンテンツを使ってよいかを表明できる、robots.txt上の共通シグナルを尊重すると発表しました。これまで事業者ごとに個別のクローラーを指定する必要があ…</description>
+    </item>
     <item>
       <title>OpenAI、「コミュニティ安全レポート」公開を表明 暴力関連の応答制限と10代向け武器情報の規制を強化</title>
       <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1565762575319310346</link>
@@ -94,14 +102,6 @@
       <pubDate>Thu, 29 Oct 2026 14:48:38 GMT</pubDate>
       <category>mistral-ai</category>
       <description>仏Mistral AIは、同社史上最大かつ最高性能のモデル「Mistral Large 4」（愛称：Le Chonk）をHugging Faceで公開しました。総パラメータ約1兆のMixture-of-Experts（MoE）構成で、指示追従・推論・コーディ…</description>
-    </item>
-    <item>
-      <title>Sakana AI、企業向け「Sakana API Platform」を発表 OpenAI互換APIと管理機能でアーリーアクセス開始</title>
-      <link>https://discord.com/channels/1415350002255007784/1420683387395375115/threads/1565331686164799519</link>
-      <guid isPermaLink="false">afnjp-1565331686164799519</guid>
-      <pubDate>Thu, 29 Oct 2026 11:49:16 GMT</pubDate>
-      <category>sakana-ai</category>
-      <description>Sakana AIは2026年10月28日、エンタープライズ向けの新サービス「Sakana API Platform」を発表し、アーリーアクセスプログラムの受付を開始しました。同社のLLMをAPI経由で利用できるだけでなく、組織・ワークスペース単位での利用料…</description>
     </item>
   </channel>
 </rss>
