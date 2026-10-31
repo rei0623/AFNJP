@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T20:44:54.719Z",
+  "generated_at": "2026-10-31T00:44:39.580Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "count": 509,
@@ -54,7 +54,9 @@
       "source_label": "cloud.google.com",
       "cover": "assets/posts/1565762310339956918.webp",
       "url": "https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1565762310339956918",
-      "first_seen": "2026-10-30T16:20:25.242Z"
+      "first_seen": "2026-10-30T16:20:25.242Z",
+      "kind": "feature",
+      "kind_confidence": 0.68
     },
     {
       "id": "1565732588016894093",
