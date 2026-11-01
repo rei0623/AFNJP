@@ -1,8 +1,33 @@
 {
-  "generated_at": "2026-10-31T22:27:03.904Z",
+  "generated_at": "2026-11-01T02:10:35.145Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1566252902413246594",
+      "title": "Google「Antigravity」にクラウド実行機能が登場へ Jules終了と開発環境の統合が加速",
+      "channel": "リーク情報",
+      "category": "リーク情報",
+      "date": "2026-11-01T00:49:51.507Z",
+      "excerpt": "GoogleのAIコーディング環境「Antigravity」の最新ビルドから、ローカル実行とクラウド実行を切り替えるトグルや、バックグラウンドジョブを管理する「Running Jobs」セクションが見つかりました。GoogleはAIコーディングエージェント「…",
+      "lead": "GoogleのAIコーディング環境「Antigravity」の最新ビルドから、ローカル実行とクラウド実行を切り替えるトグルや、バックグラウンドジョブを管理する「Running Jobs」セクションが見つかりました。GoogleはAIコーディングエージェント「Jules」を2026年12月31日で終了すると発表しており、Julesの中核機能だったクラウド実行がAntigravityへ移される可能性が高まっています。",
+      "headings": [
+        "Julesの終了とAntigravityへの集約",
+        "最新ビルドで確認された変更点",
+        "競合との比較と開発者への影響",
+        "今後の展望"
+      ],
+      "source_url": "https://www.testingcatalog.com/cloud-execution-is-coming-to-antigravity-soon/",
+      "source_urls": [
+        "https://www.testingcatalog.com/cloud-execution-is-coming-to-antigravity-soon/"
+      ],
+      "source_label": "testingcatalog.com",
+      "cover": "assets/posts/1566252902413246594.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415534435712897124/threads/1566252902413246594",
+      "first_seen": "2026-11-01T00:49:51.507Z",
+      "kind": "feature",
+      "kind_confidence": 0.57
+    },
     {
       "id": "1566001118251585607",
       "title": "トヨタとWaymo、自動運転bZ4Xを2027年に日本で運用開始へ 高岡工場で一貫生産",
@@ -288,32 +313,6 @@
       "url": "https://discord.com/channels/1415350002255007784/1423003108790767748/threads/1565398369810251958",
       "first_seen": "2026-10-29T16:14:15.058Z",
       "kind": "feature",
-      "kind_confidence": 1
-    },
-    {
-      "id": "1565376920571478140",
-      "title": "Articul8が「Bivia」発表 ― 文章を生成せず“判断”だけを返すマルチモーダル意思決定モデル",
-      "channel": "その他",
-      "category": "その他",
-      "date": "2026-10-29T14:49:01.161Z",
-      "excerpt": "AI企業のArticul8は、テキストや画像、文書、センサー信号などを読み取り、型付きで確信度付きの「判断」を1つだけ返す小型マルチモーダルモデル「Bivia」を発表しました。生成トークンはゼロで、AIエージェントの中で繰り返される小さな判断をLLMから切り…",
-      "lead": "AI企業のArticul8は、テキストや画像、文書、センサー信号などを読み取り、型付きで確信度付きの「判断」を1つだけ返す小型マルチモーダルモデル「Bivia」を発表しました。生成トークンはゼロで、AIエージェントの中で繰り返される小さな判断をLLMから切り離す「判断レイヤー」として位置付けられています。",
-      "headings": [
-        "LLMに「はい/いいえ」を考えさせる無駄を省く",
-        "9種類の判断タイプと「棄権」機能",
-        "開発者向けの導入経路が豊富",
-        "実運用を想定したデモ",
-        "導入時の注意点",
-        "今後の展望"
-      ],
-      "source_url": "https://articul8.ai/bivia",
-      "source_urls": [
-        "https://articul8.ai/bivia"
-      ],
-      "source_label": "articul8.ai",
-      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1565376920571478140",
-      "first_seen": "2026-10-29T14:49:01.161Z",
-      "kind": "model",
       "kind_confidence": 1
     }
   ]
