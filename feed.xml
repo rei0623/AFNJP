@@ -5,8 +5,48 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Sun, 01 Nov 2026 00:49:51 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 18:00:23 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>OpenAI、日常生活タスクでAIの実用性を測る新ベンチマーク「LifeVal」を発表</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1566874633066778815</link>
+      <guid isPermaLink="false">afnjp-1566874633066778815</guid>
+      <pubDate>Mon, 02 Nov 2026 18:00:23 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIは2026年11月2日、育児先探しや家計管理、行政手続きなど、日常生活の「用事」をAIがどれだけ実際に片付けられるかを測定する評価指標「LifeVal」を公開しました。ChatGPTを単なる相談相手ではなく、行動して成果を出すパーソナルアシスタン…</description>
+    </item>
+    <item>
+      <title>Hume AI、音声に「問い」を投げて確率で答える「Audio Decision Model API」を発表</title>
+      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1566874504288796692</link>
+      <guid isPermaLink="false">afnjp-1566874504288796692</guid>
+      <pubDate>Mon, 02 Nov 2026 17:59:52 GMT</pubDate>
+      <category>その他</category>
+      <description>感情認識AIで知られるHume AIは、音声データに対して開発者が任意の質問と回答候補を与えると、各回答の確率を返す「Audio Decision Model API」を発表しました。文字起こしを経ずに音声そのものから判断を下す「意思決定層」として、ボイスA…</description>
+    </item>
+    <item>
+      <title>美団が「LongCat-2.5」を正式発表、総パラメータ1.6兆のネイティブマルチモーダルモデルを全工程中国国産チップで学習</title>
+      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1566862022757458041</link>
+      <guid isPermaLink="false">afnjp-1566862022757458041</guid>
+      <pubDate>Mon, 02 Nov 2026 17:10:17 GMT</pubDate>
+      <category>その他</category>
+      <description>中国の美団（Meituan）は11月2日、新世代大規模言語モデル「LongCat-2.5」を正式に発表しました。長時間にわたるエージェントタスク向けのネイティブマルチモーダルモデルで、総パラメータ数は約1.6兆、学習は全工程を中国国産の計算基盤で行ったとして…</description>
+    </item>
+    <item>
+      <title>OpenAI「Grid Protectors Program」始動 電力逼迫時にAIデータセンターの消費電力を最大1GW削減へ</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1566861209855328406</link>
+      <guid isPermaLink="false">afnjp-1566861209855328406</guid>
+      <pubDate>Mon, 02 Nov 2026 17:07:03 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIは2026年11月2日、電力網が逼迫した際に自社のコンピュートキャンパスの電力需要を引き下げる全米規模の取り組み「Grid Protectors Program」を発表しました。最初の試験地はジョージア州エフィンガム郡に計画中の大規模キャンパスで…</description>
+    </item>
+    <item>
+      <title>OpenAI「GPT-6.2 Astra」がCodex利用履歴に出現、正式発表前に一部リクエストへ配信か</title>
+      <link>https://discord.com/channels/1415350002255007784/1415534435712897124/threads/1566776158337368164</link>
+      <guid isPermaLink="false">afnjp-1566776158337368164</guid>
+      <pubDate>Mon, 02 Nov 2026 11:29:05 GMT</pubDate>
+      <category>リーク情報</category>
+      <description>OpenAIの次期フロンティアモデルとみられる「GPT-6.2 Astra」が、Codexの利用分析画面に相次いで表示されていることが判明しました。モデル選択画面は従来の「GPT-6 Astra」のままで、裏側で一部のリクエストが新モデルへ振り分けられている…</description>
+    </item>
     <item>
       <title>Google「Antigravity」にクラウド実行機能が登場へ Jules終了と開発環境の統合が加速</title>
       <link>https://discord.com/channels/1415350002255007784/1415534435712897124/threads/1566252902413246594</link>
@@ -62,46 +102,6 @@
       <pubDate>Fri, 30 Oct 2026 14:21:45 GMT</pubDate>
       <category>jules</category>
       <description>Googleは、自律型AIコーディングエージェント「Jules」の提供を終了すると発表しました。公式Xアカウント（@julesagent）は、Julesで得た知見をエージェントファーストの開発プラットフォーム「Google Antigravity」に取り込み…</description>
-    </item>
-    <item>
-      <title>Gemini Notebookが数百冊の教科書を無料で利用可能に OpenStaxやS Chandと連携し学習支援を強化</title>
-      <link>https://discord.com/channels/1415350002255007784/1418011435287707648/threads/1565516591142273034</link>
-      <guid isPermaLink="false">afnjp-1565516591142273034</guid>
-      <pubDate>Fri, 30 Oct 2026 00:04:01 GMT</pubDate>
-      <category>gemini-notebook</category>
-      <description>Googleは2026年10月29日、AI学習ツール「Gemini Notebook」で、米国とインドの提供元による数百冊の教科書を無料で追加できるようにしたと発表しました。追加した教科書に基づいて回答が生成され、学習用の教材も自動で作成できます。</description>
-    </item>
-    <item>
-      <title>ElevenLabs、効果音生成モデル「SFX v3」を公開 複数音の同時指示と音質を大幅改善</title>
-      <link>https://discord.com/channels/1415350002255007784/1441006356399259719/threads/1565516443296997406</link>
-      <guid isPermaLink="false">afnjp-1565516443296997406</guid>
-      <pubDate>Fri, 30 Oct 2026 00:03:25 GMT</pubDate>
-      <category>eleven-labs</category>
-      <description>音声AI企業のElevenLabsは2026年10月29日、テキストから効果音を生成する最新モデル「SFX v3」を発表しました。1つのプロンプトに複数の音を記述した場合の再現性、音楽やボーカルを含む音の生成品質、そして音そのものの自然さが、前世代のSFX …</description>
-    </item>
-    <item>
-      <title>OpenAI「Private Intelligence」発表、企業データを&quot;見ない&quot;AI基盤へ</title>
-      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1565516351055859712</link>
-      <guid isPermaLink="false">afnjp-1565516351055859712</guid>
-      <pubDate>Fri, 30 Oct 2026 00:03:03 GMT</pubDate>
-      <category>open-ai</category>
-      <description>OpenAIは、企業が機密データを守りながら最先端AIを利用できるようにする包括的な取り組み「Private Intelligence」を打ち出しました。2026年9月29日のDevDay 2026で発表されたもので、データを保存せずに安全性審査を行う「ZD…</description>
-    </item>
-    <item>
-      <title>Gemini、チャット内でPDF・ドキュメント・スライドを「生成から編集まで」完結 フルスクリーンエディターを全ユーザーに提供</title>
-      <link>https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1565516246860963971</link>
-      <guid isPermaLink="false">afnjp-1565516246860963971</guid>
-      <pubDate>Fri, 30 Oct 2026 00:02:39 GMT</pubDate>
-      <category>gemini</category>
-      <description>Googleは2026年10月29日、Geminiアプリでドキュメント、PDF、プレゼンテーション、スプレッドシート、コードなどのファイルを、チャット画面の中で直接生成・プレビュー・編集できる新機能を発表しました。生成したファイルをフルスクリーンに展開して手…</description>
-    </item>
-    <item>
-      <title>Microsoft、財務部門向けCopilotを大幅拡張 25超の財務スキルと金融データ連携プラグインを投入</title>
-      <link>https://discord.com/channels/1415350002255007784/1423003108790767748/threads/1565398369810251958</link>
-      <guid isPermaLink="false">afnjp-1565398369810251958</guid>
-      <pubDate>Thu, 29 Oct 2026 16:14:15 GMT</pubDate>
-      <category>copilot</category>
-      <description>Microsoftは2026年10月29日、Microsoft Copilotに会計・資本市場・企業財務向けの25以上の新スキルとパートナー製プラグインを追加すると発表しました。Excel単体の支援にとどまらず、Copilotアプリ上で複数ファイルやシステム…</description>
     </item>
   </channel>
 </rss>
