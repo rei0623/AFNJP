@@ -1,9 +1,60 @@
 {
-  "generated_at": "2026-11-03T01:00:11.390Z",
+  "generated_at": "2026-11-03T07:53:22.378Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 522,
+  "count": 524,
   "posts": [
+    {
+      "id": "1567064487960383619",
+      "title": "Runway、コーディングエージェント向けに動画・画像・音声生成APIの統合を自動化する「Runway Dev」プラグインを提供",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-11-03T06:34:48.580Z",
+      "excerpt": "動画生成AIで知られるRunwayは、開発者向けプラットフォーム「Runway Dev」を、コーディングエージェントから直接扱える形で提供しています。Claude Code、Codex、Cursor、Grok Bot向けのプラグインを1つ導入するだけで、エー…",
+      "lead": "動画生成AIで知られるRunwayは、開発者向けプラットフォーム「Runway Dev」を、コーディングエージェントから直接扱える形で提供しています。Claude Code、Codex、Cursor、Grok Bot向けのプラグインを1つ導入するだけで、エージェントがエディタ内で動画・画像・音声生成機能のアプリへの組み込みを計画・設定・デバッグまで担う仕組みです。",
+      "headings": [
+        "プラグインの構成：MCPとスキルの2本柱",
+        "具体的な活用イメージ",
+        "安全性と運用上の注意点",
+        "今後の展望"
+      ],
+      "source_url": "https://dev.runway.com/agents",
+      "source_urls": [
+        "https://dev.runway.com/agents"
+      ],
+      "source_label": "dev.runway.com",
+      "cover": "assets/posts/1567064487960383619.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1567064487960383619",
+      "first_seen": "2026-11-03T06:34:48.580Z",
+      "kind": "tool",
+      "kind_confidence": 0.98
+    },
+    {
+      "id": "1567010005910036601",
+      "title": "OpenAIがバグ報奨金を大幅増額 最高額は約17万ドルに、エージェント悪用リスクを重視",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-11-03T02:58:19.047Z",
+      "excerpt": "OpenAIは、セキュリティ研究者向けバグバウンティ（脆弱性報奨金）制度の報酬体系を刷新しました。重大度の高い脆弱性に対する報酬レンジは4倍超に引き上げられ、ボーナスを含めた最高額は17万2000ドルに達します。AIモデルが脆弱性発見を加速させる時代に、攻撃…",
+      "lead": "OpenAIは、セキュリティ研究者向けバグバウンティ（脆弱性報奨金）制度の報酬体系を刷新しました。重大度の高い脆弱性に対する報酬レンジは4倍超に引き上げられ、ボーナスを含めた最高額は17万2000ドルに達します。AIモデルが脆弱性発見を加速させる時代に、攻撃者より先に防御側へ強いインセンティブを与える狙いです。",
+      "headings": [
+        "報酬体系の変化",
+        "エージェント時代を意識した評価基準",
+        "AIによる脆弱性発見の実績",
+        "影響と課題",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties/",
+      "source_urls": [
+        "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties/"
+      ],
+      "source_label": "openai.com",
+      "cover": "assets/posts/1567010005910036601.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1567010005910036601",
+      "first_seen": "2026-11-03T02:58:19.047Z",
+      "kind": "policy",
+      "kind_confidence": 0.39
+    },
     {
       "id": "1566969441944862841",
       "title": "Vercel Labs、AIエージェント向けデスクトップ操作基盤「agent-desktop」を公開 画像認識に頼らずOSのアクセシビリティツリーでアプリを操作",
