@@ -5,8 +5,16 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 03 Nov 2026 06:34:48 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 16:39:33 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Google、「Guided Learning」を検索とClassroomへ拡大 K-12生徒のAI利用は「管理者が許可するまでオフ」に</title>
+      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1567216679732248658</link>
+      <guid isPermaLink="false">afnjp-1567216679732248658</guid>
+      <pubDate>Tue, 03 Nov 2026 16:39:33 GMT</pubDate>
+      <category>google</category>
+      <description>Googleは2026年11月3日、教育部門VP兼GMのChris Phillips氏名義で、学習向けAI機能「Guided Learning」をGoogle検索とGoogle Classroomへ拡大すると発表しました。あわせて、K-12（幼稚園〜高校）の…</description>
+    </item>
     <item>
       <title>Runway、コーディングエージェント向けに動画・画像・音声生成APIの統合を自動化する「Runway Dev」プラグインを提供</title>
       <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1567064487960383619</link>
@@ -94,14 +102,6 @@
       <pubDate>Mon, 02 Nov 2026 17:07:03 GMT</pubDate>
       <category>open-ai</category>
       <description>OpenAIは2026年11月2日、電力網が逼迫した際に自社のコンピュートキャンパスの電力需要を引き下げる全米規模の取り組み「Grid Protectors Program」を発表しました。最初の試験地はジョージア州エフィンガム郡に計画中の大規模キャンパスで…</description>
-    </item>
-    <item>
-      <title>OpenAI「GPT-6.2 Astra」がCodex利用履歴に出現、正式発表前に一部リクエストへ配信か</title>
-      <link>https://discord.com/channels/1415350002255007784/1415534435712897124/threads/1566776158337368164</link>
-      <guid isPermaLink="false">afnjp-1566776158337368164</guid>
-      <pubDate>Mon, 02 Nov 2026 11:29:05 GMT</pubDate>
-      <category>リーク情報</category>
-      <description>OpenAIの次期フロンティアモデルとみられる「GPT-6.2 Astra」が、Codexの利用分析画面に相次いで表示されていることが判明しました。モデル選択画面は従来の「GPT-6 Astra」のままで、裏側で一部のリクエストが新モデルへ振り分けられている…</description>
     </item>
   </channel>
 </rss>
