@@ -5,8 +5,48 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 02 Nov 2026 18:00:23 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 00:17:07 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Vercel Labs、AIエージェント向けデスクトップ操作基盤「agent-desktop」を公開 画像認識に頼らずOSのアクセシビリティツリーでアプリを操作</title>
+      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1566969441944862841</link>
+      <guid isPermaLink="false">afnjp-1566969441944862841</guid>
+      <pubDate>Tue, 03 Nov 2026 00:17:07 GMT</pubDate>
+      <category>その他</category>
+      <description>Vercel Labsは、AIエージェントにデスクトップアプリの操作能力を与えるオープンソースツール「agent-desktop」をGitHubで公開しています。Rustで実装され、画面のピクセルから要素を推測する従来型の「コンピュータ使用（Computer…</description>
+    </item>
+    <item>
+      <title>AIエージェントが実機スマホを操作、「Phone Harness MCP」がGitHubで公開</title>
+      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1566969245072629841</link>
+      <guid isPermaLink="false">afnjp-1566969245072629841</guid>
+      <pubDate>Tue, 03 Nov 2026 00:16:20 GMT</pubDate>
+      <category>その他</category>
+      <description>AIエージェントにiPhoneやAndroidの実機を操作させるためのMCPサーバー「Phone Harness MCP」がGitHubで公開されました。エージェントがクラウド上のスマートフォンの画面を見て、タップや文字入力、スワイプ、アプリ起動までをHTT…</description>
+    </item>
+    <item>
+      <title>Claude Messages APIに「message threads」登場、長時間エージェントの応答開始を最大約35%短縮</title>
+      <link>https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1566969030105895022</link>
+      <guid isPermaLink="false">afnjp-1566969030105895022</guid>
+      <pubDate>Tue, 03 Nov 2026 00:15:29 GMT</pubDate>
+      <category>anthropic</category>
+      <description>Anthropicは2026年11月2日、Claude PlatformのMessages APIに新機能「message threads」をパブリックベータとして追加しました。エージェントが毎ターン会話履歴全体を再送信する必要がなくなり、差分のみを送ること…</description>
+    </item>
+    <item>
+      <title>DeepSeek Harness「Creator Mode」のデモ用プロンプト7種が公開、自然言語でアプリにプラグインを追加</title>
+      <link>https://discord.com/channels/1415350002255007784/1419690651490193470/threads/1566963705227255838</link>
+      <guid isPermaLink="false">afnjp-1566963705227255838</guid>
+      <pubDate>Mon, 02 Nov 2026 23:54:20 GMT</pubDate>
+      <category>deep-seek</category>
+      <description>DeepSeekは、同社のAIツール「DeepSeek Harness」に搭載された「Creator Mode」の紹介動画で使われた7つのデモについて、元になったプロンプトをまとめたページを公開しました。プロンプトをDeepSeek Harnessに貼り付け…</description>
+    </item>
+    <item>
+      <title>OpenAI、Codex時代のモノレポを支える新Gitバックエンド「Pando」を公開 プッシュ遅延を約5分の1に短縮</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1566962977708445746</link>
+      <guid isPermaLink="false">afnjp-1566962977708445746</guid>
+      <pubDate>Mon, 02 Nov 2026 23:51:26 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIは2026年11月2日、社内モノレポの全開発を支える新しいGitリポジトリ用バックエンド「Pando」の設計を公開しました。Codexによる並列開発の急増に対応するため、Gitプロトコルとの互換性を保ったまま書き込みと読み取りを水平に拡張する仕組…</description>
+    </item>
     <item>
       <title>OpenAI、日常生活タスクでAIの実用性を測る新ベンチマーク「LifeVal」を発表</title>
       <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1566874633066778815</link>
@@ -62,46 +102,6 @@
       <pubDate>Sat, 31 Oct 2026 08:09:21 GMT</pubDate>
       <category>日本国内</category>
       <description>トヨタ自動車とWaymoは2026年10月30日、自動運転分野における協業の次段階を発表しました。トヨタのEV「bZ4X」をベースとした自動運転車両の車隊を、2027年に日本で試験・検証運用として立ち上げ、その後は英国をはじめWaymoのサービス展開地域へ広…</description>
-    </item>
-    <item>
-      <title>OpenAI、AI学習の可否をrobots.txtの共通シグナルで一括表明可能に IETF標準化と歩調</title>
-      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1565934746540965928</link>
-      <guid isPermaLink="false">afnjp-1565934746540965928</guid>
-      <pubDate>Sat, 31 Oct 2026 03:45:37 GMT</pubDate>
-      <category>open-ai</category>
-      <description>OpenAIは2026年10月30日、Webサイト運営者が「基盤となる生成AIモデルの学習」に自サイトのコンテンツを使ってよいかを表明できる、robots.txt上の共通シグナルを尊重すると発表しました。これまで事業者ごとに個別のクローラーを指定する必要があ…</description>
-    </item>
-    <item>
-      <title>OpenAI、「コミュニティ安全レポート」公開を表明 暴力関連の応答制限と10代向け武器情報の規制を強化</title>
-      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1565762575319310346</link>
-      <guid isPermaLink="false">afnjp-1565762575319310346</guid>
-      <pubDate>Fri, 30 Oct 2026 16:21:28 GMT</pubDate>
-      <category>open-ai</category>
-      <description>OpenAIは2026年10月30日、ChatGPTにおける暴力防止の取り組みとして、半年ごとの透明性レポート「Community Safety Report」の発行と、10代ユーザー向けの武器関連情報の制限強化を発表しました。同社は2026年第3四半期だけ…</description>
-    </item>
-    <item>
-      <title>Google、金融・法務向けの無料Gemini動画講座を公開 エージェント活用を業界別に学べる学習バンドル</title>
-      <link>https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1565762310339956918</link>
-      <guid isPermaLink="false">afnjp-1565762310339956918</guid>
-      <pubDate>Fri, 30 Oct 2026 16:20:25 GMT</pubDate>
-      <category>gemini</category>
-      <description>Google Cloudは2026年10月30日、学習プラットフォーム「Google Skills」で、金融サービスと法務の専門職向けに設計したGeminiの動画講座を公開しました。業界ごとの具体的な業務シナリオを起点に、エージェント型AIを日常業務へ取り入…</description>
-    </item>
-    <item>
-      <title>Cursorの拡張機能マーケットプレイスに偽の「Claude Code」拡張、SSHバックドア設置を狙う</title>
-      <link>https://discord.com/channels/1415350002255007784/1416106151585644636/threads/1565732588016894093</link>
-      <guid isPermaLink="false">afnjp-1565732588016894093</guid>
-      <pubDate>Fri, 30 Oct 2026 14:22:18 GMT</pubDate>
-      <category>cursor</category>
-      <description>Cursorは2026年10月29日、同社のVS Code拡張機能マーケットプレイスで、AnthropicのClaude Code拡張機能を装った悪意あるバージョン「Anthropic.claude-code 2.1.313」が配布されていたと公表しました。…</description>
-    </item>
-    <item>
-      <title>Google、非同期コーディングエージェント「Jules」を終了へ 機能は「Antigravity」に統合</title>
-      <link>https://discord.com/channels/1415350002255007784/1420253556539129937/threads/1565732448376201316</link>
-      <guid isPermaLink="false">afnjp-1565732448376201316</guid>
-      <pubDate>Fri, 30 Oct 2026 14:21:45 GMT</pubDate>
-      <category>jules</category>
-      <description>Googleは、自律型AIコーディングエージェント「Jules」の提供を終了すると発表しました。公式Xアカウント（@julesagent）は、Julesで得た知見をエージェントファーストの開発プラットフォーム「Google Antigravity」に取り込み…</description>
     </item>
   </channel>
 </rss>
