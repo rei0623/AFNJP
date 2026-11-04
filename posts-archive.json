@@ -1,9 +1,59 @@
 {
-  "generated_at": "2026-11-03T21:45:13.703Z",
+  "generated_at": "2026-11-04T02:17:26.888Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 525,
+  "count": 527,
   "posts": [
+    {
+      "id": "1567322608410828840",
+      "title": "Particle-1登場、トークン消費を約45%削減する「省トークン特化」コーディングモデル",
+      "channel": "open-claw",
+      "category": "その他",
+      "date": "2026-11-03T23:40:29.291Z",
+      "excerpt": "米サンフランシスコ拠点のParticle AIは2026年10月28日、初のモデル「Particle-1」を発表しました。DeepSeek V4.1 Flashをベースに強化学習で後学習したモデルで、精度をほぼ維持したまま、平均で約45%少ないトークンでソフ…",
+      "lead": "米サンフランシスコ拠点のParticle AIは2026年10月28日、初のモデル「Particle-1」を発表しました。DeepSeek V4.1 Flashをベースに強化学習で後学習したモデルで、精度をほぼ維持したまま、平均で約45%少ないトークンでソフトウェア開発タスクを完了できるとしています。初回リリースはソフトウェアエンジニアリング領域に特化しており、Particle API経由ですでに提供が始まっています。",
+      "headings": [
+        "「同じ仕事をより少ないトークンで」を報酬にした強化学習",
+        "ベンチマーク結果",
+        "どこでトークンが減ったのか",
+        "法務分野への汎化と過度な圧縮のリスク",
+        "今後の展望"
+      ],
+      "source_url": "https://particle.ai/blog/introducing-particle-1",
+      "source_urls": [
+        "https://particle.ai/blog/introducing-particle-1"
+      ],
+      "source_label": "particle.ai",
+      "url": "https://discord.com/channels/1415350002255007784/1469665728721588320/threads/1567322608410828840",
+      "first_seen": "2026-11-03T23:40:29.291Z",
+      "kind": "model",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1567321396999098538",
+      "title": "OpenAI、物理製品の設計・製造をAIで加速へ GPT-6 Astraがデバイスを「人手の編集なし」で設計、マツダとの共同研究も始動",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-11-03T23:35:40.468Z",
+      "excerpt": "OpenAIは2026年11月3日、同社のAIモデルが機械・電気工学からシステム全体の設計まで、物理的な製品の設計・シミュレーション・製造をどう支援できるかについての研究成果を公開しました。社内のハードウェアチームでの活用実績に加え、Chip Ganassi…",
+      "lead": "OpenAIは2026年11月3日、同社のAIモデルが機械・電気工学からシステム全体の設計まで、物理的な製品の設計・シミュレーション・製造をどう支援できるかについての研究成果を公開しました。社内のハードウェアチームでの活用実績に加え、Chip Ganassi Racing（CGR）やマツダとの協業も明らかにし、AIエージェントの活躍の場をデジタル業務から「モノづくり」へ広げる取り組みとして位置づけています。",
+      "headings": [
+        "GPT-6 Astraが1週間未満でデバイスを設計",
+        "社内のトークン使用量は23倍に",
+        "CGR・マツダとの実問題での検証",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/accelerating-engineering-for-the-physical-world/",
+      "source_urls": [
+        "https://openai.com/index/accelerating-engineering-for-the-physical-world/"
+      ],
+      "source_label": "openai.com",
+      "cover": "assets/posts/1567321396999098538.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1567321396999098538",
+      "first_seen": "2026-11-03T23:35:40.468Z",
+      "kind": "research",
+      "kind_confidence": 0.87
+    },
     {
       "id": "1567216679732248658",
       "title": "Google、「Guided Learning」を検索とClassroomへ拡大 K-12生徒のAI利用は「管理者が許可するまでオフ」に",
