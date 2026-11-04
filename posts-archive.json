@@ -1,9 +1,164 @@
 {
-  "generated_at": "2026-11-04T10:49:49.536Z",
+  "generated_at": "2026-11-04T18:37:09.493Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 527,
+  "count": 533,
   "posts": [
+    {
+      "id": "1567574161251893360",
+      "title": "Moonshot AI「Kimi K3.1 Pro」の重みをHugging Faceで公開、2.8TパラメータMoEでエージェント性能が大幅向上",
+      "channel": "kimi",
+      "category": "その他",
+      "date": "2026-11-04T16:20:04.162Z",
+      "excerpt": "Moonshot AIは、オープンウェイトのマルチモーダル・エージェントモデル「Kimi K3.1 Pro」のモデルカードと重みをHugging Faceで公開しました。Kimi K3を土台に大規模な強化学習で事後学習したK3.1シリーズ初のモデルで、同社は…",
+      "lead": "Moonshot AIは、オープンウェイトのマルチモーダル・エージェントモデル「Kimi K3.1 Pro」のモデルカードと重みをHugging Faceで公開しました。Kimi K3を土台に大規模な強化学習で事後学習したK3.1シリーズ初のモデルで、同社は現時点で最も高性能な3Tクラスモデルと位置付けています。100万トークンのコンテキストを備え、コーディング、3D制作、金融調査、事実の正確性などで大きな改善をうたっています。",
+      "headings": [
+        "アーキテクチャ：K3の骨格を維持しつつ注意機構を刷新",
+        "ベンチマーク：エージェント系で上位、推論系は課題も",
+        "利用方法と開発者への影響",
+        "今後の展望"
+      ],
+      "source_url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+      "source_urls": [
+        "https://huggingface.co/moonshotai/Kimi-K3.1-Pro"
+      ],
+      "source_label": "huggingface.co",
+      "cover": "assets/posts/1567574161251893360.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417459869341978704/threads/1567574161251893360",
+      "first_seen": "2026-11-04T16:20:04.162Z",
+      "kind": "model",
+      "kind_confidence": 0.99
+    },
+    {
+      "id": "1567573528448999454",
+      "title": "Google、「Agentic Data Cloud」を大幅強化 エージェントを全社データと業務文脈で支える新機能群を発表",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-11-04T16:17:33.290Z",
+      "excerpt": "Google Cloudは2026年11月4日、AIエージェントの本番運用を支えるデータ基盤「Agentic Data Cloud」の主要アップデートを発表しました。マルチクラウドのデータ統合、業務文脈によるグラウンディング、エージェント規模に耐えるデータベ…",
+      "lead": "Google Cloudは2026年11月4日、AIエージェントの本番運用を支えるデータ基盤「Agentic Data Cloud」の主要アップデートを発表しました。マルチクラウドのデータ統合、業務文脈によるグラウンディング、エージェント規模に耐えるデータベース基盤の3領域にわたる強化で、エージェントの精度とコスト効率の両立を狙います。",
+      "headings": [
+        "「ボーダーレスLakehouse」でデータの壁を解消",
+        "Knowledge Catalogが「文脈エンジン」へ進化",
+        "エージェント規模に耐えるインフラ",
+        "影響と注意点"
+      ],
+      "source_url": "https://cloud.google.com/blog/products/databases/whats-new-across-googles-agentic-data-cloud/?hl=en",
+      "source_urls": [
+        "https://cloud.google.com/blog/products/databases/whats-new-across-googles-agentic-data-cloud/?hl=en"
+      ],
+      "source_label": "cloud.google.com",
+      "cover": "assets/posts/1567573528448999454.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1567573528448999454",
+      "first_seen": "2026-11-04T16:17:33.290Z",
+      "kind": "feature",
+      "kind_confidence": 0.77
+    },
+    {
+      "id": "1567573381992288388",
+      "title": "Google Cloud、AIコーディングエージェント向け「AlloyDB Express」をプレビュー公開 2秒未満で起動、アイドル時は課金ゼロ",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-11-04T16:16:58.372Z",
+      "excerpt": "Google Cloudは2026年11月4日、PostgreSQL互換データベース「AlloyDB for PostgreSQL」の新しい提供形態「AlloyDB Express」をプレビューとして公開しました。開発者とAIコーディングエージェントでの利用…",
+      "lead": "Google Cloudは2026年11月4日、PostgreSQL互換データベース「AlloyDB for PostgreSQL」の新しい提供形態「AlloyDB Express」をプレビューとして公開しました。開発者とAIコーディングエージェントでの利用を主眼に置き、2秒未満でのデータベース作成、アイドル時に自動停止する「スケール・トゥ・ゼロ」、ベクトル検索やGeminiモデル連携といったAI機能を備えています。",
+      "headings": [
+        "背景：AI駆動開発にデータベースが追いつかない",
+        "主な技術的特徴",
+        "データベースに組み込まれたAI機能",
+        "エージェント時代のセキュリティ設計",
+        "料金体系",
+        "影響と注意点",
+        "今後の展望"
+      ],
+      "source_url": "https://cloud.google.com/blog/products/databases/introducing-alloydb-express-for-rapid-testing-and-prototyping/?hl=en",
+      "source_urls": [
+        "https://cloud.google.com/blog/products/databases/introducing-alloydb-express-for-rapid-testing-and-prototyping/?hl=en"
+      ],
+      "source_label": "cloud.google.com",
+      "cover": "assets/posts/1567573381992288388.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1567573381992288388",
+      "first_seen": "2026-11-04T16:16:58.372Z",
+      "kind": "feature",
+      "kind_confidence": 0.85
+    },
+    {
+      "id": "1567559831080931501",
+      "title": "OpenAI「Daybreak Red」がAWS GovCloud（US-East）に対応 サイバー特化モデルGPT-5.6 Cyberを規制環境へ",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-11-04T15:23:07.583Z",
+      "excerpt": "OpenAIは2026年11月4日、サイバーセキュリティ特化モデル「GPT-5.6 Cyber」を提供する「Daybreak Red」が、Amazon Bedrock経由でAWS GovCloud（US-East）の承認済み顧客に提供開始されたと発表しました…",
+      "lead": "OpenAIは2026年11月4日、サイバーセキュリティ特化モデル「GPT-5.6 Cyber」を提供する「Daybreak Red」が、Amazon Bedrock経由でAWS GovCloud（US-East）の承認済み顧客に提供開始されたと発表しました。米政府機関や規制産業のセキュリティチームが、厳格なコンプライアンス環境のまま高度なAIを脆弱性調査に組み込める道が開かれます。",
+      "headings": [
+        "Daybreak Redとは",
+        "技術仕様とデータ保護",
+        "利用までのハードル",
+        "影響と課題",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/daybreak-red-aws-govcloud/",
+      "source_urls": [
+        "https://openai.com/index/daybreak-red-aws-govcloud/"
+      ],
+      "source_label": "openai.com",
+      "cover": "assets/posts/1567559831080931501.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1567559831080931501",
+      "first_seen": "2026-11-04T15:23:07.583Z",
+      "kind": "feature",
+      "kind_confidence": 0.83
+    },
+    {
+      "id": "1567559696922189905",
+      "title": "OpenAIがPierre Computerを買収へ Git基盤の「Code Storage」をCodexに統合",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-11-04T15:22:35.597Z",
+      "excerpt": "OpenAIは2026年11月4日、開発者ツールを手がけるPierre Computer Company, Inc.（以下Pierre）の買収計画を発表しました。Pierreの中核製品である「Code Storage」をCodexに統合し、コードの生成・レビ…",
+      "lead": "OpenAIは2026年11月4日、開発者ツールを手がけるPierre Computer Company, Inc.（以下Pierre）の買収計画を発表しました。Pierreの中核製品である「Code Storage」をCodexに統合し、コードの生成・レビューにとどまらず、保存と履歴管理までをCodexの中で担う構想です。買収金額は公表されていません。",
+      "headings": [
+        "Pierreとは何か",
+        "なぜ「保存基盤」が重要なのか",
+        "GitHubとの競合関係",
+        "オープンソースの扱いと手続き",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/openai-to-acquire-pierre/",
+      "source_urls": [
+        "https://openai.com/index/openai-to-acquire-pierre/"
+      ],
+      "source_label": "openai.com",
+      "cover": "assets/posts/1567559696922189905.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1567559696922189905",
+      "first_seen": "2026-11-04T15:22:35.597Z",
+      "kind": "business",
+      "kind_confidence": 0.99
+    },
+    {
+      "id": "1567497309133209771",
+      "title": "テンセント「Hy4」正式版が登場、Hunyuan初の視覚理解とコンピューター操作に対応",
+      "channel": "hunyuan",
+      "category": "その他",
+      "date": "2026-11-04T11:14:41.189Z",
+      "excerpt": "テンセントのHunyuan（Hy）チームは2026年11月4日、フラッグシップ大規模言語モデル「Hy4」の正式版を公開しました。8月にオープンウェイトで公開された「Hy4 preview」を土台に、事前学習と事後学習の規模を大きく拡張し、シリーズとして初めて…",
+      "lead": "テンセントのHunyuan（Hy）チームは2026年11月4日、フラッグシップ大規模言語モデル「Hy4」の正式版を公開しました。8月にオープンウェイトで公開された「Hy4 preview」を土台に、事前学習と事後学習の規模を大きく拡張し、シリーズとして初めて画像理解とコンピューター操作（Computer Use）に対応した点が最大の特徴です。",
+      "headings": [
+        "770B MoEと1Mコンテキストを継承",
+        "新機能：視覚理解とコンピューター操作",
+        "提供形態と価格",
+        "注意点：オープン性とベンチマーク",
+        "今後の展望"
+      ],
+      "source_url": "https://hy.tencent.ai/research/hy4?langVersion=en",
+      "source_urls": [
+        "https://hy.tencent.ai/research/hy4?langVersion=en"
+      ],
+      "source_label": "hy.tencent.ai",
+      "url": "https://discord.com/channels/1415350002255007784/1460898443923820618/threads/1567497309133209771",
+      "first_seen": "2026-11-04T11:14:41.189Z",
+      "kind": "model",
+      "kind_confidence": 0.99
+    },
     {
       "id": "1567322608410828840",
       "title": "Particle-1登場、トークン消費を約45%削減する「省トークン特化」コーディングモデル",

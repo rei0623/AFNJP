@@ -1,8 +1,163 @@
 {
-  "generated_at": "2026-11-04T10:49:49.541Z",
+  "generated_at": "2026-11-04T18:37:09.497Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1567574161251893360",
+      "title": "Moonshot AI「Kimi K3.1 Pro」の重みをHugging Faceで公開、2.8TパラメータMoEでエージェント性能が大幅向上",
+      "channel": "kimi",
+      "category": "その他",
+      "date": "2026-11-04T16:20:04.162Z",
+      "excerpt": "Moonshot AIは、オープンウェイトのマルチモーダル・エージェントモデル「Kimi K3.1 Pro」のモデルカードと重みをHugging Faceで公開しました。Kimi K3を土台に大規模な強化学習で事後学習したK3.1シリーズ初のモデルで、同社は…",
+      "lead": "Moonshot AIは、オープンウェイトのマルチモーダル・エージェントモデル「Kimi K3.1 Pro」のモデルカードと重みをHugging Faceで公開しました。Kimi K3を土台に大規模な強化学習で事後学習したK3.1シリーズ初のモデルで、同社は現時点で最も高性能な3Tクラスモデルと位置付けています。100万トークンのコンテキストを備え、コーディング、3D制作、金融調査、事実の正確性などで大きな改善をうたっています。",
+      "headings": [
+        "アーキテクチャ：K3の骨格を維持しつつ注意機構を刷新",
+        "ベンチマーク：エージェント系で上位、推論系は課題も",
+        "利用方法と開発者への影響",
+        "今後の展望"
+      ],
+      "source_url": "https://huggingface.co/moonshotai/Kimi-K3.1-Pro",
+      "source_urls": [
+        "https://huggingface.co/moonshotai/Kimi-K3.1-Pro"
+      ],
+      "source_label": "huggingface.co",
+      "cover": "assets/posts/1567574161251893360.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417459869341978704/threads/1567574161251893360",
+      "first_seen": "2026-11-04T16:20:04.162Z",
+      "kind": "model",
+      "kind_confidence": 0.99
+    },
+    {
+      "id": "1567573528448999454",
+      "title": "Google、「Agentic Data Cloud」を大幅強化 エージェントを全社データと業務文脈で支える新機能群を発表",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-11-04T16:17:33.290Z",
+      "excerpt": "Google Cloudは2026年11月4日、AIエージェントの本番運用を支えるデータ基盤「Agentic Data Cloud」の主要アップデートを発表しました。マルチクラウドのデータ統合、業務文脈によるグラウンディング、エージェント規模に耐えるデータベ…",
+      "lead": "Google Cloudは2026年11月4日、AIエージェントの本番運用を支えるデータ基盤「Agentic Data Cloud」の主要アップデートを発表しました。マルチクラウドのデータ統合、業務文脈によるグラウンディング、エージェント規模に耐えるデータベース基盤の3領域にわたる強化で、エージェントの精度とコスト効率の両立を狙います。",
+      "headings": [
+        "「ボーダーレスLakehouse」でデータの壁を解消",
+        "Knowledge Catalogが「文脈エンジン」へ進化",
+        "エージェント規模に耐えるインフラ",
+        "影響と注意点"
+      ],
+      "source_url": "https://cloud.google.com/blog/products/databases/whats-new-across-googles-agentic-data-cloud/?hl=en",
+      "source_urls": [
+        "https://cloud.google.com/blog/products/databases/whats-new-across-googles-agentic-data-cloud/?hl=en"
+      ],
+      "source_label": "cloud.google.com",
+      "cover": "assets/posts/1567573528448999454.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1567573528448999454",
+      "first_seen": "2026-11-04T16:17:33.290Z",
+      "kind": "feature",
+      "kind_confidence": 0.77
+    },
+    {
+      "id": "1567573381992288388",
+      "title": "Google Cloud、AIコーディングエージェント向け「AlloyDB Express」をプレビュー公開 2秒未満で起動、アイドル時は課金ゼロ",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-11-04T16:16:58.372Z",
+      "excerpt": "Google Cloudは2026年11月4日、PostgreSQL互換データベース「AlloyDB for PostgreSQL」の新しい提供形態「AlloyDB Express」をプレビューとして公開しました。開発者とAIコーディングエージェントでの利用…",
+      "lead": "Google Cloudは2026年11月4日、PostgreSQL互換データベース「AlloyDB for PostgreSQL」の新しい提供形態「AlloyDB Express」をプレビューとして公開しました。開発者とAIコーディングエージェントでの利用を主眼に置き、2秒未満でのデータベース作成、アイドル時に自動停止する「スケール・トゥ・ゼロ」、ベクトル検索やGeminiモデル連携といったAI機能を備えています。",
+      "headings": [
+        "背景：AI駆動開発にデータベースが追いつかない",
+        "主な技術的特徴",
+        "データベースに組み込まれたAI機能",
+        "エージェント時代のセキュリティ設計",
+        "料金体系",
+        "影響と注意点",
+        "今後の展望"
+      ],
+      "source_url": "https://cloud.google.com/blog/products/databases/introducing-alloydb-express-for-rapid-testing-and-prototyping/?hl=en",
+      "source_urls": [
+        "https://cloud.google.com/blog/products/databases/introducing-alloydb-express-for-rapid-testing-and-prototyping/?hl=en"
+      ],
+      "source_label": "cloud.google.com",
+      "cover": "assets/posts/1567573381992288388.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1567573381992288388",
+      "first_seen": "2026-11-04T16:16:58.372Z",
+      "kind": "feature",
+      "kind_confidence": 0.85
+    },
+    {
+      "id": "1567559831080931501",
+      "title": "OpenAI「Daybreak Red」がAWS GovCloud（US-East）に対応 サイバー特化モデルGPT-5.6 Cyberを規制環境へ",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-11-04T15:23:07.583Z",
+      "excerpt": "OpenAIは2026年11月4日、サイバーセキュリティ特化モデル「GPT-5.6 Cyber」を提供する「Daybreak Red」が、Amazon Bedrock経由でAWS GovCloud（US-East）の承認済み顧客に提供開始されたと発表しました…",
+      "lead": "OpenAIは2026年11月4日、サイバーセキュリティ特化モデル「GPT-5.6 Cyber」を提供する「Daybreak Red」が、Amazon Bedrock経由でAWS GovCloud（US-East）の承認済み顧客に提供開始されたと発表しました。米政府機関や規制産業のセキュリティチームが、厳格なコンプライアンス環境のまま高度なAIを脆弱性調査に組み込める道が開かれます。",
+      "headings": [
+        "Daybreak Redとは",
+        "技術仕様とデータ保護",
+        "利用までのハードル",
+        "影響と課題",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/daybreak-red-aws-govcloud/",
+      "source_urls": [
+        "https://openai.com/index/daybreak-red-aws-govcloud/"
+      ],
+      "source_label": "openai.com",
+      "cover": "assets/posts/1567559831080931501.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1567559831080931501",
+      "first_seen": "2026-11-04T15:23:07.583Z",
+      "kind": "feature",
+      "kind_confidence": 0.83
+    },
+    {
+      "id": "1567559696922189905",
+      "title": "OpenAIがPierre Computerを買収へ Git基盤の「Code Storage」をCodexに統合",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-11-04T15:22:35.597Z",
+      "excerpt": "OpenAIは2026年11月4日、開発者ツールを手がけるPierre Computer Company, Inc.（以下Pierre）の買収計画を発表しました。Pierreの中核製品である「Code Storage」をCodexに統合し、コードの生成・レビ…",
+      "lead": "OpenAIは2026年11月4日、開発者ツールを手がけるPierre Computer Company, Inc.（以下Pierre）の買収計画を発表しました。Pierreの中核製品である「Code Storage」をCodexに統合し、コードの生成・レビューにとどまらず、保存と履歴管理までをCodexの中で担う構想です。買収金額は公表されていません。",
+      "headings": [
+        "Pierreとは何か",
+        "なぜ「保存基盤」が重要なのか",
+        "GitHubとの競合関係",
+        "オープンソースの扱いと手続き",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/openai-to-acquire-pierre/",
+      "source_urls": [
+        "https://openai.com/index/openai-to-acquire-pierre/"
+      ],
+      "source_label": "openai.com",
+      "cover": "assets/posts/1567559696922189905.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1567559696922189905",
+      "first_seen": "2026-11-04T15:22:35.597Z",
+      "kind": "business",
+      "kind_confidence": 0.99
+    },
+    {
+      "id": "1567497309133209771",
+      "title": "テンセント「Hy4」正式版が登場、Hunyuan初の視覚理解とコンピューター操作に対応",
+      "channel": "hunyuan",
+      "category": "その他",
+      "date": "2026-11-04T11:14:41.189Z",
+      "excerpt": "テンセントのHunyuan（Hy）チームは2026年11月4日、フラッグシップ大規模言語モデル「Hy4」の正式版を公開しました。8月にオープンウェイトで公開された「Hy4 preview」を土台に、事前学習と事後学習の規模を大きく拡張し、シリーズとして初めて…",
+      "lead": "テンセントのHunyuan（Hy）チームは2026年11月4日、フラッグシップ大規模言語モデル「Hy4」の正式版を公開しました。8月にオープンウェイトで公開された「Hy4 preview」を土台に、事前学習と事後学習の規模を大きく拡張し、シリーズとして初めて画像理解とコンピューター操作（Computer Use）に対応した点が最大の特徴です。",
+      "headings": [
+        "770B MoEと1Mコンテキストを継承",
+        "新機能：視覚理解とコンピューター操作",
+        "提供形態と価格",
+        "注意点：オープン性とベンチマーク",
+        "今後の展望"
+      ],
+      "source_url": "https://hy.tencent.ai/research/hy4?langVersion=en",
+      "source_urls": [
+        "https://hy.tencent.ai/research/hy4?langVersion=en"
+      ],
+      "source_label": "hy.tencent.ai",
+      "url": "https://discord.com/channels/1415350002255007784/1460898443923820618/threads/1567497309133209771",
+      "first_seen": "2026-11-04T11:14:41.189Z",
+      "kind": "model",
+      "kind_confidence": 0.99
+    },
     {
       "id": "1567322608410828840",
       "title": "Particle-1登場、トークン消費を約45%削減する「省トークン特化」コーディングモデル",
@@ -155,161 +310,6 @@
       "first_seen": "2026-11-03T00:17:07.844Z",
       "kind": "tool",
       "kind_confidence": 1
-    },
-    {
-      "id": "1566969245072629841",
-      "title": "AIエージェントが実機スマホを操作、「Phone Harness MCP」がGitHubで公開",
-      "channel": "その他",
-      "category": "その他",
-      "date": "2026-11-03T00:16:20.906Z",
-      "excerpt": "AIエージェントにiPhoneやAndroidの実機を操作させるためのMCPサーバー「Phone Harness MCP」がGitHubで公開されました。エージェントがクラウド上のスマートフォンの画面を見て、タップや文字入力、スワイプ、アプリ起動までをHTT…",
-      "lead": "AIエージェントにiPhoneやAndroidの実機を操作させるためのMCPサーバー「Phone Harness MCP」がGitHubで公開されました。エージェントがクラウド上のスマートフォンの画面を見て、タップや文字入力、スワイプ、アプリ起動までをHTTPS経由で実行できます。ペアリングやadb、Macは不要とされ、モバイル自動化のハードルを大きく下げる試みとして注目されます。",
-      "headings": [
-        "仕組み：クラウド上の端末をMCPツールとして公開",
-        "主なツール群",
-        "セキュリティ設計",
-        "影響と注意点",
-        "今後の展望"
-      ],
-      "source_url": "https://github.com/phone-harness/mcp",
-      "source_urls": [
-        "https://github.com/phone-harness/mcp"
-      ],
-      "source_label": "github.com",
-      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1566969245072629841",
-      "first_seen": "2026-11-03T00:16:20.906Z",
-      "kind": "tool",
-      "kind_confidence": 1
-    },
-    {
-      "id": "1566969030105895022",
-      "title": "Claude Messages APIに「message threads」登場、長時間エージェントの応答開始を最大約35%短縮",
-      "channel": "anthropic",
-      "category": "Anthropic",
-      "date": "2026-11-03T00:15:29.654Z",
-      "excerpt": "Anthropicは2026年11月2日、Claude PlatformのMessages APIに新機能「message threads」をパブリックベータとして追加しました。エージェントが毎ターン会話履歴全体を再送信する必要がなくなり、差分のみを送ること…",
-      "lead": "Anthropicは2026年11月2日、Claude PlatformのMessages APIに新機能「message threads」をパブリックベータとして追加しました。エージェントが毎ターン会話履歴全体を再送信する必要がなくなり、差分のみを送ることで、長時間セッションにおける応答待ち時間を短縮します。",
-      "headings": [
-        "従来の課題：膨らみ続けるリクエスト",
-        "技術的な仕組み",
-        "コストは変わらない点に注意",
-        "効果が大きいユースケース",
-        "提供範囲",
-        "開発者への影響と留意点",
-        "今後の展望"
-      ],
-      "source_url": "https://claude.com/ja/resources/articles/message-threads",
-      "source_urls": [
-        "https://claude.com/ja/resources/articles/message-threads"
-      ],
-      "source_label": "claude.com",
-      "cover": "assets/posts/1566969030105895022.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1566969030105895022",
-      "first_seen": "2026-11-03T00:15:29.654Z",
-      "kind": "feature",
-      "kind_confidence": 0.58
-    },
-    {
-      "id": "1566963705227255838",
-      "title": "DeepSeek Harness「Creator Mode」のデモ用プロンプト7種が公開、自然言語でアプリにプラグインを追加",
-      "channel": "deep-seek",
-      "category": "その他",
-      "date": "2026-11-02T23:54:20.104Z",
-      "excerpt": "DeepSeekは、同社のAIツール「DeepSeek Harness」に搭載された「Creator Mode」の紹介動画で使われた7つのデモについて、元になったプロンプトをまとめたページを公開しました。プロンプトをDeepSeek Harnessに貼り付け…",
-      "lead": "DeepSeekは、同社のAIツール「DeepSeek Harness」に搭載された「Creator Mode」の紹介動画で使われた7つのデモについて、元になったプロンプトをまとめたページを公開しました。プロンプトをDeepSeek Harnessに貼り付けてCreator Modeを選ぶと、動画と同じようなプラグインを自分で作れるとしています。",
-      "headings": [
-        "Creator Modeの仕組み",
-        "公開された7つのデモ",
-        "技術的な見どころ",
-        "影響と課題",
-        "今後の展望"
-      ],
-      "source_url": "https://cdn.deepseek.com/harness/dsh-creator-mode-prompt-collection-en.html",
-      "source_urls": [
-        "https://cdn.deepseek.com/harness/dsh-creator-mode-prompt-collection-en.html"
-      ],
-      "source_label": "cdn.deepseek.com",
-      "url": "https://discord.com/channels/1415350002255007784/1419690651490193470/threads/1566963705227255838",
-      "first_seen": "2026-11-02T23:54:20.104Z",
-      "kind": "tool",
-      "kind_confidence": 0.54
-    },
-    {
-      "id": "1566962977708445746",
-      "title": "OpenAI、Codex時代のモノレポを支える新Gitバックエンド「Pando」を公開 プッシュ遅延を約5分の1に短縮",
-      "channel": "open-ai",
-      "category": "Open AI",
-      "date": "2026-11-02T23:51:26.650Z",
-      "excerpt": "OpenAIは2026年11月2日、社内モノレポの全開発を支える新しいGitリポジトリ用バックエンド「Pando」の設計を公開しました。Codexによる並列開発の急増に対応するため、Gitプロトコルとの互換性を保ったまま書き込みと読み取りを水平に拡張する仕組…",
-      "lead": "OpenAIは2026年11月2日、社内モノレポの全開発を支える新しいGitリポジトリ用バックエンド「Pando」の設計を公開しました。Codexによる並列開発の急増に対応するため、Gitプロトコルとの互換性を保ったまま書き込みと読み取りを水平に拡張する仕組みです。本番環境ではプッシュのレイテンシ中央値を約5分の1に短縮し、1日あたり約1ペタバイトのGitデータを配信しているといいます。",
-      "headings": [
-        "Codexがもたらした「エージェント規模」の負荷",
-        "既存方式の限界",
-        "Pandoの技術的な核心",
-        "影響と注意点",
-        "今後の展望"
-      ],
-      "source_url": "https://openai.com/index/scaling-git-at-openai/",
-      "source_urls": [
-        "https://openai.com/index/scaling-git-at-openai/"
-      ],
-      "source_label": "openai.com",
-      "cover": "assets/posts/1566962977708445746.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1566962977708445746",
-      "first_seen": "2026-11-02T23:51:26.650Z",
-      "kind": "tool",
-      "kind_confidence": 0.47
-    },
-    {
-      "id": "1566874633066778815",
-      "title": "OpenAI、日常生活タスクでAIの実用性を測る新ベンチマーク「LifeVal」を発表",
-      "channel": "open-ai",
-      "category": "Open AI",
-      "date": "2026-11-02T18:00:23.646Z",
-      "excerpt": "OpenAIは2026年11月2日、育児先探しや家計管理、行政手続きなど、日常生活の「用事」をAIがどれだけ実際に片付けられるかを測定する評価指標「LifeVal」を公開しました。ChatGPTを単なる相談相手ではなく、行動して成果を出すパーソナルアシスタン…",
-      "lead": "OpenAIは2026年11月2日、育児先探しや家計管理、行政手続きなど、日常生活の「用事」をAIがどれだけ実際に片付けられるかを測定する評価指標「LifeVal」を公開しました。ChatGPTを単なる相談相手ではなく、行動して成果を出すパーソナルアシスタントへ進化させるための物差しと位置づけられており、同社は過去1年にわたりこの評価をモデル改善の追跡と推進に活用してきたとしています。",
-      "headings": [
-        "生活時間調査からタスクを設計",
-        "「手順」ではなく「結果の適切さ」を採点",
-        "評価結果の解釈には注意も",
-        "今後の展望"
-      ],
-      "source_url": "https://openai.com/index/lifeval/",
-      "source_urls": [
-        "https://openai.com/index/lifeval/"
-      ],
-      "source_label": "openai.com",
-      "cover": "assets/posts/1566874633066778815.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1566874633066778815",
-      "first_seen": "2026-11-02T18:00:23.646Z",
-      "kind": "research",
-      "kind_confidence": 0.99
-    },
-    {
-      "id": "1566874504288796692",
-      "title": "Hume AI、音声に「問い」を投げて確率で答える「Audio Decision Model API」を発表",
-      "channel": "その他",
-      "category": "その他",
-      "date": "2026-11-02T17:59:52.943Z",
-      "excerpt": "感情認識AIで知られるHume AIは、音声データに対して開発者が任意の質問と回答候補を与えると、各回答の確率を返す「Audio Decision Model API」を発表しました。文字起こしを経ずに音声そのものから判断を下す「意思決定層」として、ボイスA…",
-      "lead": "感情認識AIで知られるHume AIは、音声データに対して開発者が任意の質問と回答候補を与えると、各回答の確率を返す「Audio Decision Model API」を発表しました。文字起こしを経ずに音声そのものから判断を下す「意思決定層」として、ボイスAIの評価・改善や運用の自動化を狙います。現在はウェイトリスト登録とAPIアクセス申請を受け付けている段階です。",
-      "headings": [
-        "仕組み：音声＋質問＋選択肢 確率",
-        "性能：単独の人間評価者を上回る一致率",
-        "背景：テキスト化では失われる情報を扱う",
-        "想定される活用と課題",
-        "今後の展望"
-      ],
-      "source_url": "https://www.hume.ai/products/decision-model-api?utm_source=x&utm_campaign=launch",
-      "source_urls": [
-        "https://www.hume.ai/products/decision-model-api?utm_source=x&utm_campaign=launch"
-      ],
-      "source_label": "hume.ai",
-      "cover": "assets/posts/1566874504288796692.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1566874504288796692",
-      "first_seen": "2026-11-02T17:59:52.943Z",
-      "kind": "tool",
-      "kind_confidence": 0.9
     }
   ]
 }

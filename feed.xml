@@ -5,8 +5,56 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 03 Nov 2026 23:40:29 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 04 Nov 2026 16:20:04 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Moonshot AI「Kimi K3.1 Pro」の重みをHugging Faceで公開、2.8TパラメータMoEでエージェント性能が大幅向上</title>
+      <link>https://discord.com/channels/1415350002255007784/1417459869341978704/threads/1567574161251893360</link>
+      <guid isPermaLink="false">afnjp-1567574161251893360</guid>
+      <pubDate>Wed, 04 Nov 2026 16:20:04 GMT</pubDate>
+      <category>kimi</category>
+      <description>Moonshot AIは、オープンウェイトのマルチモーダル・エージェントモデル「Kimi K3.1 Pro」のモデルカードと重みをHugging Faceで公開しました。Kimi K3を土台に大規模な強化学習で事後学習したK3.1シリーズ初のモデルで、同社は…</description>
+    </item>
+    <item>
+      <title>Google、「Agentic Data Cloud」を大幅強化 エージェントを全社データと業務文脈で支える新機能群を発表</title>
+      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1567573528448999454</link>
+      <guid isPermaLink="false">afnjp-1567573528448999454</guid>
+      <pubDate>Wed, 04 Nov 2026 16:17:33 GMT</pubDate>
+      <category>google</category>
+      <description>Google Cloudは2026年11月4日、AIエージェントの本番運用を支えるデータ基盤「Agentic Data Cloud」の主要アップデートを発表しました。マルチクラウドのデータ統合、業務文脈によるグラウンディング、エージェント規模に耐えるデータベ…</description>
+    </item>
+    <item>
+      <title>Google Cloud、AIコーディングエージェント向け「AlloyDB Express」をプレビュー公開 2秒未満で起動、アイドル時は課金ゼロ</title>
+      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1567573381992288388</link>
+      <guid isPermaLink="false">afnjp-1567573381992288388</guid>
+      <pubDate>Wed, 04 Nov 2026 16:16:58 GMT</pubDate>
+      <category>google</category>
+      <description>Google Cloudは2026年11月4日、PostgreSQL互換データベース「AlloyDB for PostgreSQL」の新しい提供形態「AlloyDB Express」をプレビューとして公開しました。開発者とAIコーディングエージェントでの利用…</description>
+    </item>
+    <item>
+      <title>OpenAI「Daybreak Red」がAWS GovCloud（US-East）に対応 サイバー特化モデルGPT-5.6 Cyberを規制環境へ</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1567559831080931501</link>
+      <guid isPermaLink="false">afnjp-1567559831080931501</guid>
+      <pubDate>Wed, 04 Nov 2026 15:23:07 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIは2026年11月4日、サイバーセキュリティ特化モデル「GPT-5.6 Cyber」を提供する「Daybreak Red」が、Amazon Bedrock経由でAWS GovCloud（US-East）の承認済み顧客に提供開始されたと発表しました…</description>
+    </item>
+    <item>
+      <title>OpenAIがPierre Computerを買収へ Git基盤の「Code Storage」をCodexに統合</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1567559696922189905</link>
+      <guid isPermaLink="false">afnjp-1567559696922189905</guid>
+      <pubDate>Wed, 04 Nov 2026 15:22:35 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIは2026年11月4日、開発者ツールを手がけるPierre Computer Company, Inc.（以下Pierre）の買収計画を発表しました。Pierreの中核製品である「Code Storage」をCodexに統合し、コードの生成・レビ…</description>
+    </item>
+    <item>
+      <title>テンセント「Hy4」正式版が登場、Hunyuan初の視覚理解とコンピューター操作に対応</title>
+      <link>https://discord.com/channels/1415350002255007784/1460898443923820618/threads/1567497309133209771</link>
+      <guid isPermaLink="false">afnjp-1567497309133209771</guid>
+      <pubDate>Wed, 04 Nov 2026 11:14:41 GMT</pubDate>
+      <category>hunyuan</category>
+      <description>テンセントのHunyuan（Hy）チームは2026年11月4日、フラッグシップ大規模言語モデル「Hy4」の正式版を公開しました。8月にオープンウェイトで公開された「Hy4 preview」を土台に、事前学習と事後学習の規模を大きく拡張し、シリーズとして初めて…</description>
+    </item>
     <item>
       <title>Particle-1登場、トークン消費を約45%削減する「省トークン特化」コーディングモデル</title>
       <link>https://discord.com/channels/1415350002255007784/1469665728721588320/threads/1567322608410828840</link>
@@ -54,54 +102,6 @@
       <pubDate>Tue, 03 Nov 2026 00:17:07 GMT</pubDate>
       <category>その他</category>
       <description>Vercel Labsは、AIエージェントにデスクトップアプリの操作能力を与えるオープンソースツール「agent-desktop」をGitHubで公開しています。Rustで実装され、画面のピクセルから要素を推測する従来型の「コンピュータ使用（Computer…</description>
-    </item>
-    <item>
-      <title>AIエージェントが実機スマホを操作、「Phone Harness MCP」がGitHubで公開</title>
-      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1566969245072629841</link>
-      <guid isPermaLink="false">afnjp-1566969245072629841</guid>
-      <pubDate>Tue, 03 Nov 2026 00:16:20 GMT</pubDate>
-      <category>その他</category>
-      <description>AIエージェントにiPhoneやAndroidの実機を操作させるためのMCPサーバー「Phone Harness MCP」がGitHubで公開されました。エージェントがクラウド上のスマートフォンの画面を見て、タップや文字入力、スワイプ、アプリ起動までをHTT…</description>
-    </item>
-    <item>
-      <title>Claude Messages APIに「message threads」登場、長時間エージェントの応答開始を最大約35%短縮</title>
-      <link>https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1566969030105895022</link>
-      <guid isPermaLink="false">afnjp-1566969030105895022</guid>
-      <pubDate>Tue, 03 Nov 2026 00:15:29 GMT</pubDate>
-      <category>anthropic</category>
-      <description>Anthropicは2026年11月2日、Claude PlatformのMessages APIに新機能「message threads」をパブリックベータとして追加しました。エージェントが毎ターン会話履歴全体を再送信する必要がなくなり、差分のみを送ること…</description>
-    </item>
-    <item>
-      <title>DeepSeek Harness「Creator Mode」のデモ用プロンプト7種が公開、自然言語でアプリにプラグインを追加</title>
-      <link>https://discord.com/channels/1415350002255007784/1419690651490193470/threads/1566963705227255838</link>
-      <guid isPermaLink="false">afnjp-1566963705227255838</guid>
-      <pubDate>Mon, 02 Nov 2026 23:54:20 GMT</pubDate>
-      <category>deep-seek</category>
-      <description>DeepSeekは、同社のAIツール「DeepSeek Harness」に搭載された「Creator Mode」の紹介動画で使われた7つのデモについて、元になったプロンプトをまとめたページを公開しました。プロンプトをDeepSeek Harnessに貼り付け…</description>
-    </item>
-    <item>
-      <title>OpenAI、Codex時代のモノレポを支える新Gitバックエンド「Pando」を公開 プッシュ遅延を約5分の1に短縮</title>
-      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1566962977708445746</link>
-      <guid isPermaLink="false">afnjp-1566962977708445746</guid>
-      <pubDate>Mon, 02 Nov 2026 23:51:26 GMT</pubDate>
-      <category>open-ai</category>
-      <description>OpenAIは2026年11月2日、社内モノレポの全開発を支える新しいGitリポジトリ用バックエンド「Pando」の設計を公開しました。Codexによる並列開発の急増に対応するため、Gitプロトコルとの互換性を保ったまま書き込みと読み取りを水平に拡張する仕組…</description>
-    </item>
-    <item>
-      <title>OpenAI、日常生活タスクでAIの実用性を測る新ベンチマーク「LifeVal」を発表</title>
-      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1566874633066778815</link>
-      <guid isPermaLink="false">afnjp-1566874633066778815</guid>
-      <pubDate>Mon, 02 Nov 2026 18:00:23 GMT</pubDate>
-      <category>open-ai</category>
-      <description>OpenAIは2026年11月2日、育児先探しや家計管理、行政手続きなど、日常生活の「用事」をAIがどれだけ実際に片付けられるかを測定する評価指標「LifeVal」を公開しました。ChatGPTを単なる相談相手ではなく、行動して成果を出すパーソナルアシスタン…</description>
-    </item>
-    <item>
-      <title>Hume AI、音声に「問い」を投げて確率で答える「Audio Decision Model API」を発表</title>
-      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1566874504288796692</link>
-      <guid isPermaLink="false">afnjp-1566874504288796692</guid>
-      <pubDate>Mon, 02 Nov 2026 17:59:52 GMT</pubDate>
-      <category>その他</category>
-      <description>感情認識AIで知られるHume AIは、音声データに対して開発者が任意の質問と回答候補を与えると、各回答の確率を返す「Audio Decision Model API」を発表しました。文字起こしを経ずに音声そのものから判断を下す「意思決定層」として、ボイスA…</description>
     </item>
   </channel>
 </rss>
