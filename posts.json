@@ -1,8 +1,161 @@
 {
-  "generated_at": "2026-11-04T18:37:09.497Z",
+  "generated_at": "2026-11-05T00:21:40.040Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1567686123533373531",
+      "title": "Kiro CLI 3.0が正式リリース、IDEと共通のエージェント基盤をターミナルへ",
+      "channel": "kiro",
+      "category": "その他",
+      "date": "2026-11-04T23:44:58.050Z",
+      "excerpt": "AWSが提供するAIコーディングエージェント「Kiro」のCLI版が、2026年11月3日にバージョン3.0として正式リリースされました。Kiro IDEやKiro Webと同じエージェントハーネスをターミナルに導入し、クラウドセッション、スペックモード、ワ…",
+      "lead": "AWSが提供するAIコーディングエージェント「Kiro」のCLI版が、2026年11月3日にバージョン3.0として正式リリースされました。Kiro IDEやKiro Webと同じエージェントハーネスをターミナルに導入し、クラウドセッション、スペックモード、ワークフローなどを利用可能にしています。6月からオプトインで提供されてきたV3が、いよいよ標準体験になります。",
+      "headings": [
+        "共通ハーネスによる機能の同時提供",
+        "主な新機能",
+        "移行時の注意点",
+        "今後の展望"
+      ],
+      "source_url": "https://kiro.dev/blog/cli-3/?sc_channel=sm&sc_publisher=TWITTER&sc_country=global&sc_geo=GLOBAL&sc_outcome=awareness&trk=kiro",
+      "source_urls": [
+        "https://kiro.dev/blog/cli-3/?sc_channel=sm&sc_publisher=TWITTER&sc_country=global&sc_geo=GLOBAL&sc_outcome=awareness&trk=kiro"
+      ],
+      "source_label": "kiro.dev",
+      "cover": "assets/posts/1567686123533373531.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417187061454213201/threads/1567686123533373531",
+      "first_seen": "2026-11-04T23:44:58.050Z",
+      "kind": "tool",
+      "kind_confidence": 0.63
+    },
+    {
+      "id": "1567685907161551049",
+      "title": "Suno、MIDIファイルから楽曲生成を開始できる新機能を公開 音符単位の精密な制御が可能に",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-11-04T23:44:06.463Z",
+      "excerpt": "AI音楽生成サービスのSunoは2026年11月4日、MIDIファイルを楽曲制作の出発点として利用できる新機能を発表しました。Createページにファイルをドラッグ＆ドロップするか、「+」メニューからMIDIを選ぶだけで、記述した音符やタイミングを基にAIが…",
+      "lead": "AI音楽生成サービスのSunoは2026年11月4日、MIDIファイルを楽曲制作の出発点として利用できる新機能を発表しました。Createページにファイルをドラッグ＆ドロップするか、「+」メニューからMIDIを選ぶだけで、記述した音符やタイミングを基にAIが楽曲を生成します。ProおよびPremierの全サブスクライバーが利用できます。",
+      "headings": [
+        "音のない「演奏データ」を入力に",
+        "自然言語で「従い方」を指示",
+        "既存のMIDI制作の課題に対する回答",
+        "今後の展望"
+      ],
+      "source_url": "https://suno.com/blog/MIDI-in-create",
+      "source_urls": [
+        "https://suno.com/blog/MIDI-in-create"
+      ],
+      "source_label": "suno.com",
+      "cover": "assets/posts/1567685907161551049.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1567685907161551049",
+      "first_seen": "2026-11-04T23:44:06.463Z",
+      "kind": "feature",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1567685817705570330",
+      "title": "Cognition、低コスト・高速なコーディングモデル「SWE-2 Flash」を発表 米国製オープンウェイト勢で最高性能を主張",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-11-04T23:43:45.135Z",
+      "excerpt": "AIソフトウェアエンジニア「Devin」を手がける米Cognitionは2026年11月4日、コーディング特化モデル「SWE-2 Flash」を発表しました。上位モデル「SWE-2」の5分の1の価格、3倍の速度で動作し、主要評価で米国製オープンウェイトモデル…",
+      "lead": "AIソフトウェアエンジニア「Devin」を手がける米Cognitionは2026年11月4日、コーディング特化モデル「SWE-2 Flash」を発表しました。上位モデル「SWE-2」の5分の1の価格、3倍の速度で動作し、主要評価で米国製オープンウェイトモデルをすべて上回るとしています。Devin DesktopとCLIで即日提供され、11月30日まで無料で試用できます。",
+      "headings": [
+        "中間学習を初導入した学習レシピ",
+        "ベンチマーク結果",
+        "生成速度と位置付け",
+        "ウェイト公開は慎重姿勢",
+        "今後の展望"
+      ],
+      "source_url": "https://cognition.com/blog/swe-2-flash",
+      "source_urls": [
+        "https://cognition.com/blog/swe-2-flash"
+      ],
+      "source_label": "cognition.com",
+      "cover": "assets/posts/1567685817705570330.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1567685817705570330",
+      "first_seen": "2026-11-04T23:43:45.135Z",
+      "kind": "model",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1567685704996360332",
+      "title": "チップ設計AIのRicursive、オープンウェイト「Ripple-65B Preview」公開 開発費3200万ドルでエージェント型コーディングの米国最高性能を主張",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-11-04T23:43:18.263Z",
+      "excerpt": "AIによるチップ設計を手がける米Ricursive Intelligenceは、自社開発の大規模言語モデル「Ripple-65B Preview」をオープンウェイトで公開しました。同社はTerminalBench 2.1で80.52を記録し、米国発オープンウ…",
+      "lead": "AIによるチップ設計を手がける米Ricursive Intelligenceは、自社開発の大規模言語モデル「Ripple-65B Preview」をオープンウェイトで公開しました。同社はTerminalBench 2.1で80.52を記録し、米国発オープンウェイトモデルとしてエージェント型コーディングの最高水準に達したとしています。開発費は約3200万ドルで、従来の最高性能モデルの10分の1程度と見積もっています。",
+      "headings": [
+        "チップ設計基盤を支えるモデルの汎用版",
+        "MoEではなく「密」なTransformerを選択",
+        "小規模実験の積み重ねと効率的な強化学習",
+        "影響と注意点"
+      ],
+      "source_url": "https://www.ricursive.com/ripple",
+      "source_urls": [
+        "https://www.ricursive.com/ripple"
+      ],
+      "source_label": "ricursive.com",
+      "cover": "assets/posts/1567685704996360332.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1567685704996360332",
+      "first_seen": "2026-11-04T23:43:18.263Z",
+      "kind": "model",
+      "kind_confidence": 0.99
+    },
+    {
+      "id": "1567683485269753997",
+      "title": "OpenAIが「Images 2.6」を発表、GIFアニメ生成と50%高速化で画像生成の実務利用を加速",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-11-04T23:34:29.039Z",
+      "excerpt": "OpenAIは2026年11月4日、新しい画像生成モデル「Images 2.6」をChatGPT、Codex、APIで提供開始しました。生成速度の50%向上に加え、GIFアニメーションの生成、編集時の一貫性向上、API向けの新しい制御パラメータが加わり、静止…",
+      "lead": "OpenAIは2026年11月4日、新しい画像生成モデル「Images 2.6」をChatGPT、Codex、APIで提供開始しました。生成速度の50%向上に加え、GIFアニメーションの生成、編集時の一貫性向上、API向けの新しい制御パラメータが加わり、静止画中心だった画像生成AIの用途を大きく広げるアップデートとなっています。",
+      "headings": [
+        "用途で選べる2つのAPIモデル",
+        "GIF生成で「動き」に対応",
+        "開発者向けの制御機能を拡充",
+        "利用規模と提供範囲",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/introducing-images-2-6/",
+      "source_urls": [
+        "https://openai.com/index/introducing-images-2-6/"
+      ],
+      "source_label": "openai.com",
+      "cover": "assets/posts/1567683485269753997.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1567683485269753997",
+      "first_seen": "2026-11-04T23:34:29.039Z",
+      "kind": "model",
+      "kind_confidence": 0.97
+    },
+    {
+      "id": "1567683372623601734",
+      "title": "ElevenLabsの音声AI「ElevenAgents」、NiCE・Genesys・Amazon Connect・Five9とネイティブ統合 既存コンタクトセンターを置き換えずにAI化",
+      "channel": "eleven-labs",
+      "category": "その他",
+      "date": "2026-11-04T23:34:02.182Z",
+      "excerpt": "ElevenLabsは2026年11月4日、音声エージェント基盤「ElevenAgents」が主要コンタクトセンタープラットフォーム4社とネイティブ統合したと発表しました。対象はNiCE CXone、Genesys Cloud、Amazon Connect、…",
+      "lead": "ElevenLabsは2026年11月4日、音声エージェント基盤「ElevenAgents」が主要コンタクトセンタープラットフォーム4社とネイティブ統合したと発表しました。対象はNiCE CXone、Genesys Cloud、Amazon Connect、Five9で、それ以外の環境にはSIP（Session Initiation Protocol）経由で接続できます。企業は長年かけて構築した電話基盤を入れ替えることなく、既存のコールフロー内にAI音声エージェントを組み込めるようになります。",
+      "headings": [
+        "既存のコールフローの「内側」で動く設計",
+        "プラットフォームごとの統合方式",
+        "導入効果と事例",
+        "導入時の注意点",
+        "今後の展望"
+      ],
+      "source_url": "https://elevenlabs.io/blog/elevenagents-contact-center-integrations",
+      "source_urls": [
+        "https://elevenlabs.io/blog/elevenagents-contact-center-integrations"
+      ],
+      "source_label": "elevenlabs.io",
+      "cover": "assets/posts/1567683372623601734.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1441006356399259719/threads/1567683372623601734",
+      "first_seen": "2026-11-04T23:34:02.182Z",
+      "kind": "tool",
+      "kind_confidence": 0.38
+    },
     {
       "id": "1567574161251893360",
       "title": "Moonshot AI「Kimi K3.1 Pro」の重みをHugging Faceで公開、2.8TパラメータMoEでエージェント性能が大幅向上",
@@ -157,159 +310,6 @@
       "first_seen": "2026-11-04T11:14:41.189Z",
       "kind": "model",
       "kind_confidence": 0.99
-    },
-    {
-      "id": "1567322608410828840",
-      "title": "Particle-1登場、トークン消費を約45%削減する「省トークン特化」コーディングモデル",
-      "channel": "open-claw",
-      "category": "その他",
-      "date": "2026-11-03T23:40:29.291Z",
-      "excerpt": "米サンフランシスコ拠点のParticle AIは2026年10月28日、初のモデル「Particle-1」を発表しました。DeepSeek V4.1 Flashをベースに強化学習で後学習したモデルで、精度をほぼ維持したまま、平均で約45%少ないトークンでソフ…",
-      "lead": "米サンフランシスコ拠点のParticle AIは2026年10月28日、初のモデル「Particle-1」を発表しました。DeepSeek V4.1 Flashをベースに強化学習で後学習したモデルで、精度をほぼ維持したまま、平均で約45%少ないトークンでソフトウェア開発タスクを完了できるとしています。初回リリースはソフトウェアエンジニアリング領域に特化しており、Particle API経由ですでに提供が始まっています。",
-      "headings": [
-        "「同じ仕事をより少ないトークンで」を報酬にした強化学習",
-        "ベンチマーク結果",
-        "どこでトークンが減ったのか",
-        "法務分野への汎化と過度な圧縮のリスク",
-        "今後の展望"
-      ],
-      "source_url": "https://particle.ai/blog/introducing-particle-1",
-      "source_urls": [
-        "https://particle.ai/blog/introducing-particle-1"
-      ],
-      "source_label": "particle.ai",
-      "url": "https://discord.com/channels/1415350002255007784/1469665728721588320/threads/1567322608410828840",
-      "first_seen": "2026-11-03T23:40:29.291Z",
-      "kind": "model",
-      "kind_confidence": 1
-    },
-    {
-      "id": "1567321396999098538",
-      "title": "OpenAI、物理製品の設計・製造をAIで加速へ GPT-6 Astraがデバイスを「人手の編集なし」で設計、マツダとの共同研究も始動",
-      "channel": "open-ai",
-      "category": "Open AI",
-      "date": "2026-11-03T23:35:40.468Z",
-      "excerpt": "OpenAIは2026年11月3日、同社のAIモデルが機械・電気工学からシステム全体の設計まで、物理的な製品の設計・シミュレーション・製造をどう支援できるかについての研究成果を公開しました。社内のハードウェアチームでの活用実績に加え、Chip Ganassi…",
-      "lead": "OpenAIは2026年11月3日、同社のAIモデルが機械・電気工学からシステム全体の設計まで、物理的な製品の設計・シミュレーション・製造をどう支援できるかについての研究成果を公開しました。社内のハードウェアチームでの活用実績に加え、Chip Ganassi Racing（CGR）やマツダとの協業も明らかにし、AIエージェントの活躍の場をデジタル業務から「モノづくり」へ広げる取り組みとして位置づけています。",
-      "headings": [
-        "GPT-6 Astraが1週間未満でデバイスを設計",
-        "社内のトークン使用量は23倍に",
-        "CGR・マツダとの実問題での検証",
-        "今後の展望"
-      ],
-      "source_url": "https://openai.com/index/accelerating-engineering-for-the-physical-world/",
-      "source_urls": [
-        "https://openai.com/index/accelerating-engineering-for-the-physical-world/"
-      ],
-      "source_label": "openai.com",
-      "cover": "assets/posts/1567321396999098538.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1567321396999098538",
-      "first_seen": "2026-11-03T23:35:40.468Z",
-      "kind": "research",
-      "kind_confidence": 0.87
-    },
-    {
-      "id": "1567216679732248658",
-      "title": "Google、「Guided Learning」を検索とClassroomへ拡大 K-12生徒のAI利用は「管理者が許可するまでオフ」に",
-      "channel": "google",
-      "category": "Google",
-      "date": "2026-11-03T16:39:33.926Z",
-      "excerpt": "Googleは2026年11月3日、教育部門VP兼GMのChris Phillips氏名義で、学習向けAI機能「Guided Learning」をGoogle検索とGoogle Classroomへ拡大すると発表しました。あわせて、K-12（幼稚園〜高校）の…",
-      "lead": "Googleは2026年11月3日、教育部門VP兼GMのChris Phillips氏名義で、学習向けAI機能「Guided Learning」をGoogle検索とGoogle Classroomへ拡大すると発表しました。あわせて、K-12（幼稚園〜高校）の生徒アカウントでは、主要なAI製品を学校管理者が明示的に有効化するまで既定でオフにする方針を示しました。「答えを出すAI」から「考えさせるAI」へ、教育現場での設計思想を明確にした発表です。",
-      "headings": [
-        "Guided Learningとは何か",
-        "Google検索への組み込み",
-        "Google Classroomでは本日から全世界提供",
-        "学校向け管理機能の見直し",
-        "影響と課題",
-        "今後の展望"
-      ],
-      "source_url": "https://blog.google/products-and-platforms/products/education/ai-learning-era-updates-2026/",
-      "source_urls": [
-        "https://blog.google/products-and-platforms/products/education/ai-learning-era-updates-2026/"
-      ],
-      "source_label": "blog.google",
-      "cover": "assets/posts/1567216679732248658.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1567216679732248658",
-      "first_seen": "2026-11-03T16:39:33.926Z",
-      "kind": "feature",
-      "kind_confidence": 0.98
-    },
-    {
-      "id": "1567064487960383619",
-      "title": "Runway、コーディングエージェント向けに動画・画像・音声生成APIの統合を自動化する「Runway Dev」プラグインを提供",
-      "channel": "その他",
-      "category": "その他",
-      "date": "2026-11-03T06:34:48.580Z",
-      "excerpt": "動画生成AIで知られるRunwayは、開発者向けプラットフォーム「Runway Dev」を、コーディングエージェントから直接扱える形で提供しています。Claude Code、Codex、Cursor、Grok Bot向けのプラグインを1つ導入するだけで、エー…",
-      "lead": "動画生成AIで知られるRunwayは、開発者向けプラットフォーム「Runway Dev」を、コーディングエージェントから直接扱える形で提供しています。Claude Code、Codex、Cursor、Grok Bot向けのプラグインを1つ導入するだけで、エージェントがエディタ内で動画・画像・音声生成機能のアプリへの組み込みを計画・設定・デバッグまで担う仕組みです。",
-      "headings": [
-        "プラグインの構成：MCPとスキルの2本柱",
-        "具体的な活用イメージ",
-        "安全性と運用上の注意点",
-        "今後の展望"
-      ],
-      "source_url": "https://dev.runway.com/agents",
-      "source_urls": [
-        "https://dev.runway.com/agents"
-      ],
-      "source_label": "dev.runway.com",
-      "cover": "assets/posts/1567064487960383619.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1567064487960383619",
-      "first_seen": "2026-11-03T06:34:48.580Z",
-      "kind": "tool",
-      "kind_confidence": 0.98
-    },
-    {
-      "id": "1567010005910036601",
-      "title": "OpenAIがバグ報奨金を大幅増額 最高額は約17万ドルに、エージェント悪用リスクを重視",
-      "channel": "open-ai",
-      "category": "Open AI",
-      "date": "2026-11-03T02:58:19.047Z",
-      "excerpt": "OpenAIは、セキュリティ研究者向けバグバウンティ（脆弱性報奨金）制度の報酬体系を刷新しました。重大度の高い脆弱性に対する報酬レンジは4倍超に引き上げられ、ボーナスを含めた最高額は17万2000ドルに達します。AIモデルが脆弱性発見を加速させる時代に、攻撃…",
-      "lead": "OpenAIは、セキュリティ研究者向けバグバウンティ（脆弱性報奨金）制度の報酬体系を刷新しました。重大度の高い脆弱性に対する報酬レンジは4倍超に引き上げられ、ボーナスを含めた最高額は17万2000ドルに達します。AIモデルが脆弱性発見を加速させる時代に、攻撃者より先に防御側へ強いインセンティブを与える狙いです。",
-      "headings": [
-        "報酬体系の変化",
-        "エージェント時代を意識した評価基準",
-        "AIによる脆弱性発見の実績",
-        "影響と課題",
-        "今後の展望"
-      ],
-      "source_url": "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties/",
-      "source_urls": [
-        "https://openai.com/index/rewarding-defenders-with-bigger-bug-bounties/"
-      ],
-      "source_label": "openai.com",
-      "cover": "assets/posts/1567010005910036601.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1567010005910036601",
-      "first_seen": "2026-11-03T02:58:19.047Z",
-      "kind": "policy",
-      "kind_confidence": 0.39
-    },
-    {
-      "id": "1566969441944862841",
-      "title": "Vercel Labs、AIエージェント向けデスクトップ操作基盤「agent-desktop」を公開 画像認識に頼らずOSのアクセシビリティツリーでアプリを操作",
-      "channel": "その他",
-      "category": "その他",
-      "date": "2026-11-03T00:17:07.844Z",
-      "excerpt": "Vercel Labsは、AIエージェントにデスクトップアプリの操作能力を与えるオープンソースツール「agent-desktop」をGitHubで公開しています。Rustで実装され、画面のピクセルから要素を推測する従来型の「コンピュータ使用（Computer…",
-      "lead": "Vercel Labsは、AIエージェントにデスクトップアプリの操作能力を与えるオープンソースツール「agent-desktop」をGitHubで公開しています。Rustで実装され、画面のピクセルから要素を推測する従来型の「コンピュータ使用（Computer Use）」とは異なり、OSが提供するアクセシビリティツリーを通じてアプリの実際のUI構造を読み取り、操作します。macOS、Windows、Linuxに対応し、ライセンスはApache-2.0です。記事作成時点でスター数は約8,300に達しています。",
-      "headings": [
-        "「スナップショット参照で操作再確認」というループ",
-        "再試行の安全性を明示するエラー設計",
-        "エージェントへの組み込みやすさ",
-        "導入時の注意点"
-      ],
-      "source_url": "https://github.com/vercel-labs/agent-desktop",
-      "source_urls": [
-        "https://github.com/vercel-labs/agent-desktop"
-      ],
-      "source_label": "github.com",
-      "cover": "assets/posts/1566969441944862841.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1566969441944862841",
-      "first_seen": "2026-11-03T00:17:07.844Z",
-      "kind": "tool",
-      "kind_confidence": 1
     }
   ]
 }

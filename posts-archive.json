@@ -1,9 +1,162 @@
 {
-  "generated_at": "2026-11-04T18:37:09.493Z",
+  "generated_at": "2026-11-05T00:21:40.035Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 533,
+  "count": 539,
   "posts": [
+    {
+      "id": "1567686123533373531",
+      "title": "Kiro CLI 3.0が正式リリース、IDEと共通のエージェント基盤をターミナルへ",
+      "channel": "kiro",
+      "category": "その他",
+      "date": "2026-11-04T23:44:58.050Z",
+      "excerpt": "AWSが提供するAIコーディングエージェント「Kiro」のCLI版が、2026年11月3日にバージョン3.0として正式リリースされました。Kiro IDEやKiro Webと同じエージェントハーネスをターミナルに導入し、クラウドセッション、スペックモード、ワ…",
+      "lead": "AWSが提供するAIコーディングエージェント「Kiro」のCLI版が、2026年11月3日にバージョン3.0として正式リリースされました。Kiro IDEやKiro Webと同じエージェントハーネスをターミナルに導入し、クラウドセッション、スペックモード、ワークフローなどを利用可能にしています。6月からオプトインで提供されてきたV3が、いよいよ標準体験になります。",
+      "headings": [
+        "共通ハーネスによる機能の同時提供",
+        "主な新機能",
+        "移行時の注意点",
+        "今後の展望"
+      ],
+      "source_url": "https://kiro.dev/blog/cli-3/?sc_channel=sm&sc_publisher=TWITTER&sc_country=global&sc_geo=GLOBAL&sc_outcome=awareness&trk=kiro",
+      "source_urls": [
+        "https://kiro.dev/blog/cli-3/?sc_channel=sm&sc_publisher=TWITTER&sc_country=global&sc_geo=GLOBAL&sc_outcome=awareness&trk=kiro"
+      ],
+      "source_label": "kiro.dev",
+      "cover": "assets/posts/1567686123533373531.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417187061454213201/threads/1567686123533373531",
+      "first_seen": "2026-11-04T23:44:58.050Z",
+      "kind": "tool",
+      "kind_confidence": 0.63
+    },
+    {
+      "id": "1567685907161551049",
+      "title": "Suno、MIDIファイルから楽曲生成を開始できる新機能を公開 音符単位の精密な制御が可能に",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-11-04T23:44:06.463Z",
+      "excerpt": "AI音楽生成サービスのSunoは2026年11月4日、MIDIファイルを楽曲制作の出発点として利用できる新機能を発表しました。Createページにファイルをドラッグ＆ドロップするか、「+」メニューからMIDIを選ぶだけで、記述した音符やタイミングを基にAIが…",
+      "lead": "AI音楽生成サービスのSunoは2026年11月4日、MIDIファイルを楽曲制作の出発点として利用できる新機能を発表しました。Createページにファイルをドラッグ＆ドロップするか、「+」メニューからMIDIを選ぶだけで、記述した音符やタイミングを基にAIが楽曲を生成します。ProおよびPremierの全サブスクライバーが利用できます。",
+      "headings": [
+        "音のない「演奏データ」を入力に",
+        "自然言語で「従い方」を指示",
+        "既存のMIDI制作の課題に対する回答",
+        "今後の展望"
+      ],
+      "source_url": "https://suno.com/blog/MIDI-in-create",
+      "source_urls": [
+        "https://suno.com/blog/MIDI-in-create"
+      ],
+      "source_label": "suno.com",
+      "cover": "assets/posts/1567685907161551049.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1567685907161551049",
+      "first_seen": "2026-11-04T23:44:06.463Z",
+      "kind": "feature",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1567685817705570330",
+      "title": "Cognition、低コスト・高速なコーディングモデル「SWE-2 Flash」を発表 米国製オープンウェイト勢で最高性能を主張",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-11-04T23:43:45.135Z",
+      "excerpt": "AIソフトウェアエンジニア「Devin」を手がける米Cognitionは2026年11月4日、コーディング特化モデル「SWE-2 Flash」を発表しました。上位モデル「SWE-2」の5分の1の価格、3倍の速度で動作し、主要評価で米国製オープンウェイトモデル…",
+      "lead": "AIソフトウェアエンジニア「Devin」を手がける米Cognitionは2026年11月4日、コーディング特化モデル「SWE-2 Flash」を発表しました。上位モデル「SWE-2」の5分の1の価格、3倍の速度で動作し、主要評価で米国製オープンウェイトモデルをすべて上回るとしています。Devin DesktopとCLIで即日提供され、11月30日まで無料で試用できます。",
+      "headings": [
+        "中間学習を初導入した学習レシピ",
+        "ベンチマーク結果",
+        "生成速度と位置付け",
+        "ウェイト公開は慎重姿勢",
+        "今後の展望"
+      ],
+      "source_url": "https://cognition.com/blog/swe-2-flash",
+      "source_urls": [
+        "https://cognition.com/blog/swe-2-flash"
+      ],
+      "source_label": "cognition.com",
+      "cover": "assets/posts/1567685817705570330.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1567685817705570330",
+      "first_seen": "2026-11-04T23:43:45.135Z",
+      "kind": "model",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1567685704996360332",
+      "title": "チップ設計AIのRicursive、オープンウェイト「Ripple-65B Preview」公開 開発費3200万ドルでエージェント型コーディングの米国最高性能を主張",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-11-04T23:43:18.263Z",
+      "excerpt": "AIによるチップ設計を手がける米Ricursive Intelligenceは、自社開発の大規模言語モデル「Ripple-65B Preview」をオープンウェイトで公開しました。同社はTerminalBench 2.1で80.52を記録し、米国発オープンウ…",
+      "lead": "AIによるチップ設計を手がける米Ricursive Intelligenceは、自社開発の大規模言語モデル「Ripple-65B Preview」をオープンウェイトで公開しました。同社はTerminalBench 2.1で80.52を記録し、米国発オープンウェイトモデルとしてエージェント型コーディングの最高水準に達したとしています。開発費は約3200万ドルで、従来の最高性能モデルの10分の1程度と見積もっています。",
+      "headings": [
+        "チップ設計基盤を支えるモデルの汎用版",
+        "MoEではなく「密」なTransformerを選択",
+        "小規模実験の積み重ねと効率的な強化学習",
+        "影響と注意点"
+      ],
+      "source_url": "https://www.ricursive.com/ripple",
+      "source_urls": [
+        "https://www.ricursive.com/ripple"
+      ],
+      "source_label": "ricursive.com",
+      "cover": "assets/posts/1567685704996360332.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1567685704996360332",
+      "first_seen": "2026-11-04T23:43:18.263Z",
+      "kind": "model",
+      "kind_confidence": 0.99
+    },
+    {
+      "id": "1567683485269753997",
+      "title": "OpenAIが「Images 2.6」を発表、GIFアニメ生成と50%高速化で画像生成の実務利用を加速",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-11-04T23:34:29.039Z",
+      "excerpt": "OpenAIは2026年11月4日、新しい画像生成モデル「Images 2.6」をChatGPT、Codex、APIで提供開始しました。生成速度の50%向上に加え、GIFアニメーションの生成、編集時の一貫性向上、API向けの新しい制御パラメータが加わり、静止…",
+      "lead": "OpenAIは2026年11月4日、新しい画像生成モデル「Images 2.6」をChatGPT、Codex、APIで提供開始しました。生成速度の50%向上に加え、GIFアニメーションの生成、編集時の一貫性向上、API向けの新しい制御パラメータが加わり、静止画中心だった画像生成AIの用途を大きく広げるアップデートとなっています。",
+      "headings": [
+        "用途で選べる2つのAPIモデル",
+        "GIF生成で「動き」に対応",
+        "開発者向けの制御機能を拡充",
+        "利用規模と提供範囲",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/introducing-images-2-6/",
+      "source_urls": [
+        "https://openai.com/index/introducing-images-2-6/"
+      ],
+      "source_label": "openai.com",
+      "cover": "assets/posts/1567683485269753997.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1567683485269753997",
+      "first_seen": "2026-11-04T23:34:29.039Z",
+      "kind": "model",
+      "kind_confidence": 0.97
+    },
+    {
+      "id": "1567683372623601734",
+      "title": "ElevenLabsの音声AI「ElevenAgents」、NiCE・Genesys・Amazon Connect・Five9とネイティブ統合 既存コンタクトセンターを置き換えずにAI化",
+      "channel": "eleven-labs",
+      "category": "その他",
+      "date": "2026-11-04T23:34:02.182Z",
+      "excerpt": "ElevenLabsは2026年11月4日、音声エージェント基盤「ElevenAgents」が主要コンタクトセンタープラットフォーム4社とネイティブ統合したと発表しました。対象はNiCE CXone、Genesys Cloud、Amazon Connect、…",
+      "lead": "ElevenLabsは2026年11月4日、音声エージェント基盤「ElevenAgents」が主要コンタクトセンタープラットフォーム4社とネイティブ統合したと発表しました。対象はNiCE CXone、Genesys Cloud、Amazon Connect、Five9で、それ以外の環境にはSIP（Session Initiation Protocol）経由で接続できます。企業は長年かけて構築した電話基盤を入れ替えることなく、既存のコールフロー内にAI音声エージェントを組み込めるようになります。",
+      "headings": [
+        "既存のコールフローの「内側」で動く設計",
+        "プラットフォームごとの統合方式",
+        "導入効果と事例",
+        "導入時の注意点",
+        "今後の展望"
+      ],
+      "source_url": "https://elevenlabs.io/blog/elevenagents-contact-center-integrations",
+      "source_urls": [
+        "https://elevenlabs.io/blog/elevenagents-contact-center-integrations"
+      ],
+      "source_label": "elevenlabs.io",
+      "cover": "assets/posts/1567683372623601734.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1441006356399259719/threads/1567683372623601734",
+      "first_seen": "2026-11-04T23:34:02.182Z",
+      "kind": "tool",
+      "kind_confidence": 0.38
+    },
     {
       "id": "1567574161251893360",
       "title": "Moonshot AI「Kimi K3.1 Pro」の重みをHugging Faceで公開、2.8TパラメータMoEでエージェント性能が大幅向上",

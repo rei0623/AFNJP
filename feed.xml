@@ -5,8 +5,56 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 04 Nov 2026 16:20:04 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 04 Nov 2026 23:44:58 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Kiro CLI 3.0が正式リリース、IDEと共通のエージェント基盤をターミナルへ</title>
+      <link>https://discord.com/channels/1415350002255007784/1417187061454213201/threads/1567686123533373531</link>
+      <guid isPermaLink="false">afnjp-1567686123533373531</guid>
+      <pubDate>Wed, 04 Nov 2026 23:44:58 GMT</pubDate>
+      <category>kiro</category>
+      <description>AWSが提供するAIコーディングエージェント「Kiro」のCLI版が、2026年11月3日にバージョン3.0として正式リリースされました。Kiro IDEやKiro Webと同じエージェントハーネスをターミナルに導入し、クラウドセッション、スペックモード、ワ…</description>
+    </item>
+    <item>
+      <title>Suno、MIDIファイルから楽曲生成を開始できる新機能を公開 音符単位の精密な制御が可能に</title>
+      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1567685907161551049</link>
+      <guid isPermaLink="false">afnjp-1567685907161551049</guid>
+      <pubDate>Wed, 04 Nov 2026 23:44:06 GMT</pubDate>
+      <category>その他</category>
+      <description>AI音楽生成サービスのSunoは2026年11月4日、MIDIファイルを楽曲制作の出発点として利用できる新機能を発表しました。Createページにファイルをドラッグ＆ドロップするか、「+」メニューからMIDIを選ぶだけで、記述した音符やタイミングを基にAIが…</description>
+    </item>
+    <item>
+      <title>Cognition、低コスト・高速なコーディングモデル「SWE-2 Flash」を発表 米国製オープンウェイト勢で最高性能を主張</title>
+      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1567685817705570330</link>
+      <guid isPermaLink="false">afnjp-1567685817705570330</guid>
+      <pubDate>Wed, 04 Nov 2026 23:43:45 GMT</pubDate>
+      <category>その他</category>
+      <description>AIソフトウェアエンジニア「Devin」を手がける米Cognitionは2026年11月4日、コーディング特化モデル「SWE-2 Flash」を発表しました。上位モデル「SWE-2」の5分の1の価格、3倍の速度で動作し、主要評価で米国製オープンウェイトモデル…</description>
+    </item>
+    <item>
+      <title>チップ設計AIのRicursive、オープンウェイト「Ripple-65B Preview」公開 開発費3200万ドルでエージェント型コーディングの米国最高性能を主張</title>
+      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1567685704996360332</link>
+      <guid isPermaLink="false">afnjp-1567685704996360332</guid>
+      <pubDate>Wed, 04 Nov 2026 23:43:18 GMT</pubDate>
+      <category>その他</category>
+      <description>AIによるチップ設計を手がける米Ricursive Intelligenceは、自社開発の大規模言語モデル「Ripple-65B Preview」をオープンウェイトで公開しました。同社はTerminalBench 2.1で80.52を記録し、米国発オープンウ…</description>
+    </item>
+    <item>
+      <title>OpenAIが「Images 2.6」を発表、GIFアニメ生成と50%高速化で画像生成の実務利用を加速</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1567683485269753997</link>
+      <guid isPermaLink="false">afnjp-1567683485269753997</guid>
+      <pubDate>Wed, 04 Nov 2026 23:34:29 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIは2026年11月4日、新しい画像生成モデル「Images 2.6」をChatGPT、Codex、APIで提供開始しました。生成速度の50%向上に加え、GIFアニメーションの生成、編集時の一貫性向上、API向けの新しい制御パラメータが加わり、静止…</description>
+    </item>
+    <item>
+      <title>ElevenLabsの音声AI「ElevenAgents」、NiCE・Genesys・Amazon Connect・Five9とネイティブ統合 既存コンタクトセンターを置き換えずにAI化</title>
+      <link>https://discord.com/channels/1415350002255007784/1441006356399259719/threads/1567683372623601734</link>
+      <guid isPermaLink="false">afnjp-1567683372623601734</guid>
+      <pubDate>Wed, 04 Nov 2026 23:34:02 GMT</pubDate>
+      <category>eleven-labs</category>
+      <description>ElevenLabsは2026年11月4日、音声エージェント基盤「ElevenAgents」が主要コンタクトセンタープラットフォーム4社とネイティブ統合したと発表しました。対象はNiCE CXone、Genesys Cloud、Amazon Connect、…</description>
+    </item>
     <item>
       <title>Moonshot AI「Kimi K3.1 Pro」の重みをHugging Faceで公開、2.8TパラメータMoEでエージェント性能が大幅向上</title>
       <link>https://discord.com/channels/1415350002255007784/1417459869341978704/threads/1567574161251893360</link>
@@ -54,54 +102,6 @@
       <pubDate>Wed, 04 Nov 2026 11:14:41 GMT</pubDate>
       <category>hunyuan</category>
       <description>テンセントのHunyuan（Hy）チームは2026年11月4日、フラッグシップ大規模言語モデル「Hy4」の正式版を公開しました。8月にオープンウェイトで公開された「Hy4 preview」を土台に、事前学習と事後学習の規模を大きく拡張し、シリーズとして初めて…</description>
-    </item>
-    <item>
-      <title>Particle-1登場、トークン消費を約45%削減する「省トークン特化」コーディングモデル</title>
-      <link>https://discord.com/channels/1415350002255007784/1469665728721588320/threads/1567322608410828840</link>
-      <guid isPermaLink="false">afnjp-1567322608410828840</guid>
-      <pubDate>Tue, 03 Nov 2026 23:40:29 GMT</pubDate>
-      <category>open-claw</category>
-      <description>米サンフランシスコ拠点のParticle AIは2026年10月28日、初のモデル「Particle-1」を発表しました。DeepSeek V4.1 Flashをベースに強化学習で後学習したモデルで、精度をほぼ維持したまま、平均で約45%少ないトークンでソフ…</description>
-    </item>
-    <item>
-      <title>OpenAI、物理製品の設計・製造をAIで加速へ GPT-6 Astraがデバイスを「人手の編集なし」で設計、マツダとの共同研究も始動</title>
-      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1567321396999098538</link>
-      <guid isPermaLink="false">afnjp-1567321396999098538</guid>
-      <pubDate>Tue, 03 Nov 2026 23:35:40 GMT</pubDate>
-      <category>open-ai</category>
-      <description>OpenAIは2026年11月3日、同社のAIモデルが機械・電気工学からシステム全体の設計まで、物理的な製品の設計・シミュレーション・製造をどう支援できるかについての研究成果を公開しました。社内のハードウェアチームでの活用実績に加え、Chip Ganassi…</description>
-    </item>
-    <item>
-      <title>Google、「Guided Learning」を検索とClassroomへ拡大 K-12生徒のAI利用は「管理者が許可するまでオフ」に</title>
-      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1567216679732248658</link>
-      <guid isPermaLink="false">afnjp-1567216679732248658</guid>
-      <pubDate>Tue, 03 Nov 2026 16:39:33 GMT</pubDate>
-      <category>google</category>
-      <description>Googleは2026年11月3日、教育部門VP兼GMのChris Phillips氏名義で、学習向けAI機能「Guided Learning」をGoogle検索とGoogle Classroomへ拡大すると発表しました。あわせて、K-12（幼稚園〜高校）の…</description>
-    </item>
-    <item>
-      <title>Runway、コーディングエージェント向けに動画・画像・音声生成APIの統合を自動化する「Runway Dev」プラグインを提供</title>
-      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1567064487960383619</link>
-      <guid isPermaLink="false">afnjp-1567064487960383619</guid>
-      <pubDate>Tue, 03 Nov 2026 06:34:48 GMT</pubDate>
-      <category>その他</category>
-      <description>動画生成AIで知られるRunwayは、開発者向けプラットフォーム「Runway Dev」を、コーディングエージェントから直接扱える形で提供しています。Claude Code、Codex、Cursor、Grok Bot向けのプラグインを1つ導入するだけで、エー…</description>
-    </item>
-    <item>
-      <title>OpenAIがバグ報奨金を大幅増額 最高額は約17万ドルに、エージェント悪用リスクを重視</title>
-      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1567010005910036601</link>
-      <guid isPermaLink="false">afnjp-1567010005910036601</guid>
-      <pubDate>Tue, 03 Nov 2026 02:58:19 GMT</pubDate>
-      <category>open-ai</category>
-      <description>OpenAIは、セキュリティ研究者向けバグバウンティ（脆弱性報奨金）制度の報酬体系を刷新しました。重大度の高い脆弱性に対する報酬レンジは4倍超に引き上げられ、ボーナスを含めた最高額は17万2000ドルに達します。AIモデルが脆弱性発見を加速させる時代に、攻撃…</description>
-    </item>
-    <item>
-      <title>Vercel Labs、AIエージェント向けデスクトップ操作基盤「agent-desktop」を公開 画像認識に頼らずOSのアクセシビリティツリーでアプリを操作</title>
-      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1566969441944862841</link>
-      <guid isPermaLink="false">afnjp-1566969441944862841</guid>
-      <pubDate>Tue, 03 Nov 2026 00:17:07 GMT</pubDate>
-      <category>その他</category>
-      <description>Vercel Labsは、AIエージェントにデスクトップアプリの操作能力を与えるオープンソースツール「agent-desktop」をGitHubで公開しています。Rustで実装され、画面のピクセルから要素を推測する従来型の「コンピュータ使用（Computer…</description>
     </item>
   </channel>
 </rss>
