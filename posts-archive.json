@@ -1,9 +1,61 @@
 {
-  "generated_at": "2026-11-05T07:53:26.329Z",
+  "generated_at": "2026-11-05T16:26:19.581Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 539,
+  "count": 541,
   "posts": [
+    {
+      "id": "1567858330859470939",
+      "title": "Claude Marketplaceに14の新パートナー製品、セキュリティから業務アプリまでAnthropic利用枠で調達可能に",
+      "channel": "anthropic",
+      "category": "Anthropic",
+      "date": "2026-11-05T11:09:15.476Z",
+      "excerpt": "Anthropicは2026年11月4日、パートナー製のエージェントや製品を提供する「Claude Marketplace」に、セキュリティ、開発基盤、クリエイティブ、生産性の4領域で新たなラインナップを追加したと発表しました。掲載数は25を超え、条件を満た…",
+      "lead": "Anthropicは2026年11月4日、パートナー製のエージェントや製品を提供する「Claude Marketplace」に、セキュリティ、開発基盤、クリエイティブ、生産性の4領域で新たなラインナップを追加したと発表しました。掲載数は25を超え、条件を満たす企業はAnthropicとの契約済み利用額の一部をこれらの購入に充てられます。",
+      "headings": [
+        "セキュリティ：AIが見つけた脆弱性を「直す」まで",
+        "開発基盤：エージェントを本番運用へ",
+        "マーケティング・クリエイティブ",
+        "生産性：権限と監査を前提にしたエージェント",
+        "企業にとっての意味と注意点",
+        "今後の展望"
+      ],
+      "source_url": "https://claude.com/ja/resources/articles/new-agents-and-products-claude-marketplace",
+      "source_urls": [
+        "https://claude.com/ja/resources/articles/new-agents-and-products-claude-marketplace"
+      ],
+      "source_label": "claude.com",
+      "cover": "assets/posts/1567858330859470939.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1567858330859470939",
+      "first_seen": "2026-11-05T11:09:15.476Z",
+      "kind": "feature",
+      "kind_confidence": 0.92
+    },
+    {
+      "id": "1567858187116224562",
+      "title": "OpenAI、AIデータセンター建設の新基準「National Community Compact」を公表 電力・インフラ費用の全額負担と情報開示を約束",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-11-05T11:08:41.205Z",
+      "excerpt": "OpenAIは2026年11月5日、AIインフラを建設する地域社会への約束をまとめた「National Community Compact」と、業界全体に向けた政策提言「Compute Campus Policy Blueprint」を公表しました。同社が所…",
+      "lead": "OpenAIは2026年11月5日、AIインフラを建設する地域社会への約束をまとめた「National Community Compact」と、業界全体に向けた政策提言「Compute Campus Policy Blueprint」を公表しました。同社が所有・運営する今後の「コンピュートキャンパス」（同社がAIデータセンターに用いる呼称）では、電力と関連インフラの費用を自社で全額負担し、水・電力使用量などを地域に開示するとしています。",
+      "headings": [
+        "コンパクトの主な内容",
+        "業界全体への政策提言",
+        "背景と課題",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure/",
+      "source_urls": [
+        "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure/"
+      ],
+      "source_label": "openai.com",
+      "cover": "assets/posts/1567858187116224562.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1567858187116224562",
+      "first_seen": "2026-11-05T11:08:41.205Z",
+      "kind": "policy",
+      "kind_confidence": 0.61
+    },
     {
       "id": "1567686123533373531",
       "title": "Kiro CLI 3.0が正式リリース、IDEと共通のエージェント基盤をターミナルへ",
