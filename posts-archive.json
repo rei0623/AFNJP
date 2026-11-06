@@ -1,9 +1,110 @@
 {
-  "generated_at": "2026-11-05T22:39:55.898Z",
+  "generated_at": "2026-11-06T03:24:31.056Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 541,
+  "count": 545,
   "posts": [
+    {
+      "id": "1568044581210300526",
+      "title": "Meta、「Muse」アプリにリアルタイム音声会話と表情豊かなアバターを導入 米国から提供開始",
+      "channel": "muse-spark",
+      "category": "Meta",
+      "date": "2026-11-05T23:29:21.020Z",
+      "excerpt": "Metaは2026年11月5日、AIアシスタントアプリ「Muse」に音声会話機能と表情豊かなアバター機能を追加すると発表しました。9月の「Connect 2026」でプレビューしていたリアルタイム会話機能を、モバイル、Web、Macの各版で順次提供します。ま…",
+      "lead": "Metaは2026年11月5日、AIアシスタントアプリ「Muse」に音声会話機能と表情豊かなアバター機能を追加すると発表しました。9月の「Connect 2026」でプレビューしていたリアルタイム会話機能を、モバイル、Web、Macの各版で順次提供します。まずは米国から展開されます。",
+      "headings": [
+        "「話しながら考える」ための音声インターフェース",
+        "技術的な特徴：割り込み可能なリアルタイム会話",
+        "背景と影響",
+        "今後の展望"
+      ],
+      "source_url": "https://about.fb.com/news/2026/11/introducing-muse-ai-voice-expressive-avatars/",
+      "source_urls": [
+        "https://about.fb.com/news/2026/11/introducing-muse-ai-voice-expressive-avatars/"
+      ],
+      "source_label": "about.fb.com",
+      "url": "https://discord.com/channels/1415350002255007784/1491820892789936220/threads/1568044581210300526",
+      "first_seen": "2026-11-05T23:29:21.020Z",
+      "kind": "feature",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1568044418953519124",
+      "title": "NVIDIA、対話型ワールドシミュレーション向け「Cosmos 3」新モデル4種をオープン公開",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-11-05T23:28:42.335Z",
+      "excerpt": "NVIDIAは2026年11月5日、ワールドモデル開発プラットフォーム「Cosmos」のCosmos 3ファミリーに、オープンウェイトの新チェックポイント4種を追加したと発表しました。自動運転向けのマルチセンサー・マルチビュー映像生成と、ロボット操作の対話型…",
+      "lead": "NVIDIAは2026年11月5日、ワールドモデル開発プラットフォーム「Cosmos」のCosmos 3ファミリーに、オープンウェイトの新チェックポイント4種を追加したと発表しました。自動運転向けのマルチセンサー・マルチビュー映像生成と、ロボット操作の対話型シミュレーションが主な対象です。いずれもCosmos 3 Nanoを事後学習させたモデルで、学習可能パラメータは16B、ライセンスはOpenMDW1.1で、条件の範囲内で商用・非商用の両方で利用できます。",
+      "headings": [
+        "4つのモデルの役割",
+        "ストリーミング生成の仕組み",
+        "開発者への影響と注意点",
+        "今後の展望"
+      ],
+      "source_url": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
+      "source_urls": [
+        "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation"
+      ],
+      "source_label": "huggingface.co",
+      "cover": "assets/posts/1568044418953519124.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1568044418953519124",
+      "first_seen": "2026-11-05T23:28:42.335Z",
+      "kind": "model",
+      "kind_confidence": 0.99
+    },
+    {
+      "id": "1568044258072461372",
+      "title": "OpenAI「GPT-6 Cyber」発表 脆弱性の発見・悪用・修正を担う特化型モデル、認可スコープ遵守を大幅強化",
+      "channel": "chatgpt",
+      "category": "Open AI",
+      "date": "2026-11-05T23:28:03.978Z",
+      "excerpt": "OpenAIは2026年11月5日（米国時間）、サイバーセキュリティ特化型モデル「GPT-6 Cyber」を発表しました。悪用可能な脆弱性の発見と検証、修正の作成を目的とし、研究者が認可した範囲（スコープ）から逸脱しないよう訓練されている点が最大の特徴です。…",
+      "lead": "OpenAIは2026年11月5日（米国時間）、サイバーセキュリティ特化型モデル「GPT-6 Cyber」を発表しました。悪用可能な脆弱性の発見と検証、修正の作成を目的とし、研究者が認可した範囲（スコープ）から逸脱しないよう訓練されている点が最大の特徴です。当面は同社のレッドチーム向けプログラム「Daybreak Red」の一部顧客に限定して提供されます。",
+      "headings": [
+        "モデルの位置付けと性能",
+        "実環境での成果",
+        "スコープ遵守と安全対策",
+        "影響と課題",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/introducing-gpt-6-cyber/",
+      "source_urls": [
+        "https://openai.com/index/introducing-gpt-6-cyber/"
+      ],
+      "source_label": "openai.com",
+      "cover": "assets/posts/1568044258072461372.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415353131604377641/threads/1568044258072461372",
+      "first_seen": "2026-11-05T23:28:03.978Z",
+      "kind": "model",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1568044080980824064",
+      "title": "Google、動画生成AI「Gemini Omni 1.2 Flash」を一般提供開始 15秒動画に対応し価格は30%引き下げ",
+      "channel": "gemini",
+      "category": "Google",
+      "date": "2026-11-05T23:27:21.756Z",
+      "excerpt": "Google DeepMindは2026年11月5日（米国時間）、動画生成・編集モデル「Gemini Omni 1.2 Flash」を発表し、Gemini APIおよびGoogle Cloud（Gemini for business）での一般提供を開始しまし…",
+      "lead": "Google DeepMindは2026年11月5日（米国時間）、動画生成・編集モデル「Gemini Omni 1.2 Flash」を発表し、Gemini APIおよびGoogle Cloud（Gemini for business）での一般提供を開始しました。最大15秒の動画をネイティブに生成でき、対話形式での段階的な編集や参照素材への忠実度が強化されたほか、前バージョンのOmni 1.1から価格を30%引き下げ、720p動画で1秒あたり0.07ドルとしています。",
+      "headings": [
+        "主な技術的アップデート",
+        "コストを抑えるワークフロー",
+        "提供形態とエンタープライズ対応",
+        "影響と課題",
+        "今後の展望"
+      ],
+      "source_url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
+      "source_urls": [
+        "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/"
+      ],
+      "source_label": "blog.google",
+      "cover": "assets/posts/1568044080980824064.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1568044080980824064",
+      "first_seen": "2026-11-05T23:27:21.756Z",
+      "kind": "model",
+      "kind_confidence": 0.97
+    },
     {
       "id": "1567858330859470939",
       "title": "Claude Marketplaceに14の新パートナー製品、セキュリティから業務アプリまでAnthropic利用枠で調達可能に",

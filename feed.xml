@@ -5,8 +5,40 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 05 Nov 2026 11:09:15 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2026 23:29:21 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Meta、「Muse」アプリにリアルタイム音声会話と表情豊かなアバターを導入 米国から提供開始</title>
+      <link>https://discord.com/channels/1415350002255007784/1491820892789936220/threads/1568044581210300526</link>
+      <guid isPermaLink="false">afnjp-1568044581210300526</guid>
+      <pubDate>Thu, 05 Nov 2026 23:29:21 GMT</pubDate>
+      <category>muse-spark</category>
+      <description>Metaは2026年11月5日、AIアシスタントアプリ「Muse」に音声会話機能と表情豊かなアバター機能を追加すると発表しました。9月の「Connect 2026」でプレビューしていたリアルタイム会話機能を、モバイル、Web、Macの各版で順次提供します。ま…</description>
+    </item>
+    <item>
+      <title>NVIDIA、対話型ワールドシミュレーション向け「Cosmos 3」新モデル4種をオープン公開</title>
+      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1568044418953519124</link>
+      <guid isPermaLink="false">afnjp-1568044418953519124</guid>
+      <pubDate>Thu, 05 Nov 2026 23:28:42 GMT</pubDate>
+      <category>その他</category>
+      <description>NVIDIAは2026年11月5日、ワールドモデル開発プラットフォーム「Cosmos」のCosmos 3ファミリーに、オープンウェイトの新チェックポイント4種を追加したと発表しました。自動運転向けのマルチセンサー・マルチビュー映像生成と、ロボット操作の対話型…</description>
+    </item>
+    <item>
+      <title>OpenAI「GPT-6 Cyber」発表 脆弱性の発見・悪用・修正を担う特化型モデル、認可スコープ遵守を大幅強化</title>
+      <link>https://discord.com/channels/1415350002255007784/1415353131604377641/threads/1568044258072461372</link>
+      <guid isPermaLink="false">afnjp-1568044258072461372</guid>
+      <pubDate>Thu, 05 Nov 2026 23:28:03 GMT</pubDate>
+      <category>chatgpt</category>
+      <description>OpenAIは2026年11月5日（米国時間）、サイバーセキュリティ特化型モデル「GPT-6 Cyber」を発表しました。悪用可能な脆弱性の発見と検証、修正の作成を目的とし、研究者が認可した範囲（スコープ）から逸脱しないよう訓練されている点が最大の特徴です。…</description>
+    </item>
+    <item>
+      <title>Google、動画生成AI「Gemini Omni 1.2 Flash」を一般提供開始 15秒動画に対応し価格は30%引き下げ</title>
+      <link>https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1568044080980824064</link>
+      <guid isPermaLink="false">afnjp-1568044080980824064</guid>
+      <pubDate>Thu, 05 Nov 2026 23:27:21 GMT</pubDate>
+      <category>gemini</category>
+      <description>Google DeepMindは2026年11月5日（米国時間）、動画生成・編集モデル「Gemini Omni 1.2 Flash」を発表し、Gemini APIおよびGoogle Cloud（Gemini for business）での一般提供を開始しまし…</description>
+    </item>
     <item>
       <title>Claude Marketplaceに14の新パートナー製品、セキュリティから業務アプリまでAnthropic利用枠で調達可能に</title>
       <link>https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1567858330859470939</link>
@@ -70,38 +102,6 @@
       <pubDate>Wed, 04 Nov 2026 23:34:02 GMT</pubDate>
       <category>eleven-labs</category>
       <description>ElevenLabsは2026年11月4日、音声エージェント基盤「ElevenAgents」が主要コンタクトセンタープラットフォーム4社とネイティブ統合したと発表しました。対象はNiCE CXone、Genesys Cloud、Amazon Connect、…</description>
-    </item>
-    <item>
-      <title>Moonshot AI「Kimi K3.1 Pro」の重みをHugging Faceで公開、2.8TパラメータMoEでエージェント性能が大幅向上</title>
-      <link>https://discord.com/channels/1415350002255007784/1417459869341978704/threads/1567574161251893360</link>
-      <guid isPermaLink="false">afnjp-1567574161251893360</guid>
-      <pubDate>Wed, 04 Nov 2026 16:20:04 GMT</pubDate>
-      <category>kimi</category>
-      <description>Moonshot AIは、オープンウェイトのマルチモーダル・エージェントモデル「Kimi K3.1 Pro」のモデルカードと重みをHugging Faceで公開しました。Kimi K3を土台に大規模な強化学習で事後学習したK3.1シリーズ初のモデルで、同社は…</description>
-    </item>
-    <item>
-      <title>Google、「Agentic Data Cloud」を大幅強化 エージェントを全社データと業務文脈で支える新機能群を発表</title>
-      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1567573528448999454</link>
-      <guid isPermaLink="false">afnjp-1567573528448999454</guid>
-      <pubDate>Wed, 04 Nov 2026 16:17:33 GMT</pubDate>
-      <category>google</category>
-      <description>Google Cloudは2026年11月4日、AIエージェントの本番運用を支えるデータ基盤「Agentic Data Cloud」の主要アップデートを発表しました。マルチクラウドのデータ統合、業務文脈によるグラウンディング、エージェント規模に耐えるデータベ…</description>
-    </item>
-    <item>
-      <title>Google Cloud、AIコーディングエージェント向け「AlloyDB Express」をプレビュー公開 2秒未満で起動、アイドル時は課金ゼロ</title>
-      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1567573381992288388</link>
-      <guid isPermaLink="false">afnjp-1567573381992288388</guid>
-      <pubDate>Wed, 04 Nov 2026 16:16:58 GMT</pubDate>
-      <category>google</category>
-      <description>Google Cloudは2026年11月4日、PostgreSQL互換データベース「AlloyDB for PostgreSQL」の新しい提供形態「AlloyDB Express」をプレビューとして公開しました。開発者とAIコーディングエージェントでの利用…</description>
-    </item>
-    <item>
-      <title>OpenAI「Daybreak Red」がAWS GovCloud（US-East）に対応 サイバー特化モデルGPT-5.6 Cyberを規制環境へ</title>
-      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1567559831080931501</link>
-      <guid isPermaLink="false">afnjp-1567559831080931501</guid>
-      <pubDate>Wed, 04 Nov 2026 15:23:07 GMT</pubDate>
-      <category>open-ai</category>
-      <description>OpenAIは2026年11月4日、サイバーセキュリティ特化モデル「GPT-5.6 Cyber」を提供する「Daybreak Red」が、Amazon Bedrock経由でAWS GovCloud（US-East）の承認済み顧客に提供開始されたと発表しました…</description>
     </item>
   </channel>
 </rss>
