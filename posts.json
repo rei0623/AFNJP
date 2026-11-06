@@ -1,8 +1,60 @@
 {
-  "generated_at": "2026-11-06T03:24:31.060Z",
+  "generated_at": "2026-11-06T12:03:26.484Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1568213854666760262",
+      "title": "Claude Enterprise、セキュリティ管理を大幅強化 セキュリティセンターと推論フックで「見える化」と統制を両立",
+      "channel": "claude",
+      "category": "Anthropic",
+      "date": "2026-11-06T10:41:58.957Z",
+      "excerpt": "Anthropicは2026年11月5日、Claude Enterprise向けに新たなセキュリティ・管理機能群を発表しました。設定状況を一覧で点検できる「セキュリティセンター」、既存のDLP製品と連携する「推論フック」の一般提供、複数組織を束ねる「一元管理…",
+      "lead": "Anthropicは2026年11月5日、Claude Enterprise向けに新たなセキュリティ・管理機能群を発表しました。設定状況を一覧で点検できる「セキュリティセンター」、既存のDLP製品と連携する「推論フック」の一般提供、複数組織を束ねる「一元管理」、さらにシャドーIT対策を含むアクセス制御が加わり、企業のセキュリティチームがClaudeの構成と利用実態を把握・統制しやすくなります。",
+      "headings": [
+        "セキュリティセンター：推奨構成との差分を一画面で",
+        "推論フック：既存のDLPポリシーをそのままClaudeへ",
+        "一元管理：親組織による全社統制",
+        "アクセス制御とEDR連携",
+        "今後の展望"
+      ],
+      "source_url": "https://claude.com/ja/resources/articles/claude-enterprise-security-updates",
+      "source_urls": [
+        "https://claude.com/ja/resources/articles/claude-enterprise-security-updates"
+      ],
+      "source_label": "claude.com",
+      "cover": "assets/posts/1568213854666760262.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415353403269185546/threads/1568213854666760262",
+      "first_seen": "2026-11-06T10:41:58.957Z",
+      "kind": "feature",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1568213665998442618",
+      "title": "Claudeに家計管理機能「Personal Finance」登場、銀行口座と連携し“お金の質問”に読み取り専用で回答",
+      "channel": "claude",
+      "category": "Anthropic",
+      "date": "2026-11-06T10:41:13.975Z",
+      "excerpt": "Anthropicは2026年11月5日、Claudeに銀行・カード口座を接続して自分のお金について自然な言葉で質問できる新機能「Personal Finance」を発表しました。アクセスは読み取り専用で、送金や資産運用は一切行えない設計です。今週から米国の…",
+      "lead": "Anthropicは2026年11月5日、Claudeに銀行・カード口座を接続して自分のお金について自然な言葉で質問できる新機能「Personal Finance」を発表しました。アクセスは読み取り専用で、送金や資産運用は一切行えない設計です。今週から米国のPro、Max、Ultraプラン向けにベータ版として順次提供が始まります。",
+      "headings": [
+        "何ができるのか",
+        "技術的な仕組みとセキュリティ",
+        "背景と位置づけ",
+        "注意点と制約",
+        "今後の展望"
+      ],
+      "source_url": "https://claude.com/ja/resources/articles/introducing-personal-finance-in-claude",
+      "source_urls": [
+        "https://claude.com/ja/resources/articles/introducing-personal-finance-in-claude"
+      ],
+      "source_label": "claude.com",
+      "cover": "assets/posts/1568213665998442618.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415353403269185546/threads/1568213665998442618",
+      "first_seen": "2026-11-06T10:41:13.975Z",
+      "kind": "feature",
+      "kind_confidence": 1
+    },
     {
       "id": "1568044581210300526",
       "title": "Meta、「Muse」アプリにリアルタイム音声会話と表情豊かなアバターを導入 米国から提供開始",
@@ -256,58 +308,6 @@
       "first_seen": "2026-11-04T23:43:18.263Z",
       "kind": "model",
       "kind_confidence": 0.99
-    },
-    {
-      "id": "1567683485269753997",
-      "title": "OpenAIが「Images 2.6」を発表、GIFアニメ生成と50%高速化で画像生成の実務利用を加速",
-      "channel": "open-ai",
-      "category": "Open AI",
-      "date": "2026-11-04T23:34:29.039Z",
-      "excerpt": "OpenAIは2026年11月4日、新しい画像生成モデル「Images 2.6」をChatGPT、Codex、APIで提供開始しました。生成速度の50%向上に加え、GIFアニメーションの生成、編集時の一貫性向上、API向けの新しい制御パラメータが加わり、静止…",
-      "lead": "OpenAIは2026年11月4日、新しい画像生成モデル「Images 2.6」をChatGPT、Codex、APIで提供開始しました。生成速度の50%向上に加え、GIFアニメーションの生成、編集時の一貫性向上、API向けの新しい制御パラメータが加わり、静止画中心だった画像生成AIの用途を大きく広げるアップデートとなっています。",
-      "headings": [
-        "用途で選べる2つのAPIモデル",
-        "GIF生成で「動き」に対応",
-        "開発者向けの制御機能を拡充",
-        "利用規模と提供範囲",
-        "今後の展望"
-      ],
-      "source_url": "https://openai.com/index/introducing-images-2-6/",
-      "source_urls": [
-        "https://openai.com/index/introducing-images-2-6/"
-      ],
-      "source_label": "openai.com",
-      "cover": "assets/posts/1567683485269753997.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1567683485269753997",
-      "first_seen": "2026-11-04T23:34:29.039Z",
-      "kind": "model",
-      "kind_confidence": 0.97
-    },
-    {
-      "id": "1567683372623601734",
-      "title": "ElevenLabsの音声AI「ElevenAgents」、NiCE・Genesys・Amazon Connect・Five9とネイティブ統合 既存コンタクトセンターを置き換えずにAI化",
-      "channel": "eleven-labs",
-      "category": "その他",
-      "date": "2026-11-04T23:34:02.182Z",
-      "excerpt": "ElevenLabsは2026年11月4日、音声エージェント基盤「ElevenAgents」が主要コンタクトセンタープラットフォーム4社とネイティブ統合したと発表しました。対象はNiCE CXone、Genesys Cloud、Amazon Connect、…",
-      "lead": "ElevenLabsは2026年11月4日、音声エージェント基盤「ElevenAgents」が主要コンタクトセンタープラットフォーム4社とネイティブ統合したと発表しました。対象はNiCE CXone、Genesys Cloud、Amazon Connect、Five9で、それ以外の環境にはSIP（Session Initiation Protocol）経由で接続できます。企業は長年かけて構築した電話基盤を入れ替えることなく、既存のコールフロー内にAI音声エージェントを組み込めるようになります。",
-      "headings": [
-        "既存のコールフローの「内側」で動く設計",
-        "プラットフォームごとの統合方式",
-        "導入効果と事例",
-        "導入時の注意点",
-        "今後の展望"
-      ],
-      "source_url": "https://elevenlabs.io/blog/elevenagents-contact-center-integrations",
-      "source_urls": [
-        "https://elevenlabs.io/blog/elevenagents-contact-center-integrations"
-      ],
-      "source_label": "elevenlabs.io",
-      "cover": "assets/posts/1567683372623601734.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1441006356399259719/threads/1567683372623601734",
-      "first_seen": "2026-11-04T23:34:02.182Z",
-      "kind": "tool",
-      "kind_confidence": 0.38
     }
   ]
 }

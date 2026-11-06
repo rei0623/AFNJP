@@ -1,9 +1,61 @@
 {
-  "generated_at": "2026-11-06T03:24:31.056Z",
+  "generated_at": "2026-11-06T12:03:26.478Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 545,
+  "count": 547,
   "posts": [
+    {
+      "id": "1568213854666760262",
+      "title": "Claude Enterprise、セキュリティ管理を大幅強化 セキュリティセンターと推論フックで「見える化」と統制を両立",
+      "channel": "claude",
+      "category": "Anthropic",
+      "date": "2026-11-06T10:41:58.957Z",
+      "excerpt": "Anthropicは2026年11月5日、Claude Enterprise向けに新たなセキュリティ・管理機能群を発表しました。設定状況を一覧で点検できる「セキュリティセンター」、既存のDLP製品と連携する「推論フック」の一般提供、複数組織を束ねる「一元管理…",
+      "lead": "Anthropicは2026年11月5日、Claude Enterprise向けに新たなセキュリティ・管理機能群を発表しました。設定状況を一覧で点検できる「セキュリティセンター」、既存のDLP製品と連携する「推論フック」の一般提供、複数組織を束ねる「一元管理」、さらにシャドーIT対策を含むアクセス制御が加わり、企業のセキュリティチームがClaudeの構成と利用実態を把握・統制しやすくなります。",
+      "headings": [
+        "セキュリティセンター：推奨構成との差分を一画面で",
+        "推論フック：既存のDLPポリシーをそのままClaudeへ",
+        "一元管理：親組織による全社統制",
+        "アクセス制御とEDR連携",
+        "今後の展望"
+      ],
+      "source_url": "https://claude.com/ja/resources/articles/claude-enterprise-security-updates",
+      "source_urls": [
+        "https://claude.com/ja/resources/articles/claude-enterprise-security-updates"
+      ],
+      "source_label": "claude.com",
+      "cover": "assets/posts/1568213854666760262.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415353403269185546/threads/1568213854666760262",
+      "first_seen": "2026-11-06T10:41:58.957Z",
+      "kind": "feature",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1568213665998442618",
+      "title": "Claudeに家計管理機能「Personal Finance」登場、銀行口座と連携し“お金の質問”に読み取り専用で回答",
+      "channel": "claude",
+      "category": "Anthropic",
+      "date": "2026-11-06T10:41:13.975Z",
+      "excerpt": "Anthropicは2026年11月5日、Claudeに銀行・カード口座を接続して自分のお金について自然な言葉で質問できる新機能「Personal Finance」を発表しました。アクセスは読み取り専用で、送金や資産運用は一切行えない設計です。今週から米国の…",
+      "lead": "Anthropicは2026年11月5日、Claudeに銀行・カード口座を接続して自分のお金について自然な言葉で質問できる新機能「Personal Finance」を発表しました。アクセスは読み取り専用で、送金や資産運用は一切行えない設計です。今週から米国のPro、Max、Ultraプラン向けにベータ版として順次提供が始まります。",
+      "headings": [
+        "何ができるのか",
+        "技術的な仕組みとセキュリティ",
+        "背景と位置づけ",
+        "注意点と制約",
+        "今後の展望"
+      ],
+      "source_url": "https://claude.com/ja/resources/articles/introducing-personal-finance-in-claude",
+      "source_urls": [
+        "https://claude.com/ja/resources/articles/introducing-personal-finance-in-claude"
+      ],
+      "source_label": "claude.com",
+      "cover": "assets/posts/1568213665998442618.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415353403269185546/threads/1568213665998442618",
+      "first_seen": "2026-11-06T10:41:13.975Z",
+      "kind": "feature",
+      "kind_confidence": 1
+    },
     {
       "id": "1568044581210300526",
       "title": "Meta、「Muse」アプリにリアルタイム音声会話と表情豊かなアバターを導入 米国から提供開始",

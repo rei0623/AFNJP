@@ -5,8 +5,24 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 05 Nov 2026 23:29:21 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2026 10:41:58 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Claude Enterprise、セキュリティ管理を大幅強化 セキュリティセンターと推論フックで「見える化」と統制を両立</title>
+      <link>https://discord.com/channels/1415350002255007784/1415353403269185546/threads/1568213854666760262</link>
+      <guid isPermaLink="false">afnjp-1568213854666760262</guid>
+      <pubDate>Fri, 06 Nov 2026 10:41:58 GMT</pubDate>
+      <category>claude</category>
+      <description>Anthropicは2026年11月5日、Claude Enterprise向けに新たなセキュリティ・管理機能群を発表しました。設定状況を一覧で点検できる「セキュリティセンター」、既存のDLP製品と連携する「推論フック」の一般提供、複数組織を束ねる「一元管理…</description>
+    </item>
+    <item>
+      <title>Claudeに家計管理機能「Personal Finance」登場、銀行口座と連携し“お金の質問”に読み取り専用で回答</title>
+      <link>https://discord.com/channels/1415350002255007784/1415353403269185546/threads/1568213665998442618</link>
+      <guid isPermaLink="false">afnjp-1568213665998442618</guid>
+      <pubDate>Fri, 06 Nov 2026 10:41:13 GMT</pubDate>
+      <category>claude</category>
+      <description>Anthropicは2026年11月5日、Claudeに銀行・カード口座を接続して自分のお金について自然な言葉で質問できる新機能「Personal Finance」を発表しました。アクセスは読み取り専用で、送金や資産運用は一切行えない設計です。今週から米国の…</description>
+    </item>
     <item>
       <title>Meta、「Muse」アプリにリアルタイム音声会話と表情豊かなアバターを導入 米国から提供開始</title>
       <link>https://discord.com/channels/1415350002255007784/1491820892789936220/threads/1568044581210300526</link>
@@ -86,22 +102,6 @@
       <pubDate>Wed, 04 Nov 2026 23:43:18 GMT</pubDate>
       <category>その他</category>
       <description>AIによるチップ設計を手がける米Ricursive Intelligenceは、自社開発の大規模言語モデル「Ripple-65B Preview」をオープンウェイトで公開しました。同社はTerminalBench 2.1で80.52を記録し、米国発オープンウ…</description>
-    </item>
-    <item>
-      <title>OpenAIが「Images 2.6」を発表、GIFアニメ生成と50%高速化で画像生成の実務利用を加速</title>
-      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1567683485269753997</link>
-      <guid isPermaLink="false">afnjp-1567683485269753997</guid>
-      <pubDate>Wed, 04 Nov 2026 23:34:29 GMT</pubDate>
-      <category>open-ai</category>
-      <description>OpenAIは2026年11月4日、新しい画像生成モデル「Images 2.6」をChatGPT、Codex、APIで提供開始しました。生成速度の50%向上に加え、GIFアニメーションの生成、編集時の一貫性向上、API向けの新しい制御パラメータが加わり、静止…</description>
-    </item>
-    <item>
-      <title>ElevenLabsの音声AI「ElevenAgents」、NiCE・Genesys・Amazon Connect・Five9とネイティブ統合 既存コンタクトセンターを置き換えずにAI化</title>
-      <link>https://discord.com/channels/1415350002255007784/1441006356399259719/threads/1567683372623601734</link>
-      <guid isPermaLink="false">afnjp-1567683372623601734</guid>
-      <pubDate>Wed, 04 Nov 2026 23:34:02 GMT</pubDate>
-      <category>eleven-labs</category>
-      <description>ElevenLabsは2026年11月4日、音声エージェント基盤「ElevenAgents」が主要コンタクトセンタープラットフォーム4社とネイティブ統合したと発表しました。対象はNiCE CXone、Genesys Cloud、Amazon Connect、…</description>
     </item>
   </channel>
 </rss>
