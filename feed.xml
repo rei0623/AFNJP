@@ -5,8 +5,32 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 09 Nov 2026 22:11:24 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 15:10:01 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Google DeepMind「AlphaProof Code」発表 Signalプロトコルの実装を機械語レベルまで形式検証</title>
+      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1569730861858037852</link>
+      <guid isPermaLink="false">afnjp-1569730861858037852</guid>
+      <pubDate>Tue, 10 Nov 2026 15:10:01 GMT</pubDate>
+      <category>google</category>
+      <description>Google DeepMindは2026年11月10日、AIエージェントと人間の専門家が協働してソフトウェアを形式検証する新フレームワーク「AlphaProof Code」を発表しました。SignalやGoogleメッセージで使われるSignalプロトコルに…</description>
+    </item>
+    <item>
+      <title>GoogleとAdobeが提携拡大、Gemini・Drive・GmailにAdobeツールを統合しDeepMindと画像編集モデルも探索</title>
+      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1569730551479275641</link>
+      <guid isPermaLink="false">afnjp-1569730551479275641</guid>
+      <pubDate>Tue, 10 Nov 2026 15:08:47 GMT</pubDate>
+      <category>google</category>
+      <description>Googleは2026年11月10日、Adobeの年次イベント「Adobe MAX」に合わせて、Adobeとのパートナーシップ拡大を発表しました。AdobeのクリエイティブツールやPDFツールをGoogle Drive、Gmail、Gemini、Google…</description>
+    </item>
+    <item>
+      <title>Google Cloudが「Gemini for healthcare」を発表、分断された医療データを統合しワークフロー自動化へ</title>
+      <link>https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1569730423494541352</link>
+      <guid isPermaLink="false">afnjp-1569730423494541352</guid>
+      <pubDate>Tue, 10 Nov 2026 15:08:17 GMT</pubDate>
+      <category>gemini</category>
+      <description>Google Cloudは2026年11月10日、医療機関向けAIソリューション「Gemini for healthcare」を発表しました。臨床・業務・事務の各システムに散らばったデータを束ね、単なる情報検索にとどまらず、複数ステップの業務を実行するところ…</description>
+    </item>
     <item>
       <title>OpenAI、フロンティアモデルの出力を35秒で停止できる「コントロールルーム」を構築</title>
       <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1569474518647443569</link>
@@ -78,30 +102,6 @@
       <pubDate>Thu, 05 Nov 2026 23:28:03 GMT</pubDate>
       <category>chatgpt</category>
       <description>OpenAIは2026年11月5日（米国時間）、サイバーセキュリティ特化型モデル「GPT-6 Cyber」を発表しました。悪用可能な脆弱性の発見と検証、修正の作成を目的とし、研究者が認可した範囲（スコープ）から逸脱しないよう訓練されている点が最大の特徴です。…</description>
-    </item>
-    <item>
-      <title>Google、動画生成AI「Gemini Omni 1.2 Flash」を一般提供開始 15秒動画に対応し価格は30%引き下げ</title>
-      <link>https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1568044080980824064</link>
-      <guid isPermaLink="false">afnjp-1568044080980824064</guid>
-      <pubDate>Thu, 05 Nov 2026 23:27:21 GMT</pubDate>
-      <category>gemini</category>
-      <description>Google DeepMindは2026年11月5日（米国時間）、動画生成・編集モデル「Gemini Omni 1.2 Flash」を発表し、Gemini APIおよびGoogle Cloud（Gemini for business）での一般提供を開始しまし…</description>
-    </item>
-    <item>
-      <title>Claude Marketplaceに14の新パートナー製品、セキュリティから業務アプリまでAnthropic利用枠で調達可能に</title>
-      <link>https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1567858330859470939</link>
-      <guid isPermaLink="false">afnjp-1567858330859470939</guid>
-      <pubDate>Thu, 05 Nov 2026 11:09:15 GMT</pubDate>
-      <category>anthropic</category>
-      <description>Anthropicは2026年11月4日、パートナー製のエージェントや製品を提供する「Claude Marketplace」に、セキュリティ、開発基盤、クリエイティブ、生産性の4領域で新たなラインナップを追加したと発表しました。掲載数は25を超え、条件を満た…</description>
-    </item>
-    <item>
-      <title>OpenAI、AIデータセンター建設の新基準「National Community Compact」を公表 電力・インフラ費用の全額負担と情報開示を約束</title>
-      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1567858187116224562</link>
-      <guid isPermaLink="false">afnjp-1567858187116224562</guid>
-      <pubDate>Thu, 05 Nov 2026 11:08:41 GMT</pubDate>
-      <category>open-ai</category>
-      <description>OpenAIは2026年11月5日、AIインフラを建設する地域社会への約束をまとめた「National Community Compact」と、業界全体に向けた政策提言「Compute Campus Policy Blueprint」を公表しました。同社が所…</description>
     </item>
   </channel>
 </rss>

@@ -1,8 +1,84 @@
 {
-  "generated_at": "2026-11-10T09:43:43.744Z",
+  "generated_at": "2026-11-10T17:46:03.550Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1569730861858037852",
+      "title": "Google DeepMind「AlphaProof Code」発表 Signalプロトコルの実装を機械語レベルまで形式検証",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-11-10T15:10:01.656Z",
+      "excerpt": "Google DeepMindは2026年11月10日、AIエージェントと人間の専門家が協働してソフトウェアを形式検証する新フレームワーク「AlphaProof Code」を発表しました。SignalやGoogleメッセージで使われるSignalプロトコルに…",
+      "lead": "Google DeepMindは2026年11月10日、AIエージェントと人間の専門家が協働してソフトウェアを形式検証する新フレームワーク「AlphaProof Code」を発表しました。SignalやGoogleメッセージで使われるSignalプロトコルについて、設計だけでなく実際にデバイス上で動くコンパイル済みコードが主要なセキュリティ特性を満たすことを数学的に証明したとしています。広く展開された暗号プロトコルの実装が、AIの有無を問わずこの深さで形式検証されたのは初めてだと同社は説明しています。",
+      "headings": [
+        "技術的詳細：人間が「何を」、AIが「どう」証明するか",
+        "背景：設計と実装のギャップを埋める",
+        "影響と課題",
+        "今後の展望"
+      ],
+      "source_url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+      "source_urls": [
+        "https://deepmind.google/blog/introducing-alphaproof-code/"
+      ],
+      "source_label": "deepmind.google",
+      "cover": "assets/posts/1569730861858037852.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1569730861858037852",
+      "first_seen": "2026-11-10T15:10:01.656Z",
+      "kind": "tool",
+      "kind_confidence": 0.44
+    },
+    {
+      "id": "1569730551479275641",
+      "title": "GoogleとAdobeが提携拡大、Gemini・Drive・GmailにAdobeツールを統合しDeepMindと画像編集モデルも探索",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-11-10T15:08:47.656Z",
+      "excerpt": "Googleは2026年11月10日、Adobeの年次イベント「Adobe MAX」に合わせて、Adobeとのパートナーシップ拡大を発表しました。AdobeのクリエイティブツールやPDFツールをGoogle Drive、Gmail、Gemini、Google…",
+      "lead": "Googleは2026年11月10日、Adobeの年次イベント「Adobe MAX」に合わせて、Adobeとのパートナーシップ拡大を発表しました。AdobeのクリエイティブツールやPDFツールをGoogle Drive、Gmail、Gemini、Google検索のAIモードへ取り込み、あわせてGoogleの最先端AIモデルをAdobeのアプリへ提供する双方向の連携です。さらにGoogle DeepMindとAdobeは、Photoshop向けの画像モデルを起点とした新しい編集体験の探索にも取り組みます。",
+      "headings": [
+        "発表の主な内容",
+        "技術的なポイント",
+        "背景と影響",
+        "今後の展望"
+      ],
+      "source_url": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/",
+      "source_urls": [
+        "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/"
+      ],
+      "source_label": "blog.google",
+      "cover": "assets/posts/1569730551479275641.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1569730551479275641",
+      "first_seen": "2026-11-10T15:08:47.656Z",
+      "kind": "business",
+      "kind_confidence": 0.75
+    },
+    {
+      "id": "1569730423494541352",
+      "title": "Google Cloudが「Gemini for healthcare」を発表、分断された医療データを統合しワークフロー自動化へ",
+      "channel": "gemini",
+      "category": "Google",
+      "date": "2026-11-10T15:08:17.142Z",
+      "excerpt": "Google Cloudは2026年11月10日、医療機関向けAIソリューション「Gemini for healthcare」を発表しました。臨床・業務・事務の各システムに散らばったデータを束ね、単なる情報検索にとどまらず、複数ステップの業務を実行するところ…",
+      "lead": "Google Cloudは2026年11月10日、医療機関向けAIソリューション「Gemini for healthcare」を発表しました。臨床・業務・事務の各システムに散らばったデータを束ね、単なる情報検索にとどまらず、複数ステップの業務を実行するところまで踏み込んだ点が特徴です。まずはプレビュー版として、米国の大手医療機関とともに提供が始まります。",
+      "headings": [
+        "発表の概要",
+        "技術的なポイント",
+        "ローンチパートナーと提供形態",
+        "業界への影響と課題",
+        "今後の展望"
+      ],
+      "source_url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/",
+      "source_urls": [
+        "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/"
+      ],
+      "source_label": "blog.google",
+      "cover": "assets/posts/1569730423494541352.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1569730423494541352",
+      "first_seen": "2026-11-10T15:08:17.142Z",
+      "kind": "feature",
+      "kind_confidence": 0.43
+    },
     {
       "id": "1569474518647443569",
       "title": "OpenAI、フロンティアモデルの出力を35秒で停止できる「コントロールルーム」を構築",
@@ -232,84 +308,6 @@
       "first_seen": "2026-11-05T23:28:03.978Z",
       "kind": "model",
       "kind_confidence": 1
-    },
-    {
-      "id": "1568044080980824064",
-      "title": "Google、動画生成AI「Gemini Omni 1.2 Flash」を一般提供開始 15秒動画に対応し価格は30%引き下げ",
-      "channel": "gemini",
-      "category": "Google",
-      "date": "2026-11-05T23:27:21.756Z",
-      "excerpt": "Google DeepMindは2026年11月5日（米国時間）、動画生成・編集モデル「Gemini Omni 1.2 Flash」を発表し、Gemini APIおよびGoogle Cloud（Gemini for business）での一般提供を開始しまし…",
-      "lead": "Google DeepMindは2026年11月5日（米国時間）、動画生成・編集モデル「Gemini Omni 1.2 Flash」を発表し、Gemini APIおよびGoogle Cloud（Gemini for business）での一般提供を開始しました。最大15秒の動画をネイティブに生成でき、対話形式での段階的な編集や参照素材への忠実度が強化されたほか、前バージョンのOmni 1.1から価格を30%引き下げ、720p動画で1秒あたり0.07ドルとしています。",
-      "headings": [
-        "主な技術的アップデート",
-        "コストを抑えるワークフロー",
-        "提供形態とエンタープライズ対応",
-        "影響と課題",
-        "今後の展望"
-      ],
-      "source_url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
-      "source_urls": [
-        "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/"
-      ],
-      "source_label": "blog.google",
-      "cover": "assets/posts/1568044080980824064.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1568044080980824064",
-      "first_seen": "2026-11-05T23:27:21.756Z",
-      "kind": "model",
-      "kind_confidence": 0.97
-    },
-    {
-      "id": "1567858330859470939",
-      "title": "Claude Marketplaceに14の新パートナー製品、セキュリティから業務アプリまでAnthropic利用枠で調達可能に",
-      "channel": "anthropic",
-      "category": "Anthropic",
-      "date": "2026-11-05T11:09:15.476Z",
-      "excerpt": "Anthropicは2026年11月4日、パートナー製のエージェントや製品を提供する「Claude Marketplace」に、セキュリティ、開発基盤、クリエイティブ、生産性の4領域で新たなラインナップを追加したと発表しました。掲載数は25を超え、条件を満た…",
-      "lead": "Anthropicは2026年11月4日、パートナー製のエージェントや製品を提供する「Claude Marketplace」に、セキュリティ、開発基盤、クリエイティブ、生産性の4領域で新たなラインナップを追加したと発表しました。掲載数は25を超え、条件を満たす企業はAnthropicとの契約済み利用額の一部をこれらの購入に充てられます。",
-      "headings": [
-        "セキュリティ：AIが見つけた脆弱性を「直す」まで",
-        "開発基盤：エージェントを本番運用へ",
-        "マーケティング・クリエイティブ",
-        "生産性：権限と監査を前提にしたエージェント",
-        "企業にとっての意味と注意点",
-        "今後の展望"
-      ],
-      "source_url": "https://claude.com/ja/resources/articles/new-agents-and-products-claude-marketplace",
-      "source_urls": [
-        "https://claude.com/ja/resources/articles/new-agents-and-products-claude-marketplace"
-      ],
-      "source_label": "claude.com",
-      "cover": "assets/posts/1567858330859470939.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1567858330859470939",
-      "first_seen": "2026-11-05T11:09:15.476Z",
-      "kind": "feature",
-      "kind_confidence": 0.92
-    },
-    {
-      "id": "1567858187116224562",
-      "title": "OpenAI、AIデータセンター建設の新基準「National Community Compact」を公表 電力・インフラ費用の全額負担と情報開示を約束",
-      "channel": "open-ai",
-      "category": "Open AI",
-      "date": "2026-11-05T11:08:41.205Z",
-      "excerpt": "OpenAIは2026年11月5日、AIインフラを建設する地域社会への約束をまとめた「National Community Compact」と、業界全体に向けた政策提言「Compute Campus Policy Blueprint」を公表しました。同社が所…",
-      "lead": "OpenAIは2026年11月5日、AIインフラを建設する地域社会への約束をまとめた「National Community Compact」と、業界全体に向けた政策提言「Compute Campus Policy Blueprint」を公表しました。同社が所有・運営する今後の「コンピュートキャンパス」（同社がAIデータセンターに用いる呼称）では、電力と関連インフラの費用を自社で全額負担し、水・電力使用量などを地域に開示するとしています。",
-      "headings": [
-        "コンパクトの主な内容",
-        "業界全体への政策提言",
-        "背景と課題",
-        "今後の展望"
-      ],
-      "source_url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure/",
-      "source_urls": [
-        "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure/"
-      ],
-      "source_label": "openai.com",
-      "cover": "assets/posts/1567858187116224562.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1567858187116224562",
-      "first_seen": "2026-11-05T11:08:41.205Z",
-      "kind": "policy",
-      "kind_confidence": 0.61
     }
   ]
 }

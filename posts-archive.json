@@ -1,9 +1,85 @@
 {
-  "generated_at": "2026-11-10T09:43:43.738Z",
+  "generated_at": "2026-11-10T17:46:03.546Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 551,
+  "count": 554,
   "posts": [
+    {
+      "id": "1569730861858037852",
+      "title": "Google DeepMind「AlphaProof Code」発表 Signalプロトコルの実装を機械語レベルまで形式検証",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-11-10T15:10:01.656Z",
+      "excerpt": "Google DeepMindは2026年11月10日、AIエージェントと人間の専門家が協働してソフトウェアを形式検証する新フレームワーク「AlphaProof Code」を発表しました。SignalやGoogleメッセージで使われるSignalプロトコルに…",
+      "lead": "Google DeepMindは2026年11月10日、AIエージェントと人間の専門家が協働してソフトウェアを形式検証する新フレームワーク「AlphaProof Code」を発表しました。SignalやGoogleメッセージで使われるSignalプロトコルについて、設計だけでなく実際にデバイス上で動くコンパイル済みコードが主要なセキュリティ特性を満たすことを数学的に証明したとしています。広く展開された暗号プロトコルの実装が、AIの有無を問わずこの深さで形式検証されたのは初めてだと同社は説明しています。",
+      "headings": [
+        "技術的詳細：人間が「何を」、AIが「どう」証明するか",
+        "背景：設計と実装のギャップを埋める",
+        "影響と課題",
+        "今後の展望"
+      ],
+      "source_url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+      "source_urls": [
+        "https://deepmind.google/blog/introducing-alphaproof-code/"
+      ],
+      "source_label": "deepmind.google",
+      "cover": "assets/posts/1569730861858037852.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1569730861858037852",
+      "first_seen": "2026-11-10T15:10:01.656Z",
+      "kind": "tool",
+      "kind_confidence": 0.44
+    },
+    {
+      "id": "1569730551479275641",
+      "title": "GoogleとAdobeが提携拡大、Gemini・Drive・GmailにAdobeツールを統合しDeepMindと画像編集モデルも探索",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-11-10T15:08:47.656Z",
+      "excerpt": "Googleは2026年11月10日、Adobeの年次イベント「Adobe MAX」に合わせて、Adobeとのパートナーシップ拡大を発表しました。AdobeのクリエイティブツールやPDFツールをGoogle Drive、Gmail、Gemini、Google…",
+      "lead": "Googleは2026年11月10日、Adobeの年次イベント「Adobe MAX」に合わせて、Adobeとのパートナーシップ拡大を発表しました。AdobeのクリエイティブツールやPDFツールをGoogle Drive、Gmail、Gemini、Google検索のAIモードへ取り込み、あわせてGoogleの最先端AIモデルをAdobeのアプリへ提供する双方向の連携です。さらにGoogle DeepMindとAdobeは、Photoshop向けの画像モデルを起点とした新しい編集体験の探索にも取り組みます。",
+      "headings": [
+        "発表の主な内容",
+        "技術的なポイント",
+        "背景と影響",
+        "今後の展望"
+      ],
+      "source_url": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/",
+      "source_urls": [
+        "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration/"
+      ],
+      "source_label": "blog.google",
+      "cover": "assets/posts/1569730551479275641.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1569730551479275641",
+      "first_seen": "2026-11-10T15:08:47.656Z",
+      "kind": "business",
+      "kind_confidence": 0.75
+    },
+    {
+      "id": "1569730423494541352",
+      "title": "Google Cloudが「Gemini for healthcare」を発表、分断された医療データを統合しワークフロー自動化へ",
+      "channel": "gemini",
+      "category": "Google",
+      "date": "2026-11-10T15:08:17.142Z",
+      "excerpt": "Google Cloudは2026年11月10日、医療機関向けAIソリューション「Gemini for healthcare」を発表しました。臨床・業務・事務の各システムに散らばったデータを束ね、単なる情報検索にとどまらず、複数ステップの業務を実行するところ…",
+      "lead": "Google Cloudは2026年11月10日、医療機関向けAIソリューション「Gemini for healthcare」を発表しました。臨床・業務・事務の各システムに散らばったデータを束ね、単なる情報検索にとどまらず、複数ステップの業務を実行するところまで踏み込んだ点が特徴です。まずはプレビュー版として、米国の大手医療機関とともに提供が始まります。",
+      "headings": [
+        "発表の概要",
+        "技術的なポイント",
+        "ローンチパートナーと提供形態",
+        "業界への影響と課題",
+        "今後の展望"
+      ],
+      "source_url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/",
+      "source_urls": [
+        "https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/gemini-for-healthcare/"
+      ],
+      "source_label": "blog.google",
+      "cover": "assets/posts/1569730423494541352.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1569730423494541352",
+      "first_seen": "2026-11-10T15:08:17.142Z",
+      "kind": "feature",
+      "kind_confidence": 0.43
+    },
     {
       "id": "1569474518647443569",
       "title": "OpenAI、フロンティアモデルの出力を35秒で停止できる「コントロールルーム」を構築",
