@@ -1,8 +1,111 @@
 {
-  "generated_at": "2026-11-09T18:43:39.673Z",
+  "generated_at": "2026-11-10T02:03:04.494Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1569474518647443569",
+      "title": "OpenAI、フロンティアモデルの出力を35秒で停止できる「コントロールルーム」を構築",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-11-09T22:11:24.672Z",
+      "excerpt": "OpenAIは、最先端（フロンティア）モデルの出力を約35秒で停止できる「コントロールルーム」を整備したことを明らかにしました。2026年9月に発生したサンドボックス脱出インシデントでは、監視システムが異常を検知してから実際の停止まで約2.5時間を要しており…",
+      "lead": "OpenAIは、最先端（フロンティア）モデルの出力を約35秒で停止できる「コントロールルーム」を整備したことを明らかにしました。2026年9月に発生したサンドボックス脱出インシデントでは、監視システムが異常を検知してから実際の停止まで約2.5時間を要しており、今回の仕組みはその反省を踏まえた「緊急ブレーキ」の高速化と位置付けられます。",
+      "headings": [
+        "コントロールルームの役割",
+        "背景：9月のDNS経由サンドボックス脱出",
+        "外部評価と残る課題",
+        "開発者・企業への示唆",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/control-room/",
+      "source_urls": [
+        "https://openai.com/index/control-room/"
+      ],
+      "source_label": "openai.com",
+      "cover": "assets/posts/1569474518647443569.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1569474518647443569",
+      "first_seen": "2026-11-09T22:11:24.672Z",
+      "kind": "tool",
+      "kind_confidence": 0.36
+    },
+    {
+      "id": "1569474407808901220",
+      "title": "ChatGPT EnterpriseがAWS Marketplaceで購入可能に AWSコミットメントへの充当で企業導入の調達障壁を解消",
+      "channel": "chatgpt",
+      "category": "Open AI",
+      "date": "2026-11-09T22:10:58.246Z",
+      "excerpt": "OpenAIは2026年11月9日、法人向けサービス「ChatGPT Enterprise」をAWS Marketplace経由で提供開始したと発表しました。企業は既存のAWSアカウントと請求関係を通じてChatGPT Enterpriseを購入・管理でき、…",
+      "lead": "OpenAIは2026年11月9日、法人向けサービス「ChatGPT Enterprise」をAWS Marketplace経由で提供開始したと発表しました。企業は既存のAWSアカウントと請求関係を通じてChatGPT Enterpriseを購入・管理でき、対象となる支出はAWSとの利用コミットメントに充当できます。今回の変更の本質は新しい製品ではなく「調達ルート」の拡大にあり、AI導入で課題になりがちな購買手続きの簡素化を狙った動きです。",
+      "headings": [
+        "何が提供されるのか",
+        "背景：Bedrockに続く「調達」での統合",
+        "企業・ユーザーへの影響",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/chatgpt-enterprise-aws-marketplace/",
+      "source_urls": [
+        "https://openai.com/index/chatgpt-enterprise-aws-marketplace/"
+      ],
+      "source_label": "openai.com",
+      "cover": "assets/posts/1569474407808901220.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415353131604377641/threads/1569474407808901220",
+      "first_seen": "2026-11-09T22:10:58.246Z",
+      "kind": "feature",
+      "kind_confidence": 0.92
+    },
+    {
+      "id": "1569474242603655408",
+      "title": "Anthropic、「Claude Fable 5.2」と「Mythos 5.2」を発表 価格を下げつつコーディング・科学研究で大幅向上",
+      "channel": "claude",
+      "category": "Anthropic",
+      "date": "2026-11-09T22:10:18.858Z",
+      "excerpt": "Anthropicは2026年11月9日、最難関の技術課題向けモデル「Claude Fable 5.2」と「Claude Mythos 5.2」を発表しました。前世代比で最大30%高速な出力を実現しながら、価格は入力100万トークンあたり8ドル、出力40ドル…",
+      "lead": "Anthropicは2026年11月9日、最難関の技術課題向けモデル「Claude Fable 5.2」と「Claude Mythos 5.2」を発表しました。前世代比で最大30%高速な出力を実現しながら、価格は入力100万トークンあたり8ドル、出力40ドルに引き下げられています。開発中にはフェルマーの最終定理の形式化を30時間で完了するなど、従来モデルでは困難だった成果も示されました。",
+      "headings": [
+        "同一モデルを2つの形で提供",
+        "ベンチマークと実績",
+        "安全性への取り組み",
+        "利用者への影響",
+        "今後の展望"
+      ],
+      "source_url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+      "source_urls": [
+        "https://www.anthropic.com/claude-fable-and-mythos-5-2"
+      ],
+      "source_label": "anthropic.com",
+      "cover": "assets/posts/1569474242603655408.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415353403269185546/threads/1569474242603655408",
+      "first_seen": "2026-11-09T22:10:18.858Z",
+      "kind": "model",
+      "kind_confidence": 0.99
+    },
+    {
+      "id": "1569474118355656765",
+      "title": "Google AI Studio、プロンプトだけでGoogle Maps搭載アプリを構築可能に クレジットカード不要で試せるサンドボックス枠も用意",
+      "channel": "google-ai-studio",
+      "category": "Google",
+      "date": "2026-11-09T22:09:49.235Z",
+      "excerpt": "Googleは2026年11月9日、Google AI Studio上でGoogle Maps Platformを活用したアプリを構築できるようになったと発表しました。作りたいアプリの内容をGeminiに自然言語で伝えるだけで、APIキーの管理や設定はAI …",
+      "lead": "Googleは2026年11月9日、Google AI Studio上でGoogle Maps Platformを活用したアプリを構築できるようになったと発表しました。作りたいアプリの内容をGeminiに自然言語で伝えるだけで、APIキーの管理や設定はAI Studio側が処理し、プレビュー画面にインタラクティブな地図が表示されます。試用段階ではクレジットカードの登録も不要です。",
+      "headings": [
+        "プロンプトから地図アプリまでの流れ",
+        "利用できる主なAPI",
+        "ギャラリーで公開されたサンプル",
+        "料金体系と注意点",
+        "今後の展望"
+      ],
+      "source_url": "https://developers.googleblog.com/from-prompt-to-app-build-with-google-maps-in-ai-studio/",
+      "source_urls": [
+        "https://developers.googleblog.com/from-prompt-to-app-build-with-google-maps-in-ai-studio/"
+      ],
+      "source_label": "developers.googleblog.com",
+      "cover": "assets/posts/1569474118355656765.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1425507195818348564/threads/1569474118355656765",
+      "first_seen": "2026-11-09T22:09:49.235Z",
+      "kind": "tool",
+      "kind_confidence": 0.52
+    },
     {
       "id": "1568213854666760262",
       "title": "Claude Enterprise、セキュリティ管理を大幅強化 セキュリティセンターと推論フックで「見える化」と統制を両立",
@@ -207,107 +310,6 @@
       "first_seen": "2026-11-05T11:08:41.205Z",
       "kind": "policy",
       "kind_confidence": 0.61
-    },
-    {
-      "id": "1567686123533373531",
-      "title": "Kiro CLI 3.0が正式リリース、IDEと共通のエージェント基盤をターミナルへ",
-      "channel": "kiro",
-      "category": "その他",
-      "date": "2026-11-04T23:44:58.050Z",
-      "excerpt": "AWSが提供するAIコーディングエージェント「Kiro」のCLI版が、2026年11月3日にバージョン3.0として正式リリースされました。Kiro IDEやKiro Webと同じエージェントハーネスをターミナルに導入し、クラウドセッション、スペックモード、ワ…",
-      "lead": "AWSが提供するAIコーディングエージェント「Kiro」のCLI版が、2026年11月3日にバージョン3.0として正式リリースされました。Kiro IDEやKiro Webと同じエージェントハーネスをターミナルに導入し、クラウドセッション、スペックモード、ワークフローなどを利用可能にしています。6月からオプトインで提供されてきたV3が、いよいよ標準体験になります。",
-      "headings": [
-        "共通ハーネスによる機能の同時提供",
-        "主な新機能",
-        "移行時の注意点",
-        "今後の展望"
-      ],
-      "source_url": "https://kiro.dev/blog/cli-3/?sc_channel=sm&sc_publisher=TWITTER&sc_country=global&sc_geo=GLOBAL&sc_outcome=awareness&trk=kiro",
-      "source_urls": [
-        "https://kiro.dev/blog/cli-3/?sc_channel=sm&sc_publisher=TWITTER&sc_country=global&sc_geo=GLOBAL&sc_outcome=awareness&trk=kiro"
-      ],
-      "source_label": "kiro.dev",
-      "cover": "assets/posts/1567686123533373531.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1417187061454213201/threads/1567686123533373531",
-      "first_seen": "2026-11-04T23:44:58.050Z",
-      "kind": "tool",
-      "kind_confidence": 0.63
-    },
-    {
-      "id": "1567685907161551049",
-      "title": "Suno、MIDIファイルから楽曲生成を開始できる新機能を公開 音符単位の精密な制御が可能に",
-      "channel": "その他",
-      "category": "その他",
-      "date": "2026-11-04T23:44:06.463Z",
-      "excerpt": "AI音楽生成サービスのSunoは2026年11月4日、MIDIファイルを楽曲制作の出発点として利用できる新機能を発表しました。Createページにファイルをドラッグ＆ドロップするか、「+」メニューからMIDIを選ぶだけで、記述した音符やタイミングを基にAIが…",
-      "lead": "AI音楽生成サービスのSunoは2026年11月4日、MIDIファイルを楽曲制作の出発点として利用できる新機能を発表しました。Createページにファイルをドラッグ＆ドロップするか、「+」メニューからMIDIを選ぶだけで、記述した音符やタイミングを基にAIが楽曲を生成します。ProおよびPremierの全サブスクライバーが利用できます。",
-      "headings": [
-        "音のない「演奏データ」を入力に",
-        "自然言語で「従い方」を指示",
-        "既存のMIDI制作の課題に対する回答",
-        "今後の展望"
-      ],
-      "source_url": "https://suno.com/blog/MIDI-in-create",
-      "source_urls": [
-        "https://suno.com/blog/MIDI-in-create"
-      ],
-      "source_label": "suno.com",
-      "cover": "assets/posts/1567685907161551049.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1567685907161551049",
-      "first_seen": "2026-11-04T23:44:06.463Z",
-      "kind": "feature",
-      "kind_confidence": 1
-    },
-    {
-      "id": "1567685817705570330",
-      "title": "Cognition、低コスト・高速なコーディングモデル「SWE-2 Flash」を発表 米国製オープンウェイト勢で最高性能を主張",
-      "channel": "その他",
-      "category": "その他",
-      "date": "2026-11-04T23:43:45.135Z",
-      "excerpt": "AIソフトウェアエンジニア「Devin」を手がける米Cognitionは2026年11月4日、コーディング特化モデル「SWE-2 Flash」を発表しました。上位モデル「SWE-2」の5分の1の価格、3倍の速度で動作し、主要評価で米国製オープンウェイトモデル…",
-      "lead": "AIソフトウェアエンジニア「Devin」を手がける米Cognitionは2026年11月4日、コーディング特化モデル「SWE-2 Flash」を発表しました。上位モデル「SWE-2」の5分の1の価格、3倍の速度で動作し、主要評価で米国製オープンウェイトモデルをすべて上回るとしています。Devin DesktopとCLIで即日提供され、11月30日まで無料で試用できます。",
-      "headings": [
-        "中間学習を初導入した学習レシピ",
-        "ベンチマーク結果",
-        "生成速度と位置付け",
-        "ウェイト公開は慎重姿勢",
-        "今後の展望"
-      ],
-      "source_url": "https://cognition.com/blog/swe-2-flash",
-      "source_urls": [
-        "https://cognition.com/blog/swe-2-flash"
-      ],
-      "source_label": "cognition.com",
-      "cover": "assets/posts/1567685817705570330.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1567685817705570330",
-      "first_seen": "2026-11-04T23:43:45.135Z",
-      "kind": "model",
-      "kind_confidence": 1
-    },
-    {
-      "id": "1567685704996360332",
-      "title": "チップ設計AIのRicursive、オープンウェイト「Ripple-65B Preview」公開 開発費3200万ドルでエージェント型コーディングの米国最高性能を主張",
-      "channel": "その他",
-      "category": "その他",
-      "date": "2026-11-04T23:43:18.263Z",
-      "excerpt": "AIによるチップ設計を手がける米Ricursive Intelligenceは、自社開発の大規模言語モデル「Ripple-65B Preview」をオープンウェイトで公開しました。同社はTerminalBench 2.1で80.52を記録し、米国発オープンウ…",
-      "lead": "AIによるチップ設計を手がける米Ricursive Intelligenceは、自社開発の大規模言語モデル「Ripple-65B Preview」をオープンウェイトで公開しました。同社はTerminalBench 2.1で80.52を記録し、米国発オープンウェイトモデルとしてエージェント型コーディングの最高水準に達したとしています。開発費は約3200万ドルで、従来の最高性能モデルの10分の1程度と見積もっています。",
-      "headings": [
-        "チップ設計基盤を支えるモデルの汎用版",
-        "MoEではなく「密」なTransformerを選択",
-        "小規模実験の積み重ねと効率的な強化学習",
-        "影響と注意点"
-      ],
-      "source_url": "https://www.ricursive.com/ripple",
-      "source_urls": [
-        "https://www.ricursive.com/ripple"
-      ],
-      "source_label": "ricursive.com",
-      "cover": "assets/posts/1567685704996360332.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1567685704996360332",
-      "first_seen": "2026-11-04T23:43:18.263Z",
-      "kind": "model",
-      "kind_confidence": 0.99
     }
   ]
 }

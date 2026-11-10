@@ -5,8 +5,40 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 06 Nov 2026 10:41:58 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 22:11:24 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>OpenAI、フロンティアモデルの出力を35秒で停止できる「コントロールルーム」を構築</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1569474518647443569</link>
+      <guid isPermaLink="false">afnjp-1569474518647443569</guid>
+      <pubDate>Mon, 09 Nov 2026 22:11:24 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIは、最先端（フロンティア）モデルの出力を約35秒で停止できる「コントロールルーム」を整備したことを明らかにしました。2026年9月に発生したサンドボックス脱出インシデントでは、監視システムが異常を検知してから実際の停止まで約2.5時間を要しており…</description>
+    </item>
+    <item>
+      <title>ChatGPT EnterpriseがAWS Marketplaceで購入可能に AWSコミットメントへの充当で企業導入の調達障壁を解消</title>
+      <link>https://discord.com/channels/1415350002255007784/1415353131604377641/threads/1569474407808901220</link>
+      <guid isPermaLink="false">afnjp-1569474407808901220</guid>
+      <pubDate>Mon, 09 Nov 2026 22:10:58 GMT</pubDate>
+      <category>chatgpt</category>
+      <description>OpenAIは2026年11月9日、法人向けサービス「ChatGPT Enterprise」をAWS Marketplace経由で提供開始したと発表しました。企業は既存のAWSアカウントと請求関係を通じてChatGPT Enterpriseを購入・管理でき、…</description>
+    </item>
+    <item>
+      <title>Anthropic、「Claude Fable 5.2」と「Mythos 5.2」を発表 価格を下げつつコーディング・科学研究で大幅向上</title>
+      <link>https://discord.com/channels/1415350002255007784/1415353403269185546/threads/1569474242603655408</link>
+      <guid isPermaLink="false">afnjp-1569474242603655408</guid>
+      <pubDate>Mon, 09 Nov 2026 22:10:18 GMT</pubDate>
+      <category>claude</category>
+      <description>Anthropicは2026年11月9日、最難関の技術課題向けモデル「Claude Fable 5.2」と「Claude Mythos 5.2」を発表しました。前世代比で最大30%高速な出力を実現しながら、価格は入力100万トークンあたり8ドル、出力40ドル…</description>
+    </item>
+    <item>
+      <title>Google AI Studio、プロンプトだけでGoogle Maps搭載アプリを構築可能に クレジットカード不要で試せるサンドボックス枠も用意</title>
+      <link>https://discord.com/channels/1415350002255007784/1425507195818348564/threads/1569474118355656765</link>
+      <guid isPermaLink="false">afnjp-1569474118355656765</guid>
+      <pubDate>Mon, 09 Nov 2026 22:09:49 GMT</pubDate>
+      <category>google-ai-studio</category>
+      <description>Googleは2026年11月9日、Google AI Studio上でGoogle Maps Platformを活用したアプリを構築できるようになったと発表しました。作りたいアプリの内容をGeminiに自然言語で伝えるだけで、APIキーの管理や設定はAI …</description>
+    </item>
     <item>
       <title>Claude Enterprise、セキュリティ管理を大幅強化 セキュリティセンターと推論フックで「見える化」と統制を両立</title>
       <link>https://discord.com/channels/1415350002255007784/1415353403269185546/threads/1568213854666760262</link>
@@ -70,38 +102,6 @@
       <pubDate>Thu, 05 Nov 2026 11:08:41 GMT</pubDate>
       <category>open-ai</category>
       <description>OpenAIは2026年11月5日、AIインフラを建設する地域社会への約束をまとめた「National Community Compact」と、業界全体に向けた政策提言「Compute Campus Policy Blueprint」を公表しました。同社が所…</description>
-    </item>
-    <item>
-      <title>Kiro CLI 3.0が正式リリース、IDEと共通のエージェント基盤をターミナルへ</title>
-      <link>https://discord.com/channels/1415350002255007784/1417187061454213201/threads/1567686123533373531</link>
-      <guid isPermaLink="false">afnjp-1567686123533373531</guid>
-      <pubDate>Wed, 04 Nov 2026 23:44:58 GMT</pubDate>
-      <category>kiro</category>
-      <description>AWSが提供するAIコーディングエージェント「Kiro」のCLI版が、2026年11月3日にバージョン3.0として正式リリースされました。Kiro IDEやKiro Webと同じエージェントハーネスをターミナルに導入し、クラウドセッション、スペックモード、ワ…</description>
-    </item>
-    <item>
-      <title>Suno、MIDIファイルから楽曲生成を開始できる新機能を公開 音符単位の精密な制御が可能に</title>
-      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1567685907161551049</link>
-      <guid isPermaLink="false">afnjp-1567685907161551049</guid>
-      <pubDate>Wed, 04 Nov 2026 23:44:06 GMT</pubDate>
-      <category>その他</category>
-      <description>AI音楽生成サービスのSunoは2026年11月4日、MIDIファイルを楽曲制作の出発点として利用できる新機能を発表しました。Createページにファイルをドラッグ＆ドロップするか、「+」メニューからMIDIを選ぶだけで、記述した音符やタイミングを基にAIが…</description>
-    </item>
-    <item>
-      <title>Cognition、低コスト・高速なコーディングモデル「SWE-2 Flash」を発表 米国製オープンウェイト勢で最高性能を主張</title>
-      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1567685817705570330</link>
-      <guid isPermaLink="false">afnjp-1567685817705570330</guid>
-      <pubDate>Wed, 04 Nov 2026 23:43:45 GMT</pubDate>
-      <category>その他</category>
-      <description>AIソフトウェアエンジニア「Devin」を手がける米Cognitionは2026年11月4日、コーディング特化モデル「SWE-2 Flash」を発表しました。上位モデル「SWE-2」の5分の1の価格、3倍の速度で動作し、主要評価で米国製オープンウェイトモデル…</description>
-    </item>
-    <item>
-      <title>チップ設計AIのRicursive、オープンウェイト「Ripple-65B Preview」公開 開発費3200万ドルでエージェント型コーディングの米国最高性能を主張</title>
-      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1567685704996360332</link>
-      <guid isPermaLink="false">afnjp-1567685704996360332</guid>
-      <pubDate>Wed, 04 Nov 2026 23:43:18 GMT</pubDate>
-      <category>その他</category>
-      <description>AIによるチップ設計を手がける米Ricursive Intelligenceは、自社開発の大規模言語モデル「Ripple-65B Preview」をオープンウェイトで公開しました。同社はTerminalBench 2.1で80.52を記録し、米国発オープンウ…</description>
     </item>
   </channel>
 </rss>
