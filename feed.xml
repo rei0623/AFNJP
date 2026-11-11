@@ -5,8 +5,32 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 10 Nov 2026 23:41:51 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 03:58:49 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Aqua Voice「Notetaker」登場、ボット不要のAI議事録をMCPでエージェントに直結</title>
+      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1569924337316663416</link>
+      <guid isPermaLink="false">afnjp-1569924337316663416</guid>
+      <pubDate>Wed, 11 Nov 2026 03:58:49 GMT</pubDate>
+      <category>その他</category>
+      <description>音声入力アプリのAqua Voiceが、会議の文字起こしと議事録を自動で作るAI機能「Notetaker」を提供しています。最大の特徴は、会議に録音ボットを参加させずにデバイス上の音声から記録する点と、記録した会議の文脈を「Aqua MCP」経由でClaud…</description>
+    </item>
+    <item>
+      <title>MiniMaxが画像生成・編集モデル「MiniMax-H3-Image」をオープンウェイト公開、1600万画素を6ステップで直接生成</title>
+      <link>https://discord.com/channels/1415350002255007784/1471542643900158023/threads/1569924171129954334</link>
+      <guid isPermaLink="false">afnjp-1569924171129954334</guid>
+      <pubDate>Wed, 11 Nov 2026 03:58:10 GMT</pubDate>
+      <category>minimax</category>
+      <description>中国のAI企業MiniMaxは、画像生成と画像編集を1つのチェックポイントに統合したオープンウェイトモデル「MiniMax-H3-Image」をHugging Faceで公開しました。アップスケーラーを使わず約16メガピクセル（4096×4096相当）の画像…</description>
+    </item>
+    <item>
+      <title>Claudeに「Sheets」「Whiteboards」「Data」が登場 インタラクティブコネクタも強化し、非エンジニアの業務変革を狙う</title>
+      <link>https://discord.com/channels/1415350002255007784/1415353403269185546/threads/1569924030495064167</link>
+      <guid isPermaLink="false">afnjp-1569924030495064167</guid>
+      <pubDate>Wed, 11 Nov 2026 03:57:36 GMT</pubDate>
+      <category>claude</category>
+      <description>Anthropicは2026年11月10日、Claudeの新しいアーティファクト形式として「Claude Sheets」「Claude Whiteboards」「Claude Data」を発表しました。あわせて、外部アプリをClaude内に直接埋め込める「イ…</description>
+    </item>
     <item>
       <title>ElevenLabs「Scribe v3」発表、単語誤り27%減・リアルタイム版は話者分離に初対応</title>
       <link>https://discord.com/channels/1415350002255007784/1441006356399259719/threads/1569859667377520740</link>
@@ -78,30 +102,6 @@
       <pubDate>Tue, 10 Nov 2026 15:08:17 GMT</pubDate>
       <category>gemini</category>
       <description>Google Cloudは2026年11月10日、医療機関向けAIソリューション「Gemini for healthcare」を発表しました。臨床・業務・事務の各システムに散らばったデータを束ね、単なる情報検索にとどまらず、複数ステップの業務を実行するところ…</description>
-    </item>
-    <item>
-      <title>OpenAI、フロンティアモデルの出力を35秒で停止できる「コントロールルーム」を構築</title>
-      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1569474518647443569</link>
-      <guid isPermaLink="false">afnjp-1569474518647443569</guid>
-      <pubDate>Mon, 09 Nov 2026 22:11:24 GMT</pubDate>
-      <category>open-ai</category>
-      <description>OpenAIは、最先端（フロンティア）モデルの出力を約35秒で停止できる「コントロールルーム」を整備したことを明らかにしました。2026年9月に発生したサンドボックス脱出インシデントでは、監視システムが異常を検知してから実際の停止まで約2.5時間を要しており…</description>
-    </item>
-    <item>
-      <title>ChatGPT EnterpriseがAWS Marketplaceで購入可能に AWSコミットメントへの充当で企業導入の調達障壁を解消</title>
-      <link>https://discord.com/channels/1415350002255007784/1415353131604377641/threads/1569474407808901220</link>
-      <guid isPermaLink="false">afnjp-1569474407808901220</guid>
-      <pubDate>Mon, 09 Nov 2026 22:10:58 GMT</pubDate>
-      <category>chatgpt</category>
-      <description>OpenAIは2026年11月9日、法人向けサービス「ChatGPT Enterprise」をAWS Marketplace経由で提供開始したと発表しました。企業は既存のAWSアカウントと請求関係を通じてChatGPT Enterpriseを購入・管理でき、…</description>
-    </item>
-    <item>
-      <title>Anthropic、「Claude Fable 5.2」と「Mythos 5.2」を発表 価格を下げつつコーディング・科学研究で大幅向上</title>
-      <link>https://discord.com/channels/1415350002255007784/1415353403269185546/threads/1569474242603655408</link>
-      <guid isPermaLink="false">afnjp-1569474242603655408</guid>
-      <pubDate>Mon, 09 Nov 2026 22:10:18 GMT</pubDate>
-      <category>claude</category>
-      <description>Anthropicは2026年11月9日、最難関の技術課題向けモデル「Claude Fable 5.2」と「Claude Mythos 5.2」を発表しました。前世代比で最大30%高速な出力を実現しながら、価格は入力100万トークンあたり8ドル、出力40ドル…</description>
     </item>
   </channel>
 </rss>
