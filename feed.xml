@@ -5,8 +5,56 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 10 Nov 2026 15:10:01 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 23:41:51 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>ElevenLabs「Scribe v3」発表、単語誤り27%減・リアルタイム版は話者分離に初対応</title>
+      <link>https://discord.com/channels/1415350002255007784/1441006356399259719/threads/1569859667377520740</link>
+      <guid isPermaLink="false">afnjp-1569859667377520740</guid>
+      <pubDate>Tue, 10 Nov 2026 23:41:51 GMT</pubDate>
+      <category>eleven-labs</category>
+      <description>ElevenLabsは2026年11月10日、音声認識（Speech to Text）の新モデル「Scribe v3」と、低遅延のリアルタイム版「Scribe v3 Live」を発表しました。録音音声向けのScribe v3は102言語で前世代比27%の単語…</description>
+    </item>
+    <item>
+      <title>Google「Gemini Intelligence」が対応端末を拡大 Pixel 10・Motorolaに展開、タスク自動化は日本でも提供へ</title>
+      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1569859545256169522</link>
+      <guid isPermaLink="false">afnjp-1569859545256169522</guid>
+      <pubDate>Tue, 10 Nov 2026 23:41:22 GMT</pubDate>
+      <category>google</category>
+      <description>Googleは2026年11月10日（米国時間）、Android向けAI基盤「Gemini Intelligence」の新機能と対応端末の拡大を発表しました。Motorola初の対応端末やPixel 10シリーズへの展開に加え、Gemini経由で複数アプリの…</description>
+    </item>
+    <item>
+      <title>OpenAI、「Businesses in ChatGPT」をベータ公開 企業がChatGPT上の自社情報を管理し、専用AIエージェントで顧客対応</title>
+      <link>https://discord.com/channels/1415350002255007784/1415353131604377641/threads/1569859329211899954</link>
+      <guid isPermaLink="false">afnjp-1569859329211899954</guid>
+      <pubDate>Tue, 10 Nov 2026 23:40:30 GMT</pubDate>
+      <category>chatgpt</category>
+      <description>OpenAIは2026年11月10日、企業がChatGPT内での自社の見え方を管理できる新機能「Businesses in ChatGPT」をベータ版として発表しました。週12億人が利用するとされるChatGPTを、企業と消費者をつなぐ接点として本格的に位置…</description>
+    </item>
+    <item>
+      <title>Google AI Edge Gallery、完全オフラインの音声認識と音声合成に対応 Gemini NanoやGemma 4と組み合わせて端末内で音声対話を実現</title>
+      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1569859199964282961</link>
+      <guid isPermaLink="false">afnjp-1569859199964282961</guid>
+      <pubDate>Tue, 10 Nov 2026 23:39:59 GMT</pubDate>
+      <category>google</category>
+      <description>Googleは2026年11月10日、オンデバイスAIの検証アプリ「Google AI Edge Gallery」に、端末内で動作する自動音声認識（ASR）と音声合成（TTS）を追加したと発表しました。Gemini NanoやGemma 4などの小型言語モデ…</description>
+    </item>
+    <item>
+      <title>Google「Gemini 4 Carbon」を一般提供開始、最上位モデルがAPIとGeminiアプリで利用可能に</title>
+      <link>https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1569858897487994890</link>
+      <guid isPermaLink="false">afnjp-1569858897487994890</guid>
+      <pubDate>Tue, 10 Nov 2026 23:38:47 GMT</pubDate>
+      <category>gemini</category>
+      <description>Googleは2026年11月10日（米国時間）、同社の最新フロンティアモデル「Gemini 4 Carbon」を開発者、企業、研究者、一般ユーザー向けに提供開始しました。10月下旬からサイバーセキュリティ防御企業に限定提供されていた同モデルが、約2週間で広…</description>
+    </item>
+    <item>
+      <title>Google、視覚的な実務能力を測る新ベンチマーク「MKA」を公開 Gemini 4 Carbonは品質2位・コスト6分の1</title>
+      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1569858743007584386</link>
+      <guid isPermaLink="false">afnjp-1569858743007584386</guid>
+      <pubDate>Tue, 10 Nov 2026 23:38:10 GMT</pubDate>
+      <category>google</category>
+      <description>Google DeepMindは2026年11月10日、AI評価機関Artificial Analysisと共同で、新ベンチマーク「MKA（Multimodal Knowledge Agent）」を発表しました。図面や回路図、スライド、スプレッドシートといっ…</description>
+    </item>
     <item>
       <title>Google DeepMind「AlphaProof Code」発表 Signalプロトコルの実装を機械語レベルまで形式検証</title>
       <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1569730861858037852</link>
@@ -54,54 +102,6 @@
       <pubDate>Mon, 09 Nov 2026 22:10:18 GMT</pubDate>
       <category>claude</category>
       <description>Anthropicは2026年11月9日、最難関の技術課題向けモデル「Claude Fable 5.2」と「Claude Mythos 5.2」を発表しました。前世代比で最大30%高速な出力を実現しながら、価格は入力100万トークンあたり8ドル、出力40ドル…</description>
-    </item>
-    <item>
-      <title>Google AI Studio、プロンプトだけでGoogle Maps搭載アプリを構築可能に クレジットカード不要で試せるサンドボックス枠も用意</title>
-      <link>https://discord.com/channels/1415350002255007784/1425507195818348564/threads/1569474118355656765</link>
-      <guid isPermaLink="false">afnjp-1569474118355656765</guid>
-      <pubDate>Mon, 09 Nov 2026 22:09:49 GMT</pubDate>
-      <category>google-ai-studio</category>
-      <description>Googleは2026年11月9日、Google AI Studio上でGoogle Maps Platformを活用したアプリを構築できるようになったと発表しました。作りたいアプリの内容をGeminiに自然言語で伝えるだけで、APIキーの管理や設定はAI …</description>
-    </item>
-    <item>
-      <title>Claude Enterprise、セキュリティ管理を大幅強化 セキュリティセンターと推論フックで「見える化」と統制を両立</title>
-      <link>https://discord.com/channels/1415350002255007784/1415353403269185546/threads/1568213854666760262</link>
-      <guid isPermaLink="false">afnjp-1568213854666760262</guid>
-      <pubDate>Fri, 06 Nov 2026 10:41:58 GMT</pubDate>
-      <category>claude</category>
-      <description>Anthropicは2026年11月5日、Claude Enterprise向けに新たなセキュリティ・管理機能群を発表しました。設定状況を一覧で点検できる「セキュリティセンター」、既存のDLP製品と連携する「推論フック」の一般提供、複数組織を束ねる「一元管理…</description>
-    </item>
-    <item>
-      <title>Claudeに家計管理機能「Personal Finance」登場、銀行口座と連携し“お金の質問”に読み取り専用で回答</title>
-      <link>https://discord.com/channels/1415350002255007784/1415353403269185546/threads/1568213665998442618</link>
-      <guid isPermaLink="false">afnjp-1568213665998442618</guid>
-      <pubDate>Fri, 06 Nov 2026 10:41:13 GMT</pubDate>
-      <category>claude</category>
-      <description>Anthropicは2026年11月5日、Claudeに銀行・カード口座を接続して自分のお金について自然な言葉で質問できる新機能「Personal Finance」を発表しました。アクセスは読み取り専用で、送金や資産運用は一切行えない設計です。今週から米国の…</description>
-    </item>
-    <item>
-      <title>Meta、「Muse」アプリにリアルタイム音声会話と表情豊かなアバターを導入 米国から提供開始</title>
-      <link>https://discord.com/channels/1415350002255007784/1491820892789936220/threads/1568044581210300526</link>
-      <guid isPermaLink="false">afnjp-1568044581210300526</guid>
-      <pubDate>Thu, 05 Nov 2026 23:29:21 GMT</pubDate>
-      <category>muse-spark</category>
-      <description>Metaは2026年11月5日、AIアシスタントアプリ「Muse」に音声会話機能と表情豊かなアバター機能を追加すると発表しました。9月の「Connect 2026」でプレビューしていたリアルタイム会話機能を、モバイル、Web、Macの各版で順次提供します。ま…</description>
-    </item>
-    <item>
-      <title>NVIDIA、対話型ワールドシミュレーション向け「Cosmos 3」新モデル4種をオープン公開</title>
-      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1568044418953519124</link>
-      <guid isPermaLink="false">afnjp-1568044418953519124</guid>
-      <pubDate>Thu, 05 Nov 2026 23:28:42 GMT</pubDate>
-      <category>その他</category>
-      <description>NVIDIAは2026年11月5日、ワールドモデル開発プラットフォーム「Cosmos」のCosmos 3ファミリーに、オープンウェイトの新チェックポイント4種を追加したと発表しました。自動運転向けのマルチセンサー・マルチビュー映像生成と、ロボット操作の対話型…</description>
-    </item>
-    <item>
-      <title>OpenAI「GPT-6 Cyber」発表 脆弱性の発見・悪用・修正を担う特化型モデル、認可スコープ遵守を大幅強化</title>
-      <link>https://discord.com/channels/1415350002255007784/1415353131604377641/threads/1568044258072461372</link>
-      <guid isPermaLink="false">afnjp-1568044258072461372</guid>
-      <pubDate>Thu, 05 Nov 2026 23:28:03 GMT</pubDate>
-      <category>chatgpt</category>
-      <description>OpenAIは2026年11月5日（米国時間）、サイバーセキュリティ特化型モデル「GPT-6 Cyber」を発表しました。悪用可能な脆弱性の発見と検証、修正の作成を目的とし、研究者が認可した範囲（スコープ）から逸脱しないよう訓練されている点が最大の特徴です。…</description>
     </item>
   </channel>
 </rss>

@@ -1,9 +1,168 @@
 {
-  "generated_at": "2026-11-10T23:15:58.377Z",
+  "generated_at": "2026-11-11T02:47:37.453Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 554,
+  "count": 560,
   "posts": [
+    {
+      "id": "1569859667377520740",
+      "title": "ElevenLabs「Scribe v3」発表、単語誤り27%減・リアルタイム版は話者分離に初対応",
+      "channel": "eleven-labs",
+      "category": "その他",
+      "date": "2026-11-10T23:41:51.285Z",
+      "excerpt": "ElevenLabsは2026年11月10日、音声認識（Speech to Text）の新モデル「Scribe v3」と、低遅延のリアルタイム版「Scribe v3 Live」を発表しました。録音音声向けのScribe v3は102言語で前世代比27%の単語…",
+      "lead": "ElevenLabsは2026年11月10日、音声認識（Speech to Text）の新モデル「Scribe v3」と、低遅延のリアルタイム版「Scribe v3 Live」を発表しました。録音音声向けのScribe v3は102言語で前世代比27%の単語誤り削減を実現し、Scribe v3 Liveはリアルタイム処理での話者分離（ダイアライゼーション）に初めて対応しています。",
+      "headings": [
+        "2つのモデルの位置付け",
+        "技術的なポイント",
+        "話者分離の強化",
+        "文脈を読むターン検出",
+        "出力の細かな制御",
+        "評価方法と注意点",
+        "実運用へのインパクト",
+        "今後の展望"
+      ],
+      "source_url": "https://elevenlabs.io/blog/scribe-v3",
+      "source_urls": [
+        "https://elevenlabs.io/blog/scribe-v3"
+      ],
+      "source_label": "elevenlabs.io",
+      "cover": "assets/posts/1569859667377520740.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1441006356399259719/threads/1569859667377520740",
+      "first_seen": "2026-11-10T23:41:51.285Z",
+      "kind": "model",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1569859545256169522",
+      "title": "Google「Gemini Intelligence」が対応端末を拡大 Pixel 10・Motorolaに展開、タスク自動化は日本でも提供へ",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-11-10T23:41:22.169Z",
+      "excerpt": "Googleは2026年11月10日（米国時間）、Android向けAI基盤「Gemini Intelligence」の新機能と対応端末の拡大を発表しました。Motorola初の対応端末やPixel 10シリーズへの展開に加え、Gemini経由で複数アプリの…",
+      "lead": "Googleは2026年11月10日（米国時間）、Android向けAI基盤「Gemini Intelligence」の新機能と対応端末の拡大を発表しました。Motorola初の対応端末やPixel 10シリーズへの展開に加え、Gemini経由で複数アプリの操作を代行する「タスク自動化」が日本、英国、インドへ拡大されます。プロンプトでウィジェットを作る「Create My Widget」や、端末設定をAIが支援する「Device Assistance」も加わり、AIをOS全体に組み込む動きが一段と進んでいます。",
+      "headings": [
+        "対応端末の拡大",
+        "主な新機能",
+        "マルチスクリーン戦略",
+        "影響と注意点",
+        "今後の展望"
+      ],
+      "source_url": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/",
+      "source_urls": [
+        "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/"
+      ],
+      "source_label": "blog.google",
+      "cover": "assets/posts/1569859545256169522.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1569859545256169522",
+      "first_seen": "2026-11-10T23:41:22.169Z",
+      "kind": "feature",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1569859329211899954",
+      "title": "OpenAI、「Businesses in ChatGPT」をベータ公開 企業がChatGPT上の自社情報を管理し、専用AIエージェントで顧客対応",
+      "channel": "chatgpt",
+      "category": "Open AI",
+      "date": "2026-11-10T23:40:30.660Z",
+      "excerpt": "OpenAIは2026年11月10日、企業がChatGPT内での自社の見え方を管理できる新機能「Businesses in ChatGPT」をベータ版として発表しました。週12億人が利用するとされるChatGPTを、企業と消費者をつなぐ接点として本格的に位置…",
+      "lead": "OpenAIは2026年11月10日、企業がChatGPT内での自社の見え方を管理できる新機能「Businesses in ChatGPT」をベータ版として発表しました。週12億人が利用するとされるChatGPTを、企業と消費者をつなぐ接点として本格的に位置づける動きです。",
+      "headings": [
+        "Business Hub：プロフィールの取得と可視化",
+        "Business Agents：企業専用の対話エージェント",
+        "広告との連携と中立性の担保",
+        "業界への影響",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/introducing-businesses-chatgpt/",
+      "source_urls": [
+        "https://openai.com/index/introducing-businesses-chatgpt/"
+      ],
+      "source_label": "openai.com",
+      "cover": "assets/posts/1569859329211899954.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415353131604377641/threads/1569859329211899954",
+      "first_seen": "2026-11-10T23:40:30.660Z",
+      "kind": "feature",
+      "kind_confidence": 0.99
+    },
+    {
+      "id": "1569859199964282961",
+      "title": "Google AI Edge Gallery、完全オフラインの音声認識と音声合成に対応 Gemini NanoやGemma 4と組み合わせて端末内で音声対話を実現",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-11-10T23:39:59.845Z",
+      "excerpt": "Googleは2026年11月10日、オンデバイスAIの検証アプリ「Google AI Edge Gallery」に、端末内で動作する自動音声認識（ASR）と音声合成（TTS）を追加したと発表しました。Gemini NanoやGemma 4などの小型言語モデ…",
+      "lead": "Googleは2026年11月10日、オンデバイスAIの検証アプリ「Google AI Edge Gallery」に、端末内で動作する自動音声認識（ASR）と音声合成（TTS）を追加したと発表しました。Gemini NanoやGemma 4などの小型言語モデル（SLM）と組み合わせると、ネットワークに接続しなくても、話しかけた内容を逐次文字起こしし、応答を音声で返すアプリを作れます。",
+      "headings": [
+        "Android向け：OS統合のML Kit",
+        "クロスプラットフォーム向け：MediaPipe TasksとLiteRT",
+        "実装例：XR Language TeacherとAI Chat",
+        "意義と注意点",
+        "今後の展望"
+      ],
+      "source_url": "https://developers.googleblog.com/on-device-speech-recognition-and-text-to-speech-in-google-ai-edge-gallery/",
+      "source_urls": [
+        "https://developers.googleblog.com/on-device-speech-recognition-and-text-to-speech-in-google-ai-edge-gallery/"
+      ],
+      "source_label": "developers.googleblog.com",
+      "cover": "assets/posts/1569859199964282961.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1569859199964282961",
+      "first_seen": "2026-11-10T23:39:59.845Z",
+      "kind": "feature",
+      "kind_confidence": 0.69
+    },
+    {
+      "id": "1569858897487994890",
+      "title": "Google「Gemini 4 Carbon」を一般提供開始、最上位モデルがAPIとGeminiアプリで利用可能に",
+      "channel": "gemini",
+      "category": "Google",
+      "date": "2026-11-10T23:38:47.729Z",
+      "excerpt": "Googleは2026年11月10日（米国時間）、同社の最新フロンティアモデル「Gemini 4 Carbon」を開発者、企業、研究者、一般ユーザー向けに提供開始しました。10月下旬からサイバーセキュリティ防御企業に限定提供されていた同モデルが、約2週間で広…",
+      "lead": "Googleは2026年11月10日（米国時間）、同社の最新フロンティアモデル「Gemini 4 Carbon」を開発者、企業、研究者、一般ユーザー向けに提供開始しました。10月下旬からサイバーセキュリティ防御企業に限定提供されていた同モデルが、約2週間で広く利用できるようになります。",
+      "headings": [
+        "「最も難しい問題」向けの最上位モデル",
+        "性能と活用事例",
+        "提供形態と価格",
+        "今後の展望"
+      ],
+      "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+      "source_urls": [
+        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/"
+      ],
+      "source_label": "blog.google",
+      "cover": "assets/posts/1569858897487994890.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1569858897487994890",
+      "first_seen": "2026-11-10T23:38:47.729Z",
+      "kind": "model",
+      "kind_confidence": 0.99
+    },
+    {
+      "id": "1569858743007584386",
+      "title": "Google、視覚的な実務能力を測る新ベンチマーク「MKA」を公開 Gemini 4 Carbonは品質2位・コスト6分の1",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-11-10T23:38:10.898Z",
+      "excerpt": "Google DeepMindは2026年11月10日、AI評価機関Artificial Analysisと共同で、新ベンチマーク「MKA（Multimodal Knowledge Agent）」を発表しました。図面や回路図、スライド、スプレッドシートといっ…",
+      "lead": "Google DeepMindは2026年11月10日、AI評価機関Artificial Analysisと共同で、新ベンチマーク「MKA（Multimodal Knowledge Agent）」を発表しました。図面や回路図、スライド、スプレッドシートといった視覚的に複雑なファイルを読み解き、実務レベルの成果物を作れるかをエージェント単位で評価するものです。あわせて、同社の「Gemini 4 Carbon」が品質2位を記録し、首位モデルと比べて平均6分の1のコストでタスクを完了したと公表しました。",
+      "headings": [
+        "「テキストだけで解ける」既存評価への問題提起",
+        "評価設計の技術的詳細",
+        "データ汚染対策と公開範囲",
+        "モデル間の大きな「働き方」の差",
+        "Gemini 4 Carbonの位置づけと注意点",
+        "今後の展望"
+      ],
+      "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/multimodal-knowledge-agent-benchmark/",
+      "source_urls": [
+        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/multimodal-knowledge-agent-benchmark/"
+      ],
+      "source_label": "blog.google",
+      "cover": "assets/posts/1569858743007584386.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1569858743007584386",
+      "first_seen": "2026-11-10T23:38:10.898Z",
+      "kind": "research",
+      "kind_confidence": 0.99
+    },
     {
       "id": "1569730861858037852",
       "title": "Google DeepMind「AlphaProof Code」発表 Signalプロトコルの実装を機械語レベルまで形式検証",
