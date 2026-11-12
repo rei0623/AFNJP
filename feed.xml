@@ -5,8 +5,56 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 11 Nov 2026 03:58:49 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 23:15:13 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Google DeepMind「AlphaGenome 2」発表、DNA変異の影響を細胞種ごとに予測</title>
+      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1570215352779022366</link>
+      <guid isPermaLink="false">afnjp-1570215352779022366</guid>
+      <pubDate>Wed, 11 Nov 2026 23:15:13 GMT</pubDate>
+      <category>google</category>
+      <description>Google DeepMindは2026年11月11日、DNA配列とその変異が特定のヒト細胞種にどう影響するかを予測する次世代モデル「AlphaGenome 2」を発表しました。前世代と比べて、遺伝子発現を変える変異を約2倍多く特定できるとしています。非商用…</description>
+    </item>
+    <item>
+      <title>Google Labs、グループ共同作業向けAI実験「Tabletop」を発表 プロンプトで旅程表や投票ツールを生成</title>
+      <link>https://discord.com/channels/1415350002255007784/1420666565506105375/threads/1570215190568370276</link>
+      <guid isPermaLink="false">afnjp-1570215190568370276</guid>
+      <pubDate>Wed, 11 Nov 2026 23:14:34 GMT</pubDate>
+      <category>google-labs</category>
+      <description>Google Labsは2026年11月11日（米国時間）、グループでの計画や共同作業を支援する新たな実験的サービス「Tabletop」を発表しました。リンクやファイル、アイデアを投入してAIに指示するだけで、旅行の旅程表や投票、割り勘ツール、トーナメント表…</description>
+    </item>
+    <item>
+      <title>Google、生成せずに「判定」するGemini Decisions APIを公開 1回の推論で最大1,000問を高速スコアリング</title>
+      <link>https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1570215013355098192</link>
+      <guid isPermaLink="false">afnjp-1570215013355098192</guid>
+      <pubDate>Wed, 11 Nov 2026 23:13:52 GMT</pubDate>
+      <category>gemini</category>
+      <description>Google DeepMindは2026年11月11日、選択肢が決まった判定タスクに特化した新エンドポイント「Gemini Decisions API」と、専用モデル「Gemini Decision 1（gemini-decision-1）」を発表しました。…</description>
+    </item>
+    <item>
+      <title>ElevenLabsが業界特化型AIエージェントの「Marketplace」を公開 Salesforce・IBM・Zendeskなどが参画</title>
+      <link>https://discord.com/channels/1415350002255007784/1441006356399259719/threads/1570214848070033469</link>
+      <guid isPermaLink="false">afnjp-1570214848070033469</guid>
+      <pubDate>Wed, 11 Nov 2026 23:13:12 GMT</pubDate>
+      <category>eleven-labs</category>
+      <description>音声AI大手のElevenLabsは2026年11月11日、同社の基盤モデルを使ってパートナー企業が開発した業界特化型AIエージェントやアプリケーションを探せる「ElevenLabs Marketplace」を公開しました。ローンチパートナーにはSalesf…</description>
+    </item>
+    <item>
+      <title>AlloyDB AIに「ai.classify」「ai.extract」登場、SQLだけで分類・構造化抽出が可能に</title>
+      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1570214740829929553</link>
+      <guid isPermaLink="false">afnjp-1570214740829929553</guid>
+      <pubDate>Wed, 11 Nov 2026 23:12:47 GMT</pubDate>
+      <category>google</category>
+      <description>Google Cloudは2026年11月12日、PostgreSQL互換データベース「AlloyDB AI」のクエリエンジンに、テキスト分類関数「ai.classify」と構造化データ抽出関数「ai.extract」をプレビューとして追加したと発表しました…</description>
+    </item>
+    <item>
+      <title>OpenAI、退役軍人向けChatGPT Plus無償提供が1年で2万人超に 職業移行支援の実例とトレーニング拡充を発表</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1570214566053544138</link>
+      <guid isPermaLink="false">afnjp-1570214566053544138</guid>
+      <pubDate>Wed, 11 Nov 2026 23:12:05 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIは2026年11月11日（米国の退役軍人の日）、退役・除隊を控える米軍人および退役軍人にChatGPT Plusを1年間無償提供するプログラムについて、過去1年間で2万人以上が利用を申請したと発表しました。あわせて、利用者の活用事例と、今後のトレ…</description>
+    </item>
     <item>
       <title>Aqua Voice「Notetaker」登場、ボット不要のAI議事録をMCPでエージェントに直結</title>
       <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1569924337316663416</link>
@@ -54,54 +102,6 @@
       <pubDate>Tue, 10 Nov 2026 23:40:30 GMT</pubDate>
       <category>chatgpt</category>
       <description>OpenAIは2026年11月10日、企業がChatGPT内での自社の見え方を管理できる新機能「Businesses in ChatGPT」をベータ版として発表しました。週12億人が利用するとされるChatGPTを、企業と消費者をつなぐ接点として本格的に位置…</description>
-    </item>
-    <item>
-      <title>Google AI Edge Gallery、完全オフラインの音声認識と音声合成に対応 Gemini NanoやGemma 4と組み合わせて端末内で音声対話を実現</title>
-      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1569859199964282961</link>
-      <guid isPermaLink="false">afnjp-1569859199964282961</guid>
-      <pubDate>Tue, 10 Nov 2026 23:39:59 GMT</pubDate>
-      <category>google</category>
-      <description>Googleは2026年11月10日、オンデバイスAIの検証アプリ「Google AI Edge Gallery」に、端末内で動作する自動音声認識（ASR）と音声合成（TTS）を追加したと発表しました。Gemini NanoやGemma 4などの小型言語モデ…</description>
-    </item>
-    <item>
-      <title>Google「Gemini 4 Carbon」を一般提供開始、最上位モデルがAPIとGeminiアプリで利用可能に</title>
-      <link>https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1569858897487994890</link>
-      <guid isPermaLink="false">afnjp-1569858897487994890</guid>
-      <pubDate>Tue, 10 Nov 2026 23:38:47 GMT</pubDate>
-      <category>gemini</category>
-      <description>Googleは2026年11月10日（米国時間）、同社の最新フロンティアモデル「Gemini 4 Carbon」を開発者、企業、研究者、一般ユーザー向けに提供開始しました。10月下旬からサイバーセキュリティ防御企業に限定提供されていた同モデルが、約2週間で広…</description>
-    </item>
-    <item>
-      <title>Google、視覚的な実務能力を測る新ベンチマーク「MKA」を公開 Gemini 4 Carbonは品質2位・コスト6分の1</title>
-      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1569858743007584386</link>
-      <guid isPermaLink="false">afnjp-1569858743007584386</guid>
-      <pubDate>Tue, 10 Nov 2026 23:38:10 GMT</pubDate>
-      <category>google</category>
-      <description>Google DeepMindは2026年11月10日、AI評価機関Artificial Analysisと共同で、新ベンチマーク「MKA（Multimodal Knowledge Agent）」を発表しました。図面や回路図、スライド、スプレッドシートといっ…</description>
-    </item>
-    <item>
-      <title>Google DeepMind「AlphaProof Code」発表 Signalプロトコルの実装を機械語レベルまで形式検証</title>
-      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1569730861858037852</link>
-      <guid isPermaLink="false">afnjp-1569730861858037852</guid>
-      <pubDate>Tue, 10 Nov 2026 15:10:01 GMT</pubDate>
-      <category>google</category>
-      <description>Google DeepMindは2026年11月10日、AIエージェントと人間の専門家が協働してソフトウェアを形式検証する新フレームワーク「AlphaProof Code」を発表しました。SignalやGoogleメッセージで使われるSignalプロトコルに…</description>
-    </item>
-    <item>
-      <title>GoogleとAdobeが提携拡大、Gemini・Drive・GmailにAdobeツールを統合しDeepMindと画像編集モデルも探索</title>
-      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1569730551479275641</link>
-      <guid isPermaLink="false">afnjp-1569730551479275641</guid>
-      <pubDate>Tue, 10 Nov 2026 15:08:47 GMT</pubDate>
-      <category>google</category>
-      <description>Googleは2026年11月10日、Adobeの年次イベント「Adobe MAX」に合わせて、Adobeとのパートナーシップ拡大を発表しました。AdobeのクリエイティブツールやPDFツールをGoogle Drive、Gmail、Gemini、Google…</description>
-    </item>
-    <item>
-      <title>Google Cloudが「Gemini for healthcare」を発表、分断された医療データを統合しワークフロー自動化へ</title>
-      <link>https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1569730423494541352</link>
-      <guid isPermaLink="false">afnjp-1569730423494541352</guid>
-      <pubDate>Tue, 10 Nov 2026 15:08:17 GMT</pubDate>
-      <category>gemini</category>
-      <description>Google Cloudは2026年11月10日、医療機関向けAIソリューション「Gemini for healthcare」を発表しました。臨床・業務・事務の各システムに散らばったデータを束ね、単なる情報検索にとどまらず、複数ステップの業務を実行するところ…</description>
     </item>
   </channel>
 </rss>
