@@ -1,9 +1,34 @@
 {
-  "generated_at": "2026-11-12T09:45:23.498Z",
+  "generated_at": "2026-11-12T18:15:17.480Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 570,
+  "count": 571,
   "posts": [
+    {
+      "id": "1570468637926494288",
+      "title": "ChatGPT広告、Alephと独占リセラー契約 新興44市場で現地契約・現地通貨請求に対応",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-11-12T16:01:41.178Z",
+      "excerpt": "OpenAIは、ChatGPT内の広告を販売する体制を強化するため、デジタル広告・決済のインフラ企業Alephと独占リセラー契約を結びました。2026年11月12日から、中南米、欧州・中央アジア、中東・アフリカ、アジア太平洋の計44市場の広告主と代理店が、A…",
+      "lead": "OpenAIは、ChatGPT内の広告を販売する体制を強化するため、デジタル広告・決済のインフラ企業Alephと独占リセラー契約を結びました。2026年11月12日から、中南米、欧州・中央アジア、中東・アフリカ、アジア太平洋の計44市場の広告主と代理店が、Alephを通じて現地で契約、支払い、サポートを受けられます。",
+      "headings": [
+        "何が変わるのか",
+        "背景：急速に広がる広告事業",
+        "影響と課題",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/ads/blog/chatgpt-ads-increases-its-market-presence/",
+      "source_urls": [
+        "https://openai.com/ads/blog/chatgpt-ads-increases-its-market-presence/"
+      ],
+      "source_label": "openai.com",
+      "cover": "assets/posts/1570468637926494288.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1570468637926494288",
+      "first_seen": "2026-11-12T16:01:41.178Z",
+      "kind": "business",
+      "kind_confidence": 0.82
+    },
     {
       "id": "1570322059685396541",
       "title": "Runway「Praxis-1」公開、動画生成モデルをロボット制御へ転用するオープンウェイトの世界行動モデル",

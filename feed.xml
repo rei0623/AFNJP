@@ -5,8 +5,16 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 12 Nov 2026 06:19:14 GMT</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 16:01:41 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>ChatGPT広告、Alephと独占リセラー契約 新興44市場で現地契約・現地通貨請求に対応</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1570468637926494288</link>
+      <guid isPermaLink="false">afnjp-1570468637926494288</guid>
+      <pubDate>Thu, 12 Nov 2026 16:01:41 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIは、ChatGPT内の広告を販売する体制を強化するため、デジタル広告・決済のインフラ企業Alephと独占リセラー契約を結びました。2026年11月12日から、中南米、欧州・中央アジア、中東・アフリカ、アジア太平洋の計44市場の広告主と代理店が、A…</description>
+    </item>
     <item>
       <title>Runway「Praxis-1」公開、動画生成モデルをロボット制御へ転用するオープンウェイトの世界行動モデル</title>
       <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1570322059685396541</link>
@@ -94,14 +102,6 @@
       <pubDate>Tue, 10 Nov 2026 23:41:51 GMT</pubDate>
       <category>eleven-labs</category>
       <description>ElevenLabsは2026年11月10日、音声認識（Speech to Text）の新モデル「Scribe v3」と、低遅延のリアルタイム版「Scribe v3 Live」を発表しました。録音音声向けのScribe v3は102言語で前世代比27%の単語…</description>
-    </item>
-    <item>
-      <title>Google「Gemini Intelligence」が対応端末を拡大 Pixel 10・Motorolaに展開、タスク自動化は日本でも提供へ</title>
-      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1569859545256169522</link>
-      <guid isPermaLink="false">afnjp-1569859545256169522</guid>
-      <pubDate>Tue, 10 Nov 2026 23:41:22 GMT</pubDate>
-      <category>google</category>
-      <description>Googleは2026年11月10日（米国時間）、Android向けAI基盤「Gemini Intelligence」の新機能と対応端末の拡大を発表しました。Motorola初の対応端末やPixel 10シリーズへの展開に加え、Gemini経由で複数アプリの…</description>
     </item>
   </channel>
 </rss>

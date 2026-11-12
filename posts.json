@@ -1,8 +1,33 @@
 {
-  "generated_at": "2026-11-12T09:45:23.503Z",
+  "generated_at": "2026-11-12T18:15:17.486Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1570468637926494288",
+      "title": "ChatGPT広告、Alephと独占リセラー契約 新興44市場で現地契約・現地通貨請求に対応",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-11-12T16:01:41.178Z",
+      "excerpt": "OpenAIは、ChatGPT内の広告を販売する体制を強化するため、デジタル広告・決済のインフラ企業Alephと独占リセラー契約を結びました。2026年11月12日から、中南米、欧州・中央アジア、中東・アフリカ、アジア太平洋の計44市場の広告主と代理店が、A…",
+      "lead": "OpenAIは、ChatGPT内の広告を販売する体制を強化するため、デジタル広告・決済のインフラ企業Alephと独占リセラー契約を結びました。2026年11月12日から、中南米、欧州・中央アジア、中東・アフリカ、アジア太平洋の計44市場の広告主と代理店が、Alephを通じて現地で契約、支払い、サポートを受けられます。",
+      "headings": [
+        "何が変わるのか",
+        "背景：急速に広がる広告事業",
+        "影響と課題",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/ads/blog/chatgpt-ads-increases-its-market-presence/",
+      "source_urls": [
+        "https://openai.com/ads/blog/chatgpt-ads-increases-its-market-presence/"
+      ],
+      "source_label": "openai.com",
+      "cover": "assets/posts/1570468637926494288.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1570468637926494288",
+      "first_seen": "2026-11-12T16:01:41.178Z",
+      "kind": "business",
+      "kind_confidence": 0.82
+    },
     {
       "id": "1570322059685396541",
       "title": "Runway「Praxis-1」公開、動画生成モデルをロボット制御へ転用するオープンウェイトの世界行動モデル",
@@ -290,32 +315,6 @@
       "url": "https://discord.com/channels/1415350002255007784/1441006356399259719/threads/1569859667377520740",
       "first_seen": "2026-11-10T23:41:51.285Z",
       "kind": "model",
-      "kind_confidence": 1
-    },
-    {
-      "id": "1569859545256169522",
-      "title": "Google「Gemini Intelligence」が対応端末を拡大 Pixel 10・Motorolaに展開、タスク自動化は日本でも提供へ",
-      "channel": "google",
-      "category": "Google",
-      "date": "2026-11-10T23:41:22.169Z",
-      "excerpt": "Googleは2026年11月10日（米国時間）、Android向けAI基盤「Gemini Intelligence」の新機能と対応端末の拡大を発表しました。Motorola初の対応端末やPixel 10シリーズへの展開に加え、Gemini経由で複数アプリの…",
-      "lead": "Googleは2026年11月10日（米国時間）、Android向けAI基盤「Gemini Intelligence」の新機能と対応端末の拡大を発表しました。Motorola初の対応端末やPixel 10シリーズへの展開に加え、Gemini経由で複数アプリの操作を代行する「タスク自動化」が日本、英国、インドへ拡大されます。プロンプトでウィジェットを作る「Create My Widget」や、端末設定をAIが支援する「Device Assistance」も加わり、AIをOS全体に組み込む動きが一段と進んでいます。",
-      "headings": [
-        "対応端末の拡大",
-        "主な新機能",
-        "マルチスクリーン戦略",
-        "影響と注意点",
-        "今後の展望"
-      ],
-      "source_url": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/",
-      "source_urls": [
-        "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/"
-      ],
-      "source_label": "blog.google",
-      "cover": "assets/posts/1569859545256169522.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1569859545256169522",
-      "first_seen": "2026-11-10T23:41:22.169Z",
-      "kind": "feature",
       "kind_confidence": 1
     }
   ]
