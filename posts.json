@@ -1,8 +1,34 @@
 {
-  "generated_at": "2026-11-12T01:29:47.780Z",
+  "generated_at": "2026-11-12T09:45:23.503Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1570322059685396541",
+      "title": "Runway「Praxis-1」公開、動画生成モデルをロボット制御へ転用するオープンウェイトの世界行動モデル",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-11-12T06:19:14.202Z",
+      "excerpt": "動画生成AIで知られるRunwayが、ロボット制御用の世界行動モデル（World Action Model）「Praxis-1」を発表しました。27B規模の動画基盤モデルを土台に、未来の映像とロボットの動作を同時に予測する仕組みで、NVIDIAのシミュレーシ…",
+      "lead": "動画生成AIで知られるRunwayが、ロボット制御用の世界行動モデル（World Action Model）「Praxis-1」を発表しました。27B規模の動画基盤モデルを土台に、未来の映像とロボットの動作を同時に予測する仕組みで、NVIDIAのシミュレーションベンチマーク「RoboLab-120」では、世界行動モデルおよびオープンソースのロボット基盤モデルとして首位を記録しています。重みはApache 2.0ライセンスで公開されます。",
+      "headings": [
+        "技術的詳細：動画を「想像」しながら動作を決める",
+        "背景：実機データ不足を一般動画で補う",
+        "成果と比較",
+        "影響と制約",
+        "今後の展望"
+      ],
+      "source_url": "https://runway.com/research/praxis-1-video-pretraining-to-robot-control",
+      "source_urls": [
+        "https://runway.com/research/praxis-1-video-pretraining-to-robot-control"
+      ],
+      "source_label": "runway.com",
+      "cover": "assets/posts/1570322059685396541.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1570322059685396541",
+      "first_seen": "2026-11-12T06:19:14.202Z",
+      "kind": "model",
+      "kind_confidence": 0.98
+    },
     {
       "id": "1570215352779022366",
       "title": "Google DeepMind「AlphaGenome 2」発表、DNA変異の影響を細胞種ごとに予測",
@@ -291,32 +317,6 @@
       "first_seen": "2026-11-10T23:41:22.169Z",
       "kind": "feature",
       "kind_confidence": 1
-    },
-    {
-      "id": "1569859329211899954",
-      "title": "OpenAI、「Businesses in ChatGPT」をベータ公開 企業がChatGPT上の自社情報を管理し、専用AIエージェントで顧客対応",
-      "channel": "chatgpt",
-      "category": "Open AI",
-      "date": "2026-11-10T23:40:30.660Z",
-      "excerpt": "OpenAIは2026年11月10日、企業がChatGPT内での自社の見え方を管理できる新機能「Businesses in ChatGPT」をベータ版として発表しました。週12億人が利用するとされるChatGPTを、企業と消費者をつなぐ接点として本格的に位置…",
-      "lead": "OpenAIは2026年11月10日、企業がChatGPT内での自社の見え方を管理できる新機能「Businesses in ChatGPT」をベータ版として発表しました。週12億人が利用するとされるChatGPTを、企業と消費者をつなぐ接点として本格的に位置づける動きです。",
-      "headings": [
-        "Business Hub：プロフィールの取得と可視化",
-        "Business Agents：企業専用の対話エージェント",
-        "広告との連携と中立性の担保",
-        "業界への影響",
-        "今後の展望"
-      ],
-      "source_url": "https://openai.com/index/introducing-businesses-chatgpt/",
-      "source_urls": [
-        "https://openai.com/index/introducing-businesses-chatgpt/"
-      ],
-      "source_label": "openai.com",
-      "cover": "assets/posts/1569859329211899954.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1415353131604377641/threads/1569859329211899954",
-      "first_seen": "2026-11-10T23:40:30.660Z",
-      "kind": "feature",
-      "kind_confidence": 0.99
     }
   ]
 }

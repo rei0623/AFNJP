@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Runway「Praxis-1」公開、動画生成モデルをロボット制御へ転用するオープンウェイトの世界行動モデル | AI Frontier News JP</title>
+<meta name="description" content="動画生成AIで知られるRunwayが、ロボット制御用の世界行動モデル（World Action Model）「Praxis-1」を発表しました。27B規模の動画基盤モデルを土台に、未来の映像とロボットの動作を同時に予測する仕組みで、NVIDIAのシミュレーションベンチマーク「RoboLab-120」では、世界行動…">
+<meta name="theme-color" content="#fbfaf7" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0f1013" media="(prefers-color-scheme: dark)">
+<link rel="canonical" href="https://rei0623.github.io/AFNJP/posts/1570322059685396541.html">
+<link rel="icon" href="../assets/icons/favicon-48.png" type="image/png">
+<link rel="alternate" type="application/rss+xml" title="AI Frontier News JP の最新記事" href="../feed.xml">
+<link rel="manifest" href="../manifest.webmanifest">
+<link rel="apple-touch-icon" href="../assets/icons/apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="AFNJP">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="AI Frontier News JP">
+<meta property="og:title" content="Runway「Praxis-1」公開、動画生成モデルをロボット制御へ転用するオープンウェイトの世界行動モデル">
+<meta property="og:description" content="動画生成AIで知られるRunwayが、ロボット制御用の世界行動モデル（World Action Model）「Praxis-1」を発表しました。27B規模の動画基盤モデルを土台に、未来の映像とロボットの動作を同時に予測する仕組みで、NVIDIAのシミュレーションベンチマーク「RoboLab-120」では、世界行動…">
+<meta property="og:url" content="https://rei0623.github.io/AFNJP/posts/1570322059685396541.html">
+<meta property="og:image" content="https://rei0623.github.io/AFNJP/assets/posts/1570322059685396541.webp">
+<meta property="og:locale" content="ja_JP">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@AI_FrontierNews">
+<meta name="twitter:title" content="Runway「Praxis-1」公開、動画生成モデルをロボット制御へ転用するオープンウェイトの世界行動モデル">
+<meta name="twitter:description" content="動画生成AIで知られるRunwayが、ロボット制御用の世界行動モデル（World Action Model）「Praxis-1」を発表しました。27B規模の動画基盤モデルを土台に、未来の映像とロボットの動作を同時に予測する仕組みで、NVIDIAのシミュレーションベンチマーク「RoboLab-120」では、世界行動…">
+<meta name="twitter:image" content="https://rei0623.github.io/AFNJP/assets/posts/1570322059685396541.webp">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Zen+Kaku+Gothic+New:wght@400;500;700;900&family=Zen+Old+Mincho:wght@700;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/article.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "NewsArticle",
+      "headline": "Runway「Praxis-1」公開、動画生成モデルをロボット制御へ転用するオープンウェイトの世界行動モデル",
+      "description": "動画生成AIで知られるRunwayが、ロボット制御用の世界行動モデル（World Action Model）「Praxis-1」を発表しました。27B規模の動画基盤モデルを土台に、未来の映像とロボットの動作を同時に予測する仕組みで、NVIDIAのシミュレーションベンチマーク「RoboLab-120」では、世界行動…",
+      "inLanguage": "ja-JP",
+      "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://rei0623.github.io/AFNJP/posts/1570322059685396541.html"
+      },
+      "url": "https://rei0623.github.io/AFNJP/posts/1570322059685396541.html",
+      "datePublished": "2026-11-12T06:19:14.202Z",
+      "dateModified": "2026-11-12T06:19:14.202Z",
+      "image": [
+        "https://rei0623.github.io/AFNJP/assets/posts/1570322059685396541.webp"
+      ],
+      "articleSection": "その他",
+      "author": {
+        "@type": "Organization",
+        "name": "AI Frontier News JP",
+        "url": "https://rei0623.github.io/AFNJP/"
+      },
+      "publisher": {
+        "@id": "https://rei0623.github.io/AFNJP/#org"
+      },
+      "isBasedOn": "https://runway.com/research/praxis-1-video-pretraining-to-robot-control",
+      "citation": "https://runway.com/research/praxis-1-video-pretraining-to-robot-control"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "トップ",
+          "item": "https://rei0623.github.io/AFNJP/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "記事一覧",
+          "item": "https://rei0623.github.io/AFNJP/archive.html"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Runway「Praxis-1」公開、動画生成モデルをロボット制御へ転用するオープンウェイトの世界行動モデル"
+        }
+      ]
+    }
+  ]
+}
+</script>
+</head>
+
+<body>
+<header class="hd">
+    <div class="wrap">
+        <a href="../index.html" style="display:flex;align-items:center;gap:10px">
+            <span class="emb" aria-hidden="true"></span>
+            <b>AI Frontier News JP</b>
+        </a>
+        <nav>
+            <a href="../archive.html">記事一覧</a>
+            <a href="https://discord.gg/WUWE6Ev7yh" target="_blank" rel="noopener noreferrer">Discordに参加</a>
+        </nav>
+    </div>
+</header>
+
+<div class="wrap">
+    <p class="crumb">
+        <a href="../index.html">トップ</a><span>/</span><a href="../archive.html">記事一覧</a><span>/</span>その他
+    </p>
+
+    <article class="art">
+        <p class="tag">#その他</p>
+        <h1>Runway「Praxis-1」公開、動画生成モデルをロボット制御へ転用するオープンウェイトの世界行動モデル</h1>
+        <p class="when"><time datetime="2026-11-12T06:19:14.202Z">2026年11月12日</time></p>
+
+        <div class="cover"><img src="../assets/posts/1570322059685396541.webp" alt="" width="640" height="360"></div>
+
+        <p class="lead">動画生成AIで知られるRunwayが、ロボット制御用の世界行動モデル（World Action Model）「Praxis-1」を発表しました。27B規模の動画基盤モデルを土台に、未来の映像とロボットの動作を同時に予測する仕組みで、NVIDIAのシミュレーションベンチマーク「RoboLab-120」では、世界行動モデルおよびオープンソースのロボット基盤モデルとして首位を記録しています。重みはApache 2.0ライセンスで公開されます。</p>
+
+        <section class="points">
+            <h2>記事で取り上げている点</h2>
+            <ul>
+                <li>技術的詳細：動画を「想像」しながら動作を決める</li>
+                <li>背景：実機データ不足を一般動画で補う</li>
+                <li>成果と比較</li>
+                <li>影響と制約</li>
+                <li>今後の展望</li>
+            </ul>
+        </section>
+
+        <p class="src">
+            <b>一次情報（出典）</b>
+            <a href="https://runway.com/research/praxis-1-video-pretraining-to-robot-control" target="_blank" rel="noopener noreferrer nofollow">runway.com</a>
+        </p>
+
+        <div class="cta">
+            <p>記事の全文と、この話題についてのやり取りは Discord にあります。</p>
+            <a class="btn" href="https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1570322059685396541" target="_blank" rel="noopener noreferrer">Discordで全文を読む</a>
+            <p class="sub">参加は無料。読むだけの参加も歓迎です。</p>
+        </div>
+    </article>
+</div>
+
+<footer class="ft">
+    <div class="wrap">
+        <a href="../index.html">トップ</a>
+        <a href="../archive.html">記事一覧</a>
+        <a href="../feed.xml">RSS</a>
+        <a href="https://x.com/AI_FrontierNews" target="_blank" rel="noopener noreferrer">X</a>
+        <span class="r">AI Frontier News JP</span>
+    </div>
+</footer>
+
+<script>
+// 記事ページから開いた場合でも、ホーム画面への追加とオフライン閲覧が効くようにする
+if ('serviceWorker' in navigator) navigator.serviceWorker.register('../sw.js').catch(() => {});
+</script>
+</body>
+
+</html>

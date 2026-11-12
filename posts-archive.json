@@ -1,9 +1,35 @@
 {
-  "generated_at": "2026-11-12T01:29:47.769Z",
+  "generated_at": "2026-11-12T09:45:23.498Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 569,
+  "count": 570,
   "posts": [
+    {
+      "id": "1570322059685396541",
+      "title": "Runway「Praxis-1」公開、動画生成モデルをロボット制御へ転用するオープンウェイトの世界行動モデル",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-11-12T06:19:14.202Z",
+      "excerpt": "動画生成AIで知られるRunwayが、ロボット制御用の世界行動モデル（World Action Model）「Praxis-1」を発表しました。27B規模の動画基盤モデルを土台に、未来の映像とロボットの動作を同時に予測する仕組みで、NVIDIAのシミュレーシ…",
+      "lead": "動画生成AIで知られるRunwayが、ロボット制御用の世界行動モデル（World Action Model）「Praxis-1」を発表しました。27B規模の動画基盤モデルを土台に、未来の映像とロボットの動作を同時に予測する仕組みで、NVIDIAのシミュレーションベンチマーク「RoboLab-120」では、世界行動モデルおよびオープンソースのロボット基盤モデルとして首位を記録しています。重みはApache 2.0ライセンスで公開されます。",
+      "headings": [
+        "技術的詳細：動画を「想像」しながら動作を決める",
+        "背景：実機データ不足を一般動画で補う",
+        "成果と比較",
+        "影響と制約",
+        "今後の展望"
+      ],
+      "source_url": "https://runway.com/research/praxis-1-video-pretraining-to-robot-control",
+      "source_urls": [
+        "https://runway.com/research/praxis-1-video-pretraining-to-robot-control"
+      ],
+      "source_label": "runway.com",
+      "cover": "assets/posts/1570322059685396541.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1570322059685396541",
+      "first_seen": "2026-11-12T06:19:14.202Z",
+      "kind": "model",
+      "kind_confidence": 0.98
+    },
     {
       "id": "1570215352779022366",
       "title": "Google DeepMind「AlphaGenome 2」発表、DNA変異の影響を細胞種ごとに予測",
