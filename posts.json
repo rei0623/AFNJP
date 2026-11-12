@@ -1,8 +1,35 @@
 {
-  "generated_at": "2026-11-12T18:15:17.486Z",
+  "generated_at": "2026-11-12T23:39:15.355Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1570559503894585465",
+      "title": "Google、エージェント特化の高速モデル「Gemini 4 Hydrogen」を発表 3.8 Flash比で約2.5倍速く、上位モデルArgonに並ぶ知能スコア",
+      "channel": "gemini",
+      "category": "Google",
+      "date": "2026-11-12T22:02:45.313Z",
+      "excerpt": "Googleは2026年11月12日、高速で費用対効果の高い新モデル「Gemini 4 Hydrogen」を発表しました。エージェント型ワークフローの日常的な実行役を担うモデルという位置づけです。デフォルト設定で前世代のGemini 3.8 Flashより約…",
+      "lead": "Googleは2026年11月12日、高速で費用対効果の高い新モデル「Gemini 4 Hydrogen」を発表しました。エージェント型ワークフローの日常的な実行役を担うモデルという位置づけです。デフォルト設定で前世代のGemini 3.8 Flashより約2.5倍速くタスクを完了し、総合知能指標では上位モデルのGemini 4 Argonを上回るスコアを記録しています。",
+      "headings": [
+        "モデルの位置づけと技術的特徴",
+        "ベンチマーク結果",
+        "マルチモデル連携と価格",
+        "安全性への取り組み",
+        "提供形態",
+        "今後の展望"
+      ],
+      "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+      "source_urls": [
+        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/"
+      ],
+      "source_label": "blog.google",
+      "cover": "assets/posts/1570559503894585465.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1570559503894585465",
+      "first_seen": "2026-11-12T22:02:45.313Z",
+      "kind": "model",
+      "kind_confidence": 1
+    },
     {
       "id": "1570468637926494288",
       "title": "ChatGPT広告、Alephと独占リセラー契約 新興44市場で現地契約・現地通貨請求に対応",
@@ -287,35 +314,6 @@
       "first_seen": "2026-11-11T03:57:36.648Z",
       "kind": "feature",
       "kind_confidence": 0.99
-    },
-    {
-      "id": "1569859667377520740",
-      "title": "ElevenLabs「Scribe v3」発表、単語誤り27%減・リアルタイム版は話者分離に初対応",
-      "channel": "eleven-labs",
-      "category": "その他",
-      "date": "2026-11-10T23:41:51.285Z",
-      "excerpt": "ElevenLabsは2026年11月10日、音声認識（Speech to Text）の新モデル「Scribe v3」と、低遅延のリアルタイム版「Scribe v3 Live」を発表しました。録音音声向けのScribe v3は102言語で前世代比27%の単語…",
-      "lead": "ElevenLabsは2026年11月10日、音声認識（Speech to Text）の新モデル「Scribe v3」と、低遅延のリアルタイム版「Scribe v3 Live」を発表しました。録音音声向けのScribe v3は102言語で前世代比27%の単語誤り削減を実現し、Scribe v3 Liveはリアルタイム処理での話者分離（ダイアライゼーション）に初めて対応しています。",
-      "headings": [
-        "2つのモデルの位置付け",
-        "技術的なポイント",
-        "話者分離の強化",
-        "文脈を読むターン検出",
-        "出力の細かな制御",
-        "評価方法と注意点",
-        "実運用へのインパクト",
-        "今後の展望"
-      ],
-      "source_url": "https://elevenlabs.io/blog/scribe-v3",
-      "source_urls": [
-        "https://elevenlabs.io/blog/scribe-v3"
-      ],
-      "source_label": "elevenlabs.io",
-      "cover": "assets/posts/1569859667377520740.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1441006356399259719/threads/1569859667377520740",
-      "first_seen": "2026-11-10T23:41:51.285Z",
-      "kind": "model",
-      "kind_confidence": 1
     }
   ]
 }
