@@ -5,8 +5,32 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Thu, 12 Nov 2026 22:02:45 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 12:14:13 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Google、Gemini搭載スマートグラスの予約を開始 Warby Parker・Gentle Monsterと共同開発、12月10日発売</title>
+      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1570773784095621152</link>
+      <guid isPermaLink="false">afnjp-1570773784095621152</guid>
+      <pubDate>Fri, 13 Nov 2026 12:14:13 GMT</pubDate>
+      <category>google</category>
+      <description>Googleは2026年11月12日、Gemini搭載の「インテリジェントアイウェア」の予約を開始しました。デザインはWarby ParkerとGentle Monsterが共同で手がけ、製造はSamsungが担当します。発売は12月10日で、対象は米国と韓…</description>
+    </item>
+    <item>
+      <title>Replit Agentが「仕入れ」と「Google広告運用」まで代行へ AIエージェントが事業運営の実務に踏み込む</title>
+      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1570773587890151534</link>
+      <guid isPermaLink="false">afnjp-1570773587890151534</guid>
+      <pubDate>Fri, 13 Nov 2026 12:13:26 GMT</pubDate>
+      <category>その他</category>
+      <description>Replitは2026年11月12日、AI開発エージェント「Replit Agent」に、事業に必要な物品の購入（Agentic Commerce）とGoogle広告の運用（Agentic Ads）の2つの機能を追加したと発表しました。アプリを「作る」だけで…</description>
+    </item>
+    <item>
+      <title>Google DeepMind、気象AI「WeatherNext 3」を支える衛星・降水データセット「SatWeave」「PARDIG」を公開</title>
+      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1570773498530631690</link>
+      <guid isPermaLink="false">afnjp-1570773498530631690</guid>
+      <pubDate>Fri, 13 Nov 2026 12:13:05 GMT</pubDate>
+      <category>google</category>
+      <description>Google DeepMindのWeatherNextチームは2026年11月13日、気象AIモデル「WeatherNext 3」の学習と予報に使ったデータセット2種の公開を発表しました。1つは静止気象衛星の画像を全球規模でつなぎ合わせた「SatWeave」…</description>
+    </item>
     <item>
       <title>Google、エージェント特化の高速モデル「Gemini 4 Hydrogen」を発表 3.8 Flash比で約2.5倍速く、上位モデルArgonに並ぶ知能スコア</title>
       <link>https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1570559503894585465</link>
@@ -78,30 +102,6 @@
       <pubDate>Wed, 11 Nov 2026 23:12:05 GMT</pubDate>
       <category>open-ai</category>
       <description>OpenAIは2026年11月11日（米国の退役軍人の日）、退役・除隊を控える米軍人および退役軍人にChatGPT Plusを1年間無償提供するプログラムについて、過去1年間で2万人以上が利用を申請したと発表しました。あわせて、利用者の活用事例と、今後のトレ…</description>
-    </item>
-    <item>
-      <title>Aqua Voice「Notetaker」登場、ボット不要のAI議事録をMCPでエージェントに直結</title>
-      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1569924337316663416</link>
-      <guid isPermaLink="false">afnjp-1569924337316663416</guid>
-      <pubDate>Wed, 11 Nov 2026 03:58:49 GMT</pubDate>
-      <category>その他</category>
-      <description>音声入力アプリのAqua Voiceが、会議の文字起こしと議事録を自動で作るAI機能「Notetaker」を提供しています。最大の特徴は、会議に録音ボットを参加させずにデバイス上の音声から記録する点と、記録した会議の文脈を「Aqua MCP」経由でClaud…</description>
-    </item>
-    <item>
-      <title>MiniMaxが画像生成・編集モデル「MiniMax-H3-Image」をオープンウェイト公開、1600万画素を6ステップで直接生成</title>
-      <link>https://discord.com/channels/1415350002255007784/1471542643900158023/threads/1569924171129954334</link>
-      <guid isPermaLink="false">afnjp-1569924171129954334</guid>
-      <pubDate>Wed, 11 Nov 2026 03:58:10 GMT</pubDate>
-      <category>minimax</category>
-      <description>中国のAI企業MiniMaxは、画像生成と画像編集を1つのチェックポイントに統合したオープンウェイトモデル「MiniMax-H3-Image」をHugging Faceで公開しました。アップスケーラーを使わず約16メガピクセル（4096×4096相当）の画像…</description>
-    </item>
-    <item>
-      <title>Claudeに「Sheets」「Whiteboards」「Data」が登場 インタラクティブコネクタも強化し、非エンジニアの業務変革を狙う</title>
-      <link>https://discord.com/channels/1415350002255007784/1415353403269185546/threads/1569924030495064167</link>
-      <guid isPermaLink="false">afnjp-1569924030495064167</guid>
-      <pubDate>Wed, 11 Nov 2026 03:57:36 GMT</pubDate>
-      <category>claude</category>
-      <description>Anthropicは2026年11月10日、Claudeの新しいアーティファクト形式として「Claude Sheets」「Claude Whiteboards」「Claude Data」を発表しました。あわせて、外部アプリをClaude内に直接埋め込める「イ…</description>
     </item>
   </channel>
 </rss>
