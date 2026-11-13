@@ -1,9 +1,35 @@
 {
-  "generated_at": "2026-11-13T15:20:29.195Z",
+  "generated_at": "2026-11-13T21:57:32.690Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 575,
+  "count": 576,
   "posts": [
+    {
+      "id": "1570822246216368128",
+      "title": "OpenAIが「ChatGPT Wallet」を発表 AIエージェント「dots」がユーザーに代わって決済する時代へ",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-11-13T15:26:47.964Z",
+      "excerpt": "OpenAIは米国時間11月13日、個人向けAIエージェント「dots」がユーザーに代わって商品やサービスを購入できる決済機能「ChatGPT Wallet」を発表しました。American Express、Mastercard、Visaと組んでおり、エージ…",
+      "lead": "OpenAIは米国時間11月13日、個人向けAIエージェント「dots」がユーザーに代わって商品やサービスを購入できる決済機能「ChatGPT Wallet」を発表しました。American Express、Mastercard、Visaと組んでおり、エージェントには実際のカード情報を一切渡さない設計です。",
+      "headings": [
+        "仕組み：トークン化と取引ごとの承認",
+        "提供条件と制約",
+        "背景：コードの発見から正式発表まで",
+        "影響と課題",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/introducing-chatgpt-wallet/",
+      "source_urls": [
+        "https://openai.com/index/introducing-chatgpt-wallet/"
+      ],
+      "source_label": "openai.com",
+      "cover": "assets/posts/1570822246216368128.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1570822246216368128",
+      "first_seen": "2026-11-13T15:26:47.964Z",
+      "kind": "feature",
+      "kind_confidence": 0.91
+    },
     {
       "id": "1570773784095621152",
       "title": "Google、Gemini搭載スマートグラスの予約を開始 Warby Parker・Gentle Monsterと共同開発、12月10日発売",
