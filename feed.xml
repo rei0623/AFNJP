@@ -5,8 +5,32 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 13 Nov 2026 15:26:47 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 23:14:35 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Google AI StudioにDeveloper ProgramのCloudクレジットが統合 Pro/Ultra加入者は請求から利用までAI Studio内で完結</title>
+      <link>https://discord.com/channels/1415350002255007784/1425507195818348564/threads/1570939971647578252</link>
+      <guid isPermaLink="false">afnjp-1570939971647578252</guid>
+      <pubDate>Fri, 13 Nov 2026 23:14:35 GMT</pubDate>
+      <category>google-ai-studio</category>
+      <description>Googleは2026年11月13日、Google Developer Program（GDP）の特典であるGoogle CloudクレジットをGoogle AI Studioに組み込んだと発表しました。Google AI ProおよびUltraの加入者は、…</description>
+    </item>
+    <item>
+      <title>GeminiがGoogle Walletと連携、「@Google Wallet」で家計分析や予算づくりが可能に</title>
+      <link>https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1570939846824828988</link>
+      <guid isPermaLink="false">afnjp-1570939846824828988</guid>
+      <pubDate>Fri, 13 Nov 2026 23:14:06 GMT</pubDate>
+      <category>gemini</category>
+      <description>Googleは2026年11月13日、Geminiアプリの「Personal Intelligence」にGoogle Walletを連携アプリとして追加したと発表しました。ユーザーの支出データに基づいて、Geminiが家計の分析や予算の提案を行えるようにな…</description>
+    </item>
+    <item>
+      <title>ElevenLabs、企業向け「Forward Deployed Creatives」を開始 クリエイターが顧客チームに入り込み生成AI制作を支援</title>
+      <link>https://discord.com/channels/1415350002255007784/1441006356399259719/threads/1570939717493719230</link>
+      <guid isPermaLink="false">afnjp-1570939717493719230</guid>
+      <pubDate>Fri, 13 Nov 2026 23:13:35 GMT</pubDate>
+      <category>eleven-labs</category>
+      <description>音声AI大手のElevenLabsは2026年11月13日、AIコンテンツ制作プラットフォーム「ElevenCreative」で、企業のクリエイティブ制作を人が直接支援する新サービス「Forward Deployed Creatives」を発表しました。同社…</description>
+    </item>
     <item>
       <title>OpenAIが「ChatGPT Wallet」を発表 AIエージェント「dots」がユーザーに代わって決済する時代へ</title>
       <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1570822246216368128</link>
@@ -78,30 +102,6 @@
       <pubDate>Wed, 11 Nov 2026 23:14:34 GMT</pubDate>
       <category>google-labs</category>
       <description>Google Labsは2026年11月11日（米国時間）、グループでの計画や共同作業を支援する新たな実験的サービス「Tabletop」を発表しました。リンクやファイル、アイデアを投入してAIに指示するだけで、旅行の旅程表や投票、割り勘ツール、トーナメント表…</description>
-    </item>
-    <item>
-      <title>Google、生成せずに「判定」するGemini Decisions APIを公開 1回の推論で最大1,000問を高速スコアリング</title>
-      <link>https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1570215013355098192</link>
-      <guid isPermaLink="false">afnjp-1570215013355098192</guid>
-      <pubDate>Wed, 11 Nov 2026 23:13:52 GMT</pubDate>
-      <category>gemini</category>
-      <description>Google DeepMindは2026年11月11日、選択肢が決まった判定タスクに特化した新エンドポイント「Gemini Decisions API」と、専用モデル「Gemini Decision 1（gemini-decision-1）」を発表しました。…</description>
-    </item>
-    <item>
-      <title>ElevenLabsが業界特化型AIエージェントの「Marketplace」を公開 Salesforce・IBM・Zendeskなどが参画</title>
-      <link>https://discord.com/channels/1415350002255007784/1441006356399259719/threads/1570214848070033469</link>
-      <guid isPermaLink="false">afnjp-1570214848070033469</guid>
-      <pubDate>Wed, 11 Nov 2026 23:13:12 GMT</pubDate>
-      <category>eleven-labs</category>
-      <description>音声AI大手のElevenLabsは2026年11月11日、同社の基盤モデルを使ってパートナー企業が開発した業界特化型AIエージェントやアプリケーションを探せる「ElevenLabs Marketplace」を公開しました。ローンチパートナーにはSalesf…</description>
-    </item>
-    <item>
-      <title>AlloyDB AIに「ai.classify」「ai.extract」登場、SQLだけで分類・構造化抽出が可能に</title>
-      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1570214740829929553</link>
-      <guid isPermaLink="false">afnjp-1570214740829929553</guid>
-      <pubDate>Wed, 11 Nov 2026 23:12:47 GMT</pubDate>
-      <category>google</category>
-      <description>Google Cloudは2026年11月12日、PostgreSQL互換データベース「AlloyDB AI」のクエリエンジンに、テキスト分類関数「ai.classify」と構造化データ抽出関数「ai.extract」をプレビューとして追加したと発表しました…</description>
     </item>
   </channel>
 </rss>

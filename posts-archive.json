@@ -1,9 +1,87 @@
 {
-  "generated_at": "2026-11-13T21:57:32.690Z",
+  "generated_at": "2026-11-14T02:23:34.036Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 576,
+  "count": 579,
   "posts": [
+    {
+      "id": "1570939971647578252",
+      "title": "Google AI StudioにDeveloper ProgramのCloudクレジットが統合 Pro/Ultra加入者は請求から利用までAI Studio内で完結",
+      "channel": "google-ai-studio",
+      "category": "Google",
+      "date": "2026-11-13T23:14:35.894Z",
+      "excerpt": "Googleは2026年11月13日、Google Developer Program（GDP）の特典であるGoogle CloudクレジットをGoogle AI Studioに組み込んだと発表しました。Google AI ProおよびUltraの加入者は、…",
+      "lead": "Googleは2026年11月13日、Google Developer Program（GDP）の特典であるGoogle CloudクレジットをGoogle AI Studioに組み込んだと発表しました。Google AI ProおよびUltraの加入者は、AI Studioの画面から離れることなく、Developer Programプロフィールの作成、請求設定（billing）の紐付け、クレジットの請求と残高確認までを行えるようになります。",
+      "headings": [
+        "発表の概要",
+        "技術的な仕組みと利用フロー",
+        "押さえておきたい条件と制約",
+        "影響と考察",
+        "今後の展望"
+      ],
+      "source_url": "https://blog.google/innovation-and-ai/technology/developers-tools/google-cloud-credits-gdp-ai-studio/",
+      "source_urls": [
+        "https://blog.google/innovation-and-ai/technology/developers-tools/google-cloud-credits-gdp-ai-studio/"
+      ],
+      "source_label": "blog.google",
+      "cover": "assets/posts/1570939971647578252.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1425507195818348564/threads/1570939971647578252",
+      "first_seen": "2026-11-13T23:14:35.894Z",
+      "kind": "feature",
+      "kind_confidence": 0.95
+    },
+    {
+      "id": "1570939846824828988",
+      "title": "GeminiがGoogle Walletと連携、「@Google Wallet」で家計分析や予算づくりが可能に",
+      "channel": "gemini",
+      "category": "Google",
+      "date": "2026-11-13T23:14:06.134Z",
+      "excerpt": "Googleは2026年11月13日、Geminiアプリの「Personal Intelligence」にGoogle Walletを連携アプリとして追加したと発表しました。ユーザーの支出データに基づいて、Geminiが家計の分析や予算の提案を行えるようにな…",
+      "lead": "Googleは2026年11月13日、Geminiアプリの「Personal Intelligence」にGoogle Walletを連携アプリとして追加したと発表しました。ユーザーの支出データに基づいて、Geminiが家計の分析や予算の提案を行えるようになります。米国の全Geminiアプリユーザーを対象に、ウェブとモバイル（Android・iOS）で同日から順次提供が始まっています。",
+      "headings": [
+        "Personal Intelligenceに金融データが加わる",
+        "想定されている主な使い方",
+        "読み取り専用というプライバシー設計",
+        "影響と課題",
+        "今後の展望"
+      ],
+      "source_url": "https://blog.google/innovation-and-ai/products/gemini-app/google-wallet-gemini-app/",
+      "source_urls": [
+        "https://blog.google/innovation-and-ai/products/gemini-app/google-wallet-gemini-app/"
+      ],
+      "source_label": "blog.google",
+      "cover": "assets/posts/1570939846824828988.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1570939846824828988",
+      "first_seen": "2026-11-13T23:14:06.134Z",
+      "kind": "feature",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1570939717493719230",
+      "title": "ElevenLabs、企業向け「Forward Deployed Creatives」を開始 クリエイターが顧客チームに入り込み生成AI制作を支援",
+      "channel": "eleven-labs",
+      "category": "その他",
+      "date": "2026-11-13T23:13:35.299Z",
+      "excerpt": "音声AI大手のElevenLabsは2026年11月13日、AIコンテンツ制作プラットフォーム「ElevenCreative」で、企業のクリエイティブ制作を人が直接支援する新サービス「Forward Deployed Creatives」を発表しました。同社…",
+      "lead": "音声AI大手のElevenLabsは2026年11月13日、AIコンテンツ制作プラットフォーム「ElevenCreative」で、企業のクリエイティブ制作を人が直接支援する新サービス「Forward Deployed Creatives」を発表しました。同社のクリエイティブ専門家が顧客チームと一緒にワークフローを作るほか、ブランドに沿った完成品の制作を最初から最後まで請け負うこともできます。",
+      "headings": [
+        "サービスの中身",
+        "背景：AIクリエイティブはなぜ定着しないのか",
+        "エンジニアとの役割分担",
+        "影響と課題",
+        "今後の展望"
+      ],
+      "source_url": "https://elevenlabs.io/blog/introducing-forward-deployed-creatives",
+      "source_urls": [
+        "https://elevenlabs.io/blog/introducing-forward-deployed-creatives"
+      ],
+      "source_label": "elevenlabs.io",
+      "cover": "assets/posts/1570939717493719230.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1441006356399259719/threads/1570939717493719230",
+      "first_seen": "2026-11-13T23:13:35.299Z",
+      "kind": "feature",
+      "kind_confidence": 0.91
+    },
     {
       "id": "1570822246216368128",
       "title": "OpenAIが「ChatGPT Wallet」を発表 AIエージェント「dots」がユーザーに代わって決済する時代へ",
