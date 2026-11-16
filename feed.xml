@@ -5,8 +5,24 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 13 Nov 2026 23:14:35 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 16 Nov 2026 17:34:58 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Googleマップ「Ask Maps」がホリデー向けに進化、旅行の行程作成から予約代行まで担うエージェント機能を追加</title>
+      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1571941667106324703</link>
+      <guid isPermaLink="false">afnjp-1571941667106324703</guid>
+      <pubDate>Mon, 16 Nov 2026 17:34:58 GMT</pubDate>
+      <category>google</category>
+      <description>Googleは2026年11月16日、Googleマップの対話型機能「Ask Maps」にホリデーシーズン向けの新機能を追加すると発表しました。ロードトリップの行程作成、移動前に役立つルート情報、店舗予約を代わりに探すエージェント機能、保存リストの横断検索が…</description>
+    </item>
+    <item>
+      <title>LVMHのメディア部門がOpenAIと戦略提携 17ブランドにChatGPT Enterpriseを導入し、記事をChatGPTで出典付き表示へ</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1571835154744213535</link>
+      <guid isPermaLink="false">afnjp-1571835154744213535</guid>
+      <pubDate>Mon, 16 Nov 2026 10:31:44 GMT</pubDate>
+      <category>open-ai</category>
+      <description>LVMHグループのメディア部門（Groupe Les Echos-Le Parisien）とOpenAIは2026年11月16日、戦略的提携を発表しました。内容は大きく2つあります。部門全体でChatGPT EnterpriseとOpenAIのツールを使うこ…</description>
+    </item>
     <item>
       <title>Google AI StudioにDeveloper ProgramのCloudクレジットが統合 Pro/Ultra加入者は請求から利用までAI Studio内で完結</title>
       <link>https://discord.com/channels/1415350002255007784/1425507195818348564/threads/1570939971647578252</link>
@@ -86,22 +102,6 @@
       <pubDate>Thu, 12 Nov 2026 06:19:14 GMT</pubDate>
       <category>その他</category>
       <description>動画生成AIで知られるRunwayが、ロボット制御用の世界行動モデル（World Action Model）「Praxis-1」を発表しました。27B規模の動画基盤モデルを土台に、未来の映像とロボットの動作を同時に予測する仕組みで、NVIDIAのシミュレーシ…</description>
-    </item>
-    <item>
-      <title>Google DeepMind「AlphaGenome 2」発表、DNA変異の影響を細胞種ごとに予測</title>
-      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1570215352779022366</link>
-      <guid isPermaLink="false">afnjp-1570215352779022366</guid>
-      <pubDate>Wed, 11 Nov 2026 23:15:13 GMT</pubDate>
-      <category>google</category>
-      <description>Google DeepMindは2026年11月11日、DNA配列とその変異が特定のヒト細胞種にどう影響するかを予測する次世代モデル「AlphaGenome 2」を発表しました。前世代と比べて、遺伝子発現を変える変異を約2倍多く特定できるとしています。非商用…</description>
-    </item>
-    <item>
-      <title>Google Labs、グループ共同作業向けAI実験「Tabletop」を発表 プロンプトで旅程表や投票ツールを生成</title>
-      <link>https://discord.com/channels/1415350002255007784/1420666565506105375/threads/1570215190568370276</link>
-      <guid isPermaLink="false">afnjp-1570215190568370276</guid>
-      <pubDate>Wed, 11 Nov 2026 23:14:34 GMT</pubDate>
-      <category>google-labs</category>
-      <description>Google Labsは2026年11月11日（米国時間）、グループでの計画や共同作業を支援する新たな実験的サービス「Tabletop」を発表しました。リンクやファイル、アイデアを投入してAIに指示するだけで、旅行の旅程表や投票、割り勘ツール、トーナメント表…</description>
     </item>
   </channel>
 </rss>

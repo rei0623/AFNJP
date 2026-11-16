@@ -1,8 +1,60 @@
 {
-  "generated_at": "2026-11-16T09:34:38.090Z",
+  "generated_at": "2026-11-16T20:25:02.630Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1571941667106324703",
+      "title": "Googleマップ「Ask Maps」がホリデー向けに進化、旅行の行程作成から予約代行まで担うエージェント機能を追加",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-11-16T17:34:58.702Z",
+      "excerpt": "Googleは2026年11月16日、Googleマップの対話型機能「Ask Maps」にホリデーシーズン向けの新機能を追加すると発表しました。ロードトリップの行程作成、移動前に役立つルート情報、店舗予約を代わりに探すエージェント機能、保存リストの横断検索が…",
+      "lead": "Googleは2026年11月16日、Googleマップの対話型機能「Ask Maps」にホリデーシーズン向けの新機能を追加すると発表しました。ロードトリップの行程作成、移動前に役立つルート情報、店舗予約を代わりに探すエージェント機能、保存リストの横断検索が中心です。AndroidとiOSで同日から順次提供が始まり、Ask Mapsの提供地域もヨーロッパ30か国に広がります。",
+      "headings": [
+        "行程作成とルート情報の統合",
+        "予約を代行するエージェント機能",
+        "保存リストのリアルタイム検索",
+        "提供範囲と注意点",
+        "今後の展望"
+      ],
+      "source_url": "https://blog.google/products-and-platforms/products/maps/ask-maps-holiday-travel-features-2026/",
+      "source_urls": [
+        "https://blog.google/products-and-platforms/products/maps/ask-maps-holiday-travel-features-2026/"
+      ],
+      "source_label": "blog.google",
+      "cover": "assets/posts/1571941667106324703.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1571941667106324703",
+      "first_seen": "2026-11-16T17:34:58.702Z",
+      "kind": "feature",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1571835154744213535",
+      "title": "LVMHのメディア部門がOpenAIと戦略提携 17ブランドにChatGPT Enterpriseを導入し、記事をChatGPTで出典付き表示へ",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-11-16T10:31:44.176Z",
+      "excerpt": "LVMHグループのメディア部門（Groupe Les Echos-Le Parisien）とOpenAIは2026年11月16日、戦略的提携を発表しました。内容は大きく2つあります。部門全体でChatGPT EnterpriseとOpenAIのツールを使うこ…",
+      "lead": "LVMHグループのメディア部門（Groupe Les Echos-Le Parisien）とOpenAIは2026年11月16日、戦略的提携を発表しました。内容は大きく2つあります。部門全体でChatGPT EnterpriseとOpenAIのツールを使うこと、そして傘下メディアの記事をChatGPTの回答に出典付きで表示しやすくすることです。仏有力紙を抱える高級ブランド大手のメディア部門が、編集業務の効率化とAI経由での読者獲得を同時に進める動きです。",
+      "headings": [
+        "提携の概要",
+        "技術的なポイント",
+        "背景と文脈",
+        "影響と課題",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/lvmh-media-division-partnership/",
+      "source_urls": [
+        "https://openai.com/index/lvmh-media-division-partnership/"
+      ],
+      "source_label": "openai.com",
+      "cover": "assets/posts/1571835154744213535.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1571835154744213535",
+      "first_seen": "2026-11-16T10:31:44.176Z",
+      "kind": "business",
+      "kind_confidence": 0.95
+    },
     {
       "id": "1570939971647578252",
       "title": "Google AI StudioにDeveloper ProgramのCloudクレジットが統合 Pro/Ultra加入者は請求から利用までAI Studio内で完結",
@@ -260,58 +312,6 @@
       "first_seen": "2026-11-12T06:19:14.202Z",
       "kind": "model",
       "kind_confidence": 0.98
-    },
-    {
-      "id": "1570215352779022366",
-      "title": "Google DeepMind「AlphaGenome 2」発表、DNA変異の影響を細胞種ごとに予測",
-      "channel": "google",
-      "category": "Google",
-      "date": "2026-11-11T23:15:13.293Z",
-      "excerpt": "Google DeepMindは2026年11月11日、DNA配列とその変異が特定のヒト細胞種にどう影響するかを予測する次世代モデル「AlphaGenome 2」を発表しました。前世代と比べて、遺伝子発現を変える変異を約2倍多く特定できるとしています。非商用…",
-      "lead": "Google DeepMindは2026年11月11日、DNA配列とその変異が特定のヒト細胞種にどう影響するかを予測する次世代モデル「AlphaGenome 2」を発表しました。前世代と比べて、遺伝子発現を変える変異を約2倍多く特定できるとしています。非商用研究向けにはAlphaGenome API経由で同日から提供が始まり、商用研究向けにはプライベートプレビューとして提供されます。",
-      "headings": [
-        "「並列出力」から「条件付きモデル」へ",
-        "性能：原因変異の特定率がほぼ倍増",
-        "再学習なしで未知の細胞状態に対応",
-        "影響と留意点",
-        "今後の展望"
-      ],
-      "source_url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
-      "source_urls": [
-        "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/"
-      ],
-      "source_label": "deepmind.google",
-      "cover": "assets/posts/1570215352779022366.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1570215352779022366",
-      "first_seen": "2026-11-11T23:15:13.293Z",
-      "kind": "model",
-      "kind_confidence": 0.98
-    },
-    {
-      "id": "1570215190568370276",
-      "title": "Google Labs、グループ共同作業向けAI実験「Tabletop」を発表 プロンプトで旅程表や投票ツールを生成",
-      "channel": "google-labs",
-      "category": "Google",
-      "date": "2026-11-11T23:14:34.619Z",
-      "excerpt": "Google Labsは2026年11月11日（米国時間）、グループでの計画や共同作業を支援する新たな実験的サービス「Tabletop」を発表しました。リンクやファイル、アイデアを投入してAIに指示するだけで、旅行の旅程表や投票、割り勘ツール、トーナメント表…",
-      "lead": "Google Labsは2026年11月11日（米国時間）、グループでの計画や共同作業を支援する新たな実験的サービス「Tabletop」を発表しました。リンクやファイル、アイデアを投入してAIに指示するだけで、旅行の旅程表や投票、割り勘ツール、トーナメント表といったインタラクティブな共有スペースを生成し、複数人が同時に利用できる点が特徴です。",
-      "headings": [
-        "Tabletopの概要",
-        "技術的なポイント",
-        "提供状況と制約",
-        "業界への影響",
-        "今後の展望"
-      ],
-      "source_url": "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/",
-      "source_urls": [
-        "https://blog.google/innovation-and-ai/models-and-research/google-labs/tabletop/"
-      ],
-      "source_label": "blog.google",
-      "cover": "assets/posts/1570215190568370276.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1420666565506105375/threads/1570215190568370276",
-      "first_seen": "2026-11-11T23:14:34.619Z",
-      "kind": "other",
-      "kind_confidence": 0.25
     }
   ]
 }
