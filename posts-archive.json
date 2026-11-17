@@ -1,9 +1,87 @@
 {
-  "generated_at": "2026-11-16T20:25:02.620Z",
+  "generated_at": "2026-11-17T03:48:01.209Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 581,
+  "count": 584,
   "posts": [
+    {
+      "id": "1572081753445761177",
+      "title": "OpenAI、研究者向けChatGPT無償提供を20万人規模へ倍増 ProPlusへ切り替え、先着順で5万件の新規枠",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-11-17T02:51:37.888Z",
+      "excerpt": "OpenAIは2026年11月16日、学術研究者に最先端モデルを無償で提供する「ChatGPT for Academic Researchers」の拡大を発表しました。対象の目標を当初の10万人から世界20万人へ倍増し、11月23日（月）から5万件の新規グラ…",
+      "lead": "OpenAIは2026年11月16日、学術研究者に最先端モデルを無償で提供する「ChatGPT for Academic Researchers」の拡大を発表しました。対象の目標を当初の10万人から世界20万人へ倍増し、11月23日（月）から5万件の新規グラントの申請受付を先着順で始めます。一方で、提供プランはパイロット時のChatGPT Proから、ChatGPT Plusへ切り替わります。",
+      "headings": [
+        "拡大の概要",
+        "なぜProからPlusへ切り替えたのか",
+        "研究現場への影響と注意点",
+        "関連する取り組み",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/ja-JP/index/expanding-chatgpt-for-academic-researchers/",
+      "source_urls": [
+        "https://openai.com/ja-JP/index/expanding-chatgpt-for-academic-researchers/"
+      ],
+      "source_label": "openai.com",
+      "cover": "assets/posts/1572081753445761177.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1572081753445761177",
+      "first_seen": "2026-11-17T02:51:37.888Z",
+      "kind": "feature",
+      "kind_confidence": 0.99
+    },
+    {
+      "id": "1572081602283176030",
+      "title": "Google「Gemini Notebook」、ノートや資料から対話型サイトを生成する新機能を提供開始",
+      "channel": "gemini-notebook",
+      "category": "Google",
+      "date": "2026-11-17T02:51:01.848Z",
+      "excerpt": "Googleは2026年11月16日、Gemini Notebookに新機能を追加しました。ユーザーのノートや調査資料、ソースを基に、対話型のWebサイトを生成できます。チャットで「make me a site」と入力し、作りたいものを説明するだけで、試験対…",
+      "lead": "Googleは2026年11月16日、Gemini Notebookに新機能を追加しました。ユーザーのノートや調査資料、ソースを基に、対話型のWebサイトを生成できます。チャットで「make me a site」と入力し、作りたいものを説明するだけで、試験対策の解説ページやデータダッシュボード、プロジェクト管理トラッカーを作成できます。Webでは世界規模で提供が始まっており、モバイルアプリにも近日対応する予定です。",
+      "headings": [
+        "機能の概要と仕組み",
+        "背景と位置づけ",
+        "対象ユーザーと提供状況",
+        "影響と注意点",
+        "今後の展望"
+      ],
+      "source_url": "https://blog.google/innovation-and-ai/products/gemini-notebook/interactive-sites/",
+      "source_urls": [
+        "https://blog.google/innovation-and-ai/products/gemini-notebook/interactive-sites/"
+      ],
+      "source_label": "blog.google",
+      "cover": "assets/posts/1572081602283176030.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1418011435287707648/threads/1572081602283176030",
+      "first_seen": "2026-11-17T02:51:01.848Z",
+      "kind": "feature",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1572081054636974251",
+      "title": "Geminiアプリに66種類の「地域別ボイス」が登場 方言やイントネーションを取り入れ、より自然な音声対話へ",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-11-17T02:48:51.279Z",
+      "excerpt": "Googleは2026年11月16日、Geminiアプリに66種類の新しい「地域別ボイス（Regional voices）」を追加したと発表しました。地域特有のリズムや抑揚を取り入れた音声を選べるようになり、AIアシスタントとの音声対話をより身近なものにする…",
+      "lead": "Googleは2026年11月16日、Geminiアプリに66種類の新しい「地域別ボイス（Regional voices）」を追加したと発表しました。地域特有のリズムや抑揚を取り入れた音声を選べるようになり、AIアシスタントとの音声対話をより身近なものにする狙いです。AndroidとiOSのGeminiアプリで、発表当日から順次提供が始まっています。",
+      "headings": [
+        "地域ごとの「話し方」を再現する新ボイス",
+        "技術的なポイント：「誇張しない」アクセント設計",
+        "アプリ全体で一貫した声を利用可能",
+        "影響と課題",
+        "今後の展望"
+      ],
+      "source_url": "https://blog.google/innovation-and-ai/products/gemini-app/regional-voices/",
+      "source_urls": [
+        "https://blog.google/innovation-and-ai/products/gemini-app/regional-voices/"
+      ],
+      "source_label": "blog.google",
+      "cover": "assets/posts/1572081054636974251.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1572081054636974251",
+      "first_seen": "2026-11-17T02:48:51.279Z",
+      "kind": "feature",
+      "kind_confidence": 1
+    },
     {
       "id": "1571941667106324703",
       "title": "Googleマップ「Ask Maps」がホリデー向けに進化、旅行の行程作成から予約代行まで担うエージェント機能を追加",
