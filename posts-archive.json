@@ -1,9 +1,187 @@
 {
-  "generated_at": "2026-11-18T03:43:13.445Z",
+  "generated_at": "2026-11-18T12:59:29.126Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 584,
+  "count": 591,
   "posts": [
+    {
+      "id": "1572556987571634177",
+      "title": "Microsoft Ignite 2026開幕：Copilotは「Autopilot」へ、自社モデルMAIとAIコスト管理を一斉投入",
+      "channel": "microsoft",
+      "category": "Microsoft",
+      "date": "2026-11-18T10:20:02.533Z",
+      "excerpt": "米Microsoftは2026年11月17日、年次カンファレンス「Microsoft Ignite 2026」（サンフランシスコ／オンライン、20日まで）を開幕しました。Copilotの刷新、常駐型エージェント「Autopilot」、自社開発モデル「MAI」…",
+      "lead": "米Microsoftは2026年11月17日、年次カンファレンス「Microsoft Ignite 2026」（サンフランシスコ／オンライン、20日まで）を開幕しました。Copilotの刷新、常駐型エージェント「Autopilot」、自社開発モデル「MAI」シリーズ、AI支出を管理する「Agent 365」の新機能などを発表しています。チャットAIから、業務を自律的に動かすエージェント基盤へ軸足を移す姿勢がはっきり表れた内容です。なお、各発表の価格は公表されていません。",
+      "headings": [
+        "Copilotの刷新：対話から自律実行へ",
+        "Microsoft IQ：企業の知識をエージェントにつなぐ",
+        "自社モデルとFoundry",
+        "AIコストの見える化とセキュリティ",
+        "インフラ"
+      ],
+      "source_url": "https://news.microsoft.com/events/ignite/2026/live-news/",
+      "source_urls": [
+        "https://news.microsoft.com/events/ignite/2026/live-news/"
+      ],
+      "source_label": "news.microsoft.com",
+      "cover": "assets/posts/1572556987571634177.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1432720743279497367/threads/1572556987571634177",
+      "first_seen": "2026-11-18T10:20:02.533Z",
+      "kind": "tool",
+      "kind_confidence": 0.41
+    },
+    {
+      "id": "1572555841767211078",
+      "title": "Google Vids、自分の分身が話す「パーソナルアバター」を個人ユーザーに無料開放",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-11-18T10:15:29.352Z",
+      "excerpt": "Googleは2026年11月17日、動画作成ツール「Google Vids」で、自分そっくりのデジタルアバターを作って動画に登場させられる「パーソナルアバター」機能を発表しました。個人用Googleアカウントを持つすべてのユーザーが、発表当日から無料で使え…",
+      "lead": "Googleは2026年11月17日、動画作成ツール「Google Vids」で、自分そっくりのデジタルアバターを作って動画に登場させられる「パーソナルアバター」機能を発表しました。個人用Googleアカウントを持つすべてのユーザーが、発表当日から無料で使えます。カメラの前で毎回撮影しなくても、テキストを入力するだけで「自分が話す動画」を作れるようになります。",
+      "headings": [
+        "パーソナルアバターの仕組み",
+        "なりすまし対策としての本人限定設計",
+        "影響と注意点",
+        "今後の展望"
+      ],
+      "source_url": "https://blog.google/products-and-platforms/products/workspace/vids-personal-avatars-no-cost/",
+      "source_urls": [
+        "https://blog.google/products-and-platforms/products/workspace/vids-personal-avatars-no-cost/"
+      ],
+      "source_label": "blog.google",
+      "cover": "assets/posts/1572555841767211078.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1572555841767211078",
+      "first_seen": "2026-11-18T10:15:29.352Z",
+      "kind": "feature",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1572555735320231946",
+      "title": "Google Home 11月アップデート、Gemini for Homeの高速化と6カ国展開を発表 デジタル鍵や音声検知も強化",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-11-18T10:15:03.973Z",
+      "excerpt": "Googleは2026年11月17日、スマートホーム基盤「Google Home」の11月アップデートを発表しました。家庭向けAIアシスタント「Gemini for Home」の応答速度向上と提供国の拡大を軸に、Google Walletを使ったキーレス解錠…",
+      "lead": "Googleは2026年11月17日、スマートホーム基盤「Google Home」の11月アップデートを発表しました。家庭向けAIアシスタント「Gemini for Home」の応答速度向上と提供国の拡大を軸に、Google Walletを使ったキーレス解錠、カメラ通知への音声検知、Nestサーモスタットの機能強化が加わります。発表はGemini for Homeのグループプロダクトマネージャー、Mark Alexander氏が行いました。",
+      "headings": [
+        "Gemini for Homeが最大20%高速化、提供国を拡大",
+        "Google Walletのデジタル鍵でキーレス解錠",
+        "カメラ通知が「音」も説明するように",
+        "Nestサーモスタットの強化",
+        "今後の展望"
+      ],
+      "source_url": "https://blog.google/products-and-platforms/devices/google-nest/google-home-updates-november-2026/",
+      "source_urls": [
+        "https://blog.google/products-and-platforms/devices/google-nest/google-home-updates-november-2026/"
+      ],
+      "source_label": "blog.google",
+      "cover": "assets/posts/1572555735320231946.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1572555735320231946",
+      "first_seen": "2026-11-18T10:15:03.973Z",
+      "kind": "feature",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1572555618995281941",
+      "title": "Google検索「AI Mode」に一時スレッド機能、履歴やパーソナライズに残さない対話検索が可能に",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-11-18T10:14:36.239Z",
+      "excerpt": "Googleは2026年11月17日、検索の対話型機能「AI Mode」に「一時スレッド（temporary threads）」を追加すると発表しました。履歴に保存せず、過去の嗜好も使わず、今後のパーソナライズにも影響しない状態で質問できる機能です。AI M…",
+      "lead": "Googleは2026年11月17日、検索の対話型機能「AI Mode」に「一時スレッド（temporary threads）」を追加すると発表しました。履歴に保存せず、過去の嗜好も使わず、今後のパーソナライズにも影響しない状態で質問できる機能です。AI Modeが対応するすべての言語で、デスクトップとモバイルのブラウザ向けに世界規模で順次提供されます。",
+      "headings": [
+        "一時スレッドの仕組み",
+        "想定される用途",
+        "影響と注意点",
+        "今後の展望"
+      ],
+      "source_url": "https://blog.google/products-and-platforms/products/search/temporary-threads-ai-mode/",
+      "source_urls": [
+        "https://blog.google/products-and-platforms/products/search/temporary-threads-ai-mode/"
+      ],
+      "source_label": "blog.google",
+      "cover": "assets/posts/1572555618995281941.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1572555618995281941",
+      "first_seen": "2026-11-18T10:14:36.239Z",
+      "kind": "feature",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1572555492482482307",
+      "title": "Replit、エージェント群が目標達成まで自律的に働く「Replit Missions」を発表",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-11-18T10:14:06.076Z",
+      "excerpt": "Replitは2026年11月17日、複雑な業務を「エージェント群（スウォーム）」に任せる新機能「Replit Missions」を発表しました。ユーザーが目指す成果を決めると、Replitが複数のAIエージェントをまとめて動かし、計画、構築、テスト、改善を…",
+      "lead": "Replitは2026年11月17日、複雑な業務を「エージェント群（スウォーム）」に任せる新機能「Replit Missions」を発表しました。ユーザーが目指す成果を決めると、Replitが複数のAIエージェントをまとめて動かし、計画、構築、テスト、改善を繰り返します。指定した予算と権限の範囲内で、成果が出るまで作業を続けます。",
+      "headings": [
+        "仕組み：目標・予算・権限を「契約」として定義",
+        "事例：2日間で社内向けアプリ監視基盤「DataCat」を構築",
+        "影響と注意点",
+        "今後の展望"
+      ],
+      "source_url": "https://replit.com/blog/introducing-replit-missions",
+      "source_urls": [
+        "https://replit.com/blog/introducing-replit-missions"
+      ],
+      "source_label": "replit.com",
+      "cover": "assets/posts/1572555492482482307.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1572555492482482307",
+      "first_seen": "2026-11-18T10:14:06.076Z",
+      "kind": "feature",
+      "kind_confidence": 0.74
+    },
+    {
+      "id": "1572555416875831397",
+      "title": "OpenAI「ChatGPT for Sales」を発表 営業向けSalesプラグインと30以上の連携でCRM更新や商談準備をチャットに集約",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-11-18T10:13:48.050Z",
+      "excerpt": "OpenAIは2026年11月17日、営業チーム向けの新しい取り組み「ChatGPT for Sales」を発表しました。OpenAIが自社開発した「Sales」プラグインと、30以上の新規・拡張パートナープラグインを組み合わせ、見込み客の調査から商談準備、…",
+      "lead": "OpenAIは2026年11月17日、営業チーム向けの新しい取り組み「ChatGPT for Sales」を発表しました。OpenAIが自社開発した「Sales」プラグインと、30以上の新規・拡張パートナープラグインを組み合わせ、見込み客の調査から商談準備、フォローアップ、CRM（顧客管理システム）の更新までをChatGPT上で進められるようにします。営業担当者が複数のツールを行き来する手間を減らし、顧客理解と案件の前進に時間を使えるようにすることが狙いです。",
+      "headings": [
+        "Salesプラグインの中身",
+        "パートナープラグインの広がり",
+        "背景と影響",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/introducing-chatgpt-for-sales/",
+      "source_urls": [
+        "https://openai.com/index/introducing-chatgpt-for-sales/"
+      ],
+      "source_label": "openai.com",
+      "cover": "assets/posts/1572555416875831397.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1572555416875831397",
+      "first_seen": "2026-11-18T10:13:48.050Z",
+      "kind": "feature",
+      "kind_confidence": 0.93
+    },
+    {
+      "id": "1572555297283641445",
+      "title": "OpenAI「GPT-6.2 Astra／Sol」を発表 高性能と低コストを両立、サイバー分野では安全策を強化",
+      "channel": "chatgpt",
+      "category": "Open AI",
+      "date": "2026-11-18T10:13:19.537Z",
+      "excerpt": "OpenAIは2026年11月17日、新モデル「GPT-6.2 Astra」と「GPT-6.2 Sol」を発表しました。Astraは難度の高い専門業務や科学研究向けのフロンティアモデル、Solは日常業務向けの効率重視モデルです。どちらも前世代より少ない出力ト…",
+      "lead": "OpenAIは2026年11月17日、新モデル「GPT-6.2 Astra」と「GPT-6.2 Sol」を発表しました。Astraは難度の高い専門業務や科学研究向けのフロンティアモデル、Solは日常業務向けの効率重視モデルです。どちらも前世代より少ない出力トークンで課題をこなせるとされ、APIの料金も据え置きまたは値下げとなりました。",
+      "headings": [
+        "2モデルの位置付けと提供形態",
+        "技術的なポイントとベンチマーク",
+        "外部評価で見えた課題",
+        "サイバーセキュリティと安全性",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/ja-JP/index/introducing-gpt-6-2-astra-sol/",
+      "source_urls": [
+        "https://openai.com/ja-JP/index/introducing-gpt-6-2-astra-sol/"
+      ],
+      "source_label": "openai.com",
+      "cover": "assets/posts/1572555297283641445.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415353131604377641/threads/1572555297283641445",
+      "first_seen": "2026-11-18T10:13:19.537Z",
+      "kind": "model",
+      "kind_confidence": 1
+    },
     {
       "id": "1572081753445761177",
       "title": "OpenAI、研究者向けChatGPT無償提供を20万人規模へ倍増 ProPlusへ切り替え、先着順で5万件の新規枠",

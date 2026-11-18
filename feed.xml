@@ -5,8 +5,64 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 17 Nov 2026 02:51:37 GMT</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 10:20:02 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Microsoft Ignite 2026開幕：Copilotは「Autopilot」へ、自社モデルMAIとAIコスト管理を一斉投入</title>
+      <link>https://discord.com/channels/1415350002255007784/1432720743279497367/threads/1572556987571634177</link>
+      <guid isPermaLink="false">afnjp-1572556987571634177</guid>
+      <pubDate>Wed, 18 Nov 2026 10:20:02 GMT</pubDate>
+      <category>microsoft</category>
+      <description>米Microsoftは2026年11月17日、年次カンファレンス「Microsoft Ignite 2026」（サンフランシスコ／オンライン、20日まで）を開幕しました。Copilotの刷新、常駐型エージェント「Autopilot」、自社開発モデル「MAI」…</description>
+    </item>
+    <item>
+      <title>Google Vids、自分の分身が話す「パーソナルアバター」を個人ユーザーに無料開放</title>
+      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1572555841767211078</link>
+      <guid isPermaLink="false">afnjp-1572555841767211078</guid>
+      <pubDate>Wed, 18 Nov 2026 10:15:29 GMT</pubDate>
+      <category>google</category>
+      <description>Googleは2026年11月17日、動画作成ツール「Google Vids」で、自分そっくりのデジタルアバターを作って動画に登場させられる「パーソナルアバター」機能を発表しました。個人用Googleアカウントを持つすべてのユーザーが、発表当日から無料で使え…</description>
+    </item>
+    <item>
+      <title>Google Home 11月アップデート、Gemini for Homeの高速化と6カ国展開を発表 デジタル鍵や音声検知も強化</title>
+      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1572555735320231946</link>
+      <guid isPermaLink="false">afnjp-1572555735320231946</guid>
+      <pubDate>Wed, 18 Nov 2026 10:15:03 GMT</pubDate>
+      <category>google</category>
+      <description>Googleは2026年11月17日、スマートホーム基盤「Google Home」の11月アップデートを発表しました。家庭向けAIアシスタント「Gemini for Home」の応答速度向上と提供国の拡大を軸に、Google Walletを使ったキーレス解錠…</description>
+    </item>
+    <item>
+      <title>Google検索「AI Mode」に一時スレッド機能、履歴やパーソナライズに残さない対話検索が可能に</title>
+      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1572555618995281941</link>
+      <guid isPermaLink="false">afnjp-1572555618995281941</guid>
+      <pubDate>Wed, 18 Nov 2026 10:14:36 GMT</pubDate>
+      <category>google</category>
+      <description>Googleは2026年11月17日、検索の対話型機能「AI Mode」に「一時スレッド（temporary threads）」を追加すると発表しました。履歴に保存せず、過去の嗜好も使わず、今後のパーソナライズにも影響しない状態で質問できる機能です。AI M…</description>
+    </item>
+    <item>
+      <title>Replit、エージェント群が目標達成まで自律的に働く「Replit Missions」を発表</title>
+      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1572555492482482307</link>
+      <guid isPermaLink="false">afnjp-1572555492482482307</guid>
+      <pubDate>Wed, 18 Nov 2026 10:14:06 GMT</pubDate>
+      <category>その他</category>
+      <description>Replitは2026年11月17日、複雑な業務を「エージェント群（スウォーム）」に任せる新機能「Replit Missions」を発表しました。ユーザーが目指す成果を決めると、Replitが複数のAIエージェントをまとめて動かし、計画、構築、テスト、改善を…</description>
+    </item>
+    <item>
+      <title>OpenAI「ChatGPT for Sales」を発表 営業向けSalesプラグインと30以上の連携でCRM更新や商談準備をチャットに集約</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1572555416875831397</link>
+      <guid isPermaLink="false">afnjp-1572555416875831397</guid>
+      <pubDate>Wed, 18 Nov 2026 10:13:48 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIは2026年11月17日、営業チーム向けの新しい取り組み「ChatGPT for Sales」を発表しました。OpenAIが自社開発した「Sales」プラグインと、30以上の新規・拡張パートナープラグインを組み合わせ、見込み客の調査から商談準備、…</description>
+    </item>
+    <item>
+      <title>OpenAI「GPT-6.2 Astra／Sol」を発表 高性能と低コストを両立、サイバー分野では安全策を強化</title>
+      <link>https://discord.com/channels/1415350002255007784/1415353131604377641/threads/1572555297283641445</link>
+      <guid isPermaLink="false">afnjp-1572555297283641445</guid>
+      <pubDate>Wed, 18 Nov 2026 10:13:19 GMT</pubDate>
+      <category>chatgpt</category>
+      <description>OpenAIは2026年11月17日、新モデル「GPT-6.2 Astra」と「GPT-6.2 Sol」を発表しました。Astraは難度の高い専門業務や科学研究向けのフロンティアモデル、Solは日常業務向けの効率重視モデルです。どちらも前世代より少ない出力ト…</description>
+    </item>
     <item>
       <title>OpenAI、研究者向けChatGPT無償提供を20万人規模へ倍増 ProPlusへ切り替え、先着順で5万件の新規枠</title>
       <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1572081753445761177</link>
@@ -46,62 +102,6 @@
       <pubDate>Mon, 16 Nov 2026 10:31:44 GMT</pubDate>
       <category>open-ai</category>
       <description>LVMHグループのメディア部門（Groupe Les Echos-Le Parisien）とOpenAIは2026年11月16日、戦略的提携を発表しました。内容は大きく2つあります。部門全体でChatGPT EnterpriseとOpenAIのツールを使うこ…</description>
-    </item>
-    <item>
-      <title>Google AI StudioにDeveloper ProgramのCloudクレジットが統合 Pro/Ultra加入者は請求から利用までAI Studio内で完結</title>
-      <link>https://discord.com/channels/1415350002255007784/1425507195818348564/threads/1570939971647578252</link>
-      <guid isPermaLink="false">afnjp-1570939971647578252</guid>
-      <pubDate>Fri, 13 Nov 2026 23:14:35 GMT</pubDate>
-      <category>google-ai-studio</category>
-      <description>Googleは2026年11月13日、Google Developer Program（GDP）の特典であるGoogle CloudクレジットをGoogle AI Studioに組み込んだと発表しました。Google AI ProおよびUltraの加入者は、…</description>
-    </item>
-    <item>
-      <title>GeminiがGoogle Walletと連携、「@Google Wallet」で家計分析や予算づくりが可能に</title>
-      <link>https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1570939846824828988</link>
-      <guid isPermaLink="false">afnjp-1570939846824828988</guid>
-      <pubDate>Fri, 13 Nov 2026 23:14:06 GMT</pubDate>
-      <category>gemini</category>
-      <description>Googleは2026年11月13日、Geminiアプリの「Personal Intelligence」にGoogle Walletを連携アプリとして追加したと発表しました。ユーザーの支出データに基づいて、Geminiが家計の分析や予算の提案を行えるようにな…</description>
-    </item>
-    <item>
-      <title>ElevenLabs、企業向け「Forward Deployed Creatives」を開始 クリエイターが顧客チームに入り込み生成AI制作を支援</title>
-      <link>https://discord.com/channels/1415350002255007784/1441006356399259719/threads/1570939717493719230</link>
-      <guid isPermaLink="false">afnjp-1570939717493719230</guid>
-      <pubDate>Fri, 13 Nov 2026 23:13:35 GMT</pubDate>
-      <category>eleven-labs</category>
-      <description>音声AI大手のElevenLabsは2026年11月13日、AIコンテンツ制作プラットフォーム「ElevenCreative」で、企業のクリエイティブ制作を人が直接支援する新サービス「Forward Deployed Creatives」を発表しました。同社…</description>
-    </item>
-    <item>
-      <title>OpenAIが「ChatGPT Wallet」を発表 AIエージェント「dots」がユーザーに代わって決済する時代へ</title>
-      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1570822246216368128</link>
-      <guid isPermaLink="false">afnjp-1570822246216368128</guid>
-      <pubDate>Fri, 13 Nov 2026 15:26:47 GMT</pubDate>
-      <category>open-ai</category>
-      <description>OpenAIは米国時間11月13日、個人向けAIエージェント「dots」がユーザーに代わって商品やサービスを購入できる決済機能「ChatGPT Wallet」を発表しました。American Express、Mastercard、Visaと組んでおり、エージ…</description>
-    </item>
-    <item>
-      <title>Google、Gemini搭載スマートグラスの予約を開始 Warby Parker・Gentle Monsterと共同開発、12月10日発売</title>
-      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1570773784095621152</link>
-      <guid isPermaLink="false">afnjp-1570773784095621152</guid>
-      <pubDate>Fri, 13 Nov 2026 12:14:13 GMT</pubDate>
-      <category>google</category>
-      <description>Googleは2026年11月12日、Gemini搭載の「インテリジェントアイウェア」の予約を開始しました。デザインはWarby ParkerとGentle Monsterが共同で手がけ、製造はSamsungが担当します。発売は12月10日で、対象は米国と韓…</description>
-    </item>
-    <item>
-      <title>Replit Agentが「仕入れ」と「Google広告運用」まで代行へ AIエージェントが事業運営の実務に踏み込む</title>
-      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1570773587890151534</link>
-      <guid isPermaLink="false">afnjp-1570773587890151534</guid>
-      <pubDate>Fri, 13 Nov 2026 12:13:26 GMT</pubDate>
-      <category>その他</category>
-      <description>Replitは2026年11月12日、AI開発エージェント「Replit Agent」に、事業に必要な物品の購入（Agentic Commerce）とGoogle広告の運用（Agentic Ads）の2つの機能を追加したと発表しました。アプリを「作る」だけで…</description>
-    </item>
-    <item>
-      <title>Google DeepMind、気象AI「WeatherNext 3」を支える衛星・降水データセット「SatWeave」「PARDIG」を公開</title>
-      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1570773498530631690</link>
-      <guid isPermaLink="false">afnjp-1570773498530631690</guid>
-      <pubDate>Fri, 13 Nov 2026 12:13:05 GMT</pubDate>
-      <category>google</category>
-      <description>Google DeepMindのWeatherNextチームは2026年11月13日、気象AIモデル「WeatherNext 3」の学習と予報に使ったデータセット2種の公開を発表しました。1つは静止気象衛星の画像を全球規模でつなぎ合わせた「SatWeave」…</description>
     </item>
   </channel>
 </rss>
