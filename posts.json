@@ -1,8 +1,59 @@
 {
-  "generated_at": "2026-11-18T12:59:29.136Z",
+  "generated_at": "2026-11-18T21:23:59.140Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1572720033610604745",
+      "title": "Gemini、低メモリのAndroid（Go edition）端末に対応 Gemini LiveやNano Bananaによる画像生成も利用可能に",
+      "channel": "gemini",
+      "category": "Google",
+      "date": "2026-11-18T21:07:55.738Z",
+      "excerpt": "Googleは2026年11月18日、生成AIアシスタント「Gemini」アプリを、メモリ容量の少ないAndroid（Go edition）端末でも使えるようにしたと発表しました。これまで対象端末で使えたのは基本的な音声コマンドだけでしたが、今回アプリの構造…",
+      "lead": "Googleは2026年11月18日、生成AIアシスタント「Gemini」アプリを、メモリ容量の少ないAndroid（Go edition）端末でも使えるようにしたと発表しました。これまで対象端末で使えたのは基本的な音声コマンドだけでしたが、今回アプリの構造を作り直したことで、音声対話、カメラを使った支援、画像生成といったGeminiの主要機能を利用できるようになります。",
+      "headings": [
+        "アプリを再設計して低メモリ環境に対応",
+        "利用できる主な機能",
+        "普及価格帯の端末にもAIが広がる意味",
+        "今後の展望"
+      ],
+      "source_url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/",
+      "source_urls": [
+        "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/"
+      ],
+      "source_label": "blog.google",
+      "cover": "assets/posts/1572720033610604745.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1572720033610604745",
+      "first_seen": "2026-11-18T21:07:55.738Z",
+      "kind": "feature",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1572610596896252006",
+      "title": "Tencent「Hy4 flash」公開 総パラメータ220B・活性12BのMoE、1Mコンテキストと低コストを両立",
+      "channel": "hunyuan",
+      "category": "その他",
+      "date": "2026-11-18T13:53:03.992Z",
+      "excerpt": "TencentのHyチームは、マルチモーダル対応のMoE（Mixture-of-Experts）モデル「Hy4 flash」をHugging Faceで公開しました。総パラメータは220B、1トークンあたりの活性パラメータは約12Bで、コンテキスト長は1Mト…",
+      "lead": "TencentのHyチームは、マルチモーダル対応のMoE（Mixture-of-Experts）モデル「Hy4 flash」をHugging Faceで公開しました。総パラメータは220B、1トークンあたりの活性パラメータは約12Bで、コンテキスト長は1Mトークンです。同社は「これまでで最もコスト効率の高いHyモデル」と位置付けています。",
+      "headings": [
+        "モデル構成とバリエーション",
+        "技術的詳細",
+        "性能とコスト",
+        "導入と注意点",
+        "今後の展望"
+      ],
+      "source_url": "https://huggingface.co/tencent/Hy4-flash",
+      "source_urls": [
+        "https://huggingface.co/tencent/Hy4-flash"
+      ],
+      "source_label": "huggingface.co",
+      "cover": "assets/posts/1572610596896252006.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1460898443923820618/threads/1572610596896252006",
+      "first_seen": "2026-11-18T13:53:03.992Z",
+      "kind": "model",
+      "kind_confidence": 1
+    },
     {
       "id": "1572556987571634177",
       "title": "Microsoft Ignite 2026開幕：Copilotは「Autopilot」へ、自社モデルMAIとAIコスト管理を一斉投入",
@@ -258,58 +309,6 @@
       "first_seen": "2026-11-17T02:48:51.279Z",
       "kind": "feature",
       "kind_confidence": 1
-    },
-    {
-      "id": "1571941667106324703",
-      "title": "Googleマップ「Ask Maps」がホリデー向けに進化、旅行の行程作成から予約代行まで担うエージェント機能を追加",
-      "channel": "google",
-      "category": "Google",
-      "date": "2026-11-16T17:34:58.702Z",
-      "excerpt": "Googleは2026年11月16日、Googleマップの対話型機能「Ask Maps」にホリデーシーズン向けの新機能を追加すると発表しました。ロードトリップの行程作成、移動前に役立つルート情報、店舗予約を代わりに探すエージェント機能、保存リストの横断検索が…",
-      "lead": "Googleは2026年11月16日、Googleマップの対話型機能「Ask Maps」にホリデーシーズン向けの新機能を追加すると発表しました。ロードトリップの行程作成、移動前に役立つルート情報、店舗予約を代わりに探すエージェント機能、保存リストの横断検索が中心です。AndroidとiOSで同日から順次提供が始まり、Ask Mapsの提供地域もヨーロッパ30か国に広がります。",
-      "headings": [
-        "行程作成とルート情報の統合",
-        "予約を代行するエージェント機能",
-        "保存リストのリアルタイム検索",
-        "提供範囲と注意点",
-        "今後の展望"
-      ],
-      "source_url": "https://blog.google/products-and-platforms/products/maps/ask-maps-holiday-travel-features-2026/",
-      "source_urls": [
-        "https://blog.google/products-and-platforms/products/maps/ask-maps-holiday-travel-features-2026/"
-      ],
-      "source_label": "blog.google",
-      "cover": "assets/posts/1571941667106324703.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1571941667106324703",
-      "first_seen": "2026-11-16T17:34:58.702Z",
-      "kind": "feature",
-      "kind_confidence": 1
-    },
-    {
-      "id": "1571835154744213535",
-      "title": "LVMHのメディア部門がOpenAIと戦略提携 17ブランドにChatGPT Enterpriseを導入し、記事をChatGPTで出典付き表示へ",
-      "channel": "open-ai",
-      "category": "Open AI",
-      "date": "2026-11-16T10:31:44.176Z",
-      "excerpt": "LVMHグループのメディア部門（Groupe Les Echos-Le Parisien）とOpenAIは2026年11月16日、戦略的提携を発表しました。内容は大きく2つあります。部門全体でChatGPT EnterpriseとOpenAIのツールを使うこ…",
-      "lead": "LVMHグループのメディア部門（Groupe Les Echos-Le Parisien）とOpenAIは2026年11月16日、戦略的提携を発表しました。内容は大きく2つあります。部門全体でChatGPT EnterpriseとOpenAIのツールを使うこと、そして傘下メディアの記事をChatGPTの回答に出典付きで表示しやすくすることです。仏有力紙を抱える高級ブランド大手のメディア部門が、編集業務の効率化とAI経由での読者獲得を同時に進める動きです。",
-      "headings": [
-        "提携の概要",
-        "技術的なポイント",
-        "背景と文脈",
-        "影響と課題",
-        "今後の展望"
-      ],
-      "source_url": "https://openai.com/index/lvmh-media-division-partnership/",
-      "source_urls": [
-        "https://openai.com/index/lvmh-media-division-partnership/"
-      ],
-      "source_label": "openai.com",
-      "cover": "assets/posts/1571835154744213535.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1571835154744213535",
-      "first_seen": "2026-11-16T10:31:44.176Z",
-      "kind": "business",
-      "kind_confidence": 0.95
     }
   ]
 }

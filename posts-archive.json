@@ -1,9 +1,60 @@
 {
-  "generated_at": "2026-11-18T12:59:29.126Z",
+  "generated_at": "2026-11-18T21:23:59.130Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 591,
+  "count": 593,
   "posts": [
+    {
+      "id": "1572720033610604745",
+      "title": "Gemini、低メモリのAndroid（Go edition）端末に対応 Gemini LiveやNano Bananaによる画像生成も利用可能に",
+      "channel": "gemini",
+      "category": "Google",
+      "date": "2026-11-18T21:07:55.738Z",
+      "excerpt": "Googleは2026年11月18日、生成AIアシスタント「Gemini」アプリを、メモリ容量の少ないAndroid（Go edition）端末でも使えるようにしたと発表しました。これまで対象端末で使えたのは基本的な音声コマンドだけでしたが、今回アプリの構造…",
+      "lead": "Googleは2026年11月18日、生成AIアシスタント「Gemini」アプリを、メモリ容量の少ないAndroid（Go edition）端末でも使えるようにしたと発表しました。これまで対象端末で使えたのは基本的な音声コマンドだけでしたが、今回アプリの構造を作り直したことで、音声対話、カメラを使った支援、画像生成といったGeminiの主要機能を利用できるようになります。",
+      "headings": [
+        "アプリを再設計して低メモリ環境に対応",
+        "利用できる主な機能",
+        "普及価格帯の端末にもAIが広がる意味",
+        "今後の展望"
+      ],
+      "source_url": "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/",
+      "source_urls": [
+        "https://blog.google/innovation-and-ai/products/gemini-app/gemini-lower-memory-devices/"
+      ],
+      "source_label": "blog.google",
+      "cover": "assets/posts/1572720033610604745.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1572720033610604745",
+      "first_seen": "2026-11-18T21:07:55.738Z",
+      "kind": "feature",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1572610596896252006",
+      "title": "Tencent「Hy4 flash」公開 総パラメータ220B・活性12BのMoE、1Mコンテキストと低コストを両立",
+      "channel": "hunyuan",
+      "category": "その他",
+      "date": "2026-11-18T13:53:03.992Z",
+      "excerpt": "TencentのHyチームは、マルチモーダル対応のMoE（Mixture-of-Experts）モデル「Hy4 flash」をHugging Faceで公開しました。総パラメータは220B、1トークンあたりの活性パラメータは約12Bで、コンテキスト長は1Mト…",
+      "lead": "TencentのHyチームは、マルチモーダル対応のMoE（Mixture-of-Experts）モデル「Hy4 flash」をHugging Faceで公開しました。総パラメータは220B、1トークンあたりの活性パラメータは約12Bで、コンテキスト長は1Mトークンです。同社は「これまでで最もコスト効率の高いHyモデル」と位置付けています。",
+      "headings": [
+        "モデル構成とバリエーション",
+        "技術的詳細",
+        "性能とコスト",
+        "導入と注意点",
+        "今後の展望"
+      ],
+      "source_url": "https://huggingface.co/tencent/Hy4-flash",
+      "source_urls": [
+        "https://huggingface.co/tencent/Hy4-flash"
+      ],
+      "source_label": "huggingface.co",
+      "cover": "assets/posts/1572610596896252006.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1460898443923820618/threads/1572610596896252006",
+      "first_seen": "2026-11-18T13:53:03.992Z",
+      "kind": "model",
+      "kind_confidence": 1
+    },
     {
       "id": "1572556987571634177",
       "title": "Microsoft Ignite 2026開幕：Copilotは「Autopilot」へ、自社モデルMAIとAIコスト管理を一斉投入",
