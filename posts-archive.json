@@ -1,9 +1,62 @@
 {
-  "generated_at": "2026-11-18T21:23:59.130Z",
+  "generated_at": "2026-11-19T03:20:56.152Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 593,
+  "count": 595,
   "posts": [
+    {
+      "id": "1572760104841908234",
+      "title": "Anthropic、IPO価格を1株83ドルに決定 Nasdaqで「ANT」として取引開始",
+      "channel": "anthropic",
+      "category": "Anthropic",
+      "date": "2026-11-18T23:47:09.464Z",
+      "excerpt": "Claudeを開発するAnthropicは2026年11月18日、新規株式公開（IPO）の公開価格をクラスA普通株1株あたり83.00ドルに決めたと発表しました。株式はNasdaq Global Select Marketにティッカーシンボル「ANT」で上場…",
+      "lead": "Claudeを開発するAnthropicは2026年11月18日、新規株式公開（IPO）の公開価格をクラスA普通株1株あたり83.00ドルに決めたと発表しました。株式はNasdaq Global Select Marketにティッカーシンボル「ANT」で上場し、11月19日に取引が始まります。生成AIの基盤モデル企業として最大級の上場案件となり、AI業界と資本市場の双方から注目が集まっています。",
+      "headings": [
+        "オファリングの概要",
+        "調達規模の目安",
+        "背景：公益法人という特殊な企業形態",
+        "業界・ユーザーへの影響",
+        "今後の展望"
+      ],
+      "source_url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
+      "source_urls": [
+        "https://www.anthropic.com/news/anthropic-prices-initial-public-offering"
+      ],
+      "source_label": "anthropic.com",
+      "cover": "assets/posts/1572760104841908234.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1572760104841908234",
+      "first_seen": "2026-11-18T23:47:09.464Z",
+      "kind": "business",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1572759923522273432",
+      "title": "Google、「Gemini 4 Neon」を発表 フロンティア級の性能とコスト効率を両立した中位モデル",
+      "channel": "gemini",
+      "category": "Google",
+      "date": "2026-11-18T23:46:26.234Z",
+      "excerpt": "Google DeepMindは2026年11月18日、Gemini 4ファミリーの新モデル「Gemini 4 Neon」を発表しました。ソフトウェア開発、ナレッジワーク、科学分野での高速なタスク完遂を掲げ、上位モデル「Carbon」に迫る性能を低コストで提…",
+      "lead": "Google DeepMindは2026年11月18日、Gemini 4ファミリーの新モデル「Gemini 4 Neon」を発表しました。ソフトウェア開発、ナレッジワーク、科学分野での高速なタスク完遂を掲げ、上位モデル「Carbon」に迫る性能を低コストで提供します。",
+      "headings": [
+        "ファミリー内での位置付け",
+        "価格と提供形態",
+        "ベンチマーク結果",
+        "エージェント機能とサイバー防御",
+        "安全性への配慮",
+        "今後の展望"
+      ],
+      "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+      "source_urls": [
+        "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/"
+      ],
+      "source_label": "blog.google",
+      "cover": "assets/posts/1572759923522273432.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1572759923522273432",
+      "first_seen": "2026-11-18T23:46:26.234Z",
+      "kind": "model",
+      "kind_confidence": 1
+    },
     {
       "id": "1572720033610604745",
       "title": "Gemini、低メモリのAndroid（Go edition）端末に対応 Gemini LiveやNano Bananaによる画像生成も利用可能に",
