@@ -5,8 +5,56 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Wed, 18 Nov 2026 23:47:09 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 17:19:27 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Nous Researchが「Hermes Agent Enterprise」をMicrosoft Marketplaceで公開、TeamsからAIエージェントに業務を依頼可能に</title>
+      <link>https://discord.com/channels/1415350002255007784/1432720743279497367/threads/1573387311184355358</link>
+      <guid isPermaLink="false">afnjp-1573387311184355358</guid>
+      <pubDate>Fri, 20 Nov 2026 17:19:27 GMT</pubDate>
+      <category>microsoft</category>
+      <description>オープンソースAIエージェント「Hermes Agent」を開発するNous Researchは、2026年11月18日にMicrosoftとの提携を発表し、企業向け製品「Hermes Agent Enterprise」をMicrosoft Marketpl…</description>
+    </item>
+    <item>
+      <title>Geminiアプリで約3秒のループGIFが作れるように 日本も提供対象に</title>
+      <link>https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1573386955436069004</link>
+      <guid isPermaLink="false">afnjp-1573386955436069004</guid>
+      <pubDate>Fri, 20 Nov 2026 17:18:02 GMT</pubDate>
+      <category>gemini</category>
+      <description>GoogleのGeminiアプリで、画像生成機能を使って短いループアニメーションGIFを作れるようになりました。ヘルプページによると、生成できるのは約3秒間繰り返し再生されるGIFです。提供地域には日本も含まれています。これまで静止画が中心だったGemini…</description>
+    </item>
+    <item>
+      <title>Anthropic、Nasdaqで新規株式公開を完了 IPOと私募の総調達額は約1195億ドル</title>
+      <link>https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1573373390276919526</link>
+      <guid isPermaLink="false">afnjp-1573373390276919526</guid>
+      <pubDate>Fri, 20 Nov 2026 16:24:08 GMT</pubDate>
+      <category>anthropic</category>
+      <description>Claudeシリーズを開発するAnthropic, PBCは2026年11月20日、新規株式公開（IPO）の手続きが完了したと発表しました。発行価格は1株83.00ドルで、IPO単体の総調達額は約935億ドルです。同時に実施した半導体・クラウド大手7社向けの…</description>
+    </item>
+    <item>
+      <title>Gemini APIに「Tool Retrieval」登場 数百のツールを必要な分だけ読み込むエージェント向け新機能</title>
+      <link>https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1573372965356175500</link>
+      <guid isPermaLink="false">afnjp-1573372965356175500</guid>
+      <pubDate>Fri, 20 Nov 2026 16:22:26 GMT</pubDate>
+      <category>gemini</category>
+      <description>Googleは2026年11月19日、Gemini APIの新機能「Tool Retrieval」を発表しました。エージェントが数十から数百のツールを扱うとき、各ツールのパラメータスキーマを必要になった時点で初めて読み込む仕組みです。現在はInteracti…</description>
+    </item>
+    <item>
+      <title>Google、世界生成モデル「Genie 4」をGemini APIで開発者に開放 720p・24fpsの操作可能なワールドを音声付きで生成</title>
+      <link>https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1573371945653895309</link>
+      <guid isPermaLink="false">afnjp-1573371945653895309</guid>
+      <pubDate>Fri, 20 Nov 2026 16:18:23 GMT</pubDate>
+      <category>gemini</category>
+      <description>Googleは2026年11月19日、前日に発表したインタラクティブな世界生成モデル「Genie 4」を、Gemini APIとGoogle AI Studioで開発者向けに提供すると発表しました。テキストや画像から、リアルタイムで歩き回れる3D的な世界を生…</description>
+    </item>
+    <item>
+      <title>GeminiのMacアプリに「コンピュータ操作」機能、バックグラウンドでアプリやWebの定型作業を代行</title>
+      <link>https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1573371692229722262</link>
+      <guid isPermaLink="false">afnjp-1573371692229722262</guid>
+      <pubDate>Fri, 20 Nov 2026 16:17:23 GMT</pubDate>
+      <category>gemini</category>
+      <description>Googleは2026年11月19日、Mac向けGeminiアプリに「computer use（コンピュータ操作）」機能を追加すると発表しました。ユーザーが作業内容を説明すると、GeminiがMac上のアプリやWebサイトをバックグラウンドで操作し、複数の手…</description>
+    </item>
     <item>
       <title>Anthropic、IPO価格を1株83ドルに決定 Nasdaqで「ANT」として取引開始</title>
       <link>https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1572760104841908234</link>
@@ -54,54 +102,6 @@
       <pubDate>Wed, 18 Nov 2026 10:15:29 GMT</pubDate>
       <category>google</category>
       <description>Googleは2026年11月17日、動画作成ツール「Google Vids」で、自分そっくりのデジタルアバターを作って動画に登場させられる「パーソナルアバター」機能を発表しました。個人用Googleアカウントを持つすべてのユーザーが、発表当日から無料で使え…</description>
-    </item>
-    <item>
-      <title>Google Home 11月アップデート、Gemini for Homeの高速化と6カ国展開を発表 デジタル鍵や音声検知も強化</title>
-      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1572555735320231946</link>
-      <guid isPermaLink="false">afnjp-1572555735320231946</guid>
-      <pubDate>Wed, 18 Nov 2026 10:15:03 GMT</pubDate>
-      <category>google</category>
-      <description>Googleは2026年11月17日、スマートホーム基盤「Google Home」の11月アップデートを発表しました。家庭向けAIアシスタント「Gemini for Home」の応答速度向上と提供国の拡大を軸に、Google Walletを使ったキーレス解錠…</description>
-    </item>
-    <item>
-      <title>Google検索「AI Mode」に一時スレッド機能、履歴やパーソナライズに残さない対話検索が可能に</title>
-      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1572555618995281941</link>
-      <guid isPermaLink="false">afnjp-1572555618995281941</guid>
-      <pubDate>Wed, 18 Nov 2026 10:14:36 GMT</pubDate>
-      <category>google</category>
-      <description>Googleは2026年11月17日、検索の対話型機能「AI Mode」に「一時スレッド（temporary threads）」を追加すると発表しました。履歴に保存せず、過去の嗜好も使わず、今後のパーソナライズにも影響しない状態で質問できる機能です。AI M…</description>
-    </item>
-    <item>
-      <title>Replit、エージェント群が目標達成まで自律的に働く「Replit Missions」を発表</title>
-      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1572555492482482307</link>
-      <guid isPermaLink="false">afnjp-1572555492482482307</guid>
-      <pubDate>Wed, 18 Nov 2026 10:14:06 GMT</pubDate>
-      <category>その他</category>
-      <description>Replitは2026年11月17日、複雑な業務を「エージェント群（スウォーム）」に任せる新機能「Replit Missions」を発表しました。ユーザーが目指す成果を決めると、Replitが複数のAIエージェントをまとめて動かし、計画、構築、テスト、改善を…</description>
-    </item>
-    <item>
-      <title>OpenAI「ChatGPT for Sales」を発表 営業向けSalesプラグインと30以上の連携でCRM更新や商談準備をチャットに集約</title>
-      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1572555416875831397</link>
-      <guid isPermaLink="false">afnjp-1572555416875831397</guid>
-      <pubDate>Wed, 18 Nov 2026 10:13:48 GMT</pubDate>
-      <category>open-ai</category>
-      <description>OpenAIは2026年11月17日、営業チーム向けの新しい取り組み「ChatGPT for Sales」を発表しました。OpenAIが自社開発した「Sales」プラグインと、30以上の新規・拡張パートナープラグインを組み合わせ、見込み客の調査から商談準備、…</description>
-    </item>
-    <item>
-      <title>OpenAI「GPT-6.2 Astra／Sol」を発表 高性能と低コストを両立、サイバー分野では安全策を強化</title>
-      <link>https://discord.com/channels/1415350002255007784/1415353131604377641/threads/1572555297283641445</link>
-      <guid isPermaLink="false">afnjp-1572555297283641445</guid>
-      <pubDate>Wed, 18 Nov 2026 10:13:19 GMT</pubDate>
-      <category>chatgpt</category>
-      <description>OpenAIは2026年11月17日、新モデル「GPT-6.2 Astra」と「GPT-6.2 Sol」を発表しました。Astraは難度の高い専門業務や科学研究向けのフロンティアモデル、Solは日常業務向けの効率重視モデルです。どちらも前世代より少ない出力ト…</description>
-    </item>
-    <item>
-      <title>OpenAI、研究者向けChatGPT無償提供を20万人規模へ倍増 ProPlusへ切り替え、先着順で5万件の新規枠</title>
-      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1572081753445761177</link>
-      <guid isPermaLink="false">afnjp-1572081753445761177</guid>
-      <pubDate>Tue, 17 Nov 2026 02:51:37 GMT</pubDate>
-      <category>open-ai</category>
-      <description>OpenAIは2026年11月16日、学術研究者に最先端モデルを無償で提供する「ChatGPT for Academic Researchers」の拡大を発表しました。対象の目標を当初の10万人から世界20万人へ倍増し、11月23日（月）から5万件の新規グラ…</description>
     </item>
   </channel>
 </rss>

@@ -1,8 +1,157 @@
 {
-  "generated_at": "2026-11-20T11:29:14.775Z",
+  "generated_at": "2026-11-20T20:08:27.912Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1573387311184355358",
+      "title": "Nous Researchが「Hermes Agent Enterprise」をMicrosoft Marketplaceで公開、TeamsからAIエージェントに業務を依頼可能に",
+      "channel": "microsoft",
+      "category": "Microsoft",
+      "date": "2026-11-20T17:19:27.109Z",
+      "excerpt": "オープンソースAIエージェント「Hermes Agent」を開発するNous Researchは、2026年11月18日にMicrosoftとの提携を発表し、企業向け製品「Hermes Agent Enterprise」をMicrosoft Marketpl…",
+      "lead": "オープンソースAIエージェント「Hermes Agent」を開発するNous Researchは、2026年11月18日にMicrosoftとの提携を発表し、企業向け製品「Hermes Agent Enterprise」をMicrosoft Marketplaceで公開しました。Microsoft Teamsのチャットから業務を依頼できるほか、AIが身につけた作業手順を「スキル」として社内で共有できる点が特徴です。",
+      "headings": [
+        "Teamsから業務を依頼するエージェント",
+        "作業手順を組織の資産にする「Collective Wisdom」",
+        "Azureの隔離環境で安全に実行",
+        "導入にあたっての注意点",
+        "今後の展望"
+      ],
+      "source_url": "https://marketplace.microsoft.com/en-hk/product/wa200013263",
+      "source_urls": [
+        "https://marketplace.microsoft.com/en-hk/product/wa200013263"
+      ],
+      "source_label": "marketplace.microsoft.com",
+      "url": "https://discord.com/channels/1415350002255007784/1432720743279497367/threads/1573387311184355358",
+      "first_seen": "2026-11-20T17:19:27.109Z",
+      "kind": "tool",
+      "kind_confidence": 0.45
+    },
+    {
+      "id": "1573386955436069004",
+      "title": "Geminiアプリで約3秒のループGIFが作れるように 日本も提供対象に",
+      "channel": "gemini",
+      "category": "Google",
+      "date": "2026-11-20T17:18:02.292Z",
+      "excerpt": "GoogleのGeminiアプリで、画像生成機能を使って短いループアニメーションGIFを作れるようになりました。ヘルプページによると、生成できるのは約3秒間繰り返し再生されるGIFです。提供地域には日本も含まれています。これまで静止画が中心だったGemini…",
+      "lead": "GoogleのGeminiアプリで、画像生成機能を使って短いループアニメーションGIFを作れるようになりました。ヘルプページによると、生成できるのは約3秒間繰り返し再生されるGIFです。提供地域には日本も含まれています。これまで静止画が中心だったGeminiの画像生成が、動きのある表現にまで広がりました。",
+      "headings": [
+        "新機能の概要",
+        "背景：静止画生成からの拡張",
+        "影響と注意点",
+        "今後の展望"
+      ],
+      "source_url": "https://support.google.com/gemini/answer/14286560?hl=en-GB&ref_topic=16079905&sjid=6771130285218858581-NC",
+      "source_urls": [
+        "https://support.google.com/gemini/answer/14286560?hl=en-GB&ref_topic=16079905&sjid=6771130285218858581-NC"
+      ],
+      "source_label": "support.google.com",
+      "url": "https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1573386955436069004",
+      "first_seen": "2026-11-20T17:18:02.292Z",
+      "kind": "feature",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1573373390276919526",
+      "title": "Anthropic、Nasdaqで新規株式公開を完了 IPOと私募の総調達額は約1195億ドル",
+      "channel": "anthropic",
+      "category": "Anthropic",
+      "date": "2026-11-20T16:24:08.106Z",
+      "excerpt": "Claudeシリーズを開発するAnthropic, PBCは2026年11月20日、新規株式公開（IPO）の手続きが完了したと発表しました。発行価格は1株83.00ドルで、IPO単体の総調達額は約935億ドルです。同時に実施した半導体・クラウド大手7社向けの…",
+      "lead": "Claudeシリーズを開発するAnthropic, PBCは2026年11月20日、新規株式公開（IPO）の手続きが完了したと発表しました。発行価格は1株83.00ドルで、IPO単体の総調達額は約935億ドルです。同時に実施した半導体・クラウド大手7社向けの私募と合わせると、総額は約1195億ドルに達します。ティッカーは「ANT」で、11月19日からNasdaq Global Select Marketで取引が始まっています。",
+      "headings": [
+        "公募の概要",
+        "半導体・クラウド大手7社による同時私募",
+        "影響と注意点",
+        "今後の展望"
+      ],
+      "source_url": "https://www.anthropic.com/news/ipo-close",
+      "source_urls": [
+        "https://www.anthropic.com/news/ipo-close"
+      ],
+      "source_label": "anthropic.com",
+      "cover": "assets/posts/1573373390276919526.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1573373390276919526",
+      "first_seen": "2026-11-20T16:24:08.106Z",
+      "kind": "business",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1573372965356175500",
+      "title": "Gemini APIに「Tool Retrieval」登場 数百のツールを必要な分だけ読み込むエージェント向け新機能",
+      "channel": "gemini",
+      "category": "Google",
+      "date": "2026-11-20T16:22:26.797Z",
+      "excerpt": "Googleは2026年11月19日、Gemini APIの新機能「Tool Retrieval」を発表しました。エージェントが数十から数百のツールを扱うとき、各ツールのパラメータスキーマを必要になった時点で初めて読み込む仕組みです。現在はInteracti…",
+      "lead": "Googleは2026年11月19日、Gemini APIの新機能「Tool Retrieval」を発表しました。エージェントが数十から数百のツールを扱うとき、各ツールのパラメータスキーマを必要になった時点で初めて読み込む仕組みです。現在はInteractions APIでプレビューとして提供されています。",
+      "headings": [
+        "解決したい課題：ツールが増えるほど重くなる",
+        "仕組み：defer_loadingで遅延読み込み",
+        "キャッシュ・MCPとの組み合わせ",
+        "料金と注意点"
+      ],
+      "source_url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
+      "source_urls": [
+        "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/"
+      ],
+      "source_label": "blog.google",
+      "cover": "assets/posts/1573372965356175500.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1573372965356175500",
+      "first_seen": "2026-11-20T16:22:26.797Z",
+      "kind": "tool",
+      "kind_confidence": 0.47
+    },
+    {
+      "id": "1573371945653895309",
+      "title": "Google、世界生成モデル「Genie 4」をGemini APIで開発者に開放 720p・24fpsの操作可能なワールドを音声付きで生成",
+      "channel": "gemini",
+      "category": "Google",
+      "date": "2026-11-20T16:18:23.681Z",
+      "excerpt": "Googleは2026年11月19日、前日に発表したインタラクティブな世界生成モデル「Genie 4」を、Gemini APIとGoogle AI Studioで開発者向けに提供すると発表しました。テキストや画像から、リアルタイムで歩き回れる3D的な世界を生…",
+      "lead": "Googleは2026年11月19日、前日に発表したインタラクティブな世界生成モデル「Genie 4」を、Gemini APIとGoogle AI Studioで開発者向けに提供すると発表しました。テキストや画像から、リアルタイムで歩き回れる3D的な世界を生成し、音声まで同期させる点が大きな特徴です。これまで研究段階の印象が強かった「ワールドモデル」を、開発者がAPI経由で自分のアプリに組み込めるようになります。",
+      "headings": [
+        "Genie 4の技術的な特徴",
+        "提供形態と開発者向けの使い道",
+        "安全性への配慮と留意点",
+        "今後の展望"
+      ],
+      "source_url": "https://blog.google/innovation-and-ai/technology/developers-tools/genie-4-in-gemini-api/",
+      "source_urls": [
+        "https://blog.google/innovation-and-ai/technology/developers-tools/genie-4-in-gemini-api/"
+      ],
+      "source_label": "blog.google",
+      "cover": "assets/posts/1573371945653895309.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1573371945653895309",
+      "first_seen": "2026-11-20T16:18:23.681Z",
+      "kind": "model",
+      "kind_confidence": 0.77
+    },
+    {
+      "id": "1573371692229722262",
+      "title": "GeminiのMacアプリに「コンピュータ操作」機能、バックグラウンドでアプリやWebの定型作業を代行",
+      "channel": "gemini",
+      "category": "Google",
+      "date": "2026-11-20T16:17:23.260Z",
+      "excerpt": "Googleは2026年11月19日、Mac向けGeminiアプリに「computer use（コンピュータ操作）」機能を追加すると発表しました。ユーザーが作業内容を説明すると、GeminiがMac上のアプリやWebサイトをバックグラウンドで操作し、複数の手…",
+      "lead": "Googleは2026年11月19日、Mac向けGeminiアプリに「computer use（コンピュータ操作）」機能を追加すると発表しました。ユーザーが作業内容を説明すると、GeminiがMac上のアプリやWebサイトをバックグラウンドで操作し、複数の手順にまたがる作業を代わりに進めます。まず米国の有料プラン利用者から段階的に提供されます。",
+      "headings": [
+        "技術的詳細：独立したウィンドウで操作を自律実行",
+        "想定されるユースケース",
+        "背景と影響：エージェント型AIがデスクトップにも本格展開",
+        "今後の展望"
+      ],
+      "source_url": "https://blog.google/innovation-and-ai/products/gemini-app/computer-use-mac/",
+      "source_urls": [
+        "https://blog.google/innovation-and-ai/products/gemini-app/computer-use-mac/"
+      ],
+      "source_label": "blog.google",
+      "cover": "assets/posts/1573371692229722262.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1573371692229722262",
+      "first_seen": "2026-11-20T16:17:23.260Z",
+      "kind": "feature",
+      "kind_confidence": 1
+    },
     {
       "id": "1572760104841908234",
       "title": "Anthropic、IPO価格を1株83ドルに決定 Nasdaqで「ANT」として取引開始",
@@ -157,159 +306,6 @@
       "first_seen": "2026-11-18T10:15:29.352Z",
       "kind": "feature",
       "kind_confidence": 1
-    },
-    {
-      "id": "1572555735320231946",
-      "title": "Google Home 11月アップデート、Gemini for Homeの高速化と6カ国展開を発表 デジタル鍵や音声検知も強化",
-      "channel": "google",
-      "category": "Google",
-      "date": "2026-11-18T10:15:03.973Z",
-      "excerpt": "Googleは2026年11月17日、スマートホーム基盤「Google Home」の11月アップデートを発表しました。家庭向けAIアシスタント「Gemini for Home」の応答速度向上と提供国の拡大を軸に、Google Walletを使ったキーレス解錠…",
-      "lead": "Googleは2026年11月17日、スマートホーム基盤「Google Home」の11月アップデートを発表しました。家庭向けAIアシスタント「Gemini for Home」の応答速度向上と提供国の拡大を軸に、Google Walletを使ったキーレス解錠、カメラ通知への音声検知、Nestサーモスタットの機能強化が加わります。発表はGemini for Homeのグループプロダクトマネージャー、Mark Alexander氏が行いました。",
-      "headings": [
-        "Gemini for Homeが最大20%高速化、提供国を拡大",
-        "Google Walletのデジタル鍵でキーレス解錠",
-        "カメラ通知が「音」も説明するように",
-        "Nestサーモスタットの強化",
-        "今後の展望"
-      ],
-      "source_url": "https://blog.google/products-and-platforms/devices/google-nest/google-home-updates-november-2026/",
-      "source_urls": [
-        "https://blog.google/products-and-platforms/devices/google-nest/google-home-updates-november-2026/"
-      ],
-      "source_label": "blog.google",
-      "cover": "assets/posts/1572555735320231946.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1572555735320231946",
-      "first_seen": "2026-11-18T10:15:03.973Z",
-      "kind": "feature",
-      "kind_confidence": 1
-    },
-    {
-      "id": "1572555618995281941",
-      "title": "Google検索「AI Mode」に一時スレッド機能、履歴やパーソナライズに残さない対話検索が可能に",
-      "channel": "google",
-      "category": "Google",
-      "date": "2026-11-18T10:14:36.239Z",
-      "excerpt": "Googleは2026年11月17日、検索の対話型機能「AI Mode」に「一時スレッド（temporary threads）」を追加すると発表しました。履歴に保存せず、過去の嗜好も使わず、今後のパーソナライズにも影響しない状態で質問できる機能です。AI M…",
-      "lead": "Googleは2026年11月17日、検索の対話型機能「AI Mode」に「一時スレッド（temporary threads）」を追加すると発表しました。履歴に保存せず、過去の嗜好も使わず、今後のパーソナライズにも影響しない状態で質問できる機能です。AI Modeが対応するすべての言語で、デスクトップとモバイルのブラウザ向けに世界規模で順次提供されます。",
-      "headings": [
-        "一時スレッドの仕組み",
-        "想定される用途",
-        "影響と注意点",
-        "今後の展望"
-      ],
-      "source_url": "https://blog.google/products-and-platforms/products/search/temporary-threads-ai-mode/",
-      "source_urls": [
-        "https://blog.google/products-and-platforms/products/search/temporary-threads-ai-mode/"
-      ],
-      "source_label": "blog.google",
-      "cover": "assets/posts/1572555618995281941.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1572555618995281941",
-      "first_seen": "2026-11-18T10:14:36.239Z",
-      "kind": "feature",
-      "kind_confidence": 1
-    },
-    {
-      "id": "1572555492482482307",
-      "title": "Replit、エージェント群が目標達成まで自律的に働く「Replit Missions」を発表",
-      "channel": "その他",
-      "category": "その他",
-      "date": "2026-11-18T10:14:06.076Z",
-      "excerpt": "Replitは2026年11月17日、複雑な業務を「エージェント群（スウォーム）」に任せる新機能「Replit Missions」を発表しました。ユーザーが目指す成果を決めると、Replitが複数のAIエージェントをまとめて動かし、計画、構築、テスト、改善を…",
-      "lead": "Replitは2026年11月17日、複雑な業務を「エージェント群（スウォーム）」に任せる新機能「Replit Missions」を発表しました。ユーザーが目指す成果を決めると、Replitが複数のAIエージェントをまとめて動かし、計画、構築、テスト、改善を繰り返します。指定した予算と権限の範囲内で、成果が出るまで作業を続けます。",
-      "headings": [
-        "仕組み：目標・予算・権限を「契約」として定義",
-        "事例：2日間で社内向けアプリ監視基盤「DataCat」を構築",
-        "影響と注意点",
-        "今後の展望"
-      ],
-      "source_url": "https://replit.com/blog/introducing-replit-missions",
-      "source_urls": [
-        "https://replit.com/blog/introducing-replit-missions"
-      ],
-      "source_label": "replit.com",
-      "cover": "assets/posts/1572555492482482307.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1572555492482482307",
-      "first_seen": "2026-11-18T10:14:06.076Z",
-      "kind": "feature",
-      "kind_confidence": 0.74
-    },
-    {
-      "id": "1572555416875831397",
-      "title": "OpenAI「ChatGPT for Sales」を発表 営業向けSalesプラグインと30以上の連携でCRM更新や商談準備をチャットに集約",
-      "channel": "open-ai",
-      "category": "Open AI",
-      "date": "2026-11-18T10:13:48.050Z",
-      "excerpt": "OpenAIは2026年11月17日、営業チーム向けの新しい取り組み「ChatGPT for Sales」を発表しました。OpenAIが自社開発した「Sales」プラグインと、30以上の新規・拡張パートナープラグインを組み合わせ、見込み客の調査から商談準備、…",
-      "lead": "OpenAIは2026年11月17日、営業チーム向けの新しい取り組み「ChatGPT for Sales」を発表しました。OpenAIが自社開発した「Sales」プラグインと、30以上の新規・拡張パートナープラグインを組み合わせ、見込み客の調査から商談準備、フォローアップ、CRM（顧客管理システム）の更新までをChatGPT上で進められるようにします。営業担当者が複数のツールを行き来する手間を減らし、顧客理解と案件の前進に時間を使えるようにすることが狙いです。",
-      "headings": [
-        "Salesプラグインの中身",
-        "パートナープラグインの広がり",
-        "背景と影響",
-        "今後の展望"
-      ],
-      "source_url": "https://openai.com/index/introducing-chatgpt-for-sales/",
-      "source_urls": [
-        "https://openai.com/index/introducing-chatgpt-for-sales/"
-      ],
-      "source_label": "openai.com",
-      "cover": "assets/posts/1572555416875831397.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1572555416875831397",
-      "first_seen": "2026-11-18T10:13:48.050Z",
-      "kind": "feature",
-      "kind_confidence": 0.93
-    },
-    {
-      "id": "1572555297283641445",
-      "title": "OpenAI「GPT-6.2 Astra／Sol」を発表 高性能と低コストを両立、サイバー分野では安全策を強化",
-      "channel": "chatgpt",
-      "category": "Open AI",
-      "date": "2026-11-18T10:13:19.537Z",
-      "excerpt": "OpenAIは2026年11月17日、新モデル「GPT-6.2 Astra」と「GPT-6.2 Sol」を発表しました。Astraは難度の高い専門業務や科学研究向けのフロンティアモデル、Solは日常業務向けの効率重視モデルです。どちらも前世代より少ない出力ト…",
-      "lead": "OpenAIは2026年11月17日、新モデル「GPT-6.2 Astra」と「GPT-6.2 Sol」を発表しました。Astraは難度の高い専門業務や科学研究向けのフロンティアモデル、Solは日常業務向けの効率重視モデルです。どちらも前世代より少ない出力トークンで課題をこなせるとされ、APIの料金も据え置きまたは値下げとなりました。",
-      "headings": [
-        "2モデルの位置付けと提供形態",
-        "技術的なポイントとベンチマーク",
-        "外部評価で見えた課題",
-        "サイバーセキュリティと安全性",
-        "今後の展望"
-      ],
-      "source_url": "https://openai.com/ja-JP/index/introducing-gpt-6-2-astra-sol/",
-      "source_urls": [
-        "https://openai.com/ja-JP/index/introducing-gpt-6-2-astra-sol/"
-      ],
-      "source_label": "openai.com",
-      "cover": "assets/posts/1572555297283641445.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1415353131604377641/threads/1572555297283641445",
-      "first_seen": "2026-11-18T10:13:19.537Z",
-      "kind": "model",
-      "kind_confidence": 1
-    },
-    {
-      "id": "1572081753445761177",
-      "title": "OpenAI、研究者向けChatGPT無償提供を20万人規模へ倍増 ProPlusへ切り替え、先着順で5万件の新規枠",
-      "channel": "open-ai",
-      "category": "Open AI",
-      "date": "2026-11-17T02:51:37.888Z",
-      "excerpt": "OpenAIは2026年11月16日、学術研究者に最先端モデルを無償で提供する「ChatGPT for Academic Researchers」の拡大を発表しました。対象の目標を当初の10万人から世界20万人へ倍増し、11月23日（月）から5万件の新規グラ…",
-      "lead": "OpenAIは2026年11月16日、学術研究者に最先端モデルを無償で提供する「ChatGPT for Academic Researchers」の拡大を発表しました。対象の目標を当初の10万人から世界20万人へ倍増し、11月23日（月）から5万件の新規グラントの申請受付を先着順で始めます。一方で、提供プランはパイロット時のChatGPT Proから、ChatGPT Plusへ切り替わります。",
-      "headings": [
-        "拡大の概要",
-        "なぜProからPlusへ切り替えたのか",
-        "研究現場への影響と注意点",
-        "関連する取り組み",
-        "今後の展望"
-      ],
-      "source_url": "https://openai.com/ja-JP/index/expanding-chatgpt-for-academic-researchers/",
-      "source_urls": [
-        "https://openai.com/ja-JP/index/expanding-chatgpt-for-academic-researchers/"
-      ],
-      "source_label": "openai.com",
-      "cover": "assets/posts/1572081753445761177.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1572081753445761177",
-      "first_seen": "2026-11-17T02:51:37.888Z",
-      "kind": "feature",
-      "kind_confidence": 0.99
     }
   ]
 }
