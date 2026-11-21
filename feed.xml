@@ -5,8 +5,32 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 20 Nov 2026 17:19:27 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 23:10:23 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Thinking Machines Lab、ノートPCで動くループ型MoEモデル「Inkling 2 Mini」をオープンウェイトで公開</title>
+      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1573475628164980978</link>
+      <guid isPermaLink="false">afnjp-1573475628164980978</guid>
+      <pubDate>Fri, 20 Nov 2026 23:10:23 GMT</pubDate>
+      <category>その他</category>
+      <description>Thinking Machines Labは2026年11月20日、オープンウェイトモデル「Inkling 2 Mini」を発表しました。総パラメータ264億、アクティブ34億のMoE（Mixture-of-Experts）構成に、中間層を繰り返し使う「ルー…</description>
+    </item>
+    <item>
+      <title>OpenAI、創薬化学の推論力を測る新ベンチマーク「MedChemBench」を公開 GPT-6.2 Astraが84.5%で首位</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1573474954215694387</link>
+      <guid isPermaLink="false">afnjp-1573474954215694387</guid>
+      <pubDate>Fri, 20 Nov 2026 23:07:42 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIは2026年11月20日、医薬品化学（メディシナルケミストリー）の研究から作った推論タスクでAIモデルを評価する新ベンチマーク「MedChemBench」を発表しました。分子構造を読み取り、実験結果を解釈して、次に試すべき化合物を選ぶ力を測ります…</description>
+    </item>
+    <item>
+      <title>ElevenLabs「Ads Engine」に新機能、動画広告のバリエーション生成と多言語化をAIで自動化</title>
+      <link>https://discord.com/channels/1415350002255007784/1441006356399259719/threads/1573474816944767016</link>
+      <guid isPermaLink="false">afnjp-1573474816944767016</guid>
+      <pubDate>Fri, 20 Nov 2026 23:07:10 GMT</pubDate>
+      <category>eleven-labs</category>
+      <description>音声AI企業のElevenLabsは2026年11月20日、広告制作基盤「ElevenCreative」に含まれる「Ads Engine」に新機能を追加したと発表しました。既存の動画広告をもとに、冒頭フックやBGMを差し替えたバリエーションを作れるほか、吹き…</description>
+    </item>
     <item>
       <title>Nous Researchが「Hermes Agent Enterprise」をMicrosoft Marketplaceで公開、TeamsからAIエージェントに業務を依頼可能に</title>
       <link>https://discord.com/channels/1415350002255007784/1432720743279497367/threads/1573387311184355358</link>
@@ -78,30 +102,6 @@
       <pubDate>Wed, 18 Nov 2026 21:07:55 GMT</pubDate>
       <category>gemini</category>
       <description>Googleは2026年11月18日、生成AIアシスタント「Gemini」アプリを、メモリ容量の少ないAndroid（Go edition）端末でも使えるようにしたと発表しました。これまで対象端末で使えたのは基本的な音声コマンドだけでしたが、今回アプリの構造…</description>
-    </item>
-    <item>
-      <title>Tencent「Hy4 flash」公開 総パラメータ220B・活性12BのMoE、1Mコンテキストと低コストを両立</title>
-      <link>https://discord.com/channels/1415350002255007784/1460898443923820618/threads/1572610596896252006</link>
-      <guid isPermaLink="false">afnjp-1572610596896252006</guid>
-      <pubDate>Wed, 18 Nov 2026 13:53:03 GMT</pubDate>
-      <category>hunyuan</category>
-      <description>TencentのHyチームは、マルチモーダル対応のMoE（Mixture-of-Experts）モデル「Hy4 flash」をHugging Faceで公開しました。総パラメータは220B、1トークンあたりの活性パラメータは約12Bで、コンテキスト長は1Mト…</description>
-    </item>
-    <item>
-      <title>Microsoft Ignite 2026開幕：Copilotは「Autopilot」へ、自社モデルMAIとAIコスト管理を一斉投入</title>
-      <link>https://discord.com/channels/1415350002255007784/1432720743279497367/threads/1572556987571634177</link>
-      <guid isPermaLink="false">afnjp-1572556987571634177</guid>
-      <pubDate>Wed, 18 Nov 2026 10:20:02 GMT</pubDate>
-      <category>microsoft</category>
-      <description>米Microsoftは2026年11月17日、年次カンファレンス「Microsoft Ignite 2026」（サンフランシスコ／オンライン、20日まで）を開幕しました。Copilotの刷新、常駐型エージェント「Autopilot」、自社開発モデル「MAI」…</description>
-    </item>
-    <item>
-      <title>Google Vids、自分の分身が話す「パーソナルアバター」を個人ユーザーに無料開放</title>
-      <link>https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1572555841767211078</link>
-      <guid isPermaLink="false">afnjp-1572555841767211078</guid>
-      <pubDate>Wed, 18 Nov 2026 10:15:29 GMT</pubDate>
-      <category>google</category>
-      <description>Googleは2026年11月17日、動画作成ツール「Google Vids」で、自分そっくりのデジタルアバターを作って動画に登場させられる「パーソナルアバター」機能を発表しました。個人用Googleアカウントを持つすべてのユーザーが、発表当日から無料で使え…</description>
     </item>
   </channel>
 </rss>

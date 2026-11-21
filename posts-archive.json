@@ -1,9 +1,85 @@
 {
-  "generated_at": "2026-11-20T20:08:27.907Z",
+  "generated_at": "2026-11-21T01:28:32.550Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 601,
+  "count": 604,
   "posts": [
+    {
+      "id": "1573475628164980978",
+      "title": "Thinking Machines Lab、ノートPCで動くループ型MoEモデル「Inkling 2 Mini」をオープンウェイトで公開",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-11-20T23:10:23.518Z",
+      "excerpt": "Thinking Machines Labは2026年11月20日、オープンウェイトモデル「Inkling 2 Mini」を発表しました。総パラメータ264億、アクティブ34億のMoE（Mixture-of-Experts）構成に、中間層を繰り返し使う「ルー…",
+      "lead": "Thinking Machines Labは2026年11月20日、オープンウェイトモデル「Inkling 2 Mini」を発表しました。総パラメータ264億、アクティブ34億のMoE（Mixture-of-Experts）構成に、中間層を繰り返し使う「ループ型Transformer」を組み合わせています。約20GBのメモリで動き、エージェント型コーディングでは100B未満のオープンモデルの中で最高水準のスコアを示しました。",
+      "headings": [
+        "層を使い回して「1トークンあたりの思考量」を増やす",
+        "ベンチマーク：エージェント・検索タスクで高スコア",
+        "弱点も明示",
+        "導入経路が広い",
+        "今後の展望"
+      ],
+      "source_url": "https://thinkingmachines.ai/news/inkling-2-mini/",
+      "source_urls": [
+        "https://thinkingmachines.ai/news/inkling-2-mini/"
+      ],
+      "source_label": "thinkingmachines.ai",
+      "cover": "assets/posts/1573475628164980978.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1573475628164980978",
+      "first_seen": "2026-11-20T23:10:23.518Z",
+      "kind": "model",
+      "kind_confidence": 0.99
+    },
+    {
+      "id": "1573474954215694387",
+      "title": "OpenAI、創薬化学の推論力を測る新ベンチマーク「MedChemBench」を公開 GPT-6.2 Astraが84.5%で首位",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-11-20T23:07:42.836Z",
+      "excerpt": "OpenAIは2026年11月20日、医薬品化学（メディシナルケミストリー）の研究から作った推論タスクでAIモデルを評価する新ベンチマーク「MedChemBench」を発表しました。分子構造を読み取り、実験結果を解釈して、次に試すべき化合物を選ぶ力を測ります…",
+      "lead": "OpenAIは2026年11月20日、医薬品化学（メディシナルケミストリー）の研究から作った推論タスクでAIモデルを評価する新ベンチマーク「MedChemBench」を発表しました。分子構造を読み取り、実験結果を解釈して、次に試すべき化合物を選ぶ力を測ります。OpenAIの最新モデルは高いスコアを出しましたが、得意な分野と苦手な分野の差もはっきりしました。",
+      "headings": [
+        "ベンチマークの構成",
+        "モデル別の結果",
+        "結果を読むうえでの注意点",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/introducing-medchembench/",
+      "source_urls": [
+        "https://openai.com/index/introducing-medchembench/"
+      ],
+      "source_label": "openai.com",
+      "cover": "assets/posts/1573474954215694387.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1573474954215694387",
+      "first_seen": "2026-11-20T23:07:42.836Z",
+      "kind": "research",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1573474816944767016",
+      "title": "ElevenLabs「Ads Engine」に新機能、動画広告のバリエーション生成と多言語化をAIで自動化",
+      "channel": "eleven-labs",
+      "category": "その他",
+      "date": "2026-11-20T23:07:10.108Z",
+      "excerpt": "音声AI企業のElevenLabsは2026年11月20日、広告制作基盤「ElevenCreative」に含まれる「Ads Engine」に新機能を追加したと発表しました。既存の動画広告をもとに、冒頭フックやBGMを差し替えたバリエーションを作れるほか、吹き…",
+      "lead": "音声AI企業のElevenLabsは2026年11月20日、広告制作基盤「ElevenCreative」に含まれる「Ads Engine」に新機能を追加したと発表しました。既存の動画広告をもとに、冒頭フックやBGMを差し替えたバリエーションを作れるほか、吹き替えや字幕翻訳による多言語版も作成できます。音声合成、ボイスクローン、音楽生成、吹き替えといった同社のAI技術を、広告運用のワークフローにまとめた点が特徴です。",
+      "headings": [
+        "4つの主要機能",
+        "広告プラットフォームと連携したワークフロー",
+        "影響と導入時の注意点",
+        "今後の展望"
+      ],
+      "source_url": "https://elevenlabs.io/blog/video-variants-localization-ads-engine",
+      "source_urls": [
+        "https://elevenlabs.io/blog/video-variants-localization-ads-engine"
+      ],
+      "source_label": "elevenlabs.io",
+      "cover": "assets/posts/1573474816944767016.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1441006356399259719/threads/1573474816944767016",
+      "first_seen": "2026-11-20T23:07:10.108Z",
+      "kind": "feature",
+      "kind_confidence": 1
+    },
     {
       "id": "1573387311184355358",
       "title": "Nous Researchが「Hermes Agent Enterprise」をMicrosoft Marketplaceで公開、TeamsからAIエージェントに業務を依頼可能に",
