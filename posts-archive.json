@@ -1,9 +1,35 @@
 {
-  "generated_at": "2026-11-23T00:16:25.514Z",
+  "generated_at": "2026-11-23T07:42:59.853Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 605,
+  "count": 606,
   "posts": [
+    {
+      "id": "1574217198598094971",
+      "title": "OpenAIが社内のパープレキシティ値を初公開、業界共通の「開発上限」導入を提案",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-11-23T00:17:07.687Z",
+      "excerpt": "OpenAIのチーフサイエンティスト、ヤクブ・パホツキ氏は2026年11月22日、論考「Perplexity and Intelligence」を公開しました。事前学習モデルの予測精度を示す「パープレキシティ」を、AI開発の進み具合と安全性を測る業界共通の指…",
+      "lead": "OpenAIのチーフサイエンティスト、ヤクブ・パホツキ氏は2026年11月22日、論考「Perplexity and Intelligence」を公開しました。事前学習モデルの予測精度を示す「パープレキシティ」を、AI開発の進み具合と安全性を測る業界共通の指標にすべきだと主張しています。あわせて、OpenAI社内の事前学習における測定値を初めて公開しました。",
+      "headings": [
+        "パープレキシティとは何か",
+        "公開された数値と能力の閾値",
+        "「共通の上限」という提案",
+        "指標としての限界",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/index/perplexity-and-intelligence/",
+      "source_urls": [
+        "https://openai.com/index/perplexity-and-intelligence/"
+      ],
+      "source_label": "openai.com",
+      "cover": "assets/posts/1574217198598094971.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1574217198598094971",
+      "first_seen": "2026-11-23T00:17:07.687Z",
+      "kind": "research",
+      "kind_confidence": 0.94
+    },
     {
       "id": "1574216939008565361",
       "title": "inclusionAI、医療特化のオープンウェイトMoE「LingSante-3.1-flash」を公開 総パラメータ560B・100万トークン文脈に対応",

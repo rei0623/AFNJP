@@ -5,8 +5,16 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 23 Nov 2026 00:16:05 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 00:17:07 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>OpenAIが社内のパープレキシティ値を初公開、業界共通の「開発上限」導入を提案</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1574217198598094971</link>
+      <guid isPermaLink="false">afnjp-1574217198598094971</guid>
+      <pubDate>Mon, 23 Nov 2026 00:17:07 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIのチーフサイエンティスト、ヤクブ・パホツキ氏は2026年11月22日、論考「Perplexity and Intelligence」を公開しました。事前学習モデルの予測精度を示す「パープレキシティ」を、AI開発の進み具合と安全性を測る業界共通の指…</description>
+    </item>
     <item>
       <title>inclusionAI、医療特化のオープンウェイトMoE「LingSante-3.1-flash」を公開 総パラメータ560B・100万トークン文脈に対応</title>
       <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1574216939008565361</link>
@@ -94,14 +102,6 @@
       <pubDate>Wed, 18 Nov 2026 23:47:09 GMT</pubDate>
       <category>anthropic</category>
       <description>Claudeを開発するAnthropicは2026年11月18日、新規株式公開（IPO）の公開価格をクラスA普通株1株あたり83.00ドルに決めたと発表しました。株式はNasdaq Global Select Marketにティッカーシンボル「ANT」で上場…</description>
-    </item>
-    <item>
-      <title>Google、「Gemini 4 Neon」を発表 フロンティア級の性能とコスト効率を両立した中位モデル</title>
-      <link>https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1572759923522273432</link>
-      <guid isPermaLink="false">afnjp-1572759923522273432</guid>
-      <pubDate>Wed, 18 Nov 2026 23:46:26 GMT</pubDate>
-      <category>gemini</category>
-      <description>Google DeepMindは2026年11月18日、Gemini 4ファミリーの新モデル「Gemini 4 Neon」を発表しました。ソフトウェア開発、ナレッジワーク、科学分野での高速なタスク完遂を掲げ、上位モデル「Carbon」に迫る性能を低コストで提…</description>
     </item>
   </channel>
 </rss>
