@@ -5,8 +5,16 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 20 Nov 2026 23:10:23 GMT</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 00:16:05 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>inclusionAI、医療特化のオープンウェイトMoE「LingSante-3.1-flash」を公開 総パラメータ560B・100万トークン文脈に対応</title>
+      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1574216939008565361</link>
+      <guid isPermaLink="false">afnjp-1574216939008565361</guid>
+      <pubDate>Mon, 23 Nov 2026 00:16:05 GMT</pubDate>
+      <category>その他</category>
+      <description>inclusionAIは、医療分野に特化した大規模言語モデル「LingSante-3.1-flash」をHugging Faceで公開しました。汎用モデル「Ling-3.1-flash」をベースにしたハイブリッド線形MoE（Mixture-of-Expert…</description>
+    </item>
     <item>
       <title>Thinking Machines Lab、ノートPCで動くループ型MoEモデル「Inkling 2 Mini」をオープンウェイトで公開</title>
       <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1573475628164980978</link>
@@ -94,14 +102,6 @@
       <pubDate>Wed, 18 Nov 2026 23:46:26 GMT</pubDate>
       <category>gemini</category>
       <description>Google DeepMindは2026年11月18日、Gemini 4ファミリーの新モデル「Gemini 4 Neon」を発表しました。ソフトウェア開発、ナレッジワーク、科学分野での高速なタスク完遂を掲げ、上位モデル「Carbon」に迫る性能を低コストで提…</description>
-    </item>
-    <item>
-      <title>Gemini、低メモリのAndroid（Go edition）端末に対応 Gemini LiveやNano Bananaによる画像生成も利用可能に</title>
-      <link>https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1572720033610604745</link>
-      <guid isPermaLink="false">afnjp-1572720033610604745</guid>
-      <pubDate>Wed, 18 Nov 2026 21:07:55 GMT</pubDate>
-      <category>gemini</category>
-      <description>Googleは2026年11月18日、生成AIアシスタント「Gemini」アプリを、メモリ容量の少ないAndroid（Go edition）端末でも使えるようにしたと発表しました。これまで対象端末で使えたのは基本的な音声コマンドだけでしたが、今回アプリの構造…</description>
     </item>
   </channel>
 </rss>

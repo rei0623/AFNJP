@@ -1,9 +1,35 @@
 {
-  "generated_at": "2026-11-22T18:30:32.833Z",
+  "generated_at": "2026-11-23T00:16:25.514Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 604,
+  "count": 605,
   "posts": [
+    {
+      "id": "1574216939008565361",
+      "title": "inclusionAI、医療特化のオープンウェイトMoE「LingSante-3.1-flash」を公開 総パラメータ560B・100万トークン文脈に対応",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-11-23T00:16:05.796Z",
+      "excerpt": "inclusionAIは、医療分野に特化した大規模言語モデル「LingSante-3.1-flash」をHugging Faceで公開しました。汎用モデル「Ling-3.1-flash」をベースにしたハイブリッド線形MoE（Mixture-of-Expert…",
+      "lead": "inclusionAIは、医療分野に特化した大規模言語モデル「LingSante-3.1-flash」をHugging Faceで公開しました。汎用モデル「Ling-3.1-flash」をベースにしたハイブリッド線形MoE（Mixture-of-Experts）構成で、総パラメータは560B、トークンごとに動くアクティブパラメータは25Bです。最大100万トークンの文脈長を持ち、ライセンスは商用利用もしやすいMITです。",
+      "headings": [
+        "アーキテクチャ：線形アテンションとMLAのハイブリッド",
+        "学習パイプライン",
+        "性能と想定用途",
+        "導入上の注意点",
+        "今後の展望"
+      ],
+      "source_url": "https://huggingface.co/inclusionAI/LingSante-3.1-flash",
+      "source_urls": [
+        "https://huggingface.co/inclusionAI/LingSante-3.1-flash"
+      ],
+      "source_label": "huggingface.co",
+      "cover": "assets/posts/1574216939008565361.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1574216939008565361",
+      "first_seen": "2026-11-23T00:16:05.796Z",
+      "kind": "model",
+      "kind_confidence": 1
+    },
     {
       "id": "1573475628164980978",
       "title": "Thinking Machines Lab、ノートPCで動くループ型MoEモデル「Inkling 2 Mini」をオープンウェイトで公開",
