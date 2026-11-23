@@ -1,8 +1,33 @@
 {
-  "generated_at": "2026-11-23T14:17:47.634Z",
+  "generated_at": "2026-11-23T15:17:34.428Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1574432066773450772",
+      "title": "Z.ai「GLM-5.4」発表 初のLoop Transformer採用で750Bモデルが2〜3T級の知能を主張",
+      "channel": "glm",
+      "category": "その他",
+      "date": "2026-11-23T14:30:56.252Z",
+      "excerpt": "中国のAI企業Z.ai（Zhipu AI）は2026年11月23日、新フラッグシップモデル「GLM-5.4」を発表しました。パラメータ数を増やさずに既存の層を繰り返し実行する「Loop Transformer」を初めて採用したモデルです。コードを使って動画・…",
+      "lead": "中国のAI企業Z.ai（Zhipu AI）は2026年11月23日、新フラッグシップモデル「GLM-5.4」を発表しました。パラメータ数を増やさずに既存の層を繰り返し実行する「Loop Transformer」を初めて採用したモデルです。コードを使って動画・ゲーム・3D・CADまで扱う「Generalized Coding（汎用コーディング）」の始まりと位置付けています。",
+      "headings": [
+        "層を2回通すLoop Transformer",
+        "効率と提供形態",
+        "評価上の注意点",
+        "今後の展望"
+      ],
+      "source_url": "https://z.ai/blog/glm-5.4",
+      "source_urls": [
+        "https://z.ai/blog/glm-5.4"
+      ],
+      "source_label": "z.ai",
+      "cover": "assets/posts/1574432066773450772.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1418395473290461285/threads/1574432066773450772",
+      "first_seen": "2026-11-23T14:30:56.252Z",
+      "kind": "model",
+      "kind_confidence": 1
+    },
     {
       "id": "1574217198598094971",
       "title": "OpenAIが社内のパープレキシティ値を初公開、業界共通の「開発上限」導入を提案",
@@ -278,32 +303,6 @@
       "url": "https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1573371692229722262",
       "first_seen": "2026-11-20T16:17:23.260Z",
       "kind": "feature",
-      "kind_confidence": 1
-    },
-    {
-      "id": "1572760104841908234",
-      "title": "Anthropic、IPO価格を1株83ドルに決定 Nasdaqで「ANT」として取引開始",
-      "channel": "anthropic",
-      "category": "Anthropic",
-      "date": "2026-11-18T23:47:09.464Z",
-      "excerpt": "Claudeを開発するAnthropicは2026年11月18日、新規株式公開（IPO）の公開価格をクラスA普通株1株あたり83.00ドルに決めたと発表しました。株式はNasdaq Global Select Marketにティッカーシンボル「ANT」で上場…",
-      "lead": "Claudeを開発するAnthropicは2026年11月18日、新規株式公開（IPO）の公開価格をクラスA普通株1株あたり83.00ドルに決めたと発表しました。株式はNasdaq Global Select Marketにティッカーシンボル「ANT」で上場し、11月19日に取引が始まります。生成AIの基盤モデル企業として最大級の上場案件となり、AI業界と資本市場の双方から注目が集まっています。",
-      "headings": [
-        "オファリングの概要",
-        "調達規模の目安",
-        "背景：公益法人という特殊な企業形態",
-        "業界・ユーザーへの影響",
-        "今後の展望"
-      ],
-      "source_url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
-      "source_urls": [
-        "https://www.anthropic.com/news/anthropic-prices-initial-public-offering"
-      ],
-      "source_label": "anthropic.com",
-      "cover": "assets/posts/1572760104841908234.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1572760104841908234",
-      "first_seen": "2026-11-18T23:47:09.464Z",
-      "kind": "business",
       "kind_confidence": 1
     }
   ]

@@ -1,9 +1,34 @@
 {
-  "generated_at": "2026-11-23T14:17:47.629Z",
+  "generated_at": "2026-11-23T15:17:34.421Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 606,
+  "count": 607,
   "posts": [
+    {
+      "id": "1574432066773450772",
+      "title": "Z.ai「GLM-5.4」発表 初のLoop Transformer採用で750Bモデルが2〜3T級の知能を主張",
+      "channel": "glm",
+      "category": "その他",
+      "date": "2026-11-23T14:30:56.252Z",
+      "excerpt": "中国のAI企業Z.ai（Zhipu AI）は2026年11月23日、新フラッグシップモデル「GLM-5.4」を発表しました。パラメータ数を増やさずに既存の層を繰り返し実行する「Loop Transformer」を初めて採用したモデルです。コードを使って動画・…",
+      "lead": "中国のAI企業Z.ai（Zhipu AI）は2026年11月23日、新フラッグシップモデル「GLM-5.4」を発表しました。パラメータ数を増やさずに既存の層を繰り返し実行する「Loop Transformer」を初めて採用したモデルです。コードを使って動画・ゲーム・3D・CADまで扱う「Generalized Coding（汎用コーディング）」の始まりと位置付けています。",
+      "headings": [
+        "層を2回通すLoop Transformer",
+        "効率と提供形態",
+        "評価上の注意点",
+        "今後の展望"
+      ],
+      "source_url": "https://z.ai/blog/glm-5.4",
+      "source_urls": [
+        "https://z.ai/blog/glm-5.4"
+      ],
+      "source_label": "z.ai",
+      "cover": "assets/posts/1574432066773450772.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1418395473290461285/threads/1574432066773450772",
+      "first_seen": "2026-11-23T14:30:56.252Z",
+      "kind": "model",
+      "kind_confidence": 1
+    },
     {
       "id": "1574217198598094971",
       "title": "OpenAIが社内のパープレキシティ値を初公開、業界共通の「開発上限」導入を提案",
