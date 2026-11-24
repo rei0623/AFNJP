@@ -1,9 +1,62 @@
 {
-  "generated_at": "2026-11-23T23:17:40.575Z",
+  "generated_at": "2026-11-24T00:17:34.919Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 607,
+  "count": 609,
   "posts": [
+    {
+      "id": "1574577153889149048",
+      "title": "Anthropic、ゼロデータ保持と高度な不正検知を両立する「Enterprise Frontier Safeguards」をパブリックベータ公開",
+      "channel": "anthropic",
+      "category": "Anthropic",
+      "date": "2026-11-24T00:07:27.716Z",
+      "excerpt": "Anthropicは2026年11月23日、法人向けの新機能「Enterprise Frontier Safeguards（EFS）」のパブリックベータ提供を発表しました。ゼロデータ保持（ZDR）を守ったまま、複数のリクエストにまたがる高度な不正利用を検出で…",
+      "lead": "Anthropicは2026年11月23日、法人向けの新機能「Enterprise Frontier Safeguards（EFS）」のパブリックベータ提供を発表しました。ゼロデータ保持（ZDR）を守ったまま、複数のリクエストにまたがる高度な不正利用を検出できる点が特徴です。データの扱いに厳しい規制がある業界でも、Claudeを導入しやすくなる可能性があります。",
+      "headings": [
+        "従来のZDRが抱えていた課題",
+        "EFSの仕組み：自動安全監視",
+        "データ保護の保証内容",
+        "対応環境と導入状況",
+        "注意点",
+        "今後の展望"
+      ],
+      "source_url": "https://claude.com/ja/resources/articles/zero-data-retention-with-enterprise-frontier-safeguards",
+      "source_urls": [
+        "https://claude.com/ja/resources/articles/zero-data-retention-with-enterprise-frontier-safeguards"
+      ],
+      "source_label": "claude.com",
+      "cover": "assets/posts/1574577153889149048.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1574577153889149048",
+      "first_seen": "2026-11-24T00:07:27.716Z",
+      "kind": "feature",
+      "kind_confidence": 0.98
+    },
+    {
+      "id": "1574574272322601153",
+      "title": "OpenAI「OpenWorks」始動 米国の小規模事業者に無料AI伴走支援、パートナーに月最大8,000ドル",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-11-23T23:56:00.697Z",
+      "excerpt": "OpenAIは、米国の小規模事業者に無料で実践的なAI支援を届けるプログラム「OpenWorks」を公開しました。地域ごとに「OpenWorks Partner」と呼ぶ支援者のネットワークをつくり、専属パートナーが1対1で事業者のAI活用を手伝います。現在は…",
+      "lead": "OpenAIは、米国の小規模事業者に無料で実践的なAI支援を届けるプログラム「OpenWorks」を公開しました。地域ごとに「OpenWorks Partner」と呼ぶ支援者のネットワークをつくり、専属パートナーが1対1で事業者のAI活用を手伝います。現在は全米20都市でパイロットが進んでいます。",
+      "headings": [
+        "プログラムの仕組み",
+        "20都市でパイロット中",
+        "公開された活用事例",
+        "意義と課題",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/openworks/",
+      "source_urls": [
+        "https://openai.com/openworks/"
+      ],
+      "source_label": "openai.com",
+      "cover": "assets/posts/1574574272322601153.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1574574272322601153",
+      "first_seen": "2026-11-23T23:56:00.697Z",
+      "kind": "business",
+      "kind_confidence": 0.5
+    },
     {
       "id": "1574432066773450772",
       "title": "Z.ai「GLM-5.4」発表 初のLoop Transformer採用で750Bモデルが2〜3T級の知能を主張",

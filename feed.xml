@@ -5,8 +5,24 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Mon, 23 Nov 2026 14:30:56 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 00:07:27 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Anthropic、ゼロデータ保持と高度な不正検知を両立する「Enterprise Frontier Safeguards」をパブリックベータ公開</title>
+      <link>https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1574577153889149048</link>
+      <guid isPermaLink="false">afnjp-1574577153889149048</guid>
+      <pubDate>Tue, 24 Nov 2026 00:07:27 GMT</pubDate>
+      <category>anthropic</category>
+      <description>Anthropicは2026年11月23日、法人向けの新機能「Enterprise Frontier Safeguards（EFS）」のパブリックベータ提供を発表しました。ゼロデータ保持（ZDR）を守ったまま、複数のリクエストにまたがる高度な不正利用を検出で…</description>
+    </item>
+    <item>
+      <title>OpenAI「OpenWorks」始動 米国の小規模事業者に無料AI伴走支援、パートナーに月最大8,000ドル</title>
+      <link>https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1574574272322601153</link>
+      <guid isPermaLink="false">afnjp-1574574272322601153</guid>
+      <pubDate>Mon, 23 Nov 2026 23:56:00 GMT</pubDate>
+      <category>open-ai</category>
+      <description>OpenAIは、米国の小規模事業者に無料で実践的なAI支援を届けるプログラム「OpenWorks」を公開しました。地域ごとに「OpenWorks Partner」と呼ぶ支援者のネットワークをつくり、専属パートナーが1対1で事業者のAI活用を手伝います。現在は…</description>
+    </item>
     <item>
       <title>Z.ai「GLM-5.4」発表 初のLoop Transformer採用で750Bモデルが2〜3T級の知能を主張</title>
       <link>https://discord.com/channels/1415350002255007784/1418395473290461285/threads/1574432066773450772</link>
@@ -86,22 +102,6 @@
       <pubDate>Fri, 20 Nov 2026 16:22:26 GMT</pubDate>
       <category>gemini</category>
       <description>Googleは2026年11月19日、Gemini APIの新機能「Tool Retrieval」を発表しました。エージェントが数十から数百のツールを扱うとき、各ツールのパラメータスキーマを必要になった時点で初めて読み込む仕組みです。現在はInteracti…</description>
-    </item>
-    <item>
-      <title>Google、世界生成モデル「Genie 4」をGemini APIで開発者に開放 720p・24fpsの操作可能なワールドを音声付きで生成</title>
-      <link>https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1573371945653895309</link>
-      <guid isPermaLink="false">afnjp-1573371945653895309</guid>
-      <pubDate>Fri, 20 Nov 2026 16:18:23 GMT</pubDate>
-      <category>gemini</category>
-      <description>Googleは2026年11月19日、前日に発表したインタラクティブな世界生成モデル「Genie 4」を、Gemini APIとGoogle AI Studioで開発者向けに提供すると発表しました。テキストや画像から、リアルタイムで歩き回れる3D的な世界を生…</description>
-    </item>
-    <item>
-      <title>GeminiのMacアプリに「コンピュータ操作」機能、バックグラウンドでアプリやWebの定型作業を代行</title>
-      <link>https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1573371692229722262</link>
-      <guid isPermaLink="false">afnjp-1573371692229722262</guid>
-      <pubDate>Fri, 20 Nov 2026 16:17:23 GMT</pubDate>
-      <category>gemini</category>
-      <description>Googleは2026年11月19日、Mac向けGeminiアプリに「computer use（コンピュータ操作）」機能を追加すると発表しました。ユーザーが作業内容を説明すると、GeminiがMac上のアプリやWebサイトをバックグラウンドで操作し、複数の手…</description>
     </item>
   </channel>
 </rss>

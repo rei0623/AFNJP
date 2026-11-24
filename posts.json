@@ -1,8 +1,61 @@
 {
-  "generated_at": "2026-11-23T23:17:40.581Z",
+  "generated_at": "2026-11-24T00:17:34.923Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1574577153889149048",
+      "title": "Anthropic、ゼロデータ保持と高度な不正検知を両立する「Enterprise Frontier Safeguards」をパブリックベータ公開",
+      "channel": "anthropic",
+      "category": "Anthropic",
+      "date": "2026-11-24T00:07:27.716Z",
+      "excerpt": "Anthropicは2026年11月23日、法人向けの新機能「Enterprise Frontier Safeguards（EFS）」のパブリックベータ提供を発表しました。ゼロデータ保持（ZDR）を守ったまま、複数のリクエストにまたがる高度な不正利用を検出で…",
+      "lead": "Anthropicは2026年11月23日、法人向けの新機能「Enterprise Frontier Safeguards（EFS）」のパブリックベータ提供を発表しました。ゼロデータ保持（ZDR）を守ったまま、複数のリクエストにまたがる高度な不正利用を検出できる点が特徴です。データの扱いに厳しい規制がある業界でも、Claudeを導入しやすくなる可能性があります。",
+      "headings": [
+        "従来のZDRが抱えていた課題",
+        "EFSの仕組み：自動安全監視",
+        "データ保護の保証内容",
+        "対応環境と導入状況",
+        "注意点",
+        "今後の展望"
+      ],
+      "source_url": "https://claude.com/ja/resources/articles/zero-data-retention-with-enterprise-frontier-safeguards",
+      "source_urls": [
+        "https://claude.com/ja/resources/articles/zero-data-retention-with-enterprise-frontier-safeguards"
+      ],
+      "source_label": "claude.com",
+      "cover": "assets/posts/1574577153889149048.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1574577153889149048",
+      "first_seen": "2026-11-24T00:07:27.716Z",
+      "kind": "feature",
+      "kind_confidence": 0.98
+    },
+    {
+      "id": "1574574272322601153",
+      "title": "OpenAI「OpenWorks」始動 米国の小規模事業者に無料AI伴走支援、パートナーに月最大8,000ドル",
+      "channel": "open-ai",
+      "category": "Open AI",
+      "date": "2026-11-23T23:56:00.697Z",
+      "excerpt": "OpenAIは、米国の小規模事業者に無料で実践的なAI支援を届けるプログラム「OpenWorks」を公開しました。地域ごとに「OpenWorks Partner」と呼ぶ支援者のネットワークをつくり、専属パートナーが1対1で事業者のAI活用を手伝います。現在は…",
+      "lead": "OpenAIは、米国の小規模事業者に無料で実践的なAI支援を届けるプログラム「OpenWorks」を公開しました。地域ごとに「OpenWorks Partner」と呼ぶ支援者のネットワークをつくり、専属パートナーが1対1で事業者のAI活用を手伝います。現在は全米20都市でパイロットが進んでいます。",
+      "headings": [
+        "プログラムの仕組み",
+        "20都市でパイロット中",
+        "公開された活用事例",
+        "意義と課題",
+        "今後の展望"
+      ],
+      "source_url": "https://openai.com/openworks/",
+      "source_urls": [
+        "https://openai.com/openworks/"
+      ],
+      "source_label": "openai.com",
+      "cover": "assets/posts/1574574272322601153.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1574574272322601153",
+      "first_seen": "2026-11-23T23:56:00.697Z",
+      "kind": "business",
+      "kind_confidence": 0.5
+    },
     {
       "id": "1574432066773450772",
       "title": "Z.ai「GLM-5.4」発表 初のLoop Transformer採用で750Bモデルが2〜3T級の知能を主張",
@@ -254,56 +307,6 @@
       "first_seen": "2026-11-20T16:22:26.797Z",
       "kind": "tool",
       "kind_confidence": 0.47
-    },
-    {
-      "id": "1573371945653895309",
-      "title": "Google、世界生成モデル「Genie 4」をGemini APIで開発者に開放 720p・24fpsの操作可能なワールドを音声付きで生成",
-      "channel": "gemini",
-      "category": "Google",
-      "date": "2026-11-20T16:18:23.681Z",
-      "excerpt": "Googleは2026年11月19日、前日に発表したインタラクティブな世界生成モデル「Genie 4」を、Gemini APIとGoogle AI Studioで開発者向けに提供すると発表しました。テキストや画像から、リアルタイムで歩き回れる3D的な世界を生…",
-      "lead": "Googleは2026年11月19日、前日に発表したインタラクティブな世界生成モデル「Genie 4」を、Gemini APIとGoogle AI Studioで開発者向けに提供すると発表しました。テキストや画像から、リアルタイムで歩き回れる3D的な世界を生成し、音声まで同期させる点が大きな特徴です。これまで研究段階の印象が強かった「ワールドモデル」を、開発者がAPI経由で自分のアプリに組み込めるようになります。",
-      "headings": [
-        "Genie 4の技術的な特徴",
-        "提供形態と開発者向けの使い道",
-        "安全性への配慮と留意点",
-        "今後の展望"
-      ],
-      "source_url": "https://blog.google/innovation-and-ai/technology/developers-tools/genie-4-in-gemini-api/",
-      "source_urls": [
-        "https://blog.google/innovation-and-ai/technology/developers-tools/genie-4-in-gemini-api/"
-      ],
-      "source_label": "blog.google",
-      "cover": "assets/posts/1573371945653895309.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1573371945653895309",
-      "first_seen": "2026-11-20T16:18:23.681Z",
-      "kind": "model",
-      "kind_confidence": 0.77
-    },
-    {
-      "id": "1573371692229722262",
-      "title": "GeminiのMacアプリに「コンピュータ操作」機能、バックグラウンドでアプリやWebの定型作業を代行",
-      "channel": "gemini",
-      "category": "Google",
-      "date": "2026-11-20T16:17:23.260Z",
-      "excerpt": "Googleは2026年11月19日、Mac向けGeminiアプリに「computer use（コンピュータ操作）」機能を追加すると発表しました。ユーザーが作業内容を説明すると、GeminiがMac上のアプリやWebサイトをバックグラウンドで操作し、複数の手…",
-      "lead": "Googleは2026年11月19日、Mac向けGeminiアプリに「computer use（コンピュータ操作）」機能を追加すると発表しました。ユーザーが作業内容を説明すると、GeminiがMac上のアプリやWebサイトをバックグラウンドで操作し、複数の手順にまたがる作業を代わりに進めます。まず米国の有料プラン利用者から段階的に提供されます。",
-      "headings": [
-        "技術的詳細：独立したウィンドウで操作を自律実行",
-        "想定されるユースケース",
-        "背景と影響：エージェント型AIがデスクトップにも本格展開",
-        "今後の展望"
-      ],
-      "source_url": "https://blog.google/innovation-and-ai/products/gemini-app/computer-use-mac/",
-      "source_urls": [
-        "https://blog.google/innovation-and-ai/products/gemini-app/computer-use-mac/"
-      ],
-      "source_label": "blog.google",
-      "cover": "assets/posts/1573371692229722262.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1573371692229722262",
-      "first_seen": "2026-11-20T16:17:23.260Z",
-      "kind": "feature",
-      "kind_confidence": 1
     }
   ]
 }
