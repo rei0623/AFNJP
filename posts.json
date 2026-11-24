@@ -1,8 +1,58 @@
 {
-  "generated_at": "2026-11-24T16:17:32.604Z",
+  "generated_at": "2026-11-24T17:17:39.914Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1574826692239818772",
+      "title": "テンセント、102言語対応の翻訳モデル群「Hy-MT3」を公開",
+      "channel": "hunyuan",
+      "category": "その他",
+      "date": "2026-11-24T16:39:02.295Z",
+      "excerpt": "テンセントは2026年11月24日、多言語翻訳モデルの第3世代となる「Hy-MT3」をHugging FaceおよびModelScopeでオープンソース公開しました。1.8B、7B、30B-A3Bの3サイズと各量子化版を含む計9モデルを展開し、対応言語数は前…",
+      "lead": "テンセントは2026年11月24日、多言語翻訳モデルの第3世代となる「Hy-MT3」をHugging FaceおよびModelScopeでオープンソース公開しました。1.8B、7B、30B-A3Bの3サイズと各量子化版を含む計9モデルを展開し、対応言語数は前世代の38言語から102言語へ拡大しています。同時に、翻訳品質の自動評価スイート「TransRubric」も公開されました。",
+      "headings": [
+        "ラインアップと技術的特徴",
+        "実務特化機能と評価基盤「TransRubric」",
+        "導入メリットと運用上の注意点",
+        "今後の展望"
+      ],
+      "source_url": "https://huggingface.co/collections/tencent/hy-mt3",
+      "source_urls": [
+        "https://huggingface.co/collections/tencent/hy-mt3"
+      ],
+      "source_label": "huggingface.co",
+      "cover": "assets/posts/1574826692239818772.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1460898443923820618/threads/1574826692239818772",
+      "first_seen": "2026-11-24T16:39:02.295Z",
+      "kind": "model",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1574821910313967721",
+      "title": "Google、Golden Stateとの提携を拡大しGeminiを全面統合",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-11-24T16:20:02.195Z",
+      "excerpt": "Googleは2026年11月24日、米国のスポーツ・エンターテインメント組織であるGolden Stateとのパートナーシップを拡大すると発表しました。これによりGoogle Geminiは、NBAのGolden State Warriors、2026年W…",
+      "lead": "Googleは2026年11月24日、米国のスポーツ・エンターテインメント組織であるGolden Stateとのパートナーシップを拡大すると発表しました。これによりGoogle Geminiは、NBAのGolden State Warriors、2026年WNBA王者のGolden State Valkyries、および本拠地Chase Centerの公式AIアシスタントパートナー、ならびに公式生成AI・エンタープライズLLMパートナーとなります。",
+      "headings": [
+        "ファン体験と業務運営の両面への統合",
+        "2019年から続く提携の背景と文脈",
+        "業界および組織運営への影響",
+        "今後の展望"
+      ],
+      "source_url": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state/",
+      "source_urls": [
+        "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state/"
+      ],
+      "source_label": "blog.google",
+      "cover": "assets/posts/1574821910313967721.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1574821910313967721",
+      "first_seen": "2026-11-24T16:20:02.195Z",
+      "kind": "business",
+      "kind_confidence": 0.93
+    },
     {
       "id": "1574814009285152788",
       "title": "TheStage AI、端末内で話者識別付き文字起こしを行う「ASRKit」と無料アプリ「Edgent」を公開",
@@ -259,55 +309,6 @@
       "first_seen": "2026-11-20T17:19:27.109Z",
       "kind": "tool",
       "kind_confidence": 0.45
-    },
-    {
-      "id": "1573386955436069004",
-      "title": "Geminiアプリで約3秒のループGIFが作れるように 日本も提供対象に",
-      "channel": "gemini",
-      "category": "Google",
-      "date": "2026-11-20T17:18:02.292Z",
-      "excerpt": "GoogleのGeminiアプリで、画像生成機能を使って短いループアニメーションGIFを作れるようになりました。ヘルプページによると、生成できるのは約3秒間繰り返し再生されるGIFです。提供地域には日本も含まれています。これまで静止画が中心だったGemini…",
-      "lead": "GoogleのGeminiアプリで、画像生成機能を使って短いループアニメーションGIFを作れるようになりました。ヘルプページによると、生成できるのは約3秒間繰り返し再生されるGIFです。提供地域には日本も含まれています。これまで静止画が中心だったGeminiの画像生成が、動きのある表現にまで広がりました。",
-      "headings": [
-        "新機能の概要",
-        "背景：静止画生成からの拡張",
-        "影響と注意点",
-        "今後の展望"
-      ],
-      "source_url": "https://support.google.com/gemini/answer/14286560?hl=en-GB&ref_topic=16079905&sjid=6771130285218858581-NC",
-      "source_urls": [
-        "https://support.google.com/gemini/answer/14286560?hl=en-GB&ref_topic=16079905&sjid=6771130285218858581-NC"
-      ],
-      "source_label": "support.google.com",
-      "url": "https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1573386955436069004",
-      "first_seen": "2026-11-20T17:18:02.292Z",
-      "kind": "feature",
-      "kind_confidence": 1
-    },
-    {
-      "id": "1573373390276919526",
-      "title": "Anthropic、Nasdaqで新規株式公開を完了 IPOと私募の総調達額は約1195億ドル",
-      "channel": "anthropic",
-      "category": "Anthropic",
-      "date": "2026-11-20T16:24:08.106Z",
-      "excerpt": "Claudeシリーズを開発するAnthropic, PBCは2026年11月20日、新規株式公開（IPO）の手続きが完了したと発表しました。発行価格は1株83.00ドルで、IPO単体の総調達額は約935億ドルです。同時に実施した半導体・クラウド大手7社向けの…",
-      "lead": "Claudeシリーズを開発するAnthropic, PBCは2026年11月20日、新規株式公開（IPO）の手続きが完了したと発表しました。発行価格は1株83.00ドルで、IPO単体の総調達額は約935億ドルです。同時に実施した半導体・クラウド大手7社向けの私募と合わせると、総額は約1195億ドルに達します。ティッカーは「ANT」で、11月19日からNasdaq Global Select Marketで取引が始まっています。",
-      "headings": [
-        "公募の概要",
-        "半導体・クラウド大手7社による同時私募",
-        "影響と注意点",
-        "今後の展望"
-      ],
-      "source_url": "https://www.anthropic.com/news/ipo-close",
-      "source_urls": [
-        "https://www.anthropic.com/news/ipo-close"
-      ],
-      "source_label": "anthropic.com",
-      "cover": "assets/posts/1573373390276919526.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1573373390276919526",
-      "first_seen": "2026-11-20T16:24:08.106Z",
-      "kind": "business",
-      "kind_confidence": 1
     }
   ]
 }

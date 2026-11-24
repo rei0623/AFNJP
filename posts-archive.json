@@ -1,9 +1,59 @@
 {
-  "generated_at": "2026-11-24T16:17:32.597Z",
+  "generated_at": "2026-11-24T17:17:39.908Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 610,
+  "count": 612,
   "posts": [
+    {
+      "id": "1574826692239818772",
+      "title": "テンセント、102言語対応の翻訳モデル群「Hy-MT3」を公開",
+      "channel": "hunyuan",
+      "category": "その他",
+      "date": "2026-11-24T16:39:02.295Z",
+      "excerpt": "テンセントは2026年11月24日、多言語翻訳モデルの第3世代となる「Hy-MT3」をHugging FaceおよびModelScopeでオープンソース公開しました。1.8B、7B、30B-A3Bの3サイズと各量子化版を含む計9モデルを展開し、対応言語数は前…",
+      "lead": "テンセントは2026年11月24日、多言語翻訳モデルの第3世代となる「Hy-MT3」をHugging FaceおよびModelScopeでオープンソース公開しました。1.8B、7B、30B-A3Bの3サイズと各量子化版を含む計9モデルを展開し、対応言語数は前世代の38言語から102言語へ拡大しています。同時に、翻訳品質の自動評価スイート「TransRubric」も公開されました。",
+      "headings": [
+        "ラインアップと技術的特徴",
+        "実務特化機能と評価基盤「TransRubric」",
+        "導入メリットと運用上の注意点",
+        "今後の展望"
+      ],
+      "source_url": "https://huggingface.co/collections/tencent/hy-mt3",
+      "source_urls": [
+        "https://huggingface.co/collections/tencent/hy-mt3"
+      ],
+      "source_label": "huggingface.co",
+      "cover": "assets/posts/1574826692239818772.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1460898443923820618/threads/1574826692239818772",
+      "first_seen": "2026-11-24T16:39:02.295Z",
+      "kind": "model",
+      "kind_confidence": 1
+    },
+    {
+      "id": "1574821910313967721",
+      "title": "Google、Golden Stateとの提携を拡大しGeminiを全面統合",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-11-24T16:20:02.195Z",
+      "excerpt": "Googleは2026年11月24日、米国のスポーツ・エンターテインメント組織であるGolden Stateとのパートナーシップを拡大すると発表しました。これによりGoogle Geminiは、NBAのGolden State Warriors、2026年W…",
+      "lead": "Googleは2026年11月24日、米国のスポーツ・エンターテインメント組織であるGolden Stateとのパートナーシップを拡大すると発表しました。これによりGoogle Geminiは、NBAのGolden State Warriors、2026年WNBA王者のGolden State Valkyries、および本拠地Chase Centerの公式AIアシスタントパートナー、ならびに公式生成AI・エンタープライズLLMパートナーとなります。",
+      "headings": [
+        "ファン体験と業務運営の両面への統合",
+        "2019年から続く提携の背景と文脈",
+        "業界および組織運営への影響",
+        "今後の展望"
+      ],
+      "source_url": "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state/",
+      "source_urls": [
+        "https://blog.google/products-and-platforms/products/gemini/gemini-golden-state/"
+      ],
+      "source_label": "blog.google",
+      "cover": "assets/posts/1574821910313967721.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1574821910313967721",
+      "first_seen": "2026-11-24T16:20:02.195Z",
+      "kind": "business",
+      "kind_confidence": 0.93
+    },
     {
       "id": "1574814009285152788",
       "title": "TheStage AI、端末内で話者識別付き文字起こしを行う「ASRKit」と無料アプリ「Edgent」を公開",
