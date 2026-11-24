@@ -1,8 +1,34 @@
 {
-  "generated_at": "2026-11-24T15:17:44.243Z",
+  "generated_at": "2026-11-24T15:49:26.048Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1574814009285152788",
+      "title": "TheStage AI、端末内で話者識別付き文字起こしを行う「ASRKit」と無料アプリ「Edgent」を公開",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-11-24T15:48:38.443Z",
+      "excerpt": "TheStage AIは、音声認識SDK「ASRKit」と、それを組み込んだiPhone・Mac向け無料アプリ「Edgent」を発表しました。音声をクラウドへ送らずに、端末内だけで文字起こしと話者の識別（ダイアライゼーション）を行えるのが特徴です。会議記録や…",
+      "lead": "TheStage AIは、音声認識SDK「ASRKit」と、それを組み込んだiPhone・Mac向け無料アプリ「Edgent」を発表しました。音声をクラウドへ送らずに、端末内だけで文字起こしと話者の識別（ダイアライゼーション）を行えるのが特徴です。会議記録や口述入力をオフラインで処理したい開発者や企業にとって、新しい選択肢になりそうです。",
+      "headings": [
+        "ASRKitの技術的な特徴",
+        "Edgent：ASRKitの実例となるアプリ",
+        "背景と意義",
+        "導入時の注意点",
+        "今後の展望"
+      ],
+      "source_url": "https://app.thestage.ai/blog/ASRKit-and-Edgent:-offline-transcription-with-speaker-labels?id=28",
+      "source_urls": [
+        "https://app.thestage.ai/blog/ASRKit-and-Edgent:-offline-transcription-with-speaker-labels?id=28"
+      ],
+      "source_label": "app.thestage.ai",
+      "cover": "assets/posts/1574814009285152788.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1574814009285152788",
+      "first_seen": "2026-11-24T15:48:38.443Z",
+      "kind": "tool",
+      "kind_confidence": 0.99
+    },
     {
       "id": "1574577153889149048",
       "title": "Anthropic、ゼロデータ保持と高度な不正検知を両立する「Enterprise Frontier Safeguards」をパブリックベータ公開",
@@ -282,31 +308,6 @@
       "first_seen": "2026-11-20T16:24:08.106Z",
       "kind": "business",
       "kind_confidence": 1
-    },
-    {
-      "id": "1573372965356175500",
-      "title": "Gemini APIに「Tool Retrieval」登場 数百のツールを必要な分だけ読み込むエージェント向け新機能",
-      "channel": "gemini",
-      "category": "Google",
-      "date": "2026-11-20T16:22:26.797Z",
-      "excerpt": "Googleは2026年11月19日、Gemini APIの新機能「Tool Retrieval」を発表しました。エージェントが数十から数百のツールを扱うとき、各ツールのパラメータスキーマを必要になった時点で初めて読み込む仕組みです。現在はInteracti…",
-      "lead": "Googleは2026年11月19日、Gemini APIの新機能「Tool Retrieval」を発表しました。エージェントが数十から数百のツールを扱うとき、各ツールのパラメータスキーマを必要になった時点で初めて読み込む仕組みです。現在はInteractions APIでプレビューとして提供されています。",
-      "headings": [
-        "解決したい課題：ツールが増えるほど重くなる",
-        "仕組み：defer_loadingで遅延読み込み",
-        "キャッシュ・MCPとの組み合わせ",
-        "料金と注意点"
-      ],
-      "source_url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/",
-      "source_urls": [
-        "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval/"
-      ],
-      "source_label": "blog.google",
-      "cover": "assets/posts/1573372965356175500.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1573372965356175500",
-      "first_seen": "2026-11-20T16:22:26.797Z",
-      "kind": "tool",
-      "kind_confidence": 0.47
     }
   ]
 }

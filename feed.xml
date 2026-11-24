@@ -5,8 +5,16 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Tue, 24 Nov 2026 00:07:27 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 15:48:38 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>TheStage AI、端末内で話者識別付き文字起こしを行う「ASRKit」と無料アプリ「Edgent」を公開</title>
+      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1574814009285152788</link>
+      <guid isPermaLink="false">afnjp-1574814009285152788</guid>
+      <pubDate>Tue, 24 Nov 2026 15:48:38 GMT</pubDate>
+      <category>その他</category>
+      <description>TheStage AIは、音声認識SDK「ASRKit」と、それを組み込んだiPhone・Mac向け無料アプリ「Edgent」を発表しました。音声をクラウドへ送らずに、端末内だけで文字起こしと話者の識別（ダイアライゼーション）を行えるのが特徴です。会議記録や…</description>
+    </item>
     <item>
       <title>Anthropic、ゼロデータ保持と高度な不正検知を両立する「Enterprise Frontier Safeguards」をパブリックベータ公開</title>
       <link>https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1574577153889149048</link>
@@ -94,14 +102,6 @@
       <pubDate>Fri, 20 Nov 2026 16:24:08 GMT</pubDate>
       <category>anthropic</category>
       <description>Claudeシリーズを開発するAnthropic, PBCは2026年11月20日、新規株式公開（IPO）の手続きが完了したと発表しました。発行価格は1株83.00ドルで、IPO単体の総調達額は約935億ドルです。同時に実施した半導体・クラウド大手7社向けの…</description>
-    </item>
-    <item>
-      <title>Gemini APIに「Tool Retrieval」登場 数百のツールを必要な分だけ読み込むエージェント向け新機能</title>
-      <link>https://discord.com/channels/1415350002255007784/1415353327524253868/threads/1573372965356175500</link>
-      <guid isPermaLink="false">afnjp-1573372965356175500</guid>
-      <pubDate>Fri, 20 Nov 2026 16:22:26 GMT</pubDate>
-      <category>gemini</category>
-      <description>Googleは2026年11月19日、Gemini APIの新機能「Tool Retrieval」を発表しました。エージェントが数十から数百のツールを扱うとき、各ツールのパラメータスキーマを必要になった時点で初めて読み込む仕組みです。現在はInteracti…</description>
     </item>
   </channel>
 </rss>
