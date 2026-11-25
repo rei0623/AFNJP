@@ -1,8 +1,84 @@
 {
-  "generated_at": "2026-11-24T23:17:32.557Z",
+  "generated_at": "2026-11-25T00:17:36.994Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1574931303630118963",
+      "title": "Anthropic、ClaudeのArtifactsをMac・Windows向けデスクトップアプリ化する「Install as app」をベータ提供開始",
+      "channel": "anthropic",
+      "category": "Anthropic",
+      "date": "2026-11-24T23:34:43.594Z",
+      "excerpt": "Anthropicは2026年11月24日、Claudeの「Artifacts（アーティファクト）」をMacおよびWindows向けの独立したデスクトップアプリとして作成・実行・共有できる新機能「Install as app」のベータ提供を開始しました。",
+      "lead": "Anthropicは2026年11月24日、Claudeの「Artifacts（アーティファクト）」をMacおよびWindows向けの独立したデスクトップアプリとして作成・実行・共有できる新機能「Install as app」のベータ提供を開始しました。",
+      "headings": [
+        "技術的詳細と仕組み",
+        "セキュリティ設計と3段階の権限管理",
+        "背景と実務への影響",
+        "今後の展望"
+      ],
+      "source_url": "https://claude.com/ja/resources/articles/install-as-app",
+      "source_urls": [
+        "https://claude.com/ja/resources/articles/install-as-app"
+      ],
+      "source_label": "claude.com",
+      "cover": "assets/posts/1574931303630118963.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1574931303630118963",
+      "first_seen": "2026-11-24T23:34:43.594Z",
+      "kind": "feature",
+      "kind_confidence": 0.99
+    },
+    {
+      "id": "1574931150923636806",
+      "title": "Google DeepMind、LLMの信頼性を測る新ベンチマーク「Humanity's First Exam」を公開",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-11-24T23:34:07.186Z",
+      "excerpt": "Google DeepMindは2026年11月24日、大規模言語モデル（LLM）が日常的な単純な質問にどれだけ安定して正確に回答できるかを測定する新ベンチマーク「Humanity's First Exam（HFE）」をKaggle上で公開しました。あわせて…",
+      "lead": "Google DeepMindは2026年11月24日、大規模言語モデル（LLM）が日常的な単純な質問にどれだけ安定して正確に回答できるかを測定する新ベンチマーク「Humanity's First Exam（HFE）」をKaggle上で公開しました。あわせて、データセットを最新に保つためのコミュニティ参加型ハッカソンも開始しています。",
+      "headings": [
+        "能力の上限ではなく「一貫した信頼性」を評価",
+        "データセットの構成と具体例",
+        "Kaggleハッカソンによるデータセットの継続的な更新",
+        "開発者・企業への影響",
+        "今後の展望"
+      ],
+      "source_url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/humanitys-first-exam/",
+      "source_urls": [
+        "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/humanitys-first-exam/"
+      ],
+      "source_label": "blog.google",
+      "cover": "assets/posts/1574931150923636806.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1574931150923636806",
+      "first_seen": "2026-11-24T23:34:07.186Z",
+      "kind": "research",
+      "kind_confidence": 0.95
+    },
+    {
+      "id": "1574930935869218856",
+      "title": "Anthropic、MCPサーバー向け「Skills over MCP」や「Tasks」など新機能を発表",
+      "channel": "anthropic",
+      "category": "Anthropic",
+      "date": "2026-11-24T23:33:15.913Z",
+      "excerpt": "Anthropicは2026年11月24日、AIエージェントと外部システムを結ぶオープン規格「Model Context Protocol（MCP）」の新機能群をClaudeおよびClaude Code向けに発表しました。ツールと運用手順を併せて配信する「S…",
+      "lead": "Anthropicは2026年11月24日、AIエージェントと外部システムを結ぶオープン規格「Model Context Protocol（MCP）」の新機能群をClaudeおよびClaude Code向けに発表しました。ツールと運用手順を併せて配信する「Skills over MCP」のパブリックベータに加え、非同期処理の「Tasks」とユーザー確認の「Elicitation」が一般提供（GA）されます。これにより、Claudeは外部サーバーと他のエージェントのように自律的に連携できるようになります。",
+      "headings": [
+        "専門知識を配信する「Skills over MCP」",
+        "長時間処理・確認・ファイル連携の強化",
+        "MCPエコシステムの基盤強化",
+        "今後の展望"
+      ],
+      "source_url": "https://claude.com/ja/resources/articles/skills-over-mcp-tasks-and-more",
+      "source_urls": [
+        "https://claude.com/ja/resources/articles/skills-over-mcp-tasks-and-more"
+      ],
+      "source_label": "claude.com",
+      "cover": "assets/posts/1574930935869218856.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1574930935869218856",
+      "first_seen": "2026-11-24T23:33:15.913Z",
+      "kind": "tool",
+      "kind_confidence": 0.71
+    },
     {
       "id": "1574826692239818772",
       "title": "テンセント、102言語対応の翻訳モデル群「Hy-MT3」を公開",
@@ -234,81 +310,6 @@
       "first_seen": "2026-11-20T23:10:23.518Z",
       "kind": "model",
       "kind_confidence": 0.99
-    },
-    {
-      "id": "1573474954215694387",
-      "title": "OpenAI、創薬化学の推論力を測る新ベンチマーク「MedChemBench」を公開 GPT-6.2 Astraが84.5%で首位",
-      "channel": "open-ai",
-      "category": "Open AI",
-      "date": "2026-11-20T23:07:42.836Z",
-      "excerpt": "OpenAIは2026年11月20日、医薬品化学（メディシナルケミストリー）の研究から作った推論タスクでAIモデルを評価する新ベンチマーク「MedChemBench」を発表しました。分子構造を読み取り、実験結果を解釈して、次に試すべき化合物を選ぶ力を測ります…",
-      "lead": "OpenAIは2026年11月20日、医薬品化学（メディシナルケミストリー）の研究から作った推論タスクでAIモデルを評価する新ベンチマーク「MedChemBench」を発表しました。分子構造を読み取り、実験結果を解釈して、次に試すべき化合物を選ぶ力を測ります。OpenAIの最新モデルは高いスコアを出しましたが、得意な分野と苦手な分野の差もはっきりしました。",
-      "headings": [
-        "ベンチマークの構成",
-        "モデル別の結果",
-        "結果を読むうえでの注意点",
-        "今後の展望"
-      ],
-      "source_url": "https://openai.com/index/introducing-medchembench/",
-      "source_urls": [
-        "https://openai.com/index/introducing-medchembench/"
-      ],
-      "source_label": "openai.com",
-      "cover": "assets/posts/1573474954215694387.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1416196015073001614/threads/1573474954215694387",
-      "first_seen": "2026-11-20T23:07:42.836Z",
-      "kind": "research",
-      "kind_confidence": 1
-    },
-    {
-      "id": "1573474816944767016",
-      "title": "ElevenLabs「Ads Engine」に新機能、動画広告のバリエーション生成と多言語化をAIで自動化",
-      "channel": "eleven-labs",
-      "category": "その他",
-      "date": "2026-11-20T23:07:10.108Z",
-      "excerpt": "音声AI企業のElevenLabsは2026年11月20日、広告制作基盤「ElevenCreative」に含まれる「Ads Engine」に新機能を追加したと発表しました。既存の動画広告をもとに、冒頭フックやBGMを差し替えたバリエーションを作れるほか、吹き…",
-      "lead": "音声AI企業のElevenLabsは2026年11月20日、広告制作基盤「ElevenCreative」に含まれる「Ads Engine」に新機能を追加したと発表しました。既存の動画広告をもとに、冒頭フックやBGMを差し替えたバリエーションを作れるほか、吹き替えや字幕翻訳による多言語版も作成できます。音声合成、ボイスクローン、音楽生成、吹き替えといった同社のAI技術を、広告運用のワークフローにまとめた点が特徴です。",
-      "headings": [
-        "4つの主要機能",
-        "広告プラットフォームと連携したワークフロー",
-        "影響と導入時の注意点",
-        "今後の展望"
-      ],
-      "source_url": "https://elevenlabs.io/blog/video-variants-localization-ads-engine",
-      "source_urls": [
-        "https://elevenlabs.io/blog/video-variants-localization-ads-engine"
-      ],
-      "source_label": "elevenlabs.io",
-      "cover": "assets/posts/1573474816944767016.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1441006356399259719/threads/1573474816944767016",
-      "first_seen": "2026-11-20T23:07:10.108Z",
-      "kind": "feature",
-      "kind_confidence": 1
-    },
-    {
-      "id": "1573387311184355358",
-      "title": "Nous Researchが「Hermes Agent Enterprise」をMicrosoft Marketplaceで公開、TeamsからAIエージェントに業務を依頼可能に",
-      "channel": "microsoft",
-      "category": "Microsoft",
-      "date": "2026-11-20T17:19:27.109Z",
-      "excerpt": "オープンソースAIエージェント「Hermes Agent」を開発するNous Researchは、2026年11月18日にMicrosoftとの提携を発表し、企業向け製品「Hermes Agent Enterprise」をMicrosoft Marketpl…",
-      "lead": "オープンソースAIエージェント「Hermes Agent」を開発するNous Researchは、2026年11月18日にMicrosoftとの提携を発表し、企業向け製品「Hermes Agent Enterprise」をMicrosoft Marketplaceで公開しました。Microsoft Teamsのチャットから業務を依頼できるほか、AIが身につけた作業手順を「スキル」として社内で共有できる点が特徴です。",
-      "headings": [
-        "Teamsから業務を依頼するエージェント",
-        "作業手順を組織の資産にする「Collective Wisdom」",
-        "Azureの隔離環境で安全に実行",
-        "導入にあたっての注意点",
-        "今後の展望"
-      ],
-      "source_url": "https://marketplace.microsoft.com/en-hk/product/wa200013263",
-      "source_urls": [
-        "https://marketplace.microsoft.com/en-hk/product/wa200013263"
-      ],
-      "source_label": "marketplace.microsoft.com",
-      "url": "https://discord.com/channels/1415350002255007784/1432720743279497367/threads/1573387311184355358",
-      "first_seen": "2026-11-20T17:19:27.109Z",
-      "kind": "tool",
-      "kind_confidence": 0.45
     }
   ]
 }

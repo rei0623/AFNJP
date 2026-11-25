@@ -1,9 +1,85 @@
 {
-  "generated_at": "2026-11-24T23:17:32.528Z",
+  "generated_at": "2026-11-25T00:17:36.989Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 612,
+  "count": 615,
   "posts": [
+    {
+      "id": "1574931303630118963",
+      "title": "Anthropic、ClaudeのArtifactsをMac・Windows向けデスクトップアプリ化する「Install as app」をベータ提供開始",
+      "channel": "anthropic",
+      "category": "Anthropic",
+      "date": "2026-11-24T23:34:43.594Z",
+      "excerpt": "Anthropicは2026年11月24日、Claudeの「Artifacts（アーティファクト）」をMacおよびWindows向けの独立したデスクトップアプリとして作成・実行・共有できる新機能「Install as app」のベータ提供を開始しました。",
+      "lead": "Anthropicは2026年11月24日、Claudeの「Artifacts（アーティファクト）」をMacおよびWindows向けの独立したデスクトップアプリとして作成・実行・共有できる新機能「Install as app」のベータ提供を開始しました。",
+      "headings": [
+        "技術的詳細と仕組み",
+        "セキュリティ設計と3段階の権限管理",
+        "背景と実務への影響",
+        "今後の展望"
+      ],
+      "source_url": "https://claude.com/ja/resources/articles/install-as-app",
+      "source_urls": [
+        "https://claude.com/ja/resources/articles/install-as-app"
+      ],
+      "source_label": "claude.com",
+      "cover": "assets/posts/1574931303630118963.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1574931303630118963",
+      "first_seen": "2026-11-24T23:34:43.594Z",
+      "kind": "feature",
+      "kind_confidence": 0.99
+    },
+    {
+      "id": "1574931150923636806",
+      "title": "Google DeepMind、LLMの信頼性を測る新ベンチマーク「Humanity's First Exam」を公開",
+      "channel": "google",
+      "category": "Google",
+      "date": "2026-11-24T23:34:07.186Z",
+      "excerpt": "Google DeepMindは2026年11月24日、大規模言語モデル（LLM）が日常的な単純な質問にどれだけ安定して正確に回答できるかを測定する新ベンチマーク「Humanity's First Exam（HFE）」をKaggle上で公開しました。あわせて…",
+      "lead": "Google DeepMindは2026年11月24日、大規模言語モデル（LLM）が日常的な単純な質問にどれだけ安定して正確に回答できるかを測定する新ベンチマーク「Humanity's First Exam（HFE）」をKaggle上で公開しました。あわせて、データセットを最新に保つためのコミュニティ参加型ハッカソンも開始しています。",
+      "headings": [
+        "能力の上限ではなく「一貫した信頼性」を評価",
+        "データセットの構成と具体例",
+        "Kaggleハッカソンによるデータセットの継続的な更新",
+        "開発者・企業への影響",
+        "今後の展望"
+      ],
+      "source_url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/humanitys-first-exam/",
+      "source_urls": [
+        "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/humanitys-first-exam/"
+      ],
+      "source_label": "blog.google",
+      "cover": "assets/posts/1574931150923636806.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417461679670825032/threads/1574931150923636806",
+      "first_seen": "2026-11-24T23:34:07.186Z",
+      "kind": "research",
+      "kind_confidence": 0.95
+    },
+    {
+      "id": "1574930935869218856",
+      "title": "Anthropic、MCPサーバー向け「Skills over MCP」や「Tasks」など新機能を発表",
+      "channel": "anthropic",
+      "category": "Anthropic",
+      "date": "2026-11-24T23:33:15.913Z",
+      "excerpt": "Anthropicは2026年11月24日、AIエージェントと外部システムを結ぶオープン規格「Model Context Protocol（MCP）」の新機能群をClaudeおよびClaude Code向けに発表しました。ツールと運用手順を併せて配信する「S…",
+      "lead": "Anthropicは2026年11月24日、AIエージェントと外部システムを結ぶオープン規格「Model Context Protocol（MCP）」の新機能群をClaudeおよびClaude Code向けに発表しました。ツールと運用手順を併せて配信する「Skills over MCP」のパブリックベータに加え、非同期処理の「Tasks」とユーザー確認の「Elicitation」が一般提供（GA）されます。これにより、Claudeは外部サーバーと他のエージェントのように自律的に連携できるようになります。",
+      "headings": [
+        "専門知識を配信する「Skills over MCP」",
+        "長時間処理・確認・ファイル連携の強化",
+        "MCPエコシステムの基盤強化",
+        "今後の展望"
+      ],
+      "source_url": "https://claude.com/ja/resources/articles/skills-over-mcp-tasks-and-more",
+      "source_urls": [
+        "https://claude.com/ja/resources/articles/skills-over-mcp-tasks-and-more"
+      ],
+      "source_label": "claude.com",
+      "cover": "assets/posts/1574930935869218856.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417082857444085780/threads/1574930935869218856",
+      "first_seen": "2026-11-24T23:33:15.913Z",
+      "kind": "tool",
+      "kind_confidence": 0.71
+    },
     {
       "id": "1574826692239818772",
       "title": "テンセント、102言語対応の翻訳モデル群「Hy-MT3」を公開",
