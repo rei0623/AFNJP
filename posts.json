@@ -1,8 +1,57 @@
 {
-  "generated_at": "2026-11-25T13:17:31.266Z",
+  "generated_at": "2026-11-25T14:17:34.780Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1575151157423243364",
+      "title": "Cloudflare「Search for Agents」発表、トグル1つでサイトをAIエージェント向け検索エンドポイント化",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-11-25T14:08:20.823Z",
+      "excerpt": "Cloudflareは2026年11月25日、Webサイトの検索機能をAIエージェント向けに自動で公開する新機能「Search for Agents」を発表しました。ダッシュボードのトグルを1つ切り替えるだけで、サイトのクロールとインデックス作成、エージェン…",
+      "lead": "Cloudflareは2026年11月25日、Webサイトの検索機能をAIエージェント向けに自動で公開する新機能「Search for Agents」を発表しました。ダッシュボードのトグルを1つ切り替えるだけで、サイトのクロールとインデックス作成、エージェントが見つけられる検索エンドポイントの公開までが自動で行われます。Freeプランを含む全顧客が利用できます（制限あり）。",
+      "headings": [
+        "何が変わるのか",
+        "技術的な仕組み",
+        "実例と影響",
+        "今後の展望"
+      ],
+      "source_url": "https://blog.cloudflare.com/search-for-agents/",
+      "source_urls": [
+        "https://blog.cloudflare.com/search-for-agents/"
+      ],
+      "source_label": "blog.cloudflare.com",
+      "cover": "assets/posts/1575151157423243364.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1575151157423243364",
+      "first_seen": "2026-11-25T14:08:20.823Z",
+      "kind": "feature",
+      "kind_confidence": 0.81
+    },
+    {
+      "id": "1575147627283095675",
+      "title": "Sakana AIが300億パラメータの思考モデル「Sakana Namazu Small」を発表",
+      "channel": "sakana-ai",
+      "category": "日本国内",
+      "date": "2026-11-25T13:54:19.172Z",
+      "excerpt": "Sakana AIは2026年11月25日、NVIDIAのオープンモデルであるNVIDIA Nemotron 3 Nanoの事前学習ベースモデルをもとに、継続事前学習から事後学習までを自社で行った300億パラメータの大規模言語モデル「Sakana Namaz…",
+      "lead": "Sakana AIは2026年11月25日、NVIDIAのオープンモデルであるNVIDIA Nemotron 3 Nanoの事前学習ベースモデルをもとに、継続事前学習から事後学習までを自社で行った300億パラメータの大規模言語モデル「Sakana Namazu Small」を発表しました。手元の環境で動かせる小型モデルとして設計されており、オンプレミス提供の詳細は12月前半に案内される予定です。",
+      "headings": [
+        "技術的詳細と特徴",
+        "評価結果と背景",
+        "今後の展望"
+      ],
+      "source_url": "https://sakana.ai/namazu-small/",
+      "source_urls": [
+        "https://sakana.ai/namazu-small/"
+      ],
+      "source_label": "sakana.ai",
+      "cover": "assets/posts/1575147627283095675.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1420683387395375115/threads/1575147627283095675",
+      "first_seen": "2026-11-25T13:54:19.172Z",
+      "kind": "model",
+      "kind_confidence": 1
+    },
     {
       "id": "1574931303630118963",
       "title": "Anthropic、ClaudeのArtifactsをMac・Windows向けデスクトップアプリ化する「Install as app」をベータ提供開始",
@@ -258,58 +307,6 @@
       "first_seen": "2026-11-23T00:17:07.687Z",
       "kind": "research",
       "kind_confidence": 0.94
-    },
-    {
-      "id": "1574216939008565361",
-      "title": "inclusionAI、医療特化のオープンウェイトMoE「LingSante-3.1-flash」を公開 総パラメータ560B・100万トークン文脈に対応",
-      "channel": "その他",
-      "category": "その他",
-      "date": "2026-11-23T00:16:05.796Z",
-      "excerpt": "inclusionAIは、医療分野に特化した大規模言語モデル「LingSante-3.1-flash」をHugging Faceで公開しました。汎用モデル「Ling-3.1-flash」をベースにしたハイブリッド線形MoE（Mixture-of-Expert…",
-      "lead": "inclusionAIは、医療分野に特化した大規模言語モデル「LingSante-3.1-flash」をHugging Faceで公開しました。汎用モデル「Ling-3.1-flash」をベースにしたハイブリッド線形MoE（Mixture-of-Experts）構成で、総パラメータは560B、トークンごとに動くアクティブパラメータは25Bです。最大100万トークンの文脈長を持ち、ライセンスは商用利用もしやすいMITです。",
-      "headings": [
-        "アーキテクチャ：線形アテンションとMLAのハイブリッド",
-        "学習パイプライン",
-        "性能と想定用途",
-        "導入上の注意点",
-        "今後の展望"
-      ],
-      "source_url": "https://huggingface.co/inclusionAI/LingSante-3.1-flash",
-      "source_urls": [
-        "https://huggingface.co/inclusionAI/LingSante-3.1-flash"
-      ],
-      "source_label": "huggingface.co",
-      "cover": "assets/posts/1574216939008565361.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1574216939008565361",
-      "first_seen": "2026-11-23T00:16:05.796Z",
-      "kind": "model",
-      "kind_confidence": 1
-    },
-    {
-      "id": "1573475628164980978",
-      "title": "Thinking Machines Lab、ノートPCで動くループ型MoEモデル「Inkling 2 Mini」をオープンウェイトで公開",
-      "channel": "その他",
-      "category": "その他",
-      "date": "2026-11-20T23:10:23.518Z",
-      "excerpt": "Thinking Machines Labは2026年11月20日、オープンウェイトモデル「Inkling 2 Mini」を発表しました。総パラメータ264億、アクティブ34億のMoE（Mixture-of-Experts）構成に、中間層を繰り返し使う「ルー…",
-      "lead": "Thinking Machines Labは2026年11月20日、オープンウェイトモデル「Inkling 2 Mini」を発表しました。総パラメータ264億、アクティブ34億のMoE（Mixture-of-Experts）構成に、中間層を繰り返し使う「ループ型Transformer」を組み合わせています。約20GBのメモリで動き、エージェント型コーディングでは100B未満のオープンモデルの中で最高水準のスコアを示しました。",
-      "headings": [
-        "層を使い回して「1トークンあたりの思考量」を増やす",
-        "ベンチマーク：エージェント・検索タスクで高スコア",
-        "弱点も明示",
-        "導入経路が広い",
-        "今後の展望"
-      ],
-      "source_url": "https://thinkingmachines.ai/news/inkling-2-mini/",
-      "source_urls": [
-        "https://thinkingmachines.ai/news/inkling-2-mini/"
-      ],
-      "source_label": "thinkingmachines.ai",
-      "cover": "assets/posts/1573475628164980978.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1573475628164980978",
-      "first_seen": "2026-11-20T23:10:23.518Z",
-      "kind": "model",
-      "kind_confidence": 0.99
     }
   ]
 }

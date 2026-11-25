@@ -1,9 +1,58 @@
 {
-  "generated_at": "2026-11-25T13:17:31.259Z",
+  "generated_at": "2026-11-25T14:17:34.775Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 615,
+  "count": 617,
   "posts": [
+    {
+      "id": "1575151157423243364",
+      "title": "Cloudflare「Search for Agents」発表、トグル1つでサイトをAIエージェント向け検索エンドポイント化",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-11-25T14:08:20.823Z",
+      "excerpt": "Cloudflareは2026年11月25日、Webサイトの検索機能をAIエージェント向けに自動で公開する新機能「Search for Agents」を発表しました。ダッシュボードのトグルを1つ切り替えるだけで、サイトのクロールとインデックス作成、エージェン…",
+      "lead": "Cloudflareは2026年11月25日、Webサイトの検索機能をAIエージェント向けに自動で公開する新機能「Search for Agents」を発表しました。ダッシュボードのトグルを1つ切り替えるだけで、サイトのクロールとインデックス作成、エージェントが見つけられる検索エンドポイントの公開までが自動で行われます。Freeプランを含む全顧客が利用できます（制限あり）。",
+      "headings": [
+        "何が変わるのか",
+        "技術的な仕組み",
+        "実例と影響",
+        "今後の展望"
+      ],
+      "source_url": "https://blog.cloudflare.com/search-for-agents/",
+      "source_urls": [
+        "https://blog.cloudflare.com/search-for-agents/"
+      ],
+      "source_label": "blog.cloudflare.com",
+      "cover": "assets/posts/1575151157423243364.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1575151157423243364",
+      "first_seen": "2026-11-25T14:08:20.823Z",
+      "kind": "feature",
+      "kind_confidence": 0.81
+    },
+    {
+      "id": "1575147627283095675",
+      "title": "Sakana AIが300億パラメータの思考モデル「Sakana Namazu Small」を発表",
+      "channel": "sakana-ai",
+      "category": "日本国内",
+      "date": "2026-11-25T13:54:19.172Z",
+      "excerpt": "Sakana AIは2026年11月25日、NVIDIAのオープンモデルであるNVIDIA Nemotron 3 Nanoの事前学習ベースモデルをもとに、継続事前学習から事後学習までを自社で行った300億パラメータの大規模言語モデル「Sakana Namaz…",
+      "lead": "Sakana AIは2026年11月25日、NVIDIAのオープンモデルであるNVIDIA Nemotron 3 Nanoの事前学習ベースモデルをもとに、継続事前学習から事後学習までを自社で行った300億パラメータの大規模言語モデル「Sakana Namazu Small」を発表しました。手元の環境で動かせる小型モデルとして設計されており、オンプレミス提供の詳細は12月前半に案内される予定です。",
+      "headings": [
+        "技術的詳細と特徴",
+        "評価結果と背景",
+        "今後の展望"
+      ],
+      "source_url": "https://sakana.ai/namazu-small/",
+      "source_urls": [
+        "https://sakana.ai/namazu-small/"
+      ],
+      "source_label": "sakana.ai",
+      "cover": "assets/posts/1575147627283095675.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1420683387395375115/threads/1575147627283095675",
+      "first_seen": "2026-11-25T13:54:19.172Z",
+      "kind": "model",
+      "kind_confidence": 1
+    },
     {
       "id": "1574931303630118963",
       "title": "Anthropic、ClaudeのArtifactsをMac・Windows向けデスクトップアプリ化する「Install as app」をベータ提供開始",
