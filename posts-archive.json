@@ -1,9 +1,34 @@
 {
-  "generated_at": "2026-11-27T11:17:29.479Z",
+  "generated_at": "2026-11-27T12:17:30.697Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 617,
+  "count": 618,
   "posts": [
+    {
+      "id": "1575838185764946091",
+      "title": "Moonshot AI、研究支援プログラム「Kimi for Science」を開始",
+      "channel": "kimi",
+      "category": "その他",
+      "date": "2026-11-27T11:38:21.144Z",
+      "excerpt": "Moonshot AIは、科学研究におけるAI活用を後押しする支援プログラム「Kimi for Science」の募集を開始しました。採択された研究者やチームに対し、最大2万ドル相当（約70億トークン）のKimi APIクレジットや技術支援、新モデルへの早期…",
+      "lead": "Moonshot AIは、科学研究におけるAI活用を後押しする支援プログラム「Kimi for Science」の募集を開始しました。採択された研究者やチームに対し、最大2万ドル相当（約70億トークン）のKimi APIクレジットや技術支援、新モデルへの早期アクセスを提供します。第1期（ファーストコホート）の応募締切は12月8日となっており、今後も順次追加の募集が予定されています。",
+      "headings": [
+        "プログラムの支援内容と仕組み",
+        "応募プロセスと求められる要件",
+        "背景と研究現場への影響",
+        "今後の展望"
+      ],
+      "source_url": "https://www.kimi.ai/news/kimi-for-science-program",
+      "source_urls": [
+        "https://www.kimi.ai/news/kimi-for-science-program"
+      ],
+      "source_label": "kimi.ai",
+      "cover": "assets/posts/1575838185764946091.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1417459869341978704/threads/1575838185764946091",
+      "first_seen": "2026-11-27T11:38:21.144Z",
+      "kind": "business",
+      "kind_confidence": 0.21
+    },
     {
       "id": "1575151157423243364",
       "title": "Cloudflare「Search for Agents」発表、トグル1つでサイトをAIエージェント向け検索エンドポイント化",
