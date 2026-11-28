@@ -1,8 +1,33 @@
 {
-  "generated_at": "2026-11-28T02:17:30.547Z",
+  "generated_at": "2026-11-28T03:17:38.814Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
   "posts": [
+    {
+      "id": "1576070031853486160",
+      "title": "Cohere、動画検索機能「Video Intelligence」をCompassでプレビュー公開",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-11-28T02:59:37.559Z",
+      "excerpt": "Cohereは2026年11月16日、エンタープライズ検索基盤「Compass」の新機能として「Video Intelligence」のプレビュー提供を発表しました。会議録画や研修動画、メディアアーカイブなどから質問に該当する正確な瞬間をタイムスタンプ付きで…",
+      "lead": "Cohereは2026年11月16日、エンタープライズ検索基盤「Compass」の新機能として「Video Intelligence」のプレビュー提供を発表しました。会議録画や研修動画、メディアアーカイブなどから質問に該当する正確な瞬間をタイムスタンプ付きで抽出し、関連文書と同時に検索できる機能です。現在、実運用データで検証を行うデザインパートナーを募集しています。",
+      "headings": [
+        "発話・映像・時系列を統合した動的モーメント検索",
+        "11データセットでの評価結果と競合比較",
+        "企業活用への影響と導入時の留意点",
+        "今後の展望"
+      ],
+      "source_url": "https://cohere.com/blog/video-intelligence-preview",
+      "source_urls": [
+        "https://cohere.com/blog/video-intelligence-preview"
+      ],
+      "source_label": "cohere.com",
+      "cover": "assets/posts/1576070031853486160.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1576070031853486160",
+      "first_seen": "2026-11-28T02:59:37.559Z",
+      "kind": "feature",
+      "kind_confidence": 1
+    },
     {
       "id": "1575838185764946091",
       "title": "Moonshot AI、研究支援プログラム「Kimi for Science」を開始",
@@ -281,31 +306,6 @@
       "first_seen": "2026-11-23T23:56:00.697Z",
       "kind": "business",
       "kind_confidence": 0.5
-    },
-    {
-      "id": "1574432066773450772",
-      "title": "Z.ai「GLM-5.4」発表 初のLoop Transformer採用で750Bモデルが2〜3T級の知能を主張",
-      "channel": "glm",
-      "category": "その他",
-      "date": "2026-11-23T14:30:56.252Z",
-      "excerpt": "中国のAI企業Z.ai（Zhipu AI）は2026年11月23日、新フラッグシップモデル「GLM-5.4」を発表しました。パラメータ数を増やさずに既存の層を繰り返し実行する「Loop Transformer」を初めて採用したモデルです。コードを使って動画・…",
-      "lead": "中国のAI企業Z.ai（Zhipu AI）は2026年11月23日、新フラッグシップモデル「GLM-5.4」を発表しました。パラメータ数を増やさずに既存の層を繰り返し実行する「Loop Transformer」を初めて採用したモデルです。コードを使って動画・ゲーム・3D・CADまで扱う「Generalized Coding（汎用コーディング）」の始まりと位置付けています。",
-      "headings": [
-        "層を2回通すLoop Transformer",
-        "効率と提供形態",
-        "評価上の注意点",
-        "今後の展望"
-      ],
-      "source_url": "https://z.ai/blog/glm-5.4",
-      "source_urls": [
-        "https://z.ai/blog/glm-5.4"
-      ],
-      "source_label": "z.ai",
-      "cover": "assets/posts/1574432066773450772.webp",
-      "url": "https://discord.com/channels/1415350002255007784/1418395473290461285/threads/1574432066773450772",
-      "first_seen": "2026-11-23T14:30:56.252Z",
-      "kind": "model",
-      "kind_confidence": 1
     }
   ]
 }

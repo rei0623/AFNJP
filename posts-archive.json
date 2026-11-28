@@ -1,9 +1,34 @@
 {
-  "generated_at": "2026-11-28T02:17:30.539Z",
+  "generated_at": "2026-11-28T03:17:38.808Z",
   "source": "discord-api",
   "guild_id": "1415350002255007784",
-  "count": 618,
+  "count": 619,
   "posts": [
+    {
+      "id": "1576070031853486160",
+      "title": "Cohere、動画検索機能「Video Intelligence」をCompassでプレビュー公開",
+      "channel": "その他",
+      "category": "その他",
+      "date": "2026-11-28T02:59:37.559Z",
+      "excerpt": "Cohereは2026年11月16日、エンタープライズ検索基盤「Compass」の新機能として「Video Intelligence」のプレビュー提供を発表しました。会議録画や研修動画、メディアアーカイブなどから質問に該当する正確な瞬間をタイムスタンプ付きで…",
+      "lead": "Cohereは2026年11月16日、エンタープライズ検索基盤「Compass」の新機能として「Video Intelligence」のプレビュー提供を発表しました。会議録画や研修動画、メディアアーカイブなどから質問に該当する正確な瞬間をタイムスタンプ付きで抽出し、関連文書と同時に検索できる機能です。現在、実運用データで検証を行うデザインパートナーを募集しています。",
+      "headings": [
+        "発話・映像・時系列を統合した動的モーメント検索",
+        "11データセットでの評価結果と競合比較",
+        "企業活用への影響と導入時の留意点",
+        "今後の展望"
+      ],
+      "source_url": "https://cohere.com/blog/video-intelligence-preview",
+      "source_urls": [
+        "https://cohere.com/blog/video-intelligence-preview"
+      ],
+      "source_label": "cohere.com",
+      "cover": "assets/posts/1576070031853486160.webp",
+      "url": "https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1576070031853486160",
+      "first_seen": "2026-11-28T02:59:37.559Z",
+      "kind": "feature",
+      "kind_confidence": 1
+    },
     {
       "id": "1575838185764946091",
       "title": "Moonshot AI、研究支援プログラム「Kimi for Science」を開始",

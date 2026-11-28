@@ -5,8 +5,16 @@
     <link>https://rei0623.github.io/AFNJP/</link>
     <description>海外のAIニュースを、管理人が公式発表やリリースノートなどの一次情報を直接確認して、出典リンク付きで日本語記事にして投稿しているDiscordコミュニティ。</description>
     <language>ja</language>
-    <lastBuildDate>Fri, 27 Nov 2026 11:38:21 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 28 Nov 2026 02:59:37 GMT</lastBuildDate>
     <atom:link href="https://rei0623.github.io/AFNJP/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Cohere、動画検索機能「Video Intelligence」をCompassでプレビュー公開</title>
+      <link>https://discord.com/channels/1415350002255007784/1415356083782029404/threads/1576070031853486160</link>
+      <guid isPermaLink="false">afnjp-1576070031853486160</guid>
+      <pubDate>Sat, 28 Nov 2026 02:59:37 GMT</pubDate>
+      <category>その他</category>
+      <description>Cohereは2026年11月16日、エンタープライズ検索基盤「Compass」の新機能として「Video Intelligence」のプレビュー提供を発表しました。会議録画や研修動画、メディアアーカイブなどから質問に該当する正確な瞬間をタイムスタンプ付きで…</description>
+    </item>
     <item>
       <title>Moonshot AI、研究支援プログラム「Kimi for Science」を開始</title>
       <link>https://discord.com/channels/1415350002255007784/1417459869341978704/threads/1575838185764946091</link>
@@ -94,14 +102,6 @@
       <pubDate>Mon, 23 Nov 2026 23:56:00 GMT</pubDate>
       <category>open-ai</category>
       <description>OpenAIは、米国の小規模事業者に無料で実践的なAI支援を届けるプログラム「OpenWorks」を公開しました。地域ごとに「OpenWorks Partner」と呼ぶ支援者のネットワークをつくり、専属パートナーが1対1で事業者のAI活用を手伝います。現在は…</description>
-    </item>
-    <item>
-      <title>Z.ai「GLM-5.4」発表 初のLoop Transformer採用で750Bモデルが2〜3T級の知能を主張</title>
-      <link>https://discord.com/channels/1415350002255007784/1418395473290461285/threads/1574432066773450772</link>
-      <guid isPermaLink="false">afnjp-1574432066773450772</guid>
-      <pubDate>Mon, 23 Nov 2026 14:30:56 GMT</pubDate>
-      <category>glm</category>
-      <description>中国のAI企業Z.ai（Zhipu AI）は2026年11月23日、新フラッグシップモデル「GLM-5.4」を発表しました。パラメータ数を増やさずに既存の層を繰り返し実行する「Loop Transformer」を初めて採用したモデルです。コードを使って動画・…</description>
     </item>
   </channel>
 </rss>
